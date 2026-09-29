@@ -26,5 +26,5 @@ Mapeamento da evolução da IA em empresas líderes do agro, bioenergia, florest
 |---|---|
 | [docs/proposta/](docs/proposta/) | Escopo contratado (proposta técnica) |
 | [docs/especificacao-acelen/](docs/especificacao-acelen/) | Especificação Técnica GEA, elaborada pela Acelen |
-| [docs/referencias/](docs/referencias/) | Diagnóstico de IA com benchmark — Fundação ABC (apresentado na negociação) |
+| [docs/referencias/](docs/referencias/) | Diagnóstico de IA com benchmark — Fundação ABC (apresentado na negociação); ebook Gatua "TI do Futuro" (2026) |
 | [docs/design-system/](docs/design-system/) | Design system da OagronomIA para todos os documentos |

@@ -7,6 +7,7 @@ Projeto da OagronomIA para a Acelen Energia Renovável: benchmarking do uso de I
 - [docs/proposta/escopo-proposta.md](docs/proposta/escopo-proposta.md) — escopo contratado (proposta sem condições comerciais). É o checklist do que entregar.
 - [docs/especificacao-acelen/](docs/especificacao-acelen/) — Especificação Técnica GEA (03/06/2026), elaborada pela própria Acelen; deu origem à proposta. Requisitos do cliente em caso de dúvida.
 - [docs/referencias/Apresentacao_Diagnostico_IA_com_Benchmark_HUMANIZADA.pdf](docs/referencias/Apresentacao_Diagnostico_IA_com_Benchmark_HUMANIZADA.pdf) — diagnóstico de IA com benchmark feito para a Fundação ABC, apresentado à Acelen na negociação e bem recebido. Referência de linguagem, profundidade e estrutura para os entregáveis.
+- [docs/referencias/Gatua_Meeting_E01_2026_TI-do-Futuro.pdf](docs/referencias/Gatua_Meeting_E01_2026_TI-do-Futuro.pdf) — ebook Gatua "TI do Futuro" (maio/2026): painéis e pesquisa com 84 respondentes do agro. Fonte secundária para Frentes 1 e 3; citar com atribuição, não reproduzir. Detalhes em [docs/referencias/README.md](docs/referencias/README.md).
 - [docs/design-system/OagronomIA-DesignSystem.md](docs/design-system/OagronomIA-DesignSystem.md) — design system da OagronomIA. Fonte única de verdade visual para relatório PowerPoint, Excel, materiais parciais e workshop.
 
 ## Regra de confidencialidade comercial (obrigatória)
