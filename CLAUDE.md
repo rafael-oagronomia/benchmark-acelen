@@ -8,7 +8,15 @@ Projeto da OagronomIA para a Acelen Energia Renovável: benchmarking do uso de I
 - [docs/especificacao-acelen/](docs/especificacao-acelen/) — Especificação Técnica GEA (03/06/2026), elaborada pela própria Acelen; deu origem à proposta. Requisitos do cliente em caso de dúvida.
 - [docs/referencias/Apresentacao_Diagnostico_IA_com_Benchmark_HUMANIZADA.pdf](docs/referencias/Apresentacao_Diagnostico_IA_com_Benchmark_HUMANIZADA.pdf) — diagnóstico de IA com benchmark feito para a Fundação ABC, apresentado à Acelen na negociação e bem recebido. Referência de linguagem, profundidade e estrutura para os entregáveis.
 - [docs/referencias/Gatua_Meeting_E01_2026_TI-do-Futuro.pdf](docs/referencias/Gatua_Meeting_E01_2026_TI-do-Futuro.pdf) — ebook Gatua "TI do Futuro" (maio/2026): painéis e pesquisa com 84 respondentes do agro. Fonte secundária para Frentes 1 e 3; citar com atribuição, não reproduzir. Detalhes em [docs/referencias/README.md](docs/referencias/README.md).
-- [docs/design-system/OagronomIA-DesignSystem.md](docs/design-system/OagronomIA-DesignSystem.md) — design system da OagronomIA. Fonte única de verdade visual para relatório PowerPoint, Excel, materiais parciais e workshop.
+- [docs/design-system/OagronomIA-DesignSystem.md](docs/design-system/OagronomIA-DesignSystem.md) — design system da OagronomIA. Fonte única de verdade visual para relatório PowerPoint, Excel, materiais parciais e workshop. Logo em `docs/design-system/assets/logo-oagronomia-wordmark.png` (fundo preto; sobre `--bg-0` usar `mix-blend-mode: lighten`).
+
+## Gerar PDFs
+
+Documentos em PDF saem de um HTML-fonte (pasta `src/` ao lado do PDF) impresso pelo Chrome headless:
+
+```bash
+"/c/Program Files/Google/Chrome/Application/chrome.exe" --headless=new --disable-gpu --no-pdf-header-footer --virtual-time-budget=15000 --print-to-pdf="<saida.pdf>" "file:///<caminho>/src/<doc>.html"
+```
 
 ## Regra de confidencialidade comercial (obrigatória)
 
