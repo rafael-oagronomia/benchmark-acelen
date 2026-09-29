@@ -19,3 +19,12 @@ Mapeamento da evolução da IA em empresas líderes do agro, bioenergia, florest
 | [05_sessoes-executivas/](05_sessoes-executivas/) | Roteiro e registros anonimizados das conversas | 3 |
 | [06_fontes/](06_fontes/) | Catálogo de fontes públicas e secundárias | 2 |
 | [07_entregaveis/](07_entregaveis/) | Relatório PowerPoint, base Excel, parciais, workshop | 5 |
+
+## Documentos de referência
+
+| Pasta | Conteúdo |
+|---|---|
+| [docs/proposta/](docs/proposta/) | Escopo contratado (proposta técnica) |
+| [docs/especificacao-acelen/](docs/especificacao-acelen/) | Especificação Técnica GEA, elaborada pela Acelen |
+| [docs/referencias/](docs/referencias/) | Diagnóstico de IA com benchmark — Fundação ABC (apresentado na negociação) |
+| [docs/design-system/](docs/design-system/) | Design system da OagronomIA para todos os documentos |
