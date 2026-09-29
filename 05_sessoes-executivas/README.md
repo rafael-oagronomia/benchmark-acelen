@@ -4,6 +4,6 @@
 
 **Confidencialidade:** nomes de executivos e empresas participantes nunca são registrados neste repositório. Use identificadores (`Sessao-01`, `Sessao-02`…) e descrições genéricas de perfil (ex.: "grande grupo sucroenergético").
 
-- [ ] Roteiro semiestruturado → `roteiro.md`
+- [x] Roteiro semiestruturado → [roteiro.md](roteiro.md) (10 perguntas, 5 núcleo)
 - [ ] Sessões realizadas (mínimo 2) → `registros-anonimizados/`
 - [ ] Síntese agregada dos insights por frente
