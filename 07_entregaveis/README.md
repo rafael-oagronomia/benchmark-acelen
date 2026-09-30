@@ -11,7 +11,8 @@ Todos em português, com legenda: Contratante (Acelen Energia Renovável), Nome 
   - painel de empresas, fichas estruturadas, classificação por estágio de maturidade, catálogo de fontes
   - estrutura pronta em `base-dados-benchmark.xlsx` (BIA-ACL-BD-01), gerada a partir das fichas, do catálogo e da régua por `base-dados-excel/src/gerar_base.py`; não editar à mão
 - [ ] **Relatórios parciais** das semanais e material da entrega parcial → `relatorios-parciais/`
-- [ ] **Workshop Executivo** presencial — sede da Acelen, Edifício Rochaverá (SP), 29/09 → `workshop-executivo/`
+- [ ] **Workshop Executivo** presencial — sede da Acelen, Edifício Rochaverá (SP); a proposta previa 29/09, data a confirmar → `workshop-executivo/`
+  - desenho, agenda, dinâmica e roteiro de condução em [desenho-workshop.md](workshop-executivo/desenho-workshop.md) (BIA-ACL-WS-01)
   - resultados das três frentes, framework e posicionamento do mercado (e, em leitura macro, da Acelen)
   - tendências e implicações estratégicas
   - perguntas e respostas, recomendações de próximos passos
