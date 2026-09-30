@@ -9,6 +9,7 @@ Todos em português, com legenda: Contratante (Acelen Energia Renovável), Nome 
   - resumo executivo
 - [ ] **Base de dados em Excel** → `base-dados-excel/`
   - painel de empresas, fichas estruturadas, classificação por estágio de maturidade, catálogo de fontes
+  - estrutura pronta em `base-dados-benchmark.xlsx` (BIA-ACL-BD-01), gerada a partir das fichas, do catálogo e da régua por `base-dados-excel/src/gerar_base.py`; não editar à mão
 - [ ] **Relatórios parciais** das semanais e material da entrega parcial → `relatorios-parciais/`
 - [ ] **Workshop Executivo** presencial — sede da Acelen, Edifício Rochaverá (SP), 29/09 → `workshop-executivo/`
   - resultados das três frentes, framework e posicionamento do mercado (e, em leitura macro, da Acelen)

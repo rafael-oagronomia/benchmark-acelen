@@ -15,7 +15,19 @@ Projeto da OagronomIA para a Acelen Energia Renovável: benchmarking do uso de I
 Documentos em PDF saem de um HTML-fonte (pasta `src/` ao lado do PDF) impresso pelo Chrome headless:
 
 ```bash
+# Windows (Git Bash)
 "/c/Program Files/Google/Chrome/Application/chrome.exe" --headless=new --disable-gpu --no-pdf-header-footer --virtual-time-budget=15000 --print-to-pdf="<saida.pdf>" "file:///<caminho>/src/<doc>.html"
+
+# macOS
+"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless=new --disable-gpu --no-pdf-header-footer --virtual-time-budget=15000 --print-to-pdf="<saida.pdf>" "file://<caminho>/src/<doc>.html"
+```
+
+## Gerar a base Excel
+
+A base (`07_entregaveis/base-dados-excel/`) é gerada a partir das fichas, do catálogo de fontes e da régua. Não edite o `.xlsx` à mão:
+
+```bash
+uv run --with openpyxl --with pyyaml python 07_entregaveis/base-dados-excel/src/gerar_base.py
 ```
 
 ## Regra de confidencialidade comercial (obrigatória)
