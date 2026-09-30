@@ -1,0 +1,326 @@
+[
+ {
+  "secao": "F1 · Valor e ROI da IA (referências globais)",
+  "chave": "01_consultorias-estrategia/McKinsey_2026_state-of-ai-road-to-roi.pdf",
+  "id_ref": "M027",
+  "titulo_ref": "The state of AI in 2026: On the road to ROI"
+ },
+ {
+  "secao": "F1 · Valor e ROI da IA (referências globais)",
+  "chave": "01_consultorias-estrategia/BCG_2025_widening-ai-value-gap.pdf",
+  "id_ref": "M017",
+  "titulo_ref": "The Widening AI Value Gap (Build for the Future 2025)"
+ },
+ {
+  "secao": "F1 · Valor e ROI da IA (referências globais)",
+  "chave": "02_big4-accenture-capgemini/Deloitte_2025_ai-roi-paradox-rising-investment-elusive-returns.pdf",
+  "id_ref": "M062",
+  "titulo_ref": "AI ROI: The paradox of rising investment and elusive returns"
+ },
+ {
+  "secao": "F1 · Valor e ROI da IA (referências globais)",
+  "chave": "01_consultorias-estrategia/Bain_2026_ai-budget-growing-returns-arent.pdf",
+  "id_ref": "M004",
+  "titulo_ref": "Your AI Budget Is Growing. Your Returns Aren't. Here's Why."
+ },
+ {
+  "secao": "F1 · Valor e ROI da IA (referências globais)",
+  "chave": "04_academia-instituicoes/RAND_2024_root-causes-failure-ai-projects.pdf",
+  "id_ref": "M192",
+  "titulo_ref": "The Root Causes of Failure for Artificial Intelligence Projects and How They Can Succeed: "
+ },
+ {
+  "secao": "F1 · Valor e ROI da IA (referências globais)",
+  "chave": "https://www.gartner.com/en/newsroom/press-releases/2025-06-30-gartner-survey-finds-forty-five-percent-of-organizations-with-high-artificial-intelligence-maturity-keep-artificial-intelligence-projects-operational-for-at-least-three-years",
+  "id_ref": "M119",
+  "titulo_ref": "Gartner Survey Finds 45% of Organizations With High AI Maturity Keep AI Projects Operation"
+ },
+ {
+  "secao": "F1 · Valor e ROI da IA (referências globais)",
+  "chave": "https://www.gartner.com/en/newsroom/press-releases/gartner-survey-finds-only-22-percent-of-organizations-have-successfully-scaled-ai-across-multiple-business-units",
+  "id_ref": "M121",
+  "titulo_ref": "Gartner Survey Finds Only 22% of Organizations Have Successfully Scaled AI Across Multiple"
+ },
+ {
+  "secao": "F1 · Valor e ROI da IA (referências globais)",
+  "chave": "03_analistas-big-techs/GoogleCloud-NRG_2026_roi-of-ai-2026-tokenmaxxing-to-roi.pdf",
+  "id_ref": "",
+  "titulo_ref": "GoogleCloud-NRG_2026_roi-of-ai-2026-tokenmaxxing-to-roi.pdf"
+ },
+ {
+  "secao": "F1 · Brasil — adoção e retorno",
+  "chave": "01_consultorias-estrategia/Bain_2026_uso-de-ia-95-empresas-brasil.pdf",
+  "id_ref": "M005",
+  "titulo_ref": "Uso de IA chega a 95% das empresas no Brasil"
+ },
+ {
+  "secao": "F1 · Brasil — adoção e retorno",
+  "chave": "02_big4-accenture-capgemini/PwC-Brasil_2026_ia-na-estrategia-estudo-desempenho-ia.pdf",
+  "id_ref": "M078",
+  "titulo_ref": "IA na estratégia: crescer ou ficar para trás (estudo de desempenho em IA da PwC, edição Br"
+ },
+ {
+  "secao": "F1 · Brasil — adoção e retorno",
+  "chave": "03_analistas-big-techs/AWS-Strand_2026_desbloqueando-potencial-ia-brasil.pdf",
+  "id_ref": "M112",
+  "titulo_ref": "Desbloqueando o Potencial da IA no Brasil – 2026"
+ },
+ {
+  "secao": "F1 · Brasil — adoção e retorno",
+  "chave": "03_analistas-big-techs/IDC-Microsoft_2026_impacto-adocao-ia-brasil.pdf",
+  "id_ref": "M135",
+  "titulo_ref": "Impacto nos Negócios pela Adoção de IA no Brasil (IDC para Microsoft Brasil) – notícia ofi"
+ },
+ {
+  "secao": "F1 · Brasil — adoção e retorno",
+  "chave": "09_outros-setores/TOTVS-H2R_2025_panorama-ia-empresas-brasileiras.pdf",
+  "id_ref": "M493",
+  "titulo_ref": "Panorama IA nas empresas brasileiras"
+ },
+ {
+  "secao": "F1 · Brasil — adoção e retorno",
+  "chave": "01_consultorias-estrategia/MITTRBrasil-Peers-TECInstitute_2026_gerando-valor-com-genai.pdf",
+  "id_ref": "",
+  "titulo_ref": "MITTRBrasil-Peers-TECInstitute_2026_gerando-valor-com-genai.pdf"
+ },
+ {
+  "secao": "F1 · Brasil — adoção e retorno",
+  "chave": "03_analistas-big-techs/IDC-ABES_2026_estrategias-digitais-alta-performance-ia.pdf",
+  "id_ref": "",
+  "titulo_ref": "IDC-ABES_2026_estrategias-digitais-alta-performance-ia.pdf"
+ },
+ {
+  "secao": "F1 · Agro, bioenergia e florestal (Brasil)",
+  "chave": "06_empresas-agro-bioenergia-florestal-br/SLCAgricola_2026_apresentacao-investidores-agosto-roi-agricultura-digital.pdf",
+  "id_ref": "M329",
+  "titulo_ref": "O melhor da agricultura — Apresentação para Investidores (agosto de 2026), seção Tecnologi"
+ },
+ {
+  "secao": "F1 · Agro, bioenergia e florestal (Brasil)",
+  "chave": "06_empresas-agro-bioenergia-florestal-br/SLCAgricola_2024_relatorio-integrado-2023.pdf",
+  "id_ref": "M330",
+  "titulo_ref": "Relatório Integrado 2023"
+ },
+ {
+  "secao": "F1 · Agro, bioenergia e florestal (Brasil)",
+  "chave": "06_empresas-agro-bioenergia-florestal-br/Raizen_2024_release-programa-integra-digitalizacao-supply-chain.pdf",
+  "id_ref": "M325",
+  "titulo_ref": "Com R$ 60 milhões investidos em jornada de digitalização, Raízen supera expectativas em su"
+ },
+ {
+  "secao": "F1 · Agro, bioenergia e florestal (Brasil)",
+  "chave": "06_empresas-agro-bioenergia-florestal-br/Raizen_2023_release-pulse-impacto-40-milhoes-6-anos.pdf",
+  "id_ref": "M326",
+  "titulo_ref": "Pulse gera impacto de R$ 40 milhões à Raízen em 6 anos (release, 16/10/2023)"
+ },
+ {
+  "secao": "F1 · Agro, bioenergia e florestal (Brasil)",
+  "chave": "06_empresas-agro-bioenergia-florestal-br/Tereos_2026_relatorio-sustentabilidade-safra-25-26.pdf",
+  "id_ref": "M337",
+  "titulo_ref": "Relatório de Sustentabilidade – Safra 2025/2026"
+ },
+ {
+  "secao": "F1 · Agro, bioenergia e florestal (Brasil)",
+  "chave": "06_empresas-agro-bioenergia-florestal-br/Klabin_2026_relatorio-sustentabilidade-2025.pdf",
+  "id_ref": "M324",
+  "titulo_ref": "Relatório de Sustentabilidade 2025"
+ },
+ {
+  "secao": "F1 · Agro, bioenergia e florestal (Brasil)",
+  "chave": "02_big4-accenture-capgemini/PwC-Brasil_2026_ceo-survey-destaques-agronegocio.pdf",
+  "id_ref": "M076",
+  "titulo_ref": "29ª CEO Survey — Destaques do Agronegócio no Brasil"
+ },
+ {
+  "secao": "F1 · Agro, bioenergia e florestal (Brasil)",
+  "chave": "02_big4-accenture-capgemini/PwC-FDC_2025_itdbr-destaques-agronegocio.pdf",
+  "id_ref": "M079",
+  "titulo_ref": "Índice de Transformação Digital Brasil (ITDBr) 2025 — Destaques do Agronegócio"
+ },
+ {
+  "secao": "F1 · Agro, bioenergia e florestal (Brasil)",
+  "chave": "01_consultorias-estrategia/McKinsey_2026_global-farmer-insights.pdf",
+  "id_ref": "M020",
+  "titulo_ref": "Global Farmer Insights 2026"
+ },
+ {
+  "secao": "F1 · Agro, bioenergia e florestal (Brasil)",
+  "chave": "01_consultorias-estrategia/BCG_2025_pulse-of-brazilian-farmers.pdf",
+  "id_ref": "M006",
+  "titulo_ref": "The Pulse of Brazilian Farmers"
+ },
+ {
+  "secao": "F1 · Agro, bioenergia e florestal (Brasil)",
+  "chave": "02_big4-accenture-capgemini/EY-Brasil_2026_top10-riscos-oportunidades-agro.pdf",
+  "id_ref": "",
+  "titulo_ref": "EY-Brasil_2026_top10-riscos-oportunidades-agro.pdf"
+ },
+ {
+  "secao": "F1 · Setores maduros (bancos, energia, mineração)",
+  "chave": "08_setor-financeiro/Evident_2026_ai-index-banks-latam-key-findings.pdf",
+  "id_ref": "M428",
+  "titulo_ref": "Evident AI Index | Banks – LATAM: Key Findings Report (July 2026)"
+ },
+ {
+  "secao": "F1 · Setores maduros (bancos, energia, mineração)",
+  "chave": "08_setor-financeiro/FEBRABAN_2026_pesquisa-tecnologia-bancaria-vol2-completa.pdf",
+  "id_ref": "M432",
+  "titulo_ref": "Pesquisa Febraban de Tecnologia Bancária 2026 – Vol. 2 (versão completa), 34ª edição"
+ },
+ {
+  "secao": "F1 · Setores maduros (bancos, energia, mineração)",
+  "chave": "08_setor-financeiro/JPMorganChase_2025_investor-day-apresentacao-completa.pdf",
+  "id_ref": "M437",
+  "titulo_ref": "2025 Investor Day – Full Presentation (19/05/2025)"
+ },
+ {
+  "secao": "F1 · Setores maduros (bancos, energia, mineração)",
+  "chave": "08_setor-financeiro/DBS_2026_annual-report-2025.pdf",
+  "id_ref": "M422",
+  "titulo_ref": "DBS Annual Report 2025"
+ },
+ {
+  "secao": "F1 · Setores maduros (bancos, energia, mineração)",
+  "chave": "08_setor-financeiro/Itau_2026_relatorio-anual-integrado-2025.pdf",
+  "id_ref": "M435",
+  "titulo_ref": "Relatório Anual Integrado 2025"
+ },
+ {
+  "secao": "F1 · Setores maduros (bancos, energia, mineração)",
+  "chave": "09_outros-setores/Equinor_2026_ia-economizou-usd-130-milhoes.pdf",
+  "id_ref": "M485",
+  "titulo_ref": "Use of artificial intelligence saved Equinor USD 130 million in 2025"
+ },
+ {
+  "secao": "F1 · Setores maduros (bancos, energia, mineração)",
+  "chave": "09_outros-setores/Vale_2026_relatorio-pdi-2025.pdf",
+  "id_ref": "M494",
+  "titulo_ref": "Relatório de Pesquisa, Desenvolvimento & Inovação 2025"
+ },
+ {
+  "secao": "F2 · Maturidade e roadmaps",
+  "chave": "04_academia-instituicoes/MIT-CISR_2025_grow-enterprise-ai-maturity-bottom-line.pdf",
+  "id_ref": "M187",
+  "titulo_ref": "Grow Enterprise AI Maturity for Bottom-Line Impact (Research Briefing XXV-8)"
+ },
+ {
+  "secao": "F2 · Maturidade e roadmaps",
+  "chave": "02_big4-accenture-capgemini/Accenture_2022_art-of-ai-maturity.pdf",
+  "id_ref": "M056",
+  "titulo_ref": "The art of AI maturity: Advancing from practice to performance"
+ },
+ {
+  "secao": "F2 · Maturidade e roadmaps",
+  "chave": "03_analistas-big-techs/ServiceNow_2025_enterprise-ai-maturity-index.pdf",
+  "id_ref": "M145",
+  "titulo_ref": "Enterprise AI Maturity Index 2025"
+ },
+ {
+  "secao": "F2 · Maturidade e roadmaps",
+  "chave": "03_analistas-big-techs/Cisco_2025_ai-readiness-index.pdf",
+  "id_ref": "M113",
+  "titulo_ref": "Cisco AI Readiness Index 2025 – Realizing the Value of AI"
+ },
+ {
+  "secao": "F2 · Maturidade e roadmaps",
+  "chave": "04_academia-instituicoes/MITRE_2023_ai-maturity-model-assessment-tool-guide.pdf",
+  "id_ref": "M191",
+  "titulo_ref": "The MITRE AI Maturity Model and Organizational Assessment Tool Guide: A Path to Successful"
+ },
+ {
+  "secao": "F2 · Maturidade e roadmaps",
+  "chave": "02_big4-accenture-capgemini/Accenture_2025_front-runners-guide-scaling-ai.pdf",
+  "id_ref": "M057",
+  "titulo_ref": "The front-runners' guide to scaling AI: Lessons from industry leaders"
+ },
+ {
+  "secao": "F2 · Maturidade e roadmaps",
+  "chave": "01_consultorias-estrategia/RolandBerger_2026_ai-first-organization.pdf",
+  "id_ref": "",
+  "titulo_ref": "RolandBerger_2026_ai-first-organization.pdf"
+ },
+ {
+  "secao": "F3 · Tendências, autonomia e soberania",
+  "chave": "04_academia-instituicoes/Stanford-HAI_2026_ai-index-report.pdf",
+  "id_ref": "M195",
+  "titulo_ref": "Artificial Intelligence Index Report 2026"
+ },
+ {
+  "secao": "F3 · Tendências, autonomia e soberania",
+  "chave": "01_consultorias-estrategia/McKinsey_2026_technology-trends-outlook.pdf",
+  "id_ref": "M018",
+  "titulo_ref": "McKinsey Technology Trends Outlook 2026"
+ },
+ {
+  "secao": "F3 · Tendências, autonomia e soberania",
+  "chave": "01_consultorias-estrategia/BCG_2026_ceos-guide-to-physical-ai.pdf",
+  "id_ref": "M016",
+  "titulo_ref": "The CEO's Guide to Physical AI"
+ },
+ {
+  "secao": "F3 · Tendências, autonomia e soberania",
+  "chave": "https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027",
+  "id_ref": "M118",
+  "titulo_ref": "Gartner Predicts Over 40% of Agentic AI Projects Will Be Canceled by End of 2027"
+ },
+ {
+  "secao": "F3 · Tendências, autonomia e soberania",
+  "chave": "03_analistas-big-techs/IBM-IBV_2026_calculus-of-ai-sovereignty.pdf",
+  "id_ref": "M132",
+  "titulo_ref": "The calculus of AI sovereignty: Balancing control, flexibility, and risk"
+ },
+ {
+  "secao": "F3 · Tendências, autonomia e soberania",
+  "chave": "04_academia-instituicoes/MCTI-CGEE_2025_pbia-plano-brasileiro-ia-versao-final.pdf",
+  "id_ref": "M185",
+  "titulo_ref": "IA para o bem de todos — Plano Brasileiro de Inteligência Artificial (PBIA) 2024-2028, ver"
+ },
+ {
+  "secao": "F3 · Tendências, autonomia e soberania",
+  "chave": "04_academia-instituicoes/Senado-Camara_2025_pl-2338-2023-marco-ia-texto-aprovado-senado.pdf",
+  "id_ref": "M194",
+  "titulo_ref": "Projeto de Lei nº 2.338/2023 — Marco legal da inteligência artificial (texto aprovado pelo"
+ },
+ {
+  "secao": "F3 · Tendências, autonomia e soberania",
+  "chave": "07_agro-global-perenes-autonomia/AgFunder_2026_global-agrifoodtech-investment-report.pdf",
+  "id_ref": "M365",
+  "titulo_ref": "Global AgriFoodTech Investment Report 2026"
+ },
+ {
+  "secao": "F3 · Tendências, autonomia e soberania",
+  "chave": "07_agro-global-perenes-autonomia/JohnDeere_2025_business-impact-report.pdf",
+  "id_ref": "M371",
+  "titulo_ref": "2025 Business Impact Report"
+ },
+ {
+  "secao": "F3 · Tendências, autonomia e soberania",
+  "chave": "07_agro-global-perenes-autonomia/SDGuthrie_2025_integrated-report-2024.pdf",
+  "id_ref": "M380",
+  "titulo_ref": "Integrated Report 2024 – Beyond Boundaries"
+ },
+ {
+  "secao": "F3 · Tendências, autonomia e soberania",
+  "chave": "07_agro-global-perenes-autonomia/MPOB_2025_oil-palm-economic-performance-rd-progress-2024.pdf",
+  "id_ref": "M375",
+  "titulo_ref": "Oil Palm Economic Performance in Malaysia and R&D Progress in 2024"
+ },
+ {
+  "secao": "F3 · Tendências, autonomia e soberania",
+  "chave": "07_agro-global-perenes-autonomia/DJI_2026_agricultural-drone-industry-insight-report.pdf",
+  "id_ref": "M370",
+  "titulo_ref": "Agricultural Drone Industry Insight Report 2025/2026 (edição em português)"
+ },
+ {
+  "secao": "F3 · Tendências, autonomia e soberania",
+  "chave": "07_agro-global-perenes-autonomia/AAEA_2025_viabilidade-colheita-robotica-macas.pdf",
+  "id_ref": "M374",
+  "titulo_ref": "Economic viability of robotic fruit harvesters to reduce large seasonal labor demands: Ana"
+ },
+ {
+  "secao": "F3 · Tendências, autonomia e soberania",
+  "chave": "05_agro-brasil-instituicoes-midia/CNA_2026_estudo-escassez-mao-de-obra-produtividade-agenda-brasil.pdf",
+  "id_ref": "M242",
+  "titulo_ref": "Agenda Brasil – Escassez de mão de obra é desafio no campo (estudo 'Mercado de Trabalho na"
+ }
+]

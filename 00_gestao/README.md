@@ -14,7 +14,15 @@ Reuniões semanais de acompanhamento (remotas, ~45 min) com a Estratégia Agríc
 
 ## Pastas
 
-- `reunioes-semanais/` — pautas, atas e transcrições (`AAAA-MM-DD_semanal.md`)
+- `reunioes/` — todas as reuniões do projeto (kick-off, semanais, entrega parcial, workshop). Um arquivo por reunião e tipo:
+  - `AAAA-MM-DD_<tipo>_transcricao.md` — transcrição em texto (tipo: `kickoff`, `semanal`, `entrega-parcial`, `workshop`);
+  - `AAAA-MM-DD_<tipo>_ata.md` — ata com decisões e próximos passos, quando houver.
+  - `_originais/` — .docx exportado do Teams e gravações. **Fica fora do Git**; quem precisar pede ao Guilherme.
+  - Para converter uma nova transcrição do Teams: `python converter_transcricao.py _originais/ARQUIVO.docx AAAA-MM-DD_tipo_transcricao.md --titulo "..."`. Use `--omitir <tempos>` para retirar trechos sobre pagamento ou condições comerciais, que nunca vão para o repositório.
+
+| Data | Reunião | Arquivos |
+|---|---|---|
+| 29/09/2026 | Kick-off | [transcrição](reunioes/2026-09-29_kickoff_transcricao.md) |
 
 ## Gestão de dados
 

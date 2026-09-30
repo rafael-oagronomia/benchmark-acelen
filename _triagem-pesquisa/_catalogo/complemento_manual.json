@@ -1,0 +1,328 @@
+{
+  "resultados": [
+    {
+      "grupo": "Setor financeiro",
+      "pasta": "08_setor-financeiro",
+      "itens": [
+        {
+          "titulo": "Evident AI Index | Banks – LATAM: Key Findings Report (julho/2026)",
+          "organizacao": "Evident Insights",
+          "ano": "2026",
+          "tipo_fonte": "analista/big tech",
+          "setor": "financeiro",
+          "pais_regiao": "América Latina (20 bancos; líderes brasileiros)",
+          "url": "https://evidentinsights.com/api/payload/file-download/eai-kfr-banks-latam-2607-10",
+          "arquivo": "08_setor-financeiro/Evident_2026_ai-index-banks-latam-key-findings.pdf",
+          "pasta": "08_setor-financeiro",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2"
+          ],
+          "metricas": [
+            "Ranking de maturidade em IA dos bancos da América Latina (jul/2026): 1º Nubank, 2º Itaú Unibanco, 3º Bradesco, 4º Banco do Brasil, 5º Credicorp, 6º Bancolombia, 7º BTG Pactual (p. 9)",
+            "Os 4 primeiros do índice, todos brasileiros, respondem por quase 50% dos casos de uso de IA com resultados divulgados (n = 71 casos) (p. 7)",
+            "Densidade de talentos de IA: 3,8% do quadro nos 2 líderes da América Latina, contra 2,2% na média global (out/2025, n = 50) e 1,7% na média da América Latina (n = 20) (p. 11)",
+            "100% dos 2 líderes da América Latina oferecem programas de treinamento em IA, contra 78% na média global e 80% na média da região (p. 11)"
+          ],
+          "resumo": "Índice de maturidade em IA dos bancos latino-americanos, medido só com dados públicos (talento, inovação, liderança e transparência). Mostra o Brasil no topo da região, a diferença de estratégia entre Nubank (IA voltada ao cliente) e Itaú (IA espalhada pela empresa), que o ROI ainda não chegou ao nível corporativo e que a política de governança de IA está atrás da implementação. Baixado do endpoint oficial de download da Evident (evidentinsights.com/api/payload/file-download/eai-kfr-banks-latam-2607-10).",
+          "relevancia": "alta"
+        }
+      ],
+      "formularios": [],
+      "lacunas": []
+    },
+    {
+      "grupo": "Analistas e big techs",
+      "pasta": "03_analistas-big-techs",
+      "itens": [
+        {
+          "titulo": "ROI of AI 2026: From tokenmaxxing to ROI — a reality check for enterprise AI (relatório)",
+          "organizacao": "Google Cloud / National Research Group",
+          "ano": "2026",
+          "tipo_fonte": "analista/big tech",
+          "setor": "multissetorial",
+          "pais_regiao": "Global (2.403 executivos)",
+          "url": "https://cloud.google.com/resources/content/roi-of-ai-2026",
+          "arquivo": "03_analistas-big-techs/GoogleCloud-NRG_2026_roi-of-ai-2026-tokenmaxxing-to-roi.pdf",
+          "pasta": "03_analistas-big-techs",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "26% das empresas são 'AI ROI Leaders', com retornos financeiros de IA acelerando ano a ano; 58% têm retornos em alta constante; 16% estão estagnadas ou é cedo demais para dizer; menos de 1% em queda (N = 2.403 executivos) (p. 4)",
+            "86% dos executivos concordam que a IA permite escalar receita ou produção sem aumento proporcional dos custos operacionais (N = 2.403) (p. 1)",
+            "Líderes x demais: 48% x 27% têm dono e autoridade de decisão 'extremamente claros' para iniciativas de agentes (N = 2.001); 38% x 18% têm capacitação em IA obrigatória e contínua; 48% x 27% já embutiram a IA em processos centrais ou novos modelos de negócio (p. 4)",
+            "94% dizem que agentes de IA contribuem tanto para redução de custos quanto para crescimento de receita (N = 2.403) (p. 5)",
+            "Como medem o sucesso da IA: 36% por melhorias de desempenho operacional, 21% por resultados financeiros diretos, 18% por KPIs estratégicos, 13% por time-to-value e só 12% têm framework formal de rastreamento de valor com reporte executivo (N = 2.403) (p. 7)",
+            "53% dizem que a IA já causou mudança significativa ou transformacional no modelo operacional (N = 2.403) (p. 7)",
+            "97% planejam aumentar o gasto com IA no próximo ano fiscal, 3% vão manter e menos de 0,1% vão reduzir (N = 2.403) (p. 9)",
+            "Casos: Highmark Health gerou US$ 27,9 mi de valor em 2025 com um assistente de IA; Elanco estima ROI de US$ 1,9 mi com agentes em farmacovigilância e pedidos; Tata Steel implantou mais de 300 agentes de IA em 9 meses (p. 8)"
+          ],
+          "resumo": "Relatório completo do estudo anual de ROI de IA do Google Cloud (2026, 2.403 executivos, 297.782 respostas). Define os 'AI ROI Leaders' e os três comportamentos que os diferenciam: decisões mais rápidas com dono claro, IA embutida em processos centrais e capacitação obrigatória. Traz o placar de como as empresas medem ROI (só 12% têm framework formal de valor) e aponta segurança, compliance e prontidão regulatória como o habilitador nº 1 para escalar IA. Obtido pelo usuário via formulário do Google Cloud.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "What every company can learn from Frontier firms leading the AI revolution (IDC InfoBrief #US53838325)",
+          "organizacao": "IDC (patrocínio Microsoft)",
+          "ano": "2025",
+          "tipo_fonte": "analista/big tech",
+          "setor": "multissetorial",
+          "pais_regiao": "Global (inclui Brasil; empresas com 1.000+ funcionários)",
+          "url": "https://marketingassets.microsoft.com/gdc/gdcflXNT6/original",
+          "arquivo": "03_analistas-big-techs/IDC-Microsoft_2025_frontier-firms-ai-revolution-infobrief.pdf",
+          "pasta": "03_analistas-big-techs",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "ROI médio de 2,8 vezes para usuários de IA generativa, com retorno realizado em 15 meses em média (IDC Business Opportunity of AI Survey, ago/2025; empresas com 1.000+ funcionários, inclui Brasil) (p. 7)",
+            "Usuários de IA agêntica relatam ROI médio de 2,3 vezes, realizado em 13 meses; 37% já usam IA agêntica e outros 25% experimentam (p. 7)",
+            "40% das organizações escalam IA generativa em múltiplas funções (RH, finanças, marketing, supply chain); quase 40% planejam aumentar o gasto com IA em até 19% em 24 meses (p. 6)",
+            "Quase 30% apontam segurança, privacidade, governança e compliance como os principais desafios para escalar IA; mais de 75% consideram a transparência muito ou extremamente importante (p. 7)"
+          ],
+          "resumo": "Edição de nov/2025 do estudo 'Business Opportunity of AI' da IDC, agora centrada nas 'Frontier firms' (empresas na fronteira da maturidade em IA), com três níveis de maturidade, ROI de IA generativa e agêntica, tempo de retorno e barreiras. Útil para F1 e F2. Obtido via formulário da Microsoft em 30/09/2026 (a página entregou esta edição, não a de 2024).",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "The ROI of Gen AI and Agents 2026 (e-book)",
+          "organizacao": "Snowflake / Omdia",
+          "ano": "2026",
+          "tipo_fonte": "analista/big tech",
+          "setor": "multissetorial",
+          "pais_regiao": "Global (2.050 organizações, sem Brasil)",
+          "url": "https://www.snowflake.com/en/lp/radical-roi-generative-ai/",
+          "arquivo": "03_analistas-big-techs/Snowflake-Omdia_2026_roi-of-gen-ai-and-agents.pdf",
+          "pasta": "03_analistas-big-techs",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "92% dos early adopters relatam retorno positivo com IA generativa; entre os que quantificaram, o retorno médio é de 49% (US$ 1,49 por US$ 1 investido), contra 41% na edição anterior (2.050 organizações) (p. 3)",
+            "75% dos C-levels de áreas de negócio relatam ROI positivo e quantificado, contra 70% dos C-levels de tecnologia e 53% de gerentes e especialistas (p. 4)"
+          ],
+          "resumo": "Segunda edição do estudo Snowflake/Omdia sobre ROI de IA generativa e agentes, com recortes por país (10, sem Brasil) e setor (inclui manufatura e serviços financeiros). Contraponto otimista às pesquisas de 'pilotos sem retorno': mede ROI entre early adopters que já investiram na base de dados. Obtido via formulário em 30/09/2026.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "The 2025 Evident AI Index: Key Findings Report (bancos)",
+          "organizacao": "Evident Insights",
+          "ano": "2025",
+          "tipo_fonte": "analista/big tech",
+          "setor": "financeiro",
+          "pais_regiao": "Global (50 bancos)",
+          "url": "https://evidentinsights.com/ai-index/",
+          "arquivo": "08_setor-financeiro/Evident_2025_ai-index-banks-global-key-findings.pdf",
+          "pasta": "08_setor-financeiro",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2"
+          ],
+          "metricas": [
+            "Só 3 dos 50 bancos (BNP Paribas, DBS e JPMorgan) conseguem reportar estimativas de ROI presente e projetado para todos os seus casos de uso de IA; o número de bancos que divulgam o total de casos de uso ativos dobrou em um ano (out/2025 vs. out/2024, n = 50) (p. 5)",
+            "O quadro de talentos de IA dos 50 bancos cresceu 25% em um ano, o maior salto já registrado; os 5 que mais cresceram são americanos: Capital One, JPMorgan, Citi, Bank of America e Wells Fargo (p. 6)",
+            "JPMorgan lidera em pesquisa de IA (34% da produção), Capital One em patentes (35% dos depósitos) e BNP Paribas em ventures (8% do dealflow) (p. 6)"
+          ],
+          "resumo": "Relatório global do Evident AI Index de out/2025 (52 p.): ranking dos 50 maiores bancos em maturidade de IA, com talento, inovação, liderança e transparência. Mostra quão raro é medir ROI de IA de ponta a ponta mesmo entre os bancos mais avançados. Obtido via formulário em 30/09/2026 (newsletter desmarcada).",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Top 10 Riscos e Oportunidades no Agro 2026",
+          "organizacao": "EY Brasil",
+          "ano": "2026",
+          "tipo_fonte": "consultoria",
+          "setor": "agro",
+          "pais_regiao": "Brasil",
+          "url": "https://www.ey.com/pt_br/cea/top-10-riscos-e-oportunidades-no-agro",
+          "arquivo": "02_big4-accenture-capgemini/EY-Brasil_2026_top10-riscos-oportunidades-agro.pdf",
+          "pasta": "02_big4-accenture-capgemini",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "56% dos respondentes em posições C-level, lideranças de antes, dentro e depois da porteira no Brasil (p. 2)",
+            "A edição 2026 ranqueia os temas pela diferença entre impacto e prontidão; 'Tecnologia, transformação digital e inovação' é o 5º tema e 'Atração, desenvolvimento e retenção de pessoas' subiu de 8º (2022) para 2º (p. 3, 7, 13)",
+            "79% avaliam os riscos climáticos como altos ou muito altos, o tema em que o setor se sente menos preparado (p. 5)",
+            "O agro atingiu 28,2 milhões de trabalhadores em 2024, e a mão de obra representa entre 20% e 40% do custo total de produção agrícola (p. 7)",
+            "1.972 agtechs mapeadas no Brasil em 2024, crescimento de 75% sobre 2019 (Radar Agtech, citado) (p. 13)"
+          ],
+          "resumo": "Pesquisa da EY com lideranças do agro brasileiro que mede a distância entre impacto e prontidão em 10 temas. No capítulo de tecnologia, conclui que IA, sensores e agtechs já entregam valor, mas conectividade, dados e capacitação são o gargalo e comprometem o ROI; no de pessoas, liga a escassez de profissionais preparados à dificuldade de escalar a tecnologia. Obtido pelo usuário via formulário.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "The AI-First Organization: Turning AI power into enterprise performance (estudo completo)",
+          "organizacao": "Roland Berger",
+          "ano": "2026",
+          "tipo_fonte": "consultoria",
+          "setor": "multissetorial",
+          "pais_regiao": "Global (472 executivos)",
+          "url": "https://www.rolandberger.com/en/Insights/Publications/The-AI-First-Organization.html",
+          "arquivo": "01_consultorias-estrategia/RolandBerger_2026_ai-first-organization.pdf",
+          "pasta": "01_consultorias-estrategia",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "62% esperam mudanças grandes ou radicais no modelo operacional por causa da IA, mas só 38% começaram a mudá-lo; 59% consideram a liderança despreparada (472 executivos, fim de 2025 e início de 2026) (p. 2, 6)",
+            "59% dizem que a governança de dados é insuficiente; empresas líderes em IA têm 3,7 vezes mais chance de operar uma plataforma tecnológica compartilhada (p. 14)",
+            "Líderes em IA operam com mais frequência com hierarquias achatadas (46% x 36% dos retardatários) e baixa complexidade organizacional (23% x 18%) (p. 19)",
+            "Líderes podem superar retardatários em produtividade por um fator de 2 a 3, levando a organizações menores, mais achatadas e enxutas (p. 10)"
+          ],
+          "resumo": "Estudo de jul/2026 que atribui o fracasso das transformações com IA ao modelo operacional intocado, não à tecnologia. Propõe nove mudanças em três camadas (fundação: governança, plataforma unificada e capacidade distribuída; execução: decisão por dados, processos reorganizados por resultado e nova liderança para força de trabalho híbrida IA-humano; escala: metas ousadas, estrutura mais enxuta e cultura AI-first). Muito útil para F2 (capacidades e dependências) e para mudanças organizacionais em F3. Obtido pelo usuário via formulário.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Estratégias Digitais em Alta Performance: os vetores tecnológicos impulsionados pela IA (IDC para ABES)",
+          "organizacao": "IDC / ABES",
+          "ano": "2026",
+          "tipo_fonte": "analista/big tech",
+          "setor": "multissetorial",
+          "pais_regiao": "Brasil (107 empresas com 100+ funcionários)",
+          "url": "https://abes.org.br/ia-impulsiona-nova-corrida-tecnologica-nas-empresas-brasileiras-aponta-estudo-inedito-da-abes/",
+          "arquivo": "03_analistas-big-techs/IDC-ABES_2026_estrategias-digitais-alta-performance-ia.pdf",
+          "pasta": "03_analistas-big-techs",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "95% das empresas brasileiras já usam IA na operação e 86% usam IA generativa no dia a dia (107 decisores de TI, abr/2026) (p. 16, 17)",
+            "69% já investem significativamente em IA generativa com plano de gastos definido; 23% estão em testes e provas de conceito sem plano; 7% só listam casos de uso (p. 21)",
+            "Dados: 48% têm um ativo bem estruturado e governado, 49% parcialmente estruturado com lacunas e 3% têm gargalo significativo para IA (p. 22)",
+            "Só 44% se sentem prontos hoje para aproveitar ao máximo IA, GenAI e agentes; quase 90% esperam estar prontos em 4 anos (p. 25)",
+            "Principal barreira: falta de pessoal qualificado especializado (50%) (p. 27)",
+            "55% já trouxeram cargas de volta da nuvem pública; o principal motivo é segurança ou soberania de dados (37,3%) (p. 33)"
+          ],
+          "resumo": "Estudo IDC para a ABES com decisores de TI de empresas brasileiras (abr/2026): IA como vetor que organiza as decisões de nuvem, dados e cibersegurança. Dá a régua de estágio de IA generativa (casos de uso, testes, investimento com plano) e mostra dados e talento como os gargalos da escala, além de repatriação de cargas por soberania de dados. Útil para F1 Brasil, F2 e F3. Obtido pelo usuário via formulário.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Gerando valor com GenAI — Do piloto ao resultado: a rentabilidade da IA (2ª edição)",
+          "organizacao": "MIT Technology Review Brasil, TEC.Institute e Peers Consulting + Technology",
+          "ano": "2026",
+          "tipo_fonte": "consultoria",
+          "setor": "multissetorial (aprofundamento em serviços financeiros)",
+          "pais_regiao": "Brasil (138 respondentes, 12 setores)",
+          "url": "https://mittechreview.com.br/",
+          "arquivo": "01_consultorias-estrategia/MITTRBrasil-Peers-TECInstitute_2026_gerando-valor-com-genai.pdf",
+          "pasta": "01_consultorias-estrategia",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "Curva de captura de valor por tempo de adoção de IA generativa — superaram as expectativas financeiras: 35,1% (até 6 meses), 23,3% (6 a 12 meses), 13,3% (12 a 24 meses) e 39,0% (mais de 24 meses); abaixo do esperado: 2,7%, 16,7%, 30,0% e 14,6% (138 respondentes, 12 setores) (p. 14-15)",
+            "Segmentação por maturidade: Líderes 40,7% (alinham governança, mensuração e retorno), Disciplinados sem tração 19,4%, Tração sem disciplina 12,3% e Incipientes 27,6% (sem mecanismos para medir retorno) (p. 19)",
+            "Serviços financeiros: 72,7% dos bancos superaram o business case inicial de IA generativa, contra 27,3% em meios de pagamento e 25,0% em seguros (p. 18)",
+            "Casos: o assistente do Mercado Pago resolveu mais de 82% de mais de 9 milhões de conversas sem interação humana; o Mercado Livre tem uma comunidade de cerca de 500 AI Champions (p. 10, 12)"
+          ],
+          "resumo": "Segunda edição da pesquisa brasileira sobre IA generativa nas empresas: mostra o 'vale da escala' entre 12 e 24 meses, quando a IA sai dos pilotos e passa a exigir integração de processos, governança e mensuração, e a retomada depois de 24 meses. Traz uma segmentação de maturidade útil para F2 e depoimentos de Mercado Livre, Porto, Serasa Experian e CNP Seguros, com aprofundamento em 18 entrevistas no setor financeiro. Obtido pelo usuário; URL de origem não informada (registrado o site da publicação).",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Distrito AI Adoption Framework 2026 (infográfico completo)",
+          "organizacao": "Distrito (AI Factory)",
+          "ano": "2026",
+          "tipo_fonte": "consultoria",
+          "setor": "multissetorial",
+          "pais_regiao": "Brasil",
+          "url": "https://ai-framework.distrito.me/",
+          "arquivo": "01_consultorias-estrategia/Distrito_2026_ai-adoption-framework.pdf",
+          "pasta": "01_consultorias-estrategia",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [],
+          "resumo": "Framework brasileiro de adoção de IA em 6 etapas, numa página: (1) mapeamento de dores em matriz maturidade do processo × intensidade da dor; (2) oportunidades de IA avaliadas por dados, risco, natureza da tarefa, valor de negócio e integração com TI; (3) escolha entre quatro famílias de solução (automação de processos, assistência cognitiva, inteligência preditiva, IA generativa e estratégica); (4) priorização por valor, viabilidade, complexidade e aplicabilidade; (5) esteira de estratégia e discovery, MVP e deployment em escala; (6) governança com FinOps de IA, TRiSM, observabilidade, avaliação de qualidade, ModelOps, gestão de terceiros e governança do conhecimento. Sem métricas; útil como referência de roadmap e de componentes de governança para F2. Material de divulgação comercial da AI Factory do Distrito. Obtido pelo usuário via formulário.",
+          "relevancia": "media"
+        }
+      ],
+      "formularios": [],
+      "lacunas": []
+    },
+    {
+      "grupo": "Agro Brasil: instituições e mídia",
+      "pasta": "05_agro-brasil-instituicoes-midia",
+      "itens": [
+        {
+          "titulo": "IA no Agro 2024 — Radar Distrito",
+          "organizacao": "Distrito",
+          "ano": "2024",
+          "tipo_fonte": "consultoria",
+          "setor": "agro",
+          "pais_regiao": "Brasil e América Latina",
+          "url": "https://materiais.distrito.me/report/agro-ia",
+          "arquivo": "05_agro-brasil-instituicoes-midia/Distrito_2024_ia-no-agro-radar.pdf",
+          "pasta": "05_agro-brasil-instituicoes-midia",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "Mais de US$ 220 milhões investidos em startups de IA do agro na América Latina em 40 rodadas (2018-2023); pico de US$ 117,2 mi em 2022 (11 rodadas) e US$ 5,8 mi em 2023 (p. 7)",
+            "O volume se concentra em estágios avançados: Série B com US$ 80,9 mi (2 rodadas) e private equity com US$ 80,0 mi (2 rodadas), contra US$ 16,5 mi em seed (23 rodadas) (p. 7)",
+            "Mercado global de IA no agro projetado de US$ 1,7 bi (2023) para US$ 4,7 bi (2028), segundo a MarketsandMarkets (citado) (p. 8)",
+            "Mais de 70% dos estabelecimentos rurais no Brasil não têm acesso à internet ou não usam ferramentas digitais (IBGE, citado) (p. 8-9)"
+          ],
+          "resumo": "Relatório brasileiro do Distrito sobre IA no agro: contexto de investimento em startups de IA do agro na América Latina, desafios de adoção no campo (conectividade, dados, hardware, gêmeos digitais, aceitação e riscos) e impactos por área (cultivo e saúde das culturas, equipamentos automatizados, eficiência e sustentabilidade), com cases e entrevistas de John Deere, Solinftec e outros. PDF em imagem; números conferidos visualmente. Obtido pelo usuário via formulário (o envio autoriza comunicações do Distrito e patrocinadores).",
+          "relevancia": "media"
+        }
+      ],
+      "formularios": [],
+      "lacunas": []
+    }
+  ],
+  "acessos_obtidos": [
+    "https://cloud.google.com/resources/content/roi-of-ai-2026",
+    "https://evidentinsights.com/ai-index/",
+    "https://www.snowflake.com/en/lp/radical-roi-generative-ai/#form",
+    "https://info.ey.com/ey-top-10-riscos-e-oportunidades-do-agro.html",
+    "https://www.rolandberger.com/en/Insights/Publications/The-AI-First-Organization.html#download",
+    "https://abes.org.br/lp-estudo-estrategias-digitais-em-alta-performance/",
+    "https://ai-framework.distrito.me/"
+  ],
+  "acessos_status": {
+    "https://info.microsoft.com/ww-landing-business-opportunity-of-ai.html": [
+      "já obtido",
+      "Formulário enviado em 30/09/2026: a página agora entrega o InfoBrief de nov/2025 ('What every company can learn from Frontier firms'), catalogado em 03_analistas-big-techs."
+    ],
+    "https://docs.google.com/forms/d/e/1FAIpQLSc8rU8OpQWU44gYDeZyINUZjBFwu--1uTbxixK_PRSVrfaH8Q/viewform": [
+      "solicitado",
+      "Formulário enviado em 30/09/2026 (nome, instituição e e-mail). A liberação é feita pelo grupo do MIT: aguarde o e-mail com o acesso."
+    ],
+    "https://materiais.distrito.me/report/agro-ia": [
+      "já obtido",
+      "Obtido pelo usuário em 30/09/2026."
+    ],
+    "https://www.pwc.com.br/pt/consultoria/agtech-innovation/agtech-innovation-news/report-novos-paradigmas-para-a-inovacao-no-agro/formulario-versao-completa.html": [
+      "pedir manualmente",
+      "Não enviado: ao enviar, você passa a receber informações da PwC (o cancelamento é por e-mail depois). Conteúdo qualitativo de 2024, menor prioridade."
+    ]
+  },
+  "verificacao_manual": {
+    "04_academia-instituicoes/ParlamentoEuropeu-EPRS_2026_digital-omnibus-ai-act-adocao.pdf": "conferido manualmente — o documento usa datas por extenso em inglês (ex.: 2 December 2027)",
+    "07_agro-global-perenes-autonomia/DJI_2023_agricultural-drone-industry-insight-report-2023.pdf": "conferido manualmente — PDF em imagem; números confirmados visualmente nas p. 5-6 do PDF",
+    "05_agro-brasil-instituicoes-midia/Distrito_2024_ia-no-agro-radar.pdf": "conferido manualmente — PDF em imagem; números confirmados visualmente nas p. 7-9"
+  }
+}

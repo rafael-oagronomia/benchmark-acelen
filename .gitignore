@@ -8,3 +8,34 @@
 Thumbs.db
 
 desktop.ini
+
+# Repositório leve: arquivos brutos ficam fora do Git (quem precisar pede ao Guilherme)
+
+# Material de pesquisa: versionar só os índices, os JSONs de entrada do catálogo e o código.
+# PDFs baixados, fontes da Acelen e resultados do Perplexity ficam só na máquina local.
+_triagem-pesquisa/*
+!_triagem-pesquisa/LEIA-ME.md
+!_triagem-pesquisa/ACESSO-MANUAL.md
+!_triagem-pesquisa/CATALOGO.xlsx
+!_triagem-pesquisa/_ferramentas/
+_triagem-pesquisa/_ferramentas/*
+!_triagem-pesquisa/_ferramentas/*.py
+!_triagem-pesquisa/_catalogo/
+_triagem-pesquisa/_catalogo/*
+!_triagem-pesquisa/_catalogo/rodada1.json
+!_triagem-pesquisa/_catalogo/rodada2.json
+!_triagem-pesquisa/_catalogo/complemento_manual.json
+!_triagem-pesquisa/_catalogo/destaques.json
+
+# Reuniões: versionar só a transcrição/ata em .md; originais e gravações ficam fora
+00_gestao/reunioes/_originais/
+*.mp4
+*.m4a
+*.mp3
+*.wav
+*.webm
+*.mov
+*.mkv
+
+# Rascunhos do navegador automatizado (Playwright)
+.playwright-mcp/

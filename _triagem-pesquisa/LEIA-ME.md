@@ -1,0 +1,2828 @@
+# Material de pesquisa — triagem
+
+Material público levantado para o benchmark. Só este índice, a planilha e a lista de acesso manual vão para o Git: os PDFs ficam na máquina do Guilherme — quem precisar de um arquivo pede a ele.
+Planilha completa com filtros: [CATALOGO.xlsx](CATALOGO.xlsx). Materiais que dependem de formulário: [ACESSO-MANUAL.md](ACESSO-MANUAL.md).
+
+**529 itens** · 410 PDFs baixados · 102 páginas web · 17 com acesso restrito
+
+## Comece por aqui
+
+Seleção dos documentos mais fortes para cada frente. A lista completa vem logo abaixo, por pasta.
+
+### F1 · Valor e ROI da IA (referências globais)
+
+- **M028 · McKinsey & Company (QuantumBlack) (2026)** — The state of AI in 2026: On the road to ROI · [PDF](01_consultorias-estrategia/McKinsey_2026_state-of-ai-road-to-roi.pdf)
+  - 37% atribuem algum impacto no EBIT ao uso de IA, praticamente igual a 2025 (Global Survey, 1.719 respondentes, mai-jun/2026) (p. 3, 12)
+- **M017 · Boston Consulting Group (BCG) (2025)** — The Widening AI Value Gap (Build for the Future 2025) · [PDF](01_consultorias-estrategia/BCG_2025_widening-ai-value-gap.pdf)
+  - Só 5% das empresas (future-built) geram valor de IA em escala; 60% não obtêm valor material; 35% estão escalando (1.250 empresas, 2025) (p. 3)
+- **M064 · Deloitte (Reino Unido/Global) (2025)** — AI ROI: The paradox of rising investment and elusive returns · [PDF](02_big4-accenture-capgemini/Deloitte_2025_ai-roi-paradox-rising-investment-elusive-returns.pdf)
+  - Em 10% das organizações o CEO é o principal líder da agenda de IA (1.854 executivos na Europa e no Oriente Médio, ago-set/2025) (p. 1, 17)
+- **M004 · Bain & Company (2026)** — Your AI Budget Is Growing. Your Returns Aren't. Here's Why. · [PDF](01_consultorias-estrategia/Bain_2026_ai-budget-growing-returns-arent.pdf)
+  - Quase 40% das empresas que mediram as economias com IA ficaram na faixa de 0–10%, embora 37% mirassem 11–20% – Bain Automation and AI Pathfinder Survey 2026 (n=951) (p. 2–3)
+- **M195 · RAND Corporation (2024)** — The Root Causes of Failure for Artificial Intelligence Projects and How They Can Succeed: Avoiding the Anti-Patterns of AI · [PDF](04_academia-instituicoes/RAND_2024_root-causes-failure-ai-projects.pdf)
+  - Mais de 80% dos projetos de IA falham, o dobro da taxa de projetos de TI sem IA (estimativas citadas) (p. 1)
+- **M121 · Gartner (2025)** — Gartner Survey Finds 45% of Organizations With High AI Maturity Keep AI Projects Operational for at Least Three Years · [link](https://www.gartner.com/en/newsroom/press-releases/2025-06-30-gartner-survey-finds-forty-five-percent-of-organizations-with-high-artificial-intelligence-maturity-keep-artificial-intelligence-projects-operational-for-at-least-three-years)
+  - 45% das organizações de alta maturidade mantêm projetos de IA em produção por 3 anos ou mais, contra 20% nas de baixa maturidade (432 respondentes, 4º tri/2024) (página oficial)
+- **M123 · Gartner (2026)** — Gartner Survey Finds Only 22% of Organizations Have Successfully Scaled AI Across Multiple Business Units · [link](https://www.gartner.com/en/newsroom/press-releases/gartner-survey-finds-only-22-percent-of-organizations-have-successfully-scaled-ai-across-multiple-business-units)
+  - 22% das organizações escalaram IA em múltiplas unidades de negócio ou adotaram abordagem AI-first (1.303 respondentes, receita ≥US$ 50 mi, jan–abr/2026) (página oficial)
+- **M128 · Google Cloud / National Research Group (2026)** — ROI of AI 2026: From tokenmaxxing to ROI — a reality check for enterprise AI (relatório) · [PDF](03_analistas-big-techs/GoogleCloud-NRG_2026_roi-of-ai-2026-tokenmaxxing-to-roi.pdf)
+  - 26% das empresas são 'AI ROI Leaders', com retornos financeiros de IA acelerando ano a ano; 58% têm retornos em alta constante; 16% estão estagnadas ou é cedo demais para dizer; menos de 1% em queda (N = 2.403 executivos) (p. 4)
+
+### F1 · Brasil — adoção e retorno
+
+- **M005 · Bain & Company (Brasil) (2026)** — Uso de IA chega a 95% das empresas no Brasil · [PDF](01_consultorias-estrategia/Bain_2026_uso-de-ia-95-empresas-brasil.pdf)
+  - 95% das empresas brasileiras usam IA (+21 p.p. vs. 2024); ~40% escalaram ao menos um caso de uso; 62% relatam impacto financeiro direto (140 empresas com receita de R$ 40 mi a >R$ 10 bi, jul/2026) (p. 2)
+- **M080 · PwC Brasil (2026)** — IA na estratégia: crescer ou ficar para trás (estudo de desempenho em IA da PwC, edição Brasil) · [PDF](02_big4-accenture-capgemini/PwC-Brasil_2026_ia-na-estrategia-estudo-desempenho-ia.pdf)
+  - 20% das 1.217 empresas pesquisadas capturam 74% dos retornos gerados pela IA (p. 3)
+- **M114 · AWS / Strand Partners (2026)** — Desbloqueando o Potencial da IA no Brasil – 2026 · [PDF](03_analistas-big-techs/AWS-Strand_2026_desbloqueando-potencial-ia-brasil.pdf)
+  - 50% das empresas brasileiras usam IA (40% em 2025), ≈12 milhões; mais de 2,75 milhões adotaram em 12 meses (p. 1–2)
+- **M137 · IDC (comissionado pela Microsoft Brasil) (2026)** — Impacto nos Negócios pela Adoção de IA no Brasil (IDC para Microsoft Brasil) – notícia oficial · [PDF](03_analistas-big-techs/IDC-Microsoft_2026_impacto-adocao-ia-brasil.pdf)
+  - 73 C-levels de empresas brasileiras com mais de 1.000 funcionários (2026) (p. 3)
+- **M495 · TOTVS (execução H2R Insights & Trends) (2025)** — Panorama IA nas empresas brasileiras · [PDF](09_outros-setores/TOTVS-H2R_2025_panorama-ia-empresas-brasileiras.pdf)
+  - 50% das empresas brasileiras usam IA nas rotinas de trabalho, mas só 7% calculam o ROI das soluções de IA (194 entrevistas CATI, abr–mai/2025, margem de ±7 p.p.) (p. 3, 9)
+- **M018 · MIT Technology Review Brasil, TEC.Institute e Peers Consulting + Technology (2026)** — Gerando valor com GenAI — Do piloto ao resultado: a rentabilidade da IA (2ª edição) · [PDF](01_consultorias-estrategia/MITTRBrasil-Peers-TECInstitute_2026_gerando-valor-com-genai.pdf)
+  - Curva de captura de valor por tempo de adoção de IA generativa — superaram as expectativas financeiras: 35,1% (até 6 meses), 23,3% (6 a 12 meses), 13,3% (12 a 24 meses) e 39,0% (mais de 24 meses); abaixo do esperado: 2,7%, 16,7%, 30,0% e 14,6% (138 respondentes, 12 setores) (p. 14-15)
+- **M141 · IDC / ABES (2026)** — Estratégias Digitais em Alta Performance: os vetores tecnológicos impulsionados pela IA (IDC para ABES) · [PDF](03_analistas-big-techs/IDC-ABES_2026_estrategias-digitais-alta-performance-ia.pdf)
+  - 95% das empresas brasileiras já usam IA na operação e 86% usam IA generativa no dia a dia (107 decisores de TI, abr/2026) (p. 16, 17)
+
+### F1 · Agro, bioenergia e florestal (Brasil)
+
+- **M331 · SLC Agrícola (2026)** — O melhor da agricultura — Apresentação para Investidores (agosto de 2026), seção Tecnologia e Inovação · [PDF](06_empresas-agro-bioenergia-florestal-br/SLCAgricola_2026_apresentacao-investidores-agosto-roi-agricultura-digital.pdf)
+  - R$ 12,50 de retorno líquido para cada R$ 1 investido em agricultura digital (ROI implícito; fonte citada: Formulário de Referência; 2026) (p. 89)
+- **M332 · SLC Agrícola (2024 (ref. 2023))** — Relatório Integrado 2023 · [PDF](06_empresas-agro-bioenergia-florestal-br/SLCAgricola_2024_relatorio-integrado-2023.pdf)
+  - R$ 82 mi economizados com aplicação localizada de defensivos na safra 2022/23, contra R$ 35 mi em 2021/22 (+123%); intenção de mais de R$ 90 mi em 2023/24 (p. 69)
+- **M327 · Raízen (2024)** — Com R$ 60 milhões investidos em jornada de digitalização, Raízen supera expectativas em supply chain (release, 08/04/2024) · [PDF](06_empresas-agro-bioenergia-florestal-br/Raizen_2024_release-programa-integra-digitalizacao-supply-chain.pdf)
+  - R$ 60 mi investidos no programa Integra (IA e analytics, com apoio do BCG), com meta de mais de R$ 250 mi de redução de custos e economia em supply chain até 2025, que 'o ritmo atual indica' que será atingida antes do prazo (2024) (p. 1)
+- **M328 · Raízen (2023)** — Pulse gera impacto de R$ 40 milhões à Raízen em 6 anos (release, 16/10/2023) · [PDF](06_empresas-agro-bioenergia-florestal-br/Raizen_2023_release-pulse-impacto-40-milhoes-6-anos.pdf)
+  - R$ 40 mi de impacto financeiro em 6 anos do hub Pulse, sendo R$ 5 mi na safra 2022/23 (p. 1)
+- **M339 · Tereos (Brasil) (2026 (ref. safra 2025/26))** — Relatório de Sustentabilidade – Safra 2025/2026 · [PDF](06_empresas-agro-bioenergia-florestal-br/Tereos_2026_relatorio-sustentabilidade-safra-25-26.pdf)
+  - Investimentos em TI quase 5 vezes maiores nos últimos cinco anos (até a safra 2025/26) (p. 40)
+- **M326 · Klabin (2026 (ref. 2025))** — Relatório de Sustentabilidade 2025 · [PDF](06_empresas-agro-bioenergia-florestal-br/Klabin_2026_relatorio-sustentabilidade-2025.pdf)
+  - Mais de 300 demandas de IA avaliadas pelo IA Office, com 18 selecionadas para desenvolvimento (~6%) (2025) (p. 65)
+- **M078 · PwC Brasil (2026)** — 29ª CEO Survey — Destaques do Agronegócio no Brasil · [PDF](02_big4-accenture-capgemini/PwC-Brasil_2026_ceo-survey-destaques-agronegocio.pdf)
+  - 33% dos CEOs do agro brasileiro relatam aumento de receita atribuído à IA; 58% pouca ou nenhuma alteração; 5% redução (coleta set–nov/2025) (p. 4, 8-9)
+- **M081 · PwC Brasil e Fundação Dom Cabral (FDC) (2026)** — Índice de Transformação Digital Brasil (ITDBr) 2025 — Destaques do Agronegócio · [PDF](02_big4-accenture-capgemini/PwC-FDC_2025_itdbr-destaques-agronegocio.pdf)
+  - 3,6 é o índice de maturidade digital do agronegócio em 2025, contra 3,1 em 2024, igual à média de todas as indústrias (escala 1–6, ITDBr 2025) (p. 12)
+- **M021 · McKinsey & Company (Agriculture Practice) (2026)** — Global Farmer Insights 2026 · [PDF](01_consultorias-estrategia/McKinsey_2026_global-farmer-insights.pdf)
+  - 17% dos produtores usam IA generativa em tarefas da fazenda e só 4% pagam por ferramentas (5.500 produtores, 10 países, abr-jul/2026) (p. 26)
+- **M006 · Boston Consulting Group (BCG Brasil) (2025)** — The Pulse of Brazilian Farmers · [PDF](01_consultorias-estrategia/BCG_2025_pulse-of-brazilian-farmers.pdf)
+  - Só 18% dos produtores se consideram early adopters de tecnologia; 62% se veem na 'maioria inicial' (1.350+ produtores, 15+ estados, 2025) (p. 22)
+- **M069 · EY Brasil (2026)** — Top 10 Riscos e Oportunidades no Agro 2026 · [PDF](02_big4-accenture-capgemini/EY-Brasil_2026_top10-riscos-oportunidades-agro.pdf)
+  - 56% dos respondentes em posições C-level, lideranças de antes, dentro e depois da porteira no Brasil (p. 2)
+
+### F1 · Setores maduros (bancos, energia, mineração)
+
+- **M430 · Evident Insights (2026)** — Evident AI Index | Banks – LATAM: Key Findings Report (July 2026) · [PDF](08_setor-financeiro/Evident_2026_ai-index-banks-latam-key-findings.pdf)
+  - Ranking LATAM de maturidade em IA (20 bancos, jul/2026): 1º Nubank, 2º Itaú Unibanco, 3º Bradesco, 4º Banco do Brasil e 5º Credicorp; BTG Pactual em 7º e Caixa em 12º (p. 9)
+- **M434 · FEBRABAN (execução Deloitte) (2026)** — Pesquisa Febraban de Tecnologia Bancária 2026 – Vol. 2 (versão completa), 34ª edição · [PDF](08_setor-financeiro/FEBRABAN_2026_pesquisa-tecnologia-bancaria-vol2-completa.pdf)
+  - R$ 50,4 bilhões de orçamento total de tecnologia dos bancos previsto para 2026, ante R$ 46,8 bi em 2025; alta de 58% em cinco anos (p. 2 e 6)
+- **M439 · JPMorganChase (2025)** — 2025 Investor Day – Full Presentation (19/05/2025) · [PDF](08_setor-financeiro/JPMorganChase_2025_investor-day-apresentacao-completa.pdf)
+  - Valor gerado por IA/ML no varejo (CCB): +35% em 2024 sobre 2023 e +65% previsto para 2025, com fatia crescente de receita (crédito, precificação, marketing, personalização) além de eficiência em custo e risco (fraude, risco, operações, código) (p. 47)
+- **M424 · DBS Group Holdings (2026)** — DBS Annual Report 2025 · [PDF](08_setor-financeiro/DBS_2026_annual-report-2025.pdf)
+  - Cerca de S$ 1 bilhão de valor econômico gerado por analytics e IA/ML em 2025, com mais de 2.000 modelos em mais de 430 casos de uso (p. 5, 9, 11 e 12)
+- **M437 · Itaú Unibanco Holding (2026)** — Relatório Anual Integrado 2025 · [PDF](08_setor-financeiro/Itau_2026_relatorio-anual-integrado-2025.pdf)
+  - Mais de 760 iniciativas de IA generativa em desenvolvimento, das quais mais de 150 já em produção (2025) (p. 16)
+- **M487 · Equinor (2026)** — Use of artificial intelligence saved Equinor USD 130 million in 2025 · [PDF](09_outros-setores/Equinor_2026_ia-economizou-usd-130-milhoes.pdf)
+  - O valor vem sobretudo de machine learning tradicional sobre dados operacionais; os funcionários também usam copilotos, chatbots e IA agêntica (p. 3)
+- **M496 · Vale (2026)** — Relatório de Pesquisa, Desenvolvimento & Inovação 2025 · [PDF](09_outros-setores/Vale_2026_relatorio-pdi-2025.pdf)
+  - Mais de 45 produtos de IA desenvolvidos e aplicados ao longo da cadeia de valor, com quatro centros dedicados (Vitória, Belém, Rio de Janeiro e Nova Lima) (2025) (p. 32)
+
+### F2 · Maturidade e roadmaps
+
+- **M190 · MIT CISR (Woerner, Sebastian, Weill, Káganer) (2025)** — Grow Enterprise AI Maturity for Bottom-Line Impact (Research Briefing XXV-8) · [PDF](04_academia-instituicoes/MIT-CISR_2025_grow-enterprise-ai-maturity-bottom-line.pdf)
+  - 13% / 23% / 46% / 18% das empresas nos estágios 1 a 4 de maturidade em IA em 2025, contra 28% / 34% / 31% / 7% em 2022 (N=152 em 2025; N=721 em 2022) (p. 9)
+- **M058 · Accenture (2022)** — The art of AI maturity: Advancing from practice to performance · [PDF](02_big4-accenture-capgemini/Accenture_2022_art-of-ai-maturity.pdf)
+  - Só 12% das empresas são 'AI Achievers', 25% são moderadamente avançadas e 63% ainda estão testando (cerca de 1.200 empresas) (p. 3)
+- **M148 · ServiceNow / Oxford Economics (2025)** — Enterprise AI Maturity Index 2025 · [PDF](03_analistas-big-techs/ServiceNow_2025_enterprise-ai-maturity-index.pdf)
+  - Maturidade média caiu de 44 para 35 (escala 0–100) em um ano; menos de 1% pontuou acima de 50 (4.473 organizações, 16 países, 2025) (p. 3; p. 5)
+- **M115 · Cisco (2025)** — Cisco AI Readiness Index 2025 – Realizing the Value of AI · [PDF](03_analistas-big-techs/Cisco_2025_ai-readiness-index.pdf)
+  - Prontidão: 13% Pacesetters, 36% Chasers, 48% Followers, 3% Laggards (8.039 líderes, 30 mercados, ago/2025) (p. 4; p. 26)
+- **M194 · MITRE Corporation (2023)** — The MITRE AI Maturity Model and Organizational Assessment Tool Guide: A Path to Successful AI Adoption · [PDF](04_academia-instituicoes/MITRE_2023_ai-maturity-model-assessment-tool-guide.pdf)
+  - 6 pilares e 20 dimensões avaliados em 5 níveis de maturidade: inicial, engajado/adotado, definido, gerenciado e otimizado (guia de nov/2023) (p. 4-5)
+- **M059 · Accenture (2025)** — The front-runners' guide to scaling AI: Lessons from industry leaders · [PDF](02_big4-accenture-capgemini/Accenture_2025_front-runners-guide-scaling-ai.pdf)
+  - Só 15% das grandes empresas são 'AI reinvention-ready'; 43% estão 'progredindo' e 42% 'experimentando' (índice de maturidade em capacidades de dados e IA; 2.000 executivos de 1.998 empresas acima de US$ 1 bi) (p. 3, 8)
+- **M031 · Roland Berger (2026)** — The AI-First Organization: Turning AI power into enterprise performance (estudo completo) · [PDF](01_consultorias-estrategia/RolandBerger_2026_ai-first-organization.pdf)
+  - 62% esperam mudanças grandes ou radicais no modelo operacional por causa da IA, mas só 38% começaram a mudá-lo; 59% consideram a liderança despreparada (472 executivos, fim de 2025 e início de 2026) (p. 2, 6)
+
+### F3 · Tendências, autonomia e soberania
+
+- **M198 · Stanford HAI (2026)** — Artificial Intelligence Index Report 2026 · [PDF](04_academia-instituicoes/Stanford-HAI_2026_ai-index-report.pdf)
+  - 88% das organizações usam IA em pelo menos uma função em 2025, ante 78% em 2024; 79% usam GenAI regularmente (71% em 2024) (dados McKinsey) (p. 193)
+- **M019 · McKinsey & Company (2026)** — McKinsey Technology Trends Outlook 2026 · [PDF](01_consultorias-estrategia/McKinsey_2026_technology-trends-outlook.pdf)
+  - Tecnologias de energia atraíram quase US$ 200 bi de investimento em 2025; o gasto com infraestrutura de IA dobrou em um ano (p. 4)
+- **M016 · Boston Consulting Group (BCG) (2026)** — The CEO's Guide to Physical AI · [PDF](01_consultorias-estrategia/BCG_2026_ceos-guide-to-physical-ai.pdf)
+  - Payback de robótica de ponta caiu de 5-7 anos para 1-3 anos, 3x mais rápido (2026) (p. 2)
+- **M120 · Gartner (2025)** — Gartner Predicts Over 40% of Agentic AI Projects Will Be Canceled by End of 2027 · [link](https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027)
+  - Mais de 40% dos projetos de IA agêntica serão cancelados até o fim de 2027 (página oficial)
+- **M134 · IBM Institute for Business Value (com Oxford Economics) (2026)** — The calculus of AI sovereignty: Balancing control, flexibility, and risk · [PDF](03_analistas-big-techs/IBM-IBV_2026_calculus-of-ai-sovereignty.pdf)
+  - 71% dizem que seria difícil trocar hoje o principal fornecedor ou modelo de IA; só 9% entendem muito bem suas dependências de IA (1.000 executivos, 16 países, 17 setores, fev-abr/2026) (p. 4-6)
+- **M188 · MCTI e CGEE (2025)** — IA para o bem de todos — Plano Brasileiro de Inteligência Artificial (PBIA) 2024-2028, versão final · [PDF](04_academia-instituicoes/MCTI-CGEE_2025_pbia-plano-brasileiro-ia-versao-final.pdf)
+  - R$ 23,03 bi em 2024-2028: R$ 13,79 bi em inovação empresarial, R$ 5,79 bi em infraestrutura (25,2%), R$ 1,76 bi em serviços públicos, R$ 1,15 bi em formação, R$ 103,25 mi em regulação e R$ 435,04 mi em ações imediatas (1,9%) (Tabela 2, p. 32)
+- **M197 · Senado Federal (texto aprovado) / Câmara dos Deputados (tramitação) (2025)** — Projeto de Lei nº 2.338/2023 — Marco legal da inteligência artificial (texto aprovado pelo Senado e enviado à Câmara) · [PDF](04_academia-instituicoes/Senado-Camara_2025_pl-2338-2023-marco-ia-texto-aprovado-senado.pdf)
+  - Multa de até R$ 50 milhões por infração ou até 2% do faturamento bruto do grupo no Brasil no último exercício, sem tributos (art. 50, II) (p. 26)
+- **M367 · AgFunder (2026)** — Global AgriFoodTech Investment Report 2026 · [PDF](07_agro-global-perenes-autonomia/AgFunder_2026_global-agrifoodtech-investment-report.pdf)
+  - US$ 16,2 bi em financiamento global de agrifoodtech em 2025 (-3% a/a) (p. 3)
+- **M373 · Deere & Company (John Deere) (2025)** — 2025 Business Impact Report · [PDF](07_agro-global-perenes-autonomia/JohnDeere_2025_business-impact-report.pdf)
+  - ~500 mi de acres engajados, 147 mi de acres altamente engajados, 1 mi de máquinas conectadas e 409 mil usuários digitais ativos por mês (FY2025) (p. 3)
+- **M382 · SD Guthrie Berhad (ex-Sime Darby Plantation) (2025 (ref. 2024))** — Integrated Report 2024 – Beyond Boundaries · [PDF](07_agro-global-perenes-autonomia/SDGuthrie_2025_integrated-report-2024.pdf)
+  - Relação área/trabalhador subiu de 12,7 (FY2023) para 13,6 (FY2024), com meta de 17,5 até 2027 (p. 8 e p. 30)
+- **M377 · Malaysian Palm Oil Board (MPOB) – Journal of Oil Palm Research (2025)** — Oil Palm Economic Performance in Malaysia and R&D Progress in 2024 · [PDF](07_agro-global-perenes-autonomia/MPOB_2025_oil-palm-economic-performance-rd-progress-2024.pdf)
+  - Relação trabalhador:área na colheita: 1:21 ha no manual, 1:35 ha com cortadores mecanizados tipo CANTAS e 1:86 ha com colhedoras de médio porte (p. 11)
+- **M372 · DJI Agriculture (2026)** — Agricultural Drone Industry Insight Report 2025/2026 (edição em português) · [PDF](07_agro-global-perenes-autonomia/DJI_2026_agricultural-drone-industry-insight-report.pdf)
+  - >600 mil drones DJI Agriculture em uso no fim de 2025, >600 mil pilotos certificados, >7 mil instrutores, 3.500 centros de serviço, >100 países e >300 culturas (p. 4)
+- **M376 · Journal of the Agricultural and Applied Economics Association (AAEA/Wiley) — Charlton, Devadoss, Gallardo, Luckstead e Vougioukas (2025)** — Economic viability of robotic fruit harvesters to reduce large seasonal labor demands: Analysis of Gala and Honeycrisp apples · [PDF](07_agro-global-perenes-autonomia/AAEA_2025_viabilidade-colheita-robotica-macas.pdf)
+  - US$ 248,42 por acre/ano é o gasto máximo com a colhedora robótica que iguala o lucro da colheita manual (maçã Gala, Washington, com o desempenho esperado dos protótipos) (p. 1)
+- **M245 · CNA (com Cepea/Esalq-USP) (2026)** — Agenda Brasil – Escassez de mão de obra é desafio no campo (estudo 'Mercado de Trabalho na Agropecuária: Evidências sobre Escassez de Mão de Obra e Produtividade') · [PDF](05_agro-brasil-instituicoes-midia/CNA_2026_estudo-escassez-mao-de-obra-produtividade-agenda-brasil.pdf)
+  - 94,8% dos produtores relatam dificuldade de contratação, 84,3% operam com quadro inferior ao necessário e 88,3% têm alguma consequência produtiva (pesquisa com empregadores, 2026) (página web)
+
+---
+
+## Consultorias de estratégia
+
+Pasta: `01_consultorias-estrategia/`
+
+- **M001 · Bain & Company (2026)** — AI in Energy: From Pilots to Payoff · F1, F2 · relevância alta · [PDF](01_consultorias-estrategia/Bain_2026_ai-in-energy-pilots-to-payoff.pdf)
+  - Artigo da Bain (2026) sobre o 'purgatório de pilotos' em setores intensivos em ativos, com playbook de 4 princípios e casos. Um dos casos é de agronegócio (IA em procurement) e outro de utility (CoE e comitê de IA responsável).
+  - Métrica: 68% dos executivos de energia e recursos naturais (inclui agronegócio) esperam efeito substancial ou transformador da IA em 5-10 anos, mas menos de 20% relatam aplicações escaladas com impacto mensurável (ENR Executive Survey 2026, n=859) (p. 2)
+  - Métrica: Quase metade aponta resultados pouco claros ou sem ligação com valor de negócio como principal gargalo; em seguida, falta de expertise e dados e governança imaturos (p. 5)
+  - Métrica: Caso upstream de óleo e gás: mais de 12 iniciativas de performance somando mais de US$ 15 mi/ano (p. 7)
+- **M002 · Bain & Company (2025)** — Executive Survey: AI Moves from Pilots to Production · F1, F2 · relevância alta · [PDF](01_consultorias-estrategia/Bain_2025_executive-survey-ai-pilots-to-production.pdf)
+  - Pesquisa periódica da Bain (nov/2025) com taxas de passagem de piloto para produção por domínio e satisfação com resultados. Fornece métricas diretas de escala e de insucesso.
+  - Métrica: 40% dos pilotos de IA em desenvolvimento de software chegam à produção em escala; 32% em atendimento; mais de 20% em vários domínios (Bain Generative AI Survey, n=197, 3T2025) (p. 1, 4)
+  - Métrica: 80% dos casos de uso de IA generativa atenderam ou superaram expectativas, mas só 23% dos respondentes ligam a IA a mais receita ou menor custo (p. 1, 5-6)
+  - Métrica: 33% dos insatisfeitos dizem que funcionou no piloto mas não escalou; ~33% que foi mais caro que o previsto (p. 6)
+  - Métrica: 74% colocam IA entre as 3 prioridades estratégicas (60% um ano antes); 21% como prioridade número 1 (p. 1)
+- **M003 · Bain & Company (2026)** — Technology Report 2026: AI, the Most Consequential Technology of Our Lifetimes · F1, F2, F3 · relevância alta · [PDF](01_consultorias-estrategia/Bain_2026_technology-report.pdf)
+  - Relatório anual de tecnologia da Bain (set/2026) sobre investimentos em IA, empresa AI-native, custo de tokens e arquitetura agêntica. Traz métricas de EBITDA dos líderes e a proporção tecnologia vs. pessoas e processos.
+  - Métrica: Líderes que tratam IA como transformação do negócio obtêm crescimento de 10% a 25% no EBITDA (p. 52)
+  - Métrica: Até 90% das empresas seguem focadas em implantar ferramentas e casos de uso pontuais (p. 53)
+  - Métrica: Para cada US$ 1 gasto em tecnologia, US$ 4 vão para pessoas e processos (p. 53)
+  - Métrica: Gasto anual com infraestrutura de IA pode chegar a US$ 1,5 tri até 2031; sustentá-lo exigiria um mercado de IA de ~US$ 6 tri/ano (p. 8)
+- **M004 · Bain & Company (2026)** — Your AI Budget Is Growing. Your Returns Aren't. Here's Why. · F1, F2 · relevância alta · [PDF](01_consultorias-estrategia/Bain_2026_ai-budget-growing-returns-arent.pdf)
+  - Estudo sobre a diferença entre o business case e o retorno real da IA e dos agentes. As empresas que capturam valor tratam acesso a dados, governança e redesenho de processos como tema do CEO. Recomenda medir o valor capturado em projetos anteriores antes de aprovar novas ondas. Complementa a cobertura da Forbes Money, que acrescenta o recorte Brasil.
+  - Métrica: Quase 40% das empresas que mediram as economias com IA ficaram na faixa de 0–10%, embora 37% mirassem 11–20% – Bain Automation and AI Pathfinder Survey 2026 (n=951) (p. 2–3)
+  - Métrica: Apenas 7% das empresas rodam agentes totalmente autônomos em produção; 38% exigem aprovação humana e 32% operam com guardrails e exceções (n=951) (p. 3)
+  - Métrica: Entre as empresas que ficaram abaixo da meta, 38% têm agentes em autonomia de nível 'guardrails' ou superior, contra 50% entre as que entregaram (p. 4)
+  - Métrica: 90% vão aumentar de novo o orçamento para agentes de IA; 44% financiam a próxima onda com economias de automações anteriores (p. 2, 4)
+- **M005 · Bain & Company (Brasil) (2026)** — Uso de IA chega a 95% das empresas no Brasil · F1, F2 · relevância alta · [PDF](01_consultorias-estrategia/Bain_2026_uso-de-ia-95-empresas-brasil.pdf)
+  - Pesquisa da Bain (jul/2026) com 140 empresas brasileiras, inclusive energia e recursos naturais, sobre adoção, escala e impacto financeiro da IA. É o dado corporativo mais recente com recorte Brasil.
+  - Métrica: 95% das empresas brasileiras usam IA (+21 p.p. vs. 2024); ~40% escalaram ao menos um caso de uso; 62% relatam impacto financeiro direto (140 empresas com receita de R$ 40 mi a >R$ 10 bi, jul/2026) (p. 2)
+  - Métrica: IA entre as 5 principais prioridades para 86%; 62% dos programas liderados pelo CEO ou reportes diretos (p. 2)
+  - Métrica: 91% dizem que a IA atendeu ou superou as expectativas; 98% vão ampliar o orçamento de IA (p. 2)
+  - Métrica: Motores: produtividade de pessoal 56%, aumento de vendas 32%; gargalos: segurança e privacidade 29%, falta de expertise 28%, baixa maturidade de dados 22% (p. 3)
+- **M006 · Boston Consulting Group (BCG Brasil) (2025)** — The Pulse of Brazilian Farmers · F1, F3 · relevância alta · [PDF](01_consultorias-estrategia/BCG_2025_pulse-of-brazilian-farmers.pdf)
+  - Pesquisa da BCG (jun/2025) com mais de 1.350 produtores brasileiros sobre perfis, compra de tecnologia, sustentabilidade e crédito. Ajuda a entender barreiras de adoção no campo brasileiro.
+  - Métrica: Só 18% dos produtores se consideram early adopters de tecnologia; 62% se veem na 'maioria inicial' (1.350+ produtores, 15+ estados, 2025) (p. 22)
+  - Métrica: 22% dos agricultores de lavoura vs. 9% dos pecuaristas são early adopters (p. 8)
+  - Métrica: 49% priorizam aumentar produtividade, 42% combinam com expansão e só 9% focam apenas em nova área (p. 8)
+  - Métrica: Mais de 70% buscam ativamente melhorias na fazenda (p. 8)
+- **M007 · Boston Consulting Group (BCG) (2026)** — AI Talk Is Cheap. Value Creation Is Rare. · F1 · relevância alta · [PDF](01_consultorias-estrategia/BCG_2026_ai-talk-is-cheap-value-creation-is-rare.pdf)
+  - Análise da BCG (jul/2026) que mede a adoção de IA por evidências externas, não por autodeclaração, e liga liderança em IA a retorno ao acionista. Contraponto útil às pesquisas autodeclaradas.
+  - Métrica: Só 6% de mais de 600 empresas abertas dos EUA se qualificam como líderes reais de adoção de IA (medida outside-in, 2026) (p. 1-2)
+  - Métrica: Líderes têm TSR ajustado pelo setor 9 p.p. acima da mediana em 3 anos, puxado por receita e margem, não por múltiplo P/L (p. 2)
+  - Métrica: Líderes aumentam o quadro de pessoal a um CAGR 3 p.p. maior que a mediana (2022-2025) (p. 2)
+- **M008 · Boston Consulting Group (BCG) (2026)** — AI at Work 2026: Strategy Matters More Than Tools · F1, F2 · relevância alta · [PDF](01_consultorias-estrategia/BCG_2026_ai-at-work-strategy-matters-more-than-tools.pdf)
+  - Quarta edição (jun/2026) da pesquisa com trabalhadores e a mais recente da série; substitui a de 2025. Mostra adoção por país (Brasil incluso) e que clareza estratégica e redesenho de workflows determinam o valor capturado.
+  - Métrica: 74% dos funcionários da linha de frente usam IA regularmente, +23 p.p. vs. 2025 (11.749 respondentes, 2026) (p. 4)
+  - Métrica: Brasil: 82% dos funcionários da linha de frente usam IA ao menos várias vezes por semana, vs. média de 74% (n=4.040 da linha de frente) (p. 14)
+  - Métrica: 42% dos usuários regulares da linha de frente economizam ao menos 1 dia de trabalho por semana; entre líderes, 60% (p. 6)
+  - Métrica: 66% recebem pouca ou nenhuma orientação sobre o que fazer com o tempo economizado (p. 3, 7)
+- **M009 · Boston Consulting Group (BCG) (2026)** — Agricultural Intelligence: How AI Is Reshaping the Global Food System · F1, F3 · relevância alta · [PDF](01_consultorias-estrategia/BCG_2026_agricultural-intelligence-ai-global-food-system.pdf)
+  - Artigo da BCG (jun/2026) sobre IA agêntica em toda a cadeia agroalimentar (produtores, insumos, máquinas, trading, varejo). Propõe as dimensões sensing, deciding, acting e creating e mostra como a IA corrói vantagens baseadas em informação.
+  - Métrica: See & Spray (John Deere, visão computacional): redução média de 50% no uso de químicos; área de 1 mi de acres em 2024 para 5 mi em 2025 na América do Norte (p. 6)
+  - Métrica: FarmerChat (África, Índia e Brasil): mais de 830 mil produtores e mais de 5 mi de consultas; custo por interação de US$ 35 para US$ 0,35 (p. 6)
+- **M010 · Boston Consulting Group (BCG) (2026)** — BCG AI Radar 2026: As AI Investments Surge, CEOs Take the Lead · F1, F3 · relevância alta · [PDF](01_consultorias-estrategia/BCG_2026_ai-radar-ceos-take-the-lead.pdf)
+  - Pesquisa anual da BCG com executivos (jan/2026) sobre orçamento de IA como % da receita por setor, liderança do CEO e agentes. Útil para comparar o esforço de investimento do agro e da energia com outros setores.
+  - Métrica: Investimento em IA deve dobrar de ~0,8% para ~1,7% da receita em 2026 (2.360 executivos, 640 CEOs) (p. 6)
+  - Métrica: Energia e utilities: de 0,6% para 1,9% da receita investida em IA; indústria e real estate (inclui agricultura): de 0,7% para 0,8%, a menor alta (2025 para 2026) (p. 7)
+  - Métrica: 72% dos CEOs são o principal decisor de IA, 2x o ano anterior (p. 3, 11)
+  - Métrica: 82% dos CEOs estão mais otimistas com o ROI de IA do que há 12 meses (p. 11)
+- **M011 · Boston Consulting Group (BCG) (2026)** — CEOs Are Starting to See Value from AI. Now Comes Execution. (How CEOs Can Scale AI Value Across the Enterprise) · F1, F2 · relevância alta · [PDF](01_consultorias-estrategia/BCG_2026_ceos-starting-to-see-value-from-ai-now-execution.pdf)
+  - Artigo BCG de 22/07/2026 que compara CEOs de alto e baixo desempenho em IA: o CEO orquestra e a área de negócio responde pelo resultado, o foco fica em poucos domínios de alto valor, o fluxo de trabalho é redesenhado ponta a ponta (alto desempenho: cerca de sete vezes mais) e o valor é rastreado até o P&L.
+  - Métrica: Quase nove em cada dez CEOs veem algum benefício de custo ou receita com IA em áreas específicas (BCG AI Transformation CEO Survey 2026, n=152) (p. 2)
+  - Métrica: Só 14% definem claramente o impacto no P&L de todas as iniciativas de IA; 56% citam a ligação pouco clara entre iniciativas e resultados financeiros como limite (p. 2-3)
+  - Métrica: 64% dos CEOs conduzem pilotos de IA, mas só 26% os inserem numa transformação mais ampla do negócio (p. 5)
+  - Métrica: Alto desempenho (redução de custo de pelo menos 10% ou receita de pelo menos 5% com IA) vs. baixo (menos de 5% e menos de 2%): 25% vs. 5% definem o P&L de todas as iniciativas, 44% vs. 24% financiam integralmente pessoas e mudança, 14% vs. 2% remodelam o negócio (p. 2, 5)
+- **M012 · Boston Consulting Group (BCG) (2026)** — Executive Perspectives: Driving Sustained Structural Cost Advantage with Applied AI · F1, F2 · relevância alta · [PDF](01_consultorias-estrategia/BCG_2026_structural-cost-advantage-applied-ai.pdf)
+  - Deck de jul/2026 com as 5 armadilhas que impedem converter IA em redução estrutural de custo e o modelo Deploy/Reshape/Invent. Traz casos com impacto quantificado.
+  - Métrica: Líderes em IA obtêm 3x mais redução de custos, 1,6x margem EBIT e 2,7x ROIC em relação aos pares (BFF 2025, n=1.250; AI Radar 2026, n=2.360) (p. 2)
+  - Métrica: Em 2024, future-built realizaram 6,2% de aumento de receita e 6,0% de redução de custo nas áreas com IA, vs. 1,2% e 2,0% dos laggards (5,3x e 3,0x) (p. 7)
+  - Métrica: Deploy (ferramentas prontas): 10-20% de ganho de produtividade individual; Reshape (funções críticas redesenhadas): 30-50% de eficiência e eficácia (p. 8)
+- **M013 · Boston Consulting Group (BCG) (2026)** — How AI Is Paying Off in the Tech Function · F1, F2 · relevância alta · [PDF](01_consultorias-estrategia/BCG_2026_how-ai-is-paying-off-in-the-tech-function.pdf)
+  - Artigo da BCG (jan/2026) sobre onde a IA dá retorno dentro de TI: ciclo de desenvolvimento de software, gestão de dados, compliance, service desk, sourcing e modernização de legado (um caso foi 225x mais rápido que a análise manual). Traz ganhos de produtividade por caso de uso.
+  - Métrica: A fatia do valor de IA gerada na função de tecnologia subiu de 7% (2024) para 13% (2025), atrás só de P&D (15%) (1.250 empresas, 2º tri/2025) (p. 1)
+  - Métrica: Só 5% das empresas geram valor mensurável com IA em escala; 60% não obtêm valor material (p. 1)
+  - Métrica: Empresas escalando IA em ao menos 1 dos 10 principais casos de uso de TI triplicaram, de 9% para 28% (p. 2)
+  - Métrica: IA no desenvolvimento de software: 36% já escalaram; produtividade +25% hoje e +44% esperada em escala plena (p. 2)
+- **M014 · Boston Consulting Group (BCG) (2024)** — Leaders in Data and AI Are Racing Away from the Pack (DAICAMA 2024) · F2, F1 · relevância alta · [PDF](01_consultorias-estrategia/BCG_2024_leaders-data-ai-racing-away-daicama.pdf)
+  - 4ª edição do Data and AI Capability Maturity Assessment (DAICAMA) da BCG. Avalia ~50 competências em 7 capacidades (visão, casos de uso, IA/analytics, governança de dados, plataforma, ecossistema, mudança e cultura) numa escala de 100 a 500 pontos. É um framework de maturidade (F2) e alerta contra metas irrealistas. Página salva em PDF.
+  - Métrica: Empresas no nível máximo de maturidade em dados e IA caíram de 13% (2021) para 8% (2024), embora 95% tentem gerar valor com IA (~1.200 empresas, 9 setores) (p. 2-3)
+  - Métrica: Líderes têm 4x mais casos de uso escalados que os retardatários e impacto financeiro médio 5x maior por caso (p. 2)
+  - Métrica: A maturidade cresce em média 8% a cada 3 anos (15% em 2018-21): a empresa média leva ~10 anos para subir um nível (p. 7)
+  - Métrica: EUA lideram, com +7% na maturidade média desde 2021 (p. 5)
+- **M015 · Boston Consulting Group (BCG) (2026)** — Look Past Productivity to Get Real Value from AI (Why AI Pilots Rarely Deliver Real Business Value) · F1, F2 · relevância alta · [PDF](01_consultorias-estrategia/BCG_2026_look-past-productivity-why-ai-pilots-rarely-deliver-value.pdf)
+  - Artigo BCG de 31/08/2026 sobre por que pilotos de IA raramente mudam a estrutura de custos: automatizam tarefas sem redesenhar processos ponta a ponta nem o modelo operacional (exemplo: tarefa reduzida de dez dias para um sem ganho para o cliente). Defende foco em poucas iniciativas de alto impacto e redesenho de processos.
+  - Métrica: 82% dos CEOs estão mais otimistas com o ROI da IA do que há um ano, mas só 6% das empresas veem valor relevante em redução de custos e aumento de receita (BCG AI Radar 2026) (p. 1)
+  - Métrica: Transformações habilitadas por IA podem reduzir custos gerais e administrativos em 25% a 35%, P&D em 20% a 30% e vendas, marketing e parte do custo dos produtos vendidos em 15% a 35% (p. 2)
+- **M016 · Boston Consulting Group (BCG) (2026)** — The CEO's Guide to Physical AI · F3, F1 · relevância alta · [PDF](01_consultorias-estrategia/BCG_2026_ceos-guide-to-physical-ai.pdf)
+  - Guia da BCG (mai/2026) sobre como a IA física muda a economia da automação, com payback e custo de implantação. Relevante para robótica e máquinas autônomas diante da escassez de mão de obra.
+  - Métrica: Payback de robótica de ponta caiu de 5-7 anos para 1-3 anos, 3x mais rápido (2026) (p. 2)
+  - Métrica: +50% no escopo de trabalho automatizável vs. robótica tradicional; -70% no tempo de engenharia para treinar robôs (p. 2)
+  - Métrica: ~75% do custo da robótica tradicional vem de integração, setup e engenharia; IA física definida por software pode cortar mais da metade (p. 2)
+  - Métrica: IA física pode assumir ~50% das tarefas de um trabalhador (p. 3)
+- **M017 · Boston Consulting Group (BCG) (2025)** — The Widening AI Value Gap (Build for the Future 2025) · F1, F2, F3 · relevância alta · [PDF](01_consultorias-estrategia/BCG_2025_widening-ai-value-gap.pdf)
+  - Estudo global de set/2025 que classifica empresas em estágios de maturidade em IA e quantifica a diferença financeira dos líderes. É uma das bases mais fortes para ROI e para o modelo de maturidade.
+  - Métrica: Só 5% das empresas (future-built) geram valor de IA em escala; 60% não obtêm valor material; 35% estão escalando (1.250 empresas, 2025) (p. 3)
+  - Métrica: Future-built vs. demais: 1,7x crescimento de receita, 3,6x TSR em 3 anos, 2,7x ROIC e 1,6x margem EBIT (p. 4)
+  - Métrica: Future-built gastam 26% mais em TI e destinam até 64% mais do orçamento de TI à IA; esperam 2x o aumento de receita e 1,4x a redução de custo dos laggards (p. 5)
+  - Métrica: Agentes respondem por 17% do valor total de IA em 2025 e devem chegar a 29% em 2028 (p. 3)
+- **M018 · MIT Technology Review Brasil, TEC.Institute e Peers Consulting + Technology (2026)** — Gerando valor com GenAI — Do piloto ao resultado: a rentabilidade da IA (2ª edição) · F1, F2, F3 · relevância alta · [PDF](01_consultorias-estrategia/MITTRBrasil-Peers-TECInstitute_2026_gerando-valor-com-genai.pdf)
+  - Segunda edição da pesquisa brasileira sobre IA generativa nas empresas: mostra o 'vale da escala' entre 12 e 24 meses, quando a IA sai dos pilotos e passa a exigir integração de processos, governança e mensuração, e a retomada depois de 24 meses. Traz uma segmentação de maturidade útil para F2 e depoimentos de Mercado Livre, Porto, Serasa Experian e CNP Seguros, com aprofundamento em 18 entrevistas no setor financeiro. Obtido pelo usuário; URL de origem não informada (registrado o site da publicação).
+  - Métrica: Curva de captura de valor por tempo de adoção de IA generativa — superaram as expectativas financeiras: 35,1% (até 6 meses), 23,3% (6 a 12 meses), 13,3% (12 a 24 meses) e 39,0% (mais de 24 meses); abaixo do esperado: 2,7%, 16,7%, 30,0% e 14,6% (138 respondentes, 12 setores) (p. 14-15)
+  - Métrica: Segmentação por maturidade: Líderes 40,7% (alinham governança, mensuração e retorno), Disciplinados sem tração 19,4%, Tração sem disciplina 12,3% e Incipientes 27,6% (sem mecanismos para medir retorno) (p. 19)
+  - Métrica: Serviços financeiros: 72,7% dos bancos superaram o business case inicial de IA generativa, contra 27,3% em meios de pagamento e 25,0% em seguros (p. 18)
+  - Métrica: Casos: o assistente do Mercado Pago resolveu mais de 82% de mais de 9 milhões de conversas sem interação humana; o Mercado Livre tem uma comunidade de cerca de 500 AI Champions (p. 10, 12)
+- **M019 · McKinsey & Company (2026)** — McKinsey Technology Trends Outlook 2026 · F3 · relevância alta · [PDF](01_consultorias-estrategia/McKinsey_2026_technology-trends-outlook.pdf)
+  - Sexta edição (set/2026) com 14 tendências: IA agêntica, IA física e robótica, energia. Substitui a edição 2025 e é a base de F3 para investimentos e maturidade das tecnologias.
+  - Métrica: Tecnologias de energia atraíram quase US$ 200 bi de investimento em 2025; o gasto com infraestrutura de IA dobrou em um ano (p. 4)
+  - Métrica: IA física pode gerar ao menos US$ 1 tri em valor econômico até 2040; mercado de robôs de uso geral ~US$ 370 bi em 2040 (p. 95)
+  - Métrica: 542 mil robôs industriais instalados no mundo em 2024; ~200 mil robôs de uso geral vendidos para uso profissional em 2024 (p. 95)
+  - Métrica: 5 das 14 tendências (inclusive robótica e desenvolvimento de software agêntico) devem mais que dobrar o investimento em 2026 vs. 2025 (p. 8)
+- **M020 · McKinsey & Company (2026)** — State of AI trust in 2026: Shifting to the agentic era (McKinsey 2026 AI Trust Maturity Survey) · F1, F2 · relevância alta · [PDF](01_consultorias-estrategia/McKinsey_2026_state-of-ai-trust-agentic-era.pdf)
+  - Artigo de 25/03/2026 com os resultados da pesquisa de maturidade em confiança de IA da McKinsey, que usa o modelo de 4 níveis e 5 dimensões (estratégia, gestão de risco, dados e tecnologia, governança e, novidade, governança e controles de IA agêntica). Não há PDF oficial; a página foi salva em PDF. Os valores dos gráficos são imagens.
+  - Métrica: Maturidade média em IA responsável subiu para 2,3 em 2026 (2,0 em 2025); só cerca de um terço tem nível 3 ou mais em estratégia, governança e governança de IA agêntica (cerca de 500 organizações, dez/2025-jan/2026) (p. 2, 6)
+  - Métrica: Organizações que investem US$ 25 milhões ou mais em IA responsável têm maior maturidade e são muito mais propensas a impacto da IA no EBIT acima de 5% (p. 8)
+  - Métrica: Quase dois terços citam segurança e risco como principal barreira para escalar IA agêntica (p. 9-10)
+  - Métrica: 74% veem a imprecisão e 72% a cibersegurança como riscos altamente relevantes (p. 10)
+- **M021 · McKinsey & Company (Agriculture Practice) (2026)** — Global Farmer Insights 2026 · F1, F3 · relevância alta · [PDF](01_consultorias-estrategia/McKinsey_2026_global-farmer-insights.pdf)
+  - Quarta edição (set/2026) da pesquisa bienal com 5.500 produtores, pela primeira vez com IA generativa. Mostra adoção de agtech e de IA por país, inclusive Brasil, e as barreiras de ROI e confiança.
+  - Métrica: 17% dos produtores usam IA generativa em tarefas da fazenda e só 4% pagam por ferramentas (5.500 produtores, 10 países, abr-jul/2026) (p. 26)
+  - Métrica: América Latina lidera o uso de IA generativa no campo: 26% (19% só ferramentas gratuitas, 7% pagas) (p. 26)
+  - Métrica: ~75% esperam ao menos algum impacto da IA generativa na operação em 3-5 anos; 15% esperam impacto significativo (p. 26)
+  - Métrica: 50% dos produtores usam ao menos uma agtech (+4 p.p. vs. 2024); no Brasil a adoção caiu 3 p.p. (p. 23)
+- **M022 · McKinsey & Company (Agriculture Practice) (2025)** — Why Brazilian farmers are doubling down on productivity · F1, F3 · relevância alta · [PDF](01_consultorias-estrategia/McKinsey_2025_brazilian-farmers-doubling-down-productivity.pdf)
+  - Recorte Brasil (jan/2025) da Global Farmer Insights 2024. Traz adoção de agtech por cultura, inclusive cana e café, ou seja, perenes e baixa mecanização.
+  - Métrica: 55% dos produtores brasileiros usam ao menos uma agtech em 2024 (42% em 2022), vs. 74% nos EUA (750 produtores, início de 2024) (p. 6)
+  - Métrica: Adoção de agtech por cultura no Brasil em 2024: algodão 90%, grãos do Cerrado 72%, cana-de-açúcar 44%, frutas e hortaliças 32%, café 23% (p. 6)
+  - Métrica: 60% veem a produtividade como chave para a rentabilidade futura (p. 2)
+  - Métrica: Uso de canais digitais para compras estagnou em ~40%; pagamentos digitais dobraram para 54% em 2 anos (p. 7)
+- **M023 · McKinsey & Company (Brasil) (2026)** — O ponto cego da indústria na corrida pela AI · F1, F2, F3 · relevância alta · [PDF](01_consultorias-estrategia/McKinsey-Brasil_2026_ponto-cego-industria-corrida-ai.pdf)
+  - Artigo de 14/07/2026 (Jorge Cerezo, Vitor Caneiro e Thalita Marcondes) sobre o descompasso entre investimento e captura de valor da IA na indústria latino-americana, ligado à escassez de mão de obra e à requalificação. Na rodada 1 constava como 'web'; agora a página oficial foi salva em PDF, com métricas novas verificadas.
+  - Métrica: 20% dos líderes latino-americanos se dizem 'muito preparados' para adotar IA no dia a dia, contra 14% globalmente, mas só 7% das organizações da região têm implementação em escala (11% globalmente) (p. 3)
+  - Métrica: Trabalhadores da indústria são mais propensos a deixar o emprego que os de outros setores (37% vs. 30%); entre os mais jovens, 42% planejam sair em até seis meses (p. 3)
+  - Métrica: Caso de agentes autônomos de roteirização: economia recorrente de 15% no frete e capacidade de atendimento da rede de distribuidores multiplicada por vinte (p. 4)
+  - Métrica: Só 17% dos COOs latino-americanos capturaram o retorno esperado dos investimentos em IA, contra 30% globalmente (p. 4)
+- **M024 · McKinsey & Company (Brasil) (2026)** — Tecnologia e IA como alavancas de impacto e produtividade para o setor de Indústrias Avançadas e Manufatura no Brasil · F1, F2, F3 · relevância alta · [PDF](01_consultorias-estrategia/McKinsey_2026_tecnologia-ia-produtividade-industrias-avancadas-brasil.pdf)
+  - Relatório da McKinsey Brasil (ago/2026) sobre maturidade, 'purgatório de pilotos' e roadmap (framework Rewired com 6 dimensões) na indústria brasileira. É uma referência local para ROI, estágio de escala e dependências.
+  - Métrica: Tecnologia e IA podem elevar o crescimento da produtividade em 1,9-2,3 p.p. e gerar US$ 18-23 bi/ano nas indústrias avançadas do Brasil (empresas que somam 40% do PIB do setor, 2026) (p. 3)
+  - Métrica: Só 10% das empresas mensuram o ROI de iniciativas digitais (p. 3, 14)
+  - Métrica: Só 24% escalaram soluções além do piloto; mais da metade leva 6-12 meses para implantar um piloto bem-sucedido (p. 4)
+  - Métrica: 20% ainda em estágio inicial de capacidades de tecnologia e IA, embora 80% tenham programas formais de capacitação (p. 4)
+- **M025 · McKinsey & Company (Financial Services Practice) (2025)** — JPMorgan Chase's Derek Waldron on building an AI-first bank culture (entrevista, 29/10/2025) · F1, F2 · relevância alta · [PDF](01_consultorias-estrategia/McKinsey_2025_jpmorgan-waldron-ai-first-bank-culture.pdf)
+  - Entrevista com o executivo responsável pelo programa de IA do JPMorgan, líder do Evident AI Index. Traz uma métrica rara de trajetória de ROI (benefício bruto crescendo 30 a 40% ao ano, com controle financeiro por iniciativa) e o modelo organizacional de dois pilares. Discute também o 'inferno dos POCs' e por que ganho de produtividade não vira automaticamente corte de custo.
+  - Métrica: O benefício bruto creditado à IA cresce cerca de 30 a 40% ao ano desde o início do programa, com acompanhamento financeiro por iniciativa antes do início e na entrada em produção (JPMorgan) (p. 10)
+  - Métrica: Quase um quarto de milhão de pessoas com acesso à LLM Suite; pouco menos da metade dos funcionários usa GenAI todos os dias; mais de 100 mil funcionários integrados em poucos meses, com adesão voluntária (opt-in) (p. 3)
+  - Métrica: Orçamento anual de tecnologia de US$ 18 bilhões (2025) (p. 2 e 10)
+  - Métrica: Cenário central da McKinsey: cerca de US$ 700 bilhões de economia de custos disponível aos bancos que adotarem IA; os pioneiros podem ganhar até quatro pontos percentuais de ROTE (p. 5-6)
+- **M026 · McKinsey & Company (QuantumBlack) (2025)** — Seizing the agentic AI advantage · F1, F2, F3 · relevância alta · [PDF](01_consultorias-estrategia/McKinsey_2025_seizing-agentic-ai-advantage.pdf)
+  - Playbook de jun/2025 para CEOs sair do 'paradoxo da IA generativa' com agentes: de casos de uso para processos, squads multifuncionais e governança de agentes. Útil para roadmap e para o modelo organizacional.
+  - Métrica: ~90% dos casos de uso verticais (específicos de função) de IA generativa continuam presos em piloto (2025) (p. 5)
+  - Métrica: Menos de 10% dos casos de uso implantados passam da fase piloto (pesquisa McKinsey) (p. 9)
+  - Métrica: Mais de 80% das empresas não relatam contribuição material aos lucros com IA generativa, o 'paradoxo da IA generativa' (p. 7)
+  - Métrica: ~70% das empresas da Fortune 500 usam Microsoft 365 Copilot (p. 8)
+- **M027 · McKinsey & Company (QuantumBlack) (2025)** — The state of AI in 2025: Agents, innovation, and transformation · F1, F2, F3 · relevância alta · [PDF](01_consultorias-estrategia/McKinsey_2025_state-of-ai-agents-innovation-transformation.pdf)
+  - Pesquisa global de nov/2025 com foco em agentes de IA, inovação e no perfil dos high performers. Dá a régua de estágios (experimentação, piloto, escala) e práticas que diferenciam quem captura valor.
+  - Métrica: 23% escalam um sistema de IA agêntica em ao menos uma função e mais 39% experimentam agentes (1.993 respondentes, jun-jul/2025) (p. 6)
+  - Métrica: Em nenhuma função mais de 10% dos respondentes escalam agentes (p. 6)
+  - Métrica: 39% reportam impacto no EBIT no nível da empresa; 64% dizem que a IA habilita inovação (p. 3)
+  - Métrica: Quase 2/3 ainda não começaram a escalar IA na empresa (p. 3)
+- **M028 · McKinsey & Company (QuantumBlack) (2026)** — The state of AI in 2026: On the road to ROI · F1, F2, F3 · relevância alta · [PDF](01_consultorias-estrategia/McKinsey_2026_state-of-ai-road-to-roi.pdf)
+  - Edição mais recente (ago/2026) da pesquisa global anual da McKinsey. Mostra que uso de IA e de agentes cresce, mas o impacto no EBIT não avança, e descreve o que os high performers fazem diferente (redesenho de workflows, crescimento além de eficiência, liderança).
+  - Métrica: 37% atribuem algum impacto no EBIT ao uso de IA, praticamente igual a 2025 (Global Survey, 1.719 respondentes, mai-jun/2026) (p. 3, 12)
+  - Métrica: ~6% são 'AI high performers' (>=5% do EBIT atribuído à IA e impacto significativo), estável vs. 2025 (p. 3)
+  - Métrica: 44% dizem que a IA está em escala na empresa, vs. 38% em 2025 (p. 5)
+  - Métrica: 40% das grandes empresas (receita > US$ 1 bi) escalam agentes de IA, vs. 27% no ano anterior; nas menores, 22% (p. 6)
+- **M029 · McKinsey & Company (QuantumBlack) (2025)** — The state of AI: How organizations are rewiring to capture value · F1, F2 · relevância alta · [PDF](01_consultorias-estrategia/McKinsey_2025_state-of-ai-rewiring-to-capture-value.pdf)
+  - Edição de mar/2025 focada em governança e organização: papel do CEO, centralização de risco e dados, novos papéis e as 12 práticas de adoção e escala correlacionadas ao EBIT. Serve de checklist de governança e de maturidade.
+  - Métrica: 78% usam IA em ao menos uma função (55% um ano antes) e 71% usam IA generativa regularmente (1.491 respondentes, jul/2024) (p. 15, 17)
+  - Métrica: Mais de 80% não veem impacto tangível no EBIT da empresa com IA generativa; 17% atribuem >=5% do EBIT à IA generativa (p. 22)
+  - Métrica: 28% têm o CEO supervisionando a governança de IA, o atributo mais correlacionado ao impacto no EBIT; 17% o conselho (p. 3)
+  - Métrica: 21% redesenharam fundamentalmente ao menos alguns workflows, o fator de maior efeito no EBIT entre 25 testados (p. 3)
+- **M030 · Oliver Wyman Forum (2025)** — How AI Leaders Are Taking Flight: A field guide to their practices, strategies, and cultures · F1 · relevância alta · [PDF](01_consultorias-estrategia/OliverWymanForum_2025_how-ai-leaders-are-taking-flight.pdf)
+  - Estudo de jun/2025 com CEOs listados na NYSE e dados de funcionários sobre os 4 traços dos líderes em IA, entre eles disciplina de ROI e transformação em vez de ajuste. Traz métricas de ganho de receita e custo.
+  - Métrica: 17% das empresas com receita >= US$ 1 bi reportam melhoria >10% em receita ou custo com IA (CEOs da NYSE, n=165, 2025) (p. 3)
+  - Métrica: 1 em cada 3 líderes obtém >20% da receita com produtos e serviços habilitados por IA; só 34% dos não líderes relatam algum ganho de receita (p. 3, 7)
+  - Métrica: 93% dos líderes citam impacto em custos e 14% mais de 20% de eficiência de custo (p. 7)
+  - Métrica: CEOs de líderes têm 7x mais chance de dizer que não é cedo para medir ROI; 48% dos não líderes acham cedo (p. 3, 7)
+- **M031 · Roland Berger (2026)** — The AI-First Organization: Turning AI power into enterprise performance (estudo completo) · F1, F2, F3 · relevância alta · [PDF](01_consultorias-estrategia/RolandBerger_2026_ai-first-organization.pdf)
+  - Estudo de jul/2026 que atribui o fracasso das transformações com IA ao modelo operacional intocado, não à tecnologia. Propõe nove mudanças em três camadas (fundação: governança, plataforma unificada e capacidade distribuída; execução: decisão por dados, processos reorganizados por resultado e nova liderança para força de trabalho híbrida IA-humano; escala: metas ousadas, estrutura mais enxuta e cultura AI-first). Muito útil para F2 (capacidades e dependências) e para mudanças organizacionais em F3. Obtido pelo usuário via formulário.
+  - Métrica: 62% esperam mudanças grandes ou radicais no modelo operacional por causa da IA, mas só 38% começaram a mudá-lo; 59% consideram a liderança despreparada (472 executivos, fim de 2025 e início de 2026) (p. 2, 6)
+  - Métrica: 59% dizem que a governança de dados é insuficiente; empresas líderes em IA têm 3,7 vezes mais chance de operar uma plataforma tecnológica compartilhada (p. 14)
+  - Métrica: Líderes em IA operam com mais frequência com hierarquias achatadas (46% x 36% dos retardatários) e baixa complexidade organizacional (23% x 18%) (p. 19)
+  - Métrica: Líderes podem superar retardatários em produtividade por um fator de 2 a 3, levando a organizações menores, mais achatadas e enxutas (p. 10)
+- **M032 · Arthur D. Little (2026)** — Blue Shift Report 010: AI's Hidden Dependencies - Unpacking AI's resource strain & systemic vulnerabilities · F3 · relevância media · [PDF](01_consultorias-estrategia/ADL_2026_blue-shift-ai-hidden-dependencies.pdf)
+  - Relatório de jan/2026 sobre as dependências da IA em energia, água, minerais e compute, e as vulnerabilidades sistêmicas e de soberania. Útil para riscos, soberania tecnológica e o elo com o setor de energia.
+  - Métrica: Emissões de data centers ~180 MtCO2e (~0,5% das emissões globais), devem ao menos dobrar até 2030 (p. 7)
+  - Métrica: Demanda de energia da IA de ~90 TWh para ~470 TWh até 2030, cerca de 5x (p. 7)
+  - Métrica: IA em indústrias intensivas em energia pode evitar 5-10% das emissões diretas (p. 7)
+  - Métrica: Menos de 3% dos novos modelos de IA divulgam dados ambientais desde 2024, vs. 10% em 2023 (p. 7)
+- **M033 · Arthur D. Little (2026)** — The AI First Organization: How IT can help reshape the operating model for AI · F1, F2 · relevância media · [PDF](01_consultorias-estrategia/ADL_2026_ai-first-organization.pdf)
+  - Viewpoint da ADL (set/2026) sobre três ondas de modelo operacional até o 'AI First' e os novos papéis necessários: gestão do ciclo de vida de agentes, dono de plataforma, supervisão humana.
+  - Métrica: Integrar agentes em workflows inalterados rende ganhos direcionais de 10-20%; redesenhar para um modelo operacional agêntico pode chegar a 50% (p. 2)
+- **M034 · Boston Consulting Group (BCG) (2026)** — How Physical AI Is Reshaping Robotics Today and What Comes Next · F2, F3 · relevância media · [PDF](01_consultorias-estrategia/BCG_2026_physical-ai-reshaping-robotics-five-levels.pdf)
+  - Artigo da BCG (abr/2026) com uma escala de 5 níveis para separar capacidades robóticas já implantáveis de apostas futuras. Útil para um roadmap de robótica de campo e manipulação de objetos variáveis.
+  - Métrica: Framework de 5 níveis de maturidade da robótica (programação explícita, percepção visual, manipulação destra, planejamento de workflow, raciocínio); o valor de curto prazo está nos níveis 2 e 3 (p. 4-5)
+  - Métrica: Projeções de mercado de humanoides em 2030 variam de menos de 1 mi a mais de 6 mi unidades/ano (p. 1)
+- **M035 · Boston Consulting Group (BCG) (2024)** — Where's the Value in AI? · F1, F2 · relevância media · [PDF](01_consultorias-estrategia/BCG_2024_wheres-the-value-in-ai.pdf)
+  - Edição 2024 do estudo de maturidade em IA da BCG, antecessora do 'Widening AI Value Gap'. Útil pela curva de maturidade e pela regra 10-20-70.
+  - Métrica: Só 26% das empresas desenvolveram capacidades para ir além da prova de conceito; 4% estão na fronteira; 74% sem valor tangível (1.000 CxOs, 59 países, 2024) (p. 3-4)
+  - Métrica: Líderes: crescimento de receita 50% maior, TSR 60% maior e ROIC 40% maior em 3 anos (p. 4)
+  - Métrica: 62% do valor gerado pelos líderes vem de processos core (p. 5)
+  - Métrica: Regra 10-20-70: 10% algoritmos, 20% tecnologia e dados, 70% pessoas e processos (p. 6)
+- **M036 · Distrito (AI Factory) (2026)** — Distrito AI Adoption Framework 2026 (infográfico completo) · F2 · relevância media · [PDF](01_consultorias-estrategia/Distrito_2026_ai-adoption-framework.pdf)
+  - Framework brasileiro de adoção de IA em 6 etapas, numa página: (1) mapeamento de dores em matriz maturidade do processo × intensidade da dor; (2) oportunidades de IA avaliadas por dados, risco, natureza da tarefa, valor de negócio e integração com TI; (3) escolha entre quatro famílias de solução (automação de processos, assistência cognitiva, inteligência preditiva, IA generativa e estratégica); (4) priorização por valor, viabilidade, complexidade e aplicabilidade; (5) esteira de estratégia e discovery, MVP e deployment em escala; (6) governança com FinOps de IA, TRiSM, observabilidade, avaliação de qualidade, ModelOps, gestão de terceiros e governança do conhecimento. Sem métricas; útil como referência de roadmap e de componentes de governança para F2. Material de divulgação comercial da AI Factory do Distrito. Obtido pelo usuário via formulário.
+- **M037 · Kearney (2026)** — The field goes digital · F1, F3 · relevância media · [PDF](01_consultorias-estrategia/Kearney_2026_the-field-goes-digital.pdf)
+  - Artigo curto da Kearney (jan/2026) com 4 tendências de agricultura de precisão e IA no campo e ganhos típicos. Serve como referência rápida de métricas de tecnologias de campo.
+  - Métrica: Pulverização direcionada com câmeras e IA: até 90% de economia de herbicida em testes de campo (p. 1)
+  - Métrica: Irrigação inteligente: até 20% de economia de água com ganho de produtividade (p. 2)
+  - Métrica: Adubação em taxa variável: -14% de fertilizante em média e até +6% de produtividade (p. 2)
+  - Métrica: Tecnologias digitais reduziram ~7% do consumo de combustível em fazendas dos EUA (p. 3)
+- **M038 · Kearney (2026)** — Your AI use cases may not be 'true AI' yet. How do you scale them to create enterprise value? · F2 · relevância media · [PDF](01_consultorias-estrategia/Kearney_2026_ai-use-cases-scale-enterprise-value.pdf)
+  - Artigo de set/2026 sobre 3 equívocos de maturidade: muitos casos de uso não significam maturidade, ferramenta não é transformação e funções isoladas não capturam valor. Propõe governança para escalar.
+  - Métrica: Só 11% das empresas do S&P 500 tinham IA profundamente integrada aos processos em 2025 e outras 10% usavam IA em produção (análise MIT FutureTech citada) (p. 1)
+  - Métrica: Assistente de IA generativa elevou em ~14% a produtividade de mais de 5.000 agentes de suporte (estudo NBER citado) (p. 2)
+- **M039 · McKinsey & Company (2026)** — Building the foundations for agentic AI at scale · F2 · relevância media · [PDF](01_consultorias-estrategia/McKinsey_2026_foundations-agentic-ai-at-scale.pdf)
+  - Artigo de abr/2026 sobre fundações de dados, arquitetura e modelo operacional para escalar agentes. Útil para mapear dependências críticas (dados) no roadmap.
+  - Métrica: Quase 2/3 das empresas já experimentaram agentes, mas menos de 10% os escalaram gerando valor tangível (2026) (p. 2)
+  - Métrica: 8 em cada 10 empresas citam limitações de dados como barreira para escalar IA agêntica (p. 2)
+- **M040 · McKinsey & Company (2026)** — Sovereign AI: Building ecosystems for strategic resilience and impact · F3, F1 · relevância media · [link](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/sovereign-ai-building-ecosystems-for-strategic-resilience-and-impact)
+  - Artigo de 12 páginas (03/03/2026) baseado em survey global com empresas, provedores, governos e investidores. Recomenda tratar soberania como portfólio (cargas soberanas, híbridas e globais, a 'soberania mínima suficiente'), descreve 7 características de ecossistemas eficazes e os modelos de parceria que funcionam. Mostra que a maioria das empresas tem soberania no roadmap de 2026, mas poucas têm orçamento e classificação de cargas.
+  - Métrica: 30% a 40% do gasto com IA pode depender de requisitos de soberania, um mercado de US$ 500-600 bi até 2030
+  - Métrica: Ofertas de IA soberana são vistas como 10% a 30% mais caras que as alternativas globais
+  - Métrica: Migrações para nuvem ou IA soberana levam em geral 3 a 4 anos
+- **M041 · McKinsey & Company (2025)** — Superagency in the Workplace: Empowering people to unlock AI's full potential · F1, F2 · relevância media · [PDF](01_consultorias-estrategia/McKinsey_2025_superagency-in-the-workplace.pdf)
+  - Relatório de jan/2025 sobre a prontidão de funcionários e líderes para a IA. Argumenta que a principal barreira à escala é a liderança, não os funcionários.
+  - Métrica: 92% das empresas planejam aumentar investimentos em IA nos próximos 3 anos, mas só 1% dos líderes consideram a empresa 'madura' (3.613 funcionários e 238 executivos C-level, out-nov/2024) (p. 3)
+  - Métrica: Oportunidade de longo prazo de US$ 4,4 tri em produtividade com casos de uso corporativos (p. 3)
+  - Métrica: Líderes estimam que 4% dos funcionários usam IA generativa em >=30% do trabalho diário; o número real é ~3x maior (p. 13)
+- **M042 · McKinsey & Company (2022)** — The data-driven enterprise of 2025 · F1, F2 · relevância media · [PDF](01_consultorias-estrategia/McKinsey_2022_data-driven-enterprise-of-2025.pdf)
+  - Referência clássica (jan/2022) de estratégia de dados, com as 7 características de uma empresa orientada a dados. Útil como base para a dimensão dados do modelo de maturidade.
+  - Métrica: Framework com 7 características da empresa orientada a dados; empresas com 20% do EBIT vindo de IA são mais propensas a adotar essas práticas (referência ao State of AI 2021) (p. 2)
+- **M043 · McKinsey & Company (2025)** — The sovereign AI agenda: Moving from ambition to reality (Tech: Forward) · F3 · relevância media · [link](https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/tech-forward/the-sovereign-ai-agenda-moving-from-ambition-to-reality)
+  - Blog da McKinsey (18/12/2025) com as 4 dimensões da soberania (territorial, operacional, tecnológica e jurídica), a diferença entre nuvem soberana e IA soberana, e os 4 grupos de atores do ecossistema. Página lida em 30/09/2026; a impressão em PDF falhou.
+  - Métrica: 71% de 300 executivos, investidores e autoridades classificam a IA soberana como 'preocupação existencial' ou 'imperativo estratégico' (survey global McKinsey, 2025)
+  - Métrica: A IA soberana pode virar um mercado de US$ 600 bi até 2030; setor público e setores regulados podem levar até 40% das cargas de IA para ambientes soberanos
+  - Métrica: Só cerca de 30 países têm infraestrutura de computação local capaz de rodar cargas avançadas de IA
+- **M044 · McKinsey & Company (Agriculture Practice) (2024)** — From bytes to bushels: How gen AI can shape the future of agriculture · F1, F3 · relevância media · [PDF](01_consultorias-estrategia/McKinsey_2024_from-bytes-to-bushels-gen-ai-agriculture.pdf)
+  - Artigo de jun/2024 com casos de uso de IA generativa ao longo da cadeia agro, como P&D de moléculas, agronomia, vendas e atendimento, e o dimensionamento do valor.
+  - Métrica: IA analítica e generativa pode gerar ~US$ 100 bi de valor na lavoura (mão de obra, custos, produtividade) e ~US$ 150 bi nas empresas da cadeia agro (valor em EBITA) (p. 2)
+- **M045 · McKinsey & Company (Agriculture Practice) (2024)** — Global Farmer Insights 2024 · F3 · relevância media · [link](https://www.mckinsey.com/industries/agriculture/our-insights/global-farmer-insights-2024)
+  - Fonte citada pelo DR (cerca de 4.400 produtores; adoção nos EUA) e pelo Radar Agtech 2024, que usa o dado de adoção na América Latina (+10 p.p. entre 2022 e 2024). A página oficial bloqueou o acesso (HTTP 403 e erro HTTP/2, inclusive na impressão pelo Chrome) e não há PDF oficial; só um re-upload não oficial, que não foi usado. As edições 2026 e o recorte Brasil 2025 já estão no índice.
+- **M046 · McKinsey & Company (McKinsey Digital) (2025)** — Data in the age of AI: A conversation with Mark Birkhead of JPMorgan Chase (entrevista, 05/06/2025) · F1 · relevância media · [PDF](01_consultorias-estrategia/McKinsey_2025_jpmorgan-birkhead-data-age-of-ai.pdf)
+  - Entrevista citada pelo deep research (que usou o endereço mckinsey.com.br). Documenta como o JPMorgan organiza dados e IA: a CDAO no comitê executivo, reportando ao CEO, com modelo central-federado e foco em dados prontos para IA. Os números de usuários da LLM Suite repetem os do Investor Day 2025, já catalogado.
+  - Métrica: Escritório firmwide de Chief Data & Analytics criado em meados de 2023; a CDAO reporta ao CEO e integra o comitê operacional; o CDO define a estratégia central de dados e a implementa em modelo federado com as linhas de negócio (p. 2)
+  - Métrica: Mais de um exabyte de dados na firma, com mais de 300 mil funcionários (p. 2)
+  - Métrica: 200 mil usuários na LLM Suite, a plataforma que entrega LLMs aos funcionários com guardrails (2025) (p. 3)
+  - Métrica: Prioridades: tornar os dados 'AI-ready', tirando humanos do ciclo de correção de dados (esforço plurianual), e escalar produtos de dados (p. 3)
+- **M047 · McKinsey & Company (QuantumBlack) (2024)** — The state of AI in early 2024: Gen AI adoption spikes and starts to generate value · F1, F2 · relevância media · [PDF](01_consultorias-estrategia/McKinsey_2024_state-of-ai-early-2024-genai-adoption-spikes.pdf)
+  - Edição de maio/2024 da pesquisa anual da McKinsey. Completa a série histórica (as edições 2025 e 2026 já estão no catálogo) e traz o primeiro recorte de 'high performers' de IA generativa pelo EBIT.
+  - Métrica: Só 46 de 876 respondentes que usam IA generativa atribuem mais de 10% do EBIT a ela (p. 18)
+  - Métrica: Adoção de IA saltou para 72% depois de 6 anos em torno de 50%; 65% usam IA generativa regularmente (1.363 participantes, fev-mar/2024) (p. 2-3)
+  - Métrica: América Central e do Sul tem a menor adoção: 58% (p. 3)
+  - Métrica: 44% já tiveram ao menos uma consequência negativa da IA generativa, sobretudo imprecisão (p. 13)
+- **M048 · Oliver Wyman Forum (com UC Berkeley) (2026)** — The industrial AI divide: How AI leaders are pulling ahead across transportation, logistics, and defense · F1, F2 · relevância media · [PDF](01_consultorias-estrategia/OliverWymanForum_2026_industrial-ai-divide.pdf)
+  - Relatório de jul/2026 sobre como escalar IA em setores de ativos pesados, regulados e críticos em segurança, com base em mais de 50 entrevistas. Setores análogos às operações agroindustriais.
+  - Métrica: 12% dos CEOs de transporte, aviação e automotivo relatam ganhos de receita com IA acima de 20%, o maior share entre setores (CEO Agenda 2026 Oliver Wyman Forum x NYSE) (p. 4, 8)
+  - Métrica: 58% dos profissionais de manutenção aeronáutica (MRO) dizem que as expectativas de valor da IA foram atingidas ou superadas, vs. 20% em 2024 (p. 5)
+  - Métrica: Três arquétipos de escala de IA: líderes, adotantes e retardatários (p. 4, 8)
+- **M049 · Roland Berger (2026)** — Crafting tomorrow: How shared capabilities drive AI-First organizations · F1 · relevância media · [link](https://www.rolandberger.com/en/Insights/Publications/Crafting-tomorrow-How-shared-capabilities-drive-AI-first-organizations.html)
+  - Estudo de mar/2026 sobre estruturas de plataforma (capacidades compartilhadas com dono e financiamento) como base organizacional para escalar IA e agentes. O PDF exige cadastro.
+  - Métrica: 60% das empresas que escalam abaixo da média do setor não operam nenhuma plataforma de capacidades compartilhadas (página oficial)
+- **M050 · Roland Berger (com Aleph Alpha) (2025)** — AI sovereignty: A strategic imperative for European industry · F3 · relevância media · [link](https://www.rolandberger.com/en/Insights/Publications/AI-sovereignty.html)
+  - Estudo de set/2025 sobre soberania de IA e dependência de plataformas estrangeiras na indústria. Útil para o tema soberania tecnológica e dados; o PDF exige cadastro.
+  - Métrica: Mais de 80% dos produtos, serviços e propriedade intelectual digitais usados na UE vêm de empresas não europeias (página oficial)
+  - Métrica: A Europa desenvolveu 3 grandes modelos de IA em 2024, vs. 40 nos EUA e 15 na China (página oficial)
+- **M051 · McKinsey & Company (2024)** — Charting a path to the data- and AI-driven enterprise of 2030 · F2 · relevância baixa · [link](https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/charting-a-path-to-the-data-and-ai-driven-enterprise-of-2030)
+  - Sucessor de 'The data-driven enterprise of 2025' (M032), sobre estratégia de dados e o papel do líder de dados e IA. O site devolveu HTTP 403 e o WebFetch esgotou o tempo; nenhuma métrica foi verificada.
+- **M052 · McKinsey & Company (2024)** — Gen AI's next inflection point: From employee experimentation to organizational transformation · F3 · relevância baixa · [link](https://www.mckinsey.com/capabilities/people-and-organization/our-insights/gen-ais-next-inflection-point-from-employee-experimentation-to-organizational-transformation)
+  - Artigo (ago/2024) sobre a passagem da experimentação individual para a transformação organizacional, citado no deep research. O site devolveu HTTP 403; nenhuma métrica foi verificada.
+- **M053 · McKinsey & Company (2024)** — Why agents are the next frontier of generative AI · F3 · relevância baixa · [link](https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/why-agents-are-the-next-frontier-of-generative-ai)
+  - Artigo conceitual (jul/2024) sobre a passagem de copilots para agentes, citado no deep research. O site devolveu HTTP 403 a todas as tentativas de leitura; nenhuma métrica foi verificada.
+
+## Big Four, Accenture e Capgemini
+
+Pasta: `02_big4-accenture-capgemini/`
+
+- **M054 · Accenture (2026)** — From early impact to enduring advantage: The intelligent superhighway you need to unlock value from AI · F2, F1 · relevância alta · [PDF](02_big4-accenture-capgemini/Accenture_2026_from-early-impact-to-enduring-advantage.pdf)
+  - Roadmap da Accenture (2026) baseado em cerca de 6.000 projetos de IA, com 5 'verdades' sobre a captura de valor e 3 fases até a IA sistêmica. Trata diretamente de trajetórias e prazos de adoção.
+  - Métrica: 86% das organizações planejam aumentar o investimento em IA em 2026, mas só 21% redesenharam processos de ponta a ponta com a IA no centro (pesquisa Pulse of Change, 3.650 executivos, 20 setores, 20 países) (p. 4)
+  - Métrica: O impacto financeiro relevante da IA vem tarde: aparece depois de 12 meses ou mais de modernização (p. 5)
+  - Métrica: Cerca de 70% dos orçamentos de tecnologia ainda sustentam sistemas legados (p. 6)
+  - Métrica: Bancos levam de 9 a 18 meses para montar as capacidades fundacionais antes de o primeiro caso de uso chegar à produção (p. 13)
+- **M055 · Accenture (2026)** — Pulse of Change (julho de 2026) · F1, F3 · relevância alta · [PDF](02_big4-accenture-capgemini/Accenture_2026_pulse-of-change-july-2026.pdf)
+  - Relatório completo da onda de julho de 2026 (publicado em 26/07/2026) da pesquisa Accenture com C-levels de empresas com receita acima de US$ 500 milhões. O relatório só existe como página web e foi salvo em PDF. O Brasil está na lista de países (lida na página oficial; a lista fica numa seção recolhida do PDF).
+  - Métrica: 82% dos C-levels estão aumentando o investimento em IA, mas só 23% relatam valor de negócio amplo e sustentado, ante 32% no início de 2026 (3.000 C-levels e 3.000 empregados, abr-jun/2026) (p. 2)
+  - Métrica: 55% confiam que suas iniciativas de IA agêntica darão resultados reportáveis ao conselho em até um ano; 49% das empresas pilotam ou implantam agentes (p. 2-3)
+  - Métrica: 7 em cada 10 C-levels dizem que o impacto da IA agêntica na produtividade superou o esperado; 81% dos empregados dizem que a IA aumentou sua produtividade (p. 3-4)
+  - Métrica: 52% continuariam investindo em IA mesmo se uma bolha estourasse; só 10% acreditam que existe uma bolha significativa (p. 2)
+- **M056 · Accenture (2024)** — Reinventing Enterprise Operations: How reinvention-ready companies are driving growth and relevance with gen AI · F2 · relevância alta · [PDF](02_big4-accenture-capgemini/Accenture_2024_reinventing-enterprise-operations-gen-ai.pdf)
+  - Modelo de maturidade de operações inteligentes da Accenture, com 4 estágios e 3 habilitadores (talento, ativos e plataformas, métodos e processos), ligado a resultados financeiros e à escala de IA generativa.
+  - Métrica: Estágios de maturidade das operações: Foundational 8%, Automated 56%, Insights-driven 20% e Reinvention-ready 16% (2.000 executivos, 12 países, 15 setores) (p. 6-7, 10)
+  - Métrica: As empresas 'reinvention-ready' passaram de 9% em 2023 para 16% em 2024 (p. 11)
+  - Métrica: Comparadas às Foundational, as Reinvention-ready têm 2,5 vezes o crescimento médio de receita, 2,4 vezes os ganhos de produtividade e 3,3 vezes mais sucesso em escalar casos de IA generativa de alto valor (p. 11)
+- **M057 · Accenture (2025)** — Sovereign AI: Own your AI future — From managing risk to accelerating growth · F3, F1 · relevância alta · [PDF](02_big4-accenture-capgemini/Accenture_2025_sovereign-ai-own-your-ai-future.pdf)
+  - Pesquisa da Accenture com quase 2 mil líderes de empresas e governos sobre IA soberana. Propõe 4 imperativos: soberania liderada pelo CEO, soberania como fonte de valor, ecossistemas híbridos entre provedores globais e locais, e arquitetura flexível. Útil para dependência de fornecedores e para definir quem decide soberania na governança de IA.
+  - Métrica: 61% estão mais propensos a adotar soluções soberanas por causa do risco geopolítico (41% mais e 20% muito mais) (survey Accenture, n=1.928, jul-ago/2025) (p. 5)
+  - Métrica: Só 15% levaram a soberania de IA ao nível do CEO ou do conselho; a decisão cabe ao CDO/CAIO em 37%, a compliance/risco em 29% e à TI em 19% (p. 8)
+  - Métrica: Motivações ainda defensivas: conformidade regulatória 46%, controle de dados críticos 28%, segurança nacional ou setorial 27%; menos de 13% citam monetização de dados (p. 9-10)
+  - Métrica: Aplicar soberania a cerca de 1/3 das iniciativas de IA basta para capturar as oportunidades soberanas (p. 3 e 14)
+- **M058 · Accenture (2022)** — The art of AI maturity: Advancing from practice to performance · F2 · relevância alta · [PDF](02_big4-accenture-capgemini/Accenture_2022_art-of-ai-maturity.pdf)
+  - Framework clássico de maturidade em IA da Accenture (Achievers, Builders, Innovators, Experimenters), com 5 práticas dos líderes. É a base do índice atualizado no guia de 2025.
+  - Métrica: Só 12% das empresas são 'AI Achievers', 25% são moderadamente avançadas e 63% ainda estão testando (cerca de 1.200 empresas) (p. 3)
+  - Métrica: Os AI Achievers já tinham, em 2019, crescimento de receita 50% maior que os pares (p. 3)
+  - Métrica: A projeção era de que a fatia de Achievers subiria de 12% para 27% até 2024 (p. 4)
+- **M059 · Accenture (2025)** — The front-runners' guide to scaling AI: Lessons from industry leaders · F2, F1 · relevância alta · [PDF](02_big4-accenture-capgemini/Accenture_2025_front-runners-guide-scaling-ai.pdf)
+  - Framework de maturidade da Accenture com 3 grupos e 10 capacidades (5 fundacionais e 5 novas para IA generativa), mais 'apostas estratégicas' por setor. Liga os estágios ao ROI.
+  - Métrica: Só 15% das grandes empresas são 'AI reinvention-ready'; 43% estão 'progredindo' e 42% 'experimentando' (índice de maturidade em capacidades de dados e IA; 2.000 executivos de 1.998 empresas acima de US$ 1 bi) (p. 3, 8)
+  - Métrica: Empresas que escalaram ao menos uma 'aposta estratégica' têm cerca de 3 vezes mais chance de ver o ROI da IA generativa superar o previsto (p. 6)
+  - Métrica: Expectativa média 18 meses após escalar a IA generativa: +13% de produtividade, +12% de crescimento de receita e -11% de custos (p. 6)
+  - Métrica: Empresas com apostas estratégicas escaladas destinam 51% do orçamento de tecnologia a nuvem e IA, contra 45% das demais (p. 5)
+- **M060 · Capgemini Research Institute (2025)** — Harnessing the value of AI: Unlocking scalable advantage · F1, F2, F3 · relevância alta · [PDF](02_big4-accenture-capgemini/Capgemini-CRI_2025_harnessing-value-of-ai-scalable-advantage.pdf)
+  - Terceira edição da pesquisa anual da Capgemini sobre IA generativa nas empresas, com adoção por função, prazo de ROI e causas de insatisfação.
+  - Métrica: A adoção de IA generativa (em escala parcial ou total) subiu de 6% em 2023 para 30% em 2025; 93% exploram, pilotam ou já habilitam IA generativa (1.100 líderes, empresas acima de US$ 1 bi, 15 países) (p. 4, 7, 10)
+  - Métrica: 79% estão satisfeitos com os resultados da IA generativa (43% acima e 36% dentro do esperado); o ROI positivo é esperado em 3,2 anos, em média (p. 18)
+  - Métrica: Motivos de insatisfação: métricas pouco claras (56%), falta de metodologia de implantação (48%), casos de uso demais (44%) e falta de gestão e governança de dados (42%) (p. 18)
+  - Métrica: 14% implementaram agentes de IA em escala parcial (12%) ou total (2%); 23% estão em piloto (p. 7)
+- **M061 · Capgemini Research Institute (2026)** — Physical AI: Taking human-robot collaboration to the next level · F3 · relevância alta · [PDF](02_big4-accenture-capgemini/Capgemini-CRI_2026_physical-ai-robotics-across-industries.pdf)
+  - Relatório da Capgemini sobre robótica com IA física. A agricultura aparece como domínio de expansão, com o desafio de ambientes variáveis e caso de modelos de fundação para robôs agrícolas. Ligado diretamente a escassez de mão de obra e autonomia no campo.
+  - Métrica: 79% das organizações já trabalham com IA física; 27% estão implantando ou escalando; 65% esperam chegar à escala em 5 anos (1.678 executivos, 15 indústrias) (p. 4, 11)
+  - Métrica: Principais motivadores: escassez de mão de obra (74%) e alta do custo do trabalho (69%) (p. 11)
+  - Métrica: Humanoides: 78% esperam implantá-los em escala, mas em 7 anos em média; só 30% os veem viáveis em 3 a 5 anos (p. 12)
+  - Métrica: 67% veem a IA física como transformadora para o seu setor (p. 10)
+- **M062 · Capgemini Research Institute (2025)** — Rise of agentic AI: How trust is the key to human-AI collaboration · F2, F3 · relevância alta · [PDF](02_big4-accenture-capgemini/Capgemini-CRI_2025_rise-of-agentic-ai.pdf)
+  - Estudo da Capgemini sobre IA agêntica com escala de níveis de autonomia dos agentes, valor projetado e confiança. Útil para incluir agentes nos modelos de maturidade.
+  - Métrica: Agentes de IA podem gerar até US$ 450 bi em valor econômico (receita e custos) até 2028 nos 14 países pesquisados (1.500 líderes) (p. 4, 8, 17)
+  - Métrica: A confiança em agentes totalmente autônomos caiu de 43% para 27% em 12 meses (p. 4)
+  - Métrica: 14% implementaram agentes (12% parcial, 2% total), 23% estão em piloto e 61% se preparam ou exploram (p. 4)
+  - Métrica: Organizações com implantação avançada devem gerar cerca de US$ 382 mi (2,5% da receita anual) em 3 anos, contra cerca de US$ 76 mi (0,5%) das demais, numa empresa média de US$ 15 bi (p. 17)
+- **M063 · Capgemini Research Institute (2026)** — The multi-year AI advantage: Building the enterprise of tomorrow · F1, F2, F3 · relevância alta · [PDF](02_big4-accenture-capgemini/Capgemini-CRI_2026_multi-year-ai-advantage.pdf)
+  - Research brief de jan/2026 da Capgemini sobre investimento plurianual em IA, habilitadores de escala, soberania e colaboração entre pessoas e IA.
+  - Métrica: A fatia do orçamento anual de negócios destinada à IA deve subir de 3% em 2025 para 5% em 2026 (mais de 1.500 líderes, 15 países) (p. 6)
+  - Métrica: 38% já operacionalizam a IA generativa em escala (p. 6)
+  - Métrica: Habilitadores para sair do piloto: patrocínio executivo (67%), parcerias externas (59%), clareza regulatória e frameworks éticos (53%) e infraestrutura de dados escalável (51%) (p. 7)
+  - Métrica: 66% relatam ganhos mensuráveis de produtividade e de qualidade de decisão com a colaboração entre pessoas e IA; 54% priorizam soberania de dados (p. 7)
+- **M064 · Deloitte (Reino Unido/Global) (2025)** — AI ROI: The paradox of rising investment and elusive returns · F1, F2 · relevância alta · [PDF](02_big4-accenture-capgemini/Deloitte_2025_ai-roi-paradox-rising-investment-elusive-returns.pdf)
+  - Estudo da Deloitte de 22/10/2025 sobre ROI e payback da IA (Jan Michalski, Stacey Winters, Douglas Gunn e Jennifer Holland). Não há link 'Download PDF' nos sites global e do Reino Unido; a página oficial foi salva em PDF com as seções expansíveis abertas (as cinco práticas dos líderes e a metodologia). Métricas novas em relação à rodada 1.
+  - Métrica: Em 10% das organizações o CEO é o principal líder da agenda de IA (1.854 executivos na Europa e no Oriente Médio, ago-set/2025) (p. 1, 17)
+  - Métrica: 57% dos respondentes já usam IA agêntica (p. 4)
+  - Métrica: Modelo de investimento: 38% híbrido (desenvolvimento interno + ferramentas externas), 32% soluções de fornecedores e 24% capacidade interna (p. 9)
+  - Métrica: Executivo de energia, recursos e indústria relata ROI de 100% em alguns projetos: cada euro investido rendeu de dois a três euros de benefícios por ano (p. 10)
+- **M065 · Deloitte AI Institute (2026)** — State of AI in the Enterprise — The untapped edge (2026) · F1, F2, F3 · relevância alta · [PDF](02_big4-accenture-capgemini/Deloitte_2026_state-of-ai-in-the-enterprise.pdf)
+  - Principal pesquisa anual da Deloitte sobre IA corporativa, com amostra brasileira. Cobre a passagem do piloto à produção, redesenho do trabalho, IA agêntica, IA física e soberania.
+  - Métrica: Só 25% levaram 40% ou mais dos experimentos de IA para produção; 54% esperam chegar lá em 3–6 meses (3.235 líderes, 24 países, ago–set/2025; Brasil n=115) (p. 4, 40)
+  - Métrica: O acesso dos trabalhadores a ferramentas de IA sancionadas subiu de menos de 40% para cerca de 60% em um ano (p. 4)
+  - Métrica: 25% relatam efeito transformador da IA (12% um ano antes); 84% aumentaram o investimento em IA (p. 10)
+  - Métrica: Aumento de receita com IA: 20% já obtêm e 74% esperam obter; eficiência e produtividade: 66% já obtêm (p. 10)
+- **M066 · Deloitte AI Institute (2025)** — State of Generative AI in the Enterprise — Now decides next: Generating a new future (relatório do 4º trimestre) · F1, F2 · relevância alta · [PDF](02_big4-accenture-capgemini/Deloitte_2025_state-of-genai-enterprise-q4-now-decides-next.pdf)
+  - Consolidação anual da série Deloitte sobre IA generativa, com ROI por função, taxa de escala de pilotos e barreiras. É referência de ROI por área de aplicação.
+  - Métrica: 74% dizem que a iniciativa de IA generativa mais avançada atende ou supera a expectativa de ROI (43% atende, 31% supera); 20% relatam ROI acima de 30% (2.773 líderes, 14 países, jul–set/2024) (p. 5, 22)
+  - Métrica: Mais de 2/3 esperam escalar por completo 30% ou menos dos experimentos em 3–6 meses (p. 18)
+  - Métrica: Cibersegurança lidera o ROI acima do esperado (44% acima e 17% abaixo, saldo de +27 pontos); vendas, finanças e P&D têm mais iniciativas abaixo do esperado (p. 23)
+  - Métrica: 55%–70% esperam precisar de pelo menos 12 meses para resolver desafios de governança, treinamento, talentos, confiança e dados (p. 26)
+- **M067 · Deloitte Brasil (2026)** — State of AI in the Enterprise 2026 — recorte Brasil (release: 'IA entra em fase de escala enquanto papel estratégico avança nas empresas; mercado brasileiro se destaca') · F1, F2, F3 · relevância alta · [link](https://www.deloitte.com/br/pt/about/press-room/state-of-ai-2026.html)
+  - Release oficial com os números brasileiros do State of AI 2026: da escala de pilotos à governança de agentes, IA física e soberania. Não há PDF específico do Brasil.
+  - Métrica: 42% das empresas brasileiras usam IA para mudanças estruturais, contra 34% no mundo (n=115 no Brasil; 3.235 no total) (página oficial)
+  - Métrica: 22% no Brasil (20% no mundo) já veem aumento de receita com IA; 87% esperam ver (74% no mundo) (página oficial)
+  - Métrica: 58% das empresas brasileiras implementaram no máximo 20% dos pilotos de IA; só 23% escalaram 40% ou mais (página oficial)
+  - Métrica: 95% planejam adotar IA agêntica em até 2 anos, mas só 27% têm governança madura (21% no mundo) (página oficial)
+- **M068 · EY (Suíça / Europa) (2025)** — EY European AI Barometer 2025 · F1, F3 · relevância alta · [link](https://www.ey.com/en_ch/insights/ai/ey-study-european-ai-barometer-2025)
+  - Barômetro europeu de IA da EY com recorte setorial que inclui agricultura e agroindústria, raro nos estudos globais. O relatório completo exige formulário; as métricas foram lidas no HTML da página oficial.
+  - Métrica: 56% das organizações reduziram custos ou aumentaram lucros com IA (+11 p.p. sobre 45%), com efeito médio de € 6,24 mi por organização (página oficial, 05/08/2025)
+  - Métrica: Ganhos financeiros da IA são evidentes para 73% em agricultura e agroindústria, 78% em manufatura avançada e 74% em esportes; contra 35% no governo, 41% em serviços profissionais e 48% em saúde
+  - Métrica: Mais de 1/3 relatam efeito financeiro entre € 5 mi e € 15 mi
+  - Métrica: 44% dos respondentes relatam mais produtividade com IA, 8% queda, 24% nenhuma mudança e 26% não usam IA
+- **M069 · EY Brasil (2026)** — Top 10 Riscos e Oportunidades no Agro 2026 · F1, F3 · relevância alta · [PDF](02_big4-accenture-capgemini/EY-Brasil_2026_top10-riscos-oportunidades-agro.pdf)
+  - Pesquisa da EY com lideranças do agro brasileiro que mede a distância entre impacto e prontidão em 10 temas. No capítulo de tecnologia, conclui que IA, sensores e agtechs já entregam valor, mas conectividade, dados e capacitação são o gargalo e comprometem o ROI; no de pessoas, liga a escassez de profissionais preparados à dificuldade de escalar a tecnologia. Obtido pelo usuário via formulário.
+  - Métrica: 56% dos respondentes em posições C-level, lideranças de antes, dentro e depois da porteira no Brasil (p. 2)
+  - Métrica: A edição 2026 ranqueia os temas pela diferença entre impacto e prontidão; 'Tecnologia, transformação digital e inovação' é o 5º tema e 'Atração, desenvolvimento e retenção de pessoas' subiu de 8º (2022) para 2º (p. 3, 7, 13)
+  - Métrica: 79% avaliam os riscos climáticos como altos ou muito altos, o tema em que o setor se sente menos preparado (p. 5)
+  - Métrica: O agro atingiu 28,2 milhões de trabalhadores em 2024, e a mão de obra representa entre 20% e 40% do custo total de produção agrícola (p. 7)
+- **M070 · EY US (2026)** — EY Survey: C-Suites Pivot from AI Adoption to Unlocking Value as Escalating Token Costs Trigger Fiscal Scrutiny — US AI Pulse Survey, 5ª onda · F1, F3 · relevância alta · [PDF](02_big4-accenture-capgemini/EY_2026_ai-pulse-survey-wave5-token-costs-value.pdf)
+  - Release oficial da 5ª onda do AI Pulse da EY, salvo em PDF. Trata da virada de 'adoção' para 'valor', com custos de tokens, gasto real menor que o previsto e software interno criado com IA.
+  - Métrica: 98% dos líderes que investem em IA relatam ROI positivo (pelo menos 500 líderes dos EUA, 5ª onda, jul/2026) (p. 3)
+  - Métrica: O gasto real ficou abaixo do planejado: 35% esperavam gastar US$ 10 mi ou mais e só 23% gastam; 18% planejavam destinar 50% ou mais do orçamento à IA e só 3% o fizeram (p. 3)
+  - Métrica: 82% se preocupam com o uso e o custo de tokens, 98% reconsideraram a abordagem por isso, e só 64% monitoram tokens com limites de orçamento (p. 1-2)
+  - Métrica: 76% dizem que o software de prateleira não atende mais; 87% já implantaram ou pilotam software interno construído com IA (p. 2)
+- **M071 · EY US (2025)** — The dividend age: how AI is turning promise into payoff — US AI Pulse Survey, 4ª onda · F1, F3 · relevância alta · [PDF](02_big4-accenture-capgemini/EY_2025_ai-pulse-survey-wave4-productivity-reinvestment.pdf)
+  - 4ª onda do AI Pulse da EY, com ganhos de produtividade, conversão em resultado financeiro e destino dos ganhos da IA. Mostra reinvestimento em vez de corte de pessoal.
+  - Métrica: 96% das organizações que investem em IA tiveram ganhos de produtividade no último ano, e 57% ganhos significativos (500 líderes dos EUA, dez/2025) (p. 2, 4)
+  - Métrica: Quem investe US$ 10 mi ou mais tem ganhos significativos com mais frequência: 71%, contra 52% (p. 2)
+  - Métrica: 56% dos que têm ROI positivo dizem que ele virou melhora significativa e mensurável no desempenho financeiro (p. 4)
+  - Métrica: Destino dos ganhos: 47% expandem capacidades de IA existentes, 42% criam novas, 41% reforçam cibersegurança, 39% investem em P&D e 38% em requalificação; só 17% reduziram headcount (p. 9)
+- **M072 · KPMG International (2026)** — Global AI Pulse Q3 2026 — AI at scale: Accountability, resilience and economics · F1, F2 · relevância alta · [PDF](02_big4-accenture-capgemini/KPMG_2026_global-ai-pulse-q3.pdf)
+  - Pesquisa trimestral global da KPMG, a mais recente do grupo (set/2026). Traz estágios de maturidade com contagem por estágio e as práticas de gestão, governança e economia da IA que separam quem já tem ROI.
+  - Métrica: O investimento médio planejado em IA para os próximos 12 meses é de US$ 210 mi (2.131 líderes, 20 países incluindo o Brasil, jul–ago/2026) (p. 3, 25)
+  - Métrica: Só 12% comparam de forma consistente o valor gerado pela IA com o custo; entre as que já têm ROI estabelecido, são 48% (p. 3)
+  - Métrica: 55% operam uma camada formal de gestão da IA ('AI harness layer'); são 86% entre as que têm ROI estabelecido e 31% entre as que estão em experimentação (p. 3, 11)
+  - Métrica: 53% têm um executivo nomeado ou o comitê executivo responsável por decisões apoiadas por IA; 38% desenvolvem sistemas multiagentes (p. 3)
+- **M073 · KPMG International (2026)** — KPMG Global Tech Report 2026 — Leading in the Intelligence Age: Excelling today, shaping tomorrow · F1, F2 · relevância alta · [PDF](02_big4-accenture-capgemini/KPMG_2026_global-tech-report-leading-intelligence-age.pdf)
+  - Edição 2026 do Global Tech Report, que substitui a de 2024 citada no deep research. Mostra 'zonas de ROI' por maturidade: ganhos rápidos no início, desaceleração com a complexidade e nova aceleração com a maturidade. Também traz o perfil dos high performers e as expectativas para IA agêntica.
+  - Métrica: ROI médio em tecnologia de 200% (2x). Por perfil: high performers 4,5x, empresas menores 3,6x, early adopters 2,2x contra 1,4x dos retardatários, empresas focadas em transformação 3,2x (2.500 executivos de tecnologia, 27 países, pesquisa de 2025) (p. 4, 12)
+  - Métrica: Empresas com IA em produção em escala e ROI em vários casos de uso caíram de 31% (2024) para 24% (2025), 7 p.p. a menos; 68% esperam chegar lá até o fim de 2026 (p. 9)
+  - Métrica: 51% dizem que processos legados contribuem para ROI ruim em tecnologia (p. 12)
+  - Métrica: Só 11% estão hoje no nível máximo de maturidade tecnológica (p. 3)
+- **M074 · KPMG International (2025)** — Shaping the intelligent enterprise: Advancing beyond single-point AI use cases to agentic workflows · F1, F3 · relevância alta · [PDF](02_big4-accenture-capgemini/KPMG_2025_shaping-intelligent-enterprise-agentic-workflows.pdf)
+  - Estudo da KPMG (set/2025) sobre a passagem de casos de uso isolados para fluxos agênticos. Os modelos operacionais híbridos atuais estão chegando ao limite; a orquestração ponta a ponta exige redesenhar governança, dados e força de trabalho. Traz ROI por setor.
+  - Métrica: Modelos operacionais híbridos (profundidade funcional com agilidade) elevam o ROI da IA em 10% frente aos tradicionais (mais de 1.400 executivos, 8 setores) (p. 3)
+  - Métrica: 58% já têm ROI moderado (>10%) a muito alto com IA; 71% relatam ganhos de eficiência mensuráveis e 43% atribuem crescimento de receita à IA (p. 4)
+  - Métrica: Energia (n=124): 21% com ROI baixo (até 10%), 55% moderado (11-30%) e 24% alto (acima de 30%); manufatura: 11%, 53% e 36% (p. 4)
+  - Métrica: 86% acham que quem adotar IA no seu setor terá vantagem competitiva (p. 4)
+- **M075 · Protiviti (2026)** — AI Pulse Survey Vol. 5 — The AI-People Conundrum: Learning to Lead, Not Lag · F3, F1 · relevância alta · [PDF](02_big4-accenture-capgemini/Protiviti_2026_ai-pulse-vol5-ai-people-conundrum-workforce.pdf)
+  - Pesquisa de 2026 sobre transformação da força de trabalho: o RH não está preparado para liderar a requalificação, o treinamento avança mais que o redesenho do trabalho, e o desalinhamento no C-level reduz o ROI. Traz 7 perguntas para avaliar a prontidão da força de trabalho.
+  - Métrica: Captura de valor como principal motor da IA deve passar de 10% hoje para 52% em 3 anos; otimização de processos cai de 50% para 32% e produtividade de 40% para 16% (~800 executivos, abr/2026) (p. 9, 12)
+  - Métrica: Penetração de IA (mais de 25% do trabalho habilitado por IA): TI 57% contra RH 11% hoje; em 3 anos, 88% contra 50% (p. 6)
+  - Métrica: 62% dos CIOs/CTOs esperam ao menos metade do trabalho de TI habilitado por IA em 3 anos, contra 5% dos CHROs sobre o RH (p. 6)
+  - Métrica: 91% esperam organogramas com trabalhadores humanos e digitais até 2030 (82% dos CHROs contra 93% dos demais C-levels) (p. 3-4)
+- **M076 · Protiviti (2026)** — When AI Readiness Meets ROI Reckoning — AI Pulse Lessons Learned · F2, F1 · relevância alta · [PDF](02_big4-accenture-capgemini/Protiviti_2026_ai-readiness-meets-roi-reckoning.pdf)
+  - Síntese de um ano da série AI Pulse (milhares de líderes) sobre 'pilotos perpétuos', barreiras de otimização (integração de sistemas, clareza de casos de uso, talentos, compliance) e governança de agentes, com a criação de comitês de governança de agentes de IA. Dá métricas diretas de ROI por maturidade.
+  - Métrica: Empresas presas no estágio 2 (experimentação) têm 5x mais chance de ROI abaixo do esperado que as que escalaram, e cerca de 1/3 da chance de superá-lo (p. 6)
+  - Métrica: Com diretrizes claras sobre que dados podem ir para LLMs públicos, 40% superam o ROI esperado; sem elas, 36% ficam abaixo (p. 5)
+  - Métrica: 97% das empresas que superaram com folga o ROI esperado confiam em suas capacidades de dados (p. 5)
+  - Métrica: Quem sai do modo piloto e escala tem 3x mais chance de superar o ROI esperado (página oficial)
+- **M077 · PwC (2026)** — Leading through uncertainty in the age of AI — PwC's 29th Global CEO Survey · F1, F3 · relevância alta · [PDF](02_big4-accenture-capgemini/PwC_2026_29th-global-ceo-survey.pdf)
+  - Maior pesquisa global com CEOs. Mede o retorno financeiro percebido da IA e descreve a 'vanguarda', que ganha receita e reduz custos ao mesmo tempo (fundações de IA, roadmap, IA responsável e cultura).
+  - Métrica: 56% dos CEOs não tiveram aumento de receita nem redução de custos com IA nos últimos 12 meses (4.454 CEOs, 95 países, set–nov/2025) (p. 3, 5, 23)
+  - Métrica: 30% relatam aumento de receita com IA e 26% redução de custos; 22% relatam aumento de custos (p. 5)
+  - Métrica: 12% (1 em cada 8) obtiveram ao mesmo tempo mais receita e menos custo com IA; é o grupo que a PwC chama de 'vanguarda' (p. 5-7)
+  - Métrica: 44% da vanguarda aplicou IA a produtos, serviços e experiências, contra 17% das demais empresas (p. 7)
+- **M078 · PwC Brasil (2026)** — 29ª CEO Survey — Destaques do Agronegócio no Brasil · F1, F3 · relevância alta · [PDF](02_big4-accenture-capgemini/PwC-Brasil_2026_ceo-survey-destaques-agronegocio.pdf)
+  - Recorte do agronegócio brasileiro na CEO Survey 2026, com a percepção de retorno da IA em receita e custos e do impacto na força de trabalho. É a métrica de ROI percebido mais específica do agro BR encontrada neste grupo.
+  - Métrica: 33% dos CEOs do agro brasileiro relatam aumento de receita atribuído à IA; 58% pouca ou nenhuma alteração; 5% redução (coleta set–nov/2025) (p. 4, 8-9)
+  - Métrica: 33% viram redução de custos com IA, 18% aumento e 48% custos estáveis (p. 4, 8-9)
+  - Métrica: 60% dos CEOs do agro esperam precisar de menos profissionais em início de carreira em 3 anos (p. 9)
+  - Métrica: CEOs do agro dedicam 54% do tempo a temas com horizonte menor que 1 ano (47% na média global) (p. 3)
+- **M079 · PwC Brasil (2026)** — 29ª CEO Survey — Liderando na incerteza (edição Brasil) · F1, F3 · relevância alta · [PDF](02_big4-accenture-capgemini/PwC-Brasil_2026_29a-ceo-survey-brasil.pdf)
+  - Edição brasileira da CEO Survey 2026, com números de retorno da IA, uso por função e impacto no emprego no Brasil comparados à média global.
+  - Métrica: 37% dos CEOs brasileiros relatam aumento de receita com IA nos últimos 12 meses (29% no mundo) e 28% redução de custos (26% no mundo); 56% não tiveram benefício nem em receita nem em custos (p. 4)
+  - Métrica: Uso amplo de IA no Brasil: geração de demanda 28%, serviços de suporte 28%, produtos e serviços 29%, direcionamento estratégico 28% (no mundo: 22%, 20%, 19% e 15%) (p. 7)
+  - Métrica: 60% dos CEOs no Brasil (49% no mundo) esperam precisar de menos profissionais em início de carreira em 3 anos por causa da IA (p. 8)
+  - Métrica: 51% dos CEOs brasileiros dizem que a empresa passou a competir em novos setores nos últimos 5 anos (42% no mundo) (p. 4)
+- **M080 · PwC Brasil (2026)** — IA na estratégia: crescer ou ficar para trás (estudo de desempenho em IA da PwC, edição Brasil) · F1, F2, F3 · relevância alta · [PDF](02_big4-accenture-capgemini/PwC-Brasil_2026_ia-na-estrategia-estudo-desempenho-ia.pdf)
+  - Versão brasileira do estudo global de desempenho em IA da PwC, com índice de 'aptidão para IA' em 9 fatores, quintis de desempenho e posição do Brasil. Inclui caso agro com ROI mensurável (John Deere).
+  - Métrica: 20% das 1.217 empresas pesquisadas capturam 74% dos retornos gerados pela IA (p. 3)
+  - Métrica: Empresas no quintil superior de 'aptidão para IA' têm desempenho alavancado pela IA (receita + eficiência) 7,2 vezes maior; índice médio de 15,7 no quintil superior contra -2,6 no inferior (p. 6, 13)
+  - Métrica: Brasil tem índice de aptidão para IA de 5,0, contra mediana global de 5,5 e 6,8 das líderes; está entre os 20% de pior pontuação (p. 4, 9-10)
+  - Métrica: Só 30% das empresas brasileiras investem em IA com foco em resultados futuros (65% das líderes); só 9% redesenham fluxos de trabalho para a IA (56% das líderes) (p. 6)
+- **M081 · PwC Brasil e Fundação Dom Cabral (FDC) (2026)** — Índice de Transformação Digital Brasil (ITDBr) 2025 — Destaques do Agronegócio · F1, F2 · relevância alta · [PDF](02_big4-accenture-capgemini/PwC-FDC_2025_itdbr-destaques-agronegocio.pdf)
+  - Recorte do agronegócio no índice PwC/FDC, que mede 10 dimensões (incluindo IA, dados e governança) e foi publicado em jun/2026. Serve de linha de base brasileira de maturidade do setor e mostra onde o agro fica para trás: IA, tecnologias de fronteira e mensuração de retorno.
+  - Métrica: 3,6 é o índice de maturidade digital do agronegócio em 2025, contra 3,1 em 2024, igual à média de todas as indústrias (escala 1–6, ITDBr 2025) (p. 12)
+  - Métrica: 3,4 é a nota da dimensão Inteligência Artificial no agro, contra 3,7 na média das indústrias; a fronteira tecnológica ficou em 1,8, queda de 1,4 ponto (p. 13-14)
+  - Métrica: 49% das empresas do agro se dizem 'otimizadoras', 43% 'seletivas' e só 8% 'visionárias' (a média geral de visionárias é 16%) (p. 15-16)
+  - Métrica: 54% dizem que precisam estruturar a digitalização como processo organizado; 26% precisam melhorar a avaliação econômica (retorno) dos projetos digitais (p. 17-18)
+- **M082 · PwC Brasil e Fundação Dom Cabral (FDC) (2025)** — Índice de Transformação Digital Brasil (ITDBr) 2025 — estudo completo · F2, F1 · relevância alta · [PDF](02_big4-accenture-capgemini/PwC-FDC_2025_itdbr-indice-transformacao-digital-brasil.pdf)
+  - Estudo completo do índice brasileiro, com 10 dimensões de maturidade e comparação entre setores. Permite comparar o agro com setores mais maduros, como o financeiro, e usar as dimensões como referência de modelo de maturidade.
+  - Métrica: 3,6 é o índice médio de maturidade digital das empresas brasileiras em 2025, contra 3,7 na edição anterior (p. 3)
+  - Métrica: 59% das empresas adotam IA como tecnologia de fronteira em 2025, contra 20% em 2024; IoT passou de 9% para 18% (p. 33-34)
+  - Métrica: Serviços financeiros lideram a maturidade digital, com notas acima de 4 em quase todas as dimensões e acima de 5 em infraestrutura (p. 19-20)
+- **M083 · Accenture (2024)** — Reinvention in the age of generative AI · F1, F2 · relevância media · [PDF](02_big4-accenture-capgemini/Accenture_2024_reinvention-in-the-age-of-generative-ai.pdf)
+  - Estudo da Accenture (jan/2024; survey plurianual com mais de 3 mil executivos) que liga a capacidade de reinvenção contínua ao desempenho financeiro. Propõe 5 imperativos para usar a IA generativa: valor, núcleo digital, talentos, IA responsável e reinvenção contínua.
+  - Métrica: Reinventores (9% de 1.500 executivos C-level) cresceram a receita 15 p.p. acima dos demais em 2019-2022, com margem 5,6 p.p. maior; o gap de crescimento deve aumentar 2,4x (p. 5, 8)
+  - Métrica: Entre empresas com receita acima de US$ 50 bi, os Reinventores quadruplicaram em um ano, de 4% para 18% (p. 10)
+- **M084 · Accenture (2025)** — Technology Vision 2025 — AI: A Declaration of Autonomy · F3 · relevância media · [PDF](02_big4-accenture-capgemini/Accenture_2025_technology-vision-ai-autonomy.pdf)
+  - Tendências tecnológicas da Accenture: agentes, interfaces, robótica com modelos de fundação e o ciclo de aprendizado entre pessoas e IA. Referência de tendências em autonomia e robótica.
+  - Métrica: Só 36% dos executivos dizem ter escalado soluções de IA generativa, e 13% relatam impacto significativo no nível da empresa (p. 2)
+  - Métrica: 77% acham que os benefícios da IA só virão se ela for construída sobre confiança (p. 2)
+  - Métrica: Pesquisa com 4.021 executivos de 28 países (Brasil n=201), out–dez/2024 (p. 60, 62)
+- **M085 · Accenture (2024)** — Work, workforce, workers: Reinvented in the age of generative AI · F3, F1 · relevância media · [PDF](02_big4-accenture-capgemini/Accenture_2024_work-workforce-workers-reinvented-genai.pdf)
+  - Estudo da Accenture (jan/2024) com mais de 7 mil CxOs e 5 mil trabalhadores sobre o hiato de confiança e a requalificação na era da IA generativa, e sobre o redesenho de cargos e funções. Base quantitativa para mudanças organizacionais.
+  - Métrica: 94% dos trabalhadores estão prontos para aprender IA generativa, mas só 5% das organizações requalificam em escala (p. 7)
+  - Métrica: 58% dos trabalhadores temem pelo emprego, mas menos de 1/3 dos CxOs veem o deslocamento como problema (p. 7)
+  - Métrica: 3/4 das organizações não têm estratégia para garantir bons resultados aos empregados com IA, e 2/3 dos CxOs se dizem despreparados para liderar a mudança (p. 7)
+  - Métrica: US$ 10,3 tri de valor econômico adicional até 2038 com adoção responsável e em escala (p. 6)
+- **M086 · Accenture Brasil (2024)** — O potencial de reinvenção com o núcleo digital no Brasil (Reinvente com o núcleo digital) · F2, F1 · relevância media · [PDF](02_big4-accenture-capgemini/Accenture-Brasil_2024_reinvente-com-o-nucleo-digital.pdf)
+  - Versão brasileira do estudo de núcleo digital da Accenture, que aponta a infraestrutura de dados, nuvem e IA como pré-requisito para escalar a IA generativa, com dados do Brasil.
+  - Métrica: 76% das empresas brasileiras veem a IA generativa como um dos principais motores da reinvenção; 96% apontam a tecnologia como principal alavanca (p. 15)
+  - Métrica: 40% dos executivos acham que podem escalar a IA generativa na empresa toda em 6 a 12 meses (p. 6)
+  - Métrica: 'Efeito 60:40': quem segue os 3 princípios do núcleo digital tem crescimento de receita 60% maior (de 7,1% para 11,1%) e lucratividade 40% maior; só 3% das empresas do mundo chegaram lá (p. 8, 18)
+- **M087 · Capgemini Research Institute (2024)** — Data-powered enterprises: The path to data mastery · F1, F2 · relevância media · [PDF](02_big4-accenture-capgemini/Capgemini-CRI_2024_data-powered-enterprises-path-to-data-mastery.pdf)
+  - Estudo da Capgemini sobre maturidade em dados (fundações e comportamentos), pré-requisito da IA. Referência para estratégia de dados e dependências críticas.
+  - Métrica: 17% das organizações são 'data masters', líderes tanto em fundações quanto em comportamentos de dados (500 executivos de dados e 500 de negócios, 12 países) (p. 5-6, 14)
+  - Métrica: 83% dos data masters quantificam e monetizam bem o valor dos ativos de dados, contra 61% das demais (p. 5, 33)
+  - Métrica: O tempo economizado com IA generativa pelos executivos de dados é de 69% nos data masters, contra 55% nas demais (p. 33)
+- **M088 · Deloitte (2025)** — Robotics & Physical AI: Intelligence in motion · F3 · relevância media · [PDF](02_big4-accenture-capgemini/Deloitte_2025_robotics-physical-ai-intelligence-in-motion.pdf)
+  - Relatório da Deloitte sobre IA física e robótica, com o framework '6Ps', motores de custo e de escassez de mão de obra e casos (humanoides, quadrúpedes, construção autônoma).
+  - Métrica: O custo de fabricação de robôs humanoides caiu 40% entre 2023 e 2024 (p. 3)
+  - Métrica: Mercado global de robótica projetado acima de US$ 392 bi até 2033; humanoides, US$ 38 bi até 2035 (p. 3)
+  - Métrica: Startups de robótica captaram mais de US$ 7 bi em 2024 (p. 3)
+  - Métrica: A economia dos EUA precisa de 4,6 milhões de trabalhadores a mais por ano, e essa pressão de mão de obra impulsiona a robótica (p. 3)
+- **M089 · Deloitte AI Institute (2022)** — Fueling the AI transformation: Four key actions powering widespread value from AI, right now — State of AI in the Enterprise, 5th Edition · F2, F1 · relevância media · [PDF](02_big4-accenture-capgemini/Deloitte_2022_state-of-ai-enterprise-5th-edition-fueling-ai-transformation.pdf)
+  - Relatório de out/2022 com o framework de maturidade da Deloitte, que cruza o grau de implantação (tipos de aplicação de IA em escala) com os resultados obtidos e gera quatro perfis (Transformers, Pathseekers, Starters e Underachievers). Útil para diagnóstico de maturidade e para mostrar que mais implantação não garante resultado.
+  - Métrica: Segmentos de maturidade: Transformers 27%, Pathseekers 24%, Starters 28% e Underachievers 22% (N=2.620, 2022) (p. 7)
+  - Métrica: 79% têm implantação em escala plena de três ou mais tipos de aplicação de IA (62% no ano anterior), mas os Underachievers subiram de 17% para 22% (p. 6)
+  - Métrica: 94% dos líderes dizem que a IA é crítica para o sucesso nos próximos cinco anos; 76% esperam aumentar o investimento (p. 5-6)
+- **M090 · Deloitte AI Institute (2026)** — State of AI in the Energy, Resources, and Industrials Industry — The untapped edge · F1, F3 · relevância media · [PDF](02_big4-accenture-capgemini/Deloitte_2026_state-of-ai-energy-resources-industrials.pdf)
+  - Recorte setorial do State of AI 2026 para energia, recursos e indústria, o mais próximo de bioenergia e operações intensivas em ativos. Destaca a liderança do setor em IA física.
+  - Métrica: IA física: 72% das empresas de energia, recursos e indústria (ER&I) já usam e projetam 91% em 2 anos, o maior nível entre as indústrias (N=591) (p. 5, 7)
+  - Métrica: 26% levaram 40% ou mais dos experimentos de IA para produção; 59% esperam chegar lá em 3–6 meses (p. 4, 7)
+  - Métrica: O acesso dos trabalhadores à IA em ER&I foi de 25% para 57% em um ano (p. 4, 7)
+  - Métrica: A adoção ao menos moderada de IA agêntica em ER&I é de 20%, contra 23% na média das indústrias (p. 5)
+- **M091 · Deloitte Brasil (2025)** — Agenda de Negócios 2025 — Volume 2: Tecnologias · F1, F2 · relevância media · [link](https://www.deloitte.com/br/pt/about/press-room/agenda-de-negocios-tecnologia.html)
+  - Pesquisa da Deloitte com 402 empresas brasileiras sobre tecnologia e IA. Liga maturidade digital, governança e cibersegurança à amplitude de uso da IA. Disponível só como release.
+  - Métrica: 8 em cada 10 empresas já usam ao menos uma aplicação de IA ou IA generativa (402 empresas, cerca de 12% do PIB, jan–abr/2025; 5% da amostra é agro, alimentos e bebidas) (página oficial)
+  - Métrica: 45% têm ou estão implementando políticas formais de governança tecnológica (página oficial)
+  - Métrica: 59% estão desenvolvendo ou expandindo a estratégia de digitalização; só 14% estão em estágio avançado (página oficial)
+  - Métrica: Motivadores da digitalização: produtividade (91%), redução de custos (69%) e receita (67%); 27% usam IA para automação ou fiscalização de processos (página oficial)
+- **M092 · Deloitte Insights (2025)** — Tech Trends 2026 · F3, F1 · relevância media · [PDF](02_big4-accenture-capgemini/Deloitte_2025_tech-trends-2026.pdf)
+  - Cinco tendências da Deloitte: IA física e robótica, o 'choque de realidade' da IA agêntica, economia da inferência, organização de TI nativa em IA e ciberdefesa com IA.
+  - Métrica: Só 11% das organizações têm agentes de IA em produção, embora 38% estejam em piloto; 42% ainda desenvolvem a estratégia agêntica e 35% não têm estratégia (pesquisa Deloitte 2025 com 500 líderes de tecnologia dos EUA) (p. 8, 23)
+  - Métrica: Desequilíbrio no investimento em IA: 93% vai para tecnologia e 7% para pessoas (p. 7)
+  - Métrica: O custo de inferência caiu 280 vezes (p. 7)
+- **M093 · Deloitte África (2025)** — The rise of the AI operating model: Why every business needs an AI Centre of Excellence today · F1, F3 · relevância media · [PDF](02_big4-accenture-capgemini/Deloitte-Africa_2025_rise-of-ai-operating-model-ai-coe.pdf)
+  - Artigo (jun/2025) que propõe o Centro de Excelência de IA (AI CoE) como nova camada do modelo operacional: governança, 'AI factory' e 'control tower' com KPIs de valor, ciclo de vida de modelos e conformidade, em vez do 'teatro de casos de uso'. A evidência é mais qualitativa.
+  - Métrica: Organizações que operam a IA como capacidade integrada às funções centrais obtêm 10% a 20% de impacto no EBITDA (observação da Deloitte em projetos) (p. 2)
+  - Métrica: 44% de mais de 500 executivos de conselho em 57 países dizem que a adoção de IA precisa acelerar (p. 1)
+- **M094 · EY Global (2025)** — How responsible AI translates investment into impact (pesquisa EY Responsible AI Pulse) · F1 · relevância media · [link](https://www.ey.com/en_gl/insights/ai/how-can-responsible-ai-bridge-the-gap-between-investment-and-impact)
+  - Pesquisa da EY sobre governança e IA responsável, com perdas financeiras por falhas de IA e o efeito de princípios e controles. Alimenta governança e casos de insucesso.
+  - Métrica: 99% das empresas tiveram perdas financeiras ligadas a riscos de IA; 64% perderam mais de US$ 1 mi (975 líderes C-suite, empresas acima de US$ 1 bi, 21 países, jul–ago/2025) (página oficial)
+  - Métrica: Empresas com princípios claros de IA responsável tiveram 30% menos riscos (página oficial)
+  - Métrica: Riscos mais citados: não conformidade regulatória (57%), impacto nas metas de sustentabilidade (55%) e viés nos resultados (53%) (página oficial)
+- **M095 · EY US (2025)** — AI Pulse Survey: Why agentic AI is a revolution stuck in an evolution — US AI Pulse Survey, 3ª onda · F1, F3 · relevância media · [PDF](02_big4-accenture-capgemini/EY_2025_ai-pulse-survey-wave3-agentic-ai.pdf)
+  - 3ª onda do AI Pulse da EY, focada em IA agêntica. Compara o ROI por nível de investimento (5% ou mais do orçamento) e lista as barreiras à adoção de agentes.
+  - Métrica: 97% dos líderes cujas empresas investem em IA relatam ROI positivo em alguma função (500 líderes dos EUA, abr/2025) (p. 2, 16)
+  - Métrica: 34% começaram a implementar IA agêntica, mas só 14% concluíram a implementação; 87% identificam barreiras à adoção (p. 2)
+  - Métrica: Quem destina 5% ou mais do orçamento total à IA relata ROI positivo com mais frequência: atualizações tecnológicas 82% contra 62%, satisfação do cliente 78% contra 55%, cibersegurança 78% contra 49% (p. 3)
+  - Métrica: 21% já têm US$ 10 mi ou mais investidos em IA; 35% planejam chegar a esse patamar no ano seguinte (p. 2)
+- **M096 · Forbes Agro (Forbes Brasil) (2026)** — Os 10 Riscos e Oportunidades que Vão Definir o Futuro do Agro (sobre o estudo EY Top 10 Riscos e Oportunidades no Agro 2026) · F1, F3 · relevância media · [PDF](02_big4-accenture-capgemini/ForbesAgro-EY_2026_top10-riscos-oportunidades-agro.pdf)
+  - Matéria da Forbes Agro, salva em PDF, com entrevista do líder de agro da EY e a lista completa dos 10 temas do estudo que exige formulário. Supre parcialmente o conteúdo fechado.
+  - Métrica: O estudo EY ouviu 52 lideranças do agro (insumos, produtores, agroindústrias e tradings), de empresas com faturamento entre R$ 3 bi e cerca de R$ 60 bi (p. 2-3)
+  - Métrica: Gestão de pessoas saltou do 8º (2022) para o 2º lugar; tecnologia e transformação digital entram no top 10 em 5º, com baixa maturidade para capturar benefícios (p. 4, 6-7)
+- **M097 · KPMG Board Leadership Center (EUA) (2025)** — 2025 Survey: Boardroom Lens on Generative AI · F1, F3 · relevância media · [PDF](02_big4-accenture-capgemini/KPMG-BLC_2025_boardroom-lens-generative-ai-survey.pdf)
+  - Pesquisa com conselheiros de empresas dos EUA sobre a supervisão da IA generativa: estágio de adoção, riscos (54% citam dados subjacentes imprecisos), governança, expertise no conselho e interesse em IA agêntica (30% exploram adoção em 2-3 anos).
+  - Métrica: 70% desenvolvem política de uso responsável, 40% adotam um framework reconhecido de risco e governança de IA e 11% criam comitê de ética em IA (93 conselheiros, jan-fev/2025) (p. 2, 16)
+  - Métrica: Conselhos com expertise em IA generativa: 29% em 2025, contra 10% em 2024 (p. 14-15)
+  - Métrica: 43% publicaram diretrizes de uso responsável (25% em 2024); 25% começam a escalar (19%); 11% têm IA generativa no núcleo do negócio (4%) (p. 6-7)
+  - Métrica: 76% veem eficiência, produtividade e redução de custos como o principal benefício (p. 8)
+- **M098 · KPMG International (2026)** — Global AI Pulse Q1 2026: Sector insights — Why sectors are scaling AI at different speeds · F2, F1 · relevância media · [PDF](02_big4-accenture-capgemini/KPMG_2026_global-ai-pulse-sector-insights.pdf)
+  - Comparativo da KPMG entre 8 setores sobre escala e orquestração de IA, com destaque para energia e recursos naturais.
+  - Métrica: Energia e Recursos Naturais: 27% escalam IA em toda a empresa e 63% entregam valor de negócio significativo (2.110 executivos, 20 países, fev–mar/2026) (p. 2, 8, 18)
+  - Métrica: Em Energia e Recursos Naturais, a automação de fluxos de trabalho é alta (63%), mas a detecção de exceções entre funções é limitada (25%) (p. 7)
+  - Métrica: Valor significativo reportado por setor: tecnologia, mídia e telecom 75%, imobiliário e construção 67%, energia e recursos 63% (p. 8)
+- **M099 · KPMG International (2025)** — KPMG 2025 Global CEO Outlook · F1, F3 · relevância media · [link](https://kpmg.com/xx/en/our-insights/value-creation/global-ceo-outlook-survey.html)
+  - Pesquisa anual da KPMG com CEOs. Mostra o encurtamento do prazo esperado de ROI da IA e a fatia do orçamento dedicada a ela. Não há PDF global.
+  - Métrica: 71% dos CEOs têm a IA como prioridade máxima de investimento (64% no ano anterior); 69% destinam de 10% a 20% do orçamento à IA (1.350 CEOs, ago–set/2025) (página oficial)
+  - Métrica: 67% esperam ROI da IA em 1 a 3 anos; em 2024, 63% só esperavam ROI em 3 a 5 anos (página oficial)
+  - Métrica: 70% dizem que a disputa por talentos de IA pode limitar o sucesso da empresa; 57% esperam impacto significativo da IA agêntica (página oficial)
+- **M100 · KPMG Nova Zelândia (2025)** — Agribusiness Agenda 2025 — Turning talk into tasks · F3 · relevância media · [PDF](02_big4-accenture-capgemini/KPMG-NZ_2025_agribusiness-agenda.pdf)
+  - 16ª edição da agenda de prioridades de líderes do agro e alimentos da KPMG NZ. É referência internacional de como o agro prioriza IA e automação diante de outras pautas.
+  - Métrica: A prioridade 'incentivar a exploração de IA' teve nota 7,30 (+10,7%) e subiu 15 posições, para o 16º lugar (pesquisa com quase 200 líderes do agro) (p. 10, 24)
+  - Métrica: A prioridade 'melhorar a experiência do empregado por meio de automação' teve nota 7,13 (p. 24)
+- **M101 · Protiviti (2025)** — AI Pulse Survey Vol. 1 — From Exploration to Transformation: What AI success looks like · F2, F1 · relevância media · [PDF](02_big4-accenture-capgemini/Protiviti_2025_ai-pulse-vol1-exploration-to-transformation-roi.pdf)
+  - Primeira pesquisa da série AI Pulse. Liga o modelo de maturidade em 5 estágios (inicial, experimentação, definido, otimização, transformação) à satisfação com o ROI. Útil para F2: o retorno cresce de forma não linear com a maturidade, e empresas iniciais focam em corte de custos.
+  - Métrica: 85% dizem que o ROI da IA atendeu ou superou as expectativas; 15% ficaram abaixo (n=1.026, mar-abr/2025) (p. 3, 5, 23)
+  - Métrica: No estágio mais maduro, 95% estão muito satisfeitos, quase 75% superaram as expectativas e 47% as superaram com folga; no estágio 1, cerca de 1/3 ficou abaixo (p. 3, 5, 7)
+  - Métrica: Distribuição por maturidade: estágio 1 (inicial) 19%, estágio 2 (experimentação) 32% (p. 4, 6)
+- **M102 · Protiviti (2025)** — AI Pulse Survey Vol. 3 — From Automation to Autonomy: The capabilities and complexities of AI agents · F3, F2 · relevância media · [PDF](02_big4-accenture-capgemini/Protiviti_2025_ai-pulse-vol3-automation-to-autonomy-agents.pdf)
+  - Pesquisa da Protiviti sobre adoção de agentes de IA por nível de maturidade, com diferenças de percepção entre o C-level e a operação: 31% dos líderes esperam agentes totalmente autônomos, contra 17% dos níveis operacionais. Traz um modelo de maturidade em 5 estágios.
+  - Métrica: 23% já integraram IA agêntica e multiagente às operações centrais e outros 27% planejam fazê-lo em 6 meses (~900 respostas, ago/2025) (p. 3)
+  - Métrica: Mais de 68% esperam ter agentes autônomos ou semiautônomos integrados até 2026 (release oficial de 30/09/2025)
+  - Métrica: Nível de autonomia preferido: semiautônomos 38%, assistentes que se adaptam ao contexto 25%, totalmente autônomos 19%, baseados em regras 12% (p. 6)
+  - Métrica: Distribuição por maturidade: inicial 7%, experimentação 30%, definido 28%, otimização 25%, transformação 10% (p. 5)
+- **M103 · PwC (2025)** — The Fearless Future: 2025 Global AI Jobs Barometer · F3 · relevância media · [PDF](02_big4-accenture-capgemini/PwC_2025_global-ai-jobs-barometer.pdf)
+  - Evidência macro da PwC sobre produtividade, salários e mudança de competências por exposição à IA. Apoia a frente de mudanças organizacionais e competências.
+  - Métrica: Indústrias mais expostas à IA têm crescimento 3 vezes maior da receita por empregado (análise de cerca de 1 bilhão de anúncios de vaga em 6 continentes) (p. 2, 5)
+  - Métrica: O crescimento da produtividade quase quadruplicou desde 2022 nas indústrias mais expostas à IA (p. 2)
+  - Métrica: Prêmio salarial médio de 56% para funções que exigem habilidades de IA (25% no ano anterior) (p. 2, 9)
+  - Métrica: As habilidades exigidas mudam 66% mais rápido nas ocupações mais expostas à IA (p. 2)
+- **M104 · PwC Brasil (2025)** — A reinvenção do agronegócio brasileiro — Desafios climáticos e avanços tecnológicos impulsionam a transformação do setor · F1, F3 · relevância media · [PDF](02_big4-accenture-capgemini/PwC-Brasil_2025_a-reinvencao-do-agronegocio-brasileiro.pdf)
+  - Síntese da PwC que junta a CEO Survey 28, o ITDBr 2024 e a pesquisa Digital Procurement com recorte do agro. Traz expectativas dos CEOs do agro sobre IA generativa e a adoção de IA e IoT no setor.
+  - Métrica: 78% dos CEOs do agro brasileiro planejam investir na integração da IA com plataformas tecnológicas, contra 69% na média nacional (28ª CEO Survey) (p. 10)
+  - Métrica: 61% dos CEOs do agro esperam que a IA generativa melhore a lucratividade, contra 46% em 2024 (p. 10)
+  - Métrica: 36% das empresas do agro aplicam IA, contra 20% na média geral; 45% usam IoT, contra 9% (ITDBr 2024) (p. 11)
+  - Métrica: 44% dos CEOs do agro acham que a empresa não será viável em 10 anos sem mudanças significativas (31% em 2024); 44% fizeram parcerias estratégicas, contra 33% na média nacional (p. 13)
+- **M105 · PwC Brasil — PwC Agtech Innovation (2026)** — 10 tendências do agronegócio para 2026: o que deve moldar o futuro do agro · F3 · relevância media · [link](https://www.pwc.com.br/pt/consultoria/agtech-innovation/agtech-innovation-news/materias/2026/10-tendencias--agro-2026.html)
+  - Tendências para o agro em 2026 segundo o PwC Agtech Innovation: IA para prescrição agronômica, visão computacional e pulverização seletiva, robótica e 'farm as a service', crédito digital. Os números são de especialista citado no evento.
+  - Métrica: A margem líquida do produtor caiu 73% em quatro safras, de cerca de R$ 2.800/ha para cerca de R$ 750/ha (fala de especialista, página oficial)
+  - Métrica: Estudos do See & Spray (John Deere) mostram redução de até 80% no uso de herbicidas (fala de especialista, página oficial)
+  - Métrica: 67% da área agrícola brasileira não tem conexão, principal gargalo para robótica e automação (fala de especialista, página oficial)
+- **M106 · PwC Brasil — PwC Agtech Innovation (2024)** — Termômetro da Inovação Aberta no Agro · F2, F1 · relevância media · [PDF](02_big4-accenture-capgemini/PwC-Agtech-Innovation_2024_termometro-inovacao-aberta-agro.pdf)
+  - Diagnóstico de maturidade de inovação aberta em grandes empresas e cooperativas do agro, pela metodologia global da PwC. Útil para dependências organizacionais (governança, métricas, ecossistema) do roadmap de IA.
+  - Métrica: 86 grandes empresas e cooperativas do agro participaram (coleta mar–jul/2024) (p. 6)
+  - Métrica: 76% praticam inovação aberta (p. 7)
+  - Métrica: 'Governança e métricas' é a dimensão menos madura: 2,5 hoje contra 3,9 de meta (escala 1–5) (p. 8)
+  - Métrica: Só 38% se sentem preparadas para colaborar com parceiros estratégicos (meta de 82%); 32% têm grupos de inovação conectados a áreas internas e parceiros (meta de 80%) (p. 13-14)
+- **M107 · PwC Brasil — PwC Agtech Innovation (dados do Radar Agtech Brasil: Embrapa, SP Ventures e Homo Ludens) (2026)** — Radar Agtech Brasil: Inteligência artificial é usada por 83% das agtechs no país · F3 · relevância media · [link](https://www.pwc.com.br/pt/consultoria/agtech-innovation/agtech-innovation-news/materias/2026/Radar-Agtech-Brasil-Inteligencia-artificial-usada-por-agtechs-no-pais.html)
+  - Matéria do PwC Agtech Innovation (mar/2026) sobre o Radar Agtech 2025. Mostra a IA como camada estrutural no ecossistema de startups do agro; o relatório completo é da Embrapa e parceiros.
+  - Métrica: 2.075 agtechs mapeadas no Brasil em 2025, 5% a mais que no ano anterior (página oficial)
+  - Métrica: 83% das agtechs usam IA em processos ou produtos; 35% têm a IA como núcleo da proposta de valor (página oficial)
+  - Métrica: 41,1% das agtechs atuam dentro da fazenda e 40,5% depois da fazenda (página oficial)
+- **M108 · PwC US (2026)** — 2026 AI Business Predictions · F1, F2, F3 · relevância media · [link](https://www.pwc.com/us/en/tech-effect/ai-analytics/ai-predictions.html)
+  - Previsões da PwC para 2026: programa de IA conduzido pela alta liderança, 'AI studio' centralizado, camada de orquestração de agentes, IA responsável e força de trabalho 'ampulheta/diamante'. Referência de governança e organização.
+  - Métrica: A tecnologia entrega só cerca de 20% do valor de uma iniciativa de IA; os outros 80% vêm do redesenho do trabalho (página oficial)
+  - Métrica: Na pesquisa de IA responsável 2025 da PwC, 60% dizem que a IA responsável aumenta ROI e eficiência e 55% relatam melhoria na experiência do cliente e na inovação (página oficial)
+- **M109 · PwC US (2025)** — PwC's AI Agent Survey (maio/2025) · F1, F3 · relevância media · [PDF](02_big4-accenture-capgemini/PwC_2025_ai-agent-survey.pdf)
+  - Pesquisa da PwC sobre adoção e valor de agentes de IA, salva em PDF a partir da página oficial. Mostra ganhos de produtividade e a distância até a transformação real do modelo operacional.
+  - Métrica: 79% dizem que agentes de IA já estão sendo adotados na empresa; 88% vão aumentar o orçamento de IA por causa da IA agêntica (308 executivos dos EUA, abr/2025) (p. 2, 5)
+  - Métrica: Entre os que adotaram agentes: 66% veem ganho mensurável de produtividade, 57% redução de custos, 55% decisões mais rápidas e 54% melhor experiência do cliente (p. 8)
+  - Métrica: 68% dizem que metade ou menos dos funcionários interage com agentes no dia a dia (p. 5)
+  - Métrica: Só 45% repensam o modelo operacional e 42% redesenham processos em torno dos agentes (p. 12)
+- **M110 · University of Melbourne e KPMG International (2025)** — Trust, attitudes and use of artificial intelligence: A global study 2025 · F1 · relevância media · [PDF](02_big4-accenture-capgemini/KPMG-UniMelbourne_2025_trust-attitudes-use-of-ai-global-study.pdf)
+  - Estudo global de confiança e uso de IA, com recorte Brasil. Útil para a frente de governança, 'shadow AI', letramento e gestão da mudança.
+  - Métrica: 58% dos empregados usam IA intencionalmente no trabalho com regularidade; 61% das pessoas não têm treinamento em IA (48.340 pessoas, 47 países, nov/2024–jan/2025) (p. 7, 15)
+  - Métrica: Dois terços dos empregados usam o resultado da IA sem avaliá-lo, e mais da metade já errou no trabalho por causa da IA (p. 8)
+  - Métrica: No Brasil, a preocupação com IA subiu de 50% (2022) para 75% (2024), e a percepção de que os benefícios superam os riscos caiu de 71% para 44% (p. 12)
+- **M111 · KPMG na Índia (2025)** — Generative AI Survey Report 2025 — Board Leadership Center (India) · F1 · relevância baixa · [PDF](02_big4-accenture-capgemini/KPMG-India-BLC_2025_generative-ai-survey-boards.pdf)
+  - Versão indiana da pesquisa de conselhos da KPMG. Serve de contraponto de mercado emergente sobre maturidade da governança de IA nos conselhos (políticas contra controles efetivos).
+  - Métrica: 53% dos conselhos têm política de uso responsável, 27% usam validação externa, 24% fazem auditorias regulares e só 8% têm comitê de ética em IA (62 conselheiros, dez/2025) (p. 2, 7)
+  - Métrica: Só 5% dos conselhos têm membros com expertise direta em IA generativa (p. 7-8)
+  - Métrica: 13% escalaram a IA generativa e 8% a integraram à estratégia; 43% têm uso ad hoc (p. 3)
+  - Métrica: Novas competências e talentos são o principal desafio de força de trabalho para 61% (p. 6)
+
+## Analistas e big techs
+
+Pasta: `03_analistas-big-techs/`
+
+- **M112 · AWS / Access Partnership (2025)** — AWS Study: Generative AI Adoption Index — Perspectives from global IT decision makers · F1, F2, F3 · relevância alta · [PDF](03_analistas-big-techs/AWS-AccessPartnership_2025_generative-ai-adoption-index-global.pdf)
+  - Pesquisa global da AWS com a Access Partnership (maio/2025) sobre a ascensão do CAIO, gestão da mudança, taxa de passagem de piloto para produção, requalificação (56% têm plano de treinamento; 92% vão contratar talentos de IA generativa) e a estratégia de construir versus comprar.
+  - Métrica: Das 45 experimentações de IA generativa por organização em 2024, em média só 20 (44%) devem chegar aos usuários finais em 2025 (3.739 decisores de TI, 9 países) (p. 3, 10)
+  - Métrica: 60% já nomearam um Chief AI Officer e outros 26% planejam nomear até 2026 (p. 3, 6)
+  - Métrica: Só 14% têm estratégia de gestão da mudança para IA generativa; a fatia deve chegar a 76% no fim de 2026 (p. 7)
+  - Métrica: Barreiras para ir à produção: falta de talentos (55%), custo alto de desenvolvimento (48%), vieses e alucinações (40%) (p. 10)
+- **M113 · AWS / Access Partnership (2025)** — Estudo da AWS: Índice de Adoção de IA Generativa — Insights sobre organizações no Brasil · F1, F2, F3 · relevância alta · [PDF](03_analistas-big-techs/AWS-AccessPartnership_2025_generative-ai-adoption-index-brasil.pdf)
+  - Recorte Brasil do índice global da AWS. Dá números nacionais de CAIO, gestão da mudança, taxa de piloto para produção e requalificação. IA generativa é a prioridade nº 1 do orçamento de TI para 39% das empresas, contra 28% para segurança.
+  - Métrica: Das 40 experimentações de IA generativa por organização em 2024, em média só 18 (44%) devem ir para produção em 2025 (411 decisores de TI no Brasil, maio/2025) (p. 2)
+  - Métrica: 56% já têm Chief AI Officer, 31% vão nomear até 2026 e 13% não planejam (p. 2)
+  - Métrica: 72% não têm estratégia de gestão da mudança para IA generativa; no fim de 2026, só 9% continuarão sem (p. 2)
+  - Métrica: 93% adotam ferramentas de IA generativa e 46% já passaram da prova de conceito (p. 2)
+- **M114 · AWS / Strand Partners (2026)** — Desbloqueando o Potencial da IA no Brasil – 2026 · F1, F2, F3 · relevância alta · [PDF](03_analistas-big-techs/AWS-Strand_2026_desbloqueando-potencial-ia-brasil.pdf)
+  - Estudo brasileiro de set/2026 com estágios de maturidade (básico, intermediário, avançado), lacuna de mensuração de ROI e prontidão para IA agêntica e física. Há versão em inglês no mesmo site.
+  - Métrica: 50% das empresas brasileiras usam IA (40% em 2025), ≈12 milhões; mais de 2,75 milhões adotaram em 12 meses (p. 1–2)
+  - Métrica: Estágio de adoção entre as que usam IA: 58% básico, 27% intermediário, 15% avançado (p. 3)
+  - Métrica: Só 33% confiam na capacidade de medir o ROI de IA (47% não confiam); 64% medem por economia de tempo/custo e só 38% por receita (p. 2; p. 10)
+  - Métrica: 66% relatam retorno acima do investimento inicial, 72% ganhos de produtividade e 54% crescimento de receita atribuível à IA (p. 10)
+- **M115 · Cisco (2025)** — Cisco AI Readiness Index 2025 – Realizing the Value of AI · F2, F1 · relevância alta · [PDF](03_analistas-big-techs/Cisco_2025_ai-readiness-index.pdf)
+  - Índice de prontidão com 6 pilares ponderados (estratégia, infraestrutura, dados, governança, talentos, cultura) e conceito de 'AI Infrastructure Debt'. Não traz recorte Brasil nesta edição.
+  - Métrica: Prontidão: 13% Pacesetters, 36% Chasers, 48% Followers, 3% Laggards (8.039 líderes, 30 mercados, ago/2025) (p. 4; p. 26)
+  - Métrica: Estágio dos casos de uso (todas): 28% ideação, 46% piloto, 18% finalizando; 77% dos Pacesetters já finalizados, cerca de 4x mais em produção (p. 10)
+  - Métrica: 95% dos Pacesetters medem o impacto da IA, contra 32% do total (p. 10)
+  - Métrica: 30% esperam ROI de 50–100% no próximo ano; 48% entre os Pacesetters (p. 9)
+- **M116 · Data & AI Leadership Exchange (Randy Bean; prefácio de Thomas H. Davenport) (2026)** — 2026 AI & Data Leadership Executive Benchmark Survey — Executive Summary of Findings · F1, F2, F3 · relevância alta · [PDF](03_analistas-big-techs/DataAILeadershipExchange_2026_ai-data-leadership-executive-benchmark-survey.pdf)
+  - 15ª edição da pesquisa anual com CDOs, CDAOs e CAIOs de grandes empresas. Traz a evolução dos papéis executivos de dados e IA: 90% têm CDO e 69,8% consideram o papel consolidado. É referência para desenho organizacional (CAIO, reporte e cultura).
+  - Métrica: 38,5% das grandes empresas já nomearam um Chief AI Officer (33,1% no ano anterior) e 52% dizem que o cargo deve existir (~110 empresas) (p. 3-4)
+  - Métrica: IA em produção em escala subiu de 4,7% para 39,1% em 2 anos; em produção limitada, de 24,5% para 54,5% (p. 4)
+  - Métrica: 93,2% apontam pessoas, cultura e gestão da mudança como o principal obstáculo; só 7% culpam a tecnologia (p. 2, 4)
+  - Métrica: 54% obtêm valor de negócio alto ou significativo com dados e IA, ante 46% no ano anterior (p. 4)
+- **M117 · Databricks (2026)** — State of AI Agents 2026 · F1, F3 · relevância alta · [PDF](03_analistas-big-techs/Databricks_2026_state-of-ai-agents.pdf)
+  - Evidência de uso real (telemetria, não survey) de que governança e avaliação são determinantes para ir do piloto à produção. Também mostra tendências de multiagentes e multimodelo.
+  - Métrica: Telemetria de mais de 20.000 organizações (mais de 60% da Fortune 500), nov/2024–out/2025 (p. 4; p. 6)
+  - Métrica: Empresas com governança de IA colocam 12x mais projetos em produção; com ferramentas de avaliação, cerca de 6x mais (p. 5)
+  - Métrica: Uso de sistemas multiagentes cresceu 327% em 4 meses; 78% usam 2 ou mais famílias de LLMs (p. 5)
+- **M118 · Forrester (2025)** — Predictions 2026: AI Moves From Hype To Hard Hat Work · F3, F1 · relevância alta · [PDF](03_analistas-big-techs/Forrester_2025_predictions-2026-ai-hard-hat-work.pdf)
+  - Predições públicas da Forrester (out/2025): correção de mercado, CFOs nas decisões de IA, 'agentlakes' e letramento em IA. O relatório completo é só para clientes.
+  - Métrica: Só 15% dos decisores de IA relataram aumento de EBITDA nos últimos 12 meses; menos de 1/3 ligam o valor da IA a mudanças no P&L (p. 2)
+  - Métrica: Previsão: as empresas adiarão 25% do gasto planejado em IA para 2027 (p. 2)
+  - Métrica: Previsão: 30% das grandes empresas tornarão o treinamento em IA obrigatório; 21% citam a prontidão dos funcionários como barreira (p. 2)
+- **M119 · Gartner (2024)** — Gartner Predicts 30% of Generative AI Projects Will Be Abandoned After Proof of Concept By End of 2025 · F1, F3 · relevância alta · [link](https://www.gartner.com/en/newsroom/press-releases/2024-07-29-gartner-predicts-30-percent-of-generative-ai-projects-will-be-abandoned-after-proof-of-concept-by-end-of-2025)
+  - Traz as causas de insucesso (dados ruins, controles de risco fracos, custos crescentes, valor pouco claro) e números de ganho médio. Útil para casos de insucesso e para o business case.
+  - Métrica: Ao menos 30% dos projetos de GenAI serão abandonados após a prova de conceito até o fim de 2025 (página oficial)
+  - Métrica: Early adopters relatam em média +15,8% de receita, -15,2% de custos e +22,6% de produtividade com GenAI (822 líderes, set–nov/2023) (página oficial)
+  - Métrica: Abordagens de GenAI para inovação de modelo de negócio custam de US$ 5 mi a US$ 20 mi (página oficial)
+- **M120 · Gartner (2025)** — Gartner Predicts Over 40% of Agentic AI Projects Will Be Canceled by End of 2027 · F1, F3 · relevância alta · [link](https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027)
+  - Alerta sobre hype e cancelamento de projetos de agentes. Recomenda usar agentes só onde há ROI claro e redesenhar workflows em vez de acoplar agentes a sistemas legados.
+  - Métrica: Mais de 40% dos projetos de IA agêntica serão cancelados até o fim de 2027 (página oficial)
+  - Métrica: Enquete com 3.412 participantes (jan/2025): 19% fizeram investimentos significativos em IA agêntica, 42% conservadores, 8% nenhum e 31% aguardam (página oficial)
+  - Métrica: Só ~130 dos milhares de fornecedores 'agênticos' são reais ('agent washing') (página oficial)
+  - Métrica: Até 2028, 15% das decisões do dia a dia serão tomadas autonomamente por IA agêntica e 33% dos softwares corporativos terão IA agêntica (página oficial)
+- **M121 · Gartner (2025)** — Gartner Survey Finds 45% of Organizations With High AI Maturity Keep AI Projects Operational for at Least Three Years · F1, F2 · relevância alta · [link](https://www.gartner.com/en/newsroom/press-releases/2025-06-30-gartner-survey-finds-forty-five-percent-of-organizations-with-high-artificial-intelligence-maturity-keep-artificial-intelligence-projects-operational-for-at-least-three-years)
+  - Pesquisa baseada no Gartner AI Maturity Model (níveis 1 a 5). Liga maturidade à longevidade dos projetos, à confiança, a métricas de ROI e à existência de um líder de IA dedicado.
+  - Métrica: 45% das organizações de alta maturidade mantêm projetos de IA em produção por 3 anos ou mais, contra 20% nas de baixa maturidade (432 respondentes, 4º tri/2024) (página oficial)
+  - Métrica: 57% contra 14%: unidades de negócio que confiam e estão prontas para usar novas soluções de IA (alta vs. baixa maturidade) (página oficial)
+  - Métrica: 63% das organizações de alta maturidade fazem análise financeira de riscos e de ROI e medem o impacto no cliente (página oficial)
+  - Métrica: 91% das organizações de alta maturidade já nomearam líderes dedicados de IA; ~60% centralizaram estratégia, governança, dados e infraestrutura de IA (página oficial)
+- **M122 · Gartner (2024)** — Gartner Survey Finds Generative AI Is Now the Most Frequently Deployed AI Solution in Organizations · F2, F1 · relevância alta · [link](https://www.gartner.com/en/newsroom/press-releases/2024-05-07-gartner-survey-finds-generative-ai-is-now-the-most-frequently-deployed-ai-solution-in-organizations)
+  - Referência clássica para a taxa de pilotos que chegam à produção. Descreve as 4 capacidades das organizações maduras em IA: modelo operacional escalável, engenharia de IA, upskilling/gestão da mudança e TRiSM.
+  - Métrica: Em média só 48% dos projetos de IA chegam à produção, e o caminho do protótipo à produção leva 8 meses (644 respondentes, 4º tri/2023) (página oficial)
+  - Métrica: 49% apontam a dificuldade de estimar e demonstrar valor como principal barreira à adoção de IA (página oficial)
+  - Métrica: Só 9% das organizações são 'AI-mature'; 29% já implantaram GenAI (página oficial)
+- **M123 · Gartner (2026)** — Gartner Survey Finds Only 22% of Organizations Have Successfully Scaled AI Across Multiple Business Units · F1, F2 · relevância alta · [link](https://www.gartner.com/en/newsroom/press-releases/gartner-survey-finds-only-22-percent-of-organizations-have-successfully-scaled-ai-across-multiple-business-units)
+  - Press release de set/2026 com a pesquisa C-Suite AI do Gartner: poucos escalam IA, e os que medem ROI por portfólio (e cortam iniciativas fracas) colhem retorno positivo em 81% dos casos. Mostra também que os casos de uso mais populares raramente são os de maior retorno. Tentei imprimir em PDF, mas o Gartner bloqueia o Chrome headless.
+  - Métrica: 22% das organizações escalaram IA em múltiplas unidades de negócio ou adotaram abordagem AI-first (1.303 respondentes, receita ≥US$ 50 mi, jan–abr/2026) (página oficial)
+  - Métrica: 81% das iniciativas de IA com retorno positivo entre os 'high performers' (que rastreiam ROI e tratam IA como portfólio); low performers desconhecem o retorno de 29% das iniciativas (página oficial)
+  - Métrica: 85% dos líderes funcionais vão aumentar o gasto com IA em 2026, após dedicar em média 12% dos orçamentos funcionais à IA em 2025; 11% não sabem quanto gastaram (página oficial)
+  - Métrica: Produtividade é meta de 75% dos líderes e absorve ~30% do gasto funcional com IA (página oficial)
+- **M124 · Gartner (2025)** — Lack of AI-Ready Data Puts AI Projects at Risk · F1, F2 · relevância alta · [link](https://www.gartner.com/en/newsroom/press-releases/2025-02-26-lack-of-ai-ready-data-puts-ai-projects-at-risk)
+  - Q&A que define 'AI-ready data' e propõe 5 passos (alinhar dados a casos de uso, governança, metadados, observabilidade etc.). Dependência crítica para a estratégia de dados.
+  - Métrica: 63% das organizações não têm ou não sabem se têm práticas de gestão de dados adequadas para IA (1.203 líderes de gestão de dados, jul/2024) (página oficial)
+  - Métrica: Até 2026, 60% dos projetos de IA sem dados prontos para IA serão abandonados (página oficial)
+- **M125 · Gartner (2026)** — The New AI Challenge Isn't Adoption. It's AI Spend. (The Real Threat to AI ROI Is Unchecked AI Spend) · F1, F3 · relevância alta · [PDF](03_analistas-big-techs/Gartner_2026_new-ai-challenge-is-ai-spend-rein-in.pdf)
+  - Artigo público do Gartner (31/08/2026) sobre controle do gasto com IA como condição para o ROI: reduzir desperdício, melhorar desempenho (sair do 'tokenmaxxing' para o 'valuemaxxing') e concentrar investimento em fundações de dados, governança e talentos. Página oficial salva em PDF.
+  - Métrica: 84% dos CFOs têm dificuldade para medir o ROI da IA; o gasto com IA deve mais que dobrar, para US$ 5,6 trilhões até 2030 (p. 1)
+  - Métrica: Organizações de alto valor em IA planejam gastar 5,6 vezes mais em IA e em suas fundações que as de baixo valor (p. 3)
+  - Métrica: As mais satisfeitas com os resultados gastam cerca de 30% a mais em gestão de dados, governança e talentos do que em tecnologia de IA (p. 3-4)
+  - Métrica: Uso de IA em análise e em gestão de dados gera melhorias de valor de negócio de até 42% e 33% (p. 3)
+- **M126 · Gartner (Rajesh Kandaswamy) (2026)** — 5 Practices of Organizations With High AI Outcomes · F1, F2 · relevância alta · [link](https://www.gartner.com/en/articles/organizations-with-high-ai-outcomes)
+  - Artigo público do Gartner (15/04/2026) com as cinco práticas das organizações que superam as expectativas em IA: estratégia integrada, equipes multifuncionais dedicadas, confiança das áreas de negócio, métricas regulares de benefício e gestão de portfólio com FinOps. O e-book de roadmap citado na página exige formulário.
+  - Métrica: Só 20% das organizações superam as expectativas dos CEOs quanto aos resultados de IA (página oficial)
+  - Métrica: 86% das organizações com bons resultados de IA medem os benefícios sempre ou com frequência, 40 pontos acima das de baixo desempenho (página oficial)
+  - Métrica: Entre as de alto resultado: 3 em 5 têm estratégia de IA integrada em toda a empresa, metade orquestra uma rede de equipes dedicadas de IA, 69% relatam confiança das unidades de negócio e 4 em 5 usam gestão avançada de portfólio (página oficial)
+- **M127 · Google Cloud (case Suzano, com a parceira Sauter Digital) (2024)** — Suzano: promovendo a gestão sustentável de materiais usando a IA generativa e o Cortex Framework (caso de sucesso) · F1, F3 · relevância alta · [PDF](03_analistas-big-techs/GoogleCloud_2024_case-suzano-vagalumen-ia-generativa.pdf)
+  - Case de fornecedor sobre a ferramenta VagaLúmen, desenvolvida pela equipe interna da Suzano com Gemini e BigQuery. Mostra ganho de tempo e adoção inicial de IA generativa numa líder florestal brasileira; não traz valor em R$. Complementa a notícia da Suzano com a Microsoft já catalogada. Localizado via Perplexity (DR1 apontava a falta de cases de fornecedores).
+  - Métrica: 95% menos tempo para consultar insumos e materiais de manutenção (MRO): de cerca de 2 minutos para 8 segundos com IA generativa que converte perguntas em SQL (2024) (p. 2)
+  - Métrica: 4.000 acessos e 473 usuários únicos desde o lançamento em mai/2024, com meta de cerca de 6.000 usuários (p. 2)
+  - Métrica: Acesso a dados de materiais do SAP aberto a 50.000 funcionários (p. 1)
+- **M128 · Google Cloud / National Research Group (2026)** — ROI of AI 2026: From tokenmaxxing to ROI — a reality check for enterprise AI (relatório) · F1, F2, F3 · relevância alta · [PDF](03_analistas-big-techs/GoogleCloud-NRG_2026_roi-of-ai-2026-tokenmaxxing-to-roi.pdf)
+  - Relatório completo do estudo anual de ROI de IA do Google Cloud (2026, 2.403 executivos, 297.782 respostas). Define os 'AI ROI Leaders' e os três comportamentos que os diferenciam: decisões mais rápidas com dono claro, IA embutida em processos centrais e capacitação obrigatória. Traz o placar de como as empresas medem ROI (só 12% têm framework formal de valor) e aponta segurança, compliance e prontidão regulatória como o habilitador nº 1 para escalar IA. Obtido pelo usuário via formulário do Google Cloud.
+  - Métrica: 26% das empresas são 'AI ROI Leaders', com retornos financeiros de IA acelerando ano a ano; 58% têm retornos em alta constante; 16% estão estagnadas ou é cedo demais para dizer; menos de 1% em queda (N = 2.403 executivos) (p. 4)
+  - Métrica: 86% dos executivos concordam que a IA permite escalar receita ou produção sem aumento proporcional dos custos operacionais (N = 2.403) (p. 1)
+  - Métrica: Líderes x demais: 48% x 27% têm dono e autoridade de decisão 'extremamente claros' para iniciativas de agentes (N = 2.001); 38% x 18% têm capacitação em IA obrigatória e contínua; 48% x 27% já embutiram a IA em processos centrais ou novos modelos de negócio (p. 4)
+  - Métrica: 94% dizem que agentes de IA contribuem tanto para redução de custos quanto para crescimento de receita (N = 2.403) (p. 5)
+- **M129 · Google Cloud / National Research Group (2025)** — The ROI of AI 2025 – How agents are unlocking the next wave of AI-driven business value · F1, F3 · relevância alta · [PDF](03_analistas-big-techs/GoogleCloud_2025_roi-of-ai-agentes.pdf)
+  - Benchmark de ROI de GenAI e agentes por caso de uso, setor e região. Mostra a vantagem dos early adopters e o peso do patrocínio executivo. O PDF é público no domínio oficial.
+  - Métrica: 3.466 executivos em 24 países, com campo de abr–jun/2025 (p. 3; p. 5)
+  - Métrica: 52% dos executivos de empresas que usam GenAI já têm agentes de IA em produção (p. 3)
+  - Métrica: 74% veem ROI em pelo menos um caso de uso de GenAI; 88% entre os early adopters de IA agêntica (n=460) (p. 2–3)
+  - Métrica: 78% das organizações com patrocínio abrangente do C-level relatam ROI já hoje (p. 3; p. 43)
+- **M130 · IBM Institute for Business Value (2025)** — 2025 CEO Study: 5 mindshifts to supercharge business growth · F1, F2 · relevância alta · [PDF](03_analistas-big-techs/IBM-IBV_2025_ceo-study-5-mindshifts.pdf)
+  - Referência muito citada de taxa de sucesso e escala de iniciativas de IA. Recomenda priorizar ROI sobre FOMO, ambiente de dados e parcerias de talento.
+  - Métrica: Só 25% das iniciativas de IA entregaram o ROI esperado nos últimos 3 anos e só 16% escalaram para toda a empresa (2.000 CEOs, 1º tri/2025) (p. 27)
+  - Métrica: 65% dos CEOs priorizam casos de uso de IA por ROI; 68% têm métricas claras de ROI de inovação (p. 27)
+  - Métrica: CAIOs reportam ROI médio de IA de 14% em 2025 (p. 27)
+- **M131 · IBM Institute for Business Value (2026)** — 2026 CEO Study: Rewiring the C-suite – The fast track to 2030 · F1, F3 · relevância alta · [PDF](03_analistas-big-techs/IBM-IBV_2026_ceo-study-rewiring-c-suite.pdf)
+  - Estudo de mai/2026 sobre redesenho do C-suite, papel do CAIO, flywheel de agentes e decisões operacionais delegadas à IA.
+  - Métrica: 2.000 CEOs em 33 geografias, fev–abr/2026 (p. 3)
+  - Métrica: 76% das organizações têm Chief AI Officer em 2026, contra 26% em 2025 (p. 18)
+  - Métrica: 25% das decisões operacionais já são tomadas por IA sem intervenção humana; 48% esperadas em 2030 (p. 24)
+  - Métrica: Empresas que redesenharam 5 áreas (tecnologia, finanças, RH, operações e colaboração) têm 4x mais chance de cumprir seus objetivos (p. 36)
+- **M132 · IBM Institute for Business Value (2025)** — Agentic AI's strategic ascent: Shifting operations from incremental gains to net-new impact · F1, F3 · relevância alta · [PDF](03_analistas-big-techs/IBM-IBV_2025_agentic-ai-strategic-ascent-operating-model.pdf)
+  - Guia do IBM IBV (out/2025) sobre o redesenho do modelo operacional em torno de agentes autônomos: desenho de decisões, confiança e transparência, estruturas de equipe e plano de ação. Mostra que a maior parte do investimento ainda busca ganhos incrementais em processos existentes.
+  - Métrica: 78% dos executivos C-level dizem que o benefício máximo da IA agêntica exige um novo modelo operacional (800 executivos, 20 países, 19 setores, out/2025) (p. 3)
+  - Métrica: Empresas que se destacam em três áreas-chave de adoção de IA têm 32 vezes mais chance de desempenho de negócio de primeira linha (p. 3)
+  - Métrica: 24% dos executivos dizem que agentes de IA já agem de forma independente; 67% esperam isso até 2027; decisões autônomas em processos passam de 28% para 57% (p. 8)
+  - Métrica: Projeções até 2027: giro de estoque +34%, pedidos perfeitos +43%, 71% das consultas de suporte order-to-cash sem intervenção humana e 56% da força de trabalho precisando de requalificação (p. 6)
+- **M133 · IBM Institute for Business Value (com Oxford Economics) (2025)** — From AI projects to profits: How agentic AI can sustain financial returns · F1, F2, F3 · relevância alta · [PDF](03_analistas-big-techs/IBM-IBV_2025_from-ai-projects-to-profits-agentic-ai.pdf)
+  - Estudo do IBM IBV (jun/2025, duas pesquisas com 2.500 e 400 executivos) sobre o 'reset' do ROI da IA: os retornos de pilotos caem ao escalar, mas o lucro operacional atribuído à IA cresce. Compara empresas AI-first com as demais e traz um guia de ação para agentes.
+  - Métrica: ROI médio de 7% nos projetos de IA que escalaram, abaixo do custo de capital de cerca de 10%; em 2023, pilotos de IA generativa chegaram a 31% (p. 5, 8-9)
+  - Métrica: O decil superior atinge ROI de aproximadamente 18% (p. 9)
+  - Métrica: CEOs dizem que só 25% das iniciativas de IA entregaram o ROI esperado nos últimos três anos (p. 9)
+  - Métrica: Melhoria de lucro operacional atribuída à IA: 2,4% (2022), 3,6% (2023) e 7,7% (2024) (p. 9)
+- **M134 · IBM Institute for Business Value (com Oxford Economics) (2026)** — The calculus of AI sovereignty: Balancing control, flexibility, and risk · F3, F1 · relevância alta · [PDF](03_analistas-big-techs/IBM-IBV_2026_calculus-of-ai-sovereignty.pdf)
+  - Estudo sobre soberania de IA entendida como controle seletivo sobre dados, modelos e infraestrutura. Quantifica lock-in, dependência de fornecedores e o valor econômico da flexibilidade. Base quantitativa para F3 (dados e soberania tecnológica) e para decisões de arquitetura.
+  - Métrica: 71% dizem que seria difícil trocar hoje o principal fornecedor ou modelo de IA; só 9% entendem muito bem suas dependências de IA (1.000 executivos, 16 países, 17 setores, fev-abr/2026) (p. 4-6)
+  - Métrica: Empresas com maior controle sobre dados, modelos e infraestrutura protegem 55% mais lucro operacional contra disrupções de IA; só 7% estão nesse nível (2026) (p. 4, 15; release de 17/06/2026)
+  - Métrica: 81% dizem que 7 dias sem o fornecedor principal de IA seriam severos ou críticos; média de 6 disrupções ligadas à IA em 2 anos (2026) (p. 15)
+  - Métrica: 72% aceitariam custo 20% maior para manter múltiplos fornecedores; 56% levariam 6 meses ou mais para migrar sistemas centrais de IA (2026) (p. 8, 19)
+- **M135 · IBM Institute for Business Value / Oxford Economics / Dubai Future Foundation (2025)** — Solving the AI ROI puzzle: How Chief AI Officers cut through complexity to create new paths to value · F1, F2 · relevância alta · [PDF](03_analistas-big-techs/IBM-IBV_2025_chief-ai-officers.pdf)
+  - Evidência quantitativa sobre estrutura organizacional (papel do CAIO, centralizado vs. descentralizado) e ROI. Base direta para a frente de governança e organização.
+  - Métrica: Organizações com CAIO têm 10% mais ROI sobre o gasto em IA; só 26% têm CAIO, contra 11% em 2023 (600+ CAIOs, 1º tri/2025) (p. 5; p. 8)
+  - Métrica: Modelos operacionais centralizados ou hub-and-spoke geram 36% mais ROI de IA que modelos descentralizados (p. 5)
+  - Métrica: 57% dos CAIOs reportam ao CEO ou ao Conselho (p. 5)
+  - Métrica: 72% dizem que a empresa ficará para trás sem medir o impacto da IA; 68% iniciam projetos mesmo sem conseguir medi-lo (p. 5)
+- **M136 · IDC (comissionado pela Lenovo) (2026)** — CIO Playbook 2026: The Race for Enterprise AI (IDC para Lenovo) — infográfico global e release oficial · F1, F2, F3 · relevância alta · [PDF](03_analistas-big-techs/IDC-Lenovo_2026_cio-playbook-race-for-enterprise-ai-global-infografico.pdf)
+  - Quarta edição global do CIO Playbook. Traz a conversão de POC em produção, o descompasso entre adoção e governança e o avanço de agentes e da arquitetura híbrida por privacidade e soberania de dados. O release está em news.lenovo.com; não há edição Brasil localizada.
+  - Métrica: 46% das provas de conceito de IA já foram para produção; algumas organizações projetam retorno de US$ 2,79 por dólar investido e os CIOs esperam até 179% de ROI (3.120 decisores de TI e negócios, jan/2026) (release oficial de 27/01/2026)
+  - Métrica: 60% das organizações estão em estágio avançado de adoção, mas só 27% têm framework abrangente de governança de IA; 56% ainda desenvolvem políticas (n=3.120, 2026) (infográfico, p. 1; release)
+  - Métrica: Só 21% usam IA agêntica de forma significativa e 55% exploram ou pilotam; 60% estão a mais de 12 meses de conseguir escalar agentes (2026) (release oficial)
+  - Métrica: 62% preferem IA híbrida como modelo principal (10% só on-premises, 12% edge, 16% só nuvem pública); 96% vão ampliar o investimento em IA em 12 meses (2026) (infográfico, p. 1)
+- **M137 · IDC (comissionado pela Microsoft Brasil) (2026)** — Impacto nos Negócios pela Adoção de IA no Brasil (IDC para Microsoft Brasil) – notícia oficial · F1, F2, F3 · relevância alta · [PDF](03_analistas-big-techs/IDC-Microsoft_2026_impacto-adocao-ia-brasil.pdf)
+  - Estudo brasileiro de jun/2026 com números de ganho, estágio (limitado → escalado), orçamento e organização (novas funções). O relatório completo não está público; o PDF é a impressão da página oficial.
+  - Métrica: 73 C-levels de empresas brasileiras com mais de 1.000 funcionários (2026) (p. 3)
+  - Métrica: Ganho médio de 24,5% associado às iniciativas de IA: satisfação do cliente 28,2%, eficiência de processos 27,7%, redução de riscos 26,9%, time-to-market 25,2% (p. 2–3)
+  - Métrica: 23% já escalaram IA para produção em várias áreas e 41% a usam em casos limitados; 51% esperam ter escalado em 24 meses (p. 3)
+  - Métrica: 28% do orçamento de investimentos está associado a IA hoje; a expectativa é 45% até 2028 (p. 4)
+- **M138 · IDC (patrocínio Microsoft) (2024)** — 2024 Business Opportunity of AI (IDC InfoBrief #US52699124, patrocínio Microsoft) · F1, F3 · relevância alta · [link](https://info.microsoft.com/ww-landing-business-opportunity-of-ai.html)
+  - Atualização de 2024 do estudo IDC de retorno por dólar, com ranking de ROI por setor (financeiro no topo, energia e manufatura incluídos). O InfoBrief completo exige formulário; os números vêm do blog oficial.
+  - Métrica: US$ 3,7 de retorno por US$ 1 investido em IA generativa; líderes obtêm US$ 10,3 (4.000+ líderes, 2024) (blog oficial Microsoft: https://blogs.microsoft.com/blog/2024/11/12/idcs-2024-ai-opportunity-study-top-five-ai-trends-to-watch/)
+  - Métrica: Uso de GenAI subiu de 55% (2023) para 75% (2024) (blog oficial)
+  - Métrica: Implantações de IA levam em média menos de 8 meses e geram valor em 13 meses; 29% dos líderes implementam em menos de 3 meses, contra 6% dos retardatários (blog oficial)
+  - Métrica: 43% dizem que os casos de produtividade deram o maior ROI (blog oficial)
+- **M139 · IDC (patrocínio Microsoft) (2023)** — The Business Opportunity of AI (IDC InfoBrief/Infographic, patrocínio Microsoft) · F1, F3 · relevância alta · [PDF](03_analistas-big-techs/IDC-Microsoft_2023_business-opportunity-of-ai.pdf)
+  - Referência clássica e muito citada de retorno por dólar investido. É de 2023, mas foi mantida por ser a base da série IDC/Microsoft.
+  - Métrica: US$ 3,5 de retorno médio para cada US$ 1 investido em IA; 5% das organizações obtêm US$ 8 (n=2.109, set/2023) (p. 1)
+  - Métrica: Retorno do investimento em IA em média 14 meses após a implantação (p. 1)
+  - Métrica: 92% das implantações de IA levam 12 meses ou menos; 40% levam menos de 6 meses (p. 1)
+  - Métrica: 71% das organizações já usam IA; 52% citam falta de profissionais qualificados como principal desafio (p. 1)
+- **M140 · IDC (patrocínio Microsoft) (2025)** — What every company can learn from Frontier firms leading the AI revolution (IDC InfoBrief #US53838325) · F1, F2, F3 · relevância alta · [PDF](03_analistas-big-techs/IDC-Microsoft_2025_frontier-firms-ai-revolution-infobrief.pdf)
+  - Edição de nov/2025 do estudo 'Business Opportunity of AI' da IDC, agora centrada nas 'Frontier firms' (empresas na fronteira da maturidade em IA), com três níveis de maturidade, ROI de IA generativa e agêntica, tempo de retorno e barreiras. Útil para F1 e F2. Obtido via formulário da Microsoft em 30/09/2026 (a página entregou esta edição, não a de 2024).
+  - Métrica: ROI médio de 2,8 vezes para usuários de IA generativa, com retorno realizado em 15 meses em média (IDC Business Opportunity of AI Survey, ago/2025; empresas com 1.000+ funcionários, inclui Brasil) (p. 7)
+  - Métrica: Usuários de IA agêntica relatam ROI médio de 2,3 vezes, realizado em 13 meses; 37% já usam IA agêntica e outros 25% experimentam (p. 7)
+  - Métrica: 40% das organizações escalam IA generativa em múltiplas funções (RH, finanças, marketing, supply chain); quase 40% planejam aumentar o gasto com IA em até 19% em 24 meses (p. 6)
+  - Métrica: Quase 30% apontam segurança, privacidade, governança e compliance como os principais desafios para escalar IA; mais de 75% consideram a transparência muito ou extremamente importante (p. 7)
+- **M141 · IDC / ABES (2026)** — Estratégias Digitais em Alta Performance: os vetores tecnológicos impulsionados pela IA (IDC para ABES) · F1, F2, F3 · relevância alta · [PDF](03_analistas-big-techs/IDC-ABES_2026_estrategias-digitais-alta-performance-ia.pdf)
+  - Estudo IDC para a ABES com decisores de TI de empresas brasileiras (abr/2026): IA como vetor que organiza as decisões de nuvem, dados e cibersegurança. Dá a régua de estágio de IA generativa (casos de uso, testes, investimento com plano) e mostra dados e talento como os gargalos da escala, além de repatriação de cargas por soberania de dados. Útil para F1 Brasil, F2 e F3. Obtido pelo usuário via formulário.
+  - Métrica: 95% das empresas brasileiras já usam IA na operação e 86% usam IA generativa no dia a dia (107 decisores de TI, abr/2026) (p. 16, 17)
+  - Métrica: 69% já investem significativamente em IA generativa com plano de gastos definido; 23% estão em testes e provas de conceito sem plano; 7% só listam casos de uso (p. 21)
+  - Métrica: Dados: 48% têm um ativo bem estruturado e governado, 49% parcialmente estruturado com lacunas e 3% têm gargalo significativo para IA (p. 22)
+  - Métrica: Só 44% se sentem prontos hoje para aproveitar ao máximo IA, GenAI e agentes; quase 90% esperam estar prontos em 4 anos (p. 25)
+- **M142 · Informatica (2025)** — CDO Insights 2025: Racing Ahead on GenAI and Data Investments While Navigating Potential Speed Bumps (release oficial) · F1, F2 · relevância alta · [link](https://www.informatica.com/about-us/news/news-releases/2025/01/20250128-global-data-leaders-seek-to-harness-the-power-of-genai-for-ai-driven-success.html)
+  - Release oficial da pesquisa anual com líderes de dados. Quantifica o purgatório de pilotos e liga o insucesso à prontidão e à qualidade dos dados, dimensão de estratégia de dados de F1. O relatório completo e a edição 2026 exigem formulário.
+  - Métrica: 67% dos líderes de dados não conseguiram levar nem metade dos pilotos de IA generativa à produção (pesquisa global CDO Insights 2025, jan/2025) (release oficial)
+  - Métrica: Mais de 97% têm dificuldade de demonstrar valor de negócio da IA generativa; barreiras: cibersegurança e privacidade 46%, uso responsável 45%, confiabilidade 43%, confiança na qualidade dos dados 38% (2025) (release oficial)
+  - Métrica: 86% esperam ampliar investimento em gestão de dados em 2025; 44% apontam a prontidão dos dados para IA generativa como principal motivo (2025) (release oficial)
+- **M143 · Microsoft (2025)** — 2025 Work Trend Index Annual Report: The Year the Frontier Firm Is Born · F2, F3 · relevância alta · [PDF](03_analistas-big-techs/Microsoft_2025_work-trend-index-frontier-firm.pdf)
+  - Define a 'Frontier Firm' e um roadmap em 3 fases (humano com assistente → times humano-agente → processos operados por agentes e dirigidos por humanos). Traz ainda conceitos como 'agent boss' e razão humano-agente.
+  - Métrica: 31.000 trabalhadores em 31 países, mais dados do LinkedIn e do Microsoft 365 (p. 2)
+  - Métrica: 82% dos líderes dizem que 2025 é o ano decisivo para repensar estratégia e operações; 81% esperam agentes integrados à estratégia de IA em 12–18 meses (p. 2)
+  - Métrica: 24% dos líderes já implantaram IA em toda a organização; 12% seguem em modo piloto (p. 2)
+- **M144 · Microsoft (2026)** — 2026 Work Trend Index Annual Report: Agents, human agency, and the opportunity for every organization · F1, F3 · relevância alta · [PDF](03_analistas-big-techs/Microsoft_2026_work-trend-index-agentes-agencia-humana.pdf)
+  - Relatório de mai/2026 sobre redesenho do modelo operacional com agentes, papel dos líderes e 'firma como sistema de aprendizado'. Traz recortes por país, incluindo o Brasil.
+  - Métrica: 20.000 trabalhadores usuários de IA pesquisados em 10 países, mais trilhões de sinais do Microsoft 365 (p. 6)
+  - Métrica: 67% do impacto da IA vem de fatores organizacionais (cultura, apoio do gestor, práticas de talento), contra 32% da mentalidade individual (p. 16)
+  - Métrica: 58% dos usuários de IA produzem trabalho que não conseguiam há um ano (80% entre os 'Frontier Professionals'); 66% dedicam mais tempo a trabalho de alto valor (p. 8)
+  - Métrica: Só 26% dos usuários de IA dizem que a liderança está claramente alinhada sobre IA; no Brasil, 38% (p. 13; p. 26)
+- **M145 · Morning Consult para IBM (com Lopez Research) (2024)** — ROI of AI (December 2024) – pesquisa com decisores de TI em 12 países · F2 · relevância alta · [PDF](03_analistas-big-techs/IBM-MorningConsult_2024_roi-of-ai-report.pdf)
+  - Fonte primária do dado '95% das empresas brasileiras com ROI positivo ou break-even', citado pela Linux Foundation e pela Forbes. Traz o recorte por país (p. 69), métricas de ROI consideradas críticas, obstáculos (qualidade e integração de dados) e prazos esperados de retorno.
+  - Métrica: Brasil: 48% das empresas com ROI positivo e 47% em break-even com IA (95% somados); 3% com ROI negativo – decisores de TI em empresas com 101+ funcionários, n=230 no Brasil, out–nov/2024 (p. 69)
+  - Métrica: Global: 47% com ROI positivo, 33% em break-even, 14% negativo e 6% com dificuldade de medir (n=2.413, 12 países) (p. 10)
+  - Métrica: Brasil: 61% dizem ter feito progresso significativo na execução da estratégia de IA (p. 6)
+  - Métrica: Brasil: 41% com motivação mais voltada a inovação contra 24% voltada a ROI (p. 7)
+- **M146 · NVIDIA (2026)** — How AI Is Driving Revenue, Cutting Costs and Boosting Productivity for Every Industry in 2026 (síntese dos relatórios 'State of AI') · F1, F3 · relevância alta · [PDF](03_analistas-big-techs/NVIDIA_2026_state-of-ai-cross-industry-roi.pdf)
+  - Síntese oficial dos surveys setoriais da NVIDIA, com ROI em receita e custo e caso industrial de gêmeos digitais. O PDF é a impressão do blog; os relatórios setoriais completos exigem formulário.
+  - Métrica: Mais de 3.200 respostas em 5 setores (financeiro, varejo/CPG, saúde, telecom, manufatura), ago–dez/2025 (p. 1; p. 10)
+  - Métrica: 64% usam IA ativamente e 28% estão em avaliação (p. 2)
+  - Métrica: 88% dizem que a IA aumentou a receita anual, 30% em mais de 10% (p. 5)
+  - Métrica: 87% dizem que a IA reduziu custos anuais, 25% em mais de 10%; no varejo/CPG, 37% (p. 6)
+- **M147 · S&P Global Market Intelligence (451 Research) (2025)** — Generative AI experiences rapid adoption, but with mixed outcomes – Highlights from VotE: AI & Machine Learning (Use Cases 2025) · F1, F2 · relevância alta · [PDF](03_analistas-big-techs/SPGlobal-451Research_2025_vote-ai-ml-use-cases-abandono-projetos.pdf)
+  - Destaques públicos da pesquisa Voice of the Enterprise: AI & ML Use Cases 2025. É a fonte recente mais citada sobre taxa de abandono de projetos de IA. Liga menor abandono a uma priorização que considera compliance, risco e disponibilidade de dados. O relatório completo é pago.
+  - Métrica: 42% das empresas abandonaram a maioria das iniciativas de IA antes da produção, contra 17% um ano antes (1.006 profissionais de TI e negócios, América do Norte e Europa, 2025) (p. 2-3)
+  - Métrica: 46% dos projetos de IA, em média, são descartados entre a prova de conceito e a adoção ampla (mesma amostra, 2025) (p. 3)
+  - Métrica: 46% dos que investiram em IA generativa não viram impacto fortemente positivo em nenhum objetivo; impacto positivo em receita caiu de 81% para 76% e em gestão de custos de 79% para 74% (2025) (p. 3)
+  - Métrica: 27% têm IA generativa em toda a organização (13% no ano anterior); principais desafios: privacidade 38%, segurança 38% e custos 37% (2025) (p. 2, 4)
+- **M148 · ServiceNow / Oxford Economics (2025)** — Enterprise AI Maturity Index 2025 · F2, F1 · relevância alta · [PDF](03_analistas-big-techs/ServiceNow_2025_enterprise-ai-maturity-index.pdf)
+  - Índice de maturidade com 5 pilares (estratégia e liderança, workflows, talentos, governança, realização de valor) e roadmap dos Pacesetters. Mostra que a maturidade cai com a velocidade da inovação.
+  - Métrica: Maturidade média caiu de 44 para 35 (escala 0–100) em um ano; menos de 1% pontuou acima de 50 (4.473 organizações, 16 países, 2025) (p. 3; p. 5)
+  - Métrica: 'Pacesetters' são 18,2% da amostra, com pontuação média 44 (p. 8)
+  - Métrica: Pacesetters contra os demais: 36% vs. 19% usam IA agêntica; 63% vs. 42% têm políticas de governança de IA; 66% vs. 46% adotam abordagem de plataforma (p. 11)
+  - Métrica: US$ 113 bi de aumento de margem bruta se as Global 2000 fossem Pacesetters (p. 3)
+- **M149 · AWS (2024)** — AWS Cloud Adoption Framework for Artificial Intelligence, Machine Learning, and Generative AI (CAF-AI) · F2 · relevância media · [PDF](03_analistas-big-techs/AWS_2024_caf-for-ai-ml-genai.pdf)
+  - Framework de adoção de IA da AWS (fev/2024) com ciclo Envision → Align → Launch → Scale e capacidades fundacionais por perspectiva (negócio, pessoas, governança, plataforma, segurança, operações). Serve para mapear capacidades por estágio.
+- **M150 · Databricks (2024)** — State of Data + AI (2024): Data intelligence and the race to customize LLMs · F2, F3 · relevância media · [link](https://www.databricks.com/discover/state-of-data-ai)
+  - Página oficial com o resumo da edição 2024, baseada em dados anônimos de uso de 10 mil clientes (mais de 300 da Fortune 500): mostra a passagem de experimento para produção em ML e a customização de LLMs. Não houve 'State of Data + AI 2025' (a série virou 'State of AI Agents', já catalogada), e o link do relatório completo agora leva ao e-book de 2026, com formulário.
+  - Métrica: Crescimento de 1.018% em modelos registrados para produção em um ano (11 vezes), acima do crescimento de 134% nos experimentos registrados (uso de 10.000 clientes, 2024) (página oficial)
+  - Métrica: Os três setores mais eficientes colocam 25% dos modelos em produção (razão entre experimentos e modelos registrados) (página oficial)
+  - Métrica: Uso de bancos de dados vetoriais cresceu 377% em um ano; 77% dos usuários de LLMs abertos escolhem modelos de até 13 bilhões de parâmetros (página oficial)
+- **M151 · Gartner (2026)** — 2026 Hype Cycle for Agentic AI (artigo público) · F2, F3 · relevância media · [link](https://www.gartner.com/en/articles/hype-cycle-for-agentic-ai)
+  - Coloca a IA agêntica no Pico das Expectativas Infladas e destaca governança, segurança e FinOps de agentes. O Hype Cycle for AI 2025 (press release de 05/08/2025) já tinha posto agentes e AI-ready data no pico. O compilado de Hype Cycles exige formulário; os relatórios completos são pagos.
+  - Métrica: Só 17% das organizações já implantaram agentes de IA, mas mais de 60% esperam fazê-lo em 2 anos (Gartner CIO and Technology Executive Survey 2026) (página oficial)
+- **M152 · Gartner (2025-2026)** — Gartner AI Maturity Model and AI Roadmap Toolkit / AI Maturity Assessment · F2 · relevância media · [link](https://www.gartner.com/en/chief-information-officer/research/ai-maturity-model-toolkit)
+  - Framework de maturidade do Gartner (pilares de estratégia, dados, governança, engenharia, modelo operacional, cultura e produto/valor de IA), com roadmap priorizado. O relatório completo é só para clientes; a demo interativa exige formulário.
+- **M153 · Gartner (2026)** — Gartner Forecasts Worldwide AI Spending to Grow 49.5% in 2026 · F3 · relevância media · [link](https://www.gartner.com/en/newsroom/press-releases/2026-09-16-gartner-forecasts-worldwide-ai-spending-to-grow-49-point-5-percent-in-2026)
+  - Previsão mais recente de gasto (set/2026) por mercado. Situa a GenAI no 'Vale da Desilusão' em 2026 e cita riscos de lock-in e soberania de dados.
+  - Métrica: Gasto mundial com IA de US$ 2,7 tri em 2026 (+49,5% no ano) e US$ 3,6 tri em 2027 (página oficial, tabela 1)
+  - Métrica: Gasto com agentes e assistentes de IA: US$ 16,5 bi (2025) → US$ 29,2 bi (2026) → US$ 65,5 bi (2027) (página oficial)
+  - Métrica: Oportunidade de US$ 1,2 tri em serviços de IA até 2030 (página oficial)
+- **M154 · Gartner (2025)** — Gartner Identifies the Top Strategic Technology Trends for 2026 · F3 · relevância media · [link](https://www.gartner.com/en/newsroom/press-releases/2025-10-20-gartner-identifies-the-top-strategic-technology-trends-for-2026)
+  - As 10 tendências para 2026 incluem sistemas multiagentes, Physical AI (robôs, drones e equipamentos inteligentes) e geopatriação/soberania de nuvem. São relevantes para robótica de campo e soberania de dados.
+  - Métrica: Até 2028, mais da metade dos modelos de GenAI usados por empresas serão de domínio específico (DSLMs) (página oficial)
+  - Métrica: Até 2028, mais de 50% das empresas usarão plataformas de segurança de IA; mais de 40% das empresas líderes adotarão computação híbrida, contra 8% hoje (página oficial)
+  - Métrica: Até 2030, 80% das organizações transformarão grandes times de engenharia de software em times menores aumentados por IA (página oficial)
+- **M155 · Gartner (2025)** — Gartner Predicts 40% of Enterprise Apps Will Feature Task-Specific AI Agents by 2026, Up from Less Than 5% in 2025 · F2, F3 · relevância media · [link](https://www.gartner.com/en/newsroom/press-releases/2025-08-26-gartner-predicts-40-percent-of-enterprise-apps-will-feature-task-specific-ai-agents-by-2026-up-from-less-than-5-percent-in-2025)
+  - Descreve 5 estágios de evolução da IA agêntica (assistentes → agentes por tarefa → agentes colaborativos → ecossistemas → 'nova normalidade'). Útil como roadmap de maturidade em agentes.
+  - Métrica: 40% dos apps corporativos terão agentes específicos por tarefa até o fim de 2026, contra menos de 5% em 2025 (página oficial)
+  - Métrica: No melhor cenário, a IA agêntica pode gerar ~30% da receita de software corporativo até 2035 (mais de US$ 450 bi), contra 2% em 2025 (página oficial)
+  - Métrica: Até 2027, 1/3 das implementações agênticas combinarão agentes com habilidades diferentes (página oficial)
+- **M156 · Gartner (2026)** — Gartner Predicts 60% of Organizations That Ignore Data Governance Culture Challenges Will Fail to Govern AI Successfully by 2027 · F1 · relevância media · [link](https://www.gartner.com/en/newsroom/press-releases/2026-09-21-gartner-predicts-60-percent-of-organizations-that-ignore-data-governance-culture-challenges-will-fail-to-govern-ai-successfully-by-2027)
+  - Liga governança de IA à cultura de dados: 'AI-ready data' exige 'AI-ready stakeholders'. Útil para governança e gestão da mudança.
+  - Métrica: Até 2027, 60% das organizações que ignorarem os desafios culturais da governança de dados falharão em governar a IA (página oficial)
+  - Métrica: Resistência cultural (60%) supera restrição de orçamento (40%) como causa de falha das iniciativas de governança (223 líderes de D&A, mar/2026) (página oficial)
+- **M157 · Gartner (2026)** — Gartner Predicts 70% of Enterprises Will Abandon Agentic AI Built by Vendor Forward-Deployed Engineering by 2028 · F1, F3 · relevância media · [link](https://www.gartner.com/en/newsroom/press-releases/2026-09-29-gartner-predicts-70-percent-of-enterprises-will-abandon-agentic-ai-built-by-vendor-forward-deployed-engineering-by-2028)
+  - Publicado hoje (29/09/2026). Lições sobre o modelo de parceria com fornecedores: escopo, propriedade intelectual, transferência de conhecimento e plano de saída desde o dia 1. Útil para governança de parcerias e para construir capacidade interna.
+  - Métrica: Até 2028, 70% das empresas abandonarão a IA agêntica construída por engenheiros 'forward-deployed' de fornecedores, por custos crescentes e falta de capacidade interna (página oficial)
+- **M158 · Gartner (2026)** — Gartner Says AI Projects in I&O Stall Ahead of Meaningful ROI Returns · F1 · relevância media · [link](https://www.gartner.com/en/newsroom/press-releases/2026-04-07-gartner-says-artificial-intelligence-projects-in-infrastructure-and-operations-stall-ahead-of-meaningful-roi-returns)
+  - Taxas de sucesso e fracasso e fatores de sucesso (integrar a IA a workflows existentes, patrocínio executivo, business case realista). Recorte de TI, mas é um bom proxy de insucesso.
+  - Métrica: Só 28% dos casos de uso de IA em I&O têm sucesso pleno e atingem o ROI esperado; 20% falham (782 líderes de I&O, nov–dez/2025) (página oficial)
+  - Métrica: 57% dos líderes tiveram ao menos uma falha; 38% atribuem falhas a lacunas de habilidades e 38% a dados ruins ou indisponíveis (página oficial)
+  - Métrica: 53% das vitórias de IA ocorrem em gestão de serviços de TI (ITSM) (página oficial)
+- **M159 · Google Cloud (2020)** — Google Cloud's AI Adoption Framework · F2 · relevância media · [PDF](03_analistas-big-techs/GoogleCloud_2020_ai-adoption-framework.pdf)
+  - Framework clássico de maturidade: 3 fases (tática, estratégica, transformacional), 4 áreas (pessoas, processos, tecnologia, dados) e 6 temas (Learn, Lead, Access, Scale, Secure, Automate), com escala de maturidade. Mantido como referência clássica.
+- **M160 · Google Cloud / National Research Group (2025)** — The ROI of AI in financial services – How AI agents are helping drive growth, reduce costs, and mitigate risk · F1, F3 · relevância media · [PDF](03_analistas-big-techs/GoogleCloud_2025_roi-of-ai-servicos-financeiros.pdf)
+  - Recorte do setor financeiro, um setor correlato mais maduro, do estudo ROI of AI 2025, com casos de uso de agentes (KYC, fraude, atendimento) e evolução ano a ano.
+  - Métrica: 53% dos executivos de serviços financeiros relatam uso de agentes de IA (n=556, 2025) (p. 3)
+  - Métrica: 77% relatam ROI de GenAI já hoje, estável em relação a 2024 (p. 17)
+  - Métrica: Casos de agentes com ROI: atendimento/experiência do cliente (42%), marketing (35%) e finanças/contabilidade (35%) (p. 14)
+- **M161 · Google Cloud / National Research Group (2024)** — The ROI of Gen AI – A global survey of enterprise adoption and value · F1, F2 · relevância media · [PDF](03_analistas-big-techs/GoogleCloud_2024_roi-of-generative-ai.pdf)
+  - Primeira edição do benchmark de ROI do Google, com recorte LATAM e definição de 'líderes'. O PDF é público no domínio oficial, mas a landing page do Google pede cadastro.
+  - Métrica: 2.508 líderes de empresas com receita acima de US$ 10 mi (fev–abr/2024), sendo 152 no Brasil (p. 3)
+  - Métrica: 74% das empresas com GenAI em produção relatam ROI no primeiro ano; 84% levam um caso de uso da ideia à produção em menos de 6 meses (p. 5)
+  - Métrica: 45% dos que relatam ganho de produtividade viram a produtividade dos funcionários dobrar ou mais (p. 5)
+  - Métrica: América Latina: ROI já visível em novos produtos e serviços (37%), atendimento e serviço de campo (42%) e vendas e marketing (41%) (p. 9)
+- **M162 · IBM Institute for Business Value (com Oxford Economics) (2026)** — 2026 CFO Study: Fast track to execution — How AI-first CFOs create value · F1, F2 · relevância media · [PDF](03_analistas-big-techs/IBM-IBV_2026_cfo-study-ai-first-cfos-create-value.pdf)
+  - Estudo global do IBM IBV com CFOs sobre como transformar a ambição em IA em resultado financeiro: cinco disciplinas (vantagem da empresa, IA com confiança, inteligência nas decisões, alocação dinâmica de capital e opções futuras) e práticas de medição de ROI e realocação de capital.
+  - Métrica: Empresas lideradas por CFOs 'AI-first' tiveram crescimento de receita 23% maior que os pares (1.500 CFOs, 33 geografias, 26 setores, 1º sem./2026) (p. 3, 6)
+  - Métrica: Só 6% das áreas de finanças operam em nível em que a IA aumenta decisões de forma consistente em escala (p. 26)
+  - Métrica: 84% dos CFOs AI-first rastreiam a criação de valor da IA e realocam capital; 84% usam painéis de gasto, ROI e valor em tempo real (p. 34)
+  - Métrica: 62% dos CFOs assumiram a liderança da estratégia de tecnologia ou IA nos últimos dois anos (p. 12)
+- **M163 · IDC (2026)** — Dispelling the myth of a silver bullet in sovereign AI · F3 · relevância media · [link](https://www.idc.com/resource-center/blog/dispelling-the-myth-of-a-silver-bullet-in-sovereign-ai/)
+  - Análise da IDC (30/03/2026) que defende arquiteturas híbridas por caso de uso, e até por componente (treino, RAG, orquestração de agentes), em vez de um único modelo 'mais soberano'.
+  - Métrica: 37% dizem que on-premises é o ambiente principal e que a nuvem soberana é ou será a única nuvem usada; 55% a veem como parte de estratégia multinuvem ou híbrida (IDC Digital Sovereignty Survey 2025, mais de 900 líderes)
+  - Métrica: Até 2028, CIOs de multinacionais vão aumentar em 65% o investimento em nuvem modular pronta para soberania e em localização de dados
+  - Métrica: Até 2026, 55% dos governos adotarão stacks híbridos de nuvem soberana
+- **M164 · IDC (2025)** — IDC FutureScape 2026 Predictions Reveal the Rise of Agentic AI and a Turning Point in Enterprise Transformation · F3 · relevância media · [link](https://my.idc.com/getdoc.jsp?containerId=prUS53883425)
+  - Previsões IDC para 2026–2030 sobre agentes, força de trabalho, dados prontos para IA, soberania e governança (multas e demissões de CIOs por falhas de agentes).
+  - Métrica: Até 2030, 45% das organizações orquestrarão agentes de IA em escala (página oficial)
+  - Métrica: Até 2026, 40% das funções nas G2000 envolverão trabalho com agentes de IA (página oficial)
+  - Métrica: Até 2027, empresas sem dados de qualidade prontos para IA terão perda de 15% de produtividade ao escalar GenAI e agentes (página oficial)
+  - Métrica: Até 2028, 60% das organizações com requisitos de soberania digital migrarão cargas sensíveis para novos ambientes de nuvem (página oficial)
+- **M165 · IDC (2026)** — The high cost of sovereignty in the age of AI · F3 · relevância media · [PDF](03_analistas-big-techs/IDC_2026_high-cost-of-sovereignty-ai-stacks.pdf)
+  - Análise da IDC (04/02/2026) sobre a fragmentação dos stacks de IA por exigências de soberania e seu custo: prêmio de preço soberano e integração entre zonas, por exemplo agentes que precisam acessar dados em jurisdições diferentes. Útil para dependência de fornecedores e decisões de arquitetura. Página salva em PDF.
+  - Métrica: Até 2028, 60% das multinacionais vão dividir seus stacks de IA entre zonas soberanas, triplicando os custos de integração (IDC FutureScape 2026) (p. 1)
+  - Métrica: 63% das organizações estão mais propensas a adotar nuvem soberana por causa de eventos geopolíticos recentes (p. 1)
+  - Métrica: AWS European Sovereign Cloud disponível desde 15/01/2026, com investimento previsto de € 7,8 bi até 2040 (p. 2)
+- **M166 · Microsoft (2026)** — Becoming a Frontier Firm: A How-To Guide for Transforming with AI and Agents · F2, F1 · relevância media · [PDF](03_analistas-big-techs/Microsoft_2026_becoming-a-frontier-firm-playbook.pdf)
+  - Playbook da Microsoft (PDF gerado em mar/2026) para a 'Frontier Firm' em três fases: Foundation (pessoa com assistente), Expansion (equipes pessoa-agente) e Frontier (pessoas lideram, agentes operam). Detalha mudanças no modelo operacional, força de trabalho e tecnologia, cinco cenários por função corporativa e métricas de sucesso por fase: adoção, horas assistidas, agentes em uso e KPIs de negócio (p. 31-33).
+  - Métrica: 82% dos executivos dizem que 2025 foi um ano decisivo para repensar estratégia e operações com IA (p. 2)
+  - Métrica: 52% dos empregados citam falta de tempo como principal barreira para aprender IA (p. 12)
+- **M167 · Microsoft (AI Economy Institute) (2026)** — Global AI Diffusion – Q2 2026 Trends and Insights · F3 · relevância media · [PDF](03_analistas-big-techs/Microsoft_2026_ai-diffusion-report-q2.pdf)
+  - Série trimestral de difusão de IA por país (telemetria Microsoft), a mais recente de set/2026. Contexto de adoção no Brasil e discussão de modelos open-weight e soberania.
+  - Métrica: 18,8% da população mundial em idade ativa (15–64 anos) usou IA generativa em jun/2026, cerca de +1 p.p. sobre o 1º tri (p. 2)
+  - Métrica: Uso de IA de 28,8% no Norte Global contra 16,2% no Sul Global (p. 2)
+  - Métrica: Brasil: 19,1% no 1º tri/2026 → 20,2% no 2º tri/2026 (+1,1 p.p.) (p. 14)
+- **M168 · Microsoft (Microsoft Digital) (2026)** — Becoming a Frontier Firm: A guide for deploying AI agents based on our experience at Microsoft (Inside Track) · F2, F1 · relevância media · [link](https://www.microsoft.com/insidetrack/blog/becoming-a-frontier-firm-a-guide-for-deploying-ai-agents-based-on-our-experience-at-microsoft/)
+  - Guia de 16/04/2026 da área de TI da Microsoft com o modelo interno de maturidade em IA em cinco estágios: 1) conscientização e fundação; 2) pilotos e formação de competências; 3) operacionalizar e governar; 4) adoção em toda a empresa; 5) transformação com IA agêntica. Traz resultados-alvo por estágio, estruturas (CoE de IA, Data Council, Office of Responsible AI), seis princípios de governança de agentes e parâmetros de medição (tempo, custo, qualidade). Não tem métricas quantitativas.
+- **M169 · Microsoft (case Bayer Crop Science) (2025 (data não exibida na página))** — Bayer brings agronomic expertise to the edge with Azure AI Foundry (E.L.Y. Crop Protection Mini) · F1, F3 · relevância media · [link](https://www.microsoft.com/en/customers/story/25255-bayer-azure-phi)
+  - Case agro de modelo de linguagem pequeno de domínio (Phi ajustado com dados proprietários de rótulos e regulação) servido a consultores agronômicos e revendas. Exemplo de copiloto agronômico e de DSLM.
+  - Métrica: Ganho de produtividade estimado de 5–10% entre os primeiros usuários (página oficial)
+  - Métrica: Perguntas complexas de defensivos resolvidas em menos de 30 segundos, antes dias ou semanas (página oficial)
+- **M170 · OpenAI (2025)** — The state of enterprise AI — 2025 Report · F3, F1 · relevância media · [PDF](03_analistas-big-techs/OpenAI_2025_state-of-enterprise-ai.pdf)
+  - Relatório de dez/2025 com dados reais de uso corporativo e pesquisa com trabalhadores. Mostra a distância crescente entre líderes e retardatários na intensidade de uso e nos ganhos de produtividade. Fonte de fornecedor: tratar os números como autodeclarados.
+  - Métrica: Usuários do ChatGPT Enterprise relatam economia de 40 a 60 minutos por dia ativo; 75% dizem que a IA melhorou a velocidade ou a qualidade do trabalho (9.000 trabalhadores em cerca de 100 empresas, 2025) (p. 3, 7)
+  - Métrica: Volume de mensagens corporativas cresceu 8x e o consumo de tokens de raciocínio por organização, 320x em 12 meses (2025) (p. 3, 6)
+  - Métrica: Brasil está entre os mercados que mais crescem: clientes empresariais pagantes com alta acima de 143% entre nov/2024 e nov/2025 (p. 12)
+  - Métrica: Trabalhadores de fronteira enviam 6x mais mensagens que a mediana e empresas de fronteira, 2x mais por licença (2025) (p. 3)
+- **M171 · Salesforce (2025)** — Global AI Readiness Index – Scaling Adoption of AI Agents in the Enterprise · F3 · relevância media · [PDF](03_analistas-big-techs/Salesforce_2025_global-ai-readiness-index.pdf)
+  - Índice de prontidão nacional (estratégia, regulação, difusão, capital humano, investimento). Cita Brasil e Índia com uso de IA na agricultura, mas com gargalos de escala, infraestrutura e habilidades (p. 20).
+  - Métrica: Brasil com 18,0 pontos no índice geral (média 22,1; EUA 39,7), 13º de 16 países (2025) (p. 6)
+- **M172 · Salesforce (2026)** — The C-Suite on Agentic AI: 4 Insights That Defined 2025 · F3, F1 · relevância media · [link](https://www.salesforce.com/news/stories/c-suite-agentic-ai-perspectives-2026/)
+  - Síntese oficial de 4 pesquisas de 2025 (CEO, CFO, CIO, CHRO) sobre orçamento, adoção e mudanças de papéis com agentes.
+  - Métrica: Implementação plena de IA entre CIOs subiu de 11% para 42% em um ano; 30% do orçamento de IA dos CIOs vai para IA agêntica (200 CIOs, 24 países) (página oficial)
+  - Métrica: CFOs com estratégia conservadora de IA caíram de 70% (2020) para 4%; CFOs destinam 25% do orçamento de IA a agentes (261 CFOs, 24 países) (página oficial)
+  - Métrica: 67% dos CEOs dizem que agentes são críticos para competir; 72% esperam que a maioria dos funcionários tenha um agente subordinado em 5 anos (survey IDC, 155 CEOs da América do Norte) (página oficial)
+- **M173 · Snowflake / Enterprise Strategy Group (2025)** — Snowflake Research Reveals that 92% of Early Adopters See ROI From AI Investments ('Radical ROI of Generative AI') · F1 · relevância media · [link](https://www.snowflake.com/en/news/press-releases/snowflake-research-reveals-that-92-percent-of-early-adopters-see-roi-from-ai-investments/)
+  - Press release oficial com o retorno por dólar e as dificuldades de dados e de priorização de casos de uso.
+  - Métrica: US$ 1,41 de retorno por US$ 1 investido (ROI de 41%) entre os que quantificam (1.900 líderes, 9 países, abr/2025) (página oficial)
+  - Métrica: 92% dizem que os investimentos em IA já se pagam; 98% vão investir mais em 2025 (página oficial)
+  - Métrica: ROI por país: EUA 43%, Reino Unido 42%, Coreia 41%, Alemanha 34%, França 31%, Japão 30% (página oficial)
+  - Métrica: 71% têm mais casos de uso do que conseguem financiar; 64% têm dificuldade de integrar dados de várias fontes (página oficial)
+- **M174 · Snowflake / Omdia (2026)** — The ROI of Gen AI and Agents 2026 (e-book) · F1, F2, F3 · relevância media · [PDF](03_analistas-big-techs/Snowflake-Omdia_2026_roi-of-gen-ai-and-agents.pdf)
+  - Segunda edição do estudo Snowflake/Omdia sobre ROI de IA generativa e agentes, com recortes por país (10, sem Brasil) e setor (inclui manufatura e serviços financeiros). Contraponto otimista às pesquisas de 'pilotos sem retorno': mede ROI entre early adopters que já investiram na base de dados. Obtido via formulário em 30/09/2026.
+  - Métrica: 92% dos early adopters relatam retorno positivo com IA generativa; entre os que quantificaram, o retorno médio é de 49% (US$ 1,49 por US$ 1 investido), contra 41% na edição anterior (2.050 organizações) (p. 3)
+  - Métrica: 75% dos C-levels de áreas de negócio relatam ROI positivo e quantificado, contra 70% dos C-levels de tecnologia e 53% de gerentes e especialistas (p. 4)
+  - Métrica: US$ 1,49 de retorno por US$ 1 investido em GenAI entre os que quantificaram o ROI (2.050 adotantes, ago–set/2025) (página oficial)
+  - Métrica: 92% dos early adopters relatam retorno positivo; 75% dos C-levels de áreas de negócio relatam ROI quantificado positivo (página oficial)
+- **M175 · The Linux Foundation (LF Research), comissionado pela Meta (2025)** — Economic and Workforce Impacts of AI in Latin America: A Review of Industry, Academic, and Open Source Evidence · F2, F3 · relevância media · [PDF](03_analistas-big-techs/LinuxFoundation-Meta_2025_economic-workforce-impacts-ai-latam.pdf)
+  - Revisão de literatura (dez/2025) sobre impactos econômicos e de trabalho da IA na região, com recortes de Brasil, México e Argentina. Inclui a agricultura entre os setores de aplicação. É a base primária da reportagem da Forbes Tech 'IA deve injetar US$ 1 trilhão na economia da América Latina até 2038'.
+  - Métrica: 95% das médias e grandes empresas brasileiras que adotaram IA relatam ROI positivo ou break-even (83% no México; 79% na média de outras grandes economias), citando IBM/Morning Consult 2024 (p. 8)
+  - Métrica: 35% das empresas latino-americanas relatam redução de custos após implementar IA (p. 8)
+  - Métrica: Brasil: 63% das empresas usam IA ativamente e 33% iniciaram mais de 20 pilotos de IA em 2024 (p. 12)
+  - Métrica: Mercado de IA na América Latina de US$ 12,7 bi, crescendo 28,1% ao ano (p. 2)
+- **M176 · Forrester (2024)** — The State Of Generative AI, 2024 · F2, F3 · relevância baixa · [link](https://www.forrester.com/report/the-state-of-generative-ai-2024/RES180458)
+  - Relatório de 26/01/2024 (Zeid Khater e colaboradores) sobre estágio de adoção, casos de uso e riscos da IA generativa, pelo lado da demanda e da oferta. Exige login de cliente ou compra avulsa de US$ 1.495; sem métricas verificáveis.
+- **M177 · IBM (IBM Redbooks) (2021)** — Demystifying Data with AI on IBM Z (Redpaper REDP-5633): seção 'Climbing the AI Ladder' · F2 · relevância baixa · [PDF](03_analistas-big-techs/IBM-Redbooks_2021_ai-ladder-demystifying-data-with-ai.pdf)
+  - Descrição oficial da IBM AI Ladder (p. 4-5): quatro degraus, Collect (dados simples e acessíveis), Organize (base analítica confiável e governada), Analyze (construir e escalar IA com confiança) e Infuse (operacionalizar a IA nos processos), como resposta a três barreiras: complexidade dos dados, escassez de talentos e falta de confiança. O documento (jul/2021) é orientado a produto (IBM Z); aproveitar só a seção do framework.
+- **M178 · IDC (2025)** — Agentic AI to Dominate IT Budget Expansion Over Next Five Years, Exceeding 26% of Worldwide IT Spending, and $1.3 Trillion in 2029 · F3 · relevância baixa · [link](https://my.idc.com/getdoc.jsp?containerId=prUS53765225)
+  - Previsão de gasto do IDC (ago/2025) centrada em IA agêntica. Sinaliza realocação de orçamento de software para produtos com base agêntica.
+  - Métrica: Gasto com IA crescerá 31,9% ao ano entre 2025 e 2029, chegando a US$ 1,3 tri em 2029; IA agêntica acima de 26% do gasto mundial de TI (página oficial)
+  - Métrica: Aumento de 10x no número e na complexidade dos agentes usados por empresas em 5 anos (página oficial)
+
+## Academia e instituições
+
+Pasta: `04_academia-instituicoes/`
+
+- **M179 · Anatel (2025)** — Análise nº 103/2025/AF — Plano Estrutural de Redes de Telecomunicações (PERT) 2025-2029 · F2, F3 · relevância alta · [PDF](04_academia-instituicoes/Anatel_2025_pert-2025-2029-analise-cobertura-rural.pdf)
+  - Documento oficial que aprova o plano de redes 2025-2029 e resume o diagnóstico de cobertura. Atualiza a principal dependência crítica da IA no campo brasileiro, a conectividade, que no acervo estava coberta só pelo BNDES de 2020.
+  - Métrica: Cobertura 4G-LTE alcança 99,6% dos moradores de áreas urbanas e só 53,5% dos de áreas rurais (diagnóstico do PERT 2025-2029, ago/2025) (p. 7)
+  - Métrica: Lacunas de conectividade móvel em 674 municípios; backhaul a expandir para 640 municípios e mais de 13.000 localidades sem fibra (2025) (p. 7)
+  - Métrica: Projetos previstos incluem 'Desenvolvimento Rural Conectado' e 'Pesquisa Agropecuária Digitalizada' (PERT 2025-2029) (p. 8)
+- **M180 · Banco Mundial (2025)** — Harnessing Artificial Intelligence for Agricultural Transformation · F1, F3 · relevância alta · [PDF](04_academia-instituicoes/WorldBank_2025_harnessing-ai-agricultural-transformation.pdf)
+  - Relatório de 2025 com cerca de 60 casos de uso de IA na cadeia agroalimentar, os habilitadores (conectividade, dados, capital humano, governança) e as prioridades de investimento; boa fonte de métricas de impacto no campo.
+  - Métrica: Saagu Baagu (Índia): renda do produtor dobrou para US$ 800 por acre por ciclo; produtividade +21%; pesticidas -9%; fertilizantes -5%; preço unitário +8% (p. 17)
+  - Métrica: Irrigação com IA: até -50% no uso de água e cerca de +30% de produtividade (estudos citados) (p. 39)
+  - Métrica: iSDA Virtual Agronomist (200 mil talhões, 7 países africanos): produtividade até 1,9x e lucro até 4,7x (p. 36)
+  - Métrica: Mercado global de IA na agricultura: US$ 1,5 bi (2023) para US$ 10,2 bi (2032), CAGR de 24,5% (p. 13)
+- **M181 · Banco Mundial (com Gates Foundation e BCG) (2025)** — Digital Agriculture Roadmap (DAR) Playbook 2025 · F2, F1 · relevância alta · [PDF](04_academia-instituicoes/WorldBank_2025_digital-agriculture-roadmap-playbook.pdf)
+  - Guia do Banco Mundial para montar roadmaps de agricultura digital, com método passo a passo, casos e lições. Inclui o exemplo de uma plataforma integrada de dados que fracassou por não partir das necessidades dos usuários (abordagem 'front to back'). Referência de sequência e priorização de roadmap para F2.
+  - Métrica: Soluções digitais no agro: ganho de produtividade de 23% a 73% e de renda de 18% a 37%; soluções combinadas chegam a 168% e 57% (dados Beanstalk citados, 2025) (p. 5)
+  - Métrica: Método em 5 etapas (diagnóstico, priorização de casos de uso, visão, roadmap e plano de implementação) e 6 lições aprendidas (2025) (p. 2, 53)
+- **M182 · Cetic.br / NIC.br (2026)** — TIC Empresas 2025 - Principais resultados (apresentação de lançamento) · F2, F3 · relevância alta · [PDF](04_academia-instituicoes/Cetic-br_2026_tic-empresas-2025-apresentacao-ia.pdf)
+  - Indicadores oficiais mais recentes (jun/2026) de adoção de IA nas empresas brasileiras por porte e setor, tipos de IA (GenAI em alta), forma de aquisição, fontes de dados e cargos ligados a IA.
+  - Métrica: 17% das empresas brasileiras com 10 ou mais pessoas usaram IA em 2025, ante 13% em 2024 (4.174 empresas entrevistadas) (release oficial; p. 25)
+  - Métrica: 50% das grandes empresas usaram IA em 2025 (38% em 2024); pequenas 15%, médias 32%, indústria 14% (p. 25)
+  - Métrica: Estimativa de 93.475 empresas usando IA em 2025 (p. 25)
+  - Métrica: 80% das usuárias de IA adquiriram software pronto e 60% contrataram fornecedores externos; desenvolvimento interno nas grandes subiu de 24% para 37% (release oficial)
+- **M183 · FAO (2022)** — The State of Food and Agriculture 2022: Leveraging automation in agriculture for transforming agrifood systems · F1, F3 · relevância alta · [PDF](04_academia-instituicoes/FAO_2022_sofa-leveraging-automation-in-agriculture.pdf)
+  - Referência da FAO sobre automação e robótica digital no agro: business case por tecnologia, prontidão para escala, robôs de colheita para escassez de mão de obra (morango) e impactos no emprego, com caso do setor sucroenergético brasileiro.
+  - Métrica: Mecanização da colheita de cana no Brasil (fim da queima): redução estimada de 52-64% da força de trabalho diretamente empregada na produção de cana (Box 20, p. 96 do PDF)
+  - Métrica: Ordenha robotizada: economia de mão de obra de 18-30% e aumento de 10-15% na produção de leite por vaca (Box 13, p. 73 do PDF)
+- **M184 · Harvard Business School (Dell'Acqua, McFowland, Mollick, Lifshitz, Kellogg, Rajendran, Krayer, Candelon, Lakhani) / Organization Science (INFORMS) (2026)** — Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of Artificial Intelligence on Knowledge Worker Productivity and Quality (Organization Science, versão publicada do HBS WP 24-013) · F1, F3 · relevância alta · [PDF](04_academia-instituicoes/HBS_2026_navigating-jagged-technological-frontier-published.pdf)
+  - Versão revisada por pares (Organization Science, publicada online em 11/03/2026, licença CC BY 4.0, hospedada no repositório da HBS) do experimento de campo com a BCG que criou o conceito de fronteira tecnológica irregular: a IA generativa aumenta produtividade e qualidade em tarefas dentro de sua capacidade e piora o desempenho fora dela. Os números foram revisados em relação ao working paper de 2023 (ganho de qualidade de 30% a 34%, em vez de 'mais de 40%'). Útil para desenho de casos de uso, treinamento e controle de uso indevido.
+  - Métrica: 12,2% mais tarefas concluídas e 25,1% mais rapidez em média com GPT-4 em 18 tarefas dentro da fronteira da IA (758 profissionais da BCG, experimento pré-registrado) (p. 2)
+  - Métrica: Qualidade 33,9% maior (GPT + visão geral de prompts) e 29,9% maior (só GPT) sobre a média de 4,37 do grupo de controle (p. 8)
+  - Métrica: Conclusão de tarefas de 82% no controle vs. cerca de 93% (GPT + visão geral) e 91% (só GPT) (p. 9)
+  - Métrica: Tempo 22,5% menor (GPT + visão geral) e 27,6% menor (só GPT) nas 17 primeiras questões (p. 11)
+- **M185 · IAPP (com Credo AI) (2025)** — At-a-Glance: AI Governance Profession Report 2025 (infográfico do relatório IAPP e Credo AI) · F1 · relevância alta · [PDF](04_academia-instituicoes/IAPP_2025_ai-governance-profession-report-infografico.pdf)
+  - Resumo público do AI Governance Profession Report 2025 (mais de 670 respondentes em 45 países e 7 estudos de caso). Mostra onde a governança de IA fica na estrutura, a quem reporta e o gargalo de talentos, dimensão de organização de F1. O relatório completo é restrito a membros.
+  - Métrica: 77% das organizações já trabalham em governança de IA (mais de 85% entre as que usam IA); 30% das que ainda não usam IA já estruturam governança (pesquisa IAPP, 2025) (p. 1)
+  - Métrica: A governança de IA reporta ao jurídico (23%), ao CEO (17%) ou ao CIO (14%); 39% têm comitê de governança de IA (2025) (p. 1)
+  - Métrica: 98% esperam precisar de mais pessoas (média de 9,8 em 12 meses), mas só 8% estavam contratando; 23,5% citam falta de profissionais qualificados (2025) (p. 1)
+  - Métrica: Funções que ganham responsabilidade: privacidade 57%, jurídico 55%, segurança 53%, TI 52%, governança de dados 44% (2025) (p. 1)
+- **M186 · IBGE (com ABDI e UFRJ) (2025)** — Pesquisa de Inovação Semestral 2024 - Indicadores temáticos: Tecnologias digitais avançadas, teletrabalho e cibersegurança · F2, F3 · relevância alta · [PDF](04_academia-instituicoes/IBGE_2025_pintec-semestral-2024-tecnologias-digitais-ia.pdf)
+  - Estatística oficial de uso de IA e outras tecnologias digitais na indústria brasileira (série 2022-2024), com áreas de uso, grau de utilização, benefícios e dificuldades; não cobre o setor agropecuário.
+  - Métrica: 41,9% das empresas industriais com 100 ou mais pessoas ocupadas usaram IA em 2024, ante 16,9% em 2022 (p. 32)
+  - Métrica: 4.261 de 10.167 empresas industriais usaram IA em 2024; 57,5% entre as com 500 ou mais pessoas ocupadas (p. 39 e p. 32)
+  - Métrica: Entre as usuárias de IA: 87,9% usam em administração, 75,2% em comercialização, 73,1% em desenvolvimento de projetos e 52,0% na produção (56,4% em 2022) (p. 40)
+  - Métrica: 90,3% das empresas usuárias de tecnologias digitais avançadas apontam aumento de eficiência como benefício (2024) (p. 52)
+- **M187 · Infocomm Media Development Authority (IMDA), Singapura (2026)** — Model AI Governance Framework for Agentic AI (versão 1.5) · F1, F3 · relevância alta · [PDF](04_academia-instituicoes/IMDA-Singapura_2026_model-ai-governance-framework-agentic-ai.pdf)
+  - Primeiro framework governamental específico para IA agêntica. Trata limites de autonomia e permissões, pontos de aprovação humana para ações irreversíveis, testes antes da implantação e monitoramento contínuo. Referência prática para governança de agentes em F1 e F3.
+  - Métrica: 4 dimensões de governança: avaliar e limitar riscos desde o início, responsabilização humana significativa, controles técnicos ao longo do ciclo de vida e responsabilidade do usuário final (v1.5, 20/05/2026) (p. 3-4)
+  - Métrica: A versão 1.5 incorpora contribuições de mais de 60 empresas desde a v1.0 (2026) (p. 5)
+- **M188 · MCTI e CGEE (2025)** — IA para o bem de todos — Plano Brasileiro de Inteligência Artificial (PBIA) 2024-2028, versão final · F3 · relevância alta · [PDF](04_academia-instituicoes/MCTI-CGEE_2025_pbia-plano-brasileiro-ia-versao-final.pdf)
+  - Versão final do PBIA (2025, 104 p., ISBN 978-65-5775-097-1). É diferente da proposta de 2024 já catalogada (M142): mantém o orçamento e acrescenta metas com prazo para cada eixo. Trata explicitamente de soberania tecnológica e de dados: nuvem soberana, modelos de linguagem em português, Infraestrutura Nacional de Dados e redução da dependência externa de hardware.
+  - Métrica: R$ 23,03 bi em 2024-2028: R$ 13,79 bi em inovação empresarial, R$ 5,79 bi em infraestrutura (25,2%), R$ 1,76 bi em serviços públicos, R$ 1,15 bi em formação, R$ 103,25 mi em regulação e R$ 435,04 mi em ações imediatas (1,9%) (Tabela 2, p. 32)
+  - Métrica: Metas de infraestrutura: +100% de capacidade computacional nacional para IA em 3 anos, com ao menos 2 novos centros de supercomputação, e Brasil no top 5 mundial em 5 anos (p. 37)
+  - Métrica: Metas de formação: capacitar 190 mil profissionais em 3 anos e 230 mil em 5 anos; 5.000 novas vagas de graduação; 85% dos adultos com noções básicas de IA (p. 39)
+  - Métrica: Metas no setor público: 70% dos órgãos federais e 50% dos estaduais usando IA em 5 anos; 2.000 conjuntos de dados federais catalogados (p. 41)
+- **M189 · MIT CISR (Weill, Woerner, Sebastian) (2024)** — Building Enterprise AI Maturity (Research Briefing XXIV-12) · F2, F1 · relevância alta · [PDF](04_academia-instituicoes/MIT-CISR_2024_building-enterprise-ai-maturity-model.pdf)
+  - Modelo original de 4 estágios de maturidade em IA do MIT CISR, com as capacidades de cada estágio (políticas, dados via API, plataformas reutilizáveis, IA proprietária e agentes) e o desempenho financeiro associado. PDF é a impressão da página oficial.
+  - Métrica: Crescimento em relação à média do setor: -12,6 pp (estágio 1), -3,5 pp (2), +11,3 pp (3), +17,1 pp (4) (N=721, 2022) (p. 4)
+  - Métrica: Lucro em relação à média do setor: -9,6 pp, -2,2 pp, +8,7 pp e +10,4 pp por estágio (N=721, 2022) (p. 4)
+  - Métrica: 28% / 34% / 31% / 7% das empresas nos estágios 1 a 4 (N=721, 2022) (p. 4)
+  - Métrica: Guardian Life: underwriters economizam em média 5 horas por dia com ferramenta de GenAI (piloto) (p. 5)
+- **M190 · MIT CISR (Woerner, Sebastian, Weill, Káganer) (2025)** — Grow Enterprise AI Maturity for Bottom-Line Impact (Research Briefing XXV-8) · F2, F1 · relevância alta · [PDF](04_academia-instituicoes/MIT-CISR_2025_grow-enterprise-ai-maturity-bottom-line.pdf)
+  - Atualização do modelo de maturidade em IA do MIT CISR: o maior salto financeiro ocorre ao passar do estágio 2 (pilotos) para o 3 (IA em escala), com os 4 desafios da transição (estratégia, sistemas, sincronização, governança) e casos Guardian e Italgas. PDF é a impressão da página oficial (o PDF nativo exige cadastro gratuito).
+  - Métrica: 13% / 23% / 46% / 18% das empresas nos estágios 1 a 4 de maturidade em IA em 2025, contra 28% / 34% / 31% / 7% em 2022 (N=152 em 2025; N=721 em 2022) (p. 9)
+  - Métrica: Crescimento em relação à média do setor por estágio: -26,5 pp (1), -6,8 pp (2), +4,7 pp (3), +13,9 pp (4) (N=152, dados de 2024) (p. 9)
+  - Métrica: Lucro em relação à média do setor por estágio: -15,1 pp, -1,4 pp, +0,8 pp e +9,9 pp (N=152, dados de 2024) (p. 9)
+  - Métrica: Guardian Life: automação de RFP e cotação reduziu a proposta de 5-7 dias para 24 horas (piloto, escala prevista para 2026) (p. 5)
+- **M191 · MIT NANDA (Media Lab) (2025)** — The GenAI Divide: State of AI in Business 2025 · F1, F2 · relevância alta · [link](https://nanda.media.mit.edu/ai_report_2025.pdf)
+  - Estudo da tese de que 95% das organizações não têm retorno mensurável com GenAI. O link oficial agora redireciona para a página do grupo no MIT Media Lab e o PDF não está mais no site do MIT. Só há cópias de terceiros (não baixadas); existe snapshot do link oficial no Internet Archive: http://web.archive.org/web/20250818145714/https://nanda.media.mit.edu/ai_report_2025.pdf (decisão manual).
+- **M192 · MIT Sloan Management Review + BCG (2025)** — The Emerging Agentic Enterprise: How Leaders Must Navigate a New Age of AI · F1, F2, F3 · relevância alta · [PDF](04_academia-instituicoes/MIT-SMR-BCG_2025_emerging-agentic-enterprise.pdf)
+  - Relatório anual MIT SMR-BCG (nov/2025) sobre IA agêntica: 4 tensões operacionais (flexibilidade, investimento, controle, escopo) e implicações para desenho do trabalho, papéis e governança. É a edição mais recente (a de 2026 ainda não saiu).
+  - Métrica: 35% das organizações já adotaram IA agêntica em dois anos e 44% planejam adotar em breve (2.102 respondentes, 116 países, 2025) (p. 7)
+  - Métrica: Adoção de IA tradicional em 72%; IA generativa chegou a 70% em três anos (p. 7)
+  - Métrica: 76% dos executivos veem a IA agêntica mais como colega do que como ferramenta (p. 5)
+  - Métrica: 73% das organizações com uso extensivo de IA agêntica dizem que ela aumenta fundamentalmente sua capacidade de diferenciação (p. 8)
+- **M193 · MIT Sloan Management Review + Boston Consulting Group (BCG) (2020)** — Expanding AI's Impact With Organizational Learning · F1, F2 · relevância alta · [PDF](04_academia-instituicoes/MIT-SMR-BCG_2020_expanding-ai-impact-organizational-learning.pdf)
+  - Quarto relatório anual MIT SMR-BCG (out/2020), origem da estatística de que só 10% das empresas obtêm benefício financeiro significativo com IA. Mostra que dados, tecnologia e talento não bastam e que o salto de valor vem do aprendizado organizacional mútuo entre pessoas e IA. PDF oficial hospedado pela BCG.
+  - Métrica: Só 10% das empresas obtêm benefícios financeiros significativos com IA (mais de 3.000 gestores, 29 setores, 112 países, 2020) (p. 5)
+  - Métrica: Só com os fundamentos (dados, tecnologia, talento e estratégia), 20% obtêm benefícios significativos; com soluções que o negócio quer e usa, 39%; somando aprendizado organizacional com IA, 73% (p. 6)
+  - Métrica: Quem usa os três métodos de aprendizado humano-máquina tem cinco vezes mais chance de benefício financeiro significativo; quem domina os cinco modos de interação, seis vezes (p. 6)
+  - Métrica: Limiar de benefício significativo para empresas com receita acima de US$ 10 bilhões: mais de US$ 100 milhões por ano em receita e/ou redução de custos (p. 7)
+- **M194 · MITRE Corporation (2023)** — The MITRE AI Maturity Model and Organizational Assessment Tool Guide: A Path to Successful AI Adoption · F2, F1 · relevância alta · [PDF](04_academia-instituicoes/MITRE_2023_ai-maturity-model-assessment-tool-guide.pdf)
+  - Framework público e não comercial de maturidade em IA, derivado da revisão de modelos de mercado, do CMMI e das normas do NIST, com ferramenta de autoavaliação. Os pilares são ético e responsável, estratégia e recursos, organização, habilitadores tecnológicos, dados e desempenho. Boa base neutra para o framework consolidado de F2.
+  - Métrica: 6 pilares e 20 dimensões avaliados em 5 níveis de maturidade: inicial, engajado/adotado, definido, gerenciado e otimizado (guia de nov/2023) (p. 4-5)
+  - Métrica: Capítulo 4 detalha as ações para cada salto de nível (1→2 até 4→5) e como amadurecer cada pilar (p. 35-38)
+- **M195 · RAND Corporation (2024)** — The Root Causes of Failure for Artificial Intelligence Projects and How They Can Succeed: Avoiding the Anti-Patterns of AI · F1 · relevância alta · [PDF](04_academia-instituicoes/RAND_2024_root-causes-failure-ai-projects.pdf)
+  - Estudo de referência sobre insucesso em IA: problema mal definido, falta de dados adequados, foco em tecnologia em vez do problema, infraestrutura insuficiente e problemas difíceis demais para IA, com recomendações para líderes.
+  - Métrica: Mais de 80% dos projetos de IA falham, o dobro da taxa de projetos de TI sem IA (estimativas citadas) (p. 1)
+  - Métrica: Apenas 14% das organizações se declararam totalmente prontas para integrar IA (pesquisa citada) (p. 2)
+  - Métrica: 65 cientistas de dados e engenheiros experientes entrevistados; 5 causas-raiz de fracasso identificadas (p. 2)
+- **M196 · Senado Federal (Agência Senado) (2026)** — Sancionada lei de incentivo à instalação de data centers (Lei 15.504/2026 — Redata) · F3 · relevância alta · [PDF](04_academia-instituicoes/SenadoFederal_2026_lei-15504-redata-data-centers.pdf)
+  - A Lei 15.504/2026 (sancionada em 15/09/2026) cria o Redata: 5 anos de suspensão de II, PIS/Cofins e IPI na compra de equipamentos para data centers, inclusive para treino e inferência de IA. Em troca, exige cota de capacidade para o mercado interno, sustentabilidade e P&D local. É um marco da agenda brasileira de soberania de dados e infraestrutura de IA. Página salva em PDF.
+  - Métrica: Renúncia fiscal estimada em ~R$ 5,2 bi em 2026 e R$ 1 bi em cada um dos 2 anos seguintes (p. 1)
+  - Métrica: Contrapartidas: ao menos 10% da capacidade para o mercado interno (8% no N/NE/CO); investimento em P&D no país de 2% do valor dos bens beneficiados (1,6% no N/NE/CO); eficiência hídrica de até 0,05 L/kWh; energia limpa ou renovável (p. 2)
+  - Métrica: Cerca de 60% dos dados dos brasileiros estão fora do Brasil (página do Ministério da Fazenda, 16/09/2026)
+- **M197 · Senado Federal (texto aprovado) / Câmara dos Deputados (tramitação) (2025)** — Projeto de Lei nº 2.338/2023 — Marco legal da inteligência artificial (texto aprovado pelo Senado e enviado à Câmara) · F1, F3 · relevância alta · [PDF](04_academia-instituicoes/Senado-Camara_2025_pl-2338-2023-marco-ia-texto-aprovado-senado.pdf)
+  - Íntegra do PL 2338/2023 aprovada pelo Senado (assinada em 31/01/2025) e apresentada à Câmara em 17/03/2025. Regula a IA por nível de risco (excessivo e alto risco, como RH, crédito e infraestrutura crítica), com avaliação de impacto algorítmico, sandbox, direitos autorais e diretrizes de proteção e requalificação de trabalhadores (art. 58). Não há parecer aprovado na Câmara: blogs falam em votação em maio/2026, mas a página oficial não confirma.
+  - Métrica: Multa de até R$ 50 milhões por infração ou até 2% do faturamento bruto do grupo no Brasil no último exercício, sem tributos (art. 50, II) (p. 26)
+  - Métrica: Lei vigora 730 dias após a publicação; as proibições de risco excessivo (art. 13) valem em 180 dias (art. 80) (p. 35-36)
+  - Métrica: ANPD coordena o Sistema Nacional de Regulação e Governança de IA (SIA) (art. 45); o Executivo tem 2 anos para dar recursos à ANPD (art. 74) (p. 23, 34)
+  - Métrica: Situação em 30/09/2026: 'Aguardando Parecer do Relator' na Comissão Especial da Câmara, com 37 projetos apensados, 31 reuniões e 180 convidados ouvidos (ficha de tramitação e página da comissão)
+- **M198 · Stanford HAI (2026)** — Artificial Intelligence Index Report 2026 · F3, F1 · relevância alta · [PDF](04_academia-instituicoes/Stanford-HAI_2026_ai-index-report.pdf)
+  - Edição 2026 (confirmada, publicada em abril/2026) do principal panorama acadêmico de IA: investimento, adoção corporativa, agentes, políticas e infraestrutura. O capítulo de economia (p. 175-200) traz dados de adoção, custos e receitas por função.
+  - Métrica: 88% das organizações usam IA em pelo menos uma função em 2025, ante 78% em 2024; 79% usam GenAI regularmente (71% em 2024) (dados McKinsey) (p. 193)
+  - Métrica: Investimento corporativo global em IA mais que dobrou em 2025 (p. 4); investimento privado em IA nos EUA de US$ 285,9 bi em 2025, 23 vezes o da China (US$ 12,4 bi) (p. 182)
+  - Métrica: 62% apontam segurança e riscos como principal obstáculo para escalar IA agêntica; 38% limitações técnicas; 38% incerteza regulatória (2025) (p. 144)
+  - Métrica: Maior economia de custos com IA associada a engenharia de software e manufatura (56% dos respondentes); ganhos de receita em marketing e vendas (67%) (2025) (p. 195)
+- **M199 · Wharton Human-AI Research + GBK Collective (2025)** — Accountable Acceleration: Gen AI Fast-Tracks Into the Enterprise (2025 AI Adoption Report) · F1, F2, F3 · relevância alta · [PDF](04_academia-instituicoes/Wharton-GBK_2025_ai-adoption-report-accountable-acceleration.pdf)
+  - Terceira onda (2023-2025) de pesquisa com ~800 líderes nos EUA, com a trajetória exploração, experimentação e aceleração com cobrança de resultado, ROI por setor (financeiro e tecnologia à frente, manufatura e varejo atrás) e o papel de talentos e treinamento.
+  - Métrica: 74% dos líderes relatam ROI positivo com IA generativa (EUA, n≈801, 2025) (p. 38)
+  - Métrica: 72% medem formalmente o ROI de GenAI com métricas de negócio (lucratividade, throughput, produtividade) (p. 11)
+  - Métrica: 4 em cada 5 esperam retorno positivo em 2 a 3 anos; 88% preveem aumento do orçamento de GenAI em 12 meses (p. 7)
+  - Métrica: 81% dos VPs+ veem ROI positivo contra 69% dos gerentes médios; cerca de 30% do orçamento de tecnologia de GenAI vai para P&D interno (p. 12)
+- **M200 · World Economic Forum (2025)** — Shaping the Deep-Tech Revolution in Agriculture · F3, F1 · relevância alta · [PDF](04_academia-instituicoes/WEF_2025_shaping-deep-tech-revolution-agriculture.pdf)
+  - Insight report de nov/2025 sobre GenAI, visão computacional, IoT de borda, sensoriamento remoto e robótica (incluindo drones) no agro, com casos de uso convergentes (robótica em enxame, IA agêntica) e barreiras de adoção; relevante para escassez de mão de obra e autonomia de campo.
+  - Métrica: Idade média global dos agricultores em torno de 60 anos; 58 anos nos EUA; um terço dos agricultores europeus tem mais de 65 anos (p. 6)
+  - Métrica: Produção global de alimentos precisa crescer cerca de 70% até 2050 em relação a 2005-2007 (p. 7)
+- **M201 · World Economic Forum + McKinsey (2026)** — Global Lighthouse Network: Rewiring Operations for Resilience and Impact at Scale · F1, F2, F3 · relevância alta · [PDF](04_academia-instituicoes/WEF_2026_global-lighthouse-network-rewiring-operations.pdf)
+  - White paper de jan/2026 sobre as mais de 220 fábricas-farol: como líderes industriais escalam IA nas operações, com casos quantificados por site e a migração de pilotos para redes cognitivas.
+  - Métrica: IA analítica e ML em cerca de 62% das 5 principais soluções dos Lighthouses em 2025; GenAI em 23% (9% em 2024); agentes de IA em 5% (p. 29)
+  - Métrica: Déficit projetado de mão de obra na manufatura até 2030: 23% nos EUA e 31% na China (p. 11)
+- **M202 · World Economic Forum, com McKinsey & Company (2026)** — Latin America in the Intelligent Age: A New Path for Growth (white paper) · F2, F3 · relevância alta · [PDF](04_academia-instituicoes/WEF-McKinsey_2026_latin-america-intelligent-age.pdf)
+  - Base primária da reportagem da Forbes Tech 'Brasil lidera adoção de IA na América Latina'. Traz dados originais sobre adoção e captura de valor, com a agricultura entre os setores de vantagem regional, e um roteiro de competitividade em IA. Referência de maturidade e valor (EBIT) no contexto latino-americano.
+  - Métrica: Apenas 23% das organizações latino-americanas geram algum valor econômico com IA e só 6% relatam criação de valor significativa – survey regional, out/2025 (p. 5)
+  - Métrica: Só 6% dos respondentes relatam melhora de mais de 5% no EBIT com IA; 59% das PMEs não geram valor mensurável (p. 15)
+  - Métrica: Diferença de produtividade entre PMEs e grandes empresas de 46% no Brasil e 53% no México (p. 15)
+  - Métrica: A IA pode elevar a produtividade da América Latina em 1,9%–2,3% ao ano e gerar US$ 1,1–1,7 trilhão por ano (p. 5)
+- **M203 · Banco Mundial (2025)** — Digital Progress and Trends Report 2025: Strengthening AI Foundations · F3 · relevância media · [PDF](04_academia-instituicoes/WorldBank_2025_digital-progress-trends-ai-foundations.pdf)
+  - Panorama global de IA com o framework dos 4Cs (conectividade, computação, contexto/dados e competências), útil para dados e soberania tecnológica em países de renda média como o Brasil.
+  - Métrica: Mais de 40% do tráfego global do ChatGPT veio de países de renda média em meados de 2025, com o Brasil entre os principais usuários (p. 16)
+  - Métrica: GenAI usada por mais de 500 milhões de pessoas (13% da força de trabalho global) em 2 anos (p. 24)
+- **M204 · CENIA (Chile) + CEPAL (2025)** — Índice Latinoamericano de Inteligencia Artificial (ILIA) 2025 · F3 · relevância media · [PDF](04_academia-instituicoes/CENIA-CEPAL_2025_indice-latinoamericano-ia-ilia.pdf)
+  - Índice regional de maturidade dos ecossistemas de IA (fatores habilitantes, P&D e adoção, governança) com mais de 100 subindicadores; posiciona o Brasil em talento, infraestrutura, dados e adoção setorial.
+  - Métrica: Brasil em 2º lugar no ILIA 2025 com 67,39 pontos, atrás do Chile (70,56) e à frente do Uruguai (62,32), entre 19 países (p. 22)
+- **M205 · CGEE (supervisionado pelo MCTI) (2025)** — Relatório contendo análise da evolução das tecnologias digitais no Brasil · F3 · relevância media · [PDF](04_academia-instituicoes/CGEE-MCTI_2025_evolucao-tecnologias-digitais-brasil.pdf)
+  - Panorama do Observatório de Tecnologias Digitais (dez/2025) sobre big data, IoT, nuvem, robótica e IA no Brasil, com seção sobre robótica no agronegócio (custo, conectividade rural, terrenos irregulares, concentração em grandes propriedades).
+  - Métrica: Densidade robótica na manufatura brasileira abaixo de 50 robôs por 10 mil trabalhadores, contra média mundial acima de 140 (p. 46)
+  - Métrica: Cerca de 47% dos robôs industriais em operação no Brasil estão no setor automotivo (p. 45)
+  - Métrica: Investimentos projetados de cerca de R$ 774 bi até 2028 em nuvem, IA e big data (Brasscom, citado) (p. 10)
+- **M206 · Comissão Europeia (2024)** — Commission Staff Working Document on Common European Data Spaces — SWD(2024) 21 final · F3 · relevância media · [PDF](04_academia-instituicoes/ComissaoEuropeia_2024_swd-espacos-comuns-europeus-de-dados.pdf)
+  - Documento oficial da Comissão (jan/2024) com o estado de cada espaço comum de dados. A seção 6.1 trata do espaço de dados agrícolas: PAC, Farm-to-Fork, agricultura de precisão, carbon farming, interoperabilidade semântica e projetos Horizon Europe. É a base institucional europeia para espaços de dados no agro.
+  - Métrica: 14 espaços comuns europeus de dados setoriais já anunciados, entre eles agricultura e energia (p. 4)
+  - Métrica: Espaço de dados agrícolas: preparação em 2022-24 e implantação operacional em 2024-27 pelo Digital Europe; o Código de Conduta europeu reconhece o agricultor como dono dos dados (p. 19-20)
+- **M207 · Comissão Europeia (2026)** — Data Act explained (Regulamento (UE) 2023/2854 sobre acesso e uso justo de dados) · F3 · relevância media · [PDF](04_academia-instituicoes/ComissaoEuropeia_2026_data-act-explained-dados-maquinas-conectadas.pdf)
+  - Explicação oficial do Data Act, principal marco global de direitos sobre dados de máquinas conectadas e portabilidade de nuvem. Referência para F3 (propriedade e controle de dados, dependência de fornecedores) e para cláusulas contratuais com fabricantes.
+  - Métrica: Data Act publicado em 22/12/2023 e aplicável desde 12/09/2025 (p. 1)
+  - Métrica: Usuários de produtos conectados, inclusive máquinas agrícolas e industriais, podem acessar, usar e portar os dados que cogeram (p. 2)
+  - Métrica: A troca de provedor de nuvem e edge deve ser gratuita e sem perda de dados; dados não pessoais na UE ficam protegidos contra acesso ilegal de governos de fora do bloco (p. 2, 6)
+- **M208 · Eurostat (Comissão Europeia) (2025)** — Use of artificial intelligence in enterprises (Statistics Explained, dados de 2025) · F3, F1 · relevância media · [PDF](04_academia-instituicoes/Eurostat_2025_use-of-ai-in-enterprises-statistics-explained.pdf)
+  - Artigo oficial do Eurostat (dados extraídos em dez/2025; atualização prevista para dez/2026) sobre adoção de IA nas empresas da UE por porte, país, setor, tecnologia, finalidade e barreiras, com base na pesquisa de uso de TIC (157 mil empresas pesquisadas). Bom benchmark internacional de adoção setorial. Não cobre agropecuária, e os valores de indústria e energia na Figura 3 só aparecem em gráfico.
+  - Métrica: 19,95% das empresas da UE com 10 ou mais empregados usaram IA em 2025, alta de 6,47 p.p. sobre 2024 (p. 1)
+  - Métrica: Por porte: 17% das pequenas, 30,36% das médias e 55,03% das grandes empresas usaram IA em 2025 (p. 1)
+  - Métrica: Por setor: informação e comunicação 62,52% e serviços profissionais, científicos e técnicos 40,43%; nos demais setores, de 24,82% (imobiliário) a 10,79% (construção) (p. 3)
+  - Métrica: Na indústria de transformação a IA é usada sobretudo em marketing e vendas (30,41%) e administração (27,05%); em eletricidade, gás e água, principalmente em segurança de TIC (32,02%) (p. 7)
+- **M209 · FGV EAESP - FGVcia (Fernando Meirelles) (2025)** — Pesquisa do Uso de TI - 36ª Edição Anual, FGVcia, 2025 · F3, F1 · relevância media · [PDF](04_academia-instituicoes/FGV-EAESP_2025_pesquisa-anual-uso-ti-fgvcia.pdf)
+  - Principal série brasileira de gasto e uso de TI nas médias e grandes empresas, com a primeira medição de ferramentas de GenAI; útil para comparar a intensidade de TI do setor financeiro com a indústria. A edição 2026 ainda não saiu.
+  - Métrica: Gasto e investimento em TI equivalem a 10% da receita das médias e grandes empresas (2024; amostra de 2.672 empresas) (p. 162)
+  - Métrica: IA generativa na base ativa das empresas: Microsoft Copilot 40%, ChatGPT 32%, Google Gemini 20% (2024/25) (p. 198)
+  - Métrica: Custo anual de TI por usuário: R$ 162 mil nos bancos contra R$ 60 mil na média e R$ 52 mil na indústria (2024/25) (p. 179)
+  - Métrica: Gastos e investimentos em TI dos bancos dobraram em 10 anos e devem chegar a cerca de R$ 56 bi antes de 2027 (p. 157)
+- **M210 · FMI (IMF) (2024)** — Gen-AI: Artificial Intelligence and the Future of Work (Staff Discussion Note SDN/2024/001) · F3 · relevância media · [PDF](04_academia-instituicoes/IMF_2024_genai-future-of-work.pdf)
+  - Análise do FMI sobre exposição e complementaridade da IA no trabalho, com microdados do Brasil (transições ocupacionais de trabalhadores qualificados); base para a discussão de impacto organizacional e de força de trabalho.
+  - Métrica: Cerca de 40% do emprego global está exposto à IA; 60% nas economias avançadas, 40% nas emergentes e 26% nos países de baixa renda (p. 4)
+- **M211 · Fundação Dom Cabral (portal Seja Relevante), com CI&T (2025)** — Ranking revela as dez corporações que mais usam IA no Brasil (AI Lighthouse Awards 2025 / 1º Índice de uso positivo de IA) · F1, F2 · relevância media · [PDF](04_academia-instituicoes/FDC_2025_ranking-ia-ai-lighthouse-awards.pdf)
+  - Matéria oficial da FDC (28/11/2025) sobre o estudo que originou o AI Lighthouse Awards, salva em PDF. O PDF do relatório final e a página do prêmio estão fora do ar ('Página não encontrada'), então esta é a alternativa pública, com números de governança e organização da IA em grandes empresas brasileiras.
+  - Métrica: 218 corporações pesquisadas (ago–out/2025), 72 com dados válidos para o ranking; top 3: AB InBev, Globo e Anima Holding (p. 2, 4)
+  - Métrica: A TI conduz as iniciativas de IA com parceiros externos em 37,6% dos casos e sozinha em 26,4%, ou seja, participa de 64% delas (p. 5)
+  - Métrica: Governança estruturada de IA, com ferramentas de monitoramento, em 47% das empresas; cerca de 1/4 usa ferramentas simples, pouco exploradas pela alta liderança (p. 5)
+  - Métrica: 69,4% estimulam iniciativas de IA por reuniões de alinhamento intrassetoriais e 56,9% por brainstorms; metade recorre a agentes externos e 43% usam foresight tecnológico (p. 5)
+- **M212 · Fundação Dom Cabral + CI&T (2025)** — AI Lighthouse Awards 2025 - relatório final · F1 · relevância media · [link](https://www.fdc.org.br/ai-lighthouse-awards)
+  - Ranking da FDC das 10 empresas brasileiras com melhor uso de IA (AB InBev, Globo, Anima, Porto Seguro, Bradesco Seguros, Localiza, MRV, GetNet, Tupy, Cielo). A página e o PDF oficiais da FDC retornam 'Página não encontrada' e a página da CI&T (https://ciandt.com/br/pt-br/event/ai-lighthouse-awards) não traz o relatório.
+- **M213 · Harvard Business School (Dell'Acqua et al.), com Procter & Gamble (2025)** — The Cybernetic Teammate: A Field Experiment on Generative AI Reshaping Teamwork and Expertise (HBS Working Paper 25-043) · F1, F3 · relevância media · [link](https://www.hbs.edu/faculty/Pages/item.aspx?num=67197)
+  - Experimento de campo pré-registrado com profissionais da P&G sobre a IA generativa como 'colega de equipe' (desempenho individual vs. equipes, compartilhamento de expertise). A página e o PDF da HBS (download.aspx?name=25-043.pdf) exigem verificação humana (CAPTCHA); não foi baixado e nenhum número foi verificado.
+- **M214 · Harvard Business School (Dell'Acqua et al., com Wharton, Warwick, MIT Sloan e BCG Henderson Institute) (2023)** — Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of AI on Knowledge Worker Productivity and Quality (HBS Working Paper 24-013) · F1, F3 · relevância media · [PDF](04_academia-instituicoes/HBS-MITSloan_2023_navigating-jagged-technological-frontier.pdf)
+  - Working paper original (22/09/2023), com os números mais citados no mercado. O PDF em hbs.edu bloqueou o acesso (verificação humana, HTTP 202/405) e o SSRN retornou 403; esta cópia vem do site oficial da MIT Sloan, escola da coautora Katherine Kellogg. Use junto com a versão publicada de 2026, que revisa alguns números.
+  - Métrica: 12,2% mais tarefas, 25,1% mais rapidez e mais de 40% de qualidade superior com IA em 18 tarefas dentro da fronteira (758 consultores, cerca de 7% dos consultores individuais da BCG, set/2023) (p. 4)
+  - Métrica: Consultores abaixo da média de desempenho melhoraram 43% e os acima da média 17% com IA (p. 4)
+  - Métrica: Fora da fronteira, consultores com IA tiveram 19 pontos percentuais menos chance de chegar à solução correta (p. 4)
+- **M215 · Iasi University of Life Sciences (Romênia), revista Agriculture (MDPI) (2026)** — Assessing Farm-Level Digital Maturity in European Agriculture: The Digital Farm Index and Investment Barriers to Agriculture 4.0 · F2 · relevância media · [PDF](04_academia-instituicoes/MDPI-Agriculture_2026_digital-farm-index-maturidade-digital-fazendas-europa.pdf)
+  - Artigo de acesso aberto que propõe um índice de maturidade digital por fazenda e por hectare e modela o CAPEX mínimo da Agricultura 4.0. Conclui que a adoção se concentra nas fazendas maiores e que há desequilíbrio entre hardware e uso de dados na gestão. Referência agro para o framework de F2.
+  - Métrica: Índice de maturidade digital com 4 dimensões (conectividade, agricultura de precisão, robótica e sistemas de gestão da fazenda) aplicado a 18 países da UE com dados do Eurostat (publicado em 22/07/2026) (p. 1)
+  - Métrica: Taxa variável e guiamento GNSS reduzem insumos químicos em 10% a 30% mantendo ou elevando a margem bruta (revisão de literatura citada) (p. 2)
+- **M216 · MCTI / CCT (2024)** — IA para o Bem de Todos - Proposta de Plano Brasileiro de Inteligência Artificial 2024-2028 · F3 · relevância media · [PDF](04_academia-instituicoes/MCTI_2024_plano-brasileiro-ia-pbia-2024-2028.pdf)
+  - Plano nacional de IA (soberania, supercomputação, LLM em português, capacitação), com ações para o agro, como o Centro Nacional de IA aplicada à Agropecuária com a Embrapa (p. 73) e o Embrapa Rural Chat (p. 39).
+  - Métrica: R$ 23,03 bi de investimento previsto em 2024-2028, dos quais R$ 13,79 bi para IA na inovação empresarial e R$ 5,79 bi para infraestrutura (p. 17)
+  - Métrica: R$ 12,72 bi via crédito (FNDCT/Finep, BNDES e outros) e R$ 1,06 bi do setor privado (p. 18)
+- **M217 · MIT Sloan Management Review + Boston Consulting Group (BCG) (2024)** — Learning to Manage Uncertainty, With AI · F1, F2, F3 · relevância media · [PDF](04_academia-instituicoes/MIT-SMR-BCG_2024_learning-to-manage-uncertainty-with-ai.pdf)
+  - Relatório MIT SMR-BCG de nov/2024 que liga aprendizado organizacional com IA à capacidade de lidar com incertezas tecnológicas, regulatórias e de talento. Inclui apêndice com a série histórica de adoção de IA desde 2017 e casos (Estée Lauder, Aflac, Expedia). PDF oficial hospedado pela BCG.
+  - Métrica: 15% das organizações são 'Augmented Learners', que combinam aprendizado organizacional e aprendizado com IA (3.467 respondentes, 2024) (p. 5)
+  - Métrica: Augmented Learners têm 1,6 vez mais chance de gerir incertezas e são 60% a 80% mais eficazes com incertezas do ambiente externo (p. 5)
+  - Métrica: Augmented Learners têm 1,4 vez mais chance de obter valor adicional e benefícios de receita anualizados com IA (p. 9)
+  - Métrica: 70% das organizações pilotavam ou tinham implantado IA em 2024 (50% em 2023) e mais de 54% pilotavam ou implantavam IA generativa (p. 18)
+- **M218 · MIT Sloan Management Review + Boston Consulting Group (BCG) (2024)** — The Future of Strategic Measurement: Enhancing KPIs With AI · F1, F2 · relevância media · [PDF](04_academia-instituicoes/MIT-SMR-BCG_2024_future-of-strategic-measurement-kpis-with-ai.pdf)
+  - Primeiro relatório MIT SMR-BCG de 2024 (fev/2024) sobre o uso de IA para criar, priorizar e compartilhar KPIs estratégicos, com casos como Wayfair e recomendações de governança de KPIs. Útil para desenhar a medição de valor da IA (F1) e indicadores de maturidade (F2). PDF oficial hospedado pela BCG.
+  - Métrica: 34% das organizações usam IA para criar novos KPIs e 90% delas dizem que os KPIs melhoraram; 60% dos gestores acham que precisam melhorar seus KPIs (mais de 3.000 gestores, 2024) (p. 6-7)
+  - Métrica: Quem usa IA para criar KPIs tem 3,27 vezes mais chance de benefício financeiro maior (de 11% para 34%) (p. 10)
+  - Métrica: Capacidade de prever desempenho futuro 3,37 vezes maior (de 13% para 45%) e eficiência 2,31 vezes maior (de 24% para 56%) (p. 10)
+- **M219 · MIT Technology Review Insights (patrocínio Celigo) (2026)** — Bridging the operational AI gap · F1, F2 · relevância media · [link](https://www.technologyreview.com/2026/03/04/1133642/bridging-the-operational-ai-gap/)
+  - Pesquisa de mar/2026 sobre a passagem de pilotos para produção e o papel da integração de dados e sistemas e de equipes dedicadas; o relatório completo exige formulário no site da patrocinadora.
+  - Métrica: 76% das empresas têm ao menos um departamento com workflow de IA totalmente em produção (500 líderes de TI dos EUA, dez/2025) (página oficial do MIT TR)
+  - Métrica: 34% têm equipe dedicada a manter workflows de IA; 43% têm sucesso com IA aplicada a processos bem definidos e automatizados (página oficial do MIT TR)
+  - Métrica: 13% relatam projeto piloto travado ou abandonado; 93% estão pilotando em ao menos um departamento (página oficial da Celigo, coeditora)
+  - Métrica: 88% usam IA em pelo menos uma função de negócio, e 74% ainda avaliam casos de uso (500 líderes de TI e IA de empresas dos EUA com receita acima de US$ 50 mi, dez/2025) (página oficial da Celigo, coeditora)
+- **M220 · NBER (Anders Humlum, Chicago Booth; Emilie Vestergaard, Universidade de Copenhague) (2025 (revisado em 2026))** — Still Waters, Rapid Currents: Early Labor Market Transformation under Generative AI (NBER Working Paper 33777; antes 'Large Language Models, Small Labor Market Effects') · F1, F3 · relevância media · [PDF](04_academia-instituicoes/NBER_2025_llms-small-labor-market-effects-humlum-vestergaard.pdf)
+  - Estudo com dados administrativos da Dinamarca (maio/2025, revisado em mar/2026): adoção rápida e ganhos de produtividade relatados, mas sem efeito mensurável em salários e horas. A IA reorganiza tarefas (novas tarefas de geração de conteúdo, supervisão e integração de IA). Contraponto útil às projeções de consultorias.
+  - Métrica: Efeitos nulos precisos da adoção de chatbots sobre salários e horas registradas: as estimativas descartam efeitos maiores que 2% dois anos após o ChatGPT (25.000 trabalhadores, 7.000 locais de trabalho, 11 ocupações expostas) (p. 2-3)
+  - Métrica: 43% dos empregadores incentivam explicitamente o uso de chatbots, 21% permitem e cerca de 6% proíbem (p. 12)
+  - Métrica: Onde há incentivo, chatbot corporativo e treinamento, 93% dos trabalhadores já usaram IA no trabalho e 28% usam diariamente (p. 4)
+  - Métrica: 85% dos usuários realocam o tempo economizado para outras tarefas (p. 4)
+- **M221 · NBER (Brynjolfsson/Stanford, Li/MIT, Raymond/MIT) (2023)** — Generative AI at Work (NBER Working Paper 31161) · F1, F3 · relevância media · [PDF](04_academia-instituicoes/NBER-MIT-Stanford_2023_generative-ai-at-work.pdf)
+  - Evidência causal clássica de ganho de produtividade com GenAI em operação real (atendimento ao cliente), com efeito maior para profissionais menos experientes; referência para business cases de copilotos.
+  - Métrica: +14% de produtividade (casos resolvidos por hora) com assistente de GenAI e +34% para atendentes novatos e menos qualificados (5.179 agentes de suporte) (p. 2)
+- **M222 · NIST (2023)** — Artificial Intelligence Risk Management Framework (AI RMF 1.0) - NIST AI 100-1 · F1 · relevância media · [PDF](04_academia-instituicoes/NIST_2023_ai-risk-management-framework.pdf)
+  - Framework clássico de governança e gestão de risco de IA (funções Govern, Map, Measure, Manage), referência para estruturar comitês, políticas e controles de IA.
+- **M223 · NIST (National Institute of Standards and Technology, EUA) (2024)** — Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile (NIST AI 600-1) · F1, F2 · relevância media · [PDF](04_academia-instituicoes/NIST_2024_ai-600-1-generative-ai-profile.pdf)
+  - Perfil de IA generativa do AI RMF (julho de 2024), complementar ao AI RMF 1.0 já catalogado. Define os riscos da IA generativa e ações sugeridas organizadas nas funções Govern, Map, Measure e Manage, com foco em governança, proveniência de conteúdo, testes antes da implantação e divulgação de incidentes. Base para políticas de governança de IA generativa e agentes.
+  - Métrica: 12 riscos exclusivos ou agravados pela IA generativa, entre eles confabulação, privacidade de dados, segurança da informação, propriedade intelectual e integração da cadeia de valor (jul/2024) (p. 8)
+- **M224 · OCDE (2025)** — Introducing the OECD AI Capability Indicators · F3, F2 · relevância media · [PDF](04_academia-instituicoes/OECD_2025_ai-capability-indicators-niveis-capacidade-ia.pdf)
+  - Indicadores da OCDE que comparam capacidades da IA a habilidades humanas em 9 escalas de 5 níveis. Ajudam a calibrar o que é viável em sistemas autônomos de campo: robótica e manipulação ainda estão no nível 2, longe de ambientes não estruturados como culturas perenes.
+  - Métrica: Capacidades atuais da IA em escala de 1 a 5: linguagem 3, criatividade 3, conhecimento 3, visão 3; interação social 2, resolução de problemas 2, metacognição 2, manipulação 2 e inteligência robótica 2 (jun/2025) (p. 15)
+  - Métrica: Nível 2 em inteligência robótica: operação em ambientes parcialmente conhecidos, semiestruturados e quase estáticos, com tarefas simples de curto horizonte (p. 15)
+- **M225 · OCDE (2025)** — Progress in Implementing the European Union Coordinated Plan on Artificial Intelligence (Volume 2): Uptake in High-Impact Sectors · F3 · relevância media · [PDF](04_academia-instituicoes/OECD_2025_eu-coordinated-plan-ai-vol2-ai-in-agriculture.pdf)
+  - Tem o capítulo 'AI in agriculture' da OCDE (robótica, monitoramento por visão computacional, dados, barreiras de custo e interoperabilidade, venture capital em agtechs de IA), além de saúde, manufatura e mobilidade.
+  - Métrica: Adoção de IA na UE em 2024: 13% das empresas no total, 11% na manufatura e 8% em transportes; sem dado comparável para agricultura (p. 12)
+  - Métrica: Emprego agrícola na UE caiu 2,6% ao ano entre 2008 e 2023, para 7,6 milhões de ETI; só 6,5% dos trabalhadores agrícolas têm menos de 35 anos (p. 20)
+- **M226 · OCDE + BCG + INSEAD (capítulo Brasil: Cetic.br/NIC.br e SEADE) (2025)** — The Adoption of Artificial Intelligence in Firms: New Evidence for Policymaking · F2, F3 · relevância media · [PDF](04_academia-instituicoes/OECD_2025_adoption-of-ai-in-firms-g7-brazil.pdf)
+  - Pesquisa com 840 empresas do G7 e 167 de São Paulo sobre usos, barreiras e apoio público à adoção de IA, com capítulo inteiro sobre o Brasil. Dados coletados antes da popularização da GenAI (2022-2023).
+  - Métrica: Apenas 6,5% (167 de 2.561) das médias e grandes empresas de manufatura e TIC do estado de SP usavam IA ativamente (pesquisa de 2023) (p. 39)
+  - Métrica: Só 6% das empresas usuárias de IA em SP colaboram com estudantes ou pesquisadores universitários, contra mais de 50% no G7 (p. 39)
+  - Métrica: 83% das empresas do G7 (n=840) querem mais informação sobre regulação ou ROI esperado de IA (p. 30)
+- **M227 · Parlamento Europeu — Serviço de Pesquisa (EPRS) (2025)** — Data Act: Data sharing and competitiveness (At a glance) · F3 · relevância media · [PDF](04_academia-instituicoes/ParlamentoEuropeu-EPRS_2025_data-act-compartilhamento-dados-competitividade.pdf)
+  - Nota do Parlamento Europeu (set/2025) sobre o Data Act (Regulamento UE 2023/2854). Explica o direito de usuários, inclusive agricultores, de acessar e compartilhar dados de máquinas conectadas, a troca de provedor de nuvem, as cláusulas contratuais-modelo e as dificuldades de implementação. Foi usada no lugar do PDF do EUR-Lex, que bloqueou o download com desafio anti-robô.
+  - Métrica: Economia de dados da UE projetada em € 630 bi em 2025 (4,7% do PIB) e entre € 743 bi e € 908 bi em 2030 (p. 1)
+  - Métrica: Data Act: a maior parte das regras vale desde 12/09/2025; produtos conectados devem dar acesso direto aos dados a partir de set/2026; tarifas de troca de provedor de nuvem acabam em jan/2027 (p. 1)
+- **M228 · Parlamento Europeu — Serviço de Pesquisa (EPRS) (2026)** — Digital Omnibus on AI: Adoption in plenary (At a glance) · F3, F1 · relevância media · [PDF](04_academia-instituicoes/ParlamentoEuropeu-EPRS_2026_digital-omnibus-ai-act-adocao.pdf)
+  - Síntese oficial do 'Digital Omnibus on AI', que mudou o cronograma do AI Act. Mostra a tendência regulatória europeia de adiar obrigações de alto risco e tratar máquinas com IA, inclusive agrícolas autônomas, pela regulação setorial. A parte do pacote sobre dados (reestruturação do Data Act) não tinha adoção final confirmada.
+  - Métrica: Regras de alto risco do AI Act adiadas para 02/12/2027 (sistemas autônomos) e 02/08/2028 (IA embarcada em produtos); marcação de conteúdo gerado por IA adiada para 02/12/2026 (p. 1)
+  - Métrica: Máquinas com IA saem da aplicação direta do regime de alto risco do AI Act e passam a seguir o Regulamento de Máquinas (p. 1)
+  - Métrica: Aprovado no plenário em 16/06/2026 por 423 votos a 57 (174 abstenções), adotado pelo Conselho em 29/06/2026 e assinado em 08/07/2026 (Legislative Train do Parlamento Europeu, atualizado em 01/08/2026)
+- **M229 · Stanford Digital Economy Lab (Brynjolfsson, Chandar e Chen) (2026)** — Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence (versão de agosto de 2026) · F3 · relevância media · [PDF](04_academia-instituicoes/Stanford-DEL_2026_canaries-coal-mine-employment-effects-ai.pdf)
+  - Revisão de agosto de 2026 do estudo de Stanford (primeira versão em ago/2025): sem evidência de deslocamento generalizado de empregos, mas com queda crescente no emprego de jovens em ocupações onde a IA substitui tarefas, via menos contratações, e não demissões ou corte de salário. Relevante para planejamento de força de trabalho e entrada de talentos.
+  - Métrica: O emprego de jovens de 22 a 25 anos em ocupações expostas à IA está 19% abaixo do que estaria se acompanhasse o dos colegas menos expostos; trabalhadores experientes não têm lacuna comparável (folha de pagamento da ADP até jun/2026) (p. 1)
+- **M230 · Stanford HAI (2025)** — Artificial Intelligence Index Report 2025 · F3 · relevância media · [PDF](04_academia-instituicoes/Stanford-HAI_2025_ai-index-report.pdf)
+  - Edição 2025 do AI Index, útil como série histórica para comparar com 2026 (adoção, investimento, custo de inferência, produtividade).
+  - Métrica: 78% das organizações relataram uso de IA em 2024, ante 55% em 2023 (p. 4)
+  - Métrica: US$ 33,9 bi de investimento privado global em IA generativa em 2024 (+18,7% vs. 2023) (p. 4)
+  - Métrica: US$ 109,1 bi de investimento privado em IA nos EUA em 2024, cerca de 12 vezes a China (US$ 9,3 bi) (p. 4)
+- **M231 · World Economic Forum (2025)** — Future of Jobs Report 2025 · F3 · relevância media · [PDF](04_academia-instituicoes/WEF_2025_future-of-jobs-report.pdf)
+  - Pesquisa global com empregadores sobre tecnologia, empregos e habilidades até 2030; útil para mudanças organizacionais, requalificação e escassez de mão de obra (inclui perfis por país e setor).
+  - Métrica: 86% dos empregadores esperam que IA e processamento de informação transformem seus negócios até 2030 (p. 11)
+  - Métrica: 170 milhões de empregos criados e 92 milhões deslocados até 2030 (saldo de 78 milhões, 7% do emprego) (p. 5)
+  - Métrica: 39% das habilidades atuais dos trabalhadores serão transformadas ou ficarão obsoletas entre 2025 e 2030 (p. 6)
+  - Métrica: Trabalhadores agrícolas (farmworkers) lideram o crescimento absoluto de postos até 2030 (p. 6)
+- **M232 · World Economic Forum (com Bain & Company) (2026)** — Rethinking AI Sovereignty: Pathways to Competitiveness through Strategic Investments · F3 · relevância media · [PDF](04_academia-instituicoes/WEF_2026_rethinking-ai-sovereignty-strategic-investments.pdf)
+  - White paper do WEF (jan/2026) que redefine soberania em IA como controle estratégico e resiliência, não autossuficiência: investir nas vantagens comparativas, garantir interoperabilidade e formar alianças. Traz o investimento em cada elo da cadeia de valor da IA e 5 trajetórias de competitividade conforme o ponto de partida de cada economia.
+  - Métrica: Mais de US$ 600 bi investidos em infraestrutura de IA em 2010-2024; investimentos em IA cresceram ~33% ao ano (p. 5-6)
+  - Métrica: EUA e China somam mais de 60% do investimento global em IA; os EUA têm mais de 40% da capacidade instalada de data centers (p. 7-8)
+  - Métrica: Investimento anual em aplicações de IA pode chegar a ~US$ 1,5 tri em 2030; em infraestrutura, a mais de US$ 400 bi/ano, crescendo 10-15% a.a. (p. 7-8)
+  - Métrica: Cerca de 90% da receita mundial de foundries está em 4 empresas (p. 8)
+- **M233 · World Economic Forum + Accenture (2025)** — AI in Action: Beyond Experimentation to Transform Industry · F1, F3 · relevância media · [PDF](04_academia-instituicoes/WEF_2025_ai-in-action-beyond-experimentation.pdf)
+  - White paper da série do WEF sobre transformação setorial com IA: da experimentação ao valor em escala, com casos e barreiras. Várias métricas são citações de terceiros.
+  - Métrica: 82% das empresas veem a GenAI como uma das principais alavancas de reinvenção (fonte citada) (p. 7)
+  - Métrica: Empresas líderes em adoção de IA superam os pares em 15% na geração de receita (fonte citada) (p. 7)
+  - Métrica: Gastos com IA devem chegar a cerca de US$ 630 bi em 2028 (CAGR de 29% entre 2024 e 2028) (p. 9)
+- **M234 · World Economic Forum + Capgemini (2025)** — AI Agents in Action: Foundations for Evaluation and Governance · F1, F3 · relevância media · [PDF](04_academia-instituicoes/WEF_2025_ai-agents-in-action-evaluation-governance.pdf)
+  - Arquitetura, classificação (papel, autonomia, previsibilidade, contexto) e governança progressiva de agentes de IA; referência para desenhar a governança de agentes e copilotos.
+  - Métrica: 82% das organizações planejam integrar agentes de IA em 1 a 3 anos (pesquisa global citada) (p. 5)
+- **M235 · World Economic Forum + governo da Índia + BCG X (2025)** — Future Farming in India: A Playbook for Scaling Artificial Intelligence in Agriculture · F1, F2, F3 · relevância media · [PDF](04_academia-instituicoes/WEF_2025_future-farming-playbook-scaling-ai-agriculture.pdf)
+  - Roteiro para escalar IA na agricultura (planejamento de safra, solo, pragas e mercados digitais), com casos e habilitadores de dados e governança; bom modelo de roadmap setorial.
+  - Métrica: Saagu Baagu (cerca de 7.000 produtores de pimenta): +21% de produtividade, +11% no preço unitário, -9% em fertilizantes e pesticidas e +US$ 800 por acre por safra, após uma safra (p. 8)
+  - Métrica: Recomendação de semeadura com IA elevou a produtividade em até 30% em Andhra Pradesh (p. 8)
+  - Métrica: US$ 65 bi de valor potencial ao investir em 15 bases de dados agrícolas fundamentais na Índia (p. 8)
+- **M236 · Banco Mundial (2019)** — Harvesting Prosperity: Technology and Productivity Growth in Agriculture · F3 · relevância baixa · [PDF](04_academia-instituicoes/WorldBank_2019_harvesting-prosperity-agriculture-productivity.pdf)
+  - Referência clássica sobre adoção de tecnologia e produtividade no agro (barreiras de demanda e oferta, P&D, mecanização); contexto para a tese de retorno de tecnologia no campo.
+  - Métrica: Taxas sociais de retorno do P&D agrícola acima de 40% ao ano, em média, nos países em desenvolvimento (p. 27)
+- **M237 · ESALQ/USP (Bazame, Molin, Althoff e Martello) — Scientia Agricola (2023)** — Detection of coffee fruits on tree branches using computer vision · F3 · relevância baixa · [PDF](04_academia-instituicoes/ESALQ-USP_2023_visao-computacional-frutos-cafe-colheita.pdf)
+  - Artigo acadêmico citado no DR sobre visão computacional para estimar a maturação do café antes da colheita. Mostra que a tecnologia ainda está em fase de protótipo. O DR dizia que o melhor resultado vinha com 320×320 px; o artigo mostra o melhor mAP com 800×800 px.
+  - Métrica: mAP de 81% (YOLOv4), 79% (YOLOv4-tiny), 78% (YOLOv3) e 77% (YOLOv3-tiny) na detecção de frutos de café em três estágios de maturação, com rede de 800×800 px (387 imagens de celular) (p. 1)
+  - Métrica: YOLOv4 com precisão média de 80% para frutos verdes, de 4 a 7 pontos acima dos outros modelos (p. 4)
+- **M238 · Gabinete de Segurança Institucional da Presidência da República (GSI/PR) (2025)** — Cartilha de Segurança da Informação — Instrução Normativa GSI nº 8/2025 (informação classificada em computação em nuvem) · F3 · relevância baixa · [PDF](04_academia-instituicoes/GSI-PR_2025_cartilha-informacoes-classificadas-nuvem-in-8.pdf)
+  - Resumo oficial da IN GSI nº 8/2025, a primeira norma federal a admitir nuvem para informação classificada, com requisitos de soberania de dados: sem replicação fora do país, criptografia de Estado, chaves sob controle exclusivo do órgão e auditoria anual do provedor. Mostra a direção brasileira de nuvem soberana.
+  - Métrica: Informação classificada como reservada ou secreta pode ir para nuvem privada ou comunitária, com toda a infraestrutura no Brasil; nuvem pública ou híbrida e informação ultrassecreta seguem vedadas (06/10/2025) (p. 1-2)
+- **M239 · Governo de Minas Gerais (SEAPA) e UFV (Departamento de Economia Rural) (2024 (publicado em 2026))** — Diagnóstico estratégico da cadeia produtiva agroindustrial da palmeira de macaúba em Minas Gerais · F3 · relevância baixa · [PDF](04_academia-instituicoes/GovMG-UFV_2026_diagnostico-cadeia-macauba-minas-gerais.pdf)
+  - Diagnóstico qualitativo (entrevistas e workshop). Confirma que a colheita da macaúba é quase toda manual, muitas vezes catando frutos no chão, e que a falta de equipamento mecanizado específico para a colheita é uma das principais lacunas tecnológicas da cadeia (p. 24). Não quantifica custo de mão de obra nem produtividade por trabalhador. Localizado via Perplexity para a lacuna de macaúba.
+  - Métrica: Matriz com 24 ações para a cadeia da macaúba, entre elas o apoio a equipamentos de auxílio à colheita com robótica e IA (médio-longo prazo) (p. 31 e p. 34)
+  - Métrica: Produtividade média de óleo citada de 4 t/ha (até 5 t/ha), contra cerca de 0,5 t/ha da soja (p. 17)
+- **M240 · MCTI (2021)** — Estratégia Brasileira de Inteligência Artificial (EBIA) · F3 · relevância baixa · [PDF](04_academia-instituicoes/MCTI_2021_estrategia-brasileira-ia-ebia.pdf)
+  - Estratégia nacional de IA de 2021 (eixos de governança, regulação, qualificação e setores produtivos), antecessora do PBIA; serve como contexto regulatório e de política pública.
+- **M241 · Universidade Federal de Lavras (UFLA) (2025)** — Estudo inédito da UFLA utilizou drones e IA para contagem automatizada de plantas de macaúba em ambientes naturais · F3 · relevância baixa · [link](https://ciencia.ufla.br/reportagens/meio-ambiente/1077-estudo-inedito-da-ufla-utilizou-drones-e-ia-para-contagem-automatizada-de-plantas-de-macauba-em-ambientes-naturais)
+  - Pesquisa de mestrado da UFLA, com UFV, UEMG e UFMG, que usa drone com câmera RGB e IA para contar maciços nativos de macaúba e orientar extrativismo e logística de beneficiamento. Estágio experimental.
+  - Métrica: Mais de 95% de precisão na identificação de macaúbas em imagens de drone com todas as versões do YOLOv8; a versão large teve mAP de 98% no teste (2025) (página web)
+- **M242 · Universidade Federal de Lavras (UFLA) (2025)** — Pesquisa da UFLA desenvolve tecnologia de IA que agiliza a seleção de frutos de macaúba · F3 · relevância baixa · [link](https://ciencia.ufla.br/reportagens/tecnologia-e-inovacao/1110-pesquisa-da-ufla-desenvolve-tecnologia-de-ia-que-agiliza-a-selecao-de-frutos-de-macauba)
+  - Módulo de visão computacional (câmera, computador e IA) para separar frutos por maturação, acoplável a equipamentos de colheita ou de triagem. Artigo publicado em 2025 na revista Agriculture (MDPI).
+  - Métrica: Acerto acima de 99% na detecção de frutos imaturos de macaúba com YOLOv11 e YOLOv12; 3,9 ms por imagem com o v11, contra 6,7 ms com o v12 (banco VIC01 com cerca de 1,6 mil imagens, 2025) (página web)
+- **M243 · World Economic Forum (2021)** — Artificial Intelligence for Agriculture Innovation · F1, F3 · relevância baixa · [PDF](04_academia-instituicoes/WEF_2021_ai-for-agriculture-innovation.pdf)
+  - Documento fundador da iniciativa AI4AI do WEF (origem do caso Saagu Baagu), com o modelo de colaboração público-privada para IA no agro; referência histórica.
+  - Métrica: US$ 65 bi de oportunidade ao aprimorar 15 bases de dados agrícolas na Índia (NASSCOM/McKinsey, citado) (p. 6)
+  - Métrica: 86% dos agricultores indianos têm menos de 2 ha (p. 8)
+- **M244 · World Economic Forum (2025)** — New Economy Skills: Unlocking the Human Advantage · F3 · relevância baixa · [PDF](04_academia-instituicoes/WEF_2025_new-economy-skills-human-advantage.pdf)
+  - White paper do WEF (dez/2025) sobre competências humanas (colaboração, pensamento crítico, criatividade) como vantagem na era da IA. Os números de abertura vêm do Future of Jobs 2025, já catalogado (M149). Serve de apoio para programas de requalificação.
+  - Métrica: Quase 40% das competências centrais serão afetadas em 5 anos; 170 milhões de postos criados e 92 milhões deslocados (p. 3)
+  - Métrica: Quase 80% dos empregadores dizem que requalificação e upskilling serão críticos para a estratégia (p. 3)
+
+## Agro Brasil: instituições e mídia
+
+Pasta: `05_agro-brasil-instituicoes-midia/`
+
+- **M245 · CNA (com Cepea/Esalq-USP) (2026)** — Agenda Brasil – Escassez de mão de obra é desafio no campo (estudo 'Mercado de Trabalho na Agropecuária: Evidências sobre Escassez de Mão de Obra e Produtividade') · F3 · relevância alta · [PDF](05_agro-brasil-instituicoes-midia/CNA_2026_estudo-escassez-mao-de-obra-produtividade-agenda-brasil.pdf)
+  - Página oficial da CNA com os resultados do estudo apresentado em 25/08/2026 no evento Agenda Brasil. É mais completa que o conteúdo patrocinado na CNN já catalogado. O PDF do estudo não foi publicado e o tamanho da amostra da pesquisa com empregadores não é informado. Traz também o efeito de programas de transferência de renda (83% sentiram efeito; 63,2% viram recusas de vaga).
+  - Métrica: 94,8% dos produtores relatam dificuldade de contratação, 84,3% operam com quadro inferior ao necessário e 88,3% têm alguma consequência produtiva (pesquisa com empregadores, 2026) (página web)
+  - Métrica: 42,6% anteciparam investimentos em mecanização e automação por causa da escassez; 48,7% tiveram atrasos, 48% adiaram ou desistiram de expansão, 43,9% tiveram aumento de custos e 42% reduziram a produção (2026) (página web)
+  - Métrica: 44,5% apontam a mão de obra como principal desafio, à frente de custos, clima e preços (2026) (página web)
+  - Métrica: Produtividade por hora trabalhada na agropecuária +515% entre 1995 e 2025, contra +28% no conjunto da economia (página web)
+- **M246 · CNA com Cepea/Esalq-USP (conteúdo patrocinado pela CNA na CNN Brasil) (2026)** — Dívida pública e falta de mão de obra limitam o crescimento (estudo CNA/Cepea 'Mercado de Trabalho na Agropecuária: Evidências sobre Escassez de Mão de Obra e Produtividade') · F3 · relevância alta · [PDF](05_agro-brasil-instituicoes-midia/CNA-Cepea_2026_escassez-mao-de-obra-agropecuaria-cnn.pdf)
+  - Números do estudo inédito CNA/Cepea apresentado em ago/2026, divulgados pela própria CNA em conteúdo patrocinado (o relatório completo não é público). É a evidência mais recente de que a falta de mão de obra já puxa automação no campo.
+  - Métrica: 94,8% dos empregadores rurais relatam dificuldade para contratar e 84,3% operam com equipe menor que a necessária (pesquisa CNA/Cepea com empregadores, 2026) (p. 4)
+  - Métrica: 88,3% já tiveram consequência na produção por falta de pessoal: 48,7% atrasos nas operações, 48% adiaram ou desistiram de expansão, 43,9% alta do custo de mão de obra, 42% redução da produção (2026) (p. 4)
+  - Métrica: 42,6% anteciparam investimentos em mecanização e automação; 88,8% adotaram alguma alternativa diante da escassez (2026) (p. 4)
+  - Métrica: Produção por hora trabalhada na agropecuária +515% entre 1995 e 2025, contra +28% na economia; área agrícola +43,2% e empregados por 100 ha −38,5% entre 2012 e 2025 (p. 4)
+- **M247 · Embrapa Agricultura Digital (2025)** — UAV-based automation: a case study of coffee crop input application in Caconde, Brazil · F1, F3 · relevância alta · [PDF](05_agro-brasil-instituicoes-midia/Embrapa_2025_drone-vs-costal-cafe-caconde-custos.pdf)
+  - Estudo de caso da Embrapa com custo, tempo e água em café de encosta, onde falta mão de obra e máquinas não entram. É um único caso (5 ha), mas a análise de sensibilidade mostra quando o drone compensa. Localizado via Perplexity para cobrir a lacuna de métricas em café.
+  - Métrica: Pulverização com drone (DJI Agras T25) custou R$ 750, contra R$ 960 com pulverizador costal manual, em 5 ha de café de montanha: 21,8% a menos (Caconde/SP, 2025) (p. 4)
+  - Métrica: Tempo de aplicação de 2 h contra 8 h (75% a menos) e água de 50 L contra 1.250 L (96% a menos) (p. 4-5)
+  - Métrica: O método manual exige 1,6 trabalhador por ha (8 pessoas para 5 ha); o drone leva 25 min/ha a R$ 150/ha (p. 3)
+  - Métrica: Sensibilidade: com mão de obra a R$ 120 e drone a R$ 200/ha, o drone sai R$ 40 mais caro; com mão de obra a R$ 160 e drone a R$ 150/ha, economiza R$ 530 (p. 5)
+- **M248 · Embrapa Instrumentação (com JICA, Agência Brasileira de Cooperação e MAPA) (2026)** — Brasil e Japão apresentam plataforma de dados agrícolas (API-CoPADi) e propõem consórcio para protegê-los · F3, F1 · relevância alta · [link](https://www.embrapa.br/busca-de-noticias/-/noticia/115027163/brasil-e-japao-apresentam-plataforma-que-integra-dados-agricolas-e-propoem-consorcio-para-proteger-informacoes)
+  - Iniciativa brasileira documentada de plataforma interoperável de dados agrícolas (solo, clima e produtividade), com proposta de consórcio para dar segurança jurídica e soberania aos dados dos produtores: regras de uso e compartilhamento, governança, padronização e conformidade. É o principal caso nacional sobre espaços de dados agrícolas.
+  - Métrica: Cooperação de 5 anos (projeto CoPADi) resultou na plataforma API-CoPADi, implantada na AgroAPI da Embrapa com base no WAGRI japonês; 3 agtechs participaram dos pilotos (notícia de 01/04/2026)
+- **M249 · Embrapa, SP Ventures e Homo Ludens (2026)** — Radar Agtech Brasil 2025: Mapeamento de Startups, Ambientes de Inovação e Investidores do Ecossistema Agro Brasileiro · F2, F3 · relevância alta · [PDF](05_agro-brasil-instituicoes-midia/Embrapa-SPVentures-HomoLudens_2026_radar-agtech-brasil-2025.pdf)
+  - Mapeamento oficial do ecossistema de agtechs que, pela primeira vez, mede o uso de IA numa escala de 6 níveis de intensidade. Mostra que a IA virou infraestrutura transversal e que os investidores passaram a exigir impacto econômico mensurável.
+  - Métrica: 2.075 agtechs mapeadas no Brasil (mapeamento Radar 2025) (p. 70)
+  - Métrica: Mais de 83% das agtechs respondentes usam IA de forma ativa no produto e/ou na operação; em pouco mais de 35% a IA é o núcleo da proposta de valor (survey com startups, 2025) (p. 134)
+  - Métrica: Intensidade de uso de IA/AM: 17,1% não usam; 14,1% só IA generativa; 11,2% IA generativa + outras IAs; 21,8% IA em processos internos; 22,9% IA central no produto; 12,9% deeptechs de IA (n=170 agtechs, 2025) (p. 109)
+  - Métrica: IA no núcleo do produto (categorias E+F) em 75% das agtechs de sensoriamento remoto/imagens (12 de 16) e em 66,7% das de drones e máquinas (6 de 9) (2025) (p. 107)
+- **M250 · Forbes Brasil (Forbes Agro) (2026)** — 'A IA Vai Mudar a Forma Como Consumimos Soluções no Agro', Diz André Piza, da Syngenta · F1, F3 · relevância alta · [PDF](05_agro-brasil-instituicoes-midia/ForbesAgro_2026_syngenta-andre-piza-cropwise-ia.pdf)
+  - Entrevista com o Head Global de AgTech da Syngenta, brasileiro que se reporta ao CDO. Mostra a consolidação de startups compradas (Strider, FarmShots) em uma plataforma única e a escala do time de engenharia. Descreve a estratégia 'Cropwise Plus', que liga recomendação agronômica com dados à venda de insumos, e a abertura do ecossistema via APIs. É um caso de organização e de estratégia de dados.
+  - Métrica: Time de engenharia digital ampliado de cerca de 100 para cerca de 750 profissionais em 6 países (p. 4)
+  - Métrica: Cropwise presente em mais de 30 países, com cerca de 50 mil produtores conectados (p. 4)
+  - Métrica: 76 milhões de ha na plataforma hoje, 15 milhões monitorados no Brasil; meta de 100 milhões de ha até 2030 (p. 2)
+  - Métrica: Receita da Syngenta AG caiu de US$ 19,96 bi (2022) para cerca de US$ 17 bi (2025); o digital é tratado como alavanca para retomar o crescimento (p. 4)
+- **M251 · Forbes Brasil (Forbes Agro) (2025)** — Agro100 2025: Conheça as Empresas Que Faturaram R$ 1,9 Tri do Campo À Mesa (ranking das 100 maiores do agronegócio) · F1 · relevância alta · [PDF](05_agro-brasil-instituicoes-midia/ForbesAgro_2025_agro100-2025-ranking-maiores-empresas.pdf)
+  - Ranking completo das 100 maiores do agronegócio brasileiro, com faturamento, setor, executivo principal e destaques de cada empresa. Serve de base para montar o painel de empresas do benchmark (agroenergia, florestal, cooperativas, tradings, insumos). Metodologia: demonstrativos financeiros de 2023–2024.
+  - Métrica: R$ 1,886 trilhão de receita líquida somada das 100 maiores empresas do agro em 2024 (+3,3% sobre 2023) (p. 2)
+  - Métrica: Composição: 21 de agroenergia, 16 de comércio e tradings, 16 cooperativas, 14 de alimentos e bebidas, 14 de proteína animal, 11 de agroquímicos, genética e insumos e 8 de celulose, madeira e papel (p. 2)
+  - Métrica: Raízen Energia em 6º (R$ 66,91 bi), Suzano em 10º (R$ 47,40 bi), Amaggi em 12º (R$ 40,61 bi) e Klabin em 20º (R$ 19,65 bi) (p. 4, 6, 9)
+- **M252 · Forbes Brasil (Forbes Agro) (2026)** — Fazenda Conectada Corta R$ 1 Milhão em Custos com 4G no Campo (Case IH/TIM, safra 2024/25) · F1, F2 · relevância alta · [PDF](05_agro-brasil-instituicoes-midia/ForbesAgro_2026_fazenda-conectada-case-ih-tim-reducao-custos.pdf)
+  - Caso com números de retorno de uma fazenda-laboratório em escala comercial da Case IH (CNH) com a TIM. A fazenda juntou conectividade 4G, telemetria, plantio inteligente e decisão baseada em dados. O caso mostra a conectividade como pré-requisito e traz ganhos medidos em custo, combustível, janela de colheita, produtividade e emissões. Os números são divulgados pelas próprias empresas.
+  - Métrica: 7% de redução no custo por hectare, economia total de cerca de R$ 1 milhão frente ao início do projeto – fazenda-modelo de mais de 3 mil ha, safra 2024/25 (p. 5)
+  - Métrica: 32% de economia no consumo de combustível com acompanhamento em tempo real da frota – safra 2024/25 (p. 4)
+  - Métrica: 25% a mais de área colhida por dia, encurtando em 8 dias a janela de colheita – safra 2024/25 (p. 4)
+  - Métrica: Produtividade de soja de 68 para 75 sc/ha (+10% sobre 2022/23), 19% acima da região, 14% acima da média de MT e 27% acima da média brasileira (Conab) – safra 2024/25 (p. 3)
+- **M253 · Forbes Brasil (Forbes Agro) (2026)** — Solinftec Lança IA Multiagente na Agrishow e Mira R$ 500 Milhões em 2026 · F1, F3 · relevância alta · [PDF](05_agro-brasil-instituicoes-midia/ForbesAgro_2026_solinftec-ia-multiagente-robos-agrishow.pdf)
+  - Caso brasileiro de IA física e agêntica: a plataforma Alice Multiagente (agentes de clima, manutenção, logística, plantio e colheita que agem sem ser consultados) mais os robôs Solix. Referência direta para o sucroenergético e para culturas perenes (citros, café).
+  - Métrica: Solinftec: ARR acima de R$ 430 mi em 2025 (+15%), receita total +20% e EBITDA acima de R$ 100 mi; meta de R$ 500 mi de faturamento em 2026 (p. 5)
+  - Métrica: Cerca de 150 robôs autônomos Solix em operação nos EUA e 100 no Brasil (2026) (p. 7)
+  - Métrica: Monitora 70 mil máquinas, 250 mil operadores e mais de 13 milhões de hectares em 14 países; participação de mercado de 90% em cana (meta de 96%), 74% em citros, 25% em café e 20% em grãos (2026) (p. 8)
+- **M254 · Forbes Brasil (Forbes Agro) (2026)** — Solinftec e São Martinho Fecham Acordo Tecnológico para o Setor Sucroenergético · F1, F3 · relevância alta · [PDF](05_agro-brasil-instituicoes-midia/ForbesAgro_2026_solinftec-sao-martinho-robos-usinas.pdf)
+  - Parceria que leva a plataforma de IA e os primeiros robôs Solix às rotinas de colheita, plantio, tratos culturais, fertirrigação e logística de um grande grupo sucroenergético. Traz a fala do diretor agroindustrial de tecnologia e inovação da São Martinho sobre inteligência computacional e robótica. O acordo também inova no financiamento, com pagamento via créditos de ICMS. Ainda não há resultados medidos.
+  - Métrica: Mais de 1.500 máquinas agrícolas monitoradas em tempo real em todas as usinas da São Martinho em SP e GO (p. 2)
+  - Métrica: Com a São Martinho, a Solinftec passa a atender os 10 maiores produtores sucroenergéticos do Brasil; São Martinho tem capacidade de moagem de cerca de 27 milhões de t de cana por safra (p. 4)
+  - Métrica: Modelo comercial inédito: pacote tecnológico pago com créditos de ICMS (p. 3)
+  - Métrica: Implantação completa ao longo de 2026, com os primeiros indicadores de produtividade previstos até o fim do próximo ciclo (p. 4)
+- **M255 · Forbes Brasil (Forbes Agro), cobrindo pesquisa da CNA (2026)** — CNA Aponta Escassez de Mão de Obra Como Limite À Produtividade no Agro · F3, F2 · relevância alta · [PDF](05_agro-brasil-instituicoes-midia/ForbesAgro_2026_cna-escassez-mao-de-obra-produtividade.pdf)
+  - Cobertura do evento da CNA de ago/2026, com dados sobre escassez de mão de obra, mecanização antecipada e subutilização da tecnologia embarcada. Mostra a capacitação como gargalo para capturar valor das máquinas. Cobre o mesmo estudo do item M156, mas traz métricas novas (45%/75%/95%, uso de 50% das funções e comparação internacional).
+  - Métrica: 45% dos produtores apontam a escassez de mão de obra como principal desafio (à frente de custos, clima e preços); 75% a colocam entre os 3 principais; 95% enfrentam ou já enfrentaram dificuldade de contratação – pesquisa CNA, ago/2026 (p. 2)
+  - Métrica: Produtividade do trabalho agropecuário +515% em 30 anos, contra +28% no conjunto da economia (p. 2)
+  - Métrica: Quase 30% dos entrevistados mudaram de atividade para sistemas menos dependentes de trabalho; compras de máquinas foram antecipadas pela falta de pessoas (p. 3)
+  - Métrica: Apenas cerca de 50% das funções tecnológicas embarcadas em máquinas agropecuárias são de fato usadas, segundo entrevistas com empresas (p. 5)
+- **M256 · Forbes Brasil (Forbes Agro), com dados do recorte agro da 29ª CEO Survey da PwC (2026)** — O Que os CEOs do Agro Estão Fazendo com IA Agora, Segundo a PwC · F1, F2, F3 · relevância alta · [PDF](05_agro-brasil-instituicoes-midia/ForbesAgro_2026_ceos-do-agro-e-ia-segundo-pwc.pdf)
+  - Recorte agro da CEO Survey 2026 da PwC: pela primeira vez os CEOs do setor ligam a IA a impacto direto em receita e custo, mas a maioria ainda não captura valor. Boa evidência de estágio de maturidade e de efeito sobre a força de trabalho.
+  - Métrica: 33% dos CEOs do agro brasileiro dizem que a IA já elevou a receita e outros 33% que já reduziu custos operacionais (recorte agro da 29ª CEO Survey PwC; 4.400 líderes em 95 países; 2026) (p. 2-3)
+  - Métrica: 58% dos CEOs do agro dizem que a IA ainda não alterou de forma significativa receita ou custos; 5% associam a IA a impacto negativo na receita (2026) (p. 3)
+  - Métrica: 60% dos CEOs do agro esperam reduzir a necessidade de profissionais em início de carreira em 3 anos; 1/3 deles projeta cortes acima de 16%; 23% esperam contratar mais perfis qualificados (2026) (p. 5)
+- **M257 · Forbes Brasil (Forbes Agro; tradução da Forbes EUA) (2025)** — Como Ele Criou uma Agtech Que Está Acelerando a Autonomia Baseada em IA na Agricultura (Bonsai Robotics) · F3, F1 · relevância alta · [PDF](05_agro-brasil-instituicoes-midia/ForbesAgro_2025_bonsai-robotics-autonomia-pomares.pdf)
+  - Caso de autonomia por retrofit de máquinas existentes em pomares de amêndoas e culturas perenes, motivado pela escassez de mão de obra. Cita parceria com a Olam Orchards Australia e a compra da farm-ng. É referência para mecanização autônoma em perenes com baixa mecanização. Os números são declarados pela empresa.
+  - Métrica: Clientes concluíram tarefas 60% mais rápido e reduziram custos operacionais em 45% com a autonomia baseada em visão (declaração do fundador) (p. 4)
+  - Métrica: Custos de mão de obra em culturas especiais 30 a 50 vezes maiores por acre que em lavouras de campo aberto (p. 4)
+  - Métrica: Mais de 250 robôs Amiga entregues e mais de 45 implantações comerciais com fabricantes de máquinas (OMC, Flory) (p. 6)
+- **M258 · Forbes Brasil (Forbes Agro; tradução da Forbes EUA) (2026)** — Da Lavoura ao Hospital: Qual a Lição de IA Que a John Deere Entrega Pronta · F1, F3 · relevância alta · [PDF](05_agro-brasil-instituicoes-midia/ForbesAgro_2026_john-deere-licao-ia-colheitadeira-autonoma.pdf)
+  - Análise de como a Deere levou a IA a escala e montou um 'modelo de sucesso do cliente nativo em IA', com recomendações pré-safra e em tempo real, visão computacional e diagnóstico remoto. Descreve a colheitadeira X9 'essencialmente autônoma' e a transferência de decisões do agricultor para a máquina, citando Sangeet Choudary. Útil para casos de autonomia e para a precificação baseada em resultado.
+  - Métrica: Ganhos de produtividade de 20% a 30% com a automação das configurações de colheita da colheitadeira X9, segundo o VP Aaron Wetzel (p. 5)
+  - Métrica: Deere prevê um modelo de precificação que usa IA no fim da safra para calcular o retorno sobre o investimento da máquina (p. 5)
+  - Métrica: Faturamento da Deere de US$ 45,7 bi em 2025 (p. 2)
+- **M259 · Sistema OCB (InovaCoop) (2026 (publicação; pesquisa 2024))** — Pesquisa de Inovação no Cooperativismo Brasileiro – Relatório 2024 (infográfico) · F2, F3 · relevância alta · [PDF](05_agro-brasil-instituicoes-midia/OCB_2026_infografico-pesquisa-inovacao-cooperativismo-2024.pdf)
+  - Infográfico oficial da pesquisa nacional de inovação da OCB (única versão pública), publicado no site em 25/05/2026. Útil para maturidade organizacional de cooperativas: quem decide, orçamento, prazo de retorno e barreiras. Não traz o dado de 59,7% de adoção de IA citado pelo Valor. Alguns gráficos têm rótulo '2023', e a OCB informa edições em 2020 e 2023.
+  - Métrica: 1.001 cooperativas respondentes, 24,58% delas do ramo agropecuário (pesquisa 2024) (p. 2)
+  - Métrica: 80,26% das cooperativas tiveram retorno em até 2 anos após implementar inovações: 6,86% imediato, 12,65% em 1 a 3 meses, 18,44% em 3 a 6 meses, 28,37% em 6 a 12 meses e 13,95% em 1 a 2 anos (p. 4)
+  - Métrica: Média de 3,6 projetos de inovação implementados desde 2021: 20% nenhum, 53% de 1 a 3, 20% de 4 a 10 e 7% mais de 10 (p. 3)
+  - Métrica: Barreiras: falta de dinheiro ou financiamento 45,95%, falta de organização, ideias e projetos 34,27%, falta de capacitação 32,37% (p. 4)
+- **M260 · Valor Econômico (2026)** — IA reduz custos e melhora produtividade no agro · F1, F2, F3 · relevância alta · [link](https://valor.globo.com/publicacoes/especiais/inteligencia-artificial/noticia/2026/04/30/ia-reduz-custos-e-melhora-produtividade-no-agro.ghtml)
+  - Reportagem especial com números de retorno da IA no agro e lições de implementação. Destaca o copiloto GeoBot da Tereos para manutenção de colhedoras de cana (cientistas de dados levados ao campo), os dados como principal gargalo e a recomendação de começar pequeno, com o CEO envolvido.
+  - Métrica: SLC Agrícola: agricultura digital gerou economia de R$ 58,2 mi na safra 2024/25 com aplicação localizada de insumos (diretor de Tecnologia da empresa)
+  - Métrica: Estudos coordenados por professor da FGV: +20% a 25% de produtividade com agricultura de precisão, +18% a 22% com tratores automatizados e colhedoras robóticas e cerca de +8% com análise de imagens de câmeras e drones
+  - Métrica: SciCrop (2025): economia de 28% em pesticidas após adoção de IA, 10% no consumo de água na indústria e 15% na otimização de rotas de tratores
+  - Métrica: Preparar a base de dados antes de um projeto de IA exige de 3 a 4 meses de trabalho prévio (SciCrop)
+- **M261 · Valor Econômico (2025)** — Produtividade alta no campo esbarra na baixa adoção tecnológica · F2, F3 · relevância alta · [link](https://valor.globo.com/publicacoes/especiais/tendencias-do-futuro/noticia/2025/12/18/produtividade-alta-no-campo-esbarra-na-baixa-adocao-tecnologica.ghtml)
+  - Mostra a distância entre as fazendas de ponta e a média nacional em adoção digital, traz um índice de maturidade tecnológica (IPT/TOTVS) e casos com ganho medido. Útil para calibrar os estágios de maturidade do agro brasileiro.
+  - Métrica: Adoção nas propriedades rurais (Embrapa Agricultura Digital, com dados Embrapa/CNA/IBGE): telemetria 3%, drones 8%, sistemas de gestão digital <10%, agricultura de precisão cerca de 30%; 73% estão conectadas, mas só 35% usam a conexão para gestão; 22% receberam capacitação em TI (2025)
+  - Métrica: Índice de Produtividade Tecnológica (IPT) TOTVS 2024: agro 0,58 (escala 0 a 1), atrás da manufatura (0,71) (350 empresas com faturamento acima de R$ 200 mi)
+  - Métrica: Pesquisa Ação Estratégica (fev-abr/2025, 197 profissionais): 32% das empresas do agro usam IA, 56% não usam e 12% não sabem
+  - Métrica: Grupo GGF (MT): gestão agrícola integrada às máquinas trouxe melhora de 60% nas operações e 30% de ganho no tempo de manobra; trading de café aumentou 30% o volume negociado com menos pessoas
+- **M262 · Valor Econômico (2025)** — Uso de inteligência artificial no agro gera fortes ganhos na produtividade · F1 · relevância alta · [link](https://valor.globo.com/publicacoes/especiais/inteligencia-artificial/noticia/2025/11/28/uso-de-inteligencia-artificial-no-agro-gera-fortes-ganhos-na-produtividade.ghtml)
+  - Casos brasileiros de IA no campo com números: Santa Colomba (grãos e algodão), Café Orfeu (drones com IA em café ajudando a suprir a falta de mão de obra), BrasilAgro (centro de controle 24 h) e visão computacional da Embrapa para a lagarta-do-cartucho.
+  - Métrica: Fazenda Santa Colomba (9 mil ha, Jaborandi-BA): economia de R$ 1,5 mi em 3 anos com telemetria e IA nos equipamentos e rentabilidade 16% a 20% maior sem aumentar equipe ou maquinário (2025)
+  - Métrica: Santa Colomba: parada de máquina de 4 horas já é perda relevante, contra até 3 dias de máquina parada há dez anos (2025)
+  - Métrica: Ganhos de produtividade e lucratividade acima de 20% com IA combinada a outras tecnologias, variando conforme a cultura (estimativa da reportagem, 2025)
+- **M263 · Valor Econômico (com pesquisa da OCB) (2026)** — IA melhora gestão em setores que vão do agro ao financeiro · F1, F3 · relevância alta · [link](https://valor.globo.com/publicacoes/especiais/cooperativismo/noticia/2026/08/18/ia-melhora-gestao-em-setores-que-vao-do-agro-ao-financeiro.ghtml)
+  - Casos de IA em cooperativas agro e de crédito com métricas de retorno, mais o dado de adoção da OCB. Liga agro e setor financeiro com casos de sucesso quantificados no Brasil.
+  - Métrica: 59,7% das cooperativas respondentes contrataram ou desenvolveram soluções de IA em 2025 (pesquisa OCB)
+  - Métrica: Coopavel (PR): videomonitoramento com IA de 287 mil aves/dia e robôs no manejo de 20 mil suínos/mês reduziram custos em até 15% (CIO da cooperativa, 2026)
+  - Métrica: Sicredi: assistente Theo com IA generativa fez 6 milhões de atendimentos em 2025, com 89% de satisfação e economia de R$ 110 mi; IA no CRM gerou mais de R$ 27 bi em operações; análise automatizada reduziu de 7 para 3 dias a concessão de crédito imobiliário e agrícola
+  - Métrica: CooperRita (MG): sistema de estoque com IA analisa 2,9 milhões de registros/dia e recalcula 18 mil posições em menos de 10 minutos; Certel prevê incidentes na rede elétrica 48 h antes com 82% de assertividade
+- **M264 · ABDI (com Parque de Inovação Tecnológica São José dos Campos) (2024)** — Estudo de um Agro Data Space – Sumário Executivo (versão final) · F3 · relevância media · [PDF](05_agro-brasil-instituicoes-midia/ABDI_2024_estudo-agro-data-space-sumario-executivo.pdf)
+  - Estudo do Programa Agro 4.0 sobre um espaço de dados agropecuário brasileiro, inspirado em Gaia-X/Agri e JoinData, com proposta de governança em blockchain (validadores e participantes). Referência para soberania e compartilhamento de dados; a amostra é pequena e não detalhada.
+  - Métrica: Desafios ao compartilhamento de dados de produção: conectividade 58,3%, padronização 56,3%, falta de conhecimento técnico 54,2%, qualidade dos dados 54,2%, segurança da informação 37,5%, desconhecimento do uso posterior 35,4%, privacidade 27,1%, custos 25% (questionário web do estudo, 2024) (p. 28)
+  - Métrica: Oportunidades: ampliação do uso e análise dos dados de produção 79,2%, acesso a novos serviços 56,3%, melhor qualidade dos dados 50%; a posse dos dados pelo produtor foi unanimidade entre os produtores respondentes (2024) (p. 29)
+  - Métrica: Levantamento com 12 especialistas, grupos focais e questionário web (2024) (p. 25)
+- **M265 · AgFeed (2026)** — Da universidade aos grandes clientes, Agricef combina IA e irrigação para avançar nos equipamentos agrícolas · F1, F3 · relevância media · [link](https://agfeed.com.br/agtech/da-universidade-aos-grandes-clientes-agricef-combina-ia-e-irrigacao-para-avancar-nos-equipamentos-agricolas/)
+  - Spin-off da Unicamp aplica visão computacional à irrigação na silvicultura, operação ainda muito manual, e automatiza a distribuição de tubos de fertirrigação na cana. Exemplo de automação em florestal e bioenergia com baixa mecanização.
+  - Métrica: IrrigAI, irrigação seletiva de mudas por visão computacional, em piloto com Suzano e Dexco na silvicultura (web)
+  - Métrica: Hauler (R$ 1,5 mi de investimento): 8 unidades vendidas no 1º ano e 12 no 1º trimestre de 2026, inclusive para a Atvos; cerca de 90% da receita de equipamentos vem da cana (web)
+- **M266 · AgFeed (2025)** — Do açúcar no cafezinho aos caminhões de cana, São Martinho traz a IA para o centro da gestão (13/06/2025) · F1 · relevância media · [link](https://agfeed.com.br/agtech/do-acucar-no-cafezinho-aos-caminhoes-de-cana-sao-martinho-traz-a-ia-para-o-centro-da-gestao/)
+  - Relato de executivo da São Martinho no evento One Agro (Syngenta). A empresa se recusou a detalhar os projetos à reportagem, o que mostra a baixa transparência do setor sobre resultados de IA.
+  - Métrica: Unidade de etanol de milho em Goiás com operação 100% controlada por IA, segundo o assessor de Novos Negócios da empresa (2025) (página web)
+  - Métrica: R$ 150 milhões investidos no centro de inovação, que dá conectividade a mais de 350 mil ha de lavouras e às usinas (página web)
+  - Métrica: Pelo menos 5 grandes projetos de IA: etanol de milho, previsão de incêndios com IA nas câmeras das torres, planos de voo de drones contra pragas e daninhas, detecção de fadiga ('Anjo da Guarda') e previsão de preços com a USP (2025) (página web)
+  - Métrica: 85% das lavouras tratadas com defensivos biológicos (2025) (página web)
+- **M267 · AgFeed (2026)** — EXCLUSIVO: Solinftec faz mudanças no primeiro escalão para implantar modelo 'IA raiz' · F1 · relevância media · [link](https://agfeed.com.br/agtech/exclusivo-solinftec-faz-mudancas-no-primeiro-escalao-para-implantar-modelo-ia-raiz/)
+  - Saída do VP global e do CTO; os fundadores assumem para acelerar a IA física e a plataforma Alice Multiagentes, reduzir burocracia e promover uma 'mudança cultural'. É um caso de reorganização da liderança por causa da IA.
+  - Métrica: Receita prevista de R$ 500 mi em 2026 e cerca de R$ 1,5 bi captados (TPG, YvY Capital, Unbox Capital) (web)
+- **M268 · AgFeed (2026)** — IA não resolve dados bagunçados: as lições de Mercado Livre e Nvidia para o agro · F1 · relevância media · [link](https://agfeed.com.br/agtech/ia-nao-resolve-dados-baguncados-as-licoes-de-mercado-livre-e-nvidia-para-o-agro/)
+  - Painel do Rural Summit 2026 com Mercado Livre, John Deere e Nvidia. O Mercado Livre tem uma camada central de governança (gateway) para tudo que entra e sai dos sistemas; 'fazer protótipo é fácil, difícil é escalar'; os agentes liberam programadores para novas criações. Nvidia fala de IA de borda para o campo. Mensagem: dados e governança vêm antes das ferramentas.
+  - Métrica: John Deere See & Spray: economia média de 56% no uso de defensivos (web)
+  - Métrica: Deere investe mais de US$ 2 bi/ano em P&D (web)
+- **M269 · AgFeed (2026)** — IA, dívida em dólar e controle de custos: como a Girassol está crescendo em um mercado de sementes mais difícil · F1 · relevância media · [link](https://agfeed.com.br/grande-slam-do-agro/congresso-do-algodao/ia-divida-em-dolar-e-controle-de-custos-como-a-girassol-esta-crescendo-em-um-mercado-de-sementes-mais-dificil/)
+  - O CEO voltou de imersão no Vale do Silício e aplicou IA para integrar em uma só ferramenta os dados de telemetria, clima e aplicação, que não conversavam. Também reorganizou custos e back-office. É um caso de empresa agro média-grande usando IA para integrar dados e controlar custos. Não há ROI isolado da IA.
+  - Métrica: Faturamento previsto acima de R$ 1 bi em 2026 (+5% a 6%), com Ebitda melhor por controle de custos (web)
+  - Métrica: R$ 200 mi investidos em 2024 na modernização de 4 unidades de beneficiamento de sementes (indústria 4.0) (web)
+  - Métrica: 65 mil ha cultivados (1ª e 2ª safra) e 10,5 mil ha de eucalipto (web)
+- **M270 · BNDES (BNDES Setorial v. 26, n. 52) (2020)** — Conectividade rural: situação atual e alternativas para superação da principal barreira à agricultura 4.0 no Brasil · F2, F3 · relevância media · [PDF](05_agro-brasil-instituicoes-midia/BNDES_2020_conectividade-rural-agricultura-4-0.pdf)
+  - Estudo setorial que trata a conectividade como a principal barreira à agricultura 4.0 e calcula o payback do investimento em rede. Dependência crítica para qualquer roadmap de IA de campo.
+  - Métrica: Investimento mínimo em conectividade de R$ 10 a R$ 40 por hectare, recuperado com ganho de apenas 1% na produtividade da soja já no primeiro ano (estimativa BNDES, 2020) (p. 26)
+  - Métrica: Só 28% dos estabelecimentos rurais tinham internet em 2017; 27% entre os de até 100 ha e cerca de 49% entre os acima de 1.000 ha (Censo Agropecuário 2017) (p. 20-21)
+  - Métrica: Menos de 10% do território agrícola brasileiro tinha cobertura 4G (2020) (p. 21)
+- **M271 · CNA / Senar (2026)** — Senar Play ultrapassa 892 mil matrículas em 2025 · F3 · relevância media · [link](https://cnabrasil.org.br/noticias/senar-play-ultrapassa-892-mil-matriculas-em-2025)
+  - Principal dado de escala sobre capacitação digital rural no Brasil. O Senar Play já oferece a trilha 'Inteligência Artificial aplicada ao agro' (fundamentos, ferramentas e projetos práticos; ead.senar.org.br), mas não divulga o número de matrículas em IA. Os números são matrículas, não pessoas únicas.
+  - Métrica: Mais de 892 mil matrículas em 2025 na plataforma gratuita de ensino a distância do Senar, com 243 cursos (notícia de 02/02/2026)
+  - Métrica: Matrículas por região: Sudeste 35,27%, Nordeste 24,14%, Norte 12,86%; 47,94% de mulheres
+  - Métrica: Entre os cursos mais procurados estão drones e sensoriamento remoto com drones; o Senar planeja ampliar os conteúdos de IA aplicada ao agro
+- **M272 · Distrito (2026)** — Distrito AI Adoption Framework: Guia para implementar IA com estratégia · F2 · relevância media · [link](https://www.distrito.me/blog/distrito-ai-adoption-framework-guia-para-implementar-ia)
+  - Post oficial que descreve em detalhe as 6 etapas do framework de adoção de IA do Distrito (AI Factory), incluindo FinOps, TRISM, observabilidade e EvalOps na governança. É a alternativa pública ao PDF completo, que exige formulário. Útil para F2 (roadmap e maturidade), mas sem métricas de resultado. A impressão em PDF saiu em branco (conteúdo carregado por script), por isso ficou só como web.
+  - Métrica: Framework em 6 etapas: mapeamento de dores × maturidade do processo (matriz de 4 quadrantes), análise de oportunidades, seleção da solução (4 categorias), priorização, esteiras ágeis (3 fases) e governança/TRISM (página oficial, jan/2026)
+  - Métrica: A análise de oportunidades pontua cada caso de 0 a 5 em 5 dimensões: natureza da tarefa, dados, integração/TI, risco e valor de negócio (página oficial)
+- **M273 · Distrito (2024)** — IA no Agro 2024 — Radar Distrito · F1, F3 · relevância media · [PDF](05_agro-brasil-instituicoes-midia/Distrito_2024_ia-no-agro-radar.pdf)
+  - Relatório brasileiro do Distrito sobre IA no agro: contexto de investimento em startups de IA do agro na América Latina, desafios de adoção no campo (conectividade, dados, hardware, gêmeos digitais, aceitação e riscos) e impactos por área (cultivo e saúde das culturas, equipamentos automatizados, eficiência e sustentabilidade), com cases e entrevistas de John Deere, Solinftec e outros. PDF em imagem; números conferidos visualmente. Obtido pelo usuário via formulário (o envio autoriza comunicações do Distrito e patrocinadores).
+  - Métrica: Mais de US$ 220 milhões investidos em startups de IA do agro na América Latina em 40 rodadas (2018-2023); pico de US$ 117,2 mi em 2022 (11 rodadas) e US$ 5,8 mi em 2023 (p. 7)
+  - Métrica: O volume se concentra em estágios avançados: Série B com US$ 80,9 mi (2 rodadas) e private equity com US$ 80,0 mi (2 rodadas), contra US$ 16,5 mi em seed (23 rodadas) (p. 7)
+  - Métrica: Mercado global de IA no agro projetado de US$ 1,7 bi (2023) para US$ 4,7 bi (2028), segundo a MarketsandMarkets (citado) (p. 8)
+  - Métrica: Mais de 70% dos estabelecimentos rurais no Brasil não têm acesso à internet ou não usam ferramentas digitais (IBGE, citado) (p. 8-9)
+- **M274 · Embrapa (Agropensa) (2022)** — Visão de futuro do agro brasileiro — Sumário executivo · F3 · relevância media · [PDF](05_agro-brasil-instituicoes-midia/Embrapa_2022_visao-futuro-agro-brasileiro-sintese.pdf)
+  - Atualização de 2022 da prospecção da Embrapa (8 megatendências) com agro digital (IA, robótica, gêmeos digitais), falta de mão de obra e automação progressiva. Afirma que sistemas de IA serão a base de processos em todos os elos das cadeias (p. 6).
+- **M275 · Embrapa (Bolfe, Jorge e Sanches), publicado na revista RECoDAF (2021)** — Tendências, desafios e oportunidades da Agricultura Digital no Brasil · F2, F3 · relevância media · [PDF](05_agro-brasil-instituicoes-midia/Embrapa_2021_tendencias-desafios-agricultura-digital-artigo.pdf)
+  - Artigo que resume a pesquisa nacional Embrapa/Sebrae/INPE de 2020, com adoção por tipo de tecnologia, benefícios percebidos (produtividade) e barreiras (custo, conectividade, capacitação). Linha de base para a escada de adoção digital no campo.
+  - Métrica: 84% dos produtores usam ao menos uma tecnologia digital, e o percentual cai conforme aumenta a complexidade tecnológica (504 produtores e 249 empresas e prestadores; abr-jun/2020) (p. 9, 11 e 17)
+  - Métrica: Uso por tecnologia: conectividade 70%, softwares/plataformas 57%, aplicativos 22%, GPS 20%, dados e imagens de drones 17%, sensores de campo 16%, sistemas automatizados ou robotizados 6%, máquinas com eletrônica embarcada 5% (2020) (p. 11)
+  - Métrica: 95% dos respondentes querem receber mais informações sobre agricultura digital (2020) (p. 15)
+- **M276 · Embrapa (Embrapa Informática Agropecuária) (2020)** — Agricultura digital: pesquisa, desenvolvimento e inovação nas cadeias produtivas · F1, F3 · relevância media · [PDF](05_agro-brasil-instituicoes-midia/Embrapa_2020_livro-agricultura-digital-pdi-cadeias-produtivas.pdf)
+  - Livro de 409 páginas com o portfólio de P&D digital da Embrapa por cadeia produtiva (visão computacional, modelagem, sensoriamento, agricultura de precisão, AgroAPI). Funciona como catálogo de aplicações de IA e dados no agro brasileiro, sem métricas de retorno.
+- **M277 · Embrapa (Pesquisa Agropecuária Brasileira, v. 60) (2025)** — Data reporting in agri-food platforms: sharing, privacy, consumer demands, and public policies · F3 · relevância media · [PDF](05_agro-brasil-instituicoes-midia/Embrapa_2025_data-reporting-agrifood-platforms-compartilhamento-dados.pdf)
+  - Estudo bibliométrico da Embrapa sobre o que gera confiança no compartilhamento de dados por produtores rurais: privacidade e segurança, políticas públicas, transparência, práticas sustentáveis e fatores econômicos. Trata também da LGPD, da interoperabilidade e da rastreabilidade (CoPADi). Não mede quanto os produtores brasileiros estão dispostos a compartilhar dados.
+  - Métrica: Revisão de 668 documentos (2014-2024) sobre compartilhamento de dados em plataformas agroalimentares; as citações cresceram ~28% ao ano, de 5 para 2.355 (p. 3)
+- **M278 · Embrapa (Visão de Futuro do Agro Brasileiro; autor Otávio Valentim Balsadi) (2022)** — Escassez e elevação do custo da mão de obra (Megatendência Intensificação tecnológica e concentração da produção) · F3 · relevância media · [PDF](05_agro-brasil-instituicoes-midia/Embrapa_2022_escassez-custo-mao-de-obra-megatendencia.pdf)
+  - Nota técnica de 4 páginas sobre a tendência estrutural de escassez e encarecimento da mão de obra e seu vínculo com automação e mecanização. Cana e café aparecem entre as atividades mais intensivas em trabalho.
+  - Métrica: Pessoal ocupado na agropecuária caiu de 23,4 milhões (1985) para 15,1 milhões (2017), com queda de 1,4 milhão entre os censos de 1996 e 2017 (p. 1)
+  - Métrica: Cinco atividades (bovinos, cana-de-açúcar, soja, café e aves) concentravam cerca de 60,4% dos empregados permanentes e temporários em 2017 (p. 1)
+  - Métrica: Mais de 70% dos estabelecimentos agropecuários não tinham internet em 2017; cerca de 85% no Norte e 80% no Nordeste (p. 2)
+- **M279 · Embrapa Pecuária Sudeste e UFSCar (2026)** — Adoção de tecnologias de agricultura digital por produtores de soja no Estado de São Paulo (Documentos 151) · F2, F3 · relevância media · [PDF](05_agro-brasil-instituicoes-midia/Embrapa_2026_adocao-agricultura-digital-produtores-soja-sp.pdf)
+  - Levantamento de campo com amostra obtida via cooperativas (Holambra, Coopercitrus, Cocamar) e CATI. Área cultivada, experiência, consultoria privada e escolaridade explicam a adoção. Mostra o descompasso entre coletar dados e usá-los na decisão, tema central de maturidade. Não é a fonte dos números nacionais de telemetria (3%) e drones (8%) citados pela Embrapa no Valor.
+  - Métrica: 79% de 150 produtores de soja de SP adotam ao menos 1 de 8 tecnologias digitais (safra 2023/24) (p. 10 do PDF)
+  - Métrica: Adoção por tecnologia: piloto automático 56%, amostragem georreferenciada de solo 51%, monitor de produtividade 43%, mapas de produtividade 25%, drones 13%, plantio em taxa variável 9% (150 produtores, safra 2023/24) (p. 10 do PDF)
+  - Métrica: 21% não adotam nenhuma tecnologia e só 15% adotam 6 ou mais (150 produtores, safra 2023/24) (p. 10 do PDF)
+  - Métrica: Complementaridades perdidas: 51% fazem amostragem georreferenciada, mas só 29% aplicam insumos à taxa variável; 43% têm monitor de produtividade, mas só 25% geram mapas (safra 2023/24) (p. 10 do PDF)
+- **M280 · Embrapa, SP Ventures e Homo Ludens (2025)** — Radar Agtech Brasil 2024: Mapeamento de Startups, Ambientes de Inovação e Investidores do Ecossistema Agro Brasileiro · F3 · relevância media · [PDF](05_agro-brasil-instituicoes-midia/Embrapa-SPVentures-HomoLudens_2025_radar-agtech-brasil-2024.pdf)
+  - Edição de cinco anos do mapeamento oficial de agtechs, a primeira a incluir ambientes de inovação e investidores. Não mede o uso de IA pelas agtechs (isso só aparece na edição 2025, já catalogada). Cita IA, IoT e automação entre as tendências mais apontadas e a falta de profissionais para essas tecnologias como gargalo (p. 127). URL oficial localizada no site radaragtech.com.br; há também edição em inglês (nov/2025). O arquivo local foi regravado por outro programa e não é idêntico byte a byte ao oficial, mas tem o mesmo conteúdo (180 p.). As páginas citadas são as do PDF.
+  - Métrica: 1.972 agtechs mapeadas no Brasil em 2024, contra 1.125 em 2019; a fatia de SP caiu de 52,5% para 43,5% (p. 8)
+  - Métrica: 451 ambientes de inovação mapeados (hubs, incubadoras, parques e aceleradoras): Sudeste 36,8%, Sul 31,2%, Nordeste 17,5% (2024) (p. 8)
+  - Métrica: Dentro da fazenda: 818 agtechs (41,5%); antes da fazenda: 366 (18,6%); depois da fazenda: 788 (40,0%) (mapeamento 2024) (p. 85)
+  - Métrica: Dentro da fazenda: gestão da propriedade 157 agtechs (8,0% do total), plataformas integradoras de dados 144 (7,3%), drones, máquinas e equipamentos 110 (5,6%), sensoriamento remoto e imagens 88 (4,5%), IoT 58 (2,9%), telemetria e automação 38 (1,9%) (2024) (p. 87-88)
+- **M281 · Embrapa, Sebrae e INPE (2020)** — Agricultura Digital no Brasil: Tendências, Desafios e Oportunidades — Resultados de Pesquisa Online · F2, F3 · relevância media · [PDF](05_agro-brasil-instituicoes-midia/Embrapa-Sebrae-INPE_2020_agricultura-digital-pesquisa-online.pdf)
+  - Relatório original da pesquisa nacional de 2020 sobre tecnologias digitais em uso, benefícios e barreiras (referência pedida como ponto de partida). O texto do PDF não é extraível (leitura só visual); os números estão no artigo de 2021, listado acima.
+- **M282 · Exame (Revista Exame – Melhores do ESG) (2026)** — SLC Agrícola alcança receita recorde de R$ 8,6 bilhões com aposta em agricultura regenerativa · F1 · relevância media · [link](https://exame.com/revista-exame/slc-agricola/)
+  - Reportagem ESG sobre SLC, Amaggi e Bunge, com uso de dados, automação e IA em monitoramento de carbono e rastreabilidade. Complementa as apresentações da SLC já catalogadas.
+  - Métrica: Mensuração de carbono (com a deeptech Fluere) em 736 mil ha de 23 fazendas, mais de 2.000 lavouras monitoradas em tempo real, 50 milhões de registros e 99% dos processos automatizados – 2025 (web)
+  - Métrica: Receita recorde de R$ 8,6 bi em 2025 (web)
+  - Métrica: Bunge: 100% de rastreabilidade das compras diretas e indiretas em áreas prioritárias com geoanálise e IA; agricultura regenerativa de 250 mil para 345 mil ha em um ano (web)
+- **M283 · Forbes Brasil (Forbes Agro) (2024)** — Agrishow: de ChatGPT a mapas e satélites, o que propõem as gigantes do agro · F1, F3 · relevância media · [link](https://forbes.com.br/forbes-agro/2024/05/agrishow-de-chatgpt-a-mapas-e-satelites-o-que-propoem-as-gigantes-do-agro/)
+  - Estratégias digitais e de IA generativa de Basf, Bayer e Syngenta (Cropwise AI) apresentadas na Agrishow 2024, com números de escala e de ganho declarados pelas empresas.
+  - Métrica: Basf xarvio atende 11 milhões de ha e 12 mil clientes no Brasil, a R$ 1/ha (licença mínima de 4 mil ha) (web)
+  - Métrica: Ganho de produtividade esperado de 2,2% na soja, 5,4% no milho e 2,4% no algodão; otimização de insumos de até 90% na cana (Basf) (web)
+  - Métrica: Bayer PRO Carbon: +11% de produtividade e +16% de sequestro de carbono no solo; meta de 1 milhão de ha em 2024/25 (web)
+  - Métrica: Bayer e Microsoft desenvolvem o AgroCopilot/plataforma Adma com cerca de 50 parcerias de fabricantes de máquinas (web)
+- **M284 · Forbes Brasil (Forbes Agro) (2026)** — Como a Ciência Preditiva Ajuda a Desenvolver as Tecnologias Que o Campo Usará Daqui a 15 Anos · F1, F3 · relevância media · [link](https://forbes.com.br/forbes-agro/2026/09/como-a-ciencia-preditiva-ajuda-a-desenvolver-as-tecnologias-que-o-campo-usara-daqui-a-15-anos/)
+  - A diretora global de P&D de proteção de cultivos da Syngenta descreve o uso de ciência preditiva e aprendizado de máquina para encurtar o desenvolvimento de moléculas (caso do herbicida Authence). É um caso de IA em P&D.
+  - Métrica: Syngenta investe cerca de US$ 2 bi/ano em P&D, com equipe global de mais de 3 mil especialistas em proteção de cultivos (web)
+  - Métrica: Antes eram necessárias cerca de 10 mil moléculas para obter uma bem-sucedida; modelos preditivos e ML reduzem o universo testado desde o início (web)
+  - Métrica: Gramíneas resistentes afetam cerca de 70% do território produtivo argentino, com perdas de até 70% (web)
+- **M285 · Forbes Brasil (Forbes Agro) (2026)** — Forbes Agro100 2026 Abre Inscrições até 11 de Setembro (levantamento incluirá uso de IA, automação e dados) · F2, F3 · relevância media · [link](https://forbes.com.br/forbes-agro/2026/07/forbes-agro100-2026-abre-inscricoes-ate-11-de-setembro/)
+  - A 6ª edição do Agro100 terá a produtividade como tema e vai levantar uso de IA, automação, análise de dados, digitalização, investimentos em inovação e gestão de pessoas (qualificação, cultura, reorganização de equipes) das maiores empresas e cooperativas. Os resultados ainda não foram publicados; vale monitorar a edição especial.
+  - Métrica: As empresas do Agro100 somaram R$ 1,886 tri de receita, 16,1% do PIB e 69,3% do PIB do agronegócio (web)
+- **M286 · Forbes Brasil (Forbes Agro) (2024)** — Futuro da agricultura: como a IA vai movimentar R$ 23,6 bilhões em 2028 · F1, F3 · relevância media · [PDF](05_agro-brasil-instituicoes-midia/ForbesAgro_2024_ia-agricultura-casos-roi-fornecedores.pdf)
+  - Panorama de aplicações de IA no controle de pragas, no monitoramento do solo e na capina robótica, com números de retorno e payback declarados por fornecedores. Útil como referência de ROI de aplicações de campo. São números de fornecedores, não auditados.
+  - Métrica: Mercado de IA na agricultura de US$ 1,7 bi (2023) para US$ 4,7 bi (2028) (p. 3)
+  - Métrica: Carbon Robotics (LaserWeeder): redução de até 80% nos custos de controle de ervas daninhas e retorno do investimento em 1 a 3 anos, segundo produtores (p. 6)
+  - Métrica: CropX: -57% no uso de água, -15% de fertilizantes e produtividade até 70% maior (dados da empresa) (p. 5)
+  - Métrica: Trapview: +5% de rendimento/qualidade e economia global de EUR 118 milhões para produtores (dados da empresa) (p. 5)
+- **M287 · Forbes Brasil (Forbes Agro) (2025)** — Klabin Conclui Plano Industrial de R$ 30 Bi e Redesenha Expansão, Diz CEO · F1, F3 · relevância media · [link](https://forbes.com.br/forbes-agro/2025/11/klabin-conclui-plano-industrial-de-r-30-bi-e-redesenha-expansao-diz-ceo/)
+  - O CEO Cristiano Teixeira aponta o déficit de qualificação de operadores como risco e cita a escola técnica em Ortigueira (modelo finlandês) para colheitadeiras florestais. Conta que a Klabin usa sensoriamento, algoritmos e IA para manutenção preditiva e eficiência de insumos e energia ('a fábrica é o primeiro lugar onde testamos qualquer tecnologia'). Sem valores de ganho da IA.
+  - Métrica: Plano de R$ 30 bi em 5 anos concluído; receita de R$ 19,6 bi em 2024 (+9%) (web)
+  - Métrica: Produtividade florestal média no Brasil de 35,7 m³/ha/ano, quase o dobro da do Hemisfério Norte (web)
+- **M288 · Forbes Brasil (Forbes Agro) (2026)** — Máquinas, Robôs e IA: Agrishow 2026 É o Maior Festival de Inovação do Agro · F3 · relevância media · [PDF](05_agro-brasil-instituicoes-midia/ForbesAgro_2026_agrishow-maquinas-robos-autonomos-ia.pdf)
+  - Panorama dos lançamentos de autonomia no Brasil: robôs Solix, pulverizador autônomo elétrico Hural Rover, operação autônoma de graneleiros (PTx Trimble OutRun), Fendt e visão computacional (Inarix). Retrato do estado da arte das máquinas autônomas no país.
+  - Métrica: Plantadeira Fendt Momentum reduz em até 75% a sobreposição de insumos (dado do fabricante, Agrishow 2026) (p. 5)
+- **M289 · Forbes Brasil (Forbes Agro) (2026)** — Solinftec Lança 'Freedom Per Acre' nos EUA, a Nova Estratégia para Colocar Seus Robôs nas Fazendas · F1, F3 · relevância media · [link](https://forbes.com.br/forbes-agro/2026/05/solinftec-lanca-freedom-per-acre-nos-eua-a-nova-estrategia-para-colocar-seus-robos-nas-fazendas/)
+  - Modelo comercial em que o produtor testa o robô na própria lavoura e vê em tempo real os dados de produtividade e custo, sem passar por revendas. Tem fala do Chief Global Strategy Officer ('agronegócio não tem payback... por isso ir para dentro da casa do produtor'). Serve para entender barreiras de adoção de robótica.
+  - Métrica: 150 robôs Solix nos EUA (cerca de 40 mil ha) e 100 no Brasil, divididos entre cana, grãos e culturas perenes (web)
+  - Métrica: Receita estimada de R$ 500 milhões em 2026; tecnologia em fazendas de 14 países, com cerca de 15 milhões de ha (web)
+  - Métrica: Experiência de uma semana com robô em 10 produtores do Corn Belt em 2026 e com 5 usinas de cana no Brasil no 2º semestre de 2026 (web)
+- **M290 · Forbes Brasil (Forbes Agro) (2025)** — TIM Faz Contas Para Fechar 2025 com 26 Milhões de Hectares Conectados no Campo, Diz Diretor · F2 · relevância media · [link](https://forbes.com.br/forbes-agro/2025/12/tim-faz-contas-para-fechar-2025-com-26-milhoes-de-hectares-conectados-no-campo-diz-diretor/)
+  - Dados sobre a conectividade rural, dependência crítica para IA de campo, telemetria e autonomia. O modelo de 'cobertura como serviço' divide o investimento com produtores e empresas do agro.
+  - Métrica: Cobertura 4G/5G em áreas agrícolas passou de 18,7% para 33,9% entre 2024 e 2025; imóveis rurais com cobertura total foram de 37,4% para 48,1% – Indicador de Conectividade Rural ConectarAGRO (web)
+  - Métrica: TIM com 23,3 milhões de ha conectados (meta de 26 milhões em 2025); custo por hectare da antena abaixo de 1/4 de saca de soja (já foi meia saca) (web)
+  - Métrica: Cerca de 350 mil pequenos e médios proprietários conectados ao longo de rodovias (web)
+- **M291 · Forbes Brasil (Forbes Agro; artigo de colaborador da Forbes) (2026)** — Por Que a Agricultura Global Precisa de uma Indústria de IA Soberana · F3, F2 · relevância media · [PDF](05_agro-brasil-instituicoes-midia/ForbesAgro_2026_ia-soberana-agricultura.pdf)
+  - Propõe três eras da agtech (conectada, preditiva e agêntica) e quatro níveis de soberania de IA no agro: residência de dados, computação de borda, customização de modelos e IA exportável. Aponta riscos de latência, 'colonialismo digital' e exposição geopolítica. Referência para a frente F3 de dados e soberania tecnológica.
+  - Métrica: Pulverização seletiva agêntica pode reduzir o uso de químicos em até 90% (p. 3)
+  - Métrica: Conectividade e análise de dados podem adicionar US$ 500 bi ao PIB global até 2030 (p. 3)
+  - Métrica: Índia: a AgriStack já emitiu mais de 48 milhões de identidades digitais de agricultores; Japão mantém a plataforma nacional de dados WAGRI (p. 4)
+- **M292 · Forbes Brasil (Forbes Agro; coluna de Cíntia Ticianeli, CFO da Agro Serra) (2026)** — Forbes Mulher Agro: A Próxima Revolução das Usinas de Cana Não Será Apenas Tecnológica. Será Intelectual · F1, F3 · relevância media · [link](https://forbes.com.br/forbes-agro/2026/07/forbes-mulher-agro-a-proxima-revolucao-das-usinas-de-cana-nao-sera-apenas-tecnologica-sera-intelectual/)
+  - Visão de uma executiva do setor sucroenergético sobre IA nas usinas: agricultura (previsão de produtividade, momento do corte), indústria (manutenção preditiva, fermentação), logística e gestão comercial. Defende governança e integração de dados antes da IA ('não existe IA que compense dados desorganizados') e a captura do conhecimento tácito de operadores. Qualitativo.
+- **M293 · Forbes Brasil (Forbes Agro; estudo Delphi da AgriTech Capital e LSC International) (2025)** — IA no Agro: Sensacionalismo, Esperança e as Perguntas Difíceis Que os CEOs Devem Fazer Agora · F1, F2 · relevância media · [link](https://forbes.com.br/forbes-agro/2025/06/ia-na-agroalimentacao-sensacionalismo-esperanca-e-as-perguntas-dificeis-que-os-ceos-devem-fazer-agora/)
+  - Traz cinco recomendações a CEOs do agroalimentar: arrumar os dados antes da IA, pilotar com propósito, letramento em IA da alta liderança ('não é problema de TI, é de liderança'), valorizar competência interna em vez de consultores e agir já. Aponta ceticismo com o exagero e riscos de propriedade e segurança de dados.
+  - Métrica: Estudo Delphi com cerca de 40 especialistas em IA, alimentos e agronegócio, divididos em dois grupos (de dentro e de fora do setor) (web)
+- **M294 · Forbes Brasil (Forbes Agro; reportagem originalmente da Forbes Chile) (2026)** — A Floresta do Futuro: Dados e Inteligência Artificial na Indústria de Celulose e Madeira · F1, F3 · relevância media · [link](https://forbes.com.br/forbes-agro/2026/07/a-floresta-do-futuro-dados-e-inteligencia-artificial-na-industria-florestal/)
+  - Argumenta que o setor florestal precisa de plataformas de dados integradas, sem silos, para viabilizar a IA ao longo de uma cadeia distribuída. Cita a CMPC, que modernizou sua plataforma tecnológica para dados avançados e IA. Não traz ROI.
+  - Métrica: 62% das organizações que integram a sustentabilidade à estratégia conseguem traduzi-la em inovação, eficiência e resiliência, contra 34% das que tratam o tema isoladamente – Barômetro Global de Sustentabilidade Kyndryl/Microsoft (web)
+  - Métrica: 57% dos líderes dizem que a inovação é limitada pelas capacidades tecnológicas atuais – Kyndryl Readiness Report 2025 (web)
+- **M295 · Forbes Brasil (Forbes Agro; reportagem originalmente da Forbes.com) (2026)** — IA Física Avança no Agro Europeu com Mercado de US$ 200 Bilhões até 2030 (Eternal.ag, robôs em estufas) · F3 · relevância media · [link](https://forbes.com.br/forbes-agro/2026/07/ia-fisica-avanca-no-agro-europeu-com-mercado-de-us-200-bilhoes-ate-2030/)
+  - Caso de IA física (gêmeo digital, LiDAR, visão) contra a escassez de mão de obra em ambientes insalubres, com modelo de negócio 'robôs como serviço'. Serve de referência de robótica de colheita e de economia do trabalho.
+  - Métrica: Em estufa de 10 ha, a operação contínua com cobots exige 6 operadores (cerca de US$ 250 mil/ano em países desenvolvidos); um robô autônomo colhe 22 h/dia, 365 dias/ano (web)
+  - Métrica: Agricultura em ambiente controlado de cerca de US$ 103 bi em 2025, com projeção de dobrar até 2030 (web)
+  - Métrica: Modelo 'robôs como serviço' com receita por volume colhido; primeiro cliente comercial desde set/2025 (Van Noord Growers, 9 ha) (web)
+- **M296 · Forbes Brasil (Peter High) (2026)** — O Que É para a Syngenta uma Abordagem Orientada por IA na Agricultura Moderna · F1 · relevância media · [PDF](05_agro-brasil-instituicoes-midia/ForbesAgro_2026_syngenta-abordagem-orientada-por-ia.pdf)
+  - Entrevista com o Chief Information and Digital Officer da Syngenta sobre a IA organizada em quatro pilares (laboratório, cadeia de suprimentos, empresa e agricultor) e em equipes interdisciplinares. Exemplo de modelo organizacional de IA em uma líder global do agro.
+  - Métrica: Plataformas digitais da Syngenta implantadas em mais de 150 milhões de acres (2026) (p. 6)
+- **M297 · IMEA e Senar-MT (2024)** — Mão de obra: um desafio para os produtores rurais em Mato Grosso · F3 · relevância media · [PDF](05_agro-brasil-instituicoes-midia/IMEA-SenarMT_2024_mao-de-obra-desafio-produtores-mt.pdf)
+  - Pesquisa estadual sobre falta de mão de obra qualificada e uso de tecnologia no maior polo de grãos do país. Mostra que o gargalo está nos operadores de máquinas, perfil que a autonomia e a robótica tendem a substituir ou ampliar.
+  - Métrica: 70,66% dos produtores relatam alta dificuldade para contratar e só 9,18% baixa dificuldade (392 produtores de 94 municípios de MT; coleta a partir de set/2023) (p. 12)
+  - Métrica: 36,99% dos produtores precisam principalmente de operadores de máquinas; 4,59% de técnicos em agricultura de precisão (p. 12)
+  - Métrica: 57,14% usam computador e 69,64% usam smartphone na propriedade (p. 15)
+- **M298 · PitchBook (2026)** — Q2 2026 Agtech Report: Embedded AI Draws Capital and Delivers ROI (prévia) · F1, F3 · relevância media · [PDF](05_agro-brasil-instituicoes-midia/PitchBook_2026_q2-agtech-report-embedded-ai-roi-preview.pdf)
+  - Prévia gratuita: a IA embarcada (visão, sensores, descoberta) já entrega ROI e atrai capital, enquanto copilotos voltados ao produtor enfrentam lacuna de ROI e de adoção; a robótica migra para retrofit e robótica como serviço (p. 6). O relatório completo é pago.
+  - Métrica: Venture capital global em agtech no 1º semestre de 2026: US$ 2,4 bi em 359 deals, contra US$ 3,7 bi e 484 deals no 1º semestre de 2025 (−33% em valor, −26% em número) (p. 4)
+  - Métrica: Segmentos de hardware (automação e cultivo indoor) caíram de cerca de 23% para 17% do capital entre 2024 e o 1º sem/2026; dados e biologia subiram de cerca de metade para quase 3/4 (p. 5)
+- **M299 · Reglab (estudo comissionado pela OpenAI) (2026)** — O Impacto da Inteligência Artificial na Economia Brasileira (Policy Brief n. 7) · F3 · relevância media · [PDF](05_agro-brasil-instituicoes-midia/Reglab_2026_impacto-ia-economia-brasileira-agro.pdf)
+  - Estimativa macro-setorial do efeito da IA no PIB, com recorte agro: o valor da IA no campo virá sobretudo de máquinas, drones e sensores (IA física), não de copilotos. Como foi comissionado pela OpenAI, convém considerar o viés.
+  - Métrica: IA pode adicionar até R$ 986,7 bi ao PIB entre 2027 e 2030 (cerca de 7,6% do PIB de 2026): 65% via trabalhadores mais produtivos e 35% via máquinas mais eficientes (modelo adaptado de Acemoglu, 12 setores) (p. 4)
+  - Métrica: Agropecuária: impacto de R$ 48,2 bi em valor presente, 92% pelo efeito-capital (maquinário inteligente) (p. 4 e 7)
+  - Métrica: Na agropecuária, 81% do valor adicionado é capital e 19% é trabalho (TRU IBGE 2019), o que explica a baixa exposição cognitiva e o peso das máquinas (p. 8 e 11)
+- **M300 · Rural Ventures (Rural Insights) (2025)** — Rural Tech Report 2025.1 · F3 · relevância media · [link](https://ruralinsights.com.br/lancamento-rural-tech-report-2025-1/)
+  - Relatório de investimentos em agtechs e foodtechs, com teses como IA aplicada ao campo e às finanças e governança de dados. O download exige formulário, e o link de acesso estava fora do ar (404) na consulta.
+  - Métrica: Investimento em agtechs e foodtechs no Brasil de R$ 627 mi no 1º semestre de 2025, +88% sobre o mesmo período de 2024 (página oficial de lançamento, 18/08/2025)
+- **M301 · SAE Brasil (conselho editorial com KPMG; edição AutoData) (2023)** — Pesquisa SAE BRASIL Caminhos da Tecnologia no Agronegócio · F2, F3 · relevância media · [PDF](05_agro-brasil-instituicoes-midia/SAEBrasil_2023_caminhos-tecnologia-agronegocio.pdf)
+  - Pesquisa com a cadeia de máquinas, tecnologia e produtores, publicada no início de 2024, sobre adoção de tecnologia, automação e máquinas autônomas. Traz a visão da indústria sobre o horizonte de adoção da autonomia e suas barreiras (capacitação, conectividade, custo).
+  - Métrica: 56% acham que máquinas autônomas (sem operador) já estão disponíveis e se disseminam em menos de uma década; 15% as veem como conceito que levará mais de uma década para ganhar escala (fabricantes, distribuidores, produtores e cooperativas; 2023) (p. 38)
+  - Métrica: 38% apontam a capacitação dos produtores e a falta de mão de obra especializada como principal desafio; 31% o custo das tecnologias; 18% a conectividade; 13% o crédito (2023) (p. 16)
+  - Métrica: 40% citam o acesso à conectividade como a tendência que mais preocupa; 23% a manutenção de máquinas; 9% a segurança de máquinas autônomas (2023) (p. 17-18)
+- **M302 · TOTVS (execução H2R Insights & Trends) (2024)** — IPT Agro — Índice de Produtividade Tecnológica do Agronegócio (paper) · F1, F2 · relevância media · [PDF](05_agro-brasil-instituicoes-midia/TOTVS_2024_ipt-agro-indice-produtividade-tecnologica.pdf)
+  - Paper TOTVS/H2R com um índice de maturidade de uso de ERP e sistemas de gestão em 7 subsegmentos do agro, incluindo bioenergia. A página exige só um clique (o formulário HubSpot não tem campos visíveis), e o PDF está publicado no servidor de arquivos da própria TOTVS, indexado publicamente. Serve de régua de maturidade digital e de dados (F2), com a bioenergia à frente.
+  - Métrica: IPT do agronegócio de 0,58 (escala de 0 a 1); só 1/5 das empresas fica acima de 0,75 (350 empresas do agro com faturamento acima de R$ 20 mi, CATI ago–dez/2023) (p. 3, 5)
+  - Métrica: Nas 53% das empresas com ERP em todas as áreas administrativas, o IPT chega a 0,67 (p. 7)
+  - Métrica: O IPT sobe cerca de 8 p.p. nas empresas mais digitalizadas, 10 p.p. com infraestrutura automatizada e 20 p.p. quando as informações estão organizadas (p. 8)
+  - Métrica: 24% das empresas combinam os 3 fatores de internalização e atingem IPT de 0,67; cerca de 1/4 não tem departamento de TI (p. 7–8)
+- **M303 · ABAG (2026)** — Agenda Estratégica da Agroindústria Brasileira (versão completa) · F3 · relevância baixa · [PDF](05_agro-brasil-instituicoes-midia/ABAG_2026_agenda-estrategica-agroindustria-completa.pdf)
+  - Agenda de 7 pilares e 23 tópicos lançada no 25º CBA (ago/2026). Inclui 'Transformação Tecnológica da Agroindústria' e 'Governança Estratégica de Dados e Inteligência', que propõe uma infraestrutura nacional de dados para o setor (p. 45); útil para dados e soberania, sem métricas.
+- **M304 · ABDI (com MAPA, MCTI e parceiros) (2026)** — Programa Agro 4.0 (página do programa: números, pilotos e editais) · F2 · relevância baixa · [link](https://www.abdi.com.br/agro-40/)
+  - O site mostra só números agregados, vídeos dos cases (Lar/Trinovati, Cocamar/NeoSilos, Usina Cerradão etc.) e editais. O relatório consolidado de resultados dos pilotos, previsto no desenho do programa, não foi publicado.
+  - Métrica: Mais de 1.000 participantes nas ações, R$ 6 milhões em recursos e presença em 5 regiões (página do programa, 2026)
+  - Métrica: Edital AgroBrasília 2026: R$ 900 mil em 6 prêmios de R$ 150 mil para pilotos com produtores do DF e entorno (2026) (página web)
+  - Métrica: 1º edital (2020): 14 projetos-piloto e R$ 4,8 milhões em premiação, com acompanhamento trimestral por 12 meses e relatórios de lições aprendidas previstos (apresentação do programa em PDF no site, p. 3–6)
+- **M305 · ABMRA (2025)** — Pesquisa ABMRA Hábitos do Produtor Rural (9ª edição) · F3 · relevância baixa · [link](https://abmra.org.br/pesquisa-abmra-habitos-do-produtor-rural-abmra/)
+  - Maior pesquisa de perfil e hábitos do produtor. Os destaques da 9ª edição (3.100 produtores; internet em 98% das propriedades) saíram na Forbes Agro em set/2025, mas o relatório completo é vendido em cotas.
+  - Métrica: Produtores que acessam a internet: 39% (2013), 42% (2017) e 74% (2021), em amostra nacional de agricultura e pecuária (página oficial da ABMRA)
+- **M306 · AgFeed (coluna de Fernando Rodrigues, Rural Ventures) (2026)** — A IA encurtou a curva de adoção da tecnologia · F3 · relevância baixa · [link](https://agfeed.com.br/campo-das-ideias/investimentoagtech/a-ia-encurtou-a-curva-de-adocao-da-tecnologia/)
+  - Critério 'prever, provar, precificar' para a IA no agro. Argumenta que rodar IA em escala é custo contínuo e que infraestrutura (energia, computação, organização) e disciplina operacional são a nova fronteira. Os robôs serão o 'teste final' entre adoção e eficiência. Opinião, sem dados.
+- **M307 · CEPAL (Buainain, Cavalcante e Consoline) (2021)** — Estado atual da agricultura digital no Brasil: inclusão dos agricultores familiares e pequenos produtores rurais · F2, F3 · relevância baixa · [PDF](05_agro-brasil-instituicoes-midia/CEPAL_2021_estado-atual-agricultura-digital-brasil.pdf)
+  - Diagnóstico da agricultura digital com foco na inclusão de pequenos produtores: políticas, agtechs, apps da Embrapa e perfis de comportamento na adoção. Contexto de base, com pouco sobre grandes empresas.
+  - Métrica: 31,19% dos estabelecimentos agropecuários tinham internet em 2017, com 51,38% no Sul e 20,62% no Norte (Censo Agropecuário 2017) (p. 15)
+- **M308 · Distrito (2024)** — Inteligência Artificial no Agronegócio: aplicações e impacto · F3 · relevância baixa · [link](https://www.distrito.me/blog/inteligencia-artificial-no-agronegocio-aplicacoes-e-impacto)
+  - Post oficial que resume o relatório 'IA no Agro' (que exige formulário), com o volume de investimento em startups de IA para o agro e exemplos de aplicações. É uma alternativa parcial, pois o número de startups não é divulgado.
+  - Métrica: Quase US$ 220 milhões investidos nos últimos 7 anos em startups de IA para o agro na América Latina (dado do relatório IA no Agro do Distrito, citado no blog oficial, set/2024) (página oficial)
+- **M309 · Embrapa (2018)** — Visão 2030: o futuro da agricultura brasileira · F3 · relevância baixa · [PDF](05_agro-brasil-instituicoes-midia/Embrapa_2018_visao-2030-futuro-agricultura-brasileira.pdf)
+  - Estudo prospectivo clássico da Embrapa com sete megatendências, incluindo convergência tecnológica e escassez e encarecimento da mão de obra (p. 58-59). Anterior a 2024 e pesado (115 MB); serve como contexto.
+  - Métrica: Produtividade da mão de obra agrícola cresceu 5,4 vezes, a da terra 4,4 e a do capital 3,3 entre 1975 e 2015 (Gasques et al., 2017) (p. 17)
+- **M310 · Embrapa Agricultura Digital (2025)** — Agricultura digital e inteligência artificial: regulação e desafios · F1, F3 · relevância baixa · [PDF](05_agro-brasil-instituicoes-midia/Embrapa_2025_agricultura-digital-ia-regulacao-desafios.pdf)
+  - Folheto de 4 páginas que compara os marcos regulatórios de IA (UE, China, EUA e Brasil) e discute riscos (transparência, ética, propriedade intelectual, dados) para a agricultura digital. Apoia a discussão de governança de IA, sem métricas.
+- **M311 · Embrapa Agricultura Digital e USP (Revista USP, n. 141) (2024)** — A inteligência artificial na pesquisa agrícola · F3 · relevância baixa · [PDF](05_agro-brasil-instituicoes-midia/Embrapa-USP_2024_ia-na-pesquisa-agricola-estudos-avancados.pdf)
+  - Artigo de revisão com 14 autores sobre IA na gestão da água, na produção agrícola (ex.: predição de produtividade de cana e café) e nas cadeias de valor. Discute a governança de dados de pesquisa: princípios FAIR e CARE, rede GO FAIR Agro Brasil, desconfiança do setor privado em abrir dados e o Cepea como intermediário de confiança.
+  - Métrica: Cientistas de dados gastam ~80% do tempo coletando e organizando dados (CrowdFlower 2016, citado no texto) (p. 4)
+  - Métrica: Eventos climáticos extremos explicam de 18% a 43% da variação da produtividade agrícola (Vogel et al. 2019, citado no texto) (p. 6)
+- **M312 · Forbes Brasil (Forbes Agro) (2026)** — Fernando Henning Vê Na IA Uma Nova Fronteira Para o Mercado Sementeiro de R$ 38 bilhões · F1, F3 · relevância baixa · [link](https://forbes.com.br/forbes-agro/2026/09/fernando-henning-ve-na-ia-uma-nova-fronteira-para-o-mercado-sementeiro-de-r-38-bilhoes/)
+  - Presidente da Abrates (Embrapa Soja) comenta o uso de IA e imagens hiperespectrais (USP) e de modelos preditivos (Unesp) na qualidade de sementes. Cita a Syngenta, que pôs a IA entre suas prioridades estratégicas. Alerta que a qualidade da resposta depende da qualidade dos dados.
+  - Métrica: O mercado de sementes movimenta em média R$ 38 bi/ano; taxa de uso de sementes oficiais na soja de cerca de 80% (web)
+  - Métrica: A pirataria de sementes gera perdas estimadas em R$ 10 bi por safra na soja – CropLife Brasil (web)
+  - Métrica: IA e análise de imagem diagnosticam a qualidade de um lote em poucas horas, contra vários dias nos testes convencionais (web)
+- **M313 · Forbes Brasil (Forbes Agro) (2026)** — Marcos Jank: 'A Nova Fronteira do Agro É Definida por Tecnologia, Estratégia e Valor' · F3 · relevância baixa · [link](https://forbes.com.br/forbes-agro/2026/04/marcos-jank-a-nova-fronteira-do-agro-e-definida-por-tecnologia-estrategia-e-valor/)
+  - Entrevista com o coordenador do Insper Agro Global: 'a IA vai ser, de longe, a tecnologia mais importante para o agro na próxima década', com impacto em operação, produção, comercialização e proteção de preços. Aponta a dependência tecnológica ocidental e a geopolítica como riscos.
+  - Métrica: Brasil responde por cerca de 4% da produção global e 9% do comércio agrícola (web)
+  - Métrica: China compra cerca de 35% das exportações brasileiras (web)
+- **M314 · Forbes Brasil (Forbes Agro) (2025)** — Monarch Mira Faturar até US$ 100 Milhões em 2025 com Avanço de Tratores Autônomos · F3 · relevância baixa · [link](https://forbes.com.br/forbes-agro/2025/08/monarch-mira-faturar-ate-us-100-milhoes-em-2025-com-avanco-de-tratores-autonomos/)
+  - Tratores elétricos autônomos com IA embarcada, usados em vinhedos. O modelo combina a venda da máquina com assinatura de software. Traz a visão do CEO sobre a aversão a risco do produtor.
+  - Métrica: Receita de US$ 5 mi (2021) para US$ 22 mi (2024), com meta de US$ 66–100 mi em 2025; frota de cerca de 100 para 1.000 tratores autônomos (web)
+  - Métrica: Assinatura de software de até US$ 8.376 por trator (web)
+  - Métrica: Mercado de tratores autônomos de US$ 1,30 bi (2024) para US$ 4,15 bi (2029), CAGR de 26,1% – Mordor Intelligence (web)
+- **M315 · Forbes Brasil (Forbes Agro) (2025)** — Produtividade e Digitalização Redefinem o Futuro do Agro Brasileiro (painéis do Forbes Agro100 2025) · F3 · relevância baixa · [link](https://forbes.com.br/forbes-agro/2025/11/produtividade-e-digitalizacao-redefinem-o-futuro-do-agro-brasileiro/)
+  - Painéis com Coopercitrus, Mosaic e Meta sobre produtividade, crédito e digitalização. Destaque para o método citado pelo VP da Meta: 'escolha um caso de uso que dói, faça um piloto e escale rápido; o que não funcionar morre cedo'.
+  - Métrica: Cooperativas agro faturaram R$ 400 bi no ano anterior, cerca de 20–25% do PIB do agro (presidente da Coopercitrus) (web)
+  - Métrica: Linhas do Plano Safra 47% menores que no ano anterior (web)
+  - Métrica: Casos de aumento de mais de 200% no uso do WhatsApp no núcleo do negócio (Meta) (web)
+- **M316 · Forbes Brasil (Forbes Agro), cobrindo o Rural Tech Report 2025 da Rural Ventures (2025)** — Do Inverno dos VCs À Retomada do Capital no Agro, Rural Tech Report 2025 Expõe a Nova Lógica do Dinheiro · F3 · relevância baixa · [link](https://forbes.com.br/forbes-agro/2025/08/do-inverno-dos-vcs-a-retomada-do-capital-no-agro-rural-tech-report-2025-expoe-a-nova-logica-do-dinheiro/)
+  - Traz números abertos do Rural Tech Report 2025, que no índice está como formulário (M177) com link de download em 404. A IA aparece como pilar para captar recursos; a segurança de dados surge como prioridade.
+  - Métrica: R$ 627,2 mi investidos em agtechs e foodtechs no 1º semestre de 2025, com a Mombak (R$ 280 mi) respondendo por 44% (web)
+  - Métrica: Mais de 2 mil novas empresas receberam aportes em IA em 2024 (web)
+  - Métrica: Custo de crimes cibernéticos no Brasil com crescimento anual composto de 35% (web)
+- **M317 · Forbes Brasil (Forbes Agro; coluna de Helen Jacintho) (2026)** — Apagão de Mão de Obra no Campo · F3 · relevância baixa · [link](https://forbes.com.br/forbes-agro/2026/02/helen-jacintho-apagao-de-mao-de-obra-no-campo/)
+  - Coluna de produtora rural (Grupo Continental: cana, seringueira, grãos e pecuária) sobre falta de mão de obra e de qualificação técnica, informalidade e necessidade de novos perfis diante da tecnologia.
+  - Métrica: População ocupada no agronegócio de 28,58 milhões no 3T2025, 26,35% dos empregos do país – Boletim Mercado de Trabalho Cepea (web)
+  - Métrica: 87% da população brasileira vive em áreas urbanas (web)
+- **M318 · MAPA e MCTI (Câmara do Agro 4.0) (2021)** — Potencialidades e desafios do agro 4.0 — GT III 'Cadeias Produtivas e Desenvolvimento de Fornecedores' (Câmara do Agro 4.0) · F2, F3 · relevância baixa · [PDF](05_agro-brasil-instituicoes-midia/MAPA-MCTI_2021_potencialidades-desafios-agro-4-0.pdf)
+  - Estudo da Câmara do Agro 4.0 sobre adoção de tecnologia por perfil de produtor, gargalos das cadeias e rastreabilidade. Útil para segmentar a adoção digital por porte (estágios), com foco em pequenos e médios.
+  - Métrica: A 'elite produtiva' (≥500 ha) responde por 49% do VBP, é conectada e usa agricultura 4.0; os 'emergentes' (<500 ha) são 98% dos estabelecimentos e geram 50% do VBP (Censos Agropecuários 2006 e 2017) (p. 18)
+- **M319 · MIT Technology Review Brasil (2025)** — 'Brasil puxa a fila' da agrotecnologia (EmTech 2025) · F3 · relevância baixa · [link](https://mittechreview.com.br/emtech-2025-agrotech-competitividade-brasil/)
+  - Nota curta de painel com Solinftec e SP Ventures sobre a liderança brasileira em tecnologia agrícola e a dificuldade de atrair investidores para ciclos longos. Única peça aberta relevante encontrada no MIT Technology Review Brasil.
+  - Métrica: Robô autônomo de pulverização seletiva aumenta a produtividade de 15% a 20% (declaração do então CTO da Solinftec) (web)
+- **M320 · NeoFeed, com estudo do UBS Global Wealth Management (2026)** — Com o avanço da IA, o 'segredo' da produtividade está em replicar os ganhos do agronegócio · F3 · relevância baixa · [link](https://neofeed.com.br/economia/com-o-avanco-da-ia-o-segredo-da-produtividade-esta-em-replicar-os-ganhos-do-agronegocio/)
+  - Economista do UBS GWM aponta o agro como único exemplo consistente de produtividade no Brasil, operando perto da fronteira tecnológica e incorporando IA rapidamente. Defende difundir a IA para os serviços e lista quatro pilares: infraestrutura digital e energética, capital humano, financiamento e regulação.
+  - Métrica: Produtividade da agropecuária cresceu cerca de 6% ao ano entre 1996 e 2024 (22,3% em 2023 e 1,6% em 2024), contra 0,3% ao ano da produtividade agregada em 2010–2024 – UBS GWM (web)
+  - Métrica: Serviços concentram cerca de 70% das horas trabalhadas no país (web)
+
+## Empresas brasileiras de agro, bioenergia e florestal
+
+Pasta: `06_empresas-agro-bioenergia-florestal-br/`
+
+- **M321 · Amaggi (2026 (ref. 2025))** — Relatório ESG 2025 · F1, F3 · relevância alta · [PDF](06_empresas-agro-bioenergia-florestal-br/Amaggi_2026_relatorio-esg-2025.pdf)
+  - Relatório ESG da Amaggi (115 p.), com seção sobre conectividade, dados e agricultura de precisão. É uma fonte oficial que substitui em parte o case da AWS, hoje fora do ar. Descreve M2M, manutenção preditiva, pulverização seletiva por IA, processamento interno de imagens de drones com IA e modelagem climática de alta resolução na Fazenda Tanguro. Não traz números do data lake de imagens de satélite nem ROI em R$.
+  - Métrica: 85% de redução média no volume de defensivos nas áreas tratadas com pulverização seletiva apoiada por IA, frente à aplicação convencional (2025) (p. 102)
+  - Métrica: 7 pulverizadores instrumentados com aplicação seletiva por IA, com média de 10 mil ha tratados por equipamento (2025) (p. 88)
+  - Métrica: Cerca de 1 milhão de ha de ortomosaicos de drones processados internamente, com imagens integradas a IA para identificar reboleiras de nematoides e plantas daninhas (2025) (p. 93)
+  - Métrica: 20% das linhas de plantio eletrificadas, com redução de até 3% no desperdício de sementes e insumos biológicos (2025) (p. 88)
+- **M322 · Amaggi (2026 (ref. 2025))** — Relatório de Progresso 2025 · F1, F3 · relevância alta · [PDF](06_empresas-agro-bioenergia-florestal-br/Amaggi_2026_relatorio-progresso-2025.pdf)
+  - Relatório ESG da Amaggi com o dado quantitativo mais recente de IA no campo (aplicação seletiva de defensivos). O case de data lake com imagens de satélite da AWS não aparece nos relatórios da empresa (RAS 2023 e RP 2025).
+  - Métrica: Redução média de 85% no volume de defensivos nas áreas tratadas com pulverizadores de aplicação seletiva por IA, em 7 máquinas com média de 10 mil ha por equipamento (2025) (p. 26)
+- **M323 · Bracell (2025)** — Segurança no transporte rodoviário: Bracell reduz em 90% desvios ao volante com uso de inteligência artificial na frota (notícia, 15/05/2025) · F1 · relevância alta · [PDF](06_empresas-agro-bioenergia-florestal-br/Bracell_2025_noticia-ia-frota-reduz-90-desvios-ao-volante.pdf)
+  - Notícia oficial com série histórica do monitoramento de fadiga e distração por IA na logística florestal, operado pela Central de Monitoramento 24h de Lençóis Paulista (SP). Os dados orientam remanejamento de turnos e orientação individual dos motoristas. É um dos poucos casos do setor com antes e depois quantificado.
+  - Métrica: 90% de redução nos desvios de comportamento ao volante com IA e câmeras embarcadas (frota de caminhões tritrem, 2021 a 2024) (página web)
+  - Métrica: Desvios por caminhão/dia caíram de 3,92 para 0,18 (2021 a 2024) (página web)
+  - Métrica: 76% dos eventos ligados à sonolência, 19% ao celular e 5% ao cigarro (2021 a 2024) (página web)
+  - Métrica: 100% da frota tritrem, inclusive terceiros, monitorada por IA desde ago/2021, com 5 câmeras por caminhão em 2025 (página web)
+- **M324 · CMPC (2026 (ref. 2025))** — 2025 Sustainability Report · F1, F2, F3 · relevância alta · [PDF](06_empresas-agro-bioenergia-florestal-br/CMPC_2026_sustainability-report-2025.pdf)
+  - Relatório da CMPC, dona da fábrica de Guaíba (RS), com metas de inovação atingidas e o roadmap 'Fábrica do Futuro' rumo à operação autônoma: manutenção preditiva com sensores e IA, automação avançada e Gesfire com IA para incêndios. Bom exemplo de roadmap com metas por estágio e ganhos quantificados.
+  - Métrica: 30% das melhorias de processo vieram de inovação, digital e uso de dados (meta atingida em 2025) (p. 39)
+  - Métrica: 24.400 horas liberadas com IA em tarefas administrativas (2025) (p. 40)
+  - Métrica: Programa Fábrica do Futuro em 9 plantas industriais, com mais de 2.500 empregados envolvidos (2025) (p. 40)
+  - Métrica: Meta de 75% de automação avançada nas principais linhas de produção em 2026 (p. 40)
+- **M325 · Jacto (2026)** — Pulverizador autônomo: tecnologia disponível ao mercado (Arbus 4000 JAV) · F3, F1 · relevância alta · [PDF](06_empresas-agro-bioenergia-florestal-br/Jacto_2026_pulverizador-autonomo-arbus-4000-jav-lancamento-comercial.pdf)
+  - Artigo oficial (impresso em PDF) anunciando a venda do pulverizador autônomo para culturas perenes, antes oferecido só como locação, sobretudo em citros. Opera sem operador embarcado, com supervisão remota, modo comboio e sensores/IA para ler a copa. É evidência direta de robótica de campo em perenes e de resposta à escassez de mão de obra.
+  - Métrica: Mais de 16 mil horas de operação em ~60 mil ha antes do lançamento comercial do pulverizador autônomo Arbus 4000 JAV (27/04/2026) (p. 3)
+- **M326 · Klabin (2026 (ref. 2025))** — Relatório de Sustentabilidade 2025 · F1, F2, F3 · relevância alta · [PDF](06_empresas-agro-bioenergia-florestal-br/Klabin_2026_relatorio-sustentabilidade-2025.pdf)
+  - Mostra a governança de IA da Klabin: IA Office multidisciplinar desde 2024 e funil de priorização por valor, risco e complexidade. Define também quando a TI desenvolve e quando o próprio colaborador pode criar agentes, além de pilotos como automação de pedidos no SAP, visão computacional para sujidade na madeira e SparkBeyond. Muito útil para F1 e F2.
+  - Métrica: Mais de 300 demandas de IA avaliadas pelo IA Office, com 18 selecionadas para desenvolvimento (~6%) (2025) (p. 65)
+  - Métrica: Copilot da Microsoft liberado para todos os colaboradores, com treinamentos que somam mais de mil conclusões (2025) (p. 65 e p. 74)
+  - Métrica: Caminhão de madeira passou de 5 minutos para pouco mais de 1 minuto na balança com o SAP S/4HANA (projeto Smart) (p. 63)
+- **M327 · Raízen (2024)** — Com R$ 60 milhões investidos em jornada de digitalização, Raízen supera expectativas em supply chain (release, 08/04/2024) · F1 · relevância alta · [PDF](06_empresas-agro-bioenergia-florestal-br/Raizen_2024_release-programa-integra-digitalizacao-supply-chain.pdf)
+  - Release oficial sobre o programa Integra de IA e analytics na logística de combustíveis, com investimento, meta de economia e ganhos operacionais (página impressa em PDF). Atenção: os 'R$ 230 milhões economizados' não aparecem no release oficial; o número só saiu na imprensa, atribuído a dados passados ao Estadão.
+  - Métrica: R$ 60 mi investidos no programa Integra (IA e analytics, com apoio do BCG), com meta de mais de R$ 250 mi de redução de custos e economia em supply chain até 2025, que 'o ritmo atual indica' que será atingida antes do prazo (2024) (p. 1)
+  - Métrica: 11 iniciativas internas de digitalização no programa (p. 1)
+  - Métrica: 5 horas de redução na carga e descarga de caminhões com o Orquestrador, que considera mais de 12 atributos (p. 2)
+  - Métrica: Redução de 50% a 60% nas emissões de GEE no transporte de combustíveis atribuída ao programa (p. 2)
+- **M328 · Raízen (2023)** — Pulse gera impacto de R$ 40 milhões à Raízen em 6 anos (release, 16/10/2023) · F1, F2, F3 · relevância alta · [PDF](06_empresas-agro-bioenergia-florestal-br/Raizen_2023_release-pulse-impacto-40-milhoes-6-anos.pdf)
+  - Release oficial com o balanço do hub de inovação aberta da Raízen (página impressa em PDF). Traz uma métrica rara de pilotos que chegam à escala. Não trata do copiloto interno de IA.
+  - Métrica: R$ 40 mi de impacto financeiro em 6 anos do hub Pulse, sendo R$ 5 mi na safra 2022/23 (p. 1)
+  - Métrica: Mais de 120 projetos-piloto pagos com startups, dos quais 40 viraram contratos (~33% de conversão de piloto em contrato) (p. 1)
+  - Métrica: 58 startups no portfólio e 23 pilotos na safra 2022/23 (p. 1)
+- **M329 · Raízen (2024)** — Relatório Integrado Safra 23'24 · F1, F3 · relevância alta · [PDF](06_empresas-agro-bioenergia-florestal-br/Raizen_2024_relatorio-integrado-safra-23-24.pdf)
+  - Traz os casos de IA da Raízen no campo (previsão de safra no Planejamento 2.0, VANTs para falhas de brotação, Projeto Hélios contra incêndios), na logística e na torre de controle agroindustrial. O relatório da safra 24'25 também foi verificado e não tem conteúdo de IA, por isso este é o documento de referência.
+  - Métrica: -27,6% no tempo de chegada ao foco de incêndio e mais de 15 km² a menos de área queimada com o Projeto Hélios (IA e imagens de satélite; safra 2023/24) (p. 20)
+  - Métrica: ~220 analistas 24h na Central de Integração Agroindustrial (torre de controle), com mais de 3.600 programações por dia (p. 20)
+  - Métrica: Violações de telemetria por mil km reduzidas quase dez vezes em quatro safras (p. 20)
+  - Métrica: 47 mil tCO2 evitadas no ano com advanced analytics e IA na distribuição de combustíveis (safra 2023/24) (p. 28)
+- **M330 · SLC Agrícola (2024)** — Agriculture at its best — Citi's 2024 1st Annual Agribusiness Conference (janeiro de 2024) · F1, F2, F3 · relevância alta · [PDF](06_empresas-agro-bioenergia-florestal-br/SLCAgricola_2024_apresentacao-citi-agribusiness-conference-roi-agricultura-digital.pdf)
+  - É a apresentação a investidores (arquivada na CVM) de onde saiu a métrica 'R$ 11 por R$ 1' em agricultura digital. Traz a série de ganho líquido de 2018/19 a 2022/23 e as 22 fazendas então 100% cobertas por 4G. Serve de linha de base para comparar com a versão de 2026, que mostra R$ 12,50.
+  - Métrica: R$ 11 de retorno líquido para cada R$ 1 investido em agricultura digital (ROI implícito declarado; jan/2024) (p. 51)
+  - Métrica: Ganho líquido com novas tecnologias: R$ 1,5 mi (18/19), 16,8 mi (19/20), 25,3 mi (20/21), 38,7 mi (21/22) e 82,0 mi (22/23, acumulado até jun/23) (p. 51)
+  - Métrica: 22 fazendas totalmente conectadas com sinal 4G em todos os talhões (jan/2024) (p. 38)
+  - Métrica: 73% de economia com aplicação seletiva por sensores em mais de 240 mil ha, presente em 20 fazendas (p. 44)
+- **M331 · SLC Agrícola (2026)** — O melhor da agricultura — Apresentação para Investidores (agosto de 2026), seção Tecnologia e Inovação · F1, F2, F3 · relevância alta · [PDF](06_empresas-agro-bioenergia-florestal-br/SLCAgricola_2026_apresentacao-investidores-agosto-roi-agricultura-digital.pdf)
+  - Apresentação institucional mais recente da SLC, com o ROI implícito atualizado de R$ 12,50 por R$ 1 em agricultura digital, a série de ganho líquido por safra e indicadores de conectividade, aplicação localizada, drones autônomos e o robô Leopard. É a evidência de ROI de digital/IA mais forte do agro brasileiro neste lote.
+  - Métrica: R$ 12,50 de retorno líquido para cada R$ 1 investido em agricultura digital (ROI implícito; fonte citada: Formulário de Referência; 2026) (p. 89)
+  - Métrica: Ganho líquido com novas tecnologias digitais: R$ 2 mi (18/19), 17 mi (19/20), 25 mi (20/21), 39 mi (21/22), 82 mi (22/23), 86 mi (23/24) e 58 mi (24/25) (p. 89)
+  - Métrica: 80% da economia em defensivos veio da aplicação localizada, feita em 382 mil ha (safra 2024/25) (p. 76)
+  - Métrica: 67% de economia com sensores de aplicação seletiva em mais de 227 mil ha, presentes em 21 fazendas (safra 2024/25) (p. 81)
+- **M332 · SLC Agrícola (2024 (ref. 2023))** — Relatório Integrado 2023 · F1, F2, F3 · relevância alta · [PDF](06_empresas-agro-bioenergia-florestal-br/SLCAgricola_2024_relatorio-integrado-2023.pdf)
+  - Relatório anual que traz a série de economia com aplicação localizada (base do ROI que a SLC divulga aos investidores) junto com o investimento em agricultura digital do mesmo ano. Mostra o funil de inovação (ideias, PoC, rollout), o programa AgroX e o CVC SLC Ventures (aporte na Sensix, IA para reduzir químicos). Na rodada 1 o PDF não foi obtido no site (devolvia HTML); a cópia oficial está no armazenamento em nuvem da própria SLC.
+  - Métrica: R$ 82 mi economizados com aplicação localizada de defensivos na safra 2022/23, contra R$ 35 mi em 2021/22 (+123%); intenção de mais de R$ 90 mi em 2023/24 (p. 69)
+  - Métrica: R$ 12 mi investidos em agricultura digital em 2023, ao lado de R$ 148 mi em máquinas mais eficientes no uso de combustível e R$ 4,7 mi em usinas fotovoltaicas (plano de transição) (p. 78)
+  - Métrica: Mais de 70% de redução no volume de defensivos com aplicação localizada por sensores de identificação de plantas, em mais de 200 mil ha (~30% da área cultivada) (2023) (p. 69)
+  - Métrica: 20% de redução média no consumo de água de irrigação com tecnologias de balanço hídrico; estimativa de 29 milhões de litros de água e 9 t de embalagens plásticas evitadas com a aplicação localizada (2023) (p. 69)
+- **M333 · SLC Agrícola (2026 (ref. 2025))** — Relatório da Administração e Demonstrações Financeiras 2025 · F1, F2, F3 · relevância alta · [PDF](06_empresas-agro-bioenergia-florestal-br/SLCAgricola_2026_demonstracoes-financeiras-e-relatorio-administracao-2025.pdf)
+  - Mostra a estrutura de tecnologia da SLC: Diretoria de Tecnologia criada em 2025, gerência de Agricultura Digital, SLC Digital Labs, Centro de Inteligência Agrícola e Comitê de Inovação. Traz também agentes de IA, o robô Leopard, drones autônomos e a economia por safra com aplicação localizada. Corrige a pista dos '100% das fazendas com 4G': hoje são 23 de 26.
+  - Métrica: R$ 82 mi (22/23), R$ 86 mi (23/24) e R$ 58 mi (24/25; -32,6%) economizados com aplicação localizada de defensivos (p. 14)
+  - Métrica: 23 de 26 fazendas conectadas com sinal 4G (2025) (p. 28)
+  - Métrica: Data Lake com mais de 400 dashboards e 100% dos dados em nuvem (2025) (p. 28)
+  - Métrica: 15 multiplicadores da inovação formados em 2025, 27 desde o início do programa (p. 28)
+- **M334 · Suzano (2025)** — Microsoft e Suzano desenvolvem solução para impulsionar eficiência industrial com IA generativa (notícia, 23/04/2025) · F1, F2, F3 · relevância alta · [PDF](06_empresas-agro-bioenergia-florestal-br/Suzano_2025_noticia-ia-generativa-ana-maria-gpt-suzano.pdf)
+  - Notícia oficial (impressa em PDF) sobre IA generativa em produção na fábrica de Três Lagoas, com Azure OpenAI integrado ao Teams. A solução evoluiu para agentes que consultam as bases do digestor e geram diagnósticos, com expansão prevista para outras unidades em 2025. Confirma a pista de 'IA generativa em produção'.
+  - Métrica: 15 horas a menos no treinamento de novos profissionais do cozimento da celulose com a IA generativa Ana Maria (em uso desde jun/2023 em Três Lagoas) (p. 4)
+  - Métrica: Copiloto corporativo GPT Suzano liberado para quase 50 mil colaboradores no 1º semestre de 2024 (p. 6)
+- **M335 · Suzano (2025 (ref. 2024))** — Relatório de Sustentabilidade 2024 — o ano do nosso centenário · F1, F3 · relevância alta · [PDF](06_empresas-agro-bioenergia-florestal-br/Suzano_2025_relatorio-sustentabilidade-2024.pdf)
+  - Relatório com o sistema de detecção de incêndios por IA em torres e o resultado de 2024, os investimentos de corporate venture capital em agtechs de IA e a estratégia de segurança 2030 com IA preditiva e a 'Tribo Digital de Segurança' (p. 134).
+  - Métrica: 133 torres de observação com IA para reconhecimento automático de fumaça, monitoradas 24h (dez/2024) (p. 69)
+  - Métrica: Redução histórica de 61% nos incêndios em áreas de plantio em 2024; -90% no Espírito Santo e -51% na Bahia frente a 2023 (p. 69)
+  - Métrica: Drones VTOL com até 60 km de voo e 4 horas de autonomia nas áreas de maior risco (p. 69)
+  - Métrica: Suzano Ventures: capital comprometido de até US$ 20,3 mi em 2024 (fundo inicial de US$ 70 mi), incluindo rodada de R$ 15 mi na agtech BemAgro (IA e visão computacional) (p. 29)
+- **M336 · Suzano (2026 (ref. 2025))** — Relatório de Sustentabilidade 2025 · F1, F3 · relevância alta · [PDF](06_empresas-agro-bioenergia-florestal-br/Suzano_2026_relatorio-sustentabilidade-2025.pdf)
+  - Coloca a IA como alavanca de competitividade e cita o acordo de longo prazo com a startup Marvin (plataforma de IA para gestão territorial e rastreabilidade para EUDR) e a IA generativa Ana Maria nos digestores. Menciona ainda a Academia Digital Suzano, voltada a projetos com retorno sobre investimento (p. 82).
+  - Métrica: Redução de 5% no custo final das fibras com aprimoramentos técnicos alavancados por IA e otimização de processos (2025) (p. 22)
+- **M337 · Suzano (2025)** — Suzano Day 2025 — apresentação a investidores · F1, F3 · relevância alta · [PDF](06_empresas-agro-bioenergia-florestal-br/Suzano_2025_suzano-day-investor-presentation.pdf)
+  - Investor Day de dezembro de 2025 em que a Suzano põe a IA como uma das duas alavancas de competitividade de custo, com meta em reais para 2026. As frentes citadas são otimização de digestores, receitas de máquinas de papel e rede logística.
+  - Métrica: R$ 80 mi a R$ 115 mi de redução de custos prevista para 2026 na unidade de Papel e Embalagens no Brasil, com IA e otimização de processos e sem capex adicional (p. 37)
+- **M338 · Suzano (2025)** — Suzano intensifica ações de prevenção e uso de tecnologia no combate a incêndios florestais (notícia, 07/07/2025) · F1, F3 · relevância alta · [PDF](06_empresas-agro-bioenergia-florestal-br/Suzano_2025_noticia-161-torres-ia-incendios-florestais.pdf)
+  - Notícia oficial (impressa em PDF) que confirma a pista das 161 torres com visão computacional e IA, com cobertura, tempo de resposta e resultado. Complementa o Relatório de Sustentabilidade 2024, que registrava 133 torres em dez/2024.
+  - Métrica: 161 torres de monitoramento de incêndios com câmeras e IA para identificação automática, 42 delas no Pará, Maranhão e Tocantins (2025) (p. 3)
+  - Métrica: Cobertura de 94% das áreas, alcance de até 15 km e giro de 360° (p. 4)
+  - Métrica: Tempo médio de resposta reduzido para 30 minutos, inclusive à noite (2024) (p. 3)
+  - Métrica: Redução de 61% no número de incêndios em áreas de plantio em 2024 frente a 2023 (p. 2)
+- **M339 · Tereos (Brasil) (2026 (ref. safra 2025/26))** — Relatório de Sustentabilidade – Safra 2025/2026 · F1, F2, F3 · relevância alta · [PDF](06_empresas-agro-bioenergia-florestal-br/Tereos_2026_relatorio-sustentabilidade-safra-25-26.pdf)
+  - Relatório oficial com seção sobre TI: foco em eficiência e corte de custos, uso cauteloso de IA com licenças já existentes, agentes de IA criados por usuários-chave e foco declarado em IA generativa. O COA ganhou Torre de Manutenção e absorveu o monitoramento de fadiga de motoristas e de focos de incêndio. O nome 'GeoBot' não aparece; o trecho mais próximo fala em IA de uso consultivo para operadores acessarem resultados e instruções de trabalho.
+  - Métrica: Investimentos em TI quase 5 vezes maiores nos últimos cinco anos (até a safra 2025/26) (p. 40)
+  - Métrica: 80% dos grandes contratos de TI revisados, com economia de R$ 2 milhões (safra 2025/26) (p. 40)
+  - Métrica: Migração para nuvem privada com processamento a custo 8 vezes menor (safra 2025/26) (p. 40)
+  - Métrica: Latência dos dados das máquinas agrícolas reduzida de 30 minutos para 15 segundos com parceria de conectividade (safra 2025/26) (p. 40)
+- **M340 · Atvos (2025)** — Relatório Anual 2024/2025 · F1, F2, F3 · relevância media · [PDF](06_empresas-agro-bioenergia-florestal-br/Atvos_2025_relatorio-anual-safra-2024-25.pdf)
+  - Registra a criação do Escritório de Transformação Digital e o projeto Cubo, plataforma de gestão com IA e análises em tempo real. Cita ainda estações meteorológicas com IA, mapas por IA para falhas de plantio (BemAgro) e monitoramento de incêndios por IA na Central Integrada de Gestão (p. 39).
+  - Métrica: Sinal 4G em 78% das áreas próprias e de fornecedores (safra 2024/25) (p. 26)
+  - Métrica: 94% de acurácia no planejamento mensal integrado e ganho esperado de até 16% na produtividade das máquinas na safra seguinte (p. 27)
+- **M341 · BP Bioenergy (texto assinado pela empresa, publicado pelo NovaCana) (2025)** — BP Bioenergy amplia uso de tecnologias na indústria (24/01/2025) · F1 · relevância media · [PDF](06_empresas-agro-bioenergia-florestal-br/NovaCana_2025_bp-bioenergy-s-paa-otimizacao-tempo-real-ia.pdf)
+  - Comunicado da ex-BP Bunge Bioenergia (hoje bp bioenergy, 11 usinas) republicado pelo NovaCana. Mostra a ordem de grandeza típica dos ganhos de IA na indústria sucroenergética: frações de ponto percentual em processos contínuos, que só viram valor relevante pela escala. Não há release equivalente na sala de imprensa da bp Brasil.
+  - Métrica: 0,13% de aumento de produtividade no processo de extração com otimização em tempo real por IA e machine learning (S-PAA) (unidade Tropical, jan/2025) (p. 1)
+  - Métrica: 1,6% de redução no consumo específico do conjunto de geração de vapor e 1,1% no consumo de bagaço (unidade Itumbiara, jan/2025) (p. 1)
+  - Métrica: S-PAA em 2 unidades, com implantação prevista em todas as plantas até o fim de 2025 (p. 1)
+  - Métrica: Mais de R$ 100 milhões investidos em projetos de transformação digital (acumulado até jan/2025) (p. 1)
+- **M342 · Bracell (2026)** — Bracell reduz emissões em 47% e usa IA para monitoramento (notícia, 16/06/2026) · F1, F3 · relevância media · [PDF](06_empresas-agro-bioenergia-florestal-br/Bracell_2026_noticia-ia-lidar-monitoramento-florestal.pdf)
+  - Notícia oficial sobre o balanço ambiental de 2025: uso ampliado de IA com LiDAR para biomassa e carbono, bioacústica com IA para identificar espécies e torres de fluxo. Complementa o relatório 2025 com as taxas de acerto dos modelos.
+  - Métrica: 91% de precisão na Mata Atlântica e 82% no Cerrado na classificação de estágios sucessionais com drones LiDAR e IA (2025) (página web)
+  - Métrica: Sistemas de IA para identificar focos de fogo em tempo real oferecidos às áreas públicas do Compromisso Um-Para-Um, que somam 301 mil ha conservados (2025) (página web)
+- **M343 · Bracell (2026 (ref. 2025))** — Relatório de Sustentabilidade 2025 · F1, F3 · relevância media · [PDF](06_empresas-agro-bioenergia-florestal-br/Bracell_2026_relatorio-sustentabilidade-2025.pdf)
+  - Relatório oficial que confirma o número de 47 torres (lacuna da rodada 1), mas não afirma que todas usam IA: a IA citada é o sistema Pantera nas áreas de conservação. Traz ainda armazém vertical automatizado com robôs e torres de fluxo de carbono. Sem métricas de ROI.
+  - Métrica: 47 torres de monitoramento com câmeras de alta resolução cobrindo florestas plantadas e de conservação (2025) (p. 78 do PDF)
+  - Métrica: Sistema Pantera (IA da climatech Umgrauemeio) de detecção de focos de incêndio em tempo real, em uso nas áreas de conservação de SP e MS; será ligado em 2026 às 2 torres construídas em 2025 no Parque Estadual Pantanal do Rio Negro (p. 77 do PDF)
+  - Métrica: Drones com LiDAR estimam biomassa e estágio sucessional, complementando imagens de satélite nas estimativas de remoção de carbono (2025) (p. 75 e 87 do PDF)
+- **M344 · Cocamar Cooperativa Agroindustrial (2024)** — Com classificação da qualidade da soja por IA, Cocamar é premiada no Somoscoop em Brasília (notícia, 06/12/2024) · F1, F3 · relevância media · [link](https://www.cocamar.com.br/comunicacao/noticia/6384/com-classificacao-da-qualidade-da-soja-por-ia-cocamar-e-premiada-no-somoscoop-em-brasilia)
+  - Notícia oficial sobre IA de visão computacional para classificar a soja recebida dos cooperados, desenvolvida com a startup Neosilos e recursos da ABDI. É um exemplo de IA na recepção de grãos em cooperativa.
+  - Métrica: 97% de assertividade na classificação de grãos de soja por reconhecimento de imagem com IA, com menor tempo de classificação (armazém de Maringá, em operação desde jan-mai/2023) (página web)
+- **M345 · Cocamar Cooperativa Agroindustrial (2026 (ref. 2025))** — Relatório de Sustentabilidade 2025 · F1, F2 · relevância media · [PDF](06_empresas-agro-bioenergia-florestal-br/Cocamar_2026_relatorio-sustentabilidade-2025.pdf)
+  - Retrato de maturidade inicial em IA numa grande cooperativa (faturamento de R$ 11,6 bi): jornada de letramento em IA iniciada em 2025 para gestores e colaboradores-chave, catálogo de dados e governança da informação em estruturação, e agentes de IA e OCR previstos para 2026. Todos os projetos são acompanhados pelo Cocamar Labs, inclusive o retorno financeiro, mas os valores não são divulgados.
+  - Métrica: 169 projetos de tecnologia finalizados em 2025 (ERP, mobilidade e melhorias sistêmicas) (p. 114)
+  - Métrica: R$ 5 milhões investidos em sistemas e projetos de tecnologia e R$ 1,19 milhão na gestão da inovação (Cocamar Labs) em 2025 (p. 114)
+  - Métrica: Resultados de inovação em 2025: 12 projetos Lean Six Sigma, 16 projetos K2, 7 projetos de inovação e 3.953 melhorias operacionais K1 (p. 113)
+  - Métrica: Cerca de 4.170 cooperados usaram as soluções digitais em 2025 (aplicativo e chatbot Tiagro no WhatsApp) (p. 74)
+- **M346 · Coopercitrus (2026 (ref. 2025))** — Relatório de Gestão 2025 · F1, F3 · relevância media · [PDF](06_empresas-agro-bioenergia-florestal-br/Coopercitrus_2026_relatorio-gestao-2025.pdf)
+  - Mostra o ecossistema 'Campo Digital', que leva drones, aplicação seletiva por IA, telemetria e automação aos cooperados. Ilustra o papel das cooperativas como canal de difusão de IA e robótica.
+  - Métrica: Economia de até 95% nos custos com insumos com aplicação seletiva por IA (2025) (p. 28)
+  - Métrica: 300 drones comercializados e 925 profissionais formados na operação de drones (acumulado) (p. 27)
+  - Métrica: 120 mil ha atendidos pelo Geofert (mapeamento de fertilidade) e 431 pilotos automáticos vendidos, com potencial de 2,36 mi ha/ano (2025) (p. 27)
+- **M347 · Eldorado Brasil Celulose (2025 (ref. 2024))** — Relatório de Sustentabilidade 2024 · F1, F3 · relevância media · [PDF](06_empresas-agro-bioenergia-florestal-br/EldoradoBrasil_2025_relatorio-sustentabilidade-2024.pdf)
+  - Cobre o Centro de Inteligência Florestal (IRIS), a irrigação de mudas com IA, o controle de fadiga de motoristas por IA 24h (p. 22) e a detecção de incêndios por IA. Traz também o novo centro de tecnologia florestal ELDTECH, com drones para controle biológico.
+  - Métrica: 30 câmeras de longo alcance com alerta automático de incêndio por IA; 937 ha queimados em 196 ocorrências (2024) (p. 27)
+  - Métrica: Liberação de inimigos naturais por drones em ~40 mil ha/ano, em expansão para 65 mil ha/ano (p. 30)
+- **M348 · Fundecitrus (2025)** — Relatório de Atividades jun/2024 – mai/2025 · F3 · relevância media · [PDF](06_empresas-agro-bioenergia-florestal-br/Fundecitrus_2025_relatorio-atividades-jun2024-mai2025.pdf)
+  - Apresenta o projeto Colhe+ de modernização da colheita de laranja, com teste de robô de colheita (PeK Automotive, Move Agro e IFAPA) e participação na World FIRA (p. 39-40). Traz também a validação de drones de pulverização contra o vetor do greening. Útil para robótica em perenes de baixa mecanização.
+  - Métrica: Drone DJI T40 (40 L) validado para controle do psilídeo em pomar em formação, com mortalidade de 80% ou mais (p. 25)
+- **M349 · Fundecitrus (com Embrapa Agricultura Digital e Embrapa Mandioca e Fruticultura) (2023)** — Relatório de Atividades jun/2022 – mai/2023 · F1, F3 · relevância media · [PDF](06_empresas-agro-bioenergia-florestal-br/Fundecitrus_2023_relatorio-anual-2023.pdf)
+  - Caso de piloto de IA que ainda não virou serviço: a contagem automática de frutos para a estimativa de safra funcionou bem em imagens estáticas, mas no campo esbarrou na qualidade do vídeo e o relatório conclui que precisa de novos testes e investimento (câmeras infravermelhas, estabilizadores, veículos autônomos). Lição sobre dado de campo. Localizado via Perplexity (o relatório 2024/25 do Fundecitrus já está no índice).
+  - Métrica: Projeto eContaFruto (2019–2022): rede neural com desempenho de 0,95 no treino e teste e falso-positivo abaixo de 0,10 na classificação de laranjas em imagens estáticas (p. 14)
+  - Métrica: Contagem de frutos em vídeos de campo feitos com celular: R² de 0,61 no conjunto bruto, subindo para 0,79 e 0,85 quando se exige detecção de pelo menos 20% e 30% dos frutos (vídeos de melhor qualidade) (p. 14-15)
+  - Métrica: Inventário de 202,88 milhões de laranjeiras no cinturão citrícola, 169,29 milhões produtivas (2023) (p. 14)
+- **M350 · Jalles (2026)** — Relatório anual e de sustentabilidade Safra 2025/26 · F2, F3, F1 · relevância media · [PDF](06_empresas-agro-bioenergia-florestal-br/Jalles_2026_relatorio-anual-sustentabilidade-safra-2025-26.pdf)
+  - Registra o início de um programa estruturado de adoção de IA (p. 11 e p. 71), agricultura de precisão em taxa variável e leitura automatizada de imagens de satélite para dirigir inspeções. O uso de drones e a automação de irrigação são ligados explicitamente à escassez de mão de obra especializada.
+  - Métrica: Área aplicada com drones passou de 1.311,62 ha (2023) para 4.203,96 ha (2025), alta de ~220%, com 7.360,37 ha acumulados (p. 71)
+- **M351 · Lar Cooperativa Agroindustrial (2025)** — Inovação com propósito: Lar lidera ranking do Sul em 2025 (notícia, 23/09/2025) · F1 · relevância media · [link](https://www.lar.ind.br/inovacao-com-proposito-lar-lidera-ranking-do-sul-em-2025/)
+  - Case criado por um supervisor interno de qualidade e escalado com parceiros, dentro de um ecossistema com Programa de Inovação desde 2016, programa de ideias, inovação aberta (plataforma Escalar), Lar Digital e universidade corporativa. O método descrito é problema real, piloto pequeno, dados confiáveis e depois escala. A Lar foi eleita a cooperativa de produção mais inovadora do Sul (Campeãs da Inovação 2025).
+  - Métrica: 100% das análises de inspeção de carcaças automatizadas por visão computacional e IA (projeto Inspeção 5.0, unidade de abate de aves, 2025) (página web)
+- **M352 · O Estado de S. Paulo (republicado pelo NovaCana) (2024)** — Raízen reduz custos em R$ 230 milhões ao otimizar operações com inteligência artificial (08/04/2024) · F1 · relevância media · [PDF](06_empresas-agro-bioenergia-florestal-br/NovaCana_2024_raizen-230-milhoes-dados-ao-estadao-integra.pdf)
+  - Documento que esclarece a origem do número. É uma reportagem do Estadão, republicada pelo NovaCana no mesmo dia do release oficial. Os R$ 230 mi são a redução de custos acumulada desde 2021 no programa Integra, que também inclui renovação da frota, e não um ganho só da IA. O release oficial de 08/04/2024 não traz o valor, e nenhum documento oficial posterior (Relatório Integrado 25'26, apresentação do 4T25'26) confirma o atingimento da meta de R$ 250 mi.
+  - Métrica: R$ 230 milhões de redução de custos desde 2021 no transporte de combustíveis com uso de IA, 'segundo dados divulgados ao Estadão' (programa Integra, até abr/2024) (p. 1)
+  - Métrica: R$ 60 milhões investidos em digitalização a partir da safra 2021/22 e meta de mais de R$ 250 milhões em redução de custos e economia até 2025 (p. 1–2)
+  - Métrica: 350 caminhões a menos na operação desde o início da digitalização, com frota renovada de no máximo 3 anos contra média de 20 anos no setor (VP de supply chain, 2024) (p. 2)
+  - Métrica: 50% de redução das emissões no transporte de combustíveis atribuída ao programa (2024) (p. 2)
+- **M353 · Raízen (2024)** — Inteligência Artificial no agronegócio: inovação na Raízen (blog institucional, 28/06/2024) · F1 · relevância media · [link](https://www.raizen.com.br/blog/inteligencia-artificial-no-agronegocio)
+  - Artigo institucional que dá a escala da função de dados e IA da Raízen (time dedicado, torre de controle, variáveis industriais) e lista usos em lavouras, incêndios, logística e bioparques. Útil para F1 (organização).
+  - Métrica: Mais de 100 pessoas dedicadas à captura e integração de dados e ao desenvolvimento de IA na companhia (2024) (página web)
+  - Métrica: Central de Integração Agroindustrial com mais de 220 analistas 24h, controlando 28 unidades com dados de mais de 3,5 mil equipamentos e 3,6 mil programações de caminhões por dia (página web)
+  - Métrica: Mais de 20 mil variáveis operacionais industriais coletadas e contextualizadas em tempo real nos bioparques (página web)
+- **M354 · SLC Agrícola (2024)** — Farm Day 2024 — Evolução na estratégia de inovação (Head de Inovação) · F1, F2 · relevância media · [PDF](06_empresas-agro-bioenergia-florestal-br/SLCAgricola_2024_farm-day-inovacao-agricultura-digital.pdf)
+  - Apresenta o modelo de horizontes de inovação (core, adjacente, transformacional) e a governança do portfólio: rollout/escala, on hold ou descontinuação por ROI não atrativo. Inclui cinco cases de automação/digital e o braço de corporate venture capital e venture builder. Não traz métricas em texto, mas é um exemplo útil de critério de escala de pilotos.
+- **M355 · SLC Agrícola (2026)** — Farm Day 2026 — Agricultura Digital (sensores de nutrientes com IA, Torre de Gestão Operacional e drone Pelican) · F1, F3 · relevância media · [PDF](06_empresas-agro-bioenergia-florestal-br/SLCAgricola_2026_farm-day-agricultura-digital.pdf)
+  - Apresentação técnica da área de Agricultura Digital da SLC. Cobre a prova de conceito de sensores e IA para manejo de nitrogênio, a Torre de Gestão Operacional com acionamento escalonado (N1 a N5) e o drone elétrico autônomo Pelican 2, que permite aplicação noturna. Mostra a fronteira atual entre prova de conceito e escala.
+  - Métrica: ~10% de economia observada na safra atual com prova de conceito de sensores de solo e modelos de IA para recomendação de nitrogênio (p. 7)
+  - Métrica: Nitrogênio representa ~40% do custo com fertilizantes (p. 5)
+  - Métrica: Rendimento operacional comparado: drone 15 ha/h; Pelican 2 70-80 ha/h; pulverizador 68,4 ha/h; avião agrícola 200-400 ha/h (p. 16)
+- **M356 · São Martinho (2025)** — Relato Integrado 2024-2025 · F1, F3 · relevância media · [PDF](06_empresas-agro-bioenergia-florestal-br/SaoMartinho_2025_relato-integrado-2024-25.pdf)
+  - Traz a tese de inovação SM Inova (2020-2030), a governança de projetos e o capítulo 'Soluções em Inteligência Artificial' (p. 55): falhas de plantio, incêndios, controle avançado de processos industriais e visão computacional para pragas. Cita ainda 4G/5G no campo (p. 50 e p. 102). Os usos de IA vêm sem métricas de resultado.
+  - Métrica: R$ 213,7 mi investidos em inovação na safra 2024/25 (p. 52)
+- **M357 · São Martinho (2026 (safra 2025/26))** — Relato Integrado 2025/2026 · F1, F2, F3 · relevância media · [PDF](06_empresas-agro-bioenergia-florestal-br/SaoMartinho_2026_relato-integrado-2025-26.pdf)
+  - Relato mais recente da empresa (2026), fora do índice. Mostra governança formal de IA (política própria com treinamento quase universal), copilotos de IA generativa homologados, visão computacional sendo levada às operações, gêmeo digital e IA na engenharia de processos, e câmeras com IA para detectar fumaça (p. 83). Os ganhos da IA ainda não são quantificados em R$.
+  - Métrica: 99% do público elegível treinado na Política de Uso de IA da empresa (safra 2025/26) (p. 46)
+  - Métrica: Cerca de 65% dos processos industriais mapeados no Plano de Autonomia da Indústria 4.0, com machine learning e controle avançado (safra 2025/26) (p. 46)
+  - Métrica: Primeira safra da Unidade São Martinho colhida 100% com colhedoras de duas linhas (safra 2025/26) (p. 34)
+  - Métrica: Programa 98DE com meta de 98% de eficiência dos processos e de disponibilidade dos ativos industriais (p. 37)
+- **M358 · São Martinho (2024 (safra 2023/24))** — Relatório Anual de Sustentabilidade 2023/2024 (versão completa) · F1, F3 · relevância media · [PDF](06_empresas-agro-bioenergia-florestal-br/SaoMartinho_2024_relatorio-anual-sustentabilidade-2023-24-completo.pdf)
+  - Versão completa (134 p.) do relatório citado pelo DR, que só tinha a resumida. Confirma o ganho da colhedora de duas linhas e mostra a agenda digital: 5G, data lake, gêmeo digital no centro de operações industriais (p. 26) e parceria com a Qualcomm para 5G com IA. Não converte os ganhos em R$. Complementa o Relato 2024/25 já catalogado.
+  - Métrica: Colhedora de duas linhas: produtividade 25% maior que a de uma linha e até 21% menos combustível; implantação até 2030 (safra 2023/24) (p. 39)
+  - Métrica: R$ 23,1 mi previstos para Indústria 4.0 e transformação digital (IoT, machine learning e IA), com conclusão em 2030 (p. 39)
+  - Métrica: R$ 120 mi investidos em inovação na safra 2023/24 (p. 23)
+  - Métrica: Controle biológico em 1 milhão de ha por ano (85% do manejo de pragas e doenças), com liberação por drones (safra 2023/24) (p. 74-75)
+- **M359 · Tereos (Brasil) (2021)** — Funcionário 4.0: digitalização da jornada do colaborador resulta em otimização de tempo e produtividade na Tereos (release, 11/06/2021) · F1 · relevância media · [PDF](06_empresas-agro-bioenergia-florestal-br/Tereos_2021_release-funcionario-4-0-ia-destilacao.pdf)
+  - Release oficial sobre o programa Indústria 4.0 da Tereos (desde 2018). É um dos poucos resultados quantificados de IA industrial publicados por uma usina brasileira, embora anterior a 2024.
+  - Métrica: 90% de redução da variabilidade do processo e 12% de redução no consumo de vapor na destilação com IA no controle de fermentação e destilação do etanol (unidade Cruz Alta, 2021) (p. 1)
+  - Métrica: Tempo médio de troca de EPI reduzido de 50 para 2 minutos com máquinas automatizadas (unidade Cruz Alta, 2021) (p. 1)
+- **M360 · Tereos (Brasil) (2024)** — Tereos e Taranis firmam parceria para monitoramento avançado de canaviais (release, dez/2024) · F1, F3 · relevância media · [PDF](06_empresas-agro-bioenergia-florestal-br/Tereos_2024_release-parceria-taranis-monitoramento-canaviais-ia.pdf)
+  - Release oficial: imagens aéreas de alta resolução analisadas por IA para detectar plantas daninhas, pragas, deficiências nutricionais e doenças na cana. O escopo começou em daninhas e foi ampliado para doenças e nutrição. Não traz ganho financeiro nem de produtividade medido.
+  - Métrica: 240 mil ha de canaviais monitorados por ano numa parceria de 3 anos, com cerca de 800 mil imagens por período (4 imagens por ha, analisadas por IA) (dez/2024) (p. 1)
+  - Métrica: Mais de 60 espécies de plantas daninhas identificadas em um ano de monitoramento (2024) (p. 2)
+- **M361 · Tereos (Brasil) (2023)** — Tereos incorpora novas atividades em centro de operações e estima economia de R$ 25 milhões por safra (release, 13/03/2023) · F1, F2 · relevância media · [PDF](06_empresas-agro-bioenergia-florestal-br/Tereos_2023_release-coa-centro-operacoes-economia-25-milhoes.pdf)
+  - Release oficial sobre o Centro de Operações Agroindustriais (COA), célula única de controle criada em 2022 (conceito C3: conectividade, colaboração e controle). Os valores são potenciais estimados, não resultados auditados. Previa organização de dados, automação de relatórios e uma Torre de Controle de Manutenção, que aparece implantada no relatório 2025/26.
+  - Métrica: 11% de redução no consumo de combustível por tonelada de cana colhida na 1ª fase do COA, com potencial de ganho de R$ 5 milhões (safra 2022/23) (p. 1)
+  - Métrica: Potencial de economia de R$ 20 milhões em terceirização da colheita com maior aderência ao plano de colheita (safra 2022/23) (p. 1)
+- **M362 · Think Work Lab / iFood Benefícios (Acrescenta) (2025)** — Com IA generativa, Raízen transforma o atendimento interno (case da assistente BIA) · F1, F2, F3 · relevância media · [link](https://beneficios.ifood.com.br/acrescenta/artigos/ia-generativa-raizen)
+  - Case em conteúdo de parceiro (não publicado pela Raízen) sobre a assistente interna de IA generativa BIA, com números de adoção e satisfação e falas do diretor de Tecnologia & CSC. É a única fonte encontrada para a pista do 'copiloto para cerca de 20 mil funcionários'; não há confirmação em documento oficial da Raízen.
+  - Métrica: Assistente de IA generativa BIA disponível no Microsoft Teams para 20 mil funcionários, lançada em jan/2024 (artigo de 03/12/2025) (página web)
+  - Métrica: Mais de 18 mil interações feitas por 4.654 usuários, com 71% de satisfação (página web)
+  - Métrica: Tempo médio de resolução de chamados simples caiu de 4 horas para resposta instantânea (página web)
+- **M363 · AWS (Amazon Web Services) (s/d)** — AMAGGI reúne mais de 8 milhões de imagens de satélite em Data Lake AWS (case de cliente) · F1 · relevância baixa · [link](https://aws.amazon.com/pt/solutions/case-studies/amaggi-case-study/)
+  - Case da AWS citado na pista: data lake com imagens de satélite que alimenta modelos de ML/IA na Amaggi. A página deu erro 404 em 29/09/2026, tanto no download quanto no navegador, por isso os números (8 milhões de imagens, 154 mil ha por dia) não foram lidos na fonte oficial.
+- **M364 · Amaggi (2026)** — Rumo a uma cadeia de grãos livre de desmatamento e conversão de vegetação nativa (documento de políticas, versão jan/2026) · F1 · relevância baixa · [PDF](06_empresas-agro-bioenergia-florestal-br/Amaggi_2026_politica-cadeia-graos-livre-desmatamento-monitoramento-ia.pdf)
+  - Documento oficial de políticas que confirma o monitoramento diário por satélite com IA na produção própria. É a alternativa oficial ao case da AWS, mas sem o número de imagens. O Relatório ESG 2021 da Amaggi (p. 22) registra a concepção do Data Lake da Amaggi Agro com carga dos dados históricos. Nenhum documento da empresa repete os '8 milhões de imagens' do case da AWS.
+  - Métrica: 140 mil ha com imagens de satélite atualizadas diariamente, analisadas com IA e algoritmos para alertar anomalias na sanidade das plantas (produção própria, versão jan/2026) (p. 18)
+- **M365 · Planet Labs (case de cliente sobre a Amaggi) (2023)** — Como a AMAGGI usa os dados da Planet para elevar a agricultura sustentável a um outro patamar · F1 · relevância baixa · [link](https://www.planet.com/pulse/como-a-amaggi-usa-os-dados-da-planet-para-elevar-a-agricultura-sustentavel-a-um-outro-patamar/)
+  - Case de fornecedor com depoimento do gerente de Controle de Produção da Amaggi Agro. Satélite com alta frequência de revisita gera alertas e mapas NDVI para aplicar reguladores de crescimento no algodão à taxa variável, com economia de defensivos não quantificada. É a provável origem da ordem de grandeza de imagens citada no case da AWS. Sobre ROI, o executivo diz apenas que 'o ganho não é só na economia'.
+  - Métrica: Mais de 8,7 milhões de imagens do banco da Planet (desde 2016) usadas pela Amaggi em análises de tendência (case de 20/11/2023) (página web)
+  - Métrica: 411 mil ha plantados por ano monitorados com detecção de mudanças por satélite, em culturas de ciclo de 90 a 180 dias (2023) (página web)
+  - Métrica: Mais de 8,7 milhões de imagens de satélite da Planet, desde 2016, usadas pela AMAGGI em análises de tendência e detecção de alterações (página oficial, nov/2023)
+  - Métrica: Mais de 411 mil hectares plantados por ano; mapas NDVI para aplicação em taxa variável de reguladores de crescimento no algodão, com economia de defensivos (sem percentual divulgado) (página oficial)
+- **M366 · Sistema OCB / InovaCoop (case da Cooxupé) (2024)** — Cooxupé utiliza IA para aprimorar classificação de cafés especiais (case InovaCoop) · F1, F3 · relevância baixa · [link](https://inova.coop.br/component/bancocases/case/151-cooxupe-utiliza-ia-para-aprimorar-classificacao-de-cafes-especiais?Itemid=101)
+  - Case de cultura perene: cooperativa com mais de 20 mil cooperados (97% pequenos produtores) adota classificador de grãos com IA para aliviar o gargalo de pessoal no setor de qualidade durante a safra. Ponto de governança: o projeto começou sem metas de resultado pré-estabelecidas, que seriam definidas ao longo da primeira fase, e ainda não tinha números de eficiência.
+  - Métrica: Equipamento de IA (ProfilePrint) que detecta mais de 10 mil características do café em segundos, segundo o fornecedor (2024) (página web)
+  - Métrica: Mais de 1 ano de negociação até o acordo (set/2024) e fase inicial de treinamento da IA prevista para 6 meses (página web)
+
+## Agro global, culturas perenes e autonomia
+
+Pasta: `07_agro-global-perenes-autonomia/`
+
+- **M367 · AgFunder (2026)** — Global AgriFoodTech Investment Report 2026 · F3 · relevância alta · [PDF](07_agro-global-perenes-autonomia/AgFunder_2026_global-agrifoodtech-investment-report.pdf)
+  - É o principal termômetro anual de investimento em agrifoodtech. Traz a primeira análise de deeptech e um spotlight de robótica (Ecorobotix, GINT, Bonsai, colheita robotizada), útil para mapear para onde o capital está indo em IA, autonomia e robótica de campo.
+  - Métrica: US$ 16,2 bi em financiamento global de agrifoodtech em 2025 (-3% a/a) (p. 3)
+  - Métrica: US$ 9 bi para startups upstream (tecnologia na fazenda e na produção) em 2025, +7% a/a, com queda de 12% no número de deals (p. 3)
+  - Métrica: Deeptech passou de 22% para 32% dos deals de agrifood em 10 anos; rodadas seed de deeptech fecham com prêmio de 78% sobre as demais (p. 3)
+  - Métrica: Dívida chegou a 18,2% do financiamento total em 2025, maior participação em uma década (p. 3)
+- **M368 · Association of Equipment Manufacturers (AEM) (2026)** — Levels of Autonomy for Non-Road Equipment (AEM Guidance Document) · F2, F3 · relevância alta · [PDF](07_agro-global-perenes-autonomia/AEM_2026_niveis-autonomia-maquinas-fora-de-estrada.pdf)
+  - Linguagem comum da indústria de máquinas agrícolas, florestais e de construção para níveis de autonomia, análoga à SAE J3016. Permite posicionar sistemas autônomos de campo nos estágios do framework de F2 e comparar casos de máquinas autônomas.
+  - Métrica: 6 níveis de autonomia para máquinas fora de estrada: 0 manual, 1 assistido, 2 automação parcial, 3 automação condicional, 4 autonomia supervisionada e 5 autonomia sem supervisão (jul/2026) (p. 2)
+  - Métrica: O operador cuida de 100% das funções no nível 0, de mais de 50% no nível 1 e de menos de 50% no nível 2; no nível 5 a máquina gere 100% das funções sem supervisão (p. 2)
+  - Métrica: Exemplos agrícolas: controle de seção (nível 1), taxa variável de vários produtos (2), pulverização dirigida com piloto automático (3), pulverização autônoma (4) e autônoma com recarga automática (5) (p. 2)
+- **M369 · Bayer (Crop Science EUA) (2025)** — Bayer's E.L.Y. Wins 'AI-based AgTech Solution of the Year' in 2025 AgTech Breakthrough Awards · F1, F3 · relevância alta · [link](https://www.bayer.com/en-us/united-states/news-and-stories/2025/ely-wins-ai-based-agtech-solution-of-the-year)
+  - Caso de IA generativa agêntica (LLM de fronteira com RAG sobre dados agronômicos, ensaios e bulas) para equipes de venda e agrônomos, descrito como o primeiro de uma série de agentes de IA da Bayer. A impressão em PDF foi bloqueada por proteção anti-robô.
+  - Métrica: Tempo de resposta a perguntas agronômicas de clientes 60% menor com o E.L.Y. (benchmarks internos, EUA, 2025) (página web)
+  - Métrica: Economia de até 4 horas por semana por funcionário da linha de frente; milhares de horas por semana realocadas para atendimento (página web)
+- **M370 · CNH Industrial (2025)** — CNH Investor Day 2025 – Breaking new ground on Iron + Tech (apresentação) · F1, F2, F3 · relevância alta · [PDF](07_agro-global-perenes-autonomia/CNH_2025_investor-day-presentation.pdf)
+  - Plano estratégico da CNH até 2030, com metas de Precision Tech, internalização do tech stack e uma escada de evolução da autonomia (tecnologia de base → direção assistida → coordenação/otimização → máquinas altamente automatizadas → autonomia supervisionada/total) (p. 43). Traz payback explícito de IA embarcada e é um bom modelo de roadmap por estágio.
+  - Métrica: Pulverização inteligente: ~60% menos herbicida e payback <1 ano (SenseApply/IntelliSense Green-on-Brown, 2025); ~80% menos e payback <2 anos (One Smart Spray Green-on-Green, 2027) (p. 44)
+  - Métrica: Precision Tech era 5,6% das vendas líquidas de Agricultura em 2024; meta de ~10% em 2030 (p. 45)
+  - Métrica: O mix de Precision Tech deve somar +50–75 bps à margem EBIT ajustada de Agricultura até 2030 (p. 45)
+  - Métrica: Unidades vendidas com guiagem, conectividade e display, de 2024 para 2030E: máquinas grandes 97% → 100%; médias 35% → 65%; pequenas 10% → 20% (p. 42)
+- **M371 · Corteva, Inc. (2024)** — Investor Day 2024 – Innovation Showcase Overview · F1, F3 · relevância alta · [PDF](07_agro-global-perenes-autonomia/Corteva_2024_innovation-showcase.pdf)
+  - Um dos casos mais completos de ROI de IA no agro. Quantifica o ganho de dados, automação e IA em P&D (custo evitado, velocidade do pipeline) e na venda (Granular Insights) e apresenta o assistente de IA generativa Project CAIRL, testado no exame Certified Crop Advisor.
+  - Métrica: >12 mil dispositivos em laboratórios e estufas; dezenas de milhares de voos de drone e >80 mi de observações por ano; a coleta automatizada economiza >US$ 10 mi/ano em pesquisa de campo (p. 3)
+  - Métrica: Centenas de aplicações analíticas (>50 mi de linhas de código): capacidade do pipeline de sementes >10x maior, produtos 1–2 anos mais rápido e >US$ 400 mi/ano em custos evitados (p. 3)
+  - Métrica: O modelo preditivo acerta a melhor semente 74% das vezes (~3x o baseline); os híbridos escolhidos pelo modelo rendem +4–5 bu/acre (p. 3)
+  - Métrica: Clientes engajados nas ferramentas digitais de planejamento de sementes têm retenção >5% maior (resultado inicial) (p. 3)
+- **M372 · DJI Agriculture (2026)** — Agricultural Drone Industry Insight Report 2025/2026 (edição em português) · F1, F3 · relevância alta · [PDF](07_agro-global-perenes-autonomia/DJI_2026_agricultural-drone-industry-insight-report.pdf)
+  - Quinto relatório anual da DJI, lançado na Agrishow 2026. Reúne regulação por país, ensaios científicos de campo (incluindo Bayer, Syngenta e Corteva) e casos em cana, soja, pastagem, citros e palma. É a evidência mais direta de ganho de produtividade e de substituição de mão de obra em culturas perenes e de encosta.
+  - Métrica: >600 mil drones DJI Agriculture em uso no fim de 2025, >600 mil pilotos certificados, >7 mil instrutores, 3.500 centros de serviço, >100 países e >300 culturas (p. 4)
+  - Métrica: Acumulado até 2025: ~410 mi t de água economizadas e ~51 mi t de CO2 evitadas (p. 4)
+  - Métrica: Ensaio em berinjela (Indonésia, 10 ha, 120 dias): -85% de tempo por operação (8 → 1,2 h-homem/ha), -42,1% de água/ha e -55,2% de custo operacional total/ha contra o método manual (p. 15)
+  - Métrica: Estudo na China (Food Policy, 2026): usuários de serviço de drone com -29% no custo de aplicação (sem o defensivo), -90% no tempo de contato com pesticida e perdas de rendimento 4,6% menores (p. 15)
+- **M373 · Deere & Company (John Deere) (2025)** — 2025 Business Impact Report · F1, F2, F3 · relevância alta · [PDF](07_agro-global-perenes-autonomia/JohnDeere_2025_business-impact-report.pdf)
+  - Relatório de impacto da Deere com KPIs de adoção digital, metas para 2030 (Leap Ambitions) e resultados de IA embarcada, automação e autonomia, incluindo culturas perenes (aquisição integral da GUSS e Smart Apply). Serve como referência de roadmap corporativo com métricas de engajamento e de valor para o cliente.
+  - Métrica: ~500 mi de acres engajados, 147 mi de acres altamente engajados, 1 mi de máquinas conectadas e 409 mil usuários digitais ativos por mês (FY2025) (p. 3)
+  - Métrica: Metas para 2030: 1 mi de usuários digitais, 600 mi de acres engajados e 300 mi altamente engajados (p. 16); >US$ 150 bi de valor econômico adicional para clientes (p. 4, p. 7)
+  - Métrica: See & Spray: usado em >5 mi de acres em 2025, com ~50% de economia de herbicida não residual contra aplicação em área total (p. 20)
+  - Métrica: See & Spray Select com taxa variável: ~77% de redução média de insumo em pousio e pré-colheita (75 mil acres) e 10–15% em fungicida (p. 21)
+- **M374 · Federal Trade Commission (FTC) e estados de Illinois, Arizona, Michigan, Minnesota e Wisconsin (2026)** — FTC, States Secure Settlement with Deere & Company, Advancing Farmers' Right to Repair — Joint Motion for Entry of Stipulated Order (caso 3:25-cv-50017) · F3, F1 · relevância alta · [PDF](07_agro-global-perenes-autonomia/FTC_2026_deere-direito-de-reparo-acordo-ordem-estipulada.pdf)
+  - Desfecho do processo antitruste aberto em 2025 contra a Deere por restringir o reparo e o acesso ao software das máquinas. Caso concreto de dependência de fornecedor e de controle de software e dados em máquinas agrícolas conectadas, útil para F3 (soberania e lock-in) e para cláusulas com fabricantes.
+  - Métrica: Acordo de 10 anos obriga a Deere a dar a agricultores e oficinas independentes os mesmos recursos de reparo, inclusive software, oferecidos às concessionárias (ordem de 08/07/2026) (p. 18; release)
+  - Métrica: Novos recursos de reparo devem ser liberados quando chegarem a mais de 50% da rede de concessionárias nos EUA (2026) (release oficial)
+  - Métrica: O escopo inclui ver leituras e pontos de dados ao vivo e armazenados das máquinas e buscas com IA em manuais técnicos (2026) (p. 22)
+- **M375 · IOI Corporation Berhad (2024)** — Annual Report 2024 – Group Business Review: Plantation · F1, F3 · relevância alta · [PDF](07_agro-global-perenes-autonomia/IOI_2024_annual-report-2024-plantation-review.pdf)
+  - Um dos poucos relatórios de palma, além de SD Guthrie e FGV, com ganho de produtividade do trabalho medido pela mecanização. Traz também o piloto de IA e tecnologia cognitiva para auditoria e contagem de cachos e 100% das unidades malaias integradas ao SAP. Localizado via Perplexity e conferido no PDF oficial.
+  - Métrica: Evacuação mecanizada de cachos dentro do talhão em 64% da área potencial na Malásia: produtividade dos colhedores +25% a 32% e relação colhedor/área de 1:16 para 1:21 ha (FY2024) (p. 5)
+  - Métrica: Evacuação mecanizada pela linha principal (grabber e caçambas) em cerca de 99% das fazendas malaias com terreno adequado (FY2024) (p. 5)
+  - Métrica: Produtividade de 19,34 t de cachos por ha em FY2024, contra 18,66 t/ha em FY2023 (p. 2)
+- **M376 · Journal of the Agricultural and Applied Economics Association (AAEA/Wiley) — Charlton, Devadoss, Gallardo, Luckstead e Vougioukas (2025)** — Economic viability of robotic fruit harvesters to reduce large seasonal labor demands: Analysis of Gala and Honeycrisp apples · F1, F3 · relevância alta · [PDF](07_agro-global-perenes-autonomia/AAEA_2025_viabilidade-colheita-robotica-macas.pdf)
+  - Artigo de acesso aberto (CC BY, fev/2025) que modela o ponto de equilíbrio entre a colheita robótica e a manual de maçã, com sensibilidade a salário, velocidade, % colhido e danos. Na rodada 1 estava bloqueado pela proteção anti-robô da Wiley; o PDF foi obtido pelo navegador na página oficial. Referência quantitativa para autonomia em culturas perenes com escassez de mão de obra.
+  - Métrica: US$ 248,42 por acre/ano é o gasto máximo com a colhedora robótica que iguala o lucro da colheita manual (maçã Gala, Washington, com o desempenho esperado dos protótipos) (p. 1)
+  - Métrica: Custo de colheita de US$ 2.255/acre na manual vs. US$ 1.107/acre com robô: economia de mão de obra de US$ 1.148/acre, contra perda de receita de US$ 999/acre (Gala) (p. 7)
+  - Métrica: Custo inicial de equilíbrio do robô de cerca de US$ 79.046 (US$ 1.952/acre × 40,5 acres/ano; vida útil de 10 anos; juros de 5% a.a.) (p. 11)
+  - Métrica: Com alta de 25% no salário, o produtor poderia pagar por um robô 127% mais caro sem perder lucro (p. 2)
+- **M377 · Malaysian Palm Oil Board (MPOB) – Journal of Oil Palm Research (2025)** — Oil Palm Economic Performance in Malaysia and R&D Progress in 2024 · F1, F3 · relevância alta · [PDF](07_agro-global-perenes-autonomia/MPOB_2025_oil-palm-economic-performance-rd-progress-2024.pdf)
+  - Balanço oficial do órgão regulador da palma com o avanço da mecanização, automação e IA (AIoT, pulverização direcionada, drones). Registra que a robótica de colheita ainda é limitada por custo e complexidade e traz o dado-chave de trabalhador por hectare por nível de mecanização.
+  - Métrica: Relação trabalhador:área na colheita: 1:21 ha no manual, 1:35 ha com cortadores mecanizados tipo CANTAS e 1:86 ha com colhedoras de médio porte (p. 11)
+  - Métrica: Pulverização direcionada com sensores pode reduzir em 25% o uso de químicos (p. 11)
+  - Métrica: Dispositivo de carregamento de cachos: 400 kg em 40 s, com -35% no tempo de carregamento (p. 11)
+  - Métrica: Detecção de Ganoderma com drone hiperespectral e deep learning: acurácia de 70,0% a 92,5% (p. 10)
+- **M378 · Ministério da Agricultura e Assuntos Rurais da China (MARA) (2024)** — 全国智慧农业行动计划（2024—2028年）— Plano Nacional de Ação para a Agricultura Inteligente 2024-2028 (农市发〔2024〕4号) · F3, F2 · relevância alta · [PDF](07_agro-global-perenes-autonomia/MARA-China_2024_plano-nacional-agricultura-inteligente-2024-2028.pdf)
+  - Plano oficial chinês (out/2024) com big data agrícola nacional, mapa único de uso do solo, modelos de IA agrícola com propriedade intelectual própria, fazendas inteligentes, Beidou nas máquinas e máquinas inteligentes de precisão. É um roadmap estatal com metas e viés de soberania tecnológica; complementa o boletim de mecanização já no acervo.
+  - Métrica: Meta de taxa de informatização da produção agrícola de 30% ou mais até o fim de 2026 e de 32% ou mais até o fim de 2028 (plano 2024-2028) (p. 1)
+  - Métrica: 3 grandes ações e 8 tarefas-chave, no ritmo 'um ano de base, três de resultados, cinco de novo patamar' (plano 2024-2028) (p. 1)
+  - Métrica: Até 2028: 20 ou mais modelos-base, algoritmos e softwares SaaS agrícolas; em Zhejiang, 1.000 ou mais fábricas agrícolas digitais e 100 'fazendas do futuro' (p. 2)
+- **M379 · Ministério da Agricultura e Assuntos Rurais da China (MARA) – Departamento de Mecanização Agrícola (2025)** — 2024年全国农业机械化发展统计公报 (Boletim estatístico nacional de mecanização agrícola 2024) · F3 · relevância alta · [PDF](07_agro-global-perenes-autonomia/MARA-China_2025_boletim-estatistico-mecanizacao-agricola-2024.pdf)
+  - Estatística oficial chinesa, impressa em PDF a partir da página do MARA. Dimensiona a escala da mecanização e da frota de drones na China, maior mercado mundial de drones agrícolas, e cita robôs de inspeção começando a ser usados na pecuária.
+  - Métrica: Mecanização abrangente (preparo, plantio e colheita) de 75,64% em 2024 (+1,35 p.p.), com a meta do 14º Plano Quinquenal batida um ano antes; preparo 87,94%, plantio 65,31% e colheita 69,58% (p. 1–2)
+  - Métrica: Frota de drones de proteção de plantas de 201 mil unidades em 2024 (+20,51% a/a) (p. 2)
+  - Métrica: 50,1 mi de trabalhadores rurais em serviços de máquinas (11,73 mi certificados) e receita de serviços de máquinas de ¥ 484,3 bi em 2024 (p. 2)
+- **M380 · Ministério da Agricultura, Florestas e Pesca do Japão (MAFF) (2025)** — Livro Branco de Alimentação, Agricultura e Áreas Rurais FY2024 – Especial 3: Uso de tecnologias de agricultura inteligente e perspectivas · F1, F2, F3 · relevância alta · [PDF](07_agro-global-perenes-autonomia/MAFF-Japao_2025_livro-branco-agricultura-inteligente.pdf)
+  - Avaliação oficial, com grupo de comparação, dos efeitos da automação agrícola (drones, robôs, gestão automática de água) e da lei de promoção da agricultura inteligente de 2024. Aponta como barreiras o custo alto e a falta de pessoal capacitado, e cita drones para citros em encosta (NTT e-Drone).
+  - Métrica: Projeto nacional de demonstração de agricultura inteligente em 217 distritos desde o ano fiscal 2019 (p. 3)
+  - Métrica: Arroz irrigado: -9% no tempo total de trabalho e +9% de produtividade em média; ~30% dos distritos comparáveis reduziram o trabalho em ≥10% (p. 4)
+  - Métrica: Drones de pulverização: -61% no tempo da operação (0,7 → 0,2 h/10a); gestão automática de água: -80% (2,2 → 0,4 h/10a); transplantadora com direção assistida: -18% (p. 4)
+- **M381 · Purdue University — Center for Commercial Agriculture (2026)** — Extracting Value from Precision Agriculture Technology is Difficult (resumo do artigo 'Farm Efficiency and Precision Agriculture Technology', JAAE 2025) · F1, F3 · relevância alta · [PDF](07_agro-global-perenes-autonomia/Purdue_2026_valor-agricultura-precisao-eficiencia-fazendas-kansas.pdf)
+  - Evidência acadêmica de que a maioria das tecnologias digitais de precisão não paga, em média, o custo adicional; o valor depende de aprendizado para usar a informação gerada. Contraponto aos números de ROI de fornecedores e insumo raro de 'valor não capturado' no agro para F1.
+  - Métrica: De 17 combinações de tecnologias de agricultura de precisão, só 2 (piloto automático; monitor de colheita com amostragem de solo em grade) tiveram ganho estatisticamente relevante de eficiência (570 fazendas do Kansas, 2002-2022) (p. 1, 4)
+  - Métrica: No quartil de fazendas menos eficientes, 5 das 17 combinações trouxeram ganhos; nas mais eficientes, pouco ou nenhum (p. 1, 5)
+  - Métrica: Uso em 2022: piloto automático cerca de 80%, monitor de colheita acima de 60%, controle de seção cerca de 50%, amostragem em grade 40%, taxa variável de fertilizante acima de 20% e de sementes 15% (p. 2)
+- **M382 · SD Guthrie Berhad (ex-Sime Darby Plantation) (2025 (ref. 2024))** — Integrated Report 2024 – Beyond Boundaries · F1, F3 · relevância alta · [PDF](07_agro-global-perenes-autonomia/SDGuthrie_2025_integrated-report-2024.pdf)
+  - Elo entre os relatórios 2023 e 2025 (este já catalogado): mostra o ganho real da mecanização em produtividade do trabalho. Traz também o robô autônomo de adubação com IA, o sensor a laser de maturação de cachos, o drone ponto a ponto (p. 22) e IA no trading de óleo (sistema TRAID, p. 26). O conselho pôs a governança de IA generativa na pauta de capacitação.
+  - Métrica: Relação área/trabalhador subiu de 12,7 (FY2023) para 13,6 (FY2024), com meta de 17,5 até 2027 (p. 8 e p. 30)
+  - Métrica: 191 máquinas implantadas em 2024 e 897 desde FY2021 nas fazendas da Malásia; redução de 25% da força de trabalho fora da colheita no upstream da Malásia (FY2024) (p. 8, p. 24-25)
+  - Métrica: 103.000 ha monitorados por drones e P&D de RM 172,9 mi (FY2024) (p. 29)
+  - Métrica: Pulverização em círculo CS6 em 45.800 ha na Indonésia, com expansão planejada para 100.000 ha em FY2025 (p. 25)
+- **M383 · Sime Darby Plantation Berhad (hoje SD Guthrie) (2024 (ref. 2023))** — Integrated Report 2023 – Championing Innovation, Advancing Sustainability · F1, F3 · relevância alta · [PDF](07_agro-global-perenes-autonomia/SDPlantation_2024_integrated-report-2023.pdf)
+  - Documento corporativo central do programa de mecanização, automação e digitalização (MAD / Project Infinity) citado no DR; obtido na plataforma de RI que o site oficial da SD Guthrie incorpora. Traz Geo-AI para mapear Ganoderma, o primeiro teste de colheita automatizada em 2023 e planos de veículos terrestres não tripulados (UGVs). Dá a linha de base da relação ha/trabalhador, que o relatório 2025 já catalogado não traz. Páginas do PDF (cada página tem duas do impresso).
+  - Métrica: 705 máquinas em operação nas fazendas da Malásia no fim de 2023, cobrindo todas as operações fora da colheita (capina, iscas para ratos, sanitização e adubação) (p. 7)
+  - Métrica: Redução de 1.723 trabalhadores fora da colheita no upstream da Malásia em 2023; o quadro de KPIs fala em 1.973 trabalhadores gerais a menos por causa da mecanização (p. 7 e p. 27)
+  - Métrica: Relação área/trabalhador de 12,7 ha para 1 (média do setor: 8 ha para 1), com meta de 17,5 ha para 1 e fase 1 de 15 ha para 1 antes de 2027 (p. 7)
+  - Métrica: Pulverização por drone ponto a ponto em 16.000 ha de palmeiras jovens e 170.000 ha monitorados por satélite e drones (2023) (p. 43)
+- **M384 · Sime Darby Plantation Berhad (hoje SD Guthrie) (2022)** — SDP Mechanises and Automates Estate Operations (press release, 21/10/2022) · F1, F3 · relevância alta · [PDF](07_agro-global-perenes-autonomia/SDPlantation_2022_press-release-mecanizacao-automacao-estates.pdf)
+  - Comunicado oficial raro por trazer produtividade, custo e redução de mão de obra máquina a máquina numa cultura perene. Antes da pandemia, 80–85% da força de trabalho das plantações era migrante (cerca de 75% na SDP), o que motivou o Project Infinity (p. 3). A colheita ainda dependia de trabalho manual qualificado; a unidade de robótica buscava soluções.
+  - Métrica: Pulverizador de herbicida ST 101 Geo: 5 trabalhadores a menos por máquina e 25 ha/dia, contra 5 ha/dia no manual (p. 3)
+  - Métrica: Pulverizador ASP para terraços de até 15°: 3 trabalhadores a menos, 8 ha/dia contra 3 ha/dia e custo 63% menor (p. 4)
+  - Métrica: Adubadoras mecanizadas MFM/MTFA: 4 trabalhadores a menos e 8 ha/dia contra 2 ha/dia no manual (p. 4)
+  - Métrica: Drone P2P com IA que rastreia a copa: meta de 70% menos mão de obra e 8 ha/dia contra 3 ha/dia no manual (p. 4)
+- **M385 · Solinftec (2024)** — Solinftec anuncia os primeiros resultados obtidos com o seu robô Solix em lavouras e canaviais brasileiros · F1, F3 · relevância alta · [link](https://www.solinftec.com/pt-br/solinftec-anuncia-os-primeiros-resultados-obtidos-com-o-seu-robo-solix-em-lavouras-e-canaviais-brasileiros/)
+  - Caso brasileiro de robô autônomo movido a IA que vive no campo (visão computacional para aplicação localizada e armadilha de insetos), com resultados em cana e grãos. A impressão em PDF foi bloqueada pelo Cloudflare. A Forbes Agro sobre a Solinftec já está na pasta 05.
+  - Métrica: Grãos: >90% de redução no uso de herbicidas em pós-emergência, dessecação e pré-plantio (página web, Agrishow 2024)
+  - Métrica: Cana-de-açúcar: -45% no volume de herbicida em aplicações de pós-emergência (página web)
+  - Métrica: +10 sacas/ha em média na 1ª safra em lavouras monitoradas pelo Solix, contra testemunha na mesma área (página web)
+  - Métrica: EUA: >95% de redução de herbicidas; ~40 robôs em operação no Brasil (BA, MT, GO, MS e SP) e meta de 50 nos EUA até o fim de 2024 (página web)
+- **M386 · USDA Economic Research Service (ERS) (2025)** — Farm Labor (topic page) · F3 · relevância alta · [PDF](07_agro-global-perenes-autonomia/USDA-ERS_2025_farm-labor-topic-page.pdf)
+  - Página oficial do USDA, atualizada em nov/2025 e impressa em PDF, com os melhores indicadores públicos de escassez e custo de mão de obra agrícola. Mostra por que fruticultura e culturas perenes são o alvo prioritário de robótica e autonomia.
+  - Métrica: Mão de obra representa 40% das despesas de produção em frutas e nozes e 42% em estufas e viveiros, contra 12% na média das fazendas (Censo Agropecuário 2022) (p. 2)
+  - Métrica: Vagas H-2A certificadas passaram de ~48 mil (FY2005) para ~385 mil (FY2024), mais de 7x; ~315,5 mil vistos emitidos em FY2024 (p. 13)
+  - Métrica: Salário real agrícola cresceu 1,9% a.a. nos últimos 10 anos, contra 1,2% a.a. em 1990–2024; em 2024 o salário agrícola era ~60% do não agrícola (US$ 18,12 contra US$ 30,13/h) (p. 9)
+  - Métrica: Custo de mão de obra = 10,4% da receita bruta das fazendas em 2021–23 (p. 11)
+- **M387 · AGCO Corporation (2025)** — AGCO 2025 Annual Report – Farmer First. Field Ready. · F1, F3 · relevância media · [PDF](07_agro-global-perenes-autonomia/AGCO_2025_annual-report.pdf)
+  - Relatório anual com a estratégia PTx (retrofit multimarca, plataforma de dados FarmENGAGE, OutRun para carreta graneleira autônoma, com preparo de solo e adubação autônomos previstos para o fim de 2026) e o robô Fendt Xaver GT. Complementa Deere e CNH no benchmark de autonomia via retrofit.
+  - Métrica: Receita de US$ 10,1 bi e P&D de US$ 487,7 mi em 2025 (p. 2)
+  - Métrica: Meta de US$ 2 bi de receita anual em agricultura de precisão (PTx) até 2029 (p. 4)
+  - Métrica: 14 novos produtos PTx lançados em 2025; >70 revendas PTx Elite no fim do ano, mais que o dobro do início (p. 4)
+  - Métrica: Programa de reestruturação para reduzir a base de custos em até US$ 200 mi, com ferramentas de automação para os funcionários (p. 3)
+- **M388 · Adecoagro (2026)** — Energy Management Program (atualizado em maio de 2026) · F1, F3 · relevância media · [PDF](07_agro-global-perenes-autonomia/Adecoagro_2026_energy-program-2025.pdf)
+  - Programa de energia da Adecoagro (usinas de cana em MS). O dado de diesel da colheita de cana é comparável ao da São Martinho (até -21% com colhedora de duas linhas). Cita drones e robôs solares para aplicação seletiva na cana, sem números. Localizado via Perplexity.
+  - Métrica: Colhedoras de duas linhas, 'grunners' e treminhões de três carretas reduzem até 46% do consumo de diesel na cana (p. 12)
+  - Métrica: Plataformas stripper nas colhedoras de arroz reduzem em 22% o diesel por hectare (p. 12)
+  - Métrica: Mais de US$ 500 mi investidos ao longo dos anos no conjunto de projetos de energia e eficiência (p. 12)
+  - Métrica: Biodigestor da usina Ivinhema produz 6.000 Nm³/dia de biometano, equivalente a 2 mi L de diesel substituídos (p. 14)
+- **M389 · AgFunder (2025)** — Developing Markets AgriFoodTech Investment Report 2025 · F3 · relevância media · [PDF](07_agro-global-perenes-autonomia/AgFunder_2025_developing-markets-agrifoodtech-investment-report.pdf)
+  - É o primeiro relatório da AgFunder dedicado a mercados emergentes, com capítulo sobre América Latina e Caribe. Complementa o Radar Agtech (já na pasta 05) com uma visão comparativa do Brasil frente a Índia, México e Sudeste Asiático.
+  - Métrica: Mercados em desenvolvimento: financiamento +63% entre 2023 e 2024, contra -4% no agrifoodtech global (página oficial do relatório)
+  - Métrica: Upstream nos mercados em desenvolvimento: +22%, para US$ 1,2 bi em 2024 (31% do total) (p. 6)
+  - Métrica: Brasil: US$ 224 mi em agrifoodtech em 2024 (-32% a/a; 38 deals), ainda líder na América Latina (p. 13)
+  - Métrica: América Latina: financiamento -7% a/a em 2024, com o número de deals caindo 38% (p. 59)
+- **M390 · Bayer AG (2025)** — Bayer Annual Report 2025 · F1, F3 · relevância media · [PDF](07_agro-global-perenes-autonomia/Bayer_2025_annual-report.pdf)
+  - Relatório anual que liga a mudança organizacional (Dynamic Shared Ownership) à aposta em IA agêntica e na ferramenta interna MyGenAssist. Mostra o FieldView como plataforma de dados para modelos preditivos e recomendações por talhão, com integração de registros de drones (AcreConnect).
+  - Métrica: Climate FieldView: >275 mi de acres assinados nos principais mercados (2025) (p. 40)
+  - Métrica: Modelo organizacional DSO: até 6 camadas eliminadas e ~2/3 menos cargos de gestão (p. 9)
+- **M391 · CNH Industrial (2025)** — CNH 2025 Tech Day: customer-centric farming innovations across AI, Autonomy, Robotics and Automation · F1, F3 · relevância media · [PDF](07_agro-global-perenes-autonomia/CNH_2025_tech-day-ai-autonomy-robotics.pdf)
+  - Comunicado do Tech Day na Agritechnica 2025 com o portfólio de IA e autonomia por fase do ciclo. Inclui a família de robôs autônomos R4, sem cabine, para culturas de alto valor diante da escassez de mão de obra, e um assistente de IA para concessionárias.
+  - Métrica: Portfólio Sense & Act (IA, Green-on-Brown): até 60% de economia de herbicida (p. 2)
+  - Métrica: Green-on-Green (lançamento em 2027 na América do Norte): até 80% menos herbicida (p. 2)
+  - Métrica: Automação de colheitadeira em trigo: +€ 70/ha de receita líquida e +7,4% de toneladas colhidas por hora (p. 2)
+  - Métrica: Guiagem de implemento no plantio: >95% das sementes posicionadas a 0–5 cm da linha pretendida (p. 2)
+- **M392 · Cargill (2025)** — 2025 Cargill Annual Report — Connecting a food secure world · F1, F3 · relevância media · [PDF](07_agro-global-perenes-autonomia/Cargill_2025_annual-report.pdf)
+  - Relatório anual da maior trading agrícola privada do mundo, com seção 'AI and the future of farming'. Mostra IA aplicada ao produtor em pecuária, suínos e aves, mas sem ROI quantificado. Única trading global com conteúdo de IA verificável em 2025-2026.
+  - Métrica: Receita de US$ 154 bilhões no ano fiscal de 2025 (p. 3)
+  - Métrica: Casos de IA junto a produtores: CattleView (drones e IA para bem-estar, inventário e nível de ração do gado), assistente virtual com IA na plataforma Agriness (suínos) e Galleon, com base de mais de 70.000 amostras de microbiota avícola (2025) (p. 6)
+- **M393 · Cargill (2025)** — Cargill Impact Report 2025 — People · F1, F3 · relevância media · [PDF](07_agro-global-perenes-autonomia/Cargill_2025_impact-report-pessoas-capacitacao-ia.pdf)
+  - Capítulo de pessoas do relatório de impacto da Cargill. Traz um dado raro de adoção interna de IA generativa e de capacitação em uma líder global do agro, útil para a dimensão de organização e competências.
+  - Métrica: Mais de 5.000 participantes em capacitação em IA e adoção de IA generativa com média de 1,4 milhão de prompts por mês (mais de 155.000 funcionários, 2025) (p. 1, 4)
+- **M394 · Consórcio AgriDataSpace (ação de coordenação financiada pelo Digital Europe Programme da UE) (2024)** — D4.1 & D4.2: Roadmap for deployment and operating the data space for agriculture (rumo ao Espaço Comum Europeu de Dados Agrícolas — CEADS) · F3, F1 · relevância media · [PDF](07_agro-global-perenes-autonomia/AgriDataSpace-UE_2024_roadmap-espaco-europeu-dados-agricolas-ceads.pdf)
+  - Roteiro do projeto preparatório do Espaço Comum Europeu de Dados Agrícolas, publicado pela Comissão como 'blueprint'. Propõe uma federação de iniciativas existentes centrada no agricultor, governança por uma organização de rede neutra (NAO), MVP por casos de uso e alinhamento ao Data Act e ao Data Governance Act. Referência de governança para espaços de dados no agro.
+  - Métrica: 454 iniciativas de compartilhamento de dados agrícolas mapeadas na UE, que servem de base para o espaço de dados (p. 11)
+  - Métrica: Projeto de 19 meses (out/2022 a abr/2024) com 15 parceiros de 10 países e € 2 mi do Digital Europe Programme (p. 2; página da Comissão Europeia)
+- **M395 · DJI Agriculture (2024)** — Agricultural Drone Industry Insight Report 2023/2024 (Better Growth, Better Life) · F1, F3 · relevância media · [PDF](07_agro-global-perenes-autonomia/DJI_2024_agricultural-drone-industry-insight-report-2023-2024.pdf)
+  - Edição 2023/24 do relatório anual da DJI citada no DR, fora do índice (que tem as edições 2024/25 e 2025/26). Fecha a série histórica e traz casos com custo por hectare em culturas perenes e de baixa mecanização (agave, durião, citros).
+  - Métrica: Mais de 300 mil drones agrícolas em uso no fim de 2023, em mais de 100 países; mais de 500 mi ha tratados até jun/2024; 6 mil instrutores e 300 mil pilotos treinados (p. 4)
+  - Métrica: Acumulado: 210 mi t de água economizadas, 47 mil t de defensivos (100% de pureza) a menos e 25,72 mi t de CO2 evitadas (p. 4)
+  - Métrica: Agave (México, Agras T40, 2023): custo total de US$ 139,83/ha com drone, contra US$ 200,11 com trator e US$ 217,60 no manual; tempo 90–95% menor e água 88% menor (250 para 30 L/ha) (p. 29)
+  - Métrica: Durião (Tailândia): drones reduzem 20–30% dos químicos na mesma área; pomar de 90 rai pulverizado em 1–2 dias, contra 4 dias no manual (p. 24)
+- **M396 · DJI Agriculture (2025)** — Agricultural Drone Industry Insight Report 2024/2025 · F1, F3 · relevância media · [PDF](07_agro-global-perenes-autonomia/DJI_2025_agricultural-drone-industry-insight-report.pdf)
+  - Quarto relatório anual da DJI, com testes de deriva, um modelo avançado de planejamento de pulverização e casos de aplicação. Destaque para o café no Brasil e para banana e vinhedos, todas culturas perenes.
+  - Métrica: ~400 mil drones agrícolas DJI em uso no fim de 2024 (p. 4)
+  - Métrica: 222 mi t de água economizadas pelo uso de drones, acumulado até 2024 (p. 4)
+  - Métrica: Café no Brasil (Agras T40/T50, 2024): -70% no custo operacional contra a pulverização manual e -50% contra a tratorizada (p. 22)
+  - Métrica: A pulverização tratorizada danifica ramos e reduz a produção do café em 5–10% (p. 22)
+- **M397 · Deere & Company (John Deere) (2025)** — 2025 Annual Report (Form 10-K) · F1, F3 · relevância media · [PDF](07_agro-global-perenes-autonomia/JohnDeere_2025_annual-report.pdf)
+  - Relatório 10-K com o modelo Smart Industrial: tech stack com automação, machine learning e autonomia, e a revisão das Leap Ambitions de dez/2025. Registra o centro de P&D de agricultura tropical em Indaiatuba (SP), aberto em 2024, e cita escassez de mão de obra como driver de automação.
+  - Métrica: P&D de US$ 2,311 bi no FY2025 (US$ 2,290 bi em 2024 e US$ 2,177 bi em 2023), mantido enquanto a receita total caiu de US$ 61,25 bi (2023) para US$ 45,68 bi (2025) (p. 49)
+- **M398 · FGV Holdings Berhad (2024)** — FGV Holdings Annual Integrated Report 2024 – Harnessing Potential · F1, F3 · relevância media · [PDF](07_agro-global-perenes-autonomia/FGV_2024_annual-integrated-report.pdf)
+  - Relatório da FGV com o Plantation Transformation Plan: mecanização (inclusive em áreas de encosta), IoT nas propriedades (Tanalink) e parcerias de IA com reconhecimento de imagem para reduzir a dependência de mão de obra. Não traz métrica de produtividade por trabalhador.
+  - Métrica: Produtividade de cachos (FFB) +15%, para 15,56 t/ha em 2024, com aceleração da mecanização e redução da escassez de mão de obra (p. 12)
+  - Métrica: Déficit de mão de obra caiu de 16% em 2023 para 12% em 2024 (p. 16)
+  - Métrica: RM 455,1 mi investidos em práticas trabalhistas, infraestrutura e mecanismos de queixa (p. 16)
+- **M399 · ILVO — Instituto Flamengo de Pesquisa em Agricultura, Pesca e Alimentação (coordenador do CEADS) (2025)** — The deployment of the common European agricultural data space is off to a strong start (início da implantação do CEADS) · F3 · relevância media · [link](https://ilvo.vlaanderen.be/en/news/15-landen-bouwen-gemeenschappelijk-europese-landbouw-dataspace)
+  - Confirma a passagem da fase preparatória (AgriDataSpace) para a implantação do CEADS: compartilhamento de dados 'seguro, soberano e confiável' em toda a cadeia agroalimentar, inclusive com a administração pública, em 3 ciclos de MVP. O orçamento não é divulgado.
+  - Métrica: 36 participantes de 15 países, por 36 meses, para implantar e operar o espaço de dados agrícolas europeu, iniciado em 01/04/2025 e cofinanciado pelo Digital Europe (notícia de 25/06/2025)
+- **M400 · IOI Corporation Berhad (2025)** — Annual Report 2025 – Group Business Review: Plantation · F1, F3 · relevância media · [PDF](07_agro-global-perenes-autonomia/IOI_2025_annual-report-2025-plantation-review.pdf)
+  - Atualização de 2025 da IOI: conclui a mecanização da evacuação na Malásia, eletrifica parte da frota de campo, adota pulverizadores de terraço para depender menos de trabalhadores e co-desenvolve máquinas com universidades, startups e o MPOB. ERP SAP RISE em nuvem no ar.
+  - Métrica: Evacuação mecanizada de cachos pela linha principal concluída em todas as fazendas da Malásia (FY2025) (p. 6)
+  - Métrica: 40% da frota de campo convertida de diesel para máquinas elétricas (FY2025) (p. 6)
+  - Métrica: Produtividade de 20,49 t de cachos por ha em FY2025, contra 19,34 t/ha em FY2024 (p. 2)
+- **M401 · Journal of Oil Palm Research (MPOB) – autores da UPM e UiTM (2025)** — Mechanisation Status of Oil Palm Nursery and Field Cultivation in West Malaysia · F2, F3 · relevância media · [PDF](07_agro-global-perenes-autonomia/MPOB-JOPR_2025_mechanisation-index-oil-palm-west-malaysia.pdf)
+  - Artigo científico que mede o grau de mecanização por operação, em escala de 0 a 1, numa cultura perene de baixa mecanização. Pode inspirar a medição da maturidade de automação por etapa do processo de campo e mostra que colheita e coleta são os gargalos críticos.
+  - Métrica: Índice de mecanização (MI) médio de 0,43 nas 10 operações de produção de FFB; colheita com poda 0,08, coleta de frutos soltos 0,09 e controle de ratos 0,06 (p. 1)
+  - Métrica: Viveiro com MI de 0,36 contra 0,41 no cultivo de campo (p. 1)
+  - Métrica: ~80% da força de trabalho das plantações da Malásia é estrangeira (OIM, 2023) (p. 1)
+  - Métrica: A relação área:trabalhador foi de 6–7:1 nos anos 1980 para 10–12:1 em 2013 e chega a 20:1 com mecanização adequada (p. 2)
+- **M402 · Malaysian Palm Oil Board (MPOB) — artigo do diretor-geral no New Straits Times (2022)** — Addressing labour shortage in oil palm plantation sector · F3 · relevância media · [PDF](07_agro-global-perenes-autonomia/MPOB-NST_2022_escassez-mao-de-obra-palma-marcop.pdf)
+  - Artigo assinado pelo diretor-geral do MPOB. A página do MPOB citada no DR (PalmNews) estava inacessível, por isso foi usada a versão do jornal. É a fonte das metas escalonadas de produtividade do trabalho (mecanização, depois IA e sensores, depois robótica), um roteiro útil para culturas perenes pouco mecanizadas.
+  - Métrica: Déficit de 54.630 trabalhadores nas plantações de palma da Malásia: demanda de 437.212 contra 382.582 empregados (ago/2022) (p. 2)
+  - Métrica: Cerca de 391.000 trabalhadores no setor em 2021, 74% estrangeiros (p. 2)
+  - Métrica: Produção de óleo de palma bruto caiu 5,4% em 2021, para 18,1 Mt, com o déficit de mão de obra 24,9% maior (p. 1)
+  - Métrica: Consórcio MARCOP: metas de 1 trabalhador para 25 ha com cortadores mecanizados (curto prazo), 1 para 50 ha com IA e sensores (médio prazo) e dobrar de novo com robótica (longo prazo) (p. 2)
+- **M403 · Ministério da Agricultura, Florestas e Pesca do Japão (MAFF) (2025)** — Livro Branco de Alimentação, Agricultura e Áreas Rurais FY2024 – Cap. 2, Seção 3: formação e garantia de agricultores responsáveis · F3 · relevância media · [PDF](07_agro-global-perenes-autonomia/MAFF-Japao_2025_livro-branco-trabalhadores-agricolas.pdf)
+  - Dado oficial do caso mais extremo de envelhecimento e escassez de mão de obra agrícola entre países desenvolvidos, que é o pano de fundo da aposta japonesa em autonomia e robótica.
+  - Métrica: Trabalhadores agrícolas principais (基幹的農業従事者) caíram de 2,40 mi em 2000 para 1,114 mi em 2024 (p. 2)
+  - Métrica: Idade média de 69,2 anos em 2024; 71,7% têm 65 anos ou mais e só 11,2% têm até 49 anos (p. 2)
+- **M404 · SD Guthrie Berhad (ex-Sime Darby Plantation) (2025)** — SD Guthrie Integrated Report 2025 – Shaping What's Next · F1, F3 · relevância media · [PDF](07_agro-global-perenes-autonomia/SDGuthrie_2025_integrated-report.pdf)
+  - Relatório da maior produtora de palma com certificação sustentável. Trata a escassez de mão de obra como risco central e responde com mecanização, digitalização (plataforma Palm Digital, drones, IA) e uso de IA generativa sobre dados operacionais e de supply chain.
+  - Métrica: ~80% da força de trabalho das plantações na Malásia é migrante; o governo aprovou cota de ~34 mil trabalhadores migrantes em 2025 (p. 15)
+  - Métrica: Drones mapearam 74.400 ha de plantações no FY2025, liberando mão de obra para outras funções (p. 31)
+  - Métrica: P&D de RM 192,4 mi e cerca de 200 cientistas no FY2025 (p. 31)
+  - Métrica: Campos com sementes GenomeSelect tiveram produtividade 15–21% maior que os com calix600 (p. 31)
+- **M405 · Solinftec (2025)** — Solinftec supera R$ 1,3 bi em captações e planeja colocar cerca de 700 robôs Solix em campo até 2026 · F3 · relevância media · [link](https://www.solinftec.com/pt-br/solinftec-supera-r-13-bi-em-captacoes-e-planeja-colocar-cerca-de-700-robos-solix-em-campo-ate-2026/)
+  - Mostra a escala e o modelo de negócio (receita recorrente) de uma agtech brasileira de IA e robótica dominante no setor sucroenergético. É útil para tendências de mercado e de adoção de robôs no Brasil.
+  - Métrica: >R$ 1,3 bi captados (inclui Série D de R$ 300 mi da YvY Capital) e crescimento de ~20% em 2024 (página web, fev/2025)
+  - Métrica: ARR acumulado >R$ 370 mi em 2024 e meta de ~R$ 450 mi em 2025; operação Solix prevista para crescer 50% em 2025 e dobrar em 2026 (página web)
+  - Métrica: 90% de market share em cana-de-açúcar; >13 mi ha físicos monitorados e >60 mil máquinas; ~8% da área cultivada do Brasil (grãos, safra e safrinha) (página web)
+  - Métrica: Meta de ~700 robôs Solix em operação entre as safras 2025 e 2026 (página web)
+- **M406 · Syngenta Group (2026)** — Making agricultural intelligence happen – Syngenta's AI vision at World Agri-Tech 2026 · F1, F3 · relevância media · [PDF](07_agro-global-perenes-autonomia/Syngenta_2026_cropwise-ia-agentica-world-agritech.pdf)
+  - Página impressa em PDF com a estratégia de IA agêntica da Syngenta: Cropwise, abertura da plataforma a desenvolvedores via APIs (Cropwise Open, nov/2025) e multicloud (AWS, Google, Microsoft) escolhido por finalidade. Também cita pesquisa IPSOS segundo a qual confiança, controle de dados e prova local pesam mais na adoção que recursos ou preço.
+  - Métrica: ~500 pessoas em hubs nos EUA, Índia, Brasil e outros países nos times de tecnologia, combinando engenharia, ciência de dados e agronomia (p. 6)
+  - Métrica: Cropwise AI usa >20 anos de histórico de clima e >80 mil observações de estádios fenológicos, com ganho projetado de até 5% de produtividade nas recomendações de sementes (p. 5)
+- **M407 · Washington State University (WSU) (2026)** — Automating the harvest: WSU works to ease labor shortages on the farm · F3 · relevância media · [link](https://news.wsu.edu/news/2026/02/05/automating-the-harvest-wsu-works-to-ease-labor-shortages-on-the-farm/)
+  - Panorama recente da pesquisa de automação em fruticultura (AgAID, Smart Apple Orchard) diretamente ligada à escassez de mão de obra, com números de campo e de custo de protótipo.
+  - Métrica: Washington: ~3.700 fazendas fecharam entre 2017 e 2022; no mesmo período, o número de trabalhadores agrícolas caiu 23% e a mão de obra migrante 37% (Censo) (página web)
+  - Métrica: Braço robótico macio colhe uma maçã em ~25 s, pesa <50 lb e custa ~US$ 5.500 (página web)
+  - Métrica: Irrigação automatizada no Smart Apple Orchard: até ~50% menos água sem perda de produtividade (página web)
+- **M408 · XAG (极飞科技) (2025)** — 极飞科技 2025年企业社会责任报告 (Relatório de Responsabilidade Social 2025) · F1, F3 · relevância media · [PDF](07_agro-global-perenes-autonomia/XAG_2025_relatorio-responsabilidade-social-csr.pdf)
+  - Relatório de sustentabilidade da segunda maior fabricante chinesa de drones agrícolas, com casos em pomares (lichia, laranja, citros), vinhedos (robô terrestre R200) e prestação de serviço no Brasil. O PDF é só imagem; as métricas foram lidas visualmente nas páginas.
+  - Métrica: >4.400 pedidos de patente (>3.300 concedidas, >1.300 de invenção) e >60 modelos de IA e softwares registrados; 41,4% dos funcionários em P&D (p. 4)
+  - Métrica: O motor de rotas inteligente com IA eleva a eficiência operacional em 20–40% (p. 5)
+  - Métrica: >2,5 bi mu-vezes (~167 mi ha-vezes) operados por equipamentos não tripulados XAG; +26,5 mi t de produção agrícola; >2.500 fazendas com irrigação e fertirrigação inteligente (p. 6)
+  - Métrica: Lichia (Guangdong): proteção fitossanitária caiu de 5 para 2 dias com drone; laranja-umbigo (Hubei): 1 drone transporta 15 t de laranjas por dia em encosta (p. 6)
+- **M409 · Agência FAPESP (startup Dallas Autonomus, programa PIPE) (2024)** — Brazilian startup designs self-flying aerial vehicle for crop spraying · F3 · relevância baixa · [link](https://agencia.fapesp.br/brazilian-startup-designs-self-flying-aerial-vehicle-for-crop-spraying/51590)
+  - Startup apoiada pela FAPESP desenvolve aeronave autônoma para pulverizar café em encostas, a pedido de um produtor de MG, com modelo de locação. Mostra o limite de carga e autonomia dos drones elétricos em culturas perenes de relevo acidentado.
+  - Métrica: Helicóptero autônomo de cerca de 6 m com barra de 5 m, projetado para levar pelo menos 100 kg por mais de 1 hora; drones elétricos com 40–50 kg ficam sem bateria antes de terminar (mai/2024) (página web)
+  - Métrica: Foco em propriedades de 100 ha ou mais; protótipo entre prova de conceito e MVP, com voos de teste previstos para jul/ago de 2024 (página web)
+- **M410 · Consórcio AgriDataSpace (Digital Europe Programme / Comissão Europeia) (2024)** — Policy Brief — Building a European framework for the secure and trusted data space for agriculture (implantação do CEADS) · F3 · relevância baixa · [PDF](07_agro-global-perenes-autonomia/AgriDataSpace-UE_2024_policy-brief-rollout-ceads.pdf)
+  - Resumo de 8 páginas das recomendações do AgriDataSpace (set/2024), divulgado pela Comissão Europeia. Define o papel e os incentivos de cada ator: agricultores (consentimento e permissão sobre seus dados), provedores de tecnologia, intermediários de dados, governo, indústria, pesquisa e setor financeiro/seguros.
+  - Métrica: CEADS desenhado como federação descentralizada sobre 4 pilares: marco legal e ético (Data Act e DGA), governança multiatores, modelo de negócio sem fins lucrativos com cobertura de custos e neutralidade tecnológica (p. 3)
+  - Métrica: Projeto de implantação do CEADS previsto para jan/2025 (p. 2)
+- **M411 · DJI Agriculture (2023)** — Agricultural Drone Industry Insight Report (edição 2023) · F3 · relevância baixa · [PDF](07_agro-global-perenes-autonomia/DJI_2023_agricultural-drone-industry-insight-report-2023.pdf)
+  - Edição de 2023 citada no DR. O PDF é só imagem; os números foram lidos na página renderizada. Serve para a série de adoção: 200 mil drones (2022), 300 mil (2023), cerca de 400 mil (2024) e mais de 600 mil (2025), somando as edições catalogadas. Os casos repetem os da edição seguinte (ex.: soja com IA nos EUA).
+  - Métrica: Mais de 200 mil drones agrícolas DJI em uso no fim de 2022, com área acumulada tratada acima de 200 mi ha, em mais de 100 países (p. 5)
+  - Métrica: Frota DJI em uso: 2.500+ (2016), 7.500+ (2017), 20.000+ (2018), 40.000+ (2019), 80.000+ (2020), 130.000+ (2021) e 200.000+ (2022) (p. 6, fig. 1)
+- **M412 · Kubota Corporation (2026)** — KUBOTA REPORT 2026 – Integrated Sustainability Report · F1, F3 · relevância baixa · [PDF](07_agro-global-perenes-autonomia/Kubota_2026_kubota-report-integrated.pdf)
+  - Relatório integrado com a estratégia Smart Value: máquinas autônomas Agri Robo, plataforma KSAS e drones. Destaca o trator estreito autônomo M5 para culturas especiais (pomares e vinhedos), feito com a startup Agtonomy. Qualitativo, sem números de adoção.
+
+## Setor financeiro
+
+Pasta: `08_setor-financeiro/`
+
+- **M413 · BBVA (2025)** — BBVA deploys 'The Eight', its strategy to transform the financial experience with AI (12/12/2025) · F1, F2, F3 · relevância alta · [PDF](08_setor-financeiro/BBVA_2025_the-eight-estrategia-ia.pdf)
+  - Roadmap de IA do BBVA em 8 iniciativas: 6 'robôs' (Advisor, AI Banker, Riscos, Operações, Software e um agente pessoal por funcionário) e 2 habilitadores (dados e arquitetura). O banco tem uma unidade global de Dados no alto escalão desde 2017 (p. 5) e 'AI Factories' na Espanha, México e Turquia. Bom exemplo de trajetória e organização de IA.
+  - Métrica: Mais de 20 mil GPTs especializados criados por funcionários, dos quais mais de 4 mil são usados com frequência (p. 5)
+  - Métrica: Medições internas mostram economia de tempo acima de 76% em certas tarefas; funcionários relatam poupar cerca de 3 horas por semana (p. 5)
+  - Métrica: ChatGPT Enterprise será estendido a mais de 120 mil funcionários; mais de 87 mil usam Gemini e há mais de 15 mil licenças de GitHub Copilot (p. 6)
+  - Métrica: Assistente Blue já atende mais de 150 tipos de consulta e faz transações simples (p. 3)
+- **M414 · Banco Bradesco (2026)** — Relatório Integrado 2025 · F1, F3 · relevância alta · [PDF](08_setor-financeiro/Bradesco_2026_relatorio-integrado-2025.pdf)
+  - Relato integrado do Bradesco sobre a estratégia de IA: BIA com GenAI, modelo de tribos, multicloud e ecossistema Inovabra. Traz métricas de produtividade em engenharia e de resolutividade no atendimento, um bom contraponto ao Itaú.
+  - Métrica: IA generativa (BIA) com mais de 50 milhões de interações no ano e 90% de resolutividade, integrada a Mobile e WhatsApp, em 2025 (p. 43); o documento também cita 49 milhões de interações e 87% de resolutividade (p. 16 e 42)
+  - Métrica: Redução de até 69% no tempo de escrita de código e de 85% no tempo de testes com GenAI (p. 43)
+  - Métrica: Crescimento de 118% no volume de features de negócio entregues e redução de 43,3% no lead time (p. 42)
+  - Métrica: 73 soluções testadas com as áreas de negócio; 10 tecnologias emergentes em prontidão (incluindo multiagentes, SLMs e dados sintéticos); 16 mil funcionários capacitados em letramento tecnológico (p. 44)
+- **M415 · Banco Central do Brasil (2025)** — Relatório de Estabilidade Financeira – v. 24, nº 2 (nov/2025), seção 2.1 'Pesquisa sobre o uso de inteligência artificial no Sistema Financeiro Nacional' · F2, F3 · relevância alta · [PDF](08_setor-financeiro/BCB_2025_relatorio-estabilidade-financeira-nov2025.pdf)
+  - Único levantamento oficial amplo sobre IA no sistema financeiro brasileiro. Mostra o abismo de maturidade entre grandes bancos e cooperativas de crédito (atores centrais do crédito rural) e a forte dependência de fornecedores externos.
+  - Métrica: 26,7% (162) das 606 instituições reguladas pesquisadas usam soluções com modelos de IA (fev–mar/2025; 96% dos ativos do SFN) (p. 64)
+  - Métrica: Adoção por segmento: bancos S1 e S2 100%, S3 57%, S4 26%; cooperativas de crédito apenas 5%; instituições de pagamento 38% (p. 64)
+  - Métrica: Benefícios observados: aumento de eficiência 95,7%, redução de custos 73,5%, melhor tomada de decisão 72,2%, aumento de receita financeira 32,7% (162 instituições) (p. 67)
+  - Métrica: Desafios: necessidade de treinamento especializado 67,9%, custos de implementação 55,6%, falta de dados de qualidade 35,8%, resistência à mudança 29,6% (p. 67)
+- **M416 · Banco Santander (Grupo) – artigo do Chief Data & AI Officer (2026)** — Santander turns its AI-first strategy into measurable impact and extends AI access to all 185,000 employees · F1, F2, F3 · relevância alta · [PDF](08_setor-financeiro/Santander_2026_ia-first-impacto-mensuravel.pdf)
+  - Artigo oficial do CDAO do Santander, de 22/06/2026, com o placar de valor de IA medido trimestralmente, casos concretos (incluindo o Brasil) e arquitetura com vários fornecedores (OpenAI, Anthropic, Google, Microsoft). Excelente para ROI e governança da medição.
+  - Métrica: Meta de mais de €1 bilhão em valor de negócio com IA em 2026–2028 (receita adicional mais redução de custos); €35 milhões gerados no 1º trimestre de 2026, a caminho de superar €200 milhões no ano (p. 2)
+  - Métrica: Mais de 280 agentes de automação de processos em produção, em crédito, fraude, KYC e operações (p. 3)
+  - Métrica: No Brasil, IA na contestação de fraudes de cartão deixou o processo cerca de 95% mais rápido, com até 90% de automação e taxa de erro abaixo de 1% (p. 3)
+  - Métrica: Mais de 17 mil pessoas usando IA agêntica no desenvolvimento de software (maio/2026) e 40% de todo o código de junho escrito por IA (p. 2–3)
+- **M417 · Banco do Brasil (2026)** — BB é pioneiro global em diretrizes para IA generativa e agêntica (release, 24/08/2026) · F1, F3 · relevância alta · [PDF](08_setor-financeiro/BancodoBrasil_2026_diretrizes-ia-generativa-agentica.pdf)
+  - Release oficial sobre a atualização das diretrizes de IA ética e responsável do BB, que passam a ter regras próprias para IA generativa e agêntica. Traz a escala de IA do banco no 1º semestre de 2026 e descreve as plataformas de governança (Gaia) e de criação de assistentes (Genera BB). É um bom exemplo brasileiro de governança somada a escala, mas não traz valor financeiro. A versão de jan/2026 com IN.GPT (50 mil horas) só foi achada em portais de terceiros e não foi usada.
+  - Métrica: Mais de 2,3 mil soluções catalogadas no 1º semestre de 2026, incluindo mais de 1,4 mil modelos de IA tradicional, generativa e agentes aplicados a atendimento, crédito, risco e eficiência operacional (p. 2)
+  - Métrica: Mais de 12 mil agentes baseados em Copilot em operação, além de outros assistentes internos e de atendimento (2026) (p. 3)
+  - Métrica: AcademIA BB 2026 com mais de 36 mil inscritos em trilhas de IA generativa, IA agêntica, dados e analytics (p. 3)
+  - Métrica: Diretrizes específicas para IA generativa e agêntica: certificação de modelos, autonomia faseada com supervisão humana em situações críticas, mecanismos de interrupção de agentes, rastreabilidade e restrições de GenAI com dados sensíveis (p. 1)
+- **M418 · Banco do Brasil (2026)** — Relatório Anual 2025 · F1, F2, F3 · relevância alta · [PDF](08_setor-financeiro/BancodoBrasil_2026_relatorio-anual-2025.pdf)
+  - Relatório anual 2025 do maior financiador do agro brasileiro, publicado em 28/05/2026, com seção de IA e analytics cheia de métricas. Para o agro, destacam-se IA geoespacial na agricultura de baixo carbono, analytics para expandir o crédito rural, o modelo Inad Agro e RAG/IA generativa no apoio ao crédito agro (prêmio Cloudera, p. 10). Traz também o Framework de Governança de IA Responsável e Escalável para IA generativa e agêntica.
+  - Métrica: Agricultura de baixo carbono: solução de IA e análise geoespacial (dados MapBiomas e INPE) contribuiu para 33% mais contratos assinados e para a meta de conservar 1 milhão de hectares até 2025 (p. 266)
+  - Métrica: Analytics de participação de mercado no agro (dados do BB, Bacen e IBGE) com expectativa de cerca de R$ 14 bilhões a mais em crédito agro nas próximas duas safras (p. 266)
+  - Métrica: Encarteiramento com IA: mais de R$ 5 milhões no primeiro mês, 91% acima do modelo tradicional, e +62% na margem de contribuição média (3,5 vezes o modelo anterior); 7,4 mil clientes PJ encarteirados (p. 266)
+  - Métrica: INGPT (IA generativa sobre 1,3 mil normas internas): mais de 800 mil buscas por 45 mil usuários e ganho estimado de 50 mil horas; Faturamento Inteligente reduz 90% do tempo de atualização (piloto com cerca de 140 mil solicitações) (p. 265-266)
+- **M419 · Bank of America (2026)** — Bank of America Annual Report 2025 · F1, F3 · relevância alta · [PDF](08_setor-financeiro/BankofAmerica_2026_annual-report-2025.pdf)
+  - Caso de agente de IA de longa data (Erica, desde 2018) e de adoção interna em massa. A carta do CEO descreve o 'AI catalyst program', com um líder corporativo e campeões nas áreas, uma referência de modelo organizacional para difundir IA.
+  - Métrica: Cerca de US$ 13 bilhões por ano em tecnologia, com mais de US$ 4 bilhões em novas iniciativas de tecnologia em 2025 (p. 5–6)
+  - Métrica: Assistente Erica: 20 milhões de pessoas a usaram no 4º trimestre de 2025, quase 200 milhões de vezes; mais de 3,2 bilhões de interações desde 2018 (p. 6 e 20)
+  - Métrica: Erica for Employees reduziu as chamadas ao service desk de TI em mais de 55% (p. 20)
+  - Métrica: Cerca de 200 mil funcionários com ferramentas de IA; cerca de 150 mil usuários ativos geram mais de 1,5 milhão de prompts por semana (p. 20)
+- **M420 · Bank of England e Financial Conduct Authority (2024)** — Artificial intelligence in UK financial services – 2024 (terceira pesquisa conjunta BoE/FCA) · F1, F2 · relevância alta · [link](https://www.bankofengland.co.uk/report/2024/artificial-intelligence-in-uk-financial-services-2024)
+  - Pesquisa regulatória com dados de maturidade e governança (responsáveis formais, níveis de autonomia, dependência de terceiros), úteis como benchmark para desenhar estruturas de governança de IA. Só existe em HTML; o site bloqueou a impressão em PDF.
+  - Métrica: 75% das empresas já usam IA e outros 10% planejam usar em 3 anos, ante 58% e 14% em 2022 (118 respondentes) (página web)
+  - Métrica: Mediana de casos de uso deve mais que dobrar em 3 anos (de 9 para 21); grandes bancos do Reino Unido e internacionais têm medianas de 39 e 49 casos (página web)
+  - Métrica: Modelos fundacionais representam 17% dos casos de uso e um terço dos casos são implementações de terceiros; os 3 maiores fornecedores concentram 73% (nuvem), 44% (modelos) e 33% (dados) (página web)
+  - Métrica: 55% dos casos têm algum grau de decisão automatizada, mas só 2% são totalmente autônomos (página web)
+- **M421 · Citigroup (2026)** — Citi 2026 Investor Day – Consolidated Transcript (07/05/2026) · F1, F3 · relevância alta · [PDF](08_setor-financeiro/Citi_2026_investor-day-transcricao-completa.pdf)
+  - Transcrição completa do Investor Day 2026 do Citi, com resultados de IA por negócio (Services, Cartões, tecnologia) e a estratégia de agentes. Bom exemplo de como um banco global reporta casos de IA com KPIs operacionais por linha de negócio.
+  - Métrica: Ferramentas de IA liberadas para mais de 180 mil funcionários em 85 países; revisões de código assistidas por IA liberam cerca de 100 mil horas de capacidade por semana; agentes de IA sendo escalados para trabalho complexo de várias etapas (p. 8)
+  - Métrica: Services: carteira de mais de 50 casos de uso de IA; ganho de 30% a 40% na produtividade de desenvolvedores; processamento inteligente de documentos corta 80% do tempo de revisão no onboarding (p. 14)
+  - Métrica: Services: IA generativa apoia 6 mil agentes em 72 países que atendem mais de 3 milhões de consultas por ano, reduzindo o esforço de atendimento em até 25%; o assistente do CitiDirect elevou a contenção em 50% (p. 14-15)
+  - Métrica: Cartões EUA: novos modelos de IA elevam a taxa de aprovação em 100 pontos-base; 'detector de fumaça' de controles corta 95% do tempo; Agent Assist reduz 60 segundos no atendimento; agentes de código com até 40% de ganho; personalização e otimização para busca generativa elevam vendas digitais em 25% (p. 50)
+- **M422 · Citigroup (2026)** — Citi 2026 Investor Day – Financial Overview (07/05/2026) · F1, F2 · relevância alta · [PDF](08_setor-financeiro/Citi_2026_investor-day-financial-overview.pdf)
+  - Apresentação financeira do Investor Day de 07/05/2026. Mostra como os ganhos de produtividade da IA na tecnologia liberam orçamento para investimento nos negócios, uma lógica de autofinanciamento do roadmap de IA.
+  - Métrica: Cerca de 100 mil horas por semana de capacidade de desenvolvedores liberadas por IA; mais de 10 mil engenheiros usando IA avançada, inclusive agêntica; cerca de 1,5 milhão de revisões de código automatizadas (p. 13)
+  - Métrica: Migração de uma aplicação estimada em 12 meses concluída em 4 semanas com IA (p. 13)
+  - Métrica: Mix de gasto de tecnologia migra para 'change-the-bank': de 50% em 2025 para 55% no curto prazo; a parcela ligada aos negócios sobe de 46% para 58% (p. 13)
+- **M423 · Commonwealth Bank of Australia (CommBank) (2025)** — Our Approach to Adopting AI (December 2025) · F1, F2 · relevância alta · [PDF](08_setor-financeiro/CommBank_2025_our-approach-to-adopting-ai.pdf)
+  - Primeiro relatório de um banco australiano dedicado a como adota IA: governança (fórum dedicado, política com seis princípios, ciclo de vida de sistemas de IA, unidade de IA centrada no humano), casos com resultado (fraude, golpes, atendimento) e capacitação. Modelo de transparência e de governança de IA responsável.
+  - Métrica: IA aplicada a mais de 20 milhões de pagamentos por dia, com 40.355 alertas proativos diários no app; perdas de clientes com fraude caíram mais de 20% no 1º semestre do ano fiscal 2026 frente ao 1º semestre de 2025 (p. 7)
+  - Métrica: Detecção de fraude 'card not present' com IA: acurácia dos alertas +14% em média e redução de cerca de A$ 29 milhões em perdas potenciais (p. 7)
+  - Métrica: Compass AI (IA generativa para gerentes PJ): mais de 500 mil perguntas respondidas desde jul/2024, com buscas três vezes mais rápidas (p. 8)
+  - Métrica: 80 milhões de eventos por dia analisados por IA (pagamentos, trocas de senha e de endereço); 27.600 funcionários engajados na série de aprendizagem em IA; 4º lugar no Evident AI Index 2025 (p. 6)
+- **M424 · DBS Group Holdings (2026)** — DBS Annual Report 2025 · F1, F2 · relevância alta · [PDF](08_setor-financeiro/DBS_2026_annual-report-2025.pdf)
+  - Caso de referência mundial em mensuração do valor de IA: metodologia própria de captura de valor, divulgação anual do impacto econômico, framework de IA Responsável e evolução para transformações do modelo operacional com GenAI e agentes.
+  - Métrica: Cerca de S$ 1 bilhão de valor econômico gerado por analytics e IA/ML em 2025, com mais de 2.000 modelos em mais de 430 casos de uso (p. 5, 9, 11 e 12)
+  - Métrica: 9 Operating Model Transformations (redesenho de processos para colaboração humano-IA) concluídas em 2025, acima da meta de 6 (p. 11)
+  - Métrica: DBS Joy (chatbot GenAI para PJ): mais de 20 mil clientes e alta de 23% na satisfação; CodeBuddy: até 20% de economia de tempo em certas tarefas de código (p. 10–11)
+  - Métrica: Mais de 11 mil funcionários identificados para upskilling ou reskilling em funções significativamente transformadas por IA (p. 3)
+- **M425 · Danske Bank (2026)** — Danske Bank – Q1 2026 Conference call: Strategy Update (30/04/2026) · F1, F2 · relevância alta · [PDF](08_setor-financeiro/DanskeBank_2026_q1-strategy-update-apresentacao.pdf)
+  - Atualização estratégica de um banco nórdico com metas de valor de IA explícitas e com prazo. Mostra também a sequência 'fundação antes da escala': estratégia de IA para todo o banco, plataforma de IA e frameworks de risco e compliance montados antes de 2026, e escala agêntica em 2026-28 começando por crédito, atendimento e desenvolvimento de software.
+  - Métrica: Meta para 2028: ~DKK 2.0 bn por ano de benefícios de produtividade de IA e tecnologia e ~3.5 p.p. de melhora no índice custo/receita (p. 15 e 20)
+  - Métrica: IA agêntica no processo de crédito corporativo reduziu ~40% da carga de trabalho manual no piloto (p. 15)
+  - Métrica: ~95% dos desenvolvedores adotaram assistentes de código com GenAI; o assistente de IA no Mobile Bank atende ~20% das consultas de clientes com ~75% de resolução no primeiro contato (p. 15 e 30)
+  - Métrica: Metas 2028 frente a 2023: 5x mais throughput de desenvolvedores, +30% de produtividade em serviços e mais de 2x de produtividade de tecnologia; desde 2023, mais de 30% das aplicações migraram para nuvem pública e a produtividade de tecnologia subiu 20% (p. 14)
+- **M426 · Evident Insights (2026)** — 2026 Evident AI Index for Banks – LATAM: Key Findings Report (página oficial salva em PDF) · F2, F3 · relevância alta · [PDF](08_setor-financeiro/Evident_2026_ai-index-bancos-latam-key-findings.pdf)
+  - Key findings públicos do primeiro Evident AI Index para a América Latina (20 bancos, 60+ indicadores, pilares de Talento, Inovação, Liderança e Transparência). Na página do ranking, o BTG aparece em 7º e a Caixa em 12º. Dá o benchmark externo de maturidade dos bancos brasileiros e evidencia a lacuna de ROI agregado na região. O relatório completo exige cadastro.
+  - Métrica: Primeiro índice de maturidade em IA de 20 grandes bancos da América Latina (jul/2026); Nubank e Itaú lideram, com Bradesco e Banco do Brasil logo atrás (p. 1-2)
+  - Métrica: Os bancos brasileiros são 7 dos 20 do índice (35%), mas produziram 49% dos casos de uso com resultados reportados nos últimos dois anos (p. 3)
+  - Métrica: O Nubank lidera três dos quatro pilares, com densidade de talentos de IA de 5%, três vezes a média; os 20 bancos empregam mais de 10 mil profissionais de IA (p. 2 e 4)
+  - Métrica: 70% publicam casos de uso com resultados e 55% divulgam o total de casos em produção, mas nenhum divulgou ROI realizado ou projetado para o conjunto das atividades de IA (p. 5)
+- **M427 · Evident Insights (2026)** — AI Use Case Trends in Banking | Q1 2026 (Evident AI Use Case Tracker – resumo público, 04/05/2026) · F2, F3 · relevância alta · [PDF](08_setor-financeiro/Evident_2026_ai-use-case-trends-banking-q1.pdf)
+  - Resumo público do tracker do 1º trimestre de 2026. Mostra o avanço dos casos agênticos embutidos em fluxos específicos (e não em copilotos genéricos) e a consolidação da prática de reportar ROI agregado de IA. Boa referência de tendência e de práticas de mensuração.
+  - Métrica: Casos agênticos chegaram a 31% dos novos casos de uso no 1º tri/2026, recorde, ante 15% no 4º tri/2025 (p. 1-2)
+  - Métrica: 38% dos casos do 1º tri/2026 reportaram resultados, e 15 dos 50 bancos acompanhados já divulgam ROI agregado de IA; DBS e BNP Paribas cumpriram as metas de 2025, e o Santander passou a reportar trimestralmente a meta de €1 bi para 2028 (p. 2)
+  - Métrica: Fornecedores especializados fora dos hyperscalers somam 68% das implantações; a Anthropic foi o fornecedor mais citado no trimestre (p. 2)
+- **M428 · Evident Insights (2026)** — AI Use Case Trends in Banking | Q2 2026 (Evident AI Use Case Tracker – resumo público, 13/07/2026) · F2, F3 · relevância alta · [PDF](08_setor-financeiro/Evident_2026_ai-use-case-trends-banking-q2.pdf)
+  - Resumo público do tracker trimestral de casos de uso dos 50 maiores bancos. A leitura central é que a escala avança mais rápido que a evidência: mais bancos quantificam o valor da IA no nível do grupo, mas cai a fatia de casos com resultado divulgado. O relatório completo é restrito a membros.
+  - Métrica: 93 novos casos de uso de IA anunciados no 2º tri/2026 pelos 50 bancos do índice, alta de 45% sobre o trimestre anterior (p. 1-2)
+  - Métrica: 16 bancos já divulgam um número de valor de IA para o grupo todo; o State Street anunciou o 4º maior até agora, US$ 1 bi (p. 2)
+  - Métrica: Só 27% dos novos casos do trimestre trouxeram resultado divulgado (41% no trimestre anterior), e apenas 1 em 10 deles reportou aumento de receita (p. 2)
+  - Métrica: Casos em Commercial Banking passaram de 8 para 22 e em Wealth Management de 4 para 12 no trimestre, puxados por crédito, onboarding e ferramentas de assessores (p. 3)
+- **M429 · Evident Insights (2026)** — Evident AI Index for Banks – Latin America (edição 2026) · F2 · relevância alta · [PDF](08_setor-financeiro/Evident_2026_ai-index-bancos-latam.pdf)
+  - Página oficial da primeira edição latino-americana do Evident AI Index, impressa em PDF, com ranking por pilar dos maiores bancos brasileiros. Referência direta para desenhar um índice de maturidade de IA no Brasil. O Key Findings Report (21/07/2026) exige cadastro (ver formulários).
+  - Métrica: Ranking de maturidade em IA de 20 grandes bancos latino-americanos (jul/2026): 1º Nubank, 2º Itaú Unibanco, 3º Bradesco, 4º Banco do Brasil, 5º Credicorp, 6º Bancolombia, 7º BTG Pactual; Caixa em 12º (p. 2)
+  - Métrica: Posições por pilar: Nubank 1º em Talento, Inovação e Liderança; Itaú 1º em Transparência; Banco do Brasil 2º em Transparência e 9º em Talento; BTG 15º em Liderança (p. 2)
+  - Métrica: Metodologia outside-in com 65 indicadores em quatro pilares: Talento 45%, Inovação 25%, Liderança 20% e Transparência 10% (p. 6)
+- **M430 · Evident Insights (2026)** — Evident AI Index | Banks – LATAM: Key Findings Report (July 2026) · F1, F2, F3 · relevância alta · [PDF](08_setor-financeiro/Evident_2026_ai-index-banks-latam-key-findings.pdf)
+  - Primeiro índice regional da Evident: ranking e métricas por pilar (talento, inovação, liderança e transparência) e casos com resultado. É evidência brasileira direta do setor financeiro e mostra o contraste entre casos com resultado e ROI consolidado. O PDF completo (28 p.) foi baixado pelo link direto que a Evident publica no menu 'Latest Reports' do site; na página do relatório, visitantes sem login veem um formulário.
+  - Métrica: Ranking LATAM de maturidade em IA (20 bancos, jul/2026): 1º Nubank, 2º Itaú Unibanco, 3º Bradesco, 4º Banco do Brasil e 5º Credicorp; BTG Pactual em 7º e Caixa em 12º (p. 9)
+  - Métrica: Os 4 bancos brasileiros do topo respondem por quase 50% dos 71 casos de uso de IA com resultados reportados; 6 dos 20 bancos não publicam nenhum caso com resultado (p. 7)
+  - Métrica: 70% dos bancos LATAM publicam casos com resultados e 55% divulgam o total de casos em produção, mas nenhum dos 20 reporta ROI de IA consolidado (realizado ou projetado), contra 30% dos bancos globais (p. 23)
+  - Métrica: Densidade de talentos de IA de 3,8% nos 2 líderes LATAM, contra 2,2% na média global (n=50) e 1,7% na média LATAM; comitê de governança de IA em 100% dos líderes, contra 45% da média LATAM (p. 11)
+- **M431 · Evident Insights (2025)** — Evident AI Outcomes Report 2025 – Key Findings (página oficial salva em PDF) · F1, F2, F3 · relevância alta · [PDF](08_setor-financeiro/Evident_2025_ai-outcomes-report-key-findings.pdf)
+  - Síntese pública do relatório da Evident sobre como os 50 maiores bancos medem e divulgam o valor da IA. Evidencia a distância entre anunciar casos de uso e comprovar resultados. O relatório completo e o benchmark privado dependem de contato comercial (ver formulários).
+  - Métrica: 47 dos 50 bancos do Evident AI Index anunciaram 173 novos casos de uso de IA em 12 meses; as divulgações do 1º semestre de 2025 mais que dobraram frente ao 2º semestre de 2024 (p. 2)
+  - Métrica: Menos de um terço (30%) dos 173 casos de uso divulga alguma métrica de impacto (p. 2)
+  - Métrica: Casos com ganho de receita (conversão, cross-sell, aquisição de clientes) subiram para 16% dos casos reportados no 1º semestre de 2025 (p. 3)
+  - Métrica: 85% dos casos de uso de GenAI são restritos a funções internas (p. 3)
+- **M432 · Evident Insights (2025)** — The 2025 Evident AI Index: Key Findings Report (bancos) · F1, F2 · relevância alta · [PDF](08_setor-financeiro/Evident_2025_ai-index-banks-global-key-findings.pdf)
+  - Relatório global do Evident AI Index de out/2025 (52 p.): ranking dos 50 maiores bancos em maturidade de IA, com talento, inovação, liderança e transparência. Mostra quão raro é medir ROI de IA de ponta a ponta mesmo entre os bancos mais avançados. Obtido via formulário em 30/09/2026 (newsletter desmarcada).
+  - Métrica: Só 3 dos 50 bancos (BNP Paribas, DBS e JPMorgan) conseguem reportar estimativas de ROI presente e projetado para todos os seus casos de uso de IA; o número de bancos que divulgam o total de casos de uso ativos dobrou em um ano (out/2025 vs. out/2024, n = 50) (p. 5)
+  - Métrica: O quadro de talentos de IA dos 50 bancos cresceu 25% em um ano, o maior salto já registrado; os 5 que mais cresceram são americanos: Capital One, JPMorgan, Citi, Bank of America e Wells Fargo (p. 6)
+  - Métrica: JPMorgan lidera em pesquisa de IA (34% da produção), Capital One em patentes (35% dos depósitos) e BNP Paribas em ventures (8% do dealflow) (p. 6)
+  - Métrica: Ranking 2025 de maturidade em IA: 1º JPMorganChase, 2º Capital One, 3º Royal Bank of Canada, 4º CommBank, 5º Morgan Stanley (página do índice)
+- **M433 · FEBRABAN (execução Deloitte) (2026)** — Pesquisa Febraban de Tecnologia Bancária 2026 – Vol. 1 (versão executiva, jun/2026), 34ª edição · F2, F3 · relevância alta · [PDF](08_setor-financeiro/FEBRABAN_2026_pesquisa-tecnologia-bancaria-vol1.pdf)
+  - Versão executiva do Vol. 1 da 34ª Pesquisa FEBRABAN, feita pela Deloitte com 25 bancos (cerca de 85% dos ativos). Complementa o Vol. 2, que já está no catálogo. Traz a série de ganho de eficiência no atendimento com IA/GenAI (de 7% para 10,3%), a fatia de bancos com ganho elevado (de 5% para 19%), o orçamento estimado só de IA (R$ 826 mi em 2025) e a distribuição dos bancos por estágio de implementação. Serve como curva de maturidade do setor bancário brasileiro.
+  - Métrica: R$ 46,8 bilhões de orçamento total de tecnologia dos bancos em 2025 e expectativa de R$ 50,4 bilhões em 2026; alta de 58% em cinco anos (amostra de 21 bancos) (p. 6)
+  - Métrica: Investimento estimado em inteligência artificial subiu de R$ 596 M em 2024 para R$ 826 M em 2025 (+39%); migração para cloud foi de R$ 3 bi para R$ 3,9 bi (+30%) (amostra de 16 bancos) (p. 7)
+  - Métrica: Aumento médio de eficiência no atendimento ao cliente após implementar IA e GenAI: 7% em 2024 e 10,3% em 2025 (amostra equalizada de 21 bancos) (p. 12)
+  - Métrica: Bancos com ganho elevado de eficiência no atendimento (20% ou mais) com IA/GenAI: 5% em 2024 e 19% em 2025 (21 bancos) (p. 12)
+- **M434 · FEBRABAN (execução Deloitte) (2026)** — Pesquisa Febraban de Tecnologia Bancária 2026 – Vol. 2 (versão completa), 34ª edição · F1, F2, F3 · relevância alta · [PDF](08_setor-financeiro/FEBRABAN_2026_pesquisa-tecnologia-bancaria-vol2-completa.pdf)
+  - Principal pesquisa setorial do Brasil, com orçamento de tecnologia e IA, estágios de maturidade por caso de uso, adoção de agentes, arquitetura de LLMs e níveis de governança de IA. É a referência direta para comparar trajetória de maturidade e governança com o setor mais avançado do país.
+  - Métrica: R$ 50,4 bilhões de orçamento total de tecnologia dos bancos previsto para 2026, ante R$ 46,8 bi em 2025; alta de 58% em cinco anos (p. 2 e 6)
+  - Métrica: R$ 2,76 bilhões investidos em IA, analytics e big data (inclui CRM) em 2025 e R$ 2,97 bi esperados em 2026 (+8%), amostra de 16 bancos (p. 9)
+  - Métrica: 92% dos bancos apontam mais velocidade em tarefas rotineiras como principal valor percebido da IA; 52% citam redução de custos; 52% mais eficiência na análise de dados; 48% melhor detecção de fraudes (amostra de 25 bancos, 2026) (p. 18)
+  - Métrica: 84% das instituições usam IA/GenAI em eficiência operacional; análise de risco de crédito é o caso mais maduro (36% em larga escala/otimizada); IA agêntica para automação tem 16% em larga escala e 60% em exploração/piloto (25 bancos) (p. 19)
+- **M435 · Forbes Brasil (Forbes Money) (2025)** — Com Foco em Atendimento Ao Cliente e Segurança, Uso de IA Cresce no Setor Financeiro · F1 · relevância alta · [PDF](08_setor-financeiro/ForbesBrasil_2025_ia-setor-financeiro-atendimento-seguranca.pdf)
+  - Trajetória de IA em Santander (ML antifraude desde 2017, F1RST), Itaú (modelagem desde os anos 1980) e Bradesco (BIA desde 2016), com ganhos em atendimento e eficiência. Discute parcerias com fintechs e o uso de IA em segurança e fraude.
+  - Métrica: Santander: a IA reduziu em 20% o tempo médio de atendimento (p. 5)
+  - Métrica: Itaú: ao menos 75% das interações nos canais de atendimento têm algum auxílio de IA (p. 5)
+  - Métrica: Bradesco: ganhos de eficiência com IA avaliados entre 30% e 40%; assistente BIA com 2 bilhões de interações e 25 milhões de clientes desde 2016 (p. 5)
+  - Métrica: 52% de bancos e fintechs usam IA, contra 40% em 2023 – levantamento NVIDIA (p. 2)
+- **M436 · Forbes Brasil (Forbes Tech) (2025)** — Da Agência Aos Agentes: Bancos Aceleram Iniciativas de IA Generativa · F1 · relevância alta · [PDF](08_setor-financeiro/ForbesBrasil_2025_bancos-ia-generativa-agentes-itau-bradesco.pdf)
+  - Falas de executivos de Itaú (CIO e diretor de tecnologia), Bradesco (diretor de dados e CRM) e Santander sobre IA generativa e agentes. Traz números de escala de modelos, impacto financeiro esperado e ganho de tempo de desenvolvimento. Serve como caso de setor mais maduro.
+  - Métrica: Itaú com mais de 1,3 mil modelos de IA em uso (p. 3)
+  - Métrica: Bradesco: a arquitetura multiagentes (com a Kunumi) encurtou o desenvolvimento de modelos de meses para alguns dias, com a mesma performance, e tem impacto esperado de R$ 250 milhões/ano (p. 4)
+  - Métrica: A plataforma BRIDGE do Bradesco oferece mais de 1.000 modelos pré-definidos (p. 4)
+  - Métrica: Itaú investiu cerca de R$ 88 milhões por 15% da startup de IA NeoSpace; agente de investimentos lançado para 10 mil clientes (p. 2, 4)
+- **M437 · Itaú Unibanco Holding (2026)** — Relatório Anual Integrado 2025 · F1, F2, F3 · relevância alta · [PDF](08_setor-financeiro/Itau_2026_relatorio-anual-integrado-2025.pdf)
+  - Relato integrado do maior banco privado do Brasil, com seção dedicada a tecnologia e IA. Cobre a plataforma interna de GenAI com orquestração de agentes, o funil de iniciativas até a produção, o investimento em modelo fundacional e a Política de IA Responsável com red teaming (p. 33).
+  - Métrica: Mais de 760 iniciativas de IA generativa em desenvolvimento, das quais mais de 150 já em produção (2025) (p. 16)
+  - Métrica: Plataformas de GenAI com mais de 56 mil usuários internos, alta de mais de 50% entre o 1º e o 2º semestre de 2025 (p. 16)
+  - Métrica: Agentes autônomos de IA no ciclo de engenharia de software: ganhos de produtividade de até 30% e adoção por cerca de 75% das equipes de engenharia (p. 16)
+  - Métrica: Crescimento de 84% nas iniciativas de IA generativa e de 34% nos modelos de machine learning em 2025; índice de eficiência no Brasil de 36,9% (p. 7)
+- **M438 · JPMorganChase (2024)** — 2024 Investor Day – Full Transcript (20/05/2024) · F1, F2 · relevância alta · [PDF](08_setor-financeiro/JPMorganChase_2024_investor-day-transcricao-valor-ia.pdf)
+  - Transcrição completa do Investor Day 2024, o documento oficial mais recente em que o JPMorgan dá valor em dólares à IA. Mostra também a lógica de ganhos pequenos e espalhados ('mil pontos de luz', de 2% a 10% em toda parte) e a nomeação de uma Chief Data & Analytics Officer para tornar os dados utilizáveis.
+  - Métrica: Valor atribuído aos casos de uso de IA entre US$ 1 bilhão e US$ 1,5 bilhão (personalização, trading, eficiência operacional, fraude e decisão de crédito), segundo o presidente e COO Daniel Pinto (maio/2024) (p. 4)
+  - Métrica: KYC: 155 mil arquivos processados com 3 mil pessoas em 2022; meta de 230 mil arquivos com 20% menos pessoas até o fim de 2025, ganho de produtividade de 80% a 90% (p. 4-5)
+  - Métrica: Potencial dos LLMs: 60 mil desenvolvedores e 80 mil pessoas em operações e call centers, quase metade da empresa (p. 4)
+  - Métrica: Lembretes com IA tradicional para quem abandona propostas elevam as taxas de conclusão em 10% a 20% (varejo) (p. 23)
+- **M439 · JPMorganChase (2025)** — 2025 Investor Day – Full Presentation (19/05/2025) · F1, F2 · relevância alta · [PDF](08_setor-financeiro/JPMorganChase_2025_investor-day-apresentacao-completa.pdf)
+  - Apresentação completa do Investor Day 2025, com todas as linhas de negócio. Ao contrário do slide-síntese já catalogado, traz o gráfico de valor de IA/ML do varejo, a nota metodológica de como o JPMorgan mede esse valor (ganho sobre a técnica anterior e grupos de controle) e o ROI e payback dos investimentos em tecnologia.
+  - Métrica: Valor gerado por IA/ML no varejo (CCB): +35% em 2024 sobre 2023 e +65% previsto para 2025, com fatia crescente de receita (crédito, precificação, marketing, personalização) além de eficiência em custo e risco (fraude, risco, operações, código) (p. 47)
+  - Métrica: Método de medição: valor é benefício em receita, menor despesa ou custo evitado, a maior parte medida como ganho sobre técnicas analíticas anteriores e o restante contra linha de base aleatória ou grupo de controle (holdout) (p. 77)
+  - Métrica: Investimentos estratégicos em tecnologia e produto do CCB com retorno acima de 2x e payback inferior a 5 anos; mais de 70% de aumento nas implantações de código em 2 anos e cerca de 20% menos retrabalho (p. 29 e 45)
+  - Métrica: Financiamento de veículos: cerca de 80% das decisões de crédito automatizadas com IA e automação; despesas diretas estáveis desde 2019 com originações +19% (p. 67)
+- **M440 · JPMorganChase (2026)** — 2026 Company Update – Firm Overview (apresentação a investidores, 23/02/2026) · F1, F2 · relevância alta · [PDF](08_setor-financeiro/JPMorganChase_2026_company-update-firm-overview.pdf)
+  - Slides mais recentes da JPM. Mostram como o banco mede benefícios de IA: receita, redução de custos e perdas evitadas diretamente atribuíveis a iniciativas de IA (nota do slide 13). Trazem também KPIs de produtividade por FTE, excelentes para modelar métricas de ROI e a lógica de crescer sem aumentar headcount.
+  - Métrica: Ganho de eficiência em codificação com IA acima de 10% em 2025 frente a 2024; no mesmo período, custo unitário de fraude -11%, custo de processamento por conta -4%, contas por FTE de Operações +6%, transações triadas por FTE +29% e custo por negociação de ações -19% (slide 11) (p. 12)
+  - Métrica: Headcount de Operações caiu 4% e o total de funcionários ficou estável (~0%) em 2025, com receita em crescimento (slide 11) (p. 12)
+  - Métrica: Despesa de tecnologia prevista para 2026 de cerca de US$ 19,8 bi (+10% no ano), com US$ 9,2 bi em investimentos e US$ 0,6 bi de eficiências, das quais cerca de 25% ligadas a IA (slide 12) (p. 13)
+  - Métrica: Soluções de IA em produção dobraram em 2025; receita é o maior componente dos benefícios de IA; GenAI é o segmento que mais cresce (slide 13) (p. 14)
+- **M441 · JPMorganChase (2026)** — Annual Report 2025 (carta do CEO Jamie Dimon, carta do COO e cartas dos negócios) · F1, F3 · relevância alta · [PDF](08_setor-financeiro/JPMorganChase_2026_annual-report-2025-carta-ceo.pdf)
+  - Relatório anual do líder do Evident AI Index. A carta de Dimon trata a IA como transformacional, capaz de afetar 'virtualmente toda função', e discute riscos e realocação de pessoas. As cartas do COO e dos negócios trazem métricas de adoção, valor e metas de produtividade.
+  - Métrica: Orçamento de tecnologia de cerca de US$ 19,8 bilhões para 2026 (carta do COO) (p. 52 do PDF)
+  - Métrica: Aumento de quase 60% no valor gerado por IA e machine learning no varejo (Consumer & Community Banking) em 2025 frente a 2024 (p. 59 do PDF)
+  - Métrica: Meta de mais de 40% de eficiência bruta de produtividade em Operações até 2030 (CCB) (p. 59 do PDF)
+  - Métrica: Mais de 90% dos engenheiros usam assistentes de código com IA, e mais de 65 mil colaboradores do banco de investimento (CIB) usam ativamente a LLM Suite (p. 64 do PDF)
+- **M442 · Lloyds Banking Group (2025)** — Digital and AI Investor Seminar – Transcript (06/11/2025) · F1, F2 · relevância alta · [PDF](08_setor-financeiro/LloydsBankingGroup_2025_digital-ai-investor-transcricao.pdf)
+  - Seminário para investidores dedicado a digital e IA. Mostra a disciplina de levar todo investimento à produção, a validação financeira dos benefícios e a reorganização de TI (insourcing de engenharia, plataformas reutilizáveis) que sustenta a escala.
+  - Métrica: Mais de 60% dos cerca de £1,5 bilhão em economias de custo realizadas até hoje são atribuídos diretamente a iniciativas digitais e de IA (estratégia lançada em 2022) (p. 2 e 8)
+  - Métrica: Iniciativas digitais e de IA devem responder por mais de 70% da meta de receitas estratégicas de 2026 (p. 2)
+  - Métrica: Compromisso de levar 50 casos de uso de GenAI à produção em 2025, gerando £50 milhões de benefício efetivo no ano, validado pela área financeira; o banco declara ter saído da fase de POCs e pilotos (p. 5)
+  - Métrica: Mais de 8.000 engenheiros contratados em 4 anos, elevando a força de trabalho de tecnologia própria de 30% para 60% (meta de 80%); 20% das aplicações descomissionadas e metade das restantes modernizadas (p. 3)
+- **M443 · Lloyds Banking Group (2026)** — Lloyds Banking Group expects over £100 million in value from next-generation AI in 2026 (press release, 29/01/2026) · F1, F3 · relevância alta · [PDF](08_setor-financeiro/LloydsBankingGroup_2026_valor-ia-generativa-100m.pdf)
+  - Divulgação oficial, junto com os resultados anuais, do valor financeiro realizado com GenAI e da meta para 2026. O Lloyds é um dos raros bancos que quantificam o benefício de GenAI no resultado.
+  - Métrica: IA generativa gerou cerca de £50 milhões de valor em 2025, e mais de £100 milhões adicionais são esperados em 2026 com GenAI e IA agêntica (p. 1)
+  - Métrica: Mais de 50 soluções de GenAI implantadas em 2025 (p. 1)
+  - Métrica: Athena (assistente de busca de conhecimento): 20 mil colaboradores usuários e redução média de 66% no tempo de busca (p. 1)
+  - Métrica: Cerca de 5.000 engenheiros com ferramentas de código com IA, com melhora de 50% na conversão de código de sistemas legados (p. 1)
+- **M444 · Microsoft (case de cliente Banco Bradesco) (2025)** — Banco Bradesco streamlines customer service with Azure AI Foundry, apps, and databases (plataforma Bridge) · F1, F2 · relevância alta · [PDF](08_setor-financeiro/Microsoft-Bradesco_2025_bridge-plataforma-ia-generativa.pdf)
+  - Case oficial da Microsoft (15/11/2025) sobre a plataforma Bridge do Bradesco, codesenvolvida com Microsoft e Avanade: governança em camadas, criação de agentes pelas áreas de negócio com low-code e integração a canais como WhatsApp. É a fonte oficial mais completa sobre a Bridge; o ganho de R$ 400 milhões em cobrança continua só na imprensa.
+  - Métrica: Bridge (plataforma própria de IA generativa, multiagente e agnóstica a modelos): 83% de resolução no atendimento digital a clientes (BIA) e 80% nas consultas de funcionários, com NPS interno +6 pontos (p. 1-2)
+  - Métrica: Mais de 30% de redução de custos de tecnologia (resumo executivo) e mais de 30% de ganho de produtividade frente às soluções legadas; lançamentos até 10 vezes mais rápidos (p. 1-2)
+  - Métrica: 89% das solicitações resolvidas sem escalonamento; produtividade 8x maior em tarefas gerenciais; 65% de eficiência no planejamento de auditoria (p. 2)
+  - Métrica: Escala: 10 LLMs, mais de 400 experimentos e ao menos 20 casos de uso em produção; mais de dois milhões de requisições e dois bilhões de tokens por dia; BIA atende cerca de 74 milhões de clientes (p. 2)
+- **M445 · NVIDIA (2026)** — State of AI in Financial Services: 2026 Trends – Survey Report · F2, F3 · relevância alta · [PDF](08_setor-financeiro/NVIDIA_2026_state-of-ai-financial-services.pdf)
+  - Pesquisa global anual sobre serviços financeiros, com ROI autodeclarado, adoção de agentes, importância de open source e infraestrutura híbrida. Útil como referência de tendência e de ROI percebido; a amostra veio de listas da própria NVIDIA.
+  - Métrica: 65% das organizações usam IA ativamente (ante 45% em 2024) e 42% usam ou avaliam IA agêntica; 21% do total já implantaram agentes (839 respondentes, ago–set/2025) (p. 4, 8 e 14)
+  - Métrica: 83% relatam retorno sobre o investimento em casos de uso de IA, e 89% dizem que a IA aumentou a receita e reduziu custos anuais (p. 5)
+  - Métrica: 64% relatam aumento de receita acima de 5% e 61% redução de custos acima de 5% graças à IA (p. 10)
+  - Métrica: 48% citam ganho de produtividade dos funcionários como principal benefício (ante 22% no ano anterior); 52% citam eficiência operacional (p. 5)
+- **M446 · NatWest Group (2026)** — NatWest Group plc 2025 Annual Report and Accounts · F1 · relevância alta · [PDF](08_setor-financeiro/NatWest_2026_annual-report-2025.pdf)
+  - Relatório anual 2025 do NatWest, primeiro banco do Reino Unido com colaboração estratégica com a OpenAI. Detalha IA generativa no atendimento, produtividade em engenharia, capacitação em massa e o Centro de Excelência de IA. Não traz valor financeiro consolidado da IA.
+  - Métrica: Assistente Cora: 12,9 milhões de conversas em 2025, 50% sem intervenção humana; IA generativa levada a 17 novas jornadas (21 no total), com cerca de 20 pontos percentuais a mais de consultas resolvidas sem humano (p. 49)
+  - Métrica: Economia de mais de 70.000 horas com resumos automáticos de chamadas e chats e de mais 17.500 horas com respostas a reclamações (varejo, 2025) (p. 28)
+  - Métrica: Mais de 12.000 programadores com assistentes de código com IA; frequência média de implantação de código caiu de 10,0 para 5,6 dias entre 2024 e 2025 (p. 22)
+  - Métrica: Quase 63.000 colaboradores concluíram a formação básica em IA em 2025 e cerca de 11.000 participaram das AI Power Sprints; 15 dos 20 cursos mais feitos são de IA (p. 61)
+- **M447 · Nu Holdings (Nubank) (2026)** — Nubank details AI transformation strategy built on data, foundation models, and democratized financial advice (11/06/2026) · F1, F3 · relevância alta · [PDF](08_setor-financeiro/Nubank_2026_estrategia-ia-nuformer.pdf)
+  - Estratégia 'AI-first' do Nubank. Tem no centro o modelo fundacional proprietário nuFormer, em produção no maior segmento de crédito no Brasil, e os talentos trazidos com a aquisição da Hyperplane (2024). A cultura prevê uso de IA por todos os funcionários, com medição de uso e impacto.
+  - Métrica: Base de 135 milhões de clientes, com 83% de taxa de atividade, como vantagem de dados (p. 2)
+  - Métrica: Ciclo de experimentação da pesquisa comprimido de meses para um único dia com um laboratório automatizado (p. 2)
+  - Métrica: Projeto de arquitetura de backend adiantado em quase um ano com desenvolvimento assistido por IA (p. 2)
+  - Métrica: Funcionalidades do 'AI Private Banker' já usadas por mais de 15 milhões de usuários ativos mensais (p. 3)
+- **M448 · Royal Bank of Canada (RBC) (2025)** — 2025 RBC Investor Day Presentation · F1, F2 · relevância alta · [PDF](08_setor-financeiro/RBC_2025_investor-day-apresentacao.pdf)
+  - Apresentação completa do Investor Day 2025 do RBC (3º no Evident AI Index), com a meta explícita de valor de IA até 2027 e os programas que devem gerá-lo: crédito de varejo, hipotecas, crédito comercial, produtividade de desenvolvedores, capacitação de assessores e hiperpersonalização. Mostra também a arquitetura de fundações (dados, GPU, modelo fundacional próprio) e resultados por negócio.
+  - Métrica: Meta de C$ 700 milhões a C$ 1 bilhão de valor corporativo gerado por IA até 2027 (Investor Day de 27/03/2025) (p. 26)
+  - Métrica: Fundações de IA: mais de 18 milhões de clientes, mais de 1 bilhão de eventos de negócio por dia capturados, um dos maiores parques de GPU do Canadá e modelo fundacional próprio de transações (ATOM) (p. 24)
+  - Métrica: 3º lugar global em maturidade de IA entre instituições financeiras, mais de 1.700 tecnólogos contratados em 2024, mais de 1.000 patentes desde 2019 e mais de C$ 5 bilhões por ano em tecnologia (p. 8 e 23)
+  - Métrica: Mercado de capitais (plataforma Aiden): +28% ao ano na atividade de algoritmos desde 2020, +52% de leitura das publicações RBC Elements no ano e +60% de velocidade na geração de insights de resultados (p. 68)
+- **M449 · Royal Bank of Canada (RBC) (2025)** — Strategic Update – December 3, 2025 (2025 progress on Investor Day targets) · F1, F2 · relevância alta · [PDF](08_setor-financeiro/RBC_2025_strategic-update-4T25-valor-ia.pdf)
+  - Atualização estratégica publicada com o 4T25. Mostra a curva J do valor de IA (em 2025 os benefícios brutos ainda foram compensados pelos investimentos) e a definição que o banco usa para medir valor de IA, líquida de investimentos. Referência rara de como um banco do topo do Evident mede e reporta o ROI de IA.
+  - Métrica: Valor incremental de IA em 2025 (base 2024, líquido de investimentos): benefícios brutos ainda compensados pelos investimentos, com a meta de C$ 700 milhões a C$ 1 bilhão mantida para 2027 (p. 7)
+  - Métrica: Definição usada pelo banco: valor de IA é o benefício anualizado de saída (run-rate) em receita, custos evitados, redução de despesas, redução de fraude e menor custo de risco, incremental a 2024 e líquido de investimentos (p. 23)
+  - Métrica: Crédito para pequenas empresas decidido automaticamente: 32% em 2024, 45% em 2025 e meta de 90% em 2027; agentes de IA para subscrição de crédito atacadista entrando em produção ao longo de 2026 (p. 19)
+  - Métrica: Cerca de 25% dos clientes atendidos pelo Advice Centre usaram o atendimento conversacional com IA generativa (2025) (p. 17)
+- **M450 · Sicoob (Sistema de Cooperativas de Crédito do Brasil) (2026)** — Demonstrações Contábeis Combinadas do Sicoob – 31/12/2025 (Relatório da Administração: 'Eficiência, Escala e Inteligência Artificial Aplicada') · F1, F3 · relevância alta · [PDF](08_setor-financeiro/Sicoob_2026_demonstracoes-combinadas-2025-relatorio-administracao.pdf)
+  - Relatório da Administração que acompanha as demonstrações combinadas de 2025 do Sicoob, cooperativa com forte presença no crédito rural. Traz o primeiro número de produtividade de IA do sistema (530 mil horas substituídas por mais de 90 funcionários digitais) e uma escolha clara de soberania de dados: LLMs abertos hospedados em nuvem sob gestão própria, com framework interno para governar agentes.
+  - Métrica: Mais de 90 funcionários digitais em operação em 2025, que já substituíram mais de 530 mil horas de trabalho humano desde a implantação (p. 13)
+  - Métrica: Framework próprio ADK (kit de desenvolvimento de agentes de IA) para orquestração, governança e escala de agentes; 'Sisbr IA' em todos os módulos do Sisbr com LLMs de código aberto em nuvem gerida pelo centro cooperativo, sem compartilhar dados sensíveis com o ambiente externo (2025) (p. 12)
+  - Métrica: R$ 232 milhões aplicados em 2025 na modernização e expansão da infraestrutura tecnológica e em segurança cibernética (p. 12)
+  - Métrica: IA nas linhas de negócio (parecer de crédito, parecer técnico no Astec Digital, consulta de normativos) e no ciclo de desenvolvimento de software (documentação, código, testes, diagnóstico de incidentes); para 2026, assistente de investimentos e assistente de IA no SuperApp (p. 13)
+- **M451 · State Street Corporation (2026)** — State Street – 2Q 2026 Financial Highlights (apresentação de resultados, 16/07/2026) · F1, F2 · relevância alta · [PDF](08_setor-financeiro/StateStreet_2026_2q26-earnings-presentation.pdf)
+  - Apresentação a investidores com uma meta explícita de valor para o pilar 'Tech and AI-enabled Transformation', que inclui IA, modernização tecnológica e modelo operacional (o valor não é só de IA). O Evident cita esse alvo como o 4º maior valor de IA já declarado por um banco. É referência de como declarar ROI com prazo e composição entre produtividade e receita.
+  - Métrica: A transformação de tecnologia e IA deve gerar ~US$ 1 bi de benefícios anuais recorrentes até 2029: ~US$ 750 milhões de produtividade e ~US$ 250 milhões de receita (p. 17 e nota 35, p. 27)
+  - Métrica: Ferramentas modernas de IA para os times de desenvolvimento com ~30-40% de aumento de produtividade dos desenvolvedores; lançamento de uma plataforma agêntica central (p. 17)
+  - Métrica: Meta de ~80% das aplicações em plataformas de nuvem modernas, ante ~40% hoje, e migração para modelo operacional de produto/plataforma com times ágeis habilitados por IA (p. 17)
+  - Métrica: Metas de médio prazo associadas: 35% de margem pré-tributária e ROTCE 'mid-20s%' (p. 15)
+- **M452 · World Economic Forum, com Accenture (2026)** — The AI Playbook for Financial Services (Insight Report) · F1, F2 · relevância alta · [PDF](08_setor-financeiro/WEF-Accenture_2026_ai-playbook-financial-services.pdf)
+  - Playbook baseado em 18 meses de mesas-redondas com mais de 150 líderes de mais de 100 organizações. Propõe uma estratégia de 'duas velocidades': ganhos rápidos junto com bases de dados, governança e força de trabalho. Tem casos com métricas de ROI e funil de ideias até escala. Base primária da reportagem da Forbes Money sobre IA agêntica e confiança nos bancos.
+  - Métrica: KBTG (Kasikornbank): mais de 200 ideias, 60 MVPs e 8 casos escalados; cerca de 30 mil dias de trabalho economizados; produtividade +20% a 59% em tarefas administrativas (p. 26)
+  - Métrica: Mastercard Consumer Clarity: +15% de precisão de dados, -87% no tempo de processamento e -92% no custo por registro (p. 30)
+  - Métrica: Allianz Partners: análise de sinistros de dias para minutos e detecção de fraude e pagamentos indevidos 1,5 vez melhor (p. 16)
+  - Métrica: International Bank of Azerbaijan: carteira de microcrédito com ML com rendimento médio de 21% e inadimplência abaixo de 4% (p. 15)
+- **M453 · BIS – Bank for International Settlements (2024)** — Annual Economic Report 2024 – Chapter III: Artificial intelligence and the economy: implications for central banks · F3 · relevância media · [PDF](08_setor-financeiro/BIS_2024_annual-economic-report-cap3-ia.pdf)
+  - Capítulo de referência do BIS sobre IA no sistema financeiro e na economia (produtividade, dados, riscos) e sobre bancos centrais como usuários de IA. Útil para o contexto macro e como evidência causal de ganhos de produtividade.
+  - Métrica: Aumento médio de 55% na produtividade (linhas de código) de programadores com acesso a LLM em experimento de campo com a Ant Group (CodeFuse), com ganhos concentrados nos juniores (Box E) (p. 20)
+  - Métrica: Desenvolvedores com GitHub Copilot entregaram mais que o dobro de projetos por semana (evidência citada) (p. 19)
+- **M454 · BTG Pactual (2026)** — Relatório Anual 2025 · F1 · relevância media · [PDF](08_setor-financeiro/BTGPactual_2026_relatorio-anual-2025.pdf)
+  - Relatório anual 2025 do BTG, com o PDF oficial localizado no site institucional. A IA aparece como pilar da transformação digital, com agentes para personalizar jornadas, IA na segurança da informação e centralização da governança das soluções de IA (p. 29). Sem métricas de valor financeiro.
+  - Métrica: 2.545 colaboradores treinados em IA em 2025, com curso online de 4,8 horas para todos e programa presencial de 12 turmas de 8 horas para gerência, diretoria e C-level (p. 102)
+  - Métrica: IT Sessions (17 módulos, de big data a IA): mais de 500 formados, 199 deles em 2025 (p. 102)
+  - Métrica: Assistente Virtual de Banking multiagente no WhatsApp (consultas, Pix e pagamentos, entendendo texto, áudio, imagem e arquivos), reconhecido pela Global Finance em 2025 (p. 12)
+- **M455 · Bain & Company (2025)** — A Big Bet on Generative AI Puts Bradesco Ahead of the Curve (case de cliente) · F1, F2 · relevância media · [link](https://www.bain.com/client-results/ai/bradesco/)
+  - Case público da jornada de GenAI do Bradesco: começa por um caso interno de baixo risco, passa por uma plataforma de GenAI agnóstica a LLM e por capacitação transversal antes de escalar para clientes. Complementa o relatório integrado do banco.
+  - Métrica: GenAI integrada ao chatbot interno dos gerentes de agência em 12 semanas (página web)
+  - Métrica: Chatbot de clientes com GenAI construído em 8 semanas atingiu 90% de retenção (resolução sem humano), ante meta de 50% (página web)
+  - Métrica: Copiloto do call center reduziu em 40% o tempo médio de atendimento no piloto (página web)
+- **M456 · Banco Bradesco (2026)** — Trusted AI – Compromisso do Bradesco com a IA confiável (versão de 2026) · F1 · relevância media · [PDF](08_setor-financeiro/Bradesco_2026_compromisso-ia-confiavel.pdf)
+  - Documento público de compromisso com IA confiável, preparado para os critérios de governança do índice Dow Jones de sustentabilidade. Pelos metadados, é de agosto de 2026. Descreve a arquitetura de governança de IA do banco. A versão citada pelo deep research, com 2,2 bilhões de interações da BIA e 88% de acerto, foi substituída e não traz mais métricas (as da BIA estão no Relatório Integrado 2025, já catalogado).
+  - Métrica: Governança de IA ancorada em Política de Riscos de IA aprovada pelo Conselho de Administração, Norma interna de IA, Comissão de Governança e Diretrizes de Bom Uso, alinhada ao EU AI Act e aos princípios da OCDE; vale para IA tradicional e generativa, própria ou de terceiros (p. 1)
+  - Métrica: Supervisão humana documentada para usos críticos e avaliação de risco por criticidade em todo o ciclo de vida; a BIA opera com termo de uso por opt-in (p. 3)
+  - Métrica: Usos proibidos: manipulação, exploração de vulnerabilidades, social scoring e vigilância biométrica em tempo real não autorizada (p. 4)
+  - Métrica: Documento assinado pelo Diretor de Inteligência de Dados, com canal próprio de governança de IA (p. 5)
+- **M457 · Banco Central do Brasil (2026)** — Relatório Integrado do Banco Central 2025 (RIG 2025, publicado em 27/03/2026) · F1, F3 · relevância media · [PDF](08_setor-financeiro/BCB_2026_relatorio-integrado-2025.pdf)
+  - Relatório de gestão mais recente do Banco Central. Mostra como uma instituição pública organiza a IA: um centro de excelência (Colmeia), uma plataforma própria de GenAI (ChatBC), um programa interno de inovação voltado a agentes e o uso da IA para compensar a falta de pessoal. Não há métricas financeiras.
+  - Métrica: Adoção 'gradual e controlada' de IA como resposta ao risco estratégico de vacância e ao quadro reduzido de servidores (2025) (p. 30)
+  - Métrica: O assistente virtual Din passou a usar IA em 2025; o atendimento soma 57,3 mil conversas por mês (p. 39)
+  - Métrica: Programa Start 2025 dedicado a agentes de IA integrados ao ChatBC (plataforma própria de IA generativa): dezenove iniciativas selecionadas, com 22 unidades envolvidas, acompanhadas pelo Centro de Excelência em Ciência de Dados e IA (Colmeia) (p. 52)
+  - Métrica: Adoção sistemática de métodos de machine learning nas projeções de inflação dos ciclos do Copom (2025) (p. 72)
+- **M458 · Banco Santander (Grupo) (2026)** — Press release on the presentation of strategic plans and targets at the Investor Day (25/02/2026) · F1, F3 · relevância media · [PDF](08_setor-financeiro/Santander_2026_investor-day-plano-estrategico.pdf)
+  - Plano estratégico 2026–2028 em que dados e IA são alavanca central do programa ONE Transformation (jornadas hiperpersonalizadas, produtividade da linha de frente e automação ponta a ponta), com meta financeira explícita para IA.
+  - Métrica: Meta de gerar mais de €1 bilhão por ano em valor de negócio (economia de custos mais receitas) com iniciativas de dados e IA até 2028, contribuindo com cerca de 1 p.p. de melhora no índice de eficiência do grupo (p. 3)
+  - Métrica: Metas para 2028: índice de eficiência de cerca de 36%, lucro acima de €20 bilhões e mais de 210 milhões de clientes (p. 1)
+- **M459 · Capital One (2026)** — Capital One Auto earns two 2026 BIG Innovation Awards (Chat Concierge e ProtectID) · F1, F3 · relevância media · [link](https://www.capitalone.com/about/newsroom/capital-one-auto-wins-two-2026-big-innovation-awards/)
+  - Release do 2º colocado no Evident AI Index sobre dois produtos de IA: um sistema multiagente voltado ao comprador de veículos e um modelo antifraude. O relatório anual 2025 do banco trata a IA só de forma qualitativa (estratégia de construir, e não alugar, capacidades de IA).
+  - Métrica: Chat Concierge (IA agêntica própria para concessionárias) foi 55% mais eficaz em converter leads em compradores do que um concorrente líder (resultados do 1º trimestre de 2025) (release de 12/03/2026)
+  - Métrica: ProtectID (modelos próprios de detecção de fraude com IA) evitou mais de US$ 120 milhões em propostas de financiamento de veículos potencialmente fraudulentas em 12 meses (release de 12/03/2026)
+- **M460 · Commonwealth Bank of Australia (CommBank) (2026)** — Commonwealth Bank of Australia 2026 Annual Review · F1 · relevância media · [PDF](08_setor-financeiro/CommBank_2026_annual-review-2026.pdf)
+  - Revisão anual do ano fiscal 2026 do CommBank (4º no Evident). Traz adoção de IA pelos funcionários, investimento em requalificação, IA agêntica no combate a fraudes e a base de dados e nuvem que sustenta a IA.
+  - Métrica: Mais de 80% dos funcionários usam IA toda semana e mais de 21.500 concluíram formação em IA (ano fiscal 2026) (p. 9)
+  - Métrica: Programa Future Workforce de A$ 90 milhões em três anos para requalificação, com IA entre as áreas prioritárias (p. 3 e 9)
+  - Métrica: Mais de 80 milhões de atividades de contas monitoradas por dia; plataformas antifraude combinam IA, machine learning e agora IA agêntica, com mais de A$ 1 bilhão investido no ano (p. 7-8)
+  - Métrica: Migração completa do core bancário para a nuvem AWS: 17 milhões de clientes e 28 milhões de contas (p. 7)
+- **M461 · Evident Insights (2026)** — 2026 Evident AI Index for Insurance: Key Findings Report (página oficial, 16/06/2026) · F2, F3 · relevância media · [link](https://evidentinsights.com/insights/insurance-ai-index-2026-report)
+  - Key findings públicos do índice de maturidade em IA das 30 maiores seguradoras (lidera a Allianz, seguida de AXA, Manulife, Zurich e Liberty Mutual). Serve de régua para a maturidade de IA no setor segurador e mostra a comprovação de resultados como marcador de maturidade.
+  - Métrica: Papéis de especialista em IA cresceram 32% em um ano e já são quase 1 em cada 50 funcionários, enquanto a força de trabalho total encolheu 2,2% (30 seguradoras, 2026) (página web)
+  - Métrica: 20 de 30 seguradoras reportam ao menos um caso de uso de IA com resultados (+8 no ano); Allianz, AXA, Manulife, Travelers e Zurich concentram 48% dos casos bem documentados (página web)
+  - Métrica: 49% dos casos divulgados ainda têm escopo restrito (velocidade, custo, eficiência) e só 8% são avançados (raciocínio agêntico, qualidade de decisão) (página web)
+  - Métrica: 26 de 30 seguradoras têm programas de treinamento em IA; transações centradas em IA passaram de 50% do dealflow em 2025 (página web)
+- **M462 · Evident Insights (2025)** — Here's the 2025 Evident AI Index (Banking Brief, edição especial de 08/10/2025) · F1, F2 · relevância media · [PDF](08_setor-financeiro/Evident_2025_banking-brief-ai-index-2025.pdf)
+  - Resumo público oficial do índice global de 2025 (newsletter da Evident), salvo em PDF. É a alternativa aberta ao Key Findings Report, que exige formulário: traz o ranking, as tendências de talento e de reporte de ROI e os perfis dos líderes. Útil como referência de índice externo de maturidade em IA.
+  - Métrica: O número de bancos que reportam o ROI total de todos os casos de uso de IA dobrou em relação a 2024 (50 bancos, out/2025) (p. 3)
+  - Métrica: O quadro de talentos de IA dos 50 bancos cresceu mais de 25%, o maior aumento desde 2023; o top 10 elevou a pontuação em mais que o dobro da média (p. 3)
+  - Métrica: 7 dos 10 primeiros e 11 dos 20 primeiros bancos têm sede na América do Norte, com pontuação média mais de 20% acima dos demais (p. 4)
+  - Métrica: Pesos dos pilares do índice: Talento 45%, Inovação 30%, Liderança 15% e Transparência 10% (p. 5)
+- **M463 · FSB – Financial Stability Board (2024)** — The Financial Stability Implications of Artificial Intelligence (14/11/2024) · F3 · relevância media · [PDF](08_setor-financeiro/FSB_2024_financial-stability-implications-ai.pdf)
+  - Avaliação do FSB sobre benefícios e vulnerabilidades da IA no sistema financeiro: dependência de terceiros e concentração de fornecedores, correlações de mercado, risco cibernético, risco de modelo e governança. Insumo para a análise de riscos e governança.
+  - Métrica: Investimento em IA no setor financeiro pode chegar a US$ 400 bilhões em 2027, ante US$ 166 bilhões em 2023 (estimativa do FMI citada) (p. 8)
+  - Métrica: 66% dos modelos fundacionais lançados em 2023 eram open source, ante 33% em 2021 (p. 11)
+- **M464 · Forbes Brasil (Forbes Tech) (2025)** — Bradesco Estrutura Plataforma Própria de IA Generativa para Aplicações Corporativas (BRIDGE) · F1 · relevância media · [PDF](08_setor-financeiro/ForbesBrasil_2025_bradesco-bridge-plataforma-ia-generativa.pdf)
+  - Plataforma proprietária de IA generativa multi-cloud, integrada ao ecossistema do banco (Azure, ServiceNow, Power Platform). Tem framework próprio de governança de IA feito com o escritório Opice Blum e parceiros como Microsoft, Avanade e Bain. É um caso de plataforma corporativa e governança.
+  - Métrica: Plataforma BRIDGE (em operação desde abr/2024) incorporada em mais de 200 iniciativas de atendimento, TI, marketing, ouvidoria, crédito e operações (p. 2)
+  - Métrica: Assistente BIA com taxa de resolutividade próxima de 90% (p. 3)
+- **M465 · Goldman Sachs (2026)** — Annual Report 2025 – Letter to Shareholders (One Goldman Sachs 3.0) · F1, F3 · relevância media · [PDF](08_setor-financeiro/GoldmanSachs_2026_carta-acionistas-2025-onegs3.pdf)
+  - Carta de David Solomon sobre 2025. Não traz números de valor, mas descreve o redesenho do modelo operacional em torno da IA (visão de ponta a ponta de pessoas, decisões e dados), um caso de F1 sobre organização. O PDF só é servido com o cabeçalho de origem da página oficial do relatório anual.
+  - Métrica: OneGS 3.0, novo modelo operacional propulsionado por IA, começa por seis frentes: onboarding/KYC, gestão de fornecedores, reporte regulatório, crédito, gestão de riscos corporativos e habilitação de vendas (p. 12)
+  - Métrica: Objetivos declarados: resiliência e capacidade de escala, produtividade e eficiência, rentabilidade, experiência de clientes e funcionários e gestão de riscos (p. 12)
+- **M466 · HSBC Holdings (2026)** — HSBC Holdings plc Strategic Report 2025 · F1 · relevância media · [PDF](08_setor-financeiro/HSBC_2026_strategic-report-2025.pdf)
+  - Relatório estratégico 2025 do HSBC: IA e automação como eixo da reengenharia do banco, parceria estratégica com a Mistral e plano de levar a IA aos processos centrais em 2026. Não divulga valor financeiro da IA.
+  - Métrica: Mais de 100 soluções de IA generativa em uso em 2025, com passagem da experimentação para a entrega em escala (p. 13)
+  - Métrica: Mais de 31.000 engenheiros usam assistente de código com IA; a ferramenta HSBC Productivity Suite está disponível para cerca de 85% dos colaboradores (p. 10)
+- **M467 · HSBC Holdings (2026)** — Transforming HSBC with AI · F1 · relevância media · [link](https://www.hsbc.com/who-we-are/hsbc-and-digital/hsbc-and-ai/transforming-hsbc-with-ai)
+  - Página oficial sobre a estratégia de IA do HSBC, com contagem de casos de uso, ganhos de produtividade em engenharia e a estrutura de governança em comitês. Não foi impressa porque a cota de impressões do agente acabou.
+  - Métrica: Mais de 600 casos de uso de IA em operação (fraude, cibersegurança, monitoramento de transações, atendimento e risco) (página oficial, atualizada em 17/08/2026)
+  - Métrica: Mais de 20.000 desenvolvedores usam assistentes de código, com 15% de eficiência no tempo de codificação (página oficial)
+  - Métrica: Assistente de IA generativa das equipes de serviço do banco de atacado apoia 3 milhões de interações de clientes por ano; 88% dos clientes avaliam o banco como fácil de lidar (página oficial)
+  - Métrica: Governança: Group AI Review Committee e AI Review Councils em toda a organização desde o 1º semestre de 2025 (página oficial)
+- **M468 · IBM Brasil (com Banco do Brasil e EY) (2025)** — Banco do Brasil adota governança de IA com IBM e EY e reforça seu compromisso com transparência, ética e confiabilidade (17/06/2025) · F1, F2 · relevância media · [PDF](08_setor-financeiro/BancodoBrasil-IBM_2025_governanca-ia-600-casos.pdf)
+  - Release oficial da IBM (PDF gerado pelo próprio newsroom) sobre o projeto de governança de IA do BB. Mostra a estrutura organizacional dedicada e o ferramental adotado para escalar IA generativa com controles, um bom exemplo de F2 sobre dependências críticas para escalar.
+  - Métrica: Mais de 600 casos de uso de IA em operação, atendendo mais de 80 milhões de clientes (jun/2025) (p. 1)
+  - Métrica: Mais de 1,4 mil soluções analíticas implementadas desde 2013, cerca de 700 com IA; o programa AcademIA BB atingiu quase 25 mil pessoas (p. 2)
+  - Métrica: Governança de IA com IBM watsonx.governance e o framework de ciclo de vida de IA generativa da EY, com monitoramento contínuo de viés, transparência, desvio e desempenho, e papéis dedicados (Gerente Executiva de Governança de IA e Head de IA) (p. 1-2)
+- **M469 · JPMorganChase (2023)** — 2023 Investor Day – Global Technology Transcript (22/05/2023) · F1, F2 · relevância media · [PDF](08_setor-financeiro/JPMorganChase_2023_investor-day-tecnologia-meta-valor-ia.pdf)
+  - Transcrição da apresentação de tecnologia do Investor Day 2023. Está fora da janela 2024–2026, mas é a origem da série de metas de valor de IA do banco e traz o dimensionamento da organização de dados e IA e casos com valor em dólares.
+  - Métrica: Meta de valor de negócio com IA elevada de US$ 1 bilhão para US$ 1,5 bilhão até o fim de 2023, com mais de 300 casos de uso em produção (+34% no ano) (p. 2-3)
+  - Métrica: Estrutura: mais de 900 cientistas de dados, 600 engenheiros de machine learning, cerca de 1.000 pessoas em gestão de dados e equipe de pesquisa em IA de 200 pessoas (p. 3)
+  - Métrica: Personalização no varejo gerou mais de US$ 220 milhões de benefício em um ano; sinais de crescimento para gerentes do Commercial Bank geraram US$ 100 milhões em 2022 (p. 4)
+- **M470 · JPMorganChase (2025)** — 2025 Investor Day – Firm Overview (19/05/2025) · F1, F2 · relevância media · [PDF](08_setor-financeiro/JPMorganChase_2025_investor-day-firm-overview.pdf)
+  - Slide-síntese de 2025 sobre as fundações (data centers, nuvem, dados conectados) e a adoção de GenAI e agentes. Lido junto com o Company Update 2026, mostra a trajetória de um ano: as soluções em produção dobraram.
+  - Métrica: Mais de 200 mil usuários da LLM Suite, cerca de 100 soluções de GenAI em produção e mais de 40 mil engenheiros com assistentes de código de IA, em 2025 (slide 10) (p. 11)
+- **M471 · JPMorganChase (2025)** — 2025 Investor Day – Full Transcript (19/05/2025) · F1 · relevância media · [PDF](08_setor-financeiro/JPMorganChase_2025_investor-day-transcricao-completa.pdf)
+  - Transcrição do Investor Day 2025. Complementa os slides com exemplos quantificados por negócio (KYC, pagamentos, fraude) e com a visão dos executivos sobre dados, nuvem e IA como alavanca de produtividade.
+  - Métrica: KYC no banco de investimento (CIB): redução de 40% no custo unitário desde 2022 com IA e melhorias de tecnologia (p. 29)
+  - Métrica: Pagamentos: volumes de transações +50% nos últimos anos enquanto modelos de IA cortaram mais de 50% das exceções manuais e cerca de 75% do tempo de tratamento dessas exceções (p. 34)
+  - Métrica: Fraude no varejo: custo em pontos-base estável apesar de ataques crescendo 12% ao ano, com a IA como parte muito significativa da solução (p. 13)
+  - Métrica: Investimentos em tecnologia do varejo no ano com retorno acima de 2x (p. 12)
+- **M472 · JPMorganChase (2026)** — 2026 Company Update – Full Event Transcript · F1, F2 · relevância media · [PDF](08_setor-financeiro/JPMorganChase_2026_company-update-transcricao.pdf)
+  - Transcrição que traz o racional da estratégia de IA: foco em atendimento e engenharia, e uso da LLM Suite via APIs internas nos fluxos de trabalho. Traz também evidências de organização: o CIO e a Chief Data & Analytics Officer integram o Operating Committee, com um especialista dedicado a IA, e o banco se apresenta como centro de excelência em ML/IA há uma década.
+  - Métrica: Cerca de US$ 600 milhões em eficiências identificadas no orçamento de tecnologia de 2026, parte delas relacionadas a IA (p. 5)
+  - Métrica: Número de casos de uso de IA em produção dobrou em 2025 (p. 5)
+  - Métrica: Um caso de IA em controles foi escalado de 200 para 3.000 pessoas, e outras 3.000 a 5.000 pessoas foram identificadas como potenciais usuárias (p. 11)
+- **M473 · McKinsey & Company (Financial Services Practice) (2025)** — Global Banking Annual Review 2025: Why precision, not heft, defines the future of banking · F3, F1 · relevância media · [PDF](08_setor-financeiro/McKinsey_2025_global-banking-annual-review-precision-not-heft.pdf)
+  - Relatório completo de 59 páginas (23/10/2025) da revisão anual do setor bancário, com capítulo sobre a era da IA agêntica e a 'caixa de ferramentas de precisão' (tecnologia, novo consumidor, capital e M&A). A landing page bloqueou o robô, mas o PDF oficial foi baixado do mckinsey.com.
+  - Métrica: A IA pode reduzir custos brutos em até 70% em certas categorias; o efeito líquido esperado é de 15% a 20% de redução na base de custos agregada dos bancos (p. 3-4)
+  - Métrica: Os lucros dos bancos podem cair US$ 170 bilhões (9%) na próxima década com a IA agêntica se os modelos de negócio não se adaptarem; pioneiros em IA podem elevar o ROTE em até quatro pontos percentuais (p. 4)
+  - Métrica: O setor gasta cerca de US$ 600 bilhões por ano em tecnologia sem ganho consistente de produtividade (p. 12)
+  - Métrica: Lucro líquido recorde de US$ 1,2 trilhão e ROE de 10,3% em 2024 (p. 6)
+- **M474 · McKinsey & Company (Financial Services Practice) (2026)** — Global Banking Annual Review 2026: Precision with speed (prévia, maio de 2026) · F3 · relevância media · [PDF](08_setor-financeiro/McKinsey_2026_global-banking-annual-review-precision-with-speed.pdf)
+  - Prévia (maio/2026) da edição de outubro de 2026: desempenho de 2025, novos modelos regionais, quatro forças que ameaçam a relação com o cliente (fintechs maduras, neobancos como Nubank, IA agêntica e stablecoins) e a proposta de organização 'multivelocidade' para executar na velocidade da IA.
+  - Métrica: Lucro líquido global dos bancos de US$ 1,3 trilhão em 2025 (alta de 7%); margem financeira no Brasil caiu de 3,55% para 2,93% (p. 3)
+  - Métrica: Adoção de IA 7 vezes mais rápida que a do banco digital: 45% da população adulta economicamente ativa dos EUA adotou IA generativa em dois anos, contra 15 anos do banco digital (p. 12, 15)
+  - Métrica: Bancos líderes elevam o engajamento de clientes em 20 a 30 p.p. e o valor do cliente em 10% a 25% (p. 21)
+- **M475 · Morgan Stanley (2024)** — Morgan Stanley Wealth Management Announces Latest Game-Changing Addition to Suite of GenAI Tools – Launch of AI @ Morgan Stanley Debrief (release) · F1 · relevância media · [link](https://www.morganstanley.com/press-releases/ai-at-morgan-stanley-debrief-launch)
+  - Release oficial com a única métrica verificável de IA em fonte do próprio Morgan Stanley (adoção de 98% pelos times de assessores). A carta aos acionistas de 2026 foi lida e é apenas qualitativa (IA como 'prioridade estratégica' e talento de IA embutido em cada negócio). O dado do DevGen.AI (280 mil horas) só aparece em mídia.
+  - Métrica: 98% das equipes de Financial Advisors adotaram o AI @ Morgan Stanley Assistant, lançado integralmente em set/2023 (página web, 2024)
+  - Métrica: Relato de assessor no release: o Debrief economiza cerca de meia hora por reunião ao cuidar das anotações (página web)
+  - Métrica: Governança: cargo de Head of Firmwide Artificial Intelligence; a OpenAI é o único parceiro estratégico de wealth management desde mar/2023 (página web)
+- **M476 · NatWest Group (2026)** — NatWest Group FY 2025 Results – equity presentation (13/02/2026) · F1 · relevância media · [PDF](08_setor-financeiro/NatWest_2026_resultados-2025-apresentacao.pdf)
+  - Slides de resultados de 2025 do NatWest com o resumo quantitativo da simplificação apoiada em IA por negócio. O slide não atribui os £ 100 milhões só à IA; a atribuição a assistentes e agentes de IA e à nuvem aparece apenas na imprensa.
+  - Métrica: £ 100 milhões de capacidade de investimento criada em 2025 com a simplificação do banco, ao lado de £ 0,6 bilhão de economia bruta de custos e £ 1,2 bilhão investidos, com parcerias de IA e dados como alavanca (p. 7)
+  - Métrica: Varejo: resumo de chamadas com IA economiza mais de 70 mil horas por ano em mais de 700 mil interações; +20 pontos percentuais de resoluções pela Cora após a IA generativa; 6% menos FTE por mil clientes (p. 7)
+  - Métrica: 100% das chamadas de reclamação com transcrição e resumo por IA; ferramentas de IA cortam mais de 70% do tempo de resumo de chamadas no private banking; índice custo/receita do grupo caiu 4,8 pontos, para 48,6% (p. 7)
+- **M477 · Rabobank (2026)** — Rabobank and AI (página institucional, 2026) · F1 · relevância media · [link](https://www.rabobank.com/about-us/rabobank-and-ai)
+  - Página oficial do principal banco cooperativo com foco em agro do mundo. Não há métricas quantitativas (nem no relatório anual, segundo a busca), mas a página descreve a governança: comitê de IA ligado ao COO, hub de IA agêntica e programa de capacitação. É referência de organização de IA num banco do agro.
+  - Métrica: Comitê central de IA dá a direção da estratégia, do desenvolvimento e da adoção, e revisa riscos e decisões relevantes junto com o COO (página web, 2026)
+  - Métrica: Agentic AI Hub criado (anúncio de 24/06/2026) para desenvolver, testar e escalar aplicações de IA agêntica, começando pelo desenvolvimento de software (página web)
+  - Métrica: Programa You&AI de capacitação de líderes e funcionários; avaliação prévia de risco e impacto e conformidade com o EU AI Act; uso de Microsoft 365 Copilot e GitHub Copilot (página web)
+- **M478 · Royal Bank of Canada (RBC) (2026)** — Address to Shareholders by Dave McKay – 157th Annual Meeting (09/04/2026) · F1 · relevância media · [PDF](08_setor-financeiro/RBC_2026_carta-acionistas-ceo.pdf)
+  - Discurso do CEO na assembleia de 2026. Explica a vantagem de escala de dados do banco e anuncia a nova estrutura organizacional de IA (AI Group ligado ao CEO), um exemplo de F1 sobre organização e patrocínio executivo.
+  - Métrica: Criação, no início de 2026, do AI Group: equipe que apoia todos os negócios e se reporta diretamente ao CEO, com a missão de acelerar a transformação de IA em escala (p. 9)
+  - Métrica: Ambição reiterada de até um bilhão de dólares canadenses em valor corporativo gerado por IA até 2027 (p. 9)
+  - Métrica: Investimento de mais de C$ 5 bilhões por ano em tecnologia (gasto de 2024) (p. 4)
+- **M479 · Royal Bank of Canada (RBC) (2025)** — RBC Fourth Quarter 2025 Results Conference Call – speakers' notes (03/12/2025) · F1 · relevância media · [PDF](08_setor-financeiro/RBC_2025_teleconferencia-4T25-discurso.pdf)
+  - Discurso da teleconferência de resultados do 4T25 com o balanço de IA do ano: adoção interna, produtividade em engenharia, parceria com a NVIDIA para IA agêntica na plataforma Aiden e reafirmação da meta de valor líquida de investimentos.
+  - Métrica: RBC Assist (ferramenta interna de IA) liberada para mais de 30 mil funcionários de front office e áreas funcionais (dez/2025) (p. 8)
+  - Métrica: Produtividade de desenvolvedores com IA: mais de 5 milhões de linhas de código, mais de 55 mil revisões de código e mais de 3 mil suítes de teste (2025) (p. 8)
+  - Métrica: Banco diz estar a caminho da meta de C$ 700 milhões a C$ 1 bilhão de valor de IA, líquida de investimentos em armazenamento de dados, clusters de GPU, LLMs próprios, governança de risco e pessoas (p. 8)
+- **M480 · Sicoob (s/d (provavelmente 2023))** — Parceria entre Serasa Experian e Sicoob impulsiona concessão de R$ 6 bilhões em crédito rural no Sul do país · F1 · relevância media · [link](https://www.sicoob.com.br/web/sicoob/noticias/-/asset_publisher/xAioIawpOI5S/content/id/166042335)
+  - Exemplo de IA, analytics e dados socioambientais (ESG/Bureau Verde) aplicados à concessão de crédito rural por cooperativa, uma ponte direta entre o setor financeiro e o agro. A página não informa a data de publicação.
+  - Métrica: R$ 6 bilhões em crédito rural liberados no último ano agrícola com apoio de análises de IA e analytics (Sicoob Central SC/RS) (página web)
+  - Métrica: Tempo de checagem financeira e socioambiental do produtor caiu de 3 horas a 1 dia para cerca de 15 minutos (página web)
+  - Métrica: 30 das 38 cooperativas da Central SC/RS operam no segmento rural e usam a solução (página web)
+- **M481 · Sicredi (2024)** — Relatório de Sustentabilidade 2023 · F1 · relevância media · [PDF](08_setor-financeiro/Sicredi_2024_relatorio-sustentabilidade-2023.pdf)
+  - Relatório citado pelo deep research. Confirma as métricas do assistente Theo e a estrutura organizacional que une relacionamento e IA numa superintendência. Os relatórios de 2024 e 2025 do Sicredi também foram lidos e não atualizam as métricas de IA (só citam o Theo na recuperação de crédito e IA na plataforma de aprendizagem).
+  - Métrica: Mais de 50% dos chamados de associados e colaboradores solucionados via IA; em 2023 o NPS passou a integrar a Superintendência de Relacionamento e IA (p. 51)
+  - Métrica: Mais de 8,2 milhões de chamados atendidos pelo assistente Theo em 2023, 60% de todos os chamados recebidos pelos canais, com 90% de favorabilidade após o atendimento (p. 54)
+  - Métrica: IA também em análise de crédito, análise de churn e transcrição de ligações; Theo GPT (GenAI integrada aos sistemas) e Copiloto para desenvolvimento de software em teste (2023) (p. 54)
+  - Métrica: Databricks passou de 44 para 580 usuários em 2023 (plataforma de ciência de dados e IA) (p. 55)
+- **M482 · Banco Central do Brasil (2024)** — Relatório Integrado do Banco Central 2023 (publicado em jul/2024) – projeto SupTech · F1 · relevância baixa · [PDF](08_setor-financeiro/BCB_2024_relatorio-integrado-2023.pdf)
+  - Fonte oficial do projeto SupTech citado pelo deep research (a página 'Nossos resultados' corresponde a este relatório). É um exemplo de governança de modelos de IA em atividade regulada. Complementa o RIG 2025.
+  - Métrica: O projeto SupTech criou dez ferramentas de IA (sobretudo PLN para leitura de documentos) em uso nas atividades de fiscalização (2023) (p. 80)
+  - Métrica: Princípios de governança para desenvolver, aprovar, usar e sustentar modelos de IA na supervisão, e capacitação de servidores com o Instituto Febraban de Educação (p. 80)
+  - Métrica: Programa Start, lançado no fim de 2021, com projetos de machine learning e IA em parceria com universidades (p. 49)
+- **M483 · Banco Santander (Brasil) (2026)** — Relatório Anual Integrado Santander Brasil – Edição 2025 · F1 · relevância baixa · [PDF](08_setor-financeiro/SantanderBrasil_2026_relatorio-anual-integrado-2025.pdf)
+  - Fonte atualizada do relatório de 2023 citado pelo deep research. Confirma apenas, de forma qualitativa, a ambição em GenAI e o comitê multidisciplinar de IA responsável. O relatório não traz métricas de valor de IA; os números do Santander estão no nível do grupo (já catalogados).
+  - Métrica: A estratégia local inclui ser 'referência na utilização de GenAI' e usar o Brasil como centro de inovação para exportar modelos digitais ao grupo (2025) (p. 7)
+  - Métrica: Estrutura de IA responsável em implementação: Jurídico, Riscos, Chief Privacy Officer, Cyber Security, Arquitetura e Engenharia avaliam cada implementação para mitigar riscos (2025) (p. 59)
+- **M484 · FSB – Financial Stability Board (2025)** — Monitoring Adoption of Artificial Intelligence and Related Vulnerabilities in the Financial Sector (10/10/2025) · F2, F3 · relevância baixa · [PDF](08_setor-financeiro/FSB_2025_monitoring-ai-adoption-vulnerabilities.pdf)
+  - Propõe indicadores diretos e indiretos para monitorar a adoção de IA e traz um estudo de caso sobre a cadeia de suprimentos de GenAI (concentração, integração vertical, substituibilidade de fornecedores). Útil para pensar indicadores de maturidade e de soberania tecnológica.
+  - Métrica: Pesquisa com 28 autoridades de 19 jurisdições, que indica monitoramento da adoção de IA ainda em estágio inicial e sem definições comuns de IA (p. 5 e 8)
+
+## Outros setores maduros
+
+Pasta: `09_outros-setores/`
+
+- **M485 · BHP (2024)** — 2024 Chilean copper site tour - Presentation (Escondida, Spence, Pampa Norte) · F1, F3 · relevância alta · [PDF](09_outros-setores/BHP_2024_chile-copper-site-tour-apresentacao.pdf)
+  - Apresentação a investidores com o valor capturado por ML/IA nas plantas de Escondida e o cronograma e os resultados da conversão da frota para caminhões autônomos no Chile. Referência forte de valor de IA na operação e de autonomia de frota como análogo do campo autônomo.
+  - Métrica: 118 GWh de redução no consumo de eletricidade desde FY22 com machine learning e IA em Escondida (p. 109)
+  - Métrica: 3,5 GL de economia de água desde FY22 com machine learning e IA (p. 109)
+  - Métrica: +0,3% de recuperação no concentrador de cobre com machine learning e IA (p. 109)
+  - Métrica: +US$ 19 milhões com design ótimo de desmonte para mitigar a restrição de minério grosso (p. 109)
+- **M486 · Endeavor Brasil (com apoio de Salesforce e Onfly) (2026)** — Inteligência Artificial nas Scale-Ups Brasileiras: Entre a experimentação e a transformação (capítulo 1) · F1, F2 · relevância alta · [PDF](09_outros-setores/Endeavor_2026_ia-nas-scale-ups-brasileiras.pdf)
+  - Índice de maturidade (estágio, investimento, adoção interna e medição) com régua de métricas em dois níveis: exploração (agentes, tokens, tempo de piloto até produção) e transformação (receita por colaborador, margem, EBIT, ROI por caso). Tem dados de organização (champions, time formal) e de impacto. Base primária do artigo da Forbes Collab de ago/2026.
+  - Métrica: Índice de Percepção de Adoção de IA médio de 6,0/10 (estágio 'em desenvolvimento') – 133 empreendedores de 125 scale-ups, jun–jul/2026 (p. 8)
+  - Métrica: 51% das scale-ups não têm nenhuma métrica de negócio atrelada à IA; 84% pretendem ampliar o investimento e 37% mais que dobrá-lo (p. 36)
+  - Métrica: Entre as que investem mais de 20% da receita em IA, 62% percebem aumento de receita, contra 9% das que investem menos de 1% (p. 37)
+  - Métrica: 70% reorganizaram áreas ou times por causa da IA em 12 meses; 76% reduziram contratações ou headcount (p. 7, 22)
+- **M487 · Equinor (2026)** — Use of artificial intelligence saved Equinor USD 130 million in 2025 · F1 · relevância alta · [PDF](09_outros-setores/Equinor_2026_ia-economizou-usd-130-milhoes.pdf)
+  - Mesmo release já catalogado, agora salvo em PDF. A impressão pelo Chrome falhou de novo por timeout e o PDF foi gerado pelo navegador automatizado. Os números do índice foram conferidos no PDF: US$ 130 milhões em 2025, mais de US$ 330 milhões desde 2020, US$ 120 milhões com manutenção preditiva e US$ 12 milhões em Johan Sverdrup (p. 2-3).
+  - Métrica: O valor vem sobretudo de machine learning tradicional sobre dados operacionais; os funcionários também usam copilotos, chatbots e IA agêntica (p. 3)
+  - Métrica: US$ 130 milhões de valor e economia gerados por IA para a Equinor e parceiros em 2025 (release de 07/01/2026)
+  - Métrica: mais de US$ 330 milhões de valor realizado com IA em processos industriais desde 2020 (release de 07/01/2026)
+  - Métrica: US$ 120 milhões de valor desde 2020 com manutenção preditiva de mais de 700 máquinas rotativas monitoradas por 24 mil sensores (release de 07/01/2026)
+- **M488 · Forbes Brasil (Forbes Money; tradução da Forbes EUA) (2026)** — Como as Grandes Petrolíferas Lucram Duas Vezes com a IA — Usando e a Alimentando · F1, F3 · relevância alta · [PDF](09_outros-setores/ForbesBrasil_2026_petroliferas-ia-adnoc-exxon-aramco.pdf)
+  - Mostra como as petrolíferas usam IA nas operações (valor e ROI declarados) e ao mesmo tempo vendem energia para data centers. Aponta a diferença de maturidade entre produtores do Golfo, com IA agêntica em escala comercial, e as majors ocidentais, ainda na transição de piloto para comercial. Serve de referência de ROI em energia.
+  - Métrica: ADNOC: mais de 30 ferramentas de IA geraram US$ 500 milhões em valor e reduziram até 1 milhão de t de CO2 (2022–2023) (p. 3)
+  - Métrica: ADNOC AiPSO (com SLB) em 8 campos, com meta de 25 campos até 2027 – passagem de piloto para operação (p. 3)
+  - Métrica: ExxonMobil: o sistema de compras com IA deu retorno de 40 vezes (US$ 19 milhões) em 2024; meta de US$ 15 bi de economia estrutural até 2027 sobre a base de 2019 (p. 4)
+  - Métrica: Saudi Aramco: modelo Metabrain com 250 bilhões de parâmetros, treinado com 90 anos de dados (p. 4)
+- **M489 · IEA - Agência Internacional de Energia (2025)** — Energy and AI (World Energy Outlook Special Report) · F1, F3 · relevância alta · [PDF](09_outros-setores/IEA_2025_energy-and-ai.pdf)
+  - Relatório de referência da IEA sobre o nexo energia-IA: demanda elétrica de data centers e aplicações de IA em óleo e gás, mineração (inclusive transporte autônomo), eletricidade e indústria, com estimativas de redução de custos. Útil para F3 (IA como vetor de demanda de energia e de eficiência) e para casos de valor em setores de ativos pesados.
+  - Métrica: até 10% de redução nos custos de encontrar, desenvolver e operar um novo projeto offshore de águas profundas no Caso de Adoção Ampla de IA (estimativa IEA, 2025) (p. 118-119)
+  - Métrica: 70% de melhoria na acurácia do processamento sísmico em teste de 90 dias de um agente de IA (LLM de 70 bi de parâmetros) da ADNOC (p. 116)
+  - Métrica: 25% de redução nos erros de previsão de demanda com modelo de IA da ExxonMobil (p. 117)
+  - Métrica: 415 TWh de consumo elétrico de data centers em 2024, cerca de 1,5% do consumo global, crescendo 12% a.a. nos últimos 5 anos (p. 49)
+- **M490 · Magazine Luiza (2026)** — Relatório da Administração 2025 - Magazine Luiza · F1, F3 · relevância alta · [PDF](09_outros-setores/Magalu_2026_relatorio-administracao-2025-ai-commerce.pdf)
+  - Relatório anual que coloca 'Redefinir o Magalu com inteligência artificial' como primeiro pilar estratégico (AI Commerce mais uma agenda interna de automação e redesenho de processos), com as primeiras métricas do agente conversacional. Caso brasileiro de GenAI e agentes em escala.
+  - Métrica: 3 milhões de usuários únicos no WhatsApp da Lu (canal de AI Commerce), sem campanhas de marketing dedicadas (2025) (p. 4)
+  - Métrica: taxa de conversão 3x maior que a da busca no aplicativo e NPS de 83 no WhatsApp da Lu (2025) (p. 4)
+  - Métrica: 58% dos consumidores brasileiros usam ou já usaram GenAI, 57% deles diariamente; em média, os consumidores migrariam mais de 60% das compras online para um assistente virtual (pesquisa citada) (p. 2)
+  - Métrica: 1.200 clientes externos na Magalu Cloud (2025) (p. 2)
+- **M491 · MercadoLibre (Mercado Livre) (2026)** — MercadoLibre, Inc. - Annual Report (Form 10-K) 2025 · F1, F2, F3 · relevância alta · [link](https://www.sec.gov/Archives/edgar/data/1099590/000109959026000006/meli-20251231.htm)
+  - 10-K com a seção 'AI-Driven Innovation': GenAI para todos, agentes autônomos em engenharia, agentes de decisão proprietários (Verdi), IA em RH e crédito, além dos riscos e da governança de agentes (shadow AI, prompt injection). Referência de adoção massiva de GenAI e de gestão de riscos de agentes; documento HTML na SEC, sem PDF.
+  - Métrica: ~95% dos empregados adotaram ferramentas de GenAI, índice mais de 50% acima de benchmarks do setor (FY2025)
+  - Métrica: ~30% do código que chega à produção é escrito com uso de IA, e as contribuições integradas (merges) cresceram ~40% no ano (FY2025)
+  - Métrica: mais de 23.000 pessoas treinadas para resolver desafios de negócio com IA, prompting e programação (FY2025)
+  - Métrica: Bot conversacional próprio de GenAI para suporte a funcionários atende mais de 1,4 milhão de consultas por ano e elevou a taxa de autoatendimento de 70% para 93% (FY2025) (p. 12)
+- **M492 · Petrobras (2025)** — Plano de Negócios 2026-2030 · F1, F2 · relevância alta · [PDF](09_outros-setores/Petrobras_2025_plano-negocios-2026-2030.pdf)
+  - Plano estratégico com o Programa AGILIZA (fluência digital, agilidade organizacional, inteligência de processos, prontidão de dados e IA responsável) e um painel de ganhos já capturados com IA e tecnologias digitais. É a principal referência brasileira de valor de IA em uma grande empresa de ativos pesados.
+  - Métrica: US$ 200 milhões capturados em um ano com gêmeos digitais de refinarias (p. 158)
+  - Métrica: R$ 350 milhões capturados com machine learning para configuração de poços integrado a sistemas de simulação (p. 158)
+  - Métrica: 51% de maior acurácia no modelo de previsão de receita do mercado interno baseado em machine learning (p. 158)
+  - Métrica: R$ 290 milhões de custo evitado com soluções de reservatórios para reduzir risco geológico, legal e ambiental (p. 158)
+- **M493 · Pfizer (2025)** — Pfizer 2024 Annual Report - Year in Review (Harnessing the Power of AI) · F1 · relevância alta · [PDF](09_outros-setores/Pfizer_2025_annual-review-2024-ia-impacto.pdf)
+  - Revisão anual oficial (página impressa em PDF) com a meta corporativa de impacto financeiro da IA e casos em P&D, operações médicas, manufatura e marketing. Exemplo de meta de valor de IA declarada ao mercado.
+  - Métrica: US$ 735 milhões de impacto anual já entregues pelos casos de uso de IA e meta de US$ 2 bi de impacto até 2026 (p. 21)
+  - Métrica: -40% no tempo do primeiro rascunho de manuscrito e -15% no tempo total de submissão com o Medical AI Assistant (p. 21)
+  - Métrica: meta de até 25-30% de melhoria na probabilidade de sucesso (validação experimental) no portfólio com IA (p. 21)
+  - Métrica: meta de mais de 20% de aumento nas taxas de recrutamento de ensaios clínicos com IA; previsão de demanda por IA/ML em cerca de metade dos produtos (p. 21)
+- **M494 · Saudi Aramco (2026)** — Saudi Aramco Annual Report 2025 · F1, F3 · relevância alta · [PDF](09_outros-setores/Aramco_2026_annual-report-2025.pdf)
+  - Relatório anual com uma métrica corporativa de valor da tecnologia (TRV), verificada por terceiros e com a parcela de IA separada, estratégia de IA em três pilares (infraestrutura, dados e talentos) e movimentos de mercado (participação na HUMAIN, acelerador de startups). Modelo de referência para medir e governar o valor da IA.
+  - Métrica: US$ 5,3 bi de Technology Realized Value (TRV) em 2025, contra US$ 4,0 bi em 2024 e US$ 2,0 bi em 2023 (p. 67 do PDF)
+  - Métrica: US$ 2,6 bi (cerca de 50%) do TRV de 2025 vindos de soluções de IA e US$ 2,7 bi de tecnologias não-IA (p. 67)
+  - Métrica: TRV verificado por terceiros: benefício incremental (capex/opex evitado ou receita adicional) contra linha de base, com fluxos não descontados reconhecidos no ano (p. 67 e 161)
+  - Métrica: ~10% de aumento no contato com o reservatório e 2 dias a menos de perfuração por poço com o Intelligent Live Earth Model (geonavegação com IA) (p. 67)
+- **M495 · TOTVS (execução H2R Insights & Trends) (2025)** — Panorama IA nas empresas brasileiras · F2, F1, F3 · relevância alta · [PDF](09_outros-setores/TOTVS-H2R_2025_panorama-ia-empresas-brasileiras.pdf)
+  - Pesquisa nacional (jun/2025) sobre adoção, uso estratégico, mensuração de valor e agentes de IA em empresas brasileiras, 81% delas médias ou grandes. Evidencia a lacuna de mensuração: só 7% calculam ROI. Encontrada nesta rodada na página de estudos da TOTVS (conteudo.totvs.com/estudo-inteligencia-artificial), que usa o mesmo formulário de clique único, sem campos; o PDF está no domínio oficial da TOTVS.
+  - Métrica: 50% das empresas brasileiras usam IA nas rotinas de trabalho, mas só 7% calculam o ROI das soluções de IA (194 entrevistas CATI, abr–mai/2025, margem de ±7 p.p.) (p. 3, 9)
+  - Métrica: Estágio de adoção autodeclarado: 71% inicial, 25% intermediário e 4% avançado (p. 6)
+  - Métrica: Só 17% usam soluções de IA personalizadas ligadas ao core business; 40% usam chats conversacionais e 33% IA embutida em plataformas (p. 5–6)
+  - Métrica: 10% fazem uso extremamente estratégico da IA, 19% intermediário e 21% pouco estratégico; 35% veem geração de valor intermediária ou alta (p. 7)
+- **M496 · Vale (2026)** — Relatório de Pesquisa, Desenvolvimento & Inovação 2025 · F1, F3 · relevância alta · [PDF](09_outros-setores/Vale_2026_relatorio-pdi-2025.pdf)
+  - É o caso brasileiro de setor maduro com mais valor de IA quantificado em fonte oficial: saving realizado (USD 66 mi), ganhos operacionais medidos, uma usina modelo com IA (release oficial de 10/06/2026 em vale.com) e uma organização com centros de IA e programa de democratização. Os casos (previsão climática, frota autônoma, logística, assistentes multiagentes) se aplicam bem a operações de campo e logística do agro.
+  - Métrica: Mais de 45 produtos de IA desenvolvidos e aplicados ao longo da cadeia de valor, com quatro centros dedicados (Vitória, Belém, Rio de Janeiro e Nova Lima) (2025) (p. 32)
+  - Métrica: O AI Fleet (otimização de velocidade de navios) gerou USD 66 milhões de saving em 2025; o modelo tem até 84% de precisão porto a porto, reduziu em até 52% o erro médio e cortou USD 0,30/t na gestão da navegação (p. 32 e 38)
+  - Métrica: MinAInteligente: -3,44% no consumo de combustível e +6,91% na velocidade média dos caminhões; a previsão climática tem potencial de até USD 20 milhões (a neblina em Itabira custou 634 mil toneladas em 2024) (p. 32-33)
+  - Métrica: ValeNoW (radar + IA, previsão de chuva com até duas horas de antecedência): potencial de 15% de ganho de produção em S11D, com retorno da ordem de USD 20 milhões (p. 34)
+- **M497 · Vale (2026)** — Vale e ABB firmam aliança estratégica para acelerar transformação digital nas operações de minério de ferro no Brasil (11/08/2026) · F1, F3 · relevância alta · [PDF](09_outros-setores/Vale-ABB_2026_usina-modelo-conceicao-ii-ia.pdf)
+  - Release sobre a aliança com a ABB para replicar a usina digital com IA em Brucutu (operação prevista para o início do próximo ano) e em outras plantas de MG e PA. Caso de escala de uma planta-modelo para o parque industrial, análogo a usinas agroindustriais. Impresso em PDF.
+  - Métrica: Usina Modelo Conceição II (Itabira): desde 2024, +25% de produtividade, +40% na produção de minério premium para redução direta e -26% nas perdas de ferro no rejeito (p. 2)
+  - Métrica: Milhares de sensores, automação avançada e IA monitorando mais de 400 variáveis do beneficiamento em tempo real, com ajustes automáticos do processo (p. 2)
+- **M498 · Vale (2025)** — Vale, Caterpillar e Sotreq assinam acordo para expansão da frota de caminhões autônomos no Sistema Norte, no Pará · F1, F3 · relevância alta · [PDF](09_outros-setores/Vale_2025_expansao-caminhoes-autonomos-carajas.pdf)
+  - Release oficial (impresso em PDF) sobre a expansão da frota autônoma em Carajás, com ganhos de produtividade e combustível e o plano de requalificação dos empregados. Caso brasileiro de autonomia pesada, análogo ao campo autônomo e à resposta à escassez de mão de obra.
+  - Métrica: até 15% de ganho no rendimento operacional e até 7,5% de redução no consumo de combustível com equipamentos autônomos (resultados em outras operações da Vale) (p. 1)
+  - Métrica: 14 caminhões autônomos (até 320 t) hoje no Sistema Norte, com expansão para cerca de 90 até 2028 (p. 1)
+  - Métrica: mais de 260 profissionais capacitados em novas funções digitais desde 2019 (p. 1)
+  - Métrica: mais de 70 equipamentos autônomos (caminhões, perfuratrizes e máquinas de pátio) em operação no Brasil; programa iniciado em 2018 em Brucutu (p. 2)
+- **M499 · World Economic Forum (2025)** — Global Lighthouse Network: The Mindset Shifts Driving Impact and Scale in Digital Transformation · F1, F2, F3 · relevância alta · [PDF](09_outros-setores/WEF_2025_global-lighthouse-network.pdf)
+  - White paper do WEF com o playbook das fábricas líderes em transformação digital e IA: reduzir a 'dívida de processo', investir em capacidades fundacionais, transformar soluções em ativos reutilizáveis e engajar a linha de frente. Uma das melhores referências de ROI e de passagem de piloto para escala.
+  - Métrica: 189 fábricas Lighthouse, mais de 1.000 casos de uso e mais de 2.000 métricas na base da rede (jan/2025) (p. 3)
+  - Métrica: 77% dos 5 principais casos de uso dos novos Lighthouses habilitados por IA analítica e 9% por IA generativa (p. 3)
+  - Métrica: melhorias médias acima de 50% em custo de conversão, tempo de ciclo e taxa de defeitos (p. 3)
+  - Métrica: ROI de 2-3x em 3 anos e de 4-5x em 5 anos para quem segue o playbook e supera o 'pilot purgatory' (p. 3)
+- **M500 · ZS Associates (com contribuição da AstraZeneca) (2026)** — How top pharma companies are calculating ROI for AI in pharma R&D · F1, F2 · relevância alta · [PDF](09_outros-setores/ZS_2026_roi-ia-pd-farmaceutico.pdf)
+  - White paper que mostra como as farmacêuticas medem (e muitas vezes estimam 'no chute') o ROI de IA em P&D e propõe um framework multidimensional com linhas de base, donos de métricas e dashboards de governança. Muito útil para desenhar a medição de valor da IA (F2).
+  - Métrica: US$ 300 milhões economizados pela Sanofi com otimização de supply chain por IA (p. 4 e 8)
+  - Métrica: Novartis: geração de insights de 21 para 2 dias (-90%), sites escolhidos por IA recrutando 3,4x mais pacientes que a mediana e +20% de produtividade de vendas (p. 8)
+  - Métrica: plataforma 'plai' da Sanofi usada diariamente por cerca de 15-20 mil empregados, incluindo 95% dos altos gestores (p. 8)
+  - Métrica: 85% dos executivos farmacêuticos aumentando o financiamento de IA e 70% tratando o tema como prioridade imediata (pesquisa setorial citada) (p. 3)
+- **M501 · ABES com IDC (2025)** — Mercado Brasileiro de Software: Panorama e Tendências 2025 · F3, F2 · relevância media · [PDF](09_outros-setores/ABES-IDC_2025_mercado-brasileiro-software-2025.pdf)
+  - Estudo anual ABES/IDC do mercado de TI com previsões para 2025: agentes de IA, foco em resultado e em métricas de produtividade, infraestrutura para IA. A edição 2026 exige formulário (ver 'formularios').
+  - Métrica: mais de US$ 2,4 bi em gastos com projetos de IA e GenAI no Brasil em 2025 (infraestrutura, software e serviços), +30% sobre 2024 (p. 27)
+  - Métrica: R$ 321,36 bi (US$ 59,5 bi) investidos em TI no Brasil em 2024, alta de 13,9% (p. 4)
+  - Métrica: cerca de 90% das grandes organizações com ao menos um caso de uso de IA ativo (pesquisa IDC) (p. 23)
+  - Métrica: 28% dos provedores de data center no Brasil adaptando estruturas exclusivamente para GenAI; 48% das grandes empresas no mundo ampliarão gastos com agentes de IA em 2025 (p. 26-27)
+- **M502 · Ambev (2026)** — Ambev S.A. - Annual Report (Form 20-F) 2025 · F1 · relevância media · [link](https://www.sec.gov/Archives/edgar/data/1565025/000129281426000640/abevform20f_2025.htm)
+  - 20-F com a escala da plataforma B2B BEES (sugestões de produtos baseadas no perfil do cliente) e com a governança de IA a cargo de um Comitê de Privacidade e Cibersegurança multifuncional, que define metas, aprova KPIs, avalia decisões de alto risco e aprova políticas. Referência de governança de IA integrada a privacidade e cibersegurança.
+  - Métrica: mais de 94% dos compradores ativos no Brasil compram pelo BEES, cerca de 90% exclusivamente, e cerca de 86% dos clientes do BEES compram no marketplace (2025)
+  - Métrica: Argentina: mais de 86% dos compradores B2B e mais de 80% da receita líquida via BEES; República Dominicana 100% digital (2025)
+- **M503 · AstraZeneca (2026)** — AstraZeneca Annual Report and Form 20-F Information 2025 – CEO Review · F1 · relevância media · [PDF](09_outros-setores/AstraZeneca_2026_annual-report-2025-ceo-review.pdf)
+  - Seção do CEO no relatório anual 2025, com dados de adoção de IA em P&D, capacitação em massa e uma nova unidade organizacional de IA. Não há valor financeiro atribuído à IA. A indicação de 'p. 97' dada pela consulta ao Perplexity estava errada (97 é um indicador de eventos regulatórios).
+  - Métrica: 90% do pipeline de descoberta de pequenas moléculas já é assistido por IA (2025) (p. 2 do PDF)
+  - Métrica: Mais de 50 mil funcionários participaram do programa 'Thriving in the Age of AI' em 2025; criação de uma nova unidade de IA (p. 2 do PDF)
+  - Métrica: O investimento de US$ 2,5 bilhões em Pequim inclui um laboratório de IA e ciência de dados (p. 2 do PDF)
+- **M504 · BHP (2024)** — 2024 Chilean copper site tour: Spence - Presentation & speech · F1, F3 · relevância media · [PDF](09_outros-setores/BHP_2024_spence-site-tour-autonomia.pdf)
+  - Discurso e apresentação da BHP sobre a mina de Spence, com frota de caminhões 100% autônoma e perfuratrizes autônomas, trazendo ganhos de produtividade e utilização e lições do rollout. Caso de autonomia análogo à mecanização autônoma no campo.
+  - Métrica: 33 caminhões convertidos para operação autônoma em pouco mais de 1 ano (início em 2023), antes do cronograma (p. 13)
+  - Métrica: 130 Mt produzidas pela frota autônoma contra 125 Mt planejadas, 104% de aderência ao plano, por maior utilização e menos atrasos nas trocas de turno (p. 14)
+  - Métrica: US$ 3,6 milhões/ano de economia com o desempenho dos pneus e +39% de horas efetivas de uso (p. 14)
+- **M505 · BHP (2025)** — BHP launches its first Industry AI Hub in Singapore to accelerate AI adoption in the mining and resources sector · F1, F3 · relevância media · [link](https://www.bhp.com/news/media-centre/releases/2025/05/bhp-launches-its-first-industry-ai-hub-in-singapore-to-accelerate-ai-adoption-in-the-mining-and-reso)
+  - Release sobre a criação de um hub corporativo de IA, com especialistas próprios e parceria com AI Singapore e Enterprise Singapore, para escalar IA em toda a empresa. Exemplo de estrutura organizacional e de parceria público-privada para construir capacidade de IA.
+  - Métrica: 3 bilhões de litros de água e 118 GWh de energia economizados desde FY22 com controle de planta por IA em Escondida (release de 27/05/2025)
+- **M506 · BHP (2025)** — The role of digital twins and AI in enhancing decision-making in the mining industry · F1, F3 · relevância media · [link](https://www.bhp.com/news/bhp-insights/2025/02/the-role-of-digital-twins-and-ai-in-enhancing-decision-making-in-the-mining-industry)
+  - Artigo oficial da BHP sobre gêmeos digitais combinados com IA generativa para o planejamento e para decisões na linha de frente, incluindo o programa de excelência em transporte autônomo da BMA. Mostra a IA como camada de otimização sobre frotas autônomas; a impressão foi bloqueada (Access Denied), então ficou só o link.
+  - Métrica: 10% ao ano de aumento no movimento produtivo em uma operação autônoma da BMA com IA, analytics avançado e gêmeo digital (artigo de 05/02/2025)
+  - Métrica: 70% de redução média nas perdas mensais de produção por granulometria em Escondida com gêmeo digital, GenAI e controle preditivo dos moinhos SAG (artigo de 05/02/2025)
+- **M507 · Brasscom (2026)** — Relatório Setorial 2025 - Macrossetor de TIC (versão resumida) · F3 · relevância media · [PDF](09_outros-setores/Brasscom_2026_relatorio-setorial-2025-tic.pdf)
+  - Panorama anual do setor de TIC brasileiro com tamanho de mercado, empregos e projeções de investimento em IA, nuvem e data centers. Útil para contextualizar movimentos de mercado e soberania tecnológica no Brasil (F3).
+  - Métrica: R$ 736,6 bi de investimento previsto em IA no Brasil entre 2026 e 2029, com crescimento médio de 20% a.a. (p. 6)
+  - Métrica: R$ 2,0 tri previstos em tecnologias para 2026-2029, dos quais R$ 765,6 bi em nuvem e R$ 252,4 bi em data centers (p. 6)
+  - Métrica: 2,1 milhões de empregos CLT no macrossetor de TIC em 2025 (+1,5%, ou +31 mil) (p. 6)
+- **M508 · C3 AI (entrevista com a Shell) (2022)** — How Shell scaled AI predictive maintenance to monitor 10,000 pieces of equipment globally · F1, F2 · relevância media · [link](https://c3.ai/blog/how-shell-scaled-ai-predictive-maintenance-to-monitor-10000-pieces-of-equipment-globally/)
+  - Entrevista oficial (C3 AI) com o líder de IA da Shell sobre a escala do programa Shell.ai de manutenção preditiva, a decisão de comprar plataforma em vez de construir e a visão de que IA em escala depende de pessoas, processos, cultura e governança. Referência clássica (anterior a 2024) de escala industrial de IA.
+  - Métrica: mais de 10.000 equipamentos monitorados com manutenção preditiva por IA em upstream, manufatura e gás integrado (2022)
+  - Métrica: 20 bilhões de linhas de dados ingeridas por semana, vindas de mais de 3 milhões de fluxos de dados (2022)
+  - Métrica: mais de 10.000 modelos de ML em produção, com 3 a 4 modelos candidatos treinados para cada um, e mais de 15 milhões de previsões por dia (2022)
+- **M509 · Civil Resolution Tribunal da Colúmbia Britânica (Canadá) (2024)** — Moffatt v. Air Canada, 2024 BCCRT 149 (decisão do Civil Resolution Tribunal) · F1 · relevância media · [PDF](09_outros-setores/CRT-BC_2024_moffatt-v-air-canada-chatbot-responsabilidade.pdf)
+  - Decisão que virou referência de insucesso de governança em IA de atendimento: a empresa responde por tudo o que o chatbot informa. O valor é pequeno, mas o precedente e o dano reputacional mostram o risco de pôr IA voltada ao cliente sem controles.
+  - Métrica: Air Canada condenada a pagar C$ 812,02 (C$ 650,88 de danos, C$ 36,14 de juros e C$ 125 de custas) por informação errada dada pelo chatbot do site (decisão de 14/02/2024) (p. 9)
+  - Métrica: O tribunal rejeitou a tese de que o chatbot seria entidade separada e concluiu que a empresa não teve cuidado razoável com a precisão do chatbot (p. 6)
+- **M510 · Forbes Brasil (Forbes Money) (2026)** — Por Que as Empresas Estão Obtendo Menos Retorno do Que Esperavam com IA? · F1, F2 · relevância media · [link](https://forbes.com.br/forbes-money/2026/09/investimentos-ia-retorno-empresas/)
+  - Leitura brasileira do estudo da Bain (arquivo baixado à parte) com o sócio de Data & AI da Bain para a América do Sul. Pontos: produtividade não é retorno financeiro ('30% menos esforço não é 30% menos custo'); 'dívida de processos'; o líder de negócio e a área financeira devem responder pela captura de valor. Nas empresas brasileiras, o desafio é levar o experimento à escala.
+  - Métrica: 41,9% das indústrias brasileiras usam IA, contra 16,9% em 2022 – IBGE (web)
+  - Métrica: Retorno médio dos investimentos em IA de 19% – pesquisa SAP/Oxford Economics (web)
+  - Métrica: Apenas 7% das empresas mantêm agentes totalmente autônomos em produção; 41% apontam dados como principal barreira – Bain, n=951 (web)
+- **M511 · Forbes Brasil (Forbes Tech) (2025)** — Por Dentro da 'Fábrica' de Agentes de IA do iFood · F1 · relevância media · [PDF](09_outros-setores/ForbesBrasil_2025_ifood-fabrica-agentes-ia.pdf)
+  - Caso de organização 'AI first' que deixa cada funcionário criar os próprios agentes, sobre uma plataforma corporativa integrada aos sistemas. Mostra que a conectividade com os sistemas internos foi o ponto de virada da adoção. Tem ganhos mensurados por caso de uso.
+  - Métrica: 880 agentes de IA ativos por semana, criados por funcionários de várias áreas; meta de 7 mil (um por funcionário) até mar/2026 (p. 2)
+  - Métrica: +150% no número de agentes entre jun e ago/2025, depois que a plataforma Toqan (Prosus) foi conectada a todos os sistemas internos (p. 2)
+  - Métrica: Groceries Data Assistant reduziu a análise de vendas de 30 para 5 minutos; a plataforma comercial James economiza 1.840 horas/mês (p. 2)
+- **M512 · Forbes Brasil (Forbes Tech), cobrindo estudo IDC/Lenovo (2026)** — Concierge Sintético: no Brasil, Agentes de IA Já São Prioridade, Aponta Pesquisa (CIO Playbook IDC/Lenovo – América Latina) · F2, F3 · relevância media · [link](https://forbes.com.br/forbes-tech/2026/04/brasil-avanca-no-uso-de-ia-e-foca-na-criacao-de-agentes/)
+  - Recorte latino-americano do CIO Playbook 2026, com a distribuição por estágio de adoção e a lacuna de governança no Brasil. Complementa o infográfico global da IDC/Lenovo já baixado por outra frente.
+  - Métrica: 97% planejam aumentar os investimentos em IA nos próximos 12 meses – CIO Playbook IDC/Lenovo, mais de 500 empresas da América Latina (web)
+  - Métrica: 62% dos respondentes em fase de pilotos (+13 p.p. sobre 2024); 16% ainda avaliando a adoção e 22% em estágios iniciais (web)
+  - Métrica: 92% esperam ROI positivo; no Brasil, só cerca de 20% estabeleceram um processo de governança e segurança confiável (presidente da Lenovo Brasil) (web)
+  - Métrica: IA agêntica representa 23% dos gastos e IA preditiva 26%; 83% pretendem usar modelo híbrido; serviços financeiros com 69% de adoção (web)
+- **M513 · Forbes Brasil (especial) (2026)** — Melhores CIOs do Brasil 2026 (Lista Forbes) · F1 · relevância media · [link](https://forbes.com.br/especiais/arklok/melhores-cios-do-brasil-2026/)
+  - Lista dos 10 CIOs de 2026 (Elgin, Dasa, Ânima, Petrobras, Elo, iFood, PepsiCo, Gol, Nestlé e L'Oréal), com descrição do papel de cada um na estratégia de IA. Útil para o painel de setores mais maduros e para mapear papéis de liderança de tecnologia e IA.
+  - Métrica: Petrobras: o CIO global lidera equipe direta de 1.700 pessoas e 120 mil usuários de tecnologia (web)
+  - Métrica: L'Oréal: a prova virtual de cosméticos aumentou a conversão em 70% (web)
+  - Métrica: PepsiCo: IA de recomendação comercial para cerca de 200 mil pontos de venda, cerca de 400 produtos e cerca de 2 mil vendedores (web)
+- **M514 · IEA - Agência Internacional de Energia (2026)** — Key Questions on Energy and AI (World Energy Outlook Special Report) · F2, F3 · relevância media · [PDF](09_outros-setores/IEA_2026_key-questions-energy-ai.pdf)
+  - Atualização de 2026 da IEA com as barreiras para escalar IA no setor de energia (dados fragmentados, cibersegurança, digitalização e sobretudo competências) e um capítulo sobre IA física e robótica. Alimenta F2 (dependências críticas para sair de pilotos) e F3 (robótica e IA física).
+  - Métrica: 1ª barreira mais citada à adoção de IA: falta de habilidades digitais internas (IEA Industry Employment Survey 2025, empresas de energia) (p. 84)
+  - Métrica: 40% menor, em média, a proporção de profissionais de IA em utilities, óleo, gás e mineração frente a educação, serviços financeiros e tecnologia (2018-2024) (p. 84)
+  - Métrica: 13,5 EJ de potencial de economia de energia em 2035 com adoção ampla de aplicações de IA já conhecidas nos usos finais (p. 80)
+  - Métrica: US$ 100 mil de custo mínimo de robôs humanoides industriais hoje, com ambição dos fabricantes de US$ 20-30 mil (p. 92)
+- **M515 · Magazine Luiza (2024)** — Magalu cria diretoria de Inteligência Artificial para acelerar revolução na forma de consumir · F1 · relevância media · [PDF](09_outros-setores/Magalu_2024_diretor-dados-ia.pdf)
+  - Release de RI (jul/2024) anunciando a criação de uma diretoria de IA, com executivo vindo de Nubank e Amazon, para centralizar o 'cérebro da Lu' (IA generativa de recomendação e atendimento). Exemplo de decisão organizacional de concentrar a IA sob um líder dedicado.
+- **M516 · Manufacturers Alliance Foundation (patrocínio de Siemens, Microsoft, Roland Berger e Fortinet) (2024)** — Manufacturing Intelligence: Exploring the Spectrum of AI Use Cases · F1, F2 · relevância media · [PDF](09_outros-setores/ManufacturersAlliance_2024_espectro-casos-uso-ia-manufatura.pdf)
+  - Pesquisa e catálogo com mais de 75 casos de uso de IA na manufatura, com um roteiro de IA (Roland Berger) em três etapas: estado atual, estado futuro e execução, cobrindo estratégia e valor, tecnologia e dados, pessoas e governança. Útil para frameworks de roadmap e de medição de ROI; o PDF está hospedado no site da Siemens, patrocinadora do estudo.
+  - Métrica: 93% dos fabricantes adicionaram novas iniciativas de IA nos últimos 12 meses e outros 6% planejam fazê-lo (pesquisa com mais de 200 fabricantes de médio e grande porte dos EUA, 2024) (p. 4)
+  - Métrica: 55% alinham as iniciativas de IA a objetivos estratégicos de negócio e 24% priorizam a redução de custos (p. 6)
+  - Métrica: 76% fazem parceria com empresas de soluções de IA, 64% com especialistas independentes, 41% com startups e só 4% não fazem nem planejam parcerias (p. 5)
+  - Métrica: ranking das métricas de ROI esperadas: 1º crescimento de receita, 2º uptime e 3º qualidade de produto (p. 6)
+- **M517 · Petrobras (2024)** — Desenvolvimento do Capital Humano - Destaques (2024) · F1, F2 · relevância media · [PDF](09_outros-setores/Petrobras_2024_capital-humano-dados-ia-generativa.pdf)
+  - Documento de RH com a trilha de capacitação em dados e IA e a adoção de IA generativa (ChatPetrobras e Copilot) na Petrobras. Útil para organização e competências (F1) e para a trajetória de adoção de GenAI (F2).
+  - Métrica: mais de 1,2 milhão de interações no ChatPetrobras (IA generativa própria, feita com a Microsoft) até jun/2024; 120 mil usuários podem consultar mais de 25 mil padrões normativos (p. 7)
+  - Métrica: piloto do Microsoft 365 Copilot: 250 usuários ativos em 1 mês resumiram 426 reuniões (520 horas) e 384 e-mails e criaram 476 documentos; previsão de 2.000 usuários em 2024 (p. 7)
+  - Métrica: 361 empregados no Programa de Formação em Ciência de Dados (154 formados) e 2.712 participantes no módulo inicial de Analista de Dados (334 no avançado) (p. 7)
+  - Métrica: mais de 27 mil dashboards e relatórios e recorde de 1,5 milhão de acessos a ferramentas de analytics em abr/2024 (p. 7)
+- **M518 · Rio Tinto (2026)** — Gudai-Darri (mina de minério de ferro mais automatizada da Rio Tinto) · F3 · relevância media · [link](https://www.riotinto.com/en/operations/anz/western-australia/gudai-darri)
+  - Página oficial da mina mais automatizada da Rio Tinto. Os números são de escala e desempenho do projeto, não de valor atribuído à IA; serve como referência de operação autônoma integrada, análoga ao campo autônomo.
+  - Métrica: 26 caminhões autônomos CAT 793F e cinco perfuratrizes autônomas operados remotamente de Perth, a 1.500 km (página oficial, 2026)
+  - Métrica: Capacidade de 43 milhões de t/ano atingida em menos de 12 meses (mina de US$ 3,1 bilhões, em produção desde 2022), com plano de chegar a 50 milhões de t/ano (página oficial)
+  - Métrica: Caminhões-pipa autônomos com IA para detectar poeira, laboratório robótico, gêmeo digital 3D e ferrovia AutoHaul totalmente autônoma (página oficial)
+- **M519 · Sanofi (2026)** — Digital Transformation and Artificial Intelligence (página oficial, consultada em set/2026) · F1 · relevância media · [PDF](09_outros-setores/Sanofi_2026_digital-ia-cadeia-valor.pdf)
+  - Página oficial com métricas operacionais de IA ao longo da cadeia farmacêutica (P&D, manufatura, comercial) e um modelo organizacional explícito: pilares de IA e aceleradores digitais por função. Não traz valor em moeda. É útil como analogia para cadeias industriais com planejamento de suprimento e qualidade regulada.
+  - Métrica: 20 mil funcionários usam diariamente o app plai (dados em tempo real e visão 360º da empresa) (p. 5)
+  - Métrica: O plai em Manufatura e Suprimentos prevê 80% das rupturas de estoque por planejamento probabilístico e liga 65% dos riscos a uma causa raiz (p. 4)
+  - Métrica: GenAI na redação de relatórios regulatórios (PQR, MSAT, C&Q) corta tempo e esforço em até 80% (p. 5)
+  - Métrica: O CodonBERT (LLM treinado em 10 milhões de sequências de mRNA) reduziu em 50% o tempo de desenho de mRNA (p. 3)
+- **M520 · Siemens (2026)** — Siemens unveils technologies to accelerate the industrial AI revolution at CES 2026 (06/01/2026) · F3 · relevância media · [PDF](09_outros-setores/Siemens_2026_ces-ia-industrial-pepsico-gemeo-digital.pdf)
+  - Release da Siemens na CES 2026: parceria com a NVIDIA para um sistema operacional de IA industrial, gêmeos digitais em escala e copilotos. O caso PepsiCo é resultado de cliente, não da Siemens; a empresa não divulga valor consolidado de IA nas próprias fábricas além do caso Nanjing já catalogado.
+  - Métrica: PepsiCo com gêmeo digital (Digital Twin Composer) e agentes de IA: até 90% dos problemas identificados antes de mudanças físicas, +20% de throughput na implantação inicial, quase 100% de validação de projeto e redução de 10% a 15% no capex (p. 3)
+  - Métrica: Nove novos copilotos industriais de IA (Teamcenter, Polarion, Opcenter) anunciados para a cadeia de valor industrial (p. 4)
+- **M521 · Siemens (2026)** — Siemens' AI powered Nanjing facility named World Economic Forum Global Lighthouse Factory · F1 · relevância media · [PDF](09_outros-setores/Siemens_2026_fabrica-nanjing-lighthouse-ia.pdf)
+  - Press release sobre a fábrica 'digital-native' da Siemens em Nanjing, com gêmeos digitais e mais de 50 aplicações de IA, reconhecida pelo WEF. Caso industrial com métricas de resultado da IA em produção de alta variedade e baixo volume.
+  - Métrica: mais de 50 aplicações de IA implantadas na fábrica de Nanjing (p. 2)
+  - Métrica: -78% no lead time, -33% no time-to-market e +14% de produtividade até 2024, na comparação com 2022 (p. 2)
+  - Métrica: -46% em falhas de campo e -28% nas emissões diretas e ligadas a energia (p. 2)
+- **M522 · WEG (2026)** — Relatório Anual Integrado 2025 · F1, F2 · relevância media · [PDF](09_outros-setores/WEG_2026_relatorio-anual-integrado-2025.pdf)
+  - Relatório integrado 2025 da WEG. A IA aparece embarcada em soluções (monitoramento, manutenção preditiva, eficiência energética) e em um programa próprio de formação com projetos aplicados; inclui o caso WEG Smart Machine na irrigação do Grupo Ceolin (p. 30). Sem métricas de valor financeiro da IA.
+  - Métrica: Programa WAIUP (capacitação em IA): mais de 165 profissionais formados no Brasil e no exterior e mais de 40 projetos e casos de uso de IA desenvolvidos durante o curso (p. 126)
+  - Métrica: Cerca de R$ 1,4 bilhão investidos em PD&I em 2025 (p. 25)
+  - Métrica: Política global de Inteligência Artificial define diretrizes para uso legal, ético e responsável da IA em todo o Grupo WEG (p. 123)
+- **M523 · WEG (2025)** — WEG é reconhecida no Prêmio Inovativos 2025 com solução de Inteligência Industrial (31/10/2025) · F1, F3 · relevância media · [link](https://www.weg.net/institutional/BR/pt/news/premios/weg-e-reconhecida-no-premio-inovativos-2025-com-solucao-de-inteligencia-industrial)
+  - Notícia oficial sobre solução de manutenção por condição com IoT e IA para motores elétricos, com ganhos medidos. Relevante para usinas agroindustriais com grande parque de motores.
+  - Métrica: Lubrificação digital automática com IoT e IA (WEGscan + WEG Sense): -27% no consumo de graxa e tempo entre falhas 400% maior, de 3 para 15 meses (página oficial, 31/10/2025)
+  - Métrica: Falhas em mancais respondem por mais de 15% das paradas não programadas, e a lubrificação inadequada afeta de 10% a 20% dos custos de manutenção das plantas (página oficial)
+- **M524 · Zillow Group (2021)** — Zillow Group Reports Third-Quarter 2021 Financial Results & Shares Plan to Wind Down Zillow Offers Operations · F1 · relevância media · [PDF](09_outros-setores/Zillow_2021_release-resultados-3T21-encerramento-zillow-offers.pdf)
+  - Caso clássico de insucesso de decisão algorítmica em escala: o CEO atribui o encerramento à imprevisibilidade da previsão de preços, muito maior que a esperada. Ilustra risco de modelo, falhas de governança e exposição do balanço ao automatizar decisões de compra.
+  - Métrica: Baixa contábil de estoque de cerca de US$ 304 mi no 3T21 por ter comprado imóveis acima das estimativas de preço de revenda; perdas adicionais previstas de US$ 240 mi a US$ 265 mi (nov/2021) (p. 1)
+  - Métrica: Encerramento do Zillow Offers com corte de cerca de 25% da força de trabalho; segmento Homes com prejuízo antes de impostos de US$ 422 mi no trimestre (3T21) (p. 1)
+- **M525 · Exame, cobrindo pesquisa Abiacom/Brazil Panels/Lideres.ai (2026)** — 72% das empresas brasileiras estão no início da adoção de IA, aponta pesquisa · F2 · relevância baixa · [link](https://exame.com/inteligencia-artificial/72-das-empresas-brasileiras-estao-no-inicio-da-adocao-de-ia-aponta-pesquisa/)
+  - Pesquisa de maturidade com amostra pequena. Aponta uso informal disseminado e falta de governança. Marketing e atendimento lideram o uso oficial (cerca de 24%).
+  - Métrica: 72% das empresas nos estágios iniciante ou experimental de adoção de IA – 200 profissionais, out–nov/2025 (web)
+  - Métrica: 47,4% dos profissionais usam IA sem aprovação oficial (shadow AI); 59,1% das empresas sem diretrizes formais de uso (web)
+- **M526 · Exame, cobrindo pesquisa Rimini Street/Censuswide (2025)** — Pesquisa com 4.300 executivos aponta o que as empresas querem da inteligência artificial em 2026 · F2 · relevância baixa · [link](https://exame.com/inteligencia-artificial/pesquisa-com-4-300-executivos-aponta-o-que-as-empresas-querem-da-inteligencia-artificial-em-2026/)
+  - Expectativas de retorno e prazos de payback da IA entre executivos globais, em pesquisa patrocinada por fornecedor de suporte de ERP. Útil como referência de expectativa, não de resultado.
+  - Métrica: ROI esperado com IA de 27% nos 2 primeiros anos, 37% em 5 anos e 48% após 6 anos – cerca de 4.300 CFOs, CIOs, CEOs e CISOs (web)
+  - Métrica: 98% dizem que a escassez de talentos em TI afeta as ambições digitais (68% de forma significativa) (web)
+- **M527 · Forbes Brasil (Forbes Tech), com dados da HubSpot (2026)** — Entenda o Que 6% das Empresas Fazem de Diferente para Obter Valor com a IA · F1, F2 · relevância baixa · [link](https://forbes.com.br/forbes-tech/2026/09/entenda-o-que-6-das-empresas-fazem-de-diferente-para-obter-valor-com-a-ia/)
+  - Três práticas das empresas que capturam valor: escolher resultados em vez de casos de uso, construir antes uma base de contexto e dados, e evitar IA com contexto ruim ('pior do que nenhuma IA'). Dados de fornecedor.
+  - Métrica: 90% das empresas pesquisadas pela HubSpot usam IA, mas só 6% têm resultados transformadores (web)
+  - Métrica: As empresas transformadoras usam em média 4 a 5 de cerca de 50 casos de uso mapeados (web)
+  - Métrica: Com contexto de dados de alta qualidade, as empresas criam quase o dobro, fecham o triplo de negócios e resolvem o dobro de chamados; leads qualificados +200% (web)
+- **M528 · Forbes Brasil (Listas) (2025)** — 10 Empresas Mais Inovadoras do Brasil 2024 (Lista Forbes) · F1 · relevância baixa · [link](https://forbes.com.br/listas/2025/07/10-empresas-mais-inovadoras-do-brasil-2024/)
+  - Ranking em que o uso intensivo de IA foi determinante. Inclui empresas de bioenergia (Jalles Machado, com biogás de vinhaça, e Inpasa, com etanol de milho) e outros setores. Serve para montar o painel.
+  - Métrica: Itaú Unibanco e Stefanini com mais de mil modelos e ferramentas de IA (web)
+  - Métrica: Inpasa: 6 milhões de t de milho processadas em 2023 e receita de R$ 11,8 bi (web)
+- **M529 · Rio Tinto (2026)** — Rio Tinto Annual Report 2025 · F1, F3 · relevância baixa · [PDF](09_outros-setores/RioTinto_2026_annual-report-2025.pdf)
+  - Fonte atualizada do relatório de 2023 citado pelo deep research, baixada da página oficial de relatórios da Rio Tinto. A IA aparece só de forma qualitativa (risco, oportunidade, testes); o valor de produtividade divulgado é do programa geral, não da IA. Serve como contraste: uma mineradora líder que ainda não isola o valor da IA.
+  - Métrica: US$ 650 milhões em benefícios anualizados de produtividade e economias anunciados em dez/2025, sem atribuição específica à IA (p. 4 e 7)
+  - Métrica: Safe Production System implantado em todas as unidades geridas em 2025 (p. 7)
+  - Métrica: Testes de fluxos de trabalho com IA e plataformas operadas remotamente para prever a trajetória de reabilitação e fechamento de minas (p. 54)
+  - Métrica: Aceleração de automação e tecnologias avançadas para reduzir a dependência de habilidades escassas (p. 101); operações autônomas de trens e caminhões no minério de ferro (p. 94)

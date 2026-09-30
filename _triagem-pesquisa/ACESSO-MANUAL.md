@@ -1,0 +1,262 @@
+# Acesso manual
+
+Materiais que exigem formulário, cadastro ou assinatura. Para solicitar, use seus dados de contato (e-mail e telefone comercial) e **não informe nada sobre o projeto ou o cliente**.
+
+## Formulários simples (dá para preencher com seus dados de contato)
+
+- **MIT Technology Review Insights / Celigo — Bridging the operational AI gap (relatório completo, 18 p.)** · relevância media
+  - Link: https://www.celigo.com/ai-gap-report/#ai-gap-download
+  - Campos: Formulário HubSpot def8e59e-93c1-416d-bdc8-0783241f742a (portal 5812834), aberto pelo botão 'Download the full report' (definição lida no endpoint público de embed). Obrigatórios: First name, Business Email e uma caixa de ciência da política de privacidade. Opcional: Job title. Há campos ocultos de UTM e Salesforce. Correção: o formId dba9b883 registrado na rodada 1 é o da newsletter do rodapé, não o do relatório.
+  - CAPTCHA: nao · opt-in de marketing obrigatório: sim
+  - Alternativa pública: https://www.technologyreview.com/2026/03/04/1133642/bridging-the-operational-ai-gap/
+  - Pede só nome, e-mail e cargo (opcional) e não tem CAPTCHA (captchaEnabled=false). A caixa obrigatória fala de privacidade, mas no HubSpot está ligada a um tipo de assinatura de comunicação (ID 9992963): aceitar implica consentir comunicações. O relatório completo acrescenta dados por estágio e entrevistas. Os números principais já estão nas páginas abertas do MIT TR e da Celigo; as novas métricas estão em 'itens'.
+
+## Pedir manualmente (CAPTCHA, cadastro com senha ou campos além do contato)
+
+- **ABES com IDC — Mercado Brasileiro de Software: Panorama e Tendências 2026 (PDF completo)** · relevância media
+  - Link: https://abes.org.br/dados-do-setor/
+  - Campos: Contact Form 7 (wpcf7-f73533). Obrigatórios: Nome, Sobrenome, Organização, Campo de atuação (lista), 'A organização é associada da ABES?', Temas de interesse, E-mail, Cidade, Estado e aceite da política de uso dos dados. Opcional: CNPJ. Não pede cargo nem telefone.
+  - CAPTCHA: sim · opt-in de marketing obrigatório: nao
+  - Alternativa pública: https://abes.org.br/download/92487/
+  - Tem Cloudflare Turnstile e campos de qualificação. A edição 2025 é aberta e já está no catálogo (M276). A versão interativa de 2026 (mercado.abes.org.br) abre como 'Central do Associado', que exige login de associado.
+- **Gartner — See 3 of the most popular Gartner Hype Cycles (inclui agentic AI)** · relevância media
+  - Link: https://www.gartner.com/en/articles/hype-cycle-for-agentic-ai
+  - Campos: Formulário Eloqua em 3 etapas. (1) Work Email*. (2) First Name*, Last Name*, Job Title*, Job Level*, Job Function* e Job Role*. (3) Company/Organization*, Business Street Address*, City*, Postal Code, Country* e State/Province*. A caixa de consentimento para contato comercial só aparece para a China.
+  - CAPTCHA: sim · opt-in de marketing obrigatório: nao
+  - Alternativa pública: https://www.gartner.com/en/articles/hype-cycle-for-agentic-ai
+  - Tem reCAPTCHA e pede endereço comercial completo e três classificações de cargo, além dos dados de contato. O artigo público (M104) já traz a conclusão principal: 17% implantaram agentes e mais de 60% esperam implantar em 2 anos. O compilado gratuito acrescentaria os gráficos dos Hype Cycles; os relatórios completos são pagos.
+- **PwC Brasil — PwC Agtech Innovation — Report Novos Paradigmas para a Inovação no Agro (versão completa, cerca de 100 páginas)** · relevância media
+  - Link: https://www.pwc.com.br/pt/consultoria/agtech-innovation/agtech-innovation-news/report-novos-paradigmas-para-a-inovacao-no-agro/formulario-versao-completa.html
+  - Campos: Formulário AEM da PwC: Nome*, Empresa*, Cargo* e Email*. O país vai em campo oculto e há um campo-armadilha anti-spam (mandatoryHField). Não há caixa de consentimento: o aviso diz que, ao enviar, a pessoa aceita a Declaração de Privacidade da PwC. As trilhas temáticas (ex.: formulario-trilha-tecnologia.html) usam o mesmo formulário.
+  - CAPTCHA: nao · opt-in de marketing obrigatório: nao
+  - Não enviado: ao enviar, você passa a receber informações da PwC (o cancelamento é por e-mail depois). Conteúdo qualitativo de 2024, menor prioridade. Quatro campos de contato, sem CAPTCHA (o componente de captcha do AEM não está nesta página) e sem opt-in obrigatório. O conteúdo é qualitativo (mar/2024, artigos do Agtech Meeting 2023), com capítulo sobre oportunidades e casos de uso de IA no campo: é a menor prioridade entre os automáticos. Para reduzir volume, basta a Trilha Tecnologia.
+- **Roland Berger — Crafting tomorrow: How shared capabilities drive AI-First organizations** · relevância media
+  - Link: https://www.rolandberger.com/en/Insights/Publications/Crafting-tomorrow-How-shared-capabilities-drive-AI-first-organizations.html#download
+  - Campos: Mesmo contactForm do AI-First Organization: Email*, Title*, First name*, Last name*, Company*, Job title*, Country* e consentimento de marketing obrigatório, seguido de confirmação por e-mail (double opt-in).
+  - CAPTCHA: sim · opt-in de marketing obrigatório: sim
+  - Alternativa pública: https://www.rolandberger.com/en/Insights/Publications/Crafting-tomorrow-How-shared-capabilities-drive-AI-first-organizations.html
+  - Tem FriendlyCaptcha e opt-in de marketing obrigatórios. Complementa o AI-First Organization com estruturas de plataforma e capacidades compartilhadas. A página só traz um número (60% das empresas que escalam abaixo da média não operam nenhuma plataforma), já registrado em M035.
+- **Roland Berger (com Aleph Alpha) — AI sovereignty: A strategic imperative for European industry** · relevância media
+  - Link: https://www.rolandberger.com/en/Insights/Publications/AI-sovereignty.html#download
+  - Campos: HubSpot e6d6fa1a-f9c5-4898-a842-15e98e297077 (portal 2936738, região eu1), com definição pública. Obrigatórios: Email, Title, First name, Last name, Company, Job function, Country e rb_consent_checkbox (consentimento para marketing por e-mail). Ocultos: gatilho de double opt-in, setores, funções e idioma.
+  - CAPTCHA: nao · opt-in de marketing obrigatório: sim
+  - Alternativa pública: https://www.rolandberger.com/en/Insights/Publications/AI-sovereignty.html
+  - Não tem CAPTCHA (captchaEnabled=false), mas exige consentimento de marketing e confirmação por e-mail (double opt-in) para liberar o PDF, decisões que cabem ao usuário. O tema é soberania de IA na indústria europeia, de relevância média, e a página já traz os números-chave (M036).
+
+## Ainda não triados
+
+- **ABMRA — Pesquisa ABMRA Hábitos do Produtor Rural (9ª edição)**
+  - Link: https://abmra.org.br/pesquisa-abmra-habitos-do-produtor-rural-abmra/
+  - Campos: Compra de cota ('Adquira sua cota'), via contato comercial da ABMRA.
+  - Material pago; avaliar custo-benefício. Os dados de uso de tecnologia (drones, softwares, IA) da 9ª edição não estão públicos.
+- **EY (Suíça) — EY European AI Barometer 2025 (relatório completo)**
+  - Link: https://www.ey.com/en_ch/functional/forms/download/ey-european-ai-barometer-2025
+  - Campos: Não aparecem no HTML: é um formulário Marketo carregado dentro de um iframe
+  - O acesso é pelo link 'Download the EY study European AI Barometer 2025' na página https://www.ey.com/en_ch/insights/ai/ey-study-european-ai-barometer-2025. As métricas principais já foram lidas na página oficial.
+- **Evident Insights — 2026 Evident AI Index for Banks – LATAM: relatório completo (botão 'Download the report')**
+  - Link: https://evidentinsights.com/insights/banking-ai-index-latam-2026-report
+  - Campos: Não verificados no modal, que abre com autenticação ('useAuth'). O formulário de contato da mesma página pede first name, last name, e-mail corporativo, empresa e cargo, com mensagem e inscrição na newsletter opcionais.
+  - A página de key findings é aberta e foi salva em PDF. O 'Key Findings Report' em PDF (EAI-KFR-banks-latam-2607-10.pdf) parece acessível. O relatório completo, com os perfis dos bancos, exige cadastro. Nada foi preenchido.
+- **Evident Insights — AI Use Case Trends in Banking – relatório completo e base do Evident AI Use Case Tracker (Q1 e Q2 2026)**
+  - Link: https://evidentinsights.com/insights/banking-use-case-trends-q2-2026
+  - Campos: Acesso para membros ('Sign in'). Formulário 'Get in touch' com first name, last name, e-mail corporativo, empresa, cargo e assunto.
+  - Os resumos públicos do 1º e do 2º trimestre de 2026 foram salvos em PDF. A base com todos os casos e resultados por banco é restrita a membros (provavelmente paga). Nada foi preenchido.
+- **Evident Insights — Evident AI Index for Banks – LATAM 2026: Key Findings Report (21/07/2026)**
+  - Link: https://evidentinsights.com/banking-ai-index-latam
+  - Campos: First name*, Last name*, Work email*, Role title*, Company*; opcionais: assunto da solicitação (Membership & Benchmarking services, Sponsorship, Press enquiry, Other) e inscrição na newsletter The Brief
+  - Modal aberto pelo botão 'Read the Key Findings Report'. Não preenchido. A página pública já traz o ranking por pilar e a metodologia (salva em 08_setor-financeiro/Evident_2026_ai-index-bancos-latam.pdf). Antes de pedir, conferir se outra cópia oficial do relatório já está na pasta 08. Não marcar a newsletter nem informar o projeto.
+- **Gartner — Pinpoint high-impact AI use cases and develop your AI roadmap (e-book Gartner)**
+  - Link: https://www.gartner.com/en/articles/organizations-with-high-ai-outcomes
+  - Campos: Work Email e Person Type; depois First Name, Last Name, Job Title, Job Level, Job Function e Job Role; Company/Organization, Business Street Address, City, Postal Code (opcional), Country/Region/Territory e State/Province; aceite dos Termos de Uso e da Política de Privacidade (e consentimento de contato em alguns países)
+  - Botão 'Begin Download' nas páginas 'organizations-with-high-ai-outcomes' e 'rein-in-ai-spend'. O link do PDF aparece no HTML, mas é o conteúdo entregue depois do formulário; não foi baixado.
+- **IAPP (com Credo AI) — AI Governance Profession Report 2025 (relatório completo)**
+  - Link: https://iapp.org/resources/article/ai-governance-profession-report/
+  - Campos: Login de membro da IAPP (associação paga); o botão 'View report' tem bloqueio exclusivo para membros
+  - O infográfico público foi baixado (04_academia-instituicoes/IAPP_2025_ai-governance-profession-report-infografico.pdf). A página pública do relatório mostra ainda a responsabilidade principal pela governança de IA: privacidade 22%, jurídico e compliance 22%, TI 17%, governança de dados 10%.
+- **ISO/IEC — ISO/IEC 42001:2023 — Information technology — Artificial intelligence — Management system**
+  - Link: https://www.iso.org/standard/42001
+  - Campos: Compra na loja da ISO (CHF 225, PDF e ePub ou papel)
+  - Primeira norma certificável de sistema de gestão de IA (1ª edição, dez/2023), referência de governança que complementa o NIST AI RMF do acervo. Há prévia no Online Browsing Platform da ISO. Não baixada por ser paga.
+- **Informatica (patrocínio Deloitte) — CDO Insights 2026: Advancing GenAI Adoption — Key Insights for CDOs in 2026 (relatório completo)**
+  - Link: https://www.informatica.com/lp/cdo-insights-2026_5264.html
+  - Campos: País, Estado, Nome, Sobrenome, E-mail, Telefone, Cargo, Empresa, Setor, Nível do cargo e Área/departamento (a página diz que todos são obrigatórios); opt-in de comunicações e 'Please call me' opcionais
+  - Formulário Marketo; o relatório é enviado por e-mail. A página pública já traz destaques: 50% dos adotantes de IA agêntica citam qualidade e recuperação de dados como barreira; 76% dizem que a governança não acompanhou o uso de IA; 65% dizem que os funcionários confiam nos resultados mesmo com lacunas de dados; 86% vão ampliar investimento em gestão de dados (600 líderes de dados).
+- **MIT CISR — MIT CISR Research Briefings (PDF oficial e conteúdos adicionais)**
+  - Link: https://cisr.mit.edu/publication/2025_0801_EnterpriseAIMaturityUpdate_WoernerSebastianWeillKaganer
+  - Campos: Cadastro gratuito ('Log In or Sign Up') no site cisr.mit.edu; os campos não aparecem na página.
+  - É opcional: o texto integral das duas briefings sobre maturidade em IA já foi salvo como impressão da página oficial. O cadastro libera os PDFs nativos e materiais relacionados, como os talking points 'Challenges in Maturing Enterprise AI' (ago/2025).
+- **MIT Technology Review Insights / Celigo — Bridging the operational AI gap (relatório completo)**
+  - Link: https://www.celigo.com/ai-gap-report/
+  - Campos: Os campos não aparecem no HTML: é um formulário HubSpot carregado por script (portalId 5812834, formId dba9b883-f15c-4758-b19f-973542a5c3fd).
+  - É um relatório patrocinado. Os principais números já estão nas páginas oficiais do MIT TR e da Celigo e foram registrados. Vale solicitar se quiser o detalhamento por setor e por estágio (pilotos parados ou abandonados, equipes dedicadas).
+- **PitchBook — Q2 2026 Agtech Report: Embedded AI Draws Capital and Delivers ROI (relatório completo)**
+  - Link: https://pitchbook.brightspotcdn.com/5e/08/bfa17cb444059c50d7a96539baa7/q2-2026-agtech-report-embedded-ai-draws-capital-and-delivers-roi-preview.pdf
+  - Campos: Assinatura da PitchBook Platform (a prévia gratuita já foi baixada).
+  - O relatório completo detalha deals e temas de IA com ROI; só vale se já houver acesso institucional à PitchBook.
+- **Rural Ventures (Rural Insights) — Rural Tech Report 2025.1**
+  - Link: https://ruralinsights.com.br/lancamento-rural-tech-report-2025-1/
+  - Campos: Não visíveis. O botão de download aponta para https://www.ruralinsights.com.br/report-rural, que retornava HTTP 404 em 29/09/2026.
+  - Tentar mais tarde ou pedir por contato à Rural. Destaques públicos em AgFeed (29/12/2025: R$ 680 mi investidos em 2025, −10% sobre 2024) e na Forbes Agro (18/08/2025).
+- **S&P Global Market Intelligence (451 Research) — Voice of the Enterprise: AI & Machine Learning, Use Cases 2025 (relatório completo)**
+  - Link: https://www.spglobal.com/market-intelligence/en/news-insights/research/ai-experiences-rapid-adoption-but-with-mixed-outcomes-highlights-from-vote-ai-machine-learning
+  - Campos: Sem formulário público: acesso por assinatura paga do 451 Research / S&P Global Market Intelligence
+  - A página pública de destaques foi salva em PDF (03_analistas-big-techs/SPGlobal-451Research_2025_vote-ai-ml-use-cases-abandono-projetos.pdf). O site bloqueia acesso automatizado (HTTP 403).
+- **Snowflake / Omdia — The ROI of Gen AI and Agents 2026 (e-book)**
+  - Link: https://www.snowflake.com/en/lp/radical-roi-generative-ai/
+  - Campos: Formulário Marketo (mktoForm_48822) carregado dinamicamente; ao menos e-mail. Os demais campos não estão visíveis no HTML (provavelmente nome, empresa, cargo e país)
+  - A landing page já traz a maioria dos números (US$ 1,49 por US$ 1). O e-book traz os recortes por país e setor.
+
+## Descartados (pagos, indisponíveis ou pouco relevantes)
+
+- **Journal of the Agricultural and Applied Economics Association (AAEA/Wiley) — Economic viability of robotic fruit harvesters to reduce large seasonal labor demands: Analysis of Gala and Honeycrisp apples** · relevância alta
+  - Link: https://onlinelibrary.wiley.com/doi/full/10.1002/jaa2.70000
+  - Campos: Nenhum: o artigo é de acesso aberto (CC BY). O bloqueio vinha da proteção anti-robô da Wiley (HTTP 403 para scripts); no navegador, a página e o PDF abrem normalmente.
+  - CAPTCHA: nao identificado · opt-in de marketing obrigatório: nao
+  - Alternativa pública: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/jaa2.70000
+  - Nada a pedir: o PDF oficial, de 18 páginas, foi obtido nesta rodada pelo navegador e salvo em 07_agro-global-perenes-autonomia/AAEA_2025_viabilidade-colheita-robotica-macas.pdf (métricas em 'itens').
+- **Fundação Dom Cabral + CI&T — AI Lighthouse Awards 2025 - relatório final** · relevância media
+  - Link: https://www.fdc.org.br/Documents/FDC_CI&T_Relatorio_Final.pdf
+  - Campos: Sem formulário: o PDF oficial do relatório final, linkado na matéria da FDC, e a página fdc.org.br/ai-lighthouse-awards retornam 'Página não encontrada'. A página da CI&T não traz o relatório.
+  - CAPTCHA: nao identificado · opt-in de marketing obrigatório: nao identificado
+  - Alternativa pública: https://sejarelevante.fdc.org.br/ab-inbev-globo-e-anima-holding-lideram-ranking-de-ia-no-brasil/
+  - O material foi retirado do ar. A matéria oficial da FDC foi salva em PDF (04_academia-instituicoes/FDC_2025_ranking-ia-ai-lighthouse-awards.pdf) e traz o ranking, a amostra, a governança e a organização das iniciativas (em 'itens'). Números do PDF citados pela Perplexity, como 22,5% com ROI acima de 30%, não puderam ser verificados. Se forem essenciais, pedir o relatório diretamente à FDC ou à CI&T.
+- **Gartner — Gartner AI Maturity Assessment / AI Maturity Model and AI Roadmap Toolkit** · relevância media
+  - Link: https://www.gartner.com/en/chief-information-officer/research/ai-maturity-model-toolkit
+  - Campos: Formulário Eloqua em 2 etapas. Etapa 1: Work Email* e tipo de pessoa. Etapa 2: First Name*, Last Name*, Country*, State/Province*, Job Function*, Job Role*, Job Title*, Company Name*, Phone* e Inquiry Details* (texto livre). A caixa de consentimento para contato comercial só aparece para a China.
+  - CAPTCHA: sim · opt-in de marketing obrigatório: nao
+  - Alternativa pública: https://www.gartner.com/en/newsroom/press-releases/2025-06-30-gartner-survey-finds-forty-five-percent-of-organizations-with-high-artificial-intelligence-maturity-keep-artificial-intelligence-projects-operational-for-at-least-three-years
+  - O formulário, com reCAPTCHA, só abre uma demo e gera um contato de vendas ('Inquiry Details'). O toolkit e o relatório de maturidade são exclusivos de clientes Gartner. Os números públicos de maturidade já estão nos press releases catalogados (M086, M088).
+- **PitchBook — Q2 2026 Agtech Report: Embedded AI Draws Capital and Delivers ROI (relatório completo)** · relevância media
+  - Link: https://pitchbook.com/news/reports/q2-2026-agtech-report-embedded-ai-draws-capital-and-delivers-roi
+  - Campos: A página tem um formulário simples (FirstName*, LastName*, Email*; Company e Phone opcionais; 'Are you a student?'; aceite da política de privacidade), mas ele entrega só a prévia. O relatório completo e o pacote de dados em Excel são exclusivos de clientes da PitchBook Platform (Research Center).
+  - CAPTCHA: nao · opt-in de marketing obrigatório: nao
+  - Alternativa pública: https://pitchbook.brightspotcdn.com/5e/08/bfa17cb444059c50d7a96539baa7/q2-2026-agtech-report-embedded-ai-draws-capital-and-delivers-roi-preview.pdf
+  - A prévia gratuita já está no catálogo (M175). O conteúdo completo exige assinatura paga da PitchBook; só vale se já houver acesso institucional.
+- **Rural Ventures (Rural Insights) — Rural Tech Report 2025.1** · relevância media
+  - Link: https://www.ruralinsights.com.br/report-rural
+  - Campos: Não é possível verificar: o botão de download da página de lançamento leva a /report-rural, que continua em HTTP 404 em 30/09/2026. A página de lançamento só tem um formulário de newsletter (beehiiv).
+  - CAPTCHA: nao identificado · opt-in de marketing obrigatório: nao identificado
+  - Alternativa pública: https://ruralinsights.com.br/lancamento-rural-tech-report-2025-1/
+  - Material fora do ar. Os números-chave (R$ 627 mi no 1º sem/2025, +88%) já estão na página de lançamento catalogada. A Rural lançou o Rural IAT, índice de adoção tecnológica do agro com mais de 1.000 produtores e 8 verticais, incluindo cana e silvicultura, com resultados previstos para nov/2026: vale acompanhar.
+- **TOTVS — IPT Agro — Índice de Produtividade Tecnológica** · relevância media
+  - Link: https://conteudo.totvs.com/paper-ipt-agro
+  - Campos: HubSpot ebc0f698-b806-4261-9c8a-b089dae4611e (portal 2287241), com definição pública. Não há nenhum campo visível: e-mail, empresa TOTVS, perfil da empresa, UTMs e gclid são ocultos e opcionais. Na prática, é um botão 'ACESSAR O MATERIAL' que registra o clique.
+  - CAPTCHA: nao · opt-in de marketing obrigatório: nao
+  - Alternativa pública: https://2287241.fs1.hubspotusercontent-na1.net/hubfs/2287241/Paper_IPT%20de%20Agroneg%C3%B3cio.pdf
+  - Nada a pedir: o PDF oficial, de 12 páginas, foi baixado nesta rodada do servidor de arquivos da própria TOTVS, indexado publicamente, e o formulário não coleta dados. Arquivo: 05_agro-brasil-instituicoes-midia/TOTVS_2024_ipt-agro-indice-produtividade-tecnologica.pdf (métricas em 'itens').
+- **ABMRA — Pesquisa ABMRA Hábitos do Produtor Rural (9ª edição)** · relevância baixa
+  - Link: https://abmra.org.br/contato-abmra/
+  - Campos: Não há formulário de download: o botão 'Adquira sua cota' leva ao contato comercial da ABMRA para compra de cota.
+  - CAPTCHA: nao identificado · opt-in de marketing obrigatório: nao identificado
+  - Alternativa pública: https://abmra.org.br/pesquisa-abmra-habitos-do-produtor-rural-abmra/
+  - Material pago. A página oficial só mostra séries antigas (internet em 39%, 42% e 74% em 2013, 2017 e 2021). Os números da 9ª edição (internet em 98% das propriedades, WhatsApp em 96%) só aparecem na imprensa, e o relatório de atividades 2025 da ABMRA é um PDF só com imagens. Não há dado público sobre uso de IA, drones ou softwares.
+- **AWS (Amazon Web Services) — AMAGGI reúne mais de 8 milhões de imagens de satélite em Data Lake AWS (case de cliente)** · relevância baixa
+  - Link: https://aws.amazon.com/pt/solutions/case-studies/amaggi-case-study/
+  - Campos: Sem formulário: a página do case, em português e em inglês, continua em HTTP 404 em 30/09/2026, inclusive no navegador.
+  - CAPTCHA: nao identificado · opt-in de marketing obrigatório: nao identificado
+  - Alternativa pública: https://www.planet.com/pulse/como-a-amaggi-usa-os-dados-da-planet-para-elevar-a-agricultura-sustentavel-a-um-outro-patamar/
+  - Case fora do ar. A Perplexity cita 8 milhões de imagens e 154 mil ha monitorados por dia, mas não foi possível conferir na fonte. Alternativa oficial parcial: o case da Planet com a AMAGGI (8,7 milhões de imagens desde 2016, NDVI e taxa variável; em 'itens'), além do Relatório de Progresso 2025 da própria AMAGGI (M186).
+- **Evident Insights — Evident AI Outcomes Report 2025 (relatório completo) e Outcomes Benchmark privado** · relevância baixa
+  - Link: https://evidentinsights.com/insights/outcomes-report/
+  - Campos: Há três rotas. (a) Modal 'Outcomes Report Download' (HubSpot 6a6a7ea3-6570-4b50-b738-97f886983928): First Name*, Last Name*, Work Email*, Role Title*, Company*, assunto opcional e newsletter pré-marcada; entrega só um excerto (EAI-Outcomes_Report_excerpt). (b) O relatório completo está marcado como 'members report' (accessLevel member). (c) O benchmark privado de casos de uso, gasto e retorno sai pelo 'Get in touch' (contato comercial).
+  - CAPTCHA: nao · opt-in de marketing obrigatório: nao
+  - Alternativa pública: https://evidentinsights.com/insights/outcomes-report/
+  - O relatório completo e o benchmark são exclusivos de membros ou dependem de contrato. O excerto gratuito repete os key findings já salvos (M247).
+- **Forrester — 2026 Predictions: Forrester's Tech & Security Guide For Leaders** · relevância baixa
+  - Link: https://www.forrester.com/predictions/technology-2026/
+  - Campos: Eloqua form2069 (LEAD3.0Wordpress). Obrigatórios: First Name, Last Name, Business Email, Business Phone, Job Title, Country, Company Name, Industry (lista), Address, City, State e Zip/Postal Code. Opcional: caixa para receber convites de pesquisa e comunicações de marketing.
+  - CAPTCHA: nao · opt-in de marketing obrigatório: nao
+  - Alternativa pública: https://www.forrester.com/blogs/predictions-2026-ai-moves-from-hype-to-hard-hat-work/
+  - É um e-book de marketing, e o conteúdo de IA das predições já está no blog público catalogado (M083). Exige endereço comercial completo e setor. Não tem CAPTCHA, mas o ganho incremental é baixo. O 'Predictions 2026: AI' completo é só para clientes.
+- **MIT CISR — MIT CISR Research Briefings (PDF oficial e conteúdos adicionais)** · relevância baixa
+  - Link: https://cisr.mit.edu/user/signup?destination=/publication/2025_0801_EnterpriseAIMaturityUpdate_WoernerSebastianWeillKaganer
+  - Campos: Criação de conta no Drupal (user-register-form). Obrigatórios: Business Email, Organization, First Name, Last Name, Business Title, 'I consent to the copyright policy' e 'I accept the Privacy Policy'. Tem campo anti-robô oculto (antibot_key), que depende de JavaScript.
+  - CAPTCHA: nao · opt-in de marketing obrigatório: nao
+  - Alternativa pública: https://cisr.mit.edu/publication/2025_0801_EnterpriseAIMaturityUpdate_WoernerSebastianWeillKaganer
+  - Exige criar conta, o que não pode ser automatizado. Só libera o PDF nativo de briefings cujo texto integral já está salvo (M127 e M128). Os talking points 'Challenges in Maturing Enterprise AI' são exclusivos de funcionários das empresas-membro do consórcio (pago), segundo a própria página.
+- **NVIDIA — State of AI in Financial Services 2026 (relatório completo)** · relevância baixa
+  - Link: https://www.nvidia.com/en-us/industries/finance/ai-financial-services-report/
+  - Campos: Formulário AEM (guideContainerForm): First Name, Last Name, Business Email, Organization/University Name, Industry (lista), Job Title (lista), Location, Preferred Language, State/Province (condicional) e Business Phone. Opt-in de novidades opcional; as caixas de consentimento PIPL só aparecem para a China.
+  - CAPTCHA: nao · opt-in de marketing obrigatório: nao
+  - Alternativa pública: https://resources.nvidia.com/en-us-financial-services-industry/finance-state-of-ai-report
+  - O relatório completo, de 14 páginas, já foi baixado na rodada 1 pelo portal aberto resources.nvidia.com (M255, 08_setor-financeiro/NVIDIA_2026_state-of-ai-financial-services.pdf). Não há o que pedir.
+
+## Solicitados (aguardando liberação por e-mail)
+
+- **MIT NANDA (Media Lab) — The GenAI Divide: State of AI in Business 2025** · relevância alta
+  - Link: https://docs.google.com/forms/d/e/1FAIpQLSc8rU8OpQWU44gYDeZyINUZjBFwu--1uTbxixK_PRSVrfaH8Q/viewform
+  - Campos: Google Form 'NANDA - Research Access Form', no link 'REPORTS: Click here for Access' da página do grupo no MIT Media Lab (para onde agora redireciona o antigo link do PDF). Obrigatórios: Name, Affiliation e Email ID. Opcionais: interesse no NANDA, uso da agentic web e recursos a compartilhar. Não exige login Google.
+  - CAPTCHA: nao · opt-in de marketing obrigatório: nao
+  - Formulário enviado em 30/09/2026 (nome, instituição e e-mail). A liberação é feita pelo grupo do MIT: aguarde o e-mail com o acesso. O PDF saiu do site do MIT, e a página oficial do grupo agora direciona para este formulário de acesso. São só três campos, sem CAPTCHA (captcha invisível desativado) e sem opt-in; a liberação pode ser manual, pelo grupo. Não há cópia oficial aberta: as que circulam estão em sites de terceiros e não foram usadas. É a fonte da tese muito citada de que 95% dos pilotos de GenAI não têm retorno mensurável. Deixar os campos opcionais em branco.
+
+## Já obtidos (baixados e catalogados)
+
+- **ABES / IDC — Estratégias Digitais em Alta Performance: os vetores tecnológicos impulsionados pela IA (2026)** · relevância alta
+  - Link: https://abes.org.br/lp-estudo-estrategias-digitais-em-alta-performance/
+  - Campos: Contact Form 7 (wpcf7-f106846). Obrigatórios: Nome, Sobrenome, Organização, Campo de atuação da organização (lista), 'A organização é associada da ABES?', Temas de interesse (ao menos 1), E-mail, Cargo, Telefone/WhatsApp, Cidade, Estado e aceite da política de uso dos dados. Opcional: CNPJ.
+  - CAPTCHA: sim · opt-in de marketing obrigatório: nao
+  - Alternativa pública: https://abes.org.br/ia-impulsiona-nova-corrida-tecnologica-nas-empresas-brasileiras-aponta-estudo-inedito-da-abes/
+  - Tem Cloudflare Turnstile (o botão de envio fica desativado até a validação) e campos de qualificação além do contato (atuação, associação à ABES e temas; CNPJ opcional). É um estudo brasileiro de ago/2026, de alta relevância. Os números públicos já estão no release oficial (M098). Ao preencher, usar só os dados da empresa do próprio usuário.
+- **EY Brasil — Top 10 Riscos e Oportunidades no Agro 2026** · relevância alta
+  - Link: https://info.ey.com/ey-top-10-riscos-e-oportunidades-do-agro.html
+  - Campos: Marketo mktoForm_164504 (munchkin 520-RXP-003), com a definição embutida na página. Obrigatórios: Nome, Sobrenome, E-mail, Cargo, Empresa, Indústria (lista sem opção de agro), País, Estado (só para alguns países), 'Li e compreendi a Declaração de Privacidade da EY' e 'Sim, por favor, dou meu consentimento' para receber comunicações da EY. Campos ocultos registram a origem do opt-in (status 'Unconfirmed').
+  - CAPTCHA: sim · opt-in de marketing obrigatório: sim
+  - Alternativa pública: https://www.ey.com/pt_br/newsroom/2026/08/busca-talentos-dominem-ia-outras-tecnologias-prioridade-agro
+  - Tem reCAPTCHA v2, validado antes do envio (grecaptcha.getResponse), e o consentimento de marketing é obrigatório. É um estudo brasileiro de 2026 com 52 lideranças do agro, de alta prioridade. Os releases da EY (jul–ago/2026) e a matéria da Forbes Agro (M068) já cobrem os números principais. A Perplexity indicou que o PDF estaria indexado no repositório do ey.com, mas nenhuma página oficial o linka; não foi baixado para não contornar o formulário.
+- **Google Cloud / National Research Group — ROI of AI 2026: From tokenmaxxing to ROI** · relevância alta
+  - Link: https://cloud.google.com/resources/content/roi-of-ai-2026
+  - Campos: Formulário do próprio Google, presente no HTML. Obrigatórios: Nome, Sobrenome, E-mail comercial, Telefone comercial (código +55), Cargo e Nome da empresa. Também pede País (Brasil pré-selecionado), Estado/distrito e Setor (lista com 'Agricultura'); a obrigatoriedade das listas não aparece no HTML. O opt-in de marketing ('Quero receber notícias...') é opcional, e há um aviso de tratamento de dados conforme a Política de Privacidade do Google.
+  - CAPTCHA: nao · opt-in de marketing obrigatório: nao
+  - Alternativa pública: https://cloud.google.com/transform/ai-roi-report-token-efficiency-agentic-ai-ownership-workflows-fluency
+  - Pede só dados de contato e de empresa. Não há widget de CAPTCHA no HTML: as menções a 'recaptcha' são links de produto. É o benchmark de ROI de 2026 (2.400+ executivos), de prioridade máxima. O blog oficial traz os números principais e casos com valor em US$ (novas métricas em 'itens'). O PDF completo acrescenta a análise por setor e região.
+- **Roland Berger — The AI-First Organization: from pilots to performance (Nine operating model shifts to unlock AI value)** · relevância alta
+  - Link: https://www.rolandberger.com/en/Insights/Publications/The-AI-First-Organization.html#download
+  - Campos: Formulário próprio (contactForm, Angular), aberto pelo link 'Request the full PDF here'. Obrigatórios: Email, Title (Mr./Ms./Mx.), First name, Last name, Company, Job title, Country e caixa de consentimento para receber informações, material de marketing e convites por e-mail. Depois do envio vem a confirmação por e-mail (double opt-in), e só então o PDF é enviado.
+  - CAPTCHA: sim · opt-in de marketing obrigatório: sim
+  - Alternativa pública: https://www.rolandberger.com/en/Insights/Publications/The-AI-First-Organization.html
+  - Tem FriendlyCaptcha obrigatório e consentimento de marketing obrigatório, e a entrega exige clicar no link de confirmação enviado por e-mail. É um estudo de 2026 (472 executivos) sobre o modelo operacional AI-First, relevante para F1/F2. A Perplexity não achou press release nem PDF público com números além dos da página (já em M023).
+- **Distrito — IA no Agro 2024 (Distrito Agro IA)** · relevância media
+  - Link: https://materiais.distrito.me/report/agro-ia
+  - Campos: HubSpot 1b6d4c45-d4cc-49dd-941f-d5e377077379 (portal 7735036), com definição pública. Obrigatórios: Nome, Sobrenome, E-mail corporativo, Número de telefone e 'Qual é o seu perfil?' (Corporação, Consultoria, Investidor(a), Startup, Imprensa). Opcionais: newsletter de IA, comunicações por e-mail e WhatsApp e 'outras comunicações da Distrito'.
+  - CAPTCHA: nao · opt-in de marketing obrigatório: nao
+  - Alternativa pública: https://www.distrito.me/blog/inteligencia-artificial-no-agronegocio-aplicacoes-e-impacto
+  - Obtido pelo usuário em 30/09/2026. Dados de contato mais um campo de perfil, sem CAPTCHA (captchaEnabled=false) e com opt-ins opcionais (deixar desmarcados). É um relatório brasileiro de IA no agro, de set/2024. O blog oficial só traz o investimento de quase US$ 220 mi em startups de IA para o agro na América Latina (reportado em 'itens').
+- **Distrito — Distrito AI Adoption Framework 2026** · relevância media
+  - Link: https://ai-framework.distrito.me/
+  - Campos: HubSpot v4 531a00cd-8c60-4d66-bc80-12e2d766cdea (portal 7735036), em iframe. A definição pública está em forms.hsforms.com/embed/v4/render-definition/7735036/531a00cd-8c60-4d66-bc80-12e2d766cdea. Obrigatórios: E-mail corporativo, Telefone (WhatsApp), Nome, Sobrenome, Qual seu perfil?, Nome da empresa, Número de funcionários, Cargo e Área (listas). Opcionais: newsletter 'Distrito News: AI' e 'outras comunicações'. O PDF é enviado por e-mail.
+  - CAPTCHA: nao · opt-in de marketing obrigatório: nao
+  - Alternativa pública: https://www.distrito.me/blog/distrito-ai-adoption-framework-guia-para-implementar-ia
+  - Não há CAPTCHA configurado na definição nem requisições de captcha no carregamento, e os opt-ins são opcionais. Além do contato, pede porte, cargo e área (listas), o que exige um perfil-padrão do usuário. O post oficial de jan/2026 já descreve as 6 etapas (reportado em 'itens'). O PDF completo acrescenta as matrizes e ferramentas, útil para F2.
+- **Evident Insights — The 2025 Evident AI Index: Key Findings Report (bancos) e cadastro para os resultados de 2026** · relevância media
+  - Link: https://evidentinsights.com/ai-index/
+  - Campos: Modal 'Banking Index KFR Download' (HubSpot dd050e16-348e-45b3-b9f4-34e8e00c2c18), aberto pelo botão 'Read the 2025 Report' (definição lida no payload da página). Obrigatórios: First name, Work email e Role title. Last name e Company aparecem com asterisco, mas não são obrigatórios na definição. Opcionais: assunto e mensagem (obrigatória só se o assunto for 'Other'). A newsletter 'The Brief' vem pré-marcada, mas é opcional. Há campo-armadilha anti-spam. O cadastro para os resultados de 2026 (outubro) é outro modal, com os mesmos campos, todos opcionais.
+  - CAPTCHA: nao · opt-in de marketing obrigatório: nao
+  - Alternativa pública: https://evidentinsights.com/bankingbrief/heres-the-2025-evident-ai-index/
+  - Formulário de contato sem CAPTCHA. Desmarcar a newsletter pré-marcada. O resumo oficial da newsletter (salvo em PDF) e o novo índice LATAM 2026, baixado pelo link público do menu 'Latest Reports', já cobrem boa parte (ambos em 'itens'). O relatório global de cerca de 50 páginas acrescenta perfis dos bancos e comparações regionais.
+- **IDC (patrocínio Microsoft) — 2024 Business Opportunity of AI (IDC InfoBrief #US52699124)** · relevância media
+  - Link: https://info.microsoft.com/ww-landing-business-opportunity-of-ai.html
+  - Campos: Marketo mktoForm_15745 ('CO-MSFT-Digital-Transformation-Standard'), com a definição embutida na página. Obrigatórios: First name, Last name, Business email, Organization name, Job role e Country. Opcionais: Industry e tópico de interesse. Phone só é exigido se Industry = Education. Há caixas opcionais de ofertas da Microsoft e de compartilhamento com parceiros.
+  - CAPTCHA: nao · opt-in de marketing obrigatório: nao
+  - Alternativa pública: https://blogs.microsoft.com/blog/2024/11/12/idcs-2024-ai-opportunity-study-top-five-ai-trends-to-watch/
+  - Formulário enviado em 30/09/2026: a página agora entrega o InfoBrief de nov/2025 ('What every company can learn from Frontier firms'), catalogado em 03_analistas-big-techs. Formulário de contato sem CAPTCHA (EnableCaptcha=0), com opt-ins opcionais (deixar desmarcados). O blog oficial já tem os números principais e o ranking de ROI por setor (novas métricas em 'itens'); o InfoBrief acrescenta recortes por setor e região. A única versão aberta no CDN da Microsoft é o recorte de educação: foi baixada, conferida e apagada por ser irrelevante.
+- **Snowflake / Omdia — The ROI of Gen AI and Agents 2026 (e-book)** · relevância media
+  - Link: https://www.snowflake.com/en/lp/radical-roi-generative-ai/#form
+  - Campos: Marketo mktoForm_48822 ('Global Form with NO Email Restriction', munchkin 252-RFO-227), lido no endpoint público getForm. Obrigatórios: First name, Last name, Title, Company, Email, Phone, Country, Industry (lista sem agro nem energia) e State (só EUA). Opcionais: opt-in de e-mails (exibido só para alguns países europeus) e compartilhamento com parceiros. Aviso: ao enviar, a pessoa aceita o Privacy Notice.
+  - CAPTCHA: nao · opt-in de marketing obrigatório: nao
+  - Alternativa pública: https://www.snowflake.com/en/lp/radical-roi-generative-ai/
+  - Sem CAPTCHA (EnableCaptcha=0) e sem opt-in obrigatório; pede telefone e setor. A landing page já traz a maioria dos números (novas métricas em 'itens'). O e-book acrescenta recortes de 10 países (sem Brasil) e 6 setores, entre eles manufatura e financeiro.
+
+
+## Pagos ou bloqueados
+
+- **McKinsey & Company (Agriculture Practice) — Global Farmer Insights 2024** (bloqueado): https://www.mckinsey.com/industries/agriculture/our-insights/global-farmer-insights-2024
+- **McKinsey & Company — Charting a path to the data- and AI-driven enterprise of 2030** (bloqueado): https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/charting-a-path-to-the-data-and-ai-driven-enterprise-of-2030
+- **McKinsey & Company — Gen AI's next inflection point: From employee experimentation to organizational transformation** (bloqueado): https://www.mckinsey.com/capabilities/people-and-organization/our-insights/gen-ais-next-inflection-point-from-employee-experimentation-to-organizational-transformation
+- **McKinsey & Company — Why agents are the next frontier of generative AI** (bloqueado): https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/why-agents-are-the-next-frontier-of-generative-ai
+- **Gartner — Gartner AI Maturity Model and AI Roadmap Toolkit / AI Maturity Assessment** (pago): https://www.gartner.com/en/chief-information-officer/research/ai-maturity-model-toolkit
+- **Forrester — The State Of Generative AI, 2024** (pago): https://www.forrester.com/report/the-state-of-generative-ai-2024/RES180458
+- **MIT NANDA (Media Lab) — The GenAI Divide: State of AI in Business 2025** (bloqueado): https://nanda.media.mit.edu/ai_report_2025.pdf
+- **Fundação Dom Cabral + CI&T — AI Lighthouse Awards 2025 - relatório final** (bloqueado): https://www.fdc.org.br/ai-lighthouse-awards
+- **Harvard Business School (Dell'Acqua et al.), com Procter & Gamble — The Cybernetic Teammate: A Field Experiment on Generative AI Reshaping Teamwork and Expertise (HBS Working Paper 25-043)** (bloqueado): https://www.hbs.edu/faculty/Pages/item.aspx?num=67197
+- **ABMRA — Pesquisa ABMRA Hábitos do Produtor Rural (9ª edição)** (pago): https://abmra.org.br/pesquisa-abmra-habitos-do-produtor-rural-abmra/
+- **AWS (Amazon Web Services) — AMAGGI reúne mais de 8 milhões de imagens de satélite em Data Lake AWS (case de cliente)** (bloqueado): https://aws.amazon.com/pt/solutions/case-studies/amaggi-case-study/
