@@ -1,0 +1,744 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Framework de maturidade em IA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Manrope:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --brand-green: #52C937; --brand-green-bright: #6FE34F; --brand-green-deep: #2F8B1F; --brand-green-mute: #3A7A2A;
+    --bg-0: #050805; --bg-1: #0B100B; --bg-2: #131A13; --bg-3: #1C241B; --bg-4: #252E24;
+    --line: #2A3328; --line-strong: #3A4537;
+    --fg-1: #F2F4EE; --fg-2: #B8BFB1; --fg-3: #7C8678; --fg-4: #4D5749; --fg-inv: #0B100B;
+    --warning: #E8B33B; --info: #4FB7C9;
+    --dv-1: #2F8B1F; --dv-2: #52C937; --dv-3: #9BE05F;
+    --font-display: 'Chakra Petch', 'Bahnschrift', system-ui, sans-serif;
+    --font-body: 'Manrope', 'Segoe UI', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  }
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; background: var(--bg-0); color: var(--fg-1);
+    font-family: var(--font-body); font-size: 12px; line-height: 1.5;
+    -webkit-print-color-adjust: exact; print-color-adjust: exact;
+  }
+  .page {
+    width: 210mm; height: 297mm; position: relative; overflow: hidden;
+    padding: 16mm 16mm 22mm; background: var(--bg-0);
+    page-break-after: always; break-after: page;
+  }
+  .page:last-child { page-break-after: auto; break-after: auto; }
+
+  /* Tipografia */
+  .eyebrow { font: 500 11px var(--font-display); text-transform: uppercase; letter-spacing: 0.18em; color: var(--brand-green); }
+  .label { font: 500 9.5px var(--font-display); text-transform: uppercase; letter-spacing: 0.08em; color: var(--fg-3); }
+  h1 { font: italic 700 44px/1.04 var(--font-display); letter-spacing: -0.01em; margin: 14px 0 0; }
+  h2 { font: italic 600 27px/1.18 var(--font-display); letter-spacing: -0.01em; margin: 6px 0 0; }
+  h3 { font: 600 14.5px/1.2 var(--font-display); margin: 0; }
+  p { margin: 0; }
+  b { font-weight: 700; color: var(--fg-1); }
+  .mono { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+  .muted { color: var(--fg-2); }
+  .lead-s { color: var(--fg-2); font-size: 12.5px; margin-top: 8px; max-width: 640px; }
+  .rule { width: 72px; height: 3px; background: var(--brand-green); margin: 22px 0; }
+  .ref { font: 500 8px var(--font-mono); color: var(--fg-3); letter-spacing: 0; white-space: nowrap; }
+  .src { font-size: 9.5px; color: var(--fg-3); margin-top: 8px; line-height: 1.45; }
+  .sec { margin-top: 18px; }
+
+  /* Cabeçalho e rodapé */
+  .head { display: flex; justify-content: space-between; align-items: center; padding-bottom: 11px; border-bottom: 1px solid var(--line); margin-bottom: 18px; }
+  .head img, .cover .logo { mix-blend-mode: lighten; }
+  .head img { height: 24px; display: block; }
+  .foot { position: absolute; left: 16mm; right: 16mm; bottom: 10mm; display: flex; justify-content: space-between; align-items: center; padding-top: 8px; border-top: 1px solid var(--line); font: 500 8.5px var(--font-display); letter-spacing: 0.08em; text-transform: uppercase; color: var(--fg-3); }
+  .foot .mono { letter-spacing: 0; font-size: 9.5px; }
+
+  /* Componentes */
+  .card { background: var(--bg-2); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; }
+  .card p { color: var(--fg-2); font-size: 11.5px; margin-top: 5px; }
+  .chip { display: inline-block; padding: 2px 8px; border-radius: 999px; font: 500 8.5px var(--font-display); letter-spacing: 0.06em; text-transform: uppercase; background: var(--bg-3); color: var(--fg-2); border: 1px solid var(--line); white-space: nowrap; }
+  .chip.on { border-color: var(--brand-green); color: var(--brand-green); background: rgba(82,201,55,0.08); }
+  .metric { background: var(--bg-2); border: 1px solid var(--line); border-radius: 6px; padding: 11px 13px; }
+  .metric__lbl { font: 500 8.5px var(--font-display); letter-spacing: 0.1em; text-transform: uppercase; color: var(--fg-3); line-height: 1.35; }
+  .metric__val { font: 500 25px/1 var(--font-mono); font-variant-numeric: tabular-nums; color: var(--fg-1); margin-top: 8px; }
+  .metric__val .u { font-size: 12px; color: var(--fg-3); margin-left: 3px; }
+  .metric .ref { display: block; margin-top: 6px; }
+  .grid4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 9px; }
+  .grid3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 9px; }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; }
+  .alert { display: flex; gap: 10px; padding: 11px 13px; border-radius: 6px; border: 1px solid rgba(232,179,59,0.35); background: rgba(232,179,59,0.08); }
+  .alert__ttl { font: 600 10px var(--font-display); letter-spacing: 0.08em; text-transform: uppercase; color: var(--warning); }
+  .alert__msg { color: var(--fg-1); font-size: 11.5px; line-height: 1.5; margin-top: 3px; }
+  .callout { border-left: 2px solid var(--brand-green); background: var(--bg-1); padding: 11px 15px; font-size: 12px; color: var(--fg-1); }
+  .callout .label { display: block; margin-bottom: 3px; color: var(--brand-green); }
+  ul.dash { margin: 6px 0 0; padding: 0; list-style: none; }
+  ul.dash li { position: relative; padding-left: 14px; color: var(--fg-2); font-size: 11.5px; line-height: 1.45; margin-top: 3px; }
+  ul.dash li::before { content: ""; position: absolute; left: 1px; top: 7.5px; width: 6px; height: 1.5px; background: var(--brand-green); }
+  ol.num { margin: 0; padding: 0; list-style: none; counter-reset: c; }
+  ol.num > li { counter-increment: c; display: grid; grid-template-columns: 26px 1fr; gap: 8px; padding: 8px 0; border-bottom: 1px solid var(--line); font-size: 11.5px; color: var(--fg-2); }
+  ol.num > li:last-child { border-bottom: none; }
+  ol.num > li::before { content: counter(c, decimal-leading-zero); font: 500 12px var(--font-mono); color: var(--brand-green); padding-top: 1px; }
+
+  /* Tabelas */
+  table.t { width: 100%; border-collapse: collapse; font-size: 10.5px; line-height: 1.4; }
+  table.t th { font: 500 8.5px var(--font-display); letter-spacing: 0.08em; text-transform: uppercase; color: var(--fg-3); text-align: left; padding: 6px 7px; border-bottom: 1px solid var(--line-strong); vertical-align: bottom; }
+  table.t td { padding: 6px 7px; border-bottom: 1px solid var(--line); vertical-align: top; color: var(--fg-2); }
+  table.t td:first-child { color: var(--fg-1); }
+  table.t td.n { font: 500 11px var(--font-mono); color: var(--brand-green); white-space: nowrap; }
+  table.t td.c, table.t th.c { text-align: center; }
+  table.t.matrix td { font-size: 9.8px; }
+  table.t.matrix td:first-child { font: 600 10.5px var(--font-display); color: var(--fg-1); width: 76px; }
+  table.t.matrix th { width: 19%; }
+  table.t.matrix th:first-child { width: 76px; }
+
+  /* Capa */
+  .cover { display: flex; flex-direction: column; }
+  .cover .logo { height: 44px; align-self: flex-start; }
+  .cover .readout { font: 500 10px var(--font-mono); color: var(--fg-3); margin-top: 110px; letter-spacing: 0.02em; }
+  .cover .lead { font-size: 14.5px; line-height: 1.6; color: var(--fg-2); max-width: 540px; }
+  .legend { margin-top: auto; border-left: 2px solid var(--brand-green); background: var(--bg-1); padding: 14px 18px; display: grid; grid-template-columns: 120px 1fr; row-gap: 7px; font-size: 11.5px; }
+  .legend .label { padding-top: 2px; }
+
+  /* Mensagens */
+  .msg { display: grid; grid-template-columns: 34px 1fr; gap: 10px; background: var(--bg-2); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; margin-top: 8px; }
+  .msg .k { font: 500 20px/1 var(--font-mono); color: var(--brand-green); }
+  .msg h3 { font-size: 13.5px; }
+  .msg p { color: var(--fg-2); font-size: 11.3px; margin-top: 4px; }
+
+  /* Arquitetura */
+  .arch { display: grid; grid-template-columns: 96px repeat(5, 1fr); gap: 4px; margin-top: 14px; }
+  .arch .hd { background: var(--bg-3); border: 1px solid var(--line); border-radius: 4px; padding: 7px 8px; }
+  .arch .hd .n { font: 500 15px var(--font-mono); color: var(--brand-green); }
+  .arch .hd .t { font: italic 600 12px var(--font-display); margin-top: 1px; }
+  .arch .hd .u { font-size: 9px; color: var(--fg-3); margin-top: 2px; line-height: 1.3; }
+  .arch .dim { font: 600 11px var(--font-display); color: var(--fg-1); padding: 8px 4px; display: flex; align-items: center; }
+  .arch .cell { border: 1px solid var(--line); border-radius: 4px; background: var(--bg-1); display: flex; align-items: center; justify-content: center; gap: 3px; height: 28px; }
+  .arch .cell i { width: 6px; height: 6px; border-radius: 50%; background: var(--line-strong); display: block; }
+  .arch .cell i.on { background: var(--brand-green); }
+  .arch .lens { grid-column: 2 / span 5; border: 1px solid rgba(79,183,201,0.45); background: rgba(79,183,201,0.08); border-radius: 4px; padding: 6px 10px; font: 500 10px var(--font-display); letter-spacing: 0.06em; text-transform: uppercase; color: var(--info); display: flex; justify-content: space-between; }
+  .arch .lens span:last-child { color: var(--fg-3); text-transform: none; letter-spacing: 0; font: 400 9.5px var(--font-body); }
+
+  /* Estágios */
+  .stage { display: grid; grid-template-columns: 52px 1fr 190px; background: var(--bg-2); border: 1px solid var(--line); border-radius: 8px; margin-top: 8px; overflow: hidden; }
+  .stage__n { display: flex; align-items: center; justify-content: center; font: 500 26px var(--font-mono); color: var(--brand-green); border-right: 1px solid var(--line); background: var(--bg-1); }
+  .stage__b { padding: 11px 14px; }
+  .stage__b h3 { font: italic 600 19px var(--font-display); display: flex; align-items: center; gap: 10px; }
+  .stage__b p { color: var(--fg-2); font-size: 11.3px; margin-top: 4px; }
+  .stage__m { border-left: 1px solid var(--line); padding: 11px 12px; font-size: 9.5px; color: var(--fg-3); line-height: 1.55; }
+  .stage__m b { font: 500 9px var(--font-mono); color: var(--fg-2); }
+
+  /* Saltos */
+  .jump { background: var(--bg-2); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; }
+  .jump.hot { border-color: rgba(82,201,55,0.5); box-shadow: 0 0 0 1px rgba(82,201,55,0.15) inset; }
+  .jump .top { display: flex; align-items: baseline; gap: 10px; }
+  .jump .top .n { font: 500 16px var(--font-mono); color: var(--brand-green); }
+  .jump .top h3 { font-size: 13.5px; }
+  .jump .falta { margin-top: 8px; padding-top: 7px; border-top: 1px solid var(--line); font-size: 10.8px; color: var(--fg-2); }
+  .jump .falta .label { display: block; color: var(--warning); margin-bottom: 2px; }
+
+  /* Fluxo */
+  .flow { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-top: 12px; }
+  .step { background: var(--bg-2); border: 1px solid var(--line); border-radius: 8px; padding: 11px 13px; position: relative; }
+  .step .n { font: 500 11px var(--font-mono); color: var(--brand-green); }
+  .step h3 { font-size: 13px; margin-top: 3px; }
+  .step p { color: var(--fg-2); font-size: 10.6px; margin-top: 4px; }
+
+  /* Fontes */
+  .fontes { columns: 2; column-gap: 16px; margin-top: 12px; }
+  .fontes div { break-inside: avoid; font-size: 8.6px; line-height: 1.32; color: var(--fg-2); padding: 2.1px 0; border-bottom: 1px solid var(--line); display: grid; grid-template-columns: 44px 1fr; gap: 6px; }
+  .fontes div span:first-child { font: 500 8.6px var(--font-mono); color: var(--brand-green); }
+</style>
+</head>
+<body>
+
+<!-- 1 · Capa -->
+<section class="page cover">
+  <img class="logo" src="../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA">
+  <div class="readout">FRENTE_2 // MATURIDADE_E_ROADMAPS // FRAMEWORK // VERSAO_PARA_DISCUSSAO</div>
+  <div class="eyebrow" style="margin-top:18px">Benchmark de IA · Frente 2</div>
+  <h1>Framework de<br>maturidade em IA</h1>
+  <div class="rule"></div>
+  <p class="lead">Referencial para posicionar empresas do agro, bioenergia e setores correlatos na adoção de IA — e, em leitura macro, a Acelen — e para enxergar o que precisa existir antes de cada salto.</p>
+
+  <div class="grid4" style="margin-top:30px">
+    <div class="metric"><div class="metric__lbl">Estágios</div><div class="metric__val">5</div></div>
+    <div class="metric"><div class="metric__lbl">Dimensões</div><div class="metric__val">4</div></div>
+    <div class="metric"><div class="metric__lbl">Lentes</div><div class="metric__val">2</div></div>
+    <div class="metric"><div class="metric__lbl">Modelos revisados</div><div class="metric__val">16</div></div>
+  </div>
+
+  <div class="alert" style="margin-top:22px">
+    <div>
+      <div class="alert__ttl">Versão para discussão</div>
+      <div class="alert__msg">Framework e régua prontos para validação com a Acelen. O posicionamento das empresas do painel entra quando as fichas da Frente 1 estiverem concluídas.</div>
+    </div>
+  </div>
+
+  <div class="legend" style="margin-top:auto">
+    <div class="label">Contratante</div><div>Acelen Energia Renovável</div>
+    <div class="label">Documento</div><div>Framework de maturidade em IA — Benchmarking de uso de IA</div>
+    <div class="label">Nº / Revisão</div><div class="mono">BIA-ACL-FM-01 · Rev. 00</div>
+    <div class="label">Responsáveis</div><div>Dr. Guilherme M. Sanches · Rafael Rotiroti — OagronomIA</div>
+    <div class="label">Data</div><div>Setembro de 2026</div>
+  </div>
+</section>
+
+<!-- 2 · Em uma página -->
+<section class="page">
+  <div class="head"><img src="../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Frente 2 · Maturidade e roadmaps</span></div>
+  <div class="eyebrow">Em uma página</div>
+  <h2>Quase todos usam IA. Poucos escalam.</h2>
+
+  <div class="grid4" style="margin-top:16px">
+    <div class="metric"><div class="metric__lbl">Usam IA em ao menos uma função</div><div class="metric__val">89<span class="u">%</span></div><span class="ref">[F-0024]</span></div>
+    <div class="metric"><div class="metric__lbl">Escalaram em várias unidades de negócio</div><div class="metric__val">22<span class="u">%</span></div><span class="ref">[F-0012]</span></div>
+    <div class="metric"><div class="metric__lbl">Capturam valor relevante em escala</div><div class="metric__val">6–7,5<span class="u">%</span></div><span class="ref">[F-0024; F-0021]</span></div>
+    <div class="metric"><div class="metric__lbl">Projetos de IA que chegam à produção</div><div class="metric__val">48<span class="u">%</span></div><span class="ref">[F-0004]</span></div>
+  </div>
+
+  <div class="sec">
+    <div class="msg"><div class="k">01</div><div><h3>O divisor é sair do piloto e se sustentar em produção</h3><p>Nas organizações de alta maturidade, 45% das iniciativas de IA ficam três anos ou mais em produção; nas de baixa, 20%. <span class="ref">[F-0008]</span></p></div></div>
+    <div class="msg"><div class="k">02</div><div><h3>O gargalo é organizacional, não tecnológico</h3><p>Dados, valor mal definido, infraestrutura e governança explicam mais fracassos do que os limites da tecnologia. Os líderes em IA põem 70% do esforço em pessoas e processos. <span class="ref">[F-0053; F-0005; F-0019]</span></p></div></div>
+    <div class="msg"><div class="k">03</div><div><h3>Dados primeiro</h3><p>Organizações bem-sucedidas com IA investem até quatro vezes mais em fundamentos de dados, governança e pessoas. 63% não têm, ou não sabem se têm, práticas de dados adequadas para IA. <span class="ref">[F-0010; F-0006]</span></p></div></div>
+    <div class="msg"><div class="k">04</div><div><h3>No agro, a fundação inclui o campo</h3><p>Conectividade e centro de operações vêm antes da IA de campo. Levar a conectividade à escala levou de 3 a 5 anos nos casos observados. <span class="ref">[F-0104; F-0115; F-0103; F-0113; F-0112; F-0117]</span></p></div></div>
+    <div class="msg"><div class="k">05</div><div><h3>IA generativa escala em meses sobre base pronta; agentes autônomos, ainda não</h3><p>Um assistente corporativo passou de um piloto com 500 pessoas para 110 mil trabalhadores com acesso em cerca de cinco meses. Agentes totalmente autônomos ainda não estão prontos para a maioria dos usos corporativos. <span class="ref">[F-0119; F-0100; F-0009]</span></p></div></div>
+  </div>
+
+  <div class="callout" style="margin-top:14px"><span class="label">No agro brasileiro</span>78% das empresas dizem ter IA na agenda de 2026, mas os especialistas descrevem o setor como "ainda numa fase de validação". A régua deste framework separa o declarado do evidenciado. <span class="ref">[F-0001]</span></div>
+
+  <div class="foot"><span>Acelen Energia Renovável · Framework de maturidade em IA · BIA-ACL-FM-01 · Rev. 00</span><span class="mono">02 / 16</span></div>
+</section>
+
+<!-- 3 · Arquitetura -->
+<section class="page">
+  <div class="head"><img src="../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Frente 2 · Maturidade e roadmaps</span></div>
+  <div class="eyebrow">Arquitetura do framework</div>
+  <h2>Cinco estágios, quatro dimensões, duas lentes</h2>
+  <p class="lead-s">Cada empresa recebe uma nota de 1 a 5 por dimensão, sempre com fonte registrada. O estágio consolidado sai da mediana das notas e nunca passa da nota de Dados + 1.</p>
+
+  <div class="arch">
+    <div></div>
+    <div class="hd"><div class="n">1</div><div class="t">Exploração</div><div class="u">Uso exploratório</div></div>
+    <div class="hd"><div class="n">2</div><div class="t">Pilotos</div><div class="u">Apoio à decisão em teste</div></div>
+    <div class="hd"><div class="n">3</div><div class="t">Operacionalização</div><div class="u">Apoio à decisão em produção</div></div>
+    <div class="hd"><div class="n">4</div><div class="t">Escala</div><div class="u">Automação inteligente</div></div>
+    <div class="hd"><div class="n">5</div><div class="t">Transformação</div><div class="u">Sistemas autônomos</div></div>
+
+    <div class="dim">Governança</div>
+    <div class="cell"><i class="on"></i></div><div class="cell"><i class="on"></i><i class="on"></i></div><div class="cell"><i class="on"></i><i class="on"></i><i class="on"></i></div><div class="cell"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div><div class="cell"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div>
+    <div class="dim">Dados</div>
+    <div class="cell"><i class="on"></i></div><div class="cell"><i class="on"></i><i class="on"></i></div><div class="cell"><i class="on"></i><i class="on"></i><i class="on"></i></div><div class="cell"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div><div class="cell"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div>
+    <div class="dim">Organização</div>
+    <div class="cell"><i class="on"></i></div><div class="cell"><i class="on"></i><i class="on"></i></div><div class="cell"><i class="on"></i><i class="on"></i><i class="on"></i></div><div class="cell"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div><div class="cell"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div>
+    <div class="dim">Aplicações</div>
+    <div class="cell"><i class="on"></i></div><div class="cell"><i class="on"></i><i class="on"></i></div><div class="cell"><i class="on"></i><i class="on"></i><i class="on"></i></div><div class="cell"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div><div class="cell"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div>
+
+    <div class="dim" style="color:var(--info)">Lentes</div>
+    <div class="lens"><span>IA generativa · LLMs, copilotos e agentes</span><span>nível 0–5, do uso individual aos agentes com supervisão por exceção</span></div>
+    <div></div>
+    <div class="lens"><span>Campo e sistemas autônomos</span><span>nível 0–5 por operação: enxergar, antecipar, executar, delegar, supervisionar</span></div>
+  </div>
+
+  <div class="eyebrow sec">Cinco princípios de desenho</div>
+  <div class="grid2" style="margin-top:8px">
+    <div class="card"><h3>Compatível com a régua das sessões</h3><p>Mesmos estágios e dimensões mostrados aos executivos (BIA-ACL-SE-01): o estágio declarado por eles pode ser comparado ao evidenciado.</p></div>
+    <div class="card"><h3>Evidência pública, não autodeclaração</h3><p>Os modelos de mercado classificam por questionário respondido pela própria empresa. Aqui, toda nota exige fonte registrada no catálogo.</p></div>
+    <div class="card"><h3>Campo como lente própria</h3><p>Nenhum modelo revisado tem recorte de agro nem trata a operação de campo — conectividade, telemetria, máquinas — como parte da maturidade.</p></div>
+    <div class="card"><h3>Dados como alicerce</h3><p>Os modelos convergem: sem dados prontos, a IA não sustenta o estágio seguinte. Daí o teto: estágio ≤ Dados + 1.</p></div>
+    <div class="card"><h3>IA generativa como lente, não estágio</h3><p>LLMs, copilotos e agentes aparecem em todos os estágios, com profundidade diferente em cada um.</p></div>
+    <div class="card"><h3>Correspondência com o mercado</h3><p>Os cinco estágios correspondem, de forma aproximada, aos do Gartner, MIT CISR, BCG, Microsoft e CMU SEI. Ver a revisão, a seguir.</p></div>
+  </div>
+
+  <div class="foot"><span>Acelen Energia Renovável · Framework de maturidade em IA · BIA-ACL-FM-01 · Rev. 00</span><span class="mono">03 / 16</span></div>
+</section>
+
+<!-- 4 · Revisão -->
+<section class="page">
+  <div class="head"><img src="../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Frente 2 · Maturidade e roadmaps</span></div>
+  <div class="eyebrow">Revisão dos frameworks de mercado</div>
+  <h2>16 modelos, 11 organizações</h2>
+  <p class="lead-s">Cada informação foi conferida na fonte primária em 30/09/2026. Em relatórios pagos, só a parte aberta.</p>
+
+  <table class="t" style="margin-top:12px">
+    <thead><tr><th style="width:27%">Modelo · publicador</th><th style="width:38%">Níveis</th><th>Dimensões ou foco</th></tr></thead>
+    <tbody>
+      <tr><td><b>AI Maturity Model</b><br>Gartner, 2018; revisto 2024–25 <span class="ref">[F-0003; F-0002]</span></td><td>Foundational → Emerging → Operational → Scaled → Transformational</td><td>7 pilares: estratégia, valor, organização, pessoas e cultura, governança, engenharia, dados</td></tr>
+      <tr><td><b>Enterprise AI Maturity</b><br>MIT CISR, 2024–25 <span class="ref">[F-0013; F-0014]</span></td><td>Experiment and Prepare → Build Pilots → AI Ways of Working → Future Ready</td><td>Maturidade × crescimento e lucro contra a média do setor</td></tr>
+      <tr><td><b>AI Global Executive Study</b><br>MIT SMR e BCG, 2017–25 <span class="ref">[F-0016; F-0018]</span></td><td>Passives, Experimenters, Investigators, Pioneers</td><td>Entendimento × adoção</td></tr>
+      <tr><td><b>Build for the Future</b><br>BCG, 2024–26 <span class="ref">[F-0019; F-0021]</span></td><td>Stagnating → Emerging → Scaling → Future-built</td><td>30 a 41 capacidades; regra 10-20-70</td></tr>
+      <tr><td><b>State of AI · Rewired</b><br>McKinsey, anual; 2023 e 2026 <span class="ref">[F-0024; F-0025]</span></td><td>Sem níveis; "high performers" (cerca de 6%)</td><td>6 capacidades: roadmap, talentos, modelo operacional, tecnologia, dados, adoção</td></tr>
+      <tr><td><b>Stages of AI Value · agentes</b><br>Microsoft, 2024 e 2026 <span class="ref">[F-0026; F-0027]</span></td><td>Exploring → Planning → Implementing → Scaling → Realising; agentes: níveis 100 a 500</td><td>5 dimensões: negócio, tecnologia e dados, IA, organização e cultura, governança</td></tr>
+      <tr><td><b>AI Ladder</b><br>IBM, 2018–21 <span class="ref">[F-0030]</span></td><td>Coletar → organizar → analisar → infundir</td><td>Arquitetura de dados primeiro: "no AI without IA"</td></tr>
+      <tr><td><b>AI Adoption Framework</b><br>Google Cloud, 2020 <span class="ref">[F-0033]</span></td><td>Tactical → Strategic → Transformational</td><td>4 pilares e 6 temas: aprender, liderar, acessar, escalar, automatizar, proteger</td></tr>
+      <tr><td><b>Art of AI Maturity · SEI</b><br>Accenture e CMU SEI, 2022–26 <span class="ref">[F-0035; F-0038]</span></td><td>Experimenters … Achievers; Exploratory → Implemented → Aligned → Scaled → Future-Ready</td><td>Capacidades fundamentais × diferenciadoras; 8 dimensões</td></tr>
+      <tr><td><b>State of AI in the Enterprise</b><br>Deloitte, 2022–26 <span class="ref">[F-0039; F-0041]</span></td><td>Starters, Pathseekers, Underachievers, Transformers</td><td>Implantações × resultados</td></tr>
+      <tr><td><b>AI Readiness Index</b><br>Cisco, 2023–25 <span class="ref">[F-0042]</span></td><td>Laggards → Followers → Chasers → Pacesetters</td><td>6 pilares com pesos; infraestrutura 25%, dados 20%</td></tr>
+      <tr><td><b>ITDBr e ITDBr Agro</b><br>PwC e FDC, 2024–26 <span class="ref">[F-0045; F-0047]</span></td><td>Escala de 1 a 6, sem níveis formais</td><td>10 dimensões, autoavaliação de executivos; recorte do agronegócio</td></tr>
+    </tbody>
+  </table>
+  <p class="src">Também revisados: MIT CISR (agentes, 2026), Microsoft Work Trend Index 2025, IDC 2025, IBM CEO Study 2025 e 2026, Google ROI of AI 2025, Accenture 2025 e 2026, Deloitte 2025, Cisco Brasil 2024 e Stanford AI Index 2026. Referenciais de governança (NIST, ISO/IEC 42001, AI Act, PL 2338/2023) na revisão completa em <span class="mono">revisao-frameworks.md</span>.</p>
+
+  <div class="foot"><span>Acelen Energia Renovável · Framework de maturidade em IA · BIA-ACL-FM-01 · Rev. 00</span><span class="mono">04 / 16</span></div>
+</section>
+
+<!-- 5 · Convergências e lacunas -->
+<section class="page">
+  <div class="head"><img src="../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Frente 2 · Maturidade e roadmaps</span></div>
+  <div class="eyebrow">O que os modelos dizem em comum</div>
+  <h2>Oito convergências, cinco lacunas para o agro</h2>
+
+  <table class="t" style="margin-top:12px">
+    <tbody>
+      <tr><td class="n">01</td><td><b>O topo é sempre pequeno.</b> 6% a 13% das empresas, conforme o modelo — números não comparáveis entre si. <span class="ref">[F-0024; F-0021; F-0036; F-0042]</span></td></tr>
+      <tr><td class="n">02</td><td><b>Escalar é o gargalo comum.</b> Na visão dos CEOs, só 16% das iniciativas de IA escalaram para a empresa toda; só 25% das empresas levaram 40% ou mais dos pilotos à produção. <span class="ref">[F-0031; F-0041]</span></td></tr>
+      <tr><td class="n">03</td><td><b>Dados são a fundação.</b> "There is no AI without an IA": arquitetura de informação antes da IA. <span class="ref">[F-0030; F-0006]</span></td></tr>
+      <tr><td class="n">04</td><td><b>Pessoas e processos pesam mais que algoritmos.</b> Regra 10-20-70; o redesenho de fluxos de trabalho é o atributo com maior efeito no EBIT. <span class="ref">[F-0019; F-0022]</span></td></tr>
+      <tr><td class="n">05</td><td><b>Liderança dedicada.</b> 91% das organizações de alta maturidade têm líder de IA; o Chief AI Officer chegou a 76% das organizações. <span class="ref">[F-0008; F-0032]</span></td></tr>
+      <tr><td class="n">06</td><td><b>Medir valor é disciplina.</b> Quem acompanha o ROI e gere a IA como portfólio tem retorno positivo em 81% das iniciativas. <span class="ref">[F-0012]</span></td></tr>
+      <tr><td class="n">07</td><td><b>A autoavaliação superestima.</b> 34% das empresas se declaram nos dois estágios mais altos; o modelo preditivo da mesma pesquisa põe 25%. <span class="ref">[F-0026]</span></td></tr>
+      <tr><td class="n">08</td><td><b>Agentes exigem controles proporcionais à autonomia.</b> Só 5% das empresas têm hoje os controles completos. <span class="ref">[F-0021; F-0011]</span></td></tr>
+    </tbody>
+  </table>
+
+  <div class="eyebrow sec">Onde os modelos não chegam</div>
+  <table class="t" style="margin-top:6px">
+    <thead><tr><th style="width:24%">Lacuna</th><th style="width:40%">O que se observa</th><th>Resposta do framework</th></tr></thead>
+    <tbody>
+      <tr><td>Sem recorte de agro</td><td>No máximo "energy and materials", "energy" ou "natural resources" <span class="ref">[F-0044]</span></td><td>Régua aplicada a um painel do agro, com evidência pública por empresa</td></tr>
+      <tr><td>Campo ausente</td><td>Avaliam a organização corporativa; conectividade, telemetria, máquinas e TO ficam de fora</td><td>Lente de campo; conectividade dentro da dimensão Dados</td></tr>
+      <tr><td>Autonomia só de software</td><td>As escalas de autonomia tratam agentes de software <span class="ref">[F-0056; F-0011]</span></td><td>Lente de campo até a operação autônoma supervisionada</td></tr>
+      <tr><td>Autodeclaração</td><td>Todos dependem das respostas das próprias empresas</td><td>Nota só com fonte; declarado × evidenciado</td></tr>
+      <tr><td>Ponto de partida físico</td><td>Nenhum considera a base de mecanização, decisiva em culturas perenes</td><td>Lente de campo por operação; leitura própria para palmeiras</td></tr>
+    </tbody>
+  </table>
+
+  <div class="foot"><span>Acelen Energia Renovável · Framework de maturidade em IA · BIA-ACL-FM-01 · Rev. 00</span><span class="mono">05 / 16</span></div>
+</section>
+
+<!-- 6 · Estágios -->
+<section class="page">
+  <div class="head"><img src="../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Frente 2 · Maturidade e roadmaps</span></div>
+  <div class="eyebrow">Os cinco estágios</div>
+  <h2>Do uso exploratório aos sistemas autônomos</h2>
+
+  <div class="stage"><div class="stage__n">1</div><div class="stage__b"><h3>Exploração <span class="chip">Uso exploratório</span></h3><p>Uso individual e informal de IA; iniciativas sem orçamento dedicado; dados em planilhas e silos.</p></div><div class="stage__m">Gartner <b>Foundational</b><br>MIT CISR <b>Experiment and Prepare</b><br>BCG <b>Stagnating</b></div></div>
+  <div class="stage"><div class="stage__n">2</div><div class="stage__b"><h3>Pilotos <span class="chip">Apoio à decisão em teste</span></h3><p>Provas de conceito com escopo, métrica e patrocinador; primeiros dados organizados; regra de uso de IA generativa.</p></div><div class="stage__m">Gartner <b>Emerging</b><br>MIT CISR <b>Build Pilots and Capabilities</b><br>BCG <b>Emerging</b></div></div>
+  <div class="stage"><div class="stage__n">3</div><div class="stage__b"><h3>Operacionalização <span class="chip on">Apoio à decisão em produção</span></h3><p>Primeiro caso em produção com resultado medido; plataforma de dados unificada; governança formal; orçamento dedicado.</p></div><div class="stage__m">Gartner <b>Operational</b><br>MIT CISR <b>Develop AI Ways of Working</b><br>BCG <b>Scaling</b></div></div>
+  <div class="stage"><div class="stage__n">4</div><div class="stage__b"><h3>Escala <span class="chip">Automação inteligente</span></h3><p>Portfólio em produção nos processos-chave; dados como produto; centro de excelência; valor recorrente.</p></div><div class="stage__m">Gartner <b>Scaled</b><br>MIT CISR <b>Develop AI Ways of Working</b><br>BCG <b>Scaling, Future-built</b></div></div>
+  <div class="stage"><div class="stage__n">5</div><div class="stage__b"><h3>Transformação <span class="chip">Sistemas autônomos</span></h3><p>IA no modelo de negócio; agentes e máquinas autônomas operando com supervisão por exceção.</p></div><div class="stage__m">Gartner <b>Transformational</b><br>MIT CISR <b>Become AI Future Ready</b><br>BCG <b>Future-built</b></div></div>
+
+  <div class="callout" style="margin-top:14px"><span class="label">A virada está entre os estágios 2 e 3</span>Nos dados do MIT CISR, as empresas nos estágios 1 e 2 crescem e lucram abaixo da média do seu setor; a partir do estágio 3, acima. No Gartner, o nível operacional é o primeiro projeto em produção, com patrocinador e orçamento dedicado. <span class="ref">[F-0013; F-0014; F-0002]</span></div>
+  <p class="src">Correspondência aproximada, leitura OagronomIA. <span class="ref">[F-0003; F-0020]</span></p>
+
+  <div class="foot"><span>Acelen Energia Renovável · Framework de maturidade em IA · BIA-ACL-FM-01 · Rev. 00</span><span class="mono">06 / 16</span></div>
+</section>
+
+<!-- 7 · Capacidades -->
+<section class="page">
+  <div class="head"><img src="../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Frente 2 · Maturidade e roadmaps</span></div>
+  <div class="eyebrow">Capacidades necessárias em cada estágio</div>
+  <h2>O que precisa existir em cada degrau</h2>
+
+  <table class="t matrix" style="margin-top:14px">
+    <thead><tr><th></th><th>1 · Exploração</th><th>2 · Pilotos</th><th>3 · Operacionalização</th><th>4 · Escala</th><th>5 · Transformação</th></tr></thead>
+    <tbody>
+      <tr><td>Dados</td><td>Planilhas e sistemas isolados; sem fonte única</td><td>Dados dos pilotos organizados, com responsável</td><td>Plataforma unificada nos domínios prioritários; qualidade monitorada</td><td>Dados como produto por domínio; dados de campo quase em tempo real</td><td>Dados prontos para agentes: identidade, permissão, auditoria; troca com a cadeia</td></tr>
+      <tr><td>Infraestrutura</td><td>Ferramentas de uso pessoal; conectividade de campo pontual</td><td>Ambiente de experimentação; sensores e drones em áreas-piloto</td><td>Produção com operação de modelos; conectividade nas áreas prioritárias</td><td>Plataforma corporativa de IA com custo gerido; conectividade ampla; borda; segurança TI/TO</td><td>Operação contínua de agentes e máquinas: baixa latência, redundância, supervisão remota</td></tr>
+      <tr><td>Pessoas</td><td>Entusiastas isolados</td><td>Patrocinador nomeado; núcleo técnico, interno ou parceiro</td><td>Time dedicado com liderança nomeada; letramento em curso</td><td>Centro de excelência ou modelo federado; capacitação em escala</td><td>Novos papéis para trabalhar com agentes e operar máquinas à distância</td></tr>
+      <tr><td>Processos</td><td>Iniciativas avulsas</td><td>Portfólio de pilotos com métrica de valor e critério de parada</td><td>Caminho do piloto à produção; valor medido depois da implantação</td><td>Processos-chave redesenhados com IA; portfólio gerido por valor</td><td>Processos operados por agentes e máquinas, com supervisão por exceção</td></tr>
+      <tr><td>Governança</td><td>Sem regra; uso informal de IA generativa</td><td>Política de uso de IA e de dados sensíveis</td><td>Instância formal de decisão; inventário de modelos; gestão de riscos</td><td>Integrada a riscos e compliance, cobrindo TI e TO</td><td>Proporcional à autonomia: limites de ação, auditoria, responsabilização</td></tr>
+    </tbody>
+  </table>
+
+  <div class="grid3 sec">
+    <div class="card"><h3>Dimensões × capacidades</h3><p>A dimensão Dados cobre dados e infraestrutura, incluindo a conectividade de campo. Organização cobre pessoas e processos. Governança e Aplicações seguem diretas.</p></div>
+    <div class="card"><h3>O que sustenta os maduros</h3><p>Modelo operacional escalável, engenharia de IA, capacitação e gestão da mudança, e gestão de confiança, risco e segurança. 91% dos maduros têm líder de IA dedicado. <span class="ref">[F-0004; F-0008]</span></p></div>
+    <div class="card"><h3>Referenciais de governança</h3><p>NIST AI RMF: governar, mapear, medir, gerenciar. ISO/IEC 42001, adotada pela ABNT em 2024: sistema de gestão de IA. <span class="ref">[F-0059; F-0061]</span></p></div>
+  </div>
+  <p class="src">Síntese a partir dos estágios do MIT CISR, das capacidades do Gartner e das seis capacidades do Rewired. <span class="ref">[F-0013; F-0025]</span></p>
+
+  <div class="foot"><span>Acelen Energia Renovável · Framework de maturidade em IA · BIA-ACL-FM-01 · Rev. 00</span><span class="mono">07 / 16</span></div>
+</section>
+
+<!-- 8 · Dependências críticas -->
+<section class="page">
+  <div class="head"><img src="../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Frente 2 · Maturidade e roadmaps</span></div>
+  <div class="eyebrow">Dependências críticas</div>
+  <h2>O que precisa estar pronto antes de cada salto</h2>
+
+  <div class="grid4" style="margin-top:14px">
+    <div class="metric"><div class="metric__lbl">Projetos que chegam à produção</div><div class="metric__val">48<span class="u">%</span></div><span class="ref">[F-0004]</span></div>
+    <div class="metric"><div class="metric__lbl">Do protótipo à produção, em média</div><div class="metric__val">8<span class="u">meses</span></div><span class="ref">[F-0004]</span></div>
+    <div class="metric"><div class="metric__lbl">Ficam 3 anos ou mais em produção, alta × baixa maturidade</div><div class="metric__val">45<span class="u">× 20 %</span></div><span class="ref">[F-0008]</span></div>
+    <div class="metric"><div class="metric__lbl">Testes que viram projetos com retorno, no agro</div><div class="metric__val">5<span class="u">em 100</span></div><span class="ref">[F-0001]</span></div>
+  </div>
+
+  <div class="grid2" style="margin-top:12px">
+    <div class="jump"><div class="top"><span class="n">1 → 2</span><h3>De Exploração a Pilotos</h3></div>
+      <ul class="dash"><li>Patrocínio executivo e IA na agenda estratégica</li><li>Problemas escolhidos pelo negócio, com métrica e dono</li><li>Acesso aos dados dos casos escolhidos</li><li>Regra de uso de IA generativa que traga o uso informal para dentro</li></ul>
+      <div class="falta"><span class="label">Quando falta</span>Problema mal definido e foco na tecnologia, não no problema, estão entre as causas-raiz de fracasso. <span class="ref">[F-0053]</span></div></div>
+    <div class="jump hot"><div class="top"><span class="n">2 → 3</span><h3>De Pilotos a Operacionalização</h3></div>
+      <ul class="dash"><li>Dados prontos para IA nos domínios dos casos</li><li>Engenharia para pôr e manter modelos em produção</li><li>Governança formal: quem decide, inventário, riscos</li><li>Valor medido antes e depois; no campo, conectividade e TI/TO</li></ul>
+      <div class="falta"><span class="label">Quando falta · a travessia mais difícil</span>Ao menos 30% dos projetos de IA generativa abandonados após a prova de conceito; sem time dedicado, a empresa fica presa no piloto. <span class="ref">[F-0005; F-0014]</span></div></div>
+    <div class="jump"><div class="top"><span class="n">3 → 4</span><h3>De Operacionalização a Escala</h3></div>
+      <ul class="dash"><li>Dados como produto; plataforma reaproveitada entre casos</li><li>Centro de excelência ou modelo federado</li><li>Capacitação e gestão da mudança em escala</li><li>Portfólio gerido por valor; custo de IA sob controle</li></ul>
+      <div class="falta"><span class="label">Quando falta</span>O redesenho de fluxos de trabalho é o atributo com maior efeito no EBIT; quase três quartos dos high performers o fazem, contra um quarto das demais. <span class="ref">[F-0022; F-0024]</span></div></div>
+    <div class="jump"><div class="top"><span class="n">4 → 5</span><h3>De Escala a Transformação</h3></div>
+      <ul class="dash"><li>Dados prontos para agentes: identidade, permissões, auditoria</li><li>Governança proporcional à autonomia</li><li>Processos redesenhados para humanos e agentes</li><li>No campo: segurança funcional, baixa latência, operação remota</li></ul>
+      <div class="falta"><span class="label">Quando falta</span>Mais de 40% dos projetos de IA agêntica devem ser cancelados até 2027; só 5% das empresas têm os controles completos. <span class="ref">[F-0007; F-0021]</span></div></div>
+  </div>
+  <p class="src">Os percentuais de abandono e cancelamento são previsões do Gartner. As causas recorrentes de travamento, em fontes independentes, são dados e valor demonstrável. <span class="ref">[F-0006; F-0053]</span></p>
+
+  <div class="foot"><span>Acelen Energia Renovável · Framework de maturidade em IA · BIA-ACL-FM-01 · Rev. 00</span><span class="mono">08 / 16</span></div>
+</section>
+
+<!-- 9 · IA generativa e agentes -->
+<section class="page">
+  <div class="head"><img src="../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Frente 2 · Maturidade e roadmaps</span></div>
+  <div class="eyebrow">Lente · IA generativa e agentes</div>
+  <h2>Assistente para todos, rápido. Autonomia, devagar.</h2>
+
+  <div class="grid4" style="margin-top:14px">
+    <div class="metric"><div class="metric__lbl">Adoção de IA generativa em três anos</div><div class="metric__val">70<span class="u">%</span></div><span class="ref">[F-0018]</span></div>
+    <div class="metric"><div class="metric__lbl">Empresas com agentes, conforme a definição</div><div class="metric__val">17–40<span class="u">%</span></div><span class="ref">[F-0009; F-0024]</span></div>
+    <div class="metric"><div class="metric__lbl">Confiam em agentes totalmente autônomos</div><div class="metric__val">27<span class="u">% (eram 43)</span></div><span class="ref">[F-0057]</span></div>
+    <div class="metric"><div class="metric__lbl">Têm os controles completos para agentes</div><div class="metric__val">5<span class="u">%</span></div><span class="ref">[F-0021]</span></div>
+  </div>
+
+  <table class="t" style="margin-top:12px">
+    <thead><tr><th style="width:17%">Estágio</th><th style="width:39%">Como a IA generativa aparece</th><th style="width:21%">Papel humano <span class="ref">[F-0056]</span></th><th>Autonomia do agente <span class="ref">[F-0011]</span></th></tr></thead>
+    <tbody>
+      <tr><td>1 · Exploração</td><td>Uso individual de assistentes públicos</td><td>Operador</td><td>—</td></tr>
+      <tr><td>2 · Pilotos</td><td>Assistentes corporativos com grupos-piloto</td><td>Operador, colaborador</td><td>Observar, aconselhar</td></tr>
+      <tr><td>3 · Operacionalização</td><td>Assistente corporativo em produção sobre documentos da empresa</td><td>Colaborador</td><td>Aconselhar</td></tr>
+      <tr><td>4 · Escala</td><td>Copilotos nos fluxos-chave; agentes executam com aprovação humana</td><td>Consultor, aprovador</td><td>Agir com aprovação</td></tr>
+      <tr><td>5 · Transformação</td><td>Agentes operam processos com supervisão por exceção</td><td>Observador</td><td>Agir de forma autônoma</td></tr>
+    </tbody>
+  </table>
+  <p class="src">Correspondência entre escalas: leitura OagronomIA. A supervisão passa de "no circuito" (intervenção em cada decisão) para "sobre o circuito" (monitoramento da operação), proporcional ao risco e à autonomia. As medições de agentes divergem porque o termo ainda é elástico: o Gartner chama de "agent washing" rebatizar assistentes e automações como agentes. <span class="ref">[F-0058; F-0062; F-0007]</span></p>
+
+  <div class="eyebrow sec">Como os líderes incorporam</div>
+  <div class="grid2" style="margin-top:8px">
+    <div class="card"><h3>Assistente para todos primeiro</h3><p>Petrobras: de 500 pessoas no piloto a 110 mil com acesso em cerca de cinco meses. Suzano: copiloto para quase 50 mil pessoas. Moderna: mais de 750 assistentes em poucos meses. <span class="ref">[F-0119; F-0100; F-0107; F-0102]</span></p></div>
+    <div class="card"><h3>Só anda rápido sobre base pronta</h3><p>Itaú: data lake e nuvem entre 2014 e 2023; depois, de cerca de 10 para 150 soluções de IA generativa em produção em dois anos. <span class="ref">[F-0089; F-0090; F-0092]</span></p></div>
+    <div class="card"><h3>Governança e letramento antes da escala</h3><p>São Martinho: 99% do público elegível treinado na política de uso de IA. Klabin: 18 selecionadas entre mais de 300 demandas. <span class="ref">[F-0105; F-0109]</span></p></div>
+    <div class="card"><h3>Valor vem do redesenho do trabalho</h3><p>Os high performers redesenham fluxos de trabalho; agentes entram com cautela onde o ambiente é crítico. <span class="ref">[F-0024; F-0015; F-0101]</span></p></div>
+  </div>
+
+  <div class="foot"><span>Acelen Energia Renovável · Framework de maturidade em IA · BIA-ACL-FM-01 · Rev. 00</span><span class="mono">09 / 16</span></div>
+</section>
+
+<!-- 10 · Campo e sistemas autônomos -->
+<section class="page">
+  <div class="head"><img src="../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Frente 2 · Maturidade e roadmaps</span></div>
+  <div class="eyebrow">Lente · Campo e sistemas autônomos</div>
+  <h2>Classificar operações, não máquinas</h2>
+  <p class="lead-s">Não existe escala oficial de níveis para máquinas agrícolas: a ISO 18497-1:2024 recusou de propósito a escala dos veículos autônomos. Vale o nível mais alto em operação regular, não em piloto. <span class="ref">[F-0068]</span></p>
+
+  <table class="t" style="margin-top:10px">
+    <thead><tr><th style="width:21%">Nível</th><th style="width:33%">Operação</th><th style="width:26%">Quem diagnostica, decide e executa</th><th>Maturidade</th></tr></thead>
+    <tbody>
+      <tr><td><b>1 · Enxergar</b></td><td>Imagens de satélite e drone, telemetria, sensores, contagem de plantas</td><td>Humano, com dado digital</td><td>Em escala ou madura</td></tr>
+      <tr><td><b>2 · Antecipar</b></td><td>Previsão de produtividade, pragas, falhas e incêndio; mapas de variabilidade</td><td>Modelo prevê; humano decide</td><td>Em escala no mapeamento</td></tr>
+      <tr><td><b>3 · Executar com precisão</b></td><td>Guiagem automática, controle de seções, taxa variável, drone em rota programada</td><td>Máquina executa; humano decide</td><td>Madura</td></tr>
+      <tr><td><b>4 · Delegar tarefas</b></td><td>Ciclos sem interação em zona definida, com operador próximo</td><td>Máquina executa a tarefa</td><td>Perto do mercado</td></tr>
+      <tr><td><b>5 · Supervisionar</b></td><td>Autonomia em todo o ciclo; várias unidades monitoradas; exceções tratadas pelo humano</td><td>Máquina faz tudo; humano supervisiona</td><td>Protótipo; normas em construção</td></tr>
+    </tbody>
+  </table>
+  <p class="src">Trilha apoiada na FAO (diagnóstico, decisão, execução; protótipo a maduro), na tipologia de gêmeos digitais e na sequência da Embrapa. No nível 5, a máquina assume conduzir, monitorar a si mesma e garantir a qualidade do trabalho. <span class="ref">[F-0072; F-0073; F-0075; F-0069]</span></p>
+
+  <div class="grid4" style="margin-top:12px">
+    <div class="metric"><div class="metric__lbl">Produtores com sistemas automatizados ou robotizados</div><div class="metric__val">6<span class="u">%</span></div><span class="ref">[F-0052]</span></div>
+    <div class="metric"><div class="metric__lbl">Área agrícola do Brasil com 4G ou 5G</div><div class="metric__val">33,9<span class="u">%</span></div><span class="ref">[F-0079]</span></div>
+    <div class="metric"><div class="metric__lbl">Mecanização na China, 2024</div><div class="metric__val">75,6<span class="u">%</span></div><span class="ref">[F-0080]</span></div>
+    <div class="metric"><div class="metric__lbl">Drones agrícolas na China, 2025</div><div class="metric__val">300<span class="u">mil +</span></div><span class="ref">[F-0081]</span></div>
+  </div>
+
+  <div class="grid2" style="margin-top:10px">
+    <div class="card"><h3>Palmeiras de baixa mecanização</h3>
+      <ul class="dash"><li>Na palma de óleo, a colheita é cerca de 60% da força de trabalho e 50% do custo <span class="ref">[F-0084]</span></li><li>Drones para insumos, sim; máquina para colher, ainda não <span class="ref">[F-0083]</span></li><li>Colheita robótica experimental há mais de 20 anos <span class="ref">[F-0085; F-0084]</span></li><li>Contar palmeiras por imagem: acima de 96% de acerto; diagnosticar doentes contra o campo: 57% <span class="ref">[F-0086; F-0087]</span></li><li>Na macaúba, a mecanização dos frutos ainda é agenda de pesquisa <span class="ref">[F-0088]</span></li></ul></div>
+    <div class="card"><h3>Onde estão os líderes do agro</h3>
+      <ul class="dash"><li>Níveis 2 e 3 em operação regular: detecção de incêndio por IA, aplicação localizada, drones de aplicação <span class="ref">[F-0108; F-0114; F-0113; F-0109]</span></li><li>Nenhum com frota autônoma em operação regular</li><li>No mundo, robôs de lavoura só recentemente em uso comercial; robótica com penetração mínima <span class="ref">[F-0072; F-0077]</span></li><li>Autonomia depende de normas ainda em construção e de custo menor <span class="ref">[F-0070; F-0071]</span></li></ul></div>
+  </div>
+
+  <div class="callout" style="margin-top:10px"><span class="label">Leitura para palmeiras de baixa mecanização</span>Os níveis 1 e 2 são viáveis hoje: censo de plantas, mapeamento de copas, previsão. O nível 3 já existe na aplicação de insumos por drone. A colheita nos níveis 4 e 5 segue em pesquisa.</div>
+
+  <div class="foot"><span>Acelen Energia Renovável · Framework de maturidade em IA · BIA-ACL-FM-01 · Rev. 00</span><span class="mono">10 / 16</span></div>
+</section>
+
+<!-- 11 · Roadmaps: sequência e ritmo -->
+<section class="page">
+  <div class="head"><img src="../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Frente 2 · Maturidade e roadmaps</span></div>
+  <div class="eyebrow">Roadmaps observados no mercado</div>
+  <h2>Dez jornadas, a mesma sequência</h2>
+  <p class="lead-s">Quatro referências de outros setores (financeiro, mineração, óleo e gás, farmacêutico) e seis do agro, da bioenergia e do setor florestal, verificadas em fontes públicas.</p>
+
+  <div class="flow">
+    <div class="step"><div class="n">01</div><h3>Fundação</h3><p>Fora do agro, dados e nuvem. No agro, conectividade de campo e um centro de operações com dados em tempo real. <span class="ref">[F-0089; F-0104; F-0103; F-0110]</span></p></div>
+    <div class="step"><div class="n">02</div><h3>Estrutura dedicada</h3><p>Centro de IA ou de excelência, de 0 a 3 anos depois. Vale: 2016 → 2019. Petrobras: 2019 → 2020. <span class="ref">[F-0093; F-0094; F-0099]</span></p></div>
+    <div class="step"><div class="n">03</div><h3>IA preditiva com retorno</h3><p>Dores mensuráveis: incêndio, insumos, manutenção, logística. SLC: economia de R$ 2 mi para R$ 82 mi em quatro anos. <span class="ref">[F-0103; F-0110; F-0114]</span></p></div>
+    <div class="step"><div class="n">04</div><h3>IA generativa para todos</h3><p>Assistentes corporativos na onda de 2023–24. <span class="ref">[F-0100; F-0107; F-0109]</span></p></div>
+    <div class="step"><div class="n">05</div><h3>Governança e democratização</h3><p>Política de uso, letramento, triagem de demandas, criação pelos próprios usuários. <span class="ref">[F-0105; F-0097]</span></p></div>
+    <div class="step"><div class="n">06</div><h3>Agentes e autonomia</h3><p>A partir de 2025, com cautela. Vale: primeira mina já nascida 100% autônoma. <span class="ref">[F-0101; F-0096]</span></p></div>
+  </div>
+
+  <div class="eyebrow sec">Ritmo observado</div>
+  <table class="t" style="margin-top:6px">
+    <thead><tr><th style="width:38%">Etapa</th><th style="width:28%">Tempo</th><th>Casos</th></tr></thead>
+    <tbody>
+      <tr><td>Conectividade de campo em escala</td><td class="mono">3 a 5 anos</td><td>São Martinho, SLC, Atvos <span class="ref">[F-0104; F-0115; F-0103; F-0113; F-0112; F-0117]</span></td></tr>
+      <tr><td>Do centro de inteligência ao retorno relevante</td><td class="mono">cerca de 4 anos</td><td>SLC <span class="ref">[F-0103]</span></td></tr>
+      <tr><td>Da estrutura de IA a um portfólio escalável</td><td class="mono">cerca de 6 anos</td><td>Vale <span class="ref">[F-0094; F-0096]</span></td></tr>
+      <tr><td>Da fundação de dados à IA generativa</td><td class="mono">8 a 9 anos</td><td>Itaú <span class="ref">[F-0089]</span></td></tr>
+      <tr><td>Do piloto de IA generativa à empresa toda</td><td class="mono">5 a 12 meses</td><td>Petrobras, Suzano, Moderna <span class="ref">[F-0119; F-0100; F-0107; F-0102]</span></td></tr>
+      <tr><td>Autonomia pesada</td><td class="mono">cerca de 3 anos + 2</td><td>Vale: do teste a uma mina 100% autônoma, depois a réplica <span class="ref">[F-0093; F-0116; F-0095]</span></td></tr>
+    </tbody>
+  </table>
+
+  <div class="foot"><span>Acelen Energia Renovável · Framework de maturidade em IA · BIA-ACL-FM-01 · Rev. 00</span><span class="mono">11 / 16</span></div>
+</section>
+
+<!-- 12 · Prioridades, atalhos e armadilhas -->
+<section class="page">
+  <div class="head"><img src="../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Frente 2 · Maturidade e roadmaps</span></div>
+  <div class="eyebrow">Prioridades, atalhos e armadilhas</div>
+  <h2>O que os líderes fizeram — e o que evitaram</h2>
+
+  <div class="grid3" style="margin-top:14px">
+    <div class="card"><h3>Prioridades</h3>
+      <ul class="dash"><li>Dores mensuráveis com dono no negócio</li><li>Poucos domínios: os líderes perseguem cerca de metade das oportunidades e geram 62% do valor nos processos centrais <span class="ref">[F-0019]</span></li><li>Medir valor como disciplina <span class="ref">[F-0012]</span></li></ul></div>
+    <div class="card"><h3>Atalhos que funcionaram</h3>
+      <ul class="dash"><li>IA generativa sobre base de dados pronta</li><li>Assistente para todos antes dos casos específicos</li><li>Democratização com regras claras</li><li>Torre de controle como porta de entrada dos dados de campo</li></ul></div>
+    <div class="card"><h3>Armadilhas relatadas</h3>
+      <ul class="dash"><li>Obter e levar os dados da automação à TI é o mais caro <span class="ref">[F-0098]</span></li><li>TI como gargalo: até três semanas por pedido de dados <span class="ref">[F-0097]</span></li><li>Rede de campo própria exige operação contínua <span class="ref">[F-0106]</span></li><li>Demanda maior que a capacidade: 300 pedidos, 18 escolhidos <span class="ref">[F-0109]</span></li></ul></div>
+  </div>
+
+  <div class="eyebrow sec">O que isso sugere para o médio e o longo prazo</div>
+  <p class="lead-s" style="margin-top:4px">Leitura OagronomIA, como referência de mercado — não é desenho de solução interna.</p>
+  <ol class="num" style="margin-top:8px">
+    <li><span><b>A fundação de campo é a etapa mais longa e vem antes da IA de campo.</b> Conectividade em escala levou de 3 a 5 anos nos casos observados.</span></li>
+    <li><span><b>O valor aparece na passagem do piloto à produção.</b> Ela depende de dados prontos, estrutura dedicada e medição de valor.</span></li>
+    <li><span><b>IA generativa para todos dá velocidade de adoção.</b> O valor, porém, vem dos casos específicos e do redesenho do trabalho.</span></li>
+    <li><span><b>Autonomia pesada é aposta de longo prazo.</b> Na referência mais madura do Brasil, cerca de três anos de piloto controlado até uma mina 100% autônoma, e mais dois para replicar.</span></li>
+  </ol>
+
+  <div class="foot"><span>Acelen Energia Renovável · Framework de maturidade em IA · BIA-ACL-FM-01 · Rev. 00</span><span class="mono">12 / 16</span></div>
+</section>
+
+<!-- 13 · Onde o mercado está -->
+<section class="page">
+  <div class="head"><img src="../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Frente 2 · Maturidade e roadmaps</span></div>
+  <div class="eyebrow">Onde o mercado está</div>
+  <h2>Mundo, Brasil e agro</h2>
+
+  <div class="grid3" style="margin-top:14px">
+    <div>
+      <div class="label" style="color:var(--brand-green)">Mundo</div>
+      <div class="metric" style="margin-top:6px"><div class="metric__lbl">Usam IA em ao menos uma função (2025)</div><div class="metric__val">88<span class="u">%</span></div><span class="ref">[F-0044]</span></div>
+      <div class="metric" style="margin-top:6px"><div class="metric__lbl">Escalaram em várias unidades de negócio</div><div class="metric__val">22<span class="u">%</span></div><span class="ref">[F-0012]</span></div>
+      <div class="metric" style="margin-top:6px"><div class="metric__lbl">No estágio mais alto, conforme o modelo</div><div class="metric__val">7,5–18<span class="u">%</span></div><span class="ref">[F-0021; F-0014]</span></div>
+    </div>
+    <div>
+      <div class="label" style="color:var(--brand-green)">Brasil</div>
+      <div class="metric" style="margin-top:6px"><div class="metric__lbl">Empresas que usam IA · grandes</div><div class="metric__val">17<span class="u">% · 50 %</span></div><span class="ref">[F-0049]</span></div>
+      <div class="metric" style="margin-top:6px"><div class="metric__lbl">Indústria com 100+ pessoas que usa IA (2024)</div><div class="metric__val">41,9<span class="u">%</span></div><span class="ref">[F-0048]</span></div>
+      <div class="metric" style="margin-top:6px"><div class="metric__lbl">Escalaram 40% ou mais dos pilotos</div><div class="metric__val">23<span class="u">%</span></div><span class="ref">[F-0050]</span></div>
+    </div>
+    <div>
+      <div class="label" style="color:var(--brand-green)">Agro</div>
+      <div class="metric" style="margin-top:6px"><div class="metric__lbl">Maturidade digital, 2024 → 2025 (média 3,6)</div><div class="metric__val">3,1<span class="u">→ 3,6</span></div><span class="ref">[F-0046; F-0047]</span></div>
+      <div class="metric" style="margin-top:6px"><div class="metric__lbl">Dimensão IA, agro × média</div><div class="metric__val">3,4<span class="u">× 3,7</span></div><span class="ref">[F-0047]</span></div>
+      <div class="metric" style="margin-top:6px"><div class="metric__lbl">Ganho em eficiência × novos modelos de negócio</div><div class="metric__val">90<span class="u">× 21 %</span></div><span class="ref">[F-0047]</span></div>
+    </div>
+  </div>
+
+  <div class="grid2 sec">
+    <div class="card"><h3>O agro avançou na base, não na IA</h3><p>Saiu do último lugar em maturidade digital para a média, puxado por infraestrutura e estratégia. A integração da IA aos processos segue abaixo da média, e estrutura e cultura são a principal barreira. <span class="ref">[F-0046; F-0047]</span></p></div>
+    <div class="card"><h3>Declarado × evidenciado</h3><p>78% dizem ter IA na agenda (42% em piloto e 36% em produção), mas os especialistas veem o setor "ainda numa fase de validação". Em geral, 34% se declaram no topo quando o modelo põe 25%. <span class="ref">[F-0001; F-0026]</span></p></div>
+  </div>
+
+  <div class="callout" style="margin-top:12px"><span class="label">Hipótese de trabalho · a confirmar com as fichas da Frente 1</span>O agro típico está entre os estágios 1 e 2. As líderes com evidência pública estão entre o 3 e o 4 — conectividade, centros de operação, IA preditiva com resultado e IA generativa para todos. Nenhuma empresa do agro verificada tem frota autônoma pesada, e nenhuma está no 5.</div>
+  <p class="src">Limites: evidência pública mostra mais sucessos que fracassos; pesquisas globais são autodeclaradas e sem recorte de agro; estudos com método frágil, como o MIT NANDA 2025, entram só qualitativamente. <span class="ref">[F-0054; F-0055]</span></p>
+
+  <div class="foot"><span>Acelen Energia Renovável · Framework de maturidade em IA · BIA-ACL-FM-01 · Rev. 00</span><span class="mono">13 / 16</span></div>
+</section>
+
+<!-- 14 · Régua e como usar -->
+<section class="page">
+  <div class="head"><img src="../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Frente 2 · Maturidade e roadmaps</span></div>
+  <div class="eyebrow">Régua de classificação</div>
+  <h2>Nota com evidência, estágio por regra</h2>
+
+  <div class="grid2" style="margin-top:14px">
+    <div class="card"><h3>Nota de 1 a 5 por dimensão</h3><p>O maior nível cujos critérios estão atendidos por evidência registrada no catálogo. Os critérios de cada nível estão em <span class="mono">regua-classificacao.md</span>.</p></div>
+    <div class="card"><h3>Sem evidência, sem nota</h3><p>Falta de evidência pública deixa a nota vazia e vira lacuna registrada na ficha. Não é nota 1.</p></div>
+    <div class="card"><h3>Confiança A, B ou C</h3><p>A: fonte primária, da própria empresa. B: terceiro qualificado. C: sinal indireto. Notas 4 e 5 exigem evidência A.</p></div>
+    <div class="card"><h3>Estágio consolidado</h3><p>Mediana das quatro notas, com teto na nota de Dados + 1. Exige pelo menos três notas, entre elas a de Dados. Mediana entre dois estágios indica transição.</p></div>
+  </div>
+
+  <table class="t" style="margin-top:12px">
+    <thead><tr><th class="c">Governança</th><th class="c">Dados</th><th class="c">Organização</th><th class="c">Aplicações</th><th class="c">Mediana</th><th class="c">Teto</th><th>Estágio</th></tr></thead>
+    <tbody>
+      <tr><td class="c mono">3</td><td class="c mono">3</td><td class="c mono">4</td><td class="c mono">4</td><td class="c mono">3,5</td><td class="c mono">4</td><td><b>3→4</b> Operacionalização → Escala</td></tr>
+      <tr><td class="c mono">3</td><td class="c mono">4</td><td class="c mono">4</td><td class="c mono">4</td><td class="c mono">4</td><td class="c mono">5</td><td><b>4</b> Escala</td></tr>
+      <tr><td class="c mono">4</td><td class="c mono">2</td><td class="c mono">4</td><td class="c mono">4</td><td class="c mono">4</td><td class="c mono">3</td><td><b>3</b> Operacionalização — o alicerce de dados limita</td></tr>
+      <tr><td class="c mono">3</td><td class="c mono">—</td><td class="c mono">4</td><td class="c mono">4</td><td class="c mono">4</td><td class="c mono">—</td><td>Evidência insuficiente: sem nota de Dados</td></tr>
+    </tbody>
+  </table>
+
+  <div class="eyebrow sec">Como usar o framework</div>
+  <ol class="num" style="margin-top:6px">
+    <li><span><b>Fichas da Frente 1.</b> Cada empresa do painel recebe notas pela régua, com fonte. O estágio é calculado por fórmula na base Excel (BIA-ACL-BD-01).</span></li>
+    <li><span><b>Sessões executivas.</b> O estágio declarado pelos executivos é comparado, de forma agregada, ao evidenciado.</span></li>
+    <li><span><b>Workshop Executivo.</b> Posicionamento do painel e leitura macro da Acelen na mesma régua, com votação anônima da liderança (BIA-ACL-WS-01).</span></li>
+    <li><span><b>Roadmap de médio e longo prazo.</b> Dependências críticas e ritmos observados como referência de sequência e prazo.</span></li>
+  </ol>
+
+  <div class="foot"><span>Acelen Energia Renovável · Framework de maturidade em IA · BIA-ACL-FM-01 · Rev. 00</span><span class="mono">14 / 16</span></div>
+</section>
+
+<!-- 15 · Fontes (1/2) -->
+<section class="page">
+  <div class="head"><img src="../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Frente 2 · Maturidade e roadmaps</span></div>
+  <div class="eyebrow">Fontes citadas · 1 de 2</div>
+  <h2>Catálogo de fontes</h2>
+  <p class="lead-s">Verificadas em 30/09/2026. URL, tipo, nível de confiabilidade e observações em <span class="mono">06_fontes/catalogo-fontes.csv</span> e na aba Fontes da base Excel (BIA-ACL-BD-01).</p>
+  <div class="fontes">
+    <div><span>F-0001</span><span>Gatua, 2026 — TI do Futuro — Do Centro de Custo ao Pilar Estratégico (ebook pós-evento Gatua Meeting E01)</span></div>
+    <div><span>F-0002</span><span>Gartner, 2019 — The CIO&#x27;s Guide to Artificial Intelligence (infográfico AI Maturity Model)</span></div>
+    <div><span>F-0003</span><span>Gartner, 2025 — Gartner AI Maturity Model and AI Roadmap Toolkit; AI Maturity Assessment (2025)</span></div>
+    <div><span>F-0004</span><span>Gartner, 2024 — Gartner Survey Finds Generative AI Is Now the Most Frequently Deployed AI Solution in Organizations</span></div>
+    <div><span>F-0005</span><span>Gartner, 2024 — Gartner Predicts 30% of Generative AI Projects Will Be Abandoned After Proof of Concept By End of 2025</span></div>
+    <div><span>F-0006</span><span>Gartner, 2025 — Lack of AI-Ready Data Puts AI Projects at Risk</span></div>
+    <div><span>F-0007</span><span>Gartner, 2025 — Gartner Predicts Over 40% of Agentic AI Projects Will Be Canceled by End of 2027</span></div>
+    <div><span>F-0008</span><span>Gartner, 2025 — Gartner Survey Finds 45% of Organizations With High AI Maturity Keep AI Projects Operational for at Le…</span></div>
+    <div><span>F-0009</span><span>Gartner, 2026 — What the 2026 Hype Cycle for Agentic AI Reveals</span></div>
+    <div><span>F-0010</span><span>Gartner, 2026 — Gartner Says Organizations with Successful AI Initiatives Invest Up to Four Times More in Data and Ana…</span></div>
+    <div><span>F-0011</span><span>Gartner, 2026 — Gartner Says Applying Uniform Governance Across AI Agents Will Lead to Enterprise AI Agent Failure</span></div>
+    <div><span>F-0012</span><span>Gartner, 2026 — Gartner Survey Finds Only 22% of Organizations Have Successfully Scaled AI Across Multiple Business Units</span></div>
+    <div><span>F-0013</span><span>MIT CISR, 2024 — Building Enterprise AI Maturity (Research Briefing XXIV-12)</span></div>
+    <div><span>F-0014</span><span>MIT CISR, 2025 — Grow Enterprise AI Maturity for Bottom-Line Impact (Research Briefing XXV-8)</span></div>
+    <div><span>F-0015</span><span>MIT CISR, 2026 — Leveraging Digital Colleagues for Enterprise Value (Research Briefing XXVI-4)</span></div>
+    <div><span>F-0016</span><span>MIT Sloan Management Review, 2017 — Reshaping Business With Artificial Intelligence</span></div>
+    <div><span>F-0017</span><span>MIT Sloan Management Review, 2020 — Expanding AI&#x27;s Impact With Organizational Learning</span></div>
+    <div><span>F-0018</span><span>MIT Sloan Management Review, 2025 — The Emerging Agentic Enterprise: How Leaders Must Navigate a New Age of AI</span></div>
+    <div><span>F-0019</span><span>Boston Consulting Group, 2024 — Where&#x27;s the Value in AI?</span></div>
+    <div><span>F-0020</span><span>Boston Consulting Group, 2025 — The Widening AI Value Gap: Build for the Future 2025</span></div>
+    <div><span>F-0021</span><span>Boston Consulting Group, 2026 — The Formula for Agentic AI Value — The Applied AI Index 2026</span></div>
+    <div><span>F-0022</span><span>McKinsey &amp; Company, 2025 — The state of AI: How organizations are rewiring to capture value</span></div>
+    <div><span>F-0023</span><span>McKinsey &amp; Company, 2025 — The state of AI in 2025: Agents, innovation, and transformation</span></div>
+    <div><span>F-0024</span><span>McKinsey &amp; Company, 2026 — The state of AI in 2026: On the road to ROI</span></div>
+    <div><span>F-0025</span><span>McKinsey &amp; Company, 2023 — Rewired: The McKinsey Guide to Outcompeting in the Age of Digital and AI (2ª ed. 2026)</span></div>
+    <div><span>F-0026</span><span>Microsoft, 2024 — Navigating the Stages of AI Value Creation (The AI Strategy Roadmap)</span></div>
+    <div><span>F-0027</span><span>Microsoft, 2026 — Introduction to the Agentic AI adoption maturity model</span></div>
+    <div><span>F-0028</span><span>Microsoft, 2025 — 2025: The year the Frontier Firm is born (Work Trend Index Annual Report)</span></div>
+    <div><span>F-0029</span><span>IDC, patrocinado pela Microsoft, 2025 — What every company can learn from Frontier firms leading the AI revolution (InfoBrief #US53838325)</span></div>
+    <div><span>F-0030</span><span>IBM, 2021 — Demystifying Data with AI on IBM Z (Redpaper REDP-5633) — The AI Ladder</span></div>
+    <div><span>F-0031</span><span>IBM Institute for Business Value, 2025 — 2025 CEO Study: 5 mindshifts to supercharge business growth</span></div>
+    <div><span>F-0032</span><span>IBM Institute for Business Value, 2026 — IBM Study: CEOs are reshaping C-suite roles for the AI era (2026 CEO Study)</span></div>
+    <div><span>F-0033</span><span>Google Cloud, 2020 — Google Cloud&#x27;s AI Adoption Framework (whitepaper)</span></div>
+    <div><span>F-0034</span><span>Google Cloud, 2025 — The ROI of AI 2025: How agents are unlocking the next wave of AI-driven business value</span></div>
+    <div><span>F-0035</span><span>Accenture Research, 2022 — The art of AI maturity — Advancing from practice to performance</span></div>
+    <div><span>F-0036</span><span>Accenture, 2025 — The front-runners&#x27; guide to scaling AI: Lessons from industry leaders</span></div>
+    <div><span>F-0037</span><span>Accenture, 2026 — From early impact to enduring advantage: The intelligent superhighway you need to unlock value from AI</span></div>
+    <div><span>F-0038</span><span>Carnegie Mellon University Software Engineering Institute, 2026 — AI Adoption Maturity Model v1.0</span></div>
+    <div><span>F-0039</span><span>Deloitte AI Institute, 2022 — State of AI in the Enterprise, 5th Edition</span></div>
+    <div><span>F-0040</span><span>Deloitte AI Institute, 2025 — Now decides next: Generating a new future — State of Generative AI in the Enterprise, Quarter four report</span></div>
+    <div><span>F-0041</span><span>Deloitte, 2026 — State of AI in the Enterprise 2026 — From Ambition to Activation</span></div>
+    <div><span>F-0042</span><span>Cisco, 2025 — Cisco AI Readiness Index 2025 — Realizing the Value of AI</span></div>
+    <div><span>F-0043</span><span>Cisco, 2024 — Cisco AI Readiness Index — Hype Meets Reality (versão Brasil)</span></div>
+    <div><span>F-0044</span><span>Stanford HAI, 2026 — AI Index Report 2026 — Chapter 4: Economy</span></div>
+    <div><span>F-0045</span><span>PwC Brasil, 2025 — Índice de Transformação Digital Brasil 2025 (ITDBr)</span></div>
+    <div><span>F-0046</span><span>PwC Brasil, 2024 — ITDBr 2024 – Destaques do setor do Agronegócio</span></div>
+    <div><span>F-0047</span><span>PwC Brasil, 2026 — ITDBr 2025 | Destaques do Agronegócio</span></div>
+    <div><span>F-0048</span><span>IBGE, 2025 — Pesquisa de Inovação Semestral 2024: indicadores temáticos (tecnologias digitais avançadas)</span></div>
+    <div><span>F-0049</span><span>Cetic.br / NIC.br, 2026 — Uso de inteligência artificial por empresas brasileiras avança e atinge 17% (TIC Empresas 2025)</span></div>
+    <div><span>F-0050</span><span>Deloitte Brasil, 2026 — IA entra em fase de escala enquanto papel estratégico avança nas empresas; mercado brasileiro se destaca</span></div>
+    <div><span>F-0051</span><span>Febraban, 2026 — Pesquisa Febraban de Tecnologia Bancária 2026, Vol. 1</span></div>
+    <div><span>F-0052</span><span>Embrapa, 2020 — Agricultura digital no Brasil: tendências, desafios e oportunidades — resultados de pesquisa online</span></div>
+    <div><span>F-0053</span><span>RAND Corporation, 2024 — The Root Causes of Failure for Artificial Intelligence Projects and How They Can Succeed (RR-A2680-1)</span></div>
+    <div><span>F-0054</span><span>MIT NANDA, 2025 — The GenAI Divide: State of AI in Business 2025</span></div>
+    <div><span>F-0055</span><span>80,000 Hours, 2026 — The story behind the bad AI stat that moved markets and misled millions</span></div>
+    <div><span>F-0056</span><span>K. J. Kevin Feng, David W. McDonald, Amy X. Zhang — University of Washington, 2025 — Levels of Autonomy for AI Agents (arXiv 2506.12469)</span></div>
+    <div><span>F-0057</span><span>Capgemini Research Institute, 2025 — Rise of agentic AI: How trust is the key to human-AI collaboration</span></div>
+    <div><span>F-0058</span><span>High-Level Expert Group on AI, 2019 — Ethics Guidelines for Trustworthy AI</span></div>
+    <div><span>F-0059</span><span>National Institute of Standards and Technology, 2023 — Artificial Intelligence Risk Management Framework (AI RMF 1.0) — NIST AI 100-1</span></div>
+    <div><span>F-0060</span><span>NIST, 2024 — Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile — NIST A…</span></div>
+  </div>
+  <div class="foot"><span>Acelen Energia Renovável · Framework de maturidade em IA · BIA-ACL-FM-01 · Rev. 00</span><span class="mono">15 / 16</span></div>
+</section>
+
+<!-- 16 · Fontes (2/2) -->
+<section class="page">
+  <div class="head"><img src="../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Frente 2 · Maturidade e roadmaps</span></div>
+  <div class="eyebrow">Fontes citadas · 2 de 2</div>
+  <h2>Catálogo de fontes, continuação</h2>
+  
+  <div class="fontes">
+    <div><span>F-0061</span><span>ISO/IEC JTC 1/SC 42, 2023 — ISO/IEC 42001:2023 — Information technology — Artificial intelligence — Management system (adotada no…</span></div>
+    <div><span>F-0062</span><span>Parlamento Europeu e Conselho da União Europeia, 2024 — Regulation (EU) 2024/1689 — Artificial Intelligence Act</span></div>
+    <div><span>F-0063</span><span>Parlamento Europeu e Conselho da União Europeia, 2026 — Regulation (EU) 2026/1744 — Digital Omnibus on AI (altera o Regulamento 2024/1689)</span></div>
+    <div><span>F-0064</span><span>Senado Federal, 2023 — PL 2338/2023 — Marco legal da inteligência artificial</span></div>
+    <div><span>F-0065</span><span>Poder Executivo, 2025 — PL 6237/2025 — Institui o Sistema Nacional para Desenvolvimento, Regulação e Governança de Inteligênci…</span></div>
+    <div><span>F-0066</span><span>Agência Senado, 2026 — Sancionada lei que cria a Agência Nacional de Proteção de Dados (Lei 15.352/2026)</span></div>
+    <div><span>F-0067</span><span>MCTI, 2024 — Plano Brasileiro de Inteligência Artificial 2024–2028 — IA para o bem de todos</span></div>
+    <div><span>F-0068</span><span>ISO/TC 23/SC 19, 2024 — ISO 18497-1:2024 — Agricultural machinery and tractors — Safety of partially automated, semi-autonomou…</span></div>
+    <div><span>F-0069</span><span>Agricultural Industry Electronics Foundation, 2024 — Autonomy in Ag (projeto AUT)</span></div>
+    <div><span>F-0070</span><span>G. Happich, A. Grever, J. Schöning, 2025 — Agricultural Industry Initiatives on Autonomy (arXiv 2501.17962)</span></div>
+    <div><span>F-0071</span><span>CEMA — European Agricultural Machinery Association, 2025 — CEMA&#x27;s position on Agricultural Robots</span></div>
+    <div><span>F-0072</span><span>FAO, 2022 — The State of Food and Agriculture 2022. Leveraging automation in agriculture for transforming agrifood…</span></div>
+    <div><span>F-0073</span><span>C. Verdouw, B. Tekinerdogan, A. Beulens, S. Wolfert, 2021 — Digital twins in smart farming</span></div>
+    <div><span>F-0074</span><span>CEMA — European Agricultural Machinery Association, 2017 — Digital Farming: what does it really mean?</span></div>
+    <div><span>F-0075</span><span>Embrapa, 2024 — Agricultura digital, inovação e aplicações (cap. 2 de Inovação e desenvolvimento em cana-de-açúcar)</span></div>
+    <div><span>F-0076</span><span>McKinsey &amp; Company, 2024 — Global Farmer Insights 2024</span></div>
+    <div><span>F-0077</span><span>McKinsey &amp; Company, via Bloomberg e The AgriBiz, 2026 — Global Farmer Insights 2026 (cobertura de imprensa)</span></div>
+    <div><span>F-0078</span><span>Embrapa, 2026 — Radar Agtech Brasil 2025: Mapeamento de Startups, Ambientes de Inovação e Investidores do Ecossistema…</span></div>
+    <div><span>F-0079</span><span>Teletime, 2025 — Área agrícola com 4G ou 5G chega a 33% no Brasil, segundo ConectarAgro</span></div>
+    <div><span>F-0080</span><span>Ministério da Agricultura e Assuntos Rurais da China, 2025 — 2024年全国农业机械化发展统计公报 (Boletim estatístico de mecanização agrícola 2024)</span></div>
+    <div><span>F-0081</span><span>Xinhua, 2026 — “新农具”有新机遇！无人机、机器人首次写入中央一号文件</span></div>
+    <div><span>F-0082</span><span>Ministério da Agricultura e Assuntos Rurais da China, 2024 — 全国智慧农业行动计划（2024—2028年）(Plano Nacional de Agricultura Inteligente 2024–2028)</span></div>
+    <div><span>F-0083</span><span>New Straits Times, republicado pelo MPOB, 2024 — Palm oil industry loses RM7.9b annually due to worker shortage</span></div>
+    <div><span>F-0084</span><span>MPOB, 2023 — The Potential of Robotics for Efficient and Sustainable Harvesting (Palm Oil Engineering Bulletin 142)</span></div>
+    <div><span>F-0085</span><span>MPOB, 2004 — Development of a machine for harvesting tall palms (MPOB TT 217)</span></div>
+    <div><span>F-0086</span><span>W. Li, H. Fu, L. Yu, A. Cracknell — Remote Sensing 9, 2016 — Deep Learning Based Oil Palm Tree Detection and Counting for High-Resolution Remote Sensing Images</span></div>
+    <div><span>F-0087</span><span>K. Yarak et al. — Agriculture 11, 2021 — Oil Palm Tree Detection and Health Classification on High-Resolution Imagery Using Deep Learning</span></div>
+    <div><span>F-0088</span><span>C. A. Colombo, L. H. C. Berton, B. G. Diaz, R. A. Ferrari — OCL 25, 2018 — Macauba: a promising tropical palm for the production of vegetable oil</span></div>
+    <div><span>F-0089</span><span>Itaú Unibanco, 2025 — Integrated Annual Report 2024</span></div>
+    <div><span>F-0090</span><span>Itaú Unibanco, 2024 — Relatório Anual Integrado 2023</span></div>
+    <div><span>F-0091</span><span>About Amazon, 2024 — Itaú Unibanco vai migrar o coração do banco para a nuvem</span></div>
+    <div><span>F-0092</span><span>TI Inside, 2026 — Itaú coloca 150 soluções de GenAI em produção e amplia uso de IA em 141%</span></div>
+    <div><span>F-0093</span><span>Vale, 2018 — Vale will have the first mine operating only with autonomous trucks in Brazil</span></div>
+    <div><span>F-0094</span><span>Vale, 2019 — Vale creates Artificial Intelligence Center</span></div>
+    <div><span>F-0095</span><span>Vale, 2021 — Focused on safety and people, Vale starts operating autonomous trucks in its largest iron ore complex…</span></div>
+    <div><span>F-0096</span><span>Vale, 2026 — Relatório de PD&amp;I 2025</span></div>
+    <div><span>F-0097</span><span>Mobile Time, 2026 — Vale abre plataforma de dados e IA a 19 áreas de negócio</span></div>
+    <div><span>F-0098</span><span>HSM Management, 2023 — Vale nos trilhos da inteligência artificial</span></div>
+    <div><span>F-0099</span><span>Petrobras, 2021 — Form 20-F 2020</span></div>
+    <div><span>F-0100</span><span>Agência Petrobras, 2023 — Petrobras cria ferramenta com inteligência artificial generativa para apoiar mais de 100 mil trabalhad…</span></div>
+    <div><span>F-0101</span><span>Mobile Time, 2025 — Petrobras e agentes de IA</span></div>
+    <div><span>F-0102</span><span>Moderna, 2024 — Moderna and OpenAI Collaborate To Advance mRNA Medicine</span></div>
+    <div><span>F-0103</span><span>SLC Agrícola, 2024 — Centro de Inteligência Agrícola da SLC completa cinco anos</span></div>
+    <div><span>F-0104</span><span>São Martinho, 2018 — Relatório Anual de Sustentabilidade 2017/18</span></div>
+    <div><span>F-0105</span><span>São Martinho, 2026 — Relato Integrado 2025/26</span></div>
+    <div><span>F-0106</span><span>Mobile Time, 2026 — São Martinho troca rede privativa por rede pública no campo</span></div>
+    <div><span>F-0107</span><span>Suzano, 2025 — Microsoft e Suzano desenvolvem IA generativa</span></div>
+    <div><span>F-0108</span><span>Suzano, 2026 — Inovação tecnológica para prevenir incêndios florestais</span></div>
+    <div><span>F-0109</span><span>Klabin, 2026 — Relatório de Sustentabilidade 2025</span></div>
+    <div><span>F-0110</span><span>Raízen, 2024 — Relatório Integrado 2023&#x27;24</span></div>
+    <div><span>F-0111</span><span>Telesíntese, 2024 — BP Bunge investe mais de R$ 100 milhões em transformação digital no campo</span></div>
+    <div><span>F-0112</span><span>UDOP, 2025 — Atvos investe R$ 16 milhões em rede própria de 4G</span></div>
+    <div><span>F-0113</span><span>Revista Cultivar, 2020 — Conectividade no campo aumenta desempenho das fazendas da SLC Agrícola</span></div>
+    <div><span>F-0114</span><span>Jornal Cana, 2026 — bp bioenergy reduz incêndios em 50% e consolida modelo de prevenção baseado em IA</span></div>
+    <div><span>F-0115</span><span>Canaonline, 2020 — Tem internet 4G a cada metro quadrado dos 350 mil hectares da São Martinho</span></div>
+    <div><span>F-0116</span><span>International Mining, 2021 — Vale expects 21 autonomous drills running end-2021, passes 100 Mt hauled mark with AHS fleet at Brucutu</span></div>
+    <div><span>F-0117</span><span>RPA News, 2020 — Atvos tem economia de R$ 5,8 milhões com CIA</span></div>
+    <div><span>F-0118</span><span>IT Forum, 2023 — Torre controla transporte de madeira da Klabin</span></div>
+    <div><span>F-0119</span><span>Mobile Time, 2024 — ChatGPT da Petrobras está disponível para toda companhia</span></div>
+    <div><span>F-0123</span><span>Autoridade Nacional de Proteção de Dados, 2024 — Resolução CD/ANPD nº 23, de 9 de dezembro de 2024 — Agenda Regulatória 2025–2026</span></div>
+  </div>
+  <div class="foot"><span>Acelen Energia Renovável · Framework de maturidade em IA · BIA-ACL-FM-01 · Rev. 00</span><span class="mono">16 / 16</span></div>
+</section>
+
+</body>
+</html>
