@@ -4,6 +4,8 @@ Reuniões semanais de acompanhamento (remotas, ~45 min) com a Estratégia Agríc
 
 ## Cronograma
 
+Datas da proposta. Atualize quando o calendário real for confirmado com a Acelen.
+
 | Período | Atividades | Marco |
 |---|---|---|
 | Semana 1 — 17–21/08 | Mobilização, kick-off, validação do painel e do protocolo, agenda das sessões executivas | Kick-off · Painel e protocolo aprovados |
@@ -14,7 +16,11 @@ Reuniões semanais de acompanhamento (remotas, ~45 min) com a Estratégia Agríc
 
 ## Pastas
 
-- `reunioes-semanais/` — pautas, atas e transcrições (`AAAA-MM-DD_semanal.md`)
+- `reunioes-semanais/` — pautas, atas e transcrições (`AAAA-MM-DD_semanal.md`), a partir do [modelo](reunioes-semanais/_modelo_semanal.md)
+
+## Documentos
+
+A [lista de documentos](lista-de-documentos.md) registra o número e a revisão de cada documento (`BIA-ACL-<TIPO>-<NN> · Rev. <RR>`). Reserve o número lá ao criar um documento novo.
 
 ## Gestão de dados
 
