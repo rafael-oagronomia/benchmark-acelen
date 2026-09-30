@@ -8,3 +8,4 @@ Como empresas líderes usam IA como diferencial estratégico — foco no Brasil,
 - [ ] **Casos de sucesso e insucesso** — o que funcionou, o que falhou e lições aprendidas (incl. fracassos por fragilidade de infraestrutura, governança e qualidade de dados) → `casos/`
 - [ ] **Dimensões de análise** — governança de IA, estratégia de dados, organização (estruturas, papéis, competências) e aplicações (do apoio à decisão à automação e tecnologias de campo: robótica, visão computacional, drones, máquinas autônomas), em nível macro
 - [ ] **Fichas de benchmark** — síntese padronizada por empresa, comparável entre casos e consolidada na base Excel → `fichas-benchmark/`
+  - copie o [modelo](fichas-benchmark/_modelo-ficha.md) para `<ID>_<empresa>.md`; regras de preenchimento no [protocolo de pesquisa](../01_mobilizacao/protocolo-pesquisa.md) e notas pela [régua](../03_frente-2_maturidade-roadmaps/regua-classificacao.md)
