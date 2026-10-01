@@ -322,5 +322,95 @@
   "chave": "05_agro-brasil-instituicoes-midia/CNA_2026_estudo-escassez-mao-de-obra-produtividade-agenda-brasil.pdf",
   "id_ref": "M242",
   "titulo_ref": "Agenda Brasil – Escassez de mão de obra é desafio no campo (estudo 'Mercado de Trabalho na"
+ },
+ {
+  "secao": "F3 · IA e sustentabilidade (pegada da IA)",
+  "chave": "10_ia-sustentabilidade/Google_2025_measuring-environmental-impact-ai-google-scale-gemini.pdf",
+  "id_ref": "M562",
+  "titulo_ref": "Measuring the environmental impact of delivering AI at Google Scale"
+ },
+ {
+  "secao": "F3 · IA e sustentabilidade (pegada da IA)",
+  "chave": "10_ia-sustentabilidade/Microsoft_2025_oviedo-energy-use-ai-inference-test-time-compute.pdf",
+  "id_ref": "M593",
+  "titulo_ref": "Energy use of AI inference, efficiency pathways, and test-time scaling (Joule 10, 102430)"
+ },
+ {
+  "secao": "F3 · IA e sustentabilidade (pegada da IA)",
+  "chave": "10_ia-sustentabilidade/MistralAI_2025_lca-environmental-standard-ai.pdf",
+  "id_ref": "M595",
+  "titulo_ref": "Our contribution to a global environmental standard for AI"
+ },
+ {
+  "secao": "F3 · IA e sustentabilidade (pegada da IA)",
+  "chave": "10_ia-sustentabilidade/Bistline-etal_2026_estimating-ghg-emissions-from-ai-use-corporate-framework.pdf",
+  "id_ref": "M623",
+  "titulo_ref": "Estimating GHG Emissions from AI Use: Framework for Corporate-Level Measurement (white pap"
+ },
+ {
+  "secao": "F3 · IA e sustentabilidade (pegada da IA)",
+  "chave": "10_ia-sustentabilidade/GSF_2025_sci-for-ai-specification-ratified.pdf",
+  "id_ref": "M567",
+  "titulo_ref": "SCI for AI Specification Ratified: Standard for Measuring AI Emissions Across the Lifecycl"
+ },
+ {
+  "secao": "F3 · IA e sustentabilidade (pegada da IA)",
+  "chave": "10_ia-sustentabilidade/ITU-T_2026_L1801-guidelines-environmental-impact-ai-systems.pdf",
+  "id_ref": "M614",
+  "titulo_ref": "Recommendation ITU-T L.1801 (02/2026) — Guidelines for assessing the environmental impact "
+ },
+ {
+  "secao": "F3 · IA e sustentabilidade (pegada da IA)",
+  "chave": "10_ia-sustentabilidade/ITU-WBA_2026_greening-digital-companies.pdf",
+  "id_ref": "M613",
+  "titulo_ref": "Greening Digital Companies 2026: Monitoring Emissions and Climate Commitments"
+ },
+ {
+  "secao": "F3 · IA e sustentabilidade (pegada da IA)",
+  "chave": "10_ia-sustentabilidade/IEA_2026_electricity-2026.pdf",
+  "id_ref": "M575",
+  "titulo_ref": "Electricity 2026 — Analysis and forecast to 2030"
+ },
+ {
+  "secao": "F3 · IA e sustentabilidade (pegada da IA)",
+  "chave": "10_ia-sustentabilidade/Capgemini-CRI_2025_developing-sustainable-gen-ai.pdf",
+  "id_ref": "M541",
+  "titulo_ref": "Developing sustainable Gen AI"
+ },
+ {
+  "secao": "F3 · IA e sustentabilidade (pegada da IA)",
+  "chave": "10_ia-sustentabilidade/LSE-Grantham-Systemiq_2025_green-and-intelligent-ai-climate-transition-npj.pdf",
+  "id_ref": "M585",
+  "titulo_ref": "Green and intelligent: the role of AI in the climate transition (npj Climate Action 4, 56)"
+ },
+ {
+  "secao": "F3 · IA e sustentabilidade (pegada da IA)",
+  "chave": "10_ia-sustentabilidade/Li-Ren-UCR_2025_making-ai-less-thirsty-v5.pdf",
+  "id_ref": "M612",
+  "titulo_ref": "Making AI Less “Thirsty”: Uncovering and Addressing the Secret Water Footprint of AI Model"
+ },
+ {
+  "secao": "F3 · IA e sustentabilidade (pegada da IA)",
+  "chave": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/cgcl/paginas/fator-medio-inventarios-corporativos",
+  "id_ref": "M587",
+  "titulo_ref": "Fator médio de emissão de CO2 do SIN — Inventários corporativos (página e planilha Inventa"
+ },
+ {
+  "secao": "F3 · IA e sustentabilidade (pegada da IA)",
+  "chave": "10_ia-sustentabilidade/Brasscom-ABDC_2025_consumo-energia-agua-data-centers-brasil.pdf",
+  "id_ref": "M536",
+  "titulo_ref": "Consumo de Energia e Água em Data Centers no Brasil"
+ },
+ {
+  "secao": "F3 · IA e sustentabilidade (pegada da IA)",
+  "chave": "10_ia-sustentabilidade/CVM_2026_resolucao-244-altera-resolucao-193-sustentabilidade.pdf",
+  "id_ref": "M539",
+  "titulo_ref": "Resolução CVM nº 244, de 29 de maio de 2026 — altera a Resolução CVM nº 193/2023"
+ },
+ {
+  "secao": "F3 · IA e sustentabilidade (pegada da IA)",
+  "chave": "10_ia-sustentabilidade/Planalto_2026_lei-15504-redata-texto-integral.pdf",
+  "id_ref": "M603",
+  "titulo_ref": "Lei nº 15.504, de 15 de setembro de 2026 (Redata — Regime Especial de Tributação para Serv"
  }
 ]

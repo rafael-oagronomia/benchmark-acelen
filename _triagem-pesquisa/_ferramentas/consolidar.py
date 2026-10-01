@@ -43,6 +43,7 @@ NOME_PASTA = {
     "07_agro-global-perenes-autonomia": "Agro global, culturas perenes e autonomia",
     "08_setor-financeiro": "Setor financeiro",
     "09_outros-setores": "Outros setores maduros",
+    "10_ia-sustentabilidade": "IA e sustentabilidade (impacto ambiental)",
 }
 
 

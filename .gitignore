@@ -22,8 +22,7 @@ _triagem-pesquisa/_ferramentas/*
 !_triagem-pesquisa/_ferramentas/*.py
 !_triagem-pesquisa/_catalogo/
 _triagem-pesquisa/_catalogo/*
-!_triagem-pesquisa/_catalogo/rodada1.json
-!_triagem-pesquisa/_catalogo/rodada2.json
+!_triagem-pesquisa/_catalogo/rodada*.json
 !_triagem-pesquisa/_catalogo/complemento_manual.json
 !_triagem-pesquisa/_catalogo/destaques.json
 

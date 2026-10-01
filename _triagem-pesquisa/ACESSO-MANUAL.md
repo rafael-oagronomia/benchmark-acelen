@@ -49,6 +49,10 @@ Materiais que exigem formulário, cadastro ou assinatura. Para solicitar, use se
   - Link: https://abmra.org.br/pesquisa-abmra-habitos-do-produtor-rural-abmra/
   - Campos: Compra de cota ('Adquira sua cota'), via contato comercial da ABMRA.
   - Material pago; avaliar custo-benefício. Os dados de uso de tecnologia (drones, softwares, IA) da 9ª edição não estão públicos.
+- **AFNOR (com Ecolab/CGDD do Ministério da Transição Ecológica da França) — AFNOR SPEC 2314 - Référentiel général pour l'IA frugale: mesurer et réduire l'impact environnemental de l'IA**
+  - Link: https://www.boutique.afnor.org/fr-fr/norme/afnor-spec-2314/referentiel-general-pour-lia-frugale-mesurer-et-reduire-limpact-environneme/fa208976/421140
+  - Campos: Cadastro/conta e checkout na loja AFNOR Editions (consulta gratuita autorizada); campos exatos não verificados para não iniciar o cadastro.
+  - Publicada em jun/2024 (2ª tiragem abr/2025, 100 p.): metodologia de ACV, 31 fichas de boas práticas e regras de comunicação sem greenwashing; usada pela Mistral (2025). O link do ministério (telechargement.afnor.info/normalisation-afnor-spec-ia-frugale) redireciona para a loja.
 - **EY (Suíça) — EY European AI Barometer 2025 (relatório completo)**
   - Link: https://www.ey.com/en_ch/functional/forms/download/ey-european-ai-barometer-2025
   - Campos: Não aparecem no HTML: é um formulário Marketo carregado dentro de um iframe
@@ -81,6 +85,10 @@ Materiais que exigem formulário, cadastro ou assinatura. Para solicitar, use se
   - Link: https://www.informatica.com/lp/cdo-insights-2026_5264.html
   - Campos: País, Estado, Nome, Sobrenome, E-mail, Telefone, Cargo, Empresa, Setor, Nível do cargo e Área/departamento (a página diz que todos são obrigatórios); opt-in de comunicações e 'Please call me' opcionais
   - Formulário Marketo; o relatório é enviado por e-mail. A página pública já traz destaques: 50% dos adotantes de IA agêntica citam qualidade e recuperação de dados como barreira; 76% dizem que a governança não acompanhou o uso de IA; 65% dizem que os funcionários confiam nos resultados mesmo com lacunas de dados; 86% vão ampliar investimento em gestão de dados (600 líderes de dados).
+- **Logicalis — Logicalis Global CIO Report 2026 (relatório completo)**
+  - Link: https://www.logicalis.com/cio-report
+  - Campos: Formulário HubSpot carregado via JavaScript; campos não inspecionados e formulário não preenchido
+  - Os números-chave sobre IA e meio ambiente (39% e 41%) estão no press release oficial já salvo em PDF; o relatório completo pode ter recortes regionais, inclusive Brasil e América Latina.
 - **MIT CISR — MIT CISR Research Briefings (PDF oficial e conteúdos adicionais)**
   - Link: https://cisr.mit.edu/publication/2025_0801_EnterpriseAIMaturityUpdate_WoernerSebastianWeillKaganer
   - Campos: Cadastro gratuito ('Log In or Sign Up') no site cisr.mit.edu; os campos não aparecem na página.
@@ -105,6 +113,14 @@ Materiais que exigem formulário, cadastro ou assinatura. Para solicitar, use se
   - Link: https://www.snowflake.com/en/lp/radical-roi-generative-ai/
   - Campos: Formulário Marketo (mktoForm_48822) carregado dinamicamente; ao menos e-mail. Os demais campos não estão visíveis no HTML (provavelmente nome, empresa, cargo e país)
   - A landing page já traz a maioria dos números (US$ 1,49 por US$ 1). O e-book traz os recortes por país e setor.
+- **WBCSD - World Business Council for Sustainable Development — Guidance on Avoided Emissions v2.0**
+  - Link: https://www.wbcsd.org/resources/guidance-on-avoided-emissions-helping-business-drive-innovations-and-scale-solutions-toward-net-zero/
+  - Campos: Nome, sobrenome, e-mail corporativo, empresa e aceite da política de privacidade
+  - Versão atual do guia de emissões evitadas (24/07/2025), referência para reportar o 'lado do benefício' da IA sem abater o inventário. A v1 (2023) foi baixada como substituta.
+- **WBCSD - World Business Council for Sustainable Development — Avoided Emissions in the Agriculture & Food Sector**
+  - Link: https://www.wbcsd.org/resources/avoided-emissions-in-the-agriculture-food-sector/
+  - Campos: Nome, sobrenome, e-mail corporativo, empresa e aceite da política de privacidade
+  - Guia setorial de 17/09/2025 para agricultura e alimentos; o mais aderente a agro e bioenergia para medir benefícios de soluções (inclusive IA).
 
 ## Descartados (pagos, indisponíveis ou pouco relevantes)
 
@@ -260,3 +276,15 @@ Materiais que exigem formulário, cadastro ou assinatura. Para solicitar, use se
 - **Harvard Business School (Dell'Acqua et al.), com Procter & Gamble — The Cybernetic Teammate: A Field Experiment on Generative AI Reshaping Teamwork and Expertise (HBS Working Paper 25-043)** (bloqueado): https://www.hbs.edu/faculty/Pages/item.aspx?num=67197
 - **ABMRA — Pesquisa ABMRA Hábitos do Produtor Rural (9ª edição)** (pago): https://abmra.org.br/pesquisa-abmra-habitos-do-produtor-rural-abmra/
 - **AWS (Amazon Web Services) — AMAGGI reúne mais de 8 milhões de imagens de satélite em Data Lake AWS (case de cliente)** (bloqueado): https://aws.amazon.com/pt/solutions/case-studies/amaggi-case-study/
+- **Chinese Academy of Sciences e Reichman University/Cambridge (Peng Wang, Ling-Yu Zhang, Asaf Tzachor, Wei-Qiang Chen) — Nature Computational Science 4, 818–823 — E-waste challenges of generative artificial intelligence** (pago): https://doi.org/10.1038/s43588-024-00712-6
+- **Vrije Universiteit Amsterdam (Alex de Vries-Gao) — Resources, Conservation and Recycling 229, 108872 — Recalibrating global artificial intelligence e-waste estimates** (bloqueado): https://doi.org/10.1016/j.resconrec.2026.108872
+- **ISO/IEC JTC 1 — ISO/IEC 21031:2024 — Information technology — Software Carbon Intensity (SCI) specification** (pago): https://www.iso.org/standard/86612.html
+- **ISO/IEC JTC 1 — ISO/IEC 30134-2:2016 (PUE), 30134-8:2022 (CUE) e 30134-9:2022 (WUE) - Data centres key performance indicators** (pago): https://www.iso.org/standard/63451.html
+- **ISO/IEC JTC 1/SC 42 — ISO/IEC TR 20226:2025 — Information technology — Artificial intelligence — Environmental sustainability aspects of AI systems** (pago): https://www.iso.org/standard/86177.html
+- **John Deere — See & Spray Herbicide Savings / See & Spray 59 Percent Herbicide Savings (releases oficiais)** (bloqueado): https://www.deere.com/en/news/all-news/see-spray-herbicide-savings/
+- **Microsoft (Amy Luers) — Net zero needs AI — five actions to realize its promise (Nature 644, 871–873)** (pago): https://doi.org/10.1038/d41586-025-02641-4
+- **Nature Computational Science (Wang et al., Academia Chinesa de Ciências e outros) — E-waste challenges of generative artificial intelligence (versão publicada, Nature Computational Science 4, 2024)** (pago): https://www.nature.com/articles/s43588-024-00712-6
+- **VU Amsterdam / Digiconomist (Alex de Vries-Gao) — Artificial intelligence: Supply chain constraints and energy implications (Joule 9(6), 101961)** (pago): https://doi.org/10.1016/j.joule.2025.101961
+- **Gartner — Forecast: Data Center Power Capacity and Consumption, Worldwide, 2024-2030, 1Q26** (pago): https://www.gartner.com/en/documents/7868377
+- **IDC — IDC Report Reveals AI-Driven Growth in Datacenter Energy Consumption, Predicts Surge in Datacenter Facility Spending Amid Rising Electricity Costs (press release)** (bloqueado): https://my.idc.com/getdoc.jsp?containerId=prUS52611224
+- **IRENA - Agência Internacional de Energia Renovável — Digitalisation and AI for power system transformation: Perspectives for the G7** (bloqueado): https://www.irena.org/Publications/2025/Oct/Digitalisation-and-AI-for-power-system-transformation-Perspectives-for-the-G7

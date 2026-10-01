@@ -11,3 +11,7 @@ Leitura prospectiva dos movimentos que devem moldar a próxima década da IA no 
 - [ ] **Dados e soberania tecnológica** — propriedade e controle de dados, dependência de fornecedores, autonomia tecnológica
 - [ ] **Mudanças organizacionais esperadas** — estruturas, papéis e competências
 - [ ] **Oportunidades e riscos estratégicos** — tecnológicos, organizacionais e competitivos, relevantes para a Acelen
+
+## Notas temáticas
+
+- [ia-e-impacto-ambiental.md](ia-e-impacto-ambiental.md) — IA e impacto ambiental (corte 01/10/2026): o que a ciência mede, escala dos data centers, **métricas de pegada de carbono, energia e água** (com fórmulas, padrões, fatores de emissão e exemplo Brasil × EUA), posições das big techs, consultorias e empresas usuárias, regulação, saldo líquido, Brasil, números que não devem ser usados e implicações para F1, F2 e F3. Fontes em `_triagem-pesquisa/10_ia-sustentabilidade/` (fora do Git; catálogo no LEIA-ME).

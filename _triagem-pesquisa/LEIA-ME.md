@@ -3,7 +3,7 @@
 Material público levantado para o benchmark. Só este índice, a planilha e a lista de acesso manual vão para o Git: os PDFs ficam na máquina do Guilherme — quem precisar de um arquivo pede a ele.
 Planilha completa com filtros: [CATALOGO.xlsx](CATALOGO.xlsx). Materiais que dependem de formulário: [ACESSO-MANUAL.md](ACESSO-MANUAL.md).
 
-**529 itens** · 410 PDFs baixados · 102 páginas web · 17 com acesso restrito
+**747 itens** · 559 PDFs baixados · 156 páginas web · 32 com acesso restrito
 
 ## Comece por aqui
 
@@ -134,6 +134,39 @@ Seleção dos documentos mais fortes para cada frente. A lista completa vem logo
   - US$ 248,42 por acre/ano é o gasto máximo com a colhedora robótica que iguala o lucro da colheita manual (maçã Gala, Washington, com o desempenho esperado dos protótipos) (p. 1)
 - **M245 · CNA (com Cepea/Esalq-USP) (2026)** — Agenda Brasil – Escassez de mão de obra é desafio no campo (estudo 'Mercado de Trabalho na Agropecuária: Evidências sobre Escassez de Mão de Obra e Produtividade') · [PDF](05_agro-brasil-instituicoes-midia/CNA_2026_estudo-escassez-mao-de-obra-produtividade-agenda-brasil.pdf)
   - 94,8% dos produtores relatam dificuldade de contratação, 84,3% operam com quadro inferior ao necessário e 88,3% têm alguma consequência produtiva (pesquisa com empregadores, 2026) (página web)
+
+### F3 · IA e sustentabilidade (pegada da IA)
+
+- **M562 · Google (Elsworth et al.) (2025)** — Measuring the environmental impact of delivering AI at Google Scale · [PDF](10_ia-sustentabilidade/Google_2025_measuring-environmental-impact-ai-google-scale-gemini.pdf)
+  - Prompt de texto mediano do Gemini Apps (maio/2025): 0,24 Wh, 0,03 gCO2e (market-based + escopos 1 e 3) e 0,26 mL de água consumida no local (Tabela 2, p. 7)
+- **M593 · Microsoft (Oviedo et al.) (2026)** — Energy use of AI inference, efficiency pathways, and test-time scaling (Joule 10, 102430) · [PDF](10_ia-sustentabilidade/Microsoft_2025_oviedo-energy-use-ai-inference-test-time-compute.pdf)
+  - Mediana de 0,31 Wh por consulta (IQR 0,16–0,60) para modelos de fronteira com mais de 200 bilhões de parâmetros em nós H100; estimativas difundidas exageram 4–20× (p. 1)
+- **M595 · Mistral AI (com Carbone 4 e ADEME; revisão por Resilio e Hubblo) (2025 (22/07/2025))** — Our contribution to a global environmental standard for AI · [PDF](10_ia-sustentabilidade/MistralAI_2025_lca-environmental-standard-ai.pdf)
+  - Treino do Mistral Large 2 (até jan/2025, 18 meses de uso): 20,4 kt CO2e, 281 000 m3 de água consumida e 660 kg Sb eq (p. 4)
+- **M623 · Watershed (J. Bistline et al.), com contribuições de Stanford University e Tsinghua University (2026)** — Estimating GHG Emissions from AI Use: Framework for Corporate-Level Measurement (white paper) · [PDF](10_ia-sustentabilidade/Bistline-etal_2026_estimating-ghg-emissions-from-ai-use-corporate-framework.pdf)
+  - Fronteira: hardware incorporado e treino amortizados (treino em linha separada), acelerador, host (10-20% da potência do servidor), capacidade ociosa e overhead via PUE; dispositivos do usuário fora (Tabela 1, p.17-18)
+- **M567 · Green Software Foundation (2025)** — SCI for AI Specification Ratified: Standard for Measuring AI Emissions Across the Lifecycle · [PDF](10_ia-sustentabilidade/GSF_2025_sci-for-ai-specification-ratified.pdf)
+  - Especificação SCI for AI ratificada (anúncio de 17/12/2025), extensão da ISO/IEC 21031:2024, liderada por Accenture e WattTime com mais de 20 organizações-membro (p. 1-3)
+- **M614 · UIT — ITU-T, Comissão de Estudos 5 (conteúdo equivalente à ETSI ES 204 135) (2026)** — Recommendation ITU-T L.1801 (02/2026) — Guidelines for assessing the environmental impact of artificial intelligence systems · [PDF](10_ia-sustentabilidade/ITU-T_2026_L1801-guidelines-environmental-impact-ai-systems.pdf)
+  - Aprovada em 06/02/2026 pela Comissão de Estudos 5; conteúdo técnico equivalente à ETSI ES 204 135; baseada na ACV da ITU-T L.1410 e no método de efeitos habilitadores da L.1480 (p. 3, 6)
+- **M613 · UIT (ITU) e World Benchmarking Alliance (WBA) (2026)** — Greening Digital Companies 2026: Monitoring Emissions and Climate Commitments · [PDF](10_ia-sustentabilidade/ITU-WBA_2026_greening-digital-companies.pdf)
+  - 163 empresas digitais consumiram 494 TWh em 2024, 1,7% da eletricidade mundial; as 10 maiores usaram 269 TWh (54%) (p. 10)
+- **M575 · IEA - Agência Internacional de Energia (2026)** — Electricity 2026 — Analysis and forecast to 2030 · [PDF](10_ia-sustentabilidade/IEA_2026_electricity-2026.pdf)
+  - Demanda elétrica mundial cresceu 3% em 2025 e deve crescer 3,6% ao ano em 2026-2030, com data centers entre os vetores (p. 8)
+- **M541 · Capgemini Research Institute (2025 (campo ago–set/2024))** — Developing sustainable Gen AI · [PDF](10_ia-sustentabilidade/Capgemini-CRI_2025_developing-sustainable-gen-ai.pdf)
+  - 12% dos executivos dizem que a organização mede a pegada ambiental da GenAI; 39% planejam medir em 12 meses, 43% em 24 meses, 7% não planejam (survey 2.000 executivos, empresas > US$ 1 bi, ago–set/2024) (p. 5, 19–20)
+- **M585 · London School of Economics — Grantham Research Institute, com a Systemiq (Stern, Romani, Pierfederici et al.) (2025)** — Green and intelligent: the role of AI in the climate transition (npj Climate Action 4, 56) · [PDF](10_ia-sustentabilidade/LSE-Grantham-Systemiq_2025_green-and-intelligent-ai-climate-transition-npj.pdf)
+  - IA poderia reduzir 3,2–5,4 GtCO2e/ano até 2035 frente ao BAU (promessas anunciadas, IEA), somando só três setores: energia elétrica, carne e laticínios, veículos leves (p. 5–6)
+- **M612 · UC Riverside e UT Arlington (Li, Yang, Islam e Ren) (2025)** — Making AI Less “Thirsty”: Uncovering and Addressing the Secret Water Footprint of AI Models (arXiv v5; Communications of the ACM, 2025) · [PDF](10_ia-sustentabilidade/Li-Ren-UCR_2025_making-ai-less-thirsty-v5.pdf)
+  - Treinar o GPT-3 em data centers da Microsoft nos EUA consumiria 5,4 milhões de litros de água no total, incluindo 700.000 litros de consumo direto no local (p. 1-2)
+- **M587 · MCTI — Ministério da Ciência, Tecnologia e Inovação (2026)** — Fator médio de emissão de CO2 do SIN — Inventários corporativos (página e planilha Inventario_2026_janago.xlsx) · [link](https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/cgcl/paginas/fator-medio-inventarios-corporativos)
+  - Fator médio anual do SIN: 0,0461 tCO2/MWh em 2025; 0,0545 em 2024; 0,0385 em 2023; 0,0426 em 2022; 0,1263 em 2021 (planilha, atualizada em 16/09/2026)
+- **M536 · Brasscom (apoio da ABDC; revisão técnica FADURPE) (2025)** — Consumo de Energia e Água em Data Centers no Brasil · [PDF](10_ia-sustentabilidade/Brasscom-ABDC_2025_consumo-energia-agua-data-centers-brasil.pdf)
+  - Data centers = 1,7% do consumo elétrico do Brasil em 2024 (11,3 TWh de 650,4 TWh), com 843,1 MW de TI; projeção de 3,6% (27,3 TWh) e 2.192 MW em 2029 (p. 16, 20)
+- **M539 · CVM — Comissão de Valores Mobiliários (2026)** — Resolução CVM nº 244, de 29 de maio de 2026 — altera a Resolução CVM nº 193/2023 · [PDF](10_ia-sustentabilidade/CVM_2026_resolucao-244-altera-resolucao-193-sustentabilidade.pdf)
+  - Revoga o art. 2º da Resolução CVM 193 (obrigatoriedade): o relatório de informações financeiras de sustentabilidade (CBPS/ISSB) volta a ser voluntário para exercícios iniciados a partir de 01/01/2026 (p. 1-2)
+- **M603 · Presidência da República (Planalto) (2026)** — Lei nº 15.504, de 15 de setembro de 2026 (Redata — Regime Especial de Tributação para Serviços de Datacenter) · [PDF](10_ia-sustentabilidade/Planalto_2026_lei-15504-redata-texto-integral.pdf)
+  - Habilitação ao Redata exige WUE igual ou inferior a 0,05 L/kWh, com aferição anual, e atendimento da totalidade da demanda elétrica por fontes renováveis ou de baixa emissão (Art. 11-B, §1º, III e IV) (p. 2)
 
 ---
 
@@ -1215,6 +1248,8 @@ Pasta: `04_academia-instituicoes/`
   - Panorama global de IA com o framework dos 4Cs (conectividade, computação, contexto/dados e competências), útil para dados e soberania tecnológica em países de renda média como o Brasil.
   - Métrica: Mais de 40% do tráfego global do ChatGPT veio de países de renda média em meados de 2025, com o Brasil entre os principais usuários (p. 16)
   - Métrica: GenAI usada por mais de 500 milhões de pessoas (13% da força de trabalho global) em 2 anos (p. 24)
+  - Métrica: Afirma que uma consulta ao ChatGPT consome 25 vezes mais energia que uma busca no Google, citando o jornal Brussels Times (2024) como fonte (p. 64)
+  - Métrica: Afirma que meio litro de água evapora a cada conversa de cerca de 29-50 perguntas ao ChatGPT, também citando o Brussels Times (p. 65)
 - **M204 · CENIA (Chile) + CEPAL (2025)** — Índice Latinoamericano de Inteligencia Artificial (ILIA) 2025 · F3 · relevância media · [PDF](04_academia-instituicoes/CENIA-CEPAL_2025_indice-latinoamericano-ia-ilia.pdf)
   - Índice regional de maturidade dos ecossistemas de IA (fatores habilitantes, P&D e adoção, governança) com mais de 100 subindicadores; posiciona o Brasil em talento, infraestrutura, dados e adoção setorial.
   - Métrica: Brasil em 2º lugar no ILIA 2025 com 67,39 pontos, atrás do Chile (70,56) e à frente do Uruguai (62,32), entre 19 países (p. 22)
@@ -2826,3 +2861,1141 @@ Pasta: `09_outros-setores/`
   - Métrica: Safe Production System implantado em todas as unidades geridas em 2025 (p. 7)
   - Métrica: Testes de fluxos de trabalho com IA e plataformas operadas remotamente para prever a trajetória de reabilitação e fechamento de minas (p. 54)
   - Métrica: Aceleração de automação e tecnologias avançadas para reduzir a dependência de habilidades escassas (p. 101); operações autônomas de trens e caminhões no minério de ferro (p. 94)
+
+## IA e sustentabilidade (impacto ambiental)
+
+Pasta: `10_ia-sustentabilidade/`
+
+- **M530 · Accenture (Accenture Research) (2025)** — Powering sustainable AI: Balancing growth with environmental responsibility · F2, F3 · relevância alta · [PDF](10_ia-sustentabilidade/Accenture_2025_powering-sustainable-ai.pdf)
+  - Relatório que propõe a métrica SAIQ (custo, energia, carbono e água por token) e quatro imperativos: silício eficiente, data centers descarbonizados, uso criterioso de IA e governança como código. As projeções de emissões são muito superiores às da IEA e têm inconsistência interna (fator de emissão implícito ~1,17 tCO2/MWh), o que pede cautela ao citar o 3,4%. O valor está na proposta de métricas de intensidade, não nos números agregados.
+  - Métrica: Data centers de IA: 612 TWh em 2030 no caso base (491–756 TWh), equivalente ao consumo do Canadá; >10x em relação ao início da década (p. 6–7)
+  - Métrica: Emissões de data centers de IA: 718 MtCO2 em 2030, 3,4% das emissões globais, 11 vezes mais em uma década (figura 1; contestado — ver numeros_contestados) (p. 6–7)
+  - Métrica: Água: 3,02 bilhões de m³ de água doce por ano para resfriamento em 2030 (p. 6)
+  - Métrica: Fatia da IA no consumo mundial de eletricidade: 0,2% (2024) → 1,9% (2030), CAGR de 48% (p. 11)
+- **M531 · Allen Institute for AI e Carnegie Mellon University (Morrison et al.) (2025)** — Holistically Evaluating the Environmental Impact of Creating Language Models (ICLR 2025) · F1, F3 · relevância alta · [PDF](10_ia-sustentabilidade/AI2_2025_morrison-holistic-environmental-impact-language-models.pdf)
+  - Primeira contabilização pública do custo de desenvolvimento (experimentos, ajustes) além do treino final, com água e carbono incorporado. Mostra que só o treino final subestima a pegada em cerca de um terço.
+  - Métrica: Série de modelos OLMo (20 milhões a 13 bilhões de parâmetros ativos): 493 t de carbono e 2,769 milhões de litros de água, incluindo fabricação do hardware, desenvolvimento e treinos finais (p. 1)
+  - Métrica: O desenvolvimento do modelo, que a maioria dos desenvolvedores não divulga, equivaleu a ~50% do impacto do treino (p. 1)
+  - Métrica: A potência durante o treino oscilou entre ~15% e ~85% do máximo do hardware, com implicações para o planejamento da rede (p. 1)
+  - Métrica: Série OLMo: 493 t CO2e e 2,769 milhões de litros de água, incluindo fabricação de hardware, desenvolvimento e treinos finais (p. 1)
+- **M532 · Amazon (inclui AWS) (2026)** — 2025 Amazon Sustainability Report · F1, F3 · relevância alta · [PDF](10_ia-sustentabilidade/Amazon_2026_sustainability-report-2025.pdf)
+  - Relatório da Amazon com dados de 2025 (publicado em jul/2026): maior alta anual de emissões da série (+16%), puxada por data centers, com Escopo 2 market-based +34% e bens de capital +43%. Mantém net zero em 2040; detalha nuclear (X-energy, Talen), PUE 1,14 e WUE 0,12 L/kWh. Não publica o consumo total de eletricidade nem o Escopo 2 location-based.
+  - Métrica: Pegada de 80,85 MMTCO2e em 2025, contra 69,55 em 2024 e 51,17 em 2019: +16% no ano (p. 5, 7, 46)
+  - Métrica: Escopo 2 (market-based) de 3,74 MMTCO2e, +34%; Escopo 3 de 61,74 MMTCO2e, +20%; bens de capital 16,96 MMTCO2e, +43% (p. 10, 46)
+  - Métrica: PUE global de 1,14 em 2025 (p. 10)
+  - Métrica: WUE de 0,12 L/kWh (retirada por kWh de TI), -20% sobre 2024; data centers retiraram 9,4 bilhões de litros (p. 14)
+- **M533 · Beyond Fossil Fuels, Stand.earth, Climate Action Against Disinformation, Friends of the Earth U.S., Green Screen Coalition e Green Web Foundation (autor: Ketan Joshi) (2026)** — The AI Climate Hoax: Behind the Curtain of How Big Tech Greenwashes Impacts · F1, F3 · relevância alta · [PDF](10_ia-sustentabilidade/BeyondFossilFuels-Joshi_2026_ai-climate-hoax-greenwashing-claims.pdf)
+  - Relatório de ONGs (fev/2026) que codificou alegações de benefício climático da IA por tipo de IA e força da evidência. Crítica útil ao separar a IA 'tradicional' (onde estão os benefícios) da IA generativa (onde está a maior parte da demanda de energia). Fonte interessada, que também distorce: atribui a Stern et al. '36% de redução das emissões globais medidas' (p. 11), quando o artigo fala em ficar 36% mais perto de uma trajetória ambiciosa em três setores.
+  - Métrica: 154 alegações de benefício climático da IA em 8 fontes (IEA, Stern et al., Google, Microsoft): 150 (97%) sobre IA 'tradicional' e só 4 (3%) sobre IA generativa de consumo (p. 15)
+  - Métrica: Força da evidência: só 26% citam artigos acadêmicos publicados; 36% não citam evidência; 29% citam publicações corporativas; 8% mídia, ONGs, instituições ou artigos não publicados (p. 16)
+  - Métrica: Nenhum exemplo verificável de IA generativa de consumo (ChatGPT, Gemini, Copilot) gerando reduções materiais de emissões (p. 4, 15)
+  - Métrica: Rastreia o '5 a 10%' do Google até post da BCG de 2021 baseado em 'experiência com clientes' (p. 10)
+- **M534 · Boston Consulting Group (BCG), encomendado por e coescrito com o Google (2023)** — Accelerating Climate Action with AI · F1, F3 · relevância alta · [PDF](10_ia-sustentabilidade/BCG-Google_2023_accelerating-climate-action-with-ai.pdf)
+  - Relatório de consultoria encomendado e coescrito pelo Google (lançado antes da COP28). Base do '5–10%' repetido pelo Google até 2025. Não é revisado por pares, não publica método próprio para o número, que vem da extrapolação de 2021, e inclui emissões evitadas. Reconhece riscos de data centers, água e lixo eletrônico.
+  - Métrica: Escalando aplicações já comprovadas, a IA poderia ajudar a mitigar 5% a 10% das emissões globais de GEE até 2030 (p. 5)
+  - Métrica: A origem do número é o estudo BCG de 2021 'Reduce Carbon and Costs with the Power of AI'; equivaleria a 10–20% da meta intermediária do IPCC (p. 11)
+  - Métrica: A análise inclui emissões evitadas, como trajetórias de desenvolvimento menos intensivas — nota 8 (p. 44)
+  - Métrica: Cita Microsoft/PwC (4% em quatro setores) e pesquisa Capgemini (reduções autodeclaradas de 11,3–14,3% e expectativa de 15,9% em 3–5 anos) (p. 11)
+- **M535 · Boston Consulting Group (Degot, Duranton, Frédeau, Hutchinson) (2021)** — Reduce Carbon and Costs with the Power of AI · F3 · relevância alta · [PDF](10_ia-sustentabilidade/BCG_2021_reduce-carbon-and-costs-with-the-power-of-ai.pdf)
+  - Artigo curto que é a origem do '5–10%' usado por Google e BCG: extrapolação linear da experiência com clientes para todas as emissões do planeta, sem método publicado. Fonte primária para rastrear um dos números mais repetidos do tema.
+  - Métrica: 'Em nossa experiência com clientes', a IA pode reduzir as emissões em 5% a 10%, o equivalente a 2,6–5,3 GtCO2e 'se a IA fosse aplicada a todas as emissões' (base de 53 GtCO2e globais) (p. 4)
+  - Métrica: Valor de US$ 1,3–2,6 trilhões em receitas e economias até 2030 com IA aplicada à sustentabilidade corporativa (p. 4)
+  - Métrica: Caso siderúrgico: corte de 3% das emissões (~230.000 t CO2/ano) e de US$ 40 milhões em custos (p. 6)
+- **M536 · Brasscom (apoio da ABDC; revisão técnica FADURPE) (2025)** — Consumo de Energia e Água em Data Centers no Brasil · F3 · relevância alta · [PDF](10_ia-sustentabilidade/Brasscom-ABDC_2025_consumo-energia-agua-data-centers-brasil.pdf)
+  - Única estimativa nacional de energia e água de data centers, feita pela associação do setor. Cautela: os 11,3 TWh equivalem a 843 MW de TI operando 100% do tempo com PUE global (limite superior), e a água conta só o resfriamento direto em agregado nacional; a IEA estima 1,7 TWh para toda a América Central e do Sul.
+  - Métrica: Data centers = 1,7% do consumo elétrico do Brasil em 2024 (11,3 TWh de 650,4 TWh), com 843,1 MW de TI; projeção de 3,6% (27,3 TWh) e 2.192 MW em 2029 (p. 16, 20)
+  - Métrica: Uso consuntivo de água: 0,003% do total nacional em 2022 (2,0 bi de litros de 64,5 tri, base ANA) e 0,008% em 2029 (p. 2, 25)
+  - Métrica: Circuito fechado: carga inicial de ~23.000 L/MW e reposição de ~10% ao ano; circuito aberto (torre evaporativa): ~1.500 L/MWh; ~80% do parque atual em circuito fechado, ~90% em 2030 (p. 11-12)
+  - Métrica: PUE global de referência de 1,53 em 2024 (GEIDCO, citado) (p. 16)
+- **M537 · CGIAR (capítulo de agricultura do Breakthrough Agenda Report 2024) (2024)** — 2024 Breakthrough Agenda Report — Agriculture: Reducing emissions from fertilizer application via site-specific nutrient management (SSNM) · F3, F1 · relevância alta · [PDF](10_ia-sustentabilidade/CGIAR-BreakthroughAgenda_2024_ssnm-reducing-fertilizer-emissions-factsheet.pdf)
+  - Ficha institucional com evidência meta-analítica sobre ferramentas digitais de recomendação de adubação (big data, modelos de cultura, sensoriamento). Mostra o benefício real e o limite da medição: os ganhos medidos são de insumo e produtividade, não de N2O.
+  - Métrica: Meta-análise de Chivenge et al. (2021) em 11 países da África e Ásia: o manejo de nutrientes sítio-específico elevou a produtividade em 12% (milho, arroz, trigo), reduziu a aplicação de nitrogênio em 10% e aumentou a lucratividade em 15% (p. 1)
+  - Métrica: Produção e uso de fertilizantes nitrogenados ≈5% das emissões globais de GEE; sistemas agroalimentares ≈ um terço (p. 1)
+  - Métrica: Onde a ferramenta recomenda mais fertilizante (base de baixa adubação, como em grande parte da África), as emissões sobem, em parte compensadas pela terra poupada (p. 1)
+  - Métrica: Há 'dados mínimos' de medições robustas de GEE; ferramentas de apoio à decisão dependem de dados abertos e padronizados (p. 2)
+- **M538 · CONAMA — Conselho Nacional do Meio Ambiente (MMA) (2026)** — Moção CONAMA nº 147, de 22 de junho de 2026 — urgência de diretrizes nacionais para o licenciamento ambiental de data centers · F3 · relevância alta · [PDF](10_ia-sustentabilidade/CONAMA_2026_mocao-147-licenciamento-ambiental-data-centers.pdf)
+  - Primeira manifestação do CONAMA sobre a infraestrutura física da IA, citando consumo de energia e água, emissões e resíduos eletrônicos. Não é norma (moção), mas sinaliza resolução futura e reforça o questionamento à atração de data centers sem salvaguardas.
+  - Métrica: Aprovada na 150ª Reunião Ordinária (10/06/2026) e assinada em 22/06/2026 (p. 1-2)
+  - Métrica: Demanda diretrizes que classifiquem data centers de IA como atividade efetiva ou potencialmente poluidora, com critérios de eficiência energética e hídrica comparáveis e monitorados continuamente e critérios de exclusão em áreas de estresse hídrico crítico (p. 2)
+  - Métrica: Recomenda que órgãos ambientais não usem ritos simplificados, autodeclaratórios ou corretivos enquanto não houver diretrizes, podendo suspender ou rever licenças em curso (p. 2)
+  - Métrica: Pede que incentivos fiscais e regulatórios sejam condicionados a critérios rigorosos de sustentabilidade (p. 2)
+- **M539 · CVM — Comissão de Valores Mobiliários (2026)** — Resolução CVM nº 244, de 29 de maio de 2026 — altera a Resolução CVM nº 193/2023 · F2, F3 · relevância alta · [PDF](10_ia-sustentabilidade/CVM_2026_resolucao-244-altera-resolucao-193-sustentabilidade.pdf)
+  - Confirma que a obrigatoriedade do IFRS S1/S2 (CBPS 01/02) a partir de 2026 não vale mais: o reporte é voluntário, com 'pratique ou explique' a partir de 2027. Quem reportar segue o IFRS S2, que inclui escopo 3 — onde entram nuvem e APIs de IA.
+  - Métrica: Revoga o art. 2º da Resolução CVM 193 (obrigatoriedade): o relatório de informações financeiras de sustentabilidade (CBPS/ISSB) volta a ser voluntário para exercícios iniciados a partir de 01/01/2026 (p. 1-2)
+  - Métrica: Quem optar deve publicar por no mínimo 3 exercícios seguidos e avisar a saída por comunicado ao mercado (p. 1)
+  - Métrica: A partir de 01/01/2027, companhia aberta que não arquivar relatório deve justificar a opção em comunicado ao mercado ('pratique ou explique') (p. 1)
+  - Métrica: Quem publicar deve declarar aderência explícita e sem reservas às normas CBPS e ISSB (p. 1)
+- **M540 · Capgemini Research Institute (2026 (campo jun–jul/2026))** — A world in balance 2026: The resilience reset · F1, F2, F3 · relevância alta · [PDF](10_ia-sustentabilidade/Capgemini-CRI_2026_world-in-balance-resilience-reset.pdf)
+  - Quinta edição do relatório anual de sustentabilidade da Capgemini, com seção sobre IA sustentável. Atualiza o indicador de medição: 38% medem energia e 34% carbono da IA em 2026, contra 12% que mediam a pegada da GenAI no levantamento de 2024 (perguntas e amostras diferentes; esta edição não inclui o Brasil). Traz recortes setoriais úteis para energia, utilities e agricultura e florestal, e recomenda um 'plano de controle' de IA sustentável com visibilidade de recursos consumidos.
+  - Métrica: 38% medem o consumo de energia de sistemas e cargas de IA; 34% medem a pegada de carbono da IA; 30% medem a água de operações digitais/alto processamento (survey 2.100 executivos, 701 organizações, jun–jul/2026) (p. 10, 76–77)
+  - Métrica: 33% divulgam energia ou carbono dos modelos de IA; 25% divulgam uso de água da IA; 78% dos consumidores esperam transparência (p. 76–77)
+  - Métrica: 46% otimizam modelos, dados e infraestrutura de IA para reduzir impacto; 41% consideram o impacto ambiental no desenho de soluções; 54% têm marco de governança de IA responsável; 32% consideram disponibilidade de água em novos investimentos digitais (p. 76–77)
+  - Métrica: 60% citam a medição da pegada a montante (provedores de IA) como problema relevante por falta de transparência (p. 76)
+- **M541 · Capgemini Research Institute (2025 (campo ago–set/2024))** — Developing sustainable Gen AI · F1, F2 · relevância alta · [PDF](10_ia-sustentabilidade/Capgemini-CRI_2025_developing-sustainable-gen-ai.pdf)
+  - Principal pesquisa de consultoria sobre quantas empresas medem a pegada da IA generativa. Mostra que, em 2024, só 12% mediam, com a falta de dados de hiperescaladores e provedores de modelos como principal barreira, e propõe um roteiro de cinco passos (tecnologia certa, caso de negócio, avaliação de fornecedores por critérios de sustentabilidade, monitorar e reportar, práticas por ciclo de vida, governança). A amostra inclui o Brasil. Atenção: reproduz estimativas de terceiros já superadas (10x Google, 500 ml/20–50 perguntas). Comunicado de imprensa oficial (14/01/2025) traz a mesma metodologia.
+  - Métrica: 12% dos executivos dizem que a organização mede a pegada ambiental da GenAI; 39% planejam medir em 12 meses, 43% em 24 meses, 7% não planejam (survey 2.000 executivos, empresas > US$ 1 bi, ago–set/2024) (p. 5, 19–20)
+  - Métrica: Das que medem: só 28% divulgam a pegada e 24% têm meta de redução (p. 6)
+  - Métrica: 48% acreditam que a GenAI elevou as emissões de GEE da empresa; 42% tiveram de rever metas climáticas (47% entre as mais avançadas) (p. 4, 16–17)
+  - Métrica: Entre as que medem, a fatia das emissões atribuída à GenAI deve subir de 2,6% para 4,8% do total em dois anos (p. 4, 17)
+- **M542 · Chinese Academy of Sciences e Reichman University/Cambridge (Peng Wang, Ling-Yu Zhang, Asaf Tzachor, Wei-Qiang Chen) — Nature Computational Science 4, 818–823 (2024 (online 28/10/2024))** — E-waste challenges of generative artificial intelligence · F3 · relevância alta · [link](https://doi.org/10.1038/s43588-024-00712-6)
+  - Primeira estimativa revisada por pares do lixo eletrônico da IA generativa, por análise de fluxo de materiais guiada pela demanda de computação. Sob paywall; o preprint aberto tem números diferentes (8–16 Mt). Valores depois recalibrados para baixo por de Vries-Gao (2026).
+  - Métrica: Lixo eletrônico da IA generativa (servidores para LLMs) pode somar 1,2–5,0 milhões de t acumuladas em 2020–2030, conforme o cenário (resumo)
+  - Métrica: Estratégias de economia circular na cadeia da IA podem reduzir a geração de lixo eletrônico em 16–86% (resumo)
+  - Métrica: Restrições geopolíticas à importação de semicondutores e troca rápida de servidores intensificam o problema (resumo)
+- **M543 · Coalizão para IA Sustentável — iniciativa liderada pelo ministério do meio ambiente da França com ISO, UIT, IEEE, OCDE e UNESCO (documento hospedado pela ITU-T SG5) (2026)** — Standardization for AI Environmental Sustainability — Towards a coordinated global approach (versão atualizada para o AI Impact Summit 2026) · F2, F3 · relevância alta · [PDF](10_ia-sustentabilidade/ITU_2026_standardization-ai-environmental-global-approach.pdf)
+  - Mapa coordenado das normas publicadas e em elaboração sobre sustentabilidade ambiental da IA, com os indicadores mínimos e os desafios (dados, infraestrutura compartilhada, reporte na cadeia de valor). Mostra que o campo ainda está em consolidação e indica quais padrões acompanhar em 2026–2027.
+  - Métrica: Atualização de 20/02/2026 de iniciativa lançada em 10/10/2024 na UNESCO, com especialistas de ISO, UIT e IEEE em parceria com OCDE e UNESCO (p. 1-2)
+  - Métrica: Indicadores propostos: potencial de aquecimento global (kg CO2e), energia (kWh ou MJ), consumo e captação de água (m³ ou L) e matérias-primas (kg); reporte anual agregado e por unidade de trabalho, p.ex. por token em LLMs (p. 10)
+  - Métrica: Treino e inferência devem ser reportados; efeitos indiretos (rebote) ao menos qualitativos e separados dos diretos (p. 10)
+  - Métrica: Publicadas: ISO/IEC TR 20226:2025, CEN/CLC/TR 18145:2025, ITU-T L.1801/ETSI ES 204 135, ISO/IEC 21031:2024, ISO/IEC 30134-1 a 9; em desenvolvimento: IEEE P7100 e CEN/CLC/prEN 18287 (previstas para 2026), ISO/IEC AWI TS 42112 (eficiência de treino), ITU-T L.Score_AI e L.AggregatedAI (2027) (p. 14-18)
+- **M544 · Comissão Europeia (2026)** — Report from the Commission on the energy efficiency of data centres in the EU — COM(2026) 500 final (21/09/2026) · F3 · relevância alta · [PDF](10_ia-sustentabilidade/ComissaoEuropeia_2026_COM-2026-500.pdf)
+  - Primeira análise oficial dos dados de reporte obrigatório de data centers na UE (art. 12 da Diretiva de Eficiência Energética). Anuncia a adoção do esquema comum de classificação (rótulo), consulta sobre padrões mínimos de desempenho (PUE, WUE, REF) e conclui que regulação específica de neutralidade climática é, por ora, desnecessária. Melhor fonte de benchmarks de PUE e WUE para comparar com o Brasil.
+  - Métrica: Data centers da UE consumiram 68 TWh em 2024; projeção de 114 TWh em 2030, 3,2% da demanda elétrica da UE (p. 3)
+  - Métrica: 770 data centers reportaram no 1º ciclo, cerca de 36% dos obrigados (≥500 kW de TI); 70,1% dos dados considerados confiáveis (p. 5-6)
+  - Métrica: PUE médio ponderado de 1,36 em 2024 (681 DCs), faixa nacional 1,15–1,66; DCs de 500–1.000 kW: 1,64 (p. 7-8)
+  - Métrica: WUE médio ponderado de 0,58 m³/MWh (= L/kWh) em 2024 (458 DCs com consumo de água > 0), faixa nacional 0,07–1,28 (p. 9)
+- **M545 · Comissão Europeia (AI Act Service Desk) (2026)** — AI Act Service Desk — Anexo XI, artigos 40 e 112 e cronograma de implementação · F3 · relevância alta · [link](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-11)
+  - Texto oficial das obrigações ambientais do AI Act: documentação de energia de modelos de propósito geral, mandato de normalização e cláusula de revisão em 2028 que pode trazer medidas vinculantes. Páginas: annex-11, article-40, article-112 e timeline no mesmo portal.
+  - Métrica: Anexo XI, Seção 1, 2(d)-(e): recursos computacionais de treino (FLOPs, tempo) e consumo de energia conhecido ou estimado do modelo, estimável a partir da computação (página oficial)
+  - Métrica: Art. 40(2): pedidos de normalização devem incluir entregáveis de reporte do consumo de energia e de recursos de sistemas de alto risco e de desenvolvimento energeticamente eficiente de modelos de propósito geral (página oficial do art. 40)
+  - Métrica: Art. 112(6): até 02/08/2028 e a cada 4 anos, a Comissão relata o avanço da normalização em eficiência energética desses modelos e avalia medidas, inclusive vinculantes (página oficial do art. 112)
+  - Métrica: Cronograma após o Digital Omnibus: regras de propósito geral desde 02/08/2025; fiscalização a partir de 02/08/2026; alto risco do Anexo III em 02/12/2027 e do Anexo I em 02/08/2028 (página oficial do cronograma)
+- **M546 · Comissão Europeia (AI Office) — capítulo redigido por especialistas independentes (2025)** — Code of Practice for General-Purpose AI Models — Transparency Chapter (com o Model Documentation Form) · F2, F3 · relevância alta · [PDF](10_ia-sustentabilidade/ComissaoEuropeia_2025_gpai-code-of-practice-transparency-chapter.pdf)
+  - Instrumento voluntário que demonstra conformidade com o AI Act para provedores de modelos de propósito geral. Mostra o limite da transparência europeia: a energia de treino é documentada, mas não chega a clientes nem ao público, e a inferência não tem campo de energia. Formulário DOCX em https://ec.europa.eu/newsroom/dae/redirection/document/118118.
+  - Métrica: Código publicado em 10/07/2025; o capítulo de Transparência operacionaliza o art. 53(1)(a)(b) e os Anexos XI e XII do AI Act (p. 2, 4)
+  - Métrica: Formulário de Documentação do Modelo (DOCX anexo): energia de treino em MWh com ao menos 2 algarismos significativos (ex.: 1,0×10² MWh), ou 'N/A' se faltar informação do provedor de computação (Formulário, seção Energy consumption)
+  - Métrica: Inferência: só a computação de referência em FLOPs para uma tarefa descrita (ex.: gerar 100.000 tokens); não há campo de energia de inferência (Formulário)
+  - Métrica: Dados de energia e computação destinados ao AI Office e às autoridades nacionais, sob pedido; não aos provedores downstream nem ao público (Formulário, colunas AIO/NCAs/DPs)
+- **M547 · Cornell University e coautores (Xiao, Fuso Nerini, Matthews, Tavoni e You) (2025)** — Environmental impact and net-zero pathways for sustainable artificial intelligence servers in the USA (Nature Sustainability 8, 1541-1553) · F3 · relevância alta · [link](https://www.nature.com/articles/s41893-025-01681-y)
+  - Artigo de acesso aberto em periódico de alto impacto (publicado em 10/11/2025); o download automático foi barrado pela verificação anti-robô do site, por isso registrado como web. Vale salvar o PDF manualmente.
+  - Métrica: Servidores de IA nos EUA (2024–2030): pegada hídrica anual de 731 a 1.125 milhões de m³ e emissões adicionais de 24 a 44 MtCO2e por ano, conforme a escala de expansão (resumo)
+  - Métrica: Boas práticas (localização, descarbonização da rede, eficiência) podem reduzir emissões em até 73% e água em até 86% (resumo)
+  - Métrica: O setor dificilmente cumprirá metas de net zero até 2030 sem depender de compensações de carbono e de restauração hídrica incertas (resumo)
+- **M548 · Crédit Agricole Group (2026 (publicação jun/2026; 1ª versão out/2024))** — Artificial Intelligence Policy · F1, F2 · relevância alta · [PDF](10_ia-sustentabilidade/CreditAgricole_2026_artificial-intelligence-policy.pdf)
+  - Política oficial de IA de um grande banco europeu com cláusula ambiental explícita e obrigação de medir ou estimar a pegada de cada sistema. Não publica valores. É o exemplo primário mais claro de banco encontrado.
+  - Métrica: 'Todo sistema de IA tem um impacto ambiental que deve ser medido ou estimado para depois ser reduzido' (seção 2.4) (p. 3)
+  - Métrica: Repositório de boas práticas de ecodesign feito pelas equipes de TI sustentável e de IA, baseado na AFNOR Spec 2314 'IA frugal', da qual o grupo participou (p. 3)
+  - Métrica: Mecanismos para medir, monitorar e reduzir a pegada de carbono de sistemas de IA em produção; a pegada deve ser compatível com os objetivos ambientais do grupo e do projeto; preferência por modelos otimizados e infraestrutura de baixo consumo (p. 4)
+- **M549 · Deloitte Global (2026 (campo mai–jun/2026))** — 2026 C-suite Sustainability Report: Sustainability in focus · F1, F2 · relevância alta · [PDF](10_ia-sustentabilidade/Deloitte_2026_c-suite-sustainability-report.pdf)
+  - Pesquisa anual da Deloitte com executivos C-level. Traz um indicador direto de governança: só 28% incluem sustentabilidade como critério formal nas decisões de IA. Inclui depoimento da CSO do iFood (Brasil) sobre complementaridade entre tecnologia e sustentabilidade.
+  - Métrica: 28% dizem que a sustentabilidade é critério formal nas decisões corporativas sobre IA (p. 14)
+  - Métrica: Mais de 70% dizem que o uso de IA para sustentabilidade ainda está em piloto, experimentação ou uso ad hoc; 42% usam GenAI e 42% agentes de IA para sustentabilidade; em 2025, 81% diziam já usar IA nisso (p. 14)
+  - Métrica: Tecnologia é a iniciativa de sustentabilidade mais citada: monitoramento interno 49%, cadeia de suprimentos 48%, risco 47%, relato externo 46% (p. 13)
+  - Métrica: Amostra: 2.156 executivos C-level, 29 países (10% América Central e do Sul, incl. Brasil), mai–jun/2026 (p. 21)
+- **M550 · EPE — Empresa de Pesquisa Energética (2026)** — Balanço Energético Nacional 2026 — Relatório Síntese, ano base 2025 · F3 · relevância alta · [PDF](10_ia-sustentabilidade/EPE_2026_ben-sintese-2026-ano-base-2025.pdf)
+  - Fonte oficial da renovabilidade e da intensidade de carbono da eletricidade brasileira. Atenção ao escopo: os 67,4 kg CO2eq/MWh cobrem todo o setor elétrico em CO2e, diferente do fator do SIN do MCTI (só CO2, só SIN) usado em inventários.
+  - Métrica: Renováveis = 86,8% da matriz elétrica em 2025 (p. 7)
+  - Métrica: Hidráulica caiu 20,4 TWh; solar chegou a 88,1 TWh (+24,7%); eólica + solar = 26,4% da geração; micro e minigeração distribuída = 7,0% (p. 6-7)
+  - Métrica: Setor elétrico emitiu em média 67,4 kg CO2eq/MWh em 2025 (67,5 no gráfico da p. 60) (p. 10)
+  - Métrica: Comparação de 2023 (base IEA): Brasil 55,1, UE 235,1, EUA 334,7 e China 679,4 kg CO2/MWh gerado (p. 60)
+- **M551 · EPE — Empresa de Pesquisa Energética (2025)** — REDATA: EPE acelera planejamento da rede para suportar crescimento recorde de Data Centers · F3 · relevância alta · [link](https://www.epe.gov.br/pt/imprensa/noticias/redata-epe-acelera-planejamento-da-rede-para-suportar-crescimento-recorde-de-data-centers)
+  - Dimensiona a fila de pedidos de conexão de data centers (pipeline, não carga realizada) e ressalta que a concretização depende de transmissão, viabilidade financeira e novas garantias. A impressão da página foi bloqueada pelo firewall da EPE; registrar como web.
+  - Métrica: Projetos de data centers com pedido de estudo de mínimo custo global no MME passaram de 19,8 GW (set/2025) para 26,2 GW (nov/2025): +6,4 GW cerca de 60 dias após a MP do Redata (página oficial)
+  - Métrica: Estudos recomendaram cerca de R$ 1,6 bi em transmissão em SP, liberando ~4 GW de margem; leilões de 2026 devem somar ~5 GW em SP; estudos para ~4 GW no RJ, até 5 GW no RS e +4 GW no Nordeste (página oficial)
+- **M552 · EPE, ONS e CCEE (2026)** — Nota Técnica EPE-DEA-SEE-013/2026 / ONS DPL 0037/2026 / CCEE — Previsão de carga para o Planejamento Anual da Operação Energética 2026-2030 · F3 · relevância alta · [PDF](10_ia-sustentabilidade/EPE-ONS-CCEE_2026_previsao-carga-plan-2026-2030.pdf)
+  - Única projeção oficial de carga de data centers no SIN: cerca de 2,2% da carga em 2030 (cálculo próprio), concentrada no Sudeste e no Nordeste, ainda sem o efeito do Redata e sem cargas ligadas à distribuição.
+  - Métrica: Cenário de carga de data centers na Rede Básica: +321 MWmed em 2026 e +2.157 MWmed em 2030 (100% dos contratos assinados + 50% dos pareceres favoráveis; em 17/11/2025: 17 contratos, 22 pareceres favoráveis, 7 em análise) (p. 11-12)
+  - Métrica: Em 2030: Sudeste/Centro-Oeste 1.312 MWmed, Nordeste 716 MWmed, Sul 129 MWmed (p. 12-13)
+  - Métrica: O cenário não considerou o Redata (p. 13)
+  - Métrica: Carga do SIN de 81.302 MWmed em 2025 e 98.151 MWmed projetados para 2030 (+3,8% a.a.) (p. 7, 16)
+- **M553 · EPRI - Electric Power Research Institute (2026)** — Powering Intelligence 2026: Updated Scenarios of U.S. Data Center Electricity Use and Power Strategies · F3 · relevância alta · [PDF](10_ia-sustentabilidade/EPRI_2026_powering-intelligence-2026-white-paper.pdf)
+  - Atualização de fevereiro de 2026 da EPRI, baseada no pipeline de projetos por estado. Eleva a faixa para 9%-17% da eletricidade dos EUA em 2030 e mostra que, sem metas de energia limpa horária, o gás domina a expansão.
+  - Métrica: Cargas de IA estimadas em 15-25% da eletricidade dos data centers hoje (p. 3-4)
+  - Métrica: Data centers consumiriam de 9% a 17% da eletricidade dos EUA em 2030, ante 4-5% hoje; projeção cerca de 60% acima da estimativa da própria EPRI em 2024 (p. 3, 6)
+  - Métrica: Consumo dos data centers nos EUA de 177-192 TWh em 2024, indo a cerca de 380-790 TWh em 2030 (inclui mineração de criptomoedas); capacidade nominal de TI de 35-44 GW para 56-132 GW (p. 5)
+  - Métrica: Virgínia: data centers passam de mais de 20% para 39%-57% da eletricidade do estado em 2030; pico de carga nacional de 21-22 GW (2024) para 45-94 GW (p. 6)
+- **M554 · Embrapa Meio Ambiente, LNBR/CNPEM, Unicamp e outros (Pereira et al.), publicado no portal da ANP (2025)** — RenovaCalc: Calculation of Carbon Intensities Under Brazil's National Biofuel Policy (Sustainability 17, 10442) · F2 · relevância alta · [PDF](10_ia-sustentabilidade/ANP-Pereira_2025_renovacalc-carbon-intensities-renovabio.pdf)
+  - Métrica oficial brasileira de desempenho de carbono de biocombustíveis. É onde um ganho real de IA na produção (insumos agrícolas, energia industrial) apareceria de forma verificável e certificada. Não há evidência de que a RenovaCalc use IA.
+  - Métrica: Intensidade de carbono (IC) em g CO2e/MJ por ACV atribucional 'do poço à roda'; NEEA = IC do fóssil substituído menos IC do biocombustível; dados e cálculo certificados por terceira parte (p. 3–4)
+  - Métrica: Ciclo 2025: 331 unidades produtoras (75% do total do Brasil) certificadas com a RenovaCalc, disponível para biodiesel, etanol, biometano e SAF (p. 2)
+  - Métrica: IC certificada até 02/10/2025: etanol hidratado de cana 28,07 g CO2e/MJ vs. gasolina 87,40 (NEEA 59,33) (p. 8)
+  - Métrica: O RenovaBio estima 157,8 Mt CO2e evitadas de 2020 a 2024 pelo uso de biocombustíveis (p. 8)
+- **M555 · Enabled Emissions Campaign e Purdue University (Alpine, Geldner, Alpine, Chepeliev) (2026)** — AI-driven productivity gains enable more CO₂ emissions than they avoid in a global energy–economy model (npj Climate Action 5, 71) · F3 · relevância alta · [PDF](10_ia-sustentabilidade/Alpine-npjClimateAction_2026_ai-productivity-enabled-emissions.pdf)
+  - Artigo original revisado por pares (04/08/2026; a correção de 08/09/2026 só altera o autor correspondente). Trata a IA como 'amplificador bidirecional de produtividade': a mesma IA que otimiza renováveis barateia a extração fóssil, e o efeito líquido é aumento de emissões. É o contraponto direto a Stern et al. Limitações: modelo estático, só CO2, base 2017 ajustada, 5 regiões. Autores ligados a uma campanha sobre 'emissões habilitadas' (ex-funcionários da Microsoft); trabalho voluntário, sem financiamento dedicado. Página do artigo de acesso aberto salva em PDF.
+  - Métrica: Com ganhos de produtividade da IA aplicados em paralelo a fósseis e renováveis, as emissões líquidas globais de CO2 sobem 0,47–1,8 Gt/ano (1,2–4,8% das emissões energéticas de 2024); modelo CGE GTAP-E-Power (p. 1, 9)
+  - Métrica: Aumento líquido em todas as 64 combinações de cenários de adoção paralela (p. 13)
+  - Métrica: Emissões habilitadas (enabled) de 0,6–2,4 Gt CO2/ano: 3,3–13,3 vezes as emissões de data centers estimadas pela IEA para 2025 (0,18 Gt) (p. 11)
+  - Métrica: Empate exige ganhos de produtividade em renováveis 4–5 vezes maiores que nos fósseis (cada 1% nos fósseis exige 4–5% nas renováveis) (p. 11)
+- **M556 · Epoch AI (Josh You) (2025)** — How much energy does ChatGPT use? (Gradient Updates) · F3 · relevância alta · [PDF](10_ia-sustentabilidade/EpochAI_2025_how-much-energy-does-chatgpt-use.pdf)
+  - Reestimativa independente, transparente nas premissas, que derrubou o “3 Wh por consulta” para ~0,3 Wh no caso típico, mas mostrou que contexto longo e raciocínio podem multiplicar o consumo por 10 a 100.
+  - Métrica: Consulta típica ao GPT-4o: ~0,3 watt-hours, dez vezes menos que a estimativa difundida de 3 Wh (p. 1)
+  - Métrica: Premissas: 500 tokens de saída, H100 a até ~1500 W por GPU com overhead, 10% de utilização e 70% da potência de pico (p. 3-4)
+  - Métrica: Entradas longas elevam o custo para ~2,5 watt-hours (10 mil tokens) e quase 40 watt-hours (100 mil tokens) (p. 5)
+  - Métrica: A estimativa antiga supunha 4000 tokens de entrada e 2000 de saída por consulta, 175B parâmetros e servidores A100 (p. 5)
+- **M557 · European Green Digital Coalition (EGDC) — GeSI, DIGITALEUROPE, ETNO, GSMA, Carbon Trust e Deloitte; projeto-piloto do Parlamento Europeu financiado pela Comissão Europeia (2024)** — Net Carbon Impact Assessment Methodology for ICT Solutions (Deliverable 5.5) · F2 · relevância alta · [PDF](10_ia-sustentabilidade/EGDC_2024_net-carbon-impact-assessment-methodology-ict-solutions.pdf)
+  - Metodologia europeia para medir o impacto líquido de soluções digitais, alinhada à ITU-T L.1480 e à Taxonomia da UE. Complementa o WBCSD com regras de agregação e de dupla contagem.
+  - Métrica: Impacto líquido de carbono = comparação entre o cenário com a solução de TIC e um cenário de referência sem ela, na mesma fronteira, com efeitos diretos e indiretos; o resultado pode ser positivo ou negativo e é contrafactual (p. 7)
+  - Métrica: Serve para avaliar soluções orientadas a dados na Taxonomia da UE (Atividade 8.2) (p. 8)
+  - Métrica: Dupla contagem ocorre quando várias organizações participam da solução; a alocação foi considerada complexa demais e não é aplicada (p. 12, 84)
+  - Métrica: Agregado da organização deve reportar o impacto líquido anual ex-post das soluções implantadas, sem dupla contagem entre soluções (p. 86)
+- **M558 · FGVces / FGV EAESP (2026)** — Perguntas Frequentes - Programa Brasileiro GHG Protocol (versão 1.3) · F2, F3 · relevância alta · [PDF](10_ia-sustentabilidade/FGVces_2026_programa-brasileiro-ghg-protocol-perguntas-frequentes.pdf)
+  - Regra brasileira de relato de eletricidade; serve de ponte entre fatores do MCTI e a contabilidade da pegada de IA.
+  - Métrica: Escopo 2 por localização é obrigatório no programa, com o fator médio do SIN; por escolha de compra é voluntário e exige os critérios da Nota Técnica de Escopo 2 (p.48-49)
+  - Métrica: Fatores variáveis, como o do SIN, mudam mensal ou anualmente e estão na ferramenta de cálculo (p.23)
+  - Métrica: Certificados (escolha de compra) não podem ser usados nos Escopos 1 e 3 até definição do GHG Protocol internacional (p.43)
+- **M559 · GHG Protocol (WRI e WBCSD) (2026)** — Scope 2 Public Consultation Feedback Summary: Executive Summary · F2, F3 · relevância alta · [PDF](10_ia-sustentabilidade/GHGProtocol_2026_scope2-consultation-summary-of-feedback.pdf)
+  - Situação em 29/07/2026 da revisão do Escopo 2: dupla contabilidade mantida e regras de mercado em aberto.
+  - Métrica: Consulta de 20/10/2025 a 31/01/2026: quase 1.100 respostas de 56 países; 62% de empresas, associações e consultorias (p.2)
+  - Métrica: Baixo apoio a casamento horário e entregabilidade como propostos, sobretudo entre empresas; apoio a isenções e a cláusula para contratos legados (p.5-7)
+  - Métrica: Opiniões divididas sobre a hierarquia de fatores no método de localização; apoio a fatores acessíveis (gratuitos, públicos e de fonte confiável) (p.8-9)
+  - Métrica: Em jul/2026 o conselho (ISB) pediu mais trabalho sobre múltiplas abordagens para o método de mercado (p.10)
+- **M560 · GHG Protocol (WRI/WBCSD) (2026)** — Scope 2 Public Consultation — Summary of Feedback (29/07/2026) · F2, F3 · relevância alta · [PDF](10_ia-sustentabilidade/GHGProtocol_2026_scope2-consultation-summary-feedback.pdf)
+  - Resultado da consulta sobre a revisão do escopo 2: correspondência horária e entregabilidade dos certificados, que afetam diretamente alegações de nuvem e data centers '100% renováveis'. O resumo executivo de 29/07/2026 informa que o conselho (ISB) pediu múltiplas abordagens market-based; não há data final. Útil para não ancorar a narrativa de IA em certificados anuais.
+  - Métrica: Consulta pública do escopo 2 recebeu quase 1.100 respostas de 56 países (62% empresas, associações e consultorias); América Latina e Caribe: 23 respostas (2,1%) (p. 5, 7-8)
+  - Métrica: Exigir correspondência horária para alegações market-based: 22% de apoio, 7% neutros e 70% de baixo ou nenhum apoio (909 respostas à Q71); América Latina e Caribe: 18% de apoio e 65% contra (17 respostas) (p. 48-49)
+  - Métrica: Quanto ao prazo do método location-based revisado, 46% preferem aplicação só após o ano de reporte 2030 (p. 45)
+- **M561 · Google (2026 (dados de 2025))** — Google 2026 Environmental Report · F1, F3 · relevância alta · [PDF](10_ia-sustentabilidade/Google_2026_environmental-report.pdf)
+  - Mostra lado a lado a queda da intensidade por prompt e a alta do consumo absoluto de energia, água e emissões de fabricação — evidência descritiva do efeito rebote.
+  - Métrica: Consumo de água de 10,9 bilhões de galões (41 bilhões de litros) em 2025, alta de 34% sobre 2024 (p. 35)
+  - Métrica: Consumo total de eletricidade cresceu 37% em 2025, após 27% em 2024 (p. 19)
+  - Métrica: Escopo 3 subiu 25% em 2025, principalmente pela fabricação de hardware de infraestrutura e pela construção de data centers; é 80% da pegada total (p. 70)
+  - Métrica: Energia e carbono do prompt mediano do Gemini caíram 33x e 44x em 12 meses (p. 8)
+- **M562 · Google (Elsworth et al.) (2025)** — Measuring the environmental impact of delivering AI at Google Scale · F1, F2, F3 · relevância alta · [PDF](10_ia-sustentabilidade/Google_2025_measuring-environmental-impact-ai-google-scale-gemini.pdf)
+  - Primeira medição em produção publicada por um grande provedor, com fronteira ampla (ociosidade, CPU, PUE e carbono incorporado). Limites: mediana (não média), só prompts de texto, carbono market-based, água só no local e sem treino. Arquivo obtido por outro agente na mesma rodada.
+  - Métrica: Prompt de texto mediano do Gemini Apps (maio/2025): 0,24 Wh, 0,03 gCO2e (market-based + escopos 1 e 3) e 0,26 mL de água consumida no local (Tabela 2, p. 7)
+  - Métrica: Abordagem restrita usada em benchmarks (só acelerador ativo, máquinas bem utilizadas): 0,10 Wh, 0,02 gCO2e e 0,12 mL (Tabelas 1-2, p. 6-7)
+  - Métrica: Decomposição: aceleradores 0,14 Wh (58%), CPU e DRAM 0,06 Wh (25%), máquinas ociosas 0,02 Wh e overhead do data center 0,02 Wh (p. 6-7)
+  - Métrica: Redução de 33x na energia e de 44x nas emissões por prompt mediano em 12 meses (p. 1, 7)
+- **M563 · Google (Schneider et al.) (2025)** — Life-Cycle Emissions of AI Hardware: A Cradle-To-Grave Approach and Generational Trends · F1, F2, F3 · relevância alta · [PDF](10_ia-sustentabilidade/Google_2025_schneider-life-cycle-emissions-ai-hardware-tpu.pdf)
+  - Primeira ACV completa de aceleradores de IA com dados de fabricação; cria a métrica CCI e mostra quanto a escolha entre location-based, market-based e 24/7 muda a pegada.
+  - Métrica: A intensidade de carbono computacional (CCI, gCO2e/ExaFLOP) melhora 3x do TPU v4i ao TPU v6e (Trillium) (p. 1, 5)
+  - Métrica: Na vida útil de seis anos, as emissões operacionais são ~70% do total pelo método market-based e ~90% pelo location-based; o restante é carbono incorporado (p. 5)
+  - Métrica: Fator de emissão do Google em 2023 pelo método horário 24/7: 212 gCO2e/kWh, contra 135 gCO2e/kWh market-based (p. 5)
+  - Métrica: Treinar o GPT-3 em TPU v4 resultaria em ~107 tCO2e; em TPU v5p, ~89 t (p. 4)
+- **M564 · Google Research, com American Airlines e Breakthrough Energy (2023)** — How AI is helping airlines mitigate the climate impact of contrails · F1, F3 · relevância alta · [PDF](10_ia-sustentabilidade/Google_2023_ai-airlines-contrails-avoidance.pdf)
+  - Caso de IA para o clima na aviação (efeitos não-CO2), relevante para o mercado de SAF. Mostra um trade-off real: menos aquecimento por contrails contra mais CO2 de combustível. Post oficial salvo em PDF.
+  - Métrica: 70 voos de teste em seis meses: pilotos usando previsões de IA reduziram as trilhas de condensação em 54% (verificação por satélite) (p. 2)
+  - Métrica: Voos que tentaram evitar contrails queimaram 2% a mais de combustível; impacto na frota pode cair a 0,3%; custo estimado de US$ 5–25/tCO2e (p. 3)
+  - Métrica: Contrails respondem por cerca de 35% do impacto de aquecimento da aviação, segundo o IPCC (p. 1)
+- **M565 · Google e UC Berkeley (Patterson et al.) (2021)** — Carbon Emissions and Large Neural Network Training · F3 · relevância alta · [PDF](10_ia-sustentabilidade/Google_2021_patterson-carbon-emissions-large-nn-training.pdf)
+  - Artigo do Google que recalculou a pegada de treino de grandes modelos (T5, Meena, GShard, Switch, GPT-3) com dados de hardware, PUE e mix elétrico, e corrigiu em 88 vezes a estimativa que originou os “cinco carros”. Fonte do número mais citado para o GPT-3 (552 tCO2e).
+  - Métrica: GPT-3: 1.287 MWh e 552,1 tCO2e estimados para o treino (V100 em nuvem Microsoft, 0,429 kgCO2e/kWh da média dos EUA) — estimativa de terceiros, não divulgada pela OpenAI (Tabela 4, p. 6; p. 3-4)
+  - Métrica: T5: 85,7 MWh e 46,7 tCO2e; Meena: 232 MWh e 96,4 tCO2e; Switch Transformer: 179 MWh e 59,1 tCO2e líquidos (Tabela 4, p. 6)
+  - Métrica: Reduz em 88X a estimativa anterior da busca de arquitetura do Evolved Transformer: de 284 t para 3,2 tCO2e (7,5 MWh), ao usar o hardware e o data center reais (p. 1; Tabela 4, p. 6)
+  - Métrica: A escolha de rede neural, data center e processador pode reduzir a pegada de carbono em até ~100-1000X (p. 1)
+- **M566 · Google e UC Berkeley (Patterson et al.) (2022)** — The Carbon Footprint of Machine Learning Training Will Plateau, Then Shrink (IEEE Computer, 2022) · F1, F3 · relevância alta · [PDF](10_ia-sustentabilidade/Google_2022_patterson-carbon-footprint-ml-training-plateau.pdf)
+  - Único dado medido e publicado por uma hyperscaler sobre a divisão treino x inferência (60/40) e o peso do ML no consumo total da empresa. Defende reportar emissões nos artigos e mostra o efeito de localização, hardware e eficiência algorítmica.
+  - Métrica: ML respondeu por 10% a 15% do consumo total de energia do Google em uma semana de abril de 2019, 2020 e 2021, embora fosse 70%-80% dos FLOPS (p. 7)
+  - Métrica: Cerca de 3/5 da energia de ML do Google foi para inferência e 2/5 para treino, incluindo pesquisa, desenvolvimento, testes e produção (p. 7)
+  - Métrica: Quatro boas práticas (“4Ms”: modelo, máquina, mecanização do data center e mapa/localização) reduzem a energia do treino em até 100x e as emissões em até 1000x (p. 1)
+  - Métrica: GLaM reduziu ~14x a pegada bruta de carbono frente ao GPT-3, usando 2,8x menos energia, 18 meses depois (p. 3, 6)
+- **M567 · Green Software Foundation (2025)** — SCI for AI Specification Ratified: Standard for Measuring AI Emissions Across the Lifecycle · F2, F3 · relevância alta · [PDF](10_ia-sustentabilidade/GSF_2025_sci-for-ai-specification-ratified.pdf)
+  - Padrão de consenso da indústria para intensidade de carbono de IA (SCI = (E×I + M) por unidade funcional), com escore do consumidor por token — o mais próximo do que uma empresa usuária pode exigir de fornecedores. Diverge da ITU-T L.1801 ao não aceitar certificados renováveis. Especificação: https://github.com/Green-Software-Foundation/sci-ai/blob/main/SPEC.md.
+  - Métrica: Especificação SCI for AI ratificada (anúncio de 17/12/2025), extensão da ISO/IEC 21031:2024, liderada por Accenture e WattTime com mais de 20 organizações-membro (p. 1-3)
+  - Métrica: Unidades funcionais: tokens (modelos de linguagem), inferências (classificadores) e FLOPs (eficiência de treino) (p. 3)
+  - Métrica: Dois escores: provedor (desenvolvimento, treino, implantação) e consumidor (inferência e monitoramento) (p. 4)
+  - Métrica: A especificação proíbe reduzir o escore com instrumentos de mercado: créditos de carbono, certificados de atributo de energia (EACs/RECs) e PPAs (SPEC.md no GitHub, seção Exclusions)
+- **M568 · Green Software Foundation (2024)** — Software Carbon Intensity (SCI) Specification v1.1.0 (base da ISO/IEC 21031:2024) · F2, F3 · relevância alta · [PDF](10_ia-sustentabilidade/GSF_2024_sci-software-carbon-intensity-especificacao-iso-21031.pdf)
+  - Especificação gratuita (impressa da página oficial) cujo conteúdo virou a ISO/IEC 21031:2024. É métrica de taxa (intensidade por unidade funcional), não de inventário.
+  - Métrica: SCI = ((E x I) + M) por R; E em kWh, I em gCO2e/kWh, M em gCO2e, R unidade funcional (usuário, chamada de API, transação) (p.7-9)
+  - Métrica: I: intensidade da rede onde ocorre o consumo (marginal de curto ou longo prazo, ou média), excluindo instrumentos de mercado; só a informação location-based conta (p.7)
+  - Métrica: M = TE x (TiR/EL) x (RR/ToR): carbono incorporado alocado por tempo reservado sobre a vida útil e por recursos reservados (p.9)
+  - Métrica: O escore não pode ser reduzido por compensações, créditos, RECs ou PPAs (p.15)
+- **M569 · Hertie School, ETH Zurich, Carnegie Mellon, IEA, MCC e McGill/Mila (Kaack, Donti, Strubell, Kamiya, Creutzig, Rolnick) — Nature Climate Change 12, 518–527 (2022)** — Aligning artificial intelligence with climate change mitigation · F2, F3 · relevância alta · [PDF](10_ia-sustentabilidade/NatureClimateChange_2022_kaack-aligning-ai-climate-mitigation.pdf)
+  - Framework de referência para o saldo líquido da IA: separa a pegada de computação, os efeitos diretos das aplicações e os efeitos sistêmicos (rebote, lock-in). Manuscrito aceito obtido no repositório público NSF PAR.
+  - Métrica: Framework em 3 categorias de impacto da IA nas emissões: computação (A), aplicações imediatas (B) e mudanças sistêmicas (C), incluindo rebote e lock-in (p. 1-2)
+  - Métrica: Os impactos mais fáceis de medir provavelmente não são os de maior efeito; impactos sistêmicos podem superar os das aplicações (p. 1, 5)
+  - Métrica: Precificação de carbono e regulação são apontadas para evitar rebote quando a IA é usada para eficiência (p. 5)
+  - Métrica: Arcabouço em três categorias de impacto do aprendizado de máquina sobre emissões: impactos da computação, impactos imediatos da aplicação e impactos sistêmicos (resumo, publicado em 09/06/2022)
+- **M570 · Hugging Face e Carnegie Mellon University (Luccioni, Jernite e Strubell) (2024)** — Power Hungry Processing: Watts Driving the Cost of AI Deployment? (ACM FAccT 2024) · F1, F3 · relevância alta · [PDF](10_ia-sustentabilidade/FAccT_2024_luccioni-power-hungry-processing.pdf)
+  - Primeira medição sistemática de energia e carbono por tarefa e por tipo de modelo na inferência (88 modelos, 10 tarefas, A100). Mostra que gerar imagem custa ordens de grandeza mais que classificar texto e que modelos generalistas são muito mais caros que modelos específicos. Origem (corrigida) do “uma imagem = uma carga de celular”.
+  - Métrica: Energia média por 1.000 inferências: 0,002 kWh (classificação de texto), 0,047 kWh (geração de texto) e 2,907 kWh (geração de imagem) — variação acima de 1450 vezes entre tarefas (Tabela 2, p. 6)
+  - Métrica: O modelo de imagem menos eficiente usou 11,49 kWh por 1.000 imagens, o equivalente a 522 cargas de smartphone (0,022 kWh por carga), ou cerca de meia carga por imagem; a versão anterior usava 0,012 kWh por carga (p. 6, nota 5)
+  - Métrica: Stable Diffusion XL: 1.594 g de CO2e por 1.000 imagens, 6.833 vezes o modelo de texto menos intensivo (p. 7)
+  - Métrica: Modelos generalistas emitem ~10 g de CO2e por 1.000 inferências de perguntas e respostas, contra 0,3 g dos modelos específicos para a tarefa (p. 8)
+- **M571 · Hugging Face e ENS Paris-Saclay (Delavande, Pierrard e Luccioni) (2025)** — Video Killed the Energy Budget: Characterizing the Latency and Power Regimes of Open Text-to-Video Models (NeurIPS 2025 workshop) · F3 · relevância alta · [PDF](10_ia-sustentabilidade/Delavande-HuggingFace_2025_video-killed-energy-budget-text-to-video.pdf)
+  - Medição sistemática de vídeo generativo em H100: um clipe curto de alta resolução pode custar centenas de Wh, ordens de grandeza acima de texto ou imagem. Arquivo obtido por outro agente na mesma rodada.
+  - Métrica: Energia por vídeo nas configurações padrão vai de 0,14 Wh (AnimateDiff) a mais de 415 Wh (WAN2.1-T2V-14B), fator de quase 3000× (p. 8)
+  - Métrica: Energia e latência crescem de forma quadrática com a resolução e o número de quadros e linearmente com os passos de difusão (p. 1, 6-7)
+  - Métrica: A GPU responde por mais de 80% da energia em todos os modelos testados (p. 8)
+  - Métrica: Energia por clipe em 1 H100: de 0,14 Wh (AnimateDiff) a mais de 415 Wh (WAN2.1-T2V-14B), quase 3.000x (p.8)
+- **M572 · Hugging Face e Salesforce (Luccioni e Gamazaychikov) (2025)** — AI Energy Score v2: Refreshed Leaderboard, now with Reasoning · F1, F2, F3 · relevância alta · [PDF](10_ia-sustentabilidade/HuggingFace_2025_ai-energy-score-v2-reasoning.pdf)
+  - Leaderboard padronizado de energia por tarefa (estrelas de eficiência), agora com modelos de raciocínio. Base dos números da IEA (2026) e exemplo prático de métrica que um comprador pode exigir (a Salesforce já publica nos model cards).
+  - Métrica: Modelos com raciocínio usam, em média, 30 vezes mais energia que modelos sem raciocínio ou com ele desligado (p. 3)
+  - Métrica: Energia de GPU por 1.000 consultas: DeepSeek-R1-Distill-Llama-70B 49,53 Wh (desligado) vs 7.626,53 Wh (ligado), 154x; Phi-4-reasoning-plus 18,42 vs 9.461,61 Wh, 514x; SmolLM3-3B 18,35 vs 12.791,22 Wh, 697x (p. 3-4)
+  - Métrica: Com raciocínio, os modelos geram entre 300 e 800 vezes mais tokens (p. 4)
+  - Métrica: De 14 modelos novos comparáveis, 8 tiveram consumo igual ou maior que modelos de porte semelhante de fevereiro de 2025 (p. 5)
+- **M573 · Hugging Face e Université Grenoble Alpes (Luccioni, Viguier e Ligozat) (2023)** — Estimating the Carbon Footprint of BLOOM, a 176B Parameter Language Model (JMLR 24) · F1, F3 · relevância alta · [PDF](10_ia-sustentabilidade/JMLR_2023_luccioni-carbon-footprint-bloom.pdf)
+  - Primeira análise de ciclo de vida de um LLM, com carbono incorporado, ociosidade e medição real de inferência. Mostra que só a energia dinâmica subestima a pegada pela metade e que, servido sem otimização, um modelo grande gasta ~4 Wh por requisição.
+  - Métrica: Treino final do BLOOM: 433.196 kWh e 1.082.990 horas de GPU A100; 24,7 tCO2e só com o consumo dinâmico, na rede francesa de ~57 gCO2e/kWh (Tabela 1, p. 3; p. 1, 5)
+  - Métrica: 50,5 tCO2e no ciclo de vida: carbono incorporado 11,2 t (22,2%), consumo dinâmico 24,69 t (48,9%) e consumo ocioso 14,6 t (28,9%) (Tabela 3, p. 7)
+  - Métrica: Implantação via API: 914 kWh em ~18 dias para 230.768 requisições, sem batching; cerca de 75% da energia gasta só para manter o modelo carregado (p. 7-8)
+  - Métrica: ~19 kg de CO2e por dia de API na região us-central1 (394 gCO2e/kWh) (p. 8)
+- **M574 · Hugging Face, Salesforce, Ekimetrics e Carnegie Mellon University (Luccioni et al.) (2025)** — Misinformation by Omission: The Need for More Environmental Transparency in AI · F1, F3 · relevância alta · [PDF](10_ia-sustentabilidade/HuggingFace_2025_luccioni-misinformation-by-omission.pdf)
+  - Rastreia a origem e a difusão dos números mais repetidos (cinco carros, 10x Google, IA reduz 10% das emissões) e propõe o que medir e divulgar em cada elo da cadeia. Base para a seção de números contestados.
+  - Métrica: 84% do uso de LLMs (tokens no OpenRouter, maio/2025) ocorre em modelos sem nenhuma divulgação ambiental; 14% com divulgação indireta e 2% com divulgação direta (p. 3)
+  - Métrica: A divulgação direta de dados ambientais atingiu o pico em 2022 (10% dos modelos notáveis) e recuou depois (p. 3)
+  - Métrica: A energia de pré-treino de LLMs vai de 0,8 MWh (OLMo 20M) a 3.500 MWh (Llama 4 Scout) (p. 3)
+  - Métrica: Gemma emitiu 1247.61 tCO2e (mais de 4x os “cinco carros”) e a família Llama 3, 11.390 tCO2e (mais de 40x) (p. 4)
+- **M575 · IEA - Agência Internacional de Energia (2026)** — Electricity 2026 — Analysis and forecast to 2030 · F3 · relevância alta · [PDF](10_ia-sustentabilidade/IEA_2026_electricity-2026.pdf)
+  - Relatório anual da IEA sobre eletricidade com o peso dos data centers no crescimento da demanda (metade do crescimento nos EUA) e uma seção sobre o Brasil: matriz de baixíssima emissão, explosão dos pedidos de conexão de data centers após o Redata e cortes crescentes de eólica e solar.
+  - Métrica: Demanda elétrica mundial cresceu 3% em 2025 e deve crescer 3,6% ao ano em 2026-2030, com data centers entre os vetores (p. 8)
+  - Métrica: EUA: demanda cresceu 2,1% em 2025 e deve somar mais de 420 TWh em cinco anos, com os data centers respondendo por cerca de 50% do crescimento até 2030 (p. 9, 18)
+  - Métrica: Só cerca de 20% dos pedidos de conexão de data centers nos EUA se materializam no curto e médio prazo (p. 60)
+  - Métrica: Brasil: pedidos de conexão de data centers subiram 32%, de 19,8 GW para 26,2 GW entre setembro e novembro de 2025 (EPE), o que equivaleria a mais de um quarto da demanda elétrica do país; só 6 GW estavam em análise ou em estágio avançado (p. 60, 162)
+- **M576 · IEA - Agência Internacional de Energia, com a IndiaAI Mission (2026)** — Casebook on AI in Energy (citado pela IEA como 'Real-World Impact of AI in Energy') · F1, F3 · relevância alta · [PDF](10_ia-sustentabilidade/IEA_2026_real-world-impact-of-ai-in-energy-casebook.pdf)
+  - Publicação oficial da IEA com casos reais de IA otimizando energia, inclusive biocombustível e siderurgia no Brasil. Útil para mostrar o lado do benefício com números de campo, mas os dados são autodeclarados pelas empresas, sem verificação independente.
+  - Métrica: 15 estudos de caso de IA em energia, preparados para o India-AI Impact Summit (p. 5)
+  - Métrica: BIOLOOP (biorrefinaria de algas, Karnataka, escala piloto): IA de borda elevou o rendimento de lipídios para biocombustível em 18–27% e a produção de hidrogênio em 14–22%, e reduziu o consumo de energia em 10–15% (p. 22–23)
+  - Métrica: Siderurgia em usinas no Brasil: IA no alto-forno reduz em média 1,5 kg de combustível e 4,4 kg de CO2 por tonelada de gusa (p. 63)
+  - Métrica: Resumos do Energy and AI Observatory baseados em informações das próprias empresas, vigentes em junho de 2025 (p. 69)
+- **M577 · IEA 4E TCP — plataforma EDNA (G. Kamiya e V. C. Coroamă) (2025 (mar/2025))** — Data Centre Energy Use: Critical Review of Models and Results · F3 · relevância alta · [PDF](10_ia-sustentabilidade/IEA4E-EDNA_2025_data-centre-energy-use-critical-review-models.pdf)
+  - A revisão crítica mais completa das estimativas de energia de data centers, incluindo as de consultorias e analistas (Deloitte, Gartner, IDC, Goldman Sachs, Morgan Stanley, Schneider). Essencial para separar números plausíveis de números inflados ou mal derivados.
+  - Métrica: Projeções de consumo de data centers para 2030 variam de pouco mais de 200 TWh a quase 8.000 TWh (fator ~40) em >100 estudos (p. 6)
+  - Métrica: Consumo de data centers em 2023: 300–380 TWh (sem cripto); estudos de alta qualidade: 210–440 TWh, média 335 TWh (p. 7)
+  - Métrica: IA em data centers: 10–50 TWh em 2023 (5–15% do total); faixa plausível de 200–400 TWh em 2030 (35–50% do consumo de data centers); 700–900 TWh considerados irrealistas (p. 8, 40–41)
+  - Métrica: Gartner: metodologia não divulgada, 'não pôde ser avaliado'; IEA (2024): provável leitura errada de de Vries (2023) ao projetar 90 TWh em 2026 (p. 38–39)
+- **M578 · ITU-T (União Internacional de Telecomunicações) (2025)** — Recommendation ITU-T L.1480 (07/2025) — Enabling the Net Zero transition: Assessing how the use of ICT solutions impacts greenhouse gas emissions of other sectors · F2 · relevância alta · [PDF](10_ia-sustentabilidade/ITU-T_2025_L1480-enabling-net-zero-ict-solutions-impact-other-sectors.pdf)
+  - Norma internacional para quantificar o benefício líquido de soluções digitais (inclusive IA) em outros setores. É a referência técnica para 'saldo líquido' em nível de projeto ou empresa.
+  - Métrica: Metodologia para o 'efeito líquido de segunda ordem' (efeito habilitado menos as emissões de primeira ordem da própria solução de TIC) e para efeitos de ordem superior, como rebote (p. 3, 11, 16)
+  - Métrica: Três níveis de profundidade (tiers 1–3) e três momentos de avaliação: ex-ante, intermediária e ex-post (p. 11)
+  - Métrica: Define tipos de rebote (direto, indireto, econômico, operacional, de tempo, de espaço e em toda a economia) e reconhece que TIC pode servir para manter ou ampliar a economia fóssil (p. 7, 15–17)
+  - Métrica: Ao agregar soluções que 'competem' pelas mesmas emissões há risco de dupla contagem (p. 35)
+- **M579 · James Cook University (Austrália) e parceiros (Rahimi Azghadi et al.) (2024)** — Precision Robotic Spot-Spraying: Reducing Herbicide Use and Enhancing Environmental Outcomes in Sugarcane (Computers and Electronics in Agriculture; arXiv:2401.13931) · F1, F3 · relevância alta · [PDF](10_ia-sustentabilidade/RahimiAzghadi-JCU_2024_robotic-spot-spraying-herbicide-sugarcane.pdf)
+  - Evidência de campo, revisada por pares, de IA reduzindo insumo e impacto ambiental em cana-de-açúcar, cultura central da bioenergia brasileira. A economia depende da densidade de plantas daninhas. Arquivo grande (~29 MB).
+  - Métrica: Ensaios de campo em 25 ha de cana: pulverização localizada com visão computacional e aprendizado profundo foi 97% tão eficaz quanto a aplicação em área total e reduziu o herbicida em 35% em média, proporcionalmente à infestação; até 65% em faixas de baixa infestação (p. 1)
+  - Métrica: Escoamento da irrigação 3–6 dias após a aplicação: concentração média de herbicidas -39% e carga -54% (p. 1)
+- **M580 · KAIST (Kim, Shin, Chung e Rhu) (2025)** — The Cost of Dynamic Reasoning: Demystifying AI Agents and Test-Time Scaling from an AI Infrastructure Perspective · F2, F3 · relevância alta · [PDF](10_ia-sustentabilidade/KAIST_2025_kim-cost-dynamic-reasoning-ai-agents-energy.pdf)
+  - Mede, em nível de sistema, quanto custam agentes que planejam, refletem e chamam ferramentas: dezenas a centenas de Wh por tarefa, com retornos decrescentes de acurácia. Relevante para roadmaps que preveem agentes autônomos.
+  - Métrica: Inferência convencional de turno único: 0,32 Wh (Llama-3.1 8B) e 2,55 Wh (70B) por consulta; agente Reflexion: 41,53 Wh e 348,41 Wh; agente LATS: 22,76 Wh e 158,48 Wh (Tabela III, p. 10-11)
+  - Métrica: Aumento de 62,1× a 136,5× na energia de GPU por consulta com agentes e escala em tempo de teste (p. 10)
+- **M581 · KPMG LLP (EUA) (2026 (campo set/2025))** — Sustainable AI is the new performance frontier · F1, F2 · relevância alta · [PDF](10_ia-sustentabilidade/KPMG_2026_sustainable-ai-global-research.pdf)
+  - Pesquisa da KPMG dedicada à 'IA sustentável' em empresas usuárias. Mostra que as empresas usam IA para medir sustentabilidade, mas raramente medem a sustentabilidade da própria IA, e oferece a lista mais prática de recomendações de métricas e governança entre as consultorias analisadas.
+  - Métrica: Só 18% têm metas de sustentabilidade específicas e mensuráveis para a IA; 38% têm metas não mensuráveis; 26% estão desenvolvendo; 13% tratam IA dentro de metas de TI; 5% não têm (p. 14)
+  - Métrica: Só 4% se consideram 'otimizadas' (metas específicas para IA, ecossistema de parceiros, SLAs de sustentabilidade e relato regular de Escopo 3); 65% ainda avaliam ou pilotam (p. 8–9, 13)
+  - Métrica: 43% não têm forma confiável de rastrear energia, água e emissões da IA; 45% citam qualidade de dados; 57% restrição orçamentária (p. 11–12)
+  - Métrica: 9 em cada 10 usam sustentabilidade como critério de escolha de parceiros de IA (p. 6)
+- **M582 · Kyndryl e Microsoft (pesquisa Ecosystm) (2025 (nov/2025; campo ago–set/2025))** — From Planning to Progress: AI-Driven Sustainability in Practice (Global Sustainability Barometer 2025) · F1 · relevância alta · [PDF](10_ia-sustentabilidade/Kyndryl-Microsoft-Ecosystm_2025_global-sustainability-barometer.pdf)
+  - Série anual com indicador comparável de quantas empresas consideram a energia e o carbono da IA ao implantá-la. O recorte Brasil de 2024 (8% contra 35% global) só foi encontrado em reprodução de imprensa do release local, sem documento oficial.
+  - Métrica: 43% das organizações consideram o impacto ambiental (energia, carbono) ao implementar soluções de IA, contra 35% em 2024 (p. 5)
+  - Métrica: 57% dizem que a TI já apoia metas de sustentabilidade da empresa além da própria pegada (38% em 2024) (p. 5)
+  - Métrica: 9% já implantam IA agêntica para sustentabilidade (p. 28)
+  - Métrica: Amostra 2025: 1.286 líderes, 20 países, Brasil n=60 (p. 4); edição 2024: 1.355 líderes (release https://www.kyndryl.com/us/en/about-us/news/2024/11/global-sustainability-barometer-study-2024)
+- **M583 · Lawrence Berkeley National Laboratory (LBNL), para o Departamento de Energia dos EUA (2026)** — United States Data Center Energy Usage Report: 2025 Update · F3 · relevância alta · [PDF](10_ia-sustentabilidade/LBNL_2026_us-data-center-energy-usage-2025-update.pdf)
+  - Atualização de junho de 2026 do relatório do LBNL, com horizonte até 2030, cenários de sensibilidade e a parcela da IA no consumo. Eleva a estimativa e mostra a divergência com a IEA, explicada pelas premissas de remessa de chips.
+  - Métrica: Data centers dos EUA consumiram 192 TWh em 2024, 4,7% da eletricidade do país (sem criptomoedas) (p. 10)
+  - Métrica: Cenário de referência: 649 TWh em 2030, 11,8% da eletricidade dos EUA; faixa de 521-843 TWh, ou 9,5% a 15,3% (p. 7, 11)
+  - Métrica: Data centers respondem por 33% do crescimento da carga dos EUA entre 2024 e 2030 (p. 10)
+  - Métrica: Servidores de IA chegam a 55% da energia total dos data centers em 2030 (84% da energia dos servidores) (p. 27)
+- **M584 · Lawrence Berkeley National Laboratory (Shehabi et al.) para o Departamento de Energia dos EUA (2024)** — 2024 United States Data Center Energy Usage Report · F2, F3 · relevância alta · [PDF](10_ia-sustentabilidade/LBNL_2024_us-data-center-energy-usage-report.pdf)
+  - Relatório oficial com a melhor série pública de água direta e indireta de data centers; base para fatores em L/kWh.
+  - Métrica: Consumo direto de água dos data centers dos EUA subiu de 21,2 bilhões de litros (2014) para 66 bilhões (2023); 84% em hyperscale e colocation (p. 56)
+  - Métrica: Água indireta da eletricidade de quase 800 bilhões de litros em 2023, média de 4,52 L/kWh (rede dos EUA: 4,35 L/kWh), sem considerar PPAs (p. 58)
+  - Métrica: WUE médio (on-site) de 0,36 L/kWh até 2023, subindo para 0,45–0,48 L/kWh com resfriamento líquido e hyperscale (p. 49)
+  - Métrica: Data centers hyperscale devem consumir 60–124 bilhões de litros de água direta em 2028 (p. 56-57)
+- **M585 · London School of Economics — Grantham Research Institute, com a Systemiq (Stern, Romani, Pierfederici et al.) (2025)** — Green and intelligent: the role of AI in the climate transition (npj Climate Action 4, 56) · F3, F1 · relevância alta · [PDF](10_ia-sustentabilidade/LSE-Grantham-Systemiq_2025_green-and-intelligent-ai-climate-transition-npj.pdf)
+  - Perspective revisado por pares de Nicholas Stern (LSE/Grantham) com a consultoria Systemiq. É a principal estimativa acadêmica 'otimista' do saldo líquido: o benefício em três setores superaria o aumento de emissões de toda a IA. Ressalvas relevantes: não modela rebote nem uso da IA em fósseis; o componente 'alimentos' é aceleração de proteínas alternativas (não agricultura de precisão) e o teto da faixa depende do cenário 'altamente ambicioso'; a premissa de +20% no fator de carga cita referência genérica do NREL (2023), e o caso DeepMind citado fala em valor, não em geração; dados não abertos. Financiado por ESRC, Quadrature Climate Foundation e Grantham Foundation; agradece revisão de Demis Hassabis e James Manyika (Google).
+  - Métrica: IA poderia reduzir 3,2–5,4 GtCO2e/ano até 2035 frente ao BAU (promessas anunciadas, IEA), somando só três setores: energia elétrica, carne e laticínios, veículos leves (p. 5–6)
+  - Métrica: Decomposição: energia elétrica 1,8 GtCO2e (premissa de até 20% a mais no fator de carga de solar e eólica); carne e laticínios 0,9–1,6 GtCO2e no cenário IA ou 1,7–3,0 GtCO2e no cenário 'altamente ambicioso' (adoção de proteínas alternativas de 27–50%); veículos leves 0,5–0,6 GtCO2e (p. 5–6)
+  - Métrica: Aumento de emissões de data centers e IA estimado em 0,4–1,6 GtCO2e, com intensidade média da rede global e sem PPAs; cenário com IA ficaria 36% mais perto de uma trajetória ambiciosa nos três setores (p. 6)
+  - Métrica: Estudos anteriores: Microsoft/PwC 1,5–4% (1–2,5 GtCO2e) e Google/BCG 5–10% (2,6–5,3 GtCO2e) até 2030 — não revisados por pares, sem método completo e feitos por fornecedores de IA (p. 2)
+- **M586 · MCTI (Ministério da Ciência, Tecnologia e Inovação) (2026)** — Fatores de emissão de CO2 do SIN - Fator médio para inventários corporativos (planilha 2006 a ago/2026) · F3 · relevância alta · [link](https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/sirene/dados-e-ferramentas/fatores-de-emissao/arquivo/Inventario_2026_janago.xlsx)
+  - Fonte oficial do fator de rede brasileiro (location-based) para inventários. Planilha XLSX, não PDF.
+  - Métrica: Fator médio anual do SIN (tCO2/MWh): 2021 0,1263; 2022 0,0426; 2023 0,0385; 2024 0,0545; 2025 0,0461
+  - Métrica: 2026, fatores mensais de jan a ago: 0,0458; 0,0490; 0,0486; 0,0331; 0,0312; 0,0453; 0,0517; 0,0471
+  - Métrica: Método de inventário (média de todas as usinas em operação), só CO2; página atualizada em 16/09/2026
+- **M587 · MCTI — Ministério da Ciência, Tecnologia e Inovação (2026)** — Fator médio de emissão de CO2 do SIN — Inventários corporativos (página e planilha Inventario_2026_janago.xlsx) · F2, F3 · relevância alta · [link](https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/cgcl/paginas/fator-medio-inventarios-corporativos)
+  - Fator oficial para o escopo 2 location-based no Brasil (Programa Brasileiro GHG Protocol). Planilha: https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/sirene/dados-e-ferramentas/fatores-de-emissao/arquivo/Inventario_2026_janago.xlsx. A nota técnica de jun/2025 já foi baixada por outro agente.
+  - Métrica: Fator médio anual do SIN: 0,0461 tCO2/MWh em 2025; 0,0545 em 2024; 0,0385 em 2023; 0,0426 em 2022; 0,1263 em 2021 (planilha, atualizada em 16/09/2026)
+  - Métrica: 2026, mensal (jan–ago): 0,0458; 0,0490; 0,0486; 0,0331; 0,0312; 0,0453; 0,0517; 0,0471 tCO2/MWh (planilha)
+  - Métrica: Desde jan/2025 a base do ONS inclui usinas a biomassa e conjuntos solares e eólicos antes não considerados integralmente; metodologia mantida, valores tendem a cair (página)
+  - Métrica: O fator médio (não o de margem de operação) é o indicado para inventários corporativos (página)
+- **M588 · MIT Technology Review Brasil (Casey Crownhart) (2026)** — IA domina as conversas na Climate Week · F3 · relevância alta · [PDF](10_ia-sustentabilidade/MITTRBrasil_2026_ia-domina-conversas-climate-week.pdf)
+  - Coluna sobre a Semana do Clima de Nova York e a Assembleia da ONU (set/2026): a IA virou o tema central do debate climático, entre o potencial para acelerar pesquisa e a expansão de gás natural para abastecer data centers. Registra o ceticismo crescente do setor climático e a fala de Simon Stiell (ONU) de que os líderes de IA estão em 'terreno frágil' quanto à licença para operar. Ponto sensível para a Acelen: o capital de risco em combustíveis de baixo carbono caiu enquanto o de data centers cresceu. Obtido pelo usuário.
+  - Métrica: Investimento global de capital de risco em tecnologias climáticas de US$ 26 bilhões no 1º semestre de 2026, 55% acima do ano anterior, com grande fatia para produtos e serviços para data centers (dados da Currence, citados) (p. 2)
+  - Métrica: Investimentos de capital de risco em gestão de carbono e combustíveis de baixo carbono despencaram em 2026 (Semafor, citado) (p. 2)
+  - Métrica: Microsoft, Google e Meta registraram aumento de emissões, em grande parte pela energia necessária para a IA (p. 2)
+  - Métrica: Evelyn Wang (MIT) estima cerca de uma década até que os data centers deixem de aumentar as emissões (p. 2)
+- **M589 · MPF (Procuradoria da República no Ceará) e DPU (2026)** — MPF e DPU pedem adequações em licenciamento ambiental de data center antes do início da operação no Ceará (recomendação conjunta, 19/05/2026) · F3 · relevância alta · [PDF](10_ia-sustentabilidade/MPF-DPU_2026_recomendacao-licenciamento-data-center-pecem.pdf)
+  - Caso brasileiro mais visível de conflito hídrico e de licenciamento de data center de IA; em setembro de 2026 a imprensa noticiou ação civil pública dos mesmos órgãos. Mostra que a métrica de eficiência (WUE) não basta: a disponibilidade local de água é o ponto de disputa. Página salva em PDF.
+  - Métrica: Data Center Pecém (Caucaia-CE, Omnia WN Holding): potência prevista de até 300 MW, operação contínua e geradores a diesel (p. 2)
+  - Métrica: Relatório Ambiental Simplificado considerado insuficiente; pede integração ao licenciamento do Complexo do Pecém, monitoramento hidrogeológico e consulta ao povo Anacé (p. 2-4)
+  - Métrica: Aponta divergência entre os volumes de água do RAS e da Licença de Instalação, em região de escassez hídrica dependente de poços (p. 3)
+- **M590 · Meta (2025)** — 2025 Environmental Data Index (2025 Sustainability Report, ano fiscal 2024) · F1, F3 · relevância alta · [PDF](10_ia-sustentabilidade/Meta_2025_environmental-data-index.pdf)
+  - Tabelas ambientais oficiais da Meta (dados de 2024, publicadas em set-out/2025), com Escopo 2 por data center nos dois métodos. Mostra a maior distância entre location-based e market-based entre as big techs. O relatório com dados de 2025 ainda não havia sido publicado em 01/10/2026.
+  - Métrica: Emissões location-based totais de 15.627 mil tCO2e em 2024 contra 8.559 mil em 2020 (p. 2)
+  - Métrica: Emissões com instrumentos contratuais aplicados: 8.200 mil tCO2e em 2024 (8.150 mil líquidas após créditos de carbono) (p. 2)
+  - Métrica: Escopo 2 em 2024: 1.358 tCO2e market-based contra 5.967 mil tCO2e location-based; nos data centers, 135 t contra 5.862 mil t (p. 4)
+  - Métrica: Eletricidade de 18.423 mil MWh em 2024 contra 7.170 mil MWh em 2020 (p. 6)
+- **M591 · Meta (2024)** — Llama 3.1 Model Card - Training Energy Use and Training Greenhouse Gas Emissions · F1, F2, F3 · relevância alta · [PDF](10_ia-sustentabilidade/Meta_2024_llama-3-1-model-card-emissoes-treino.pdf)
+  - Model card oficial que reporta energia (horas de GPU) e emissões do treino nos dois métodos; o 'zero' market-based decorre do casamento anual com renováveis. A metodologia remete a Patterson et al. (2022). Não inclui experimentos, ajustes nem a inferência ao longo da vida útil.
+  - Métrica: Pré-treino de todas as versões: 39,3 milhões de horas de GPU H100-80GB (TDP de 700 W), com potência de pico ajustada pela eficiência do data center (p. 5)
+  - Métrica: Emissões de 11.390 tCO2eq location-based e 0 market-based; só o modelo 405B: 30,84 milhões de GPU-h e 8.930 t (p. 5)
+  - Métrica: Treino da família Llama 3.1: 39,3 milhões de horas de GPU H100 (TDP de 700 W); 11.390 tCO2e location-based (405B: 8.930 t; 70B: 2.040 t; 8B: 420 t) e 0 t market-based
+  - Métrica: Método: potência de pico por GPU ajustada pelo PUE, conforme Patterson et al. (2022); market-based zerado por compra de energia renovável
+- **M592 · Microsoft (AI for Good Lab, Microsoft Sustainability e Azure) (2026)** — Scaling AI with 8 to 20x energy efficiency (energia e água por consulta de LLM) · F1, F2, F3 · relevância alta · [PDF](10_ia-sustentabilidade/Microsoft_2026_scaling-ai-8-20x-energy-efficiency-blog.pdf)
+  - Post oficial da Microsoft (15/06/2026) que resume estudo publicado na revista Joule (Oviedo et al.). É estimativa bottom-up de inferência em escala, não medição do Copilot; no artigo, consultas longas de raciocínio têm mediana de 3,91 Wh.
+  - Métrica: Consulta típica a grandes LLMs em produção: 0,16 a 0,60 Wh, conforme tamanho da consulta, modelo e data center (p. 3)
+  - Métrica: Água de resfriamento de 0,0 a 0,067 mL por consulta típica (p. 4)
+  - Métrica: Atender 1 bilhão de consultas por dia exige cerca de 0,7 GWh na linha de base e cerca de 0,3 GWh com ganhos de eficiência; ganhos combinados de 8 a 20x por consulta (p. 5)
+  - Métrica: Consulta típica a LLMs de grande porte: 0,16 a 0,60 Wh, conforme tamanho da consulta, modelo e data center (p.3)
+- **M593 · Microsoft (Oviedo et al.) (2026)** — Energy use of AI inference, efficiency pathways, and test-time scaling (Joule 10, 102430) · F1, F2, F3 · relevância alta · [PDF](10_ia-sustentabilidade/Microsoft_2025_oviedo-energy-use-ai-inference-test-time-compute.pdf)
+  - Modelo bottom-up revisado por pares (Joule, ago/2026, acesso aberto; o arquivo é a versão arXiv v2 de jun/2026, mesmo conteúdo) que alinha as estimativas às divulgações de produção e quantifica o efeito do raciocínio. A v1 (set/2025), citada pela IEA, indicava 0,34 Wh.
+  - Métrica: Mediana de 0,31 Wh por consulta (IQR 0,16–0,60) para modelos de fronteira com mais de 200 bilhões de parâmetros em nós H100; estimativas difundidas exageram 4–20× (p. 1)
+  - Métrica: Consultas com escala em tempo de teste (saídas 15× mais longas): mediana de 3,91 Wh (IQR 2,15–7,05), 13× a consulta típica (p. 1)
+  - Métrica: Servir 1 bilhão de consultas/dia exige 0,7 GWh; com 10% de consultas longas, 1,7 GWh/dia; com medidas de eficiência, 0,8 GWh/dia (p. 1)
+  - Métrica: Premissas: potência do nó em ~0,7 do máximo e PUE entre 1,05 e 1,40 (P5–P95) (p. 3)
+- **M594 · Microsoft, Koomey Analytics, UC Santa Barbara/LBNL, Exponential Roadmap Initiative e MCC/TU Berlin (Luers, Koomey, Masanet et al.) (2024)** — Will AI accelerate or delay the race to net-zero emissions? (Nature 628, 718–720) · F3, F2 · relevância alta · [PDF](10_ia-sustentabilidade/Luers-Nature_2024_will-ai-accelerate-or-delay-net-zero.pdf)
+  - Comentário na Nature (22/04/2024, leitura gratuita) assinado por pesquisadores da Microsoft e especialistas em energia de TI (Koomey, Masanet). Reconhece que não há arcabouço para medir o saldo e pede cenários padronizados. Página salva em PDF.
+  - Métrica: Processadores de IA instalados em 2023 consomem 7–11 TWh/ano (~0,04% da eletricidade global); a IA responde por ~0,01% das emissões globais de GEE (p. 3)
+  - Métrica: Data centers convencionais e redes de transmissão: 500–700 TWh, 2,4–3,3% da demanda global de eletricidade em 2022 (correção de 01/05/2024 incluiu as redes) (p. 3, 9)
+  - Métrica: Efeitos indiretos podem superar muito os diretos, nos dois sentidos; propõe consórcio internacional para cenários-padrão de emissões ligados à IA, atualizados ao menos anualmente (p. 3–9)
+- **M595 · Mistral AI (com Carbone 4 e ADEME; revisão por Resilio e Hubblo) (2025 (22/07/2025))** — Our contribution to a global environmental standard for AI · F1, F2, F3 · relevância alta · [PDF](10_ia-sustentabilidade/MistralAI_2025_lca-environmental-standard-ai.pdf)
+  - Primeira ACV pública de um desenvolvedor de LLM com água e minerais, feita com a agência ambiental francesa. Mostra a ordem de grandeza da água por resposta quando se inclui a cadeia e propõe três indicadores: impacto absoluto do treino, impacto marginal da inferência e razão inferência/ciclo de vida.
+  - Métrica: Treino do Mistral Large 2 (até jan/2025, 18 meses de uso): 20,4 kt CO2e, 281 000 m3 de água consumida e 660 kg Sb eq (p. 4)
+  - Métrica: Resposta de 400 tokens no Le Chat: 1,14 g CO2e, 45 mL de água e 0,16 mg Sb eq, excluindo o terminal do usuário e incluindo emissões a montante da fabricação de servidores (p. 4-5)
+  - Métrica: Impactos aproximadamente proporcionais ao tamanho do modelo: um modelo 10 vezes maior gera impactos uma ordem de grandeza maiores (p. 6)
+  - Métrica: Metodologia Frugal AI (AFNOR), compatível com GHG Protocol Product Standard e ISO 14040/44, com eletricidade location-based (p. 6, 8)
+- **M596 · NVIDIA (2026)** — NVIDIA Sustainability Report Fiscal Year 2026 · F1, F3 · relevância alta · [PDF](10_ia-sustentabilidade/NVIDIA_2026_sustainability-report-fy2026.pdf)
+  - Relatório da NVIDIA (jun/2026). As operações próprias são pequenas, mas o Escopo 3 quase triplicou em dois anos com a produção de GPUs; o inventário publicado não traz a categoria 11 (uso dos produtos vendidos), e a meta para o uso é de intensidade por PFLOP, não absoluta.
+  - Métrica: Escopo 3 de 10.700 mil tCO2e no FY26, contra 6.912 mil no FY25 e 3.638 mil no FY24 (categorias 1 a 8) (p. 30)
+  - Métrica: Escopo 2 location-based de 308.891 tCO2e contra 568 tCO2e market-based no FY26 (p. 30)
+  - Métrica: Consumo de energia de 1.053 mil MWh, com 100% de eletricidade renovável comprada ou gerada (p. 31)
+  - Métrica: Metas validadas pela SBTi: -50% nos Escopos 1 e 2 market-based até o FY30 (base FY23) e -75% na intensidade de emissões do uso das GPUs vendidas por PFLOP (p. 12)
+- **M597 · NVIDIA (estudo da WSP, revisão de terceiros, ISO 14067) (2025)** — Product Carbon Footprint (PCF) Summary for NVIDIA HGX B200 · F2, F3 · relevância alta · [PDF](10_ia-sustentabilidade/NVIDIA_2025_hgx-b200-product-carbon-footprint.pdf)
+  - Pegada de fabricação da geração Blackwell: maior por placa que a H100, menor por unidade de computação; a memória é o principal vetor.
+  - Métrica: Pegada do berço ao portão de 2.274 kg CO2e por placa HGX B200 com 8 GPUs (p. 3)
+  - Métrica: Memória HBM responde por 49% (1.123 kg), circuitos integrados por 28% (643 kg) e componentes térmicos por 12% (267 kg); montagem 5,6% (p. 3)
+  - Métrica: Pegada do berço ao portão de 2.274 kgCO2e por placa HGX B200 com 8 GPUs, de até 1000 W cada (p. 1, 3)
+  - Métrica: Materiais e componentes respondem por 94% (memória 49%, circuitos integrados 28%, componentes térmicos 12%) (p. 3)
+- **M598 · NVIDIA (estudo da WSP, revisão de terceiros, ISO 14067) (2025)** — Product Carbon Footprint (PCF) Summary for NVIDIA HGX H100 · F2, F3 · relevância alta · [PDF](10_ia-sustentabilidade/NVIDIA_2025_hgx-h100-product-carbon-footprint.pdf)
+  - Primeira pegada de produto oficial de uma placa de GPU para IA; permite estimar o carbono incorporado por GPU (~164 kg) com fronteira explícita.
+  - Métrica: Pegada do berço ao portão de 1.312 kg CO2e por placa HGX H100 com 8 GPUs (exclui uso, fim de vida e servidor host) (p. 3)
+  - Métrica: Memória HBM responde por 42% (546 kg), circuitos integrados por 25% (332 kg) e componentes térmicos por 18% (230 kg); montagem 8,6%, transporte 0,4% (p. 3)
+  - Métrica: Pegada do berço ao portão de 1.312 kgCO2e por placa HGX H100 com 8 GPUs (consumo típico de 5600 W) (p. 1, 3)
+  - Métrica: Materiais e componentes respondem por 91% (memória HBM 42%, circuitos integrados 25%, componentes térmicos 18%); montagem 8,6%; transporte 0,4% (p. 3)
+- **M599 · OCDE (2022)** — Measuring the environmental impacts of artificial intelligence compute and applications: The AI footprint (OECD Digital Economy Papers No. 341) · F2, F3 · relevância alta · [PDF](10_ia-sustentabilidade/OECD_2022_measuring-environmental-impacts-ai-compute-footprint.pdf)
+  - Framework de medição da OCDE para impactos diretos (computação) e indiretos (aplicações), com lista de indicadores de água e de fim de vida — base para o 'o que medir'.
+  - Métrica: Apenas 33–50% dos operadores de data center compilam e reportam métricas de uso de água (p. 29)
+  - Métrica: Indicadores de água sugeridos: retirada (m3), consumo (m3), descarte (m3), WUE (L/kWh) e intensidade de retirada (p. 30)
+  - Métrica: Indicadores de fim de vida: lixo eletrônico (t), taxa de reciclagem, eficiência de descarte (EDE) e percentual enviado a aterro (p. 31)
+  - Métrica: Infraestrutura de TIC responde por ~12 milhões de t, ou 25% do lixo eletrônico global (p. 30)
+- **M600 · OpenAI (Sam Altman, CEO) (2025)** — The Gentle Singularity (energia e água por consulta ao ChatGPT) · F1, F3 · relevância alta · [PDF](10_ia-sustentabilidade/OpenAI-Altman_2025_gentle-singularity-energia-por-consulta.pdf)
+  - Post de 10/06/2025 do CEO da OpenAI; é o único número oficial de energia por consulta da empresa, que não publica relatório ambiental. Não diz se é média ou mediana, se inclui o overhead do data center, o treino ou a água da geração elétrica.
+  - Métrica: Consulta média ao ChatGPT: cerca de 0,34 Wh e 0,000085 galão de água (cerca de um quinze avos de colher de chá), sem metodologia, modelo ou fronteira informados (p. 4)
+  - Métrica: Consulta média ao ChatGPT: ~0,34 watt-hours e ~0,000085 galão de água (~1/15 de colher de chá), sem metodologia, modelo ou período informados
+  - Métrica: Consulta média ao ChatGPT: ~0,34 Wh e ~0,000085 galão de água (~1/15 de colher de chá), sem metodologia, escopo ou modelo informados
+  - Métrica: Consulta média ao ChatGPT: cerca de 0,34 Wh e 0,000085 galão de água (cerca de 0,32 mL); post de 10/06/2025 (p.1, p.4)
+- **M601 · OpenLLM-France: Mens Data, CNRS/IDRIS e LINAGORA (Léobet, Lavallée, Lorré) (2026)** — Life Cycle Assessment of Pre-training the Lucie 7B Open-Source Large Language Model on the Jean Zay Supercomputer · F3, F2 · relevância alta · [PDF](10_ia-sustentabilidade/CNRS-IDRIS_2026_lca-lucie-7b-jean-zay.pdf)
+  - ACV completa de treino de LLM em rede de baixo carbono, seguindo a AFNOR SPEC 2314 ('IA frugal'): com eletricidade limpa, a fabricação responde por quase metade da pegada. Analogia direta para o Brasil.
+  - Métrica: Pegada anual da partição H100 do Jean Zay: 417,5 t CO2e, 46% fabricação e 54% operação, em rede francesa de 21,7 g CO2e/kWh (p. 6, 8)
+  - Métrica: Intensidade de 36,7 g CO2e por hora de GPU H100, incluindo fabricação amortizada (p. 1, 6)
+  - Métrica: Treino do Lucie 7B: 21 t CO2e em 574 564 horas de GPU H100 e ~76 m3 de água no local; WUE anual de 0,07 L/kWh com resfriamento líquido a água morna (p. 1)
+  - Métrica: Nó de computação: 1.400 kg CO2e do servidor host + 4 × 164 kg CO2e por GPU H100 = 2.056 kg CO2e (p. 5)
+- **M602 · PNUMA (UNEP) - United for Efficiency (U4E) (2025)** — Sustainable Procurement Guidelines for Data Centres and Servers · F2, F3 · relevância alta · [PDF](10_ia-sustentabilidade/UNEP-U4E_2025_sustainable-procurement-guidelines-data-centres-servers.pdf)
+  - Diretrizes do PNUMA (jun/2025) para compras de data centers e servidores, com metas escalonadas de PUE, WUE, energia renovável, refrigerantes, utilização e reuso de calor. Referência prática para uma empresa usuária definir critérios ao contratar nuvem ou colocation.
+  - Métrica: PUE máximo para contratar data center de colocation existente: 1,5 em 2025, 1,4 em 2027, 1,3 em 2029 e 1,2 em 2031 (clima quente e úmido: 1,7 a 1,4); para prédio novo, 1,4 em 2025 a 1,1 em 2031 por projeto (p. 18)
+  - Métrica: WUE máximo de 1,5 L/kWh em 2025, 1 L/kWh em 2027, 0,5 L/kWh em 2029 e 0,2 L/kWh em 2031 (p. 19)
+  - Métrica: Fator de energia renovável (REF) mínimo de 50% em 2025, 60% em 2027, 70% em 2029 e 80% em 2031; refrigerantes de resfriamento com GWP abaixo de 10 e de ar-condicionado abaixo de 680 (p. 20)
+  - Métrica: Utilização anual dos equipamentos de TI de ao menos 50% em 2025 a 80% em 2031; fator de reuso de energia de ao menos 30% em 2025 a 60% em 2031 (p. 21)
+- **M603 · Presidência da República (Planalto) (2026)** — Lei nº 15.504, de 15 de setembro de 2026 (Redata — Regime Especial de Tributação para Serviços de Datacenter) · F3 · relevância alta · [PDF](10_ia-sustentabilidade/Planalto_2026_lei-15504-redata-texto-integral.pdf)
+  - Primeira norma brasileira com métrica hídrica para data centers: WUE ≤ 0,05 L/kWh é muito mais rigoroso que a média de mercado (0,15–0,36 L/kWh), mas cobre só a água no local, não a água da geração elétrica.
+  - Métrica: Habilitação ao Redata exige WUE igual ou inferior a 0,05 L/kWh, com aferição anual, e atendimento da totalidade da demanda elétrica por fontes renováveis ou de baixa emissão (Art. 11-B, §1º, III e IV) (p. 2)
+  - Métrica: Relatório de sustentabilidade público com, no mínimo, WUE e fontes de energia dos data centers habilitados (Art. 11-B, §10) (p. 3)
+  - Métrica: Habilitação exige atender 100% da demanda elétrica por contratos ou autoprodução de fontes 'renováveis ou de baixa emissão, na forma de regulamento', sem definir baixa emissão (art. 11-B, §1º, III; p. 2)
+  - Métrica: WUE igual ou inferior a 0,05 L/kWh, com aferição anual (art. 11-B, §1º, IV; p. 2)
+- **M604 · PwC (2025 (29/04/2025))** — Could net-zero AI become a reality? (Value in motion) · F2, F3 · relevância alta · [link](https://www.pwc.com/gx/en/issues/value-in-motion/ai-energy-consumption-net-zero.html)
+  - Modelagem da PwC que conclui que a IA pode ter efeito neutro ou levemente positivo em energia e emissões até 2035, mas o resultado depende de uma premissa de ganho de eficiência fixada pelos autores. Tentativa de salvar em PDF falhou (banner de cookies); conteúdo lido na página oficial.
+  - Métrica: Com adoção ampla de IA, data centers consumiriam 13–16% mais energia em 2035 que no cenário base; 18–21% mais no acumulado 2024–2035
+  - Métrica: Fora dos data centers, a IA reduziria o uso de energia em 0,3–1,3% em 2035; saldo líquido em 2035: −0,5% a −1,1%; acumulado 2024–2035: de −0,9% a +0,1%
+  - Métrica: Emissões de GEE: −0,1% a −1,1% no acumulado 2024–2035 e −0,3% a −1,9% em 2035
+  - Métrica: Premissas: cada ponto percentual de atividade habilitada por IA eleva a eficiência em 0,4 p.p. nos data centers e 0,1 p.p. no resto da economia (modelo de dinâmica de sistemas, 7 regiões, 8 países, 17 setores)
+- **M605 · PwC UK, encomendado pela Microsoft (2019)** — How AI can enable a Sustainable Future · F3, F1 · relevância alta · [PDF](10_ia-sustentabilidade/PwC-Microsoft_2019_how-ai-can-enable-a-sustainable-future.pdf)
+  - Estudo de consultoria encomendado pela Microsoft, com modelo de equilíbrio geral. É o segundo número global mais citado ('4%'), mas o 4% é o teto da faixa. Não revisado por pares; Stern et al. (2025) apontam falta de transparência metodológica.
+  - Métrica: IA em aplicações ambientais poderia reduzir as emissões globais de GEE em 1,5–4,0% até 2030 vs. BAU e elevar o PIB global em 3,1–4,4% (p. 8)
+  - Métrica: Teto de 2,4 Gt CO2e, US$ 5,2 trilhões e 38,2 milhões de empregos líquidos, com 18 alavancas em quatro setores (p. 14)
+  - Métrica: Agricultura: até 160 Mt CO2e de redução em 2030 (robótica agrícola, monitoramento de precisão e automação do trabalho) (p. 8, 27)
+  - Métrica: Maiores efeitos em energia (até -2,2%) e transporte (até -1,7%) (p. 8)
+- **M606 · Queen Margaret University (Guangda Liang) (2026)** — The cloud's thirst: Quantifying AI's water footprint and its impact on the water-energy nexus in São Paulo, Brazil (Cambridge Prisms: Water 4, e11) · F3 · relevância alta · [PDF](10_ia-sustentabilidade/CambridgePrismsWater_2026_liang-ai-water-footprint-sao-paulo.pdf)
+  - Único estudo científico localizado sobre a pegada hídrica da IA no Brasil: a matriz hídrica reduz carbono, mas não água, e cria um elo de vulnerabilidade com secas. Estudo de caso com modelo espacial; números são estimativas.
+  - Métrica: Polo de infraestrutura de IA da Região Metropolitana de São Paulo, com ~550 MW de carga de TI: pegada hídrica estimada de 16,1 milhões de m³ por ano (p. 1)
+  - Métrica: Mais de 46% dessa pegada é água indireta (“virtual”) evaporada na geração hidrelétrica (p. 1)
+  - Métrica: Equivale às necessidades de mais de 100.000 domicílios (p. 1)
+  - Métrica: Cluster de data centers de IA na Grande São Paulo (cerca de 550 MW de TI): pegada hídrica de 16,1 milhões de m3 por ano, mais de 46% indireta pela evaporação em reservatórios hidrelétricos (p.1)
+- **M607 · SAP SE (2025 (Q4; PDF de mar/2026))** — AI and Sustainability at SAP (Q4 2025, External) · F1, F2 · relevância alta · [PDF](10_ia-sustentabilidade/SAP_2025_ai-and-sustainability-at-sap.pdf)
+  - Documento público da SAP sobre IA e sustentabilidade, com métrica de intensidade (emissões por token) e prática de incluir emissões de modelos de terceiros no inventário. O rodapé traz marcação de modelo ('INTERNAL – SAP and External Parties under NDA Only'), mas o documento é intitulado 'External' e está em download aberto no site da SAP.
+  - Métrica: Energia e clima são hoje os aspectos mais significativos e quantificáveis da pegada da IA; água e materiais avaliados à medida que métodos amadurecem (p. 8)
+  - Métrica: Todos os data centers próprios usam eletricidade renovável; emissões do treino de modelos de terceiros são rastreadas e incluídas no inventário de GEE da SAP (p. 9)
+  - Métrica: Otimizador de prompts roteia consultas simples para modelos mais eficientes; padrões internos de desenvolvimento com medições de desempenho (p. 9)
+  - Métrica: Painéis monitoram emissões de cargas de IA; queda de ~60% nas emissões médias por token entre 2024 e o 1º tri de 2025 (análise interna, sem método publicado) (p. 10)
+- **M608 · Salesforce (2025 (ago/2025))** — AI Sustainability Outlook: The Challenges, Potential, and Path Forward · F1, F2 · relevância alta · [PDF](10_ia-sustentabilidade/Salesforce_2025_ai-sustainability-outlook.pdf)
+  - Documento-síntese da estratégia de IA sustentável da Salesforce, exemplo mais completo de empresa que trata a pegada da IA como Escopo 3 (não opera data centers) e age via compras, desenho de produto e transparência.
+  - Métrica: Estrutura de três pilares: demanda inteligente (usar menos IA e modelos do tamanho certo), eficiência e suprimento limpo (p. 10–13)
+  - Métrica: Modelos de 44 a 135 milhões de parâmetros para mascaramento de dados e toxicidade, ~99% mais eficientes que LLMs de fronteira (alegação da empresa) (p. 11)
+  - Métrica: Seleção de data centers usa PUE e WUE; migração para Hyperforce trouxe 40% de ganho de eficiência sobre data centers em colocation (p. 12)
+  - Métrica: Combustíveis fósseis supriam 56% da energia de data centers; cita previsão de 40% de projetos de IA com gargalo de energia em 2027 (p. 4)
+- **M609 · Salesforce (2026 (08/06/2026))** — Measuring AI's Environmental Impact: How We're Operationalizing Transparency Through Model Cards · F1, F2 · relevância alta · [link](https://www.salesforce.com/news/stories/ai-model-cards-environmental-metrics/)
+  - Exemplo concreto de divulgação de pegada por modelo para clientes. Valores numéricos aparecem em imagens nas fichas e não foram extraídos. Tentativa de salvar em PDF bloqueada (Access Denied).
+  - Métrica: Fichas de modelos (model cards) passam a ter seção de impacto ambiental com energia e carbono estimados para pré-treino, pós-treino e inferência
+  - Métrica: Método AI Energy Score: tipo de hardware, utilização de GPU, tempo de execução e região do data center
+  - Métrica: Disponível para modelos selecionados (First Name Match, Account Match, TextEval); compromisso de estender a modelos em produção
+- **M610 · Salesforce (com Hugging Face, Cohere e Carnegie Mellon University) (2025 (10/02/2025))** — Salesforce Joins Technology and Academic Leaders to Unveil AI Energy Score Measuring AI Model Efficiency · F1, F2 · relevância alta · [link](https://www.salesforce.com/news/stories/ai-energy-score/)
+  - Anúncio do AI Energy Score, primeiro rótulo público de eficiência energética de modelos, inspirado no Energy Star. Serve de régua para empresas usuárias compararem modelos.
+  - Métrica: Lançamento com 166 modelos avaliados em 10 tarefas (geração de texto e imagem, resumo etc.) e rótulo de 1 a 5 estrelas de eficiência energética
+  - Métrica: Salesforce se compromete a divulgar a eficiência energética de seus modelos proprietários
+  - Métrica: Métrica de referência: energia de GPU (Wh) por 1.000 consultas (documentação e versão 2 do leaderboard)
+  - Métrica: L'Oréal (empresa usuária) apoia a iniciativa e pede que provedores de modelos proprietários compartilhem dados de energia
+- **M611 · U.S. EPA (2025)** — eGRID2023 Summary Tables (revision 2) · F3 · relevância alta · [PDF](10_ia-sustentabilidade/EPA_2025_egrid2023-summary-tables-rev2.pdf)
+  - Último eGRID oficial (revisão de 12/06/2025). Base do fator location-based dos EUA.
+  - Métrica: Taxa média nacional de emissão (total output) dos EUA em 2023: 767,2 lb CO2/MWh e 770,9 lb CO2e/MWh (cerca de 350 gCO2e/kWh); perda bruta da rede de 4,2% (p.2)
+  - Métrica: Sub-regiões com muitos data centers: SRVC (Virgínia/Carolina) 596,3 lb CO2e/MWh (cerca de 270 g) e RFCE 599,2 lb (p.2)
+- **M612 · UC Riverside e UT Arlington (Li, Yang, Islam e Ren) (2025)** — Making AI Less “Thirsty”: Uncovering and Addressing the Secret Water Footprint of AI Models (arXiv v5; Communications of the ACM, 2025) · F2, F3 · relevância alta · [PDF](10_ia-sustentabilidade/Li-Ren-UCR_2025_making-ai-less-thirsty-v5.pdf)
+  - Estudo que trouxe a água para o debate, separando consumo no local (resfriamento) e fora do local (geração elétrica). A versão revisada trocou “20–50 perguntas” por “10–50 respostas de tamanho médio”. Arquivo obtido por outro agente na mesma rodada.
+  - Métrica: Treinar o GPT-3 em data centers da Microsoft nos EUA consumiria 5,4 milhões de litros de água no total, incluindo 700.000 litros de consumo direto no local (p. 1-2)
+  - Métrica: O GPT-3 “bebe” uma garrafa de 500ml para cerca de 10 – 50 respostas de tamanho médio, conforme local e momento (p. 2)
+  - Métrica: Média dos EUA: 2,200 mL no local + 14,704 mL fora do local (geração elétrica) = 16,904 mL por requisição, ou 29,6 requisições por 500 mL (Tabela, p. 5)
+  - Métrica: Premissa de 0,004 kWh de energia de servidor por requisição média (até 800 palavras de entrada e 150 – 300 de saída) (p. 5-6)
+- **M613 · UIT (ITU) e World Benchmarking Alliance (WBA) (2026)** — Greening Digital Companies 2026: Monitoring Emissions and Climate Commitments · F1, F3 · relevância alta · [PDF](10_ia-sustentabilidade/ITU-WBA_2026_greening-digital-companies.pdf)
+  - 5ª edição (2026, dados de 2024) do monitoramento UIT-WBA. Evidencia a divergência entre emissões market-based e location-based e a alta das emissões operacionais dos hiperescaladores ligados à IA (até 239% do nível de 2020), sem atribuí-la só à IA.
+  - Métrica: 163 empresas digitais consumiram 494 TWh em 2024, 1,7% da eletricidade mundial; as 10 maiores usaram 269 TWh (54%) (p. 10)
+  - Métrica: Participação renovável na eletricidade: 68% nas empresas da América do Norte, 69% na Europa e Ásia Central e 19% no Leste Asiático e Pacífico (p. 10)
+  - Métrica: Emissões de escopo 1 e escopo 2 location-based de 301 milhões de t CO2e em 2024 (0,8% das emissões globais ligadas a energia); as emissões market-based equivalem a cerca de um terço das location-based (p. 11)
+  - Métrica: Escopo 3 de 924 milhões de t CO2e; 76% das emissões totais nas 93 empresas com inventário completo (p. 12)
+- **M614 · UIT — ITU-T, Comissão de Estudos 5 (conteúdo equivalente à ETSI ES 204 135) (2026)** — Recommendation ITU-T L.1801 (02/2026) — Guidelines for assessing the environmental impact of artificial intelligence systems · F2, F3 · relevância alta · [PDF](10_ia-sustentabilidade/ITU-T_2026_L1801-guidelines-environmental-impact-ai-systems.pdf)
+  - Recomendação da UIT (agência da ONU), feita com o ETSI, que aplica avaliação de ciclo de vida a sistemas de IA e permite comparar IA com alternativas sem IA, incluindo efeitos de segunda ordem (rebote). É a referência mais completa sobre o que medir (energia, carbono, água, hardware) e como alocar treino e infraestrutura compartilhada. Útil para definir a métrica-padrão de uma empresa usuária.
+  - Métrica: Aprovada em 06/02/2026 pela Comissão de Estudos 5; conteúdo técnico equivalente à ETSI ES 204 135; baseada na ACV da ITU-T L.1410 e no método de efeitos habilitadores da L.1480 (p. 3, 6)
+  - Métrica: Treino inicial entra na etapa de produção da ACV e inferência/re-treino na etapa de uso; o impacto do treino deve ser reportado também em separado, e o aprendizado contínuo (estimado) separado do treino inicial (medido) (p. 15-16)
+  - Métrica: Exemplo de unidade funcional para geração de texto: X tokens de prompt + Y tokens gerados + Z tokens de raciocínio; métricas por prompt (energia, GEE ou água por prompt) só valem como unidade funcional se incluírem o ciclo de vida completo (p. 18)
+  - Métrica: Energia: medir kWh quando houver; usar dado market-based (instrumentos contratuais) quando conhecido, location-based na falta dele e média global só em último caso; incluir o PUE do sítio (p. 20)
+- **M615 · University of Massachusetts Amherst (Strubell, Ganesh e McCallum) — ACL 2019 (2019)** — Energy and Policy Considerations for Deep Learning in NLP · F3 · relevância alta · [PDF](10_ia-sustentabilidade/ACL_2019_strubell-energy-policy-deep-learning-nlp.pdf)
+  - Primeiro estudo a quantificar energia, custo e CO2 do treino de modelos de linguagem. O valor extremo (busca de arquitetura convertida de TPU para GPU e calculada com a rede média dos EUA) virou a manchete “treinar uma IA emite o mesmo que cinco carros”. Essencial para explicar a origem e os limites desse número.
+  - Métrica: 626.155 lbs de CO2e estimados para treinar o Transformer (big) com busca de arquitetura neural (NAS), contra 126.000 lbs na vida útil de um carro médio dos EUA incluindo combustível — origem do mito dos “cinco carros” (Tabela 1, p. 1)
+  - Métrica: 192 lbs de CO2e para treinar o mesmo Transformer (big) sem a busca de arquitetura (Tabela 1, p. 1)
+  - Métrica: A NAS foi estimada (não medida) convertendo 32.623 horas de TPU em 274.120 horas de GPU P100 e 656.347 kWh·PUE, com PUE de 1,58 e 0,954 lb de CO2 por kWh da média dos EUA (p. 2-4)
+  - Métrica: Treinar o BERT base em GPU (64 V100) emitiria cerca de 1.438 lbs de CO2e, “aproximadamente um voo transamericano” (Tabela 3, p. 4)
+- **M616 · University of Rhode Island, University of Tunis e Providence College (Jegham et al.) (2025)** — How Hungry is AI? Benchmarking Energy, Water, and Carbon Footprint of LLM Inference (arXiv v6) · F1, F2, F3 · relevância alta · [PDF](10_ia-sustentabilidade/URI_2025_jegham-how-hungry-is-ai-llm-inference.pdf)
+  - Estimativa (não medição) de energia, água e carbono por consulta de 30 modelos comerciais, combinando latência e throughput de APIs com potência de hardware, PUE, WUE e intensidade de carbono por provedor. Mostra o peso da infraestrutura (o mesmo modelo gasta 70% menos no Azure) e do raciocínio. Preprint revisado várias vezes (v1: >33 Wh; v6: >29 Wh).
+  - Métrica: GPT-4o (mar/25): 0,423 Wh por consulta curta (100 tokens de entrada e 300 de saída); em consultas longas (10k de entrada e 1,5k de saída), o3 chega a 12,222 Wh e DeepSeek-R1 em servidores próprios a 29,078 Wh (Tabela, p. 8)
+  - Métrica: Llama-3.1-8B: 0,443 Wh por consulta longa; Llama 3.1 405B: 25,202 Wh (p. 8-9)
+  - Métrica: DeepSeek-R1 em servidores próprios: mais de 200 mL de água e ~17 gCO2e por consulta longa; no Azure, 34 mL e 2,5 gCO2e (p. 9)
+  - Métrica: GPT-4o em 2025 (~772 bilhões de consultas): 391.509 a 463.269 MWh, 1.334.991 a 1.579.680 kL de água evaporada e 138.125 a 163.441 tCO2e por ano (p. 11)
+- **M617 · VU Amsterdam / Digiconomist (Alex de Vries) (2023)** — The growing energy footprint of artificial intelligence (Joule 7(10): 2191-2194) · F3 · relevância alta · [link](https://doi.org/10.1016/j.joule.2023.09.004)
+  - Comentário que popularizou o “≈3 Wh por consulta” e o “10x uma busca” e as projeções de consumo da IA em escala de países. Lido no site da revista (Open Archive); o download automático do PDF foi bloqueado pelo editor. Números são estimativas top-down de 2023, depois revistas (ver Epoch AI 2025 e divulgações de 2025).
+  - Métrica: ChatGPT: demanda estimada de 564 MWh por dia (3.617 servidores HGX A100, segundo a SemiAnalysis) para 195 milhões de requisições, “no máximo 2,9 Wh por requisição”
+  - Métrica: ≈3 Wh por interação com LLM, derivados da fala do presidente da Alphabet de que custaria “10 vezes mais” que uma busca (custo, não energia) e dos 0,3 Wh por busca do Google
+  - Métrica: IA em todas as buscas do Google: 6,9–8,9 Wh por requisição e até 29,2 TWh/ano (como a Irlanda), cenário que o próprio autor considera improvável
+  - Métrica: 1,5 milhão de servidores de IA da NVIDIA em 2027 poderiam consumir 85,4–134,0 TWh/ano operando a plena carga
+- **M618 · VU Amsterdam / Digiconomist (Alex de Vries-Gao) (2025)** — The carbon and water footprints of data centers and what this could mean for artificial intelligence (Patterns, 101430) · F2, F3 · relevância alta · [PDF](10_ia-sustentabilidade/deVriesGao-VU_2026_carbon-water-footprints-data-centers-ai.pdf)
+  - Primeira estimativa revisada por pares do carbono e da água da IA em escala global, a partir das intensidades médias dos data centers. Mostra que a falta de divulgação por carga de trabalho impede medir a IA com precisão. Arquivo obtido por outro agente na mesma rodada.
+  - Métrica: Pegada de carbono dos sistemas de IA em 2025: 32,6 a 79,7 milhões de toneladas de CO2; pegada hídrica: 312,5 a 764,6 bilhões de litros (diretos + indiretos) (p. 1)
+  - Métrica: A demanda de potência dos sistemas de IA pode chegar a 23 GW no fim de 2025, quase metade dos 47,4 GW médios dos data centers em 2024 (p. 1)
+  - Métrica: Escopo só operacional; o carbono incorporado representa 23% da pegada das TIC em geral e menos nos data centers (p. 2)
+  - Métrica: Nenhuma das empresas analisadas reporta métricas específicas de IA (p. 4)
+- **M619 · Vrije Universiteit Amsterdam (Alex de Vries-Gao) — Resources, Conservation and Recycling 229, 108872 (2026)** — Recalibrating global artificial intelligence e-waste estimates · F3 · relevância alta · [link](https://doi.org/10.1016/j.resconrec.2026.108872)
+  - Recalibração revisada por pares e em acesso aberto (CC BY), mas o ScienceDirect exigiu captcha. Métricas lidas na página do autor e na notícia oficial da VU. Baixar manualmente pelo DOI.
+  - Métrica: Servidores de IA podem gerar 131,0–224,8 mil t de lixo eletrônico por ano em 2030 (destaques do autor)
+  - Métrica: Volume comparável ao lixo eletrônico anual de 2022 de Dinamarca, Noruega ou Áustria (destaques)
+  - Métrica: Primeira estimativa baseada em dados de oferta (capacidade de fabricação de servidores), com vida útil real maior que 3 anos (destaques)
+- **M620 · WBCSD - World Business Council for Sustainable Development (2025)** — Avoided Emissions in the Agriculture & Food Sector · F2 · relevância alta · [link](https://www.wbcsd.org/resources/avoided-emissions-in-the-agriculture-food-sector/)
+  - Guia setorial de emissões evitadas para o agro: o método mais próximo do que um usuário de IA no agro e na bioenergia precisaria para declarar benefício. Download atrás de formulário.
+  - Métrica: Guia setorial publicado em 17/09/2025; a página destaca que agricultura e sistemas alimentares respondem por cerca de um terço das emissões globais de GEE
+- **M621 · WBCSD - World Business Council for Sustainable Development (2025)** — Guidance on Avoided Emissions v2.0 · F2 · relevância alta · [link](https://www.wbcsd.org/resources/guidance-on-avoided-emissions-helping-business-drive-innovations-and-scale-solutions-toward-net-zero/)
+  - Versão atual do guia de emissões evitadas. A v1 (2023) foi baixada como substituta.
+  - Métrica: Publicada em 24/07/2025 (metadado da página oficial); download condicionado a formulário
+- **M622 · WBCSD - World Business Council for Sustainable Development (2023)** — Guidance on Avoided Emissions: Helping business drive innovations and scale solutions toward Net Zero (v1) · F2 · relevância alta · [PDF](10_ia-sustentabilidade/WBCSD_2023_guidance-on-avoided-emissions.pdf)
+  - Guia de referência para medir e comunicar o 'lado do benefício' sem greenwashing. Versão 1 (2023); a v2.0 (24/07/2025) exige formulário. Base para orientar uma empresa usuária a não abater emissões evitadas do inventário nem somar alegações.
+  - Métrica: Nove princípios de reporte: emissões evitadas sempre separadas do inventário (escopos 1, 2 e 3); proibido usá-las para alegar neutralidade ou net zero; declarar abordagem (ano a ano ou prospectiva), % da receita das soluções, verificação por terceiros, efeitos colaterais e rebote (p. 10)
+  - Métrica: Três 'portões' de elegibilidade: credibilidade climática da empresa, alinhamento à ciência e legitimidade da contribuição; cálculo em 5 passos com cenário de referência e ciclo de vida (p. 9)
+  - Métrica: Para alegar emissões evitadas, a empresa deve contabilizar a pegada da própria solução; não há alocação entre atores e a dupla contagem ao longo da cadeia é aceita, como no escopo 3 (p. 35–36)
+- **M623 · Watershed (J. Bistline et al.), com contribuições de Stanford University e Tsinghua University (2026)** — Estimating GHG Emissions from AI Use: Framework for Corporate-Level Measurement (white paper) · F1, F2, F3 · relevância alta · [PDF](10_ia-sustentabilidade/Bistline-etal_2026_estimating-ghg-emissions-from-ai-use-corporate-framework.pdf)
+  - Guia mais aplicável a uma empresa usuária de IA: três níveis de cálculo, unidade por token e lista de dados a pedir aos fornecedores. Atenção a imprecisões: atribui 47x de redução de energia ao Google (o paper diz 33x em energia; 47x é Escopo 2 market-based) e 11.390 tCO2e ao Llama 3.3 70B (valor da família Llama 3.1). Defaults publicados para comentário.
+  - Métrica: Fronteira: hardware incorporado e treino amortizados (treino em linha separada), acelerador, host (10-20% da potência do servidor), capacidade ociosa e overhead via PUE; dispositivos do usuário fora (Tabela 1, p.17-18)
+  - Métrica: Unidade funcional: kgCO2e por milhão de tokens (MTok) de inferência, entrada e saída separadas, reportada sempre junto com kWh (p.1, p.20-21)
+  - Métrica: Nível Gasto: 0,134 kgCO2e por US$ de 2023 (Open CEDA, setor BEA 518200) (p.22)
+  - Métrica: Nível Atividade: kWh = (I x EI_in + O x EI_out) x PUE; kgCO2e = kWh x GI/1000 + E_emb x (I+O); treino = E_train x (I+O) em linha separada (p.23)
+- **M624 · World Resources Institute (Reig, Luo, Christensen, Sinistore) com WSP (2020)** — Guidance for Calculating Water Use Embedded in Purchased Electricity · F2, F3 · relevância alta · [PDF](10_ia-sustentabilidade/WRI_2020_guidance-water-use-embedded-purchased-electricity.pdf)
+  - Guia que definiu o cálculo da 'água de escopo 2' (embutida na eletricidade comprada) e publicou fatores por país. Pelo método adotado, a matriz hidrelétrica brasileira é a mais intensiva em consumo de água por kWh — ponto sensível para uma empresa no Brasil, ainda que metodologicamente discutível.
+  - Métrica: Fator médio de consumo de água da eletricidade do Brasil de 4,91 galões americanos/kWh, o mais alto entre 48 países; Malta tem 0,3 (p. 1, 16)
+  - Métrica: Média global ponderada: 315 gal/kWh de retirada e 1,27 gal/kWh de consumo (p. 14)
+  - Métrica: Método conservador imputa 100% da evaporação dos reservatórios à geração; perda média de 1,5 m3 por GJ, variando de 0,01 a 53 m3/GJ (p. 11)
+  - Métrica: Hidrelétricas eram 63,3% da geração brasileira nos dados de base (2016) (p. 26)
+- **M625 · AFNOR (com Ecolab/CGDD, Ministério da Transição Ecológica da França) (2024)** — AFNOR SPEC 2314 - Référentiel général pour l'IA frugale: mesurer et réduire l'impact environnemental de l'IA · F2, F3 · relevância media · [link](https://www.boutique.afnor.org/fr-fr/norme/afnor-spec-2314/referentiel-general-pour-lia-frugale-mesurer-et-reduire-limpact-environneme/fa208976/421140)
+  - Referencial de jun/2024 (2ª tiragem abr/2025, 100 p.) com metodologia de ACV, 31 fichas de boas práticas e regras de comunicação; usado pela Mistral no estudo do Mistral Large 2. Consulta gratuita, mas via cadastro na loja AFNOR; não lido.
+- **M626 · Allen Institute for AI, Microsoft, Hugging Face e universidades (Dodge et al.) (2022)** — Measuring the Carbon Intensity of AI in Cloud Instances (FAccT 2022) · F1, F3 · relevância media · [PDF](10_ia-sustentabilidade/FAccT_2022_dodge-carbon-intensity-ai-cloud-instances.pdf)
+  - Propõe medir a intensidade de carbono do software com dados marginais por local e horário e mostra que a escolha da região é a alavanca operacional mais forte, seguida do horário. Base metodológica para contabilizar IA na nuvem.
+  - Métrica: Treinar um transformer de 6,1 bilhões de parâmetros por 8 dias em 256 A100 (13% do treino) consumiu 13,8 MWh; o treino completo exigiria ~103,5 MWh (p. 7)
+  - Métrica: O ajuste fino do BERT emitiria de ~7k g a ~26k g de CO2 conforme a região de nuvem escolhida (p. 8)
+  - Métrica: Mesmo parcialmente treinado, o modelo de 6 bilhões emitiu mais que um domicílio médio dos EUA em um ano (8,30 t) (p. 8-9)
+  - Métrica: Escolha da região é a alavanca de maior redução das emissões operacionais (p.1)
+- **M627 · Amazon Web Services (2025)** — AWS Customer Carbon Footprint Methodology - Model 3.0 · F1, F3 · relevância media · [PDF](10_ia-sustentabilidade/AWS_2025_customer-carbon-footprint-tool-methodology-v3.pdf)
+  - Metodologia da ferramenta de pegada da AWS para clientes, base do Sustainability Console. Não separa serviços de IA (ex.: Bedrock).
+  - Métrica: Modelo 3.0 (out/2025): Escopos 1, 2 (location e market-based) e 3 (combustíveis e energia, hardware de TI, prédios e equipamentos, transporte a montante) (p.1-7)
+  - Métrica: Resultados em tCO2e mensais dos últimos 38 meses, por região e por serviço; recálculo anual após asseguração (p.5)
+  - Métrica: Carbono incorporado amortizado linearmente: racks de servidores em 6 anos (p.32); prédios em 50 anos (citado por Bistline et al., 2026, p.19)
+  - Métrica: Alocação às contas por uso físico ou receita equivalente (p.5-6)
+- **M628 · Amazon Web Services (2026)** — AWS launches Sustainability console for carbon emissions tracking (anúncio) · F1 · relevância media · [PDF](10_ia-sustentabilidade/AWS_2026_sustainability-console-lancamento.pdf)
+  - Anúncio oficial (página em português impressa) da console de sustentabilidade que substitui a ferramenta dentro do faturamento.
+  - Métrica: Lançado em 31/03/2026: serviço gratuito com emissões estimadas por região, serviço e escopo (1, 2 e 3), nos métodos location e market-based; API/SDK e relatórios CSV configuráveis (p.1)
+- **M629 · Anthropic (2025)** — Build AI in America · F3 · relevância media · [PDF](10_ia-sustentabilidade/Anthropic_2025_build-ai-in-america-energy.pdf)
+  - Relatório de política energética da Anthropic (21/07/2025) que dimensiona a demanda elétrica da IA nos EUA e pede licenciamento mais rápido de geração e transmissão, sem metas de emissões.
+  - Métrica: O setor de IA dos EUA deve exigir pelo menos 50 GW de capacidade elétrica até 2028 (p. 1, 3)
+  - Métrica: O treino de modelos de fronteira exigirá data centers de 5 GW em 2028 (p. 1)
+  - Métrica: Defende acelerar licenças de geotermia, gás natural e nuclear, numa lógica 'all of the above' de suprimento (p. 2, 11)
+- **M630 · Anthropic (2026)** — Covering electricity price increases from our data centers · F3 · relevância media · [PDF](10_ia-sustentabilidade/Anthropic_2026_covering-electricity-price-increases.pdf)
+  - Compromisso público de 11/02/2026, na mesma linha de Microsoft e OpenAI, de evitar que data centers de IA encareçam a eletricidade das comunidades. Trata de custo e rede, não de emissões.
+  - Métrica: Treinar um único modelo de fronteira exigirá em breve gigawatts; o setor de IA dos EUA precisará de pelo menos 50 GW (p. 1)
+  - Métrica: Pagará 100% das melhorias de rede para conectar seus data centers e cobrirá os efeitos de preço da nova demanda onde não houver geração nova (p. 2)
+  - Métrica: Investe em sistemas que cortam o consumo dos data centers nos picos de demanda e em resfriamento eficiente em água (p. 2)
+- **M631 · Anthropic (2024)** — The Claude 3 Model Family: Opus, Sonnet, Haiku - Model Card (seção 4.3 Sustainability) · F1, F3 · relevância media · [PDF](10_ia-sustentabilidade/Anthropic_2024_claude-3-model-card.pdf)
+  - Única declaração oficial localizada da Anthropic sobre sua pegada de carbono (mar/2024): estratégia baseada em compensação, sem inventário publicado. Contrasta com Google, Meta e Mistral, que divulgam números.
+  - Métrica: Seção 4.3: compensa anualmente as emissões operacionais, inclusive as de computação em nuvem, com créditos de carbono verificados e busca impacto climático 'net zero' anual; não publica energia nem emissões de treino ou inferência (p. 4)
+- **M632 · Association of Equipment Manufacturers (AEM), com American Soybean Association, CropLife America e National Corn Growers Association (2024)** — The Environmental Benefits of Precision Agriculture Quantified (resumo do estudo 'The Environmental Benefits of Precision Agriculture in the United States', 2021) · F1, F3 · relevância media · [link](https://www.aem.org/news/the-environmental-benefits-of-precision-agriculture-quantified)
+  - Estudo de associação da indústria de máquinas, muito citado. As tecnologias medidas são sobretudo piloto automático GNSS, controle de seção, taxa variável, telemetria e irrigação de precisão, não necessariamente IA. Útil como ordem de grandeza da agricultura de precisão, não como prova do efeito da IA. PDF do estudo não localizado.
+  - Métrica: Adoção atual de agricultura de precisão nos EUA: +4% de produção, +7% de eficiência na colocação de fertilizante, -9% de herbicidas e defensivos, -6% de combustível fóssil, -4% de água (página oficial, 21/03/2024)
+  - Métrica: Equivale a 2 milhões de acres poupados, 30 milhões de libras a menos de herbicida e 100 milhões de galões a menos de combustível; ~10,1 milhões de t de CO2 evitadas hoje e mais 17,3 milhões com adoção ampla (página oficial)
+  - Métrica: Com adoção plena: +14% de eficiência em fertilizante, -15% adicionais em defensivos, -21% de água e -16% de combustível (página oficial)
+- **M633 · BMA Advogados (análise jurídica) (2026)** — Redata: regime especial de tributação para data centers é sancionado e MME sinaliza espaço para o gás natural · F3 · relevância media · [link](https://www.bmalaw.com.br/conteudo/energia/informativos-e-newsletters/redata-pl-2782026-senado-aprova-regime-especial-de-tributacao-para-data-centers-e-mme-sinaliza-espaco-para-o-gas-natural)
+  - Análise de escritório de advocacia (não é fonte primária) que explica a disputa sobre 'baixa emissão' no Redata. Contexto relevante: a regulamentação pode permitir data centers abastecidos a gás com incentivo fiscal, tensionando o discurso de 'IA verde' brasileira.
+  - Métrica: O plenário do Senado suprimiu, em 01/09/2026, a definição de 'baixa emissão' do texto; a redação final abre margem ao gás natural (página)
+  - Métrica: O ministro de Minas e Energia defendeu gás natural para data centers em 02/09/2026; a Fazenda defende compensação via CCUS ou créditos de carbono, com base na Taxonomia Sustentável; a definição deve vir por portaria interministerial após o decreto (página)
+- **M634 · Banco Mundial e UIT (ITU) (2023)** — Measuring the Emissions & Energy Footprint of the ICT Sector: Implications for Climate Action · F3 · relevância media · [PDF](10_ia-sustentabilidade/WorldBank-ITU_2023_measuring-emissions-energy-footprint-ict-sector.pdf)
+  - Relatório conjunto Banco Mundial-UIT (dez/2023) com a pegada de energia e emissões do setor de TIC por país e subsetor, incluindo o caso do Brasil (registro público de emissões e uso de geração distribuída renovável pelas operadoras).
+  - Métrica: Estimativas da participação do setor de TIC nas emissões globais variam de 1,5% a 4%; pelos dados do relatório, ao menos 1,7% (p. 9, 12)
+  - Métrica: Data centers conectados cresceram 72% entre 2018 e 2022 (p. 12)
+  - Métrica: Brasil: o Programa Brasileiro GHG Protocol (FGVces) é registro público voluntário com mais de 1.000 empresas reportando os três escopos (p. 40)
+  - Métrica: Brasil: setor de informação e comunicação emitiu 129.438 t CO2e de escopo 1 e 928.755 t CO2e de escopo 2 location-based em 2021, segundo o registro público (p. 41)
+- **M635 · Basel Action Network (Jim Puckett) (2026 (set/2026))** — The Coming AI Waste Wave — White Paper Part I: How Big Is the AI Waste Wave? · F3 · relevância media · [PDF](10_ia-sustentabilidade/BAN_2026_coming-ai-waste-wave-part1.pdf)
+  - White paper de ONG, sem revisão por pares, que amplia o perímetro do lixo eletrônico da IA para toda a infraestrutura do data center e para a troca induzida de dispositivos, chegando a números 40–60 vezes maiores. Mostra como a fronteira muda a conta; usar com cautela.
+  - Métrica: 8,6–13,1 Mt/ano de equipamentos retirados ligados à IA em 2030, 40–60 vezes a projeção de de Vries-Gao (2026) (p. 4)
+  - Métrica: Servidores e aceleradores são só 13% da infraestrutura eletromecânica de um data center; o conjunto soma ~70.000 t por GW (p. 3)
+  - Métrica: 395–617 Mt acumuladas em 2025–2050, incluindo a troca induzida de PCs, celulares e equipamentos de telecom (p. 4)
+  - Métrica: Vida útil de equipamentos de IA comprimida para 2,5–5 anos (p. 4)
+- **M636 · Boston Consulting Group (BCG) e CO2 AI (2025)** — How Companies Are Tackling the Climate Challenge — and Creating Value (BCG + CO2 AI Climate Survey 2025) · F1 · relevância media · [link](https://www.bcg.com/publications/2025/tackling-climate-challenge-creating-value)
+  - Pesquisa anual BCG + CO2 AI. Mostra que até o inventário básico de emissões ainda é raro, contexto para a dificuldade de medir a pegada da IA, e registra que o impacto climático líquido da IA depende de data centers limpos.
+  - Métrica: Só 7% das grandes empresas reportam emissões completas de Escopos 1, 2 e 3 (9% em 2024; 10% em 2023)
+  - Métrica: Empresas que usam várias soluções digitais avançadas (IA preditiva, GenAI, agentes, IoT, satélites) têm 2,3 vezes mais chance de capturar valor climático significativo
+  - Métrica: 82% relatam benefícios econômicos da descarbonização
+  - Métrica: Amostra: 1.924 executivos responsáveis por medição e redução de emissões
+- **M637 · CGI.br / NIC.br (Cetic.br) (2025)** — Data centers no Brasil — Mapeamento da infraestrutura digital no Brasil, notas para um estudo sobre data centers (Panorama Setorial da Internet, ano 17, n. 4) · F3 · relevância media · [PDF](10_ia-sustentabilidade/CGIbr-NICbr_2025_panorama-setorial-data-centers-no-brasil.pdf)
+  - Primeiro esforço institucional de mapear data centers no Brasil; registra a carência de dados públicos sistemáticos e o debate sobre energia e água (inclusive água indireta da geração elétrica).
+  - Métrica: Demanda de potência dos data centers brasileiros em 2024: 843 MW (Brasscom, citada); MME projeta 2,5 GW até 2037 só com novos projetos em SP, RS e CE (p. 3)
+  - Métrica: PBIA prevê apoio a data centers com energia renovável no Norte e Nordeste, com R$ 2,3 bi (BNDES e FNDCT) em 2024–2028 (p. 4)
+  - Métrica: Diagnóstico da Fazenda: cerca de 60% das cargas digitais nacionais no exterior; operar no Brasil ~30% mais caro (p. 5)
+  - Métrica: Cetic.br identificou 340 data centers no PeeringDB, 186 no Data Center Map e 89 públicos via IX.br (p. 11)
+- **M638 · Capgemini Research Institute (2020)** — Climate AI: How artificial intelligence can power your climate action strategy · F1, F3 · relevância media · [PDF](10_ia-sustentabilidade/Capgemini-CRI_2020_climate-ai-climate-action-strategy.pdf)
+  - Pesquisa com executivos e especialistas (800 e 300, segundo a página). Origem dos percentuais autodeclarados citados pela BCG/Google; é percepção, não medição auditada.
+  - Métrica: Casos de uso de IA teriam ajudado as organizações a reduzir emissões de GEE em 13% e melhorar a eficiência energética em 11% nos últimos dois anos (autodeclarado em pesquisa) (p. 2, 14)
+  - Métrica: Até 2030, a IA poderia ajudar a cumprir 11–45% das metas de 'intensidade econômica de emissões' do Acordo de Paris (p. 2)
+  - Métrica: Expectativa de reduzir GEE em 16% e melhorar a eficiência energética em 15% em 3–5 anos (p. 2)
+  - Métrica: Só 13% das organizações combinam visão climática e capacidade de IA em escala ('Climate AI Champions') (p. 3)
+- **M639 · Carnegie Mellon University e Hugging Face (Fernandez et al.) (2025)** — Energy Considerations of Large Language Model Inference and Efficiency Optimizations (ACL 2025) · F1, F2 · relevância media · [PDF](10_ia-sustentabilidade/ACL_2025_fernandez-energy-llm-inference-efficiency-optimizations.pdf)
+  - Mostra quanto escolhas de engenharia (batching, decodificação, framework, GPU, paralelismo) mudam a energia por consulta em cargas reais. Argumento para exigir eficiência de fornecedores e equipes internas.
+  - Métrica: A aplicação correta de otimizações de inferência reduz o consumo total de energia em até 73% frente a linhas de base não otimizadas (p. 1-2, 9)
+  - Métrica: Estimativas baseadas em FLOPs ou na utilização teórica de GPU subestimam o consumo real (p. 1)
+- **M640 · Climate Change AI (Rolnick, Donti, Kaack et al.) (2022)** — Tackling Climate Change with Machine Learning (ACM Computing Surveys 55(2), 2022; arXiv:1906.05433) · F3 · relevância media · [PDF](10_ia-sustentabilidade/Rolnick-ClimateChangeAI_2022_tackling-climate-change-with-machine-learning.pdf)
+  - Survey seminal da Climate Change AI (versão arXiv v2 de nov/2019; publicado na ACM Computing Surveys em 2022). Mapeia aplicações de ML para mitigação e adaptação por setor, sem estimativa global de redução. Útil para mostrar que a comunidade científica já marcava a agricultura de precisão como de impacto incerto.
+  - Métrica: Agricultura de precisão marcada como 'High Leverage' e 'Uncertain Impact'; agricultura responde por ~14% das emissões de GEE e a síntese de fertilizantes por ~2% do consumo global de energia (p. 31)
+  - Métrica: 'Machine learning is not a silver bullet'; bandeira 'Uncertain Impact' para aplicações sujeitas ao paradoxo de Jevons (p. 4)
+  - Métrica: Edifícios inteligentes: efeitos rebote tipicamente de 10–20% de consumo adicional (p. 22)
+- **M641 · Comissão Europeia (DG CNECT / AI Office) (2026)** — Targeted consultation on measuring energy consumption and emissions of AI models and systems · F3 · relevância media · [PDF](10_ia-sustentabilidade/ComissaoEuropeia_2026_consulta-medicao-energia-emissoes-ia.pdf)
+  - Indica para onde vai a regulação europeia: metodologia comum de medição (base do ato delegado previsto no art. 53(5)) e possível rótulo de energia e emissões para modelos e sistemas de IA. Página oficial salva em PDF.
+  - Métrica: Consulta aberta em 07/04/2026 e encerrada em 25/05/2026 (questionário até 01/06), prazos prorrogados; parte do estudo 'Development of a study to measure and foster energy efficient and low emission AI in the EU' (p. 1-2)
+  - Métrica: Objetivo: estruturar a medição para os objetivos de energia do AI Act e apoiar o desenho de um possível rótulo de energia e emissões de IA (p. 2)
+  - Métrica: Coleta dados de computação, eletricidade e hardware no treino e na inferência e avalia indicadores de desempenho; o AI Office publicará resumo agregado (p. 3)
+  - Métrica: Consulta de 07/04 a 25/05/2026 (prazos estendidos) para estudo de medição de energia e emissões de modelos e sistemas de IA (p.1-3)
+- **M642 · Constellation Energy (acordo com a Microsoft) (2024)** — Constellation to Launch Crane Clean Energy Center, Restoring Jobs and Carbon-Free Power to The Grid (PPA com a Microsoft) · F3 · relevância media · [link](https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html)
+  - Comunicado oficial (20/09/2024) do primeiro grande acordo de reativação de usina nuclear para atender uma big tech; virou símbolo da busca por energia firme e limpa para IA.
+  - Métrica: PPA de 20 anos com a Microsoft para reativar a unidade 1 de Three Mile Island: cerca de 835 MW livres de carbono
+  - Métrica: Reinício antecipado para 2027 (antes previsto para 2028), segundo atualização da Constellation de set/2025
+- **M643 · Deloitte Center for Technology, Media & Telecommunications (2024 (Predictions 2025, 19/11/2024))** — As generative AI asks for more power, data centers seek more reliable, cleaner energy solutions (TMT Predictions 2025) · F3 · relevância media · [link](https://www.deloitte.com/us/en/insights/industry/technology/technology-media-and-telecom-predictions/2025/genai-power-consumption-creates-need-for-more-sustainable-data-centers.html)
+  - Previsão anual da Deloitte sobre energia de data centers e GenAI, com recomendações (chips mais eficientes, processamento na borda, PPAs, refrigeração líquida, colaboração com concessionárias). Muito citada, mas reproduz números de segunda mão já superados.
+  - Métrica: Data centers: ~536 TWh em 2025 (~2% da eletricidade mundial) e ~1.065 TWh em 2030; >1.300 TWh se os ganhos de eficiência não vierem
+  - Métrica: Potência crítica de data centers: 96 GW em 2026, com >40% para IA
+  - Métrica: Data centers de IA: 90 TWh em 2026, 'dez vezes 2022' (número derivado de leitura equivocada da IEA 2024 — ver numeros_contestados)
+  - Métrica: Prompt de GenAI consome '10 a 100 vezes' a eletricidade de uma busca (contestado)
+- **M644 · Deloitte Global (2024)** — Powering artificial intelligence: A study of AI's environmental footprint — today and tomorrow · F3 · relevância media · [PDF](10_ia-sustentabilidade/Deloitte_2024_powering-artificial-intelligence-footprint.pdf)
+  - Estudo de modelagem bottom-up da Deloitte sobre energia e emissões de data centers até 2050, com explicação útil de relato location-based vs market-based, PUE e WUE. Defende 'Green AI' com quatro pilares: expansão de renováveis, transparência com métricas padronizadas, abordagem de ecossistema e eficiência. A própria IEA 4E (2025) classifica as projeções da Deloitte como baseadas em dados de mercado (IDC).
+  - Métrica: Data centers: >380 TWh em 2023 (~1,4% da eletricidade mundial; ~0,3% dos GEE) (p. 6)
+  - Métrica: ~1.000 TWh em 2030 (~3%); 970 TWh no cenário de alta adoção; 1.680–3.550 TWh em 2050 conforme o cenário (p. 6, 15–16)
+  - Métrica: Emissões de data centers: 189 MtCO2e em 2023 (location-based, incluindo upstream da geração); 235 MtCO2e em 2030 no cenário Announced Pledges da IEA; 6,7 GtCO2e acumuladas até 2050 (2,4% do orçamento de 1,5 °C) (p. 21)
+  - Métrica: Tecnologias líderes podem reduzir >350 TWh (36%) da demanda de data centers em 2030 e >1.545 TWh (44%) em 2050 (p. 18)
+- **M645 · ECMWF - European Centre for Medium-Range Weather Forecasts (2025)** — ECMWF's AI forecasts become operational (25/02/2025) · F3 · relevância media · [PDF](10_ia-sustentabilidade/ECMWF_2025_aifs-ai-forecasts-operational.pdf)
+  - Exemplo em que a IA reduz o consumo de energia computacional de uma tarefa existente, útil para previsão de renováveis e para o agro. Comparação entre modelos de resoluções diferentes. Release oficial salvo em PDF.
+  - Métrica: O AIFS (previsão do tempo por ML) entrou em operação com redução de aproximadamente 1.000 vezes no uso de energia para produzir uma previsão e ganhos de até 20% em trajetórias de ciclones tropicais (p. 2)
+  - Métrica: O AIFS roda em grade de 28 km contra 9 km do IFS físico; o ganho de energia refere-se à produção da previsão (treinamento não informado) (p. 2)
+- **M646 · EPRI - Electric Power Research Institute (2024)** — Powering Intelligence: Analyzing Artificial Intelligence and Data Center Energy Consumption (white paper 3002028905) · F3 · relevância media · [PDF](10_ia-sustentabilidade/EPRI_2024_powering-intelligence-white-paper.pdf)
+  - Um dos vetores de difusão do “10x Google” no setor elétrico. A edição de 2026 do mesmo estudo não repete a comparação por consulta. Arquivo obtido por outro agente na mesma rodada.
+  - Métrica: “2,9 watt-hours por requisição ao ChatGPT”, 10x os ~0,3 watt-hours de uma busca tradicional do Google (p. 2; p. 4)
+  - Métrica: 2,9 Wh por requisição ao ChatGPT contra cerca de 0,3 Wh por busca no Google, ou seja, 10 vezes mais, citando de Vries (Joule, 2023) (p. 2, 16)
+  - Métrica: Data centers consumiriam de 4,6% a 9,1% da eletricidade dos EUA em 2030, contra cerca de 4% em 2023 (p. 5)
+  - Métrica: IA usaria só 10%-20% da eletricidade dos data centers na época (p. 2)
+- **M647 · EPRI - Electric Power Research Institute (com Epoch AI) (2025)** — Scaling Intelligence: The Exponential Growth of AI's Power Needs (white paper) · F3 · relevância media · [PDF](10_ia-sustentabilidade/EPRI-EpochAI_2025_scaling-intelligence-ai-power-needs.pdf)
+  - Estudo da EPRI com a Epoch AI (agosto/2025) sobre a escalada de potência do treinamento de modelos de fronteira e da capacidade de IA nos EUA. Útil para separar treino de inferência na nota.
+  - Métrica: Cada treinamento de modelo de fronteira demanda hoje cerca de 100-150 MW; deve chegar a 1-2 GW em 2028 e passar de 4 GW em 2030; a computação de treinamento cresce 4,2 vezes ao ano e o pico de potência 2,2 vezes ao ano (p. 3)
+  - Métrica: Capacidade de data centers de IA nos EUA estimada em 5 GW hoje, podendo passar de 50 GW em 2030; a IA poderia usar mais de 5% da capacidade de geração dos EUA em 2030 (p. 4)
+  - Métrica: OpenAI e Google relataram alocações de energia semelhantes entre treinamento e inferência (p. 4)
+- **M648 · Entergy Louisiana (2025)** — Entergy Louisiana receives LPSC approval for major infrastructure investments to support Meta's data center and improve reliability · F3 · relevância media · [link](https://www.entergy.com/news/entergy-louisiana-receives-lpsc-approval-for-major-infrastructure-investments-to-support-metas-data-center-and-improve-reliability)
+  - Comunicado oficial da concessionária sobre a infraestrutura a gás que atenderá o data center Hyperion da Meta; é o exemplo mais claro de expansão fóssil associada à IA ao lado de metas de net zero.
+  - Métrica: Aprovação pelo regulador da Louisiana de três usinas a gás de ciclo combinado para atender o data center da Meta em Richland Parish: duas no fim de 2028 e uma até o fim de 2029
+  - Métrica: Autorização para contratar até 1.500 MW de energia solar
+- **M649 · Epoch AI e EPRI (Josh You e David Owen) (2025)** — How much power will frontier AI training demand in 2030? (resumo do white paper “Scaling Intelligence”, com EPRI) · F3 · relevância media · [PDF](10_ia-sustentabilidade/EpochAI-EPRI_2025_power-demands-frontier-ai-training-2030.pdf)
+  - Projeção da trajetória do treino: a eficiência melhora, mas a escala cresce mais rápido, levando treinos únicos à escala de gigawatts.
+  - Métrica: A potência dos treinos de fronteira cresce 2,2x por ano; os maiores treinos já passam de 100 MW e podem chegar a 4-16 GW por treino em 2030 (p. 1, 3)
+  - Métrica: A computação de treino cresce 4-5x por ano e a eficiência energética das GPUs líderes melhora 40% ao ano (p. 1-2)
+- **M650 · FAO (2026)** — FAO Global Conference on Smart Farming (notícia, 12/05/2026) · F3 · relevância media · [PDF](10_ia-sustentabilidade/FAO_2026_global-conference-smart-farming-fertilizer-rice.pdf)
+  - Página oficial da FAO sobre a conferência de agricultura inteligente (Roma, 1–3/07/2026). O número de arroz é citado sem o estudo primário. Página salva em PDF.
+  - Métrica: Em arroz, a aplicação de fertilizante em taxa variável e sítio-específica (algoritmo de otimização + sensoriamento remoto) reduziu o uso de fertilizante em até 40%, mantendo ou elevando o potencial de produtividade em 15–20% vs. aplicação uniforme (p. 2)
+  - Métrica: Agricultura responde por mais de 70% das retiradas globais de água doce e quase um terço das emissões de GEE (p. 1–2)
+- **M651 · FAO — Conferência Regional para a Europa (2024)** — The role of innovation and digitalization in the sustainable use of natural resources to accelerate the implementation of climate-resilient and low-emission pathways in agrifood systems (ERC/24/2) · F2, F3 · relevância media · [PDF](10_ia-sustentabilidade/FAO_2024_innovation-digitalization-low-emission-pathways-agrifood.pdf)
+  - Documento oficial da FAO, qualitativo sobre a IA, mas útil por indicar o EX-ACT como ferramenta para medir o efeito de intervenções agrícolas, inclusive as apoiadas por IA, e por pedir avaliação dos impactos das tecnologias digitais.
+  - Métrica: Digitalização e IA podem reduzir emissões, mas a eficácia 'depende fortemente' do contexto social, técnico, econômico e de políticas (p. 6)
+  - Métrica: Ferramenta EX-ACT (FAO), baseada na metodologia de inventários do IPCC, estima e acompanha o efeito de intervenções agrícolas sobre emissões; projetos de mitigação na região somaram redução de mais de 27 milhões de tCO2e (p. 8)
+  - Métrica: Recomenda mecanismos de coleta de dados e de monitoramento e avaliação dos impactos ambientais e socioeconômicos das tecnologias digitais (p. 10)
+- **M652 · GHG Protocol (WRI e WBCSD) (2025)** — Public Consultation - Scope 2 (proposta de revisão da Scope 2 Guidance) · F2, F3 · relevância media · [PDF](10_ia-sustentabilidade/GHGProtocol_2025_scope2-public-consultation-hourly-matching.pdf)
+  - Documento da consulta (out/2025) que pode mudar como o market-based de data centers e de IA é contado.
+  - Métrica: Método de mercado: manter instrumentos contratuais, exigindo correlação temporal (casamento horário para grandes organizações) e entregabilidade (p.7-8)
+  - Métrica: Método de localização: hierarquia de fatores, priorizando a precisão espacial e depois a temporal (p.9)
+  - Métrica: Nova definição de mix residual e fallback com fator fóssil (sumário, p.1)
+- **M653 · GHG Protocol (WRI e WBCSD) com ISO (2026)** — Corporate Standard v3.0 - Standard Development Plan (consolidado) · F2, F3 · relevância media · [PDF](10_ia-sustentabilidade/GHGProtocol_2026_consolidated-standard-development-plan.pdf)
+  - Cronograma oficial: regras novas de Escopo 2 e 3 não valem antes de 2028.
+  - Métrica: Norma corporativa consolidada (Corporate, Escopo 2, Escopo 3 e instrumentos de mercado), copublicada com a ISO (p.1)
+  - Métrica: Consulta pública do texto consolidado prevista para o 2º tri/2027 e publicação para o 4º tri/2028 (p.14, p.16)
+  - Métrica: Presidência da COP30 (nov/2025) mandatou GHG Protocol e ISO para liderar a harmonização da contabilidade de GEE (p.4)
+- **M654 · Gartner (2024 (21/05/2024))** — Gartner Predicts 50% of Organizations Will Manage Hybrid Cloud Energy Consumption with Sustainability Monitoring By 2026 (press release) · F2, F3 · relevância media · [link](https://www.gartner.com/en/newsroom/press-releases/2024-05-21-gartner-predicts-half-of-organizations-will-manage-hybrid-cloud-energy-consumption-with-sustainability-monitoring-by-2026)
+  - Release do Gartner sobre medição de energia e carbono de cargas em nuvem, aplicável à IA consumida como serviço. Confirma que o gargalo é o dado do provedor.
+  - Métrica: Previsão: 50% das organizações adotarão monitoramento de sustentabilidade (energia e CO2e) em ambientes de nuvem híbrida até 2026
+  - Métrica: As áreas de TI não conseguem coletar diretamente CO2e e consumo de energia; dados dos provedores não têm qualidade e granularidade suficientes para decisões
+  - Métrica: Recomenda GreenOps e coletar telemetria de sustentabilidade dos provedores de nuvem como se coleta custo e desempenho
+- **M655 · Gartner (2024 (12/11/2024))** — Gartner Predicts Power Shortages Will Restrict 40% of AI Data Centers By 2027 (press release) · F3 · relevância media · [link](https://www.gartner.com/en/newsroom/press-releases/2024-11-12-gartner-predicts-power-shortages-will-restrict-40-percent-of-ai-data-centers-by-20270)
+  - Release do Gartner sobre restrição de energia e efeito sobre custos e metas climáticas. Citado pela Salesforce (AI Sustainability Outlook).
+  - Métrica: 40% dos data centers de IA existentes estarão limitados operacionalmente pela disponibilidade de energia até 2027
+  - Métrica: Energia para servidores incrementais otimizados para IA: 500 TWh/ano em 2027, 2,6 vezes 2023
+  - Métrica: Prevê aumento de emissões de CO2 no curto prazo e recomenda rever metas de CO2 e usar o mínimo de computação, edge e modelos menores
+- **M656 · Gartner (2023 (07/11/2023))** — Gartner Says CIOs Must Balance the Environmental Promises and Risks of AI (press release) · F3 · relevância media · [link](https://www.gartner.com/en/newsroom/press-releases/2023-11-07-gartner-says-cios-must-balance-the-environmental-promises-and-risks-of-ai)
+  - Release do Gartner que recomenda priorizar data centers em nuvem com energia renovável e equilibrar a pegada da IA com seus usos para metas ESG. Fonte do número de 3,5%, sem metodologia pública.
+  - Métrica: Previsão: até 2030 a IA pode consumir até 3,5% da eletricidade mundial (método não divulgado; contestado)
+  - Métrica: Nuvem pública pode emitir 70–90% menos GEE que salas de servidores e data centers próprios
+  - Métrica: 64% dos CEOs veem a combinação de digitalização (como IA) e sustentabilidade como oportunidade de crescimento; 78% dizem que os benefícios da IA superam os riscos
+- **M657 · Gartner (2026 (10/06/2026))** — Gartner Says Data Center Electricity Consumption to Grow 26% in 2026 (press release) · F3 · relevância media · [link](https://www.gartner.com/en/newsroom/press-releases/2026-06-10-gartner-says-data-center-electricity-demand-to-grow-26-percent-in-2026)
+  - Atualização mais recente do Gartner, que eleva a projeção de 2030 de 980 TWh para mais de 1.200 TWh, acima da IEA (950 TWh). Tentativa de salvar em PDF bloqueada por verificação anti-robô.
+  - Métrica: Data centers: 447 TWh (2025) → 565 TWh (2026, +26%) → 702 TWh (2027); >1.200 TWh em 2030
+  - Métrica: Servidores otimizados para IA: 95 TWh (2025) → 175 TWh (2026) → 258 TWh (2027); 31% do consumo de data centers em 2026; superam servidores convencionais em 2027
+  - Métrica: Demanda de potência: 104 GW (2025) → 132 GW (2026) → 290 GW (2030)
+- **M658 · Gartner (2025 (17/11/2025))** — Gartner Says Electricity Demand for Data Centers to Grow 16% in 2025 and Double by 2030 (press release) · F3 · relevância media · [link](https://www.gartner.com/en/newsroom/press-releases/2025-11-17-gartner-says-electricity-demand-for-data-centers-to-grow-16-percent-in-2025-and-double-by-2030)
+  - Previsão do Gartner de nov/2025, revista para cima apenas sete meses depois (ver item de jun/2026).
+  - Métrica: Data centers: 448 TWh (2025) → 980 TWh (2030)
+  - Métrica: Servidores otimizados para IA: 93 TWh (2025) → 432 TWh (2030); 21% → 44% do consumo de data centers; 64% do crescimento incremental em 2030
+  - Métrica: EUA: data centers de 4% para 7,8% do consumo regional (2025–2030); Europa de 2,7% para 5%
+- **M659 · Gartner (2026 (15/09/2026))** — Gartner Unveils Top Strategic Predictions for 2027 and Beyond (press release) · F3 · relevância media · [link](https://www.gartner.com/en/newsroom/press-releases/2026-09-15-gartner-unveils-top-strategic-predictions-for-2027-and-beyond)
+  - Previsões estratégicas do Gartner: a energia vira ativo estratégico de empresas não energéticas e o consumo de tokens passa a ser governado como custo, base comum para FinOps e GreenOps.
+  - Métrica: Até 2030, US$ 10 trilhões em ativos de energia de propriedade de empresas farão das Global 2000 fornecedoras de energia para redes e data centers de IA
+  - Métrica: Até 2029, 60% das organizações que usam IA terão função dedicada a mapear custo total da IA versus valor
+  - Métrica: Até 2028, 60% das Global 500 terão controles de FinOps de IA na inferência (gestão de consumo de tokens)
+- **M660 · GenAI Impact (EcoLogits; JOSS 2025, Rincé e Banse) (2025)** — EcoLogits - LLM inference methodology · F3 · relevância media · [link](https://ecologits.ai/latest/methodology/llm_inference/)
+  - Exemplo de calculadora aberta por estimativa (não medição); citada pelo Google como faixa de 1,83-6,95 Wh para prompt curto. Descrita só como referência metodológica.
+  - Métrica: Indicadores: GWP (kgCO2e), ADPe (kg Sb eq), energia primária (MJ) e pegada hídrica de uso
+  - Métrica: Impacto por requisição = E_requisição x fator do mix elétrico + (tempo/vida útil) x impacto incorporado do servidor; E_requisição = PUE x E_servidor
+  - Métrica: Água = E_servidor x (WUE no local + PUE x WUE fora do local)
+  - Métrica: Referências: H100 com 273 kgCO2e incorporados; servidor sem GPU 5.700 kgCO2e; vida útil de 3 anos; lote 64
+- **M661 · Gesellschaft für Informatik (GI), projeto SERI financiado pelo Ministério Federal de Pesquisa, Tecnologia e Espaço da Alemanha (2025)** — Expert Assessment: The Systemic Environmental Risks of Artificial Intelligence · F3 · relevância media · [PDF](10_ia-sustentabilidade/SchonHoffmannBecker-arXiv_2025_systemic-environmental-risks-ai.pdf)
+  - Relatório qualitativo (dez/2025) de riscos sistêmicos da IA, com base em revisão narrativa e poucas entrevistas. Útil para listar riscos de rebote e aprisionamento no agro; evidência fraca para números.
+  - Métrica: Estudo de caso de agricultura (2 especialistas entrevistados): risco de o paradoxo de Jevons ser 'supercarregado pela IA' na agricultura, de aprisionamento tecnológico e de vieses contra pequenos produtores do Sul Global (p. 46–48)
+  - Métrica: Óleo e gás: o padrão dominante de uso da IA é otimizar a produção e acelerar a extração; serviços de TI para o setor ficam fora dos escopos climáticos das big techs (p. 48–49)
+- **M662 · Goldman Sachs (Global Investment Research) (2024 (14/05/2024))** — AI is poised to drive 160% increase in data center power demand · F3 · relevância media · [link](https://www.goldmansachs.com/insights/articles/AI-poised-to-drive-160-increase-in-power-demand)
+  - Artigo de casa de análise financeira que popularizou a comparação '10 vezes uma busca no Google'. Útil como origem documentada da distorção (ver numeros_contestados).
+  - Métrica: Demanda de energia de data centers +160% até 2030; de 1–2% para 3–4% da eletricidade mundial
+  - Métrica: Data centers: 8% da eletricidade dos EUA em 2030 (3% em 2022)
+  - Métrica: Emissões de CO2 de data centers podem mais que dobrar entre 2022 e 2030; custo social de US$ 125–140 bi
+  - Métrica: 'Uma consulta ao ChatGPT exige 2,9 Wh, contra 0,3 Wh de uma busca no Google, segundo a IEA' (número contestado)
+- **M663 · Google (2021)** — 24/7 Carbon-Free Energy: Methodologies and Metrics · F1, F3 · relevância media · [PDF](10_ia-sustentabilidade/Google_2021_24x7-carbon-free-energy-methodologies-metrics.pdf)
+  - Documento-base da métrica de energia livre de carbono 24/7, alternativa ao percentual renovável anual.
+  - Métrica: CFE Score: grau em que cada hora de consumo em cada rede regional é coberta por energia livre de carbono contratada mais a da própria rede (p.1, p.6)
+  - Métrica: Emissões evitadas (tCO2e) como segunda métrica, para avaliar compras (p.1, p.6)
+  - Métrica: Princípios incluem casamento horário e compra local na mesma rede (p.4)
+- **M664 · Google (2025 (dados de 2024))** — Google 2025 Environmental Report · F1, F3 · relevância media · [PDF](10_ia-sustentabilidade/Google_2025_environmental-report.pdf)
+  - Série histórica que sustenta o argumento de rebote: consumo absoluto de energia e água em alta enquanto a eficiência por unidade melhora.
+  - Métrica: Eletricidade dos data centers cresceu 27% em 2024, ante 17% em 2023 (p. 16)
+  - Métrica: Consumo de água de 31 bilhões de litros em 2024, alta de 28% sobre 2023 (p. 40-41)
+  - Métrica: Emissões 'ambition-based' de 11,5 milhões tCO2e em 2024: +11% no ano e +51% sobre 2019 (p. 82)
+  - Métrica: Emissões de energia dos data centers -12% em 2024, apesar de +27% no consumo de eletricidade dos data centers (p. 19)
+- **M665 · Google (Alphabet) (2024)** — 2024 Environmental Report (dados de 2023) · F1, F3 · relevância media · [PDF](10_ia-sustentabilidade/Google_2024_environmental-report.pdf)
+  - Relatório que tornou pública a alta de 48% das emissões do Google desde 2019 e é a origem da tese 'IA aumenta as emissões das big techs'. Documenta duas decisões de método: abandonar a neutralidade por compensações e não separar a pegada da IA das demais cargas.
+  - Métrica: Emissões totais de 14,3 milhões tCO2e em 2023: +13% no ano e +48% sobre 2019 (p. 8)
+  - Métrica: Consumo de eletricidade dos data centers +17% em 2023, mantido o casamento de 100% com renováveis (p. 13)
+  - Métrica: Declara que, com a IA integrada aos produtos, a distinção entre IA e outras cargas 'não será significativa' e passa a reportar só métricas do data center inteiro (p. 13)
+  - Métrica: A partir de 2023 deixa de manter a neutralidade de carbono operacional via compensações e passa a mirar remoções de carbono de alta qualidade (p. 41)
+- **M666 · Google (Sundar Pichai) (2026 (19/05/2026))** — Google I/O 2026: Sundar Pichai's opening keynote · F3 · relevância media · [link](https://blog.google/intl/en-in/company-news/technology/sundar-pichai-io-2026/)
+  - Dado oficial de volume que, comparado à queda de 33x na energia por prompt, ilustra o efeito rebote. A impressão em PDF falhou (timeout do Chrome).
+  - Métrica: Tokens processados por mês pelo Google: 9,7 trilhões (2024) → ~480 trilhões (2025) → mais de 3,2 quatrilhões (maio/2026), alta de 7x em um ano
+  - Métrica: Novos chips com até 2x melhor desempenho por watt
+- **M667 · Google (blog oficial) (2009)** — Powering a Google search · F3 · relevância media · [link](https://googleblog.blogspot.com/2009/01/powering-google-search.html)
+  - Origem do “0,3 Wh por busca” usado na comparação “ChatGPT = 10x Google”. Dado de 2009, nunca atualizado publicamente; o próprio post rebatia, à época, uma estimativa exagerada de 7 g de CO2 por busca.
+  - Métrica: 0,0003 kWh (1 kJ) por busca média, incluindo a construção do índice; ~0,2 g de CO2 por busca
+  - Métrica: Uma busca no Google consumia 0,0003 kWh (1 kJ) e emitia cerca de 0,2 gCO2
+- **M668 · Google Cloud (2026)** — Carbon Footprint reporting methodology (Google Cloud) · F1, F3 · relevância media · [PDF](10_ia-sustentabilidade/GoogleCloud_2026_carbon-footprint-metodologia-relato-cliente.pdf)
+  - Documentação oficial (versão em português traduzida por IA, impressa) do relatório entregue ao cliente do Google Cloud; não há linha específica para IA generativa.
+  - Métrica: Relatório mensal por projeto, produto e região com Escopos 1, 2 (location e market-based) e 3, alocados ao cliente pelo uso, para uso como Escopo 3 do cliente (p.1-2)
+  - Métrica: Location-based com fatores horários (Electricity Maps; na falta, fatores anuais da IEA); market-based com fatores anuais e compras de energia livre de carbono do Google (p.2-3)
+  - Métrica: Energia alocada por máquina e hora conforme uso de CPU; dados por cliente não são verificados por terceiros (p.1)
+- **M669 · Google Cloud (2026)** — Carbon free energy for Google Cloud regions (dados de 2025) · F3 · relevância media · [PDF](10_ia-sustentabilidade/GoogleCloud_2026_cfe-e-intensidade-carbono-por-regiao-dados-2025.pdf)
+  - Tabela oficial por região de nuvem (impressa da página). Mostra que a escolha da região muda a intensidade em mais de 10x.
+  - Métrica: southamerica-east1 (São Paulo): 87% CFE e 73 gCO2eq/kWh; southamerica-west1 (Santiago): 90% e 210; us-central1 (Iowa): 88% e 432; us-east4 (N. Virgínia): 57% e 343; us-east1 (Carolina do Sul): 31% e 579 (p.5)
+  - Métrica: europe-north1 (Finlândia): 98% e 30; europe-central2 (Varsóvia): 81% e 499 (p.3)
+  - Métrica: CFE% = média horária da energia livre de carbono consumida, com os investimentos do Google na região; intensidade = emissões operacionais médias da rede, dados Electricity Maps (p.1)
+- **M670 · Google DeepMind (2019)** — Machine learning can boost the value of wind energy · F1, F3 · relevância media · [PDF](10_ia-sustentabilidade/GoogleDeepMind_2019_ml-boost-value-wind-energy.pdf)
+  - Fonte primária de um número muito citado (inclusive por Stern et al.), frequentemente lido como 'mais 20% de geração'. Post oficial salvo em PDF.
+  - Métrica: Rede neural prevê a geração eólica 36 horas à frente em 700 MW de parques no centro dos EUA; o ML elevou o valor da energia eólica em cerca de 20% frente ao cenário sem compromissos de entrega horária — valor econômico, não geração (p. 2)
+- **M671 · Hasso Plattner Institute / Universidade de Potsdam (Baeuerle, Becker, Hoellerl, Salazar Díaz, Tolovski, Rabl) — ICDE 2026 (2026)** — Green or Greedy? An Ecological Analysis of Data Center GPU Replacements · F2, F3 · relevância media · [PDF](10_ia-sustentabilidade/HPI-ICDE_2026_green-or-greedy-gpu-replacements.pdf)
+  - Mostra quando trocar GPUs por gerações mais eficientes reduz emissões e quando não: em redes limpas, o carbono de fabricação domina a decisão. Relevante para política de vida útil de hardware no Brasil.
+  - Métrica: A intensidade de carbono da rede local estende em até 10× o ponto de equilíbrio (break-even) de carbono da troca de GPUs (p. 1)
+  - Métrica: Trocar uma H100 por uma B200 na França: 146 meses para compensar os 157 kg CO2 incorporados da B200; 32 meses se uma B200 substituir duas H100 (p. 7)
+  - Métrica: Na França a substituição pode levar mais de sete anos para compensar, contra oito meses nos EUA; algumas trocas nunca compensam (p. 9, 1)
+- **M672 · Hebei University of Technology/IIASA, University of Sussex/VU Amsterdam e City University of Macau (Ye, Tol, Wang) — preprint arXiv (2026 (ago/2026))** — AI worsens climate change, integrated assessment shows · F3 · relevância media · [PDF](10_ia-sustentabilidade/YeTolWang-arXiv_2026_ai-worsens-climate-change-integrated-assessment.pdf)
+  - Primeira avaliação integrada (modelo DICE) do rebote macroeconômico da IA; preprint ainda não revisado.
+  - Métrica: Com baixa mitigação, a IA acrescenta 0,1 °C (trajetória tipo TIC) a 0,8 °C (tipo Revolução Industrial) ao aquecimento de 2100 via crescimento econômico (p. 1)
+  - Métrica: Custos climáticos compensam cerca de um quinto a um quarto dos ganhos econômicos da IA (p. 1)
+  - Métrica: DICE-2023 estendido com setor de IA: com abatimento baixo, IA tipo 'TIC' adiciona 0,1 °C ao aquecimento em 2100 e IA tipo 'Revolução Industrial' adiciona 0,8 °C (p. 1)
+  - Métrica: Custos climáticos compensam cerca de um quinto e um quarto dos ganhos econômicos da IA, respectivamente (p. 1)
+- **M673 · Hochschule München (Dauner e Socher) (2025)** — Energy costs of communicating with AI (Frontiers in Communication 10:1572947) · F3 · relevância media · [PDF](10_ia-sustentabilidade/FrontiersComm_2025_dauner-socher-energy-costs-communicating-ai.pdf)
+  - Estudo revisado por pares que mostra o trade-off entre acurácia e emissões: modelos maiores e com raciocínio acertam mais, mas emitem dezenas de vezes mais por causa dos tokens de raciocínio.
+  - Métrica: 14 LLMs de 7 a 72 bilhões de parâmetros medidos em GPU A100, com fator de 480 gCO2/kWh, respondendo a 500 questões de múltipla escolha e 500 abertas do MMLU (p. 1)
+  - Métrica: Qwen 7B emitiu 27,7 g CO2eq com 32,9% de acerto; DeepSeek-R1 70B, 2.042,4 g CO2eq com 78,9% de acerto (p. 4)
+  - Métrica: Variantes com raciocínio geraram em média 543,5 tokens de “pensamento” adicionais, contra 37,7 tokens de resposta no modo múltipla escolha (p. 3-4)
+- **M674 · Hugging Face (S. Luccioni e T. Alves da Costa) (2025)** — What kind of environmental impacts are AI companies disclosing? (And can we compare them?) · F1, F3 · relevância media · [link](https://huggingface.co/blog/sasha/environmental-impact-disclosures)
+  - Post de 17/09/2025 útil como checklist do que falta nas divulgações.
+  - Métrica: Compara OpenAI (0,34 Wh; 0,32 mL; sem CO2e), Mistral (1,14 g; 45 mL; sem energia) e Google (0,24 Wh; 0,26 mL; 0,03 g)
+  - Métrica: Aponta incomparabilidade: consulta sem definição de tokens, mediana contra média, carbono market-based e água só no local
+  - Métrica: Sugere divulgar impactos absolutos, Escopos 1-3 brutos, energia total e especificação padronizada de entrada e saída, com verificação externa
+- **M675 · Hugging Face, Carnegie Mellon University e Microsoft Research (Luccioni, Strubell e Crawford) (2025)** — From Efficiency Gains to Rebound Effects: The Problem of Jevons' Paradox in AI's Polarized Environmental Debate (FAccT 2025) · F3 · relevância media · [PDF](10_ia-sustentabilidade/FAccT_2025_luccioni-strubell-crawford-jevons-rebound-ai.pdf)
+  - Organiza os efeitos indiretos e de rebote da IA (materiais, econômicos e comportamentais) e argumenta que ganhos de eficiência por consulta não garantem queda do impacto total. Útil para o “saldo líquido”.
+  - Métrica: Cita a estimativa de que a IA emitiria de 130 a 1500 vezes menos CO2e por página que escritores humanos (e de 310 a 2900 vezes menos por imagem), ressalvando que ela não considera deslocamento profissional nem efeito rebote e que falta metodologia para essa comparação (p. 8)
+  - Métrica: A NVIDIA embarcou 3,7 milhões de GPUs em 2024, mais de 1 milhão acima de 2023, apesar dos ganhos de eficiência (p. 6)
+  - Métrica: Tipologia de efeitos indiretos e rebote da IA: objetos materiais e espaços físicos, efeitos econômicos (renda real, toda a economia) e induções de consumo e de tempo (p. 5-6)
+  - Métrica: Lixo eletrônico global de 62 milhões de t em 2022, com ~22% formalmente reciclado (p. 3)
+- **M676 · IDC (2026 (22/01/2026))** — From sustainability intent to operational impact (IDC FutureScape: Worldwide Sustainability/ESG 2026 Predictions) · F3 · relevância media · [link](https://www.idc.com/resource-center/blog/from-sustainability-intent-to-operational-impact/)
+  - Blog oficial do IDC que resume as previsões FutureScape de sustentabilidade (relatório completo pago). Indica que a divulgação de métricas de recursos de data centers de IA deve virar norma de mercado.
+  - Métrica: Previsão: até o fim de 2027, 80% dos data centers de IA reportarão métricas de consumo de recursos, como água e poluição
+  - Métrica: Até 2028, 50% dos decisores de data centers priorizarão instalações modulares, edge, servidores eficientes e energia renovável
+  - Métrica: Até 2027, 40% dos fabricantes usarão analytics e automação com IA para eficiência energética, reduzindo emissões em até 30%
+  - Métrica: Até 2030, >65% das empresas usarão software ESG com IA agêntica em compras sustentáveis (Escopo 3)
+- **M677 · IEA - Agência Internacional de Energia (2024)** — Electricity 2024 — Analysis and forecast to 2026 · F3 · relevância media · [PDF](10_ia-sustentabilidade/IEA_2024_electricity-2024-analysis-forecast-2026.pdf)
+  - Relatório da IEA que institucionalizou o “ChatGPT = 10x Google” (2,9 Wh vs 0,3 Wh). Registrado como origem do número contestado; a própria IEA passou a usar medições e divulgações em 2025-2026.
+  - Métrica: Compara 0,3 Wh por busca típica do Google com 2,9 Wh por requisição ao ChatGPT; com 9 bilhões de buscas por dia, IA em toda busca exigiria quase 10 TWh adicionais por ano (p. 34)
+  - Métrica: A estimativa de demanda de IA cita como fonte de Vries (2023), Joule (p. 31)
+- **M678 · INSAIT (Universidade de Sofia), University of Sydney e CUHK-Shenzhen (Wang et al.) (2026)** — Hugging Carbon: Quantifying the Training Carbon Emissions of AI Models at Scale (ICML 2026) · F3 · relevância media · [PDF](10_ia-sustentabilidade/INSAIT_2026_wang-hugging-carbon-training-emissions-open-models.pdf)
+  - Estimativa agregada do carbono do treino de modelos abertos a partir de metadados incompletos, com método em camadas e nova métrica de intensidade por computação.
+  - Métrica: Treinar os 5.227 modelos abertos do Hugging Face com mais de 5.000 downloads gerou ~60.000 tCO2e, com incerteza de ±2,4 × 10^4 t (p. 2)
+  - Métrica: Propõe a métrica ATCI (intensidade de carbono do treino, emissões por unidade de computação) (p. 1, 5)
+- **M679 · ISO/IEC JTC 1 (2024)** — ISO/IEC 21031:2024 — Information technology — Software Carbon Intensity (SCI) specification · F2, F3 · relevância media · [link](https://www.iso.org/standard/86612.html)
+  - Norma ISO derivada da especificação SCI da Green Software Foundation; base da SCI for AI. Paga; não lida na íntegra.
+  - Métrica: Publicada em 03/2024 (edição 1, 9 páginas, CHF 67) (página oficial)
+  - Métrica: Metodologia para calcular a taxa de emissões de um sistema de software (escore SCI) para orientar projeto, desenvolvimento e implantação (página oficial)
+- **M680 · ISO/IEC JTC 1 (2016-2022)** — ISO/IEC 30134-2:2016 (PUE), 30134-8:2022 (CUE) e 30134-9:2022 (WUE) - Data centres key performance indicators · F2 · relevância media · [link](https://www.iso.org/standard/63451.html)
+  - Normas formais dos indicadores de data center originados na The Green Grid: PUE (parte 2), CUE (parte 8, iso.org/standard/77691.html) e WUE (parte 9, iso.org/standard/77692.html); a série inclui REF (parte 3) e ERF (parte 6). Não lidas (pagas).
+- **M681 · ISO/IEC JTC 1/SC 42 (2025)** — ISO/IEC TR 20226:2025 — Information technology — Artificial intelligence — Environmental sustainability aspects of AI systems · F2, F3 · relevância media · [link](https://www.iso.org/standard/86177.html)
+  - Relatório técnico da ISO/IEC com inventário de métricas ambientais de sistemas de IA. Pago; não lido na íntegra.
+  - Métrica: Publicado em 07/2025 (edição 1, 61 páginas, CHF 204) (página oficial)
+  - Métrica: Escopo: visão geral de aspectos ambientais de sistemas de IA (carga de trabalho, uso de recursos e ativos, carbono, poluição, resíduos, transporte, localização) e métricas potenciais; não trata de IA para sustentabilidade (página oficial)
+- **M682 · ITU e UNITAR (Baldé, Kuehr et al.) (2024)** — The Global E-waste Monitor 2024 · F3 · relevância media · [PDF](10_ia-sustentabilidade/ITU-UNITAR_2024_global-e-waste-monitor.pdf)
+  - Base oficial da ONU sobre lixo eletrônico: dá a escala de comparação para as estimativas ligadas à IA e o contexto brasileiro (logística reversa obrigatória).
+  - Métrica: 62 bilhões de kg de lixo eletrônico gerados em 2022; 22,3% documentados como coletados e reciclados de forma ambientalmente adequada (p. 12)
+  - Métrica: Projeção de 82 bilhões de kg em 2030 (p. 18)
+  - Métrica: Reciclagem atende só cerca de 1% da demanda de terras raras (p. 13)
+  - Métrica: Brasil é o maior gerador da América do Sul, com 2,4 bilhões de kg/ano; decreto de logística reversa de 2020 fixa metas de coleta de 17% (2023) e 30% (2025) das vendas (p. 76)
+- **M683 · John Deere (2025)** — See & Spray Herbicide Savings / See & Spray 59 Percent Herbicide Savings (releases oficiais) · F1 · relevância media · [link](https://www.deere.com/en/news/all-news/see-spray-herbicide-savings/)
+  - Caso de IA embarcada (visão computacional) com redução de insumo em escala comercial. O site da Deere bloqueia acesso automatizado (CloudFront 403). Os números de 2025 (5 milhões de acres, ~50% de herbicida não residual, ~31 milhões de galões de calda) só foram vistos em mídia especializada e precisam de confirmação na fonte.
+  - Métrica: Segundo o resumo da página oficial no buscador: See & Spray economizou ~8 milhões de galões de herbicida em mais de 1 milhão de acres na safra de 2024; release intitulado 'See & Spray 59 Percent Herbicide Savings' (números da empresa, não auditados; conferir manualmente)
+- **M684 · KPMG International (2025 (campo ago–set/2025; lançado na COP30))** — AI's dual promise: Enabling positive climate outcomes and powering the energy transition · F1, F3 · relevância media · [PDF](10_ia-sustentabilidade/KPMG_2025_ai-dual-promise-climate-energy-transition.pdf)
+  - Pesquisa da KPMG com executivos de energia e grandes consumidores, lançada na COP30 em Belém. Mostra o otimismo das empresas com o saldo líquido da IA e o descompasso com a prioridade dada à eficiência da própria IA. Release oficial: https://kpmg.com/xx/en/media/press-releases/2025/11/business-leaders-say-ai-is-the-climate-challenge-solution-not-the-problem.html
+  - Métrica: 97% veem a IA como saldo positivo para o net zero; 87% dizem que a IA é central para suas metas net zero, mas só 30% priorizam melhorar a eficiência energética da própria IA no curto prazo (p. 5; release de 10/11/2025)
+  - Métrica: 96% acreditam que energia limpa pode atender a demanda da IA, mas só 13% tornariam a energia limpa inegociável se isso atrasasse projetos (p. 5)
+  - Métrica: Respondentes projetam que o uso de energia ligado à IA nos data centers passe de 8% para 36% em três anos (p. 5)
+  - Métrica: 33% citam limites da rede elétrica como risco principal; 75% dizem que formuladores de políticas são lentos (p. 5)
+- **M685 · Logicalis (2026 (03/03/2026))** — Logicalis 2026 CIO Report: CIOs navigate surging AI investment amidst growing governance concerns (press release) · F1 · relevância media · [PDF](10_ia-sustentabilidade/Logicalis_2026_cio-report-ai-governance-press-release.pdf)
+  - Release oficial do relatório anual de CIOs da Logicalis (impresso em PDF). O relatório completo exige formulário; pode ter recorte Brasil/América Latina.
+  - Métrica: Só 39% dos CIOs estão 'extremamente confiantes' de que a organização gerencia ativamente o impacto ambiental da IA; 41% de que a eficiência energética é priorizada nas implantações (p. 2, 4)
+  - Métrica: 76% dizem que IA 'sem controle' é preocupação séria; 62% comprometem a governança por falta de conhecimento (p. 2)
+  - Métrica: 94% pretendem se apoiar em provedores de serviços gerenciados para governança, escala e sustentabilidade da IA (p. 4)
+  - Métrica: Amostra: >1.000 CIOs (p. 2)
+- **M686 · MCTI (2025)** — Aprimoramento na publicação dos fatores de emissão de CO2 do SIN (nota de junho de 2025) · F3 · relevância media · [PDF](10_ia-sustentabilidade/MCTI_2025_nota-tecnica-fatores-emissao-sin-atualizacao-base-ons.pdf)
+  - Explica a quebra de série dos fatores do SIN a partir de 2025.
+  - Métrica: Desde jan/2025 a base do ONS inclui termelétricas a biomassa e conjuntos de usinas solares e eólicas antes não considerados; metodologia mantida, com possível redução dos fatores (p.1)
+  - Métrica: Fator médio (inventários) e margem de operação divulgados mensalmente; margem de construção e método simples ajustado, anualmente (p.1)
+- **M687 · MDIC, Ministério da Fazenda e MME (via Planalto) (2025)** — Exposição de Motivos EMI nº 00010/2025 MDIC/MF/MME — Medida Provisória 1.318/2025 (Redata) · F3 · relevância media · [PDF](10_ia-sustentabilidade/Planalto_2025_exposicao-motivos-mp-1318-redata.pdf)
+  - Justificativa oficial da política de data centers. O dado de 60% das cargas no exterior é central para a pegada: o uso de IA por empresas brasileiras tende a rodar em redes elétricas mais intensivas em carbono que o SIN.
+  - Métrica: Brasil é o 10º mercado de data centers, com cerca de 2% do total mundial (Data Center Map) (p. 1)
+  - Métrica: Cerca de 60% das cargas digitais nacionais são atendidas no exterior; operar no Brasil custa em média 30% mais, sobretudo pela tributação de equipamentos de TIC (p. 1)
+  - Métrica: Contrapartidas previstas: 'energia limpa ou renovável' e 'padrões rigorosos de eficiência hídrica', a definir em regulamento (p. 2)
+- **M688 · MIT Technology Review (James O'Donnell e Casey Crownhart) (2025)** — We did the math on AI's energy footprint. Here's the story you haven't heard. · F3 · relevância media · [link](https://www.technologyreview.com/2025/05/20/1116327/ai-energy-usage-climate-footprint-big-tech/)
+  - Reportagem com medições feitas com a equipe do ML.ENERGY. Usar só como contexto: o fator 2x para energia não-GPU é premissa, não medição.
+  - Métrica: Llama 3.1 8B: 57 J por resposta na GPU (~114 J no total estimado); Llama 3.1 405B: 3.353 J (~6.706 J)
+  - Métrica: Imagem 1024x1024 no Stable Diffusion 3 Medium: ~2.282 J; vídeo de 5 s no CogVideoX: ~3,4 milhões de J
+  - Métrica: Totais estimados dobrando a energia da GPU (premissa dos jornalistas), a partir de medições do ML.ENERGY (Univ. de Michigan)
+- **M689 · MLCommons (Tschand et al.) - IEEE HPCA 2025 (2025)** — MLPerf Power: Benchmarking the Energy Efficiency of Machine Learning Systems from µWatts to MWatts for Sustainable AI · F3 · relevância media · [PDF](10_ia-sustentabilidade/MLCommons_2025_mlperf-power-benchmarking-energy-efficiency-ml-systems.pdf)
+  - Metodologia do consórcio MLCommons para eficiência energética de sistemas (hardware + software) em treino e inferência; mede o sistema, não o modelo isolado.
+  - Métrica: 1.841 medições reprodutíveis de 60 sistemas, de microwatts a megawatts; 590 resultados de data center (p.1, p.8)
+  - Métrica: Potência medida na tomada (AC) com medidor certificado SPEC; eficiência em amostras por joule (vazão) ou 1/joule (latência) (p.4, p.6)
+- **M690 · Meta (2025)** — 2025 Sustainability Report - página oficial com metas de clima e água · F1, F3 · relevância media · [link](https://sustainability.atmeta.com/2025-sustainability-report/)
+  - Página oficial do relatório de 2025 com as metas climáticas vigentes da Meta, mantidas apesar da expansão de data centers de IA (inclusive com térmicas a gás contratadas por concessionárias). O PDF completo não está disponível diretamente; os dados estão no Environmental Data Index.
+  - Métrica: Metas: net zero na cadeia de valor e 'water positive' em 2030; reduzir Escopos 1 e 2 em 42% até 2031 sobre 2021; não ultrapassar em 2031 o Escopo 3 de 2021
+  - Métrica: Manter 100% da eletricidade casada com energia limpa e renovável; projetos apoiados somam quase 29 GW
+  - Métrica: Projetos de restauração devolveram mais de 1,6 bilhão de galões de água em regiões de estresse hídrico alto e médio em 2024
+- **M691 · Meta (2025)** — Llama 4 Model Card - Training Energy Use and Training Greenhouse Gas Emissions · F2, F3 · relevância media · [link](https://github.com/meta-llama/llama-models/blob/main/models/llama4/MODEL_CARD.md)
+  - Model card da quarta geração do Llama, com o mesmo formato de divulgação (horas de GPU, emissões location-based e market-based). Útil para mostrar a evolução da transparência desde o Llama 2 (539 tCO2e 'compensadas', sem distinguir métodos).
+  - Métrica: Pré-treino de 7,38 milhões de GPU-h em H100-80GB (Scout 5,0 milhões; Maverick 2,38 milhões)
+  - Métrica: Emissões de 1.999 tCO2eq location-based (Scout 1.354; Maverick 645) e 0 market-based
+- **M692 · Meta (2026)** — Meta Announces Nuclear Energy Projects, Unlocking Up to 6.6 GW to Power American Leadership in AI Innovation · F3 · relevância media · [link](https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership/)
+  - Anúncio oficial (09/01/2026) que, somado ao contrato de 2025 com a Constellation (Clinton), faz da Meta um dos maiores compradores corporativos de energia nuclear dos EUA, para atender data centers de IA como o Prometheus (Ohio).
+  - Métrica: Acordos com Vistra, TerraPower e Oklo para até 6,6 GW de energia nuclear nova e existente até 2035
+  - Métrica: Vistra: contratos de 20 anos por mais de 2,1 GW de Perry, Davis-Besse e Beaver Valley, além de 433 MW de aumento de potência
+  - Métrica: TerraPower: duas unidades Natrium de até 690 MW (a partir de 2032) e direito a mais seis (2,1 GW até 2035); Oklo: até 1,2 GW em Ohio (a partir de 2030)
+  - Métrica: Projetos eólicos e solares apoiados pela Meta somam quase 28 GW em 27 estados
+- **M693 · Meta (Wu et al.) (2022)** — Sustainable AI: Environmental Implications, Challenges and Opportunities (MLSys 2022) · F1, F3 · relevância media · [PDF](10_ia-sustentabilidade/Meta_2022_wu-sustainable-ai-environmental-implications.pdf)
+  - Visão de ciclo de vida da IA na Meta (dados, experimentação, treino, inferência; operacional e incorporado). Atenção: o 10:20:70 é capacidade instalada, não energia consumida.
+  - Métrica: Capacidade de potência da infraestrutura de IA da Meta dividida aproximadamente em 10:20:70 entre experimentação, treino e inferência (Fig. 3, p. 3)
+  - Métrica: Pegada energética do modelo de recomendação RM1 dividida em 31:29:40 entre dados, experimentação/treino e inferência (Fig. 3, p. 3)
+  - Métrica: Crescimento de 2,9x na capacidade de treino e de 2,5x na de inferência de IA em 1,5 ano (p. 2)
+  - Métrica: Uso de eletricidade dos data centers da Meta acima de 7,17 milhões de MWh em 2020 (p. 3)
+- **M694 · Microsoft (2026 (FY25))** — 2026 Environmental Data Fact Sheet (FY25) · F1, F3 · relevância media · [PDF](10_ia-sustentabilidade/Microsoft_2026_environmental-data-fact-sheet-fy25.pdf)
+  - Série de água que mostra crescimento absoluto (mais que o dobro desde o FY20) apesar da queda do WUE.
+  - Métrica: Consumo total de água de 8.170 megalitros no FY25, ante 6.693 no FY24 e 3.990 no FY20 (p. 7)
+  - Métrica: 48% do consumo de água (3.926 megalitros) ocorreu em áreas com estresse hídrico no FY25 (p. 7)
+  - Métrica: Emissões totais (critério da gestão, market-based) de 20.290 mil tCO2e no FY25, contra 16.215 mil no FY24 e 12.881 mil no FY20, ano-base (p. 4)
+  - Métrica: Total pelo GHG Protocol sem ajustes da gestão: 21.121 mil tCO2e no FY25 contra 13.061 mil no FY20 (p. 3)
+- **M695 · Microsoft (2026 (FY25))** — 2026 Environmental Sustainability Report (ano fiscal 2025) · F1, F3 · relevância media · [PDF](10_ia-sustentabilidade/Microsoft_2026_environmental-sustainability-report-fy25.pdf)
+  - Eficiência hídrica, circularidade de hardware e redução de carbono incorporado em escala de nuvem; reconhece que parte relevante do escopo 3 vem da fabricação de semicondutores.
+  - Métrica: WUE global médio de 0,27 L/kWh no FY25, 25% abaixo da linha de base de 2022; meta de redução de 40% até 2030 (p. 24)
+  - Métrica: Novo desenho com resfriamento líquido em circuito fechado no chip deve evitar mais de 125 milhões de litros de água por ano por data center (p. 18)
+  - Métrica: 92% de reúso e reciclagem de servidores e componentes descomissionados no FY25 (p. 26)
+  - Métrica: Data centers de vários andares reduzem o carbono incorporado em 15–25%; estrutura híbrida de madeira laminada, até 35% (p. 17)
+- **M696 · Microsoft (2025)** — Azure Emissions Calculation Methodology (Emissions Impact Dashboard) · F1, F3 · relevância media · [PDF](10_ia-sustentabilidade/Microsoft_2025_azure-emissions-calculation-methodology.pdf)
+  - Metodologia oficial (atualizada em 01/10/2025) do painel de emissões do Azure; não separa Azure OpenAI nem outros serviços de IA.
+  - Métrica: Escopos 1, 2 e 3 (categorias 1, 2, 4, 5, 9 e 12) para Azure e Microsoft 365 (p.2)
+  - Métrica: Alocação pelo uso relativo do cliente em cada região de data center, igual para os três escopos (p.6)
+  - Métrica: Vida útil padrão dos equipamentos de 6 anos; não inclui a construção do data center (p.5)
+- **M697 · Microsoft (2026)** — How Microsoft is advancing embodied carbon measurement at scale for Azure hardware (CHEM) · F3 · relevância media · [PDF](10_ia-sustentabilidade/Microsoft_2026_cloud-hardware-embodied-emissions-methodology.pdf)
+  - White paper de jan/2026 sobre medição de carbono incorporado de servidores; reforça que memória e chips dominam o incorporado.
+  - Métrica: Método CHEM de ACV em escala para hardware de nuvem, com dados de semicondutores do imec.netzero (p.2, p.9)
+  - Métrica: Chips (CPUs, GPUs, memórias DIMM e SSDs) somam cerca de 70-85% do carbono incorporado de um servidor (p.9)
+  - Métrica: Cadeia de hardware de TIC dos data centers é uma das maiores fontes do Escopo 3 da Microsoft (p.4)
+- **M698 · Microsoft (2024)** — Our 2024 Environmental Sustainability Report (post de lançamento, ano fiscal 2023) · F1, F3 · relevância media · [link](https://blogs.microsoft.com/on-the-issues/2024/05/15/microsoft-environmental-sustainability-report-2024/)
+  - Post oficial do relatório de 2024, origem do número '+29% desde 2020' muito citado na imprensa. Mostra que o problema principal é o Escopo 3 (construção e hardware), não a eletricidade contabilizada em market-based.
+  - Métrica: Emissões totais +29,1% sobre a base de 2020 no FY23; Escopos 1 e 2 -6,3% e Escopo 3 +30,9%
+  - Métrica: Alta atribuída à construção de data centers e ao carbono incorporado em materiais, semicondutores, servidores e racks
+- **M699 · Microsoft (2025)** — Our 2025 Environmental Sustainability Report (post de lançamento, ano fiscal 2024) · F1, F3 · relevância media · [link](https://blogs.microsoft.com/on-the-issues/2025/05/29/environmental-sustainability-report/)
+  - Post oficial que apresenta o relatório de 2025 e descreve a meta de carbono negativo como 'uma maratona, não uma corrida de velocidade'. A variação de +23,4% foi depois recalculada (+25,9% na série do relatório de 2026).
+  - Métrica: Emissões totais (Escopos 1-3) +23,4% sobre a base de 2020 no FY24, contra +168% no uso de energia e +71% na receita
+  - Métrica: Escopos 1 e 2 -29,9% e Escopo 3 +26% sobre 2020
+  - Métrica: 34 GW de energia livre de carbono contratados em 24 países e quase 30 milhões de toneladas de remoção de carbono contratadas
+- **M700 · Microsoft (Amy Luers) (2025)** — Net zero needs AI — five actions to realize its promise (Nature 644, 871–873) · F3 · relevância media · [link](https://doi.org/10.1038/d41586-025-02641-4)
+  - Posicionamento da diretora de Ciência da Sustentabilidade da Microsoft numa revista científica. Representa a tese corporativa de que o benefício da IA supera a pegada. Texto integral pago.
+  - Métrica: Comentário de 22/08/2025 que afirma que, sem IA, equilibrar emissões e remoções até 2050 'está fora de alcance'; cita Stern et al. e IEA e traz gráfico de saldo líquido positivo (segundo o relatório 'AI Climate Hoax')
+- **M701 · Microsoft (Satya Nadella) (2025 (30/04/2025))** — Microsoft Fiscal Year 2025 Third Quarter Earnings Conference Call · F3 · relevância media · [link](https://www.microsoft.com/en-us/investor/events/fy-2025/earnings-fy-2025-q3)
+  - Evidência corporativa de eficiência por unidade acompanhada de explosão de volume.
+  - Métrica: Mais de 100 trilhões de tokens processados no trimestre, 5x acima do ano anterior, com recorde de 50 trilhões em um único mês
+  - Métrica: Custo por token caiu mais da metade; desempenho de IA ~30% maior com a mesma potência
+- **M702 · Ministério da Fazenda — Secretaria de Política Econômica (2025)** — Taxonomia Sustentável Brasileira — Caderno Eletricidade e Gás (CNAE D) · F3 · relevância media · [PDF](10_ia-sustentabilidade/MinFazenda_2025_taxonomia-sustentavel-brasileira-caderno-cnae-d-eletricidade-gas.pdf)
+  - Base do argumento da Fazenda para exigir compensação do gás natural no Redata e referência de média decenal do fator do SIN. Mostra que a 'IA verde' brasileira ainda não tem critério de taxonomia.
+  - Métrica: Média do fator de emissão do SIN em 2015–2024: 77,15 gCO2/kWh; renovabilidade acima de 90% da eletricidade gerada (EPE 2024a, citada) (p. 5)
+  - Métrica: Geração a gás natural só entra em mistura com biogás/biometano e dentro de limites; fora disso fica fora do escopo da taxonomia (p. 13)
+  - Métrica: A 1ª edição não tem caderno de informação e comunicação (CNAE J): não há critério de taxonomia para data centers (página de cadernos)
+- **M703 · Ministério da Transição Ecológica da França (com UNEP e ITU) (2025 (11/02/2025))** — New Coalition aims to put Artificial Intelligence on a more sustainable path (Coalition for Sustainable AI) · F1, F3 · relevância media · [link](https://www.ecologie.gouv.fr/en/press/new-coalition-aims-put-artificial-intelligence-more-sustainable-path)
+  - Lista oficial dos membros da coalizão lançada na Cúpula de Ação sobre IA de Paris. Mostra quais empresas usuárias (energia, utilities, consumo, seguros) aderiram publicamente; adesão não implica medição.
+  - Métrica: 91 parceiros no lançamento: 37 empresas de tecnologia, 10 países e 5 organizações internacionais (UNDP, IEA, GGGI, UNEP, ITU)
+  - Métrica: Membros fundadores incluem EDF, Engie, Veolia, L'Oréal, Generali, Philips, Schneider Electric, SAP, Salesforce, Orange, Capgemini, Sopra Steria; entre investidores, Crédit Agricole, Ardian e Mirova
+  - Métrica: Roteiro de padronização do impacto ambiental da IA com >30 parceiros (ISO, ITU, IEEE); Referencial Geral de IA Frugal da França (jun/2024), feito com >100 organizações
+- **M704 · Nature Computational Science (Wang et al., Academia Chinesa de Ciências e outros) (2024)** — E-waste challenges of generative artificial intelligence (versão publicada, Nature Computational Science 4, 2024) · F3 · relevância media · [link](https://www.nature.com/articles/s43588-024-00712-6)
+  - Versão revisada por pares (paga) do estudo de lixo eletrônico da IA generativa. O preprint de 2024 (obtido por outro agente) trazia 8 a 16 milhões de toneladas.
+  - Métrica: Lixo eletrônico acumulado da IA generativa pode chegar a 1,2–5,0 milhões de toneladas em 2020–2030; estratégias de economia circular reduzem 16–86% (resumo)
+- **M705 · OpenAI (2026)** — Stargate Community · F3 · relevância media · [link](https://openai.com/index/stargate-community/)
+  - Página oficial (20/01/2026) com os compromissos comunitários dos campi Stargate (Abilene e outros). Não traz dados de emissões nem a matriz elétrica dos campi.
+  - Métrica: Meta de 10 GW de infraestrutura de IA nos EUA até 2029; mais da metade já em capacidade planejada um ano após o anúncio
+  - Métrica: Compromisso de pagar a própria energia para não elevar a conta de luz local e de usar resfriamento em circuito fechado ou com pouca água
+- **M706 · Orange Business (2025 (25/07/2025))** — Sustainability-driven GenAI: the Orange Business approach (Our GenAI Carbon Calculation Approach) · F1 · relevância media · [link](https://www.orange-business.com/en/blogs/sustainability-driven-genai-orange-business-approach)
+  - Exemplo de empresa usuária e provedora que mostra ao usuário final o CO2 de cada interação com IA generativa, ferramenta de conscientização interna. Tentativa de salvar em PDF bloqueada (403).
+  - Métrica: Metodologia aberta de cálculo de carbono de GenAI integrada à ferramenta Live Intelligence: prévia do CO2 antes do uso e registro por interação
+  - Métrica: Mais de 50.000 empregados testaram a ferramenta com o contador de emissões antes do lançamento
+  - Métrica: Orange aderiu à Coalition for Sustainable AI e contribui na ITU para padronizar a medição do impacto ambiental da IA
+  - Métrica: Cita IDC: 76% dos decisores de TI veem a IA como crítica para a estratégia de transformação sustentável (número de terceiros)
+- **M707 · PNUMA (UNEP) - Programa das Nações Unidas para o Meio Ambiente (2024)** — Artificial Intelligence (AI) end-to-end: The Environmental Impact of the Full AI Lifecycle Needs to be Comprehensively Assessed (Issue Note) · F3, F2 · relevância media · [PDF](10_ia-sustentabilidade/UNEP_2024_issue-note-ai-end-to-end-environmental-impact.pdf)
+  - Nota de posição do PNUMA (set/2024) sobre o ciclo de vida da IA (software e hardware), com recomendações de métricas e reporte obrigatório. Útil pelas recomendações e como exemplo de agência que repetiu números contestados (10x Google, cinco carros, água sem distinguir retirada e consumo).
+  - Métrica: Repete que uma consulta a LLM requer 2,9 Wh contra 0,3 Wh de uma busca comum (citando IEA Electricity 2024) (p. 3)
+  - Métrica: Repete que treinar um LLM gera cerca de 300.000 kg de CO2, 'cinco vezes as emissões de vida útil de um carro' (citando Dhar, 2020) (p. 3)
+  - Métrica: Cita demanda global de água da IA de 4,2-6,6 bilhões de m³ em 2027, sem informar que se trata de retirada e não de consumo (p. 3)
+  - Métrica: Só 22% do lixo eletrônico é reciclado e descartado adequadamente; não há método padronizado para medir ou reportar o impacto ambiental da IA (p. 3)
+- **M708 · Peng Wang, Ling-Yu Zhang, Asaf Tzachor, Eric Masanet e Wei-Qiang Chen — Research Square (2024 (postado em 13/03/2024))** — E-waste Challenges of Generative Artificial Intelligence (preprint v1, Research Square) · F3 · relevância media · [PDF](10_ia-sustentabilidade/Wang-CAS_2024_e-waste-generative-ai-preprint-v1.pdf)
+  - Versão preliminar, sem revisão por pares, do estudo de Wang et al.; seus números (8–16 Mt) caíram para 1,2–5,0 Mt na versão publicada. Mantido para rastrear a origem de números ainda citados.
+  - Métrica: Cenário otimista: ~16 milhões de t de lixo eletrônico de servidores de LLM acumuladas em 2020–2030, ~11% do fluxo global de grandes equipamentos (p. 3)
+  - Métrica: Cenário conservador: 8 Mt acumuladas, 6% do fluxo global, com crescimento anual composto de 90% (p. 3)
+  - Métrica: Distribuição prevista: América do Norte 58%, Leste Asiático 25%, Europa 14% (p. 3)
+  - Métrica: Cenário base com vida útil de servidor de 3 anos (p. 8)
+- **M709 · PwC (EUA) (2026)** — State of Decarbonization 2026 · F1 · relevância media · [link](https://www.pwc.com/us/en/services/esg/library/decarbonization-strategic-plan.html)
+  - Relatório anual da PwC baseado em análise, assistida por IA, de milhares de divulgações corporativas. O dado de 60% vs <1% é o melhor contraponto às promessas de 'IA para descarbonizar': a prática é comum, a evidência de resultado é rara.
+  - Métrica: 60% das empresas começam a usar IA para descarbonização, mas menos de 1% reportam resultados mensuráveis
+  - Métrica: 82% mantiveram ou anteciparam prazos de metas climáticas; 18% reduziram ambições
+  - Métrica: Só 18% rastreiam fornecedores e emissões além do nível 1 (tier 1)
+- **M710 · PwC Brasil (2026)** — Data centers na convergência entre disrupção tecnológica e resiliência · F3 · relevância media · [PDF](10_ia-sustentabilidade/PwC-Brasil_2026_data-centers-disrupcao-tecnologica-resiliencia.pdf)
+  - Estudo da PwC Brasil sobre data centers e IA, com seção específica sobre o posicionamento do Brasil. Útil para o contexto brasileiro: a vantagem da matriz renovável depende de comprovação (I-REC, Escopo 2 market-based) e de contratos de longo prazo.
+  - Métrica: Brasil passa de 'edge regional' a candidato a hub de IA por renováveis em escala, incentivos fiscais e conectividade; Nordeste com eólica e solar de baixo custo e PPAs aproveitando curtailment (p. 19–20)
+  - Métrica: MP 1.318/2025 (REDATA) reduz tributos sobre equipamentos e obras de data centers; dados granulares do ONS permitem comprovar origem renovável e integrar cargas flexíveis (p. 20)
+  - Métrica: Recomenda certificações ISO 50001, I-REC e auditoria de emissões de Escopo 2 para atender exigências das matrizes dos hiperescaladores (p. 22)
+- **M711 · Queen Mary University of London, Cornell, COPPE/UFRJ, Shell, Barcelona Supercomputing Center, ULB, UCL e PolyU (Freitas et al.) (2026)** — An AI-driven de novo design and optimisation of sustainable aviation fuels (Energy and AI 25, 100791) · F3 · relevância media · [PDF](10_ia-sustentabilidade/UCL-Luo_2026_ai-driven-de-novo-design-sustainable-aviation-fuels.pdf)
+  - Exemplo do estado da arte de IA em SAF: descoberta e triagem de formulações em computador. Mostra o potencial e o limite: não há ganho medido em escala industrial nem efeito em intensidade de carbono.
+  - Métrica: Modelo de deep kernel learning prevê propriedades de combustível com R² > 0,91 e incerteza calibrada (p. 1)
+  - Métrica: Triagem virtual identifica misturas de SAF com redução prevista acima de 17% na tendência de fuligem (material particulado, não GEE) (p. 1–2, 4)
+  - Métrica: Resultados são 'identificação guiada por previsão', não validação experimental; a certificação ASTM D7566/D4054 exige testes (p. 2)
+- **M712 · SAP SE (2026 (ref. 2025))** — Integrated Report 2025 · F1 · relevância media · [PDF](10_ia-sustentabilidade/SAP_2026_integrated-report-2025.pdf)
+  - Relatório integrado sob a CSRD em que uma grande empresa de software registra a IA como incerteza para sua meta climática. Exemplo de como o tema passa a aparecer em relatórios regulados.
+  - Métrica: Meta net zero 2030 (corte de ≥90% das emissões brutas na cadeia de valor, validada pela SBTi) depende de fatores fora do controle da SAP, entre eles: 'devido ao rápido desenvolvimento da IA e da infraestrutura de nuvem e às altas necessidades de energia resultantes, não está claro se essa demanda pode ser totalmente coberta com energia renovável' (p. 94, 118)
+  - Métrica: Emissões medidas pelo GHG Protocol com abordagem market-based; meta net zero ligada ao incentivo de longo prazo da diretoria (p. 48, 94)
+- **M713 · Salesforce (2026 (26/05/2026))** — Asset-Light, Impact-Heavy: Inside Salesforce's Approach to Reduce the Environmental Footprint of AI Growth · F1 · relevância media · [link](https://www.salesforce.com/news/stories/making-ai-sustainable-data-centers/)
+  - Post oficial que descreve cinco frentes de redução da pegada da IA de uma empresa 'asset-light': compras, modelos do tamanho certo, inteligência de dados, arquitetura sem cópia de dados e programa de água.
+  - Métrica: Como não opera data centers, as emissões de IA são Escopo 3; atua por cláusulas contratuais e colaboração com AWS e Google Cloud
+  - Métrica: Automação da contabilidade de carbono reduziu em >40% o tempo de coleta de dados e em 37% o gasto com consultores
+  - Métrica: Desenvolve deslocamento espacial e temporal de cargas de IA não urgentes para horários e regiões com mais vento e sol
+- **M714 · Scala Data Centers (2025)** — Scala AI City: Brazil's Ministry of Mines and Energy Approves 5 GW Power Connection for Data-Center City in Rio Grande do Sul (release, 14/05/2025) · F3 · relevância media · [link](https://www.prnewswire.com/news-releases/scala-ai-city-brazils-ministry-of-mines-and-energy-approves-5-gw-power-connection-for-data-center-city-in-rio-grande-do-sul-302455610.html)
+  - Exemplo de posicionamento empresarial brasileiro: alegação de energia 100% renovável baseada em certificados (market-based), o tipo de alegação que a revisão do GHG Protocol e a SCI for AI questionam. Alegações da empresa, não verificadas.
+  - Métrica: MME autorizou conexão de 5 GW ao SIN para o campus de Eldorado do Sul; até 4,75 GW de TI; fase 1 de 54 MW com R$ 3 bi (release)
+  - Métrica: Energia '100% renovável e certificada' via I-REC; a empresa afirma ter evitado mais de 80 mil tCO2 em 2020–2024 (release)
+- **M715 · Schneider Electric Sustainability Research Institute (R. Paccou) e Universidade de Twente (F. Wijnhoven) (2024 (dez/2024))** — Artificial Intelligence and Electricity: A System Dynamics Approach · F3 · relevância media · [PDF](10_ia-sustentabilidade/SchneiderElectric-SRI_2024_ai-and-electricity-system-dynamics.pdf)
+  - Cenários de dinâmica de sistemas para a eletricidade da IA, avaliados pela revisão do IEA 4E como método detalhado, mas com fatores não divulgados. Os valores de 2030 ficam acima da faixa plausível de 200–400 TWh estimada pelo IEA 4E. Útil pela tipologia de cenários e pelas nove recomendações de 'IA sustentável'.
+  - Métrica: Consumo de eletricidade da IA: 100 TWh em 2025; em 2030 e 2035: Sustainable AI 620 e 785 TWh; Limits to Growth 510 e 570 TWh; Abundance Without Boundaries 880 e 1.370 TWh; Energy Crisis com pico de 670 TWh e queda para 190 TWh em 2035 (exhibit 3, p. 13)
+  - Métrica: Menor consumo não significa sustentabilidade: o cenário Limits to Growth esconde economia estagnada (p. 13, 24)
+  - Métrica: Recomendações: data centers com PUE abaixo de 1,2; KPIs de eficiência energética e impacto ambiental em todo projeto de IA; certificação de IA sustentável; economia circular de hardware; governança (p. 25)
+  - Métrica: Limitação declarada: não inclui emissões de ciclo de vida (só consumo direto de eletricidade) (p. 26)
+- **M716 · The Green Grid (2011)** — White Paper #35 - Water Usage Effectiveness (WUE): A Green Grid Data Center Sustainability Metric · F2, F3 · relevância media · [PDF](10_ia-sustentabilidade/TheGreenGrid_2011_wp35-water-usage-effectiveness-wue.pdf)
+  - Definição original do WUE, hoje formalizado na ISO/IEC 30134-9. Mostra que a água indireta (geração elétrica) pode superar a do local.
+  - Métrica: WUE = uso anual de água no local (L) / energia dos equipamentos de TI (kWh), em L/kWh (p.4)
+  - Métrica: WUE_source soma a água usada na geração da energia: (água no local + EWIF x PUE x energia de TI) / energia de TI; EWIF médio dos EUA de 1,8 L/kWh na referência usada (p.6)
+  - Métrica: WUE para otimizar a operação; WUE_source para escolha de local e projeto (p.7-8)
+- **M717 · UC Santa Barbara e coautores (Masanet, Lei e Koomey) (2024)** — To better understand AI's growing energy use, analysts need a data revolution (Joule 8: 2427-2436) · F1 · relevância media · [link](https://www.cell.com/joule/fulltext/S2542-4351(24)00347-7)
+  - Comentário dos principais modeladores de consumo de data centers sobre os dados que faltam para estimar a energia e a água da IA. Base conceitual para as métricas que uma empresa deve pedir a fornecedores de nuvem.
+  - Métrica: Recomenda que operadores divulguem PUE e WUE por instalação (e não médias da empresa), estoques instalados de hardware de IA e utilização real da capacidade — hoje raramente informados
+- **M718 · UIT (ITU) e World Benchmarking Alliance (WBA) (2025)** — Greening Digital Companies 2025: Monitoring emissions and climate commitments · F1, F3 · relevância media · [PDF](10_ia-sustentabilidade/ITU-WBA_2025_greening-digital-companies.pdf)
+  - 4ª edição do monitoramento UIT-WBA das emissões e da energia de 200 empresas digitais (dados de 2023). Mostra o crescimento das emissões das empresas mais expostas à IA e o peso do escopo 3; útil para comparar empresas e para a discussão location-based x market-based.
+  - Métrica: 164 empresas digitais consumiram cerca de 581 TWh em 2023, 2,1% da eletricidade mundial; 10 empresas respondem por mais da metade (p. 9)
+  - Métrica: Emissões de escopos 1 e 2 de 166 empresas somaram 297 milhões de t CO2e em 2023 (+1,4%), cerca de 0,8% das emissões globais ligadas a energia (p. 9)
+  - Métrica: Escopo 3 é 84% das emissões totais nas empresas com divulgação completa, mais de cinco vezes os escopos 1 e 2 (p. 10)
+  - Métrica: Emissões operacionais (escopo 2 location-based) de Amazon, Microsoft, Alphabet e Meta em 2023 eram, em média, 150% do nível de 2020 (p. 42)
+- **M719 · Universidade de Bonn, Hubblo, UCLouvain, Hugging Face e outros (Falk et al.) (2025)** — More than Carbon: Cradle-to-Grave environmental impacts of GenAI training on the Nvidia A100 GPU · F3 · relevância media · [PDF](10_ia-sustentabilidade/EIAR_2026_falk-luccioni-more-than-carbon-a100-lca.pdf)
+  - Amplia a pegada da IA além do carbono (toxicidade, eutrofização, minerais). Mostra que, para clima, o uso domina, mas para outros impactos a fabricação pesa mais. Arquivo obtido por outro agente na mesma rodada.
+  - Métrica: ACV de 16 categorias de impacto com dados primários da GPU A100: no treino do GPT-4, a fase de uso responde por 96% da mudança climática e da depleção de recursos fósseis (p. 1)
+  - Métrica: A fabricação domina 6 categorias, incluindo toxicidade humana (94%) e eutrofização de água doce (81%) (p. 1)
+  - Métrica: O chip da GPU é o maior contribuinte em 10 categorias, como mudança climática (81%) e uso de recursos fósseis (80%) (p. 1)
+  - Métrica: Fabricação de uma GPU A100: 127,6 kg CO2e do berço ao portão e 141 kg CO2e do berço ao túmulo, com dados primários de desmontagem (p. 15)
+- **M720 · University of Michigan — ML.ENERGY Initiative (Chung et al.) (2025)** — The ML.ENERGY Benchmark: Toward Automated Inference Energy Measurement and Optimization (NeurIPS 2025 Datasets and Benchmarks) · F1, F3 · relevância media · [PDF](10_ia-sustentabilidade/UMich_2025_chung-mlenergy-inference-energy-measurement.pdf)
+  - Ferramenta aberta e leaderboard de energia de inferência em condições realistas de serviço; base das medições usadas pela MIT Technology Review em 2025. Útil como referência de método para medir modelos próprios.
+  - Métrica: Medições de energia de 40 arquiteturas de modelos amplamente usadas em 6 tarefas (edição do início de 2025) (p. 1)
+  - Métrica: Recomendações automatizadas de configuração geram economias de energia às vezes acima de 40% sem alterar o que o modelo computa (p. 1)
+  - Métrica: 40 arquiteturas de modelos em 6 tarefas; otimizações automáticas economizam às vezes mais de 40% de energia sem mudar o que é computado (resumo, p.1)
+  - Métrica: Mede energia de GPU por resposta em condições realistas de serviço (estado estacionário, batching), com leaderboard público em ml.energy
+- **M721 · University of Michigan — ML.ENERGY Initiative (Chung et al.) (2026)** — Where Do the Joules Go? Diagnosing Inference Energy Consumption · F1, F3 · relevância media · [PDF](10_ia-sustentabilidade/UMich_2026_chung-where-do-the-joules-go-inference-energy.pdf)
+  - Preprint de 2026 que explica por que a energia varia tanto (memória, utilização, tamanho de lote) e inclui a geração de GPUs Blackwell (B200). Ainda sem revisão por pares.
+  - Métrica: Estudo de medição com 46 modelos, 7 tarefas e 1.858 configurações em GPUs H100 e B200 (p. 1)
+  - Métrica: O tipo de tarefa de LLM gera diferenças de 25× na energia; vídeo às vezes consome mais de 100× a energia de imagens; diferenças de utilização da GPU geram 3–5× (p. 1)
+  - Métrica: 46 modelos, 7 tarefas e 1.858 configurações em H100 e B200 (p.1)
+  - Métrica: Raciocínio consome em média 25x mais energia por resposta que conversa (4.625 J contra 184 J): 10x mais tokens e mais energia por token (p.2)
+- **M722 · University of Toronto e Hugging Face (Lambert e Luccioni) (2026)** — From Cradle to Cloud: A Life Cycle Review of AI's Environmental Footprint · F1, F3 · relevância media · [PDF](10_ia-sustentabilidade/HuggingFace_2026_lambert-luccioni-cradle-to-cloud-life-cycle-review-ai.pdf)
+  - Revisão de 2026 do estado da ciência: o “ciclo de vida da IA” é usado de forma inconsistente e a maioria dos estudos cobre só treino e inferência. Propõe práticas de medição e reporte comparáveis. Preprint.
+  - Métrica: Revisão de 61 trabalhos: só 20 tratam explicitamente da fabricação de hardware e 25 mencionam a infraestrutura, quase sempre de forma indireta (p. 7-8)
+  - Métrica: Só 5 de 61 (~8%) modelam a etapa de dados e 8 de 61 (13,1%) tratam a experimentação como etapa própria (p. 9)
+  - Métrica: Os relatos se apoiam sobretudo em CO2e de proxies grosseiros, com pouca atenção a água, materiais e ACV multicritério (p. 1)
+- **M723 · Uptime Institute (2025)** — Uptime Institute Global Data Center Survey 2025 · F3 · relevância media · [PDF](10_ia-sustentabilidade/UptimeInstitute_2025_global-data-center-survey.pdf)
+  - Pesquisa anual com operadores; referência de PUE médio global e de quais indicadores o setor efetivamente mede.
+  - Métrica: PUE médio anual ponderado de 1,54 em 2025 (n=681), sexto ano praticamente estável; 2,50 em 2007 e 1,65 em 2014 (p.7)
+  - Métrica: Instalações com menos de 5 anos: 1,48; data centers de 20 MW ou mais: 1,44; 15% dos respondentes com PUE de 1,3 ou menos (p.8)
+  - Métrica: Métricas coletadas para sustentabilidade em 2025 (n=617): energia 84%, PUE 74%, uso de água 47%, consumo de renováveis 42%; demais abaixo de 50% (p.11-13)
+  - Métrica: Cerca de um terço dos operadores já roda treino ou inferência de IA (p.6)
+- **M724 · VU Amsterdam / Digiconomist (Alex de Vries-Gao) (2025)** — Artificial intelligence: Supply chain constraints and energy implications (Joule 9(6), 101961) · F3 · relevância media · [link](https://doi.org/10.1016/j.joule.2025.101961)
+  - Estimativa da potência de IA a partir da cadeia de suprimentos de chips (capacidade de encapsulamento CoWoS da TSMC). Texto completo pago; números conferidos via artigo do mesmo autor em Patterns.
+  - Métrica: Sistemas de IA seriam ~20% da demanda de potência dos data centers no fim de 2024 e poderiam chegar a 23 GW no fim de 2025 (conforme resumido pelo próprio autor em Patterns, 2025)
+- **M725 · Virginia Tech e Lawrence Berkeley National Laboratory (Siddik, Shehabi, Marston) — Environmental Research Letters 16, 064017 (2021)** — The environmental footprint of data centers in the United States · F3, F2 · relevância media · [PDF](10_ia-sustentabilidade/ERL_2021_siddik-shehabi-marston-environmental-footprint-us-data-centers.pdf)
+  - Primeiro mapeamento espacial da água direta e indireta de data centers; mostra que a água indireta domina e que o local (estresse hídrico) pesa mais que o volume.
+  - Métrica: Pegada hídrica operacional dos data centers dos EUA de 5,13 × 10^8 m3 em 2018: 3,83 × 10^8 m3 indiretos (eletricidade) e 1,30 × 10^8 m3 diretos (p. 7)
+  - Métrica: Um quinto da água direta dos servidores vem de bacias com estresse hídrico moderado a alto; quase metade dos servidores é abastecida por usinas em regiões sob estresse (p. 2)
+  - Métrica: Data centers retiram água, direta ou indiretamente, de 90% das bacias dos EUA (p. 7)
+  - Métrica: Pegada de escassez hídrica de 17,9 m3 US-eq/MWh, mais que o dobro da intensidade volumétrica média de 7,1 m3/MWh (p. 7)
+- **M726 · Vrije Universiteit Amsterdam (notícia sobre de Vries-Gao, 2026) (2026 (27/02/2026))** — New estimate of AI e-waste · F3 · relevância media · [PDF](10_ia-sustentabilidade/VU-deVriesGao_2026_new-estimate-ai-e-waste.pdf)
+  - Comunicado oficial da universidade que resume a recalibração do lixo eletrônico da IA; substitui temporariamente o artigo bloqueado.
+  - Métrica: Servidores de IA podem gerar 131–224.8 mil t de lixo eletrônico por ano em 2030, comparável ao total anual de Dinamarca, Noruega ou Áustria (p. 2)
+  - Métrica: Estudo anterior projetava até cinco milhões de t de lixo eletrônico ligado à IA até 2030 (p. 2)
+  - Métrica: A vida útil de três anos usualmente assumida para servidores seria pessimista (p. 2-3)
+- **M727 · Accenture (2025)** — Powered for Change 2025: Industrial decarbonization in the age of gen AI · F1, F3 · relevância baixa · [PDF](10_ia-sustentabilidade/Accenture_2025_powered-for-change-industrial-decarbonization-gen-ai.pdf)
+  - Trata a IA e a GenAI como amplificadoras de aprendizado em projetos de descarbonização industrial (o 'handprint'), sem medir a pegada da própria IA. Útil apenas como exemplo do discurso de IA como ferramenta de descarbonização em energia e indústria pesada.
+  - Métrica: 90% dos projetos de capital de descarbonização são tratados como esforços isolados; só 10% aproveitam equipes ou cadeias repetíveis (p. 5)
+  - Métrica: Até 75% dos planos de descarbonização de indústria pesada e energia focam projetos de curto prazo (p. 5)
+  - Métrica: Abordagem 'multigeracional' em hidrogênio verde poderia dar 35% de vantagem de custo até 2035 e até US$ 60 bi de VPL até 2050 (p. 10–11)
+  - Métrica: Só 30% das empresas confiam na própria capacidade de gerir a mudança trazida por IA e GenAI (p. 26)
+- **M728 · Apple (2026)** — Environmental Progress Report 2026 (ano fiscal 2025) · F1, F3 · relevância baixa · [PDF](10_ia-sustentabilidade/Apple_2026_environmental-progress-report-fy2025.pdf)
+  - Relatório da Apple: não há número específico de energia ou emissões da IA; a estratégia declarada é processar no dispositivo e usar nuvem própria com energia renovável.
+  - Métrica: Data centers e colocation usaram mais de 2,5 bilhões de kWh em 2025, 100% de fontes renováveis (p. 95)
+  - Métrica: Apple Intelligence roda em grande parte no próprio dispositivo; pedidos maiores vão ao Private Cloud Compute, em servidores Apple silicon instalados em data centers 100% renováveis (p. 22)
+  - Métrica: Emissões mais de 60% abaixo de 2015; meta Apple 2030 de neutralidade de carbono em toda a pegada (p. 3-4)
+- **M729 · Boston Consulting Group (BCG) (2025 (20/01/2025))** — Breaking Barriers to Data Center Growth · F3 · relevância baixa · [link](https://www.bcg.com/publications/2025/breaking-barriers-data-center-growth)
+  - Projeção da BCG para potência de data centers; mostra que a carga 'tradicional' ainda é maioria em 2028 e que a inferência é o motor de crescimento da IA.
+  - Métrica: Demanda de potência de data centers cresce ~16% ao ano (2023–2028) até ~130 GW em 2028
+  - Métrica: GenAI responde por ~60% do crescimento, mas só ~35% da demanda em 2028; inferência cresce 122% ao ano e treino ~30%
+  - Métrica: Data centers podem responder por até 60% do crescimento da carga dos EUA até 2030
+- **M730 · Constellation Energy (acordo com a Meta) (2025)** — Constellation, Meta Sign 20-Year Deal for Clean, Reliable Nuclear Energy in Illinois · F3 · relevância baixa · [link](https://www.constellationenergy.com/news/2025/constellation-meta-sign-20-year-deal-for-clean-reliable-nuclear-energy-in-illinois.html)
+  - Comunicado oficial (03/06/2025) do contrato que estende a vida útil de uma usina nuclear existente para atender a Meta após o fim do subsídio estadual.
+  - Métrica: PPA de 20 anos pela produção da usina de Clinton: 1.121 MW, a partir de junho de 2027, com aumento de potência de 30 MW
+- **M731 · EY (EUA) (2024 (10/12/2024))** — EY research: Artificial intelligence investments set to remain strong in 2025, but senior leaders recognize emerging risks (EY AI Pulse Survey) · F1 · relevância baixa · [link](https://www.ey.com/en_us/newsroom/2024/12/ey-research-artificial-intelligence-investments-set-to-remain-strong-in-2025-but-senior-leaders-recognize-emerging-risks)
+  - Pesquisa da EY que registra a preocupação, nos EUA, com o efeito da IA sobre metas de emissões e suprimento de energia.
+  - Métrica: Preocupações com o aumento do uso de IA: custo (69%), impacto negativo nas metas de sustentabilidade e emissões (64%), confiabilidade do suprimento de energia (62%)
+  - Métrica: 49% esperam que a computação em nuvem eleve o consumo de energia da empresa em 12 meses
+  - Métrica: Amostra: 500 líderes seniores de empresas dos EUA, 50 por setor, 24/09–04/10/2024
+- **M732 · Gartner (2026)** — Forecast: Data Center Power Capacity and Consumption, Worldwide, 2024-2030, 1Q26 · F3 · relevância baixa · [link](https://www.gartner.com/en/documents/7868377)
+  - Relatório pago do Gartner com a metodologia das projeções de energia de data centers; o IEA 4E (2025) registra que o Gartner não divulga método publicamente.
+  - Métrica: Documento-base dos números do release de 10/06/2026 (acesso só para clientes)
+- **M733 · IBM Institute for Business Value (2024)** — New IBM study: How business leaders can harness the power of gen AI to drive sustainable IT transformation · F1 · relevância baixa · [link](https://www.ibm.com/new/announcements/new-ibm-study-how-business-leaders-can-harness-the-power-of-gen-ai-to-drive-sustainable-it-transformation)
+  - Estudo do IBM IBV sobre TI sustentável; recomenda gerir ativamente o consumo de energia da IA e perguntar 'qual o menor modelo que resolve?'.
+  - Métrica: 64% usam GenAI e LLMs, mas só um terço deles relata progresso significativo em tratar o impacto ambiental da tecnologia
+  - Métrica: 27% já aplicam GenAI em iniciativas de TI sustentável; 89% esperam aplicar até 2027
+  - Métrica: 98% das organizações com abordagem integrada de TI sustentável relatam ganhos de eficiência operacional, contra 50% das demais
+- **M734 · IDC (2024 (24/09/2024))** — IDC Report Reveals AI-Driven Growth in Datacenter Energy Consumption, Predicts Surge in Datacenter Facility Spending Amid Rising Electricity Costs (press release) · F3 · relevância baixa · [link](https://my.idc.com/getdoc.jsp?containerId=prUS52611224)
+  - Release oficial do IDC inacessível (HTTP 403/404 no site do IDC e na BusinessWire). Os números de IA foram confirmados pela revisão do IEA 4E, que classifica a estimativa do IDC como bottom-up baseada em embarques de servidores.
+  - Métrica: Consumo de energia de data centers de IA: 146,2 TWh em 2027, CAGR de 44,7%; ~33 TWh em 2023 (conferido via IEA 4E, 2025, p. 39)
+  - Métrica: Consumo total de data centers: 857 TWh em 2028, CAGR de 19,5% (número do release, não verificado na página oficial por bloqueio)
+- **M735 · IEA - Agência Internacional de Energia (2026)** — Electricity Mid-Year Update 2026 · F3 · relevância baixa · [PDF](10_ia-sustentabilidade/IEA_2026_electricity-mid-year-update.pdf)
+  - Atualização de meio de ano da IEA (julho/2026). Pouco específica sobre IA, mas dá o denominador (consumo mundial de eletricidade) e confirma os data centers como principal vetor de demanda nos EUA e o avanço do gás.
+  - Métrica: Consumo mundial de eletricidade de 28 600 TWh em 2025, indo a 30 700 TWh em 2027; crescimento de 3,6% em 2026 e 3,8% em 2027 (p. 6)
+  - Métrica: EUA: demanda cresce 1,8% em 2026 e 3% em 2027, com os data centers como principal vetor (p. 13)
+  - Métrica: Investimento em geração fóssil nos EUA deve superar o da China em 2026 pela primeira vez em décadas, puxado pelas encomendas de turbinas a gás para data centers (p. 23)
+- **M736 · IRENA - Agência Internacional de Energia Renovável (2025)** — Digitalisation and AI for power system transformation: Perspectives for the G7 · F3 · relevância baixa · [link](https://www.irena.org/Publications/2025/Oct/Digitalisation-and-AI-for-power-system-transformation-Perspectives-for-the-G7)
+  - Relatório da IRENA (out/2025) sobre digitalização e IA no sistema elétrico (previsão, otimização, automação). O site bloqueou o acesso automatizado (HTTP 403) e o documento não foi lido; segundo busca secundária, só reproduz números de data centers do LBNL, da EirGrid e da IEA, sem estimativa própria.
+- **M737 · Iberdrola (2025 (nov/2025))** — Green artificial intelligence · F1 · relevância baixa · [link](https://www.iberdrola.com/about-us/our-innovation-model/artificial-intelligence/green-ai)
+  - Conteúdo institucional de uma grande utility sobre 'IA verde'. Não é política formal nem traz métricas próprias; serve como exemplo de posicionamento de empresa de energia.
+  - Métrica: Distingue 'Green in AI' (tornar a própria IA eficiente: algoritmo, hardware, data center, reuso de modelos) de 'Green by AI' (IA aplicada à eficiência e ao clima)
+  - Métrica: Defende transparência na medição e no relato de energia e CO2 da IA
+  - Métrica: Cita 415 TWh (2024) e 945 TWh (2030) de data centers (IEA) e números de terceiros de qualidade variável (ex.: '80 GWh/dia se toda busca do Google usasse IA', estimativa antiga)
+- **M738 · KTH Royal Institute of Technology e outros (Vinuesa et al.) (2020)** — The role of artificial intelligence in achieving the Sustainable Development Goals (Nature Communications 11, 233) · F3 · relevância baixa · [link](https://doi.org/10.1038/s41467-019-14108-y)
+  - Estudo muito citado de potencial (não de medição); números da versão publicada diferem do preprint.
+  - Métrica: Por elicitação de especialistas, a IA pode viabilizar 134 metas dos ODS e inibir 59; o preprint arXiv de 2019 trazia 128 e 58
+  - Métrica: ODS 13: a IA apoia sistemas de baixo carbono com alta integração de renováveis, mas a alta demanda de energia da IA pode minar o ODS 13
+- **M739 · MIT Lincoln Laboratory, NYU e Northeastern (Samsi et al.) (2023)** — From Words to Watts: Benchmarking the Energy Costs of Large Language Model Inference (IEEE HPEC 2023) · F3 · relevância baixa · [PDF](10_ia-sustentabilidade/MIT-LL_2023_samsi-from-words-to-watts-llm-inference.pdf)
+  - Uma das primeiras medições de energia por token em LLMs abertos; útil para converter tokens em energia em ordens de grandeza.
+  - Métrica: LLaMA 65B em GPUs A100: cerca de 3-4 joules por token de saída (p. 6)
+- **M740 · McKinsey & Company (2024 (29/10/2024))** — AI power: Expanding data center capacity to meet growing demand · F3 · relevância baixa · [link](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/ai-power-expanding-data-center-capacity-to-meet-growing-demand)
+  - Análise da McKinsey sobre o déficit de capacidade de data centers e as mudanças de projeto (refrigeração líquida, 48 V). Foco em oferta e investimento, não em pegada.
+  - Métrica: Demanda global por capacidade de data centers: 171–219 GW em 2030 (19–22% ao ano), contra 60 GW hoje; cenário extremo de 298 GW
+  - Métrica: ~70% da demanda em 2030 será para cargas de IA avançada; GenAI ~40% do total; capacidade 'AI-ready' cresce 33% ao ano (2023–2030)
+  - Métrica: 60–65% das cargas de IA na Europa e nos EUA ficarão em nuvem/hiperescaladores em 2030
+  - Métrica: Refrigeração líquida reduziu o PUE em ~10% em alguns data centers
+- **M741 · McKinsey & Company (2026 (31/07/2026))** — Powering AI: How real is the risk of overbuilding? · F3 · relevância baixa · [link](https://www.mckinsey.com/industries/electric-power-and-natural-gas/our-insights/powering-ai-how-real-is-the-risk-of-overbuilding)
+  - Artigo recente da McKinsey que vê mais risco de falta do que de excesso de oferta de energia para data centers nos EUA; útil para explicar diferenças entre GW de TI e GW de rede.
+  - Métrica: ~75% do crescimento da demanda de energia dos EUA na próxima década deve vir de data centers, construídos a um ritmo equivalente a ~30 GW por ano
+  - Métrica: Mesmo no cenário de baixa demanda, o setor elétrico dos EUA pode adicionar >150 GW de capacidade até 2030
+  - Métrica: Capacidade de interconexão de data centers pode ser 50–80% maior que a carga de TI declarada
+- **M742 · McKinsey & Company (McKinsey Quarterly) (2025 (28/04/2025))** — The cost of compute: A $7 trillion race to scale data centers · F3 · relevância baixa · [link](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-cost-of-compute-a-7-trillion-dollar-race-to-scale-data-centers)
+  - Dimensiona o investimento em infraestrutura de IA e a fatia destinada a energia. Contexto de escala, sem métricas de pegada.
+  - Métrica: US$ 6,7 trilhões em capex de data centers até 2030, dos quais US$ 5,2 trilhões para IA
+  - Métrica: 156 GW de capacidade de data centers ligada à IA em 2030 (125 GW incrementais 2025–2030); cenários de 78 a 205 GW incrementais
+  - Métrica: 25% do investimento em IA (US$ 1,3 trilhão) vai para geração, transmissão, refrigeração e equipamentos elétricos
+- **M743 · NVIDIA (2024)** — NVIDIA Blackwell Platform Arrives to Power a New Era of Computing · F3 · relevância baixa · [link](https://nvidianews.nvidia.com/news/nvidia-blackwell-platform-arrives-to-power-a-new-era-of-computing)
+  - Comunicado de 18/03/2024, origem do '25x mais eficiente' repetido inclusive no relatório ambiental do Google de 2026. O ganho vale para uma configuração específica e por unidade de trabalho, não para o consumo absoluto.
+  - Métrica: Promete inferência de LLMs de trilhões de parâmetros em tempo real com até 25x menos custo e consumo de energia que a geração anterior (GB200 NVL72)
+- **M744 · PNUMA (UNEP) (2025)** — UNEP releases guidelines to curb the environmental impact of data centres (comunicado, 12/06/2025) · F3 · relevância baixa · [link](https://www.unep.org/technical-highlight/unep-releases-guidelines-curb-environmental-impact-data-centres)
+  - Comunicado de lançamento das diretrizes U4E. Registrado como exemplo de citação imprecisa da IEA por outra agência; a impressão em PDF foi barrada por verificação anti-robô, então ficou só o link (texto lido em 01/10/2026).
+  - Métrica: Atribui à IEA que os data centers responderão por mais de 20% do crescimento da demanda elétrica até 2030, número que a IEA aplica às economias avançadas, não ao mundo (página web)
+  - Métrica: Cita o Fórum Econômico Mundial: um data center de 1 MW pode consumir até 25,5 milhões de litros de água por ano só para resfriamento (página web)
+  - Métrica: Data centers e redes de transmissão de dados responderam por 1% das emissões de GEE ligadas a energia em 2020 (página web)
+- **M745 · UC Riverside e Caltech (Han, Wu, Li, Wierman e Ren) (2026)** — Health-Informed Computing: Estimating and Addressing the Public Health Impact of Data Centers (antes “The Unpaid Toll”, arXiv v4) · F3 · relevância baixa · [link](https://arxiv.org/abs/2412.06288)
+  - Amplia a pegada da IA para a poluição atmosférica local (geração fóssil e geradores a diesel). Preprint ainda sem revisão por pares.
+  - Métrica: A carga anual de saúde pública (poluição do ar) dos data centers dos EUA pode passar de US$ 20 bilhões em 2028; nos condados mais afetados, o custo por domicílio chega a ~7 vezes a média nacional (resumo)
+- **M746 · UIT (ITU) (2025)** — Comunicado de imprensa: Tech sector emissions, energy use grow with rise of AI (Greening Digital Companies 2025) · F3 · relevância baixa · [PDF](10_ia-sustentabilidade/ITU_2025_press-release-greening-digital-companies.pdf)
+  - Página oficial salva em PDF como evidência de distorção de número na origem: o comunicado da própria UIT transformou '150% do nível de 2020' (alta de 50%) em 'aumento de 150%', versão que circulou na imprensa.
+  - Métrica: Afirma que quatro grandes empresas focadas em IA tiveram aumento de 150% nas emissões operacionais desde 2020, enquanto o relatório diz que as emissões de 2023 eram 150% do nível de 2020 (p. 1)
+  - Métrica: Consumo dos data centers cresceu 12% ao ano de 2017 a 2023, quatro vezes mais rápido que a eletricidade mundial (p. 1)
+- **M747 · Yanran Wu, Inez Hua e Yi Ding — HotCarbon 2025 (2025)** — Not All Water Consumption Is Equal: A Water Stress Weighted Metric for Sustainable Computing · F2 · relevância baixa · [link](https://arxiv.org/abs/2506.22773)
+  - Proposta de métrica de água ponderada por estresse hídrico — direção que OCDE e literatura recomendam além do WUE.
+  - Métrica: Propõe a métrica AWI (Adjusted Water Impact), que pondera o volume de água consumida pelo estresse hídrico local no espaço e no tempo, com casos de serviço de LLM, data centers e fábricas de semicondutores

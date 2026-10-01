@@ -291,6 +291,37 @@
       ],
       "formularios": [],
       "lacunas": []
+    },
+    {
+      "grupo": "IA e sustentabilidade (impacto ambiental)",
+      "pasta": "10_ia-sustentabilidade",
+      "itens": [
+        {
+          "titulo": "IA domina as conversas na Climate Week",
+          "organizacao": "MIT Technology Review Brasil (Casey Crownhart)",
+          "ano": "2026",
+          "tipo_fonte": "mídia",
+          "setor": "multissetorial (energia e clima)",
+          "pais_regiao": "Global",
+          "url": "https://mittechreview.com.br/",
+          "arquivo": "10_ia-sustentabilidade/MITTRBrasil_2026_ia-domina-conversas-climate-week.pdf",
+          "pasta": "10_ia-sustentabilidade",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Investimento global de capital de risco em tecnologias climáticas de US$ 26 bilhões no 1º semestre de 2026, 55% acima do ano anterior, com grande fatia para produtos e serviços para data centers (dados da Currence, citados) (p. 2)",
+            "Investimentos de capital de risco em gestão de carbono e combustíveis de baixo carbono despencaram em 2026 (Semafor, citado) (p. 2)",
+            "Microsoft, Google e Meta registraram aumento de emissões, em grande parte pela energia necessária para a IA (p. 2)",
+            "Evelyn Wang (MIT) estima cerca de uma década até que os data centers deixem de aumentar as emissões (p. 2)"
+          ],
+          "resumo": "Coluna sobre a Semana do Clima de Nova York e a Assembleia da ONU (set/2026): a IA virou o tema central do debate climático, entre o potencial para acelerar pesquisa e a expansão de gás natural para abastecer data centers. Registra o ceticismo crescente do setor climático e a fala de Simon Stiell (ONU) de que os líderes de IA estão em 'terreno frágil' quanto à licença para operar. Ponto sensível para a Acelen: o capital de risco em combustíveis de baixo carbono caiu enquanto o de data centers cresceu. Obtido pelo usuário.",
+          "relevancia": "alta"
+        }
+      ],
+      "formularios": [],
+      "lacunas": []
     }
   ],
   "acessos_obtidos": [
