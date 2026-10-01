@@ -98,6 +98,11 @@
   .q__tags { margin-left: auto; display: flex; gap: 6px; align-items: center; }
   .q__ask { font: 700 14.5px/1.45 var(--font-body); color: var(--fg-1); margin-top: 10px; }
   .q .label { display: block; margin-top: 10px; }
+  /* Página 3 (quatro perguntas): espaçamento mais justo para não encostar no rodapé */
+  .compacta .q { padding: 11px 16px; margin-top: 9px; }
+  .compacta .q__ask { margin-top: 7px; }
+  .compacta .q .label { margin-top: 7px; }
+  .compacta ul.probe li { margin-top: 2px; line-height: 1.45; }
 
   /* Condução */
   .two { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
@@ -208,7 +213,7 @@
 </section>
 
 <!-- 3 · Perguntas 01–04 -->
-<section class="page">
+<section class="page compacta">
   <div class="head"><img src="../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Uso interno</span></div>
   <div class="eyebrow">Perguntas 01–04</div>
   <h2>O que já aconteceu</h2>
