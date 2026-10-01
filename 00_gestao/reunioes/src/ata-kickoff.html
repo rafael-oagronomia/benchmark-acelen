@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Ata do kick-off — Benchmarking de uso de IA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --brand-green: #52C937; --brand-green-bright: #6FE34F; --brand-green-deep: #2F8B1F;
+    --bg-0: #050805; --bg-1: #0B100B; --bg-2: #131A13; --bg-3: #1C241B;
+    --line: #2A3328; --line-strong: #3A4537;
+    --fg-1: #F2F4EE; --fg-2: #B8BFB1; --fg-3: #7C8678; --fg-4: #4D5749;
+    --warning: #E8B33B; --info: #4FB7C9;
+    --font-display: 'Chakra Petch', 'Bahnschrift', system-ui, sans-serif;
+    --font-body: 'Manrope', 'Segoe UI', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  }
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg-0); color: var(--fg-1); font-family: var(--font-body); font-size: 11.5px; line-height: 1.5;
+    -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page { width: 210mm; height: 297mm; position: relative; overflow: hidden; padding: 12mm 14mm 18mm; background: var(--bg-0);
+    page-break-after: always; break-after: page; }
+  .page:last-child { page-break-after: auto; break-after: auto; }
+  .eyebrow { font: 500 10.5px var(--font-display); text-transform: uppercase; letter-spacing: 0.18em; color: var(--brand-green); }
+  .label { font: 500 9.5px var(--font-display); text-transform: uppercase; letter-spacing: 0.08em; color: var(--fg-3); }
+  h1 { font: italic 700 28px/1.05 var(--font-display); letter-spacing: -0.01em; margin: 6px 0 0; }
+  h2 { font: italic 600 17px/1.2 var(--font-display); margin: 0 0 7px; }
+  p { margin: 0; }
+  .mono { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+  .head { display: flex; justify-content: space-between; align-items: flex-end; padding-bottom: 10px; border-bottom: 1px solid var(--line); margin-bottom: 12px; }
+  .head img { height: 26px; display: block; mix-blend-mode: lighten; }
+  .legend { display: grid; grid-template-columns: auto auto; column-gap: 12px; row-gap: 2px; font-size: 10px; text-align: right; }
+  .legend .label { text-align: right; }
+  .foot { position: absolute; left: 14mm; right: 14mm; bottom: 7mm; display: flex; justify-content: space-between; padding-top: 6px;
+    border-top: 1px solid var(--line); font: 500 8.5px var(--font-display); letter-spacing: 0.08em; text-transform: uppercase; color: var(--fg-3); }
+  .foot .mono { letter-spacing: 0; font-size: 9.5px; }
+  section.bloco { margin-top: 14px; }
+
+  .meta { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+  .metric { background: var(--bg-2); border: 1px solid var(--line); border-radius: 6px; padding: 8px 11px; }
+  .metric__lbl { font: 500 9px var(--font-display); letter-spacing: 0.12em; text-transform: uppercase; color: var(--fg-3); }
+  .metric__val { font: 500 15px/1.15 var(--font-mono); font-variant-numeric: tabular-nums; color: var(--fg-1); margin-top: 4px; }
+  .metric__val .u { font-size: 10.5px; color: var(--fg-3); margin-left: 3px; }
+
+  .two { display: grid; grid-template-columns: 1.5fr 1fr; gap: 8px; }
+  .card { background: var(--bg-2); border: 1px solid var(--line); border-radius: 8px; padding: 9px 12px; }
+  .card h3 { font: 600 12.5px var(--font-display); margin: 0 0 3px; }
+  .card p, .card li { color: var(--fg-2); font-size: 11px; }
+  ul.lista { margin: 0; padding: 0; list-style: none; }
+  ul.lista li { position: relative; padding-left: 15px; color: var(--fg-2); margin-top: 3px; }
+  ul.lista li::before { content: ""; position: absolute; left: 2px; top: 8px; width: 6px; height: 1.5px; background: var(--brand-green); }
+  ul.lista li b { color: var(--fg-1); font-weight: 600; }
+
+  ol.dec { margin: 0; padding: 0; list-style: none; counter-reset: d; }
+  ol.dec > li { counter-increment: d; display: grid; grid-template-columns: 30px 1fr; gap: 6px; padding: 7px 0; border-bottom: 1px solid var(--line); }
+  ol.dec > li:last-child { border-bottom: none; }
+  ol.dec > li::before { content: counter(d, decimal-leading-zero); font: 500 13px var(--font-mono); color: var(--brand-green); }
+  ol.dec .t { font-weight: 700; color: var(--fg-1); }
+  ol.dec .d { color: var(--fg-2); }
+  ol.dec ul.lista li { font-size: 11px; }
+
+  table.pend { width: 100%; border-collapse: collapse; font-size: 10.5px; }
+  table.pend th { font: 500 9px var(--font-display); letter-spacing: 0.08em; text-transform: uppercase; color: var(--fg-3); text-align: left;
+    padding: 6px 7px; border-bottom: 1px solid var(--line-strong); background: var(--bg-2); }
+  table.pend td { padding: 6px 7px; border-bottom: 1px solid var(--line); vertical-align: top; color: var(--fg-2); }
+  table.pend td.n { font: 500 11px var(--font-mono); color: var(--brand-green); width: 26px; }
+  table.pend td.p { color: var(--fg-1); }
+  .tag { display: inline-block; padding: 1px 7px; border-radius: 999px; font: 600 8.5px var(--font-display); letter-spacing: 0.06em; text-transform: uppercase; white-space: nowrap; }
+  .tag.oag { background: rgba(82,201,55,0.12); color: var(--brand-green-bright); }
+  .tag.acl { background: rgba(79,183,201,0.12); color: var(--info); }
+  .tag.amb { background: rgba(232,179,59,0.12); color: var(--warning); }
+  .st { display: inline-flex; align-items: center; gap: 5px; font: 600 9px var(--font-display); letter-spacing: 0.06em; text-transform: uppercase; white-space: nowrap; }
+  .st .dot { width: 6px; height: 6px; border-radius: 50%; }
+  .st.ok { color: var(--brand-green-bright); } .st.ok .dot { background: var(--brand-green); }
+  .st.and { color: var(--info); } .st.and .dot { background: var(--info); }
+  .st.ab { color: var(--warning); } .st.ab .dot { background: var(--warning); }
+  .nota { font-size: 10px; color: var(--fg-3); margin-top: 6px; }
+</style>
+</head>
+<body>
+
+<!-- Página 1 -->
+<section class="page">
+  <div class="head">
+    <div>
+      <img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA">
+      <div class="eyebrow" style="margin-top:12px">Benchmarking de uso de IA · Ata de reunião</div>
+      <h1>Kick-off do projeto</h1>
+    </div>
+    <div class="legend">
+      <span class="label">Contratante</span><span>Acelen Energia Renovável</span>
+      <span class="label">Documento</span><span>Ata do kick-off</span>
+      <span class="label">Nº / Revisão</span><span class="mono">BIA-ACL-AT-01 · Rev. 00</span>
+      <span class="label">Emissão</span><span class="mono">01/10/2026</span>
+    </div>
+  </div>
+
+  <div class="meta">
+    <div class="metric"><div class="metric__lbl">Data</div><div class="metric__val">29/09/2026</div></div>
+    <div class="metric"><div class="metric__lbl">Duração</div><div class="metric__val">47<span class="u">min</span></div></div>
+    <div class="metric"><div class="metric__lbl">Formato</div><div class="metric__val">Teams</div></div>
+    <div class="metric"><div class="metric__lbl">Pendências</div><div class="metric__val">11</div></div>
+  </div>
+
+  <section class="bloco">
+    <h2>Participantes</h2>
+    <div class="two">
+      <div class="card">
+        <h3>Acelen Renováveis — Estratégia</h3>
+        <p>Bruno Ruocco Lizarelli, Bruna Rodrigues Silva, Pamela Wong Sarli, Adriana Yumi Maeda, Raianne Slujalkovsky Borges e Francisco Nicotero Pestana, de Montes Claros. A equipe de governança e PMO da Estratégia (Bruna, Pamela, Adriana e Raianne) acompanha o projeto e pode se alternar nas reuniões; Francisco dá suporte direto ao Bruno.</p>
+      </div>
+      <div class="card">
+        <h3>OagronomIA</h3>
+        <p>Guilherme Sanches e Rafael Rotiroti, de Piracicaba.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="bloco">
+    <h2>Contexto trazido pela Acelen</h2>
+    <ul class="lista">
+      <li>A Estratégia fez o diagnóstico interno do agroindustrial e definiu <b>11 objetivos estratégicos</b> para o ciclo plurianual até 2030.</li>
+      <li>Este estudo atende ao único objetivo em que a empresa ainda não tem visão ampla de como está o mercado e onde ela própria está.</li>
+      <li>O agroindustrial tem <b>8 gerências</b>. A empresa se descreve com uma cultura forte de inovação e adoção frequente de tecnologias novas.</li>
+      <li>A expectativa com o estudo é alta. O case apresentado na negociação chamou atenção: alguns pontos já são o que a empresa quer, outros ela quer aprofundar.</li>
+    </ul>
+  </section>
+
+  <section class="bloco">
+    <h2>Decisões</h2>
+    <ol class="dec">
+      <li><div><span class="t">Início do projeto</span> <span class="d">— 29/09/2026, com duração de seis semanas.</span></div></li>
+      <li><div><span class="t">Abordagem de "página em branco"</span>
+        <ul class="lista">
+          <li>não há ferramenta ou definição interna que o estudo precise considerar;</li>
+          <li>a visão deve ser macro e ampla, sem afunilar por uma ferramenta específica, porque o objetivo estratégico olha cinco anos à frente;</li>
+          <li>desdobramentos posteriores podem ser conversados depois.</li>
+        </ul></div></li>
+      <li><div><span class="t">Workshop Executivo</span>
+        <ul class="lista">
+          <li>deixa de ser em São Paulo e passa para o evento anual de team building das lideranças do agroindustrial, em Montes Claros (gerentes, coordenadores, especialistas e analistas-chave);</li>
+          <li>será <b>presencial</b>; a OagronomIA se desloca;</li>
+          <li>a data ainda não está fixada: última semana de novembro ou, no máximo, primeira semana de dezembro;</li>
+          <li>as seis semanas de estudo devem terminar antes, para a Acelen absorver o conteúdo e incorporá-lo ao material do evento.</li>
+        </ul></div></li>
+      <li><div><span class="t">Reuniões semanais</span> <span class="d">— seis sessões de cerca de 1 hora, às sextas-feiras. O horário discutido foi 11h, a confirmar no convite enviado pela Acelen.</span></div></li>
+      <li><div><span class="t">Pontos focais da Acelen</span> <span class="d">— Bruno, Bruna e Pamela. O time da Estratégia é a primeira instância, inclusive para dados sensíveis. Assuntos críticos fora do controle do time sobem para o comitê de gestão.</span></div></li>
+      <li><div><span class="t">Canais</span> <span class="d">— grupo de WhatsApp criado pela Acelen; ambiente no SharePoint da Acelen para troca de documentos, por recomendação da TI; convites das reuniões enviados pela Acelen.</span></div></li>
+      <li><div><span class="t">Gravações e transcrições</span> <span class="d">— a Acelen sobe as gravações e transcrições de todas as reuniões na pasta do SharePoint, a partir do kick-off.</span></div></li>
+    </ol>
+  </section>
+
+  <div class="foot"><span>Acelen Energia Renovável · Ata do kick-off · BIA-ACL-AT-01 · Rev. 00</span><span class="mono">01 / 02</span></div>
+</section>
+
+<!-- Página 2 -->
+<section class="page">
+  <div class="head">
+    <div>
+      <img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA">
+      <div class="eyebrow" style="margin-top:12px">Pontos de conteúdo e pendências</div>
+    </div>
+    <div class="legend">
+      <span class="label">Nº / Revisão</span><span class="mono">BIA-ACL-AT-01 · Rev. 00</span>
+    </div>
+  </div>
+
+  <section class="bloco" style="margin-top:4px">
+    <h2>Pontos de conteúdo registrados</h2>
+    <ul class="lista">
+      <li><b>Frente 1:</b> incluir como a IA se aplica às frentes em que a Acelen já atua, como imagens de satélite.</li>
+      <li><b>Frente 3, soberania tecnológica (adendo do Bruno):</b> além da divisão entre fornecedores americanos e chineses, mostrar como as empresas organizam a soberania dos dados internamente. Exemplos: IA generativa em servidor próprio, ou ferramentas de mercado com os dados processados só dentro de casa.</li>
+      <li><b>Frente 3, robótica e automação:</b> tema de peso para a cultura da Acelen; incluir a evolução no mercado, até robôs humanoides.</li>
+      <li><b>Mudança organizacional:</b> entender se faz sentido ter uma área de IA e como as empresas estão se organizando.</li>
+      <li><b>Sessões executivas:</b> de 2 a 4 conversas com executivos de grandes empresas, conduzidas pela OagronomIA. O questionário será validado com a Acelen antes das entrevistas.</li>
+    </ul>
+  </section>
+
+  <section class="bloco">
+    <h2>Pendências</h2>
+    <table class="pend">
+      <thead><tr><th>#</th><th>Pendência</th><th style="width:118px">Responsável</th><th style="width:96px">Prazo</th><th style="width:96px">Situação em 01/10</th></tr></thead>
+      <tbody>
+        <tr><td class="n">01</td><td class="p">Enviar a lista de 4 a 6 empresas de referência para o benchmark</td><td><span class="tag acl">Acelen</span> Bruno e equipe</td><td>Próxima semanal</td><td><span class="st ab"><span class="dot"></span>Em aberto</span></td></tr>
+        <tr><td class="n">02</td><td class="p">Enviar o cronograma com as datas atualizadas, em formato que a Acelen possa incorporar ao seu acompanhamento de projetos</td><td><span class="tag oag">OagronomIA</span></td><td>Próxima semanal</td><td><span class="st ok"><span class="dot"></span>Concluído</span></td></tr>
+        <tr><td class="n">03</td><td class="p">Apresentar o questionário das sessões executivas para validação</td><td><span class="tag oag">OagronomIA</span></td><td>Próxima semanal</td><td><span class="st and"><span class="dot"></span>Pronto para validar</span></td></tr>
+        <tr><td class="n">04</td><td class="p">Enviar a recorrência das seis reuniões semanais</td><td><span class="tag acl">Acelen</span> Pamela e Bruna</td><td>Esta semana</td><td><span class="st ok"><span class="dot"></span>Concluído</span></td></tr>
+        <tr><td class="n">05</td><td class="p">Criar o grupo de WhatsApp (Guilherme e Rafael enviam os telefones)</td><td><span class="tag acl">Acelen</span> Bruno</td><td>Esta semana</td><td><span class="st ok"><span class="dot"></span>Concluído</span></td></tr>
+        <tr><td class="n">06</td><td class="p">Enviar os e-mails institucionais de Guilherme e Rafael para os convites</td><td><span class="tag oag">OagronomIA</span></td><td>Esta semana</td><td><span class="st ok"><span class="dot"></span>Concluído</span></td></tr>
+        <tr><td class="n">07</td><td class="p">Liberar o acesso ao SharePoint do projeto</td><td><span class="tag acl">Acelen</span> Bruno</td><td>Esta semana</td><td><span class="st ok"><span class="dot"></span>Concluído</span></td></tr>
+        <tr><td class="n">08</td><td class="p">Subir as gravações e transcrições das reuniões no SharePoint</td><td><span class="tag acl">Acelen</span></td><td>A cada reunião</td><td><span class="st and"><span class="dot"></span>Contínuo</span></td></tr>
+        <tr><td class="n">09</td><td class="p">Confirmar a data do team building e do Workshop Executivo em Montes Claros</td><td><span class="tag acl">Acelen</span> Bruna e Bruno</td><td>Até 23/10</td><td><span class="st ab"><span class="dot"></span>Em aberto</span></td></tr>
+        <tr><td class="n">10</td><td class="p">Compartilhar a proposta (escopo e metodologia) com a equipe de PMO, que não participou da contratação</td><td><span class="tag oag">OagronomIA</span></td><td>Esta semana</td><td><span class="st ab"><span class="dot"></span>Em aberto</span></td></tr>
+        <tr><td class="n">11</td><td class="p">Cadastro de fornecedor na plataforma interna da Acelen: Bruno aciona a área responsável; Guilherme indica o contato administrativo da OagronomIA</td><td><span class="tag amb">Ambos</span></td><td>O quanto antes</td><td><span class="st ab"><span class="dot"></span>Em aberto</span></td></tr>
+      </tbody>
+    </table>
+    <p class="nota">O prazo da pendência 09 segue o cronograma atualizado (BIA-ACL-CR-01), que pede a data do team building até 23/10 para a logística do workshop.</p>
+  </section>
+
+  <section class="bloco">
+    <h2>Próxima reunião</h2>
+    <div class="card">
+      <p><b style="color:var(--fg-1)">Semanal 1 — sexta-feira, 02/10/2026</b> (horário a confirmar no convite). Pauta: pendências do kick-off, cronograma atualizado, lista de empresas de referência e painel, validação do roteiro das sessões executivas e informações sobre o workshop.</p>
+    </div>
+  </section>
+
+  <div class="foot"><span>Acelen Energia Renovável · Ata do kick-off · BIA-ACL-AT-01 · Rev. 00</span><span class="mono">02 / 02</span></div>
+</section>
+
+</body>
+</html>
