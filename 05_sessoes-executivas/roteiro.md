@@ -6,7 +6,7 @@ Conversa semiestruturada de 60 minutos com executivos e lideranças técnicas de
 
 - **O estudo:** um benchmark de mercado sobre como empresas líderes estão adotando IA como diferencial estratégico, feito para uma empresa do setor de bioenergia.
 - **Confidencialidade:** nem o seu nome nem o da sua empresa aparecem em nenhum material. O que você disser entra no estudo de forma agregada e anônima.
-- **Gravação:** pedir autorização para gravar, só para a transcrição interna. O registro que entra no projeto é anonimizado.
+- **Gravação:** pedir autorização para gravar, só para a transcrição interna. A gravação é apagada depois do registro, e o registro que entra no projeto é anonimizado.
 - **Tom:** a conversa é estratégica. Não vamos perguntar sobre ferramentas específicas, números confidenciais nem detalhes internos que você não possa compartilhar.
 
 ## Perguntas (50 min)
@@ -28,6 +28,7 @@ Conversa semiestruturada de 60 minutos com executivos e lideranças técnicas de
 - De cada 10 pilotos, quantos chegam à produção?
 - Existe um método formal de ROI? Quem valida o resultado: o negócio ou a TI?
 - O que diferencia um piloto que escala de um que morre?
+- Onde o valor apareceu primeiro: no campo, na indústria, na logística ou no corporativo?
 
 ### 3 ★ O que não deu certo
 *Frente 1*
@@ -44,6 +45,7 @@ Conversa semiestruturada de 60 minutos com executivos e lideranças técnicas de
 
 - Qual pré-requisito foi subestimado? Por exemplo: qualidade de dados, conectividade no campo, integração de sistemas.
 - A sequência seguida foi planejada ou descoberta no caminho?
+- Quanto tempo levou cada etapa: da base de dados e da conectividade ao primeiro caso em produção, e dele à escala?
 
 ### 5 Governança e riscos
 *Frentes 1 e 2*
@@ -59,7 +61,8 @@ Conversa semiestruturada de 60 minutos com executivos e lideranças técnicas de
 
 **Que estruturas, papéis e competências vocês criaram ou mudaram por causa da IA?**
 
-- Centro de excelência, times de dados dentro do negócio, novos cargos?
+- Vocês têm uma área de IA? Onde ela fica no organograma: TI, Estratégia, negócio ou diretoria própria? Por quê?
+- Centro de excelência, times de dados dentro do negócio, novos cargos? Em ordem de grandeza, quantas pessoas trabalham com dados e IA?
 - Qual perfil profissional mais falta? Onde a cultura mais resistiu?
 - Como imagina essas estruturas daqui a 3 a 5 anos?
 
@@ -77,8 +80,9 @@ Conversa semiestruturada de 60 minutos com executivos e lideranças técnicas de
 
 **No campo, quais tecnologias estão de fato mudando a operação, e o que você espera para os próximos anos diante da escassez de mão de obra?**
 
-- Em quais estágios estão visão computacional, drones, robótica e máquinas autônomas?
-- O que muda para culturas perenes e de baixa mecanização?
+- Em quais estágios estão satélite e sensoriamento remoto, visão computacional, drones, robótica e máquinas autônomas?
+- O que muda para culturas de colheita ainda manual, como citros, café ou palma?
+- Robôs humanoides estão no radar de vocês, no campo ou na indústria?
 - Alguma referência internacional chama sua atenção, como China, EUA ou Austrália?
 
 ### 9 Dados, parceiros e soberania
@@ -87,6 +91,7 @@ Conversa semiestruturada de 60 minutos com executivos e lideranças técnicas de
 **Como vocês equilibram capacidade própria e dependência de fornecedores e parceiros de tecnologia, e quem é o dono dos dados?**
 
 - Existe preocupação com dependência de fornecedor, dados de máquinas ou dados em plataformas de terceiros?
+- Onde roda a IA generativa de vocês: ferramenta de mercado, nuvem privada ou servidor próprio? Os dados saem de casa para serem processados? O que pesou nessa escolha?
 - Parcerias, investimentos em startups ou aquisições fazem parte da estratégia?
 
 ### 10 Futuro e conselho
@@ -105,6 +110,7 @@ Conversa semiestruturada de 60 minutos com executivos e lideranças técnicas de
 - **Peça evidência, não só opinião.** Na pesquisa da Gatua (2026), 78% declararam IA na agenda, mas os especialistas descreveram o setor como "ainda em fase de validação". Quando o entrevistado falar em estágio ou resultado, pergunte "qual iniciativa mostra isso?".
 - **Mantenha o nível macro.** Se a conversa entrar em marcas ou ferramentas, traga de volta para a lógica da decisão.
 - **Não cite a macaúba nem detalhes que identifiquem o contratante.** Use sempre "empresa de bioenergia".
+- **Gravação e transcrição brutas ficam com a OagronomIA** e são apagadas depois do registro anonimizado. Elas não vão para o SharePoint da Acelen nem entram no pacote final do projeto: só o registro anonimizado.
 - **Registre logo após a sessão**, usando o modelo abaixo.
 
 ## Modelo de registro
@@ -117,6 +123,7 @@ Salvar em `registros-anonimizados/Sessao-NN.md`. Não use nomes de pessoas nem d
 - Perfil: [ex.: diretor de tecnologia, grande grupo sucroenergético]
 - Setor: [agro | bioenergia | florestal | correlato: ...]
 - Estágio autodeclarado (1–5): _ · Evidência citada: ...
+- Gravação e transcrição brutas apagadas em: AAAA-MM-DD
 
 ## Principais insights por pergunta
 1. ...
