@@ -9,7 +9,7 @@ Sair da reunião com o cronograma aceito, o roteiro das sessões executivas vali
 ## Materiais a levar
 
 - Cronograma atualizado: [PDF](../cronograma/cronograma_BIA-ACL-CR-01_rev00.pdf) e [planilha](../cronograma/cronograma_BIA-ACL-CR-01_rev00.xlsx), para a Acelen incorporar ao acompanhamento interno.
-- Roteiro das sessões executivas para validação: [PDF](../../05_sessoes-executivas/roteiro-sessoes-executivas.pdf).
+- Questionário das sessões executivas para validação (versão institucional, BIA-ACL-SE-02): [PDF](../../05_sessoes-executivas/questionario-sessoes-executivas_BIA-ACL-SE-02_rev00.pdf). O roteiro interno do entrevistador não vai para a Acelen.
 - Ata do kick-off com as pendências: [ata](2026-09-29_kickoff_ata.md).
 - Sugestão de painel (abaixo), para complementar a lista da Acelen.
 

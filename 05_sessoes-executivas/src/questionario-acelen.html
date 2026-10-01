@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Questionário das sessões executivas — para validação</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Manrope:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --brand-green: #52C937; --brand-green-bright: #6FE34F; --brand-green-deep: #2F8B1F; --brand-green-mute: #3A7A2A;
+    --bg-0: #050805; --bg-1: #0B100B; --bg-2: #131A13; --bg-3: #1C241B; --bg-4: #252E24;
+    --line: #2A3328; --line-strong: #3A4537;
+    --fg-1: #F2F4EE; --fg-2: #B8BFB1; --fg-3: #7C8678; --fg-4: #4D5749; --fg-inv: #0B100B;
+    --warning: #E8B33B;
+    --font-display: 'Chakra Petch', 'Bahnschrift', system-ui, sans-serif;
+    --font-body: 'Manrope', 'Segoe UI', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  }
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; background: var(--bg-0); color: var(--fg-1);
+    font-family: var(--font-body); font-size: 13px; line-height: 1.5;
+    -webkit-print-color-adjust: exact; print-color-adjust: exact;
+  }
+  .page {
+    width: 210mm; height: 297mm; position: relative; overflow: hidden;
+    padding: 16mm 16mm 22mm; background: var(--bg-0);
+    page-break-after: always; break-after: page;
+  }
+  .page:last-child { page-break-after: auto; break-after: auto; }
+
+  /* Tipografia */
+  .eyebrow { font: 500 11px var(--font-display); text-transform: uppercase; letter-spacing: 0.18em; color: var(--brand-green); }
+  .label { font: 500 10px var(--font-display); text-transform: uppercase; letter-spacing: 0.08em; color: var(--fg-3); }
+  h1 { font: italic 700 46px/1.04 var(--font-display); letter-spacing: -0.01em; margin: 14px 0 0; }
+  h2 { font: italic 600 30px/1.18 var(--font-display); letter-spacing: -0.01em; margin: 6px 0 0; }
+  h3 { font: 600 17px/1.18 var(--font-display); margin: 0; }
+  p { margin: 0; }
+  .mono { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+  .muted { color: var(--fg-2); }
+  .rule { width: 72px; height: 3px; background: var(--brand-green); margin: 22px 0; }
+
+  /* Cabeçalho e rodapé */
+  .head { display: flex; justify-content: space-between; align-items: center; padding-bottom: 12px; border-bottom: 1px solid var(--line); margin-bottom: 22px; }
+  .head img, .cover .logo { mix-blend-mode: lighten; }
+  .head img { height: 26px; display: block; }
+  .foot { position: absolute; left: 16mm; right: 16mm; bottom: 10mm; display: flex; justify-content: space-between; align-items: center; padding-top: 8px; border-top: 1px solid var(--line); font: 500 9px var(--font-display); letter-spacing: 0.08em; text-transform: uppercase; color: var(--fg-3); }
+  .foot .mono { letter-spacing: 0; font-size: 10px; }
+
+  /* Componentes */
+  .card { background: var(--bg-2); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; }
+  .chip { display: inline-block; padding: 3px 9px; border-radius: 999px; font: 500 9.5px var(--font-display); letter-spacing: 0.06em; text-transform: uppercase; background: var(--bg-3); color: var(--fg-2); border: 1px solid var(--line); }
+  .status { display: inline-flex; align-items: center; gap: 6px; padding: 3px 9px; border-radius: 999px; font: 600 9.5px var(--font-display); letter-spacing: 0.08em; text-transform: uppercase; background: rgba(82,201,55,0.12); color: var(--brand-green-bright); }
+  .status .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--brand-green); }
+  .metric { background: var(--bg-2); border: 1px solid var(--line); border-radius: 6px; padding: 12px 14px; }
+  .metric__lbl { font: 500 9.5px var(--font-display); letter-spacing: 0.12em; text-transform: uppercase; color: var(--fg-3); }
+  .metric__val { font: 500 26px/1 var(--font-mono); font-variant-numeric: tabular-nums; color: var(--fg-1); margin-top: 8px; }
+  .metric__val .u { font-size: 12px; color: var(--fg-3); margin-left: 4px; }
+  .alert { display: flex; gap: 10px; padding: 11px 13px; border-radius: 6px; border: 1px solid rgba(232,179,59,0.35); background: rgba(232,179,59,0.08); }
+  .alert__ttl { font: 600 10.5px var(--font-display); letter-spacing: 0.08em; text-transform: uppercase; color: var(--warning); }
+  .alert__msg { color: var(--fg-1); font-size: 12px; line-height: 1.5; margin-top: 3px; }
+  ul.probe { margin: 6px 0 0; padding: 0; list-style: none; }
+  ul.probe li { position: relative; padding-left: 16px; color: var(--fg-2); font-size: 12.5px; line-height: 1.5; margin-top: 3px; }
+  ul.probe li::before { content: ""; position: absolute; left: 2px; top: 8px; width: 6px; height: 1.5px; background: var(--brand-green); }
+
+  /* Capa */
+  .cover { display: flex; flex-direction: column; }
+  .cover .logo { height: 44px; align-self: flex-start; }
+  .cover .readout { font: 500 10px var(--font-mono); color: var(--fg-3); margin-top: 120px; letter-spacing: 0.02em; }
+  .cover .lead { font-size: 15px; line-height: 1.6; color: var(--fg-2); max-width: 520px; }
+  .grid4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-top: 30px; }
+  .legend { margin-top: auto; border-left: 2px solid var(--brand-green); background: var(--bg-1); padding: 14px 18px; display: grid; grid-template-columns: 120px 1fr; row-gap: 7px; font-size: 12px; }
+  .legend .label { padding-top: 2px; }
+
+  /* Estrutura */
+  .timeline { display: grid; grid-template-columns: 5fr 50fr 5fr; gap: 3px; margin-top: 18px; }
+  .timeline .seg { padding: 10px 10px; border-radius: 2px; background: var(--bg-3); border: 1px solid var(--line); min-width: 0; }
+  .timeline .seg.main { background: rgba(82,201,55,0.10); border-color: rgba(82,201,55,0.45); }
+  .timeline .t { font: 500 10px var(--font-mono); color: var(--fg-3); }
+  .timeline .n { font: 600 12px var(--font-display); margin-top: 2px; white-space: nowrap; }
+  .timeline-lbl { display: grid; grid-template-columns: 5fr 50fr 5fr; gap: 3px; }
+  .script { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 12px; }
+  .script .card p { font-size: 12.5px; color: var(--fg-2); margin-top: 5px; }
+  .script .card h3 { font-size: 14px; }
+  table.matrix { width: 100%; border-collapse: collapse; margin-top: 12px; font-size: 12.5px; }
+  table.matrix th { font: 500 9.5px var(--font-display); letter-spacing: 0.08em; text-transform: uppercase; color: var(--fg-3); text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--line-strong); }
+  table.matrix td { padding: 6px 8px; border-bottom: 1px solid var(--line); height: 29px; }
+  table.matrix td.c, table.matrix th.c { text-align: center; }
+  table.matrix .num { font: 500 12px var(--font-mono); color: var(--brand-green); width: 34px; }
+  .dotm { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--brand-green); }
+
+  /* Perguntas */
+  .q { background: var(--bg-2); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px 14px 16px; margin-top: 12px; position: relative; }
+  .q.core::before { content: ""; position: absolute; left: -1px; top: 14px; bottom: 14px; width: 2px; background: var(--brand-green); }
+  .q__top { display: flex; align-items: center; gap: 12px; }
+  .q__n { font: 500 22px/1 var(--font-mono); color: var(--brand-green); font-variant-numeric: tabular-nums; }
+  .q__tags { margin-left: auto; display: flex; gap: 6px; align-items: center; }
+  .q__ask { font: 700 14.5px/1.45 var(--font-body); color: var(--fg-1); margin-top: 10px; }
+  .q .label { display: block; margin-top: 10px; }
+  /* Página 3 (quatro perguntas): espaçamento mais justo para não encostar no rodapé */
+  .compacta .q { padding: 11px 16px; margin-top: 9px; }
+  .compacta .q__ask { margin-top: 7px; }
+  .compacta .q .label { margin-top: 7px; }
+  .compacta ul.probe li { margin-top: 2px; line-height: 1.45; }
+
+  /* Condução */
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .vs { display: grid; grid-template-columns: 1fr auto 1fr; gap: 10px; align-items: stretch; margin-top: 12px; }
+  .vs .x { align-self: center; font: italic 600 22px var(--font-display); color: var(--fg-3); }
+  .tip h3 { font-size: 14px; }
+  .tip p { font-size: 12.5px; color: var(--fg-2); margin-top: 5px; }
+  .src { font-size: 10.5px; color: var(--fg-3); margin-top: 8px; }
+  ol.check { margin: 8px 0 0; padding: 0; list-style: none; counter-reset: c; }
+  ol.check li { counter-increment: c; display: flex; gap: 12px; padding: 7px 0; border-bottom: 1px solid var(--line); font-size: 12.5px; color: var(--fg-2); }
+  ol.check li:last-child { border-bottom: none; }
+  ol.check li::before { content: counter(c, decimal-leading-zero); font: 500 11px var(--font-mono); color: var(--brand-green); padding-top: 1px; }
+  ol.check b { color: var(--fg-1); font-weight: 600; }
+
+  /* Anotações */
+  .page.flow { display: flex; flex-direction: column; padding-bottom: 27mm; }
+  .notes { flex: 1; display: flex; flex-direction: column; margin-top: 12px; background: var(--bg-1); border: 1px solid var(--line); border-radius: 8px; padding: 12px 16px 14px; }
+  .notes .lines { flex: 1; margin-top: 4px; background-image: repeating-linear-gradient(to bottom, transparent 0, transparent 27px, var(--line) 27px, var(--line) 28px); }
+
+  /* Régua */
+  .stage { display: grid; grid-template-columns: 64px 1fr; gap: 0; background: var(--bg-2); border: 1px solid var(--line); border-radius: 8px; margin-top: 10px; overflow: hidden; }
+  .stage__n { display: flex; align-items: center; justify-content: center; font: 500 30px var(--font-mono); color: var(--brand-green); border-right: 1px solid var(--line); background: var(--bg-1); }
+  .stage__b { padding: 20px 22px; }
+  .stage__b h3 { font: italic 600 23px var(--font-display); }
+  .stage__b p { color: var(--fg-2); font-size: 13.5px; margin-top: 4px; }
+  .dims { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-top: 12px; }
+  .dims .card { padding: 12px 14px; }
+  .dims h3 { font-size: 14px; }
+  .dims p { font-size: 11.5px; color: var(--fg-2); margin-top: 4px; }
+
+  .sec { margin-top: 18px; }
+  .sec h3 { font-size: 15px; }
+  .info { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 12px; }
+  .info .card h3 { font-size: 13.5px; }
+  .info .card p, .info .card li { font-size: 12px; color: var(--fg-2); }
+  .info ul.probe li { font-size: 12px; }
+  .badge { display: inline-flex; align-items: center; gap: 6px; padding: 3px 9px; border-radius: 999px; font: 600 9.5px var(--font-display);
+    letter-spacing: 0.08em; text-transform: uppercase; background: rgba(82,201,55,0.12); color: var(--brand-green-bright); }
+  .badge .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--brand-green); }
+  .valid { counter-reset: v; margin-top: 12px; }
+  .valid .card { display: grid; grid-template-columns: 34px 1fr; gap: 6px; margin-top: 10px; padding: 12px 16px; }
+  .valid .card::before { counter-increment: v; content: counter(v, decimal-leading-zero); font: 500 18px var(--font-mono); color: var(--brand-green); }
+  .valid h3 { font-size: 14px; }
+  .valid p { font-size: 12.5px; color: var(--fg-2); margin-top: 3px; }
+  .resp { margin-top: 8px; height: 46px; border: 1px dashed var(--line-strong); border-radius: 6px; }
+</style>
+</head>
+<body>
+
+<section class="page cover">
+  <img class="logo" src="../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA">
+  <div class="eyebrow" style="margin-top:140px">Benchmarking de uso de IA · Sessões executivas</div>
+  <h1>Questionário das<br>sessões executivas</h1>
+  <div class="rule"></div>
+  <p class="lead">Perguntas que serão levadas a executivos e lideranças técnicas de grandes empresas do agro, bioenergia, florestal e setores correlatos. Este documento é enviado à Acelen para avaliação: o que perguntar, o que ajustar e o que priorizar.</p>
+  <div class="grid4">
+    <div class="metric"><div class="metric__lbl">Sessões</div><div class="metric__val">2 a 4</div></div>
+    <div class="metric"><div class="metric__lbl">Duração</div><div class="metric__val">60<span class="u">min</span></div></div>
+    <div class="metric"><div class="metric__lbl">Perguntas</div><div class="metric__val">10</div></div>
+    <div class="metric"><div class="metric__lbl">Validação até</div><div class="metric__val">09/10</div></div>
+  </div>
+  <div class="legend" style="margin-top:auto">
+    <div class="label">Contratante</div><div>Acelen Energia Renovável</div>
+    <div class="label">Documento</div><div>Questionário das sessões executivas — versão para validação</div>
+    <div class="label">Nº / Revisão</div><div class="mono">BIA-ACL-SE-02 · Rev. 00</div>
+    <div class="label">Responsáveis</div><div>Dr. Guilherme M. Sanches · Rafael Rotiroti — OagronomIA</div>
+    <div class="label">Data</div><div>Outubro de 2026</div>
+  </div>
+</section>
+
+<section class="page">
+  <div class="head"><img src="../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Para validação</span></div>
+  <div class="eyebrow">Como funcionam as sessões</div>
+  <h2>Leitura primária, com anonimato</h2>
+  <p class="muted" style="margin-top:8px;font-size:13px">As sessões complementam o benchmark feito com dados públicos: mostram o que as empresas estão de fato fazendo com IA, para além do que publicam. Os insights alimentam as três frentes do estudo.</p>
+  <div class="info">
+    <div class="card"><h3>Quem será ouvido</h3><p style="margin-top:5px">Executivos e lideranças técnicas de grandes empresas do agro, bioenergia, florestal e setores correlatos, da rede de relacionamento direto dos consultores. De 2 a 4 sessões, entre 05/10 e 23/10.</p></div>
+    <div class="card"><h3>Formato</h3><p style="margin-top:5px">Conversa semiestruturada de 60 minutos: 5 de abertura, cerca de 50 de perguntas e 5 de encerramento. As perguntas marcadas como essenciais são garantidas; as demais entram conforme o tempo e o perfil do entrevistado.</p></div>
+    <div class="card"><h3>Confidencialidade</h3>
+      <ul class="probe">
+        <li>Nomes de executivos e de empresas participantes não são divulgados em nenhum material.</li>
+        <li>Os insights entram de forma agregada e anonimizada.</li>
+        <li>A Acelen não é identificada aos entrevistados: o estudo é apresentado como feito para uma empresa do setor de bioenergia.</li>
+      </ul></div>
+    <div class="card"><h3>Tratamento das gravações</h3>
+      <ul class="probe">
+        <li>A gravação é feita com autorização do entrevistado, só para a transcrição.</li>
+        <li>Gravação e transcrição brutas ficam com a OagronomIA e são apagadas depois do registro anonimizado.</li>
+        <li>Para o projeto e para a Acelen vai apenas o registro anonimizado.</li>
+      </ul></div>
+  </div>
+  <div class="sec">
+    <div class="eyebrow">Mapa das perguntas</div>
+    <table class="matrix">
+      <thead><tr><th></th><th>Tema</th><th class="c">Frente 1<br>Benchmark</th><th class="c">Frente 2<br>Maturidade</th><th class="c">Frente 3<br>Tendências</th><th class="c">Prioridade</th></tr></thead>
+      <tbody><tr><td class="num">01</td><td>Trajetória e estágio atual</td><td class="c"><span class=dotm></span></td><td class="c"><span class=dotm></span></td><td class="c"></td><td class="c"><span class="badge"><span class="dot"></span>Essencial</span></td></tr><tr><td class="num">02</td><td>Valor real</td><td class="c"><span class=dotm></span></td><td class="c"></td><td class="c"></td><td class="c"><span class="badge"><span class="dot"></span>Essencial</span></td></tr><tr><td class="num">03</td><td>O que não deu certo</td><td class="c"><span class=dotm></span></td><td class="c"></td><td class="c"></td><td class="c"><span class="badge"><span class="dot"></span>Essencial</span></td></tr><tr><td class="num">04</td><td>Alicerces e sequência</td><td class="c"></td><td class="c"><span class=dotm></span></td><td class="c"></td><td class="c"><span class="badge"><span class="dot"></span>Essencial</span></td></tr><tr><td class="num">05</td><td>Governança e riscos</td><td class="c"><span class=dotm></span></td><td class="c"><span class=dotm></span></td><td class="c"></td><td></td></tr><tr><td class="num">06</td><td>Organização e pessoas</td><td class="c"><span class=dotm></span></td><td class="c"></td><td class="c"><span class=dotm></span></td><td></td></tr><tr><td class="num">07</td><td>IA generativa e agentes</td><td class="c"></td><td class="c"><span class=dotm></span></td><td class="c"><span class=dotm></span></td><td></td></tr><tr><td class="num">08</td><td>Campo e sistemas autônomos</td><td class="c"></td><td class="c"></td><td class="c"><span class=dotm></span></td><td class="c"><span class="badge"><span class="dot"></span>Essencial</span></td></tr><tr><td class="num">09</td><td>Dados, parceiros e soberania</td><td class="c"></td><td class="c"></td><td class="c"><span class=dotm></span></td><td></td></tr><tr><td class="num">10</td><td>Futuro e conselho</td><td class="c"></td><td class="c"><span class=dotm></span></td><td class="c"><span class=dotm></span></td><td></td></tr></tbody>
+    </table>
+  </div>
+  <div class="foot"><span>Acelen Energia Renovável · Questionário das sessões executivas · BIA-ACL-SE-02 · Rev. 00</span><span class="mono">02 / 07</span></div>
+</section>
+
+<section class="page compacta"><div class="head"><img src="../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Para validação</span></div><div class="eyebrow">Perguntas 01–04</div><h2>O que já aconteceu</h2><div class="q core"><div class="q__top"><span class="q__n">01</span><h3>Trajetória e estágio atual</h3><div class="q__tags"><span class="chip">Frente 1</span><span class="chip">Frente 2</span><span class="badge"><span class="dot"></span>Essencial</span></div></div><p class="q__ask">Como a IA evoluiu na sua empresa nos últimos anos, e onde vocês estão hoje nessa jornada?</p><span class="label">Aprofundamentos</span><ul class="probe"><li>Qual foi o ponto de virada em que a IA deixou de ser experimento e passou a ser pauta estratégica? Quem patrocinou?</li><li>Com base na régua de 5 estágios (anexo), onde você colocaria a empresa? Qual iniciativa comprova esse estágio?</li><li>Em qual dimensão vocês estão mais atrás: governança, dados, organização ou aplicações?</li></ul></div><div class="q core"><div class="q__top"><span class="q__n">02</span><h3>Valor real</h3><div class="q__tags"><span class="chip">Frente 1</span><span class="badge"><span class="dot"></span>Essencial</span></div></div><p class="q__ask">Quais iniciativas de IA geram valor mensurável hoje, e como vocês medem esse valor?</p><span class="label">Aprofundamentos</span><ul class="probe"><li>De cada 10 pilotos, quantos chegam à produção?</li><li>Existe um método formal de ROI? Quem valida o resultado: o negócio ou a TI?</li><li>O que diferencia um piloto que escala de um que morre?</li><li>Onde o valor apareceu primeiro: no campo, na indústria, na logística ou no corporativo?</li></ul></div><div class="q core"><div class="q__top"><span class="q__n">03</span><h3>O que não deu certo</h3><div class="q__tags"><span class="chip">Frente 1</span><span class="badge"><span class="dot"></span>Essencial</span></div></div><p class="q__ask">Você pode contar um caso de IA que não funcionou? O que falhou e o que vocês aprenderam?</p><span class="label">Aprofundamentos</span><ul class="probe"><li>A causa principal estava em dados, infraestrutura, governança, pessoas, fornecedor ou expectativa?</li><li>O que fariam diferente hoje?</li></ul></div><div class="q core"><div class="q__top"><span class="q__n">04</span><h3>Alicerces e sequência</h3><div class="q__tags"><span class="chip">Frente 2</span><span class="badge"><span class="dot"></span>Essencial</span></div></div><p class="q__ask">O que precisou estar pronto antes de a IA gerar resultado? Se começasse do zero, o que faria primeiro?</p><span class="label">Aprofundamentos</span><ul class="probe"><li>Qual pré-requisito foi subestimado? Por exemplo: qualidade de dados, conectividade no campo, integração de sistemas.</li><li>A sequência seguida foi planejada ou descoberta no caminho?</li><li>Quanto tempo levou cada etapa: da base de dados e da conectividade ao primeiro caso em produção, e dele à escala?</li></ul></div><div class="foot"><span>Acelen Energia Renovável · Questionário das sessões executivas · BIA-ACL-SE-02 · Rev. 00</span><span class="mono">03 / 07</span></div></section>
+<section class="page"><div class="head"><img src="../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Para validação</span></div><div class="eyebrow">Perguntas 05–07</div><h2>Como a empresa se organiza</h2><div class="q"><div class="q__top"><span class="q__n">05</span><h3>Governança e riscos</h3><div class="q__tags"><span class="chip">Frente 1</span><span class="chip">Frente 2</span></div></div><p class="q__ask">Como a IA é governada na empresa: quem decide o que entra, quem responde pelos riscos e como vocês lidam com o uso não oficial pelas equipes?</p><span class="label">Aprofundamentos</span><ul class="probe"><li>Existe comitê, política ou área dona do tema? A quem ela se reporta?</li><li>Como tratam segurança da informação e dados sensíveis no uso de IA?</li><li>A governança acelera ou freia?</li></ul></div><div class="q"><div class="q__top"><span class="q__n">06</span><h3>Organização e pessoas</h3><div class="q__tags"><span class="chip">Frente 1</span><span class="chip">Frente 3</span></div></div><p class="q__ask">Que estruturas, papéis e competências vocês criaram ou mudaram por causa da IA?</p><span class="label">Aprofundamentos</span><ul class="probe"><li>Vocês têm uma área de IA? Onde ela fica no organograma: TI, Estratégia, negócio ou diretoria própria? Por quê?</li><li>Centro de excelência, times de dados dentro do negócio, novos cargos? Em ordem de grandeza, quantas pessoas trabalham com dados e IA?</li><li>Qual perfil profissional mais falta? Onde a cultura mais resistiu?</li><li>Como imagina essas estruturas daqui a 3 a 5 anos?</li></ul></div><div class="q"><div class="q__top"><span class="q__n">07</span><h3>IA generativa e agentes</h3><div class="q__tags"><span class="chip">Frente 2</span><span class="chip">Frente 3</span></div></div><p class="q__ask">Onde a IA generativa (assistentes, copilotos, agentes) já mudou o jeito de trabalhar, e onde ainda é promessa?</p><span class="label">Aprofundamentos</span><ul class="probe"><li>O uso é individual ou já está integrado a processos?</li><li>Vocês já têm agentes executando tarefas com autonomia? Com que supervisão?</li><li>Ela já apoia decisões estratégicas ou fica na produtividade?</li></ul></div><div class="foot"><span>Acelen Energia Renovável · Questionário das sessões executivas · BIA-ACL-SE-02 · Rev. 00</span><span class="mono">04 / 07</span></div></section>
+<section class="page"><div class="head"><img src="../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Para validação</span></div><div class="eyebrow">Perguntas 08–10</div><h2>Para onde o setor vai</h2><div class="q core"><div class="q__top"><span class="q__n">08</span><h3>Campo e sistemas autônomos</h3><div class="q__tags"><span class="chip">Frente 3</span><span class="badge"><span class="dot"></span>Essencial</span></div></div><p class="q__ask">No campo, quais tecnologias estão de fato mudando a operação, e o que você espera para os próximos anos diante da escassez de mão de obra?</p><span class="label">Aprofundamentos</span><ul class="probe"><li>Em quais estágios estão satélite e sensoriamento remoto, visão computacional, drones, robótica e máquinas autônomas?</li><li>O que muda para culturas de colheita ainda manual, como citros, café ou palma?</li><li>Robôs humanoides estão no radar de vocês, no campo ou na indústria?</li><li>Alguma referência internacional chama sua atenção, como China, EUA ou Austrália?</li></ul></div><div class="q"><div class="q__top"><span class="q__n">09</span><h3>Dados, parceiros e soberania</h3><div class="q__tags"><span class="chip">Frente 3</span></div></div><p class="q__ask">Como vocês equilibram capacidade própria e dependência de fornecedores e parceiros de tecnologia, e quem é o dono dos dados?</p><span class="label">Aprofundamentos</span><ul class="probe"><li>Existe preocupação com dependência de fornecedor, dados de máquinas ou dados em plataformas de terceiros?</li><li>Onde roda a IA generativa de vocês: ferramenta de mercado, nuvem privada ou servidor próprio? Os dados saem de casa para serem processados? O que pesou nessa escolha?</li><li>Parcerias, investimentos em startups ou aquisições fazem parte da estratégia?</li></ul></div><div class="q"><div class="q__top"><span class="q__n">10</span><h3>Futuro e conselho</h3><div class="q__tags"><span class="chip">Frente 2</span><span class="chip">Frente 3</span></div></div><p class="q__ask">Olhando para 2030, o que vai separar as empresas do agro que capturaram valor com IA das que ficaram para trás?</p><span class="label">Aprofundamentos</span><ul class="probe"><li>Se você fosse aconselhar uma empresa de bioenergia que está estruturando sua estratégia de IA agora, por onde começaria?</li><li>E o que ela deveria evitar?</li></ul></div><div class="foot"><span>Acelen Energia Renovável · Questionário das sessões executivas · BIA-ACL-SE-02 · Rev. 00</span><span class="mono">05 / 07</span></div></section>
+
+<section class="page">
+  <div class="head"><img src="../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Anexo</span></div>
+  <div class="eyebrow">Régua de maturidade em IA</div>
+  <h2>Cinco estágios de maturidade</h2>
+  <p class="muted" style="margin-top:8px; font-size:14px">Mostrada ao entrevistado na pergunta 1, para que ele posicione a própria empresa.</p>
+  <div class="stage"><div class="stage__n">1</div><div class="stage__b"><h3>Exploração</h3><p>Uso individual e informal de IA; dados fragmentados em planilhas e silos.</p></div></div>
+  <div class="stage"><div class="stage__n">2</div><div class="stage__b"><h3>Pilotos</h3><p>Provas de conceito com escopo e métrica; primeiros dados organizados.</p></div></div>
+  <div class="stage"><div class="stage__n">3</div><div class="stage__b"><h3>Operacionalização</h3><p>Primeiro caso em produção; plataforma de dados unificada; governança formal.</p></div></div>
+  <div class="stage"><div class="stage__n">4</div><div class="stage__b"><h3>Escala</h3><p>IA embutida nos processos-chave; dados como produto; centro de excelência.</p></div></div>
+  <div class="stage"><div class="stage__n">5</div><div class="stage__b"><h3>Transformação</h3><p>IA no modelo de negócio; agentes autônomos com supervisão por exceção.</p></div></div>
+  <div class="eyebrow" style="margin-top:22px">Quatro dimensões</div>
+  <div class="dims">
+    <div class="card"><h3>Governança</h3><p>Quem decide, política e gestão de riscos.</p></div>
+    <div class="card"><h3>Dados</h3><p>Qualidade, integração e plataforma.</p></div>
+    <div class="card"><h3>Organização</h3><p>Estruturas, papéis e competências.</p></div>
+    <div class="card"><h3>Aplicações</h3><p>Do apoio à decisão ao campo autônomo.</p></div>
+  </div>
+  <p class="src">Síntese OagronomIA de frameworks de mercado (Gartner, MIT/BCG, McKinsey, Microsoft, IBM, Google). Será aprofundada na Frente 2.</p>
+  <div class="foot"><span>Acelen Energia Renovável · Questionário das sessões executivas · BIA-ACL-SE-02 · Rev. 00</span><span class="mono">06 / 07</span></div>
+</section>
+
+<section class="page">
+  <div class="head"><img src="../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Para validação</span></div>
+  <div class="eyebrow">Validação pela Acelen</div>
+  <h2>O que pedimos que vocês avaliem</h2>
+  <p class="muted" style="margin-top:8px;font-size:13px">Pedimos o retorno até <b style="color:var(--fg-1)">09/10</b>, para que as sessões comecem na semana seguinte. Os comentários podem vir no grupo do projeto, por e-mail ou na reunião semanal.</p>
+  <div class="valid">
+    <div class="card"><div><h3>Perguntas a incluir</h3><p>Há algum tema que a Acelen quer ver perguntado e não está no questionário?</p><div class="resp"></div></div></div>
+    <div class="card"><div><h3>Perguntas a ajustar ou retirar</h3><p>Alguma pergunta está fora de foco, sensível ou pode ser formulada de outro jeito?</p><div class="resp"></div></div></div>
+    <div class="card"><div><h3>Prioridades</h3><p>Quais temas merecem mais tempo nas conversas? As perguntas essenciais (1, 2, 3, 4 e 8) atendem às prioridades da Acelen?</p><div class="resp"></div></div></div>
+    <div class="card"><div><h3>Perfis e setores de interesse</h3><p>Há setores ou perfis de executivo que a Acelen gostaria de ver representados (por exemplo, sucroenergético, florestal, palma, financeiro)? Os nomes dos participantes continuam confidenciais.</p><div class="resp"></div></div></div>
+  </div>
+  <div class="foot"><span>Acelen Energia Renovável · Questionário das sessões executivas · BIA-ACL-SE-02 · Rev. 00</span><span class="mono">07 / 07</span></div>
+</section>
+
+</body>
+</html>
