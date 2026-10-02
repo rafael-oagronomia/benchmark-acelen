@@ -1,6 +1,8 @@
 # PDF original da proposta contém condições comerciais — não versionar
 *Proposta*.pdf
 *proposta*.pdf
+# Exceção: versão da proposta técnica SEM condições comerciais (pode ser compartilhada)
+!docs/proposta/proposta-tecnica_*_sem-condicoes-comerciais.pdf
 
 # Arquivos temporários do Office
 ~$*

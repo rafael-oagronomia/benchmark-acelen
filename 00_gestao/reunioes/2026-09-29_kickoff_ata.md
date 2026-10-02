@@ -52,7 +52,7 @@ A equipe de governança e PMO da Estratégia (Bruna, Pamela, Adriana e Raianne) 
 
 ## Pendências
 
-| # | Pendência | Responsável | Prazo | Situação em 01/10 |
+| # | Pendência | Responsável | Prazo | Situação em 02/10 |
 |---|---|---|---|---|
 | 1 | Enviar a lista de 4 a 6 empresas de referência para o benchmark | Acelen (Bruno e equipe) | Próxima reunião semanal | Em aberto |
 | 2 | Enviar o cronograma com as datas atualizadas, em formato que a Acelen possa incorporar ao seu acompanhamento de projetos | OagronomIA | Próxima reunião semanal | Concluído |
@@ -63,5 +63,5 @@ A equipe de governança e PMO da Estratégia (Bruna, Pamela, Adriana e Raianne) 
 | 7 | Liberar o acesso ao SharePoint do projeto | Acelen (Bruno) | Esta semana | Concluído |
 | 8 | Subir as gravações e transcrições das reuniões no SharePoint | Acelen | A cada reunião | Contínuo |
 | 9 | Confirmar a data do team building e do Workshop Executivo em Montes Claros | Acelen (Bruna e Bruno) | Até 23/10 | Em aberto |
-| 10 | Compartilhar a proposta (escopo e metodologia) com a equipe de PMO, que não participou da contratação | OagronomIA | Esta semana | Em aberto |
+| 10 | Compartilhar a proposta (escopo e metodologia) com a equipe de PMO, que não participou da contratação | OagronomIA | Esta semana | Concluído: versão sem condições comerciais enviada |
 | 11 | Cadastro de fornecedor na plataforma interna da Acelen: Bruno aciona a área responsável; Guilherme indica o contato administrativo da OagronomIA | Acelen e OagronomIA | O quanto antes | Em aberto |
