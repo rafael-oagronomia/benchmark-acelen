@@ -1,6 +1,6 @@
 # Repertório Acelen
 
-> Documento interno de preparação da equipe OagronomIA · Construído só com fontes públicas · Data de corte: 30/09/2026 · Não é entregável e não deve ser encaminhado ao cliente sem revisão.
+> Documento interno de preparação da equipe OagronomIA · Construído só com fontes públicas · Data de corte: 30/09/2026 · Não é entregável e não deve ser encaminhado ao cliente sem revisão. O que a própria Acelen contou nas reuniões do projeto fica separado, na seção 14 (atualizada em 09/10/2026).
 
 **Como ler.** "Acelen" designa o grupo e a Refinaria de Mataripe. "Acelen Renováveis" designa a Acelen Energia Renovável S.A., contratante do benchmark (escopo em [escopo-proposta.md](../proposta/escopo-proposta.md)). Os fatos têm três status: **confirmado** (fonte primária ou duas fontes independentes), **divergente** (fontes sérias com valores diferentes; o mais recente vem indicado) e **não confirmado** (fonte única ou sem documento oficial). Nas partes agrícolas, "feito" é o que já existe e "meta" é o que foi anunciado. Ao levar um fato para um entregável, registrar a fonte em `06_fontes/`.
 
@@ -631,7 +631,7 @@ O escopo exclui diagnóstico interno. Estas perguntas servem para calibrar o con
 
 **Estratégia e referências**
 1. Os objetivos plurianuais até 2030 que envolvem big data, IA e tecnologia no campo podem ser compartilhados em nível macro? Quais temas vêm primeiro?
-2. Quais empresas a Acelen considera referência (celulose, palma, cana, outras)? Alguma deve ficar fora do painel?
+2. Quais empresas a Acelen considera referência (celulose, palma, cana, outras)? Alguma deve ficar fora do painel? *(Respondida em 09/10: Suzano e Bayer, mais uma americana e uma chinesa; ver seção 14.)*
 3. A lista de culturas do benchmarking interno apresentado à ANAC (eucalipto, soja, mandioca, mamona, pinhão-manso, maçã) continua valendo?
 
 **Organização e dados**
@@ -649,7 +649,7 @@ O escopo exclui diagnóstico interno. Estas perguntas servem para calibrar o con
 11. Que linhas de colheita estão em estudo (manual assistida, mecanizada, coleta de frutos caídos)? Há protótipos?
 12. Os modelos de IA do viveiro são desenvolvidos internamente ou por fornecedor? A pergunta serve para posicionar no framework, não para avaliar.
 13. O mapeamento de ~4 milhões de palmeiras por satélite e IA existe? A empresa usa satélite ou drones nas lavouras hoje?
-14. Como estão a clonagem e o Valoriza (famílias e hectares)?
+14. Como estão a clonagem e o Valoriza (famílias e hectares)? *(Em parte respondida em 09/10: clonagem é objetivo de médio e longo prazo; ver seção 14.)*
 
 **Projeto industrial e contexto**
 
@@ -672,6 +672,31 @@ O escopo exclui diagnóstico interno. Estas perguntas servem para calibrar o con
 - **Projeções de impacto.** Os 85 mil empregos na próxima década e os US$ 40 bi na economia vêm de um estudo da FGV divulgado pela empresa. São projeções, não resultados [3].
 - **Jatrofa e BBF.** Usar como lição setorial, não como previsão para a Acelen.
 - **Sessões executivas.** Nenhum nome de executivo ou de empresa participante em material para o cliente.
+
+## 14. O que a Acelen contou nas reuniões
+
+Informação dada pela própria Acelen nas reuniões do projeto, não pública. Serve para calibrar o estudo; vale a mesma regra de leitura macro, sem diagnóstico interno. Registro completo nas atas: [kick-off, 29/09](../../00_gestao/reunioes/2026-09-29_kickoff_ata.md) e [semanal, 09/10](../../00_gestao/reunioes/2026-10-09_semanal_ata.md).
+
+**Estratégia e expectativa (kick-off, 29/09)**
+- A Estratégia definiu 11 objetivos estratégicos para o ciclo até 2030. O estudo atende ao único em que a empresa ainda não tem visão de como está o mercado e onde ela própria está.
+- O agroindustrial tem 8 gerências. A empresa se descreve com cultura forte de inovação.
+- Abordagem de "página em branco": sem ferramenta ou definição interna a considerar, visão macro, horizonte de cinco anos.
+- Temas pedidos: IA aplicada ao que a Acelen já faz (imagens de satélite); soberania tecnológica, inclusive como as empresas guardam os dados dentro de casa (IA generativa em servidor próprio ou ferramentas com processamento interno); robótica e automação, até humanoides; se faz sentido ter uma área de IA.
+
+**Empresas de referência (semanal, 09/10)**
+- A Acelen indicou **Suzano** (segundo o Bruno, grande empresa florestal com foco forte em inovação; dá também um panorama do agro) e **Bayer** (segundo o Bruno, programa de melhoria contínua com IA há anos; ele ressalvou que o que viu não é da área de agro, e Pamela sugeriu olhar a área de agro da empresa, a Crop Science).
+- Quer também **uma empresa norte-americana e uma chinesa** (ou do leste asiático), para retratar a bipolarização entre EUA e China, e espera um panorama da China a partir dos eventos de que o Guilherme participa lá. A escolha e o restante do painel ficam com a OagronomIA.
+- Isso responde à pergunta 2 da seção 12.
+
+**Melhoramento genético e estrutura (semanal, 09/10)**
+- Hoje a Acelen trabalha com maciços naturais de macaúba contratados: mapeou e caracterizou diversos maciços, identificou os melhores, colhe os frutos deles e produz as sementes a partir desses frutos. Está num processo de evolução e classificação, com a ideia de inovar no médio e longo prazo, inclusive em variedades e clonagem. Bate com as 11 populações superiores mapeadas em Minas citadas na seção 5.2 [12].
+- Tem time técnico, laboratório próprio (testes e especificações técnicas do óleo extraído e estudos do fruto) e uma biofábrica (produção de sementes e estudos de melhoramento genético), além de vários parceiros.
+- **Unicamp:** há parceria com a Unicamp, conduzida pela gerência de pesquisa e inovação, com um doutorando ligado ao tema. A Unicamp não aparece na lista oficial de 13 parceiros [61].
+- Responde em parte à pergunta 14 da seção 12: a clonagem é objetivo de médio e longo prazo.
+
+**Implicações para o estudo**
+- O melhoramento e a clonagem aproximam a Acelen das duas empresas indicadas: a Suzano, pelo eucalipto clonal e pelo melhoramento florestal de ciclo longo, e a Bayer, pelo melhoramento de sementes com dados e IA. As fichas das duas devem olhar com atenção a IA aplicada ao melhoramento.
+- A comparação entre EUA e China entra na Frente 3 (soberania tecnológica e dependência de fornecedores) e no painel da Frente 1.
 
 ## Fontes
 

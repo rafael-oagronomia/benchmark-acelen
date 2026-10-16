@@ -25,7 +25,7 @@
             "Guardian Life: automação de RFP e cotação reduziu a proposta de 5-7 dias para 24 horas (piloto, escala prevista para 2026) (p. 5)",
             "Italgas: solução preditiva WorkOnSite acelerou a conclusão de obras em 40% e reduziu inspeções em 80%; 30 mil horas de treinamento em IA e dados em 2024 (p. 7)"
           ],
-          "resumo": "Atualização do modelo de maturidade em IA do MIT CISR: o maior salto financeiro ocorre ao passar do estágio 2 (pilotos) para o 3 (IA em escala), com os 4 desafios da transição (estratégia, sistemas, sincronização, governança) e casos Guardian e Italgas. PDF é a impressão da página oficial (o PDF nativo exige cadastro gratuito).",
+          "resumo": "Atualização do modelo de maturidade em IA do MIT CISR: o texto destaca a passagem do estágio 2 (pilotos) para o 3 (IA em escala), quando o desempenho passa de abaixo para acima da média do setor (na figura da p. 9, os maiores saltos de crescimento e lucro são do estágio 1 para o 2), com os 4 desafios da transição (estratégia, sistemas, sincronização, governança) e casos Guardian e Italgas. PDF é a impressão da página oficial (o PDF nativo exige cadastro gratuito).",
           "relevancia": "alta"
         },
         {
@@ -925,7 +925,7 @@
           ],
           "metricas": [
             "R$ 40 mi de impacto financeiro em 6 anos do hub Pulse, sendo R$ 5 mi na safra 2022/23 (p. 1)",
-            "Mais de 120 projetos-piloto pagos com startups, dos quais 40 viraram contratos (~33% de conversão de piloto em contrato) (p. 1)",
+            "Mais de 120 projetos-piloto pagos com startups, dos quais 40 viraram contratos (até 33% de conversão de piloto em contrato, pois o denominador é 'mais de 120') (p. 1)",
             "58 startups no portfólio e 23 pilotos na safra 2022/23 (p. 1)"
           ],
           "resumo": "Release oficial com o balanço do hub de inovação aberta da Raízen (página impressa em PDF). Traz uma métrica rara de pilotos que chegam à escala. Não trata do copiloto interno de IA.",
@@ -1099,7 +1099,7 @@
             "F3"
           ],
           "metricas": [
-            "Mais de 300 demandas de IA avaliadas pelo IA Office, com 18 selecionadas para desenvolvimento (~6%) (2025) (p. 65)",
+            "Mais de 300 demandas de IA avaliadas pelo IA Office, com 18 selecionadas para desenvolvimento (até 6%, pois o denominador é 'mais de 300') (2025) (p. 65)",
             "Copilot da Microsoft liberado para todos os colaboradores, com treinamentos que somam mais de mil conclusões (2025) (p. 65 e p. 74)",
             "Caminhão de madeira passou de 5 minutos para pouco mais de 1 minuto na balança com o SAP S/4HANA (projeto Smart) (p. 63)"
           ],
@@ -1373,7 +1373,7 @@
             "54% dizem que precisam estruturar a digitalização como processo organizado; 26% precisam melhorar a avaliação econômica (retorno) dos projetos digitais (p. 17-18)",
             "Barreiras: estrutura e cultura (49%), falta de rentabilidade dos projetos digitais (26%) e pouca experiência em projetos digitais (26%) (p. 18-19)",
             "90% citam aumento de eficiência operacional como impacto da transformação digital; 54% citam melhoria do processo decisório (p. 22-23)",
-            "10% das empresas do agro não mensuram ou não observam resultados da estratégia digital (p. 24-25)"
+            "Na pergunta sobre os resultados do desenvolvimento de pessoas e equipes para a transformação digital, 10% das empresas do agro dizem não mensurar ou não observar resultados (p. 24-25)"
           ],
           "resumo": "Recorte do agronegócio no índice PwC/FDC, que mede 10 dimensões (incluindo IA, dados e governança) e foi publicado em jun/2026. Serve de linha de base brasileira de maturidade do setor e mostra onde o agro fica para trás: IA, tecnologias de fronteira e mensuração de retorno.",
           "relevancia": "alta"
@@ -1438,7 +1438,7 @@
             "F3"
           ],
           "metricas": [
-            "37% dos CEOs brasileiros relatam aumento de receita com IA nos últimos 12 meses (29% no mundo) e 28% redução de custos (26% no mundo); 56% não tiveram benefício nem em receita nem em custos (p. 4)",
+            "37% dos CEOs brasileiros relatam aumento de receita com IA nos últimos 12 meses (29% no mundo, segundo esta edição; a edição global traz 30%) e 28% redução de custos (26% no mundo); os 56% sem benefício que o relatório repete são o número global, sem recorte do Brasil (p. 4, 8)",
             "Uso amplo de IA no Brasil: geração de demanda 28%, serviços de suporte 28%, produtos e serviços 29%, direcionamento estratégico 28% (no mundo: 22%, 20%, 19% e 15%) (p. 7)",
             "60% dos CEOs no Brasil (49% no mundo) esperam precisar de menos profissionais em início de carreira em 3 anos por causa da IA (p. 8)",
             "51% dos CEOs brasileiros dizem que a empresa passou a competir em novos setores nos últimos 5 anos (42% no mundo) (p. 4)"
@@ -4125,7 +4125,7 @@
           ],
           "metricas": [
             "Adoção nas propriedades rurais (Embrapa Agricultura Digital, com dados Embrapa/CNA/IBGE): telemetria 3%, drones 8%, sistemas de gestão digital <10%, agricultura de precisão cerca de 30%; 73% estão conectadas, mas só 35% usam a conexão para gestão; 22% receberam capacitação em TI (2025)",
-            "Índice de Produtividade Tecnológica (IPT) TOTVS 2024: agro 0,58 (escala 0 a 1), atrás da manufatura (0,71) (350 empresas com faturamento acima de R$ 200 mi)",
+            "Índice de Produtividade Tecnológica (IPT) TOTVS 2024: agro 0,58 (escala 0 a 1), atrás da manufatura (0,71) (350 empresas com faturamento acima de R$ 20 milhões, segundo o estudo original, M302, p. 3)",
             "Pesquisa Ação Estratégica (fev-abr/2025, 197 profissionais): 32% das empresas do agro usam IA, 56% não usam e 12% não sabem",
             "Grupo GGF (MT): gestão agrícola integrada às máquinas trouxe melhora de 60% nas operações e 30% de ganho no tempo de manobra; trading de café aumentou 30% o volume negociado com menos pessoas",
             "Finep contratou R$ 1,4 bi para 29 projetos de tecnologias digitais para o agro (2023-2025); pulverização guiada por sensores com custo cerca de 2,3 vezes menor que a convencional"
@@ -4215,7 +4215,7 @@
           ],
           "metricas": [
             "Investimento mínimo em conectividade de R$ 10 a R$ 40 por hectare, recuperado com ganho de apenas 1% na produtividade da soja já no primeiro ano (estimativa BNDES, 2020) (p. 26)",
-            "Só 28% dos estabelecimentos rurais tinham internet em 2017; 27% entre os de até 100 ha e cerca de 49% entre os acima de 1.000 ha (Censo Agropecuário 2017) (p. 20-21)",
+            "Só 28% dos estabelecimentos rurais tinham internet em 2017; 27% entre os de até 100 ha e cerca de 49% entre os acima de 1.000 ha (Censo Agropecuário 2017; a CEPAL, M307, dá 31,19% para o mesmo censo, diferença não verificada) (p. 20-21)",
             "Menos de 10% do território agrícola brasileiro tinha cobertura 4G (2020) (p. 21)"
           ],
           "resumo": "Estudo setorial que trata a conectividade como a principal barreira à agricultura 4.0 e calcula o payback do investimento em rede. Dependência crítica para qualquer roadmap de IA de campo.",
@@ -5372,7 +5372,7 @@
             "Agentes respondem por 17% do valor total de IA em 2025 e devem chegar a 29% em 2028 (p. 3)",
             "70% do valor potencial de IA está em funções core (vendas e marketing, manufatura, supply chain, pricing) (p. 6)",
             "Energia: 45% das empresas escalaram monitoramento de infraestrutura e manutenção preditiva com IA, evitando 30% dos custos endereçáveis quando plenamente implantado (p. 7)",
-            "Maturidade em IA medida em 41 dimensões, com 5 estágios de laggard a future-built (p. 4)"
+            "Maturidade em IA medida em 41 capacidades, com 4 estágios: stagnating, emerging, scaling e future-built; 'laggards' é o nome coletivo de stagnating e emerging (p. 5, 19)"
           ],
           "resumo": "Estudo global de set/2025 que classifica empresas em estágios de maturidade em IA e quantifica a diferença financeira dos líderes. É uma das bases mais fortes para ROI e para o modelo de maturidade.",
           "relevancia": "alta"
@@ -6278,7 +6278,7 @@
           "metricas": [
             "~500 mi de acres engajados, 147 mi de acres altamente engajados, 1 mi de máquinas conectadas e 409 mil usuários digitais ativos por mês (FY2025) (p. 3)",
             "Metas para 2030: 1 mi de usuários digitais, 600 mi de acres engajados e 300 mi altamente engajados (p. 16); >US$ 150 bi de valor econômico adicional para clientes (p. 4, p. 7)",
-            "See & Spray: usado em >5 mi de acres em 2025, com ~50% de economia de herbicida não residual contra aplicação em área total (p. 20)",
+            "See & Spray: usado em >5 mi de acres em 2025, com até 50% de economia de herbicida não residual contra aplicação em área total (p. 20)",
             "See & Spray Select com taxa variável: ~77% de redução média de insumo em pousio e pré-colheita (75 mil acres) e 10–15% em fungicida (p. 21)",
             "Automação da colheitadeira: controle preditivo de velocidade (PGSA) +20% de produtividade e ajuste automático de regulagens (HSA) +13% de qualidade do trabalho; no 1º ano, 5 mi de acres colhidos com HSA e >1,9 mi com PGSA (p. 19)",
             "GUSS (pulverizador autônomo para pomares e vinhedos): a maioria dos operadores tem ROI positivo em 1–3 anos (p. 22)",

@@ -1083,7 +1083,7 @@
             "F2"
           ],
           "metricas": [
-            "23% já integraram IA agêntica e multiagente às operações centrais e outros 27% planejam fazê-lo em 6 meses (~900 respostas, ago/2025) (p. 3)",
+            "23% já integraram IA agêntica e multiagente às operações centrais e outros 27% planejam fazê-lo em 6 meses (899 respostas, coleta em jul/2025) (p. 3, 17)",
             "Mais de 68% esperam ter agentes autônomos ou semiautônomos integrados até 2026 (release oficial de 30/09/2025)",
             "Nível de autonomia preferido: semiautônomos 38%, assistentes que se adaptam ao contexto 25%, totalmente autônomos 19%, baseados em regras 12% (p. 6)",
             "Distribuição por maturidade: inicial 7%, experimentação 30%, definido 28%, otimização 25%, transformação 10% (p. 5)",
@@ -1161,7 +1161,7 @@
             "97% das empresas que superaram com folga o ROI esperado confiam em suas capacidades de dados (p. 5)",
             "Quem sai do modo piloto e escala tem 3x mais chance de superar o ROI esperado (página oficial)"
           ],
-          "resumo": "Síntese de um ano da série AI Pulse (milhares de líderes) sobre 'pilotos perpétuos', barreiras de otimização (integração de sistemas, clareza de casos de uso, talentos, compliance) e governança de agentes, com a criação de comitês de governança de agentes de IA. Dá métricas diretas de ROI por maturidade.",
+          "resumo": "Síntese de um ano da série AI Pulse (milhares de líderes) sobre 'pilotos perpétuos', barreiras de otimização (integração de sistemas, clareza de casos de uso, talentos, compliance) e governança de agentes, com a criação de comitês de governança de agentes de IA. Dá métricas diretas de ROI por maturidade. A distribuição por estágio da terceira pesquisa aparece aqui como 7/31/28/24/10 (p. 6) e no relatório da própria pesquisa como 7/30/28/25/10 (M102, p. 5): usar M102.",
           "relevancia": "alta"
         },
         {
@@ -2405,10 +2405,10 @@
             "F1"
           ],
           "metricas": [
-            "0,13% de aumento de produtividade no processo de extração com otimização em tempo real por IA e machine learning (S-PAA) (unidade Tropical, jan/2025) (p. 1)",
-            "1,6% de redução no consumo específico do conjunto de geração de vapor e 1,1% no consumo de bagaço (unidade Itumbiara, jan/2025) (p. 1)",
+            "0,13% de aumento de produtividade no processo de extração com otimização em tempo real por IA e machine learning (S-PAA) (unidade Tropical, jan/2025) (p. 2)",
+            "1,6% de redução no consumo específico do conjunto de geração de vapor e 1,1% no consumo de bagaço (unidade Itumbiara, jan/2025) (p. 2)",
             "S-PAA em 2 unidades, com implantação prevista em todas as plantas até o fim de 2025 (p. 1)",
-            "Mais de R$ 100 milhões investidos em projetos de transformação digital (acumulado até jan/2025) (p. 1)"
+            "Mais de R$ 100 milhões investidos em projetos de transformação digital (acumulado até jan/2025) (p. 3)"
           ],
           "resumo": "Comunicado da ex-BP Bunge Bioenergia (hoje bp bioenergy, 11 usinas) republicado pelo NovaCana. Mostra a ordem de grandeza típica dos ganhos de IA na indústria sucroenergética: frações de ponto percentual em processos contínuos, que só viram valor relevante pela escala. Não há release equivalente na sala de imprensa da bp Brasil.",
           "relevancia": "media"
@@ -4520,7 +4520,7 @@
             "F3"
           ],
           "metricas": [
-            "Apenas 23% das organizações latino-americanas geram algum valor econômico com IA e só 6% relatam criação de valor significativa – survey regional, out/2025 (p. 5)",
+            "Apenas 23% das organizações latino-americanas geram algum valor econômico com IA e só 6% relatam criação de valor significativa – pesquisa regional com 129 respondentes, ago-out/2025; 44% não souberam ou responderam 'não se aplica' (p. 5, 14-16)",
             "Só 6% dos respondentes relatam melhora de mais de 5% no EBIT com IA; 59% das PMEs não geram valor mensurável (p. 15)",
             "Diferença de produtividade entre PMEs e grandes empresas de 46% no Brasil e 53% no México (p. 15)",
             "A IA pode elevar a produtividade da América Latina em 1,9%–2,3% ao ano e gerar US$ 1,1–1,7 trilhão por ano (p. 5)",
@@ -5886,7 +5886,7 @@
           "metricas": [
             "Ranking LATAM de maturidade em IA (20 bancos, jul/2026): 1º Nubank, 2º Itaú Unibanco, 3º Bradesco, 4º Banco do Brasil e 5º Credicorp; BTG Pactual em 7º e Caixa em 12º (p. 9)",
             "Os 4 bancos brasileiros do topo respondem por quase 50% dos 71 casos de uso de IA com resultados reportados; 6 dos 20 bancos não publicam nenhum caso com resultado (p. 7)",
-            "70% dos bancos LATAM publicam casos com resultados e 55% divulgam o total de casos em produção, mas nenhum dos 20 reporta ROI de IA consolidado (realizado ou projetado), contra 30% dos bancos globais (p. 23)",
+            "70% dos bancos LATAM publicam casos com resultados e 55% divulgam o total de casos em produção, mas nenhum dos 20 reporta ROI de IA consolidado (realizado ou projetado), contra cerca de 30% dos bancos globais, número de outro relatório da Evident (AI Use Case Trends in Banking, mai/2026), fora do catálogo (p. 23)",
             "Densidade de talentos de IA de 3,8% nos 2 líderes LATAM, contra 2,2% na média global (n=50) e 1,7% na média LATAM; comitê de governança de IA em 100% dos líderes, contra 45% da média LATAM (p. 11)",
             "Bradesco: a IA em crédito gerou mais de R$ 1 bi de lucro líquido adicional (abr/2026), e a plataforma própria passou de 660 casos de uso em mais de 90 áreas (1T26) (p. 24)",
             "Santander: €35 mi de valor de negócio com IA no 1T26, meta de mais de €200 mi em 2026 e de mais de €1 bi em 2026–2028; mais de 280 agentes de automação em produção (p. 23)",
@@ -6199,7 +6199,7 @@
             "F1"
           ],
           "metricas": [
-            "6 pilares e 20 dimensões avaliados em 5 níveis de maturidade: inicial, engajado/adotado, definido, gerenciado e otimizado (guia de nov/2023) (p. 4-5)",
+            "6 pilares e 20 dimensões avaliados em 5 níveis de maturidade: inicial, engajado, definido, gerenciado e otimizado; o sumário executivo chama o nível 2 de 'Adopted' (p. 4), e a figura e o capítulo 1, de 'Engaged' (p. 5, 9) (guia de nov/2023) (p. 4-5, 9)",
             "Capítulo 4 detalha as ações para cada salto de nível (1→2 até 4→5) e como amadurecer cada pilar (p. 35-38)"
           ],
           "resumo": "Framework público e não comercial de maturidade em IA, derivado da revisão de modelos de mercado, do CMMI e das normas do NIST, com ferramenta de autoavaliação. Os pilares são ético e responsável, estratégia e recursos, organização, habilitadores tecnológicos, dados e desempenho. Boa base neutra para o framework consolidado de F2.",
@@ -6314,7 +6314,7 @@
             "F1"
           ],
           "metricas": [
-            "Acordo de 10 anos obriga a Deere a dar a agricultores e oficinas independentes os mesmos recursos de reparo, inclusive software, oferecidos às concessionárias (ordem de 08/07/2026) (p. 18; release)",
+            "Proposta de acordo obriga a Deere a dar a agricultores e oficinas independentes os mesmos recursos de reparo, inclusive software, oferecidos às concessionárias; vigência de 10 anos a contar da homologação (moção protocolada em 08/07/2026, ordem ainda não assinada no documento) (p. 18; release)",
             "Novos recursos de reparo devem ser liberados quando chegarem a mais de 50% da rede de concessionárias nos EUA (2026) (release oficial)",
             "O escopo inclui ver leituras e pontos de dados ao vivo e armazenados das máquinas e buscas com IA em manuais técnicos (2026) (p. 22)"
           ],

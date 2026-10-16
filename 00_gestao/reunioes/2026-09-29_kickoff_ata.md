@@ -4,9 +4,9 @@
 |---|---|
 | **Contratante** | Acelen Energia Renovável |
 | **Documento** | Ata do kick-off — Benchmarking de uso de IA |
-| **Nº / Revisão** | BIA-ACL-AT-01 · Rev. 00 |
+| **Nº / Revisão** | BIA-ACL-AT-01 · Rev. 01 (situação das pendências em 09/10; a Rev. 00 foi entregue com a situação em 02/10) |
 | **Data da reunião** | 29/09/2026, Teams, 47 min |
-| **Registro** | [transcrição](2026-09-29_kickoff_transcricao.md) · [PDF da ata](2026-09-29_kickoff_ata_BIA-ACL-AT-01_rev00.pdf) |
+| **Registro** | [transcrição](2026-09-29_kickoff_transcricao.md) · [PDF da ata, rev. 01](2026-09-29_kickoff_ata_BIA-ACL-AT-01_rev01.pdf) |
 
 ## Participantes
 
@@ -52,16 +52,18 @@ A equipe de governança e PMO da Estratégia (Bruna, Pamela, Adriana e Raianne) 
 
 ## Pendências
 
-| # | Pendência | Responsável | Prazo | Situação em 02/10 |
+| # | Pendência | Responsável | Prazo | Situação em 09/10 |
 |---|---|---|---|---|
-| 1 | Enviar a lista de 4 a 6 empresas de referência para o benchmark | Acelen (Bruno e equipe) | Próxima reunião semanal | Em aberto |
+| 1 | Enviar a lista de 4 a 6 empresas de referência para o benchmark | Acelen (Bruno e equipe) | Próxima reunião semanal | Concluído em 09/10: 2 indicadas (Suzano e Bayer); as demais, inclusive a americana e a chinesa, ficam com a OagronomIA |
 | 2 | Enviar o cronograma com as datas atualizadas, em formato que a Acelen possa incorporar ao seu acompanhamento de projetos | OagronomIA | Próxima reunião semanal | Concluído |
-| 3 | Apresentar o questionário das sessões executivas para validação | OagronomIA | Próxima reunião semanal | Pronto para validar |
+| 3 | Apresentar o questionário das sessões executivas para validação | OagronomIA | Próxima reunião semanal | Concluído: validado em 09/10 |
 | 4 | Enviar a recorrência das seis reuniões semanais | Acelen (Pamela e Bruna) | Esta semana | Concluído |
 | 5 | Criar o grupo de WhatsApp (Guilherme e Rafael enviam os telefones) | Acelen (Bruno) | Esta semana | Concluído |
 | 6 | Enviar e-mails institucionais de Guilherme e Rafael para os convites | OagronomIA | Esta semana | Concluído |
 | 7 | Liberar o acesso ao SharePoint do projeto | Acelen (Bruno) | Esta semana | Concluído |
 | 8 | Subir as gravações e transcrições das reuniões no SharePoint | Acelen | A cada reunião | Contínuo |
-| 9 | Confirmar a data do team building e do Workshop Executivo em Montes Claros | Acelen (Bruna e Bruno) | Até 23/10 | Em aberto |
+| 9 | Confirmar a data do team building e do Workshop Executivo em Montes Claros | Acelen (Bruna e Bruno) | Até 23/10 | Em andamento: provável primeira semana de dezembro |
 | 10 | Compartilhar a proposta (escopo e metodologia) com a equipe de PMO, que não participou da contratação | OagronomIA | Esta semana | Concluído: versão sem condições comerciais enviada |
-| 11 | Cadastro de fornecedor na plataforma interna da Acelen: Bruno aciona a área responsável; Guilherme indica o contato administrativo da OagronomIA | Acelen e OagronomIA | O quanto antes | Em aberto |
+| 11 | Cadastro de fornecedor na plataforma interna da Acelen: Bruno aciona a área responsável; Guilherme indica o contato administrativo da OagronomIA | Acelen e OagronomIA | O quanto antes | Em aberto: a solicitação interna ainda não foi feita; Guilherme envia o contato administrativo, Bruno encaminha e avisa o andamento |
+
+Situação atualizada na reunião semanal de 09/10; novas pendências na [ata de 09/10](2026-10-09_semanal_ata.md).

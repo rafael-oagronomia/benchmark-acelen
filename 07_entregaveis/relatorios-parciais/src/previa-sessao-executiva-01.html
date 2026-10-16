@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Prévia de resultados — sessão executiva 1</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --brand-green: #52C937; --brand-green-bright: #6FE34F; --brand-green-deep: #2F8B1F;
+    --bg-0: #050805; --bg-1: #0B100B; --bg-2: #131A13; --bg-3: #1C241B;
+    --line: #2A3328; --line-strong: #3A4537;
+    --fg-1: #F2F4EE; --fg-2: #B8BFB1; --fg-3: #7C8678;
+    --warning: #E8B33B; --info: #4FB7C9;
+    --font-display: 'Chakra Petch', 'Bahnschrift', system-ui, sans-serif;
+    --font-body: 'Manrope', 'Segoe UI', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  }
+  @page { size: 338.67mm 190.5mm; margin: 0; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg-0); color: var(--fg-1); font-family: var(--font-body); font-size: 13px; line-height: 1.45;
+    -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .slide { width: 338.67mm; height: 190.5mm; position: relative; overflow: hidden; padding: 11mm 15mm 15mm; background: var(--bg-0);
+    page-break-after: always; break-after: page; }
+  .slide:last-child { page-break-after: auto; break-after: auto; }
+  .head { display: flex; justify-content: space-between; align-items: center; padding-bottom: 8px; border-bottom: 1px solid var(--line); margin-bottom: 14px; }
+  .head img { height: 22px; mix-blend-mode: lighten; display: block; }
+  .label { font: 500 10px var(--font-display); text-transform: uppercase; letter-spacing: 0.1em; color: var(--fg-3); }
+  .eyebrow { font: 500 11px var(--font-display); text-transform: uppercase; letter-spacing: 0.18em; color: var(--brand-green); }
+  h1 { font: italic 700 46px/1.05 var(--font-display); margin: 10px 0 0; letter-spacing: -0.01em; }
+  h2 { font: italic 600 27px/1.15 var(--font-display); margin: 4px 0 0; }
+  h3 { font: 600 15px/1.25 var(--font-display); margin: 0; }
+  p { margin: 0; }
+  .muted { color: var(--fg-2); }
+  .foot { position: absolute; left: 15mm; right: 15mm; bottom: 6mm; display: flex; justify-content: space-between; padding-top: 6px;
+    border-top: 1px solid var(--line); font: 500 9px var(--font-display); letter-spacing: 0.08em; text-transform: uppercase; color: var(--fg-3); }
+  .foot .mono { font-family: var(--font-mono); letter-spacing: 0; font-size: 10px; }
+  .chip { display: inline-block; padding: 2px 9px; border-radius: 999px; font: 500 9.5px var(--font-display); letter-spacing: 0.06em; text-transform: uppercase;
+    background: var(--bg-3); color: var(--fg-2); border: 1px solid var(--line); margin-right: 4px; }
+  .chip.g { background: rgba(82,201,55,0.12); color: var(--brand-green-bright); border-color: rgba(82,201,55,0.4); }
+  .card { background: var(--bg-2); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; }
+  .src { font-size: 9.5px; color: var(--fg-3); margin-top: 5px; font-family: var(--font-mono); }
+  ul.l { list-style: none; margin: 0; padding: 0; }
+  ul.l li { position: relative; padding-left: 15px; margin-top: 7px; color: var(--fg-2); font-size: 13px; line-height: 1.45; }
+  ul.l li::before { content: ""; position: absolute; left: 1px; top: 8px; width: 7px; height: 2px; background: var(--brand-green); }
+  ul.l li b { color: var(--fg-1); }
+  .cols { display: grid; grid-template-columns: 1.05fr 1fr; gap: 16px; margin-top: 12px; }
+  .colt { font: 500 10.5px var(--font-display); letter-spacing: 0.14em; text-transform: uppercase; color: var(--brand-green); margin-bottom: 4px; }
+  .colt.b { color: var(--info); }
+  .stats { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 4px; }
+  .stat { background: var(--bg-2); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; }
+  .stat .n { font: 500 25px/1 var(--font-mono); color: var(--fg-1); }
+  .stat .n small { font-size: 13px; color: var(--fg-3); margin-left: 3px; }
+  .stat .t { font-size: 11.2px; color: var(--fg-2); margin-top: 5px; line-height: 1.38; }
+  .read { margin-top: 10px; border-left: 2px solid var(--brand-green); background: var(--bg-1); padding: 8px 12px; font-size: 12.5px; color: var(--fg-2); }
+  .read b { color: var(--fg-1); }
+  table.t { width: 100%; border-collapse: collapse; font-size: 12px; margin-top: 10px; }
+  table.t th { font: 500 9.5px var(--font-display); letter-spacing: 0.08em; text-transform: uppercase; color: var(--fg-3); text-align: left; padding: 6px 9px;
+    border-bottom: 1px solid var(--line-strong); background: var(--bg-1); }
+  table.t td { padding: 6px 9px; border-bottom: 1px solid var(--line); vertical-align: top; color: var(--fg-2); }
+  table.t td:first-child { color: var(--fg-1); font-weight: 600; }
+  .st { display: inline-flex; align-items: center; gap: 5px; font: 600 9.5px var(--font-display); letter-spacing: 0.06em; text-transform: uppercase; white-space: nowrap; }
+  .st .dot { width: 7px; height: 7px; border-radius: 50%; }
+  .st.ok { color: var(--brand-green-bright); } .st.ok .dot { background: var(--brand-green); }
+  .st.par { color: var(--warning); } .st.par .dot { background: var(--warning); }
+  .st.no { color: var(--fg-3); } .st.no .dot { background: var(--fg-3); }
+  .signals { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 14px; }
+  .sig { background: var(--bg-2); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; }
+  .sig .k { font: 500 20px var(--font-mono); color: var(--brand-green); }
+  .sig h3 { margin-top: 4px; font-size: 15px; }
+  .sig p { font-size: 12px; color: var(--fg-2); margin-top: 5px; line-height: 1.42; }
+  .stage { display: inline-block; min-width: 26px; text-align: center; font: 500 15px var(--font-mono); color: var(--fg-1); background: var(--bg-3);
+    border: 1px solid var(--line-strong); border-radius: 5px; padding: 1px 6px; }
+  .cover { display: flex; flex-direction: column; }
+  .cover .logo { height: 34px; mix-blend-mode: lighten; align-self: flex-start; }
+  .grid4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-top: 22px; max-width: 230mm; }
+  .metric { background: var(--bg-2); border: 1px solid var(--line); border-radius: 6px; padding: 10px 12px; }
+  .metric .lb { font: 500 9.5px var(--font-display); letter-spacing: 0.12em; text-transform: uppercase; color: var(--fg-3); }
+  .metric .v { font: 500 20px/1.15 var(--font-mono); margin-top: 6px; }
+  .metric .v.s { font: 600 13px/1.3 var(--font-body); }
+  .legend { margin-top: auto; border-left: 2px solid var(--brand-green); background: var(--bg-1); padding: 10px 16px; display: grid;
+    grid-template-columns: 110px 1fr; row-gap: 4px; font-size: 11.5px; max-width: 230mm; }
+  .legend .label { padding-top: 1px; }
+</style>
+</head>
+<body>
+<section class="slide cover">
+  <img class="logo" src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA">
+  <div class="eyebrow" style="margin-top:22mm">Benchmarking de uso de IA · Sessões executivas · Prévia</div>
+  <h1>O que ouvimos na<br>primeira sessão executiva</h1>
+  <p class="muted" style="font-size:15px;max-width:200mm;margin-top:12px">Leitura preliminar de uma conversa com uma liderança de tecnologia agrícola de um grande grupo do agronegócio, organizada pelos pilares de IA do estudo e cruzada com o que os estudos públicos já mostram. Uma sessão não é amostra: são sinais a confirmar.</p>
+  <div class="grid4">
+    <div class="metric"><div class="lb">Sessão</div><div class="v">1 <span style="font-size:12px;color:var(--fg-3)">de 2 a 4</span></div></div>
+    <div class="metric"><div class="lb">Duração</div><div class="v">~70 <span style="font-size:12px;color:var(--fg-3)">min</span></div></div>
+    <div class="metric"><div class="lb">Temas do roteiro</div><div class="v">7 <span style="font-size:12px;color:var(--fg-3)">de 10 completos</span></div></div>
+    <div class="metric"><div class="lb">Perfil</div><div class="v s">Liderança de tecnologia agrícola, grãos</div></div>
+  </div>
+  <div class="legend" style="margin-bottom:6mm">
+    <div class="label">Contratante</div><div>Acelen Energia Renovável</div>
+    <div class="label">Documento</div><div>Prévia de resultados — sessão executiva 1</div>
+    <div class="label">Nº / Revisão</div><div style="font-family:var(--font-mono)">BIA-ACL-RP-01 · Rev. 00</div>
+    <div class="label">Data</div><div>14/10/2026 · sessão realizada em 13/10/2026</div>
+  </div>
+</section>
+<section class="slide">
+  <div class="head"><img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Como ler</span></div>
+  <div class="eyebrow">Como ler esta prévia</div>
+  <h2>Sinais de uma conversa, lidos ao lado dos dados públicos</h2>
+  <div class="cols" style="grid-template-columns:1fr 1fr">
+    <div class="card">
+      <h3>O que esta prévia é</h3>
+      <ul class="l">
+        <li><b>Uma sessão de 2 a 4.</b> O que aparece aqui são sinais, não conclusões. Eles serão testados nas próximas conversas e entram no relatório só de forma agregada.</li>
+        <li><b>Anonimizada.</b> Sem nome, empresa, sistemas, fornecedores ou números que identifiquem o entrevistado.</li>
+        <li><b>Cruzada com fontes públicas.</b> Cada pilar traz, ao lado, o que os estudos do catálogo já medem, com o identificador da fonte (M###) e a página.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Como está organizada</h3>
+      <ul class="l">
+        <li><b>Quatro pilares de IA:</b> IA preditiva (aprendizado de máquina), IA generativa e agentes, automação e máquinas autônomas, e sustentabilidade da IA. Nem toda IA é IA generativa.</li>
+        <li><b>Fundações transversais:</b> governança, pessoas e dados, e a medição de valor.</li>
+        <li><b>As três frentes do estudo</b> aparecem como selos em cada pilar; a cobertura do roteiro e a leitura na régua de maturidade fecham a prévia.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="read"><b>Leitura nossa</b> marca a interpretação da equipe. Números de pesquisas diferentes não se somam nem se comparam como se fossem a mesma medida: cada um vem com sua amostra.</div>
+  <div class="foot"><span>Acelen Energia Renovável · Prévia de resultados — sessão executiva 1 · BIA-ACL-RP-01 · Rev. 00</span><span class="mono">02 / 12</span></div>
+</section>
+<section class="slide">
+  <div class="head"><img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Síntese</span></div>
+  <div class="eyebrow">Síntese</div>
+  <h2>Seis sinais da primeira sessão</h2>
+  <div class="signals">
+    <div class="sig"><div class="k">01</div><h3>Dados prontos, IA generativa travada</h3><p>Há mais de uma década de dados agrícolas centralizados e organizados. Mesmo assim, nenhuma iniciativa de IA generativa gerou valor medido.</p></div>
+    <div class="sig"><div class="k">02</div><h3>O bloqueio vem antes do retorno</h3><p>"Não estou conseguindo nem criar as coisas." Governança e segurança chegam ao nível de impedir o avanço; o retorno nem chega a ser medido.</p></div>
+    <div class="sig"><div class="k">03</div><h3>Uso por fora como sintoma</h3><p>Equipamento e assinaturas pessoais de IA para cumprir as entregas, com cuidado próprio sobre o que é sensível. "A IA já está dentro da empresa."</p></div>
+    <div class="sig"><div class="k">04</div><h3>O valor visível está no ferro</h3><p>O exemplo de IA com retorno mensurável é a pulverização seletiva com câmeras: no fim do dia se sabe quanto insumo foi poupado.</p></div>
+    <div class="sig"><div class="k">05</div><h3>Autonomia é necessidade, interoperabilidade é o gargalo</h3><p>Máquinas já ficaram paradas nesta safra por falta de operador. Sem padrões comuns entre fabricantes, e sem cibersegurança na máquina, não há autonomia.</p></div>
+    <div class="sig"><div class="k">06</div><h3>Fornecedor se escolhe pelo custo</h3><p>Testes recentes com máquinas chinesas tiveram desempenho equivalente. Soberania, na prática, é cortar o que é crítico e liberar o resto.</p></div>
+  </div>
+  <div class="foot"><span>Acelen Energia Renovável · Prévia de resultados — sessão executiva 1 · BIA-ACL-RP-01 · Rev. 00</span><span class="mono">03 / 12</span></div>
+</section>
+<section class="slide">
+  <div class="head"><img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Régua de maturidade</span></div>
+  <div class="eyebrow">Leitura nossa na régua de maturidade</div>
+  <h2>Maturidade desigual entre as dimensões</h2>
+  <table class="t">
+    <thead><tr><th style="width:23%">Dimensão</th><th style="width:9%">Estágio</th><th>O que sustenta a leitura</th></tr></thead>
+    <tbody>
+      <tr><td>Estratégia e governança</td><td><span class="stage">2</span></td><td>Comitê horizontal de IA criado há pouco e "ainda não como deveria"; governança e segurança no nível de impedir; sem estratégia de implementação para a IA generativa.</td></tr>
+      <tr><td>Dados e infraestrutura</td><td><span class="stage">3</span></td><td>Repositório central de dados há mais de uma década, com dados tabulares e georreferenciados e integração por API; ainda sem uso em IA.</td></tr>
+      <tr><td>Organização e pessoas</td><td><span class="stage">1–2</span></td><td>Sem área de IA, por escolha (IA horizontal); letramento baixo nas equipes de campo e na TI ligada à agricultura; o perfil que une campo e tecnologia é raro.</td></tr>
+      <tr><td>Aplicações e valor</td><td><span class="stage">1 a 3</span></td><td>IA generativa: uso individual e informal (1). IA embarcada no campo: pulverização seletiva em uso, com economia medida no dia (3).</td></tr>
+    </tbody>
+  </table>
+  <div class="read"><b>Ressalvas.</b> A régua de cinco estágios não foi mostrada ao entrevistado; a leitura é da equipe, a partir do relato, e serve só como hipótese. Pela regra do estudo (o estágio mais alto com evidência em três das quatro dimensões), o estágio geral seria 2, com o campo à frente da IA generativa.</div>
+  <div class="foot"><span>Acelen Energia Renovável · Prévia de resultados — sessão executiva 1 · BIA-ACL-RP-01 · Rev. 00</span><span class="mono">04 / 12</span></div>
+</section>
+<section class="slide">
+  <div class="head"><img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Pilar 1</span></div>
+  <div class="eyebrow">Pilar 1 · IA preditiva (aprendizado de máquina)</div>
+  <h2>A base histórica existe; o valor está no clima e no comportamento</h2>
+  <div style="margin-top:6px"><span class="chip g">Frente 1</span><span class="chip g">Frente 2</span></div>
+  <div class="cols">
+    <div>
+      <div class="colt">O que ouvimos</div>
+      <ul class="l">
+        <li><b>Repositório central há mais de uma década</b>, pensado para integrar sistemas; a maior vantagem das empresas que se prepararam cedo.</li>
+        <li><b>Nem todo dado histórico serve.</b> Dados de máquina e de cultivar antigos perdem valor com a mudança de frota e de genética.</li>
+        <li><b>Clima e comportamento operacional</b> (como máquinas e equipes reagem a cada condição) mantêm valor preditivo: quanto mais longa a série, melhor.</li>
+        <li><b>"Dados não são dados: dados custam."</b> A base está pronta, mas ainda não foi aplicada em modelos.</li>
+      </ul>
+    </div>
+    <div>
+      <div class="colt b">O que os estudos mostram</div>
+      <div class="stats">
+        <div class="stat"><div class="n">R$ 12,50</div><div class="t">de retorno líquido por R$ 1 investido em agricultura digital, segundo a SLC; não separa a parcela da IA</div><div class="src">[M331, p. 89]</div></div>
+        <div class="stat"><div class="n">+6%</div><div class="t">de produtividade nos talhões com recomendação digital por talhão, contra controle (Brasil, verão 2025/26; análise da própria empresa)</div><div class="src">[M789, p. 30]</div></div>
+        <div class="stat"><div class="n">48%</div><div class="t">das empresas brasileiras têm dados bem estruturados e governados; 49% têm dados parciais, com lacunas (107 decisores de TI, abr/2026)</div><div class="src">[M141, p. 21]</div></div>
+        <div class="stat"><div class="n">2,99</div><div class="t">de 5 é a nota da cultura de dados, a dimensão mais fraca entre 84 executivos do agro (mar-mai/2026)</div><div class="src">[M748, p. 32]</div></div>
+      </div>
+    </div>
+  </div>
+  <div class="read"><b>Leitura nossa.</b> É o pilar com mais métricas de resultado publicadas, e elas vêm de dados estruturados e séries longas. A sessão confirma o pré-requisito: a base histórica, com escolha do que ainda serve.</div>
+  <div class="foot"><span>Acelen Energia Renovável · Prévia de resultados — sessão executiva 1 · BIA-ACL-RP-01 · Rev. 00</span><span class="mono">05 / 12</span></div>
+</section>
+<section class="slide">
+  <div class="head"><img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Pilar 2</span></div>
+  <div class="eyebrow">Pilar 2 · IA generativa e agentes</div>
+  <h2>Demanda clara, uso informal, nenhum valor medido</h2>
+  <div style="margin-top:6px"><span class="chip g">Frente 1</span><span class="chip g">Frente 3</span></div>
+  <div class="cols">
+    <div>
+      <div class="colt">O que ouvimos</div>
+      <ul class="l">
+        <li><b>Nenhuma iniciativa de IA generativa com valor medido.</b> O bloqueio é anterior ao retorno: pela via oficial, "não sai".</li>
+        <li><b>A demanda vem do topo:</b> a liderança quer perguntar, pelo aplicativo de mensagens, sobre operações e clima e ter a resposta na hora.</li>
+        <li><b>Ambiente corporativo de um grande fornecedor implantado,</b> mas com acesso travado e sem quem saiba otimizar o consumo.</li>
+        <li><b>Uso por conta própria</b> para cumprir entregas; programar com ajuda da IA ficou ao alcance de quem não é desenvolvedor.</li>
+        <li><b>Dúvidas de arquitetura e custo:</b> consumo de tokens e custo da mensageria oficial. Nenhum agente em produção.</li>
+      </ul>
+    </div>
+    <div>
+      <div class="colt b">O que os estudos mostram</div>
+      <div class="stats">
+        <div class="stat"><div class="n">78%</div><div class="t">dos executivos do agro têm IA na agenda de 2026, mas 42% ainda estão em piloto ou avaliação e 36% têm projetos em produção (84 executivos)</div><div class="src">[M748, p. 32, 52]</div></div>
+        <div class="stat"><div class="n">37%</div><div class="t">atribuem algum efeito no EBIT à IA; cerca de 20% dizem que o custo de operação, inclusive tokens, restringiu o uso (1.719 respondentes, global)</div><div class="src">[M028, p. 3, 12]</div></div>
+        <div class="stat"><div class="n">~60%</div><div class="t">dos trabalhadores têm acesso a ferramentas de IA aprovadas pela empresa, ante menos de 40% um ano antes (3.235 líderes, 24 países)</div><div class="src">[M065, p. 4]</div></div>
+        <div class="stat"><div class="n">33%</div><div class="t">das empresas brasileiras confiam na própria capacidade de medir o ROI da IA (1.000 líderes)</div><div class="src">[M114, p. 2]</div></div>
+      </div>
+    </div>
+  </div>
+  <div class="read"><b>Leitura nossa.</b> A sessão reproduz o quadro das pesquisas: adoção alta no discurso, pouco resultado medido. O que falta não é tecnologia; é estratégia de implementação, acesso liberado com controle e alguém que una o processo à ferramenta.</div>
+  <div class="foot"><span>Acelen Energia Renovável · Prévia de resultados — sessão executiva 1 · BIA-ACL-RP-01 · Rev. 00</span><span class="mono">06 / 12</span></div>
+</section>
+<section class="slide">
+  <div class="head"><img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Pilar 3</span></div>
+  <div class="eyebrow">Pilar 3 · Automação e máquinas autônomas</div>
+  <h2>"Botar inteligência no ferro": a prioridade que está atrasada</h2>
+  <div style="margin-top:6px"><span class="chip g">Frente 3</span><span class="chip g">Frente 1</span></div>
+  <div class="cols">
+    <div>
+      <div class="colt">O que ouvimos</div>
+      <ul class="l">
+        <li><b>Automação e visão computacional são vistas como negligenciadas</b> diante da atenção dada à IA generativa.</li>
+        <li><b>Escassez de mão de obra já presente:</b> máquinas ficaram paradas nesta safra por falta de operador.</li>
+        <li><b>Operações críticas sem garantia de qualidade:</b> faixa de distribuição de adubo e profundidade de plantio ainda conferidas por equipes a pé.</li>
+        <li><b>Interoperabilidade é o gargalo:</b> já é difícil com poucos fabricantes e piora com novos entrantes. Sem padrões, não há autonomia.</li>
+        <li><b>Cibersegurança precisa chegar à máquina</b> autônoma, não só ao dado; computação na borda é vista com bons olhos.</li>
+      </ul>
+    </div>
+    <div>
+      <div class="colt b">O que os estudos mostram</div>
+      <div class="stats">
+        <div class="stat"><div class="n">até 50%</div><div class="t">de economia de herbicida com pulverização seletiva por câmeras, em mais de 5 milhões de acres em 2025 (dado do fabricante, teto)</div><div class="src">[M373, p. 20]</div></div>
+        <div class="stat"><div class="n">58%</div><div class="t">das empresas já usam IA física, ao menos de forma limitada; a projeção é de 80% em 2 anos (3.235 líderes, 24 países)</div><div class="src">[M065, p. 6, 22]</div></div>
+        <div class="stat"><div class="n">53,5%</div><div class="t">dos moradores de áreas rurais têm cobertura 4G, contra 99,6% nas áreas urbanas (Brasil, 2025)</div><div class="src">[M179, p. 7]</div></div>
+        <div class="stat"><div class="n">84%</div><div class="t">dos drones de pulverização registrados no Brasil eram de um único fabricante chinês em jun/2025</div><div class="src">[M845, p. 1]</div></div>
+      </div>
+    </div>
+  </div>
+  <div class="read"><b>Leitura nossa.</b> A autonomia física deixou de ser opção por causa da mão de obra, mas depende de três alicerces que nenhuma empresa resolve sozinha: conectividade no campo, padrões de comunicação entre máquinas e segurança na ponta.</div>
+  <div class="foot"><span>Acelen Energia Renovável · Prévia de resultados — sessão executiva 1 · BIA-ACL-RP-01 · Rev. 00</span><span class="mono">07 / 12</span></div>
+</section>
+<section class="slide">
+  <div class="head"><img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Pilar 4</span></div>
+  <div class="eyebrow">Pilar 4 · Sustentabilidade da IA</div>
+  <h2>Tema ausente na conversa, presente na agenda do mercado</h2>
+  <div style="margin-top:6px"><span class="chip g">Frente 3</span></div>
+  <div class="cols">
+    <div>
+      <div class="colt">O que ouvimos</div>
+      <ul class="l">
+        <li><b>O tema não apareceu.</b> A conversa ficou em dados, governança, IA generativa e autonomia; a pegada ambiental da IA não foi citada.</li>
+        <li><b>Para as próximas sessões:</b> perguntar se a empresa mede ou cobra dos fornecedores energia, carbono e água do uso de IA, e se isso entra em relatórios e certificações.</li>
+      </ul>
+      <div class="read" style="margin-top:14px"><b>Por que importa para uma empresa de combustíveis renováveis (leitura nossa).</b> Ela vende redução de emissões medida e certificada; a IA entra no inventário e na narrativa. O uso corporativo é pequeno em ordem de grandeza, mas exige números corretos e método.</div>
+    </div>
+    <div>
+      <div class="colt b">O que os estudos mostram</div>
+      <div class="stats">
+        <div class="stat"><div class="n">0,24<small>Wh</small></div><div class="t">por consulta de texto mediana de um grande assistente de IA, com 0,03 g de CO₂e e 0,26 mL de água (mai/2025)</div><div class="src">[M562, p. 7]</div></div>
+        <div class="stat"><div class="n">33×</div><div class="t">menos energia por consulta em 12 meses no mesmo assistente, entre mai/2024 e mai/2025</div><div class="src">[M562, p. 1, 7]</div></div>
+        <div class="stat"><div class="n">200–400<small>TWh</small></div><div class="t">é a faixa plausível do consumo de IA em data centers em 2030, ante 10 a 50 TWh em 2023</div><div class="src">[M577, p. 8, 40-41]</div></div>
+        <div class="stat"><div class="n">> 70<small>g</small></div><div class="t">de CO₂ por kWh é a intensidade da geração elétrica no Brasil em 2025, contra 435 g na média mundial</div><div class="src">[M575, p. 105-106, 162]</div></div>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>Acelen Energia Renovável · Prévia de resultados — sessão executiva 1 · BIA-ACL-RP-01 · Rev. 00</span><span class="mono">08 / 12</span></div>
+</section>
+<section class="slide">
+  <div class="head"><img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Fundações</span></div>
+  <div class="eyebrow">Fundações transversais · governança, pessoas e dados</div>
+  <h2>Cinco barreiras citadas, e o que as pesquisas confirmam</h2>
+  <div style="margin-top:6px"><span class="chip g">Frente 2</span><span class="chip g">Frente 1</span></div>
+  <div class="cols">
+    <div>
+      <div class="colt">O que ouvimos</div>
+      <ul class="l">
+        <li><b>Medo:</b> de vazamento de dados, desproporcional ao valor que dados produtivos têm para terceiros. É preciso separar o que é de fato crítico.</li>
+        <li><b>Credibilidade:</b> a resposta probabilística da IA gera desconfiança.</li>
+        <li><b>Letramento:</b> entender o que a IA faz, seus limites e onde aplicá-la; letramento, não treinamento de desenvolvimento.</li>
+        <li><b>Medição do ganho:</b> o primeiro ganho é tempo e conforto, não dinheiro.</li>
+        <li><b>Burocracia de TI:</b> visão "quase nula" do potencial da IA na área agrícola; iniciativas nascem por fora e só depois são oficializadas.</li>
+      </ul>
+    </div>
+    <div>
+      <div class="colt b">O que os estudos mostram</div>
+      <div class="stats">
+        <div class="stat"><div class="n">44%</div><div class="t">dos executivos do agro citam cultura organizacional resistente como o principal obstáculo (84 executivos, mar-mai/2026)</div><div class="src">[M748, p. 52]</div></div>
+        <div class="stat"><div class="n">29%</div><div class="t">citam segurança e privacidade como gargalo; 28%, falta de expertise; 22%, baixa maturidade de dados (140 empresas no Brasil, jul/2026)</div><div class="src">[M005, p. 3]</div></div>
+        <div class="stat"><div class="n">50%</div><div class="t">apontam a falta de pessoal qualificado como a principal barreira (107 decisores de TI no Brasil, abr/2026)</div><div class="src">[M141, p. 26]</div></div>
+        <div class="stat"><div class="n">71%</div><div class="t">dizem que seria difícil trocar hoje o principal fornecedor ou modelo de IA (1.000 executivos, 16 países)</div><div class="src">[M134, p. 4-6]</div></div>
+      </div>
+    </div>
+  </div>
+  <div class="read"><b>Leitura nossa.</b> A governança que protege também pode travar. As empresas que avançam liberam o uso com controle e separam o que é crítico do resto.</div>
+  <div class="foot"><span>Acelen Energia Renovável · Prévia de resultados — sessão executiva 1 · BIA-ACL-RP-01 · Rev. 00</span><span class="mono">09 / 12</span></div>
+</section>
+<section class="slide">
+  <div class="head"><img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Valor e medição</span></div>
+  <div class="eyebrow">Valor e medição · Frente 1</div>
+  <h2>O ganho chega antes como tempo do que como dinheiro</h2>
+  <div class="cols">
+    <div>
+      <div class="colt">O que ouvimos</div>
+      <ul class="l">
+        <li><b>Retorno da IA generativa ainda não mensurável,</b> porque nada saiu do papel pela via oficial.</li>
+        <li><b>Proposta de valor inicial: tempo e conforto.</b> Exemplo: relatórios e mapas de chuva gerados sozinhos, em vez de montados à mão todos os dias.</li>
+        <li><b>Retorno comprovado onde a IA está na máquina:</b> a economia de insumo da pulverização seletiva é medida no dia.</li>
+        <li><b>A previsão é o benefício final</b> esperado da IA, depois do conforto.</li>
+      </ul>
+    </div>
+    <div>
+      <div class="colt b">O que os estudos mostram</div>
+      <div class="stats">
+        <div class="stat"><div class="n">23%</div><div class="t">dos executivos do agro medem o ROI dos projetos de TI com método formal; 60% medem de forma parcial ou informal e 13% não medem</div><div class="src">[M748, p. 52]</div></div>
+        <div class="stat"><div class="n">7%</div><div class="t">das empresas brasileiras calculam o ROI das soluções de IA (194 entrevistas, margem de 7 pontos)</div><div class="src">[M495, p. 3]</div></div>
+        <div class="stat"><div class="n">64%</div><div class="t">medem a IA por economia de tempo ou custo; 38%, por receita (1.000 líderes no Brasil)</div><div class="src">[M114, p. 10]</div></div>
+        <div class="stat"><div class="n">12%</div><div class="t">comparam de forma consistente o valor gerado pela IA com o seu custo (2.131 líderes, 20 países)</div><div class="src">[M072, p. 3]</div></div>
+      </div>
+    </div>
+  </div>
+  <div class="read"><b>Leitura nossa.</b> Medir desde o piloto, começando pelo tempo poupado, e separar o ganho da IA do ganho de outras tecnologias, é o caminho que tanto a sessão quanto as pesquisas sugerem.</div>
+  <div class="foot"><span>Acelen Energia Renovável · Prévia de resultados — sessão executiva 1 · BIA-ACL-RP-01 · Rev. 00</span><span class="mono">10 / 12</span></div>
+</section>
+<section class="slide">
+  <div class="head"><img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Cobertura do roteiro</span></div>
+  <div class="eyebrow">Cobertura do questionário (BIA-ACL-SE-02)</div>
+  <h2>Sete temas completos, três parciais</h2>
+  <table class="t" style="font-size:11.5px">
+    <thead><tr><th style="width:4%">#</th><th style="width:24%">Tema</th><th style="width:11%">Cobertura</th><th>Sinal principal</th></tr></thead>
+    <tbody>
+      <tr><td>01</td><td>Trajetória e estágio atual</td><td><span class="st ok"><span class="dot"></span>Coberto</span></td><td>De sistemas generalistas a dados centralizados há mais de uma década; régua não mostrada</td></tr>
+      <tr><td>02</td><td>Valor real</td><td><span class="st ok"><span class="dot"></span>Coberto</span></td><td>Nenhum valor medido em IA generativa; ganho visível na pulverização seletiva</td></tr>
+      <tr><td>03</td><td>O que não deu certo</td><td><span class="st par"><span class="dot"></span>Parcial</span></td><td>Sem fracasso de modelagem porque nada foi construído pela via oficial; ambiente corporativo travado</td></tr>
+      <tr><td>04</td><td>Alicerces e sequência</td><td><span class="st ok"><span class="dot"></span>Coberto</span></td><td>Dados primeiro; nem todo dado histórico serve</td></tr>
+      <tr><td>05</td><td>Governança e riscos</td><td><span class="st ok"><span class="dot"></span>Coberto</span></td><td>Comitê recente; governança e TI no nível de impedir; iniciativas por fora</td></tr>
+      <tr><td>06</td><td>Organização e pessoas</td><td><span class="st ok"><span class="dot"></span>Coberto</span></td><td>IA horizontal; falta quem une campo e tecnologia; letramento como prioridade</td></tr>
+      <tr><td>07</td><td>IA generativa e agentes</td><td><span class="st ok"><span class="dot"></span>Coberto</span></td><td>Uso individual e informal; demanda da liderança por respostas rápidas</td></tr>
+      <tr><td>08</td><td>Campo e sistemas autônomos</td><td><span class="st par"><span class="dot"></span>Parcial</span></td><td>Autonomia como necessidade; humanoides e referências internacionais não entraram na resposta</td></tr>
+      <tr><td>09</td><td>Dados, parceiros e soberania</td><td><span class="st ok"><span class="dot"></span>Coberto</span></td><td>Corte seletivo do que é crítico; fornecedor pelo custo; interoperabilidade</td></tr>
+      <tr><td>10</td><td>Futuro e conselho</td><td><span class="st par"><span class="dot"></span>Parcial</span></td><td>Grandes empresas de IA não vão se especializar no agro; espaço para empresas derivadas</td></tr>
+    </tbody>
+  </table>
+  <div class="foot"><span>Acelen Energia Renovável · Prévia de resultados — sessão executiva 1 · BIA-ACL-RP-01 · Rev. 00</span><span class="mono">11 / 12</span></div>
+</section>
+<section class="slide">
+  <div class="head"><img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Próximos passos</span></div>
+  <div class="eyebrow">Próximos passos</div>
+  <h2>O que fazer com estes sinais</h2>
+  <div class="cols" style="grid-template-columns:1fr 1fr 1fr">
+    <div class="card"><h3>Nas próximas sessões</h3>
+      <ul class="l">
+        <li>Mostrar a régua de cinco estágios e pedir a evidência de cada posição.</li>
+        <li>Cobrir o que ficou de fora: robôs humanoides, referências internacionais e sustentabilidade da IA.</li>
+        <li>Testar os seis sinais desta sessão em outros perfis.</li>
+      </ul></div>
+    <div class="card"><h3>No estudo</h3>
+      <ul class="l">
+        <li>Consolidar os insights só de forma agregada, depois de pelo menos duas sessões.</li>
+        <li>Levar os pilares de IA para as fichas e para o framework de maturidade.</li>
+        <li>Aprofundar interoperabilidade e autonomia na Frente 3, com Deere e DJI, propostas para o painel.</li>
+      </ul></div>
+    <div class="card"><h3>Para a Acelen (leitura nossa)</h3>
+      <ul class="l">
+        <li>Ter dados não basta: a estratégia de IA precisa de um caminho de implementação, com governança que libere com controle.</li>
+        <li>Letramento vem antes de ferramenta.</li>
+        <li>Medir desde o primeiro piloto, começando pelo tempo poupado.</li>
+      </ul></div>
+  </div>
+  <div class="read" style="margin-top:14px"><b>Confidencialidade.</b> Nomes de executivos e de empresas participantes não aparecem em nenhum material; gravação e transcrição brutas ficam com a OagronomIA e são apagadas após o registro anonimizado.</div>
+  <div class="foot"><span>Acelen Energia Renovável · Prévia de resultados — sessão executiva 1 · BIA-ACL-RP-01 · Rev. 00</span><span class="mono">12 / 12</span></div>
+</section>
+</body>
+</html>

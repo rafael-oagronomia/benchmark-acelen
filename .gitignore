@@ -27,6 +27,7 @@ _triagem-pesquisa/_catalogo/*
 !_triagem-pesquisa/_catalogo/rodada*.json
 !_triagem-pesquisa/_catalogo/complemento_manual.json
 !_triagem-pesquisa/_catalogo/destaques.json
+!_triagem-pesquisa/_catalogo/ids.json
 
 # Reuniões: versionar só a transcrição/ata em .md; originais e gravações ficam fora
 00_gestao/reunioes/_originais/
@@ -40,3 +41,6 @@ _triagem-pesquisa/_catalogo/*
 
 # Rascunhos do navegador automatizado (Playwright)
 .playwright-mcp/
+
+# Sessões executivas: gravações, transcrições e anotações brutas nunca vão para o Git (só o registro anonimizado)
+05_sessoes-executivas/_originais/

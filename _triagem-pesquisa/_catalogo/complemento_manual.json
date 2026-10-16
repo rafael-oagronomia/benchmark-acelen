@@ -203,12 +203,12 @@
             "F3"
           ],
           "metricas": [
-            "95% das empresas brasileiras já usam IA na operação e 86% usam IA generativa no dia a dia (107 decisores de TI, abr/2026) (p. 16, 17)",
-            "69% já investem significativamente em IA generativa com plano de gastos definido; 23% estão em testes e provas de conceito sem plano; 7% só listam casos de uso (p. 21)",
-            "Dados: 48% têm um ativo bem estruturado e governado, 49% parcialmente estruturado com lacunas e 3% têm gargalo significativo para IA (p. 22)",
-            "Só 44% se sentem prontos hoje para aproveitar ao máximo IA, GenAI e agentes; quase 90% esperam estar prontos em 4 anos (p. 25)",
-            "Principal barreira: falta de pessoal qualificado especializado (50%) (p. 27)",
-            "55% já trouxeram cargas de volta da nuvem pública; o principal motivo é segurança ou soberania de dados (37,3%) (p. 33)"
+            "95% das empresas brasileiras já usam IA na operação e 86% usam IA generativa no dia a dia (107 decisores de TI, abr/2026) (p. 15, 16)",
+            "69% já investem significativamente em IA generativa com plano de gastos definido; 23% estão em testes e provas de conceito sem plano; 7% só listam casos de uso (p. 20)",
+            "Dados: 48% têm um ativo bem estruturado e governado, 49% parcialmente estruturado com lacunas e 3% têm gargalo significativo para IA (p. 21)",
+            "Só 44% se sentem prontos hoje para aproveitar ao máximo IA, GenAI e agentes; quase 90% esperam estar prontos em 4 anos (p. 24)",
+            "Principal barreira: falta de pessoal qualificado especializado (50%) (p. 26)",
+            "55% já trouxeram cargas de volta da nuvem pública; o principal motivo é segurança ou soberania de dados (37,3%) (p. 32)"
           ],
           "resumo": "Estudo IDC para a ABES com decisores de TI de empresas brasileiras (abr/2026): IA como vetor que organiza as decisões de nuvem, dados e cibersegurança. Dá a régua de estágio de IA generativa (casos de uso, testes, investimento com plano) e mostra dados e talento como os gargalos da escala, além de repatriação de cargas por soberania de dados. Útil para F1 Brasil, F2 e F3. Obtido pelo usuário via formulário.",
           "relevancia": "alta"
@@ -230,7 +230,7 @@
             "F3"
           ],
           "metricas": [
-            "Curva de captura de valor por tempo de adoção de IA generativa — superaram as expectativas financeiras: 35,1% (até 6 meses), 23,3% (6 a 12 meses), 13,3% (12 a 24 meses) e 39,0% (mais de 24 meses); abaixo do esperado: 2,7%, 16,7%, 30,0% e 14,6% (138 respondentes, 12 setores) (p. 14-15)",
+            "Curva de captura de valor por tempo de adoção de IA generativa — superaram as expectativas financeiras: 35,1% (até 6 meses), 23,3% (6 a 12 meses), 13,3% (12 a 24 meses) e 39,0% (mais de 24 meses); abaixo do esperado: 2,7%, 16,7%, 30,0% e 14,6% (138 respondentes, 12 setores; cerca de 30 na faixa de 12 a 24 meses, cálculo a partir de n = 4 para 13,3% na p. 16) (p. 14-16)",
             "Segmentação por maturidade: Líderes 40,7% (alinham governança, mensuração e retorno), Disciplinados sem tração 19,4%, Tração sem disciplina 12,3% e Incipientes 27,6% (sem mecanismos para medir retorno) (p. 19)",
             "Serviços financeiros: 72,7% dos bancos superaram o business case inicial de IA generativa, contra 27,3% em meios de pagamento e 25,0% em seguros (p. 18)",
             "Casos: o assistente do Mercado Pago resolveu mais de 82% de mais de 9 milhões de conversas sem interação humana; o Mercado Livre tem uma comunidade de cerca de 500 AI Champions (p. 10, 12)"
@@ -318,6 +318,33 @@
           ],
           "resumo": "Coluna sobre a Semana do Clima de Nova York e a Assembleia da ONU (set/2026): a IA virou o tema central do debate climático, entre o potencial para acelerar pesquisa e a expansão de gás natural para abastecer data centers. Registra o ceticismo crescente do setor climático e a fala de Simon Stiell (ONU) de que os líderes de IA estão em 'terreno frágil' quanto à licença para operar. Ponto sensível para a Acelen: o capital de risco em combustíveis de baixo carbono caiu enquanto o de data centers cresceu. Obtido pelo usuário.",
           "relevancia": "alta"
+        }
+      ],
+      "formularios": [],
+      "lacunas": []
+    },
+    {
+      "grupo": "Shadow AI: complemento",
+      "pasta": "12_shadow-ai-governanca",
+      "itens": [
+        {
+          "titulo": "Entrevista com executivo da Thomson Reuters sobre o Future of Professionals 2026 (Forbes Money, jun/2026)",
+          "organizacao": "Forbes Brasil (Forbes Money)",
+          "ano": "2026 (jun/2026)",
+          "tipo_fonte": "imprensa",
+          "setor": "multissetorial",
+          "pais_regiao": "Brasil/Global",
+          "url": "https://forbes.com.br/forbes-money/2026/06/entrevista-thomson-reuters-ia-adrian-fognini/",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Segundo a matéria, o relatório Future of Professionals 2026 não traz dados específicos sobre Brasil e América Latina (web)"
+          ],
+          "resumo": "Entrevista com o executivo que lidera a operação global da Thomson Reuters fora dos EUA, na esteira do Future of Professionals 2026. Registra que o relatório não tem recorte de Brasil e América Latina, o que contesta o recorte brasileiro publicado pela TI Inside.",
+          "relevancia": "Fonte da divergência sobre o recorte brasileiro da Thomson Reuters na nota de shadow AI; imprensa."
         }
       ],
       "formularios": [],

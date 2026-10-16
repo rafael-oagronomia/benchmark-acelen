@@ -1,0 +1,2456 @@
+{
+  "resultados": [
+    {
+      "grupo": "Empresas do painel: Suzano",
+      "pasta": "06_empresas-agro-bioenergia-florestal-br",
+      "itens": [
+        {
+          "titulo": "Form 20-F — Annual Report pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934 for the fiscal year ended December 31, 2025",
+          "organizacao": "Suzano S.A.",
+          "ano": "2026 (ref. 2025)",
+          "tipo_fonte": "empresa",
+          "setor": "florestal (celulose, papel e bioprodutos)",
+          "pais_regiao": "Brasil",
+          "url": "https://www.sec.gov/Archives/edgar/data/909327/000090932726000045/suz-20251231.htm",
+          "arquivo": "06_empresas-agro-bioenergia-florestal-br/Suzano_2026_form-20F-exercicio-2025.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2"
+          ],
+          "metricas": [
+            "R$ 199,2 milhões investidos em P&D&I em 2025, sem separação do valor destinado a IA ou digital (p. 84)",
+            "Clones recomendados para plantio operacional passaram de 51 para 70 em 2026, com ganhos de IMACel e IMA estimados pelo Tetrys, sistema de otimização da alocação clonal (p. 84)",
+            "Speed Breeding reduziu de 21 para 7 anos o tempo de desenvolvimento de novos clones (p. 84)",
+            "Mais de 5 milhões de mudas produzidas no Viveiro de Transição em 2025 (p. 84)",
+            "Mais de R$ 143 milhões obtidos pela área de Cooperação Tecnológica via incentivos fiscais da Lei 11.196/2005 (Lei do Bem) (p. 86)",
+            "Participação indireta de 5,82% na BemAgro, empresa de software com IA e visão computacional para o agronegócio, em 31/12/2025 (p. 181)"
+          ],
+          "resumo": "Relatório anual da Suzano à SEC sobre 2025, protocolado em 23/03/2026. Registra a IA aplicada à gestão do conhecimento de P&D e ao ERP de pesquisa, o enriquecimento do data lake de pesquisa, o Tetrys, o Speed Breeding e a descontinuação da Suzano Ventures, além da governança de cibersegurança (NIST e ISO 27001, Head of Technology, comitês de cyber e pauta do Conselho) e da IA como vetor de risco cibernético. É a fonte regulatória mais recente sobre a organização da inovação; o PDF é a impressão do HTML do EDGAR (307 páginas) e as páginas citadas são as do PDF, não a numeração impressa do 20-F.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Programa de empoderamento tecnológico da Suzano, criado em parceria com a Koru, resulta em inovação e otimização de recursos",
+          "organizacao": "Suzano",
+          "ano": "2025",
+          "tipo_fonte": "empresa",
+          "setor": "florestal (celulose, papel e bioprodutos)",
+          "pais_regiao": "Brasil",
+          "url": "https://www.suzano.com.br/noticia/curso-habilidades-digitais-suzano-koru",
+          "arquivo": "06_empresas-agro-bioenergia-florestal-br/Suzano_2025_noticia-digital-empowerment-smart-koru.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2"
+          ],
+          "metricas": [],
+          "resumo": "Notícia oficial de 21/02/2025 sobre o Digital Empowerment, programa de capacitação em dados, Python e IA generativa criado com a Universidade Corporativa Koru dentro do Smart, ecossistema que reúne aprendizado, governança e gestão de tecnologias que podem ser democratizadas, com mentoria da área de DigitalTech. Mostra o modelo em que os próprios colaboradores desenvolvem soluções (Work-Based Learning) e cita cases de IA generativa para recomendar ajustes no processo produtivo. Útil para organização, pessoas e governança; não traz métricas.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Suzano, Tencent e Ecofuturo anunciam parceria na COP30 para conservação e educação ambiental com IA",
+          "organizacao": "Suzano",
+          "ano": "2025",
+          "tipo_fonte": "empresa",
+          "setor": "florestal (celulose, papel e bioprodutos)",
+          "pais_regiao": "Brasil / China",
+          "url": "https://www.suzano.com.br/noticia/suzano-tencent-ecofuturo-parceria-cop30-conservacao-educacao-ambiental",
+          "arquivo": "06_empresas-agro-bioenergia-florestal-br/Suzano_2025_noticia-tencent-ecofuturo-ia-biodiversidade-cop30.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "Abordagem com potencial de replicação nos 1,1 milhão de hectares de áreas de conservação que a Suzano protege na Amazônia, na Mata Atlântica e no Cerrado (p. 3)"
+          ],
+          "resumo": "Notícia oficial de 19/11/2025 sobre o memorando de entendimento entre Suzano, Tencent e Instituto Ecofuturo para iniciativas digitais de conservação e educação ambiental no Brasil e na China. Prevê um piloto com ferramentas de IA de reconhecimento de animais da Tencent em áreas do Ecofuturo; é anúncio, sem resultados. Mostra parceria com big tech chinesa no tema natureza.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Suzano utiliza gravadores de som e DNA ambiental em iniciativa pioneira de monitoramento da biodiversidade em MS",
+          "organizacao": "Suzano",
+          "ano": "2025",
+          "tipo_fonte": "empresa",
+          "setor": "florestal (celulose, papel e bioprodutos)",
+          "pais_regiao": "Brasil (MS)",
+          "url": "https://www.suzano.com.br/noticia/suzano-utiliza-gravadores-som-dna-ambiental-iniciativa-pioneira-monitoramento-biodiversidade-ms",
+          "arquivo": "06_empresas-agro-bioenergia-florestal-br/Suzano_2025_noticia-bioacustica-edna-ia-biodiversidade-ms.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "207 espécies de animais silvestres identificadas (194 aves, 10 anfíbios e 3 mamíferos), cerca de 40% da biodiversidade prevista para a região segundo o GBIF; resultados parciais de estudo em andamento até o fim de 2025 (p. 3)",
+            "176 pontos monitorados em cerca de 400 km do Cerrado, 79 deles com gravadores e armadilhas de eDNA, e 2.160 minutos gravados por ponto em 15 dias (p. 3-4)"
+          ],
+          "resumo": "Notícia oficial de 15/10/2025 sobre o estudo feito com o Instituto de Pesquisas Ecológicas (IPE) que combina gravadores acústicos automatizados, DNA ambiental coletado por moscas e mosquitos e IA (com o modelo BirdNET) para inventariar a fauna em corredores ecológicos do Cerrado de MS. Traz os números do levantamento e complementa o Relatório de Sustentabilidade 2025 (M336, p. 125).",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "FuturaGene obtém aprovação regulatória inédita no mundo para eucalipto geneticamente editado",
+          "organizacao": "Suzano (FuturaGene)",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "florestal (biotecnologia florestal)",
+          "pais_regiao": "Brasil",
+          "url": "https://www.suzano.com.br/noticia/futuragene-obtem-aprovacao-regulatoria-inedita-no-mundo",
+          "arquivo": "06_empresas-agro-bioenergia-florestal-br/Suzano_2026_noticia-futuragene-eucalipto-editado-crispr.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "11 aprovações da CTNBio para variedades de eucalipto geneticamente modificado, além da primeira aprovação de eucalipto geneticamente editado (p. 3)"
+          ],
+          "resumo": "Notícia oficial de 13/02/2026: a CTNBio confirmou que a nova variedade de eucalipto editado por CRISPR-Cas9 da FuturaGene atende aos critérios de isenção da RN 16 (classificada como convencional). A edição visa otimizar a composição da lignina; a próxima etapa são testes de campo controlados. Não envolve IA; registra a fronteira do melhoramento de precisão no florestal, ao lado das ferramentas digitais de alocação clonal.",
+          "relevancia": "baixa"
+        },
+        {
+          "titulo": "Jornada de Automação da Suzano com Document Understanding (história de cliente)",
+          "organizacao": "UiPath (case Suzano)",
+          "ano": "s.d. (dados de 2021; consulta em out/2026)",
+          "tipo_fonte": "analista/big tech",
+          "setor": "florestal (celulose e papel) — logística e corporativo",
+          "pais_regiao": "Brasil",
+          "url": "https://www.uipath.com/pt/resources/automation-case-studies/suzano-automation-journey-with-document-understanding",
+          "arquivo": "06_empresas-agro-bioenergia-florestal-br/UiPath_2025_case-suzano-document-understanding-coe-agentes.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "Redução de 95% em multas e juros por atraso de pagamento (p. 1-2)",
+            "Economia de cerca de R$ 300 mil por ano no custo de sustentação (p. 1-2)",
+            "Implantação em 6 meses, com custo 75% inferior ao previsto e integração direta ao SAP (p. 2)",
+            "Redução do lead time de 25 dias no corpo do texto e de 27 dias no destaque da página (p. 1-2)",
+            "Antes da automação: mais de 30 mil PDFs por ano lidos por 4 usuários e R$ 312 mil em multas e juros por atraso em 2021 (p. 2)"
+          ],
+          "resumo": "História de cliente da UiPath sobre o Centro de Excelência (CoE) de automação da Suzano: processamento inteligente de documentos (Document Understanding e Action Center) no pagamento de custos logísticos (LogPay), integrado ao SAP, com resultados financeiros e de prazo. Registra a ambição de usar agentes de IA integrados a RPAs e o uso do Process Mining. Case de fornecedor, sem data na página, com números autodeclarados e uma divergência interna no lead time.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "SAP & Google Cloud: Enabling faster value and smarter innovation for business excellence",
+          "organizacao": "Google Cloud",
+          "ano": "2025",
+          "tipo_fonte": "analista/big tech",
+          "setor": "florestal (celulose e papel) — dados corporativos",
+          "pais_regiao": "Brasil / Global",
+          "url": "https://cloud.google.com/blog/products/sap-google-cloud/google-cloud-at-sap-sapphire-2025",
+          "arquivo": "06_empresas-agro-bioenergia-florestal-br/GoogleCloud_2025_blog-sap-sapphire-suzano-rise-cortex.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1"
+          ],
+          "metricas": [
+            "Redução de 90% no tempo de consulta de dados atribuída à ferramenta de IA generativa da Suzano sobre dados SAP (p. 5)"
+          ],
+          "resumo": "Post do Google Cloud de 20/05/2025 (SAP Sapphire 2025) que cita a Suzano como cliente de RISE with SAP no Google Cloud e usuária do Cortex Framework para centralizar dados operacionais, com ferramenta de IA generativa que converte perguntas em SQL. Útil para a arquitetura de dados; o percentual difere do case de 2024 (M127, 95%).",
+          "relevancia": "baixa"
+        },
+        {
+          "titulo": "Inovação nos Processos (página institucional)",
+          "organizacao": "Suzano",
+          "ano": "s.d. (consulta em out/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "florestal (celulose, papel e bioprodutos)",
+          "pais_regiao": "Brasil",
+          "url": "https://www.suzano.com.br/inovacao/nos-processos",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F1"
+          ],
+          "metricas": [
+            "Cerca de 205 milhões de agentes de controle biológico produzidos em laboratórios próprios (página oficial)"
+          ],
+          "resumo": "Página institucional que descreve o Tetrys como algoritmo com analytics, big data e IA para indicar a muda de eucalipto mais adequada a cada ambiente (temperatura, chuva, altitude, tipo e textura do solo), além da biotecnologia da FuturaGene e do controle biológico. É a única fonte oficial localizada que atribui IA ao Tetrys. Página sem data e parcialmente desatualizada: cita 'oito' variedades GM aprovadas, contra onze no 20-F 2025.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Suzano amplia uso de Inteligência Artificial para fortalecer a excelência operacional da unidade de Limeira (SP)",
+          "organizacao": "Suzano",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "florestal (celulose e papel) — indústria",
+          "pais_regiao": "Brasil (SP)",
+          "url": "https://www.suzano.com.br/noticia/suzano-amplia-uso-de-ia-em-de-limeira-sp",
+          "arquivo": "06_empresas-agro-bioenergia-florestal-br/Suzano_2026_noticia-sala-vision-ia-manutencao-limeira.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "Cerca de 3,2 mil ativos (sistemas, máquinas e equipamentos) em monitoramento contínuo, 24 horas, pela Sala Vision de Limeira (p. 2)"
+          ],
+          "resumo": "Notícia oficial de 27/02/2026 sobre a Sala Vision de Limeira, plataforma que usa IA e conceitos de Indústria 4.0 para monitorar ativos industriais em tempo real, emitir alertas automáticos e priorizar a manutenção por criticidade; segundo a notícia, há salas de monitoramento em outras sete unidades. A empresa diz que o sistema 'está sendo desenvolvido' e fala só em potencial de reduzir paradas não programadas, sem resultado medido.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Suzano avança na transformação digital da indústria com inspeções robóticas em Mucuri",
+          "organizacao": "Suzano",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "florestal (celulose) — indústria",
+          "pais_regiao": "Brasil (BA)",
+          "url": "https://www.suzano.com.br/noticia/transformacao-digital-da-industria-com-inspecoes-roboticas",
+          "arquivo": "06_empresas-agro-bioenergia-florestal-br/Suzano_2026_noticia-inspecoes-roboticas-mucuri.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2",
+            "F3"
+          ],
+          "metricas": [],
+          "resumo": "Notícia oficial de 19/06/2026 sobre a substituição gradual de inspeções industriais tradicionais por drones e robôs com sensores, termografia e mapeamento estrutural em Mucuri (BA), com uma base digital de ativos que deve ampliar o uso de analytics, IA e visão computacional (expectativa). Registra a participação da área de DigitalTech, a transformação cultural exigida e o plano de levar a solução a outras unidades, às operações florestais e à logística. Sem métricas.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Suzano signs long-term deal with Marvin following successful validation of forestry sector AI geospatial intelligence capabilities",
+          "organizacao": "Suzano",
+          "ano": "2025",
+          "tipo_fonte": "empresa",
+          "setor": "florestal (celulose, papel e bioprodutos)",
+          "pais_regiao": "Brasil / Israel",
+          "url": "https://www.suzano.com.br/en/news-post/suzano-marvin-long-term-deal",
+          "arquivo": "06_empresas-agro-bioenergia-florestal-br/Suzano_2025_noticia-marvin-ia-geoespacial-acordo-longo-prazo.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "Plataforma operacional codesenvolvida mede uso de água e sequestro de carbono e avalia impactos climáticos em 27.000 km² de fazendas e florestas nativas da Suzano (p. 4)"
+          ],
+          "resumo": "Notícia oficial de 27/01/2025 (versão em inglês) sobre o contrato plurianual com a startup israelense Marvin, de inteligência geoespacial com IA, assinado após validação técnica em testes nas operações, e sobre o novo aporte (follow-on) da Suzano Ventures, que investira pela primeira vez em out/2023. Ilustra o caminho avaliar alternativas de mercado, pilotar e contratar; valores não divulgados.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Suzano investe em inovação tecnológica para prevenir e combater incêndios florestais",
+          "organizacao": "Suzano",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "florestal (celulose, papel e bioprodutos)",
+          "pais_regiao": "Brasil",
+          "url": "https://www.suzano.com.br/noticia/inovacao-tecnologica-para-prevenir-incendios-florestais",
+          "arquivo": "06_empresas-agro-bioenergia-florestal-br/Suzano_2026_noticia-ia-satelites-drones-integracao-incendios.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "Tempo médio de 35 minutos entre a detecção de uma ocorrência e a mobilização das equipes (p. 3)",
+            "85% dos incêndios controlados antes de se tornarem ocorrências de maior impacto nos três anos anteriores à publicação (p. 3)"
+          ],
+          "resumo": "Notícia oficial de 28/08/2026 que descreve a integração de IA, imagens de satélite, câmeras em torres e drones na prevenção e no combate a incêndios, com indicadores de resposta e de controle da estrutura como um todo, não só da IA. Lista as tecnologias em avaliação (satélites de baixa órbita, drones BVLOS com câmera térmica) e em teste (aceiros remotos). Atualiza M338.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Suzano integrates technology and networked efforts to protect over 300,000 hectares of Cerrado from fires in MS",
+          "organizacao": "Suzano",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "florestal (celulose, papel e bioprodutos)",
+          "pais_regiao": "Brasil (MS)",
+          "url": "https://www.suzano.com.br/en/news-post/network-to-protect-cerrado-against-fires-in-ms",
+          "arquivo": "06_empresas-agro-bioenergia-florestal-br/Suzano_2026_noticia-ia-fumaca-drone-termico-incendios-ms.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1"
+          ],
+          "metricas": [
+            "57 torres de videomonitoramento com câmeras 360° e detecção automática de fumaça por IA, em sistema que cobre mais de 1 milhão de hectares em MS (p. 1-3)",
+            "Investimento anual de R$ 25 milhões na operação de prevenção e combate a incêndios em MS (p. 2)",
+            "Na estiagem, equipes reforçadas reduzem o tempo médio de resposta em até 15 minutos, para cerca de uma hora entre a detecção e o início do combate (p. 3)",
+            "241 profissionais na operação durante o período crítico (p. 3)"
+          ],
+          "resumo": "Notícia oficial de 10/06/2026 (em inglês) sobre o reforço do sistema de incêndios em MS com um programa de IA para detecção automática de plumas de fumaça e um drone com câmera térmica, além de efetivo, frota e investimento anual. A métrica de resposta (até o início do combate) tem definição diferente das usadas em outras fontes e não deve ser comparada diretamente.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Visão global: Suzano monitora 500 milhões de hectares com inteligência em nuvem (caso de sucesso)",
+          "organizacao": "Google Cloud (case Suzano, com a parceira Geoambiente)",
+          "ano": "s.d. (projeto iniciado em nov/2023; consulta em out/2026)",
+          "tipo_fonte": "analista/big tech",
+          "setor": "florestal (celulose, papel e bioprodutos)",
+          "pais_regiao": "Brasil / Global",
+          "url": "https://cloud.google.com/customers/intl/pt-br/suzano-earth-engine?hl=pt-BR",
+          "arquivo": "06_empresas-agro-bioenergia-florestal-br/GoogleCloud_2026_case-suzano-earth-engine-inteligencia-mercado-florestal.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "500 milhões de hectares mapeados em menos de seis meses e 12 milhões de hectares de florestas plantadas identificados (p. 3)",
+            "Acurácia de 80% com equipe de cinco pessoas (p. 4)",
+            "Economia de ao menos R$ 400 mil em custos de terceirização evitados (p. 4)",
+            "Mais de 320 GB de dados analíticos armazenados na nuvem sem novos servidores (p. 4)",
+            "Classificação de 12 classes de uso da terra com cerca de 23 variáveis de entrada (p. 3)"
+          ],
+          "resumo": "Case do Google Cloud sobre a área de Inteligência de Mercado Florestal da Suzano (criada em 2022), que usou Google Earth Engine e machine learning (Random Forest) para mapear uso da terra e florestas plantadas em escala continental e abastecer decisões da diretoria. É um dos poucos casos com números de escala, acurácia, equipe e economia para ML no florestal; números autodeclarados no case do fornecedor, sem data na página.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Suzano usa IA a serviço da floresta e do crescimento inteligente dos negócios",
+          "organizacao": "IT Forum",
+          "ano": "2025",
+          "tipo_fonte": "imprensa",
+          "setor": "florestal (celulose, papel e bioprodutos)",
+          "pais_regiao": "Brasil",
+          "url": "https://itforum.com.br/noticias/suzano-ia-floresta-crescimento-negocios/",
+          "arquivo": "06_empresas-agro-bioenergia-florestal-br/ITForum_2025_suzano-ia-floresta-entrevista-cio.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2"
+          ],
+          "metricas": [
+            "144 antenas (Starlink combinadas a rádios digitais) com 100% de cobertura dos 86 módulos florestais (p. 2)",
+            "Ferramenta Somos, com IA, elevou em 15% o volume de planos de desenvolvimento criados no lançamento, com cerca de 5 mil colaboradores na fase inicial (p. 3)"
+          ],
+          "resumo": "Reportagem de 08/01/2025 com a CIO da Suzano sobre o portfólio de IA da floresta à indústria (Manda Chuva, iGroot, Thor, Mantis, Ana MarIA, Somos e Vagalume), a conectividade florestal como pré-requisito, o modelo de squads especializadas com democratização governada e a regra de justificar cada iniciativa por objetivo de negócio. É imprensa, usada porque não há documento oficial com essa visão de conjunto; os números são declarações da empresa.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "PPFP Panel: AI Readiness Starts with Data: Pulp and Paper Beyond the Hype — Suzano's Journey into Real-Time Optimization with PI System and Cloud AI",
+          "organizacao": "AVEVA (AVEVA World 2026, Milão)",
+          "ano": "2026",
+          "tipo_fonte": "analista/big tech",
+          "setor": "florestal (celulose e papel) — indústria",
+          "pais_regiao": "Brasil / Global",
+          "url": "https://events.aveva.com/aw-2026/session/4063866/ppfp-panel-ai-readiness-starts-with-data-pulp-and-paper-beyond-the-hype",
+          "arquivo": "06_empresas-agro-bioenergia-florestal-br/AVEVA_2026_aveva-world-sessao-suzano-pi-system-ia-nuvem.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [],
+          "resumo": "Resumo oficial de sessão do AVEVA World 2026 (Milão) apresentada por dois profissionais da Suzano: modelos de machine learning em tempo real, integrados ao AVEVA PI System e ao Google Cloud, recomendam balanceamento de carga de turbinas e dosagem química em várias unidades, com entrega por painéis PI Vision e automação no DCS. É texto de agenda de evento, sem números, mas mostra a arquitetura dados de planta + nuvem + automação.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Suzano increases availability in Drying with intelligent control in partnership with ANDRITZ (SPECTRUM nº 43)",
+          "organizacao": "ANDRITZ (case Suzano, unidade Imperatriz)",
+          "ano": "2022",
+          "tipo_fonte": "analista/big tech",
+          "setor": "florestal (celulose) — indústria",
+          "pais_regiao": "Brasil (MA)",
+          "url": "https://www.andritz.com/resource/blob/475552/67c1b8a297cef793b55c4bc5d47b33ce/spectrum43-suzanoimperatriz-web-data.pdf",
+          "arquivo": "06_empresas-agro-bioenergia-florestal-br/Andritz_2022_spectrum43-suzano-imperatriz-secagem-ia.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1"
+          ],
+          "metricas": [
+            "Redução de cerca de 40% no tempo de passagem de ponta nas secadoras de celulose, com base em quatro paradas de referência (p. 1)"
+          ],
+          "resumo": "Case da fornecedora ANDRITZ (revista SPECTRUM nº 43, 2022) sobre IA e controle avançado de processo (plataforma Metris UX) na passagem de ponta das secadoras de celulose de Imperatriz (MA), com sensores virtuais de gêmeo digital baseados em machine learning, ganho de disponibilidade e recordes mensais de produção. Fonte de fornecedor e anterior a 2024; versão web em andritz.com/metris-en/success-stories/suzano-imperatriz-success-story.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Suzano reaches nominal capacity and 1 million tons of production in record time with ANDRITZ-delivered pulp mill",
+          "organizacao": "ANDRITZ",
+          "ano": "2025",
+          "tipo_fonte": "analista/big tech",
+          "setor": "florestal (celulose) — indústria",
+          "pais_regiao": "Brasil (MS)",
+          "url": "https://www.andritz.com/newsroom-en/pulp-paper/2025-02-17-suzano-capacity-group",
+          "arquivo": "06_empresas-agro-bioenergia-florestal-br/Andritz_2025_noticia-ribas-rio-pardo-automacao-digitalizacao.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1"
+          ],
+          "metricas": [
+            "Capacidade nominal média atingida em menos de seis meses após a partida, quase quatro meses antes do previsto (p. 1)",
+            "Primeiro 1 milhão de toneladas produzido em 8 de janeiro de 2025; capacidade anual de 2,55 milhões de toneladas (p. 1)",
+            "Curva de aprendizado concluída em 29/12/2024, com média diária acima das 7.203 t/d planejadas por 30 dias (p. 2)"
+          ],
+          "resumo": "Release da fornecedora (17/02/2025) sobre a partida da fábrica de Ribas do Rio Pardo, equipada com um dos pacotes de automação e digitalização mais abrangentes do setor (analisadores, monitoramento de condição, visão, robótica, controle avançado e simulação). Afirmação de fornecedor, sem detalhar uso de IA; a Suzano credita o resultado também ao treinamento da equipe com mais de um ano de antecedência.",
+          "relevancia": "baixa"
+        },
+        {
+          "titulo": "Em iniciativa pioneira, Suzano adota robôs autônomos para movimentação de celulose em Ribas do Rio Pardo (MS)",
+          "organizacao": "Suzano",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "florestal (celulose) — logística interna",
+          "pais_regiao": "Brasil (MS)",
+          "url": "https://www.suzano.com.br/noticia/suzano-adota-robos-autonomos-em-ribas-do-rio-pardo-ms",
+          "arquivo": "06_empresas-agro-bioenergia-florestal-br/Suzano_2026_noticia-robos-autonomos-amr-ribas-rio-pardo.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "Quatro robôs móveis autônomos atendem cerca de um terço da produção da unidade, com expectativa de chegar a 100% (p. 3)",
+            "Cada robô transporta até quatro toneladas (p. 3)",
+            "Projeto iniciado em 2022, com cerca de 20 profissionais da Suzano e cerca de 30 especialistas da Dalca (p. 4)"
+          ],
+          "resumo": "Notícia oficial de 04/03/2026 sobre robôs móveis autônomos (AMR FlexNav), desenvolvidos com a brasileira Dalca e coordenados por um sistema central, para movimentar fardos de celulose em Ribas do Rio Pardo, e sobre a requalificação da equipe de logística. Automação em escala parcial, com meta de expansão; a notícia não menciona IA.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Com sensores inteligentes, Suzano aposta em inovação para prevenir falhas industriais em Aracruz",
+          "organizacao": "Suzano",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "florestal (celulose) — indústria",
+          "pais_regiao": "Brasil (ES)",
+          "url": "https://www.suzano.com.br/noticia/sensores-inteligentes-para-prevenir-falhas-industriais-em-aracruz",
+          "arquivo": "06_empresas-agro-bioenergia-florestal-br/Suzano_2026_noticia-sensores-iot-manutencao-preditiva-aracruz.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1"
+          ],
+          "metricas": [
+            "Cerca de 2,5 mil roletes inteligentes com sensores sem fio LoRaWAN, com transmissão de até 3 km sem retransmissores (p. 3)"
+          ],
+          "resumo": "Notícia oficial de 25/05/2026 sobre IoT (LoRaWAN) para manutenção preditiva das correias de cavacos em Aracruz, fábrica que opera desde 1978, e sobre uma prova de conceito de sensores desenvolvida internamente. Mostra a construção da base de dados industrial numa planta antiga; não menciona IA.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Lume Robotics e Suzano firmam parceria para testar o primeiro caminhão elétrico autônomo sem cabine da América Latina",
+          "organizacao": "Suzano",
+          "ano": "2024",
+          "tipo_fonte": "empresa",
+          "setor": "florestal (celulose) — logística portuária",
+          "pais_regiao": "Brasil",
+          "url": "https://www.suzano.com.br/noticia/lume-robotics-e-suzano-firmam-parceria-para-testar-o-primeiro-caminhao-eletrico-autonomo-sem-cabine-da-america-latina",
+          "arquivo": "06_empresas-agro-bioenergia-florestal-br/Suzano_2024_noticia-lume-caminhao-eletrico-autonomo-sem-cabine.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "Contrato de R$ 3 milhões com a Finep; projeto selecionado pela Finep dentre 126 outros (p. 2-3)",
+            "Previsão de 64 t de celulose por ciclo de cerca de 4 km e cerca de 50 viagens por dia; veículo pronto em 2027 e testes até 2028 (p. 3)"
+          ],
+          "resumo": "Notícia oficial de 29/07/2024 sobre a parceria com a Lume Robotics, financiada pela Finep, para desenvolver um caminhão elétrico autônomo sem cabine (IA, robótica e mobilidade elétrica) a ser testado em terminal portuário da Suzano. É projeto em desenvolvimento, não operação; dá sequência aos testes de 2023 com caminhão autônomo no Porto do Itaqui e na Portocel.",
+          "relevancia": "baixa"
+        },
+        {
+          "titulo": "Suzano: Aligning Profitability with Sustainability Through Supply Chain Optimization",
+          "organizacao": "Gurobi Optimization (case Suzano)",
+          "ano": "s.d. (consulta em out/2026)",
+          "tipo_fonte": "analista/big tech",
+          "setor": "florestal (celulose) — logística e S&OP",
+          "pais_regiao": "Brasil / Global",
+          "url": "https://www.gurobi.com/resources/case-studies/suzano-aligning-profitability-with-sustainability-through-supply-chain-optimization",
+          "arquivo": "06_empresas-agro-bioenergia-florestal-br/Gurobi_2024_case-suzano-otimizacao-cadeia-suprimentos.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2"
+          ],
+          "metricas": [
+            "R$ 76 milhões em novas oportunidades identificadas com cenários flexíveis (p. 4)",
+            "Redução de 60% no tempo gasto com tratamento de dados (p. 4)",
+            "Tempo para criar planos operacionais consistentes caiu de oito horas para entre 20 minutos e uma hora; impacto financeiro ainda em medição (p. 4)"
+          ],
+          "resumo": "Case do fornecedor sobre os modelos de otimização matemática para o S&OP de exportação de celulose (SnOPy, Tangram e Compass), desenvolvidos internamente pelas equipes de S&OP e de ciência de dados da Suzano e resolvidos com o Gurobi. É otimização matemática, não IA generativa nem machine learning, mas traz resultado quantificado e mostra a troca de um produto comercial por ferramenta própria. Página sem data.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Suzano Ventures makes strategic investment in BemAgro",
+          "organizacao": "Suzano",
+          "ano": "2024",
+          "tipo_fonte": "empresa",
+          "setor": "florestal / agtech",
+          "pais_regiao": "Brasil",
+          "url": "https://www.suzano.com.br/en/news-post/suzano-ventures-makes-strategic-investment-in-bemagro",
+          "arquivo": "06_empresas-agro-bioenergia-florestal-br/Suzano_2024_noticia-suzano-ventures-bemagro-ia-silvicultura-precisao.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "Rodada de US$ 2,6 milhões liderada pela CNH, com Suzano Ventures e Atvos como investidores estratégicos (p. 2)",
+            "Roteiro de dois anos para adaptar os algoritmos à silvicultura de eucalipto, com acesso a fazendas, operações e especialistas da Suzano (p. 2-3)",
+            "Na cana, a solução reduz em média 70% a aplicação de herbicidas e insumos e eleva a produtividade em 7,5% (dados da startup, não da Suzano) (p. 2)"
+          ],
+          "resumo": "Notícia oficial de 14/08/2024 sobre o primeiro investimento da Suzano Ventures numa agtech brasileira: a BemAgro, de IA e visão computacional, para levar à silvicultura de precisão (monitoramento de mudas) uma tecnologia já usada na cana. Mostra o modelo 'capital + acesso a campo' para cocriar algoritmos; em 31/12/2025 a participação indireta era de 5,82% (20-F 2025).",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Do eucalipto ao papel, a tecnologia por trás de produtos do dia a dia",
+          "organizacao": "Suzano",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "florestal (celulose e papel) — indústria",
+          "pais_regiao": "Brasil",
+          "url": "https://www.suzano.com.br/noticia/a-tecnologia-por-tras-de-produtos-do-dia-a-dia",
+          "arquivo": "06_empresas-agro-bioenergia-florestal-br/Suzano_2026_noticia-bark-finder-ia-nir-qualidade-madeira.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [],
+          "resumo": "Notícia oficial de 21/09/2026 que apresenta o Bark Finder, sistema em desenvolvimento que usa câmeras e algoritmos de IA para identificar em tempo real cascas na madeira enviada ao processo, e o uso de modelos NIR, construídos com milhares de resultados de laboratório, para predizer características da madeira, da polpa e do processo. IA aplicada à qualidade da matéria-prima na interface floresta-fábrica, sem resultados divulgados.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Suzano utiliza Inteligência Artificial como aliada na proteção às florestas",
+          "organizacao": "Suzano",
+          "ano": "2024",
+          "tipo_fonte": "empresa",
+          "setor": "florestal (celulose, papel e bioprodutos)",
+          "pais_regiao": "Brasil",
+          "url": "https://www.suzano.com.br/noticia/suzano-utiliza-inteligencia-artificial-como-aliada-na-protecao-as-florestas",
+          "arquivo": "06_empresas-agro-bioenergia-florestal-br/Suzano_2024_noticia-ia-torres-deteccao-fumaca-todos-estados.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1"
+          ],
+          "metricas": [
+            "Câmeras com IA em torres de monitoramento podem alcançar mais de 30 km (p. 2)",
+            "28 novas torres previstas para os meses seguintes (p. 3)"
+          ],
+          "resumo": "Notícia oficial de 14/11/2024: a detecção automática de fumaça por IA já era usada em todos os estados onde a Suzano atua, e cada alerta é confirmado por um operador antes do envio da brigada. Complementa M335 e M338 com o desenho 'IA + operador humano' e a expansão das torres; o alcance informado (mais de 30 km) difere dos 15 km citados em outras fontes.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Global Forestry Conference '26 — Shaping the Future of Forest Intelligence (apresentação da Suzano)",
+          "organizacao": "Remsoft (apresentação da Suzano)",
+          "ano": "2026",
+          "tipo_fonte": "analista/big tech",
+          "setor": "florestal — planejamento e logística",
+          "pais_regiao": "Brasil",
+          "url": "https://info.remsoft.com/hubfs/RFGC%202026%20Presentations/RFCG2026-Suzano.pdf?hsLang=en",
+          "arquivo": "06_empresas-agro-bioenergia-florestal-br/Remsoft_2026_rfgc-apresentacao-suzano-planejamento-florestal.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2"
+          ],
+          "metricas": [
+            "Plano otimizado de 18 meses gerado em 10 dias após o anúncio da permuta com a Eldorado, integrando mais de 50 mil hectares e mais de mil unidades de produção (p. 22)",
+            "Cerca de 120 milhões de combinações avaliadas pelo Scheduler por unidade de produção (p. 18)",
+            "Mais de 2.000 viagens de caminhão por dia e cerca de 50 milhões de m³ de madeira transportados por ano (p. 12)"
+          ],
+          "resumo": "Apresentação da Suzano na conferência anual da Remsoft (2026), publicada no site do fornecedor, sobre planejamento florestal tático com otimização matemática (Scheduler) e o ecossistema de otimizadores próprios (IGROOT, MLPLAN, ATLAS e C14). Não menciona IA: é evidência de maturidade em dados e otimização na cadeia floresta-fábrica. O rodapé do modelo diz 'confidential and proprietary', mas o arquivo está em URL pública, sem login nem formulário.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "O que joaninhas e inteligência artificial têm a ver com o papel higiênico?",
+          "organizacao": "CNN Brasil",
+          "ano": "2026",
+          "tipo_fonte": "imprensa",
+          "setor": "florestal (celulose, papel e bioprodutos)",
+          "pais_regiao": "Brasil",
+          "url": "https://www.cnnbrasil.com.br/agro/tecnologias-para-eucaliptos-ajudam-no-abastecimento-de-papel-higienico/",
+          "arquivo": "06_empresas-agro-bioenergia-florestal-br/CNNBrasil_2026_suzano-ia-floresta-preditiva-vp-florestal.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "Mais de 340 milhões de agentes de controle biológico liberados em cerca de 500 mil hectares em 2024, com cerca de 17,1 mil kg a menos de inseticidas químicos (p. 6)",
+            "Banco genético com mais de 30 mil materiais e cerca de 170 clones cultivados em 1,7 milhão de hectares (p. 4)"
+          ],
+          "resumo": "Reportagem de 25/07/2026 com o vice-presidente executivo florestal da Suzano sobre a passagem de um manejo reativo para um preditivo, com IA, satélite, sensores em troncos e controle biológico. É imprensa, usada porque as declarações do executivo florestal não aparecem em documento oficial; os números de biocontrole e do banco genético não são resultados de IA.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Suzano investe no uso de tecnologia para a prevenção e combate a incêndios em suas áreas florestais no estado de São Paulo",
+          "organizacao": "Suzano",
+          "ano": "2024",
+          "tipo_fonte": "empresa",
+          "setor": "florestal (celulose, papel e bioprodutos)",
+          "pais_regiao": "Brasil (SP)",
+          "url": "https://www.suzano.com.br/noticia/suzano-investe-no-uso-de-tecnologia-para-a-prevencao-e-combate-a-incendios-em-suas-areas-florestais-no-estado-de-sao-paulo",
+          "arquivo": "06_empresas-agro-bioenergia-florestal-br/Suzano_2024_noticia-ia-cameras-drones-lidar-incendios-sp.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1"
+          ],
+          "metricas": [
+            "19 câmeras em torres com algoritmo de IA que reconhece fumaça, com plano de chegar a 22 até o fim de 2024 e cobrir cerca de 80% da área da unidade florestal de SP (p. 3)",
+            "Torres com raio de alcance de 15 km e cobertura de 360° (p. 3)",
+            "Sistema alemão de detecção por satélite a ser ampliado com oito novos satélites em 2024 (p. 4)"
+          ],
+          "resumo": "Notícia oficial de 11/07/2024 sobre o monitoramento de incêndios em São Paulo: câmeras com algoritmo de IA que reconhece fumaça e gera alertas ao operador, drones com câmeras térmicas e sensores LiDAR, e detecção por satélite. É a única menção oficial a LiDAR localizada, e o uso é em drones de incêndio, não no inventário florestal.",
+          "relevancia": "baixa"
+        },
+        {
+          "titulo": "Suzano inova e realiza testes com caminhão autônomo em sua operação no Porto do Itaqui (MA)",
+          "organizacao": "Suzano",
+          "ano": "2023",
+          "tipo_fonte": "empresa",
+          "setor": "florestal (celulose) — logística portuária",
+          "pais_regiao": "Brasil (MA, ES)",
+          "url": "https://www.suzano.com.br/noticia/suzano-inova-e-realiza-testes-com-caminhao-autonomo-em-sua-operacao-no-porto-do-itaqui-ma",
+          "arquivo": "06_empresas-agro-bioenergia-florestal-br/Suzano_2023_noticia-caminhao-autonomo-ia-porto-itaqui.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1"
+          ],
+          "metricas": [
+            "Tempo de reação de um décimo de segundo atribuído ao sistema autônomo (p. 3)",
+            "Redução de cerca de 17% nos custos operacionais citada a partir de estudo de 2018 da Universidade de Kentucky sobre máquinas agrícolas autônomas, não de medição da Suzano (p. 3)"
+          ],
+          "resumo": "Notícia oficial de 06/12/2023 sobre testes de caminhão autônomo controlado por IA, com tecnologia da Lume Robotics, na movimentação de celulose no Porto do Itaqui e, ao mesmo tempo, na Portocel. Exemplo de piloto em logística portuária e alerta de método: o ganho de custo divulgado vem de estudo externo sobre outra aplicação.",
+          "relevancia": "baixa"
+        },
+        {
+          "titulo": "Suzano expands new bio-based material applications in China",
+          "organizacao": "Suzano",
+          "ano": "2024",
+          "tipo_fonte": "empresa",
+          "setor": "florestal (celulose e bioprodutos)",
+          "pais_regiao": "China / Brasil",
+          "url": "https://www.suzano.com.br/en/news-post/suzano-expands-new-bio-based-material-applications-in-china",
+          "arquivo": "06_empresas-agro-bioenergia-florestal-br/Suzano_2024_noticia-ecolig-lignina-bioprodutos-china.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1"
+          ],
+          "metricas": [],
+          "resumo": "Notícia oficial de 09/10/2024 sobre novas aplicações dos materiais de base biológica (lignina Ecolig® e celulose microfibrilada Biofiber®) anunciadas no Fórum de Bioeconomia da Suzano em Xangai, com parceria com a Ningbo Actmix para usar Ecolig® em borracha e acordos com a Universidade Fudan e o Insper. Não menciona IA, dados nem ferramentas digitais; o negócio de lignina foi descontinuado em 2025 (M336, p. 20 e 50).",
+          "relevancia": "baixa"
+        }
+      ],
+      "formularios": [],
+      "lacunas": [
+        "Política, diretriz ou princípios públicos de IA (ou de ética digital): não localizados. Segundo a consulta de um pesquisador, o Código de Ética e Conduta publicado no site de RI trata de segurança da informação e privacidade sem mencionar IA, e a lista de políticas do RI não inclui política de IA.",
+        "Instância formal de governança de IA (comitê ou dono executivo declarado): não localizada. A governança aparece via cibersegurança (Head of Technology, comitês de cyber e pauta do Conselho, no 20-F 2025), via o programa Smart com mentoria da DigitalTech e via declarações da CIO sobre democratização 'segura e governada' (IT Forum, jan/2025).",
+        "Investimento em IA ou digital: não é divulgado separadamente. O 20-F 2025 informa só o total de P&D&I (R$ 199,2 milhões em 2025) e o RS 2024, R$ 174 milhões em 2024.",
+        "Resultado financeiro de IA: não há valor consolidado nem ROI por caso. Há só a redução de 5% no custo final das fibras, citada como exemplo do movimento de competitividade 'alavancado pela inteligência artificial e pela otimização de processos' (M336, p. 22), e a meta de R$ 80–115 milhões para 2026 (M337, p. 37), sem atualização pública do realizado.",
+        "Adoção efetiva de IA generativa: não há dado de uso do GPT Suzano além da liberação para quase 50 mil colaboradores (1º sem. 2024), nem números de uso do VagaLúmen posteriores a 2024. O RS 2025 cita a Ana Maria só em Três Lagoas; não há confirmação oficial da expansão prevista para 2025.",
+        "Agentes de IA: além das funções de automação da Ana Maria (2024) e da ambição do CoE de automação (case UiPath, sem data), não há atualização oficial de 2025–2026 sobre escala ou resultados de agentes.",
+        "Comunicação a investidores: segundo a consulta dos pesquisadores, os releases e apresentações de resultados de 4T25, 1T26 e 2T26 e a apresentação a investidores de jun/2026 não mencionam IA; o RI publica só o áudio das teleconferências, e a transcrição do Suzano Day 2025 não está no RI. Investor Day 2026 não ocorreu até a data de corte, e o deck do Suzano Day 2024 não foi localizado.",
+        "Form 20-F 2024 (exercício 2024): consultado por um pesquisador; traz IA só nos fatores de risco e na descrição da BemAgro e cita o Tetrys; acrescenta pouco ao 20-F 2025 e não foi catalogado. O Formulário de Referência (CVM) não foi consultado.",
+        "Relatório TNFD de 2026 e Sumário Executivo do RS 2025: consultados por um pesquisador; o TNFD não menciona IA e o Sumário repete o RS 2025, mais a parceria com a Tencent. Não foram catalogados.",
+        "Silvicultura: não há fonte oficial com IA no inventário florestal (LiDAR, volume e biomassa), na detecção de pragas e doenças ou na colheita; há só menções genéricas na imprensa (CNN Brasil, jul/2026; IT Forum, jan/2025). LiDAR aparece oficialmente só em drones de combate a incêndio (SP, jul/2024), e os pilotos com startups (BemAgro, IrrigAI) não têm resultados divulgados.",
+        "Melhoramento genético: o 20-F 2025 descreve o Tetrys como sistema de otimização da alocação clonal, sem citar IA; só a página institucional 'Inovação nos processos' (sem data) o descreve como algoritmo com analytics, big data e IA. Não há fonte oficial recente com detalhes ou resultados de IA no melhoramento; uma reportagem de 2021 que associa o Tetrys a IA não foi catalogada.",
+        "Resultados medidos de automação e IA industrial: Sala Vision, inspeções robóticas (Mucuri), robôs autônomos (Ribas do Rio Pardo), Bark Finder, sensores de Aracruz e a sessão do AVEVA World 2026 não divulgam ganhos medidos; as fontes falam em potencial ou projeto.",
+        "Cases de parceiros: não foi localizado case oficial recente de SAP (a migração para o S/4HANA aparece só na imprensa e, indiretamente, no 20-F), AWS, NVIDIA ou Microsoft (a página da Microsoft reproduz o release de M334). O case do Google Cloud sobre a migração do data lake (2021) foi removido do site.",
+        "Valores dos aportes da Suzano Ventures na Marvin: não divulgados oficialmente; a imprensa cita valor sem confirmação em fonte oficial.",
+        "Financiamento do BNDES de 2026 para IoT, monitoramento remoto e PD&I: localizado só na imprensa, sem comunicado oficial; não catalogado. O RS 2025 (M336, p. 21) cita outro financiamento do BNDES, de R$ 451,7 milhões, para revitalização e ampliação de armazenagem em cinco unidades.",
+        "Reportagem da CNN Brasil sobre parceria Suzano–Google Cloud de IA generativa para reduzir o tempo de desenvolvimento de mudas: texto gerado por IA a partir de vídeo, sem comunicado oficial da Suzano nem do Google; não catalogada.",
+        "Sessão do AVEVA World 2025 sobre PI System e IA em Ribas do Rio Pardo (pista do Perplexity): a página retornou 404 e não foi verificada.",
+        "Estudo de caso INSEAD/BTA 'A transformação da Suzano por meio da Inovabilidade' (2024): citado em notícia oficial, sem URL pública localizada (provavelmente pago); não catalogado.",
+        "Casos anteriores da ANDRITZ com a Suzano (evaporação com Metris UX e machine learning; SPECTRUM nº 42), de 2021–2022: o texto da página não pôde ser extraído; não catalogados.",
+        "Lignina na Ásia: a notícia de out/2024 sobre o Fórum de Bioeconomia em Xangai e a notícia de inauguração do Hub de Inovabilidade na China (https://www.suzano.com.br/noticia/suzano-inaugura-hub-de-inovabilidade-na-china) não mencionam IA, dados nem ferramentas digitais; o negócio de lignina foi descontinuado em 2025 (M336, p. 20 e 50).",
+        "Datas de publicação não confirmadas: os cases do Gurobi e do Google Earth Engine e a história de cliente da UiPath não trazem data na página; o limite de buscas web do ambiente foi atingido nas rodadas dos pesquisadores e nesta verificação, o que deixou pendentes essas datas e a busca por cases oficiais de SAP S/4HANA e de outros parceiros."
+      ]
+    },
+    {
+      "grupo": "Empresas do painel: Bayer",
+      "pasta": "07_agro-global-perenes-autonomia",
+      "itens": [
+        {
+          "titulo": "Bayer Annual Report 2024",
+          "organizacao": "Bayer AG",
+          "ano": "2025 (ref. 2024)",
+          "tipo_fonte": "empresa",
+          "setor": "grupo Bayer (agro, farmacêutico e saúde do consumidor)",
+          "pais_regiao": "Alemanha/Global",
+          "url": "https://www.bayer.com/sites/default/files/2025-03/bayer-annual-report-2024.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/Bayer_2024_annual-report.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2"
+          ],
+          "metricas": [
+            "DSO: redução em curso de aproximadamente metade das camadas de gestão, que já havia eliminado cerca de 7 mil postos, predominantemente gerenciais (p. 9)",
+            "Meta individual do CEO para 2024 de 'adotar ferramentas de IA em toda a Bayer'; redução de cerca de 6.900 FTEs com a ativação do DSO (p. 379)",
+            "Climate FieldView com mais de 300 milhões de acres assinados em 24 países (p. 39)",
+            "Piloto de sistema especialista de IA generativa no início de 2024 e lançamento comercial do E.L.Y. Crop Protection no catálogo do Azure AI em novembro de 2024 (p. 41)"
+          ],
+          "resumo": "Relatório anual de 2024, linha de base da jornada de IA do grupo. Registra a meta do CEO de adotar IA em toda a empresa, os primeiros números do DSO, a cronologia do E.L.Y. e parcerias de IA para química de defensivos (IKTOS, AgPlenus). Útil para comparar com o relatório de 2025 (M390).",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Scaling Regenerative Agriculture – Bayer Capital Markets Day 2024 (Crop Science)",
+          "organizacao": "Bayer AG (Crop Science)",
+          "ano": "2024",
+          "tipo_fonte": "empresa",
+          "setor": "agro (sementes, defensivos e agricultura digital)",
+          "pais_regiao": "Global (inclui América Latina)",
+          "url": "https://www.bayer.com/sites/default/files/2024-03/bayer-capital-markets-day-2024-crop-science-v2.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/Bayer_2024_capital-markets-day-crop-science.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2"
+          ],
+          "metricas": [
+            "DSO na Crop Science: ~50 squads voltados ao cliente lançados e mais de 450 'customer mission teams' previstos até o fim de 2024 (p. 10)",
+            "Espaços adjacentes (biocombustíveis, plataformas e marketplaces digitais, carbono, fertilidade, aplicação de precisão) podem dobrar o mercado acessível para mais de €200 bi em 2030, segundo estimativa da empresa (p. 5)",
+            "Pipeline com potencial de pico de vendas acima de €32 bi e dez blockbusters esperados na próxima década (p. 11)"
+          ],
+          "resumo": "Apresentação da Crop Science no Capital Markets Day de 05/03/2024. Mostra o DSO ancorado no produtor, com times multifuncionais que incluem agronomia e digital e pioneiros no Brasil, Argentina e México, e ferramentas digitais do pipeline para a América Latina.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "2025 Crop Science Investor Update",
+          "organizacao": "Bayer AG (Crop Science)",
+          "ano": "2025",
+          "tipo_fonte": "empresa",
+          "setor": "agro (sementes, defensivos e agricultura digital)",
+          "pais_regiao": "Global (EUA, Brasil e demais mercados)",
+          "url": "https://www.bayer.com/sites/default/files/2025-05/20250513-cs-investor-webinar-final.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/Bayer_2025_crop-science-investor-webinar.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "Mais de 117 bilhões de pontos de dados de desempenho de produtos e mais de 250 milhões de acres assinados em 23 países (p. 15)",
+            "Usuários ativos do FieldView Plus (milho, EUA): retenção 9% maior e taxa de semeadura de marcas da Crop Science 4% maior que não usuários (p. 17)",
+            "Ativos digitais de P&D: mais de 1 bi de observações por VANT e satélite, mais de 5 mi de ambientes simulados e mais de 10 mi de decisões automatizadas por modelos (p. 31)",
+            "Five-Year Framework 2024-2029: metas de mais de €3,5 bi de vendas incrementais, mais de €1,0 bi de melhoria de margem e mais de €1,5 bi de caixa liberado de capital de giro (p. 20)"
+          ],
+          "resumo": "Webinar a investidores de 13/05/2025 que lançou o Five-Year Framework da Crop Science. Apresenta o FieldView como diferencial do go-to-market e posiciona dados e IA como base da nova onda de P&D. Atenção: nos slides, 'AI' muitas vezes significa ingrediente ativo (nota explícita na p. 42).",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Crop Science Investor Update 2026",
+          "organizacao": "Bayer AG (Crop Science)",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "agro (sementes, defensivos e agricultura digital)",
+          "pais_regiao": "Global",
+          "url": "https://bag-p-001.sitecorecontenthub.cloud/api/public/content/adf924c991ed480f9f1d38dee279b505?v=cc22cf53",
+          "arquivo": "07_agro-global-perenes-autonomia/Bayer_2026_crop-science-investor-update.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2"
+          ],
+          "metricas": [
+            "€200 mi de economia anualizada em custo dos produtos de defensivos até o fim do 2º tri/2026, via renegociação, terceirização e otimização de processos; IA usada para ampliar a cobertura dos 14 squads de otimização (p. 22)",
+            "Meta de mais de €400 mi de impacto em cEBITDA até 2029 com medidas de SG&A; nas funções globais (mais de €200 mi), programas de produtividade incluem automação e IA (p. 28)",
+            "Meta de mais de €1 bi de aumento de cEBITDA e fluxo de caixa operacional livre acima de €3 bi até 2029 (p. 7)"
+          ],
+          "resumo": "Apresentação principal do evento com investidores de 02/09/2026, que atualiza o Five-Year Framework. Registra IA em suprimentos, 'automação agêntica em escala' em P&D e IA nas funções globais depois do DSO. Página do evento: https://www.bayer.com/en/investors/events/crop-science-investor-event.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Bayer Crop Science 2026 R&D Update (Mike Graham, Head of R&D)",
+          "organizacao": "Bayer AG (Crop Science)",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "agro (sementes, defensivos e agricultura digital)",
+          "pais_regiao": "Global (EUA e Brasil)",
+          "url": "https://bag-p-001.sitecorecontenthub.cloud/api/public/content/b6f8f6b20a8a46eda30b32779afa04dc?v=e7f89d65",
+          "arquivo": "07_agro-global-perenes-autonomia/Bayer_2026_crop-science-rd-update.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "Data & AI Engine: mais de 13 mi de sementes genotipadas, 4,5 mi de amostras GBS, 7,3 mi de parcelas, 10 mi de imagens, 340 mi de acres de dados de milho de clientes e mais de 250 mil decisões por IA por dia (p. 11)",
+            "Melhoramento de precisão: ciclos 15x mais rápidos (5 anos para 4 meses) e ganho genético de ~38 contra ~13 US$/acre/ano (dados modelados) (p. 13)",
+            "Gêmeo digital: de 3 locais físicos de teste para mais de 85 mil simulados num condado de Iowa; redução esperada de 1 a 2 anos no tempo até o mercado (p. 14)",
+            "CropKey: mais de 4.000x mais alvos, 60.000x mais espaço químico, segurança 5 anos antes e desenvolvimento 2 anos mais rápido (p. 25)",
+            "VAlora no Brasil: +6% (11 bu/ac) em 1.635 talhões contra 1.388 controle (verão 2025/26); Preceon com FieldView nos EUA: +5% (12 bu/ac) em 597 produtores (p. 30)"
+          ],
+          "resumo": "Apresentação de P&D do evento de 02/09/2026, a fonte oficial mais detalhada sobre IA no pipeline da Crop Science. Descreve o 'Data & AI Engine' que atravessa melhoramento, biotecnologia, edição gênica e CropKey, com números declarados pela empresa, vários deles modelados.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Bayer Crop Science Investor Update 2026 – Transcript",
+          "organizacao": "Bayer AG (Crop Science)",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "agro (sementes, defensivos e agricultura digital)",
+          "pais_regiao": "Global (EUA e Brasil)",
+          "url": "https://bag-p-001.sitecorecontenthub.cloud/api/public/content/0a447929a1e74896838e26b07d53dae2?v=5eef8876",
+          "arquivo": "07_agro-global-perenes-autonomia/Bayer_2026_crop-science-investor-event-transcricao.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "Mais de 250 mil decisões de IA por dia (p. 25)",
+            "20 anos de dados conectados (p. 24)",
+            "Recomendações digitais: +5% com FieldView e Preceon nos EUA e +6% com VAlora no Brasil (p. 31)",
+            "14 equipes de otimização ponta a ponta na produção de defensivos, com IA para ampliar o escopo coberto (p. 9)"
+          ],
+          "resumo": "Transcrição do evento de 02/09/2026, com falas do presidente da Crop Science, do CFO, do chefe de suprimentos e do chefe de P&D, e perguntas de analistas. Traz a tese de por que dados e IA seriam difíceis de copiar e a admissão de que nem todo produto tem recomendação digital ('ainda não chegamos lá').",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Bayer Principles for Responsible Artificial Intelligence",
+          "organizacao": "Bayer AG",
+          "ano": "2026 (PDF criado em 24/09/2026; sem data no texto)",
+          "tipo_fonte": "empresa",
+          "setor": "grupo Bayer (agro, farmacêutico e saúde do consumidor)",
+          "pais_regiao": "Alemanha/Global",
+          "url": "https://bag-p-001.sitecorecontenthub.cloud/api/public/content/AI-Princples-of-Bayer?v=ab6cf64a",
+          "arquivo": "07_agro-global-perenes-autonomia/Bayer_2026_principios-ia-responsavel.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F1"
+          ],
+          "metricas": [
+            "Seis princípios de IA responsável, com função interna de Governança de IA como ponto de contato (p. 1-3)"
+          ],
+          "resumo": "Princípios de IA responsável do grupo (3 páginas): supervisão humana, responsabilização, rastreabilidade, transparência para agricultores e pacientes, qualidade de dados, privacidade e impactos socioambientais, com base na OCDE, nas diretrizes da UE e no AI Act. Referência direta de governança de IA numa empresa de agro.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Code of Conduct",
+          "organizacao": "Bayer AG",
+          "ano": "2024 (vigente desde 15/04/2024)",
+          "tipo_fonte": "empresa",
+          "setor": "grupo Bayer (agro, farmacêutico e saúde do consumidor)",
+          "pais_regiao": "Alemanha/Global",
+          "url": "https://www.bayer.com/sites/default/files/bayer-code-of-conduct-en.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/Bayer_2024_codigo-de-conduta.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [],
+          "resumo": "Código de Conduta do grupo, com seção própria de uso responsável de IA (p. 23): condições de uso, atenção a viés, proibição de usos que ameacem segurança e direitos humanos e supervisão interna. Mostra a IA tratada como tema de compliance para todos os empregados.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Bayer Impact Report 2025",
+          "organizacao": "Bayer AG",
+          "ano": "2026 (ref. 2025)",
+          "tipo_fonte": "empresa",
+          "setor": "grupo Bayer (agro, farmacêutico e saúde do consumidor)",
+          "pais_regiao": "Global (inclui México, Brasil e Índia)",
+          "url": "https://www.bayer.com/sites/default/files/2026-03/bayer-impact-report-2025.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/Bayer_2026_impact-report-2025.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2"
+          ],
+          "metricas": [
+            "Treinamento obrigatório sobre uso responsável de IA (fev/2025), em nove idiomas, concluído por cerca de 95% dos empregados (p. 110)",
+            "11.886 fornecedores triados por ferramenta de web scraping com IA em 2025; 30% do gasto de compras avaliado (€19,6 bi) passou por essa triagem, €5,8 bi apenas por ela (p. 101)",
+            "Mais de 100 parceiros de tecnologia; FieldView disponível para mais de 70 outras organizações (p. 48)",
+            "FarmRise: cerca de 130 mil pequenos produtores digitalmente ativos na Índia em 2025 (p. 17)"
+          ],
+          "resumo": "Relatório de impacto que complementa a declaração de sustentabilidade do relatório anual 2025. Traz dados de pessoas e governança de IA (treinamento obrigatório, IA em RH e compras), o ecossistema aberto do FieldView e serviços digitais com IA em mercados emergentes, como o Carlota no México.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Annual Stockholders' Meeting April 24, 2026 – Address by Bill Anderson, Chairman of the Board of Management",
+          "organizacao": "Bayer AG",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "grupo Bayer (agro, farmacêutico e saúde do consumidor)",
+          "pais_regiao": "Alemanha/Global",
+          "url": "https://www.bayer.com/media/download/3eae93f8-ff7c-49df-af58-1f962e287b6a/speech-anderson2026-1502e.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/Bayer_2026_discurso-ceo-assembleia-acionistas.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2"
+          ],
+          "metricas": [
+            "Camadas hierárquicas reduzidas aproximadamente à metade, gestão cortada em dois terços e ciclos de 90 dias (p. 5)",
+            "Mais de 25 bilhões de pontos de dados processados em genotipagem de sementes (p. 6)"
+          ],
+          "resumo": "Discurso do CEO na assembleia de 24/04/2026. Liga o DSO (organização mais plana, ciclos de 90 dias) à IA agêntica e cita investimentos em infraestrutura de TI e organização de dados. Mostra o patrocínio da IA no topo da empresa.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Message from Norbert Winkeljohann, Chairman of the Supervisory Board of Bayer AG",
+          "organizacao": "Bayer AG (Conselho de Supervisão)",
+          "ano": "2026 (março)",
+          "tipo_fonte": "empresa",
+          "setor": "grupo Bayer (agro, farmacêutico e saúde do consumidor)",
+          "pais_regiao": "Alemanha/Global",
+          "url": "https://www.bayer.com/sites/default/files/annual-meeting-letter-winkeljohann-2026-en.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/Bayer_2026_carta-conselho-supervisao-assembleia.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [],
+          "resumo": "Carta do presidente do Conselho de Supervisão antes da assembleia de 2026, com seção sobre IA: o DSO permite implantar IA de forma direcionada, exemplos por divisão (gêmeo digital na Crop Science) e supervisão do conselho sobre valor e risco da IA.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Unleashing the Potential of AI – How Bayer uses Artificial Intelligence to drive Breakthrough Innovation",
+          "organizacao": "Bayer AG",
+          "ano": "s/d (consultada em out/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "grupo Bayer (agro, farmacêutico e saúde do consumidor)",
+          "pais_regiao": "Global",
+          "url": "https://www.bayer.com/en/about-us/innovation/unleashing-the-potential-of-ai",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F1",
+            "F2"
+          ],
+          "metricas": [
+            "myGenAssist com assistentes virtuais para mais de 40 mil empregados (página oficial)",
+            "Ciclo de melhoramento de 5-6 anos para ~4 meses e desenvolvimento de produto até 2 anos mais curto com IA e ciência de dados (página oficial)",
+            "IA própria de codificação médica economizou cerca de 19 anos de trabalho manual desde 2017 (página oficial)"
+          ],
+          "resumo": "Página oficial de IA do grupo. Única fonte oficial com número de usuários do myGenAssist (sem data nem métricas de uso), descreve a estratégia de dados, a governança (supervisão humana, gestão por risco, Conselho de Bioética) e usos por divisão. Impressão em PDF bloqueada por proteção anti-robô.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "AI For Agriculture – From Data to Discovery: How AI is Reshaping Agricultural Innovation",
+          "organizacao": "Bayer AG (Crop Science)",
+          "ano": "s/d (consultada em out/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "agro (sementes, defensivos, agricultura digital e biocombustíveis)",
+          "pais_regiao": "Global",
+          "url": "https://www.bayer.com/en/portfolio/agriculture/data-powered-agriculture/ai-for-agriculture",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "FieldView gerencia mais de 220 milhões de acres em mais de 20 países (página oficial)",
+            "Em aplicações selecionadas, etapas de melhoramento de 5 ou 6 anos feitas em cerca de 4 meses (página oficial)",
+            "Modelos de ciência de dados na produção de sementes associados a aumento de produtividade de mais de 30% nos campos avaliados (página oficial)"
+          ],
+          "resumo": "Página oficial da Crop Science sobre IA, com linguagem cautelosa: separa usos atuais, resultados observados e objetivos. Cobre melhoramento com machine learning e gêmeo digital, E.L.Y., CropKey, produção de sementes, cadeia de suprimentos, FieldView e a exploração de IA em oleaginosas intermediárias para diesel renovável e SAF. Impressão em PDF bloqueada.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Dynamic Shared Ownership, now supercharged with AI",
+          "organizacao": "Bayer AG",
+          "ano": "s/d (consultada em out/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "grupo Bayer (agro, farmacêutico e saúde do consumidor)",
+          "pais_regiao": "Global (exemplos no Brasil, EUA, México e Romênia)",
+          "url": "https://www.bayer.com/en/about-us/explore-bayer/our-mission-and-strategy/dynamic-shared-ownership",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F1",
+            "F2"
+          ],
+          "metricas": [
+            "Camadas de gestão cortadas pela metade e cargos de gestão em dois terços; ciclos de 90 dias (página oficial)",
+            "Crop Science no Brasil: prazo de solução contra praga reduzido de ~7 para ~4,5 anos, sem menção a IA (página oficial)",
+            "Crop Science na América do Norte: processo contra a mancha-de-alcatrão reduzido de cinco para dois anos com testes avançados e fenotipagem automatizada (página oficial)"
+          ],
+          "resumo": "Página oficial do modelo operacional DSO, apresentado como 'potencializado com IA'. Explica os cinco comportamentos, o papel dos líderes e exemplos de ganho de prazo atribuídos ao DSO (não à IA), e reproduz a frase do CEO que liga o DSO à IA agêntica. Impressão em PDF bloqueada.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "GenAI for Good – Tackling Global Agri-Food Challenges through Emerging Technology",
+          "organizacao": "Bayer AG (Crop Science)",
+          "ano": "2024 (página sem data; cita o Microsoft Ignite 2024)",
+          "tipo_fonte": "empresa",
+          "setor": "agro (insumos e agricultura digital)",
+          "pais_regiao": "EUA/Global",
+          "url": "https://www.bayer.com/en/about-us/explore-bayer/our-contributions/stories/genai-for-good",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "E.L.Y. apoia mais de 1.500 empregados de linha de frente nos EUA (página oficial)",
+            "90% dos usuários em grupos focais continuariam usando e recomendariam o E.L.Y. (página oficial)",
+            "Acurácia mais de 40% maior que nos testes iniciais com o ChatGPT e economia de até 4 horas por semana (página oficial)"
+          ],
+          "resumo": "Página oficial sobre a origem e a escala inicial do E.L.Y., IA generativa de domínio para equipes de campo, e sobre o E.L.Y. Crop Protection (modelo pequeno baseado no Phi-3, no catálogo do Azure). Traz métricas de testes internos e posiciona a IA como apoio às pessoas. Complementa M369 e M169.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "CropKey – Designing the Keys to Unlock the Future of Effective Protection",
+          "organizacao": "Bayer AG (Crop Science)",
+          "ano": "s/d (consultada em out/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "agro (defensivos)",
+          "pais_regiao": "Global",
+          "url": "https://www.bayer.com/en/portfolio/agriculture/agriculture-pipeline/cropkey",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "Biblioteca de 2,6 milhões de compostos complementada por triagem virtual com IA (página oficial)",
+            "Mais de 30 potenciais novos alvos moleculares em investigação e mais de 10 validados como novos modos de ação (página oficial)"
+          ],
+          "resumo": "Página oficial do CropKey: descoberta baseada em alvo com IA e machine learning, triagem virtual de bilhões de moléculas, modelos preditivos de segurança e degradabilidade e rotas de síntese sugeridas por IA.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Bayer's Innovation Engines are Powering the Future of Ag (2024 ag innovation update)",
+          "organizacao": "Bayer AG (Crop Science)",
+          "ano": "2024 (17/06/2024)",
+          "tipo_fonte": "empresa",
+          "setor": "agro (sementes, defensivos e agricultura digital)",
+          "pais_regiao": "EUA/Global",
+          "url": "https://www.bayer.com/en-us/united-states/news-and-stories/2024/2024-ag-innovation-update",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "Climate FieldView com assinaturas em mais de 250 milhões de acres no mundo (página oficial)",
+            "Pelo menos três vezes mais novos modos de ação na pesquisa inicial do que dez anos antes, enriquecimento que a empresa associa ao CropKey (página oficial)"
+          ],
+          "resumo": "Comunicado da atualização de inovação da Crop Science (Chicago, junho de 2024), com seção sobre IA no P&D e nas ofertas digitais: FieldView, AgPowered Services com a Microsoft, piloto de IA generativa e Delaro Showcase. Impressão em PDF bloqueada.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Privacy Statement FAQs – Climate FieldView",
+          "organizacao": "Climate LLC (Bayer)",
+          "ano": "s/d (consultada em out/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "agro (agricultura digital)",
+          "pais_regiao": "EUA",
+          "url": "https://climate.com/en-us/legal/privacy-statement-faq.html",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [],
+          "resumo": "FAQ da política de privacidade do FieldView: o produtor é dono dos dados, a empresa não vende dados nem especula com commodities (salvo hedge das próprias operações) e dados individuais e agregados podem alimentar o P&D. Base de governança do ciclo de dados apresentado a investidores.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Assessment of the Efficiency of a ChatGPT-Based Tool, MyGenAssist, in an Industry Pharmacovigilance Department for Case Documentation: Cross-Over Study",
+          "organizacao": "Journal of Medical Internet Research (Benaïche, Billaut-Laden, Randriamihaja e Bertocchio – Bayer HealthCare SAS, França)",
+          "ano": "2025",
+          "tipo_fonte": "academia",
+          "setor": "farmacêutico (farmacovigilância) – grupo Bayer",
+          "pais_regiao": "França",
+          "url": "https://www.jmir.org/2025/1/e65651",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F1",
+            "F2"
+          ],
+          "metricas": [
+            "Economia média de 23,3% do tempo por caso (IC 95% 13,8%-32,8%), cerca de 10,7 dias úteis por ano (página oficial)",
+            "Taxa de resposta sem diferença significativa (42% vs 36%; P=0,57) e implantação com treinamento de 2 horas (página oficial)"
+          ],
+          "resumo": "Estudo revisado por pares, de empregados da Bayer na França, que mediu o efeito do MyGenAssist na farmacovigilância. É a evidência pública mais rigorosa de ganho medido da plataforma interna, mas numa função farmacêutica. Página bloqueada; números conferidos no resumo do Europe PMC (PMID 40063946).",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "World Agri-Tech Innovation Summit, San Francisco (March 19-20, 2024): Bayer pilots unique generative AI tool for agriculture",
+          "organizacao": "Bayer AG (Crop Science)",
+          "ano": "2024 (14/03/2024)",
+          "tipo_fonte": "empresa",
+          "setor": "agro (sementes, defensivos e agricultura digital)",
+          "pais_regiao": "EUA/Global",
+          "url": "https://www.bayer.com/media/download/a0ac74dd-7a73-4071-9c9a-90a872aef69c/2024-0050e.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/Bayer_2024_piloto-ia-generativa-agricultura-release.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "Base meteorológica histórica de 40 anos, antes de uso interno, disponibilizada a terceiros no Azure Data Manager for Agriculture (p. 3)"
+          ],
+          "resumo": "Release oficial que anuncia o piloto do sistema especialista de IA generativa que deu origem ao E.L.Y., com a Microsoft e a EY, e os AgPowered Services (clima histórico, conector de irrigação, Smart Boundary ID). Marca o início da jornada de IA generativa da divisão e a tese de dados fechados como diferencial.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Bayer testa ferramenta única de inteligência artificial generativa para a agricultura",
+          "organizacao": "Bayer (Crop Science Brasil/América Latina)",
+          "ano": "2024 (11/04/2024)",
+          "tipo_fonte": "empresa",
+          "setor": "agro (insumos e agricultura digital)",
+          "pais_regiao": "Brasil/América Latina",
+          "url": "https://www.prnewswire.com/br/comunicados-para-a-imprensa/bayer-testa-ferramenta-unica-de-inteligencia-artificial-generativa-para-a-agricultura-302114913.html",
+          "arquivo": "07_agro-global-perenes-autonomia/Bayer_2024_ia-generativa-fieldview-agrishow-brasil-release.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [],
+          "resumo": "Versão brasileira do anúncio do piloto, com seção da América Latina: IA generativa experimental para consultas sobre dados do FieldView, demonstrada na Agrishow 2024 com uma fazenda fictícia. Data a entrada da IA generativa voltada ao produtor no Brasil, ainda experimental.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Bayer and EY help farmers use AI to unearth critical data with Azure OpenAI Service",
+          "organizacao": "Microsoft (case Bayer Crop Science, com EY)",
+          "ano": "2025 (25/02/2025)",
+          "tipo_fonte": "analista/big tech",
+          "setor": "agro (insumos e agricultura digital)",
+          "pais_regiao": "EUA/Global",
+          "url": "https://www.microsoft.com/en/customers/story/22209-bayer-azure-ai-foundry",
+          "arquivo": "07_agro-global-perenes-autonomia/Microsoft_2025_case-bayer-ey-assistente-agronomico-azure-openai.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2"
+          ],
+          "metricas": [
+            "Protótipo de assistente de IA generativa construído em 90 dias por parceria Bayer–Microsoft–EY (p. 3)",
+            "Protótipo compartilhado com 1.000 funcionários em 2024; previsão de vários milhares em 2025 (p. 5)"
+          ],
+          "resumo": "Case oficial da Microsoft sobre a prova de conceito do assistente agronômico (Azure OpenAI, AI Search, RAG, Databricks, Data Lake) que unificou conhecimento disperso em sistemas legados. Mostra o caminho prova de conceito → escala e a arquitetura de dados por trás do E.L.Y.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "How Bayer is unearthing agronomy's future with generative AI (client case study)",
+          "organizacao": "EY (case Bayer Crop Science)",
+          "ano": "2024",
+          "tipo_fonte": "consultoria",
+          "setor": "agro",
+          "pais_regiao": "EUA/Global",
+          "url": "https://www.ey.com/content/dam/ey-unified-site/ey-com/en-gl/insights/consulting/documents/ey-global-bayer-case-study-11-2024.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/EY_2024_case-bayer-ia-generativa-agronomia.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2"
+          ],
+          "metricas": [
+            "Prova de conceito de IA generativa construída em 90 dias (p. 1)",
+            "Algumas centenas de funcionários usando o sistema nos primeiros meses (p. 3)"
+          ],
+          "resumo": "Case da EY sobre a prova de conceito que originou o assistente agronômico: RAG, engenharia de prompts, pontuação contra LLMs abertos e especialistas e validação automatizada. Registra o esforço de reestruturar dados legados, lição útil para roadmaps.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Funcionários da Bayer descobrem benefícios de produtividade e colaboração usando IA generativa e Microsoft Copilot",
+          "organizacao": "Microsoft News Center Brasil (case Bayer)",
+          "ano": "2023 (11/12/2023)",
+          "tipo_fonte": "analista/big tech",
+          "setor": "grupo Bayer (agro, farmacêutico e saúde do consumidor)",
+          "pais_regiao": "Global",
+          "url": "https://news.microsoft.com/pt-br/funcionarios-da-bayer-descobrem-beneficios-de-produtividade-e-colaboracao-usando-ia-generativa-e-microsoft-copilot/",
+          "arquivo": "07_agro-global-perenes-autonomia/Microsoft_2023_bayer-copilot-ia-generativa-funcionarios.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2"
+          ],
+          "metricas": [
+            "Mais de 700 casos de uso de IA generativa levantados internamente (p. 2-3)",
+            "Plugin Model Store evitou desenvolvimento duplicado de um modelo preditivo e poupou 2 a 3 meses de trabalho na Crop Science (p. 6)",
+            "Resumo de cinco documentos de 20 a 50 páginas poupou cerca de 45 minutos de leitura (relato individual) (p. 3)"
+          ],
+          "resumo": "Case da Microsoft sobre a fase experimental do Copilot nas três divisões, com mais de 700 casos de uso levantados e o Model Store na Crop Science. Retrata a fase de experimentação; os ganhos são relatos, não medições.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "What is Azure Data Manager for Agriculture Preview?",
+          "organizacao": "Microsoft (Microsoft Learn)",
+          "ano": "2025 (atualizada em 11/04/2025)",
+          "tipo_fonte": "analista/big tech",
+          "setor": "agro (plataforma de dados agrícolas)",
+          "pais_regiao": "Global",
+          "url": "https://learn.microsoft.com/en-us/azure/data-manager-for-agri/overview-azure-data-manager-for-agriculture",
+          "arquivo": "07_agro-global-perenes-autonomia/Microsoft_2025_azure-data-manager-agricultura-aposentadoria-preview.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "Aposentadoria da versão preview anunciada para 1º/09/2025, sem atualizações funcionais ou de segurança; dados excluídos 30 dias após a data (p. 1)"
+          ],
+          "resumo": "Documentação da Microsoft que anuncia a aposentadoria do preview do Azure Data Manager for Agriculture, plataforma em que a Bayer apoiou seus AgPowered Services (segundo o release de 2024) e que cita os mapas de uso de água da Bayer como exemplo. Não informa o efeito sobre os serviços da Bayer.",
+          "relevancia": "baixa"
+        },
+        {
+          "titulo": "Accelerating data science innovation: How Bayer Crop Science used AWS AI/ML services to build their next-generation MLOps service",
+          "organizacao": "AWS (blog de Machine Learning; case Bayer Crop Science)",
+          "ano": "2025 (08/07/2025)",
+          "tipo_fonte": "analista/big tech",
+          "setor": "agro",
+          "pais_regiao": "EUA/Global",
+          "url": "https://aws.amazon.com/blogs/machine-learning/accelerating-data-science-innovation-how-bayer-crop-science-used-aws-ai-ml-services-to-build-their-next-generation-mlops-service/",
+          "arquivo": "07_agro-global-perenes-autonomia/AWS_2025_blog-bayer-crop-science-mlops-decision-science-ecosystem.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Projeção de até 70% de redução no tempo de integração de desenvolvedores e até 30% de aumento de produtividade com Amazon Q (p. 1)",
+            "Antes do Decision Science Ecosystem, provisionar um ambiente de ciência de dados podia levar dias (p. 1)"
+          ],
+          "resumo": "Post oficial da AWS sobre o Decision Science Ecosystem, plataforma de MLOps da Crop Science em SageMaker/EKS para milhares de cientistas de dados. Traz a lição de escrever menos código para encurtar o caminho da prova de conceito à produção; as métricas são projeções.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Bayer Crop Science Revolutionize Farming Using Generative AI with Slalom and AWS",
+          "organizacao": "AWS (com Slalom; case Bayer Crop Science)",
+          "ano": "2025 (09/06/2025)",
+          "tipo_fonte": "analista/big tech",
+          "setor": "agro",
+          "pais_regiao": "EUA/Global",
+          "url": "https://aws.amazon.com/video/watch/527fa3258b5/",
+          "arquivo": "07_agro-global-perenes-autonomia/AWS_2025_case-bayer-crop-science-ia-generativa-slalom.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [],
+          "resumo": "Página da AWS que explica o ponto de partida do DSE: equipes de ciência de dados isoladas, duplicação de esforços e dificuldade de levar pilotos à produção; cita SageMaker Canvas para cientistas de dados cidadãos e o Amazon Q em prova de conceito. Bom exemplo de diagnóstico organizacional.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "How AlloyDB transformed Bayer's data operations",
+          "organizacao": "Google Cloud (blog assinado pela Bayer Crop Science)",
+          "ano": "2024 (10/07/2024)",
+          "tipo_fonte": "analista/big tech",
+          "setor": "agro",
+          "pais_regiao": "EUA/Global",
+          "url": "https://cloud.google.com/blog/products/databases/bayer-uses-alloydb",
+          "arquivo": "07_agro-global-perenes-autonomia/GoogleCloud_2024_blog-bayer-crop-science-field-answers-alloydb.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Em testes de carga, instância menor de AlloyDB reduziu o tempo de resposta em mais de 50% e elevou o throughput em 5x frente ao PostgreSQL anterior (p. 4)"
+          ],
+          "resumo": "Post do líder de engenharia da Crop Science sobre o Field Answers, base de bilhões de observações de P&D, com estratégia de dados inspirada em data mesh. Trata de infraestrutura de dados, não de IA (só menciona interesse futuro no Vertex AI).",
+          "relevancia": "baixa"
+        },
+        {
+          "titulo": "AgPlenus Announces Licensing & Collaboration Agreement with Bayer to Develop a New Sustainable Weed Control Solution",
+          "organizacao": "Evogene / AgPlenus",
+          "ano": "2024 (21/02/2024)",
+          "tipo_fonte": "empresa",
+          "setor": "agro (defensivos; descoberta com IA)",
+          "pais_regiao": "Israel/Global",
+          "url": "https://evogene.com/newsroom/press-release/agplenus-announces-licensing-collaboration-agreement-with-bayer-to-develop-a-new-sustainable-weed-control-solution/",
+          "arquivo": "07_agro-global-perenes-autonomia/Evogene-AgPlenus_2024_acordo-bayer-herbicida-ia.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [],
+          "resumo": "Release do acordo em que a AgPlenus usa modelagem computacional com IA (ChemPass AI) para otimizar herbicidas contra um novo alvo (APTH1), combinada ao CropKey, com licença exclusiva para a Bayer. Exemplo de parceria externa de IA em descoberta química.",
+          "relevancia": "baixa"
+        },
+        {
+          "titulo": "Sabanto and Leaps by Bayer Announce Oversubscribed Series B Financing to Scale Autonomous Technology for Row Crop Farming",
+          "organizacao": "Sabanto e Leaps by Bayer",
+          "ano": "2026 (14/07/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "agro (autonomia de máquinas; capital de risco corporativo)",
+          "pais_regiao": "EUA",
+          "url": "https://sabantoag.com/toolbox/sabanto-and-leaps-by-bayer-announce-oversubscribed-series-b-financing/",
+          "arquivo": "07_agro-global-perenes-autonomia/Sabanto-LeapsByBayer_2026_serie-b-autonomia-retrofit.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "Leaps by Bayer: mais de US$ 2,1 bilhões investidos em mais de 65 empresas de saúde e agricultura (p. 2)",
+            "Série B mira centenas de novas fazendas clientes em 12 meses (p. 1)",
+            "Kit retrofit com unidade de processamento de IA embarcada instalável em um único dia (p. 2)"
+          ],
+          "resumo": "Release da Série B liderada pelo Leaps by Bayer na Sabanto, que converte tratores existentes em autônomos com IA física. Mostra a aposta do braço de venture em autonomia de baixo capital; valor da rodada não divulgado.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Com Brasil como protagonista, Agricultura Digital Bayer inicia nova fase na Agrishow",
+          "organizacao": "Bayer (Crop Science Brasil)",
+          "ano": "2025 (29/04/2025)",
+          "tipo_fonte": "empresa",
+          "setor": "agro (insumos e agricultura digital)",
+          "pais_regiao": "Brasil",
+          "url": "https://www.prnewswire.com/br/comunicados-para-a-imprensa/com-brasil-como-protagonista-agricultura-digital-bayer-inicia-nova-fase-na-agrishow-302441795.html",
+          "arquivo": "07_agro-global-perenes-autonomia/Bayer_2025_agrishow-agricultura-digital-brasil-nova-fase.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "VAlora Milho: mais de mil participantes e mais de 500 mil hectares e prescrições geradas (p. 2-3)",
+            "Verão 2024/25: 8 em cada 10 participantes do VAlora com ganho, incremento médio de 7,8 sacas/ha (p. 3)",
+            "Usuários de soluções digitais Bayer com produtividade 30% superior no milho e 20% na soja frente à média da Conab (comparação da empresa) (p. 3)",
+            "FieldView Drive 2.0 com velocidade potencial até 12 vezes superior (p. 4)"
+          ],
+          "resumo": "Release da Agrishow 2025 que coloca o Brasil como principal vetor de crescimento da agricultura digital da Bayer e anuncia a primeira equipe de desenvolvimento regional da empresa no mundo. Lista o portfólio digital (VAlora, Directo Nematoide, Barter+, FieldView Advisor, PRO Carbono) com resultados declarados.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Na Agrishow, Bayer apresenta soluções que aproximam o produtor da agricultura do futuro",
+          "organizacao": "Bayer (Crop Science Brasil)",
+          "ano": "2026 (28/04/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "agro (insumos e agricultura digital)",
+          "pais_regiao": "Brasil/América Latina",
+          "url": "https://www.prnewswire.com/br/comunicados-para-a-imprensa/na-agrishow-bayer-apresenta-solucoes-que-aproximam-o-produtor-da-agricultura-do-futuro-302755902.html",
+          "arquivo": "07_agro-global-perenes-autonomia/Bayer_2026_agrishow-fieldview-valora-solucoes-digitais.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "31 milhões de hectares conectados ao FieldView, segundo o líder para a América Latina, sem dizer se Brasil ou região (p. 2)",
+            "VAlora Milho: mais de 650 mil hectares inscritos para a safrinha 2026 e aumento médio de cinco sacas/ha nas últimas safras (p. 3)",
+            "FieldView Advisor: 'cerca de 70% de ROI positivo' para soja (p. 3)",
+            "PRO Carbono: mais de 3,1 milhões de ha e 3 mil agricultores na América Latina; +11% de produtividade anual e pegada até 50% menor na soja e 55% no milho frente à média nacional (p. 3)"
+          ],
+          "resumo": "Release da Agrishow 2026 que organiza a agricultura digital em três pilares e consolida a escala do portfólio no Brasil. Anuncia a integração do FieldView com a John Deere (lançada nos EUA; no Brasil a partir da safra de verão seguinte) e confirma a equipe regional ativa desde 2025. Números declarados pela empresa.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Bayer advances combined seed and crop protection pipeline and enters phase of blockbuster launches",
+          "organizacao": "Bayer AG (Crop Science)",
+          "ano": "2026 (02/09/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "agro (sementes, biotecnologia e defensivos)",
+          "pais_regiao": "Global (EUA, Brasil, Argentina, México)",
+          "url": "https://www.bayer.com/media/download/fb387b26-d92f-42df-bd8c-84c6c1ba2148/2026-0131e.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/Bayer_2026_release-pipeline-blockbusters-ia-melhoramento.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "Melhoramento de precisão habilitado por IA: 400 a 500 novos híbridos e variedades por ano, ganho genético 2x e tempo até o mercado 3x mais rápido (p. 3)",
+            "Mais de 15 novos modos de ação em pesquisa, impulsionados pelo CropKey com IA (p. 1, p. 3)",
+            "Preceon: meta de 26 milhões de acres até 2035 (p. 2)",
+            "Reduções de custo de quase €400 milhões e de estoques de €500 milhões no Five-Year Framework (p. 4)"
+          ],
+          "resumo": "Release oficial do evento de 02/09/2026 que coloca a IA como habilitador central do modelo de inovação e liga o DSO à capacidade de escalar oportunidades com IA. Apresenta o Preceon com capacidades digitais embarcadas via FieldView.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Bayer conecta digital e genética para transformar plantio de 2 milhões de hectares de milho por ano",
+          "organizacao": "Bayer (Brasil)",
+          "ano": "2026 (07/01/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "agro (sementes de milho e agricultura digital)",
+          "pais_regiao": "Brasil",
+          "url": "https://www.bayer.com.br/pt-br/imprensa/noticias/2026/bayer-conecta-digital-genetica-transformar-plantio-2-milhoes-hectares-milho-ano",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F1",
+            "F2"
+          ],
+          "metricas": [
+            "VAlora Milho superou 1,6 milhão de hectares com prescrições para mais de 1.500 produtores (página oficial)",
+            "Meta de pelo menos 2 milhões de hectares plantados por ano com o programa até 2030 (página oficial)",
+            "Última safrinha: mais de 180 mil ha participantes, ganhos médios de 4 a 7 sacas/ha e sucesso superior a 80% (página oficial)",
+            "Prescrições entregues em no máximo 24 horas (página oficial)"
+          ],
+          "resumo": "Release da Bayer Brasil sobre o VAlora Milho, que usa o algoritmo do FieldView sobre a genética Bayer para recomendar híbrido, população e nitrogênio por talhão. Exemplo brasileiro de modelo que amarra dados, genética e serviço técnico, com resultados declarados pela empresa.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Bayer lança solução com IA para recomendar manejos focados em carbono no solo e na redução das emissões de CO2",
+          "organizacao": "Bayer (Brasil)",
+          "ano": "2024 (02/05/2024)",
+          "tipo_fonte": "empresa",
+          "setor": "agro (agricultura regenerativa e carbono)",
+          "pais_regiao": "Brasil",
+          "url": "https://www.bayer.com.br/pt-BR/imprensa/noticias/2024/bayer-lanca-solucao-ia-recomendar-manejos-carbono-solo-reducao-emissoes-co2",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "Ferramenta com machine learning sobre dados do FieldView, base de mais de 300 mil coletas de solo e ensaios de mais de cinco anos (página oficial)",
+            "PRO Carbono em três anos: mais de 1.900 produtores, +11% de produtividade e +16% de sequestro de carbono nas áreas participantes (página oficial)",
+            "Meta de 1 milhão de hectares na safra 2024/25 (página oficial)"
+          ],
+          "resumo": "Release da Bayer Brasil (Agrishow 2024) que anuncia, para o semestre seguinte, ferramenta de recomendação guiada com machine learning para manejo de carbono na plataforma Conecta PRO Carbono, desenvolvida com ensaios de parceiros como Fundação ABC e Fundação MT.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "How Bayer increased productivity with AI and data upskilling",
+          "organizacao": "DataCamp (case Bayer)",
+          "ano": "s/d (consultada em out/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "grupo Bayer",
+          "pais_regiao": "Global",
+          "url": "https://www.datacamp.com/business/customer-stories/bayer",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Mais de 3.400 empregados inscritos na Data Academy global (página oficial)",
+            "Ganho médio autodeclarado de 3,6 horas por semana por aluno (página oficial)",
+            "Mais de 90% relatam ter criado processo ou produto inovador; mais de 80% mais satisfeitos com a carreira (página oficial)"
+          ],
+          "resumo": "Case do fornecedor DataCamp sobre a Data Academy da Bayer, letramento em dados e IA em três níveis combinado com projetos práticos. Métricas autodeclaradas; útil como referência de desenho de capacitação.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "The latest edition of IICA Digital Agriculture Week is promoting coordination among AgTechs, financial entities and public authorities to spur agrifood digitalization in the Americas",
+          "organizacao": "IICA",
+          "ano": "2025 (12/05/2025)",
+          "tipo_fonte": "governo",
+          "setor": "agro (ecossistema de agricultura digital)",
+          "pais_regiao": "América Latina e Caribe",
+          "url": "https://iica.int/en/press/news/the-latest-edition-of-iica-digital-agriculture-week-is-promoting-coordination-among-agtechs-financial-entities-and-public-authorities-to-spur-agrifood-digitalization-in-the-americas",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Mais de 15 países organizando Dias de Agricultura Digital antes da Semana de 2025 (página oficial)"
+          ],
+          "resumo": "Comunicado do IICA sobre a 4ª Semana de Agricultura Digital (set/2025, Costa Rica), com a Bayer Crop Science entre os parceiros. Registra presença da Bayer no principal fórum regional; sem dados de resultado.",
+          "relevancia": "baixa"
+        },
+        {
+          "titulo": "Bayer's 117bn data points and decade-old data culture drive AI advantage, says CIO",
+          "organizacao": "AgFunderNews",
+          "ano": "2025 (01/12/2025)",
+          "tipo_fonte": "imprensa",
+          "setor": "agro",
+          "pais_regiao": "EUA/Global",
+          "url": "https://agfundernews.com/bayers-117bn-data-points-and-decade-old-data-culture-drive-ai-advantage-says-cio",
+          "arquivo": "07_agro-global-perenes-autonomia/AgFunderNews_2025_entrevista-cio-bayer-crop-science-dados-ia.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "117 bilhões de pontos de dados de desempenho de sementes, incluindo produtos que falharam no pipeline (p. 2-3)",
+            "E.L.Y.: cerca de 60% de aumento de produtividade, na fala da CIO (na fonte oficial, 60% no tempo de resposta), e cerca de 4 horas/semana; mais de 1.500 usuários na América do Norte (p. 2-3)",
+            "Validação do E.L.Y. por mais de 1.500 agrônomos durante cerca de um ano (p. 3)",
+            "Pipeline de 'US$ 32 bilhões' com ~US$ 2,4 bi de P&D anual, segundo a reportagem; fontes oficiais citam mais de €32 bi (p. 3)",
+            "Compra da Climate Corporation pela Monsanto em 2013 por US$ 930 milhões como origem da base de dados (p. 2)"
+          ],
+          "resumo": "Entrevista da CIO da Crop Science sobre por que a empresa escala IA generativa: cultura de dados desde a Climate Corp, data warehouse com ferramentas semânticas e três pilares de IA. Admite que a IA generativa no FieldView para produtores não foi iniciada e que a IA agêntica está no início. Sem equivalente oficial com o mesmo detalhe.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Leaps by Bayer's PJ Amini on exits, epigenetics, AI-driven discovery and his '50% rule'",
+          "organizacao": "AgFunderNews",
+          "ano": "2026 (10/03/2026)",
+          "tipo_fonte": "imprensa",
+          "setor": "agro (capital de risco corporativo)",
+          "pais_regiao": "EUA/Global (com Brasil)",
+          "url": "https://agfundernews.com/leaps-by-bayers-pj-amini-on-exits-epigenetics-ai-driven-discovery-and-his-50-rule",
+          "arquivo": "07_agro-global-perenes-autonomia/AgFunderNews_2026_entrevista-leaps-by-bayer-ia-descoberta.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "Negócios do Leaps: um terço por contato direto, um terço pela Bayer e um terço por universidades e ecossistema; fechamento em 6 a 8 semanas (p. 3)",
+            "Grão Direto: maior marketplace pós-colheita do Brasil, com motor de IA e mais de 90 mil agricultores (p. 4)"
+          ],
+          "resumo": "Entrevista do VP de investimentos agrícolas do Leaps by Bayer sobre a tese de investimento: genética de nova geração, IA para P&D combinada com automação de ensaios e fintech-agro, com portfólio que inclui a Grão Direto no Brasil.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Bayer leva ChatGPT para a lavoura e prepara novas tecnologias para colheita de dados",
+          "organizacao": "AgFeed",
+          "ano": "2024 (19/02/2024)",
+          "tipo_fonte": "imprensa",
+          "setor": "agro",
+          "pais_regiao": "Brasil",
+          "url": "https://agfeed.com.br/agtech/bayer-leva-chatgpt-para-a-lavoura-e-prepara-novas-tecnologias-para-colheita-de-dados/",
+          "arquivo": "07_agro-global-perenes-autonomia/AgFeed_2024_bayer-agripilot-adma-fieldview-brasil.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "FieldView com cerca de 90 milhões de hectares mapeados no mundo, 25 milhões no Brasil (p. 2)",
+            "FieldView Advisor em teste com centenas de produtores (p. 4)"
+          ],
+          "resumo": "Entrevista do líder de soluções digitais da Bayer para a América Latina sobre o roadmap no Brasil (ADMA, Agripilot, FieldView Advisor, CropScore). Permite comparar promessa e entrega: o FieldView Advisor chegou ao mercado, mas não se localizou lançamento comercial do Agripilot.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Bayer prepara 'onda de inovação' para sustentar crescimento na próxima década",
+          "organizacao": "AgFeed",
+          "ano": "2026 (03/09/2026)",
+          "tipo_fonte": "imprensa",
+          "setor": "agro (sementes, defensivos e biocombustíveis)",
+          "pais_regiao": "EUA/Brasil",
+          "url": "https://agfeed.com.br/negocios/bayer-prepara-onda-de-inovacao-para-sustentar-crescimento-na-proxima-decada/",
+          "arquivo": "07_agro-global-perenes-autonomia/AgFeed_2026_bayer-innovation-showcase-dados-ia-pipeline.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "Mais de 200 agrônomos adicionados à equipe comercial nos EUA (p. 7)",
+            "Culturas para biocombustíveis: ampliar a área em 60 vezes, para 5 a 10 milhões de acres (2 a 4 milhões de ha) até 2035 (p. 9)"
+          ],
+          "resumo": "Cobertura do Innovation Showcase de setembro de 2026. Os números de P&D citados coincidem com o R&D Update oficial e devem ser citados por ele; a matéria acrescenta parcerias em culturas para biocombustíveis e a prioridade da Bayer no Brasil em sementes de milho para etanol.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Eficiência operacional e valor para os clientes, os pilares da adoção da GenAI na Bayer",
+          "organizacao": "TI Inside",
+          "ano": "2026 (06/01/2026)",
+          "tipo_fonte": "imprensa",
+          "setor": "agro e grupo (Bayer Brasil e Crop Science América Latina)",
+          "pais_regiao": "Brasil/América Latina",
+          "url": "https://tiinside.com.br/06/01/2026/eficiencia-operacional-e-valor-para-os-clientes-os-pilares-da-adocao-da-genai-na-bayer/",
+          "arquivo": "07_agro-global-perenes-autonomia/TIInside_2026_adocao-genai-bayer-brasil-latam.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "Meta de treinar 75% da organização na América Latina em IA até o fim do ano (ano não explicitado) (p. 1)"
+          ],
+          "resumo": "Depoimento da CIO/CDO da Bayer no Brasil e da divisão agrícola na América Latina: duas frentes de IA generativa, MyGen Assist, E.L.Y. em testes na região, casos em logística e meta de agentes autônomos em 2026, com três desafios declarados. Única fonte com detalhes da jornada interna de IA na região.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Como a IA está transformando a pesquisa agrícola na Bayer",
+          "organizacao": "The AgriBiz",
+          "ano": "2026 (22/06/2026)",
+          "tipo_fonte": "imprensa",
+          "setor": "agro",
+          "pais_regiao": "Brasil/Global",
+          "url": "https://www.theagribiz.com/agronegocio/como-a-ia-esta-transformando-a-genetica-agricola-na-bayer/",
+          "arquivo": "07_agro-global-perenes-autonomia/TheAgriBiz_2026_ia-melhoramento-genetico-bayer.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "IA reduz o desenvolvimento de uma variedade de 8-10 anos para 2-5 anos em alguns programas (p. 2, p. 5)",
+            "Icafolin: potencial de vendas de cerca de €750 milhões e lançamento no Brasil a partir de 2028 (p. 7)"
+          ],
+          "resumo": "Entrevista do VP de Pesquisa e Insights da Crop Science: IA para modelar cruzamentos e prever desempenho, uso em quase todas as etapas de P&D e no CropKey. Ressalta que o maior ativo são os dados e que a IA não substitui o relacionamento com o produtor.",
+          "relevancia": "media"
+        }
+      ],
+      "formularios": [
+        {
+          "organizacao": "TI Inside",
+          "titulo": "TI Inside 2026: o ano da GenAI? (publicação especial com cases de IA generativa no Brasil, incluindo a Bayer)",
+          "url": "https://tiinside.com.br/eventos/ti-inside-2026-o-ano-da-genai/",
+          "campos_exigidos": "Nome, e-mail, telefone, empresa, cargo e autorização LGPD",
+          "observacao": "O texto sobre a Bayer está aberto e foi baixado (TIInside_2026_adocao-genai-bayer-brasil-latam.pdf); o e-book completo exige cadastro e não foi baixado."
+        }
+      ],
+      "lacunas": [
+        "myGenAssist: só há 'mais de 40 mil empregados' numa página sem data; nenhum relatório de 2024-2026 traz métricas de uso; números de 50 mil usuários e 25 mil ativos por mês aparecem só em fontes secundárias não verificadas.",
+        "Investimento em IA e digital: nenhum documento oficial informa capex/opex em IA ou dados, nem receita do FieldView; o relatório anual 2025 só diz que soluções digitais foram 'investimento-chave' (p. 76).",
+        "Pessoas de dados e IA: não há número oficial de cientistas de dados na Crop Science; só o total de P&D (~7.300) e a menção da AWS a 'milhares de cientistas de dados' no DSE.",
+        "FieldView no Brasil: nenhum documento de RI traz hectares ou usuários no país; há 31 mi de ha 'conectados' (release de abr/2026, Brasil ou região não especificado) e 25 mi de ha mapeados (imprensa, fev/2024).",
+        "Métricas do FieldView não comparáveis: 300 mi de acres em 24 países (AR 2024), 250 mi (jun/2024), 250 mi em 23 países (mai/2025), 275 mi 'nos principais mercados' (AR 2025), 220 mi em 20 países (página de IA) e ~90 mi de ha 'mapeados' (fev/2024), sem explicação das definições.",
+        "E.L.Y.: adoção varia por fonte e data (algumas centenas, segundo a EY; 1.000 em 2024 e milhares previstos em 2025, segundo a Microsoft; mais de 1.500 nos EUA/América do Norte), e os '60%' são tempo de resposta (Bayer) ou produtividade (CIO). Nada oficial confirma uso no Brasil; só testes na América Latina (imprensa) e suporte multilíngue planejado (M169).",
+        "Aceleração do melhoramento: métricas não comparáveis entre si (5 anos para 4 meses; 5-6 anos para ~4 meses 'em aplicações selecionadas'; até 2 anos a menos; 8-10 para 2-5 anos; 3x no tempo até o mercado; 1-2 anos esperados com gêmeo digital), várias modeladas.",
+        "IA generativa para o produtor: não se localizou lançamento comercial do Agripilot/AgroCopilot prometido em 2024; em dez/2025 a CIO disse que a IA generativa no FieldView para produtores não tinha sido iniciada. Sem atualização oficial sobre os AgPowered Services após a aposentadoria do preview do Azure Data Manager (set/2025).",
+        "Resultados de recomendações digitais (VAlora +6%, Preceon +5%, FieldView Plus +9%, 30%/20% acima da Conab, '70% de ROI positivo') são comparações da empresa, sem metodologia completa nem auditoria; números do VAlora mudam de base (500 mil ha e prescrições; 1,6 mi de ha com prescrições; 650 mil ha inscritos).",
+        "Não há documento oficial sobre insucessos ou descontinuação de iniciativas de IA; o mais próximo são riscos declarados, a admissão de que nem todo produto tem recomendação digital e a fala da CIO sobre IA agêntica em estágio inicial.",
+        "Não há 'AI Day'; a fonte oficial mais completa é o R&D Update de 02/09/2026. A apresentação do Capital Markets Day 2024 do grupo não foi localizada; não existe Sustainability Report separado para 2024 e 2025.",
+        "Retornaram 404: relatório 'Responsible R&D in Crop Protection' (2026), relatório semestral do 2º tri/2026 e release do Seminário Nacional do Milho Safrinha (VAlora).",
+        "Capacitação em IA no Brasil: só a meta de 75% na América Latina 'até o fim do ano' (imprensa, ano não explicitado); o dado oficial global é o treinamento de IA responsável concluído por ~95% dos empregados.",
+        "Não foram localizados cases do Google Cloud com IA (só infraestrutura de dados), nem cases com NVIDIA ou SAP; nem IA em unidades de beneficiamento de sementes no Brasil; nem iniciativas na China; nem o Leaps Ag Playbook 2.0 (buscas de um pesquisador interrompidas por limite).",
+        "Divergência menor: PRO Carbono lançado no Brasil em 2020 (AR 2025) versus atuação em carbono 'desde 2021' (página da Bayer Brasil, 2024).",
+        "Páginas de bayer.com e bayer.com.br, IICA, DataCamp e JMIR não puderam ser salvas em PDF por proteção anti-robô; ficaram como web e foram conferidas pelo texto (JMIR pelo resumo no Europe PMC)."
+      ]
+    },
+    {
+      "grupo": "EUA × China na IA do agro",
+      "pasta": "07_agro-global-perenes-autonomia",
+      "itens": [
+        {
+          "titulo": "Winning the Race: America's AI Action Plan",
+          "organizacao": "Casa Branca (EUA)",
+          "ano": "2025",
+          "tipo_fonte": "governo",
+          "setor": "Política de IA (transversal, com agricultura)",
+          "pais_regiao": "EUA",
+          "url": "https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/WhiteHouse_2025_americas-ai-action-plan.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3",
+            "F1"
+          ],
+          "metricas": [
+            "Esforços setoriais do NIST incluem agricultura (p. 8)",
+            "Pacotes de IA 'full-stack' para países aliados (p. 23)"
+          ],
+          "resumo": "Plano de IA dos EUA (jul/2025): corrida com a China, padrões setoriais, controle de chips e exportação do pacote americano.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "USDA AI Strategy for Fiscal Years 2026–2027 (AI Strategy, September 2025)",
+          "organizacao": "USDA (EUA)",
+          "ano": "2025",
+          "tipo_fonte": "governo",
+          "setor": "Governo / agricultura",
+          "pais_regiao": "EUA",
+          "url": "https://www.usda.gov/sites/default/files/documents/usda-ai-strategy-2025.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/USDA_2025_ai-strategy-fy2026-2027.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "Só 15% dos stakeholders aplicavam controles de risco de IA (p. 12)",
+            "IA na classificação do AMS a partir do ano fiscal 2026 (p. 6)"
+          ],
+          "resumo": "Primeira estratégia de IA do USDA (set/2025), voltada à missão interna do departamento.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Public Safety and Homeland Security Bureau Announces Addition of Uncrewed Aircraft Systems (UAS) and UAS Critical Components Produced Abroad, and Equipment and Services Listed in Section 1709 of the FY2025 NDAA, to FCC Covered List (DA 25-1086)",
+          "organizacao": "FCC (EUA)",
+          "ano": "2025",
+          "tipo_fonte": "governo",
+          "setor": "Drones (inclui agrícolas)",
+          "pais_regiao": "EUA",
+          "url": "https://docs.fcc.gov/public/attachments/DA-25-1086A1.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/FCC_2025_covered-list-uas-estrangeiros.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Inclusão na Covered List em 22/12/2025 (p. 1, p. 4)",
+            "Equipamento coberto não recebe autorização da FCC (p. 3)"
+          ],
+          "resumo": "Aviso de 22/12/2025 que pôs drones e componentes estrangeiros na Covered List; marco da restrição aos drones chineses.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Executive Order 14307 of June 6, 2025 — Unleashing American Drone Dominance",
+          "organizacao": "Presidência dos EUA (Federal Register)",
+          "ano": "2025",
+          "tipo_fonte": "governo",
+          "setor": "Drones (cita agricultura de precisão)",
+          "pais_regiao": "EUA",
+          "url": "https://www.whitehouse.gov/wp-content/uploads/2025/06/eo-14307.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/CasaBranca-EUA_2025_eo-14307-drone-dominance.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "IA na análise de waivers da Parte 107 em até 120 dias (p. 2)"
+          ],
+          "resumo": "Ordem executiva (jun/2025): BVLOS, IA na análise de autorizações e prioridade a drones feitos nos EUA.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Department of Commerce Revises License Review Policy for Semiconductors Exported to China",
+          "organizacao": "BIS, Departamento de Comércio (EUA)",
+          "ano": "2026",
+          "tipo_fonte": "governo",
+          "setor": "Semicondutores para IA",
+          "pais_regiao": "EUA/China",
+          "url": "https://media.bis.gov/sites/default/files/documents/DoC%20Revises%20License%20Review%20Policy%20for%20Semiconductors%20Exports.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/BIS-EUA_2026_revisao-licencas-chips-ia-china.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "H200 e MI325X para a China analisados caso a caso (p. 1)"
+          ],
+          "resumo": "Comunicado de 13/01/2026 que flexibiliza, sob condições, a venda de chips de IA à China.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "2026 Proxy Statement / 2025 Form 10-K (Annual Report to Shareholders)",
+          "organizacao": "ADM",
+          "ano": "2026 (ref. 2025)",
+          "tipo_fonte": "empresa",
+          "setor": "Processamento agroindustrial e biocombustíveis",
+          "pais_regiao": "EUA/Global",
+          "url": "https://www.sec.gov/Archives/edgar/data/7084/000119312526126245/d911476dars.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/ADM_2026_annual-report-ars-2025.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2"
+          ],
+          "metricas": [
+            "Impairment de US$ 179 mi em software (p. 166)",
+            "Recomendações sobre governança de IA em 2026 (p. 41)"
+          ],
+          "resumo": "Relatório 2025 da ADM: estratégia digital revista com baixa contábil e governança de IA em definição; contraponto.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Corteva, Inc. — Form 10-K for the fiscal year ended December 31, 2025",
+          "organizacao": "Corteva, Inc.",
+          "ano": "2026 (ref. 2025)",
+          "tipo_fonte": "empresa",
+          "setor": "Sementes e proteção de cultivos",
+          "pais_regiao": "EUA/Global",
+          "url": "https://www.sec.gov/Archives/edgar/data/1755672/000175567226000004/ctva-20251231.htm",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "Parcela material dos insumos de proteção de cultivos vem da China (página oficial)",
+            "Separação em duas empresas no 2º semestre de 2026 (página oficial)"
+          ],
+          "resumo": "10-K 2025 (site da SEC): IA como vantagem competitiva e dependência de insumos chineses. Complementa M371.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Syngenta Group Reports 2025 Full Year Results",
+          "organizacao": "Syngenta Group",
+          "ano": "2026 (ref. 2025)",
+          "tipo_fonte": "empresa",
+          "setor": "Insumos agrícolas e serviços digitais",
+          "pais_regiao": "China/Suíça/Global (inclui Brasil)",
+          "url": "https://www.syngentagroup.com/sites/default/files/2026-03/260331-Syngenta-Group-FYR-Q4-EN_1e822b2f.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/SyngentaGroup_2026_resultados-anuais-2025.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1"
+          ],
+          "metricas": [
+            "Vendas de US$ 28,4 bi e EBITDA de US$ 4,4 bi (p. 1)",
+            "Brasil: sementes +17% em 2025 (p. 3)"
+          ],
+          "resumo": "Resultados 2025 do grupo de controle chinês: IA priorizada sem valores divulgados, MAP em transformação e SAP S/4HANA.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Syngenta Group Reports Q3 2025 Results",
+          "organizacao": "Syngenta Group",
+          "ano": "2025",
+          "tipo_fonte": "empresa",
+          "setor": "Insumos agrícolas e serviços digitais",
+          "pais_regiao": "China/Global",
+          "url": "https://www.syngentagroup.com/sites/default/files/2025-10/251030_Syngenta%20Group%20Q3_9M_2025_EN%20ZH.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/SyngentaGroup_2025_resultados-9m-imap.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1"
+          ],
+          "metricas": [
+            "Lançamento do iMAP, oferta movida a IA (p. 4)"
+          ],
+          "resumo": "Resultados de nove meses de 2025 com o lançamento do iMAP, oferta de IA na China.",
+          "relevancia": "baixa"
+        },
+        {
+          "titulo": "2025 京东集团 环境、社会及治理报告 (Relatório ESG 2025 do JD.com)",
+          "organizacao": "JD.com (京东集团)",
+          "ano": "2026 (ref. 2025)",
+          "tipo_fonte": "empresa",
+          "setor": "E-commerce e logística",
+          "pais_regiao": "China",
+          "url": "https://jdcominc.gcs-web.com/static-files/46b7caec-c53e-4be3-9a3c-e4897dd84af3",
+          "arquivo": "07_agro-global-perenes-autonomia/JD_2026_relatorio-esg-2025.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1"
+          ],
+          "metricas": [
+            "Separação atribuída por IA 10% mais eficiente; robôs em mais de 500 armazéns (p. 26)"
+          ],
+          "resumo": "ESG 2025 do JD.com: IA própria no varejo e na logística; no agro, papel só comercial.",
+          "relevancia": "baixa"
+        },
+        {
+          "titulo": "海南天然橡胶产业集团股份有限公司 2026年半年度报告 (Relatório semestral 1S2026 da Hainan Rubber)",
+          "organizacao": "Hainan Rubber Group (海南橡胶)",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "Agroindústria de cultura perene (borracha)",
+          "pais_regiao": "China / Sudeste Asiático",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-08-28/1225519329.PDF",
+          "arquivo": "07_agro-global-perenes-autonomia/HainanRubber_2026_relatorio-semestral-1s2026.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2"
+          ],
+          "metricas": [
+            "Máquina de sangria 4.0 desenvolvida, com testes contínuos de produção (p. 12)",
+            "Quase 300 mil produtores na plataforma de compra (p. 13)"
+          ],
+          "resumo": "Semestral da estatal de borracha: compra digital e máquina de sangria em desenvolvimento; par perene com IA incipiente.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "黑龙江北大荒农业股份有限公司 2025年年度报告 (Relatório anual 2025 da Beidahuang Agriculture)",
+          "organizacao": "Beidahuang (北大荒)",
+          "ano": "2026 (ref. 2025)",
+          "tipo_fonte": "empresa",
+          "setor": "Grãos e soja em larga escala",
+          "pais_regiao": "China (Heilongjiang)",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-03-21/1225023732.PDF",
+          "arquivo": "07_agro-global-perenes-autonomia/Beidahuang_2026_relatorio-anual-2025.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1"
+          ],
+          "metricas": [
+            "Mecanização acima de 99% em 2025 (p. 12)"
+          ],
+          "resumo": "Anual da maior empresa de fazendas estatais: agricultura inteligente sem métricas e sem menção a IA.",
+          "relevancia": "baixa"
+        },
+        {
+          "titulo": "AI to the Fields. 2026 대동그룹 지속가능경영 보고서 (Relatório de Sustentabilidade 2026 do Grupo Daedong)",
+          "organizacao": "Daedong (대동그룹)",
+          "ano": "2026 (ref. 2025)",
+          "tipo_fonte": "empresa",
+          "setor": "Máquinas agrícolas e robótica",
+          "pais_regiao": "Coreia do Sul/Global",
+          "url": "https://ko.daedong.co.kr/img/esg/2026 대동그룹 지속가능경영 보고서_ko_260819.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/Daedong_2026_relatorio-sustentabilidade-2025.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2"
+          ],
+          "metricas": [
+            "Assistente 'AI 대동이' sobre o GPT-4 Turbo (p. 52)",
+            "Receita de ₩ 1,48 tri (p. 11)"
+          ],
+          "resumo": "Relatório 2026 da Daedong ('AI to the Fields'): AI Lab, robôs e assistente sobre modelo americano.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "국가 농업AX플랫폼 민간참여자 최종 선정 (Seleção final do parceiro privado da Plataforma Nacional de AX Agrícola)",
+          "organizacao": "MAFRA (Coreia do Sul)",
+          "ano": "2026",
+          "tipo_fonte": "governo",
+          "setor": "Política de IA no agro",
+          "pais_regiao": "Coreia do Sul",
+          "url": "https://www.mafra.go.kr/bbs/home/792/578560/artclView.do",
+          "arquivo": "07_agro-global-perenes-autonomia/MAFRA-Coreia_2026_plataforma-nacional-ax-agricola.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Consórcio de 7 participantes liderado pela Daedong; acordo em 27/07/2026 (p. 1)"
+          ],
+          "resumo": "Seleção do parceiro privado da Plataforma Nacional de AX agrícola, operada por SPC público-privada.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "“Focus & Breakthrough” Mid-Term Business Plan 2030",
+          "organizacao": "Kubota Corporation",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "Máquinas agrícolas",
+          "pais_regiao": "Japão/Global",
+          "url": "https://www.kubota.com/ir/policy/plan/index.html",
+          "arquivo": "07_agro-global-perenes-autonomia/Kubota_2026_plano-medio-prazo-2030.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F1"
+          ],
+          "metricas": [
+            "¥ 100 bi em soluções inteligentes até 2030 (p. 21)",
+            "KSAS em 50% das terras agrícolas do Japão (p. 19)"
+          ],
+          "resumo": "Plano 2030 da Kubota (fev/2026): metas de soluções inteligentes e de dados, roteiro de autonomia e leitura geopolítica.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Projetos Autorizados (drones) — Agência Nacional de Aviação Civil",
+          "organizacao": "ANAC (Brasil)",
+          "ano": "2026",
+          "tipo_fonte": "governo",
+          "setor": "Regulação de drones",
+          "pais_regiao": "Brasil",
+          "url": "https://www.gov.br/anac/pt-br/assuntos/regulados/aviacao-geral/drones/projetos-autorizados",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "XAG P60 e P150 autorizados em 20/08/2025 para a CNH (página oficial)"
+          ],
+          "resumo": "Lista oficial lida como texto (CAPTCHA na impressão): drones de pulverização DJI e XAG; XAG recentes em nome da CNH.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "XAG Introduces P150 and P60 Agricultural Drones with CNH in Brazil",
+          "organizacao": "XAG (极飞科技)",
+          "ano": "2025",
+          "tipo_fonte": "empresa",
+          "setor": "Drones agrícolas",
+          "pais_regiao": "Brasil/China",
+          "url": "https://www.xa.com/en/news/official/xag/Agri-drone-brazil",
+          "arquivo": "07_agro-global-perenes-autonomia/XAG_2025_p150-p60-com-cnh-no-brasil.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "P150: tanque de 70 L e até 30 L/min (p. 2-3)"
+          ],
+          "resumo": "Notícia oficial (mai/2025): drones XAG lançados com a CNH para distribuição a partir do Brasil.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Chinese agricultural drones expand presence in Brazil",
+          "organizacao": "Fórum Macau",
+          "ano": "2026",
+          "tipo_fonte": "governo",
+          "setor": "Drones agrícolas",
+          "pais_regiao": "Brasil/China",
+          "url": "https://forumchinaplp.org.mo/en/economic_trade/view/9988",
+          "arquivo": "07_agro-global-perenes-autonomia/ForumMacau_2026_drones-chineses-no-brasil.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "10.357 drones registrados no fim de 2025 (p. 1)",
+            "DJI 84% e XAG 7% dos de pulverização em jun/2025 (p. 1)"
+          ],
+          "resumo": "Nota (ago/2026) que reproduz dados do Sindag sobre drones chineses no Brasil; fonte secundária.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Como drones da China lideram mercado global e devem movimentar R$ 2 bilhões em 2026 no Brasil",
+          "organizacao": "Brasil de Fato",
+          "ano": "2026",
+          "tipo_fonte": "imprensa",
+          "setor": "Drones agrícolas",
+          "pais_regiao": "Brasil/China",
+          "url": "https://www.brasildefato.com.br/2026/08/31/como-drones-da-china-lideram-mercado-global-e-devem-movimentar-r-2-bilhoes-em-2026-no-brasil/",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "13.224 drones em ago/2026: 83,9% DJI e 9,1% XAG (página oficial)"
+          ],
+          "resumo": "Reportagem (ago/2026) com levantamento no SISANT por fabricante, de autoria não explicitada.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "国务院关于深入实施“人工智能+”行动的意见 (国发〔2025〕11号) — Opiniões do Conselho de Estado sobre a implementação aprofundada da ação 'IA+'",
+          "organizacao": "Conselho de Estado da China",
+          "ano": "2025",
+          "tipo_fonte": "governo",
+          "setor": "Política de IA (com agricultura)",
+          "pais_regiao": "China",
+          "url": "https://www.gov.cn/zhengce/content/202508/content_7037861.htm",
+          "arquivo": "07_agro-global-perenes-autonomia/ConselhoEstado-China_2025_opinioes-acao-ia-plus.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3",
+            "F2"
+          ],
+          "metricas": [
+            "Penetração de IA acima de 70% até 2027 e 90% até 2030 (p. 1-2)"
+          ],
+          "resumo": "Diretriz 'IA+' (ago/2025): metas de difusão, IA no melhoramento e em equipamentos agrícolas, chips e código aberto.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "中共中央 国务院关于锚定农业农村现代化 扎实推进乡村全面振兴的意见 (Documento Central nº 1 de 2026)",
+          "organizacao": "Comitê Central do PCCh e Conselho de Estado",
+          "ano": "2026",
+          "tipo_fonte": "governo",
+          "setor": "Política agrícola",
+          "pais_regiao": "China",
+          "url": "https://www.gov.cn/yaowen/liebiao/202602/content_7056929.htm",
+          "arquivo": "07_agro-global-perenes-autonomia/CCP-ConselhoEstado-China_2026_documento-n1-modernizacao-agricola.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Produção de grãos de cerca de 1,4 trilhão de jin (p. 1)"
+          ],
+          "resumo": "Documento nº 1 de 2026: IA na agricultura, drones, IoT, robôs e máquinas inteligentes.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "National Farm Security Action Plan",
+          "organizacao": "USDA (EUA)",
+          "ano": "2025",
+          "tipo_fonte": "governo",
+          "setor": "Agricultura e segurança nacional",
+          "pais_regiao": "EUA",
+          "url": "https://usda.gov/sites/default/files/documents/farm-security-nat-sec.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/USDA_2025_national-farm-security-action-plan.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Recursos priorizados para tecnologia americana, incluindo drones (p. 10)"
+          ],
+          "resumo": "Plano de 2025 que trata a segurança agrícola como segurança nacional, com risco de dados e prioridade a tecnologia americana.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Public Safety and Homeland Security Bureau Announces Exemption of Certain Uncrewed Aircraft Systems (UAS) and UAS Critical Components from FCC Covered List (DA 26-22)",
+          "organizacao": "FCC (EUA)",
+          "ano": "2026",
+          "tipo_fonte": "governo",
+          "setor": "Drones (inclui agrícolas)",
+          "pais_regiao": "EUA",
+          "url": "https://docs.fcc.gov/public/attachments/DA-26-22A1.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/FCC_2026_covered-list-uas-isencoes-blue-uas.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Isenção até 01/01/2027 (p. 2)"
+          ],
+          "resumo": "Aviso de 07/01/2026 que isentou drones Blue UAS e domésticos até 2027, sem itens da seção 1709.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "2025 U.S. Agricultural Spray Drone Industry Survey: Growth, Efficiency, and Market Dynamics (2025 ASDC Impact Survey Results)",
+          "organizacao": "American Spray Drone Coalition (ASDC)",
+          "ano": "2026 (ref. 2025)",
+          "tipo_fonte": "associação",
+          "setor": "Drones de pulverização",
+          "pais_regiao": "EUA",
+          "url": "https://americanspraydronecoalition.com/wp-content/uploads/2026/01/2025-ASDC-Impact-Survey-Results.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/ASDC_2026_impact-survey-drones-pulverizacao-eua-2025.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "Vendas de ~8.950 para ~3.711 unidades (p. 2)",
+            "Fatia chinesa de 93,52% para 75,75% (p. 3)"
+          ],
+          "resumo": "Pesquisa (dados de 2025) sobre drones de pulverização nos EUA: dependência chinesa e choque de oferta; dados extrapolados.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Foreign-Made UAS Stay on the FCC Covered List as DJI and Autel Challenges Proceed",
+          "organizacao": "Iowa State University (CALT)",
+          "ano": "2026",
+          "tipo_fonte": "academia",
+          "setor": "Drones agrícolas e regulação",
+          "pais_regiao": "EUA",
+          "url": "https://www.calt.iastate.edu/post/foreign-made-uas-stay-fcc-covered-list-dji-and-autel-challenges-proceed",
+          "arquivo": "07_agro-global-perenes-autonomia/IowaStateCALT_2026_uas-estrangeiros-lista-fcc-dji-autel.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Mercado americano de US$ 506 mi em 2024 (p. 1)",
+            "DJI com 75%-80% do mercado dos EUA (p. 14)"
+          ],
+          "resumo": "Análise jurídica (ago/2026) da Covered List e das contestações da DJI e da Autel.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Evaluation of DeepSeek AI Models",
+          "organizacao": "NIST – CAISI (EUA)",
+          "ano": "2025",
+          "tipo_fonte": "governo",
+          "setor": "Modelos de IA",
+          "pais_regiao": "EUA/China",
+          "url": "https://www.nist.gov/document/caisi-evaluation-deepseek-ai-models-report",
+          "arquivo": "07_agro-global-perenes-autonomia/NIST-CAISI_2025_avaliacao-modelos-deepseek.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Melhor modelo dos EUA resolve 20% a 80% mais tarefas (p. 2)"
+          ],
+          "resumo": "Avaliação (set/2025) de modelos DeepSeek contra americanos em desempenho, custo, segurança e adoção.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "CAISI Evaluation of DeepSeek V4 Pro",
+          "organizacao": "NIST – CAISI (EUA)",
+          "ano": "2026",
+          "tipo_fonte": "governo",
+          "setor": "Modelos de IA",
+          "pais_regiao": "EUA/China",
+          "url": "https://www.nist.gov/news-events/news/2026/05/caisi-evaluation-deepseek-v4-pro",
+          "arquivo": "07_agro-global-perenes-autonomia/NIST-CAISI_2026_avaliacao-deepseek-v4-pro.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Cerca de 8 meses atrás da fronteira dos EUA (p. 1)"
+          ],
+          "resumo": "Avaliação (mai/2026) do DeepSeek V4 Pro: atrás da fronteira, mas mais custo-eficiente.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Beyond DeepSeek: China's Diverse Open-Weight AI Ecosystem and Its Policy Implications",
+          "organizacao": "Stanford HAI e DigiChina",
+          "ano": "2025",
+          "tipo_fonte": "academia",
+          "setor": "Modelos de IA abertos",
+          "pais_regiao": "China/EUA/Global",
+          "url": "https://hai.stanford.edu/assets/files/hai-digichina-issue-brief-beyond-deepseek-chinas-diverse-open-weight-ai-ecosystem-policy-implications.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/StanfordHAI-DigiChina_2025_beyond-deepseek-ecossistema-aberto-china.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Chineses com 17,1% dos downloads no Hugging Face (p. 3)"
+          ],
+          "resumo": "Policy brief (dez/2025) sobre o ecossistema chinês de modelos abertos e a dependência tecnológica.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "The global drone revolution in agriculture",
+          "organizacao": "IFPRI (CGIAR)",
+          "ano": "2025",
+          "tipo_fonte": "academia",
+          "setor": "Drones agrícolas",
+          "pais_regiao": "Global",
+          "url": "https://www.ifpri.org/blog/the-global-drone-revolution-in-agriculture/",
+          "arquivo": "07_agro-global-perenes-autonomia/IFPRI_2025_revolucao-global-drones-agricolas.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "China ~250 mil drones; Brasil 12 mil; EUA ~5.500 (p. 4)"
+          ],
+          "resumo": "Entrevista (set/2025) com autor de artigo na Science: frota estimada por país, custos e riscos.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Can the global drone revolution make agriculture more sustainable? (Science 389(6764): 972–976)",
+          "organizacao": "Science (AAAS) — Belton et al.",
+          "ano": "2025",
+          "tipo_fonte": "academia",
+          "setor": "Drones agrícolas",
+          "pais_regiao": "Global",
+          "url": "https://doi.org/10.1126/science.ady1791",
+          "arquivo": "",
+          "status": "bloqueado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [],
+          "resumo": "Artigo da Science sobre drones agrícolas citado pelo IFPRI; acesso bloqueado (HTTP 403).",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "国务院新闻办就加快农业农村现代化，扎实推进乡村全面振兴有关情况举行发布会 (coletiva de imprensa de 22/01/2026)",
+          "organizacao": "SCIO e MARA (China)",
+          "ano": "2026 (ref. 2025)",
+          "tipo_fonte": "governo",
+          "setor": "Mecanização, drones e IA",
+          "pais_regiao": "China",
+          "url": "https://www.gov.cn/lianbo/fabu/202601/content_7059358.htm",
+          "arquivo": "07_agro-global-perenes-autonomia/SCIO-MARA-China_2026_coletiva-modernizacao-agricola-2025.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "Mais de 300 mil drones agrícolas em 2025 (p. 3)",
+            "Mecanização de 76,7% (p. 3)"
+          ],
+          "resumo": "Coletiva oficial (jan/2026) com o balanço agrícola de 2025; atualiza M379.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "S. Korea's First Master Plan for Promotion of the Growth of the Smart-Farming Industry for the Years 2025–2029 (press release)",
+          "organizacao": "MAFRA (Coreia do Sul)",
+          "ano": "2025",
+          "tipo_fonte": "governo",
+          "setor": "Agricultura inteligente",
+          "pais_regiao": "Coreia do Sul",
+          "url": "https://www.mafra.go.kr/bbs/english/25/585835/download.do",
+          "arquivo": "07_agro-global-perenes-autonomia/MAFRA-Coreia_2025_plano-mestre-agricultura-inteligente-2025-2029.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "35% dos 55 mil ha de estufas como smart farms (p. 2)"
+          ],
+          "resumo": "Comunicado (fev/2025) do 1º plano quinquenal de agricultura inteligente da Coreia.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "“초혁신·모두의 AI농업” 실현을 위한 ‘국가 농업AX플랫폼’ 공모 추진 (chamada da Plataforma Nacional de AX Agrícola)",
+          "organizacao": "MAFRA (Coreia do Sul)",
+          "ano": "2026",
+          "tipo_fonte": "governo",
+          "setor": "Agricultura e IA",
+          "pais_regiao": "Coreia do Sul",
+          "url": "https://www.mafra.go.kr/bbs/home/792/576805/artclView.do",
+          "arquivo": "07_agro-global-perenes-autonomia/MAFRA-Coreia_2026_plataforma-nacional-ax-agricola-chamada.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "Entre os 15 projetos líderes da 'economia super-inovadora' (p. 1)"
+          ],
+          "resumo": "Chamada (fev/2026) da Plataforma Nacional de AX agrícola, ligada à 'soberania tecnológica'.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "대동, '글로벌 AI 농업 운영 플랫폼' 전환…2030 매출 3.59조 목표",
+          "organizacao": "Etnews (전자신문)",
+          "ano": "2026",
+          "tipo_fonte": "imprensa",
+          "setor": "Máquinas agrícolas e IA",
+          "pais_regiao": "Coreia do Sul (com metas para América do Norte e Europa)",
+          "url": "https://m.etnews.com/20260520000075",
+          "arquivo": "07_agro-global-perenes-autonomia/Etnews-Daedong_2026_investor-day-plataforma-ia-agricola.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2"
+          ],
+          "metricas": [
+            "Meta de receita de ₩ 3,59 tri em 2030 (p. 2)"
+          ],
+          "resumo": "Reportagem sobre o Investor Day da Daedong (mai/2026) e a estratégia 'Affordable AI'.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "대동, '국가 농업AX 플랫폼' 맡는다…농기계 기업 넘어 AI 플랫폼 기업 전환",
+          "organizacao": "MTN (머니투데이방송)",
+          "ano": "2026",
+          "tipo_fonte": "imprensa",
+          "setor": "Máquinas agrícolas e IA",
+          "pais_regiao": "Coreia do Sul",
+          "url": "https://news.mtn.co.kr/news-detail/2026072812400147261",
+          "arquivo": "07_agro-global-perenes-autonomia/MTN-Daedong_2026_plataforma-nacional-ax-agricola-selecao.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1"
+          ],
+          "metricas": [
+            "Custo de ₩ 254,6 bi; meta de ₩ 1,53 tri em 20 anos (p. 2)"
+          ],
+          "resumo": "Reportagem (jul/2026) com custos e metas da plataforma coreana de AX.",
+          "relevancia": "baixa"
+        },
+        {
+          "titulo": "Comex Stat – consulta: importações brasileiras de drones de 25 a 150 kg (NCM 8806.24.00 e 8806.94.00) e de tratores (NCM 8701, exceto rodoviários) por país de origem, 2022 a set/2026",
+          "organizacao": "MDIC – Comex Stat (Brasil)",
+          "ano": "2026 (dados 2022–set/2026)",
+          "tipo_fonte": "governo",
+          "setor": "Comércio exterior de drones e tratores",
+          "pais_regiao": "Brasil",
+          "url": "https://comexstat.mdic.gov.br/pt/geral",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Drones de 25 a 150 kg: US$ 33,16 mi em 2025, ~100% China e Hong Kong (página oficial)",
+            "Tratores importados: China com 38,2% em 2025 (página oficial)"
+          ],
+          "resumo": "Consulta à API pública, reconfirmada na verificação (JSON em 07_agro-global-perenes-autonomia/MDIC-ComexStat_2026_importacoes-drones-e-tratores-por-pais.json).",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Boletim Mensal INSA – Junho 2025 (nº 06, ano XII)",
+          "organizacao": "INSA/MCTI (Brasil)",
+          "ano": "2025",
+          "tipo_fonte": "governo",
+          "setor": "Agricultura familiar e IA",
+          "pais_regiao": "Brasil/China",
+          "url": "https://www.gov.br/insa/pt-br/boletim-informativo/2025/boletim-junho-2025/@@download/file",
+          "arquivo": "07_agro-global-perenes-autonomia/INSA-MCTI_2025_boletim-junho-laboratorio-brasil-china-ia-mecanizacao.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Reunião no MCTI em 24/06/2025 (p. 3)"
+          ],
+          "resumo": "Boletim (jun/2025) sobre o laboratório conjunto Brasil-China de mecanização e IA.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Agreements between Brazil and China seek AI and digital economy cooperation",
+          "organizacao": "Fórum Macau (via Teletime)",
+          "ano": "2025",
+          "tipo_fonte": "governo",
+          "setor": "Política de IA",
+          "pais_regiao": "Brasil/China",
+          "url": "https://www.forumchinaplp.org.mo/en/economic_trade/view/8851",
+          "arquivo": "07_agro-global-perenes-autonomia/ForumMacau_2025_brasil-china-memorando-ia-mdic-ndrc.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Memorando de 13/05/2025 (p. 1)"
+          ],
+          "resumo": "Nota (mai/2025) sobre o memorando MDIC–NDRC de cooperação em IA.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Brazil and China lay the foundation stone for an agricultural mechanization laboratory to benefit family farming",
+          "organizacao": "Fórum Macau (via Gov.br)",
+          "ano": "2025",
+          "tipo_fonte": "governo",
+          "setor": "Agricultura familiar e IA",
+          "pais_regiao": "Brasil/China",
+          "url": "https://www.forumchinaplp.org.mo/en/economic_trade/view/9293",
+          "arquivo": "07_agro-global-perenes-autonomia/ForumMacau_2025_pedra-fundamental-laboratorio-brasil-china-ia-mecanizacao.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Laboratório sediado em Campina Grande (PB) (p. 1)"
+          ],
+          "resumo": "Nota (nov/2025) sobre a pedra fundamental do laboratório Brasil-China no INSA.",
+          "relevancia": "baixa"
+        },
+        {
+          "titulo": "Embrapa e China cooperam para levar IA à agricultura familiar",
+          "organizacao": "Revista Cultivar",
+          "ano": "2026",
+          "tipo_fonte": "imprensa",
+          "setor": "Agricultura familiar e IA",
+          "pais_regiao": "Brasil/China",
+          "url": "https://www.revistacultivar.com.br/noticias/embrapa-e-china-cooperam-para-levar-ia-a-agricultura-familiar",
+          "arquivo": "07_agro-global-perenes-autonomia/RevistaCultivar_2026_embrapa-china-memorando-ia-agricultura-familiar.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Memorando de cinco anos (p. 3)"
+          ],
+          "resumo": "Reportagem (out/2026) sobre memorando da Embrapa com instituições chinesas para IA.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Drones e aviões autônomos avançam no agro e abrem mercado para novas tecnologias no Nordeste",
+          "organizacao": "Paraíba Business (dados do Sindag)",
+          "ano": "2026",
+          "tipo_fonte": "imprensa",
+          "setor": "Drones e aviação agrícola",
+          "pais_regiao": "Brasil",
+          "url": "https://paraibabusiness.com.br/drones-e-avioes-autonomos-avancam-no-agro-e-abrem-mercado-para-novas-tecnologias-no-nordeste/",
+          "arquivo": "07_agro-global-perenes-autonomia/ParaibaBusiness-Sindag_2026_drones-agricolas-registrados-brasil.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "10.357 drones registrados em 2025 (p. 2)"
+          ],
+          "resumo": "Reportagem (ago/2026) com a série do Sindag e o avião autônomo Pelican 2, da americana Pyka.",
+          "relevancia": "media"
+        }
+      ],
+      "formularios": [],
+      "lacunas": [
+        "Frota brasileira de drones por fabricante: ANAC e MAPA não publicam série por marca; dados vêm do Sindag (original não localizado e em aperfeiçoamento), de imprensa e, como aproximação, das importações do Comex Stat, que não cobrem produção nacional nem uso.",
+        "Vendas internas de tratores e colhedoras por marca ou origem (Anfavea/Abimaq) não localizadas; as importações de tratores só incluem modelos de até 75 kW.",
+        "Notícias da ANAC sobre aprovação de drones chineses exigem login no gov.br; a lista de projetos autorizados foi lida só como texto (CAPTCHA).",
+        "Textos oficiais dos memorandos Brasil–China de IA (MDIC–NDRC; MCTI–MOST) e nota oficial da Embrapa sobre o memorando de set/2026 não localizados; a cota de buscas na web acabou durante a verificação e não permitiu nova procura.",
+        "Artigo da Science de Belton et al. (2025) bloqueado (HTTP 403); números vêm do blog do IFPRI.",
+        "Contagens de drones não são comparáveis entre fontes (China: 201 mil de proteção de plantas em 2024, mais de 300 mil agrícolas em 2025, ~250 mil estimados pelo IFPRI; EUA: 1.243 registrados em 2024 via ASDC e ~5.500 até jul/2025 via IFPRI; Brasil: 10.357 Sindag, 13.224 SISANT via imprensa, ~12 mil IFPRI).",
+        "ADM e Bunge sem resultados de IA quantificados (Bunge: IA só como vetor cibernético, achado do pesquisador A não reconferido).",
+        "Não levantados: Pinduoduo, Alibaba, Yanmar, LS Mtron, Weichai Lovol e YTO; posição oficial da DJI sobre a Covered List e as retenções alfandegárias; página da XAG sobre o P150 Max nos EUA (erro ao acessar).",
+        "China: orientações do MARA de 2024 e boletim de mecanização de 2025 não localizados; dados de 2025 só da coletiva SCIO/MARA.",
+        "Coreia: orçamento da plataforma de AX e metas 2030 da Daedong só em imprensa; documentos de RI da Daedong não localizados.",
+        "Syngenta Group: relatório anual completo de 2025 não localizado. Hainan Rubber: relatório anual de 2025 não lido.",
+        "EUA: não há plano federal de IA para o agro com metas setoriais comparável ao plano chinês 2024-2028; a regra de difusão de IA do BIS (jan/2025, revogada em mai/2025) não foi baixada.",
+        "Uso de modelos chineses abertos por empresas do agro no Brasil e posicionamentos públicos do agro brasileiro sobre fornecedores americanos × chineses não encontrados."
+      ]
+    },
+    {
+      "grupo": "Agro Brasil: instituições e mídia",
+      "pasta": "05_agro-brasil-instituicoes-midia",
+      "itens": [
+        {
+          "titulo": "TI do Futuro — Do Centro de Custo ao Pilar Estratégico (ebook do Gatua Meeting E01, com a pesquisa pré-evento de 84 respondentes)",
+          "organizacao": "Gatua",
+          "ano": "2026",
+          "tipo_fonte": "evento setorial",
+          "setor": "agronegócio (TI, dados e IA)",
+          "pais_regiao": "Brasil",
+          "url": "",
+          "arquivo": "05_agro-brasil-instituicoes-midia/Gatua_2026_ebook-ti-do-futuro-pesquisa-84-respondentes.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "84 executivos C-level e decisores de TI de grandes empresas do agronegócio brasileiro, em pesquisa anônima pelo Microsoft Forms, mar-mai/2026 (p. 8)",
+            "IA na agenda estratégica de 2026: 42% em piloto ou avaliação, 36% já com projetos em produção, 18% parcialmente e 5% não é prioridade; o ebook soma 78% 'com IA na agenda' (42% + 36%) (p. 32, 52)",
+            "71% apontam IA e automação como o principal tema dos próximos 12 meses; depois vêm analytics (40%), cibersegurança (37%), integração OT/IT (24%) e governança de dados e LGPD (20%) (p. 32, 44)",
+            "Maturidade interna autoavaliada (escala de 1 a 5): capacidade técnica 3,46; governança e processos 3,12; integração TI–negócio 3,09; cultura de dados 2,99, a mais fraca (p. 32)",
+            "ROI dos projetos de TI: 23% medem com método formal, 60% de forma parcial ou informal e 13% não medem (p. 52)",
+            "44% citam cultura organizacional resistente como o principal obstáculo (p. 52)",
+            "Investimento em TI 2026 × 2025: 21% crescimento, 38% manutenção e 42% redução no gráfico da p. 32; o texto resume como '42% vão manter ou reduzir', o que não bate com o gráfico, e a p. 52 divide o crescimento em 17% até 20% e 4% acima de 20% (p. 32, 52)"
+          ],
+          "resumo": "Ebook do primeiro Gatua Meeting de 2026 (21/05/2026, Ribeirão Preto): transcrições de 10 painéis, pesquisa pré-evento com 84 executivos do agro e desk research. Mostra a distância entre declarar IA na agenda e ter valor real, a cultura de dados como fundação mais frágil e a medição de ROI ainda informal. Distribuição exclusiva (Camada 3: participantes, comunidade e parceiros): citar com atribuição, sem reproduzir; não entra no texto integral do assistente de IA. Original em docs/referencias/.",
+          "relevancia": "alta"
+        }
+      ],
+      "formularios": [],
+      "lacunas": []
+    }
+  ]
+}

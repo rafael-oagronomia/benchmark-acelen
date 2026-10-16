@@ -74,6 +74,17 @@
   .tag.oag { background: rgba(82,201,55,0.12); color: var(--brand-green-bright); }
   .tag.acl { background: rgba(79,183,201,0.12); color: var(--info); }
   .tag.amb { background: rgba(232,179,59,0.12); color: var(--warning); }
+  /* rev. 01: uma linha a mais no Gantt */
+  .gantt > div { min-height: 20px; }
+  .gantt .row-label { padding: 2px 10px; }
+  .bar { top: 4px; bottom: 4px; }
+  .lead { margin: 2px 0 6px; font-size: 11.5px; }
+  .note { margin-top: 6px; }
+  .ms { padding: 3px 8px; }
+  .gantt .hcell { padding: 4px 8px; }
+  .head { padding-bottom: 8px; margin-bottom: 8px; }
+  .note .card { padding: 6px 10px; }
+  .note .card p { font-size: 9.6px; }
 </style>
 </head>
 <body>
@@ -88,11 +99,11 @@
     <div class="legend">
       <span class="label">Contratante</span><span>Acelen Energia Renovável</span>
       <span class="label">Documento</span><span>Cronograma do projeto</span>
-      <span class="label">Nº / Revisão</span><span class="mono">BIA-ACL-CR-01 · Rev. 00</span>
-      <span class="label">Data</span><span class="mono">30/09/2026</span>
+      <span class="label">Nº / Revisão</span><span class="mono">BIA-ACL-CR-01 · Rev. 01</span>
+      <span class="label">Data</span><span class="mono">09/10/2026</span>
     </div>
   </div>
-  <p class="lead">Início no kick-off de 29/09/2026. As seis semanas de estudo terminam em 06/11. O intervalo até o Workshop Executivo fica para a Acelen absorver o conteúdo e integrá-lo ao material do team building em Montes Claros.</p>
+  <p class="lead">Início no kick-off de 29/09/2026; as seis semanas de estudo terminam em 06/11, e o intervalo até o Workshop Executivo fica para a Acelen absorver o conteúdo e integrá-lo ao team building em Montes Claros. <b style="color:var(--fg-1)">Rev. 01 (09/10):</b> situação da semanal de 09/10 (questionário validado, Suzano e Bayer indicadas, workshop provável na primeira semana de dezembro) e o assistente de IA do estudo entre os entregáveis.</p>
 
   <div class="gantt">
     <div class="hcell"><span class="label">Etapa</span></div>
@@ -103,7 +114,7 @@
     <div class="hcell"><div class="s">S5</div><div class="d">26–30/10</div></div>
     <div class="hcell"><div class="s">S6</div><div class="d">03–06/11</div></div>
     <div class="hcell"><div class="s">Absorção</div><div class="d">09/11 → workshop</div></div>
-    <div class="hcell"><div class="s">Workshop</div><div class="d">fim nov · início dez</div></div>
+    <div class="hcell"><div class="s">Workshop</div><div class="d">1ª sem. dez (provável)</div></div>
 
     <div class="row-label">Mobilização<small>painel, protocolo, agendas</small></div>
     <div><span class="bar"></span></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
@@ -123,6 +134,9 @@
     <div class="row-label">Síntese e relatório<small>PowerPoint e base Excel</small></div>
     <div></div><div></div><div></div><div></div><div><span class="bar l"></span></div><div><span class="bar r"></span></div><div></div><div></div>
 
+    <div class="row-label">Assistente de IA do estudo<small>base de conhecimento e testes</small></div>
+    <div></div><div></div><div><span class="bar l"></span></div><div><span class="bar m"></span></div><div><span class="bar m"></span></div><div><span class="bar r"></span></div><div></div><div></div>
+
     <div class="row-label">Absorção e preparação<small>ajustes e material do evento</small></div>
     <div></div><div></div><div></div><div></div><div></div><div></div><div><span class="bar acelen"></span></div><div></div>
 
@@ -130,14 +144,14 @@
     <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div><span class="bar work"></span></div>
 
     <div class="row-label">Reuniões semanais<small>sextas-feiras, ~1 h</small></div>
-    <div class="ms"><span class="dia">02/10</span><span class="t"><b>Cronograma</b>, roteiro e lista de empresas</span></div>
-    <div class="ms"><span class="dia">09/10</span><span class="t">Painel fechado e primeiras fichas</span></div>
+    <div class="ms"><span class="dia">02/10</span><span class="t">Pauta tratada em 09/10</span></div>
+    <div class="ms"><span class="dia">09/10</span><span class="t"><b>Questionário validado</b></span></div>
     <div class="ms"><span class="dia">16/10</span><span class="t"><b>Prévia da Frente 1</b></span></div>
     <div class="ms"><span class="dia">23/10</span><span class="t"><b>Entrega parcial</b></span></div>
     <div class="ms"><span class="dia">30/10</span><span class="t"><b>Prévia do relatório</b></span></div>
-    <div class="ms"><span class="dia">06/11</span><span class="t"><b>Relatório final</b></span></div>
+    <div class="ms"><span class="dia">06/11</span><span class="t"><b>Relatório final</b> e assistente de IA</span></div>
     <div class="ms"><span class="t">Ajustes após os comentários da Acelen</span></div>
-    <div class="ms"><span class="dia">a confirmar</span><span class="t">Data do team building</span></div>
+    <div class="ms"><span class="dia">1ª sem. dez</span><span class="t">Data provável do team building</span></div>
   </div>
 
   <div class="keys">
@@ -148,12 +162,12 @@
   </div>
 
   <div class="note">
-    <div class="card"><h3>O que precisamos da Acelen</h3><p>Lista de 4 a 6 empresas de referência até 02/10 · validação do roteiro das sessões executivas até 09/10 · data do team building até 23/10 · comentários sobre a entrega parcial até 28/10.</p></div>
-    <div class="card"><h3>Entregáveis</h3><p>Relatório completo em PowerPoint (framework de maturidade, roadmap de mercado, benchmark dos casos e resumo executivo) e base de dados em Excel, em 06/11 · relatórios de acompanhamento nas semanais.</p></div>
+    <div class="card"><h3>O que precisamos da Acelen</h3><p>Data do team building até 23/10 · comentários sobre a entrega parcial até 28/10 · forma de disponibilizar o assistente de IA, definida com a TI. Lista de empresas e questionário: concluídos em 09/10.</p></div>
+    <div class="card"><h3>Entregáveis</h3><p>PowerPoint (framework de maturidade, roadmap de mercado, benchmark dos casos e resumo executivo), base em Excel e assistente de IA do estudo, em 06/11 · fichas e notas parciais nas semanais.</p></div>
     <div class="card"><h3>Governança</h3><p>Semanais às sextas, com gravação e transcrição no SharePoint da Acelen · pontos focais: Estratégia (Acelen) e Guilherme Sanches e Rafael Rotiroti (OagronomIA).</p></div>
   </div>
 
-  <div class="foot"><span>Acelen Energia Renovável · Cronograma do projeto · BIA-ACL-CR-01 · Rev. 00</span><span class="mono">01 / 02</span></div>
+  <div class="foot"><span>Acelen Energia Renovável · Cronograma do projeto · BIA-ACL-CR-01 · Rev. 01</span><span class="mono">01 / 02</span></div>
 </section>
 
 <section class="page">
@@ -163,7 +177,7 @@
       <div class="eyebrow" style="margin-top:12px">Detalhamento por semana</div>
     </div>
     <div class="legend">
-      <span class="label">Nº / Revisão</span><span class="mono">BIA-ACL-CR-01 · Rev. 00</span>
+      <span class="label">Nº / Revisão</span><span class="mono">BIA-ACL-CR-01 · Rev. 01</span>
     </div>
   </div>
 
@@ -172,14 +186,14 @@
     <tbody>
       <tr><td>S1<span class="mono">29/09–02/10</span></td>
         <td>Kick-off (29/09). Cronograma atualizado. Roteiro das sessões executivas para validação. Definição do painel de empresas, do protocolo de pesquisa e da ficha padrão. Agendamento das sessões executivas.</td>
-        <td><span class="tag oag">OagronomIA</span> Semanal 02/10: cronograma, roteiro e proposta de painel</td>
-        <td><span class="tag acl">Acelen</span> Lista de 4 a 6 empresas de referência; SharePoint e WhatsApp</td></tr>
+        <td><span class="tag oag">OagronomIA</span> Semanal 02/10: cronograma, roteiro e proposta de painel (pauta tratada em 09/10)</td>
+        <td><span class="tag acl">Acelen</span> Lista de empresas de referência (recebida em 09/10); SharePoint e WhatsApp (concluídos)</td></tr>
       <tr><td>S2<span class="mono">05–09/10</span></td>
-        <td>Frente 1: coleta e fichas das empresas do painel; casos de sucesso e insucesso; governança, dados, organização e aplicações (inclusive satélite). Primeiras sessões executivas.</td>
-        <td><span class="tag oag">OagronomIA</span> Semanal 09/10: painel fechado e primeiras fichas</td>
-        <td><span class="tag acl">Acelen</span> Validação do roteiro das sessões executivas</td></tr>
+        <td>Frente 1: coleta e fichas das empresas do painel; casos de sucesso e insucesso; estratégia e governança, dados e infraestrutura, organização e pessoas, aplicações e valor (inclusive satélite). Primeiras sessões executivas.</td>
+        <td><span class="tag oag">OagronomIA</span> Semanal 09/10: questionário validado; Suzano e Bayer indicadas; descritivo da metodologia</td>
+        <td><span class="tag acl">Acelen</span> Validação do roteiro das sessões executivas (concluída em 09/10)</td></tr>
       <tr><td>S3<span class="mono">13–16/10</span></td>
-        <td>Frente 1: conclusão das fichas e leitura transversal. Sessões executivas. Frente 2: revisão dos frameworks de maturidade de mercado.</td>
+        <td>Frente 1: fichas da Suzano e da Bayer, indicadores de valor e retorno, proposta de uma empresa americana e uma chinesa, leitura transversal. Sessões executivas. Frente 2: revisão dos frameworks de maturidade de mercado. Início da base de conhecimento do assistente de IA.</td>
         <td><span class="tag oag">OagronomIA</span> Semanal 16/10: prévia da Frente 1</td>
         <td>—</td></tr>
       <tr><td>S4<span class="mono">19–23/10</span></td>
@@ -191,21 +205,21 @@
         <td><span class="tag oag">OagronomIA</span> Semanal 30/10: prévia do relatório</td>
         <td><span class="tag acl">Acelen</span> Comentários sobre a entrega parcial até 28/10</td></tr>
       <tr><td>S6<span class="mono">03–06/11</span></td>
-        <td>Fechamento do relatório em PowerPoint e da base de dados em Excel. Alinhamento com a Estratégia.</td>
-        <td><span class="tag oag">OagronomIA</span> Semanal 06/11: <b>relatório final</b></td>
-        <td>—</td></tr>
+        <td>Fechamento do relatório em PowerPoint, da base de dados em Excel e do assistente de IA do estudo. Alinhamento com a Estratégia.</td>
+        <td><span class="tag oag">OagronomIA</span> Semanal 06/11: <b>relatório final</b> e assistente de IA</td>
+        <td><span class="tag acl">Acelen</span> Forma de disponibilizar o assistente, definida com a TI</td></tr>
       <tr><td>Absorção<span class="mono">09/11 → workshop</span></td>
         <td>A Acelen absorve o conteúdo e o incorpora ao material do team building. A OagronomIA faz os ajustes pedidos e prepara o workshop com a Estratégia.</td>
         <td><span class="tag oag">OagronomIA</span> Ajustes e roteiro do workshop</td>
         <td><span class="tag acl">Acelen</span> Comentários sobre o relatório final</td></tr>
-      <tr><td>Workshop<span class="mono">fim nov · início dez</span></td>
+      <tr><td>Workshop<span class="mono">1ª sem. dez (provável)</span></td>
         <td>Workshop Executivo presencial no team building das lideranças do agroindustrial, em Montes Claros: resultados das três frentes, framework de maturidade, tendências e próximos passos.</td>
         <td><span class="tag oag">OagronomIA</span> <b>Workshop Executivo</b></td>
-        <td><span class="tag amb">A definir</span> Data e agenda do evento</td></tr>
+        <td><span class="tag amb">A confirmar</span> Dia e agenda do evento</td></tr>
     </tbody>
   </table>
 
-  <div class="foot"><span>Acelen Energia Renovável · Cronograma do projeto · BIA-ACL-CR-01 · Rev. 00</span><span class="mono">02 / 02</span></div>
+  <div class="foot"><span>Acelen Energia Renovável · Cronograma do projeto · BIA-ACL-CR-01 · Rev. 01</span><span class="mono">02 / 02</span></div>
 </section>
 
 </body>

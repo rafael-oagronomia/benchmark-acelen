@@ -5,9 +5,12 @@ Converte a transcrição exportada do Teams (.docx) em markdown leve para versio
 Uso:
     python converter_transcricao.py _originais/ARQUIVO.docx 2026-09-29_kickoff_transcricao.md --titulo "Kick-off"
     python converter_transcricao.py ... --omitir 25:44 26:17   # omite falas (ex.: trechos administrativos de pagamento)
+    python converter_transcricao.py ... --anonimizar "Fulano de Tal" Beltrano   # troca nomes por [nome omitido]
+    python converter_transcricao.py ... --omitir-cargo "gerente de IA da região X"  # troca o trecho por [cargo omitido]
 
 O original (.docx, gravação) fica em _originais/, fora do Git. Só o .md é versionado.
-Regra do projeto: nunca versionar valores, forma de pagamento ou parcelas — use --omitir.
+Regras do projeto: nunca versionar valores, forma de pagamento ou parcelas — use --omitir;
+nomes de executivos que possam participar das sessões executivas nunca entram — use --anonimizar.
 """
 import argparse
 import html
@@ -32,7 +35,12 @@ def main():
     ap.add_argument("saida")
     ap.add_argument("--titulo", required=True)
     ap.add_argument("--omitir", nargs="*", default=[], help="marcas de tempo das falas a omitir")
+    ap.add_argument("--anonimizar", nargs="*", default=[], help="nomes a trocar por [nome omitido] (palavra inteira)")
+    ap.add_argument("--omitir-cargo", nargs="*", default=[], help="trechos que descrevem o cargo de um possível entrevistado")
     a = ap.parse_args()
+    nomes = [(re.compile(rf"\b{re.escape(n)}\b", re.IGNORECASE), "[nome omitido]") for n in a.anonimizar]
+    nomes += [(re.compile(re.escape(c), re.IGNORECASE), "[cargo omitido]") for c in a.omitir_cargo]
+    trocas = 0
 
     linhas = paragrafos(a.docx)
     cabecalho = linhas[:3]  # nome da gravação, data/hora, duração
@@ -45,6 +53,9 @@ def main():
         participantes[nome] = True
         if tempo in a.omitir:
             fala = "[trecho administrativo omitido nesta versão; ver original fora do Git]"
+        for padrao, rotulo in nomes:
+            fala, n = padrao.subn(rotulo, fala)
+            trocas += n
         falas.append((tempo, nome, fala))
 
     out = [f"# {a.titulo}", "",
@@ -54,12 +65,15 @@ def main():
            f"- **Participantes na transcrição:** {', '.join(participantes)}",
            "",
            "> Transcrição automática do Teams, sem revisão: há palavras soltas em inglês e trechos truncados "
-           "gerados pelo reconhecimento de voz. O original está em `_originais/`, fora do Git.",
+           "gerados pelo reconhecimento de voz. O original está em `_originais/`, fora do Git."
+           + (" Nomes e cargos de possíveis entrevistados das sessões executivas aparecem como [nome omitido] e [cargo omitido]."
+              if trocas else ""),
            ""]
     for tempo, nome, fala in falas:
         out.append(f"**{nome}** `{tempo}` — {fala}  ")
     Path(a.saida).write_text("\n".join(out) + "\n", encoding="utf-8")
-    print(f"{len(falas)} falas, {len(participantes)} participantes, {len(a.omitir)} omitidas -> {a.saida}")
+    print(f"{len(falas)} falas, {len(participantes)} participantes, {len(a.omitir)} omitidas, "
+          f"{trocas} nomes anonimizados -> {a.saida}")
 
 
 if __name__ == "__main__":

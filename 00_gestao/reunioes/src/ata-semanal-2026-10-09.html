@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Ata da reunião semanal de 09/10/2026 — Benchmarking de uso de IA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --brand-green: #52C937; --brand-green-bright: #6FE34F; --brand-green-deep: #2F8B1F;
+    --bg-0: #050805; --bg-1: #0B100B; --bg-2: #131A13; --bg-3: #1C241B;
+    --line: #2A3328; --line-strong: #3A4537;
+    --fg-1: #F2F4EE; --fg-2: #B8BFB1; --fg-3: #7C8678; --fg-4: #4D5749;
+    --warning: #E8B33B; --info: #4FB7C9;
+    --font-display: 'Chakra Petch', 'Bahnschrift', system-ui, sans-serif;
+    --font-body: 'Manrope', 'Segoe UI', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  }
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg-0); color: var(--fg-1); font-family: var(--font-body); font-size: 11.5px; line-height: 1.5;
+    -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page { width: 210mm; height: 297mm; position: relative; overflow: hidden; padding: 12mm 14mm 18mm; background: var(--bg-0);
+    page-break-after: always; break-after: page; }
+  .page:last-child { page-break-after: auto; break-after: auto; }
+  .eyebrow { font: 500 10.5px var(--font-display); text-transform: uppercase; letter-spacing: 0.18em; color: var(--brand-green); }
+  .label { font: 500 9.5px var(--font-display); text-transform: uppercase; letter-spacing: 0.08em; color: var(--fg-3); }
+  h1 { font: italic 700 28px/1.05 var(--font-display); letter-spacing: -0.01em; margin: 6px 0 0; }
+  h2 { font: italic 600 17px/1.2 var(--font-display); margin: 0 0 7px; }
+  p { margin: 0; }
+  .mono { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+  .head { display: flex; justify-content: space-between; align-items: flex-end; padding-bottom: 10px; border-bottom: 1px solid var(--line); margin-bottom: 12px; }
+  .head img { height: 26px; display: block; mix-blend-mode: lighten; }
+  .legend { display: grid; grid-template-columns: auto auto; column-gap: 12px; row-gap: 2px; font-size: 10px; text-align: right; }
+  .legend .label { text-align: right; }
+  .foot { position: absolute; left: 14mm; right: 14mm; bottom: 7mm; display: flex; justify-content: space-between; padding-top: 6px;
+    border-top: 1px solid var(--line); font: 500 8.5px var(--font-display); letter-spacing: 0.08em; text-transform: uppercase; color: var(--fg-3); }
+  .foot .mono { letter-spacing: 0; font-size: 9.5px; }
+  section.bloco { margin-top: 14px; }
+
+  .meta { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+  .metric { background: var(--bg-2); border: 1px solid var(--line); border-radius: 6px; padding: 8px 11px; }
+  .metric__lbl { font: 500 9px var(--font-display); letter-spacing: 0.12em; text-transform: uppercase; color: var(--fg-3); }
+  .metric__val { font: 500 15px/1.15 var(--font-mono); font-variant-numeric: tabular-nums; color: var(--fg-1); margin-top: 4px; }
+  .metric__val .u { font-size: 10.5px; color: var(--fg-3); margin-left: 3px; }
+
+  .two { display: grid; grid-template-columns: 1.5fr 1fr; gap: 8px; }
+  .card { background: var(--bg-2); border: 1px solid var(--line); border-radius: 8px; padding: 9px 12px; }
+  .card h3 { font: 600 12.5px var(--font-display); margin: 0 0 3px; }
+  .card p, .card li { color: var(--fg-2); font-size: 11px; }
+  ul.lista { margin: 0; padding: 0; list-style: none; }
+  ul.lista li { position: relative; padding-left: 15px; color: var(--fg-2); margin-top: 3px; }
+  ul.lista li::before { content: ""; position: absolute; left: 2px; top: 8px; width: 6px; height: 1.5px; background: var(--brand-green); }
+  ul.lista li b { color: var(--fg-1); font-weight: 600; }
+
+  ol.dec { margin: 0; padding: 0; list-style: none; counter-reset: d; }
+  ol.dec > li { counter-increment: d; display: grid; grid-template-columns: 30px 1fr; gap: 6px; padding: 7px 0; border-bottom: 1px solid var(--line); }
+  ol.dec > li:last-child { border-bottom: none; }
+  ol.dec > li::before { content: counter(d, decimal-leading-zero); font: 500 13px var(--font-mono); color: var(--brand-green); }
+  ol.dec .t { font-weight: 700; color: var(--fg-1); }
+  ol.dec .d { color: var(--fg-2); }
+  ol.dec ul.lista li { font-size: 11px; }
+
+  table.pend { width: 100%; border-collapse: collapse; font-size: 10.5px; }
+  table.pend th { font: 500 9px var(--font-display); letter-spacing: 0.08em; text-transform: uppercase; color: var(--fg-3); text-align: left;
+    padding: 6px 7px; border-bottom: 1px solid var(--line-strong); background: var(--bg-2); }
+  table.pend td { padding: 6px 7px; border-bottom: 1px solid var(--line); vertical-align: top; color: var(--fg-2); }
+  table.pend td.n { font: 500 11px var(--font-mono); color: var(--brand-green); width: 26px; }
+  table.pend td.p { color: var(--fg-1); }
+  .tag { display: inline-block; padding: 1px 7px; border-radius: 999px; font: 600 8.5px var(--font-display); letter-spacing: 0.06em; text-transform: uppercase; white-space: nowrap; }
+  .tag.oag { background: rgba(82,201,55,0.12); color: var(--brand-green-bright); }
+  .tag.acl { background: rgba(79,183,201,0.12); color: var(--info); }
+  .tag.amb { background: rgba(232,179,59,0.12); color: var(--warning); }
+  .st { display: inline-flex; align-items: center; gap: 5px; font: 600 9px var(--font-display); letter-spacing: 0.06em; text-transform: uppercase; white-space: nowrap; }
+  .st .dot { width: 6px; height: 6px; border-radius: 50%; }
+  .st.ok { color: var(--brand-green-bright); } .st.ok .dot { background: var(--brand-green); }
+  .st.and { color: var(--info); } .st.and .dot { background: var(--info); }
+  .st.ab { color: var(--warning); } .st.ab .dot { background: var(--warning); }
+  .nota { font-size: 10px; color: var(--fg-3); margin-top: 6px; }
+  h3.sub { font: 600 12px var(--font-display); color: var(--fg-1); margin: 10px 0 5px; }
+  ol.dec .d { display: block; margin-top: 2px; }
+  table.pend .det { display: block; font-size: 9.8px; color: var(--fg-3); line-height: 1.35; margin-top: 2px; }
+</style>
+</head>
+<body>
+
+<!-- Página 1 -->
+<section class="page">
+  <div class="head">
+    <div>
+      <img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA">
+      <div class="eyebrow" style="margin-top:12px">Benchmarking de uso de IA · Ata de reunião</div>
+      <h1>Reunião semanal de 09/10</h1>
+    </div>
+    <div class="legend">
+      <span class="label">Contratante</span><span>Acelen Energia Renovável</span>
+      <span class="label">Documento</span><span>Ata da reunião semanal de 09/10/2026</span>
+      <span class="label">Nº / Revisão</span><span class="mono">BIA-ACL-AT-02 · Rev. 01</span>
+      <span class="label">Emissão</span><span class="mono">15/10/2026</span>
+    </div>
+  </div>
+
+  <div class="meta">
+    <div class="metric"><div class="metric__lbl">Data</div><div class="metric__val">09/10/2026</div></div>
+    <div class="metric"><div class="metric__lbl">Duração</div><div class="metric__val">24<span class="u">min</span></div></div>
+    <div class="metric"><div class="metric__lbl">Formato</div><div class="metric__val">Teams</div></div>
+    <div class="metric"><div class="metric__lbl">Novas pendências</div><div class="metric__val">4</div></div>
+  </div>
+
+  <section class="bloco">
+    <h2>Participantes</h2>
+    <div class="two">
+      <div class="card">
+        <h3>Acelen Renováveis — Estratégia</h3>
+        <p>Bruno Ruocco Lizarelli, Bruna Rodrigues Silva e Pamela Wong Sarli.</p>
+      </div>
+      <div class="card">
+        <h3>OagronomIA</h3>
+        <p>Guilherme Sanches e Rafael Rotiroti.</p>
+      </div>
+    </div>
+    <p class="nota">Participantes identificados na transcrição. Guilherme abriu a reunião com as pendências do kick-off; a ata e os materiais anteriores estão na pasta do projeto no SharePoint da Acelen. A pauta preparada para 02/10 (cronograma, empresas de referência, questionário das sessões executivas e workshop) foi tratada nesta reunião.</p>
+  </section>
+
+  <section class="bloco">
+    <h2>Decisões e encaminhamentos</h2>
+    <ol class="dec">
+      <li><div><span class="t">Questionário das sessões executivas validado</span>
+        <span class="d">Guilherme apresentou o questionário BIA-ACL-SE-02 (rev. 00): 10 temas, cada um ligado a uma ou mais das três frentes, com 5 perguntas essenciais. Bruna leu o documento antes da reunião e o considerou completo; Bruno não teve complementos. A OagronomIA segue com as entrevistas: conversas de 60 minutos, sem ordem fixa de perguntas, com um resumo geral depois e ajustes ao longo das sessões.</span>
+        <ul class="lista">
+          <li>Bruno lembrou que algumas empresas podem não ter a IA bem estruturada e estar num estágio anterior ao de agentes autônomos. Guilherme concordou: poucas empresas estão no nível de agentes, e a ideia é registrar como cada uma enxerga o tema. Pela experiência dos treinamentos da OagronomIA, muitas empresas ainda estão no começo da jornada; o benchmark vai verificar se isso se confirma.</li>
+        </ul></div></li>
+      <li><div><span class="t">Empresas de referência indicadas pela Acelen: Suzano e Bayer</span>
+        <span class="d">A Acelen indicou duas empresas, de imediato; as demais ficam com a OagronomIA.</span>
+        <ul class="lista">
+          <li><b>Suzano:</b> segundo o Bruno, grande empresa florestal, com longa trajetória de crescimento e foco forte em inovação; também dá um panorama do agro.</li>
+          <li><b>Bayer:</b> segundo o Bruno, inovadora em tecnologia e IA dentro de casa, com um programa de melhoria contínua com IA há anos. Na reunião, a empresa foi citada primeiro como BASF e corrigida mais adiante. Bruno ressalvou que o que viu da Bayer em IA não é da área de agro; Pamela sugeriu olhar também a área de agro da empresa, e Guilherme confirmou que ela é forte em agro digital.</li>
+          <li>A Acelen gostaria de incluir <b>uma empresa norte-americana e uma chinesa</b> (ou de outro país do leste asiático, como a Coreia do Sul), para retratar a bipolarização entre EUA e China e a corrida tecnológica. Bruno espera também um panorama da China a partir dos congressos e eventos de que Guilherme participa lá. A escolha fica com a OagronomIA.</li>
+          <li>O restante do painel fica a critério da OagronomIA, com empresas que Guilherme e Rafael já conhecem.</li>
+        </ul></div></li>
+      <li><div><span class="t">Sessões executivas</span>
+        <span class="d">A primeira entrevista, prevista para esta semana, foi adiada porque o questionário ainda não estava validado. Agora está marcada para a semana de 13/10, e outras duas estão em agendamento. Os perfis incluem tradings de grãos e uma instituição de pesquisa. A Acelen sugeriu um contato para uma possível sessão; a OagronomIA avalia. Nomes de executivos e de empresas participantes não são divulgados.</span></div></li>
+      <li><div><span class="t">Workshop Executivo</span>
+        <span class="d">A data não está fechada, mas tudo indica a <b style="color:var(--fg-1)">primeira semana de dezembro</b>, provavelmente no meio da semana. A Acelen confirma o dia.</span></div></li>
+    </ol>
+  </section>
+
+  <div class="foot"><span>Acelen Energia Renovável · Ata da reunião semanal de 09/10/2026 · BIA-ACL-AT-02 · Rev. 01</span><span class="mono">01 / 04</span></div>
+</section>
+
+<!-- Página 2 -->
+<section class="page">
+  <div class="head">
+    <div>
+      <img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA">
+      <div class="eyebrow" style="margin-top:12px">Decisões, contexto e conteúdo</div>
+    </div>
+    <div class="legend">
+      <span class="label">Nº / Revisão</span><span class="mono">BIA-ACL-AT-02 · Rev. 01</span>
+    </div>
+  </div>
+
+  <section class="bloco" style="margin-top:4px">
+    <h2>Decisões e encaminhamentos (continuação)</h2>
+    <ol class="dec" style="counter-reset: d 4">
+      <li><div><span class="t">Cronograma</span>
+        <span class="d">Segue o cronograma atualizado (BIA-ACL-CR-01, rev. 00), mostrado na reunião, com ajustes conforme a evolução do trabalho. Nesta etapa: Frente 1 (benchmark estratégico) e sessões executivas. Com as empresas definidas, a OagronomIA começa a buscar documentos públicos, sobretudo de empresas de capital aberto, como os relatórios para investidores, que costumam divulgar métricas; alguns exigem preencher um formulário.</span></div></li>
+      <li><div><span class="t">Resumo do avanço</span>
+        <span class="d">Bruno pediu um resumo do que avançou, para incluir nos materiais internos da Acelen. Guilherme resumiu: questionário elaborado e validado, contatos com executivos e entrevistas em agendamento, cronograma compartilhado e início do levantamento de documentos das empresas indicadas.</span></div></li>
+      <li><div><span class="t">Próxima semanal (16/10)</span>
+        <span class="d">A OagronomIA pretende trazer os primeiros indicadores e estudos encontrados e o andamento das sessões executivas. Os insights das sessões entram sempre de forma agregada, sem identificar entrevistado nem empresa.</span></div></li>
+      <li><div><span class="t">Canal</span>
+        <span class="d">Bruno se colocou à disposição por WhatsApp ou telefone para destravar qualquer ponto do lado da Acelen.</span></div></li>
+    </ol>
+  </section>
+
+  <section class="bloco">
+    <h2>Contexto trazido pela Acelen</h2>
+    <ul class="lista">
+      <li><b>Melhoramento genético:</b> a Acelen trabalha hoje com maciços naturais de macaúba contratados. Mapeou e caracterizou diversos maciços, identificou os melhores, colhe os frutos deles e, a partir desses frutos, produz as sementes. Está num processo de evolução e classificação, com a ideia de inovar no médio e longo prazo, inclusive em variedades e clonagem.</li>
+      <li><b>Estrutura:</b> time técnico, laboratório próprio (testes e especificações técnicas do óleo extraído e estudos do fruto) e uma biofábrica (produção de sementes e estudos de melhoramento genético). Conta também com vários parceiros, entre eles a Unicamp, em parceria conduzida pela gerência de pesquisa e inovação.</li>
+    </ul>
+  </section>
+
+  <section class="bloco">
+    <h2>Pontos de conteúdo registrados</h2>
+    <ul class="lista">
+      <li><b>Suzano:</b> Bruno citou, a título de informação, uma iniciativa da Suzano de novos produtos de base biológica a partir de lignina, que parece divulgada sobretudo para a Ásia. Na avaliação dele, é mais bioproduto do que IA. Bruna enviou o link no chat.</li>
+      <li><b>Frentes 1 e 3, EUA × China:</b> a comparação entre uma empresa americana e uma chinesa retoma o adendo do kick-off sobre soberania tecnológica e a divisão entre fornecedores americanos e chineses.</li>
+      <li><b>Dados sensíveis:</b> o receio de como implementar IA com dados sensíveis aparece como um dos grandes desafios atuais, a explorar nas sessões executivas.</li>
+    </ul>
+  </section>
+
+  <div class="foot"><span>Acelen Energia Renovável · Ata da reunião semanal de 09/10/2026 · BIA-ACL-AT-02 · Rev. 01</span><span class="mono">02 / 04</span></div>
+</section>
+
+<!-- Página 3 -->
+<section class="page">
+  <div class="head">
+    <div>
+      <img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA">
+      <div class="eyebrow" style="margin-top:12px">Pendências registradas em 09/10</div>
+    </div>
+    <div class="legend">
+      <span class="label">Nº / Revisão</span><span class="mono">BIA-ACL-AT-02 · Rev. 01</span>
+    </div>
+  </div>
+
+  <section class="bloco" style="margin-top:4px">
+    <h2>Pendências</h2>
+    <h3 class="sub">Pendências do kick-off — situação em 09/10</h3>
+    <table class="pend">
+      <thead><tr><th>#</th><th>Pendência</th><th style="width:112px">Responsável</th><th style="width:230px">Situação em 09/10</th></tr></thead>
+      <tbody>
+        <tr><td class="n">01</td><td class="p">Enviar a lista de 4 a 6 empresas de referência para o benchmark</td><td><span class="tag acl">Acelen</span> Bruno e equipe</td><td><span class="st ok"><span class="dot"></span>Concluído</span><span class="det">2 indicadas (Suzano e Bayer); as demais, inclusive a americana e a chinesa, ficam com a OagronomIA</span></td></tr>
+        <tr><td class="n">03</td><td class="p">Apresentar o questionário das sessões executivas para validação</td><td><span class="tag oag">OagronomIA</span></td><td><span class="st ok"><span class="dot"></span>Concluído</span><span class="det">Questionário BIA-ACL-SE-02 validado em 09/10</span></td></tr>
+        <tr><td class="n">08</td><td class="p">Subir as gravações e transcrições das reuniões no SharePoint</td><td><span class="tag acl">Acelen</span></td><td><span class="st and"><span class="dot"></span>Contínuo</span><span class="det">Bruno sobe a transcrição desta reunião, e a OagronomIA prepara a ata</span></td></tr>
+        <tr><td class="n">09</td><td class="p">Confirmar a data do team building e do Workshop Executivo</td><td><span class="tag acl">Acelen</span> Bruna e Bruno</td><td><span class="st and"><span class="dot"></span>Em andamento</span><span class="det">Provável primeira semana de dezembro; dia a confirmar até 23/10</span></td></tr>
+        <tr><td class="n">11</td><td class="p">Cadastro de fornecedor na plataforma interna da Acelen</td><td><span class="tag amb">Ambos</span></td><td><span class="st ab"><span class="dot"></span>Em aberto</span><span class="det">A solicitação interna ainda não foi feita. Guilherme envia o contato administrativo da OagronomIA; Bruno encaminha à área responsável e avisa o andamento</span></td></tr>
+      </tbody>
+    </table>
+    <p class="nota">As demais pendências do kick-off (02, 04, 05, 06, 07 e 10) já estavam concluídas.</p>
+
+    <h3 class="sub">Novas pendências</h3>
+    <table class="pend">
+      <thead><tr><th>#</th><th>Pendência</th><th style="width:112px">Responsável</th><th style="width:130px">Prazo</th></tr></thead>
+      <tbody>
+        <tr><td class="n">12</td><td class="p">Propor uma empresa norte-americana e uma chinesa (ou do leste asiático) para o painel</td><td><span class="tag oag">OagronomIA</span></td><td>Próximas semanais</td></tr>
+        <tr><td class="n">13</td><td class="p">Levantar documentos públicos sobre IA da Suzano e da Bayer e trazer os primeiros indicadores e estudos</td><td><span class="tag oag">OagronomIA</span></td><td>Semanal de 16/10</td></tr>
+        <tr><td class="n">14</td><td class="p">Realizar a primeira sessão executiva</td><td><span class="tag oag">OagronomIA</span></td><td>Semana de 13/10</td></tr>
+        <tr><td class="n">15</td><td class="p">Enviar à Estratégia um resumo escrito do avanço, para os materiais internos da Acelen</td><td><span class="tag oag">OagronomIA</span></td><td>Semanal de 16/10</td></tr>
+      </tbody>
+    </table>
+
+  </section>
+
+  <div class="foot"><span>Acelen Energia Renovável · Ata da reunião semanal de 09/10/2026 · BIA-ACL-AT-02 · Rev. 01</span><span class="mono">03 / 04</span></div>
+</section>
+
+<!-- Página 4 -->
+<section class="page">
+  <div class="head">
+    <div>
+      <img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA">
+      <div class="eyebrow" style="margin-top:12px">Situação das pendências e próxima reunião</div>
+    </div>
+    <div class="legend">
+      <span class="label">Nº / Revisão</span><span class="mono">BIA-ACL-AT-02 · Rev. 01</span>
+    </div>
+  </div>
+
+  <section class="bloco" style="margin-top:4px">
+    <h2>Situação em 15/10, para a semanal de 16/10</h2>
+    <table class="pend">
+      <thead><tr><th>#</th><th>Pendência</th><th style="width:112px">Responsável</th><th style="width:250px">Situação em 15/10</th></tr></thead>
+      <tbody>
+        <tr><td class="n">08</td><td class="p">Subir as gravações e transcrições das reuniões no SharePoint</td><td><span class="tag acl">Acelen</span></td><td><span class="st and"><span class="dot"></span>Contínuo</span><span class="det">Confirmar na reunião se a transcrição de 09/10 e esta ata já estão no SharePoint</span></td></tr>
+        <tr><td class="n">09</td><td class="p">Confirmar a data do team building e do Workshop Executivo</td><td><span class="tag acl">Acelen</span> Bruna e Bruno</td><td><span class="st and"><span class="dot"></span>Em andamento</span><span class="det">A confirmar na reunião; prazo 23/10</span></td></tr>
+        <tr><td class="n">11</td><td class="p">Cadastro de fornecedor na plataforma interna da Acelen</td><td><span class="tag amb">Ambos</span></td><td><span class="st ab"><span class="dot"></span>Em aberto</span><span class="det">Confirmar na reunião se o contato administrativo da OagronomIA já chegou à área responsável</span></td></tr>
+        <tr><td class="n">12</td><td class="p">Propor uma empresa norte-americana e uma chinesa (ou do leste asiático) para o painel</td><td><span class="tag oag">OagronomIA</span></td><td><span class="st ok"><span class="dot"></span>Pronto</span><span class="det">Proposta: Deere (EUA) e DJI (China), com fichas no mesmo formato das de Suzano e Bayer. Validar com a Acelen na semanal de 16/10</span></td></tr>
+        <tr><td class="n">13</td><td class="p">Levantar documentos públicos sobre IA da Suzano e da Bayer e trazer os primeiros indicadores e estudos</td><td><span class="tag oag">OagronomIA</span></td><td><span class="st ok"><span class="dot"></span>Pronto</span><span class="det">31 documentos da Suzano e 37 da Bayer no catálogo; fichas das duas, nota sobre valor e retorno da IA e resultados parciais (BIA-ACL-RP-02), apresentados em 16/10</span></td></tr>
+        <tr><td class="n">14</td><td class="p">Realizar a primeira sessão executiva</td><td><span class="tag oag">OagronomIA</span></td><td><span class="st ok"><span class="dot"></span>Concluído</span><span class="det">Realizada na semana de 13/10. Os insights entram de forma agregada, sem identificar entrevistado nem empresa</span></td></tr>
+        <tr><td class="n">15</td><td class="p">Enviar à Estratégia um resumo escrito do avanço, para os materiais internos da Acelen</td><td><span class="tag oag">OagronomIA</span></td><td><span class="st ok"><span class="dot"></span>Pronto</span><span class="det">Descritivo da metodologia (BIA-ACL-MT-01) e cronograma rev. 01 (BIA-ACL-CR-01), com status por atividade, entregues em 16/10</span></td></tr>
+      </tbody>
+    </table>
+    <p class="nota">Rev. 01 (15/10): situação das pendências preparada para a semanal de 16/10. O que depende da Acelen (08, 09 e 11) se confirma na reunião; as novas pendências entram na ata de 16/10.</p>
+  </section>
+
+  <section class="bloco">
+    <h2>Próxima reunião</h2>
+    <div class="card">
+      <p><b style="color:var(--fg-1)">Semanal — sexta-feira, 16/10/2026.</b> Pauta: primeiros indicadores e estudos das empresas de referência, andamento das sessões executivas e próximos passos; se possível, a OagronomIA traz também a proposta de empresa americana e chinesa. A segunda-feira, 12/10, é feriado.</p>
+    </div>
+  </section>
+
+  <div class="foot"><span>Acelen Energia Renovável · Ata da reunião semanal de 09/10/2026 · BIA-ACL-AT-02 · Rev. 01</span><span class="mono">04 / 04</span></div>
+</section>
+
+</body>
+</html>

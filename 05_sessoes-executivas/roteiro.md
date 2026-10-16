@@ -18,7 +18,7 @@ Conversa semiestruturada de 60 minutos com executivos e lideranças técnicas de
 
 - Qual foi o ponto de virada em que a IA deixou de ser experimento e passou a ser pauta estratégica? Quem patrocinou?
 - Mostrar a régua de 5 estágios (Exploração → Pilotos → Operacionalização → Escala → Transformação). Onde você colocaria a empresa? Qual iniciativa comprova esse estágio?
-- Em qual dimensão vocês estão mais atrás: governança, dados, organização ou aplicações?
+- Em qual dimensão vocês estão mais atrás: estratégia e governança, dados e infraestrutura, organização e pessoas, ou aplicações e valor?
 
 ### 2 ★ Valor real
 *Frente 1*

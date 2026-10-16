@@ -1,0 +1,1785 @@
+{
+  "resultados": [
+    {
+      "grupo": "Shadow AI: tamanho, causas e Copilot × outras",
+      "pasta": "12_shadow-ai-governanca",
+      "itens": [
+        {
+          "titulo": "Cloud and Threat Report: 2026",
+          "organizacao": "Netskope (Netskope Threat Labs)",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "segurança da informação (dados de clientes de vários setores)",
+          "pais_regiao": "Global",
+          "url": "https://www.netskope.com/resources/cloud-and-threat-reports/cloud-and-threat-report-2026",
+          "arquivo": "12_shadow-ai-governanca/Netskope_2026_cloud-threat-report.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "Usuários de IA generativa que usam apps pessoais caíram de 78% para 47% em um ano; os que usam contas gerenciadas pela organização subiram de 25% para 62%; os que alternam entre as duas passaram de 4% para 9% (medição de tráfego, 01/10/2024–31/10/2025) (p. 2-3; período na p. 12)",
+            "Usuários de apps SaaS de IA generativa triplicaram na organização média, e os prompts subiram de 3.000 para 18.000 por mês (p. 3)",
+            "'Adoção' das principais ferramentas (base não definida no texto; não é participação de usuários): ChatGPT 77%, Google Gemini 69% (de 46%), Microsoft 365 Copilot 52%, Perplexity 35% (de 23%) (p. 4)",
+            "Violações de política de dados ligadas a IA generativa dobraram: média de 223 por mês por organização, cometidas por 3% dos usuários de IA generativa (só incidentes detectados); 50% das organizações sem política de proteção de dados com aplicação técnica ('enforceable') para IA generativa (p. 5)",
+            "Código-fonte (42%), dados regulados (32%) e propriedade intelectual (16%) são os dados mais envolvidos nas violações (p. 5)",
+            "90% das organizações bloqueiam ativamente algum app de IA generativa, em média 10 apps (p. 6)"
+          ],
+          "resumo": "Relatório anual do laboratório de ameaças da Netskope, baseado em dados anonimizados de uso da plataforma Netskope One entre 01/10/2024 e 31/10/2025: é medição de tráfego dos clientes, não pesquisa de opinião. Mostra a queda do uso de IA generativa por contas pessoais ao mesmo tempo em que sobe o uso de contas corporativas (o relatório lê como padronização do acesso; é coincidência no tempo, não efeito medido), o crescimento acelerado do uso total e das violações de política de dados, a adoção por ferramenta (ChatGPT, Gemini, Microsoft 365 Copilot) e o bloqueio de apps.",
+          "relevancia": "Principal medição de tráfego para H2: a queda das contas pessoais coincide com a alta das contas corporativas, mas 47% ainda usam apps pessoais (coincidência no tempo, não prova de que a conta corporativa cause a queda); serve também para ver ChatGPT, Gemini e Copilot nas organizações, com a ressalva de que a base da 'adoção' não é definida; a Netskope vende segurança para IA (conflito de interesse) e a base é a sua própria clientela."
+        },
+        {
+          "titulo": "2026 Data Breach Investigations Report (DBIR)",
+          "organizacao": "Verizon Business",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "segurança da informação (incidentes e vazamentos de vários setores)",
+          "pais_regiao": "Global",
+          "url": "https://www.verizon.com/business/resources/Tf38/reports/2026-dbir-data-breach-investigations-report.pdf",
+          "arquivo": "12_shadow-ai-governanca/Verizon_2026_dbir-data-breach-investigations-report.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "67% dos usuários de plataformas de IA as acessam com contas não corporativas nos dispositivos da empresa; no ano anterior eram 72% (telemetria da Verizon, 2025) (p. 13; p. 60)",
+            "45% dos funcionários são usuários regulares de IA, autorizada ou não, nos dispositivos corporativos (acesso ao menos a cada 15 dias), contra 15% no relatório anterior (p. 13; p. 60)",
+            "Shadow AI passou a ser a 3ª ação não maliciosa de insiders mais detectada nos dados de prevenção de perda de dados de 2025, alta de quatro vezes sobre o ano anterior (n=4.280.149 eventos) (p. 13; p. 60)",
+            "A empresa média tinha mais de 15% dos usuários com extensões de IA não autorizadas no navegador (p. 60)",
+            "Código-fonte é, com folga, o dado mais enviado a modelos externos; em 3,2% dos eventos, documentação técnica e de pesquisa (n=858.440 eventos ligados a IA generativa) (p. 60-61)"
+          ],
+          "resumo": "Edição 2026 do principal relatório anual de vazamentos de dados. A seção 'DataGPT' usa a base de eventos do serviço de prevenção de perda de dados (DLP) para medir o uso de IA nos dispositivos corporativos: o uso regular triplicou, dois terços dos usuários de plataformas de IA entram com contas não corporativas e o shadow AI virou a terceira ação não maliciosa mais comum de insiders.",
+          "relevancia": "Medição de telemetria (não pesquisa de opinião) que mostra a predominância de contas não corporativas entre os usuários de IA mesmo em dispositivos da empresa, com leve queda em um ano; a Verizon vende serviços de segurança (conflito de interesse)."
+        },
+        {
+          "titulo": "PagerDuty Report Finds Two-Thirds (66%) of Office Professionals Have Used Unauthorized AI Tools at Work (PagerDuty Shadow AI Survey)",
+          "organizacao": "PagerDuty (pesquisa feita pela Wakefield Research)",
+          "ano": "2026 (11/06/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "intersetorial (profissionais de escritório fora de TI em empresas grandes)",
+          "pais_regiao": "EUA, Reino Unido, Austrália e Japão",
+          "url": "https://s206.q4cdn.com/635206389/files/doc_news/PagerDuty-Report-Finds-Two-Thirds-66-of-Office-Professionals-Have-Used-Unauthorized-AI-Tools-at-Work-2026.pdf",
+          "arquivo": "12_shadow-ai-governanca/PagerDuty_2026_shadow-ai-workplace-survey.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "66% dos profissionais de escritório usaram ferramentas de IA no trabalho acreditando que a política da empresa não permitia (1.250 profissionais fora de TI em empresas com receita anual de US$ 500 milhões ou mais: EUA 500, Reino Unido 250, Austrália 250, Japão 250) (p. 1-3)",
+            "88% já compartilharam informação de trabalho com ferramentas públicas de IA como ChatGPT, Claude ou Gemini: 43% e-mails, 40% notas de reunião, 34% dados de clientes e 31% informações financeiras ou documentos confidenciais (p. 2)",
+            "89% dos que usam IA no trabalho conheceram a ferramenta na vida pessoal (p. 2)",
+            "86% dizem que a empresa tem política de IA, mas 81% acham que a liderança segue regras diferentes (p. 2)",
+            "77% acham que as restrições de IA da empresa limitam o crescimento profissional; 75% procurariam emprego com melhor desenvolvimento em IA (p. 2)",
+            "Entre os que usaram IA possivelmente não permitida, 53% receberam orientação informal para parar e 48% sofreram consequência formal (p. 2)"
+          ],
+          "resumo": "Release oficial da pesquisa de opinião encomendada pela PagerDuty à Wakefield Research com 1.250 profissionais de escritório (fora de TI) de empresas com receita de US$ 500 milhões ou mais em quatro países. Mede uso de IA contra a política percebida, compartilhamento de dados com IA pública, origem pessoal do hábito e percepção das regras.",
+          "relevancia": "Confirma os números de 66% e 88% da linha de investigação (H1, H2 e H7); é pesquisa de opinião de fornecedor que vende plataforma de operações com IA (conflito de interesse), sem Brasil e sem data de campo no release; o relatório completo não foi baixado."
+        },
+        {
+          "titulo": "Gartner Predicts by 2027, 50% of Enterprises Without a People-Centric AI Strategy Will Lose Their Top AI Talent",
+          "organizacao": "Gartner",
+          "ano": "2026 (13/05/2026)",
+          "tipo_fonte": "analista/big tech",
+          "setor": "intersetorial",
+          "pais_regiao": "Global (40 países)",
+          "url": "https://www.gartner.com/en/newsroom/press-releases/2026-05-13-gartner-predicts-by-2027-50-percent-of-enterprises-without-a-people-centric-ai-strategy-will-lose-their-top-ai-talent",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "88% dos funcionários com acesso a IA corporativa também usam ferramentas pessoais de IA para tarefas de trabalho, muitas vezes para ganhar tempo (Global Labor Market Survey, 12.004 funcionários e gestores, 40 países, 1º tri/2026) (web)",
+            "Usuários híbridos (ferramenta corporativa e pessoal) têm 1,7 vez mais chance de relatar economia significativa de tempo do que os que usam só a corporativa (web)",
+            "19% dos funcionários não relatam economia de tempo com IA; 73% dos usuários altamente produtivos são gestores ou executivos (web)",
+            "Só 27% dos executivos têm estratégia abrangente de IA e 20% acham a força de trabalho pronta (197 executivos, dez/2025) (web)"
+          ],
+          "resumo": "Release do Gartner com resultados da Global Labor Market Survey do 1º tri/2026 (12.004 funcionários e gestores em 40 países). Aponta a 'ilusão de habilitação': acesso à ferramenta não é transformação, e quase nove em cada dez funcionários com IA corporativa também usam IA pessoal. Recomenda que CIO e CHRO auditem e melhorem a experiência das ferramentas corporativas para reduzir o shadow AI.",
+          "relevancia": "Fonte primária do número de 88% (H2 e H4): dar a ferramenta corporativa não elimina o uso pessoal; o motivo citado é ganhar tempo, e o Gartner recomenda melhorar a experiência das ferramentas corporativas para reduzir o shadow AI; pesquisa de opinião, release sem o relatório completo (pago)."
+        },
+        {
+          "titulo": "Gartner Identifies Critical GenAI Blind Spots That CIOs Must Urgently Address",
+          "organizacao": "Gartner",
+          "ano": "2025 (19/11/2025)",
+          "tipo_fonte": "analista/big tech",
+          "setor": "intersetorial",
+          "pais_regiao": "Global",
+          "url": "https://www.gartner.com/en/newsroom/press-releases/2025-11-19-gartner-identifies-critical-genai-blind-spots-that-cios-must-urgently-address0",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "69% das organizações suspeitam ou têm evidência de que funcionários usam IA generativa pública proibida (302 líderes de cibersegurança, mar–mai/2025) (web)",
+            "Previsão: até 2030, mais de 40% das empresas terão incidentes de segurança ou conformidade ligados a shadow AI não autorizado (web)",
+            "Previsão: até 2030, 50% das empresas terão atrasos de atualização ou alta de custos de manutenção por dívida técnica de IA generativa não gerida (web)"
+          ],
+          "resumo": "Release do Gartner (IT Symposium em Kochi, Índia) com os 'pontos cegos' da IA generativa: shadow AI, dívida técnica, soberania de dados, perda de competências e dependência de fornecedor. Para o shadow AI, traz a pesquisa com 302 líderes de cibersegurança e a previsão de incidentes até 2030, com recomendações de políticas claras para toda a empresa, auditoria do shadow AI e avaliação de risco de IA generativa nos processos de avaliação de SaaS.",
+          "relevancia": "Prevalência vista pelos líderes de segurança e previsão de risco (H7); pesquisa de opinião e previsão de analista, não medição."
+        },
+        {
+          "titulo": "AI at Work Is Here. Now Comes the Hard Part (2024 Work Trend Index Annual Report)",
+          "organizacao": "Microsoft e LinkedIn",
+          "ano": "2024 (08/05/2024)",
+          "tipo_fonte": "analista/big tech",
+          "setor": "intersetorial (trabalhadores do conhecimento)",
+          "pais_regiao": "Global (31 mercados, inclui Brasil)",
+          "url": "https://assets-c4akfrf5b4d3f4b7.z01.azurefd.net/assets/2024/05/2024_Work_Trend_Index_Annual_Report_6_7_24_666b2e2fafceb.pdf",
+          "arquivo": "12_shadow-ai-governanca/Microsoft-LinkedIn_2024_work-trend-index-ai-at-work.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F1"
+          ],
+          "metricas": [
+            "78% dos usuários de IA levam as próprias ferramentas de IA ao trabalho ('traga sua própria IA'), 80% nas pequenas e médias empresas (31.000 trabalhadores do conhecimento em 31 mercados, 15/02–28/03/2024) (p. 7; p. 27)",
+            "Por geração, usam no trabalho ferramentas de IA não fornecidas pela organização: geração Z 85%, millennials 78%, geração X 76%, boomers 73% (p. 8)",
+            "Brasil: 74% dos usuários de IA trazem a própria ferramenta (EUA 63%, América Latina 77%) e 83% dos trabalhadores do conhecimento usam IA generativa no trabalho (média global 75%) (p. 30; p. 32)",
+            "52% dos que usam IA no trabalho relutam em admitir o uso nas tarefas mais importantes; 53% temem parecer substituíveis (p. 7)",
+            "Outro motor do fenômeno, segundo o relatório (leitura da Microsoft, sem teste de causa): 68% dizem não dar conta do ritmo e do volume de trabalho e 46% se sentem esgotados (p. 9)"
+          ],
+          "resumo": "Edição 2024 do Work Trend Index da Microsoft e do LinkedIn, com pesquisa da Edelman Data & Intelligence com 31.000 trabalhadores do conhecimento em 31 mercados (fev–mar/2024), mais sinais do Microsoft 365 e do LinkedIn. Cunhou a expressão 'traga sua própria IA' (BYOAI) e traz o indicador por país, inclusive o Brasil.",
+          "relevancia": "Retrato de fev–mar/2024 do 'traga sua própria IA' (H1 e H2), com recorte Brasil; a Microsoft vende o Copilot e usa o dado para defender a IA oferecida pela empresa (conflito de interesse); pesquisa de opinião."
+        },
+        {
+          "titulo": "The 'shadow AI economy' is booming: Workers at 90% of companies say they use chatbots, but most of them are hiding it from IT",
+          "organizacao": "Fortune (cobrindo 'The GenAI Divide: State of AI in Business 2025', do MIT NANDA)",
+          "ano": "2025 (19/08/2025)",
+          "tipo_fonte": "imprensa",
+          "setor": "intersetorial",
+          "pais_regiao": "EUA (estudo com organizações de vários setores)",
+          "url": "https://fortune.com/2025/08/19/shadow-ai-economy-mit-study-genai-divide-llm-chatbots/",
+          "arquivo": "12_shadow-ai-governanca/Fortune_2025_shadow-ai-economy-mit-nanda.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Só 40% das empresas compraram assinatura oficial de LLM, mas funcionários de mais de 90% das empresas usam ferramentas pessoais de IA no trabalho com regularidade (MIT NANDA: mais de 300 iniciativas públicas analisadas, entrevistas em 52 organizações e 153 líderes pesquisados; publicado em ago/2025) (p. 2; p. 4)",
+            "95% das organizações relatam impacto zero no resultado das iniciativas formais de IA generativa, apesar de US$ 30 a 40 bilhões investidos (p. 3)",
+            "90% dos usuários preferem humanos para trabalho crítico; a IA é preferida para rascunho de e-mails (70%) e análises básicas (65%) (p. 7)"
+          ],
+          "resumo": "Reportagem da Fortune sobre o relatório do Projeto NANDA do MIT Media Lab, centrada na 'economia sombra da IA': o uso pessoal de ChatGPT, Claude e outras ferramentas de consumo avança enquanto as iniciativas oficiais ficam presas em piloto. Lista as causas apontadas pelo estudo (flexibilidade, encaixe no fluxo de trabalho e barreira baixa) e o ciclo em que o hábito pessoal reduz a tolerância às ferramentas corporativas.",
+          "relevancia": "Fonte secundária do dado de 40% × 90% do MIT NANDA (H2), cujo PDF está bloqueado no catálogo [M191]; a Fortune declara ter usado IA generativa no rascunho, revisado por editor; amostra pequena e não probabilística; a unidade é a empresa, não a pessoa."
+        },
+        {
+          "titulo": "Cisco 2024 Data Privacy Benchmark Study",
+          "organizacao": "Cisco",
+          "ano": "2024 (25/01/2024)",
+          "tipo_fonte": "empresa",
+          "setor": "intersetorial (profissionais de privacidade e segurança)",
+          "pais_regiao": "12 países (inclui Brasil)",
+          "url": "https://www.cisco.com/c/dam/en_us/about/doing_business/trust-center/docs/cisco-privacy-benchmark-study-2024.pdf",
+          "arquivo": "12_shadow-ai-governanca/Cisco_2024_data-privacy-benchmark-study.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "27% das organizações proibiram aplicações de IA generativa, ao menos temporariamente; 63% limitam os dados que podem ser inseridos e 61% limitam as ferramentas que os funcionários podem usar (2.600 profissionais de segurança e privacidade em 12 países, inclusive o Brasil, pesquisa do verão de 2023 no hemisfério norte) (p. 3; p. 22)",
+            "Entre os respondentes (profissionais de segurança e privacidade): 62% já inseriram informações sobre processos internos, 48% informações não públicas da empresa, 45% nomes ou dados de funcionários e 38% de clientes (p. 21)"
+          ],
+          "resumo": "Sétima edição do estudo anual de privacidade da Cisco, com pesquisa anônima entre 2.600 profissionais de segurança e privacidade em 12 países, inclusive o Brasil. A seção de IA generativa mostra as primeiras reações das empresas (limitar dados, limitar ferramentas, proibir) e o tipo de informação que os próprios profissionais já inseriram nas ferramentas.",
+          "relevancia": "Retrato de 2023 da primeira onda de proibições e do vazamento por digitação (H7 e H4); a Cisco vende segurança (conflito de interesse); não traz o recorte Brasil das perguntas de IA."
+        },
+        {
+          "titulo": "More than Half of Generative AI Adopters Use Unapproved Tools at Work (The Promises and Pitfalls of AI at Work, Generative AI Snapshot Research Series)",
+          "organizacao": "Salesforce (pesquisa com a YouGov)",
+          "ano": "2023 (15/11/2023)",
+          "tipo_fonte": "empresa",
+          "setor": "intersetorial",
+          "pais_regiao": "14 países (inclui Brasil)",
+          "url": "https://www.salesforce.com/news/stories/ai-at-work-research/",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "28% dos trabalhadores já usavam IA generativa no trabalho, mais da metade deles sem aprovação formal do empregador; outros 32% esperavam usar em breve (mais de 14.000 trabalhadores em 14 países, inclusive o Brasil, 18–31/10/2023) (web)",
+            "Quase 7 em cada 10 trabalhadores nunca concluíram ou receberam treinamento para usar IA generativa com segurança e ética (web)",
+            "Entre os que usam IA generativa no trabalho, 64% já apresentaram trabalho feito por IA generativa como próprio (web)"
+          ],
+          "resumo": "Página de notícias da Salesforce com a pesquisa 'The Promises and Pitfalls of AI at Work', feita com a YouGov em out/2023 com mais de 14.000 trabalhadores em 14 países, inclusive o Brasil. Mostra o uso de IA generativa sem aprovação formal, a falta de treinamento e políticas pouco claras ou inexistentes.",
+          "relevancia": "Retrato de 2023, um dos primeiros com amostra grande e Brasil na base (H1); a Salesforce vende IA corporativa (conflito de interesse); os percentuais de 55% (ferramentas não aprovadas) e 40% (ferramentas proibidas) citados por terceiros estão em imagens da página e não foram conferidos como texto."
+        },
+        {
+          "titulo": "A IA está pronta, mas os escritórios não: como o atraso na implementação de IA está custando clientes e talentos (release do Future of Professionals 2026)",
+          "organizacao": "Thomson Reuters",
+          "ano": "2026 (22/06/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "serviços profissionais (jurídico, tributário, auditoria, contabilidade, compliance e risco)",
+          "pais_regiao": "Global (62 países)",
+          "url": "https://www.thomsonreuters.com.br/pt/sala-de-imprensa/atraso-implementacao-ia-custa-clientes.html",
+          "arquivo": "12_shadow-ai-governanca/ThomsonReuters_2026_future-of-professionals-release-pt.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Um terço dos profissionais usa IA não aprovada pela organização, chegando a 41% entre os que dizem que a empresa avança muito devagar em IA (1.816 profissionais em 62 países, mar–abr/2026) (p. 3; p. 5)",
+            "41% não têm acesso a ferramentas profissionais que atendam aos requisitos de proteção de dados confidenciais, conteúdo verificado e resultados explicáveis (p. 3)",
+            "74% usam ferramentas de IA toda semana e 91% acham que a empresa está aquém do potencial da IA (p. 2)",
+            "62% dizem que o acesso a IA de nível profissional influenciaria a decisão de aceitar um emprego (p. 3)"
+          ],
+          "resumo": "Release oficial, em português, do relatório Future of Professionals 2026, com pesquisa global entre 1.816 profissionais das áreas jurídica, tributária, de auditoria, contabilidade, compliance, risco e comércio exterior (mar–abr/2026). Na leitura da própria Thomson Reuters, liga o shadow AI à lentidão das empresas e à falta de ferramentas profissionais adequadas, e aponta efeitos sobre talentos e clientes.",
+          "relevancia": "Indício para H2: o uso não aprovado é maior entre os que veem a empresa lenta em IA (41% contra um terço na média; associação, não efeito medido); pesquisa de opinião de empresa que vende IA para profissionais (conflito de interesse); o relatório completo não foi baixado."
+        },
+        {
+          "titulo": "38% dos profissionais no Brasil utilizam ferramentas de IA sem autorização da empresa, aponta Thomson Reuters",
+          "organizacao": "TI Inside (cobrindo o Future of Professionals 2026, da Thomson Reuters)",
+          "ano": "2026 (08/07/2026)",
+          "tipo_fonte": "imprensa",
+          "setor": "serviços profissionais",
+          "pais_regiao": "Brasil",
+          "url": "https://tiinside.com.br/08/07/2026/38-dos-profissionais-no-brasil-utilizam-ferramentas-de-ia-sem-autorizacao-da-empresa-aponta-thomson-reuters/",
+          "arquivo": "12_shadow-ai-governanca/TIInside_2026_thomson-reuters-38pct-brasil-ia-sem-autorizacao.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Brasil: 38% dos profissionais usam ferramentas de IA sem autorização da empresa e 39,1% dizem não ter acesso a nenhum serviço de IA oferecido pela empresa (Future of Professionals 2026; amostra brasileira não informada) (p. 1)",
+            "Brasil: 66% dizem que o uso de IA pela empresa pesa na decisão de aceitar ou recusar uma vaga; entre os que veem distância entre o potencial da IA e o que a empresa entrega, 18,2% pensam em sair em até 12 meses e 34,1% em até 24 meses (p. 1)"
+          ],
+          "resumo": "Nota de imprensa com o recorte brasileiro do Future of Professionals 2026: uso de IA sem autorização, falta de acesso a ferramenta corporativa e efeito sobre a retenção de talentos. Traz comentário de executivo de consultoria brasileira; não informa o tamanho da amostra do Brasil.",
+          "relevancia": "Único dado brasileiro achado que traz lado a lado o uso sem autorização e a falta de ferramenta corporativa (H2; a ligação entre os dois é da reportagem), mas é imprensa sem a fonte primária do recorte e sem amostra. Fontes em conflito: a Forbes Brasil escreveu em jun/2026 que o relatório não traz dados específicos sobre Brasil e América Latina, e os números de clientes que a TI Inside atribui ao Brasil (78%, 6% e 32%) são idênticos aos globais do release. Divergência registrada sem escolher entre as fontes; confirmar com a Thomson Reuters."
+        },
+        {
+          "titulo": "Executivos brasileiros admitem uso não autorizado de IA generativa na rotina do trabalho",
+          "organizacao": "Convergência Digital (cobrindo estudo da Peers Consulting + Technology e do TEC.Institute publicado pela MIT Technology Review Brasil)",
+          "ano": "2026 (24/09/2026)",
+          "tipo_fonte": "imprensa",
+          "setor": "intersetorial (12 setores, com peso de serviços financeiros)",
+          "pais_regiao": "Brasil",
+          "url": "https://convergenciadigital.com.br/carreira/executivos-brasileiros-admitem-uso-nao-autorizado-de-ia-generativa-na-rotina-do-trabalho/",
+          "arquivo": "12_shadow-ai-governanca/ConvergenciaDigital_2026_peers-tec-institute-shadow-ai-executivos.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "66% dos executivos concordam que colaboradores podem estar usando ferramentas públicas de IA generativa no trabalho sem aval da organização (120 respondentes quantitativos e 18 entrevistas, 138 participantes de 12 setores) (p. 1-2)",
+            "Por maturidade de política: 75% nas empresas sem regras claras, 70% com diretrizes básicas e fiscalização insatisfatória, 66% com políticas em criação e 64% com políticas rígidas, treinamento obrigatório e ferramentas homologadas (p. 2)",
+            "Meios de pagamento: todos os executivos do segmento (10 respostas) concordam que pode haver uso não autorizado, embora 45,5% digam ter políticas rígidas (p. 2)"
+          ],
+          "resumo": "Reportagem sobre o recorte de shadow AI do estudo 'Do piloto ao resultado: a rentabilidade da IA', da Peers e do TEC.Institute, publicado pela MIT Technology Review Brasil (o relatório principal está no catálogo como M018, mas sem esses números). Cruza a percepção de uso não autorizado com a maturidade das políticas internas.",
+          "relevancia": "Dado brasileiro para H4 e H2: a percepção de uso por fora é só 11 pontos menor nas empresas com regras rígidas do que nas sem regras claras (comparação entre grupos de tamanho não informado, não efeito medido); é percepção de executivos (não medição), amostra pequena e concentrada em finanças, via imprensa."
+        },
+        {
+          "titulo": "Nutanix Enterprise Cloud Index Finds AI Is Driving Rapid Container Adoption while Shadow IT and Organizational Silos Create AI Risks",
+          "organizacao": "Nutanix (pesquisa da Wakefield Research)",
+          "ano": "2026 (03/03/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "intersetorial (executivos de nuvem, TI e engenharia)",
+          "pais_regiao": "Global (14 países, inclui Brasil)",
+          "url": "https://www.nutanix.com/press-releases/2026/nutanix-enterprise-cloud-index-finds-ai-is-driving-rapid-container-adoption",
+          "arquivo": "12_shadow-ai-governanca/Nutanix_2026_enterprise-cloud-index-release.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "79% dos executivos encontram aplicações ou agentes de IA implantados por funcionários de áreas fora de TI (1.600 executivos de nuvem, TI e engenharia de empresas com 500 ou mais funcionários em 14 países, nov/2025) (p. 2-3)",
+            "87% acham que o uso não autorizado de IA traz risco, inclusive exposição de dados sensíveis e de propriedade intelectual (p. 2)",
+            "82% acham que os silos entre áreas de negócio e TI dificultam executar iniciativas de tecnologia (p. 2)"
+          ],
+          "resumo": "Release da oitava edição do Enterprise Cloud Index, pesquisa encomendada pela Nutanix à Wakefield Research com 1.600 executivos de nuvem, TI e engenharia em 14 países, inclusive o Brasil (nov/2025). Além de contêineres e soberania de dados, mede a presença de aplicações e agentes de IA criados fora de TI e a percepção de risco.",
+          "relevancia": "Prevalência de aplicações e agentes criados fora de TI, ponte entre H1 e H6 (vibe coding); pesquisa de opinião de fornecedor de infraestrutura (conflito de interesse); o relatório completo é aberto e não foi baixado."
+        },
+        {
+          "titulo": "Nutanix aponta que 81% dos executivos veem risco no uso de IA sem supervisão",
+          "organizacao": "IT Forum (cobrindo o Enterprise Cloud Index 2026 da Nutanix)",
+          "ano": "2026 (29/06/2026)",
+          "tipo_fonte": "imprensa",
+          "setor": "intersetorial (executivos de nuvem, TI e engenharia)",
+          "pais_regiao": "Brasil",
+          "url": "https://itforum.com.br/noticias/nutanix-81-executivos-risco-no-uso-de-ia/",
+          "arquivo": "12_shadow-ai-governanca/ITForum_2026_nutanix-eci-brasil-shadow-ai.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Brasil: 74% dos executivos já encontraram aplicações ou agentes de IA implantados por colaboradores de outras áreas sem aval da TI (global: 79%) (100 respondentes no Brasil, 13–23/11/2025, margem de 9,8 pontos) (p. 2; p. 4)",
+            "Brasil: 81% acham que o uso não supervisionado de IA representa risco ao negócio; 82% dizem que os silos entre tecnologia e negócio prejudicam a execução (p. 2)",
+            "Brasil: 72% classificam a soberania de dados como prioridade alta ou obrigatória (global: 80%) (p. 3)"
+          ],
+          "resumo": "Reportagem sobre a apresentação do recorte brasileiro do Enterprise Cloud Index 2026 em coletiva da Nutanix Brasil: shadow AI, silos entre TI e negócio, contêineres e soberania de dados, com cem respondentes brasileiros e a margem de erro do recorte.",
+          "relevancia": "Único recorte brasileiro achado sobre aplicações e agentes de IA criados fora de TI (H1 e H6); imprensa sobre pesquisa de fornecedor, amostra brasileira pequena (100) e divergência com o release global no percentual de risco (81% × 87%)."
+        },
+        {
+          "titulo": "Employees Drive Rising Cybersecurity Risk As Shadow AI and Unsafe Work Habits Surge, WatchGuard Global Survey Finds (2026 Cybersecurity Hygiene Report)",
+          "organizacao": "WatchGuard Technologies",
+          "ano": "2026 (14/07/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "intersetorial (pequenas e médias empresas)",
+          "pais_regiao": "8 países (inclui Brasil)",
+          "url": "https://www.watchguard.com/br/wgrd-news/press-releases/employees-drive-rising-cybersecurity-risk-shadow-ai-and-unsafe-work-habits",
+          "arquivo": "12_shadow-ai-governanca/WatchGuard_2026_cyber-hygiene-report-release.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "64% dos funcionários admitem usar ferramentas de IA não autorizadas no trabalho (684 funcionários de empresas de 50 a 500 pessoas nos EUA, Reino Unido, Alemanha, França, Espanha, Austrália, México e Brasil, abr/2026) (p. 1; p. 3)",
+            "Menos de 30% acham que a empresa tem inventário preciso do software em uso e quase 40% dizem que a empresa opera sem visibilidade total dos aplicativos usados (p. 2)",
+            "55% usam dispositivos de trabalho para atividades pessoais; 76% reutilizam senhas (p. 1-2)"
+          ],
+          "resumo": "Release do relatório de higiene de cibersegurança da WatchGuard, com pesquisa on-line entre 684 funcionários de pequenas e médias empresas em oito países, inclusive o Brasil (abr/2026). O shadow AI aparece ao lado de outros hábitos de risco e da falta de inventário de software.",
+          "relevancia": "Prevalência autodeclarada em empresas de 50 a 500 pessoas, não em grandes empresas, e sem recorte por país; fornecedor de segurança (conflito de interesse); o relatório completo exige formulário."
+        },
+        {
+          "titulo": "IBM Report: 13% Of Organizations Reported Breaches Of AI Models Or Applications, 97% Of Which Reported Lacking Proper AI Access Controls (Cost of a Data Breach Report 2025)",
+          "organizacao": "IBM (pesquisa do Ponemon Institute)",
+          "ano": "2025 (30/07/2025)",
+          "tipo_fonte": "empresa",
+          "setor": "intersetorial (organizações que sofreram vazamento de dados)",
+          "pais_regiao": "Global",
+          "url": "https://newsroom.ibm.com/2025-07-30-ibm-report-13-of-organizations-reported-breaches-of-ai-models-or-applications,-97-of-which-reported-lacking-proper-ai-access-controls",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Uma em cada cinco organizações relatou vazamento por shadow AI, e só 37% têm políticas para gerir IA ou detectar shadow AI (600 organizações com vazamentos entre mar/2024 e fev/2025) (web)",
+            "Organizações com nível alto de shadow AI tiveram custo de vazamento US$ 670 mil maior, em média, do que as com nível baixo ou nenhum (web)",
+            "Incidentes com shadow AI comprometeram mais dados pessoais (65%) e propriedade intelectual (40%) do que a média global (53% e 33%) (web)",
+            "13% relataram vazamento de modelos ou aplicações de IA; destes, 97% não tinham controles de acesso para IA (web)",
+            "63% das organizações com vazamento não têm política de governança de IA ou ainda a desenvolvem; das que têm, só 34% auditam regularmente o uso de IA não autorizada (web)"
+          ],
+          "resumo": "Release oficial da edição 2025 do relatório de custo de vazamentos de dados, feito pelo Ponemon Institute com patrocínio e análise da IBM a partir de 600 organizações que sofreram vazamentos entre mar/2024 e fev/2025. Foi a primeira edição a medir segurança e governança de IA e o shadow AI, com prevalência, custo adicional e tipo de dado exposto.",
+          "relevancia": "Principal medição de custo do shadow AI (H7), feita sobre incidentes reais de organizações com vazamento; a IBM vende segurança e IA (conflito de interesse); o relatório completo exige cadastro e não foi baixado."
+        },
+        {
+          "titulo": "IBM Study: One in Four Malicious Breaches are AI-Enabled, Costing Companies $6 Million on Average (Cost of a Data Breach Report 2026)",
+          "organizacao": "IBM (pesquisa do Ponemon Institute)",
+          "ano": "2026 (29/07/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "intersetorial (organizações que sofreram vazamento de dados)",
+          "pais_regiao": "Global",
+          "url": "https://newsroom.ibm.com/2026-07-29-ibm-study-one-in-four-malicious-breaches-are-ai-enabled,-costing-companies-6-million-on-average",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "Custo médio global de vazamento de US$ 4,99 milhões; os vazamentos maliciosos com uso de IA pelo atacante (um em cada quatro, alta de 56%) custaram US$ 6 milhões em média (602 organizações, mar/2025–fev/2026) (web)",
+            "Mais de 20% das organizações relataram vazamento que atingiu modelos ou aplicações de IA; as causas mais comuns foram APIs, aplicações ou plug-ins comprometidos (27%) e configuração errada de nuvem em cargas de IA (27%) (web)",
+            "Ataques com IA concentrados em infraestrutura crítica (62%); vazamentos custaram em média US$ 6,3 milhões em serviços financeiros e US$ 5,2 milhões em energia (web)"
+          ],
+          "resumo": "Release oficial da edição 2026 do relatório de custo de vazamentos (Ponemon Institute para a IBM, 602 organizações, mar/2025–fev/2026). O foco do release é o ataque com IA e a infraestrutura crítica; os números de shadow AI desta edição não aparecem no release e estão no relatório completo, atrás de formulário.",
+          "relevancia": "Fonte primária da edição 2026 e do método, com o custo médio de base e o recorte de energia; para o shadow AI, ver o resumo de terceiro (Baker Donelson) e o relatório completo; a IBM vende segurança e IA (conflito de interesse)."
+        },
+        {
+          "titulo": "Ten Takeaways from IBM's 2026 Cost of a Data Breach Report",
+          "organizacao": "Baker Donelson (escritório de advocacia dos EUA), resumindo o relatório da IBM",
+          "ano": "2026 (30/07/2026)",
+          "tipo_fonte": "outro",
+          "setor": "intersetorial",
+          "pais_regiao": "Global (com recorte EUA)",
+          "url": "https://www.bakerdonelson.com/ten-takeaways-from-ibms-2026-cost-of-a-data-breach-report",
+          "arquivo": "12_shadow-ai-governanca/BakerDonelson_2026_ten-takeaways-ibm-cost-data-breach.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Incidentes com shadow AI de funcionários subiram para 43%, contra 20% em 2025, e custaram US$ 5,39 milhões em média, 'contra US$ 4,63 milhões' (o resumo não diz a base dos 43% nem a que se refere a comparação de custo) (IBM/Ponemon, 602 vazamentos em 17 setores, mar/2025–fev/2026) (p. 1-2)",
+            "Entre as organizações com incidente ligado a IA, 92% não tinham controles de acesso adequados para IA e 68% não tinham políticas de governança de IA (o resumo compara com 63% no ano anterior, que em 2025 se referiam a todas as organizações com vazamento: bases diferentes); só 19% relatam coordenação entre governança e segurança (p. 2)",
+            "Custo médio global de US$ 4,99 milhões (+12%) e de US$ 11,5 milhões nos EUA (p. 1)"
+          ],
+          "resumo": "Boletim de um escritório de advocacia dos EUA com dez conclusões do relatório IBM 2026 e recomendações. É a fonte achada, fora de blogs de fornecedores de segurança, que traz os números de shadow AI da edição 2026: prevalência, custo, falta de controles e de governança.",
+          "relevancia": "Atualiza para 2026 o custo do shadow AI (H7), com mais que o dobro de incidentes em um ano segundo o resumo (base não explicitada); resumo de escritório de advocacia que vende serviços de privacidade, cibersegurança e IA (interesse no tema, não em ferramenta), que não substitui o relatório completo, atrás de formulário."
+        },
+        {
+          "titulo": "From Payrolls to Patents: The Spectrum of Data Leaked into GenAI",
+          "organizacao": "Harmonic Security",
+          "ano": "2025 (jan/2025; dados do 4º tri/2024)",
+          "tipo_fonte": "empresa",
+          "setor": "segurança da informação (clientes de vários setores)",
+          "pais_regiao": "Global (clientes da empresa)",
+          "url": "https://www.harmonic.security/resources/from-payrolls-to-patents-the-spectrum-of-data-leaked-into-genai",
+          "arquivo": "12_shadow-ai-governanca/Harmonic_2025_from-payrolls-to-patents-data-leaked-genai.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "8,5% dos prompts enviados a ferramentas de IA generativa continham dados sensíveis (dezenas de milhares de prompts em ChatGPT, Copilot, Gemini, Claude e Perplexity, 4º tri/2024) (p. 2)",
+            "Dos prompts sensíveis: dados de clientes 45,77%, de funcionários 26,83%, jurídicos e financeiros 14,88%, políticas e relatórios de segurança 6,88% e código sensível 5,64% (p. 2)",
+            "63,8% dos usuários do ChatGPT usavam o plano gratuito, por onde passaram 53,5% dos prompts sensíveis; 58,62% dos usuários do Gemini, 75% dos do Claude e 50,48% dos do Perplexity também estavam em planos gratuitos (p. 7)"
+          ],
+          "resumo": "Relatório de um fornecedor de controle de uso de IA, com análise dos prompts enviados por funcionários de clientes a cinco ferramentas de IA generativa no 4º tri/2024. Mede a parcela de prompts com dados sensíveis, o tipo de dado e o uso de planos gratuitos, que não têm as proteções das versões corporativas. O PDF é só imagem (sem camada de texto); os números foram conferidos visualmente.",
+          "relevancia": "Medição do conteúdo dos prompts (não pesquisa de opinião) que liga o shadow AI ao uso de planos gratuitos (H7); a Harmonic vende controle de uso de IA (conflito de interesse) e o método e a base de clientes não são detalhados."
+        },
+        {
+          "titulo": "Samsung bans ChatGPT among employees after sensitive code leak",
+          "organizacao": "Forbes (edição australiana), com base em reportagem da Bloomberg",
+          "ano": "2023 (02/05/2023)",
+          "tipo_fonte": "imprensa",
+          "setor": "eletrônicos, bancos e varejo on-line",
+          "pais_regiao": "Coreia do Sul e EUA",
+          "url": "https://www.forbes.com.au/news/innovation/samsung-bans-chatgpt-among-employees-after-sensitive-code-leak/",
+          "arquivo": "12_shadow-ai-governanca/ForbesAU_2023_samsung-bans-chatgpt-code-leak.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "A Samsung Electronics proibiu o uso de ChatGPT e outros chatbots de IA pelos funcionários depois que um engenheiro enviou código-fonte interno sensível ao ChatGPT em abr/2023 (memorando revelado pela Bloomberg) (p. 1-2)",
+            "A Amazon alertou os funcionários em jan/2023 a não compartilhar código ou informação confidencial com o ChatGPT; o JPMorgan Chase restringiu fortemente o uso em fev/2023, seguido por Bank of America, Citigroup, Deutsche Bank, Wells Fargo e Goldman Sachs (p. 2)"
+          ],
+          "resumo": "Reportagem sobre o caso mais citado de vazamento por IA pública: o envio de código-fonte da Samsung ao ChatGPT e a proibição que se seguiu. Contextualiza a primeira onda de restrições em grandes empresas de tecnologia e bancos dos EUA no início de 2023.",
+          "relevancia": "Caso público de vazamento e da primeira onda de proibições (H7 e H4); a reportagem original da Bloomberg é paga, e a página da Forbes exibe convite de cadastro sobreposto, mas o texto é público."
+        },
+        {
+          "titulo": "Microsoft Fiscal Year 2026 Second Quarter Earnings Conference Call (transcrição oficial)",
+          "organizacao": "Microsoft",
+          "ano": "2026 (28/01/2026)",
+          "tipo_fonte": "analista/big tech",
+          "setor": "tecnologia (software e nuvem)",
+          "pais_regiao": "Global",
+          "url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q2",
+          "arquivo": "12_shadow-ai-governanca/Microsoft_2026_earnings-call-fy26-q2.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "15 milhões de licenças pagas do Microsoft 365 Copilot e 'múltiplos disso' em usuários corporativos do Chat; adições de licenças no trimestre mais de 160% maiores que no ano anterior (p. 1; p. 4)",
+            "Usuários ativos diários do Microsoft 365 Copilot cresceram 10 vezes em um ano; conversas por usuário dobraram; clientes com mais de 35 mil licenças triplicaram (p. 4)",
+            "Assentos comerciais pagos do Microsoft 365 cresceram 6% e passaram de 450 milhões, com expansão sobretudo em pequenas e médias empresas e trabalhadores de linha de frente (p. 6)",
+            "O agente Researcher do Microsoft 365 Copilot usa modelos da OpenAI e da Anthropic (Claude); mais de 1.500 clientes usaram modelos das duas no Foundry (p. 3-4)"
+          ],
+          "resumo": "Transcrição oficial da teleconferência de resultados do 2º trimestre do ano fiscal 2026 da Microsoft. Traz o número absoluto de licenças pagas do Microsoft 365 Copilot (15 milhões), junto com o tamanho da base comercial paga do Microsoft 365 e indicadores relativos de uso.",
+          "relevancia": "Dado oficial de licença paga e base instalada global para H3 (licença × uso), não comparável diretamente com os 89% da FGV [M209], que medem participação na base de empresas brasileiras; declaração da própria Microsoft, que vende o Copilot (conflito de interesse); indicadores de uso sem base absoluta."
+        },
+        {
+          "titulo": "Microsoft Fiscal Year 2026 Third Quarter Earnings Conference Call (transcrição oficial)",
+          "organizacao": "Microsoft",
+          "ano": "2026 (29/04/2026)",
+          "tipo_fonte": "analista/big tech",
+          "setor": "tecnologia (software e nuvem)",
+          "pais_regiao": "Global",
+          "url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q3",
+          "arquivo": "12_shadow-ai-governanca/Microsoft_2026_earnings-call-fy26-q3.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F1"
+          ],
+          "metricas": [
+            "Mais de 20 milhões de licenças pagas do Microsoft 365 Copilot; adições de licenças +250% sobre o ano anterior; clientes com mais de 50 mil licenças quadruplicaram (p. 3)",
+            "Accenture com mais de 740 mil licenças; Bayer, Johnson & Johnson, Mercedes e Roche comprometidas com 90 mil ou mais cada (p. 3)",
+            "No Chat do Microsoft 365 Copilot, acesso a vários modelos por padrão, com roteamento automático (p. 3)",
+            "Consultas por usuário quase +20% no trimestre; engajamento semanal no mesmo nível do Outlook (p. 4)",
+            "A Bayer usa vários modelos no Foundry para criar a sua plataforma interna de agentes, com mais de 20 mil usuários ativos por mês (p. 2)"
+          ],
+          "resumo": "Transcrição oficial da teleconferência de resultados do 3º trimestre do ano fiscal 2026 da Microsoft, com a série de licenças pagas do Copilot, grandes contratos nomeados, a abertura do Chat do Copilot a vários modelos e indicadores de engajamento.",
+          "relevancia": "Mostra a Microsoft abrindo o Copilot a outros modelos (H5) e a escala dos contratos, inclusive de uma empresa do agro (Bayer) que, segundo a Microsoft, se comprometeu com 90 mil ou mais licenças de Copilot e usa plataforma própria de agentes com vários modelos; declaração da empresa (conflito de interesse)."
+        },
+        {
+          "titulo": "Microsoft Fiscal Year 2026 Fourth Quarter Earnings Conference Call (transcrição oficial)",
+          "organizacao": "Microsoft",
+          "ano": "2026 (29/07/2026)",
+          "tipo_fonte": "analista/big tech",
+          "setor": "tecnologia (software e nuvem)",
+          "pais_regiao": "Global",
+          "url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4",
+          "arquivo": "12_shadow-ai-governanca/Microsoft_2026_earnings-call-fy26-q4.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Mais de 30 milhões de licenças pagas do Microsoft 365 Copilot, com adições líquidas mais que dobrando no trimestre (p. 3; p. 6)",
+            "Clientes que implantam o Copilot para a maioria dos trabalhadores do conhecimento cresceram quase 75% no trimestre; clientes com mais de 50 mil licenças, mais de 7 vezes em um ano (p. 4)",
+            "Conversas por usuário quase dobraram em um ano; engajamento semanal médio no nível do Outlook e do Teams (p. 4)",
+            "Assentos comerciais pagos do Microsoft 365 cresceram 6% em um ano; novas licenças de menor receita por usuário nos planos de linha de frente e de pequenas e médias empresas (p. 6; p. 8)"
+          ],
+          "resumo": "Transcrição oficial da teleconferência de resultados do 4º trimestre do ano fiscal 2026 da Microsoft, que fecha a série de licenças pagas do Microsoft 365 Copilot no ano (15, 20 e 30 milhões) e traz indicadores de profundidade de uso e o novo pacote E7.",
+          "relevancia": "Último dado oficial de licenças pagas antes do corte da pesquisa (H3); declaração da empresa, que vende o Copilot (conflito de interesse); os indicadores de uso são relativos e não permitem calcular o uso ativo por licença."
+        },
+        {
+          "titulo": "Sucesso do ChatGPT contra o Copilot alimenta a rivalidade entre OpenAI e Microsoft",
+          "organizacao": "Bloomberg (versão em português publicada pela Bloomberg Línea)",
+          "ano": "2025 (24/06/2025)",
+          "tipo_fonte": "imprensa",
+          "setor": "intersetorial (farmacêutica, consultoria, seguros, serviços financeiros)",
+          "pais_regiao": "EUA",
+          "url": "https://www.bloomberglinea.com.br/tech/sucesso-do-chatgpt-contra-o-copilot-alimenta-a-rivalidade-entre-openai-e-microsoft/",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Amgen anunciou planos de contratar o Copilot para 20 mil funcionários; 13 meses depois, os funcionários usam o ChatGPT, e o Copilot fica para Outlook e Teams (web)",
+            "Bain: ChatGPT para cerca de 16 mil funcionários e Copilot usado por cerca de 2 mil; New York Life liberou ChatGPT e Copilot para os 12 mil funcionários para comparar (web)",
+            "Microsoft: Copilot usado por 70% da Fortune 500 e usuários pagantes triplicados em um ano; OpenAI: 3 milhões de usuários corporativos pagantes (web)",
+            "Preço: Copilot a US$ 30 por usuário por mês, segundo vendedores da Microsoft, contra até US$ 60 do ChatGPT Enterprise, segundo o Gartner (web)"
+          ],
+          "resumo": "Reportagem da Bloomberg (com base em entrevistas com mais de duas dúzias de clientes e vendedores) sobre empresas que compraram o Copilot e viram os funcionários preferirem o ChatGPT, já conhecido em casa. Traz casos de uma ferramenta, das duas lado a lado e de grandes contratos de Copilot.",
+          "relevancia": "Evidência de casos para H3 (o Copilot ganhou a licença, não o uso) e para a explicação 'hábito pessoal' dada pela reportagem; imprensa com fontes anônimas e casos selecionados, não amostra; a versão original em inglês é paga."
+        },
+        {
+          "titulo": "Jefferies raises its Microsoft price target to $600, saying Copilot adoption is growing",
+          "organizacao": "Sherwood News (cobrindo levantamento da Jefferies)",
+          "ano": "2025 (15/07/2025)",
+          "tipo_fonte": "imprensa",
+          "setor": "intersetorial (grandes empresas)",
+          "pais_regiao": "EUA",
+          "url": "https://www.sherwood.news/tech/jefferies-raises-its-microsoft-price-target-to-usd600-saying-copilot/",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Entre 40 decisores de grandes empresas, 82% adotaram o Microsoft 365 Copilot e 71% o ChatGPT (Jefferies, jul/2025) (web)",
+            "57% aumentam muito ou um pouco o gasto com Azure por causa do Copilot, contra 36% na rodada de setembro anterior (web)"
+          ],
+          "resumo": "Nota de imprensa sobre o levantamento do banco Jefferies com 40 decisores de grandes empresas, que levou à alta do preço-alvo da ação da Microsoft. A própria matéria lembra que o resultado contrasta com a reportagem da Bloomberg sobre funcionários preferindo o ChatGPT e que decisores e funcionários têm incentivos diferentes.",
+          "relevancia": "Mostra a visão do comprador (adoção pela empresa), não do usuário (H3); amostra muito pequena, feita por banco para análise de ação; o relatório da Jefferies não é público."
+        },
+        {
+          "titulo": "The State of Enterprise AI: Budgets Are Growing & Platform Lineups Remain in Flux",
+          "organizacao": "Morning Consult",
+          "ano": "2026 (03/08/2026)",
+          "tipo_fonte": "consultoria",
+          "setor": "intersetorial",
+          "pais_regiao": "EUA",
+          "url": "https://morningconsult.com/articles/state-of-enterprise-ai",
+          "arquivo": "12_shadow-ai-governanca/MorningConsult_2026_state-of-enterprise-ai.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F1"
+          ],
+          "metricas": [
+            "Plataformas aprovadas ou em uso nas empresas com 5 mil ou mais funcionários: Microsoft Copilot 73%, Gemini 47%, ChatGPT Enterprise 44%, Claude 20%; nas de 1 mil a 4,9 mil, Copilot 82% (3.003 decisores nos EUA, 21–24/07/2026; margem de 4 pontos por segmento) (p. 2-3)",
+            "No total de empresas de todos os portes, Gemini 55%, ChatGPT 48% e Copilot 45% (p. 3)",
+            "Só 27% das maiores empresas usam uma única plataforma principal; cerca de metade mantém uma pequena lista de ferramentas aprovadas; 44% adicionaram plataforma no último ano e 5% reduziram (p. 3)",
+            "36% das maiores empresas podem trocar a plataforma principal em 12 meses; custo total fica em 8º de 12 critérios, atrás de precisão (78%), segurança e privacidade (75%) e conformidade (73%) (p. 2; p. 7; p. 10)"
+          ],
+          "resumo": "Pesquisa da Morning Consult com 3.003 decisores de empresas dos EUA (jul/2026), com amostras separadas para empresas de 1 mil a 4,9 mil e de 5 mil ou mais funcionários. Mede quais plataformas de IA estão aprovadas ou em uso, quantas plataformas as empresas mantêm, planos para 12 meses e critérios de escolha.",
+          "relevancia": "Retrato recente e com amostra grande para H3 e H5: o Copilot lidera em aprovação nas grandes empresas, mas a maioria convive com várias plataformas; mede aprovação ou uso em algum lugar da organização, não intensidade de uso; pesquisa de opinião de instituto que vende painéis B2B."
+        },
+        {
+          "titulo": "Gartner: Microsoft Copilot hype offset by ROI and readiness realities",
+          "organizacao": "techpartner.news (cobrindo a 2025 Gartner Microsoft 365 and Copilot Survey, apresentada em conferência do Gartner)",
+          "ano": "2025 (26/06/2025)",
+          "tipo_fonte": "imprensa",
+          "setor": "intersetorial (líderes de TI)",
+          "pais_regiao": "Global (apresentação em Sydney, Austrália)",
+          "url": "https://www.techpartner.news/news/gartner-microsoft-copilot-hype-offset-by-roi-and-readiness-realities-618118",
+          "arquivo": "12_shadow-ai-governanca/TechPartnerNews_2025_gartner-copilot-survey-roi.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "40% dos 187 líderes de TI pesquisados estavam pilotando o Microsoft 365 Copilot e 19% planejavam pilotar; dos que terminaram o piloto, 5% partiam para implantação maior em 2025 (2025 Gartner Microsoft 365 and Copilot Survey) (p. 1)",
+            "Quase metade dos 127 que pilotaram ou implantaram deu nota 'algum valor, promissor'; impacto, valor e retorno seguem difíceis de medir (p. 1)",
+            "Esforço de mitigação de risco 'significativamente maior' que o planejado: excesso de conteúdo, compartilhamento indevido e perda de dados, governança fraca do Microsoft 365 (p. 2)",
+            "Segundo o analista, a configuração padrão de adoção da Microsoft conta um uso em 28 dias; ele sugere ao menos um uso por semana ('conservadoramente'), provavelmente um por dia para justificar a licença, e alternativas à licença cheia, como o Copilot Chat gratuito com proteção de dados (p. 3)"
+          ],
+          "resumo": "Reportagem sobre palestra de um vice-presidente de pesquisa do Gartner numa conferência em Sydney (mai/2025), com resultados da pesquisa do Gartner sobre Microsoft 365 e Copilot de 2025 (187 líderes de TI). Mostra empresas em piloto, valor ainda difícil de provar, custo de preparar os dados e a governança, e o problema de medir adoção.",
+          "relevancia": "Evidência independente da Microsoft para H3 (licença não é uso: para o analista, a métrica padrão de adoção é frouxa) e para o custo oculto de governança; imprensa sobre pesquisa paga do Gartner; amostra de líderes de TI, não de usuários."
+        },
+        {
+          "titulo": "Okta、業務アプリの利用動向に関する年次調査「Businesses at Work 2026」の結果を発表 (Okta divulga o Businesses at Work 2026)",
+          "organizacao": "Okta (Okta Japan)",
+          "ano": "2026 (30/04/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "intersetorial (clientes de serviço de identidade)",
+          "pais_regiao": "Global (com recorte Japão)",
+          "url": "https://www.okta.com/ja-jp/newsroom/press-releases/okta-businesses-at-work2026/",
+          "arquivo": "12_shadow-ai-governanca/Okta_2026_businesses-at-work-release-japao.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Por número de clientes, os aplicativos mais usados são Microsoft 365 (1º), Google Workspace (2º), AWS (3º), Salesforce (4º) e Zoom (5º) (dados anonimizados da rede de integrações da Okta, 01/11/2024–31/10/2025) (p. 3; p. 5)",
+            "Entre os clientes de Microsoft 365 da Okta, pela primeira vez 51% também usam Google Workspace e 51% AWS; Zoom 48%, Salesforce 47%, Slack 42% (p. 8)",
+            "A própria Okta adverte que os clientes de Microsoft 365 que usam a Okta podem diferir dos que usam a identidade da Microsoft (Azure Active Directory) ou outra plataforma (p. 11)"
+          ],
+          "resumo": "Release oficial da Okta Japão com os resultados do relatório anual Businesses at Work 2026, baseado em dados anonimizados de uso de aplicativos dos clientes da Okta no mundo (nov/2024–out/2025). Mostra o Microsoft 365 como aplicativo corporativo mais difundido e a convivência crescente com Google Workspace e outros fornecedores.",
+          "relevancia": "Referência fora do Brasil para a hipótese de que a base é Microsoft (não comparável diretamente com os 89% da FGV [M209]: a Okta conta clientes que usam cada aplicativo pela própria Okta), com a ressalva de que metade dos clientes também usa Google Workspace; medição de uso entre clientes de um fornecedor de identidade (viés para empresas com vários fornecedores); o relatório completo exige formulário."
+        },
+        {
+          "titulo": "2026 Microsoft 365 and Copilot Survey Reveals Workplace Trends",
+          "organizacao": "Gartner",
+          "ano": "2026 (29/09/2026)",
+          "tipo_fonte": "analista/big tech",
+          "setor": "intersetorial",
+          "pais_regiao": "Global",
+          "url": "https://www.gartner.com/en/documents/8443513",
+          "arquivo": "",
+          "status": "pago",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [],
+          "resumo": "Pesquisa do Gartner de 2026 sobre como as organizações usam, governam e apoiam o Microsoft 365 e o Microsoft Copilot. Só o resumo é público; o conteúdo é exclusivo para clientes.",
+          "relevancia": "Provável fonte de dados recentes de uso do Copilot e de convivência com outros assistentes (pista de 'dois terços dos clientes de Copilot usam outros assistentes', não confirmada em fonte pública); pago."
+        }
+      ],
+      "formularios": [
+        {
+          "recomendacao": "envio manual",
+          "relevancia": "media",
+          "organizacao": "WatchGuard Technologies",
+          "titulo": "2026 Cybersecurity Hygiene Report (relatório completo)",
+          "url": "https://www.watchguard.com/br/wgrd-resource-center/2026-cyber-hygiene-report",
+          "tipo_acesso": "formulario Marketo",
+          "campos": "não preenchido (dados de contato corporativo)",
+          "justificativa": "O release traz só o número global (64%, 684 funcionários em 8 países com o Brasil); o relatório pode ter o recorte por país.",
+          "frentes": [
+            "F2"
+          ]
+        },
+        {
+          "recomendacao": "envio manual",
+          "relevancia": "alta",
+          "organizacao": "IBM (Ponemon Institute)",
+          "titulo": "Cost of a Data Breach Report 2026 (relatório completo)",
+          "url": "https://www.ibm.com/forms/mkt-whitepaper-90d12",
+          "tipo_acesso": "formulario",
+          "campos": "não preenchido (dados de contato corporativo)",
+          "justificativa": "Tem os números de shadow AI de 2026 (43% das organizações com vazamento; US$ 5,39 milhões), hoje conferidos só em resumo de terceiro; o release oficial não os traz.",
+          "frentes": [
+            "F2"
+          ]
+        },
+        {
+          "recomendacao": "envio manual",
+          "relevancia": "media",
+          "organizacao": "Okta",
+          "titulo": "Businesses at Work 2026 (relatório completo)",
+          "url": "https://www.okta.com/reports/businesses-at-work/",
+          "tipo_acesso": "formulario",
+          "campos": "não preenchido",
+          "justificativa": "O relatório completo pode trazer percentuais de clientes por aplicativo (Microsoft 365, Google Workspace) e por país.",
+          "frentes": [
+            "F2"
+          ]
+        }
+      ],
+      "lacunas": [
+        "Netskope: o relatório chama de 'adoption' os 77% do ChatGPT, 69% do Gemini e 52% do Microsoft 365 Copilot sem dizer no texto se a base é o percentual de organizações; nas edições anteriores era o percentual de organizações com usuários do app. Não usar como participação de usuários.",
+        "Netskope 47% e Verizon 67% medem coisas diferentes: a Netskope mede usuários de IA generativa com apps pessoais na base de clientes da plataforma; o Verizon mede contas não corporativas em dispositivos corporativos na base de eventos de prevenção de perda de dados. Não somar nem comparar sem dizer a base.",
+        "PagerDuty: o release oficial não traz a data de campo; a imprensa cita 9 a 20/04/2026, não conferido na fonte primária. O relatório completo não foi baixado.",
+        "MIT NANDA ('The GenAI Divide', ago/2025): o PDF oficial está bloqueado no catálogo [M191] e só há cópia no Internet Archive (decisão manual pendente). O dado de 40% × 90% entrou pela Fortune (imprensa); conferir no original antes de usar como número de destaque.",
+        "Salesforce (out/2023): os percentuais de 55% (uso de ferramentas não aprovadas) e 40% (uso de ferramentas proibidas), citados por terceiros, não aparecem no texto da página oficial (provavelmente estão em imagens); no texto conferido só consta \"mais da metade\" sem aprovação formal.",
+        "Software AG (segundo a imprensa: 6.000 trabalhadores do conhecimento nos EUA, Reino Unido e Alemanha, set/2024; metade usa shadow AI e 46% não abririam mão mesmo com proibição): números não conferidos por esta frente; os arquivos foram baixados pela frente B (12_shadow-ai-governanca/SoftwareAG_2024_*) e não foram registrados aqui para não duplicar.",
+        "Thomson Reuters (Future of Professionals 2026): o recorte brasileiro (38% sem autorização; 39,1% sem acesso a ferramenta da empresa) só foi achado na TI Inside, sem amostra; a Forbes Brasil escreveu em jun/2026 que o relatório não traz dados específicos sobre Brasil e América Latina (https://forbes.com.br/forbes-money/2026/06/entrevista-thomson-reuters-ia-adrian-fognini/). Pedir à Thomson Reuters Brasil a fonte do recorte. Além disso, os números de clientes que a TI Inside atribui ao Brasil (78%, 6% e 32%) são idênticos aos globais do release oficial. Divergência registrada sem escolher entre as fontes.",
+        "Nutanix: o percentual de risco diverge entre o release global (87% acham que o uso não autorizado de IA traz risco) e o IT Forum (81% no Brasil, 'com o mesmo percentual no cenário global'). O relatório completo é aberto (https://www.nutanix.com/enterprise-cloud-index) e não foi baixado.",
+        "Peers e TEC.Institute: o dado de 66% e a tabela por maturidade de política vêm da 'base consolidada' do estudo, divulgada à imprensa; não estão no PDF catalogado [M018]. Não foi achada a publicação original na MIT Technology Review Brasil.",
+        "IBM 2026: os números de shadow AI (43% das organizações com vazamento, contra 20% em 2025; US$ 5,39 milhões contra US$ 4,63 milhões; 68% sem governança de IA) foram conferidos só no resumo do Baker Donelson e em blogs de fornecedores; o release oficial não os traz. Há também uma diferença de base: em 2025 a IBM falava em 'uma em cada cinco organizações', e o resumo de 2026 fala em 'incidentes envolvendo shadow AI'. O resumo também não diz a que se refere 'US$ 5,39 milhões versus US$ 4,63 milhões' (ano anterior ou outros incidentes) e compara os 68% sem governança (organizações com incidente de IA) com os 63% de 2025 (todas as organizações com vazamento).",
+        "IBM 2025: o 'custo adicional de US$ 670 mil' compara organizações com nível alto e baixo de shadow AI, não o custo médio de um incidente de shadow AI; não somar ao custo médio global.",
+        "Licença paga do Copilot sobre a base do Microsoft 365 (cálculo nosso, não é evidência): 15 milhões de licenças pagas sobre mais de 450 milhões de assentos comerciais pagos dão cerca de 3% (jan/2026); com 30 milhões em jul/2026 e base crescendo ~6% ao ano, algo perto de 6% a 7%. A Microsoft não divulga a base absoluta de jul/2026. A base de mais de 450 milhões inclui as licenças de linha de frente e de pequenas e médias empresas, que a Microsoft diz serem o grosso do crescimento; a razão não mede a penetração entre os trabalhadores do conhecimento.",
+        "Uso ativo por licença do Copilot: a Microsoft só divulga indicadores relativos (usuários ativos diários 10 vezes maiores, conversas por usuário dobrando, engajamento 'no nível do Outlook'); não há percentual de licenças com uso ativo. Não achamos dado independente de uso ativo por ferramenta dentro de empresas que licenciaram o Copilot. Na teleconferência de jul/2026, a Microsoft define 'alto uso' como uso ativo mensal acima de 80% da base de usuários do cliente e diz que o tempo até chegar lá caiu de meses para dias, sem dizer quantos clientes chegam lá (12_shadow-ai-governanca/Microsoft_2026_earnings-call-fy26-q4.pdf, p. 4).",
+        "Morning Consult (jul/2026) mede 'aprovado ou em uso em algum lugar da organização' segundo decisores; Netskope mede presença de tráfego; Jefferies, adoção declarada por 40 decisores. Não comparar diretamente com pesquisas com funcionários (Recon Analytics, Bloomberg).",
+        "Gartner, 'dois terços dos clientes de Copilot usam outros assistentes': não achado em fonte pública. A pesquisa de 2026 do Gartner sobre Microsoft 365 e Copilot (29/09/2026) é paga e foi registrada como item 'pago'.",
+        "Recon Analytics (Copilot como ferramenta principal de 18,8% para 11,5% entre usuários pagantes nos EUA, jul/2025–jan/2026; Gemini de 12,8% para 15,7%): só achado no Wall Street Journal (pago) e em agregadores de baixa confiabilidade; não registrado como item. Os mesmos agregadores atribuem à Recon que só 35,8% dos usuários licenciados usam ativamente o Microsoft 365 Copilot; não confirmado.",
+        "Participação de mercado das suítes de produtividade fora do Brasil: não achamos fonte pública de participação de mercado (Gartner e IDC são pagos). O dado mais próximo é o ranking por número de clientes da Okta, com viés para empresas que usam vários fornecedores.",
+        "Brasil, Microsoft, IDC e Cetic.br: os estudos já catalogados [M137, M182] não medem uso de IA não autorizada nem por conta pessoal; não achamos pesquisa da Microsoft Brasil, IDC Brasil ou Cetic.br sobre shadow AI.",
+        "Work Trend Index: as edições de 2025 e 2026 [M143, M144] não repetem o indicador 'traga sua própria IA' de 2024 (78%); não há série comparável da Microsoft.",
+        "Gartner, recorte Austrália (Global Talent Monitor, 574 respondentes, 1º tri/2026): 85% dos que devem usar IA recebem ferramenta corporativa e 86% também usam ferramenta pessoal. Não registrado como item por repetir o padrão do dado global de 88%; URL: https://www.gartner.com/en/newsroom/press-releases/2026-06-02-gartner-hr-survey-finds-ai-is-boosting-productivity-but-widening-workforce-divisions-in-australia",
+        "Copilot Chat (post oficial da Microsoft de 15/01/2025): o item é da frente B (arquivo 12_shadow-ai-governanca/Microsoft_2025_copilot-chat-gratuito-e-agentes-por-uso.pdf); a evidência desta frente aponta para esse arquivo. Também ficam com a frente B a abertura do Microsoft 365 Copilot aos modelos da Anthropic (24/09/2025), os preços do Copilot e dos concorrentes e a Software AG.",
+        "Os 'quase 70% da Fortune 500' com Microsoft 365 Copilot (McKinsey [M026, p. 8], que cita a teleconferência de resultados da Microsoft de 30/10/2024, e porta-voz da Microsoft na Bloomberg) são a mesma declaração da Microsoft, não confirmações independentes; 'usar' ali não diz quantos funcionários usam.",
+        "Ramp AI Index [M979]: mede empresas clientes da Ramp que pagam cada fornecedor e não traz a Microsoft na série; não serve para comparar o Copilot com ChatGPT e Claude.",
+        "Menlo Ventures [M957]: é investidora da Anthropic; os percentuais de gasto (inclusive os 27% por adoção iniciada pelo usuário e os 'perto de 40%' com shadow AI) vêm do modelo de mercado da própria Menlo, não de medição."
+      ]
+    },
+    {
+      "grupo": "Shadow AI: caminhos das corporações",
+      "pasta": "12_shadow-ai-governanca",
+      "itens": [
+        {
+          "titulo": "The Evaluation of the M365 Copilot Pilot in the Department for Business and Trade (relatório de avaliação, ago/2025)",
+          "organizacao": "Department for Business and Trade (DBT), Governo do Reino Unido",
+          "ano": "2025 (ago/2025)",
+          "tipo_fonte": "governo",
+          "setor": "administração pública",
+          "pais_regiao": "Reino Unido",
+          "url": "https://assets.publishing.service.gov.uk/media/68adbe409e1cebdd2c96a19d/dbt-microsoft-365-copilot-evaluation.pdf",
+          "arquivo": "12_shadow-ai-governanca/DBT-UK_2025_avaliacao-piloto-microsoft-365-copilot.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F1"
+          ],
+          "metricas": [
+            "1.000 licenças do Microsoft 365 Copilot por 3 meses (out–dez/2024), cerca de 70% para voluntários e 30% para funcionários sorteados (p. 4)",
+            "Média diária de 21% de licenciados com ao menos um uso no dia (30% sem fins de semana e feriados) e média semanal de 64% com ao menos um uso na semana, pelo painel da Microsoft, sem desconto de férias e ausências (p. 16)",
+            "72% dos respondentes do diário satisfeitos ou muito satisfeitos e NPS de 31 (autodeclarado); o diário teve 300 respostas, taxa de resposta de 32%, 82% delas de voluntários (p. 4 e 15)",
+            "Economia de tempo pequena, maior em tarefas de escrita; agendar reuniões e gerar imagens levou mais tempo; sem evidência de ganho de produtividade (p. 5)",
+            "Nas entrevistas (19 pessoas), quem tentou conhecer as diretrizes confundia o M365 Copilot com o Copilot Chat, e muitos dos inseguros sobre as regras usaram menos a ferramenta por cautela (p. 4 e 34)"
+          ],
+          "resumo": "Avaliação oficial do piloto do Microsoft 365 Copilot no ministério britânico de Negócios e Comércio, com dados do painel de uso da Microsoft, diário de uso, entrevistas e tarefas observadas. Mostra satisfação alta, economia de tempo pequena e concentrada em tarefas de escrita, nenhuma evidência de ganho de produtividade e conhecimento desigual das regras de uso aceitável.",
+          "relevancia": "Caso público de piloto da ferramenta da casa (Microsoft 365 Copilot) avaliado por governo, com uso medido pelo painel do fornecedor e não só licença; útil para H3. Nas entrevistas, a dúvida sobre as regras levou parte dos usuários a usar menos a ferramenta oficial (dado qualitativo, 19 entrevistas). O DBT é uma das 12 organizações do experimento do GDS no mesmo período: não somar os números das duas avaliações; o próprio DBT diz que seus resultados não se comparam aos de outros órgãos (p. 40)."
+        },
+        {
+          "titulo": "Evaluation of a trial of generative artificial intelligence (Copilot) in The Department of the Treasury (relatório de avaliação, fev/2025)",
+          "organizacao": "Department of the Treasury (Austrália) – Australian Centre for Evaluation (ACE)",
+          "ano": "2025 (fev/2025)",
+          "tipo_fonte": "governo",
+          "setor": "administração pública",
+          "pais_regiao": "Austrália",
+          "url": "https://evaluation.treasury.gov.au/sites/evaluation.treasury.gov.au/files/2025-02/evaluation-generative-artificial-intelligence.pdf",
+          "arquivo": "12_shadow-ai-governanca/TreasuryAU_2025_avaliacao-teste-copilot.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F1"
+          ],
+          "metricas": [
+            "Teste de 14 semanas (20/05 a 23/08/2024) com 218 funcionários, dentro do teste do governo australiano coordenado pela DTA (p. 6 do PDF)",
+            "22% disseram usar o Copilot 4 a 5 vezes por semana ou mais e 10% mais de uma vez por dia; só 2% disseram não ter usado (frequência autodeclarada na pesquisa pós-teste, n=136; quem não usou pode não ter respondido) (p. 18 do PDF)",
+            "Após o teste, 59% disseram que o Copilot ajudou em pouco ou nada (0 a 25%) da carga semanal, e 21% passaram a ter visão negativa (n=100) (p. 20 do PDF)",
+            "A parcela que dizia usar o Copilot nunca ou menos de uma vez por semana subiu de 24% para 40% ao longo das pesquisas de pulso, que tiveram baixa resposta e possível viés de seleção (p. 21 do PDF)",
+            "Um servidor de nível médio (APS6) precisaria redirecionar cerca de 13 minutos por semana para tarefas de maior valor para compensar a licença; é cálculo de ponto de equilíbrio do avaliador, e o teste não mediu o tempo economizado (p. 7 e 47 do PDF)"
+          ],
+          "resumo": "Avaliação interna do teste do Microsoft 365 Copilot no Tesouro australiano, feita pelo Australian Centre for Evaluation (ACE). Mostra uso abaixo do esperado, queda do entusiasmo e desempenho percebido inferior ao de outras ferramentas de IA generativa (ChatGPT e Claude são citados), em parte pelas restrições de segurança do órgão. Recomenda distribuição faseada de licenças por caso de uso, treinamento e diretrizes de transparência.",
+          "relevancia": "Evidência de governo para H3 e H5: na percepção dos participantes, a ferramenta oficial, limitada pelas restrições de segurança do órgão, ficou aquém das que eles usavam fora, e o relatório registra que o Copilot era então a única IA generativa integrada ao pacote Microsoft. O próprio relatório ressalva que não está claro se as alternativas atenderiam aos requisitos de privacidade do órgão. A numeração impressa difere da do PDF (p. 7 do PDF = p. 2 impressa)."
+        },
+        {
+          "titulo": "Microsoft 365 Copilot Experiment: Cross-Government Findings Report (jun/2025)",
+          "organizacao": "Government Digital Service (GDS), Governo do Reino Unido",
+          "ano": "2025 (jun/2025)",
+          "tipo_fonte": "governo",
+          "setor": "administração pública",
+          "pais_regiao": "Reino Unido",
+          "url": "https://assets.publishing.service.gov.uk/media/683db42bd23a62e5d32680d0/M365_Copilot_Experiment_Findings_Report.pdf",
+          "arquivo": "12_shadow-ai-governanca/GDS-UK_2025_experimento-copilot-entre-ministerios.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F1"
+          ],
+          "metricas": [
+            "20 mil licenças do Microsoft 365 Copilot nas 12 organizações listadas (a contagem é da lista da p. 5, que inclui o DBT), de 30/09 a 31/12/2024, com pelo menos 1.000 licenças por organização (p. 3-5)",
+            "Taxa de adoção (licenciados com ao menos uma interação nos 30 dias anteriores) de 83% em outubro e cerca de 80% até o fim; dados de uso de 14.500 dos 20 mil usuários (p. 4 e 7)",
+            "Economia média autodeclarada de 26 minutos por dia, estimada pelo ponto médio das faixas de resposta; 17% sem economia clara (7.115 respostas) (p. 7 e 11)",
+            "Adoção no Teams (ao menos uma interação no aplicativo em 30 dias) chegou a 71% dos licenciados; Excel e PowerPoint ficaram em 23% e 24% no pico (p. 7-8)",
+            "82% não querem voltar à situação anterior e 85% acham que a ferramenta tem bom valor para o órgão (p. 3 e 15)"
+          ],
+          "resumo": "Relatório do GDS sobre o maior experimento do Microsoft 365 Copilot no governo britânico, com 20 mil servidores. Traz adoção, uso por aplicativo, economia de tempo autodeclarada e percepções, e conclui que treinamento e gestão da mudança foram essenciais; limitações em tarefas complexas e receio com dados sensíveis reduziram o benefício em parte dos casos.",
+          "relevancia": "Contraponto ao DBT e ao Tesouro australiano, com outra base: a adoção do GDS conta quem teve ao menos uma interação em 30 dias, critério mais largo que o uso diário ou semanal do DBT e que a frequência autodeclarada do Tesouro; não comparar os números sem dizer a base. O GDS atribui os cerca de 80% aos recursos dedicados a engajamento e adoção e diz que o treinamento foi essencial para os benefícios (conclusão da própria avaliação, sem grupo de comparação descrito). A economia de tempo é autodeclarada; serve como teto otimista. O DBT está entre as 12 organizações: não somar."
+        },
+        {
+          "titulo": "Chasing Shadows: Understanding and Managing Shadow AI (white paper, 2024)",
+          "organizacao": "Software AG (Software GmbH)",
+          "ano": "2024",
+          "tipo_fonte": "empresa",
+          "setor": "software empresarial (fornecedor)",
+          "pais_regiao": "EUA, Reino Unido e Alemanha",
+          "url": "https://web.archive.org/web/20250515123238/https://newscenter.softwareag.com/content/dam/softwareag/global/image/corporate/press/comm/shadow-ai/Shadow%20AI%20White%20Paper.pdf",
+          "arquivo": "12_shadow-ai-governanca/SoftwareAG_2024_chasing-shadows-shadow-ai-white-paper.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "75% dos trabalhadores do conhecimento já usam IA, e mais de 50% desse grupo usa ferramentas pessoais ou não fornecidas pela empresa (6.000 respondentes, set/2024) (p. 4)",
+            "53% preferem escolher as próprias ferramentas; 33% usam as suas porque a empresa não oferece as de que precisam (p. 6)",
+            "Só 27% dizem rodar varredura de segurança e 29% checar políticas de uso de dados antes de usar IA (p. 6)",
+            "35% dizem que o empregador não oferece treinamento em IA e 39% que o treinamento é básico; 44% dizem que usariam mais IA com as ferramentas certas (p. 7)"
+          ],
+          "resumo": "White paper da Software AG com a pesquisa de set/2024 sobre shadow AI entre 6.000 trabalhadores do conhecimento nos EUA, Reino Unido e Alemanha. Defende incorporar o uso por fora com transparência de processos, mais treinamento e consulta aos funcionários sobre as ferramentas a aprovar, em vez de controle excessivo.",
+          "relevancia": "Pesquisa de percepção de fornecedor de software (material de fornecedor): a Software AG vende software de inteligência de processos e de arquitetura corporativa, e o texto conclui pela 'transparência de processos'; a pesquisa foi feita pela agência TEAM LEWIS. O site original saiu do ar; a cópia veio do Internet Archive (captura de 15/05/2025; endereço original: newscenter.softwareag.com/.../Shadow AI White Paper.pdf). Útil para H2 e H4: falta de ferramenta oficial adequada como motivo declarado. Aqui o uso de ferramentas pessoais é 'mais de 50%' dos 75% que usam IA, base diferente da 'metade de todos os funcionários' do release."
+        },
+        {
+          "titulo": "Half of all employees are Shadow AI users, new study finds (release, 22/10/2024)",
+          "organizacao": "Software AG (Software GmbH)",
+          "ano": "2024 (22/10/2024)",
+          "tipo_fonte": "empresa",
+          "setor": "software empresarial (fornecedor)",
+          "pais_regiao": "EUA, Reino Unido e Alemanha",
+          "url": "https://web.archive.org/web/20251006225317/https://newscenter.softwareag.com/en/news-stories/press-releases/2024/1022-half-of-all-employees-use-shadow-ai.html",
+          "arquivo": "12_shadow-ai-governanca/SoftwareAG_2024_release-metade-dos-funcionarios-usa-shadow-ai-arquivo.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "46% dos trabalhadores do conhecimento não abririam mão das ferramentas pessoais de IA mesmo que a empresa as proibisse completamente; o release chama o grupo de 'metade dos trabalhadores', sem base explícita (p. 1)",
+            "Metade dos funcionários usa shadow AI, ou seja, ferramentas de IA não fornecidas pela empresa (p. 1)",
+            "Metodologia: 6.000 trabalhadores do conhecimento (2.000 nos EUA, 2.000 no Reino Unido e 2.000 na Alemanha), de 13 a 25/09/2024, pesquisa da TEAM LEWIS (p. 2)"
+          ],
+          "resumo": "Release da Software AG que apresenta a pesquisa de shadow AI de set/2024: metade dos funcionários usa ferramentas de IA não fornecidas pela empresa e 46% manteriam o uso mesmo sob proibição. Traz a metodologia e o argumento de que é preciso rever o processo de escolha das ferramentas oficiais.",
+          "relevancia": "Traz o número de 46% (resistência à proibição), que o white paper descreve como 'metade' dos que usam ferramentas pessoais: as bases divergem entre os dois textos. Material de fornecedor (a Software AG vende software de processos e arquitetura corporativa); site original fora do ar, cópia do Internet Archive (captura de 06/10/2025; endereço original: newscenter.softwareag.com/en/news-stories/press-releases/2024/1022-half-of-all-employees-use-shadow-ai.html)."
+        },
+        {
+          "titulo": "Expanding model choice in Microsoft 365 Copilot (blog, 24/09/2025)",
+          "organizacao": "Microsoft",
+          "ano": "2025 (24/09/2025)",
+          "tipo_fonte": "analista/big tech",
+          "setor": "tecnologia (fornecedor de IA)",
+          "pais_regiao": "Global",
+          "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2025/09/24/expanding-model-choice-in-microsoft-365-copilot/",
+          "arquivo": "12_shadow-ai-governanca/Microsoft_2025_modelos-anthropic-no-microsoft-365-copilot.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "Em 24/09/2025, o Claude Opus 4.1 entra no agente Researcher (pelo programa Frontier, para clientes licenciados que aderirem) e o Claude Sonnet 4 e o Claude Opus 4.1 entram como opções de modelo no Copilot Studio (p. 1-4)",
+            "O Copilot segue movido pelos modelos mais recentes da OpenAI; no Copilot Studio é possível combinar modelos da Anthropic, da OpenAI e do catálogo do Azure (p. 2-3)",
+            "Na estreia, os modelos da Anthropic eram hospedados fora dos ambientes gerenciados pela Microsoft, sob os termos da Anthropic, com habilitação pelo administrador (p. 4)"
+          ],
+          "resumo": "Anúncio oficial da Microsoft que abre o Microsoft 365 Copilot a modelos de outro laboratório (Anthropic), primeiro no agente Researcher e no Copilot Studio. A Microsoft apresenta a mudança como ampliação da escolha de modelos dentro do Copilot.",
+          "relevancia": "Responde diretamente à pergunta 'impor o Copilot ou usar outras ferramentas': a Microsoft passou a levar outros modelos para dentro do Copilot (H5). Fonte do fornecedor, que tem interesse em apresentar o Copilot como plataforma de vários modelos; a situação atual (Anthropic como subprocessador) está no item da documentação de 2026."
+        },
+        {
+          "titulo": "Anthropic models in Microsoft Online Services (Microsoft Learn, atualizado em 18/09/2026; consulta em 15/10/2026)",
+          "organizacao": "Microsoft",
+          "ano": "2026 (consulta em 15/10/2026)",
+          "tipo_fonte": "analista/big tech",
+          "setor": "tecnologia (fornecedor de IA)",
+          "pais_regiao": "Global",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/connect-to-ai-subprocessor",
+          "arquivo": "12_shadow-ai-governanca/Microsoft_2026_modelos-anthropic-subprocessador-copilot-15out2026.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "A Anthropic passou a ser subprocessador da Microsoft: valem os Termos de Produto, o DPA e a proteção de dados empresariais da Microsoft, salvo nos modelos rotulados 'com retenção de dados' (p. 1)",
+            "Modelos da Anthropic ligados por padrão para a maioria dos clientes da nuvem comercial, exceto UE/AELC e Reino Unido (p. 1-2)",
+            "Modelos da Anthropic fora da EU Data Boundary e, quando aplicáveis, dos compromissos de processamento no país (p. 2)",
+            "Acesso aos modelos de cada fornecedor pode ser restrito por usuário ou grupo de segurança do Microsoft Entra ID (p. 4)",
+            "Modelos 'com retenção de dados' (ex.: Claude Fable 5 e Claude Mythos 5) ficam desligados por padrão e seguem os termos da Anthropic; se habilitados, a Anthropic guarda a maior parte das entradas e saídas por até 30 dias, e até dois anos se houver suspeita de violação da política de uso (p. 5-6)"
+          ],
+          "resumo": "Documentação oficial que descreve como a Microsoft oferece modelos da Anthropic dentro do Copilot (Copilot, Researcher, Copilot Studio, Power Platform e apps do Microsoft 365) com a Anthropic como subprocessador. Detalha os padrões por região, os controles do administrador por usuário e grupo e a exceção dos modelos com retenção de dados.",
+          "relevancia": "Mostra a Microsoft levando vários modelos para dentro da mesma governança (identidade, contrato e controle de acesso), o que muda o dilema 'Copilot ou outras ferramentas' (H5). Pela regra descrita, clientes da nuvem comercial fora de UE/AELC e Reino Unido — o que inclui o Brasil — têm os modelos ligados por padrão. Ressalvas da própria fonte: os modelos ficam fora da EU Data Boundary, e os 'com retenção de dados' saem do contrato da Microsoft. Registra também a troca de nome do Microsoft 365 Copilot para Microsoft Copilot. Fonte do fornecedor."
+        },
+        {
+          "titulo": "Microsoft 365 Copilot para grandes empresas – preços (página oficial no Brasil; cópia de 15/10/2026)",
+          "organizacao": "Microsoft",
+          "ano": "2026 (consulta em 15/10/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "tecnologia (fornecedor de IA)",
+          "pais_regiao": "Brasil",
+          "url": "https://www.microsoft.com/pt-br/microsoft-365-copilot/enterprise",
+          "arquivo": "12_shadow-ai-governanca/Microsoft_2026_copilot-empresas-precos-brasil-15out2026.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Microsoft 365 Copilot a R$ 171,80 por usuário/mês com pagamento anual, ou R$ 180,39 pagos mensalmente com compromisso anual; preço sem impostos (p. 5)",
+            "Vendido como complemento: exige licença separada de um plano qualificado do Microsoft 365 (p. 1 e 6)"
+          ],
+          "resumo": "Página oficial de preços do Microsoft 365 Copilot no Brasil, salva com a seção de preços aberta em 15/10/2026. Registra o preço em reais por usuário, sem impostos, e o requisito de licença-base do Microsoft 365.",
+          "relevancia": "Referência oficial de custo por usuário em reais da opção Microsoft. Fonte do fornecedor; preço de tabela, sem descontos de contrato corporativo. A página trazia um banner antigo (Microsoft Build de junho), sinal de atualização irregular; confirmar com a revenda antes de usar em cálculo."
+        },
+        {
+          "titulo": "Microsoft Copilot for enterprise – pricing (página oficial nos EUA; cópia de 15/10/2026)",
+          "organizacao": "Microsoft",
+          "ano": "2026 (consulta em 15/10/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "tecnologia (fornecedor de IA)",
+          "pais_regiao": "EUA",
+          "url": "https://www.microsoft.com/en-us/copilot/solutions/enterprise",
+          "arquivo": "12_shadow-ai-governanca/Microsoft_2026_copilot-enterprise-precos-eua-15out2026.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Microsoft 365 Copilot a US$ 30,00 por usuário/mês com pagamento anual, ou US$ 31,50 pagos mensalmente com compromisso anual (p. 4)",
+            "Exige licença separada de um plano qualificado do Microsoft 365 (p. 5)",
+            "Copilot Chat: chat de IA seguro com preço por uso para agentes, controles de TI e proteção de dados empresariais (p. 9)"
+          ],
+          "resumo": "Página oficial da oferta corporativa do Copilot nos EUA, salva com a seção de preços aberta em 15/10/2026. Registra o preço em dólares por usuário e a oferta do Copilot Chat com agentes cobrados por uso.",
+          "relevancia": "Base em dólares para comparar com ChatGPT, Claude e Gemini, desde que a comparação diga a base: o Copilot é complemento e exige licença do Microsoft 365. Fonte do fornecedor; o preço é de tabela e não reflete descontos de contrato corporativo."
+        },
+        {
+          "titulo": "Copilot for all: Introducing Microsoft 365 Copilot Chat (blog, 15/01/2025)",
+          "organizacao": "Microsoft",
+          "ano": "2025 (15/01/2025)",
+          "tipo_fonte": "analista/big tech",
+          "setor": "tecnologia (fornecedor de IA)",
+          "pais_regiao": "Global",
+          "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2025/01/15/copilot-for-all-introducing-microsoft-365-copilot-chat/",
+          "arquivo": "12_shadow-ai-governanca/Microsoft_2025_copilot-chat-gratuito-e-agentes-por-uso.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Copilot Chat (15/01/2025): agentes cobrados por consumo somados ao chat de IA gratuito e seguro (GPT-4o) que clientes comerciais do Microsoft 365 já tinham (p. 1-2 e 4)",
+            "Inclui as capacidades básicas do Copilot Control System: proteção de dados empresariais e recursos para governar acesso, uso e ciclo de vida do Copilot e dos agentes, com medição e relatórios (p. 4)",
+            "Segundo a Microsoft, toda organização terá uma combinação de Copilot Chat e Microsoft 365 Copilot (p. 2)"
+          ],
+          "resumo": "Anúncio oficial do Microsoft 365 Copilot Chat: o chat de IA gratuito para clientes comerciais do Microsoft 365 ganha agentes pagos por uso e controles de TI. A Microsoft propõe combinar o chat para todos com a licença paga do Microsoft 365 Copilot para quem precisa.",
+          "relevancia": "Mostra o caminho de 'chat governado para todos' sem custo de licença adicional para quem já tem Microsoft 365 (os agentes são cobrados por consumo), relevante para o custo da resposta ao shadow AI. Fonte do fornecedor; a 'combinação em toda organização' é projeção comercial."
+        },
+        {
+          "titulo": "Preços para empresas – ChatGPT Business e Enterprise (página oficial em português; cópia de 15/10/2026)",
+          "organizacao": "OpenAI",
+          "ano": "2026 (consulta em 15/10/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "tecnologia (fornecedor de IA)",
+          "pais_regiao": "Brasil/Global",
+          "url": "https://openai.com/pt-BR/business/pricing/",
+          "arquivo": "12_shadow-ai-governanca/OpenAI_2026_chatgpt-business-enterprise-precos-15out2026.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "ChatGPT Business: vaga padrão a R$ 100/mês, ao lado de '$20/mês na cobrança anual; $25/mês na mensal', e vaga premium a R$ 500/mês ('$100' anual ou '$125' mensal); a página usa só o símbolo '$' e não explica a conversão nem impostos (p. 1)",
+            "Business para equipes de 2 a 200 funcionários, com SAML, SSO e MFA, análises de uso, controles de gastos e, por padrão, sem uso dos dados da empresa para treinar modelos (p. 2)",
+            "Enterprise com preço personalizado (não publicado), SCIM, EKM, verificação de domínio, controles por função, retenção personalizada e residência de dados em dez regiões — EUA, UE, Reino Unido, Japão, Canadá, Coreia do Sul, Singapura, Índia, Austrália e Emirados; o Brasil não está na lista (p. 2 e 8)"
+          ],
+          "resumo": "Página oficial de preços dos planos corporativos do ChatGPT, salva em 15/10/2026 na versão brasileira, que mostra o preço da vaga em reais ao lado de valores com o símbolo '$'. Lista os controles incluídos em cada plano; o preço do Enterprise não é público.",
+          "relevancia": "Referência de custo por usuário e de controles da principal alternativa ao Copilot. A página mostra R$ 100 e '$20/25' lado a lado sem explicar a conversão; confirmar moeda e impostos no momento da compra. A residência de dados do Enterprise não inclui o Brasil. Fonte do fornecedor."
+        },
+        {
+          "titulo": "What is the Team plan? (Central de Ajuda do Claude; consulta em 15/10/2026)",
+          "organizacao": "Anthropic",
+          "ano": "2026 (consulta em 15/10/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "tecnologia (fornecedor de IA)",
+          "pais_regiao": "EUA/Global",
+          "url": "https://support.claude.com/en/articles/9266767-what-is-the-team-plan",
+          "arquivo": "12_shadow-ai-governanca/Anthropic_2026_claude-team-plan-precos-15out2026.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Vaga Standard a US$ 20 por membro/mês na cobrança anual ou US$ 25 na mensal; vaga Premium a US$ 100 anual ou US$ 125 mensal; preços para clientes dos EUA, sem impostos (p. 2-3)",
+            "Mínimo de 2 e máximo de 150 vagas; acima disso, migração para o Enterprise (p. 2-3)",
+            "Inclui SSO e captura de domínio, provisionamento just-in-time, permissões por função e tetos de gasto por organização e por usuário (p. 1)",
+            "Vaga Standard com 1,25 vez a franquia por sessão do plano Pro e limite semanal; Premium com 6,25 vezes (p. 3)"
+          ],
+          "resumo": "Página oficial da Central de Ajuda do Claude que descreve o plano Team: preços por tipo de vaga, limites de uso e controles de identidade e de gasto. Complementa a página de preços já catalogada (M909), cuja cópia não mostra a aba de planos para equipes.",
+          "relevancia": "Referência de custo por usuário e de controles da alternativa Claude para grupos de até 150 pessoas; o Enterprise segue a lógica de assento mais consumo (M909, M904). Fonte do fornecedor."
+        },
+        {
+          "titulo": "Google Workspace – compare planos e preços (página oficial no Brasil; cópia de 15/10/2026)",
+          "organizacao": "Google",
+          "ano": "2026 (consulta em 15/10/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "tecnologia (fornecedor de IA)",
+          "pais_regiao": "Brasil",
+          "url": "https://workspace.google.com/intl/pt-BR/pricing",
+          "arquivo": "12_shadow-ai-governanca/Google_2026_workspace-gemini-precos-brasil-15out2026.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Planos com contrato anual, por usuário/mês: Base R$ 20 (sem Gemini nos apps), Starter R$ 40,90 (Gemini no Gmail; R$ 32,72 por 12 meses só para os primeiros 20 usuários de novos clientes), Standard R$ 81,80 e Plus R$ 128,40 (Gemini no Gmail, Documentos, Meet e mais) (p. 1-3, 7)",
+            "Enterprise sem preço publicado: a página pede contato com vendas (p. 3)",
+            "Gemini nos apps ausente no Base, limitado no Starter e incluído do Standard em diante; 'segurança e privacidade empresariais' marcadas do Starter em diante (p. 4)",
+            "Base para até 20 pessoas, Starter e Standard para até 300 usuários; Enterprise sem mínimo nem máximo (p. 7)"
+          ],
+          "resumo": "Página oficial de preços do Google Workspace no Brasil, salva em 15/10/2026. Mostra que o Gemini vem embutido nos planos de produtividade, com recursos que crescem conforme o plano, e que o preço do Enterprise não é público.",
+          "relevancia": "Referência de custo para o caminho 'IA embutida na suíte' fora da Microsoft. Nesses planos o Gemini vem incluído no preço, com recursos que crescem conforme o plano, então o custo incremental depende do plano de partida; a página não diz se os preços incluem impostos. Fonte do fornecedor."
+        },
+        {
+          "titulo": "Itaú já reduziu em 65% o custo com IA generativa desde 2022 (reportagem, 27/07/2026)",
+          "organizacao": "Mobile Time (cobertura do lançamento da ia.i, com declarações do diretor de tecnologia do Itaú Unibanco)",
+          "ano": "2026 (27/07/2026)",
+          "tipo_fonte": "imprensa",
+          "setor": "setor financeiro (banco)",
+          "pais_regiao": "Brasil",
+          "url": "https://www.mobiletime.com.br/noticias/27/07/2026/itau-custo-ia-generativa/",
+          "arquivo": "12_shadow-ai-governanca/MobileTime_2026_itau-reduz-65pct-custo-ia-generativa.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F1"
+          ],
+          "metricas": [
+            "Redução de 65% nos gastos do Itaú com IA generativa desde o início da jornada, em 2022, segundo o diretor de tecnologia no lançamento da ia.i (dado de imprensa; ausente do release oficial) (p. 1)",
+            "Segundo a reportagem, parte da redução vem da gestão de tokens, do uso em escala com governança controlada por uma plataforma única centralizada e da eficiência operacional; o texto não separa o efeito do barateamento dos modelos (p. 2)",
+            "Mais de 80 modelos de prateleira em uso, orquestrados por plataforma que escolhe o modelo mais viável por tarefa (p. 2)"
+          ],
+          "resumo": "Reportagem com declarações do diretor de tecnologia do Itaú no lançamento da ia.i. Descreve a plataforma única que orquestra dezenas de modelos de vários fornecedores, a disciplina de FinOps aplicada aos tokens e a governança de dados que sustenta o uso em escala.",
+          "relevancia": "Único dado encontrado de custo do caminho 'plataforma interna com vários modelos' no Brasil. É imprensa: o release oficial do Itaú sobre a ia.i não traz o número de 65% (o único '65%' do release é de uma pesquisa sobre brasileiros que gostariam de um copiloto financeiro — não confundir); a queda é declarada pelo banco e não separa efeito da plataforma e efeito da queda de preço dos modelos."
+        },
+        {
+          "titulo": "Deloitte will make Claude available to 470,000 people across its global network (anúncio, 06/10/2025)",
+          "organizacao": "Anthropic",
+          "ano": "2025 (06/10/2025)",
+          "tipo_fonte": "empresa",
+          "setor": "serviços profissionais (consultoria e auditoria)",
+          "pais_regiao": "Global",
+          "url": "https://www.anthropic.com/news/deloitte-anthropic-partnership",
+          "arquivo": "12_shadow-ai-governanca/Anthropic_2025_deloitte-leva-claude-a-470-mil-pessoas.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F1"
+          ],
+          "metricas": [
+            "Claude disponível para mais de 470 mil pessoas da rede Deloitte, a maior implantação corporativa da Anthropic até então (out/2025); é número de acesso, e o rodapé da mesma página fala em cerca de 460 mil pessoas na Deloitte (p. 1 e 3)",
+            "Centro de Excelência em Claude com especialistas para levar pilotos à produção (p. 1)",
+            "Programa de certificação para treinar e certificar 15 mil profissionais (p. 2)"
+          ],
+          "resumo": "Anúncio da ampliação da aliança entre Anthropic e Deloitte, que disponibiliza o Claude para a rede da firma, com centro de excelência, certificação de profissionais e soluções para setores regulados. O anúncio não informa valores do contrato nem dados de uso.",
+          "relevancia": "Caso de grande organização que disponibiliza em escala uma ferramenta fora da Microsoft, com centro de excelência e certificação (H5). Material de fornecedor: é anúncio da Anthropic, e a Deloitte também vende a clientes a implantação do Claude. O número é de acesso, e o anúncio não informa uso nem resultados."
+        },
+        {
+          "titulo": "Radar Tecnológico nº 3 – Inteligência artificial generativa (nov/2024)",
+          "organizacao": "Autoridade Nacional de Proteção de Dados (ANPD)",
+          "ano": "2024 (nov/2024)",
+          "tipo_fonte": "governo",
+          "setor": "regulação de proteção de dados",
+          "pais_regiao": "Brasil",
+          "url": "https://www.gov.br/anpd/pt-br/centrais-de-conteudo/documentos-tecnicos-orientativos/radar_tecnologico_ia_generativa_anpd.pdf",
+          "arquivo": "12_shadow-ai-governanca/ANPD_2024_radar-tecnologico-3-ia-generativa.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "Estudo da Coordenação-Geral de Tecnologia e Pesquisa, feito como insumo interno em 2023 e publicado em nov/2024; não firma posição institucional (p. 3-5)",
+            "Usuários podem anexar ao prompt documentos empresariais confidenciais, laudos médicos e atas de reuniões, o que implica compartilhamento e tratamento de dados (p. 23)",
+            "Transferir ao usuário a responsabilidade pela proteção de dados não parece suficiente para lidar com o compartilhamento de dados pessoais via prompt; o texto pede sistemas desenvolvidos para proteger a privacidade (p. 24)"
+          ],
+          "resumo": "Estudo da ANPD que analisa a IA generativa à luz da LGPD: coleta por raspagem, processamento, compartilhamento de dados via prompt, conteúdo sintético e transparência. É material de referência, não orientação oficial de conformidade.",
+          "relevancia": "Referência brasileira para os controles do tema: descreve o compartilhamento de dados corporativos e pessoais via prompt, um dos riscos centrais do uso de IA por fora à luz da LGPD. Estudo técnico de 2023, sem posição institucional da ANPD."
+        },
+        {
+          "titulo": "ISO/IEC 42001:2023 – Information technology – Artificial intelligence – Management system (página oficial; consulta em 15/10/2026)",
+          "organizacao": "ISO/IEC (JTC 1/SC 42)",
+          "ano": "2023 (dez/2023; página consultada em 15/10/2026)",
+          "tipo_fonte": "outro",
+          "setor": "normalização (padrão internacional)",
+          "pais_regiao": "Global",
+          "url": "https://www.iso.org/standard/42001",
+          "arquivo": "12_shadow-ai-governanca/ISO_2023_iso-iec-42001-pagina-oficial-15out2026.pdf",
+          "status": "pago",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Norma publicada em dez/2023 (1ª edição), vendida por CHF 225 (p. 1)",
+            "Especifica requisitos para estabelecer, implementar, manter e melhorar continuamente um sistema de gestão de IA (AIMS) (p. 1-2)",
+            "Aplica-se a organizações de qualquer porte que desenvolvem, fornecem ou usam produtos e serviços com IA (p. 2)"
+          ],
+          "resumo": "Página oficial da ISO sobre a ISO/IEC 42001, primeira norma de sistema de gestão de IA. A norma completa é paga; a página resume escopo, público e benefícios.",
+          "relevancia": "Referência de sistema de gestão de IA: segundo a página oficial, a norma traz requisitos para estabelecer, implementar, manter e melhorar continuamente um sistema de gestão de IA e vale também para quem só usa produtos e serviços com IA. O texto da norma não foi lido (pago): não descrever seus requisitos além do que a página diz."
+        },
+        {
+          "titulo": "AI Governance Requires More Than Policies (artigo, 10/06/2026; na aba do navegador, 'AI Governance Needs More Than Policies')",
+          "organizacao": "Gartner",
+          "ano": "2026 (10/06/2026)",
+          "tipo_fonte": "analista/big tech",
+          "setor": "pesquisa e consultoria em tecnologia",
+          "pais_regiao": "Global",
+          "url": "https://www.gartner.com/en/articles/ai-governance-trism",
+          "arquivo": "12_shadow-ai-governanca/Gartner_2026_ai-governance-needs-more-than-policies-trism.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "Muitas organizações ainda dependem sobretudo de políticas, treinamento e liberação limitada, sem verificação ou aplicação contínua durante a operação da IA (avaliação do analista, sem dados na página) (p. 2-3)",
+            "Recomenda políticas aplicáveis, inventário e descoberta da IA em toda a empresa, governança de informação e acesso, e capacidades de AI TRiSM (p. 4)",
+            "Define AI TRiSM como estrutura e conjunto de capacidades técnicas de monitoramento, validação e aplicação contínuos (p. 4)"
+          ],
+          "resumo": "Artigo público do Gartner que defende passar da governança baseada em políticas para controles técnicos aplicáveis em tempo real, com a estrutura AI TRiSM. Lista o que CIOs devem fazer: políticas aplicáveis, descoberta e inventário da IA, governança de dados e acesso e monitoramento contínuo.",
+          "relevancia": "Referência de analista para o desenho dos controles (descoberta de aplicativos, inspeção e bloqueio em tempo de uso). É opinião de analista, sem dados na página. O Gartner vende pesquisa e não ferramentas, mas a categoria AI TRiSM, criada por ele, é usada por fornecedores de segurança para vender produtos."
+        },
+        {
+          "titulo": "The Unintended Consequences of Censoring Digital Technology – Evidence from Italy's ChatGPT Ban (artigo de trabalho, arXiv 2304.09339, abr/2023)",
+          "organizacao": "Monash University (Departamento de Economia e SoDa Labs)",
+          "ano": "2023 (abr/2023)",
+          "tipo_fonte": "academia",
+          "setor": "economia (estudo sobre desenvolvedores de software)",
+          "pais_regiao": "Itália e Europa",
+          "url": "https://arxiv.org/abs/2304.09339",
+          "arquivo": "12_shadow-ai-governanca/Monash-arXiv_2023_consequencias-proibicao-chatgpt-italia.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "Produção horária de mais de 8.000 programadores profissionais no GitHub, na Itália e em outros países europeus, com desenho de diferenças em diferenças (p. 1)",
+            "A produção dos programadores italianos caiu cerca de 50% nos dois primeiros dias úteis após a proibição nacional do ChatGPT pela autoridade italiana de proteção de dados (01/04/2023) e voltou ao normal depois (p. 1-2 e 4)",
+            "Por controle sintético, a parcela de buscas sobre VPN no Google subiu 52,2 pontos percentuais no 1º dia útil após a proibição (20,6 em média na semana) e o número de usuários de pontes do Tor, cerca de 9,4 pontos em média na semana; as buscas podem refletir só intenção (p. 1, 11-13)"
+          ],
+          "resumo": "Estudo econômico sobre a proibição do ChatGPT pela autoridade italiana de proteção de dados em 2023. Mostra queda curta de produtividade dos programadores e adaptação rápida dos usuários com ferramentas para contornar o bloqueio.",
+          "relevancia": "Evidência acadêmica, por analogia, para H4 (proibir funciona pouco): a proibição foi nacional, não corporativa, mas mostra que usuários contornam bloqueios rapidamente. Versão de trabalho (arXiv), sem revisão por pares indicada."
+        },
+        {
+          "titulo": "Guia orientativo – Boas práticas para o uso de sistemas de inteligência artificial nos mercados financeiro e de capitais (atualização de jul/2024)",
+          "organizacao": "ANBIMA (Associação Brasileira das Entidades dos Mercados Financeiro e de Capitais) – Rede ANBIMA de Inovação",
+          "ano": "2024 (atualização de jul/2024)",
+          "tipo_fonte": "associação setorial",
+          "setor": "setor financeiro e mercado de capitais",
+          "pais_regiao": "Brasil",
+          "url": "https://www.anbima.com.br/data/files/63/74/15/39/F12C091039E04909EA2BA2A8/Guia_orientativo_boas_praticas_para_o_uso_de_sistemas_de_inteligencia_artificial.pdf",
+          "arquivo": "12_shadow-ai-governanca/ANBIMA_2024_guia-boas-praticas-uso-sistemas-ia.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Recomenda divulgar aos colaboradores práticas de uso responsável que digam se o uso de 'sistemas paralelos de IA' é admitido ou não e, se for, como deve ocorrer (p. 16)",
+            "Recomenda treinar colaboradores, criar canal de dúvidas, monitorar o cumprimento e usar ferramentas tecnológicas para impedir o uso de sistemas de IA não autorizados (p. 16)",
+            "Ao adquirir IA do mercado: avaliar o fornecedor, o contrato e os padrões de privacidade, proteção de dados e segurança (p. 16)",
+            "Para quem desenvolve sistemas de IA, indica observar o NIST, as normas ISO e o regulamento europeu de IA (p. 15)"
+          ],
+          "resumo": "Guia de boas práticas da ANBIMA para desenvolvimento, aquisição e uso de IA por instituições do mercado financeiro, organizado pelos princípios da OCDE e por medidas de governança, comunicação, conformidade e gestão de riscos. Traz recomendações específicas para quem compra e usa sistemas de IA de terceiros.",
+          "relevancia": "Referência brasileira de associação setorial que trata explicitamente do uso de IA fora dos canais oficiais ('sistemas paralelos') e combina regra, treinamento, monitoramento e bloqueio técnico; é guia orientativo, não norma, e se aplica por analogia fora do setor financeiro."
+        },
+        {
+          "titulo": "Zscaler ThreatLabz 2026 AI Security Report (página-resumo do relatório; consulta em 15/10/2026)",
+          "organizacao": "Zscaler (ThreatLabz)",
+          "ano": "2026 (dados de 2025)",
+          "tipo_fonte": "empresa",
+          "setor": "segurança da informação (fornecedor)",
+          "pais_regiao": "Global",
+          "url": "https://www.zscaler.com/campaign/threatlabz-ai-security-report",
+          "arquivo": "12_shadow-ai-governanca/Zscaler_2026_threatlabz-ai-security-report-pagina-resumo.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "39% de todas as transações de IA/ML medidas na nuvem da Zscaler foram bloqueadas pelas organizações (dados de 2025) (p. 1 e 3)",
+            "Aplicativos mais bloqueados: Grammarly, GitHub Copilot e ChatGPT (p. 3)",
+            "Quase um trilhão de transações de IA/ML na nuvem da Zscaler em 2025 e 18 mil TB de dados enviados a aplicativos de IA/ML (p. 1, 3)"
+          ],
+          "resumo": "Página pública com os números-chave do relatório anual de segurança em IA da Zscaler, baseado no tráfego que passa pela nuvem da empresa. O relatório completo exige cadastro.",
+          "relevancia": "Mede, em tráfego real, a parcela de transações de IA bloqueadas pelas empresas clientes. Material de fornecedor de segurança, que vende a inspeção e o bloqueio que mede; a base é restrita aos clientes da Zscaler; é medição de tráfego, não pesquisa de opinião."
+        },
+        {
+          "titulo": "New Zscaler AI Security Report Reveals an Over 3,000% Surge in Enterprise Use of AI/ML Tools (release, 20/03/2025)",
+          "organizacao": "Zscaler (ThreatLabz)",
+          "ano": "2025 (20/03/2025; dados de fev–dez/2024)",
+          "tipo_fonte": "empresa",
+          "setor": "segurança da informação (fornecedor)",
+          "pais_regiao": "Global",
+          "url": "https://www.zscaler.com/press/new-zscaler-ai-security-report-reveals-over-3000-surge-enterprise-use-ai-ml-tools",
+          "arquivo": "12_shadow-ai-governanca/Zscaler_2025_release-ai-security-report-3000pct.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Empresas bloquearam 59,9% de todas as transações de IA/ML (fev–dez/2024) (p. 2)",
+            "ChatGPT respondeu por 45,2% das transações de IA/ML e foi o aplicativo de IA mais bloqueado, seguido de Grammarly e Microsoft Copilot (p. 2-3)",
+            "Base: 536,5 bilhões de transações de IA/ML na nuvem da Zscaler, de fev a dez/2024 (p. 5)"
+          ],
+          "resumo": "Release do relatório de segurança em IA de 2025 da Zscaler, com dados de tráfego de 2024: crescimento do uso corporativo de IA, parcela de transações bloqueadas e aplicativos mais bloqueados.",
+          "relevancia": "Permite pôr lado a lado a parcela bloqueada nos relatórios de 2025 (59,9%) e de 2026 (39%) da mesma fonte (telemetria da nuvem da Zscaler), mas a página de 2026 não detalha o método e a base de clientes muda de um ano para outro; a fonte não explica a queda. Material de fornecedor de segurança."
+        },
+        {
+          "titulo": "Learn about Data Security Posture Management for AI – classic (Microsoft Learn; consulta em 15/10/2026)",
+          "organizacao": "Microsoft (Purview)",
+          "ano": "2026 (consulta em 15/10/2026)",
+          "tipo_fonte": "analista/big tech",
+          "setor": "segurança da informação (fornecedor)",
+          "pais_regiao": "Global",
+          "url": "https://learn.microsoft.com/en-us/purview/dspm-for-ai",
+          "arquivo": "12_shadow-ai-governanca/Microsoft_2026_purview-dspm-for-ai-classico-15out2026.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Cobre Copilots, agentes e outros apps de IA com LLMs de terceiros, incluindo sites de IA como os do Gemini e do ChatGPT (p. 1)",
+            "Políticas de um clique para registrar usuários que visitam sites de IA generativa de terceiros e enviam informação sensível; exige extensão de navegador e dispositivos cadastrados (p. 4)",
+            "Permite registrar espaços do ChatGPT Enterprise para detectar dados sensíveis compartilhados e detectar envio de dados a apps de IA pela rede, com integração SASE/SSE (p. 5)"
+          ],
+          "resumo": "Documentação oficial da ferramenta da Microsoft que dá visibilidade e controle sobre o uso de IA na empresa, inclusive de ferramentas de terceiros acessadas pelo navegador e do ChatGPT Enterprise. Esta é a versão clássica, substituída por uma nova versão do DSPM.",
+          "relevancia": "Mostra que a descoberta de aplicativos de IA e a prevenção de vazamento podem cobrir várias ferramentas, não só o Copilot (controles para H5). Fonte do fornecedor; documentação da versão clássica, já substituída por nova versão; não traz dados de resultado."
+        }
+      ],
+      "formularios": [
+        {
+          "recomendacao": "envio manual",
+          "relevancia": "media",
+          "organizacao": "Zscaler (ThreatLabz)",
+          "titulo": "Zscaler ThreatLabz 2026 AI Security Report (relatório completo em PDF)",
+          "url": "https://www.zscaler.com/campaign/threatlabz-ai-security-report",
+          "tipo_acesso": "formulario simples",
+          "campos": "e-mail, nome, sobrenome, empresa, país e cargo (vistos na cópia da página, p. 4; formulário não preenchido)",
+          "captcha": "não visível na cópia da página",
+          "opt_in": "caixa opcional para receber novidades, eventos e ofertas da Zscaler; o envio implica aceitar a política de privacidade",
+          "alternativa": "Página-resumo com os números-chave (salva em 12_shadow-ai-governanca/Zscaler_2026_threatlabz-ai-security-report-pagina-resumo.pdf)",
+          "justificativa": "O relatório completo deve trazer a quebra do bloqueio por setor e região, as políticas usadas pelas empresas (bloquear, isolar, alertar), o método e as recomendações; útil para medir o modelo 'bloquear' com mais detalhe e para saber se a queda de 59,9% para 39% tem explicação.",
+          "frentes": "F2"
+        }
+      ],
+      "lacunas": [
+        "Microsoft — a página brasileira de preços do Microsoft 365 Copilot exibia, em 15/10/2026, um banner antigo (Microsoft Build de junho); o preço em reais pode estar desatualizado. Confirmar com revenda antes de usar em cálculo.",
+        "Microsoft — preços de tabela do Copilot não refletem descontos de contratos corporativos (EA/MCA); o preço efetivo de grandes clientes não é público.",
+        "Governos — as avaliações do DBT, do GDS e do Tesouro australiano usam métodos e critérios de uso diferentes (DBT: licenciados com ao menos um uso no dia ou na semana, pelo painel da Microsoft; GDS: ao menos uma interação em 30 dias; Tesouro: frequência autodeclarada em pesquisas), e o próprio DBT diz que seus resultados não são comparáveis aos de outros órgãos (p. 40); não somar nem comparar diretamente. O DBT é uma das 12 organizações do experimento do GDS, no mesmo período (out–dez/2024): não somar as 1.000 licenças do DBT às 20 mil do GDS.",
+        "DBT — a avaliação de custo-benefício (value for money) do piloto não foi publicada até a consulta: o relatório (ago/2025, p. 5 e 14) e um post do blog do DBT de 25/09/2025 dizem que ela estava em curso, e uma busca em 15/10/2026 não achou publicação posterior.",
+        "Gemini Enterprise (Google Cloud) — o preço por usuário não aparece na página oficial (cloud.google.com/gemini-enterprise; o endereço /pricing mostrava 'Erro 404' em 15/10/2026). Valores que circulam em sites de terceiros não foram verificados e não devem ser citados.",
+        "ChatGPT Enterprise e Google Workspace Enterprise — preço por usuário não público (contato com vendas). O Claude Enterprise publica o assento (US$ 20) mas cobra o uso à parte, a preço de API [M909, M904].",
+        "Moeda — nas versões em português, as páginas da OpenAI e do Google mostram preços em reais; a da OpenAI traz R$ 100 ao lado de '$20/25' (só o símbolo '$') sem explicar a conversão, e nenhuma das duas diz se há impostos. Confirmar moeda e impostos na compra.",
+        "Cálculo nosso (não é evidência) — qualquer comparação de custo por usuário entre Microsoft, OpenAI, Anthropic e Google precisa dizer a base: Copilot e Gemini dependem de licença da suíte (Microsoft 365 ou Workspace), enquanto ChatGPT e Claude são assinaturas avulsas; o Copilot Chat não tem custo adicional para clientes comerciais do Microsoft 365 (os agentes são cobrados por consumo), e o Gemini vem embutido nos planos do Workspace, limitado no Starter; o Claude Enterprise soma uso a preço de API.",
+        "Itaú — o número de 65% de redução de gasto com IA generativa só aparece na imprensa (Mobile Time); o release oficial da ia.i (itau.com.br, jul/2026, conferido em 15/10/2026) não o traz — o único '65%' do release é de uma pesquisa sobre brasileiros que gostariam de um copiloto financeiro, e não deve ser confundido. A fonte não separa o efeito da plataforma única do efeito da queda de preço dos modelos.",
+        "JPMorganChase — a restrição ao ChatGPT em 2023, antes da LLM Suite, só aparece na imprensa (reportagem distribuída por emissoras locais da NBC); não há documento oficial do banco sobre a proibição.",
+        "JPMorganChase — os 'mais de 65 mil usando ativamente' a LLM Suite são só do Commercial & Investment Bank [M441, p. 64 do PDF]; os 'quase 250 mil com acesso' são do banco todo [M025, p. 3]. Não há número de uso ativo do banco todo nem critério de uso divulgado.",
+        "Walmart — o caso do assistente próprio (My Assistant, 50 mil funcionários nos EUA em 2023, expansão a 11 países em 2024) tem release oficial, mas sem detalhes de governança, modelo usado ou resultado; não entrou como item.",
+        "Gemini e Deloitte — não há dado público de uso efetivo (usuários ativos) nas implantações em massa de ferramentas fora da Microsoft (Deloitte com Claude, BBVA com Gemini); os números são de acesso ou licença.",
+        "Software AG — o release e o white paper da mesma pesquisa usam bases diferentes: o release fala em 'metade de todos os funcionários' com shadow AI e em 46% que manteriam as ferramentas sob proibição; o white paper, em mais de 50% dos 75% que usam IA e em 'metade' desse grupo. Citar cada número com a base do texto de onde vem.",
+        "Itália — o estudo sobre a proibição do ChatGPT trata de proibição nacional (autoridade de dados), não corporativa; não foi achado estudo que meça o efeito de proibição dentro de empresas sobre o uso por fora.",
+        "Zscaler — a queda da parcela de transações de IA bloqueadas (59,9% em 2024 para 39% em 2025) aparece em dois relatórios do mesmo fornecedor; a página de 2026 não detalha o método, e a fonte não explica a queda nem diz se as empresas trocaram bloqueio por ferramenta oficial. Não inferir causa.",
+        "Modelos de resposta — não foi achado estudo que compare, com o mesmo método, empresas que proíbem, que impõem uma ferramenta única e que liberam várias ferramentas com controle. As evidências disponíveis são de percepção (Software AG, Universidade de Melbourne/KPMG), de tráfego de um fornecedor (Zscaler) e de casos isolados; a queda do uso por contas pessoais medida pela Netskope está no dossiê da frente A. O mais perto disso é uma associação autodeclarada: o envio de informação sensível a ferramentas públicas é mais comum entre funcionários de organizações que proíbem a IA generativa (67%) ou têm política que orienta o uso (56%) do que onde não há política (33%) [M110, p. 77 do PDF]; é correlação, não efeito da proibição.",
+        "Copilot em empresas — não foram achados dados públicos de uso ativo do Copilot em empresas brasileiras que o liberaram para todos (Klabin) nem resultados posteriores ao piloto da Petrobras; só há dados de governo (Reino Unido e Austrália)."
+      ]
+    },
+    {
+      "grupo": "Shadow AI: vibe coding com governança",
+      "pasta": "12_shadow-ai-governanca",
+      "itens": [
+        {
+          "titulo": "CVE-2025-48757 Detail (registro da vulnerabilidade de segurança em nível de linha nos aplicativos gerados pelo Lovable)",
+          "organizacao": "NIST — National Vulnerability Database (NVD); registro CVE atribuído pela MITRE",
+          "ano": "2025 (publicado em 30/05/2025; última modificação em 17/06/2026)",
+          "tipo_fonte": "governo",
+          "setor": "software / ferramentas de criação de aplicativos com IA",
+          "pais_regiao": "EUA (alcance global)",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-48757",
+          "arquivo": "12_shadow-ai-governanca/NIST-NVD_2025_CVE-2025-48757-lovable-rls.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Gravidade 9,3 (crítica) no CVSS 3.1, nota atribuída pela MITRE; o NVD ainda não fez avaliação própria (p. 2)",
+            "Afeta o Lovable até 15/04/2025: atacante remoto, sem autenticação, pode ler ou gravar tabelas dos sites gerados (p. 1)",
+            "Registro marcado como contestado: o fornecedor diz que cada cliente responde pela proteção dos dados do próprio aplicativo (p. 1)",
+            "Publicado no NVD em 30/05/2025; fraqueza CWE-863, autorização incorreta (p. 3)"
+          ],
+          "resumo": "Registro oficial da CVE-2025-48757 na base de vulnerabilidades do governo dos EUA. Descreve política insuficiente de segurança em nível de linha (RLS) nos bancos dos sites gerados pelo Lovable, que permitia ler e gravar dados sem autenticação. O registro está marcado como contestado pelo fornecedor, que atribui a responsabilidade a cada cliente.",
+          "relevancia": "Alta: registro formal de um incidente de segurança de vibe coding em 2025; mostra a disputa sobre quem responde pela segurança do aplicativo gerado, a plataforma ou o cliente. O NVD não fez avaliação própria: a descrição e a nota 9,3 vêm da MITRE, que atribuiu a CVE."
+        },
+        {
+          "titulo": "Statement on CVE-2025-48757, de Matt Palmer (declaração dos pesquisadores sobre a falha de RLS em projetos do Lovable)",
+          "organizacao": "Pesquisadores que registraram a CVE, em blog pessoal de um deles; na notificação formal ao Lovable, a organização indicada é o Replit",
+          "ano": "2025 (29/05/2025)",
+          "tipo_fonte": "outro",
+          "setor": "software / ferramentas de criação de aplicativos com IA",
+          "pais_regiao": "EUA (alcance global)",
+          "url": "https://mattpalmer.io/posts/statement-on-CVE-2025-48757/",
+          "arquivo": "12_shadow-ai-governanca/MattPalmer_2025_statement-cve-2025-48757-lovable.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Varredura automatizada concluída em 21/03/2025, só nas páginas iniciais dos sites da vitrine 'Lovable Launched': 303 endpoints em 170 projetos com RLS inadequada, cerca de 10,3% dos 1.645 analisados (p. 3-5)",
+            "Escrita sem autorização demonstrada: registro inserido com status de pagamento 'pago', contornando a integração de pagamento (p. 5)",
+            "Lovable notificado em 21/03/2025; nova notificação em 14/04/2025 com janela de 45 dias; CVE publicada em 29/05/2025 (p. 6-7)",
+            "Lovable 2.0, de 24/04/2025, trouxe varredura de segurança que, segundo os pesquisadores, só verifica se existe política de RLS e não resolveu a falha de arquitetura (p. 1, 7)"
+          ],
+          "resumo": "Declaração dos pesquisadores que descobriram e registraram a CVE-2025-48757. Descreve o método (varredura automatizada da vitrine de projetos lançados no Lovable), a escala do problema, a linha do tempo da divulgação e a crítica à resposta da plataforma, e defende configurações seguras por padrão no vibe coding.",
+          "relevancia": "Alta: fonte primária do incidente, com números, mas é a versão dos pesquisadores, que na notificação formal indicam como organização o Replit, concorrente direto do Lovable (conflito de interesse, p. 12); a CVE é contestada pelo fornecedor. Ler junto com o registro do NVD."
+        },
+        {
+          "titulo": "Lovable for Enterprise (documentação oficial do plano empresarial)",
+          "organizacao": "Lovable",
+          "ano": "2026 (consulta em 15/10/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "software / ferramentas de criação de aplicativos com IA",
+          "pais_regiao": "Suécia (atuação global)",
+          "url": "https://docs.lovable.dev/introduction/lovable-for-enterprise",
+          "arquivo": "12_shadow-ai-governanca/Lovable_2026_lovable-for-enterprise-docs.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Login único (OIDC e SAML 2.0) nos planos Business e Enterprise; provisionamento SCIM só no Enterprise (p. 3)",
+            "Registros de auditoria guardados por 13 semanas (cerca de 90 dias), com exportação para SIEM ou armazenamento em nuvem, só no Enterprise (p. 2, 9)",
+            "Dados do espaço de trabalho excluídos do treino de modelos por padrão nos planos Business e Enterprise (p. 5)",
+            "No Enterprise, só modelos com retenção zero de dados por padrão; o administrador pode optar por modelos que retêm 30 dias (p. 5)",
+            "Varredura rápida a cada publicação; bloqueio de publicação com falha crítica em todos os planos e com dado pessoal pendente só no Enterprise (p. 7, 10)",
+            "Conformidade declarada: SOC 2 Tipo II, ISO 27001:2022 e AIUC-1, além do GDPR com acordo de processamento de dados (o GDPR é regulamento, não certificação) (p. 2, 15)"
+          ],
+          "resumo": "Página oficial que descreve os controles do plano empresarial do Lovable: identidade (login único, SCIM, 2FA), regras de publicação e compartilhamento, varreduras de segurança antes de publicar, detecção de dado pessoal no chat, auditoria, residência do código (GitHub Enterprise) e inferência na União Europeia. Separa o que vem no plano Business (autosserviço) do que exige contrato Enterprise.",
+          "relevancia": "Alta: mostra que a ferramenta já oferece controles que a TI costuma exigir; parte vem no plano Business, de autosserviço (login único, exclusão do treino por padrão, central de segurança), e parte exige o contrato Enterprise (SCIM, auditoria, detecção de dado pessoal, inferência na UE, restrição de publicação externa). Material do próprio fornecedor (conflito de interesse)."
+        },
+        {
+          "titulo": "Our response to the April 2026 incident (resposta do Lovable ao incidente de abril de 2026)",
+          "organizacao": "Lovable",
+          "ano": "2026 (22/04/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "software / ferramentas de criação de aplicativos com IA",
+          "pais_regiao": "Suécia (atuação global)",
+          "url": "https://lovable.dev/blog/our-response-to-the-april-2026-incident",
+          "arquivo": "12_shadow-ai-governanca/Lovable_2026_response-april-2026-incident.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Entre 03/02/2026 e 20/04/2026, histórico de chat e código-fonte de projetos públicos podiam ser acessados por qualquer usuário logado do Lovable que tivesse o link; projetos privados e o Lovable Cloud não foram atingidos, segundo a empresa (p. 1)",
+            "Correção publicada em até duas horas após o relato público de 20/04/2026 (p. 1)",
+            "Primeiro relato pelo HackerOne em 22/02/2026; todos os relatos foram fechados sem chegar à equipe interna de segurança (p. 4)",
+            "Clientes Enterprise passaram a ter projetos privados por padrão em mai/2025; os demais usuários, só em nov/2025, data que o post diz ter sido informada errado antes (p. 3, 6)"
+          ],
+          "resumo": "Post oficial em que o Lovable reconhece que uma regressão no backend, em fev/2026, reabriu o acesso ao histórico de chat e ao código de projetos públicos, e admite que a primeira resposta pública foi 'desdenhosa'. Lista as mudanças: todos os projetos públicos passam a privados, revisão da triagem de vulnerabilidades e da comunicação de incidentes.",
+          "relevancia": "Alta: incidente recente documentado pela própria plataforma; mostra que o risco também vem da plataforma, não só do aplicativo do usuário, e que clientes empresariais tiveram proteção antes dos demais. Material do fornecedor."
+        },
+        {
+          "titulo": "Lovable is where vibe coding meets security (anúncio do Security Checker 2.0 e das certificações)",
+          "organizacao": "Lovable",
+          "ano": "2025 (18/08/2025)",
+          "tipo_fonte": "empresa",
+          "setor": "software / ferramentas de criação de aplicativos com IA",
+          "pais_regiao": "Suécia (atuação global)",
+          "url": "https://lovable.dev/blog/lovable-security",
+          "arquivo": "12_shadow-ai-governanca/Lovable_2025_vibe-coding-meets-security-checker-2.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Moderação automática bloqueia cerca de 1.000 projetos por dia que violam as políticas (malware, phishing, falsificação de identidade) (p. 2)",
+            "Mais de 300 sites derrubados em duas semanas pela equipe de suporte e segurança por violar as políticas (p. 2)",
+            "Conformidade SOC 2 Tipo 2 desde 13/08/2025, além da certificação ISO 27001:2022, segundo a empresa (p. 3)",
+            "Security Checker 2.0 varre os projetos em busca de segredos expostos e configurações erradas e avisa o usuário (p. 2)"
+          ],
+          "resumo": "Post oficial do Lovable, publicado cerca de dois meses e meio depois da CVE-2025-48757 (que o post não menciona), com a nova versão do verificador de segurança, o programa de moderação contra uso malicioso da plataforma (phishing, malware), a conformidade SOC 2 Tipo 2 e a certificação ISO 27001:2022.",
+          "relevancia": "Média: posicionamento público do fornecedor sobre segurança em 2025, sem citar a CVE; mostra também o outro risco do vibe coding, o uso da ferramenta para golpes. Números da própria empresa, sem verificação externa."
+        },
+        {
+          "titulo": "Introducing a safer way to Vibe Code with Replit Databases (separação dos bancos de desenvolvimento e de produção)",
+          "organizacao": "Replit",
+          "ano": "2025 (21/07/2025)",
+          "tipo_fonte": "empresa",
+          "setor": "software / ferramentas de criação de aplicativos com IA",
+          "pais_regiao": "EUA (atuação global)",
+          "url": "https://replit.com/blog/introducing-a-safer-way-to-vibe-code-with-replit-databases",
+          "arquivo": "12_shadow-ai-governanca/Replit_2025_safer-vibe-code-dev-prod-databases.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Até jul/2025, os aplicativos do Replit usavam um único banco para desenvolvimento e para os dados reais de clientes (p. 1)",
+            "Separação lançada em beta para aplicativos novos em 21/07/2025, com migração automática dos existentes prevista para as semanas seguintes (p. 1-2)",
+            "Na nova publicação, o agente pergunta se as mudanças do banco de desenvolvimento vão para produção, destrutivas ou não (p. 4)"
+          ],
+          "resumo": "Post oficial do Replit, publicado dias depois do caso em que o agente apagou o banco de produção de um usuário, anunciando bancos separados para desenvolvimento e produção, somados à restauração do banco a um ponto no tempo. O post não cita o incidente.",
+          "relevancia": "Alta: exemplo do controle 'sem dado de produção no ambiente de criação'. O post não cita o incidente; quem liga a separação dos bancos ao caso é o CEO do Replit, citado pelo The Register ('para impedir isso categoricamente'). Material do fornecedor. Cópia salva a partir do HTML (a impressão direta foi bloqueada pelo Cloudflare)."
+        },
+        {
+          "titulo": "Replit makes vibe-y promise to stop its AI agents making vibe coding disasters",
+          "organizacao": "The Register",
+          "ano": "2025 (22/07/2025)",
+          "tipo_fonte": "imprensa",
+          "setor": "software / ferramentas de criação de aplicativos com IA",
+          "pais_regiao": "Reino Unido (caso nos EUA)",
+          "url": "https://www.theregister.com/2025/07/22/replit_saastr_response/",
+          "arquivo": "12_shadow-ai-governanca/TheRegister_2025_replit-response-saastr-database-deletion.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Segundo o usuário, o agente do Replit apagou um banco de produção, ignorou a ordem de congelar o código e inventou dados (jul/2025) (p. 1)",
+            "CEO do Replit chamou o caso de 'inaceitável' e anunciou a separação automática dos bancos de desenvolvimento e produção, com ambientes de homologação em preparo (p. 2-3)",
+            "A empresa prometeu reembolso ao usuário e uma análise pós-incidente (p. 2)"
+          ],
+          "resumo": "Reportagem que junta o relato do usuário, fundador de uma comunidade de negócios de software, e a resposta do CEO do Replit no X: reconhecimento do problema, reembolso, análise pós-incidente e separação automática dos bancos.",
+          "relevancia": "Média: fonte de imprensa usada porque as declarações originais estão no X, que exige login; os fatos de produto estão no post oficial do Replit."
+        },
+        {
+          "titulo": "AI-Generated Code Poses Major Security Risks in Nearly Half of All Development Tasks (comunicado do 2025 GenAI Code Security Report)",
+          "organizacao": "Veracode",
+          "ano": "2025 (30/07/2025)",
+          "tipo_fonte": "empresa",
+          "setor": "segurança de aplicações / software",
+          "pais_regiao": "EUA (estudo global)",
+          "url": "https://www.veracode.com/press-release/ai-generated-code-poses-major-security-risks-in-nearly-half-of-all-development-tasks-veracode-research-reveals/",
+          "arquivo": "12_shadow-ai-governanca/Veracode_2025_genai-code-security-report-press-release.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "Em 45% dos testes, o código gerado por mais de 100 LLMs, em 80 tarefas de completar código escolhidas por terem potencial conhecido de vulnerabilidade, trouxe vulnerabilidades da lista OWASP Top 10, pela análise estática da própria Veracode (p. 1, 3)",
+            "Java com taxa de falha de segurança acima de 70%; Python, C# e JavaScript entre 38% e 45% (p. 3)",
+            "Os modelos falharam em proteger o código contra cross-site scripting em 86% e contra injeção em logs em 88% dos casos (p. 3)",
+            "Segurança do código não melhorou com modelos mais novos, e modelos maiores não foram significativamente melhores que os menores (p. 2, 4)"
+          ],
+          "resumo": "Comunicado oficial do relatório de 2025 da Veracode sobre código gerado por IA. A empresa testou mais de 100 modelos de linguagem em 80 tarefas com risco conhecido de vulnerabilidade e mediu, por análise estática, quantas vezes o modelo escolheu a forma insegura; o texto liga o resultado ao vibe coding, em que o usuário não especifica requisitos de segurança.",
+          "relevancia": "Alta: número muito usado sobre segurança de código gerado por IA, citado também pela OWASP (item desta frente); material de fornecedor de ferramentas de segurança de aplicações (conflito de interesse: o comunicado recomenda os produtos da própria empresa, e a análise usou a ferramenta de análise estática da Veracode). As tarefas foram escolhidas por terem risco conhecido, então o 45% não vale para todo código gerado por IA. O relatório completo está atrás de formulário."
+        },
+        {
+          "titulo": "Is Vibe Coding Safe? Benchmarking Vulnerability of Agent-Generated Code in Real-World Tasks (benchmark SusVibes)",
+          "organizacao": "Carnegie Mellon University (Language Technologies Institute), com Columbia University, Johns Hopkins University e HydroX AI",
+          "ano": "2025 (arXiv v1 de 02/12/2025; arquivo baixado = v2, de 16/02/2026; v3 de 21/08/2026 e v4 de 21/09/2026; publicado nos anais do ICML 2026, PMLR v306)",
+          "tipo_fonte": "academia",
+          "setor": "software / engenharia de software com IA",
+          "pais_regiao": "EUA",
+          "url": "https://arxiv.org/abs/2512.03262",
+          "arquivo": "12_shadow-ai-governanca/CMU_2025_is-vibe-coding-safe-susvibes.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "Na v2: 200 tarefas reais de projetos de código aberto, cobrindo 77 tipos de fraqueza (CWE) (p. 1-2)",
+            "Na v2, a combinação com mais soluções corretas (SWE-Agent com Claude 4 Sonnet) resolveu corretamente 61% das tarefas, mas só 10,5% de forma correta e segura (p. 1, 9)",
+            "Na v2, 82,8% das soluções funcionalmente corretas dessa combinação eram inseguras; a maior taxa de corretas e seguras foi 12,5% (OpenHands com Claude 4 Sonnet) (p. 9)",
+            "Na v2, Claude Code com Claude 4 Sonnet: 44% das tarefas resolvidas corretamente e 6% de forma correta e segura (p. 9)",
+            "Na v2, com um lembrete genérico de segurança já na base, pedir ao agente que identifique o tipo de vulnerabilidade, ou informá-lo, reduziu a correção funcional (61% para 52,5% e 56%) sem aumentar as soluções corretas e seguras (10,5% para 9,5% e 10,5%) (p. 9, 12-13)"
+          ],
+          "resumo": "Artigo acadêmico que cria o SusVibes, conjunto de tarefas de pedido de nova funcionalidade em repositórios reais, tiradas de vulnerabilidades já corrigidas por humanos. Na versão baixada (v2, fev/2026), são 200 tarefas e 3 agentes de programação com 3 modelos de ponta; todos vão muito mal em segurança, e a média de tarefas resolvidas de forma correta e segura fica em torno de 10%.",
+          "relevancia": "Alta: estudo acadêmico específico sobre vibe coding com agentes (e não sobre geração de um trecho isolado); um dos coautores é de empresa de segurança de IA (HydroX AI). O arquivo é a v2 do arXiv, já superada: a v3 (21/08/2026) e a v4 (21/09/2026) do arXiv e os anais do ICML 2026 (PMLR v306, https://proceedings.mlr.press/v306/zhao26ax.html) trazem 186 tarefas, 12 configurações de agente e, na combinação SWE-Agent com Claude 4 Sonnet, 57% de soluções corretas e 11,8% seguras; a conclusão (todos os agentes vão mal em segurança, e dicas no pedido não resolvem) se mantém. Citar os números da v2 sempre com a versão, ou baixar a versão final."
+        },
+        {
+          "titulo": "Replit Enterprise — documentação oficial (plano Enterprise, uso de dados para treino e configurações de privacidade e publicação)",
+          "organizacao": "Replit",
+          "ano": "2026 (consulta em 15/10/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "software / ferramentas de criação de aplicativos com IA",
+          "pais_regiao": "EUA (atuação global)",
+          "url": "https://docs.replit.com/billing/plans/replit-enterprise",
+          "arquivo": "12_shadow-ai-governanca/Replit_2026_enterprise-docs-plano-treino-privacidade.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Enterprise inclui login único SAML com provisionamento SCIM e trilha de auditoria enviada ao SIEM (p. 2)",
+            "Controles do administrador: exigir publicação privada, proibir apps públicos, exigir varredura de segurança e fixar a região de publicação (p. 2)",
+            "Assentos ilimitados, sem custo por assento; a cobrança é por créditos, com compromisso anual ou pagamento por uso (p. 3, 5)",
+            "No plano Pro, o conteúdo do usuário serve para melhorar os modelos, com opção de recusa; no Enterprise, o Replit não usa o conteúdo do cliente para treino (p. 9)",
+            "A exigência de publicação privada vale só para apps novos; a de URLs de desenvolvimento privadas vale também para os existentes (p. 13-14)",
+            "Fixar a região de publicação não garante que serviços externos usados pelo app guardem os dados na mesma região (p. 15)"
+          ],
+          "resumo": "Três páginas oficiais da documentação do Replit, juntadas num arquivo datado: o plano Enterprise (identidade, auditoria, central de segurança, controles do administrador), a política de uso do conteúdo para melhorar modelos e as configurações de privacidade e publicação (apps privados, URLs de desenvolvimento protegidas, bloqueio de exportação de código, região de publicação). Páginas: https://docs.replit.com/billing/plans/replit-enterprise, https://docs.replit.com/legal-and-security-info/model-improvement e https://docs.replit.com/teams/privacy-and-deployment-settings.",
+          "relevancia": "Alta: mostra os controles que a TI pode impor ao vibe coding numa plataforma voltada também a quem não programa, e a diferença de proteção de dados entre os planos; material do fornecedor."
+        },
+        {
+          "titulo": "Cursor Enterprise — documentação oficial (visão geral, privacidade e governança de dados, segurança e controles do agente)",
+          "organizacao": "Cursor (Anysphere)",
+          "ano": "2026 (consulta em 15/10/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "software / ambiente de programação com IA",
+          "pais_regiao": "EUA (atuação global)",
+          "url": "https://cursor.com/docs/enterprise",
+          "arquivo": "12_shadow-ai-governanca/Cursor_2026_enterprise-docs-privacidade-controles-agente.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Modo de privacidade ligado por padrão nas equipes Enterprise: o código não é usado para treino pelo Cursor nem pelos provedores de modelos (p. 8)",
+            "Residência de dados só nos EUA (inferência, processamento e armazenamento), com acréscimo de 10% no preço dos modelos; UE e Reino Unido só para inferência, sob pedido (p. 11-12)",
+            "A documentação diz que, por padrão, o agente pede aprovação antes de qualquer comando no terminal, mas que, a partir da versão 3.6, o modo padrão é a 'revisão automática' por classificador de IA; a lista de comandos liberados é 'de melhor esforço, não uma barreira de segurança' (p. 14)",
+            "Registros de auditoria exclusivos do plano Enterprise, com integração a SIEM; certificação SOC 2 Tipo II (p. 2, 4)",
+            "Política de MDM impede o login de contas pessoais, que podem estar sem modo de privacidade, em dispositivos da empresa (p. 10)"
+          ],
+          "resumo": "Três páginas oficiais da documentação do Cursor, juntadas num arquivo datado: a visão geral do plano Enterprise (identidade, auditoria, controles), a página de privacidade e governança de dados (modo de privacidade, retenção, criptografia, residência de dados) e a de segurança do agente (aprovação de comandos, hooks, arquivos protegidos). Páginas: https://cursor.com/docs/enterprise, https://cursor.com/docs/enterprise/privacy-and-data-governance e https://cursor.com/docs/enterprise/llm-safety-and-controls.",
+          "relevancia": "Alta: ambiente de programação com IA voltado a desenvolvedores; mostra controles para impedir que o agente execute ações destrutivas e o custo extra da residência de dados. Material do fornecedor."
+        },
+        {
+          "titulo": "Bolt for Teams just leveled up (post oficial) e página de preços do Bolt (plano Enterprise)",
+          "organizacao": "Bolt (StackBlitz)",
+          "ano": "2026 (post de 18/02/2026; preços consultados em 15/10/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "software / ferramentas de criação de aplicativos com IA",
+          "pais_regiao": "EUA (atuação global)",
+          "url": "https://bolt.new/blog/build-together-with-enhanced-team-features",
+          "arquivo": "12_shadow-ai-governanca/Bolt_2026_bolt-for-teams-e-plano-enterprise.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Varredura de segurança dos bancos do Bolt Cloud detecta, por exemplo, falta de políticas de segurança em nível de linha (RLS), com botão para pedir a correção ao próprio Bolt (p. 3, 5)",
+            "Equipes podem conectar ao Bolt bancos Supabase já existentes, inclusive os de produção (p. 5)",
+            "O administrador define o provedor de publicação padrão para todos os projetos da equipe (p. 6)",
+            "Na tabela de preços, login único, registros de auditoria e políticas de governança e retenção de dados aparecem só no plano Enterprise, com preço sob consulta (p. 13)"
+          ],
+          "resumo": "Post oficial do Bolt (fev/2026) com os controles do plano para equipes, como varredura de segurança do banco, conexão a bancos existentes, controle de onde o código é publicado e de integrações, mais a página de preços, que reserva login único, auditoria e retenção de dados ao plano Enterprise. Páginas: https://bolt.new/blog/build-together-with-enhanced-team-features e https://bolt.new/pricing.",
+          "relevancia": "Média: mostra o movimento das ferramentas para o uso corporativo e um contraponto ao princípio de 'sem dado de produção no protótipo', já que o próprio fornecedor oferece ligar o banco de produção. Material do fornecedor."
+        },
+        {
+          "titulo": "v0 Docs — Security e Enterprise (documentação oficial)",
+          "organizacao": "Vercel (v0)",
+          "ano": "2026 (consulta em 15/10/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "software / ferramentas de criação de aplicativos com IA",
+          "pais_regiao": "EUA (atuação global)",
+          "url": "https://v0.app/docs/security",
+          "arquivo": "12_shadow-ai-governanca/Vercel_2026_v0-docs-security-enterprise.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Clientes Enterprise podem optar por não ter o conteúdo usado no treino de modelos; a página não trata dos demais planos (p. 3)",
+            "Enterprise com login único SAML, controle de acesso por papéis e registros de auditoria (p. 3-4)",
+            "O v0 trata todo código gerado como 'potencialmente incorreto ou adversário' e o executa em ambiente isolado (p. 2)",
+            "O papel 'v0 Builder' vale para a equipe inteira: publica e altera variáveis de ambiente em todo projeto ligado ao v0 (p. 9)",
+            "Donos de equipe Enterprise podem bloquear o compartilhamento de chats por link e na web aberta (p. 11)"
+          ],
+          "resumo": "Duas páginas oficiais da documentação do v0, da Vercel: a de segurança (modelo de ameaça, execução isolada, recursos do plano Enterprise, certificações) e a do plano Enterprise (papéis, login único via grupos do provedor de identidade, modelos liberados, privacidade dos chats). Páginas: https://v0.app/docs/security e https://v0.app/docs/enterprise.",
+          "relevancia": "Média: completa o quadro das ferramentas de prototipação. No v0, a página fala em opção de exclusão do treino (opt-out) para clientes Enterprise e, ao mesmo tempo, diz que os dados do cliente Enterprise nunca influenciam modelos usados por outros clientes; não fica claro qual é o padrão. Lovable (Business e Enterprise) e Replit (Enterprise) dizem excluir o conteúdo do treino por padrão. Material do fornecedor."
+        },
+        {
+          "titulo": "The 'vibe coding spectrum' approach to AI-assisted software development",
+          "organizacao": "National Cyber Security Centre (NCSC), Reino Unido",
+          "ano": "2026 (18/06/2026)",
+          "tipo_fonte": "governo",
+          "setor": "segurança cibernética / desenvolvimento de software",
+          "pais_regiao": "Reino Unido",
+          "url": "https://www.ncsc.gov.uk/blogs/the-vibe-coding-spectrum-approach-to-ai-assisted-software-development",
+          "arquivo": "12_shadow-ai-governanca/NCSC_2026_vibe-coding-spectrum-ai-assisted-development.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "Vibe coding pleno pode muitas vezes ser aceitável em provas de conceito, demonstrações e ferramentas internas de baixa exposição, sem dados sensíveis (p. 1-2)",
+            "Exige supervisão maior em autenticação, dados pessoais sensíveis, segredos e credenciais e sistemas críticos (p. 2)",
+            "Supervisão em quatro passos: revisar o que a IA produz, entender o código, checar vulnerabilidades e verificar o comportamento (p. 2)",
+            "Sugere considerar os requisitos básicos de segurança para modelos e sistemas de IA do ETSI quando o perfil de risco 'se move para a direita do espectro', rumo ao vibe coding pleno (p. 3)"
+          ],
+          "resumo": "Post da agência de segurança cibernética do Reino Unido que propõe tratar o vibe coding como um espectro: do código manual com sugestões da IA ao 'vibe pleno', em que a IA decide arquitetura e código. A posição em cada caso depende do risco do que se constrói; a mensagem é supervisão, não proibição.",
+          "relevancia": "Alta: post de blog da agência de segurança cibernética do governo britânico (não é guia formal), escrito pelo seu arquiteto principal de segurança; dá um critério simples para calibrar o vibe coding pelo risco do que se constrói, compatível com o modelo de protótipo sem dado sensível."
+        },
+        {
+          "titulo": "Vibe check: AI may replace SaaS (but not for a while)",
+          "organizacao": "National Cyber Security Centre (NCSC), Reino Unido — CTO de Arquitetura",
+          "ano": "2026 (24/03/2026)",
+          "tipo_fonte": "governo",
+          "setor": "segurança cibernética / desenvolvimento de software",
+          "pais_regiao": "Reino Unido",
+          "url": "https://www.ncsc.gov.uk/blogs/vibe-check-ai-may-replace-saas-but-not-for-a-while",
+          "arquivo": "12_shadow-ai-governanca/NCSC_2026_vibe-check-ai-may-replace-saas.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "Cada vez mais, fornecedores de software como serviço usam a segurança para diferenciar preços; planos 'enterprise' caros são frequentemente exigidos até para recursos básicos (registros, monitoramento, login único, MFA) (p. 2)",
+            "A regra 'todo código escrito por IA deve ser revisado por um humano' já começa a ceder para quem quer construir de forma agressiva; em 5 anos será cada vez mais comum código de IA em produção nunca revisado por humano (p. 2)",
+            "Salvaguardas: modelos que gerem código seguro por padrão, confiança na procedência do modelo e IA para revisar código (p. 3)",
+            "O autor diz conhecer uma grande organização (não identificada) que exige, até no menor projeto, cobertura de testes, testes de segurança automatizados e documentação comparáveis aos do software crítico (p. 4)"
+          ],
+          "resumo": "Post do CTO de Arquitetura do NCSC, no blog 'Inside the NCSC'. Compara o vibe coding à chegada do software como serviço: os benefícios devem vencer as resistências, e a segurança precisa entrar desde já; o autor levanta como questões a resolver a arquitetura determinística, plataformas de hospedagem que contenham código de baixa qualidade e o uso de IA para fazer a higiene de segurança. Ressalva do próprio post: não defende que todos passem a fazer vibe coding, e hoje há riscos provavelmente fora da tolerância da maioria das organizações.",
+          "relevancia": "Alta: visão de um dirigente técnico da agência de governo britânica, em blog (opinião do autor, não orientação formal), sobre o rumo do vibe coding nas empresas e os limites da revisão humana como único controle."
+        },
+        {
+          "titulo": "OWASP Top 10 Risks for Citizen Development (riscos do desenvolvimento cidadão: low-code/no-code, programação assistida por IA e agentes)",
+          "organizacao": "OWASP Foundation (projeto OWASP Citizen Development Top 10)",
+          "ano": "2025 (documento sem data; referências até set/2025)",
+          "tipo_fonte": "outro",
+          "setor": "segurança de aplicações / desenvolvimento cidadão",
+          "pais_regiao": "Global",
+          "url": "https://owasp.org/www-project-citizen-development-top-10/",
+          "arquivo": "12_shadow-ai-governanca/OWASP_2025_citizen-development-top-10-risks.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Escopo ampliado do low-code/no-code para a programação assistida por IA e os agentes, citando Base44, Cursor e Replit (p. 1)",
+            "Dez riscos, do CD-SEC-01 'confiança cega' ao CD-SEC-10 'falhas de registro e monitoramento' (p. 3)",
+            "Contra apps órfãos: centro de governança, dono e ciclo de vida, classificação de risco em níveis, controle de versão e inventário (p. 32)",
+            "Caso Power Apps Portals (2021): cerca de 38 milhões de registros expostos porque a permissão de tabela vinha desligada por padrão (p. 37)",
+            "Caso Passion.io (2025): banco de uma plataforma no-code exposto sem senha, com mais de 3,6 milhões de registros (p. 39)"
+          ],
+          "resumo": "Lista da OWASP com os 10 principais riscos do desenvolvimento feito por não programadores, que deixou de cobrir só low-code/no-code e passou a incluir programação assistida por IA e agentes. Para cada risco traz descrição, cenários e prevenção, e termina com casos reais (Power Apps Portals, relatório da Veracode, Passion.io).",
+          "relevancia": "Alta: referência de fundação sem fins lucrativos que liga o vibe coding ao modelo de governança já usado no low-code (inventário, dono, classificação de risco, revisão antes de publicar); dirigida a times de segurança e a comitês de governança."
+        },
+        {
+          "titulo": "Develop a tenant environment strategy to adopt Power Platform at scale; Key concepts — Copilot Studio security and governance (documentação oficial)",
+          "organizacao": "Microsoft",
+          "ano": "2026 (consulta em 15/10/2026)",
+          "tipo_fonte": "analista/big tech",
+          "setor": "software / plataformas low-code e de agentes",
+          "pais_regiao": "EUA (atuação global)",
+          "url": "https://learn.microsoft.com/en-us/power-platform/guidance/adoption/environment-strategy",
+          "arquivo": "12_shadow-ai-governanca/Microsoft_2026_power-platform-environment-strategy-copilot-studio-governance.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "O ambiente padrão compartilhado pode levar à falta de isolamento; a recomendação é rotear cada criador para um ambiente pessoal de desenvolvimento (p. 3, 10)",
+            "Até três ambientes de desenvolvimento por criador; os sem uso por 90 dias são desligados e removidos se o dono não responder aos avisos (p. 6)",
+            "Pipelines promovem o que foi criado do desenvolvimento para teste e produção (p. 4-5)",
+            "Os recursos de governança 'premium' exigem licença premium do Power Platform (Power Apps, Power Automate, Copilot Studio) (p. 3)",
+            "Copilot Studio: alerta de segurança antes de publicar o agente quando as configurações padrão são alteradas, auditoria no Purview e opção de desligar a publicação de agentes com IA generativa (p. 46-48)"
+          ],
+          "resumo": "Duas páginas oficiais da Microsoft: o guia de estratégia de ambientes do Power Platform (ambiente pessoal de desenvolvimento para cada criador, grupos de ambientes com regras, pipelines de promoção para teste e produção) e a página de segurança e governança do Copilot Studio (políticas de dados para agentes, varredura antes de publicar, auditoria). Páginas: https://learn.microsoft.com/en-us/power-platform/guidance/adoption/environment-strategy e https://learn.microsoft.com/en-us/microsoft-copilot-studio/security-and-governance.",
+          "relevancia": "Alta: é o modelo de governança do low-code corporativo que a TI já conhece, com isolamento por criador e caminho formal de promoção para produção; serve de comparação para as ferramentas de vibe coding, sem avaliá-las. Material do fornecedor; parte dos controles exige licença premium."
+        },
+        {
+          "titulo": "AppSheet — Define governance policies; Predefined policy templates; Control access to AppSheet features (documentação oficial)",
+          "organizacao": "Google (AppSheet / Google Workspace)",
+          "ano": "2026 (consulta em 15/10/2026)",
+          "tipo_fonte": "analista/big tech",
+          "setor": "software / plataformas low-code",
+          "pais_regiao": "EUA (atuação global)",
+          "url": "https://support.google.com/appsheet/answer/11948767",
+          "arquivo": "12_shadow-ai-governanca/Google_2026_appsheet-governance-policies-docs.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Políticas por organização, equipe ou indivíduo; exemplos: todo app exige login, só certas pessoas marcam o app como implantado, compartilhamento só com um domínio (p. 2)",
+            "Quando regras da organização e da equipe se combinam, vale sempre a mais restritiva (p. 3)",
+            "A política pode ser checada na edição, na implantação ou sempre; com gravidade 'erro', o app não é implantado nem editado (p. 7-8)",
+            "Políticas de governança só na edição Enterprise Plus; a Core tem uma única chave que desliga compartilhamento externo, dados externos, API e webhooks (p. 16)"
+          ],
+          "resumo": "Três páginas oficiais do Google sobre a governança do AppSheet, a plataforma low-code do Google Workspace: o que é uma política de governança e como ela é aplicada, os modelos prontos de política e o controle de acesso por edição. Páginas: https://support.google.com/appsheet/answer/11948767, https://support.google.com/appsheet/answer/13390789 e https://support.google.com/a/answer/16018438.",
+          "relevancia": "Média: segunda alternativa 'da casa' para comparação; mostra regras checadas na edição e na implantação, aplicadas por organização e equipe, e que a governança detalhada depende da edição Enterprise Plus. Material do fornecedor."
+        },
+        {
+          "titulo": "We just raised $400M in Series C funding to help people run their businesses",
+          "organizacao": "Lovable",
+          "ano": "2026 (12/08/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "software / ferramentas de criação de aplicativos com IA",
+          "pais_regiao": "Suécia (atuação global; casos no Brasil, EUA e Reino Unido)",
+          "url": "https://lovable.dev/blog/series-c",
+          "arquivo": "12_shadow-ai-governanca/Lovable_2026_series-c-400m-adocao-empresas.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "Mais de 60 milhões de projetos criados desde nov/2024; apps feitos no Lovable recebem mais de 900 milhões de visitas por mês (p. 2)",
+            "O Lovable alcançou funcionários de quase dois terços da Fortune 500, contra metade ao fim do primeiro ano; mede presença de usuários, não contratos (p. 2)",
+            "Rodada de US$ 400 milhões com avaliação de US$ 13,3 bilhões, com fundos da América Latina entre os novos investidores (p. 1)",
+            "Caso brasileiro: empresa de educação em IA com 54 pessoas e mais de 1.200 clientes construiu CRM, ferramentas financeiras e site no Lovable (p. 3)",
+            "Cliente nos EUA levou o Lovable a mais de 200 funcionários e está desativando 10 sistemas SaaS (p. 3)"
+          ],
+          "resumo": "Anúncio oficial da Série C do Lovable, com números de uso, novidades de segurança e governança (varredura agendada, certificação AIUC-1, controles de publicação, limpeza de apps abandonados) e casos de empresas, como Zendesk, Handshake e Checkr, que passaram da prototipação a ferramentas internas.",
+          "relevancia": "Alta para adoção: mostra que o uso chega às grandes empresas pelos funcionários, o que pode incluir uso fora dos canais da TI; números do fornecedor, sem auditoria, e 'funcionários de empresas da Fortune 500' não equivale a contrato corporativo."
+        },
+        {
+          "titulo": "The Future is Actually Very Human — Replit raises $400 million at a $9 billion valuation",
+          "organizacao": "Replit",
+          "ano": "2026 (11/03/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "software / ferramentas de criação de aplicativos com IA",
+          "pais_regiao": "EUA (atuação global)",
+          "url": "https://replit.com/blog/replit-raises-400-million-dollars",
+          "arquivo": "12_shadow-ai-governanca/Replit_2026_raises-400m-fortune-500-ukg.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "Usuários de 85% da Fortune 500 constroem no Replit (presença de usuários, não contratos); meta de US$ 1 bilhão de receita anualizada até o fim de 2026 (p. 3)",
+            "Mais de 50 milhões de usuários (p. 3)",
+            "UKG, com mais de 16 mil funcionários, usa o Replit para prototipar e teve aumento de 400% na capacidade de colher retorno de clientes antes do investimento de engenharia (p. 4)",
+            "Investidores estratégicos: Accenture Ventures, Databricks Ventures, Okta Ventures e Tether (p. 2)"
+          ],
+          "resumo": "Post oficial do CEO do Replit sobre a rodada de US$ 400 milhões (avaliação de US$ 9 bilhões), com números de uso, empresas citadas como construindo apps no Replit (Atlassian, LabCorp, PayPal, Zillow, Talkdesk, Adobe) e o caso da UKG, que embutiu seu sistema de design num modelo de protótipo reutilizável para validar ideias antes de chamar a engenharia.",
+          "relevancia": "Média: dado de presença de usuários em grandes empresas (não de contratos corporativos) e um caso de prototipação com regras (sistema de design padrão, protótipo antes do investimento de engenharia); números do fornecedor, sem auditoria, e a receita de US$ 1 bilhão é meta, não resultado."
+        },
+        {
+          "titulo": "Benchmark de Automação com IA no Brasil 2026",
+          "organizacao": "Jitterbit (pesquisa feita pela Censuswide)",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "integração e automação / TI corporativa",
+          "pais_regiao": "Brasil (com comparação com EUA e Reino Unido)",
+          "url": "https://www.jitterbit.com/wp-content/uploads/Jitterbit-Benchmark-de-Automacao-com-IA-no-Brasil-2026.pdf",
+          "arquivo": "12_shadow-ai-governanca/Jitterbit_2026_benchmark-automacao-ia-brasil.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "Amostra: 1.501 decisores de TI que já usam IA, 501 deles no Brasil, nas cinco regiões (p. 3)",
+            "Segundo o texto, mais de 1 em cada 5 decisores brasileiros prefere plataformas de vibe coding (como o Lovable) como método principal para construir agentes, contra 19,6% no Reino Unido e 15,6% nos EUA; no gráfico, a fatia de 21,6% está rotulada 'código personalizado interno' (p. 5)",
+            "Método principal no Brasil: SaaS com IA embarcada (35,1%) e plataformas low-code/no-code (30%) (p. 5)",
+            "Democratizar o desenvolvimento para funcionários não técnicos é motivador da estratégia de automação para 23,7% (p. 11)",
+            "Riscos de segurança, governança e privacidade aparecem entre os principais gargalos do piloto à produção, de 38,7% (Nordeste) a 52,9% (Sul), sem o número de respondentes por região (p. 6)"
+          ],
+          "resumo": "Relatório da Jitterbit, com pesquisa da Censuswide, sobre automação e agentes de IA em empresas brasileiras, com comparação com EUA e Reino Unido. Traz o método preferido para construir agentes, inclusive plataformas de vibe coding, os motivadores e as barreiras para escalar.",
+          "relevancia": "Média: único dado quantitativo brasileiro encontrado sobre vibe coding nas empresas; material de fornecedor de integração e automação (conflito de interesse), e o gráfico da p. 5 não bate com o texto (ver lacunas)."
+        },
+        {
+          "titulo": "Wiz Research Discovers One in Five Organizations Exposed to Systemic Risks in Vibe-Coded Applications",
+          "organizacao": "Wiz (Wiz Research)",
+          "ano": "2025 (18/09/2025)",
+          "tipo_fonte": "empresa",
+          "setor": "segurança em nuvem",
+          "pais_regiao": "Global",
+          "url": "https://www.wiz.io/blog/common-security-risks-in-vibe-coded-apps",
+          "arquivo": "12_shadow-ai-governanca/Wiz_2025_common-security-risks-vibe-coded-apps.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Segundo o corpo do post, 1 em cada 5 organizações constrói em plataformas de vibe coding e se expõe a risco sem perceber; o título fala em '1 em cada 5 organizações expostas'; base, amostra e método não divulgados (p. 1-2)",
+            "Quatro falhas recorrentes: login validado só no navegador, chaves de API no código do cliente, tabelas com RLS aberta e apps internos publicados sem autenticação (p. 2-9)",
+            "A Wiz e o Lovable mudaram o prompt de sistema global do Lovable para tratar segredos no código do cliente como risco (p. 5)",
+            "Recomendação: conhecer todos os apps de vibe coding usados na organização e, sem autenticação, restringi-los a informação pública (p. 9)"
+          ],
+          "resumo": "Pesquisa da Wiz sobre a segurança de aplicativos feitos em plataformas de vibe coding, com quatro falhas comuns encontradas em aplicativos reais (inclusive bases de conhecimento e chatbots internos expostos na internet) e as correções, preparadas junto com o Lovable.",
+          "relevancia": "Alta: um dos poucos dados por organização, e não só por aplicativo, mas com base não informada. Fornecedor de segurança em nuvem que vende no próprio portal a detecção desses apps e aparece como conector de segurança na documentação Enterprise do Lovable (relação comercial); correções preparadas em conjunto com o Lovable (conflito de interesse); sem método nem amostra publicados."
+        }
+      ],
+      "formularios": [
+        {
+          "recomendacao": "envio manual",
+          "relevancia": "alta",
+          "organizacao": "Veracode",
+          "titulo": "2025 GenAI Code Security Report (relatório completo em PDF; a página cita atualização de outubro de 2025)",
+          "url": "https://www.veracode.com/resources/analyst-reports/2025-genai-code-security-report/",
+          "tipo_acesso": "formulario (Marketo)",
+          "campos": "nao verificado",
+          "observacao": "O item usa o comunicado oficial de 30/07/2025, com os números principais; o relatório traz o detalhe por linguagem, tipo de falha e modelo."
+        }
+      ],
+      "lacunas": [
+        "Lovable, abril de 2026: o número de projetos públicos de fato acessados por terceiros entre 03/02 e 20/04/2026 não foi divulgado; o Lovable diz que ainda revisava os acessos (post de 22/04/2026). A imprensa traz versões divergentes sobre o alcance da correção (ex.: só projetos criados após nov/2025); não há fonte primária que resolva.",
+        "SusVibes: os números variam entre versões do artigo. O arquivo baixado é a v2 do arXiv (16/02/2026): 200 tarefas, 61% corretas e 10,5% corretas e seguras (a v1, de 02/12/2025, traz os mesmos números no resumo). A v3 (21/08/2026) e a v4 (21/09/2026) do arXiv e os anais do ICML 2026 (PMLR v306) trazem 186 tarefas, 12 configurações de agente, 57% corretas e 11,8% seguras (resumos conferidos na web em 15/10/2026). A versão final não foi baixada; convém baixá-la e trocar os números antes de citar.",
+        "Cursor: a página de privacidade lista, num FAQ recolhido, o que fica fora da residência de dados (ex.: login único via provedor de identidade do Cursor, chaves próprias, integrações MCP). O texto do FAQ não saiu na cópia em PDF; não entrou como evidência.",
+        "Bolt e v0: não há, nas páginas oficiais consultadas, informação sobre residência de dados nem prazo de retenção; no Bolt, o plano Enterprise cita 'políticas de governança e retenção de dados' sem detalhar.",
+        "Jitterbit: o texto da p. 5 diz que 'mais de 1 em cada 5' brasileiros preferem plataformas de vibe coding, mas no gráfico da mesma página a fatia de 21,6% está rotulada como 'código personalizado interno' e o rótulo 'vibe-coded' aparece solto sob 'IA embarcada em aplicativos SaaS' (conferido na imagem da página). Blogs que repercutem a pesquisa citam 21,7% (Brasil), 15,4% (EUA) e 8,2% (Reino Unido), números diferentes dos 19,6% e 15,6% do relatório. A evidência usa a frase do texto com a ressalva do gráfico; a pesquisa mede preferência de método, não uso. Na tabela regional da p. 6, os percentuais do Sul são todos múltiplos de 1/17, o que sugere subamostra muito pequena; o relatório não dá o número de respondentes por região.",
+        "Wiz: o título do post fala em '1 em cada 5 organizações expostas', o título da página na web em 'riscos em 20% dos apps de vibe coding' (conferido em 15/10/2026) e o corpo do texto diz que '1 em cada 5 organizações constrói nessas plataformas', expondo-se a risco. São denominadores diferentes (organizações em geral, organizações que constroem, aplicativos), e o post não informa a base, a amostra, o período nem o método.",
+        "Lovable e Replit: 'funcionários de quase dois terços da Fortune 500' e 'usuários de 85% da Fortune 500' medem presença de usuários (que pode ser uso por fora da TI), não contratos corporativos; não há número oficial de clientes Enterprise de nenhum dos dois.",
+        "Cursor: o blog oficial anuncia, em 14/08/2026, que a empresa foi adquirida pela SpaceX (https://cursor.com/blog, não catalogado; conferido em 15/10/2026), e a página de imprensa lista matéria da Bloomberg de 02/03/2026 sobre receita recorrente de US$ 2 bilhões (não lida). Não entrou como item; vale checar se a mudança de controle altera termos de dados e contratos.",
+        "Frente A já tem a pesquisa da Nutanix (Enterprise Cloud Index 2026): 79% dos executivos no mundo e 74% no Brasil já encontraram aplicações ou agentes de IA criados fora da TI. É o dado-pista da H6 e não foi duplicado aqui.",
+        "Guias de governo e entidades: não foi encontrado documento da CISA, do NIST ou da ANPD específico sobre vibe coding ou código gerado por IA (buscas de 15/10/2026). Pistas a verificar, não baixadas: NIST SP 800-218A (jul/2024), perfil do SSDF para IA generativa que, segundo o resumo da busca, não distingue código humano de código gerado por IA e parte do princípio de que todo código deve ser avaliado antes do uso (https://csrc.nist.gov/pubs/sp/800/218/a/final); guia da CISA e parceiros sobre adoção segura de IA agêntica, de 01/05/2026 (https://www.cisa.gov/news-events/news/cisa-us-and-international-partners-release-guide-secure-adoption-agentic-ai). A ANPD tem material sobre IA generativa (Radar Tecnológico nº 3, já com a frente B), sem tratar de desenvolvimento de aplicativos.",
+        "Analistas: o Gartner tem notas pagas sobre o tema ('Vibe Coding to Replace Management Tools Creates Technical Debt, Not Cost Savings', https://www.gartner.com/en/documents/7773153) e um comunicado de 20/05/2026 prevendo que, até 2027, mais de 65% das equipes de engenharia que usam programação agêntica tratarão o ambiente de desenvolvimento como opcional, levando controle, governança e validação para plataformas automatizadas (https://www.gartner.com/en/newsroom/press-releases/2026-05-20-gartner-says-the-market-for-enterprise-ai-coding-agents-is-entering-a-new-phase-of-expansion-and-competitive-realignment; lido, não catalogado por limite de itens). Forrester não foi pesquisada.",
+        "CVE-2025-48757: na notificação formal enviada ao Lovable (p. 12 do arquivo dos pesquisadores), a organização indicada é o Replit, concorrente direto. Não há verificação independente dos números da varredura (303 endpoints, 170 projetos, 1.645 analisados); o NVD só reproduz a descrição e a nota da MITRE."
+      ]
+    }
+  ]
+}

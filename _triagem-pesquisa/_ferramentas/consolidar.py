@@ -44,6 +44,8 @@ NOME_PASTA = {
     "08_setor-financeiro": "Setor financeiro",
     "09_outros-setores": "Outros setores maduros",
     "10_ia-sustentabilidade": "IA e sustentabilidade (impacto ambiental)",
+    "11_custo-da-ia": "Custo de uso da IA (preços, consumo e paralelo automotivo)",
+    "12_shadow-ai-governanca": "Shadow AI e governança do uso de IA",
 }
 
 
@@ -167,6 +169,34 @@ def unir_acessos(forms, triagem, obtidos=(), status_manual=None):
     return acessos
 
 
+def chaves_id(it):
+    """Chaves que identificam um item entre consolidações: arquivo, URL normalizada e título|organização|ano."""
+    return [k for k in (it.get("arquivo") or None, norm_url(it.get("url")) or None,
+                        norm_titulo(it.get("titulo")) + "|" + norm_titulo(it.get("organizacao")) + "|" + (it.get("ano") or ""))
+            if k]
+
+
+def atribuir_ids(itens):
+    """IDs estáveis (M001…): notas e entregáveis citam as fontes pelo ID, então um item nunca muda de ID.
+    O registro _catalogo/ids.json guarda chave -> ID; item novo recebe o próximo número livre."""
+    arq = RAIZ / "_catalogo" / "ids.json"
+    registro = json.loads(arq.read_text(encoding="utf-8")) if arq.exists() else {}
+    proximo = max((int(v[1:]) for v in registro.values()), default=0) + 1
+    usados = set()
+    for it in itens:
+        ks = chaves_id(it)
+        atual = next((registro[k] for k in ks if k in registro and registro[k] not in usados), None)
+        if atual is None:
+            atual = f"M{proximo:03d}"
+            proximo += 1
+        usados.add(atual)
+        it["id"] = atual
+        for k in ks:
+            registro.setdefault(k, atual)
+    arq.write_text(json.dumps(dict(sorted(registro.items(), key=lambda kv: (kv[1], kv[0]))), ensure_ascii=False, indent=1),
+                   encoding="utf-8")
+
+
 def deduplicar(itens):
     vistos, saida = {}, []
     ordem_status = {"baixado": 0, "web": 1, "formulario": 2, "pago": 3, "bloqueado": 4}
@@ -248,8 +278,7 @@ def main(arquivos):
 
     ordem_rel = {"alta": 0, "media": 1, "baixa": 2}
     itens.sort(key=lambda i: (i["pasta"], ordem_rel.get(i.get("relevancia"), 9), i.get("organizacao", ""), i.get("titulo", "")))
-    for n, it in enumerate(itens, 1):
-        it["id"] = f"M{n:03d}"
+    atribuir_ids(itens)
 
     # destaques curados ("comece por aqui"), guardados por arquivo ou URL para sobreviver à renumeração
     destaques = []

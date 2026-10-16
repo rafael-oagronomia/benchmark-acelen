@@ -77,6 +77,8 @@ Materiais que exigem formulário, cadastro ou assinatura. Para solicitar, use se
   - Link: https://iapp.org/resources/article/ai-governance-profession-report/
   - Campos: Login de membro da IAPP (associação paga); o botão 'View report' tem bloqueio exclusivo para membros
   - O infográfico público foi baixado (04_academia-instituicoes/IAPP_2025_ai-governance-profession-report-infografico.pdf). A página pública do relatório mostra ainda a responsabilidade principal pela governança de IA: privacidade 22%, jurídico e compliance 22%, TI 17%, governança de dados 10%.
+- **IBM (Ponemon Institute) — Cost of a Data Breach Report 2026 (relatório completo)**
+  - Link: https://www.ibm.com/forms/mkt-whitepaper-90d12
 - **ISO/IEC — ISO/IEC 42001:2023 — Information technology — Artificial intelligence — Management system**
   - Link: https://www.iso.org/standard/42001
   - Campos: Compra na loja da ISO (CHF 225, PDF e ePub ou papel)
@@ -97,6 +99,8 @@ Materiais que exigem formulário, cadastro ou assinatura. Para solicitar, use se
   - Link: https://www.celigo.com/ai-gap-report/
   - Campos: Os campos não aparecem no HTML: é um formulário HubSpot carregado por script (portalId 5812834, formId dba9b883-f15c-4758-b19f-973542a5c3fd).
   - É um relatório patrocinado. Os principais números já estão nas páginas oficiais do MIT TR e da Celigo e foram registrados. Vale solicitar se quiser o detalhamento por setor e por estágio (pilotos parados ou abandonados, equipes dedicadas).
+- **Okta — Businesses at Work 2026 (relatório completo)**
+  - Link: https://www.okta.com/reports/businesses-at-work/
 - **PitchBook — Q2 2026 Agtech Report: Embedded AI Draws Capital and Delivers ROI (relatório completo)**
   - Link: https://pitchbook.brightspotcdn.com/5e/08/bfa17cb444059c50d7a96539baa7/q2-2026-agtech-report-embedded-ai-draws-capital-and-delivers-roi-preview.pdf
   - Campos: Assinatura da PitchBook Platform (a prévia gratuita já foi baixada).
@@ -113,6 +117,13 @@ Materiais que exigem formulário, cadastro ou assinatura. Para solicitar, use se
   - Link: https://www.snowflake.com/en/lp/radical-roi-generative-ai/
   - Campos: Formulário Marketo (mktoForm_48822) carregado dinamicamente; ao menos e-mail. Os demais campos não estão visíveis no HTML (provavelmente nome, empresa, cargo e país)
   - A landing page já traz a maioria dos números (US$ 1,49 por US$ 1). O e-book traz os recortes por país e setor.
+- **TI Inside — TI Inside 2026: o ano da GenAI? (publicação especial com cases de IA generativa no Brasil, incluindo a Bayer)**
+  - Link: https://tiinside.com.br/eventos/ti-inside-2026-o-ano-da-genai/
+  - Campos: Nome, e-mail, telefone, empresa, cargo e autorização LGPD
+  - O texto sobre a Bayer está aberto e foi baixado (TIInside_2026_adocao-genai-bayer-brasil-latam.pdf); o e-book completo exige cadastro e não foi baixado.
+- **Veracode — 2025 GenAI Code Security Report (relatório completo em PDF; a página cita atualização de outubro de 2025)**
+  - Link: https://www.veracode.com/resources/analyst-reports/2025-genai-code-security-report/
+  - O item usa o comunicado oficial de 30/07/2025, com os números principais; o relatório traz o detalhe por linguagem, tipo de falha e modelo.
 - **WBCSD - World Business Council for Sustainable Development — Guidance on Avoided Emissions v2.0**
   - Link: https://www.wbcsd.org/resources/guidance-on-avoided-emissions-helping-business-drive-innovations-and-scale-solutions-toward-net-zero/
   - Campos: Nome, sobrenome, e-mail corporativo, empresa e aceite da política de privacidade
@@ -121,6 +132,10 @@ Materiais que exigem formulário, cadastro ou assinatura. Para solicitar, use se
   - Link: https://www.wbcsd.org/resources/avoided-emissions-in-the-agriculture-food-sector/
   - Campos: Nome, sobrenome, e-mail corporativo, empresa e aceite da política de privacidade
   - Guia setorial de 17/09/2025 para agricultura e alimentos; o mais aderente a agro e bioenergia para medir benefícios de soluções (inclusive IA).
+- **WatchGuard Technologies — 2026 Cybersecurity Hygiene Report (relatório completo)**
+  - Link: https://www.watchguard.com/br/wgrd-resource-center/2026-cyber-hygiene-report
+- **Zscaler (ThreatLabz) — Zscaler ThreatLabz 2026 AI Security Report (relatório completo em PDF)**
+  - Link: https://www.zscaler.com/campaign/threatlabz-ai-security-report
 
 ## Descartados (pagos, indisponíveis ou pouco relevantes)
 
@@ -276,6 +291,8 @@ Materiais que exigem formulário, cadastro ou assinatura. Para solicitar, use se
 - **Harvard Business School (Dell'Acqua et al.), com Procter & Gamble — The Cybernetic Teammate: A Field Experiment on Generative AI Reshaping Teamwork and Expertise (HBS Working Paper 25-043)** (bloqueado): https://www.hbs.edu/faculty/Pages/item.aspx?num=67197
 - **ABMRA — Pesquisa ABMRA Hábitos do Produtor Rural (9ª edição)** (pago): https://abmra.org.br/pesquisa-abmra-habitos-do-produtor-rural-abmra/
 - **AWS (Amazon Web Services) — AMAGGI reúne mais de 8 milhões de imagens de satélite em Data Lake AWS (case de cliente)** (bloqueado): https://aws.amazon.com/pt/solutions/case-studies/amaggi-case-study/
+- **John Deere (Deere & Company) — John Deere JD™ AI Helps Farmers Use Their Data (Introducing JD AI assistant)** (bloqueado): https://www.deere.com/en-us/john-deere-news/introducing-jd-ai-assistant
+- **Science (AAAS) — Belton et al. — Can the global drone revolution make agriculture more sustainable? (Science 389(6764): 972–976)** (bloqueado): https://doi.org/10.1126/science.ady1791
 - **Chinese Academy of Sciences e Reichman University/Cambridge (Peng Wang, Ling-Yu Zhang, Asaf Tzachor, Wei-Qiang Chen) — Nature Computational Science 4, 818–823 — E-waste challenges of generative artificial intelligence** (pago): https://doi.org/10.1038/s43588-024-00712-6
 - **Vrije Universiteit Amsterdam (Alex de Vries-Gao) — Resources, Conservation and Recycling 229, 108872 — Recalibrating global artificial intelligence e-waste estimates** (bloqueado): https://doi.org/10.1016/j.resconrec.2026.108872
 - **ISO/IEC JTC 1 — ISO/IEC 21031:2024 — Information technology — Software Carbon Intensity (SCI) specification** (pago): https://www.iso.org/standard/86612.html
@@ -288,3 +305,6 @@ Materiais que exigem formulário, cadastro ou assinatura. Para solicitar, use se
 - **Gartner — Forecast: Data Center Power Capacity and Consumption, Worldwide, 2024-2030, 1Q26** (pago): https://www.gartner.com/en/documents/7868377
 - **IDC — IDC Report Reveals AI-Driven Growth in Datacenter Energy Consumption, Predicts Surge in Datacenter Facility Spending Amid Rising Electricity Costs (press release)** (bloqueado): https://my.idc.com/getdoc.jsp?containerId=prUS52611224
 - **IRENA - Agência Internacional de Energia Renovável — Digitalisation and AI for power system transformation: Perspectives for the G7** (bloqueado): https://www.irena.org/Publications/2025/Oct/Digitalisation-and-AI-for-power-system-transformation-Perspectives-for-the-G7
+- **The Information — Uber CTO Shows How Claude Code Can Blow Up AI Budgets** (pago): https://www.theinformation.com/newsletters/applied-ai/uber-cto-shows-claude-code-can-blow-ai-budgets
+- **Gartner — 2026 Microsoft 365 and Copilot Survey Reveals Workplace Trends** (pago): https://www.gartner.com/en/documents/8443513
+- **ISO/IEC (JTC 1/SC 42) — ISO/IEC 42001:2023 – Information technology – Artificial intelligence – Management system (página oficial; consulta em 15/10/2026)** (pago): https://www.iso.org/standard/42001
