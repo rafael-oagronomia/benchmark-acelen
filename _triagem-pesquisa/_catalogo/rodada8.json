@@ -1,0 +1,154 @@
+{
+  "resultados": [
+    {
+      "grupo": "Consumo e retorno da IA nas empresas: o caso Accenture e o ROI em finanças",
+      "pasta": "11_custo-da-ia",
+      "itens": [
+        {
+          "titulo": "How Finance Leaders Can Get ROI from AI (How to Get ROI from AI in the Finance Function)",
+          "organizacao": "Boston Consulting Group (BCG), Center for CFO Excellence",
+          "ano": "2025 (04/06/2025)",
+          "tipo_fonte": "consultoria",
+          "setor": "função financeira de grandes empresas (vários setores)",
+          "pais_regiao": "Global",
+          "url": "https://www.bcg.com/publications/2025/how-finance-leaders-can-get-roi-from-ai",
+          "arquivo": "01_consultorias-estrategia/BCG_2025_how-finance-leaders-get-roi-from-ai.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1"
+          ],
+          "metricas": [
+            "ROI mediano informado da IA e da IA generativa em finanças de 10%, abaixo dos 20% que muitos têm como meta; quase um terço dos líderes de finanças viu só ganhos limitados (pesquisa de mar/2025 com mais de 280 executivos de finanças de grandes empresas) (p. 2-3)",
+            "Só 45% conseguem quantificar o ROI das iniciativas; desses, um terço relata retorno abaixo de 5% e outro quarto entre 5% e 10% (p. 3)",
+            "Cerca de um em cada cinco relata ROI de 20% ou mais com IA e IA generativa (p. 4)",
+            "73% dizem que quatro ou mais barreiras são críticas, e 24% citam sete ou mais (p. 4)"
+          ],
+          "resumo": "Artigo da BCG com pesquisa de mar/2025 com mais de 280 executivos de finanças experientes em IA e IA generativa, de grandes empresas do mundo. Mede o retorno da IA na função financeira e as barreiras, e descreve o que fazem os que têm retorno alto: foco em valor, com orçamento dedicado e acompanhamento sistemático (usando indicadores indiretos quando o ganho é intangível), visão de transformação, colaboração com a TI e execução em passos escaláveis. Gestão de risco lidera a lista de casos de maior retorno, com a previsão financeira logo atrás.",
+          "relevancia": "É a fonte do \"10% contra 20%\" que circula em posts sobre retorno da IA. O ROI é informado pelos próprios executivos, sem método comum, e só 45% conseguem quantificá-lo; vale só para a função financeira, não para a empresa toda."
+        },
+        {
+          "titulo": "Accenture and Anthropic launch multi-year partnership to move enterprises from AI pilots to production",
+          "organizacao": "Anthropic (anúncio conjunto com a Accenture)",
+          "ano": "2025 (09/12/2025)",
+          "tipo_fonte": "empresa",
+          "setor": "consultoria e tecnologia (IA)",
+          "pais_regiao": "Global",
+          "url": "https://www.anthropic.com/news/anthropic-accenture-partnership",
+          "arquivo": "11_custo-da-ia/Anthropic-Accenture_2025_parceria-business-group.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2"
+          ],
+          "metricas": [
+            "Accenture e Anthropic formam o Accenture Anthropic Business Group, prática dedicada ao Claude; cerca de 30.000 profissionais da Accenture serão treinados no Claude (p. 1-2)",
+            "O Claude Code fica disponível para dezenas de milhares de desenvolvedores da Accenture, \"our largest ever deployment\" segundo o CEO da Anthropic; a Anthropic diz que o Claude Code tem mais da metade do mercado de IA para programação (dado da empresa) (p. 2-3)",
+            "Oferta conjunta para ajudar CIOs a medir valor e adotar IA nas áreas de engenharia; primeiras soluções para setores regulados: serviços financeiros, ciências da vida, saúde e setor público (p. 2)",
+            "Centro de Excelência do Claude dentro da Accenture, com investimento conjunto (p. 5)"
+          ],
+          "resumo": "Anúncio oficial da expansão da parceria entre Accenture e Anthropic em 09/12/2025: grupo de negócios dedicado, treinamento de cerca de 30 mil profissionais, Claude Code para dezenas de milhares de desenvolvedores, oferta para medir o valor da IA no desenvolvimento de software e centro de excelência.",
+          "relevancia": "É a \"aposta grande\" do caso Accenture. Dez meses depois, a empresa limitou o gasto pago por ela com o Claude por funcionário (404 Media, out/2026). Participação de mercado é número da própria Anthropic."
+        },
+        {
+          "titulo": "Accenture Tells Employees They Can Now Spend Only $29 on Claude Per Month",
+          "organizacao": "404 Media (Joseph Cox)",
+          "ano": "2026 (15/10/2026)",
+          "tipo_fonte": "imprensa",
+          "setor": "consultoria (uso interno de IA)",
+          "pais_regiao": "Global",
+          "url": "https://www.404media.co/accenture-tells-employees-they-can-now-spend-only-29-on-claude-per-month/",
+          "arquivo": "11_custo-da-ia/404Media_2026_accenture-teto-29-dolares-claude.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "Segundo a reportagem, a Accenture passou a custear centralmente só US$ 29 por mês por pessoa de uso do Claude; alguns funcionários gastavam até US$ 1.000 por mês (p. 1)",
+            "Muitas empresas passaram a conter o uso de IA dos funcionários porque os tokens estão sendo consumidos rapidamente; a reportagem vê \"special irony\" em a Accenture fazer o mesmo enquanto incentiva os clientes a investir em IA (p. 3)"
+          ],
+          "resumo": "Reportagem original sobre o comunicado interno da Accenture que limita o gasto pago pela empresa com o Claude por funcionário. Só o começo do texto é aberto; o resto exige assinatura. Os detalhes do comunicado foram repercutidos pela The Next Web.",
+          "relevancia": "Fonte primária do custeio central de US$ 29 (imprensa, com base em documento interno). Usar junto com a The Next Web para o desenho do controle e com a Forbes para a versão da Accenture, que contesta a leitura de limite firme de acesso."
+        },
+        {
+          "titulo": "Accenture caps staff Claude spending at $29 a month, 404 Media reports",
+          "organizacao": "The Next Web (Alina Maria Stan)",
+          "ano": "2026 (16/10/2026)",
+          "tipo_fonte": "imprensa",
+          "setor": "consultoria (uso interno de IA)",
+          "pais_regiao": "Global",
+          "url": "https://thenextweb.com/news/accenture-claude-29-a-month-cap",
+          "arquivo": "11_custo-da-ia/TheNextWeb_2026_accenture-teto-29-dolares-claude.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "O custeio central de US$ 29 por pessoa por mês vale desde 01/10/2026 para os usuários do Claude Enterprise, segundo o comunicado \"Claude Enterprise Users: Important Updates to Licensing and Usage Costs\" (p. 1)",
+            "Acima de US$ 29, o uso vai para o código de orçamento do projeto ou da equipe (WBS); o comunicado diz que \"all costs are consumption-based\" e que ter WBS e licença não garante acesso permanente ao Claude (p. 1-2)",
+            "Planos Premium vêm com US$ 250 de uso de tokens por semana; muitos funcionários estão no plano General (p. 2)",
+            "Um funcionário que usa o Claude Code para construir um acelerador de IA para vários clientes gasta de US$ 500 a US$ 1.000 por mês; outro teve o acesso revogado (p. 2)",
+            "A Accenture diz que sua abordagem é \"provide the right tool for the right work\" e que segue investindo em IA; tem cerca de 799 mil pessoas e 9 mil clientes; o comunicado cita pesquisa própria em que 82% de mais de 3.000 executivos aumentam o investimento em IA (p. 2)"
+          ],
+          "resumo": "Repercussão detalhada da reportagem da 404 Media, com trechos do comunicado interno da Accenture: data de início, regra para o uso acima do teto, planos e a resposta da empresa.",
+          "relevancia": "Imprensa secundária, com base no documento visto pela 404 Media. Mostra o desenho do controle: valor fixo por pessoa pago pela empresa e consumo excedente cobrado do projeto, o que liga o gasto ao trabalho que o justifica. O título fala em teto, mas a Accenture contestou a leitura de limite firme de acesso (Forbes, atualização de 16/10/2026)."
+        },
+        {
+          "titulo": "Accenture Clarifies Claude Spending Limits As AI Cost Questions Grow (título original: Accenture Bets Big On Claude, Then Limits AI Spending)",
+          "organizacao": "Forbes (Ron Schmelzer, colaborador)",
+          "ano": "2026 (16/10/2026, atualizado no mesmo dia)",
+          "tipo_fonte": "imprensa",
+          "setor": "consultoria (uso interno de IA)",
+          "pais_regiao": "Global",
+          "url": "https://www.forbes.com/sites/ronschmelzer/2026/10/16/accenture-bets-big-on-claude-then-limits-ai-spending/",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "Atualização de 16/10/2026: um porta-voz da Accenture diz que é incorreto falar em limite firme de acesso à IA; o valor de US$ 29 ilustraria só uma parte do modelo de custeio, e o Claude é tratado como ferramenta especializada, levada às equipes onde tem mais impacto (web)",
+            "Segundo a 404 Media, a Accenture custeia centralmente até US$ 29 por pessoa por mês desde 01/10/2026; o excedente vai para o projeto ou a equipe (WBS), com autorização; alguns funcionários consumiam de US$ 500 a US$ 1.000 por mês (web)",
+            "A Anthropic publica o plano Enterprise a US$ 20 por assento por mês, com cobrança anual e uso cobrado à parte pelo preço da API; o valor de US$ 29 não corresponde a nenhum plano público (web)",
+            "Cálculo do autor, a preço de tabela: uma carga mensal de 10 milhões de tokens de entrada e 2 milhões de saída custaria cerca de US$ 2 no Haiku 5.5, US$ 40 no Sonnet 5.5, US$ 80 no Opus 5.5 e US$ 200 no Fable 5.1 (web)",
+            "Não está claro se a regra vale só para o Claude ou para todos os provedores cobrados por consumo; a Accenture também tem parceria com a OpenAI (web)"
+          ],
+          "resumo": "Análise do caso Accenture: a parceria com a Anthropic (dez/2025), o custeio central de US$ 29 por pessoa com o excedente cobrado dos projetos, a contestação da Accenture e a defesa de medir o custo do trabalho bem-sucedido, e não só o gasto com tokens, numa IA cobrada por consumo.",
+          "relevancia": "Traz a versão da Accenture: não é um limite firme de acesso, e sim a mudança de quem paga o consumo, do centro para o projeto. O autor defende medir o custo de cada resultado (modelo, tentativas, revisão humana e valor do trabalho), e não só tokens; os exemplos de retorno do texto são hipotéticos. Lida no navegador em 18/10/2026; o site bloqueia leitura automática, por isso não há cópia em PDF."
+        },
+        {
+          "titulo": "\"What we're seeing right now is just rapid escalation in AI token spend\": Accenture tells staff to stop using AI for unnecessary tasks amid surging costs",
+          "organizacao": "ITPro (Nicole Kobie)",
+          "ano": "2026 (29/06/2026)",
+          "tipo_fonte": "imprensa",
+          "setor": "consultoria e tecnologia (uso interno de IA)",
+          "pais_regiao": "Global",
+          "url": "https://www.itpro.com/technology/artificial-intelligence/what-were-seeing-right-now-is-just-rapid-escalation-in-ai-token-spend-accenture-tells-staff-to-stop-using-ai-for-unnecessary-tasks-amid-surging-costs",
+          "arquivo": "11_custo-da-ia/ITPro_2026_accenture-escalada-gasto-tokens.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "Segundo áudio vazado de reunião interna (via 404 Media), a Accenture pediu que \"não engenheiros\" parem de usar IA em tarefas desnecessárias, como converter PDFs em slides; em fev/2026, a empresa tinha passado a monitorar o uso de IA, o que levou funcionários a inflar o consumo para mostrar adoção (\"tokenmaxxing\") (p. 2)",
+            "O líder de estratégia de IA agêntica da Accenture falou em \"rapid escalation in AI token spend\" e num \"inflection point\" de gasto imprevisível; segundo ele, executivos ainda perguntam se estão tendo valor com o que gastam em IA (p. 3)",
+            "A empresa quer limitar o uso desnecessário e continuar dando muitos tokens aos engenheiros (p. 5)",
+            "Outros casos citados pela reportagem, a partir de outros veículos: Uber com teto de US$ 1.500 por mês por funcionário; Walmart limitou o uso do agente interno; Microsoft retirou acesso ao Claude Code por custo; uma empresa não identificada teria gasto US$ 500 milhões com o Claude por falta de limite (p. 4); Amazon e Meta teriam removido rankings de uso de IA (p. 5)",
+            "Analista do Gartner: a maioria das organizações ainda não tem maturidade nem método para medir custo contra impacto no negócio (p. 5)"
+          ],
+          "resumo": "Reportagem sobre a reunião interna da Accenture em que a liderança de IA agêntica tratou da escalada do gasto com tokens, com a orientação de cortar usos desnecessários, e sobre outras empresas que passaram a limitar o consumo de IA.",
+          "relevancia": "Imprensa, com base em áudio vazado e em outros veículos (The Verge, Financial Times, Yahoo Finance) para os demais casos; usar como sinal de tendência, não como dado oficial das empresas. Mostra a sequência: incentivo ao uso, explosão do consumo e controle."
+        }
+      ],
+      "formularios": [],
+      "lacunas": [
+        "Forbes (Ron Schmelzer, 16/10/2026): a página bloqueia leitura automática (HTTP 403); foi lida no navegador do usuário em 18/10/2026 e catalogada como web, sem cópia em PDF.",
+        "Microsoft e o Claude Code: a reportagem original da The Verge (Tom Warren, 14/05/2026) não abre para o leitor automático; só há a menção da ITPro. Conferir à mão antes de usar o caso.",
+        "Gartner, comunicado de 20/07/2026 (45% dos CFOs dizem que o investimento em IA mira produtividade e 20%, qualidade de decisão): página bloqueada (HTTP 403). Conferir à mão se for usar."
+      ]
+    }
+  ]
+}
