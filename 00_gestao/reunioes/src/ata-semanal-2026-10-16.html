@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Ata da reunião semanal de 16/10/2026 — Benchmarking de uso de IA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --brand-green: #52C937; --brand-green-bright: #6FE34F; --brand-green-deep: #2F8B1F;
+    --bg-0: #050805; --bg-1: #0B100B; --bg-2: #131A13; --bg-3: #1C241B;
+    --line: #2A3328; --line-strong: #3A4537;
+    --fg-1: #F2F4EE; --fg-2: #B8BFB1; --fg-3: #7C8678; --fg-4: #4D5749;
+    --warning: #E8B33B; --info: #4FB7C9;
+    --font-display: 'Chakra Petch', 'Bahnschrift', system-ui, sans-serif;
+    --font-body: 'Manrope', 'Segoe UI', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  }
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg-0); color: var(--fg-1); font-family: var(--font-body); font-size: 11.5px; line-height: 1.5;
+    -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page { width: 210mm; height: 297mm; position: relative; overflow: hidden; padding: 12mm 14mm 18mm; background: var(--bg-0);
+    page-break-after: always; break-after: page; }
+  .page:last-child { page-break-after: auto; break-after: auto; }
+  .eyebrow { font: 500 10.5px var(--font-display); text-transform: uppercase; letter-spacing: 0.18em; color: var(--brand-green); }
+  .label { font: 500 9.5px var(--font-display); text-transform: uppercase; letter-spacing: 0.08em; color: var(--fg-3); }
+  h1 { font: italic 700 28px/1.05 var(--font-display); letter-spacing: -0.01em; margin: 6px 0 0; }
+  h2 { font: italic 600 17px/1.2 var(--font-display); margin: 0 0 7px; }
+  p { margin: 0; }
+  .mono { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+  .head { display: flex; justify-content: space-between; align-items: flex-end; padding-bottom: 10px; border-bottom: 1px solid var(--line); margin-bottom: 12px; }
+  .head img { height: 26px; display: block; mix-blend-mode: lighten; }
+  .legend { display: grid; grid-template-columns: auto auto; column-gap: 12px; row-gap: 2px; font-size: 10px; text-align: right; }
+  .legend .label { text-align: right; }
+  .foot { position: absolute; left: 14mm; right: 14mm; bottom: 7mm; display: flex; justify-content: space-between; padding-top: 6px;
+    border-top: 1px solid var(--line); font: 500 8.5px var(--font-display); letter-spacing: 0.08em; text-transform: uppercase; color: var(--fg-3); }
+  .foot .mono { letter-spacing: 0; font-size: 9.5px; }
+  section.bloco { margin-top: 14px; }
+
+  .meta { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+  .metric { background: var(--bg-2); border: 1px solid var(--line); border-radius: 6px; padding: 8px 11px; }
+  .metric__lbl { font: 500 9px var(--font-display); letter-spacing: 0.12em; text-transform: uppercase; color: var(--fg-3); }
+  .metric__val { font: 500 15px/1.15 var(--font-mono); font-variant-numeric: tabular-nums; color: var(--fg-1); margin-top: 4px; }
+  .metric__val .u { font-size: 10.5px; color: var(--fg-3); margin-left: 3px; }
+
+  .two { display: grid; grid-template-columns: 1.5fr 1fr; gap: 8px; }
+  .card { background: var(--bg-2); border: 1px solid var(--line); border-radius: 8px; padding: 9px 12px; }
+  .card h3 { font: 600 12.5px var(--font-display); margin: 0 0 3px; }
+  .card p, .card li { color: var(--fg-2); font-size: 11px; }
+  ul.lista { margin: 0; padding: 0; list-style: none; }
+  ul.lista li { position: relative; padding-left: 15px; color: var(--fg-2); margin-top: 3px; }
+  ul.lista li::before { content: ""; position: absolute; left: 2px; top: 8px; width: 6px; height: 1.5px; background: var(--brand-green); }
+  ul.lista li b { color: var(--fg-1); font-weight: 600; }
+
+  ol.dec { margin: 0; padding: 0; list-style: none; counter-reset: d; }
+  ol.dec > li { counter-increment: d; display: grid; grid-template-columns: 30px 1fr; gap: 6px; padding: 7px 0; border-bottom: 1px solid var(--line); }
+  ol.dec > li:last-child { border-bottom: none; }
+  ol.dec > li::before { content: counter(d, decimal-leading-zero); font: 500 13px var(--font-mono); color: var(--brand-green); }
+  ol.dec .t { font-weight: 700; color: var(--fg-1); }
+  ol.dec .d { color: var(--fg-2); }
+  ol.dec ul.lista li { font-size: 11px; }
+
+  table.pend { width: 100%; border-collapse: collapse; font-size: 10.5px; }
+  table.pend th { font: 500 9px var(--font-display); letter-spacing: 0.08em; text-transform: uppercase; color: var(--fg-3); text-align: left;
+    padding: 6px 7px; border-bottom: 1px solid var(--line-strong); background: var(--bg-2); }
+  table.pend td { padding: 6px 7px; border-bottom: 1px solid var(--line); vertical-align: top; color: var(--fg-2); }
+  table.pend td.n { font: 500 11px var(--font-mono); color: var(--brand-green); width: 26px; }
+  table.pend td.p { color: var(--fg-1); }
+  .tag { display: inline-block; padding: 1px 7px; border-radius: 999px; font: 600 8.5px var(--font-display); letter-spacing: 0.06em; text-transform: uppercase; white-space: nowrap; }
+  .tag.oag { background: rgba(82,201,55,0.12); color: var(--brand-green-bright); }
+  .tag.acl { background: rgba(79,183,201,0.12); color: var(--info); }
+  .tag.amb { background: rgba(232,179,59,0.12); color: var(--warning); }
+  .st { display: inline-flex; align-items: center; gap: 5px; font: 600 9px var(--font-display); letter-spacing: 0.06em; text-transform: uppercase; white-space: nowrap; }
+  .st .dot { width: 6px; height: 6px; border-radius: 50%; }
+  .st.ok { color: var(--brand-green-bright); } .st.ok .dot { background: var(--brand-green); }
+  .st.and { color: var(--info); } .st.and .dot { background: var(--info); }
+  .st.ab { color: var(--warning); } .st.ab .dot { background: var(--warning); }
+  .nota { font-size: 10px; color: var(--fg-3); margin-top: 6px; }
+  h3.sub { font: 600 12px var(--font-display); color: var(--fg-1); margin: 10px 0 5px; }
+  ol.dec .d { display: block; margin-top: 2px; }
+  table.pend .det { display: block; font-size: 9.8px; color: var(--fg-3); line-height: 1.35; margin-top: 2px; }
+</style>
+</head>
+<body>
+
+<!-- Página 1 -->
+<section class="page">
+  <div class="head">
+    <div>
+      <img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA">
+      <div class="eyebrow" style="margin-top:12px">Benchmarking de uso de IA · Ata de reunião</div>
+      <h1>Reunião semanal de 16/10</h1>
+    </div>
+    <div class="legend">
+      <span class="label">Contratante</span><span>Acelen Energia Renovável</span>
+      <span class="label">Documento</span><span>Ata da reunião semanal de 16/10/2026</span>
+      <span class="label">Nº / Revisão</span><span class="mono">BIA-ACL-AT-03 · Rev. 00</span>
+      <span class="label">Emissão</span><span class="mono">16/10/2026</span>
+    </div>
+  </div>
+
+  <div class="meta">
+    <div class="metric"><div class="metric__lbl">Data</div><div class="metric__val">16/10/2026</div></div>
+    <div class="metric"><div class="metric__lbl">Duração</div><div class="metric__val">57<span class="u">min</span></div></div>
+    <div class="metric"><div class="metric__lbl">Formato</div><div class="metric__val">Teams</div></div>
+    <div class="metric"><div class="metric__lbl">Novas pendências</div><div class="metric__val">6</div></div>
+  </div>
+
+  <section class="bloco">
+    <h2>Participantes</h2>
+    <div class="two">
+      <div class="card">
+        <h3>Acelen Renováveis — Estratégia</h3>
+        <p>Bruno Ruocco Lizarelli, Bruna Rodrigues Silva, Pamela Wong Sarli, Adriana Yumi Maeda e Raianne Slujalkovsky Borges.</p>
+      </div>
+      <div class="card">
+        <h3>OagronomIA</h3>
+        <p>Guilherme Sanches.</p>
+      </div>
+    </div>
+    <p class="nota">Participantes identificados na transcrição. Guilherme apresentou a prévia dos resultados do benchmark (BIA-ACL-RP-02), prevista no cronograma para esta semanal, e a Acelen comentou cada tema.</p>
+  </section>
+
+  <section class="bloco">
+    <h2>Decisões e encaminhamentos</h2>
+    <ol class="dec" style="counter-reset: d 0">
+      <li><div><span class="t">Prévia da Frente 1 apresentada</span>
+        <span class="d">Guilherme mostrou o acervo e o método:</span>
+        <ul class="lista">
+          <li><b>Acervo:</b> 1.074 fontes públicas catalogadas, com preferência por documentos oficiais das empresas. Parte dos estudos veio por formulário de acesso preenchido à mão; nenhum estudo pago foi usado.</li>
+          <li><b>Método:</b> agentes de IA pesquisam, conferem, verificam, redigem e revisam, com regras definidas pela equipe. A decisão final sobre o que entra é da OagronomIA.</li>
+          <li><b>Peso das fontes:</b> Bruno perguntou se as fontes têm pesos diferentes. Guilherme confirmou a ordem de preferência: documento da própria empresa, estudos de consultorias, páginas web e, por último, notícias. Cada dado do benchmark traz a fonte e a página para conferência.</li>
+          <li><b>Cronograma mantido:</b> entrega parcial em 23/10, relatório em 06/11 e workshop em dezembro.</li>
+          <li><b>Apresentação:</b> a OagronomIA vai subir a prévia no SharePoint para leitura com calma. Não é a versão final.</li>
+        </ul></div></li>
+      <li><div><span class="t">Painel de empresas</span>
+        <span class="d">Guilherme apresentou a Deere (EUA) e a DJI (China, fabricante de drones de pulverização) ao lado de Suzano e Bayer, com as fichas. A Acelen não fez objeção. Guilherme se dispôs a incluir outra empresa americana, se a Acelen quiser.</span></div></li>
+      <li><div><span class="t">Assistente de IA do estudo</span>
+        <span class="d">Guilherme apresentou o assistente:</span>
+        <ul class="lista">
+          <li>responde em linguagem natural sobre os estudos públicos do acervo, sempre com o estudo e a página;</li>
+          <li>usa só base pública, sem dados da Acelen e sem o que é discutido nas reuniões;</li>
+          <li>terá acesso por login e senha.</li>
+        </ul>
+        <span class="d" style="margin-top:3px">Bruno disse que já viu recurso parecido em plataformas de mercado.</span></div></li>
+    </ol>
+  </section>
+
+  <div class="foot"><span>Acelen Energia Renovável · Ata da reunião semanal de 16/10/2026 · BIA-ACL-AT-03 · Rev. 00</span><span class="mono">01 / 04</span></div>
+</section>
+
+<!-- Página 2 -->
+<section class="page">
+  <div class="head">
+    <div>
+      <img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA">
+      <div class="eyebrow" style="margin-top:12px">Decisões e encaminhamentos</div>
+    </div>
+    <div class="legend">
+      <span class="label">Nº / Revisão</span><span class="mono">BIA-ACL-AT-03 · Rev. 00</span>
+    </div>
+  </div>
+
+  <section class="bloco" style="margin-top:4px">
+    <h2>Decisões e encaminhamentos (continuação)</h2>
+    <ol class="dec" style="counter-reset: d 3">
+      <li><div><span class="t">Custo de uso da IA</span>
+        <ul class="lista">
+          <li><b>A mensagem:</b> o preço para a mesma capacidade caiu muito e tende a seguir caindo. O custo de tokens precisa ser gerido, mas não deve impedir o avanço.</li>
+          <li><b>Agentes:</b> consomem mais tokens por tarefa.</li>
+          <li><b>Case Uber:</b> a empresa estourou o orçamento ao liberar o uso sem gestão e passou a controlar o gasto por funcionário e por ferramenta.</li>
+          <li><b>Soberania:</b> Bruno perguntou se a tendência vale também para tecnologias que tragam uma soberania diferente. Guilherme situou a queda de preço na disputa entre EUA e China.</li>
+        </ul></div></li>
+      <li><div><span class="t">Shadow AI e governança do uso de IA</span>
+        <ul class="lista">
+          <li>Bruno destacou o tema como relevantíssimo para a Acelen: o risco de vazamento quando o funcionário usa IA própria ou gratuita com informação da empresa.</li>
+          <li>Bruno pediu que o estudo traga como as empresas tratam o tema e quais são os próximos passos.</li>
+          <li>Guilherme comentou que contas gratuitas podem usar os dados para treinar modelos, enquanto planos pagos e corporativos protegem mais. A maioria das organizações usa o Copilot como base e libera modelos de fronteira para algumas funções, com governança.</li>
+        </ul></div></li>
+      <li><div><span class="t">Governança e régua de maturidade</span>
+        <ul class="lista">
+          <li>Guilherme apresentou a régua de 1 a 5. Governança é a dimensão mais atrasada no painel: a Bayer tem princípios de IA publicados e fica no 3; Suzano, Deere e DJI ficam no 2; em governança, ninguém do painel chega ao 4 nem ao 5.</li>
+          <li>Como referência de valor de IA divulgado, fora do painel, mostrou a Saudi Aramco e o JPMorganChase.</li>
+          <li>Explicou que, nesses casos, a maior parte do valor vem da IA preditiva. A IA generativa acelera a construção e a melhoria dos modelos preditivos.</li>
+          <li>Bruno pediu que o relatório traga uma explicação dessa “quebra de paradigma” entre IA generativa e preditiva.</li>
+        </ul></div></li>
+      <li><div><span class="t">Ampliar o olhar para outros setores</span>
+        <ul class="lista">
+          <li>Bruno pediu que o estudo não fique limitado às quatro empresas do painel. Quer setores que costumam sair na frente do agro, como o financeiro, o químico e o farmacêutico, e a visão de mercado da OagronomIA.</li>
+          <li>Também pediu um comparativo de maturidade com esses setores, para servir de norte.</li>
+          <li>Guilherme vai começar pelos bancos, a partir dos documentos já levantados.</li>
+        </ul></div></li>
+      <li><div><span class="t">Investimento e retorno</span>
+        <ul class="lista">
+          <li>Bruno propôs cruzar o investimento em modelos de ponta com o retorno. Também perguntou se a IA muda a parcela do faturamento que as empresas destinam a P&amp;D e tecnologia.</li>
+          <li>Guilherme respondeu que as empresas ainda não medem o retorno líquido da IA, e as equipes não têm noção do consumo de tokens.</li>
+          <li>Pela experiência da OagronomIA com uma grande empresa sucroenergética, 2027 tende a ser o ano de medir o uso e o retorno, e 2028 o de orçar a IA por linha.</li>
+          <li>O investimento em modelos de ponta tende a sair do orçamento de inovação, de maior risco.</li>
+        </ul></div></li>
+    </ol>
+  </section>
+
+  <div class="foot"><span>Acelen Energia Renovável · Ata da reunião semanal de 16/10/2026 · BIA-ACL-AT-03 · Rev. 00</span><span class="mono">02 / 04</span></div>
+</section>
+
+<!-- Página 3 -->
+<section class="page">
+  <div class="head">
+    <div>
+      <img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA">
+      <div class="eyebrow" style="margin-top:12px">Decisões, contexto e conteúdo</div>
+    </div>
+    <div class="legend">
+      <span class="label">Nº / Revisão</span><span class="mono">BIA-ACL-AT-03 · Rev. 00</span>
+    </div>
+  </div>
+
+  <section class="bloco" style="margin-top:4px">
+    <h2>Decisões e encaminhamentos (continuação)</h2>
+    <ol class="dec" style="counter-reset: d 8">
+      <li><div><span class="t">Sustentabilidade da IA</span>
+        <ul class="lista">
+          <li>Guilherme mostrou o gasto de energia por tarefa, que cresce com agentes e raciocínio, e a vantagem da matriz elétrica brasileira (mais de 70 g de CO₂ por kWh, contra 435 g na média mundial).</li>
+          <li>Apontou como tendência a inclusão do uso de IA nos inventários de emissões, além do uso de modelos locais em data centers no Brasil.</li>
+          <li>Bruno concordou que deve ser uma tendência e citou uma pesquisa sobre sustentabilidade nas empresas (registrada no contexto trazido pela Acelen).</li>
+        </ul></div></li>
+      <li><div><span class="t">Sessões executivas</span>
+        <ul class="lista">
+          <li>A primeira sessão foi feita na semana de 13/10, com uma grande empresa do agro, e mais duas estão marcadas para a próxima semana.</li>
+          <li>Sinais apresentados de forma agregada, sem identificar entrevistado nem empresa: governança parecida com a das empresas do painel e travando o valor dos dados; uso de IA por fora dos canais oficiais; dados e infraestrutura organizados; organização e pessoas ainda em definição; valor incerto; sustentabilidade fora da conversa; máquinas paradas por falta de operador, com a automação como necessidade e a padronização entre máquinas como desafio.</li>
+        </ul></div></li>
+      <li><div><span class="t">Letramento e pessoas</span>
+        <ul class="lista">
+          <li>Bruno contou que o time técnico da Acelen é robusto: parte ainda ligada a métodos tradicionais de análise do campo, parte em busca de tecnologia e inovação. O objetivo é unir os dois mundos.</li>
+          <li>Guilherme defendeu capacitar quem já conhece o processo, em vez de criar uma área de IA só com especialistas de fora. É daí que nascem os comitês de IA nas empresas.</li>
+        </ul></div></li>
+      <li><div><span class="t">Trâmites administrativos</span>
+        <span class="d">A Pamela conduz o tema pela Acelen e já está alinhada com a Priscila, contato administrativo da OagronomIA.</span></div></li>
+    </ol>
+  </section>
+
+  <section class="bloco">
+    <h2>Contexto trazido pela Acelen</h2>
+    <ul class="lista">
+      <li><b>Modelo de localização logística (fim de 2024):</b> função de otimização em Python para definir a melhor localização das cinco unidades de processamento. Considera o tamanho das cidades, a qualidade das estradas, o tipo de caminhão (15, 30 e 45 t) e as fazendas mapeadas no funil de aquisição. É estático: dá para mudar as premissas, mas não há IA generativa por trás para evoluir o modelo.</li>
+      <li><b>Indicador de P&amp;D:</b> acompanhado pelo Bruno desde 2013. Empresas tecnificadas destinavam de 3% a 5% do faturamento a P&amp;D; o último levantamento é de cerca de 2020 a 2022.</li>
+      <li><b>Pesquisa sobre sustentabilidade citada pelo Bruno:</b> cerca de 600 executivos de médias e grandes empresas. Quase 90% dizem atuar com sustentabilidade, mas só cerca de 30% enxergam retorno financeiro. A fonte será confirmada.</li>
+      <li><b>Setor financeiro como referência:</b> segundo o Bruno, o Itaú e outras grandes instituições financeiras já usam IA na modelagem e na operação, inclusive na venda de produtos, com planos de modelos de fronteira liberados para alguns cargos.</li>
+    </ul>
+  </section>
+
+  <div class="foot"><span>Acelen Energia Renovável · Ata da reunião semanal de 16/10/2026 · BIA-ACL-AT-03 · Rev. 00</span><span class="mono">03 / 04</span></div>
+</section>
+
+<!-- Página 4 -->
+<section class="page">
+  <div class="head">
+    <div>
+      <img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA">
+      <div class="eyebrow" style="margin-top:12px">Pendências e próxima reunião</div>
+    </div>
+    <div class="legend">
+      <span class="label">Nº / Revisão</span><span class="mono">BIA-ACL-AT-03 · Rev. 00</span>
+    </div>
+  </div>
+
+  <section class="bloco" style="margin-top:4px">
+    <h2>Pendências</h2>
+    <h3 class="sub">Pendências anteriores — situação em 16/10</h3>
+    <table class="pend">
+      <thead><tr><th>#</th><th>Pendência</th><th style="width:112px">Responsável</th><th style="width:230px">Situação em 16/10</th></tr></thead>
+      <tbody>
+        <tr><td class="n">08</td><td class="p">Subir as gravações e transcrições das reuniões no SharePoint</td><td><span class="tag acl">Acelen</span></td><td><span class="st and"><span class="dot"></span>Contínuo</span><span class="det">A transcrição de 16/10 foi gerada pela Acelen</span></td></tr>
+        <tr><td class="n">09</td><td class="p">Confirmar a data do team building e do Workshop Executivo</td><td><span class="tag acl">Acelen</span> Bruna e Bruno</td><td><span class="st and"><span class="dot"></span>Em andamento</span><span class="det">Não tratada nesta reunião; prazo 23/10</span></td></tr>
+        <tr><td class="n">11</td><td class="p">Cadastro de fornecedor na plataforma interna da Acelen</td><td><span class="tag amb">Ambos</span></td><td><span class="st and"><span class="dot"></span>Em andamento</span><span class="det">A Pamela assume o tema, já alinhada com a Priscila (OagronomIA)</span></td></tr>
+        <tr><td class="n">12</td><td class="p">Propor uma empresa norte-americana e uma chinesa (ou do leste asiático) para o painel</td><td><span class="tag oag">OagronomIA</span></td><td><span class="st ok"><span class="dot"></span>Concluído</span><span class="det">Deere e DJI apresentadas com as fichas, sem objeção da Acelen</span></td></tr>
+        <tr><td class="n">13</td><td class="p">Levantar documentos públicos sobre IA da Suzano e da Bayer e trazer os primeiros indicadores e estudos</td><td><span class="tag oag">OagronomIA</span></td><td><span class="st ok"><span class="dot"></span>Concluído</span><span class="det">Apresentados na prévia (BIA-ACL-RP-02)</span></td></tr>
+        <tr><td class="n">14</td><td class="p">Realizar a primeira sessão executiva</td><td><span class="tag oag">OagronomIA</span></td><td><span class="st ok"><span class="dot"></span>Concluído</span><span class="det">Feita na semana de 13/10; mais duas na próxima semana</span></td></tr>
+        <tr><td class="n">15</td><td class="p">Enviar à Estratégia um resumo escrito do avanço, para os materiais internos da Acelen</td><td><span class="tag oag">OagronomIA</span></td><td><span class="st and"><span class="dot"></span>Em andamento</span><span class="det">Segue com a prévia, a metodologia (BIA-ACL-MT-01) e o cronograma rev. 01 no SharePoint (pendência 16)</span></td></tr>
+      </tbody>
+    </table>
+    <p class="nota">As demais pendências do kick-off já estavam concluídas.</p>
+
+    <h3 class="sub">Novas pendências</h3>
+    <table class="pend">
+      <thead><tr><th>#</th><th>Pendência</th><th style="width:112px">Responsável</th><th style="width:150px">Prazo</th></tr></thead>
+      <tbody>
+        <tr><td class="n">16</td><td class="p">Subir no SharePoint a prévia apresentada (BIA-ACL-RP-02), com o descritivo da metodologia e o cronograma rev. 01</td><td><span class="tag oag">OagronomIA</span></td><td>Semana de 19/10</td></tr>
+        <tr><td class="n">17</td><td class="p">Trazer ao estudo como as empresas tratam o uso de IA por fora dos canais oficiais (shadow AI) e os próximos passos de governança</td><td><span class="tag oag">OagronomIA</span></td><td>Entrega parcial (23/10)</td></tr>
+        <tr><td class="n">18</td><td class="p">Ampliar o olhar para setores que saem na frente (financeiro, químico, farmacêutico), com um comparativo de maturidade, começando pelos bancos</td><td><span class="tag oag">OagronomIA</span></td><td>Entrega parcial (23/10) e relatório (06/11)</td></tr>
+        <tr><td class="n">19</td><td class="p">Verificar se há dados públicos sobre a parcela do faturamento investida em P&amp;D e tecnologia e como a IA muda essa alocação, cruzando o investimento em modelos de ponta com o retorno</td><td><span class="tag oag">OagronomIA</span></td><td>Relatório (06/11)</td></tr>
+        <tr><td class="n">20</td><td class="p">Incluir no relatório uma explicação simples do papel da IA generativa e da preditiva</td><td><span class="tag oag">OagronomIA</span></td><td>Relatório (06/11)</td></tr>
+        <tr><td class="n">21</td><td class="p">Realizar as próximas duas sessões executivas</td><td><span class="tag oag">OagronomIA</span></td><td>Semana de 19/10</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="bloco">
+    <h2>Próxima reunião</h2>
+    <div class="card">
+      <p><b style="color:var(--fg-1)">Semanal — sexta-feira, 23/10/2026.</b> Pauta: entrega parcial, andamento das sessões executivas, os aprofundamentos pedidos nesta reunião (shadow AI e governança, outros setores) e a data do workshop.</p>
+    </div>
+  </section>
+
+  <div class="foot"><span>Acelen Energia Renovável · Ata da reunião semanal de 16/10/2026 · BIA-ACL-AT-03 · Rev. 00</span><span class="mono">04 / 04</span></div>
+</section>
+
+</body>
+</html>

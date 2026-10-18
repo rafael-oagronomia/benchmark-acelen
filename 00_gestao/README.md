@@ -35,7 +35,7 @@ Feriados no período: 12/10 e 02/11. Semanais às sextas, cerca de 1 hora; horá
 | 02/10/2026 | Semanal (pauta) | [preparação](reunioes/2026-10-02_semanal-01_pauta.md); os itens foram tratados na semanal de 09/10 |
 | 09/10/2026 | Semanal | [ata e pendências](reunioes/2026-10-09_semanal_ata.md) ([PDF rev. 01](reunioes/2026-10-09_semanal_ata_BIA-ACL-AT-02_rev01.pdf), com a situação das pendências em 15/10; a rev. 00 fica como histórico) · [transcrição](reunioes/2026-10-09_semanal_transcricao.md) |
 | 13/10/2026 | Interna (Guilherme × Rafael) | [notas](reunioes/2026-10-13_interna_notas.md): leitura da sessão 1, pilares de IA e o que a Acelen quer |
-| 16/10/2026 | Semanal | [preparação](reunioes/2026-10-16_semanal_pauta.md) |
+| 16/10/2026 | Semanal | [ata e pendências](reunioes/2026-10-16_semanal_ata.md) ([PDF](reunioes/2026-10-16_semanal_ata_BIA-ACL-AT-03_rev00.pdf)) · [transcrição](reunioes/2026-10-16_semanal_transcricao.md) · [preparação](reunioes/2026-10-16_semanal_pauta.md) |
 
 - `cronograma/` — cronograma para o cliente (PDF e planilha) e HTML-fonte.
 

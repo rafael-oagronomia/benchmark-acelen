@@ -4,6 +4,7 @@ Converte a transcrição exportada do Teams (.docx) em markdown leve para versio
 
 Uso:
     python converter_transcricao.py _originais/ARQUIVO.docx 2026-09-29_kickoff_transcricao.md --titulo "Kick-off"
+    python converter_transcricao.py _originais/ARQUIVO.pdf ...   # também aceita a transcrição exportada em PDF pelo Word
     python converter_transcricao.py ... --omitir 25:44 26:17   # omite falas (ex.: trechos administrativos de pagamento)
     python converter_transcricao.py ... --anonimizar "Fulano de Tal" Beltrano   # troca nomes por [nome omitido]
     python converter_transcricao.py ... --omitir-cargo "gerente de IA da região X"  # troca o trecho por [cargo omitido]
@@ -29,6 +30,30 @@ def paragrafos(docx):
     return [l.strip() for l in texto.splitlines() if l.strip()]
 
 
+CABECALHO_FALA = re.compile(r"^\d*(.+?)\s{2,}(\d{1,2}:\d{2}(?::\d{2})?)\s*$")
+DATA = re.compile(r"^\d{1,2} de \w+ de \d{4}")
+
+
+def paragrafos_pdf(pdf):
+    """No PDF exportado pelo Word, nome e tempo vêm numa linha e a fala nas linhas seguintes.
+    Devolve o mesmo formato do .docx: título, data, duração e uma linha 'nome  tempo fala' por fala."""
+    import pymupdf
+    linhas = [l.strip() for p in pymupdf.open(pdf) for l in p.get_text().splitlines()]
+    cab, falas = [], []
+    for l in linhas:
+        if not l or re.search(r"(começou|parou) a transcrição$", l):
+            continue
+        if CABECALHO_FALA.match(l):
+            falas.append([l])
+        elif falas:
+            falas[-1].append(l)
+        else:
+            cab.append(l)
+    i = next((k for k, l in enumerate(cab) if DATA.match(l)), len(cab))
+    cabecalho = [" ".join(cab[:i]), *cab[i:i + 2]]
+    return cabecalho + [f"{f[0]} {' '.join(f[1:])}" for f in falas]
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("docx")
@@ -42,7 +67,7 @@ def main():
     nomes += [(re.compile(re.escape(c), re.IGNORECASE), "[cargo omitido]") for c in a.omitir_cargo]
     trocas = 0
 
-    linhas = paragrafos(a.docx)
+    linhas = paragrafos_pdf(a.docx) if a.docx.lower().endswith(".pdf") else paragrafos(a.docx)
     cabecalho = linhas[:3]  # nome da gravação, data/hora, duração
     falas, participantes = [], OrderedDict()
     for l in linhas[3:]:
