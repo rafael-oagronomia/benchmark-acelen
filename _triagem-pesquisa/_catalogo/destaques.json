@@ -1,0 +1,1070 @@
+[
+ {
+  "secao": "F1 · Valor e ROI da IA (referências globais)",
+  "chave": "01_consultorias-estrategia/McKinsey_2026_state-of-ai-road-to-roi.pdf",
+  "id_ref": "M027",
+  "titulo_ref": "The state of AI in 2026: On the road to ROI"
+ },
+ {
+  "secao": "F1 · Valor e ROI da IA (referências globais)",
+  "chave": "01_consultorias-estrategia/BCG_2025_widening-ai-value-gap.pdf",
+  "id_ref": "M017",
+  "titulo_ref": "The Widening AI Value Gap (Build for the Future 2025)"
+ },
+ {
+  "secao": "F1 · Valor e ROI da IA (referências globais)",
+  "chave": "02_big4-accenture-capgemini/Deloitte_2025_ai-roi-paradox-rising-investment-elusive-returns.pdf",
+  "id_ref": "M062",
+  "titulo_ref": "AI ROI: The paradox of rising investment and elusive returns"
+ },
+ {
+  "secao": "F1 · Valor e ROI da IA (referências globais)",
+  "chave": "01_consultorias-estrategia/Bain_2026_ai-budget-growing-returns-arent.pdf",
+  "id_ref": "M004",
+  "titulo_ref": "Your AI Budget Is Growing. Your Returns Aren't. Here's Why."
+ },
+ {
+  "secao": "F1 · Valor e ROI da IA (referências globais)",
+  "chave": "04_academia-instituicoes/RAND_2024_root-causes-failure-ai-projects.pdf",
+  "id_ref": "M192",
+  "titulo_ref": "The Root Causes of Failure for Artificial Intelligence Projects and How They Can Succeed: "
+ },
+ {
+  "secao": "F1 · Valor e ROI da IA (referências globais)",
+  "chave": "https://www.gartner.com/en/newsroom/press-releases/2025-06-30-gartner-survey-finds-forty-five-percent-of-organizations-with-high-artificial-intelligence-maturity-keep-artificial-intelligence-projects-operational-for-at-least-three-years",
+  "id_ref": "M119",
+  "titulo_ref": "Gartner Survey Finds 45% of Organizations With High AI Maturity Keep AI Projects Operation"
+ },
+ {
+  "secao": "F1 · Valor e ROI da IA (referências globais)",
+  "chave": "https://www.gartner.com/en/newsroom/press-releases/gartner-survey-finds-only-22-percent-of-organizations-have-successfully-scaled-ai-across-multiple-business-units",
+  "id_ref": "M121",
+  "titulo_ref": "Gartner Survey Finds Only 22% of Organizations Have Successfully Scaled AI Across Multiple"
+ },
+ {
+  "secao": "F1 · Valor e ROI da IA (referências globais)",
+  "chave": "03_analistas-big-techs/GoogleCloud-NRG_2026_roi-of-ai-2026-tokenmaxxing-to-roi.pdf",
+  "id_ref": "",
+  "titulo_ref": "GoogleCloud-NRG_2026_roi-of-ai-2026-tokenmaxxing-to-roi.pdf"
+ },
+ {
+  "secao": "F1 · Brasil — adoção e retorno",
+  "chave": "01_consultorias-estrategia/Bain_2026_uso-de-ia-95-empresas-brasil.pdf",
+  "id_ref": "M005",
+  "titulo_ref": "Uso de IA chega a 95% das empresas no Brasil"
+ },
+ {
+  "secao": "F1 · Brasil — adoção e retorno",
+  "chave": "02_big4-accenture-capgemini/PwC-Brasil_2026_ia-na-estrategia-estudo-desempenho-ia.pdf",
+  "id_ref": "M078",
+  "titulo_ref": "IA na estratégia: crescer ou ficar para trás (estudo de desempenho em IA da PwC, edição Br"
+ },
+ {
+  "secao": "F1 · Brasil — adoção e retorno",
+  "chave": "03_analistas-big-techs/AWS-Strand_2026_desbloqueando-potencial-ia-brasil.pdf",
+  "id_ref": "M112",
+  "titulo_ref": "Desbloqueando o Potencial da IA no Brasil – 2026"
+ },
+ {
+  "secao": "F1 · Brasil — adoção e retorno",
+  "chave": "03_analistas-big-techs/IDC-Microsoft_2026_impacto-adocao-ia-brasil.pdf",
+  "id_ref": "M135",
+  "titulo_ref": "Impacto nos Negócios pela Adoção de IA no Brasil (IDC para Microsoft Brasil) – notícia ofi"
+ },
+ {
+  "secao": "F1 · Brasil — adoção e retorno",
+  "chave": "09_outros-setores/TOTVS-H2R_2025_panorama-ia-empresas-brasileiras.pdf",
+  "id_ref": "M493",
+  "titulo_ref": "Panorama IA nas empresas brasileiras"
+ },
+ {
+  "secao": "F1 · Brasil — adoção e retorno",
+  "chave": "01_consultorias-estrategia/MITTRBrasil-Peers-TECInstitute_2026_gerando-valor-com-genai.pdf",
+  "id_ref": "",
+  "titulo_ref": "MITTRBrasil-Peers-TECInstitute_2026_gerando-valor-com-genai.pdf"
+ },
+ {
+  "secao": "F1 · Brasil — adoção e retorno",
+  "chave": "03_analistas-big-techs/IDC-ABES_2026_estrategias-digitais-alta-performance-ia.pdf",
+  "id_ref": "",
+  "titulo_ref": "IDC-ABES_2026_estrategias-digitais-alta-performance-ia.pdf"
+ },
+ {
+  "secao": "F1 · Agro, bioenergia e florestal (Brasil)",
+  "chave": "06_empresas-agro-bioenergia-florestal-br/SLCAgricola_2026_apresentacao-investidores-agosto-roi-agricultura-digital.pdf",
+  "id_ref": "M329",
+  "titulo_ref": "O melhor da agricultura — Apresentação para Investidores (agosto de 2026), seção Tecnologi"
+ },
+ {
+  "secao": "F1 · Agro, bioenergia e florestal (Brasil)",
+  "chave": "06_empresas-agro-bioenergia-florestal-br/SLCAgricola_2024_relatorio-integrado-2023.pdf",
+  "id_ref": "M330",
+  "titulo_ref": "Relatório Integrado 2023"
+ },
+ {
+  "secao": "F1 · Agro, bioenergia e florestal (Brasil)",
+  "chave": "06_empresas-agro-bioenergia-florestal-br/Raizen_2024_release-programa-integra-digitalizacao-supply-chain.pdf",
+  "id_ref": "M325",
+  "titulo_ref": "Com R$ 60 milhões investidos em jornada de digitalização, Raízen supera expectativas em su"
+ },
+ {
+  "secao": "F1 · Agro, bioenergia e florestal (Brasil)",
+  "chave": "06_empresas-agro-bioenergia-florestal-br/Raizen_2023_release-pulse-impacto-40-milhoes-6-anos.pdf",
+  "id_ref": "M326",
+  "titulo_ref": "Pulse gera impacto de R$ 40 milhões à Raízen em 6 anos (release, 16/10/2023)"
+ },
+ {
+  "secao": "F1 · Agro, bioenergia e florestal (Brasil)",
+  "chave": "06_empresas-agro-bioenergia-florestal-br/Tereos_2026_relatorio-sustentabilidade-safra-25-26.pdf",
+  "id_ref": "M337",
+  "titulo_ref": "Relatório de Sustentabilidade – Safra 2025/2026"
+ },
+ {
+  "secao": "F1 · Agro, bioenergia e florestal (Brasil)",
+  "chave": "06_empresas-agro-bioenergia-florestal-br/Klabin_2026_relatorio-sustentabilidade-2025.pdf",
+  "id_ref": "M324",
+  "titulo_ref": "Relatório de Sustentabilidade 2025"
+ },
+ {
+  "secao": "F1 · Agro, bioenergia e florestal (Brasil)",
+  "chave": "02_big4-accenture-capgemini/PwC-Brasil_2026_ceo-survey-destaques-agronegocio.pdf",
+  "id_ref": "M076",
+  "titulo_ref": "29ª CEO Survey — Destaques do Agronegócio no Brasil"
+ },
+ {
+  "secao": "F1 · Agro, bioenergia e florestal (Brasil)",
+  "chave": "02_big4-accenture-capgemini/PwC-FDC_2025_itdbr-destaques-agronegocio.pdf",
+  "id_ref": "M079",
+  "titulo_ref": "Índice de Transformação Digital Brasil (ITDBr) 2025 — Destaques do Agronegócio"
+ },
+ {
+  "secao": "F1 · Agro, bioenergia e florestal (Brasil)",
+  "chave": "01_consultorias-estrategia/McKinsey_2026_global-farmer-insights.pdf",
+  "id_ref": "M020",
+  "titulo_ref": "Global Farmer Insights 2026"
+ },
+ {
+  "secao": "F1 · Agro, bioenergia e florestal (Brasil)",
+  "chave": "01_consultorias-estrategia/BCG_2025_pulse-of-brazilian-farmers.pdf",
+  "id_ref": "M006",
+  "titulo_ref": "The Pulse of Brazilian Farmers"
+ },
+ {
+  "secao": "F1 · Agro, bioenergia e florestal (Brasil)",
+  "chave": "02_big4-accenture-capgemini/EY-Brasil_2026_top10-riscos-oportunidades-agro.pdf",
+  "id_ref": "",
+  "titulo_ref": "EY-Brasil_2026_top10-riscos-oportunidades-agro.pdf"
+ },
+ {
+  "secao": "F1 · Suzano (empresa do painel)",
+  "chave": "06_empresas-agro-bioenergia-florestal-br/Suzano_2026_form-20F-exercicio-2025.pdf",
+  "id_ref": "M755",
+  "titulo_ref": "Form 20-F — Annual Report pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934 for the fiscal year ended December 31, 2025"
+ },
+ {
+  "secao": "F1 · Suzano (empresa do painel)",
+  "chave": "06_empresas-agro-bioenergia-florestal-br/Suzano_2026_relatorio-sustentabilidade-2025.pdf",
+  "id_ref": "M336",
+  "titulo_ref": "Relatório de Sustentabilidade 2025"
+ },
+ {
+  "secao": "F1 · Suzano (empresa do painel)",
+  "chave": "06_empresas-agro-bioenergia-florestal-br/Suzano_2025_suzano-day-investor-presentation.pdf",
+  "id_ref": "M337",
+  "titulo_ref": "Suzano Day 2025 — apresentação a investidores"
+ },
+ {
+  "secao": "F1 · Suzano (empresa do painel)",
+  "chave": "06_empresas-agro-bioenergia-florestal-br/GoogleCloud_2026_case-suzano-earth-engine-inteligencia-mercado-florestal.pdf",
+  "id_ref": "M749",
+  "titulo_ref": "Visão global: Suzano monitora 500 milhões de hectares com inteligência em nuvem (caso de sucesso)"
+ },
+ {
+  "secao": "F1 · Suzano (empresa do painel)",
+  "chave": "06_empresas-agro-bioenergia-florestal-br/ITForum_2025_suzano-ia-floresta-entrevista-cio.pdf",
+  "id_ref": "M750",
+  "titulo_ref": "Suzano usa IA a serviço da floresta e do crescimento inteligente dos negócios"
+ },
+ {
+  "secao": "F1 · Suzano (empresa do painel)",
+  "chave": "06_empresas-agro-bioenergia-florestal-br/Suzano_2025_noticia-marvin-ia-geoespacial-acordo-longo-prazo.pdf",
+  "id_ref": "M754",
+  "titulo_ref": "Suzano signs long-term deal with Marvin following successful validation of forestry sector AI geospatial intelligence capabilities"
+ },
+ {
+  "secao": "F1 · Suzano (empresa do painel)",
+  "chave": "06_empresas-agro-bioenergia-florestal-br/Suzano_2026_noticia-sala-vision-ia-manutencao-limeira.pdf",
+  "id_ref": "M752",
+  "titulo_ref": "Suzano amplia uso de Inteligência Artificial para fortalecer a excelência operacional da unidade de Limeira (SP)"
+ },
+ {
+  "secao": "F1 · Suzano (empresa do painel)",
+  "chave": "03_analistas-big-techs/GoogleCloud_2024_case-suzano-vagalumen-ia-generativa.pdf",
+  "id_ref": "M127",
+  "titulo_ref": "Suzano: promovendo a gestão sustentável de materiais usando a IA generativa e o Cortex Framework (caso de sucesso)"
+ },
+ {
+  "secao": "F1 · Suzano (empresa do painel)",
+  "chave": "06_empresas-agro-bioenergia-florestal-br/Suzano_2024_noticia-suzano-ventures-bemagro-ia-silvicultura-precisao.pdf",
+  "id_ref": "M766",
+  "titulo_ref": "Suzano Ventures makes strategic investment in BemAgro"
+ },
+ {
+  "secao": "F1 · Bayer (empresa do painel)",
+  "chave": "07_agro-global-perenes-autonomia/Bayer_2025_annual-report.pdf",
+  "id_ref": "M390",
+  "titulo_ref": "Bayer Annual Report 2025"
+ },
+ {
+  "secao": "F1 · Bayer (empresa do painel)",
+  "chave": "07_agro-global-perenes-autonomia/Bayer_2026_impact-report-2025.pdf",
+  "id_ref": "M783",
+  "titulo_ref": "Bayer Impact Report 2025"
+ },
+ {
+  "secao": "F1 · Bayer (empresa do painel)",
+  "chave": "07_agro-global-perenes-autonomia/Bayer_2026_principios-ia-responsavel.pdf",
+  "id_ref": "M784",
+  "titulo_ref": "Bayer Principles for Responsible Artificial Intelligence"
+ },
+ {
+  "secao": "F1 · Bayer (empresa do painel)",
+  "chave": "https://www.bayer.com/en/about-us/explore-bayer/our-mission-and-strategy/dynamic-shared-ownership",
+  "id_ref": "M785",
+  "titulo_ref": "Dynamic Shared Ownership, now supercharged with AI"
+ },
+ {
+  "secao": "F1 · Bayer (empresa do painel)",
+  "chave": "07_agro-global-perenes-autonomia/Bayer_2025_crop-science-investor-webinar.pdf",
+  "id_ref": "M787",
+  "titulo_ref": "2025 Crop Science Investor Update"
+ },
+ {
+  "secao": "F1 · Bayer (empresa do painel)",
+  "chave": "07_agro-global-perenes-autonomia/Bayer_2026_crop-science-rd-update.pdf",
+  "id_ref": "M789",
+  "titulo_ref": "Bayer Crop Science 2026 R&D Update (Mike Graham, Head of R&D)"
+ },
+ {
+  "secao": "F1 · Bayer (empresa do painel)",
+  "chave": "07_agro-global-perenes-autonomia/AgFunderNews_2025_entrevista-cio-bayer-crop-science-dados-ia.pdf",
+  "id_ref": "M779",
+  "titulo_ref": "Bayer's 117bn data points and decade-old data culture drive AI advantage, says CIO"
+ },
+ {
+  "secao": "F1 · Bayer (empresa do painel)",
+  "chave": "07_agro-global-perenes-autonomia/Bayer_2025_agrishow-agricultura-digital-brasil-nova-fase.pdf",
+  "id_ref": "M781",
+  "titulo_ref": "Com Brasil como protagonista, Agricultura Digital Bayer inicia nova fase na Agrishow"
+ },
+ {
+  "secao": "F1 · Bayer (empresa do painel)",
+  "chave": "https://www.microsoft.com/en/customers/story/25255-bayer-azure-phi",
+  "id_ref": "M169",
+  "titulo_ref": "Bayer brings agronomic expertise to the edge with Azure AI Foundry (E.L.Y. Crop Protection Mini)"
+ },
+ {
+  "secao": "F1 · Setores maduros (bancos, energia, mineração)",
+  "chave": "08_setor-financeiro/Evident_2026_ai-index-banks-latam-key-findings.pdf",
+  "id_ref": "M428",
+  "titulo_ref": "Evident AI Index | Banks – LATAM: Key Findings Report (July 2026)"
+ },
+ {
+  "secao": "F1 · Setores maduros (bancos, energia, mineração)",
+  "chave": "08_setor-financeiro/FEBRABAN_2026_pesquisa-tecnologia-bancaria-vol2-completa.pdf",
+  "id_ref": "M432",
+  "titulo_ref": "Pesquisa Febraban de Tecnologia Bancária 2026 – Vol. 2 (versão completa), 34ª edição"
+ },
+ {
+  "secao": "F1 · Setores maduros (bancos, energia, mineração)",
+  "chave": "08_setor-financeiro/JPMorganChase_2025_investor-day-apresentacao-completa.pdf",
+  "id_ref": "M437",
+  "titulo_ref": "2025 Investor Day – Full Presentation (19/05/2025)"
+ },
+ {
+  "secao": "F1 · Setores maduros (bancos, energia, mineração)",
+  "chave": "08_setor-financeiro/DBS_2026_annual-report-2025.pdf",
+  "id_ref": "M422",
+  "titulo_ref": "DBS Annual Report 2025"
+ },
+ {
+  "secao": "F1 · Setores maduros (bancos, energia, mineração)",
+  "chave": "08_setor-financeiro/Itau_2026_relatorio-anual-integrado-2025.pdf",
+  "id_ref": "M435",
+  "titulo_ref": "Relatório Anual Integrado 2025"
+ },
+ {
+  "secao": "F1 · Setores maduros (bancos, energia, mineração)",
+  "chave": "09_outros-setores/Equinor_2026_ia-economizou-usd-130-milhoes.pdf",
+  "id_ref": "M485",
+  "titulo_ref": "Use of artificial intelligence saved Equinor USD 130 million in 2025"
+ },
+ {
+  "secao": "F1 · Setores maduros (bancos, energia, mineração)",
+  "chave": "09_outros-setores/Vale_2026_relatorio-pdi-2025.pdf",
+  "id_ref": "M494",
+  "titulo_ref": "Relatório de Pesquisa, Desenvolvimento & Inovação 2025"
+ },
+ {
+  "secao": "F2 · Maturidade e roadmaps",
+  "chave": "04_academia-instituicoes/MIT-CISR_2025_grow-enterprise-ai-maturity-bottom-line.pdf",
+  "id_ref": "M187",
+  "titulo_ref": "Grow Enterprise AI Maturity for Bottom-Line Impact (Research Briefing XXV-8)"
+ },
+ {
+  "secao": "F2 · Maturidade e roadmaps",
+  "chave": "02_big4-accenture-capgemini/Accenture_2022_art-of-ai-maturity.pdf",
+  "id_ref": "M056",
+  "titulo_ref": "The art of AI maturity: Advancing from practice to performance"
+ },
+ {
+  "secao": "F2 · Maturidade e roadmaps",
+  "chave": "03_analistas-big-techs/ServiceNow_2025_enterprise-ai-maturity-index.pdf",
+  "id_ref": "M145",
+  "titulo_ref": "Enterprise AI Maturity Index 2025"
+ },
+ {
+  "secao": "F2 · Maturidade e roadmaps",
+  "chave": "03_analistas-big-techs/Cisco_2025_ai-readiness-index.pdf",
+  "id_ref": "M113",
+  "titulo_ref": "Cisco AI Readiness Index 2025 – Realizing the Value of AI"
+ },
+ {
+  "secao": "F2 · Maturidade e roadmaps",
+  "chave": "04_academia-instituicoes/MITRE_2023_ai-maturity-model-assessment-tool-guide.pdf",
+  "id_ref": "M191",
+  "titulo_ref": "The MITRE AI Maturity Model and Organizational Assessment Tool Guide: A Path to Successful"
+ },
+ {
+  "secao": "F2 · Maturidade e roadmaps",
+  "chave": "02_big4-accenture-capgemini/Accenture_2025_front-runners-guide-scaling-ai.pdf",
+  "id_ref": "M057",
+  "titulo_ref": "The front-runners' guide to scaling AI: Lessons from industry leaders"
+ },
+ {
+  "secao": "F2 · Maturidade e roadmaps",
+  "chave": "01_consultorias-estrategia/RolandBerger_2026_ai-first-organization.pdf",
+  "id_ref": "",
+  "titulo_ref": "RolandBerger_2026_ai-first-organization.pdf"
+ },
+ {
+  "secao": "F3 · Tendências, autonomia e soberania",
+  "chave": "04_academia-instituicoes/Stanford-HAI_2026_ai-index-report.pdf",
+  "id_ref": "M195",
+  "titulo_ref": "Artificial Intelligence Index Report 2026"
+ },
+ {
+  "secao": "F3 · Tendências, autonomia e soberania",
+  "chave": "01_consultorias-estrategia/McKinsey_2026_technology-trends-outlook.pdf",
+  "id_ref": "M018",
+  "titulo_ref": "McKinsey Technology Trends Outlook 2026"
+ },
+ {
+  "secao": "F3 · Tendências, autonomia e soberania",
+  "chave": "01_consultorias-estrategia/BCG_2026_ceos-guide-to-physical-ai.pdf",
+  "id_ref": "M016",
+  "titulo_ref": "The CEO's Guide to Physical AI"
+ },
+ {
+  "secao": "F3 · Tendências, autonomia e soberania",
+  "chave": "https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027",
+  "id_ref": "M118",
+  "titulo_ref": "Gartner Predicts Over 40% of Agentic AI Projects Will Be Canceled by End of 2027"
+ },
+ {
+  "secao": "F3 · Tendências, autonomia e soberania",
+  "chave": "03_analistas-big-techs/IBM-IBV_2026_calculus-of-ai-sovereignty.pdf",
+  "id_ref": "M132",
+  "titulo_ref": "The calculus of AI sovereignty: Balancing control, flexibility, and risk"
+ },
+ {
+  "secao": "F3 · Tendências, autonomia e soberania",
+  "chave": "04_academia-instituicoes/MCTI-CGEE_2025_pbia-plano-brasileiro-ia-versao-final.pdf",
+  "id_ref": "M185",
+  "titulo_ref": "IA para o bem de todos — Plano Brasileiro de Inteligência Artificial (PBIA) 2024-2028, ver"
+ },
+ {
+  "secao": "F3 · Tendências, autonomia e soberania",
+  "chave": "04_academia-instituicoes/Senado-Camara_2025_pl-2338-2023-marco-ia-texto-aprovado-senado.pdf",
+  "id_ref": "M194",
+  "titulo_ref": "Projeto de Lei nº 2.338/2023 — Marco legal da inteligência artificial (texto aprovado pelo"
+ },
+ {
+  "secao": "F3 · Tendências, autonomia e soberania",
+  "chave": "07_agro-global-perenes-autonomia/AgFunder_2026_global-agrifoodtech-investment-report.pdf",
+  "id_ref": "M365",
+  "titulo_ref": "Global AgriFoodTech Investment Report 2026"
+ },
+ {
+  "secao": "F3 · Tendências, autonomia e soberania",
+  "chave": "07_agro-global-perenes-autonomia/JohnDeere_2025_business-impact-report.pdf",
+  "id_ref": "M371",
+  "titulo_ref": "2025 Business Impact Report"
+ },
+ {
+  "secao": "F3 · Tendências, autonomia e soberania",
+  "chave": "07_agro-global-perenes-autonomia/SDGuthrie_2025_integrated-report-2024.pdf",
+  "id_ref": "M380",
+  "titulo_ref": "Integrated Report 2024 – Beyond Boundaries"
+ },
+ {
+  "secao": "F3 · Tendências, autonomia e soberania",
+  "chave": "07_agro-global-perenes-autonomia/MPOB_2025_oil-palm-economic-performance-rd-progress-2024.pdf",
+  "id_ref": "M375",
+  "titulo_ref": "Oil Palm Economic Performance in Malaysia and R&D Progress in 2024"
+ },
+ {
+  "secao": "F3 · Tendências, autonomia e soberania",
+  "chave": "07_agro-global-perenes-autonomia/DJI_2026_agricultural-drone-industry-insight-report.pdf",
+  "id_ref": "M370",
+  "titulo_ref": "Agricultural Drone Industry Insight Report 2025/2026 (edição em português)"
+ },
+ {
+  "secao": "F3 · Tendências, autonomia e soberania",
+  "chave": "07_agro-global-perenes-autonomia/AAEA_2025_viabilidade-colheita-robotica-macas.pdf",
+  "id_ref": "M374",
+  "titulo_ref": "Economic viability of robotic fruit harvesters to reduce large seasonal labor demands: Ana"
+ },
+ {
+  "secao": "F3 · Tendências, autonomia e soberania",
+  "chave": "05_agro-brasil-instituicoes-midia/CNA_2026_estudo-escassez-mao-de-obra-produtividade-agenda-brasil.pdf",
+  "id_ref": "M242",
+  "titulo_ref": "Agenda Brasil – Escassez de mão de obra é desafio no campo (estudo 'Mercado de Trabalho na"
+ },
+ {
+  "secao": "F3 · EUA × China na IA do agro",
+  "chave": "07_agro-global-perenes-autonomia/WhiteHouse_2025_americas-ai-action-plan.pdf",
+  "id_ref": "M823",
+  "titulo_ref": "Winning the Race: America's AI Action Plan"
+ },
+ {
+  "secao": "F3 · EUA × China na IA do agro",
+  "chave": "07_agro-global-perenes-autonomia/USDA_2025_ai-strategy-fy2026-2027.pdf",
+  "id_ref": "M835",
+  "titulo_ref": "USDA AI Strategy for Fiscal Years 2026–2027 (AI Strategy, September 2025)"
+ },
+ {
+  "secao": "F3 · EUA × China na IA do agro",
+  "chave": "07_agro-global-perenes-autonomia/FCC_2025_covered-list-uas-estrangeiros.pdf",
+  "id_ref": "M826",
+  "titulo_ref": "Public Safety and Homeland Security Bureau Announces Addition of Uncrewed Aircraft Systems (UAS) and UAS Critical Components Produced Abroad, and Equipment and Services Listed in Section 1709 of the FY2025 NDAA, to FCC Covered List (DA 25-1086)"
+ },
+ {
+  "secao": "F3 · EUA × China na IA do agro",
+  "chave": "07_agro-global-perenes-autonomia/BIS-EUA_2026_revisao-licencas-chips-ia-china.pdf",
+  "id_ref": "M839",
+  "titulo_ref": "Department of Commerce Revises License Review Policy for Semiconductors Exported to China"
+ },
+ {
+  "secao": "F3 · EUA × China na IA do agro",
+  "chave": "07_agro-global-perenes-autonomia/ConselhoEstado-China_2025_opinioes-acao-ia-plus.pdf",
+  "id_ref": "M824",
+  "titulo_ref": "国务院关于深入实施“人工智能+”行动的意见 (国发〔2025〕11号) — Opiniões do Conselho de Estado sobre a implementação aprofundada da ação 'IA+'"
+ },
+ {
+  "secao": "F3 · EUA × China na IA do agro",
+  "chave": "07_agro-global-perenes-autonomia/MARA-China_2024_plano-nacional-agricultura-inteligente-2024-2028.pdf",
+  "id_ref": "M378",
+  "titulo_ref": "全国智慧农业行动计划（2024—2028年）— Plano Nacional de Ação para a Agricultura Inteligente 2024-2028 (农市发〔2024〕4号)"
+ },
+ {
+  "secao": "F3 · EUA × China na IA do agro",
+  "chave": "07_agro-global-perenes-autonomia/StanfordHAI-DigiChina_2025_beyond-deepseek-ecossistema-aberto-china.pdf",
+  "id_ref": "M832",
+  "titulo_ref": "Beyond DeepSeek: China's Diverse Open-Weight AI Ecosystem and Its Policy Implications"
+ },
+ {
+  "secao": "F3 · EUA × China na IA do agro",
+  "chave": "07_agro-global-perenes-autonomia/IFPRI_2025_revolucao-global-drones-agricolas.pdf",
+  "id_ref": "M827",
+  "titulo_ref": "The global drone revolution in agriculture"
+ },
+ {
+  "secao": "F3 · EUA × China na IA do agro",
+  "chave": "07_agro-global-perenes-autonomia/ForumMacau_2026_drones-chineses-no-brasil.pdf",
+  "id_ref": "M845",
+  "titulo_ref": "Chinese agricultural drones expand presence in Brazil"
+ },
+ {
+  "secao": "F3 · EUA × China na IA do agro",
+  "chave": "https://comexstat.mdic.gov.br/pt/geral",
+  "id_ref": "M830",
+  "titulo_ref": "Comex Stat – consulta: importações brasileiras de drones de 25 a 150 kg (NCM 8806.24.00 e 8806.94.00) e de tratores (NCM 8701, exceto rodoviários) por país de origem, 2022 a set/2026"
+ },
+ {
+  "secao": "F3 · EUA × China na IA do agro",
+  "chave": "07_agro-global-perenes-autonomia/Daedong_2026_relatorio-sustentabilidade-2025.pdf",
+  "id_ref": "M825",
+  "titulo_ref": "AI to the Fields. 2026 대동그룹 지속가능경영 보고서 (Relatório de Sustentabilidade 2026 do Grupo Daedong)"
+ },
+ {
+  "secao": "F3 · EUA × China na IA do agro",
+  "chave": "07_agro-global-perenes-autonomia/Kubota_2026_plano-medio-prazo-2030.pdf",
+  "id_ref": "M829",
+  "titulo_ref": "“Focus & Breakthrough” Mid-Term Business Plan 2030"
+ },
+ {
+  "secao": "F3 · IA e sustentabilidade (pegada da IA)",
+  "chave": "10_ia-sustentabilidade/Google_2025_measuring-environmental-impact-ai-google-scale-gemini.pdf",
+  "id_ref": "M562",
+  "titulo_ref": "Measuring the environmental impact of delivering AI at Google Scale"
+ },
+ {
+  "secao": "F3 · IA e sustentabilidade (pegada da IA)",
+  "chave": "10_ia-sustentabilidade/Microsoft_2025_oviedo-energy-use-ai-inference-test-time-compute.pdf",
+  "id_ref": "M593",
+  "titulo_ref": "Energy use of AI inference, efficiency pathways, and test-time scaling (Joule 10, 102430)"
+ },
+ {
+  "secao": "F3 · IA e sustentabilidade (pegada da IA)",
+  "chave": "10_ia-sustentabilidade/MistralAI_2025_lca-environmental-standard-ai.pdf",
+  "id_ref": "M595",
+  "titulo_ref": "Our contribution to a global environmental standard for AI"
+ },
+ {
+  "secao": "F3 · IA e sustentabilidade (pegada da IA)",
+  "chave": "10_ia-sustentabilidade/Bistline-etal_2026_estimating-ghg-emissions-from-ai-use-corporate-framework.pdf",
+  "id_ref": "M623",
+  "titulo_ref": "Estimating GHG Emissions from AI Use: Framework for Corporate-Level Measurement (white pap"
+ },
+ {
+  "secao": "F3 · IA e sustentabilidade (pegada da IA)",
+  "chave": "10_ia-sustentabilidade/GSF_2025_sci-for-ai-specification-ratified.pdf",
+  "id_ref": "M567",
+  "titulo_ref": "SCI for AI Specification Ratified: Standard for Measuring AI Emissions Across the Lifecycl"
+ },
+ {
+  "secao": "F3 · IA e sustentabilidade (pegada da IA)",
+  "chave": "10_ia-sustentabilidade/ITU-T_2026_L1801-guidelines-environmental-impact-ai-systems.pdf",
+  "id_ref": "M614",
+  "titulo_ref": "Recommendation ITU-T L.1801 (02/2026) — Guidelines for assessing the environmental impact "
+ },
+ {
+  "secao": "F3 · IA e sustentabilidade (pegada da IA)",
+  "chave": "10_ia-sustentabilidade/ITU-WBA_2026_greening-digital-companies.pdf",
+  "id_ref": "M613",
+  "titulo_ref": "Greening Digital Companies 2026: Monitoring Emissions and Climate Commitments"
+ },
+ {
+  "secao": "F3 · IA e sustentabilidade (pegada da IA)",
+  "chave": "10_ia-sustentabilidade/IEA_2026_electricity-2026.pdf",
+  "id_ref": "M575",
+  "titulo_ref": "Electricity 2026 — Analysis and forecast to 2030"
+ },
+ {
+  "secao": "F3 · IA e sustentabilidade (pegada da IA)",
+  "chave": "10_ia-sustentabilidade/Capgemini-CRI_2025_developing-sustainable-gen-ai.pdf",
+  "id_ref": "M541",
+  "titulo_ref": "Developing sustainable Gen AI"
+ },
+ {
+  "secao": "F3 · IA e sustentabilidade (pegada da IA)",
+  "chave": "10_ia-sustentabilidade/LSE-Grantham-Systemiq_2025_green-and-intelligent-ai-climate-transition-npj.pdf",
+  "id_ref": "M585",
+  "titulo_ref": "Green and intelligent: the role of AI in the climate transition (npj Climate Action 4, 56)"
+ },
+ {
+  "secao": "F3 · IA e sustentabilidade (pegada da IA)",
+  "chave": "10_ia-sustentabilidade/Li-Ren-UCR_2025_making-ai-less-thirsty-v5.pdf",
+  "id_ref": "M612",
+  "titulo_ref": "Making AI Less “Thirsty”: Uncovering and Addressing the Secret Water Footprint of AI Model"
+ },
+ {
+  "secao": "F3 · IA e sustentabilidade (pegada da IA)",
+  "chave": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/cgcl/paginas/fator-medio-inventarios-corporativos",
+  "id_ref": "M587",
+  "titulo_ref": "Fator médio de emissão de CO2 do SIN — Inventários corporativos (página e planilha Inventa"
+ },
+ {
+  "secao": "F3 · IA e sustentabilidade (pegada da IA)",
+  "chave": "10_ia-sustentabilidade/Brasscom-ABDC_2025_consumo-energia-agua-data-centers-brasil.pdf",
+  "id_ref": "M536",
+  "titulo_ref": "Consumo de Energia e Água em Data Centers no Brasil"
+ },
+ {
+  "secao": "F3 · IA e sustentabilidade (pegada da IA)",
+  "chave": "10_ia-sustentabilidade/CVM_2026_resolucao-244-altera-resolucao-193-sustentabilidade.pdf",
+  "id_ref": "M539",
+  "titulo_ref": "Resolução CVM nº 244, de 29 de maio de 2026 — altera a Resolução CVM nº 193/2023"
+ },
+ {
+  "secao": "F3 · IA e sustentabilidade (pegada da IA)",
+  "chave": "10_ia-sustentabilidade/Planalto_2026_lei-15504-redata-texto-integral.pdf",
+  "id_ref": "M603",
+  "titulo_ref": "Lei nº 15.504, de 15 de setembro de 2026 (Redata — Regime Especial de Tributação para Serv"
+ },
+ {
+  "secao": "F1 · Deere (empresa do painel)",
+  "chave": "07_agro-global-perenes-autonomia/JohnDeere_2025_annual-report.pdf",
+  "id_ref": "M397",
+  "titulo_ref": "2025 Annual Report (Form 10-K)"
+ },
+ {
+  "secao": "F1 · Deere (empresa do painel)",
+  "chave": "07_agro-global-perenes-autonomia/JohnDeere_2025_business-impact-report.pdf",
+  "id_ref": "M373",
+  "titulo_ref": "2025 Business Impact Report"
+ },
+ {
+  "secao": "F1 · Deere (empresa do painel)",
+  "chave": "07_agro-global-perenes-autonomia/JohnDeere_2026_investor-presentation-q2.pdf",
+  "id_ref": "M865",
+  "titulo_ref": "John Deere Investor Presentation — May 2026 (2026 Investor Presentation Q2)"
+ },
+ {
+  "secao": "F1 · Deere (empresa do painel)",
+  "chave": "07_agro-global-perenes-autonomia/JohnDeere_2026_3q26-earnings-call-transcricao.pdf",
+  "id_ref": "M867",
+  "titulo_ref": "Deere & Co. (DE) Q3 2026 Earnings Call — Corrected Transcript (20/08/2026)"
+ },
+ {
+  "secao": "F1 · Deere (empresa do painel)",
+  "chave": "07_agro-global-perenes-autonomia/JohnDeere_2026_farmer-data-commitment-dados-do-produtor.pdf",
+  "id_ref": "M870",
+  "titulo_ref": "Your Farm. Your Data. Your Call. — Farmer Data Commitment e assistente JD"
+ },
+ {
+  "secao": "F1 · Deere (empresa do painel)",
+  "chave": "07_agro-global-perenes-autonomia/FTC_2026_deere-direito-de-reparo-acordo-ordem-estipulada.pdf",
+  "id_ref": "M374",
+  "titulo_ref": "FTC, States Secure Settlement with Deere & Company, Advancing Farmers' Right to Repair — J"
+ },
+ {
+  "secao": "F1 · Deere (empresa do painel)",
+  "chave": "07_agro-global-perenes-autonomia/JohnDeere_2025_ces-maquinas-autonomas-release.pdf",
+  "id_ref": "M871",
+  "titulo_ref": "John Deere Reveals New Autonomous Machines and Technology at CES 2025 (press release)"
+ },
+ {
+  "secao": "F1 · Deere (empresa do painel)",
+  "chave": "https://www.deere.com.br/pt/a-nossa-empresa/not%C3%ADcias/sala-de-imprensa/2024/dec/primeiro-centro-de-pesquisa-e-desenvolvimento/",
+  "id_ref": "M875",
+  "titulo_ref": "John Deere inaugura no Brasil seu primeiro Centro de Pesquisa e Desenvolvimento com foco n"
+ },
+ {
+  "secao": "F1 · DJI (empresa do painel)",
+  "chave": "07_agro-global-perenes-autonomia/DJI_2026_agricultural-drone-industry-insight-report.pdf",
+  "id_ref": "M372",
+  "titulo_ref": "Agricultural Drone Industry Insight Report 2025/2026 (edição em português)"
+ },
+ {
+  "secao": "F1 · DJI (empresa do painel)",
+  "chave": "07_agro-global-perenes-autonomia/Embrapa-Soja_2025_uso-drones-agricolas-brasil-pesquisa-pratica.pdf",
+  "id_ref": "M880",
+  "titulo_ref": "Uso de drones agrícolas no Brasil: da pesquisa à prática (Documentos 474)"
+ },
+ {
+  "secao": "F1 · DJI (empresa do painel)",
+  "chave": "07_agro-global-perenes-autonomia/UMissouri-WeedTechnology_2026_avaliacao-dji-agras-t40-herbicidas-soja.pdf",
+  "id_ref": "M883",
+  "titulo_ref": "Evaluation of the DJI AGRAS T40 UAV for application of herbicides in soybean (Weed Technol"
+ },
+ {
+  "secao": "F1 · DJI (empresa do painel)",
+  "chave": "05_agro-brasil-instituicoes-midia/Embrapa_2025_drone-vs-costal-cafe-caconde-custos.pdf",
+  "id_ref": "M247",
+  "titulo_ref": "UAV-based automation: a case study of coffee crop input application in Caconde, Brazil"
+ },
+ {
+  "secao": "F1 · DJI (empresa do painel)",
+  "chave": "07_agro-global-perenes-autonomia/HeinrichBoell_2026_parecer-drones-pulverizacao-agrotoxicos-brasil.pdf",
+  "id_ref": "M891",
+  "titulo_ref": "Uso de drones para pulverização de agrotóxicos no Brasil (parecer técnico-analítico)"
+ },
+ {
+  "secao": "F1 · DJI (empresa do painel)",
+  "chave": "07_agro-global-perenes-autonomia/FCC_2026_proposta-proibir-uas-ja-autorizados-pulverizacao-agricola.pdf",
+  "id_ref": "M881",
+  "titulo_ref": "FCC Seeks Comment on Prohibiting the Importation and Marketing of Certain Foreign-Produced"
+ },
+ {
+  "secao": "F1 · DJI (empresa do painel)",
+  "chave": "07_agro-global-perenes-autonomia/CADC-EUA_2026_dji-v-dod-1260h-acordao.pdf",
+  "id_ref": "M882",
+  "titulo_ref": "SZ DJI Technology Co., Ltd. v. United States Department of Defense, No. 25-5367 (acórdão d"
+ },
+ {
+  "secao": "F1 · DJI (empresa do painel)",
+  "chave": "07_agro-global-perenes-autonomia/CISA-FBI_2024_guia-ciberseguranca-drones-fabricados-china.pdf",
+  "id_ref": "M884",
+  "titulo_ref": "Cybersecurity Guidance: Chinese-Manufactured UAS"
+ },
+ {
+  "secao": "F1 · DJI (empresa do painel)",
+  "chave": "07_agro-global-perenes-autonomia/DJI_2024_release-agras-t50-t25-smartfarm-dados.pdf",
+  "id_ref": "M876",
+  "titulo_ref": "DJI Agras T50 and T25 Expand Aerial Crop Protection Capabilities (release, com política de"
+ },
+ {
+  "secao": "F1 · DJI (empresa do painel)",
+  "chave": "07_agro-global-perenes-autonomia/ForumMacau_2026_drones-chineses-no-brasil.pdf",
+  "id_ref": "M845",
+  "titulo_ref": "Chinese agricultural drones expand presence in Brazil"
+ },
+ {
+  "secao": "F3 · Custo de uso da IA (preços, consumo e Brasil)",
+  "chave": "11_custo-da-ia/EpochAI_2025_llm-inference-price-trends.pdf",
+  "id_ref": "M933",
+  "titulo_ref": "LLM inference prices have fallen rapidly but unequally across tasks (Data Insight)"
+ },
+ {
+  "secao": "F3 · Custo de uso da IA (preços, consumo e Brasil)",
+  "chave": "11_custo-da-ia/a16z_2024_llmflation-custo-de-inferencia.pdf",
+  "id_ref": "M901",
+  "titulo_ref": "Welcome to LLMflation – LLM inference cost is going down fast"
+ },
+ {
+  "secao": "F3 · Custo de uso da IA (preços, consumo e Brasil)",
+  "chave": "11_custo-da-ia/ArtificialAnalysis_2025_state-of-ai-q3-highlights.pdf",
+  "id_ref": "M912",
+  "titulo_ref": "Artificial Analysis State of AI Q3 2025 – Highlights Edition"
+ },
+ {
+  "secao": "F3 · Custo de uso da IA (preços, consumo e Brasil)",
+  "chave": "11_custo-da-ia/OpenRouter-a16z_2025_state-of-ai-100-trillion-tokens.pdf",
+  "id_ref": "M974",
+  "titulo_ref": "State of AI: An Empirical 100 Trillion Token Study with OpenRouter (arXiv 2601.10088)"
+ },
+ {
+  "secao": "F3 · Custo de uso da IA (preços, consumo e Brasil)",
+  "chave": "11_custo-da-ia/OpenAI_2026_api-changelog-14out2026.pdf",
+  "id_ref": "M967",
+  "titulo_ref": "OpenAI API — Changelog (versão Markdown oficial, consulta em 14/10/2026)"
+ },
+ {
+  "secao": "F3 · Custo de uso da IA (preços, consumo e Brasil)",
+  "chave": "11_custo-da-ia/OpenAI_2026_api-pricing-14out2026.pdf",
+  "id_ref": "M968",
+  "titulo_ref": "OpenAI API — Pricing (versão Markdown oficial, consulta em 14/10/2026)"
+ },
+ {
+  "secao": "F3 · Custo de uso da IA (preços, consumo e Brasil)",
+  "chave": "11_custo-da-ia/Anthropic_2026_api-pricing-14out2026.pdf",
+  "id_ref": "M903",
+  "titulo_ref": "Claude API — Pricing (versão Markdown oficial, consulta em 14/10/2026)"
+ },
+ {
+  "secao": "F3 · Custo de uso da IA (preços, consumo e Brasil)",
+  "chave": "11_custo-da-ia/Google_2026_gemini-api-pricing-14out2026.pdf",
+  "id_ref": "M952",
+  "titulo_ref": "Gemini Developer API pricing (consulta em 14/10/2026)"
+ },
+ {
+  "secao": "F3 · Custo de uso da IA (preços, consumo e Brasil)",
+  "chave": "11_custo-da-ia/DeepSeek_2026_api-pricing-14out2026.pdf",
+  "id_ref": "M924",
+  "titulo_ref": "DeepSeek API — Models & Pricing (consulta em 14/10/2026)"
+ },
+ {
+  "secao": "F3 · Custo de uso da IA (preços, consumo e Brasil)",
+  "chave": "11_custo-da-ia/DeepSeek_2024_deepseek-v3-technical-report.pdf",
+  "id_ref": "M928",
+  "titulo_ref": "DeepSeek-V3 Technical Report (arXiv 2412.19437)"
+ },
+ {
+  "secao": "F3 · Custo de uso da IA (preços, consumo e Brasil)",
+  "chave": "11_custo-da-ia/Yicai_2024_guerra-de-precos-llm-china-baidu-alibaba.pdf",
+  "id_ref": "M999",
+  "titulo_ref": "Baidu Follows Alibaba's Steep LLM Price Cut With Two Free Ernie Bot Models"
+ },
+ {
+  "secao": "F3 · Custo de uso da IA (preços, consumo e Brasil)",
+  "chave": "11_custo-da-ia/TypeSafe_2026_system-one-models-e-jev.pdf",
+  "id_ref": "M990",
+  "titulo_ref": "Introducing System One Models & Jev"
+ },
+ {
+  "secao": "F3 · Custo de uso da IA (preços, consumo e Brasil)",
+  "chave": "11_custo-da-ia/Gartner_2026_inference-cost-agentic-workflow-fivefold.pdf",
+  "id_ref": "M946",
+  "titulo_ref": "Gartner Predicts AI Inference Costs Per Agentic Workflow Will Increase More Than Fivefold "
+ },
+ {
+  "secao": "F3 · Custo de uso da IA (preços, consumo e Brasil)",
+  "chave": "11_custo-da-ia/Gartner_2026_inference-cost-90pct-less-2030.pdf",
+  "id_ref": "M948",
+  "titulo_ref": "Gartner Predicts That by 2030, Performing Inference on an LLM With 1 Trillion Parameters W"
+ },
+ {
+  "secao": "F3 · Custo de uso da IA (preços, consumo e Brasil)",
+  "chave": "11_custo-da-ia/MenloVentures_2025_state-of-genai-enterprise.pdf",
+  "id_ref": "M957",
+  "titulo_ref": "2025: The State of Generative AI in the Enterprise"
+ },
+ {
+  "secao": "F3 · Custo de uso da IA (preços, consumo e Brasil)",
+  "chave": "11_custo-da-ia/GitHub_2026_copilot-usage-based-billing.pdf",
+  "id_ref": "M951",
+  "titulo_ref": "GitHub Copilot is moving to usage-based billing"
+ },
+ {
+  "secao": "F3 · Custo de uso da IA (preços, consumo e Brasil)",
+  "chave": "11_custo-da-ia/Microsoft_2025_form-10q-q1-fy26.pdf",
+  "id_ref": "M961",
+  "titulo_ref": "Form 10-Q — trimestre encerrado em 30/09/2025 (1º tri do ano fiscal 2026)"
+ },
+ {
+  "secao": "F3 · Custo de uso da IA (preços, consumo e Brasil)",
+  "chave": "11_custo-da-ia/Uber_2026_efficient-software-factory-blog.pdf",
+  "id_ref": "M995",
+  "titulo_ref": "Running a Software Factory Efficiently at Uber Scale (blog de engenharia)"
+ },
+ {
+  "secao": "F3 · Custo de uso da IA (preços, consumo e Brasil)",
+  "chave": "11_custo-da-ia/TechCrunch_2026_uber-caps-employee-ai-spending.pdf",
+  "id_ref": "M986",
+  "titulo_ref": "Uber caps employee AI spending after blowing through budget in 4 months"
+ },
+ {
+  "secao": "F3 · Custo de uso da IA (preços, consumo e Brasil)",
+  "chave": "11_custo-da-ia/FinOpsFoundation_2026_state-of-finops.pdf",
+  "id_ref": "M939",
+  "titulo_ref": "State of FinOps 2026 Report"
+ },
+ {
+  "secao": "F3 · Custo de uso da IA (preços, consumo e Brasil)",
+  "chave": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm",
+  "id_ref": "M976",
+  "titulo_ref": "Lei Complementar nº 214, de 16 de janeiro de 2025 (IBS, CBS e Imposto Seletivo)"
+ },
+ {
+  "secao": "F3 · Custo de uso da IA (preços, consumo e Brasil)",
+  "chave": "11_custo-da-ia/AWS_2026_precos-ec2-ondemand-linux-sao-paulo.pdf",
+  "id_ref": "M897",
+  "titulo_ref": "AWS Price List — EC2 sob demanda, Linux, South America (São Paulo) (cópia datada)"
+ },
+ {
+  "secao": "F3 · Custo de uso da IA (preços, consumo e Brasil)",
+  "chave": "11_custo-da-ia/AWS_2026_precos-ec2-ondemand-linux-n-virginia.pdf",
+  "id_ref": "M898",
+  "titulo_ref": "AWS Price List — EC2 sob demanda, Linux, US East (N. Virginia) (cópia datada)"
+ },
+ {
+  "secao": "F3 · Paralelo automotivo (montadoras chinesas e preço)",
+  "chave": "11_custo-da-ia/Fenabrave_2026_emplacamentos-setembro-2026.pdf",
+  "id_ref": "M938",
+  "titulo_ref": "Informativo Emplacamentos — Resumo mensal de setembro de 2026 (Ed. 285)"
+ },
+ {
+  "secao": "F3 · Paralelo automotivo (montadoras chinesas e preço)",
+  "chave": "11_custo-da-ia/Gecex_2026_deliberacoes-238a-reuniao-eletrificados.pdf",
+  "id_ref": "M921",
+  "titulo_ref": "Deliberações da 238ª Reunião Ordinária do Gecex (publicadas em 23/06/2026)"
+ },
+ {
+  "secao": "F3 · Paralelo automotivo (montadoras chinesas e preço)",
+  "chave": "11_custo-da-ia/AutoMais_2026_toyota-reduz-precos-hilux-sw4.pdf",
+  "id_ref": "M913",
+  "titulo_ref": "Toyota reduz preços de Hilux e SW4 em mais de R$ 54.000"
+ },
+ {
+  "secao": "F3 · Paralelo automotivo (montadoras chinesas e preço)",
+  "chave": "11_custo-da-ia/GWM-Brasil_2026_precos-poer-p30-site-oficial.pdf",
+  "id_ref": "M944",
+  "titulo_ref": "Poer P30 Pro, Trail e Exclusive — páginas de preço do site oficial (cópia de 14/10/2026)"
+ },
+ {
+  "secao": "F3 · Paralelo automotivo (montadoras chinesas e preço)",
+  "chave": "11_custo-da-ia/MIIT_2025_resposta-guerra-de-precos-involucao-automotiva.pdf",
+  "id_ref": "M962",
+  "titulo_ref": "关于汽车行业“价格战”等“内卷式”竞争，工业和信息化部作出回应 (MIIT responde sobre a 'guerra de preços' e a concorrência"
+ },
+ {
+  "secao": "F3 · Paralelo automotivo (montadoras chinesas e preço)",
+  "chave": "11_custo-da-ia/ConselhoDeEstado-China_2025_regular-concorrencia-veiculos-nova-energia.pdf",
+  "id_ref": "M922",
+  "titulo_ref": "国务院常务会议解读 | 切实规范新能源汽车产业竞争秩序 (Reunião executiva do Conselho de Estado: regular a concorrênc"
+ },
+ {
+  "secao": "F3 · Paralelo automotivo (montadoras chinesas e preço)",
+  "chave": "11_custo-da-ia/CPCA_2026_analise-mercado-setembro-2026-lucratividade.pdf",
+  "id_ref": "M919",
+  "titulo_ref": "【月度分析】2026年9月份全国乘用车市场分析 (Análise mensal do mercado de carros de passeio — setembro de 2026"
+ },
+ {
+  "secao": "F3 · Paralelo automotivo (montadoras chinesas e preço)",
+  "chave": "11_custo-da-ia/Bruegel_2026_growth-without-profits-involution-china.pdf",
+  "id_ref": "M917",
+  "titulo_ref": "Growth without profits: how will 'involution' in China end? (Working Paper 01/2026)"
+ },
+ {
+  "secao": "F3 · Paralelo automotivo (montadoras chinesas e preço)",
+  "chave": "11_custo-da-ia/USCC_2026_two-loops-china-open-ai-industrial-dominance.pdf",
+  "id_ref": "M992",
+  "titulo_ref": "Two Loops: How China's Open AI Strategy Reinforces Its Industrial Dominance (Research Work"
+ },
+ {
+  "secao": "F3 · Paralelo automotivo (montadoras chinesas e preço)",
+  "chave": "11_custo-da-ia/FederalRegister-BIS_2025_regra-final-veiculos-conectados.pdf",
+  "id_ref": "M931",
+  "titulo_ref": "Securing the Information and Communications Technology and Services Supply Chain: Connecte"
+ },
+ {
+  "secao": "F2 · Shadow AI e governança do uso de IA",
+  "chave": "12_shadow-ai-governanca/Netskope_2026_cloud-threat-report.pdf",
+  "id_ref": "M1049",
+  "titulo_ref": "Cloud and Threat Report: 2026"
+ },
+ {
+  "secao": "F2 · Shadow AI e governança do uso de IA",
+  "chave": "12_shadow-ai-governanca/Verizon_2026_dbir-data-breach-investigations-report.pdf",
+  "id_ref": "M1068",
+  "titulo_ref": "2026 Data Breach Investigations Report (DBIR)"
+ },
+ {
+  "secao": "F2 · Shadow AI e governança do uso de IA",
+  "chave": "12_shadow-ai-governanca/PagerDuty_2026_shadow-ai-workplace-survey.pdf",
+  "id_ref": "M1054",
+  "titulo_ref": "PagerDuty Report Finds Two-Thirds (66%) of Office Professionals Have Used Unauthorized AI "
+ },
+ {
+  "secao": "F2 · Shadow AI e governança do uso de IA",
+  "chave": "12_shadow-ai-governanca/Fortune_2025_shadow-ai-economy-mit-nanda.pdf",
+  "id_ref": "M1014",
+  "titulo_ref": "The 'shadow AI economy' is booming: Workers at 90% of companies say they use chatbots, but"
+ },
+ {
+  "secao": "F2 · Shadow AI e governança do uso de IA",
+  "chave": "12_shadow-ai-governanca/Microsoft-LinkedIn_2024_work-trend-index-ai-at-work.pdf",
+  "id_ref": "M1042",
+  "titulo_ref": "AI at Work Is Here. Now Comes the Hard Part (2024 Work Trend Index Annual Report)"
+ },
+ {
+  "secao": "F2 · Shadow AI e governança do uso de IA",
+  "chave": "https://newsroom.ibm.com/2025-07-30-ibm-report-13-of-organizations-reported-breaches-of-ai-models-or-applications,-97-of-which-reported-lacking-proper-ai-access-controls",
+  "id_ref": "M1023",
+  "titulo_ref": "IBM Report: 13% Of Organizations Reported Breaches Of AI Models Or Applications, 97% Of Wh"
+ },
+ {
+  "secao": "F2 · Shadow AI e governança do uso de IA",
+  "chave": "12_shadow-ai-governanca/DBT-UK_2025_avaliacao-piloto-microsoft-365-copilot.pdf",
+  "id_ref": "M1011",
+  "titulo_ref": "The Evaluation of the M365 Copilot Pilot in the Department for Business and Trade (relatór"
+ },
+ {
+  "secao": "F2 · Shadow AI e governança do uso de IA",
+  "chave": "12_shadow-ai-governanca/GDS-UK_2025_experimento-copilot-entre-ministerios.pdf",
+  "id_ref": "M1021",
+  "titulo_ref": "Microsoft 365 Copilot Experiment: Cross-Government Findings Report (jun/2025)"
+ },
+ {
+  "secao": "F2 · Shadow AI e governança do uso de IA",
+  "chave": "12_shadow-ai-governanca/TreasuryAU_2025_avaliacao-teste-copilot.pdf",
+  "id_ref": "M1012",
+  "titulo_ref": "Evaluation of a trial of generative artificial intelligence (Copilot) in The Department of"
+ },
+ {
+  "secao": "F2 · Shadow AI e governança do uso de IA",
+  "chave": "12_shadow-ai-governanca/Microsoft_2025_modelos-anthropic-no-microsoft-365-copilot.pdf",
+  "id_ref": "M1035",
+  "titulo_ref": "Expanding model choice in Microsoft 365 Copilot (blog, 24/09/2025)"
+ },
+ {
+  "secao": "F2 · Shadow AI e governança do uso de IA",
+  "chave": "12_shadow-ai-governanca/Microsoft_2026_modelos-anthropic-subprocessador-copilot-15out2026.pdf",
+  "id_ref": "M1032",
+  "titulo_ref": "Anthropic models in Microsoft Online Services (Microsoft Learn, atualizado em 18/09/2026; "
+ },
+ {
+  "secao": "F2 · Shadow AI e governança do uso de IA",
+  "chave": "12_shadow-ai-governanca/MorningConsult_2026_state-of-enterprise-ai.pdf",
+  "id_ref": "M1045",
+  "titulo_ref": "The State of Enterprise AI: Budgets Are Growing & Platform Lineups Remain in Flux"
+ },
+ {
+  "secao": "F2 · Shadow AI e governança do uso de IA",
+  "chave": "12_shadow-ai-governanca/Microsoft_2026_copilot-empresas-precos-brasil-15out2026.pdf",
+  "id_ref": "M1036",
+  "titulo_ref": "Microsoft 365 Copilot para grandes empresas – preços (página oficial no Brasil; cópia de 1"
+ },
+ {
+  "secao": "F2 · Shadow AI e governança do uso de IA",
+  "chave": "12_shadow-ai-governanca/OpenAI_2026_chatgpt-business-enterprise-precos-15out2026.pdf",
+  "id_ref": "M1053",
+  "titulo_ref": "Preços para empresas – ChatGPT Business e Enterprise (página oficial em português; cópia d"
+ },
+ {
+  "secao": "F2 · Shadow AI e governança do uso de IA",
+  "chave": "12_shadow-ai-governanca/ANBIMA_2024_guia-boas-praticas-uso-sistemas-ia.pdf",
+  "id_ref": "M1000",
+  "titulo_ref": "Guia orientativo – Boas práticas para o uso de sistemas de inteligência artificial nos mer"
+ },
+ {
+  "secao": "F2 · Shadow AI e governança do uso de IA",
+  "chave": "12_shadow-ai-governanca/ANPD_2024_radar-tecnologico-3-ia-generativa.pdf",
+  "id_ref": "M1003",
+  "titulo_ref": "Radar Tecnológico nº 3 – Inteligência artificial generativa (nov/2024)"
+ },
+ {
+  "secao": "F2 · Shadow AI e governança do uso de IA",
+  "chave": "12_shadow-ai-governanca/Gartner_2026_ai-governance-needs-more-than-policies-trism.pdf",
+  "id_ref": "M1016",
+  "titulo_ref": "AI Governance Requires More Than Policies (artigo, 10/06/2026; na aba do navegador, 'AI Go"
+ },
+ {
+  "secao": "F2 · Shadow AI e governança do uso de IA",
+  "chave": "12_shadow-ai-governanca/ConvergenciaDigital_2026_peers-tec-institute-shadow-ai-executivos.pdf",
+  "id_ref": "M1009",
+  "titulo_ref": "Executivos brasileiros admitem uso não autorizado de IA generativa na rotina do trabalho"
+ },
+ {
+  "secao": "F2 · Shadow AI e governança do uso de IA",
+  "chave": "12_shadow-ai-governanca/ITForum_2026_nutanix-eci-brasil-shadow-ai.pdf",
+  "id_ref": "M1026",
+  "titulo_ref": "Nutanix aponta que 81% dos executivos veem risco no uso de IA sem supervisão"
+ },
+ {
+  "secao": "F2 · Vibe coding com governança",
+  "chave": "12_shadow-ai-governanca/NCSC_2026_vibe-coding-spectrum-ai-assisted-development.pdf",
+  "id_ref": "M1047",
+  "titulo_ref": "The 'vibe coding spectrum' approach to AI-assisted software development"
+ },
+ {
+  "secao": "F2 · Vibe coding com governança",
+  "chave": "12_shadow-ai-governanca/OWASP_2025_citizen-development-top-10-risks.pdf",
+  "id_ref": "M1051",
+  "titulo_ref": "OWASP Top 10 Risks for Citizen Development (riscos do desenvolvimento cidadão: low-code/no"
+ },
+ {
+  "secao": "F2 · Vibe coding com governança",
+  "chave": "12_shadow-ai-governanca/NIST-NVD_2025_CVE-2025-48757-lovable-rls.pdf",
+  "id_ref": "M1046",
+  "titulo_ref": "CVE-2025-48757 Detail (registro da vulnerabilidade de segurança em nível de linha nos apli"
+ },
+ {
+  "secao": "F2 · Vibe coding com governança",
+  "chave": "12_shadow-ai-governanca/CMU_2025_is-vibe-coding-safe-susvibes.pdf",
+  "id_ref": "M1007",
+  "titulo_ref": "Is Vibe Coding Safe? Benchmarking Vulnerability of Agent-Generated Code in Real-World Task"
+ },
+ {
+  "secao": "F2 · Vibe coding com governança",
+  "chave": "12_shadow-ai-governanca/Lovable_2026_lovable-for-enterprise-docs.pdf",
+  "id_ref": "M1028",
+  "titulo_ref": "Lovable for Enterprise (documentação oficial do plano empresarial)"
+ },
+ {
+  "secao": "F2 · Vibe coding com governança",
+  "chave": "12_shadow-ai-governanca/Lovable_2026_response-april-2026-incident.pdf",
+  "id_ref": "M1030",
+  "titulo_ref": "Our response to the April 2026 incident (resposta do Lovable ao incidente de abril de 2026"
+ },
+ {
+  "secao": "F2 · Vibe coding com governança",
+  "chave": "12_shadow-ai-governanca/Replit_2026_enterprise-docs-plano-treino-privacidade.pdf",
+  "id_ref": "M1057",
+  "titulo_ref": "Replit Enterprise — documentação oficial (plano Enterprise, uso de dados para treino e con"
+ },
+ {
+  "secao": "F2 · Vibe coding com governança",
+  "chave": "12_shadow-ai-governanca/Microsoft_2026_power-platform-environment-strategy-copilot-studio-governance.pdf",
+  "id_ref": "M1034",
+  "titulo_ref": "Develop a tenant environment strategy to adopt Power Platform at scale; Key concepts — Cop"
+ },
+ {
+  "secao": "F2 · Vibe coding com governança",
+  "chave": "12_shadow-ai-governanca/Jitterbit_2026_benchmark-automacao-ia-brasil.pdf",
+  "id_ref": "M1027",
+  "titulo_ref": "Benchmark de Automação com IA no Brasil 2026"
+ }
+]

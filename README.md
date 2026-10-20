@@ -4,7 +4,9 @@ Mapeamento da evolução da IA em empresas líderes do agro, bioenergia, florest
 
 - **Contratante:** Acelen Energia Renovável — Estratégia Agrícola
 - **Responsáveis:** Dr. Guilherme M. Sanches · Rafael Rotiroti (OagronomIA)
-- **Período:** 17/08/2026 a 29/09/2026 (Workshop Executivo)
+- **Período:** kick-off em 29/09/2026; relatório final em 06/11/2026; Workshop Executivo presencial em Montes Claros, provavelmente na primeira semana de dezembro
+- **Metodologia:** [01_mobilizacao/metodologia.md](01_mobilizacao/metodologia.md) (descritivo para a Acelen: BIA-ACL-MT-01)
+- **Objetivo adicional:** um assistente de IA que responde a dúvidas sobre os estudos e as fontes públicas do benchmark, sempre com a fonte (ver [07_entregaveis/assistente-ia/](07_entregaveis/assistente-ia/))
 - **Escopo:** [docs/proposta/escopo-proposta.md](docs/proposta/escopo-proposta.md)
 
 ## Estrutura
@@ -12,13 +14,13 @@ Mapeamento da evolução da IA em empresas líderes do agro, bioenergia, florest
 | Pasta | Conteúdo | Etapa |
 |---|---|---|
 | [00_gestao/](00_gestao/) | Cronograma, reuniões semanais, entrega parcial | Transversal |
-| [01_mobilizacao/](01_mobilizacao/) | Painel de empresas, protocolo de pesquisa, ficha padrão | 1 |
+| [01_mobilizacao/](01_mobilizacao/) | Descritivo da metodologia (protocolo de pesquisa, ficha padrão), painel de empresas | 1 |
 | [02_frente-1_benchmark-estrategico/](02_frente-1_benchmark-estrategico/) | Fichas por empresa, casos de sucesso e insucesso | 2 e 4 |
 | [03_frente-2_maturidade-roadmaps/](03_frente-2_maturidade-roadmaps/) | Framework de maturidade, estágios, capacidades, roadmaps | 4 |
 | [04_frente-3_tendencias/](04_frente-3_tendencias/) | Tendências, sistemas autônomos, oportunidades e riscos | 2 e 4 |
 | [05_sessoes-executivas/](05_sessoes-executivas/) | Roteiro e registros anonimizados das conversas | 3 |
 | [06_fontes/](06_fontes/) | Catálogo de fontes públicas e secundárias | 2 |
-| [07_entregaveis/](07_entregaveis/) | Relatório PowerPoint, base Excel, parciais, workshop | 5 |
+| [07_entregaveis/](07_entregaveis/) | Relatório PowerPoint, base Excel, parciais, assistente de IA, workshop | 5 |
 
 ## Documentos de referência
 

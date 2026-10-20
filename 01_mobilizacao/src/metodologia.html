@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Descritivo da metodologia — Benchmarking de uso de IA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Manrope:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --brand-green: #52C937; --brand-green-bright: #6FE34F; --brand-green-deep: #2F8B1F; --brand-green-mute: #3A7A2A;
+    --bg-0: #050805; --bg-1: #0B100B; --bg-2: #131A13; --bg-3: #1C241B; --bg-4: #252E24;
+    --line: #2A3328; --line-strong: #3A4537;
+    --fg-1: #F2F4EE; --fg-2: #B8BFB1; --fg-3: #7C8678; --fg-4: #4D5749; --fg-inv: #0B100B;
+    --warning: #E8B33B;
+    --font-display: 'Chakra Petch', 'Bahnschrift', system-ui, sans-serif;
+    --font-body: 'Manrope', 'Segoe UI', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  }
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; background: var(--bg-0); color: var(--fg-1);
+    font-family: var(--font-body); font-size: 13px; line-height: 1.5;
+    -webkit-print-color-adjust: exact; print-color-adjust: exact;
+  }
+  .page {
+    width: 210mm; height: 297mm; position: relative; overflow: hidden;
+    padding: 16mm 16mm 22mm; background: var(--bg-0);
+    page-break-after: always; break-after: page;
+  }
+  .page:last-child { page-break-after: auto; break-after: auto; }
+
+  /* Tipografia */
+  .eyebrow { font: 500 11px var(--font-display); text-transform: uppercase; letter-spacing: 0.18em; color: var(--brand-green); }
+  .label { font: 500 10px var(--font-display); text-transform: uppercase; letter-spacing: 0.08em; color: var(--fg-3); }
+  h1 { font: italic 700 46px/1.04 var(--font-display); letter-spacing: -0.01em; margin: 14px 0 0; }
+  h2 { font: italic 600 30px/1.18 var(--font-display); letter-spacing: -0.01em; margin: 6px 0 0; }
+  h3 { font: 600 17px/1.18 var(--font-display); margin: 0; }
+  p { margin: 0; }
+  .mono { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+  .muted { color: var(--fg-2); }
+  .rule { width: 72px; height: 3px; background: var(--brand-green); margin: 22px 0; }
+
+  /* Cabeçalho e rodapé */
+  .head { display: flex; justify-content: space-between; align-items: center; padding-bottom: 12px; border-bottom: 1px solid var(--line); margin-bottom: 22px; }
+  .head img, .cover .logo { mix-blend-mode: lighten; }
+  .head img { height: 26px; display: block; }
+  .foot { position: absolute; left: 16mm; right: 16mm; bottom: 10mm; display: flex; justify-content: space-between; align-items: center; padding-top: 8px; border-top: 1px solid var(--line); font: 500 9px var(--font-display); letter-spacing: 0.08em; text-transform: uppercase; color: var(--fg-3); }
+  .foot .mono { letter-spacing: 0; font-size: 10px; }
+
+  /* Componentes */
+  .card { background: var(--bg-2); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; }
+  .chip { display: inline-block; padding: 3px 9px; border-radius: 999px; font: 500 9.5px var(--font-display); letter-spacing: 0.06em; text-transform: uppercase; background: var(--bg-3); color: var(--fg-2); border: 1px solid var(--line); }
+  .status { display: inline-flex; align-items: center; gap: 6px; padding: 3px 9px; border-radius: 999px; font: 600 9.5px var(--font-display); letter-spacing: 0.08em; text-transform: uppercase; background: rgba(82,201,55,0.12); color: var(--brand-green-bright); }
+  .status .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--brand-green); }
+  .metric { background: var(--bg-2); border: 1px solid var(--line); border-radius: 6px; padding: 12px 14px; }
+  .metric__lbl { font: 500 9.5px var(--font-display); letter-spacing: 0.12em; text-transform: uppercase; color: var(--fg-3); }
+  .metric__val { font: 500 26px/1 var(--font-mono); font-variant-numeric: tabular-nums; color: var(--fg-1); margin-top: 8px; }
+  .metric__val .u { font-size: 12px; color: var(--fg-3); margin-left: 4px; }
+  .alert { display: flex; gap: 10px; padding: 11px 13px; border-radius: 6px; border: 1px solid rgba(232,179,59,0.35); background: rgba(232,179,59,0.08); }
+  .alert__ttl { font: 600 10.5px var(--font-display); letter-spacing: 0.08em; text-transform: uppercase; color: var(--warning); }
+  .alert__msg { color: var(--fg-1); font-size: 12px; line-height: 1.5; margin-top: 3px; }
+  ul.probe { margin: 6px 0 0; padding: 0; list-style: none; }
+  ul.probe li { position: relative; padding-left: 16px; color: var(--fg-2); font-size: 12.5px; line-height: 1.5; margin-top: 3px; }
+  ul.probe li::before { content: ""; position: absolute; left: 2px; top: 8px; width: 6px; height: 1.5px; background: var(--brand-green); }
+
+  /* Capa */
+  .cover { display: flex; flex-direction: column; }
+  .cover .logo { height: 44px; align-self: flex-start; }
+  .cover .readout { font: 500 10px var(--font-mono); color: var(--fg-3); margin-top: 120px; letter-spacing: 0.02em; }
+  .cover .lead { font-size: 15px; line-height: 1.6; color: var(--fg-2); max-width: 520px; }
+  .grid4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-top: 30px; }
+  .legend { margin-top: auto; border-left: 2px solid var(--brand-green); background: var(--bg-1); padding: 14px 18px; display: grid; grid-template-columns: 120px 1fr; row-gap: 7px; font-size: 12px; }
+  .legend .label { padding-top: 2px; }
+
+  /* Estrutura */
+  .timeline { display: grid; grid-template-columns: 5fr 50fr 5fr; gap: 3px; margin-top: 18px; }
+  .timeline .seg { padding: 10px 10px; border-radius: 2px; background: var(--bg-3); border: 1px solid var(--line); min-width: 0; }
+  .timeline .seg.main { background: rgba(82,201,55,0.10); border-color: rgba(82,201,55,0.45); }
+  .timeline .t { font: 500 10px var(--font-mono); color: var(--fg-3); }
+  .timeline .n { font: 600 12px var(--font-display); margin-top: 2px; white-space: nowrap; }
+  .timeline-lbl { display: grid; grid-template-columns: 5fr 50fr 5fr; gap: 3px; }
+  .script { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 12px; }
+  .script .card p { font-size: 12.5px; color: var(--fg-2); margin-top: 5px; }
+  .script .card h3 { font-size: 14px; }
+  table.matrix { width: 100%; border-collapse: collapse; margin-top: 12px; font-size: 12.5px; }
+  table.matrix th { font: 500 9.5px var(--font-display); letter-spacing: 0.08em; text-transform: uppercase; color: var(--fg-3); text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--line-strong); }
+  table.matrix td { padding: 6px 8px; border-bottom: 1px solid var(--line); height: 29px; }
+  table.matrix td.c, table.matrix th.c { text-align: center; }
+  table.matrix .num { font: 500 12px var(--font-mono); color: var(--brand-green); width: 34px; }
+  .dotm { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--brand-green); }
+
+  /* Perguntas */
+  .q { background: var(--bg-2); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px 14px 16px; margin-top: 12px; position: relative; }
+  .q.core::before { content: ""; position: absolute; left: -1px; top: 14px; bottom: 14px; width: 2px; background: var(--brand-green); }
+  .q__top { display: flex; align-items: center; gap: 12px; }
+  .q__n { font: 500 22px/1 var(--font-mono); color: var(--brand-green); font-variant-numeric: tabular-nums; }
+  .q__tags { margin-left: auto; display: flex; gap: 6px; align-items: center; }
+  .q__ask { font: 700 14.5px/1.45 var(--font-body); color: var(--fg-1); margin-top: 10px; }
+  .q .label { display: block; margin-top: 10px; }
+  /* Página 3 (quatro perguntas): espaçamento mais justo para não encostar no rodapé */
+  .compacta .q { padding: 11px 16px; margin-top: 9px; }
+  .compacta .q__ask { margin-top: 7px; }
+  .compacta .q .label { margin-top: 7px; }
+  .compacta ul.probe li { margin-top: 2px; line-height: 1.45; }
+
+  /* Condução */
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .vs { display: grid; grid-template-columns: 1fr auto 1fr; gap: 10px; align-items: stretch; margin-top: 12px; }
+  .vs .x { align-self: center; font: italic 600 22px var(--font-display); color: var(--fg-3); }
+  .tip h3 { font-size: 14px; }
+  .tip p { font-size: 12.5px; color: var(--fg-2); margin-top: 5px; }
+  .src { font-size: 10.5px; color: var(--fg-3); margin-top: 8px; }
+  ol.check { margin: 8px 0 0; padding: 0; list-style: none; counter-reset: c; }
+  ol.check li { counter-increment: c; display: flex; gap: 12px; padding: 7px 0; border-bottom: 1px solid var(--line); font-size: 12.5px; color: var(--fg-2); }
+  ol.check li:last-child { border-bottom: none; }
+  ol.check li::before { content: counter(c, decimal-leading-zero); font: 500 11px var(--font-mono); color: var(--brand-green); padding-top: 1px; }
+  ol.check b { color: var(--fg-1); font-weight: 600; }
+
+  /* Anotações */
+  .page.flow { display: flex; flex-direction: column; padding-bottom: 27mm; }
+  .notes { flex: 1; display: flex; flex-direction: column; margin-top: 12px; background: var(--bg-1); border: 1px solid var(--line); border-radius: 8px; padding: 12px 16px 14px; }
+  .notes .lines { flex: 1; margin-top: 4px; background-image: repeating-linear-gradient(to bottom, transparent 0, transparent 27px, var(--line) 27px, var(--line) 28px); }
+
+  /* Régua */
+  .stage { display: grid; grid-template-columns: 64px 1fr; gap: 0; background: var(--bg-2); border: 1px solid var(--line); border-radius: 8px; margin-top: 10px; overflow: hidden; }
+  .stage__n { display: flex; align-items: center; justify-content: center; font: 500 30px var(--font-mono); color: var(--brand-green); border-right: 1px solid var(--line); background: var(--bg-1); }
+  .stage__b { padding: 20px 22px; }
+  .stage__b h3 { font: italic 600 23px var(--font-display); }
+  .stage__b p { color: var(--fg-2); font-size: 13.5px; margin-top: 4px; }
+  .dims { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-top: 12px; }
+  .dims .card { padding: 12px 14px; }
+  .dims h3 { font-size: 14px; }
+  .dims p { font-size: 11.5px; color: var(--fg-2); margin-top: 4px; }
+
+  h2 .n { font: 500 18px var(--font-mono); color: var(--brand-green); font-style: normal; margin-right: 10px; }
+  .sec { margin-top: 16px; }
+  .sec:first-of-type { margin-top: 0; }
+  p.txt { color: var(--fg-2); font-size: 12.3px; line-height: 1.55; margin-top: 8px; }
+  p.txt b, li b { color: var(--fg-1); font-weight: 700; }
+  ul.probe li { font-size: 12.3px; }
+  table.t { width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 11.6px; }
+  table.t th { font: 500 9.5px var(--font-display); letter-spacing: 0.08em; text-transform: uppercase; color: var(--fg-3); text-align: left;
+    padding: 7px 9px; border-bottom: 1px solid var(--line-strong); background: var(--bg-1); }
+  table.t td { padding: 7px 9px; border-bottom: 1px solid var(--line); vertical-align: top; color: var(--fg-2); line-height: 1.45; }
+  table.t td:first-child { color: var(--fg-1); font-weight: 700; }
+  table.t td.mono, table.t td .mono { font-family: var(--font-mono); }
+  .objs { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 10px; }
+  .obj { background: var(--bg-2); border: 1px solid var(--line); border-radius: 8px; padding: 10px 13px; }
+  .obj .k { font: 500 11px var(--font-mono); color: var(--brand-green); }
+  .obj h3 { font-size: 13.5px; margin-top: 3px; }
+  .obj p { font-size: 11.6px; color: var(--fg-2); margin-top: 4px; line-height: 1.45; }
+  .obj.hl { grid-column: span 2; border-color: rgba(82,201,55,0.5);
+    background: linear-gradient(180deg, rgba(82,201,55,0.09), rgba(82,201,55,0.02)), var(--bg-2); }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+  .chips .chip { font-size: 9.5px; }
+  .callout { border-left: 2px solid var(--brand-green); background: var(--bg-1); padding: 10px 14px; margin-top: 10px; font-size: 12px; color: var(--fg-2); line-height: 1.5; }
+  .callout b { color: var(--fg-1); }
+  .ai { margin-top: 12px; border: 1px solid rgba(82,201,55,0.5); border-radius: 10px; padding: 14px 16px;
+    background: linear-gradient(180deg, rgba(82,201,55,0.10), rgba(82,201,55,0.02)), var(--bg-2); }
+  .ai h3 { font: italic 600 19px var(--font-display); }
+  .ai .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 18px; margin-top: 10px; }
+  .ai .grid div { font-size: 11.8px; color: var(--fg-2); line-height: 1.5; }
+  .ai .grid .label { display: block; color: var(--brand-green-bright); margin-bottom: 2px; }
+  .ai .ex { margin-top: 10px; display: flex; flex-direction: column; gap: 5px; }
+  .ai .ex span { font: 500 11.5px var(--font-mono); color: var(--fg-1); background: var(--bg-1); border: 1px solid var(--line); border-radius: 6px; padding: 5px 10px; }
+  .stage5 { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; margin-top: 10px; }
+  .stage5 .card { padding: 10px 11px; }
+  .stage5 .n { font: 500 20px var(--font-mono); color: var(--brand-green); }
+  .stage5 h3 { font: italic 600 14px var(--font-display); margin-top: 2px; }
+  .stage5 p { font-size: 10.8px; color: var(--fg-2); margin-top: 4px; line-height: 1.4; }
+  .rules { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; margin-top: 8px; }
+  .rules div { background: var(--bg-1); border: 1px solid var(--line); border-radius: 6px; padding: 7px 9px; font-size: 11px; color: var(--fg-2); text-align: center; }
+  .rules b { color: var(--fg-1); display: block; }
+  table.t.tight td { padding: 4.5px 9px; }
+  .dims4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; margin-top: 8px; }
+  .dims4 .card { padding: 9px 10px; }
+  .dims4 h3 { font-size: 12.5px; }
+  .dims4 p { font-size: 10.6px; color: var(--fg-2); margin-top: 4px; line-height: 1.4; }
+  table.t.tight th { padding: 6px 9px; }
+</style>
+</head>
+<body>
+
+<section class="page cover">
+  <img class="logo" src="../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA">
+  <div class="eyebrow" style="margin-top:130px">Benchmarking de uso de IA · Metodologia</div>
+  <h1>Como o estudo<br>é feito</h1>
+  <div class="rule"></div>
+  <p class="lead">Objetivos, princípios, etapas, fontes, critérios e entregáveis do benchmarking de uso de IA como diferencial estratégico em empresas líderes do agro, bioenergia, florestal e setores correlatos. Serve também como protocolo de pesquisa do estudo.</p>
+  <div class="grid4">
+    <div class="metric"><div class="metric__lbl">Frentes</div><div class="metric__val">3</div></div>
+    <div class="metric"><div class="metric__lbl">Etapas</div><div class="metric__val">5</div></div>
+    <div class="metric"><div class="metric__lbl">Sessões executivas</div><div class="metric__val">2 a 4</div></div>
+    <div class="metric"><div class="metric__lbl">Entregáveis finais</div><div class="metric__val">4</div></div>
+  </div>
+  <div class="legend">
+    <div class="label">Contratante</div><div>Acelen Energia Renovável</div>
+    <div class="label">Documento</div><div>Descritivo da metodologia do estudo</div>
+    <div class="label">Nº / Revisão</div><div class="mono">BIA-ACL-MT-01 · Rev. 00</div>
+    <div class="label">Responsáveis</div><div>Dr. Guilherme M. Sanches · Rafael Rotiroti — OagronomIA</div>
+    <div class="label">Data</div><div>09/10/2026</div>
+  </div>
+</section>
+<section class="page">
+  <div class="head"><img src="../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Metodologia</span></div>
+  <div class="sec">
+    <h2><span class="n">01</span>Objetivos do estudo</h2>
+    <p class="txt"><b>Objetivo geral.</b> Mapear e analisar a evolução da IA em empresas líderes do agro, bioenergia, florestal e setores correlatos, identificando modelos de maturidade, capacidades críticas, tendências e roadmaps de adoção que possam subsidiar a construção da estratégia de IA da Acelen Renováveis.</p>
+    <div class="objs">
+      <div class="obj"><div class="k">01 · Frente 1</div><h3>Benchmark estratégico</h3><p>Como as empresas líderes usam a IA como diferencial, o que funcionou, o que falhou e por quê.</p></div>
+      <div class="obj"><div class="k">02 · Frente 2</div><h3>Maturidade e roadmaps</h3><p>Um referencial para a Acelen se posicionar frente ao mercado: estágios, capacidades, dependências críticas e trajetórias de adoção.</p></div>
+      <div class="obj"><div class="k">03 · Frente 3</div><h3>Tendências</h3><p>Os movimentos que devem moldar a próxima década da IA no agro e nos setores correlatos.</p></div>
+      <div class="obj"><div class="k">04 · Sessões executivas</div><h3>Leitura primária</h3><p>O que executivos do setor estão de fato fazendo, para além do que as empresas publicam.</p></div>
+      <div class="obj hl"><div class="k">05 · Assistente de IA</div><h3>Conhecimento consultável</h3><p>Deixar o acervo do estudo (fontes públicas e entregáveis) disponível para consulta por meio de um assistente de IA que responde a dúvidas sobre os estudos e as fontes de dados públicas levantadas, sempre indicando a fonte.</p></div>
+    </div>
+  </div>
+  <div class="sec">
+    <h2><span class="n">02</span>Princípios</h2>
+    <ul class="probe">
+      <li><b>Visão macro, exploratória e qualitativa.</b> Horizonte de cinco anos, a partir de uma "página em branco": o estudo não parte de ferramenta ou definição interna da Acelen.</li>
+      <li><b>IA em sentido amplo.</b> IA generativa e agentes, aprendizado de máquina, visão computacional, sensoriamento remoto, automação, robótica e máquinas autônomas, sem entrar em marcas ou modelos de maquinário.</li>
+      <li><b>Brasil em primeiro plano</b>, com casos internacionais de destaque, entre eles referências dos EUA e da China, e setores de maior maturidade digital como régua.</li>
+      <li><b>Evidência pública e verificável.</b> Toda afirmação tem fonte registrada; números só entram depois de conferidos na fonte.</li>
+      <li><b>Fora do escopo:</b> diagnóstico interno da Acelen, avaliação ou recomendação de ferramentas específicas e desenho de soluções internas, temas da governança de TI da companhia.</li>
+      <li><b>Confidencialidade.</b> Nomes de executivos e de empresas participantes das sessões executivas não aparecem em nenhum material. Nas buscas e nos pedidos de documentos, o cliente e o projeto nunca são mencionados.</li>
+    </ul>
+  </div>
+  <div class="foot"><span>Acelen Energia Renovável · Descritivo da metodologia · BIA-ACL-MT-01 · Rev. 00</span><span class="mono">02 / 08</span></div>
+</section>
+<section class="page">
+  <div class="head"><img src="../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Metodologia</span></div>
+  <div class="sec">
+    <h2><span class="n">03</span>Cinco etapas</h2>
+    <table class="t">
+      <thead><tr><th style="width:24%">Etapa</th><th>O que é feito</th><th style="width:27%">Produtos</th></tr></thead>
+      <tbody>
+        <tr><td>1. Mobilização e desenho</td><td>Kick-off; cronograma; painel de empresas; dimensões de análise; protocolo de pesquisa e ficha padrão; roteiro e agenda das sessões executivas</td><td>Cronograma (BIA-ACL-CR-01), questionário das sessões (BIA-ACL-SE-02), este descritivo</td></tr>
+        <tr><td>2. Coleta e análise secundária</td><td>Levantamento e leitura de fontes públicas em rodadas; catálogo de fontes; extração de evidências por empresa e por tema</td><td>Catálogo de fontes, fichas de empresas, notas temáticas</td></tr>
+        <tr><td>3. Sessões executivas</td><td>2 a 4 conversas semiestruturadas de 60 minutos com executivos e lideranças técnicas</td><td>Registros anonimizados e síntese agregada</td></tr>
+        <tr><td>4. Síntese analítica</td><td>Leitura transversal das fichas; framework de maturidade e posicionamento do painel; capacidades, dependências e roadmaps; leitura prospectiva</td><td>Entrega parcial e prévia do relatório</td></tr>
+        <tr><td>5. Entrega e workshop</td><td>Relatório em PowerPoint, base em Excel, assistente de IA do estudo e Workshop Executivo</td><td>Entregáveis finais</td></tr>
+      </tbody>
+    </table>
+    <p class="txt">As etapas 2 a 4 andam em paralelo: cada semana fecha pequenos entregáveis (fichas por empresa e notas temáticas por frente), apresentados nas reuniões semanais e reunidos depois no relatório.</p>
+  </div>
+  <div class="sec">
+    <h2><span class="n">04</span>Levantamento de fontes</h2>
+    <p class="txt"><b>Onde buscamos.</b> Em rodadas, por grupo de fonte, e em rodadas dirigidas por empresa do painel (por exemplo, Suzano e Bayer) e por tema (por exemplo, a corrida entre EUA e China).</p>
+    <div class="chips">
+      <span class="chip">Consultorias de estratégia</span><span class="chip">Big Four, Accenture e Capgemini</span><span class="chip">Analistas e big techs</span>
+      <span class="chip">Academia e institutos de pesquisa</span><span class="chip">Instituições e mídia do agro</span><span class="chip">Empresas de agro, bioenergia e florestal</span>
+      <span class="chip">Agro global, perenes e autonomia</span><span class="chip">Setor financeiro</span><span class="chip">Outros setores maduros</span><span class="chip">IA e sustentabilidade</span>
+    </div>
+    <p class="txt"><b>O que entra.</b> Relatórios anuais, de sustentabilidade e de resultados; apresentações a investidores; comunicados oficiais; cases publicados por parceiros de tecnologia; pesquisas de consultorias e analistas com amostra e data informadas; publicações científicas e técnicas; documentos de governos e organismos multilaterais. Prioridade para o período de 2024 a 2026, salvo referências clássicas.</p>
+    <p class="txt"><b>Hierarquia de evidências.</b></p>
+    <ol class="check">
+      <li><span><b>Documentos oficiais da própria empresa</b> — relatórios, relações com investidores, comunicados.</span></li>
+      <li><span><b>Dados oficiais</b> de governos e organismos multilaterais.</span></li>
+      <li><span><b>Estudos de consultorias, analistas e academia</b>, sempre com amostra, período e método.</span></li>
+      <li><span><b>Imprensa especializada</b>, só quando não há fonte oficial, e sinalizada como tal.</span></li>
+    </ol>
+  </div>
+  <div class="foot"><span>Acelen Energia Renovável · Descritivo da metodologia · BIA-ACL-MT-01 · Rev. 00</span><span class="mono">03 / 08</span></div>
+</section>
+<section class="page">
+  <div class="head"><img src="../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Metodologia</span></div>
+  <div class="sec">
+    <div class="eyebrow">04 · Levantamento de fontes (continuação)</div>
+    <p class="txt"><b>Catálogo de fontes.</b> Cada documento recebe um identificador permanente (M001, M002…) e um registro com título, organização, ano, link, tipo de fonte, país ou região, frentes relacionadas, métricas com a página de origem e um resumo. O catálogo alimenta a aba de fontes da base em Excel e a base de conhecimento do assistente de IA. Documentos que exigem cadastro são solicitados manualmente pela equipe, sem informar o cliente nem o projeto.</p>
+    <p class="txt"><b>Uso de IA no próprio estudo.</b> A IA acelera a varredura, a triagem, a leitura e a extração de evidências. A curadoria e a validação são sempre humanas, feitas pelos consultores. Nas buscas e nos assistentes de pesquisa usados na varredura, a Acelen e o projeto nunca são mencionados.</p>
+  </div>
+  <div class="sec">
+    <h2><span class="n">05</span>Painel de empresas e fichas de benchmark</h2>
+    <p class="txt"><b>Critérios de escolha.</b> O painel tem de 5 a 10 empresas, das quais 2 a 3 de setores de maior maturidade digital.</p>
+    <ul class="probe">
+      <li>Semelhança com o modelo da Acelen: cultura perene ou agroindústria integrada, grande escala, matéria-prima própria ou de parceiros.</li>
+      <li>Jornada de IA estruturada, com iniciativas em produção.</li>
+      <li>Material público suficiente para uma ficha bem fundamentada.</li>
+    </ul>
+    <div class="callout"><b>Composição em 09/10/2026.</b> Indicadas pela Acelen: <b>Suzano</b> e <b>Bayer</b>. Uma empresa <b>norte-americana</b> e uma <b>chinesa</b> (ou do leste asiático), para retratar a corrida entre EUA e China, com proposta da OagronomIA nas próximas semanais. Demais empresas a critério da OagronomIA, entre grupos como sucroenergético, grãos e fibras, palma de óleo, setor financeiro e mineração ou energia.</div>
+    <p class="txt"><b>Ficha padrão de benchmark.</b> Cada empresa do painel recebe uma ficha com os mesmos campos, para comparação:</p>
+    <table class="t tight">
+      <thead><tr><th style="width:24%">Bloco</th><th>Conteúdo</th></tr></thead>
+      <tbody>
+        <tr><td>Identificação</td><td>Setor, porte, países de atuação, fontes principais</td></tr>
+        <tr><td>Estratégia e patrocínio</td><td>Lugar da IA na estratégia, metas, patrocínio executivo, investimento divulgado</td></tr>
+        <tr><td>Governança</td><td>Comitês, políticas, princípios de IA responsável, gestão de riscos e segurança</td></tr>
+        <tr><td>Dados e infraestrutura</td><td>Plataformas de dados, nuvem, conectividade no campo, soberania dos dados</td></tr>
+        <tr><td>Organização e pessoas</td><td>Área de IA, centro de excelência, novos papéis, capacitação, modelo operacional</td></tr>
+        <tr><td>Aplicações</td><td>Campo (sensoriamento, drones, robótica, melhoramento), indústria e logística, corporativo</td></tr>
+        <tr><td>IA generativa e agentes</td><td>Assistentes, copilotos e agentes; uso individual ou integrado a processos</td></tr>
+        <tr><td>Resultados</td><td>Métricas divulgadas (ganhos, retorno, produtividade), com fonte e página</td></tr>
+        <tr><td>Parcerias e investimentos</td><td>Parceiros de tecnologia, startups, fundos de investimento corporativo, aquisições</td></tr>
+        <tr><td>Insucessos e lições</td><td>O que não funcionou e por quê, quando há registro público</td></tr>
+        <tr><td>Estágio de maturidade</td><td>Posição na régua por dimensão, com a evidência que a sustenta</td></tr>
+        <tr><td>Fontes</td><td>Identificadores do catálogo e páginas</td></tr>
+      </tbody>
+    </table>
+    <p class="txt">Além das fichas, o estudo reúne <b>casos de sucesso e insucesso</b> do mercado, inclusive fracassos por infraestrutura, governança e qualidade de dados, com as lições aprendidas.</p>
+  </div>
+  <div class="foot"><span>Acelen Energia Renovável · Descritivo da metodologia · BIA-ACL-MT-01 · Rev. 00</span><span class="mono">04 / 08</span></div>
+</section>
+<section class="page">
+  <div class="head"><img src="../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Metodologia</span></div>
+  <div class="sec">
+    <h2><span class="n">06</span>Framework de maturidade</h2>
+    <p class="txt"><b>Revisão de frameworks.</b> O estudo compara os principais modelos de maturidade em IA publicados por institutos de pesquisa, analistas, consultorias e big techs e extrai o que eles têm em comum: estágios, dimensões e critérios de passagem.</p>
+    <p class="txt"><b>Régua de trabalho.</b> Desde o questionário das sessões executivas, o estudo usa uma régua de cinco estágios e quatro dimensões, que será consolidada na Frente 2:</p>
+    <div class="stage5">
+      <div class="card"><div class="n">1</div><h3>Exploração</h3><p>Uso individual e informal; dados fragmentados em planilhas e silos.</p></div>
+      <div class="card"><div class="n">2</div><h3>Pilotos</h3><p>Provas de conceito com escopo e métrica; primeiros dados organizados.</p></div>
+      <div class="card"><div class="n">3</div><h3>Operacionalização</h3><p>Primeiro caso em produção; plataforma de dados unificada; governança formal.</p></div>
+      <div class="card"><div class="n">4</div><h3>Escala</h3><p>IA embutida nos processos-chave; dados como produto; centro de excelência.</p></div>
+      <div class="card"><div class="n">5</div><h3>Transformação</h3><p>IA no modelo de negócio; agentes autônomos com supervisão por exceção.</p></div>
+    </div>
+    <p class="txt"><b>Quatro dimensões</b>, ampliadas em 09/10/2026 a partir da revisão de frameworks da Frente 2. Cobrem as dimensões de análise do escopo (governança de IA, estratégia de dados, organização e aplicações):</p>
+    <div class="dims4">
+      <div class="card"><h3>Estratégia e governança</h3><p>Patrocínio executivo, gestão de valor, IA responsável, riscos e segurança, governança de agentes, sustentabilidade da IA.</p></div>
+      <div class="card"><h3>Dados e infraestrutura</h3><p>Plataformas de dados, nuvem e borda, conectividade no campo, soberania dos dados.</p></div>
+      <div class="card"><h3>Organização e pessoas</h3><p>Área de IA, papéis, capacitação, cultura, redesenho do trabalho.</p></div>
+      <div class="card"><h3>Aplicações e valor</h3><p>Casos em produção por área, resultados medidos, autonomia de agentes e de máquinas.</p></div>
+    </div>
+    <p class="txt"><b>Como posicionamos.</b> O estágio de uma empresa vem da evidência pública, não do discurso: só sobe com evidência de uso em produção ou em escala. Anúncio, piloto e meta não bastam a partir do estágio 3, e os critérios são cumulativos. Uma mesma empresa pode estar em estágios diferentes por dimensão ou por área (campo, indústria, corporativo). A Acelen é lida apenas no nível macro, sem diagnóstico interno.</p>
+    <p class="txt"><b>Capacidades, dependências e roadmaps.</b> Para cada salto de estágio, o estudo descreve as capacidades exigidas (dados, infraestrutura, pessoas, processos e governança), os pré-requisitos que condicionam o avanço e as trajetórias típicas de adoção observadas nas empresas líderes, inclusive o papel da IA generativa e dos agentes em cada estágio.</p>
+  </div>
+  <div class="sec">
+    <h2><span class="n">07</span>Tendências</h2>
+    <div class="chips">
+      <span class="chip">Movimentos de mercado</span><span class="chip">IA generativa, agentes e copilotos</span><span class="chip">Sistemas autônomos e robótica, até humanoides</span>
+      <span class="chip">IA aplicada ao agro e ao melhoramento</span><span class="chip">Dados e soberania; EUA × China</span><span class="chip">Mudanças organizacionais</span>
+      <span class="chip">IA e impacto ambiental</span><span class="chip">Oportunidades e riscos</span>
+    </div>
+    <p class="txt">Atenção especial às culturas perenes e à escassez de mão de obra no campo. A leitura separa <b>tendência consolidada</b> (com adoção e resultados medidos) de <b>sinal emergente</b> (anúncios, pilotos, investimentos), sempre com fonte e data.</p>
+  </div>
+  <div class="foot"><span>Acelen Energia Renovável · Descritivo da metodologia · BIA-ACL-MT-01 · Rev. 00</span><span class="mono">05 / 08</span></div>
+</section>
+<section class="page">
+  <div class="head"><img src="../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Metodologia</span></div>
+  <div class="sec">
+    <h2><span class="n">08</span>Sessões executivas</h2>
+    <ul class="probe">
+      <li><b>Formato:</b> 2 a 4 conversas semiestruturadas de 60 minutos com executivos e lideranças técnicas de grandes empresas do agro e de setores correlatos, da rede de relacionamento dos consultores.</li>
+      <li><b>Roteiro:</b> 10 temas alinhados às três frentes, dos quais 5 essenciais; questionário validado pela Acelen em 09/10 (BIA-ACL-SE-02).</li>
+      <li><b>Confidencialidade:</b> a Acelen não é identificada aos entrevistados, e nomes de executivos e de empresas participantes não aparecem em nenhum material. A gravação serve só à transcrição, fica com a OagronomIA e é apagada após o registro anonimizado.</li>
+      <li><b>Uso no estudo:</b> os insights entram de forma agregada, cruzados com as fontes públicas.</li>
+    </ul>
+  </div>
+  <div class="sec">
+    <h2><span class="n">09</span>Síntese e controle de qualidade</h2>
+    <ul class="probe">
+      <li><b>Triangulação:</b> fontes públicas, sessões executivas e experiência de campo dos consultores.</li>
+      <li><b>Fonte para toda afirmação:</b> cada número traz unidade, escopo, ano e fonte com página. Conta feita pela equipe aparece como "cálculo nosso"; interpretação, como "leitura nossa".</li>
+      <li><b>Verificação em duas camadas.</b> Na catalogação, uma conferência automática verifica se os números de cada métrica aparecem no texto do documento. Antes de entrar num entregável, cada número é conferido na página da fonte, numa revisão independente da redação.</li>
+      <li><b>O que não se sustenta fica de fora</b>, ou entra com a ressalva "não conferido".</li>
+    </ul>
+    <p class="txt"><b>Regras de leitura</b></p>
+    <div class="rules">
+      <div><b>Anúncio</b>não é resultado</div>
+      <div><b>Piloto</b>não é produção</div>
+      <div><b>Meta</b>não é realizado</div>
+      <div><b>Dado global</b>não é dado do Brasil</div>
+      <div><b>Dado do grupo</b>não é dado da divisão</div>
+    </div>
+  </div>
+  <div class="foot"><span>Acelen Energia Renovável · Descritivo da metodologia · BIA-ACL-MT-01 · Rev. 00</span><span class="mono">06 / 08</span></div>
+</section>
+<section class="page">
+  <div class="head"><img src="../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Metodologia</span></div>
+  <div class="sec">
+    <h2><span class="n">10</span>Entregáveis</h2>
+    <table class="t">
+      <thead><tr><th style="width:24%">Entregável</th><th>Conteúdo</th><th style="width:24%">Quando</th></tr></thead>
+      <tbody>
+        <tr><td>Entregas parciais</td><td>Fichas por empresa e notas temáticas por frente, apresentadas nas semanais; reunião de entrega parcial</td><td>A partir de 16/10; entrega parcial em 23/10</td></tr>
+        <tr><td>Relatório completo em PowerPoint</td><td>Framework de maturidade, roadmap de mercado, benchmark dos casos (fichas e leitura transversal) e resumo executivo</td><td>06/11</td></tr>
+        <tr><td>Base de dados em Excel</td><td>Painel de empresas, fichas estruturadas, classificação por estágio e catálogo de fontes</td><td>06/11</td></tr>
+        <tr><td>Assistente de IA do estudo</td><td>Consulta em linguagem natural ao acervo do estudo (fontes públicas e entregáveis), com indicação da fonte</td><td>Com os entregáveis finais</td></tr>
+        <tr><td>Workshop Executivo</td><td>Apresentação presencial no team building das lideranças do agroindustrial, em Montes Claros</td><td>Provável primeira semana de dezembro</td></tr>
+      </tbody>
+    </table>
+    <p class="txt">Todos os documentos saem em português, com a legenda de identificação (Contratante, Nome, Número e Revisão), e tornam-se propriedade da Acelen.</p>
+  </div>
+  <div class="ai">
+    <span class="label" style="color:var(--brand-green-bright)">Novo entregável</span>
+    <h3>O assistente de IA do estudo</h3>
+    <p class="txt" style="margin-top:6px">Responde, em linguagem natural, a dúvidas sobre os estudos e as fontes de dados públicas levantadas no benchmark. Exemplos de perguntas:</p>
+    <div class="ex">
+      <span>O que a Suzano divulga sobre IA no inventário florestal?</span>
+      <span>Quais estudos medem o retorno da IA no agro?</span>
+      <span>Como o framework do MIT descreve os estágios de maturidade?</span>
+    </div>
+    <div class="grid">
+      <div><span class="label">Base de conhecimento</span>O catálogo de fontes públicas (documentos, métricas verificadas e resumos) e os entregáveis do estudo (fichas, notas temáticas e relatório).</div>
+      <div><span class="label">Como responde</span>Sempre com a fonte: documento, organização, ano e página. Quando o acervo não tem a resposta, diz isso, em vez de inventar.</div>
+      <div><span class="label">Limites</span>Não usa dados internos da Acelen; não contém transcrições nem nomes das sessões executivas, só a síntese agregada; segue o escopo macro do estudo, sem avaliar nem recomendar ferramentas.</div>
+      <div><span class="label">Construção</span>Incremental, acompanhando o acervo e os entregáveis ao longo das semanas, com testes de perguntas e respostas antes da entrega.</div>
+      <div style="grid-column: span 2"><span class="label">Disponibilização</span>A forma de acesso e de hospedagem será definida com a Estratégia e a TI da Acelen, respeitando a governança de TI e a política de segurança da informação da companhia. Ao final, a base de conhecimento é entregue à Acelen junto com os demais dados do projeto.</div>
+    </div>
+  </div>
+  <div class="foot"><span>Acelen Energia Renovável · Descritivo da metodologia · BIA-ACL-MT-01 · Rev. 00</span><span class="mono">07 / 08</span></div>
+</section>
+<section class="page">
+  <div class="head"><img src="../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Metodologia</span></div>
+  <div class="sec">
+    <h2><span class="n">11</span>Governança do projeto</h2>
+    <ul class="probe">
+      <li>Reuniões semanais às sextas-feiras, com gravação, transcrição e ata com pendências (série BIA-ACL-AT).</li>
+      <li>Troca de documentos no SharePoint da Acelen; dúvidas do dia a dia no grupo de WhatsApp.</li>
+      <li>Pontos focais: Estratégia da Acelen (Bruno, Bruna e Pamela) e Guilherme Sanches e Rafael Rotiroti pela OagronomIA.</li>
+      <li>Ao final, todos os dados, registros e artefatos vão para a Acelen. A OagronomIA mantém uma cópia por 90 dias e depois a exclui.</li>
+    </ul>
+  </div>
+  <div class="sec">
+    <h2><span class="n">12</span>Cronograma resumido</h2>
+    <table class="t">
+      <thead><tr><th style="width:22%">Período</th><th>Foco</th><th style="width:33%">Marco</th></tr></thead>
+      <tbody>
+        <tr><td>S1 <span class="mono" style="color:var(--fg-3);font-weight:400">29/09–02/10</span></td><td>Kick-off, cronograma, questionário, painel e protocolo</td><td>Cronograma e questionário entregues</td></tr>
+        <tr><td>S2 <span class="mono" style="color:var(--fg-3);font-weight:400">05–09/10</span></td><td>Frente 1 e preparação das sessões</td><td>Semanal 09/10: questionário validado; Suzano e Bayer indicadas</td></tr>
+        <tr><td>S3 <span class="mono" style="color:var(--fg-3);font-weight:400">13–16/10</span></td><td>Frente 1: fichas e indicadores; sessões executivas; Frente 2: revisão de frameworks</td><td>Semanal 16/10: prévia da Frente 1</td></tr>
+        <tr><td>S4 <span class="mono" style="color:var(--fg-3);font-weight:400">19–23/10</span></td><td>Frente 2: framework, estágios, capacidades e roadmaps; fim das sessões</td><td>Semanal 23/10: entrega parcial</td></tr>
+        <tr><td>S5 <span class="mono" style="color:var(--fg-3);font-weight:400">26–30/10</span></td><td>Frente 3 e síntese analítica</td><td>Semanal 30/10: prévia do relatório</td></tr>
+        <tr><td>S6 <span class="mono" style="color:var(--fg-3);font-weight:400">03–06/11</span></td><td>Fechamento do relatório, da base em Excel e do assistente de IA</td><td>Semanal 06/11: entrega final</td></tr>
+        <tr><td>Absorção <span class="mono" style="color:var(--fg-3);font-weight:400">a partir de 09/11</span></td><td>Absorção pela Acelen, ajustes e preparação do workshop</td><td>Workshop: provável primeira semana de dezembro</td></tr>
+      </tbody>
+    </table>
+    <p class="txt">Detalhamento e status de cada atividade no cronograma do projeto (BIA-ACL-CR-01). Feriados no período: 12/10 e 02/11.</p>
+  </div>
+  <div class="foot"><span>Acelen Energia Renovável · Descritivo da metodologia · BIA-ACL-MT-01 · Rev. 00</span><span class="mono">08 / 08</span></div>
+</section>
+
+</body>
+</html>

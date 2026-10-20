@@ -1,0 +1,2353 @@
+{
+  "resultados": [
+    {
+      "grupo": "Custo da IA: preços e linha do tempo",
+      "pasta": "11_custo-da-ia",
+      "itens": [
+        {
+          "titulo": "OpenAI API — página de preços (cópia arquivada de 01/12/2022)",
+          "organizacao": "OpenAI",
+          "ano": "2022",
+          "tipo_fonte": "empresa",
+          "setor": "tecnologia (IA)",
+          "pais_regiao": "EUA",
+          "url": "https://web.archive.org/web/20221201044427/https://openai.com/api/pricing/",
+          "arquivo": "11_custo-da-ia/OpenAI_2022_api-pricing-arquivo-01dez2022.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Davinci, o modelo mais capaz da API, a US$ 0,0200 por mil tokens em 01/12/2022 (p. 1-2)",
+            "Curie a US$ 0,0020, Babbage a US$ 0,0005 e Ada a US$ 0,0004 por mil tokens em 01/12/2022 (p. 1-2)"
+          ],
+          "resumo": "Cópia do Wayback Machine, capturada em 01/12/2022 (dias após o lançamento do ChatGPT), da página oficial de preços da API da OpenAI. Traz a tabela dos modelos GPT-3 (Ada, Babbage, Curie, Davinci) com um preço por mil tokens, sem separar entrada e saída, além de ajuste fino, embeddings e imagens.",
+          "relevancia": "Marco zero da linha do tempo: preço de lista da API da OpenAI no lançamento do ChatGPT (nov/2022)."
+        },
+        {
+          "titulo": "OpenAI — página de preços (cópia arquivada de 20/03/2023)",
+          "organizacao": "OpenAI",
+          "ano": "2023",
+          "tipo_fonte": "empresa",
+          "setor": "tecnologia (IA)",
+          "pais_regiao": "EUA",
+          "url": "https://web.archive.org/web/20230320202742/https://openai.com/pricing",
+          "arquivo": "11_custo-da-ia/OpenAI_2023_pricing-arquivo-20mar2023.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "GPT-4 (8 mil tokens de contexto) a US$ 0,03 por mil tokens de entrada e US$ 0,06 de saída; versão de 32 mil a US$ 0,06/US$ 0,12, em 20/03/2023 (p. 4)",
+            "gpt-3.5-turbo a US$ 0,002 por mil tokens, com desempenho descrito como equivalente ao do Instruct Davinci (US$ 0,0200 por mil), em 20/03/2023 (p. 4)"
+          ],
+          "resumo": "Cópia do Wayback Machine da página de preços da OpenAI seis dias depois do lançamento do GPT-4. Registra os preços do GPT-4 (8K e 32K) e do gpt-3.5-turbo ao lado dos modelos GPT-3 (InstructGPT), ainda cobrados por mil tokens.",
+          "relevancia": "Documenta, com data, o preço da ponta (GPT-4) e da faixa econômica (gpt-3.5-turbo) em mar/2023."
+        },
+        {
+          "titulo": "Introducing ChatGPT and Whisper APIs (cópia arquivada de 01/03/2023)",
+          "organizacao": "OpenAI",
+          "ano": "2023",
+          "tipo_fonte": "empresa",
+          "setor": "tecnologia (IA)",
+          "pais_regiao": "EUA",
+          "url": "https://web.archive.org/web/20230301180254/https://openai.com/blog/introducing-chatgpt-and-whisper-apis",
+          "arquivo": "11_custo-da-ia/OpenAI_2023_chatgpt-e-whisper-apis-arquivo-01mar2023.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "gpt-3.5-turbo a US$ 0,002 por mil tokens, '10 vezes mais barato' que os modelos GPT-3.5 então existentes, em 01/03/2023 (p. 8)",
+            "Redução de 90% no custo do ChatGPT desde dez/2022 por otimizações de sistema, repassada aos usuários da API (declarado pela empresa) (p. 3)"
+          ],
+          "resumo": "Anúncio oficial da OpenAI de 01/03/2023 sobre as APIs do modelo do ChatGPT (gpt-3.5-turbo) e do Whisper, em cópia arquivada no mesmo dia. Informa o preço, a comparação com os modelos anteriores e a explicação da empresa para o preço: otimizações que, segundo ela, baixaram em 90% o custo de servir o modelo do ChatGPT.",
+          "relevancia": "Fonte primária do preço de mar/2023 (modelo novo, 10 vezes mais barato que os GPT-3.5 anteriores) e da justificativa declarada pela empresa (eficiência; o texto não menciona concorrência)."
+        },
+        {
+          "titulo": "OpenAI API Pricing (cópia arquivada de 21/04/2025, texto da página)",
+          "organizacao": "OpenAI",
+          "ano": "2025",
+          "tipo_fonte": "empresa",
+          "setor": "tecnologia (IA)",
+          "pais_regiao": "EUA",
+          "url": "https://web.archive.org/web/20250421013405/https://openai.com/api/pricing/",
+          "arquivo": "11_custo-da-ia/OpenAI_2025_api-pricing-arquivo-21abr2025.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "o3 a US$ 10 por milhão de tokens de entrada, US$ 2,50 com cache e US$ 40 de saída em 21/04/2025 (p. 2)",
+            "o4-mini a US$ 1,10/US$ 4,40 e GPT-4.1 a US$ 2/US$ 8 por milhão (entrada/saída) em 21/04/2025 (p. 2)",
+            "GPT-4.1 nano a US$ 0,10/US$ 0,40 por milhão em 21/04/2025 (p. 2)",
+            "Batch API com 50% de desconto em entrada e saída para tarefas em até 24 horas (p. 2)"
+          ],
+          "resumo": "Texto da página oficial de preços da OpenAI capturada pelo Wayback Machine em 21/04/2025, cinco dias após o lançamento do o3. A impressão visual da cópia travava; o PDF traz o texto extraído do HTML arquivado, com a URL e a data numa faixa no topo.",
+          "relevancia": "Prova o preço de lançamento do o3 (US$ 10/US$ 40), base para medir o corte de jun/2025."
+        },
+        {
+          "titulo": "OpenAI API — Changelog (versão Markdown oficial, consulta em 14/10/2026)",
+          "organizacao": "OpenAI",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "tecnologia (IA)",
+          "pais_regiao": "EUA",
+          "url": "https://developers.openai.com/api/docs/changelog",
+          "arquivo": "11_custo-da-ia/OpenAI_2026_api-changelog-14out2026.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3",
+            "F2"
+          ],
+          "metricas": [
+            "GPT-5.6 Luna 80% mais barato e GPT-5.6 Terra 20% mais barato a partir de 30/07/2026 (p. 5)",
+            "GPT-5.6 Sol a US$ 4/US$ 20 por milhão desde 21/08/2026 (20% e 33% menos), preço promocional ao menos até 21/11/2026 (p. 4)",
+            "GPT-6 Sol a US$ 2/US$ 10 e GPT-6 Luna a US$ 0,10/US$ 0,50 por milhão, lançados em 22/09/2026 (p. 2)",
+            "Redução dos preços do o3 registrada em 10/06/2025 (p. 13)",
+            "Limites rígidos de gasto por organização e projeto desde 22/07/2026 (p. 5)"
+          ],
+          "resumo": "Registro oficial e datado das mudanças da API da OpenAI de out/2023 a out/2026: lançamentos de modelos, cortes de preço, novos níveis de serviço (Batch, Flex, Priority, Fast) e controles de gasto. O PDF reproduz a versão Markdown publicada pela própria OpenAI (a página web só imprimia a primeira tela).",
+          "relevancia": "Espinha dorsal das datas da linha do tempo da OpenAI, inclusive o corte de jul/2026 e a geração GPT-6."
+        },
+        {
+          "titulo": "OpenAI API — Pricing (versão Markdown oficial, consulta em 14/10/2026)",
+          "organizacao": "OpenAI",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "tecnologia (IA)",
+          "pais_regiao": "EUA",
+          "url": "https://developers.openai.com/api/docs/pricing",
+          "arquivo": "11_custo-da-ia/OpenAI_2026_api-pricing-14out2026.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3",
+            "F2"
+          ],
+          "metricas": [
+            "GPT-6 Astra a US$ 10/US$ 50, GPT-6.1 Sol e GPT-6 Sol a US$ 2/US$ 10 e GPT-6 Luna a US$ 0,10/US$ 0,50 por milhão (entrada/saída) em 14/10/2026 (p. 1)",
+            "GPT-5.5 a US$ 5/US$ 30, GPT-5.4 a US$ 2,50/US$ 15, GPT-5.2 a US$ 1,75/US$ 14 e GPT-5 a US$ 1,25/US$ 10 por milhão em 14/10/2026 (p. 1)",
+            "Modelos antigos ainda listados: gpt-4-0613 a US$ 30/US$ 60, gpt-4o-mini a US$ 0,15/US$ 0,60, o1 a US$ 15/US$ 60 e o3 a US$ 2/US$ 8 por milhão (p. 1)",
+            "Acréscimo de 10% para processamento regional em modelos lançados desde 05/03/2026 (p. 3)"
+          ],
+          "resumo": "Tabela oficial de preços da API da OpenAI em 14/10/2026, com os modelos ainda listados (do GPT-3.5 Turbo ao GPT-6) e os níveis Standard, Batch, Flex, Fast e Ultrafast. O PDF reproduz a versão Markdown publicada pela OpenAI, porque a página web, sem JavaScript, mostra só os modelos mais novos.",
+          "relevancia": "Fotografia datada do preço de lista por faixa em out/2026 e referência para preços de modelos lançados antes e ainda vendidos."
+        },
+        {
+          "titulo": "Advancing the price-performance frontier with GPT-5.6",
+          "organizacao": "OpenAI",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "tecnologia (IA)",
+          "pais_regiao": "EUA",
+          "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
+          "arquivo": "11_custo-da-ia/OpenAI_2026_gpt-5-6-fronteira-preco-desempenho.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Corte de 80% no GPT-5.6 Luna e de 20% no Terra em 30/07/2026 (p. 1)",
+            "Novos preços: Terra a US$ 2/US$ 12 e Luna a US$ 0,20/US$ 1,20 por milhão; Sol inalterado naquela data (p. 3)",
+            "Otimização de kernels reduziu em 20% o custo total de servir o modelo; geração de tokens mais de 15% mais eficiente (declarado pela empresa) (p. 2)",
+            "Luna com desempenho de modelos de fronteira de um ano antes por cerca de 6 centavos por dólar por tarefa (declarado pela empresa) (p. 2)"
+          ],
+          "resumo": "Anúncio oficial da OpenAI, de 30/07/2026, do corte de preço do GPT-5.6 Luna e Terra e do modo Fast para o Sol. A empresa atribui o corte a ganhos de eficiência que diz repassar aos clientes; o único concorrente citado é o Fable 5, da Anthropic, numa comparação de custo por tarefa, não como motivo do corte. O PDF foi salvo do HTML do servidor, porque o Chrome sem interface recebia um desafio anti-robô.",
+          "relevancia": "Confirma o corte de jul/2026 na faixa 'Luna' (laboratório: OpenAI) e a justificativa declarada pela empresa."
+        },
+        {
+          "titulo": "Model Pricing — tabela de preços da Anthropic (jul/2023, cópia arquivada)",
+          "organizacao": "Anthropic",
+          "ano": "2023",
+          "tipo_fonte": "empresa",
+          "setor": "tecnologia (IA)",
+          "pais_regiao": "EUA",
+          "url": "https://web.archive.org/web/20230802213320id_/https://www-files.anthropic.com/production/images/model_pricing_july2023.pdf",
+          "arquivo": "11_custo-da-ia/Anthropic_2023_model-pricing-jul2023.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Claude 2 a US$ 11,02 por milhão de tokens de prompt e US$ 32,68 de completion em jul/2023 (p. 1)",
+            "Claude Instant a US$ 1,63/US$ 5,51 por milhão em jul/2023 (p. 1)",
+            "Claude 1 ainda disponível ao mesmo preço do Claude 2 (p. 1)"
+          ],
+          "resumo": "Tabela oficial de preços da Anthropic de julho de 2023, mês do lançamento do Claude 2, recuperada do Wayback Machine a partir da página de produto arquivada em 02/08/2023. Lista janela de 100 mil tokens e preço por milhão de tokens de prompt e de completion.",
+          "relevancia": "Preço de lista da ponta e da faixa econômica da Anthropic em 2023."
+        },
+        {
+          "titulo": "Introducing the next generation of Claude",
+          "organizacao": "Anthropic",
+          "ano": "2024",
+          "tipo_fonte": "empresa",
+          "setor": "tecnologia (IA)",
+          "pais_regiao": "EUA",
+          "url": "https://www.anthropic.com/news/claude-3-family",
+          "arquivo": "11_custo-da-ia/Anthropic_2024_claude-3-family.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Claude 3 Opus a US$ 15/US$ 75 por milhão de tokens (entrada/saída) em 04/03/2024 (p. 7)",
+            "Claude 3 Sonnet a US$ 3/US$ 15 por milhão (p. 8)",
+            "Claude 3 Haiku a US$ 0,25/US$ 1,25 por milhão (p. 9)"
+          ],
+          "resumo": "Anúncio oficial da família Claude 3 (04/03/2024), com preço de lista por modelo e posicionamento em três faixas (Opus, Sonnet e Haiku). O Haiku é apresentado como o modelo mais custo-efetivo da sua categoria de inteligência.",
+          "relevancia": "Base para comparar o Claude 3 Haiku com o 3.5 Haiku e para a série da ponta (Opus)."
+        },
+        {
+          "titulo": "Introducing computer use, a new Claude 3.5 Sonnet, and Claude 3.5 Haiku",
+          "organizacao": "Anthropic",
+          "ano": "2024",
+          "tipo_fonte": "empresa",
+          "setor": "tecnologia (IA)",
+          "pais_regiao": "EUA",
+          "url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+          "arquivo": "11_custo-da-ia/Anthropic_2024_claude-3-5-haiku-e-computer-use.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Atualização datada de 12/03/2024 no formato americano (3 de dezembro de 2024): Claude 3.5 Haiku a US$ 0,80/US$ 4 por milhão (p. 1)",
+            "Claude 3.5 Haiku com desempenho equivalente ao Claude 3 Opus em muitas avaliações, a velocidade semelhante à do Haiku anterior (p. 1)"
+          ],
+          "resumo": "Anúncio de 22/10/2024 do Claude 3.5 Haiku e do novo 3.5 Sonnet, com nota de atualização que registra a revisão do preço do 3.5 Haiku para US$ 0,80/US$ 4 por milhão. O preço de lançamento (US$ 1/US$ 5, nov/2024) está numa página arquivada do modelo (ver lacunas).",
+          "relevancia": "Documenta o preço revisado do Claude 3.5 Haiku (US$ 0,80/US$ 4), acima do Claude 3 Haiku (US$ 0,25/US$ 1,25): o sucessor na faixa econômica ficou mais caro. A revisão de dez/2024, em si, foi um corte em relação ao preço de lançamento (US$ 1/US$ 5; ver lacunas)."
+        },
+        {
+          "titulo": "Introducing Claude Opus 4.5",
+          "organizacao": "Anthropic",
+          "ano": "2025",
+          "tipo_fonte": "empresa",
+          "setor": "tecnologia (IA)",
+          "pais_regiao": "EUA",
+          "url": "https://www.anthropic.com/news/claude-opus-4-5",
+          "arquivo": "11_custo-da-ia/Anthropic_2025_claude-opus-4-5.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Claude Opus 4.5 lançado em 24/11/2025 a US$ 5/US$ 25 por milhão de tokens (p. 1-2)"
+          ],
+          "resumo": "Anúncio oficial do Claude Opus 4.5 (24/11/2025), com o novo preço de US$ 5/US$ 25 por milhão, apresentado como forma de levar a capacidade do nível Opus a mais usuários e empresas. O preço do Opus 4.1 (US$ 15/US$ 75) está na tabela oficial de 2026.",
+          "relevancia": "Marco de corte na ponta da Anthropic (cerca de dois terços, cálculo nosso)."
+        },
+        {
+          "titulo": "Claude API — Pricing (versão Markdown oficial, consulta em 14/10/2026)",
+          "organizacao": "Anthropic",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "tecnologia (IA)",
+          "pais_regiao": "EUA",
+          "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+          "arquivo": "11_custo-da-ia/Anthropic_2026_api-pricing-14out2026.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3",
+            "F2"
+          ],
+          "metricas": [
+            "Claude Fable 5 e 5.1 a US$ 10/US$ 50 por milhão; Opus 5.5 a US$ 4/US$ 20; Opus 4.5 a Opus 5 a US$ 5/US$ 25; Opus 4 e 4.1 a US$ 15/US$ 75 (p. 1)",
+            "Sonnet 5 e 5.5 a US$ 2/US$ 10; aumento programado do Sonnet 5 para US$ 3/US$ 15 em 01/09/2026 cancelado (p. 1)",
+            "Haiku 5.5 a US$ 0,10/US$ 0,50 (prompts até 100 mil tokens), contra US$ 1/US$ 5 do Haiku 4.5 e US$ 0,80/US$ 4 do Haiku 3.5 (p. 1)",
+            "Tokenizador dos modelos Claude 4.7 em diante gera cerca de 30% mais tokens para o mesmo texto (p. 1)",
+            "Batch API com 50% de desconto em entrada e saída (p. 3)"
+          ],
+          "resumo": "Tabela oficial de preços da Anthropic em 14/10/2026, com os modelos Claude ainda listados e as regras de cache, lote, contexto longo, residência de dados e modo rápido. O PDF reproduz a versão Markdown publicada pela empresa.",
+          "relevancia": "Fotografia datada da série da Anthropic por faixa e prova de mudança de unidade (tokenizador) que altera o preço efetivo."
+        },
+        {
+          "titulo": "Gemini 1.5 Flash price drop with tuning rollout complete, and more",
+          "organizacao": "Google (Google Developers Blog)",
+          "ano": "2024",
+          "tipo_fonte": "empresa",
+          "setor": "tecnologia (IA)",
+          "pais_regiao": "EUA",
+          "url": "https://developers.googleblog.com/en/gemini-15-flash-updates-google-ai-studio-gemini-api/",
+          "arquivo": "11_custo-da-ia/Google_2024_gemini-1-5-flash-reducao-de-preco.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Gemini 1.5 Flash: preço de entrada 78% menor, para US$ 0,075 por milhão, e de saída 71% menor, para US$ 0,30, a partir de 12/08/2024 (prompts até 128 mil tokens) (p. 1)"
+          ],
+          "resumo": "Anúncio oficial do Google, de 08/08/2024, do corte de preço do Gemini 1.5 Flash, válido a partir de 12/08/2024, junto com a liberação do ajuste fino a todos os desenvolvedores. O Google apresenta o corte como forma de tornar o modelo mais acessível.",
+          "relevancia": "Marco do corte na faixa econômica do Google em 2024."
+        },
+        {
+          "titulo": "Gemini Developer API pricing (cópia arquivada de 20/07/2025, texto da página)",
+          "organizacao": "Google (Google AI for Developers)",
+          "ano": "2025",
+          "tipo_fonte": "empresa",
+          "setor": "tecnologia (IA)",
+          "pais_regiao": "EUA",
+          "url": "https://web.archive.org/web/20250720200308/https://ai.google.dev/gemini-api/docs/pricing",
+          "arquivo": "11_custo-da-ia/Google_2025_gemini-api-pricing-arquivo-20jul2025.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Gemini 2.0 Flash a US$ 0,10/US$ 0,40 por milhão (texto, entrada/saída) em 20/07/2025 (p. 5)",
+            "Gemini 2.5 Flash a US$ 0,30/US$ 2,50 por milhão, com tokens de raciocínio na saída (p. 4)",
+            "Gemini 2.5 Pro a US$ 1,25/US$ 10 por milhão para prompts até 200 mil tokens (p. 4)",
+            "Gemini 1.5 Flash a US$ 0,075/US$ 0,30 e 1.5 Pro a US$ 1,25/US$ 5 por milhão (até 128 mil tokens) (p. 8)",
+            "Modo Batch a 50% do preço interativo (p. 3)"
+          ],
+          "resumo": "Texto da página oficial de preços da API Gemini capturada pelo Wayback Machine em 20/07/2025, com as gerações 1.5, 2.0 e 2.5 lado a lado. A impressão visual da cópia travava; o PDF traz o texto extraído do HTML arquivado.",
+          "relevancia": "Permite comparar o 2.0 Flash com o 2.5 Flash na mesma data: a geração seguinte da faixa econômica, com raciocínio, custa mais."
+        },
+        {
+          "titulo": "Gemini Developer API pricing (consulta em 14/10/2026)",
+          "organizacao": "Google (Google AI for Developers)",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "tecnologia (IA)",
+          "pais_regiao": "EUA",
+          "url": "https://ai.google.dev/gemini-api/docs/pricing?hl=en",
+          "arquivo": "11_custo-da-ia/Google_2026_gemini-api-pricing-14out2026.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3",
+            "F2"
+          ],
+          "metricas": [
+            "Gemini 4 Argon a US$ 2/US$ 10 por milhão até 30/11/2026 e US$ 4/US$ 20 a partir de 01/12/2026 (p. 3)",
+            "Gemini 3.8 Flash a US$ 0,75/US$ 3,75 até 31/12/2026 e US$ 1,50/US$ 7,50 a partir de 01/01/2027 (p. 4)",
+            "Gemini 3.5 Flash-Lite a US$ 0,30/US$ 2,50 contra US$ 0,10/US$ 0,40 do 2.5 Flash-Lite (p. 8-9, 21)",
+            "Gemini 3.1 Pro Preview a US$ 2/US$ 12 (até 200 mil tokens) e 3 Flash Preview a US$ 0,50/US$ 3 (p. 12, 17-18)",
+            "Batch API com 50% de redução de custo (p. 1)"
+          ],
+          "resumo": "Página oficial de preços da API Gemini em 14/10/2026, com a geração 3.x e o Gemini 4 Argon. Vários modelos novos têm preço de lançamento válido até uma data e aumento já programado que dobra o valor.",
+          "relevancia": "Mostra reajustes para cima programados e a alta de preço da faixa econômica do Google entre gerações."
+        },
+        {
+          "titulo": "DeepSeek API — Pricing (cópia arquivada de 28/05/2024)",
+          "organizacao": "DeepSeek",
+          "ano": "2024",
+          "tipo_fonte": "empresa",
+          "setor": "tecnologia (IA)",
+          "pais_regiao": "China",
+          "url": "https://web.archive.org/web/20240528120559/https://platform.deepseek.com/api-docs/pricing/",
+          "arquivo": "11_custo-da-ia/DeepSeek_2024_api-pricing-arquivo-28mai2024.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "deepseek-chat, já servido pelo DeepSeek-V2, a US$ 0,14 por milhão de tokens de entrada e US$ 0,28 de saída em 28/05/2024 (p. 1)"
+          ],
+          "resumo": "Cópia do Wayback Machine da página oficial de preços da DeepSeek três semanas depois do lançamento do DeepSeek-V2, que já servia o deepseek-chat. A página tinha abas em dólar e em yuan; a impressão mostra a aba em dólar.",
+          "relevancia": "Preço oficial do deepseek-chat já servido pelo V2. A Yicai (imprensa) situa o início da onda de cortes de preço na China em 06/05/2024, com o anúncio da High-Flyer, sem citar a DeepSeek."
+        },
+        {
+          "titulo": "DeepSeek-V3 Technical Report (arXiv 2412.19437)",
+          "organizacao": "DeepSeek",
+          "ano": "2024",
+          "tipo_fonte": "empresa",
+          "setor": "tecnologia (IA)",
+          "pais_regiao": "China",
+          "url": "https://arxiv.org/abs/2412.19437",
+          "arquivo": "11_custo-da-ia/DeepSeek_2024_deepseek-v3-technical-report.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Custo de treino declarado de US$ 5,576 milhões: 2,788 milhões de horas de GPU H800 a US$ 2 por hora, preço de aluguel suposto (p. 5)",
+            "O valor cobre só o treino oficial e exclui pesquisa prévia e experimentos de ablação de arquitetura, algoritmos e dados (p. 5)",
+            "Pré-treino em 14,8 trilhões de tokens em menos de dois meses, num cluster de 2.048 GPUs H800 (p. 5)"
+          ],
+          "resumo": "Relatório técnico do DeepSeek-V3 (dez/2024), modelo MoE de 671 bilhões de parâmetros com 37 bilhões ativos por token. Na Tabela 1 a empresa estima o custo do treino final a preço de aluguel de GPU e ressalva que o número exclui pesquisa e experimentos anteriores.",
+          "relevancia": "Fonte primária do número de US$ 5,6 milhões e das suas exclusões; usar sempre com a ressalva."
+        },
+        {
+          "titulo": "DeepSeek API — Models & Pricing (cópia arquivada de 15/03/2025, texto da página)",
+          "organizacao": "DeepSeek",
+          "ano": "2025",
+          "tipo_fonte": "empresa",
+          "setor": "tecnologia (IA)",
+          "pais_regiao": "China",
+          "url": "https://web.archive.org/web/20250315174458/https://api-docs.deepseek.com/quick_start/pricing",
+          "arquivo": "11_custo-da-ia/DeepSeek_2025_api-pricing-arquivo-15mar2025.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "DeepSeek-V3 a US$ 0,27 (entrada sem cache), US$ 0,07 (com cache) e US$ 1,10 (saída) por milhão no horário padrão (00h30–16h30 UTC) em 15/03/2025 (p. 1-2)",
+            "DeepSeek-R1 a US$ 0,55, US$ 0,14 e US$ 2,19 por milhão no horário padrão em 15/03/2025 (p. 2)",
+            "Desconto fora de pico (16h30–00h30 UTC): 50% no V3 e 75% no R1 (p. 2)",
+            "Tokens de raciocínio do R1 cobrados como saída, ao mesmo preço da resposta (p. 2)"
+          ],
+          "resumo": "Texto da página oficial de preços da DeepSeek capturada pelo Wayback Machine em 15/03/2025, com o V3, o R1 e o desconto fora do horário de pico. A impressão visual da cópia falhou; o PDF traz o texto do HTML arquivado.",
+          "relevancia": "Preço oficial do R1 para comparar com o o1 e prova dos descontos por horário."
+        },
+        {
+          "titulo": "Introducing DeepSeek-V3.2-Exp",
+          "organizacao": "DeepSeek",
+          "ano": "2025",
+          "tipo_fonte": "empresa",
+          "setor": "tecnologia (IA)",
+          "pais_regiao": "China",
+          "url": "https://api-docs.deepseek.com/news/news250929",
+          "arquivo": "11_custo-da-ia/DeepSeek_2025_v3-2-exp-corte-de-precos.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Preços da API cortados em mais de 50%, com efeito imediato, às 10h UTC de 29/09/2025: entrada sem cache de US$ 0,56 para US$ 0,28, com cache de US$ 0,07 para US$ 0,028 e saída de US$ 1,68 para US$ 0,42 por milhão (imagem na p. 3) (p. 1-3)",
+            "Ganho de eficiência apresentado no mesmo anúncio, sem ligação causal explícita com o corte: atenção esparsa (DSA) que reduz o custo de computação em contexto longo (p. 1)"
+          ],
+          "resumo": "Nota oficial da DeepSeek (29/09/2025) sobre o V3.2-Exp, que estreia a atenção esparsa DSA e corta os preços da API em mais de 50%. Os preços antigos e novos e a hora de vigência (10h UTC de 29/09/2025) estão numa imagem na p. 3 do PDF.",
+          "relevancia": "Marco de corte de 2025 de um laboratório chinês, anunciado ao lado de um ganho de eficiência (DSA), sem ligação causal explícita no texto. Os preços antigos coincidem com os que o CAISI/NIST usou para o V3.1 em set/2025."
+        },
+        {
+          "titulo": "DeepSeek API — Models & Pricing (cópia arquivada de 02/07/2026)",
+          "organizacao": "DeepSeek",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "tecnologia (IA)",
+          "pais_regiao": "China",
+          "url": "https://web.archive.org/web/20260702051533/https://api-docs.deepseek.com/quick_start/pricing",
+          "arquivo": "11_custo-da-ia/DeepSeek_2026_api-pricing-arquivo-02jul2026.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "deepseek-v4-flash a US$ 0,14 (entrada sem cache), US$ 0,0028 (com cache) e US$ 0,28 (saída) por milhão em 02/07/2026 (p. 2)",
+            "deepseek-v4-pro a US$ 0,435, US$ 0,003625 e US$ 0,87 por milhão em 02/07/2026 (p. 2)"
+          ],
+          "resumo": "Cópia do Wayback Machine da página oficial de preços da DeepSeek em 02/07/2026, com o V4-Flash e o V4-Pro. Os valores do V4-Pro equivalem ao desconto de 75% que em abril era temporário (ver lacunas).",
+          "relevancia": "Ponto intermediário de 2026 que permite ver o reajuste posterior (ago–set/2026) da própria DeepSeek. Em out/2026 os modelos são outras versões (V4.1-Flash e V4-Pro-0813), mas o nome deepseek-v4-flash continua aceito e é cobrado ao preço do V4.1-Flash."
+        },
+        {
+          "titulo": "DeepSeek API — Models & Pricing (consulta em 14/10/2026)",
+          "organizacao": "DeepSeek",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "tecnologia (IA)",
+          "pais_regiao": "China",
+          "url": "https://api-docs.deepseek.com/quick_start/pricing",
+          "arquivo": "11_custo-da-ia/DeepSeek_2026_api-pricing-14out2026.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3",
+            "F2"
+          ],
+          "metricas": [
+            "DeepSeek-V4.1-Flash a US$ 0,30 (entrada sem cache) e US$ 1,20 (saída) por milhão no pico; metade fora do pico, em 14/10/2026 (p. 2)",
+            "deepseek-v4-pro (versão DeepSeek-V4-Pro-0813) a US$ 1,32 e US$ 3,96 por milhão no pico e US$ 0,66 e US$ 1,98 fora do pico (p. 1-2)",
+            "Pico de 01h a 04h e de 06h a 10h UTC, de segunda a sexta, exceto feriados chineses (p. 2)"
+          ],
+          "resumo": "Página oficial de preços da DeepSeek em 14/10/2026, com o V4.1-Flash e o deepseek-v4-pro (versão DeepSeek-V4-Pro-0813) e tarifa por horário (pico e fora de pico). Os nomes antigos do V4-Flash são atendidos pelo V4.1-Flash e cobrados ao preço dele. O PDF não tem faixa com data; a data vem dos metadados e foi conferida na página ao vivo.",
+          "relevancia": "Mostra que o preço de lista da DeepSeek também sobe: no pico, o Flash de out/2026 custa mais que o V4-Flash de jul/2026, e quem manteve o nome deepseek-v4-flash passou a pagar o preço novo. Ressalva: a nota oficial de 10/09/2026 (não catalogada) diz que desde 14/09/2026 as chamadas ao deepseek-v4-pro são atendidas pelo V4.1-Flash ao preço do Flash, o que conflita com a tabela (ver lacunas)."
+        },
+        {
+          "titulo": "Baidu Follows Alibaba's Steep LLM Price Cut With Two Free Ernie Bot Models",
+          "organizacao": "Yicai Global (Yicai Media Group)",
+          "ano": "2024",
+          "tipo_fonte": "imprensa",
+          "setor": "tecnologia (IA)",
+          "pais_regiao": "China",
+          "url": "https://www.yicaiglobal.com/news/baidu-offers-two-ernie-models-for-free-as-chinese-llm-market-ushers-in-price-war",
+          "arquivo": "11_custo-da-ia/Yicai_2024_guerra-de-precos-llm-china-baidu-alibaba.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "High-Flyer: CNY 1 por milhão de tokens de entrada e CNY 2 de saída em 06/05/2024, cerca de 1/100 do preço do GPT-4 (p. 2)",
+            "Zhipu AI: corte de 80% nos modelos de entrada, para CNY 1 por milhão, em 13/05/2024 (p. 3)",
+            "ByteDance/Volcano Engine (Doubao): 0,08 centavo de yuan por mil tokens, cerca de 99% abaixo da média do setor (p. 3)",
+            "Alibaba Cloud: Qwen-Long a 0,05 centavo de yuan por mil tokens de entrada, cortes de até 97%; Baidu: Ernie Speed e Ernie Lite gratuitos para empresas (p. 2)"
+          ],
+          "resumo": "Reportagem da Yicai Global (22/05/2024) sobre a guerra de preços de LLMs na China em maio de 2024, com datas e valores de High-Flyer, Zhipu, ByteDance, Alibaba e Baidu. Traz a leitura de um analista da Canalys: cortes para ganhar clientes e puxar a demanda de nuvem.",
+          "relevancia": "Reconstrói datas e percentuais do movimento chinês de mai/2024 (imprensa; os anúncios oficiais em chinês não foram salvos)."
+        },
+        {
+          "titulo": "LLM inference prices have fallen rapidly but unequally across tasks (Data Insight)",
+          "organizacao": "Epoch AI",
+          "ano": "2025",
+          "tipo_fonte": "instituto de pesquisa",
+          "setor": "tecnologia (IA)",
+          "pais_regiao": "Global",
+          "url": "https://epoch.ai/data-insights/llm-inference-price-trends",
+          "arquivo": "11_custo-da-ia/EpochAI_2025_llm-inference-price-trends.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3",
+            "F2"
+          ],
+          "metricas": [
+            "Preço para atingir o desempenho do GPT-4 no GPQA caiu 40 vezes por ano (nota de 12/03/2025) (p. 1)",
+            "Queda de 9 a 900 vezes por ano conforme o marco de desempenho, com as mais rápidas no último ano (p. 1)",
+            "Sem evidência clara de que margens de lucro menores expliquem a queda (p. 3)",
+            "Base de dados atualizada em 20/11/2025 (p. 3)"
+          ],
+          "resumo": "Nota de dados da Epoch AI (12/03/2025) que mede a queda do preço do modelo mais barato capaz de atingir um mesmo desempenho em seis benchmarks, com dados de preço da Artificial Analysis e da própria Epoch. Cita modelos menores e hardware mais custo-efetivo como razões possíveis conhecidas, sem modelar esses fatores, e não achou evidência clara de que margens menores expliquem a queda.",
+          "relevancia": "Fonte da série de preço para desempenho constante (9 a 900 vezes por ano) usada pelo AI Index."
+        },
+        {
+          "titulo": "Welcome to LLMflation – LLM inference cost is going down fast",
+          "organizacao": "Andreessen Horowitz (a16z)",
+          "ano": "2024",
+          "tipo_fonte": "analista/big tech",
+          "setor": "tecnologia (IA)",
+          "pais_regiao": "EUA",
+          "url": "https://a16z.com/llmflation-llm-inference-cost/",
+          "arquivo": "11_custo-da-ia/a16z_2024_llmflation-custo-de-inferencia.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Custo para desempenho equivalente cai 10 vezes por ano (texto de 12/11/2024) (p. 2)",
+            "MMLU 42: de US$ 60 por milhão (GPT-3, nov/2021) para US$ 0,06 (Llama 3.2 3B), queda de 1.000 vezes em 3 anos (p. 3)",
+            "MMLU 83: queda de cerca de 62 vezes desde o GPT-4 (mar/2023) (p. 4)",
+            "o1 com o mesmo preço por token de saída do GPT-3 no lançamento: US$ 60 por milhão (p. 6)"
+          ],
+          "resumo": "Análise de um sócio da a16z (12/11/2024) com preços históricos do Internet Archive para o modelo mais barato que atinge uma nota fixa no MMLU, usando a média simples dos preços de entrada e saída. Lista causas (hardware, quantização, software, modelos menores, ajuste fino, código aberto) e nota que os fornecedores cedem a faixa barata e concentram esforço na ponta. Conflito de interesse: a a16z investe em empresas de IA, liderou em out/2026 a rodada série A da TypeSafe AI (Jev) e assina com a OpenRouter o estudo de 100 trilhões de tokens.",
+          "relevancia": "Segunda medida independente do preço para desempenho constante e sinal de que a ponta barateia menos (H3)."
+        },
+        {
+          "titulo": "State of AI: An Empirical 100 Trillion Token Study with OpenRouter (arXiv 2601.10088)",
+          "organizacao": "OpenRouter Inc. e Andreessen Horowitz (a16z)",
+          "ano": "2025",
+          "tipo_fonte": "empresa",
+          "setor": "tecnologia (IA)",
+          "pais_regiao": "EUA / Global",
+          "url": "https://arxiv.org/abs/2601.10088",
+          "arquivo": "11_custo-da-ia/OpenRouter-a16z_2025_state-of-ai-100-trillion-tokens.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Modelos abertos chineses: de 1,2% do volume semanal de tokens no fim de 2024 a perto de 30% em algumas semanas de 2025; média de 13,0% no período (p. 5)",
+            "Modelos proprietários com 70% e abertos de fora da China com 13,7% do volume, em média (p. 6)",
+            "Na comparação entre modelos (linha de tendência de custo contra uso), 10% de preço a menos corresponde a só 0,5% a 0,7% mais uso (p. 30)",
+            "Alguns sinais de paradoxo de Jevons nos modelos que ficaram muito baratos (p. 32)"
+          ],
+          "resumo": "Estudo empírico (dez/2025) da OpenRouter com a a16z sobre mais de 100 trilhões de tokens processados na plataforma, por modelo, origem, categoria de uso e preço. Mostra a subida dos modelos abertos chineses e uma demanda pouco sensível a preço. Conflito de interesse: a a16z, coautora, investe em empresas de IA, assina o LLMflation e liderou a rodada série A da TypeSafe AI (Jev); a OpenRouter vende acesso a modelos.",
+          "relevancia": "Principal medida pública da participação de modelos chineses no uso; a plataforma não representa o uso corporativo direto."
+        },
+        {
+          "titulo": "Nvidia sheds almost $600 billion in market cap, biggest one-day loss in U.S. history",
+          "organizacao": "CNBC",
+          "ano": "2025",
+          "tipo_fonte": "imprensa",
+          "setor": "tecnologia (IA)",
+          "pais_regiao": "EUA",
+          "url": "https://www.cnbc.com/2025/01/27/nvidia-sheds-almost-600-billion-in-market-cap-biggest-drop-ever.html",
+          "arquivo": "11_custo-da-ia/CNBC_2025_nvidia-perde-600-bi-deepseek.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Ações da Nvidia caíram 17% em 27/01/2025 (fechamento a US$ 118,58), perda de quase US$ 600 bilhões em valor de mercado (p. 1-2)",
+            "Nasdaq caiu 3,1% e Broadcom caiu 17% (US$ 200 bilhões) no mesmo dia (p. 2-3)",
+            "Segundo a CNBC, a DeepSeek disse ter construído o modelo em dois meses por menos de US$ 6 milhões (número do treino final; usar só com a ressalva do relatório técnico do V3) (p. 2)"
+          ],
+          "resumo": "Reportagem da CNBC de 27/01/2025 sobre a queda das ações da Nvidia e de outras empresas de tecnologia, que o veículo atribui à preocupação com a concorrência da DeepSeek. O PDF foi salvo do HTML do servidor, porque a impressão direta travava.",
+          "relevancia": "Fonte de imprensa, marcada como tal, para a reação do mercado ao DeepSeek."
+        },
+        {
+          "titulo": "Introducing System One Models & Jev",
+          "organizacao": "TypeSafe AI",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "tecnologia (IA)",
+          "pais_regiao": "EUA",
+          "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+          "arquivo": "11_custo-da-ia/TypeSafe_2026_system-one-models-e-jev.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Jev a US$ 0,042 por milhão de tokens de entrada (US$ 42 por bilhão), com tokens de saída gratuitos; modelo de decisão, preço não comparável ao de modelos de texto; post sem data (p. 4)",
+            "A empresa diz não poder provar que o preço não é subsidiado e espera que ele caia, não suba (p. 7)",
+            "Jev abre mão de gerar texto e devolve decisões estruturadas com probabilidades (p. 1-2)"
+          ],
+          "resumo": "Post de lançamento do Jev, primeiro 'System One Model' da TypeSafe AI, em acesso antecipado: um modelo de decisão que devolve respostas tipadas com probabilidades calibradas, não texto. Traz o preço por token e ressalvas da própria empresa sobre subsídio e benchmarks. O post não traz data no texto; a imprensa data o lançamento em 15/09/2026.",
+          "relevancia": "Fonte primária do preço e da categoria do Jev, que não se compara diretamente a modelos de conversa."
+        },
+        {
+          "titulo": "TypeSafe A raises Series AI",
+          "organizacao": "TypeSafe AI",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "tecnologia (IA)",
+          "pais_regiao": "EUA",
+          "url": "https://typesafe.ai/blog/series-ai",
+          "arquivo": "11_custo-da-ia/TypeSafe_2026_rodada-serie-a.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Série A de US$ 870 milhões a uma avaliação de US$ 7,5 bilhões, liderada pela Andreessen Horowitz, com Sequoia Capital e DCVC (p. 1-2)",
+            "Um terço das empresas da Fortune 500 usa o Jev (declarado pela empresa) (p. 2)"
+          ],
+          "resumo": "Comunicado da TypeSafe AI sobre sua rodada série A. A Bloomberg noticiou a rodada primeiro (09/10/2026), em texto pago; este post é a confirmação da própria empresa, sem data no texto. Conflito de interesse: a Andreessen Horowitz, que liderou a rodada, também assina o LLMflation e o estudo com a OpenRouter usados neste dossiê.",
+          "relevancia": "Fonte primária da rodada; relevante para H4, porque a própria empresa diz não poder provar que o preço do Jev não é subsidiado."
+        },
+        {
+          "titulo": "OpenAI Shipped a Jev Rival in Three Weeks. TypeSafe Just Raised $870 Million.",
+          "organizacao": "Let's Data Science",
+          "ano": "2026",
+          "tipo_fonte": "imprensa",
+          "setor": "tecnologia (IA)",
+          "pais_regiao": "Global",
+          "url": "https://letsdatascience.com/blog/openai-jev-rival-three-weeks-typesafe-raised-870-million",
+          "arquivo": "11_custo-da-ia/LetsDataScience_2026_jev-rodada-e-reacao-openai.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Jev lançado em 15/09/2026, com rodada semente de US$ 40 milhões liderada pela DCVC (p. 4)",
+            "Bloomberg noticiou em 09/10/2026 a rodada de cerca de US$ 870 milhões a US$ 7,5 bilhões (p. 1-2)",
+            "Decisions API da OpenAI (06/10/2026) a US$ 0,10 por milhão de tokens de entrada; Cloudflare Clef-flash a US$ 0,09 e Clef a US$ 0,24; nenhuma cobra a saída (p. 4, 6)"
+          ],
+          "resumo": "Reportagem de 09/10/2026 que reconstrói a linha do tempo do Jev e a reação de OpenAI, Amazon e Cloudflare, que lançaram modelos de decisão em três semanas. Cita a Bloomberg (rodada) e a TechCrunch; é fonte secundária. Relata também, citando a Fortune sobre um podcast, que um funcionário da OpenAI creditou ao Jev a inspiração da Decisions API (p. 2).",
+          "relevancia": "Datas do Jev e preços da nova categoria de modelos de decisão (imprensa, marcada como tal)."
+        },
+        {
+          "titulo": "Artificial Analysis State of AI Q3 2025 – Highlights Edition",
+          "organizacao": "Artificial Analysis",
+          "ano": "2025",
+          "tipo_fonte": "analista/big tech",
+          "setor": "tecnologia (IA)",
+          "pais_regiao": "Global",
+          "url": "https://artificialanalysiscdn.com/public-reports/state-of-ai-2025-q3-highlights-artificial-analysis.pdf",
+          "arquivo": "11_custo-da-ia/ArtificialAnalysis_2025_state-of-ai-q3-highlights.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3",
+            "F2"
+          ],
+          "metricas": [
+            "Inteligência de nível GPT-4 ficou 100 vezes mais barata que o GPT-4 original; uma consulta de pesquisa aprofundada pode custar mais de 10 vezes uma consulta do GPT-4 original (p. 10)",
+            "Fatores de custo (indicativos): modelos menores ~1/10, software ~1/3, hardware ~1/3; contra modelos maiores ~5x, raciocínio ~10x tokens e agentes ~20x requisições (p. 10)",
+            "No 3º tri de 2025, preços cerca de 50% menores ou mais nos modelos com nota 40+ no índice; mudanças menores no topo (p. 14)"
+          ],
+          "resumo": "Edição pública e resumida do relatório trimestral da Artificial Analysis (3º tri de 2025); a versão completa é paga. Combina o índice de inteligência da empresa com o preço médio ponderado 3:1 (entrada:saída) para mostrar a queda de preço por classe de inteligência e o aumento da computação por tarefa.",
+          "relevancia": "Liga as duas curvas do tema: preço por capacidade em queda e computação por tarefa em alta."
+        }
+      ],
+      "formularios": [],
+      "lacunas": [
+        "Causa dos cortes: não encontrei declaração oficial de laboratório americano (OpenAI, Anthropic, Google) atribuindo corte de preço à concorrência, chinesa ou não. As justificativas oficiais citam eficiência e repasse de economia (OpenAI em mar/2023 e jul/2026; DeepSeek em set/2026, no lançamento do V4.1-Flash, em nota não catalogada: 'We're passing the savings on to you') ou acesso e valor (Anthropic em nov/2025; Google em ago/2024). O anúncio do GPT-5.6 (30/07/2026) cita um concorrente só para comparar custo por tarefa (Luna contra Fable 5, da Anthropic), não como motivo do corte. Na nota do V3.2-Exp (29/09/2025), a DeepSeek põe o corte ao lado do ganho de eficiência da DSA, sem ligar um ao outro. A relação entre os cortes chineses e os americanos é só temporal. A atribuição à concorrência aparece em analistas e imprensa: a16z (modelos abertos reduziram margens, p. 6), AI Index 2026 [M198, p. 69] (pressão competitiva se desloca para custo) e Let's Data Science (cortes do Luna e do Haiku 5.5 como pressão relacionada, p. 7).",
+        "Corte do o3 (jun/2025): o percentual de 80% e a explicação 'otimizamos a pilha de inferência; mesmo modelo, mais barato' estão em posts no X do CEO e da conta OpenAI Developers (10/06/2025), não salvos. O changelog oficial só diz que os preços foram reduzidos. Cálculo nosso: US$ 10/US$ 40 (cópia de 21/04/2025) para US$ 2/US$ 8 (tabela de 14/10/2026) = -80%, supondo que o preço de out/2026 seja o fixado em jun/2025.",
+        "GPT-5.6 (lançado em 09/07/2026): os preços de lançamento Sol US$ 5/US$ 30, Terra US$ 2,50/US$ 15 e Luna US$ 1/US$ 6 por milhão (entrada/saída) constam de uma cópia do Wayback de 16/07/2026, não catalogada (https://web.archive.org/web/20260716103153/https://developers.openai.com/api/docs/pricing), conferida de novo na verificação. Com as fontes catalogadas, esses valores só saem por cálculo nosso a partir dos percentuais (Luna -80%, Terra -20%, Sol -20% na entrada e -33% na saída).",
+        "Notícia do modelo 'Luna' com corte de 80%: confirmada. É o GPT-5.6 Luna, da OpenAI, lançado em 09/07/2026 e com preço cortado em 30/07/2026 (a data de 30/07 é a do corte, não a do lançamento). O 'corte de julho de 2026 em modelos GPT-5.6' é o mesmo evento; o Sol teve redução promocional separada em 21/08/2026.",
+        "Claude 3.5 Haiku: o preço de lançamento de US$ 1/US$ 5 por milhão (nov/2024) consta da página do modelo arquivada em 18/11/2024 (https://web.archive.org/web/20241118005437/https://www.anthropic.com/claude/haiku), não catalogada e conferida na verificação. A justificativa do aumento ('refletir o aumento de inteligência') saiu num post da Anthropic no X em 04/11/2024, não salvo. A revisão de 03/12/2024 para US$ 0,80/US$ 4 foi um corte sobre esse preço de lançamento. Cálculo nosso: o preço revisado (US$ 0,80/US$ 4) é 3,2 vezes o do Claude 3 Haiku (US$ 0,25/US$ 1,25).",
+        "Gemini 2.5 Flash: o post oficial de 17/06/2025 (https://developers.googleblog.com/en/gemini-2-5-thinking-model-updates/), não catalogado e conferido na verificação, diz que, na versão estável, a entrada subiu de US$ 0,15 para US$ 0,30 por milhão e a saída caiu de US$ 3,50 para US$ 2,50, com o fim da diferença entre preço com e sem raciocínio; chama o ajuste de reflexo do 'valor excepcional do Flash'. É a única justificativa oficial de aumento encontrada. Cálculo nosso: o 2.5 Flash custa 3 vezes a entrada e 6,25 vezes a saída do 2.0 Flash (20/07/2025).",
+        "Unidades antigas: em abr/2023 a Anthropic cobrava por milhão de caracteres (Claude Instant US$ 0,43/US$ 1,45; Claude-v1 US$ 2,90/US$ 8,60), conforme PDF arquivado não catalogado e conferido na verificação (https://web.archive.org/web/20230404005049id_/https://cdn2.assets-servd.host/anthropic-website/production/images/FINAL-PRICING.pdf). O Gemini 1.0 Pro (dez/2023) também era cobrado por caractere. Comparar com preço por token exige conversão.",
+        "DeepSeek V3.1 (ago/2025): a nota oficial de 21/08/2025 saiu do site (redireciona para o guia da API). A imagem na p. 3 da nota do V3.2-Exp mostra os preços antigos riscados (US$ 0,07 com cache, US$ 0,56 sem cache e US$ 1,68 de saída) e os novos (US$ 0,028, US$ 0,28 e US$ 0,42 por milhão), vigentes desde as 10h UTC de 29/09/2025. Confirmado na verificação: o CAISI/NIST usou para o V3.1 esses mesmos preços, vigentes em meados de set/2025 [M853, p. 63, 66]. Logo, o V3.1 custava mais que o V3 de mar/2025 (US$ 0,27/US$ 1,10 no horário padrão): alta entre versões, desfeita em parte pelo corte de 29/09/2025.",
+        "DeepSeek V4 (2026): a cópia do Wayback de 25/04/2026 (https://web.archive.org/web/20260425165822/https://api-docs.deepseek.com/quick_start/pricing), não catalogada e conferida na verificação, mostra o V4-Pro a US$ 1,74/US$ 3,48 com desconto temporário de 75% (US$ 0,435/US$ 0,87) até 05/05/2026. A Caixin (25/05/2026, imprensa, https://www.caixinglobal.com/2026-05-25/deepseek-cuts-flagship-ai-model-prices-by-75-as-funding-round-looms-102447441.html; não conferida) noticiou que o desconto virou preço padrão (anúncio de 22/05/2026); a cópia de 02/07/2026 já mostra US$ 0,435/US$ 0,87 sem aviso de promoção. Em 13/08/2026 a DeepSeek lançou a versão final do V4-Pro e anunciou novos preços, com tarifa de pico e fora de pico (fora do pico, metade do preço), vigentes desde as 16h UTC de 16/08/2026 (nota oficial https://api-docs.deepseek.com/news/news260813; valores fora do texto). Em 10/09/2026 lançou o V4.1-Flash dizendo repassar a economia, com preços novos desde as 04h UTC de 10/09/2026; aposentou o V4-Flash e disse que, desde as 04h UTC de 14/09/2026, todas as chamadas ao deepseek-v4-pro seriam atendidas pelo V4.1-Flash, ao preço do Flash, até o lançamento do V4.1-Pro (nota oficial https://api-docs.deepseek.com/news/news260910). Notas não catalogadas, conferidas na verificação. Conflito a esclarecer: a tabela de 14/10/2026 ainda lista o deepseek-v4-pro (versão V4-Pro-0813) a US$ 1,32/US$ 3,96 no pico. Cálculo nosso, entre versões diferentes: o V4-Pro-0813 no pico custa 3 vezes a entrada e 4,6 vezes a saída do V4-Pro de jul/2026; o V4.1-Flash no pico (US$ 0,30/US$ 1,20), 2,1 e 4,3 vezes o V4-Flash de jul/2026. Quem manteve o nome deepseek-v4-flash passou a pagar o preço do V4.1-Flash.",
+        "AI Index 2026 [M198]: não traz atualização textual da série de custo de inferência a desempenho constante (buscas por 'inference cost', 'inference price', 'per million tokens' e 'cheaper' sem resultado). A medida mais recente de Stanford continua a do AI Index 2025 [M230, p. 5, 13, 65]. O M198 traz receita anualizada e gasto com computação de OpenAI e Anthropic (p. 189-190), útil para a frente B, e a queda de mais de 99% no custo de computação em GPU desde 2006 (p. 41).",
+        "Jev: a data de lançamento (15/09/2026) só aparece em imprensa; os posts da TypeSafe não trazem data no texto. A rodada foi noticiada primeiro pela Bloomberg em 09/10/2026 (texto pago, não acessado; cópia sindicada em https://www.investing.com/news/stock-market-news/typesafe-ai-raises-870-million-led-by-andreessen-horowitz--bloomberg-93CH-4941303, conferida na verificação). Sede: a TypeSafe diz que o serviço roda na Costa Oeste dos EUA e o site traz 'Made in SF'; a sindicação da Bloomberg a descreve como empresa de São Francisco. Usuários e clientes (1 milhão de usuários; um terço da Fortune 500) são números declarados pela empresa. Ressalva: a a16z, que liderou a rodada, também assina o LLMflation e o estudo com a OpenRouter.",
+        "Jev é outra categoria de modelo (modelo de decisão, sem geração de texto): o preço de US$ 0,042 por milhão de tokens de entrada não se compara ao de modelos de conversa. A comparação só vale dentro da categoria (Decisions API da OpenAI com o GPT-6 Luna a US$ 0,10; Cloudflare Clef-flash a US$ 0,09), e nenhuma dessas opções cobra a saída. A OpenAI abriu a Decisions API 21 dias depois do lançamento do Jev. Não há declaração oficial da OpenAI sobre o motivo, mas a Let's Data Science (p. 2), citando a Fortune sobre um podcast, relata que um funcionário da OpenAI creditou ao Jev a inspiração do produto ('inspiring this whole thing'). É relato de segunda mão e trata do produto, não de preço.",
+        "Artificial Analysis: só as edições 'Highlights' dos relatórios trimestrais são públicas (a mais recente localizada é a do 3º tri de 2025); as versões completas são pagas (assinatura Premium). As URLs testadas para edições de 2026 não existem.",
+        "Guerra de preços na China (mai/2024): datas e percentuais vêm da imprensa (Yicai). Os anúncios oficiais de Volcano Engine, Alibaba Cloud, Baidu e Zhipu, em chinês, não foram salvos. A Yicai cita a High-Flyer, não a DeepSeek; a página oficial da DeepSeek de 28/05/2024 confirma US$ 0,14/US$ 0,28 por milhão, mas não traz o valor em yuan na versão impressa.",
+        "Faltou salvar: anúncio do GPT-4o (13/05/2024, 'metade do preço do GPT-4 Turbo'); a tabela atual mostra US$ 5/US$ 15 contra US$ 10/US$ 30. Anúncio do o3-mini (31/01/2025, https://openai.com/index/openai-o3-mini/), lido em 14/10/2026 mas não salvo por desafio anti-robô, diz que a OpenAI reduziu em 95% o preço por token desde o lançamento do GPT-4.",
+        "Altas de preço documentadas (H3 e H4), em dois tipos. (a) O mesmo modelo ou nome de API ficou mais caro: Gemini 4 Argon e Gemini 3.8 Flash, com aumento de 100% já marcado (dez/2026 e jan/2027); Gemini 2.5 Flash da prévia para a versão estável (entrada de US$ 0,15 para US$ 0,30, com a saída com raciocínio caindo de US$ 3,50 para US$ 2,50; fonte não catalogada); o nome deepseek-v4-flash, cobrado em out/2026 ao preço do V4.1-Flash, acima do de jul/2026; e o aumento do Sonnet 5 para US$ 3/US$ 15, programado e cancelado. (b) O sucessor na mesma faixa saiu mais caro: Claude 3 Haiku para 3.5 Haiku; DeepSeek V3 (mar/2025) para V3.1 (set/2025) [M853, p. 66]; Gemini 2.0 Flash para 2.5 Flash; Gemini 2.5 Flash-Lite (US$ 0,10/US$ 0,40) para 3.1 Flash-Lite (US$ 0,25/US$ 1,50, p. 9-10 da página de 2026) e 3.5 Flash-Lite (US$ 0,30/US$ 2,50); série GPT-5 (US$ 1,25/US$ 10) a GPT-5.5 (US$ 5/US$ 30); novos topos GPT-6 Astra e Claude Fable (US$ 10/US$ 50). Ao mesmo tempo, as faixas econômicas novas (GPT-6 Luna, Haiku 5.5) chegaram a US$ 0,10/US$ 0,50. A queda é desigual por faixa.",
+        "Cálculos nossos úteis (não são evidência): preços por mil tokens convertidos para milhão (x 1.000): Davinci US$ 20 (dez/2022), gpt-3.5-turbo US$ 2 e GPT-4 8K US$ 30/US$ 60 (mar/2023); Davinci (US$ 20 por milhão, dez/2022) para gpt-3.5-turbo (US$ 2, mar/2023) = 10 vezes; GPT-4 8K (US$ 30/US$ 60) para gpt-4o atual (US$ 2,50/US$ 10) = 12 e 6 vezes; R1 (US$ 0,55/US$ 2,19, horário padrão de mar/2025) custava cerca de 1/27 do o1 (US$ 15/US$ 60, preço da tabela de out/2026) na entrada e na saída; Opus 4.1 (US$ 15/US$ 75) para Opus 4.5 (US$ 5/US$ 25) = -67%; Haiku 4.5 (US$ 1/US$ 5) para Haiku 5.5 (US$ 0,10/US$ 0,50) = -90% por token, menos por texto, porque o Haiku 5.5 usa o tokenizador novo (cerca de 30% mais tokens); Gemini 1.5 Flash antes do corte de ago/2024 ≈ US$ 0,34/US$ 1,03, pelos percentuais.",
+        "Medidas de preço não são homogêneas: AI Index e Artificial Analysis usam média ponderada 3:1 (entrada:saída); a a16z usa média simples e só modelos da OpenAI, da Anthropic e Llama; a Epoch combina Artificial Analysis e base própria; a OpenRouter usa o custo efetivo médio, já com cache; o CAISI/NIST mede o gasto por tarefa resolvida. Tokenizadores diferentes (ex.: cerca de 30% mais tokens nos Claude 4.7 em diante) mudam o preço efetivo por texto, e preços de lista não incluem descontos negociados, cache nem lote.",
+        "Para a frente B: limites rígidos de gasto da OpenAI (22/07/2026; limites de custo por projeto já existiam desde 15/05/2024, changelog p. 18), tarifa por horário da DeepSeek e o gasto ponta a ponta por tarefa do CAISI/NIST [M853, p. 14] são mecanismos e métricas de controle de gasto; o AI Index 2026 [M198, p. 189-190] traz o gasto com computação de OpenAI e Anthropic.",
+        "Comparações de custo do CAISI/NIST dependem da data do preço. Em set/2025 o CAISI usou o V3.1 a US$ 0,56/US$ 1,68 por milhão [M853, p. 66], preço que a DeepSeek cortou em mais de 50% em 29/09/2025 (nota do V3.2-Exp, p. 3). Em 2026 usou o V4 Pro a US$ 1,74/US$ 3,48 [M852, p. 7], quando vigorava desconto temporário de 75% (cópia do Wayback de 25/04/2026, não catalogada, conferida na verificação); em jul/2026 o preço com desconto já era o de lista (cópia de 02/07/2026). Os resultados de custo por tarefa (GPT-5-mini 35% mais barato que o V3.1; V4 Pro de 53% mais barato a 41% mais caro que o GPT-5.4 mini) não valem para os preços seguintes sem recálculo."
+      ]
+    },
+    {
+      "grupo": "Custo da IA: consumo, gasto e Brasil",
+      "pasta": "11_custo-da-ia",
+      "itens": [
+        {
+          "titulo": "Q1 2026 Prepared Remarks (comentários preparados dos resultados do 1º trimestre de 2026)",
+          "organizacao": "Uber Technologies",
+          "ano": "2026 (06/05/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "mobilidade e entregas (plataforma digital)",
+          "pais_regiao": "EUA/Global",
+          "url": "https://s23.q4cdn.com/407969754/files/doc_earnings/2026/q1/transcript/Uber-Q1-26-Prepared-Remarks.pdf",
+          "arquivo": "11_custo-da-ia/Uber_2026_q1-prepared-remarks.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3",
+            "F1"
+          ],
+          "metricas": [
+            "95% dos engenheiros usam ferramentas de programação com IA todo mês e mais de 10% do código é escrito de forma autônoma por agentes (declarado pela empresa, mai/2026) (p. 7)",
+            "Mais de 10% do código pronto para produção é conduzido de forma autônoma por agentes de programação com IA (p. 2)",
+            "Ganhos com IA permitem moderar o ritmo de contratações frente ao plano do início do ano (p. 7)"
+          ],
+          "resumo": "Documento oficial da Uber para investidores do 1º trimestre de 2026. É a fonte primária do número de 95% de uso mensal de ferramentas de programação com IA pelos engenheiros e da fatia de código escrita por agentes; não trata de orçamento nem de gasto com IA.",
+          "relevancia": "Confirma em fonte primária um dos números que circulam sobre o caso Uber (95%) e mostra o argumento de produtividade usado pela empresa."
+        },
+        {
+          "titulo": "Running a Software Factory Efficiently at Uber Scale (blog de engenharia)",
+          "organizacao": "Uber Technologies (Uber Engineering)",
+          "ano": "2026 (27/08/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "mobilidade e entregas (plataforma digital)",
+          "pais_regiao": "EUA/Global",
+          "url": "https://www.uber.com/us/en/blog/efficient-software-factory/",
+          "arquivo": "11_custo-da-ia/Uber_2026_efficient-software-factory-blog.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3",
+            "F2"
+          ],
+          "metricas": [
+            "Usuários ativos semanais das ofertas agênticas (engenheiros e não engenheiros) cresceram 7x e requisições semanais 9,4x de fev a ago/2026; gasto total com IA 'relativamente estabilizado' desde abril, segundo a empresa por otimizações (p. 2)",
+            "Com o modelo mantido constante (fev–jul/2026), custo por 1.000 requisições caiu quase 34% do pico e custo por sessão caiu 52% do pico de junho (p. 2)",
+            "Mais de 70% dos pull requests atribuídos a agentes locais ou na nuvem (p. 1)",
+            "Alertas em 50/80/100% do gasto esperado, faixa única de gasto para todas as ferramentas interativas e aprovação do gestor para subir de faixa (ago/2026; desenho diferente do teto por ferramenta noticiado em jun/2026) (p. 15)"
+          ],
+          "resumo": "Texto de engenharia da Uber que descreve como a empresa controlou o gasto com agentes de programação depois do pico de abril de 2026: decomposição do custo em seis fatores, escolha de modelo por benchmark interno, raciocínio 'médio' por padrão, cache, redução de tokens de ferramentas e painéis de custo. Todos os números são declarados pela empresa.",
+          "relevancia": "Fonte primária mais rica do caso Uber: mostra a curva de uso subindo 7x com gasto estabilizado e descreve práticas concretas de gestão do consumo (FinOps de IA)."
+        },
+        {
+          "titulo": "Uber Announces Results for Fourth Quarter and Full Year 2025 (Form 8-K, Exhibit 99.1)",
+          "organizacao": "Uber Technologies (SEC)",
+          "ano": "2026 (fev/2026; ref. 2025)",
+          "tipo_fonte": "empresa",
+          "setor": "mobilidade e entregas (plataforma digital)",
+          "pais_regiao": "EUA/Global",
+          "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000011/uberq425earningspressrelea.htm",
+          "arquivo": "11_custo-da-ia/Uber_2026_8k-q4-2025-earnings-press-release.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Despesa de P&D de US$ 3.402 milhões em 2025 contra US$ 3.109 milhões em 2024 (p. 11)"
+          ],
+          "resumo": "Release de resultados anuais de 2025 arquivado na SEC. Serve para conferir o número de P&D citado pela imprensa no caso Uber; não separa o gasto com IA.",
+          "relevancia": "Confirma o P&D de US$ 3,4 bilhões em 2025 e mostra que a Fortune errou ao escrever '3,4%'."
+        },
+        {
+          "titulo": "Uber burned through its entire 2026 AI budget in four months. Now its COO is questioning whether it's worth it",
+          "organizacao": "Fortune",
+          "ano": "2026 (26/05/2026)",
+          "tipo_fonte": "imprensa",
+          "setor": "mobilidade e entregas; IA",
+          "pais_regiao": "EUA",
+          "url": "https://fortune.com/2026/05/26/uber-coo-ai-spending-tokens-claude-code/",
+          "arquivo": "11_custo-da-ia/Fortune_2026_uber-coo-ai-spending.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3",
+            "F1"
+          ],
+          "metricas": [
+            "COO da Uber no podcast Rapid Response: ligação entre uso do Claude Code e funcionalidades úteis 'ainda não existe' (p. 3)",
+            "Relatos: orçamento de 2026 para ferramentas de programação com IA esgotado em quatro meses após ranking interno de uso (p. 3)",
+            "Cita a The Verge: Microsoft cancelando a maior parte das licenças diretas do Claude Code em mai/2026 (p. 3)",
+            "Afirma que a Anthropic trocou a taxa fixa por cobrança por uso; afirmação imprecisa, pois só o plano Enterprise cobra uso a preço de API, e Pro e Max seguem com preço fixo e limites (p. 6)"
+          ],
+          "resumo": "Reportagem que popularizou o caso Uber. Não traz a fonte original do estouro de orçamento (fala em 'relatos'), não cita o teto de US$ 1.500 e contém um erro de unidade no dado de P&D ('3,4%' em vez de US$ 3,4 bilhões).",
+          "relevancia": "Fonte de imprensa das falas do COO e das pistas sobre Microsoft e Anthropic; usar só como secundária."
+        },
+        {
+          "titulo": "Uber caps employee AI spending after blowing through budget in 4 months",
+          "organizacao": "TechCrunch",
+          "ano": "2026 (02/06/2026)",
+          "tipo_fonte": "imprensa",
+          "setor": "mobilidade e entregas; IA",
+          "pais_regiao": "EUA",
+          "url": "https://techcrunch.com/2026/06/02/uber-caps-employee-ai-spending-after-blowing-through-budget-in-four-months/",
+          "arquivo": "11_custo-da-ia/TechCrunch_2026_uber-caps-employee-ai-spending.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Teto mensal de US$ 1.500 por funcionário e por ferramenta de programação agêntica, segundo a Bloomberg (p. 2)",
+            "Em abril de 2026 o CTO revelou que a empresa consumiu em cerca de quatro meses todo o orçamento anual de IA, segundo a The Information (p. 2)"
+          ],
+          "resumo": "Nota de imprensa de referência que liga as duas reportagens originais do caso: a entrevista do CTO à The Information (abril de 2026) e a reportagem da Bloomberg sobre o teto de gasto (jun/2026; a TechCrunch não dá a data exata). Registra o painel interno de uso e as exceções mediante autorização.",
+          "relevancia": "Confirma em imprensa de referência a origem do estouro de orçamento e o teto de US$ 1.500 por ferramenta."
+        },
+        {
+          "titulo": "Uber CTO Shows How Claude Code Can Blow Up AI Budgets",
+          "organizacao": "The Information",
+          "ano": "2026 (abr/2026)",
+          "tipo_fonte": "imprensa",
+          "setor": "mobilidade e entregas; IA",
+          "pais_regiao": "EUA",
+          "url": "https://www.theinformation.com/newsletters/applied-ai/uber-cto-shows-claude-code-can-blow-ai-budgets",
+          "arquivo": "",
+          "status": "pago",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Título visível: 'Uber CTO Shows How Claude Code Can Blow Up AI Budgets' (web)"
+          ],
+          "resumo": "Reportagem original, atrás de paywall, citada pela TechCrunch como fonte do relato do CTO da Uber sobre o orçamento de IA de 2026 esgotado em poucos meses. Na consulta de 14/10/2026 só o título está visível; os números atribuídos a ela por outros sites (US$ 500 a 2.000 por engenheiro, 5.000 engenheiros) não puderam ser conferidos.",
+          "relevancia": "Fonte original do caso Uber; precisa de acesso pago para conferir os números."
+        },
+        {
+          "titulo": "How Uber uses AI for development: inside look",
+          "organizacao": "The Pragmatic Engineer (newsletter), sobre palestra de engenheiros da Uber no Pragmatic Summit",
+          "ano": "2026 (10/03/2026, atualizado em 11/03/2026)",
+          "tipo_fonte": "imprensa",
+          "setor": "mobilidade e entregas; engenharia de software",
+          "pais_regiao": "EUA",
+          "url": "https://newsletter.pragmaticengineer.com/p/how-uber-uses-ai-for-development",
+          "arquivo": "11_custo-da-ia/PragmaticEngineer_2026_how-uber-uses-ai-for-development.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3",
+            "F2"
+          ],
+          "metricas": [
+            "84% dos desenvolvedores da Uber são usuários de programação agêntica; Claude Code de 32% (dez/2025) para 63% (fev/2026) (p. 1)",
+            "92% usam agentes mensalmente, 65–72% do código em IDEs gerado por IA, 11% dos pull requests abertos por agentes (p. 3)",
+            "Custos relacionados à IA subiram 6x desde 2024 (p. 3)",
+            "Uber emprega 'quase 3.000 pessoas na função de tecnologia' (p. 2)"
+          ],
+          "resumo": "Newsletter especializada que resume a palestra de um engenheiro principal e de um diretor de engenharia da Uber (Pragmatic Summit, 2026), com números de adoção atualizados pela empresa em março de 2026. Parte do texto é paga.",
+          "relevancia": "Origem dos números de adoção que circulam no caso Uber e do dado de custos de IA 6 vezes maiores desde 2024."
+        },
+        {
+          "titulo": "GitHub Copilot is moving to usage-based billing",
+          "organizacao": "GitHub (Microsoft)",
+          "ano": "2026 (27/04/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "software (ferramentas de programação com IA)",
+          "pais_regiao": "EUA/Global",
+          "url": "https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/",
+          "arquivo": "11_custo-da-ia/GitHub_2026_copilot-usage-based-billing.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Todos os planos do Copilot passam a cobrança por uso em 01/06/2026, com créditos mensais de IA (p. 1)",
+            "Uma pergunta rápida e uma sessão autônoma de horas podiam custar o mesmo; o GitHub vinha absorvendo grande parte do custo crescente de inferência (p. 2)",
+            "Preços dos planos mantidos: Business US$ 19 e Enterprise US$ 39 por usuário/mês, com créditos no mesmo valor (p. 3-4)",
+            "Orçamentos por empresa, centro de custo e usuário (p. 4)"
+          ],
+          "resumo": "Anúncio oficial do diretor de produto do GitHub sobre a troca das 'requisições premium' por créditos de IA consumidos por token. A justificativa é o custo do uso agêntico.",
+          "relevancia": "Exemplo oficial de fornecedor que passa a repassar ao usuário intensivo o custo dos agentes e admite ter absorvido custo de inferência."
+        },
+        {
+          "titulo": "Clarifying our pricing (Esclarecendo nossos preços)",
+          "organizacao": "Cursor (Anysphere)",
+          "ano": "2025 (04/07/2025)",
+          "tipo_fonte": "empresa",
+          "setor": "software (ferramentas de programação com IA)",
+          "pais_regiao": "EUA/Global",
+          "url": "https://cursor.com/blog/june-2025-pricing",
+          "arquivo": "11_custo-da-ia/Cursor_2025_clarifying-our-pricing.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Plano Pro trocou o limite de 500 requisições/mês por US$ 20 de uso de modelos de ponta a preço de API em 16/06/2025 (p. 1-2)",
+            "Requisições mais complexas custam uma ordem de grandeza a mais que as simples (p. 2)",
+            "Reembolso de cobranças inesperadas entre 16/06 e 04/07/2025 (p. 2)"
+          ],
+          "resumo": "Post oficial do CEO do Cursor que explica e pede desculpas pela mudança do plano Pro de cobrança por requisição para cobrança por uso a preço de API. A cópia impressa saiu na versão em português da página.",
+          "relevancia": "Marca o início, em 2025, da troca de limite fixo por cobrança por uso nas ferramentas de programação com IA."
+        },
+        {
+          "titulo": "Anthropic unveils new rate limits to curb Claude Code power users",
+          "organizacao": "TechCrunch",
+          "ano": "2025 (28/07/2025)",
+          "tipo_fonte": "imprensa",
+          "setor": "IA (laboratório de modelos)",
+          "pais_regiao": "EUA",
+          "url": "https://techcrunch.com/2025/07/28/anthropic-unveils-new-rate-limits-to-curb-claude-code-power-users/",
+          "arquivo": "11_custo-da-ia/TechCrunch_2025_anthropic-rate-limits-claude-code.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Limites semanais para os planos Pro (US$ 20) e Max (US$ 100 e US$ 200) a partir de 28/08/2025 (p. 2)",
+            "Limites afetariam menos de 5% dos assinantes; Max US$ 200: 240–480 h de Sonnet 4 e 24–40 h de Opus 4 por semana (p. 3)"
+          ],
+          "resumo": "Reportagem com o anúncio da Anthropic (e-mail aos assinantes e post na rede X) dos limites semanais de uso, motivados por uso contínuo do Claude Code em segundo plano e por compartilhamento e revenda de contas. Assinantes do Max podem comprar uso além do limite a preço de API.",
+          "relevancia": "Data e números do primeiro limite semanal em ferramenta de programação com IA; o anúncio oficial original não foi localizado em página da empresa."
+        },
+        {
+          "titulo": "How am I billed for my Enterprise plan? (Central de Ajuda do Claude)",
+          "organizacao": "Anthropic",
+          "ano": "2026 (consulta em 14/10/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "IA (laboratório de modelos)",
+          "pais_regiao": "EUA/Global",
+          "url": "https://support.claude.com/en/articles/11526368-how-am-i-billed-for-my-enterprise-plan",
+          "arquivo": "11_custo-da-ia/Anthropic_2026_enterprise-plan-billing-help.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Taxa de assento não inclui uso; cada token é cobrado à parte a preço padrão de API (p. 2)",
+            "Assentos legados com uso incluído não são mais oferecidos a novos contratos e migram na renovação (p. 1)",
+            "Inferência só nos EUA cobrada a 1,1x a tarifa de API (p. 2)"
+          ],
+          "resumo": "Página oficial que descreve o plano Enterprise atual: assento fixo mais uso cobrado por token, limites de gasto por organização e por usuário, e transição dos assentos legados. Não informa a data da mudança.",
+          "relevancia": "Confirma na fonte oficial a cobrança por uso no plano corporativo da Anthropic citada pela Fortune."
+        },
+        {
+          "titulo": "Plans & pricing (Claude)",
+          "organizacao": "Anthropic",
+          "ano": "2026 (consulta em 14/10/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "IA (laboratório de modelos)",
+          "pais_regiao": "EUA/Global",
+          "url": "https://claude.com/pricing",
+          "arquivo": "11_custo-da-ia/Anthropic_2026_claude-plans-pricing-page.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Enterprise: US$ 20 por assento/mês mais uso cobrado a preço de API (p. 11)",
+            "Planos pagos têm limites semanais além das janelas de cinco horas; a empresa pode impor limites semanais e mensais (p. 11)"
+          ],
+          "resumo": "Página oficial de planos e preços, com cópia datada. Registra a lógica atual: assinaturas com limites de uso (janelas de 5 horas e semanais) e, no plano corporativo, assento mais consumo a preço de API.",
+          "relevancia": "Cópia datada do modelo de cobrança atual; útil para comparar com 2025 e para a nota sobre limites de uso."
+        },
+        {
+          "titulo": "Pricing (Codex e ChatGPT Work — créditos e limites de uso)",
+          "organizacao": "OpenAI",
+          "ano": "2026 (consulta em 14/10/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "IA (laboratório de modelos)",
+          "pais_regiao": "EUA/Global",
+          "url": "https://learn.chatgpt.com/docs/pricing",
+          "arquivo": "11_custo-da-ia/OpenAI_2026_codex-pricing-credits.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Créditos são a unidade de pagamento do uso; ao esgotar a franquia, créditos permitem continuar (p. 6)",
+            "Limites semanais podem se aplicar; Enterprise/Edu com preço flexível não têm limite fixo e o uso escala em créditos (p. 4)"
+          ],
+          "resumo": "Documentação oficial de preços do Codex com tabela de créditos por milhão de tokens por modelo. Mostra que a OpenAI também adota franquia com limites e cobrança adicional por consumo nas ferramentas de programação. A data da mudança para créditos não consta da página.",
+          "relevancia": "Mostra que a migração para cobrança por consumo não é só da Anthropic e do GitHub."
+        },
+        {
+          "titulo": "Reasoning models (guia da API)",
+          "organizacao": "OpenAI",
+          "ano": "2026 (consulta em 14/10/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "IA (laboratório de modelos)",
+          "pais_regiao": "EUA/Global",
+          "url": "https://developers.openai.com/api/docs/guides/reasoning",
+          "arquivo": "11_custo-da-ia/OpenAI_2026_reasoning-models-guide.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Tokens de raciocínio não aparecem na API, mas ocupam a janela de contexto e são cobrados como saída (p. 6)",
+            "De algumas centenas a dezenas de milhares de tokens de raciocínio por problema; reservar ao menos 25.000 tokens (p. 6)"
+          ],
+          "resumo": "Documentação oficial da OpenAI sobre modelos de raciocínio, com a regra de cobrança dos tokens de raciocínio e o alerta de cobrança sem resposta visível quando o limite é atingido.",
+          "relevancia": "Fonte oficial de que o raciocínio é cobrado como saída, a tarifa mais cara."
+        },
+        {
+          "titulo": "Steering thinking (custos e preços do raciocínio do Claude)",
+          "organizacao": "Anthropic",
+          "ano": "2026 (consulta em 14/10/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "IA (laboratório de modelos)",
+          "pais_regiao": "EUA/Global",
+          "url": "https://platform.claude.com/docs/en/build-with-claude/thinking-steering-and-cost",
+          "arquivo": "11_custo-da-ia/Anthropic_2026_thinking-steering-and-cost-docs.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Tokens de raciocínio cobrados como saída; blocos de turnos anteriores mantidos no contexto cobrados como entrada (p. 6)",
+            "Contagem cobrada não coincide com a visível: cobra-se o raciocínio completo, não o resumo (p. 6)"
+          ],
+          "resumo": "Documentação oficial da Anthropic sobre o raciocínio adaptativo, o parâmetro de esforço e as regras de cobrança.",
+          "relevancia": "Segunda fonte oficial de que o raciocínio é cobrado como saída e de que o cliente não vê tudo o que paga."
+        },
+        {
+          "titulo": "How we built our multi-agent research system",
+          "organizacao": "Anthropic (Engineering)",
+          "ano": "2025 (13/06/2025)",
+          "tipo_fonte": "empresa",
+          "setor": "IA (laboratório de modelos)",
+          "pais_regiao": "EUA/Global",
+          "url": "https://www.anthropic.com/engineering/multi-agent-research-system",
+          "arquivo": "11_custo-da-ia/Anthropic_2025_multi-agent-research-system.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Agentes usam cerca de 4x mais tokens que chats; sistemas multiagente cerca de 15x (p. 3)",
+            "Uso de tokens explica 80% da variância de desempenho no BrowseComp (p. 3)"
+          ],
+          "resumo": "Texto de engenharia sobre o sistema de pesquisa multiagente do Claude, com medição de consumo de tokens por tipo de interação e o alerta de que a viabilidade econômica depende do valor da tarefa.",
+          "relevancia": "Mede, em fonte do próprio fornecedor, o multiplicador de tokens por tarefa de agentes e multiagentes."
+        },
+        {
+          "titulo": "LLM responses to benchmark questions are getting longer over time (Data Insight)",
+          "organizacao": "Epoch AI",
+          "ano": "2025 (17/04/2025)",
+          "tipo_fonte": "outro",
+          "setor": "IA (pesquisa)",
+          "pais_regiao": "Global",
+          "url": "https://epoch.ai/data-insights/output-length",
+          "arquivo": "11_custo-da-ia/EpochAI_2025_llm-output-length-growing.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Respostas de modelos de raciocínio crescem cerca de 5x por ano (IC 90%: 2 a 10x), contra 2,2x nos demais (p. 1-2)",
+            "Modelos de raciocínio usam em média cerca de 8x mais tokens (p. 1)"
+          ],
+          "resumo": "Análise do Epoch AI sobre o tamanho das respostas em três benchmarks (GPQA Diamond, MATH nível 5 e OTIS Mock AIME 2024-2025), com dados do Benchmarking Hub do Epoch.",
+          "relevancia": "Série independente do crescimento de tokens por tarefa, base para H2."
+        },
+        {
+          "titulo": "Holistic Agent Leaderboard: The Missing Infrastructure for AI Agent Evaluation",
+          "organizacao": "Princeton University e coautores (HAL)",
+          "ano": "2025 (13/10/2025, arXiv 2510.11977)",
+          "tipo_fonte": "academia",
+          "setor": "IA (avaliação de agentes)",
+          "pais_regiao": "EUA/Global",
+          "url": "https://arxiv.org/abs/2510.11977",
+          "arquivo": "11_custo-da-ia/Princeton_2025_holistic-agent-leaderboard-hal.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "21.730 execuções de agentes em 9 modelos e 9 benchmarks por cerca de US$ 40.000 (p. 1)",
+            "Em 21 de 36 combinações, mais esforço de raciocínio deu acurácia igual ou menor (p. 7)",
+            "Custo médio por avaliação de US$ 13 a mais de US$ 450 conforme o benchmark (p. 8)"
+          ],
+          "resumo": "Artigo acadêmico que padroniza a avaliação de agentes com registro de custo em dólar e em tokens, e mostra que o modelo mais caro raramente está na fronteira de acurácia por custo.",
+          "relevancia": "Evidência acadêmica de custo por tarefa de agentes e de que mais raciocínio não garante melhor resultado."
+        },
+        {
+          "titulo": "Do NOT Think That Much for 2+3=? On the Overthinking of o1-Like LLMs",
+          "organizacao": "Tencent AI Lab e Shanghai Jiao Tong University",
+          "ano": "2024 (dez/2024)",
+          "tipo_fonte": "academia",
+          "setor": "IA (pesquisa)",
+          "pais_regiao": "China",
+          "url": "https://arxiv.org/abs/2412.21187",
+          "arquivo": "11_custo-da-ia/Tencent-SJTU_2024_overthinking-o1-like-llms.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Modelos do tipo o1 consumiram em média 1.953% mais tokens que modelos convencionais para responder '2 mais 3' (p. 2)"
+          ],
+          "resumo": "Artigo que mede o 'excesso de raciocínio' de modelos de raciocínio em problemas simples e propõe formas de reduzir os tokens gastos.",
+          "relevancia": "Medida acadêmica do consumo extra de tokens dos modelos de raciocínio em tarefas triviais."
+        },
+        {
+          "titulo": "2025: The State of Generative AI in the Enterprise",
+          "organizacao": "Menlo Ventures",
+          "ano": "2025 (09/12/2025)",
+          "tipo_fonte": "analista/big tech",
+          "setor": "IA (mercado corporativo)",
+          "pais_regiao": "EUA",
+          "url": "https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise/",
+          "arquivo": "11_custo-da-ia/MenloVentures_2025_state-of-genai-enterprise.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3",
+            "F1"
+          ],
+          "metricas": [
+            "Gasto empresarial com IA generativa de US$ 37 bi em 2025, 3,2x os US$ 11,5 bi de 2024; exclui chips, inferência e serviço de modelos em nuvem e IA embutida em software existente (p. 2)",
+            "Programação: US$ 4,0 bi, 55% do gasto departamental (p. 7)",
+            "Anthropic com 40% do gasto com APIs de LLM e 54% em programação, segundo a Menlo, investidora da Anthropic (p. 12)",
+            "Pesquisa com 495 decisores dos EUA, 7–25/11/2025 (p. 18)"
+          ],
+          "resumo": "Relatório anual do fundo de venture capital Menlo Ventures, que combina pesquisa com 495 decisores dos EUA e modelo de mercado. O total de 2025 exclui chips, inferência e serviço de modelos em nuvem e recursos de IA embutidos em software existente; as séries de 2023–2024 foram refeitas sem inferência. A Menlo é investidora da Anthropic (marcada com asterisco como empresa investida), e as previsões para 2026 (p. 16-17) são opinião, não medição.",
+          "relevancia": "Principal dimensionamento público do gasto empresarial com IA generativa; marcar o conflito de interesse do autor."
+        },
+        {
+          "titulo": "2025 Mid-Year LLM Market Update: Foundation Model Landscape + Economics",
+          "organizacao": "Menlo Ventures",
+          "ano": "2025 (31/07/2025)",
+          "tipo_fonte": "analista/big tech",
+          "setor": "IA (mercado de modelos)",
+          "pais_regiao": "EUA",
+          "url": "https://menlovc.com/perspective/2025-mid-year-llm-market-update/",
+          "arquivo": "11_custo-da-ia/MenloVentures_2025_mid-year-llm-market-update.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Gasto com APIs de modelos de US$ 3,5 bi (nov/2024) para US$ 8,4 bi (meados de 2025); exclui receita de produtos como ChatGPT, Claude for Work e Claude Code (p. 1)",
+            "Mesmo com quedas de 10x no preço, empresas migram para o modelo de melhor desempenho em vez de usar os antigos (p. 6)",
+            "Só 11% trocaram de fornecedor; 66% atualizaram dentro do mesmo (p. 5)"
+          ],
+          "resumo": "Atualização de meio de ano do fundo de venture capital Menlo Ventures, com pesquisa de 150 líderes técnicos (30/06 a 10/07/2025). O gasto com APIs exclui a receita dos laboratórios com produtos como ChatGPT, Claude for Work e Claude Code. A Menlo é investidora da Anthropic e cita também a OpenRouter entre as empresas de infraestrutura que apoia (p. 7).",
+          "relevancia": "Evidência de que a queda de preço por modelo não reduz o gasto: a demanda migra para o modelo de ponta."
+        },
+        {
+          "titulo": "How 100 Enterprise CIOs Are Building and Buying Gen AI in 2025",
+          "organizacao": "Andreessen Horowitz (a16z)",
+          "ano": "2025 (10/06/2025)",
+          "tipo_fonte": "analista/big tech",
+          "setor": "IA (mercado corporativo)",
+          "pais_regiao": "EUA/Global",
+          "url": "https://a16z.com/ai-enterprise-2025/",
+          "arquivo": "11_custo-da-ia/a16z_2025_100-enterprise-cios-gen-ai.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3",
+            "F2"
+          ],
+          "metricas": [
+            "CIOs esperam crescimento médio de cerca de 75% no orçamento de LLMs no ano seguinte (p. 2)",
+            "Orçamentos de inovação caíram de um quarto para 7% do gasto com LLMs (p. 3)",
+            "Custo dos modelos cai uma ordem de grandeza a cada 12 meses (p. 7)"
+          ],
+          "resumo": "Pesquisa do fundo de venture capital a16z com 100 CIOs de 15 setores e entrevistas com mais de duas dezenas de compradores. A a16z é investidora em empresas de IA.",
+          "relevancia": "Mostra o orçamento de IA saindo de verbas de inovação para linhas permanentes e crescendo acima do esperado."
+        },
+        {
+          "titulo": "August 2026 Ramp AI Index: Cracks in the AI thesis",
+          "organizacao": "Ramp (Ramp Economics Lab)",
+          "ano": "2026 (12/08/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "serviços financeiros (gestão de despesas)",
+          "pais_regiao": "EUA",
+          "url": "https://ramp.com/data/ai-index-august-2026",
+          "arquivo": "11_custo-da-ia/Ramp_2026_ai-index-august-2026.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Em jul/2026, 1% que mais gasta: mediana de US$ 7.400 por funcionário no mês com IA; empresa mediana: US$ 11,95 por funcionário no mês (p. 5)",
+            "43,5% das empresas pagavam a Anthropic e 39,7% a OpenAI (p. 2)",
+            "Modelo mais caro da Anthropic (~US$ 10 por milhão de tokens, unidade não especificada) com 6% dos tokens e 11,4% do gasto, nos dados do produto de gestão de tokens da Ramp (p. 4-5)"
+          ],
+          "resumo": "Índice mensal de adoção e gasto com IA baseado nas transações de cartões e pagamentos da Ramp. A Ramp vende cartões corporativos e um produto de gestão do gasto com tokens, fonte de parte dos dados.",
+          "relevancia": "Dado de gasto por funcionário em empresas reais e sinal de teto de disposição a pagar; marcar que o autor vende ferramenta de controle de gasto."
+        },
+        {
+          "titulo": "State of FinOps 2026 Report",
+          "organizacao": "FinOps Foundation",
+          "ano": "2026",
+          "tipo_fonte": "associação setorial",
+          "setor": "TI (gestão financeira de tecnologia)",
+          "pais_regiao": "Global",
+          "url": "https://data.finops.org/",
+          "arquivo": "11_custo-da-ia/FinOpsFoundation_2026_state-of-finops.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3",
+            "F2"
+          ],
+          "metricas": [
+            "98% gerenciam gasto com IA hoje ou nos próximos 12 meses, contra 63% em 2025 e 31% em 2024 (p. 6, 11)",
+            "1.192 respondentes, mais de US$ 83 bi em gasto anual com nuvem (p. 1)",
+            "Gestão de custos de IA é a habilidade mais desejada pelas equipes de FinOps (p. 4)"
+          ],
+          "resumo": "Sexta pesquisa anual da comunidade de FinOps (projeto da Linux Foundation; relatório sob licença CC BY 4.0). Os respondentes são praticantes de FinOps. Registra a entrada do gasto com IA no escopo das equipes, os desafios de visibilidade, alocação e retorno e o pedido de monitoramento por token e por GPU.",
+          "relevancia": "Mostra a gestão do gasto com IA virando prática corrente; insumo para a capacidade de FinOps de IA no roadmap."
+        },
+        {
+          "titulo": "Flexera 2026 AI Pulse Report: Adoption, spend and risk",
+          "organizacao": "Flexera",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "software (gestão de ativos e gastos de TI)",
+          "pais_regiao": "Global",
+          "url": "https://info.flexera.com/FLX1-REPORT-AI-Pulse",
+          "arquivo": "11_custo-da-ia/Flexera_2026_ai-pulse-report.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "80% aumentaram investimentos em IA; 36% gastaram demais com aplicações de IA; 14% relatam desperdício (p. 7)",
+            "30% apontam custo e imprevisibilidade das cargas de IA na nuvem como principal desafio (p. 9)"
+          ],
+          "resumo": "Relatório de acesso aberto que reúne dados das pesquisas State of the Cloud 2026 e IT Priorities 2026 da Flexera. A Flexera vende plataforma de gestão de gastos e ativos de TI, inclusive FinOps.",
+          "relevancia": "Dado de excesso de gasto e desperdício com IA; marcar que o autor vende ferramenta de controle de custo."
+        },
+        {
+          "titulo": "Gartner Predicts That by 2030, Performing Inference on an LLM With 1 Trillion Parameters Will Cost GenAI Providers Over 90% Less Than in 2025",
+          "organizacao": "Gartner",
+          "ano": "2026 (25/03/2026)",
+          "tipo_fonte": "analista/big tech",
+          "setor": "TI (análise de mercado)",
+          "pais_regiao": "Global",
+          "url": "https://www.gartner.com/en/newsroom/press-releases/2026-03-25-gartner-predicts-that-by-2030-performing-inference-on-an-llm-with-1-trillion-parameters-will-cost-genai-providers-over-90-percent-less-than-in-2025",
+          "arquivo": "11_custo-da-ia/Gartner_2026_inference-cost-90pct-less-2030.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Inferência num LLM de 1 trilhão de parâmetros custará aos provedores mais de 90% menos em 2030 que em 2025 (p. 1)",
+            "Queda do custo do token não será repassada integralmente aos clientes (p. 1)",
+            "Modelos agênticos exigem 5 a 30x mais tokens por tarefa que um chatbot (p. 2)"
+          ],
+          "resumo": "Comunicado do Gartner que separa a queda do custo do token (para o provedor) do custo total para o cliente, que tende a subir com o consumo. Cópia gerada a partir do HTML oficial, porque a impressão direta foi bloqueada.",
+          "relevancia": "Formulação de analista que resume H2: preço unitário cai, conta total sobe."
+        },
+        {
+          "titulo": "Gartner Predicts AI Inference Costs Per Agentic Workflow Will Increase More Than Fivefold Through 2028",
+          "organizacao": "Gartner",
+          "ano": "2026 (17/08/2026)",
+          "tipo_fonte": "analista/big tech",
+          "setor": "TI (análise de mercado)",
+          "pais_regiao": "Global",
+          "url": "https://www.gartner.com/en/newsroom/press-releases/2026-08-17-gartner-predicts-ai-inference-costs-per-agentic-workflow-will-increase-more-than-fivefold-through-2028",
+          "arquivo": "11_custo-da-ia/Gartner_2026_inference-cost-agentic-workflow-fivefold.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Custo de inferência por fluxo agêntico deve subir mais de 5x até 2028 (p. 1)",
+            "Agente de raciocínio eleva o custo de inferência do provedor em pelo menos 5x frente a um chatbot básico (p. 2)"
+          ],
+          "resumo": "Comunicado que define o 'paradoxo da inferência': melhor economia unitária elevando o custo total sem caminho claro para valor proporcional. Cópia gerada a partir do HTML oficial.",
+          "relevancia": "Projeção de custo por tarefa agêntica, central para H2."
+        },
+        {
+          "titulo": "Gartner Predicts GenAI Cost Per Resolution for Customer Service Will Exceed Offshore Human Agent Costs by 2030",
+          "organizacao": "Gartner",
+          "ano": "2026 (26/01/2026)",
+          "tipo_fonte": "analista/big tech",
+          "setor": "atendimento ao cliente",
+          "pais_regiao": "Global",
+          "url": "https://www.gartner.com/en/newsroom/press-releases/2026-01-26-gartner-predicts-genai-cost-per-resolution-for-customer-service-will-exceed-offshore-human-agent-costs-by-2030",
+          "arquivo": "11_custo-da-ia/Gartner_2026_genai-cost-per-resolution-customer-service.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3",
+            "F1"
+          ],
+          "metricas": [
+            "Custo por resolução de IA generativa no atendimento passará de US$ 3 até 2030 (p. 1)",
+            "Causas: data centers mais caros, fim do crescimento subsidiado dos fornecedores e casos de uso que consomem mais tokens (p. 1)"
+          ],
+          "resumo": "Comunicado do Gartner que prevê custo por atendimento com IA acima do de atendentes humanos offshore em B2C. Cópia gerada a partir do HTML oficial.",
+          "relevancia": "Une H2 e H4: mais tokens por caso e fim do preço subsidiado."
+        },
+        {
+          "titulo": "Gartner Says Over $3.5 Trillion of AI Infrastructure Spending Could Be Exposed to Impairment by the End of 2030",
+          "organizacao": "Gartner",
+          "ano": "2026 (14/10/2026)",
+          "tipo_fonte": "analista/big tech",
+          "setor": "TI (infraestrutura de IA)",
+          "pais_regiao": "Global",
+          "url": "https://www.gartner.com/en/newsroom/press-releases/2026-10-14-gartner-says-over-us-dollars-three-and-a-half-trillion-of-artificial-intelligence-infrastructure-spending-could-be-exposed-to-impairment-by-the-end-of-2030",
+          "arquivo": "11_custo-da-ia/Gartner_2026_ai-infrastructure-impairment-3-5-trillion.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Mais de US$ 3,5 tri de gasto em infraestrutura de IA expostos a baixa contábil até 2030 (p. 1)",
+            "Seriam necessários US$ 8,5 tri de receita até 2030; a receita atribuível não deve passar de US$ 3,6 tri (p. 1)",
+            "Mais de 80% dos provedores 'neocloud' deixariam de operar de forma independente até 2030 (p. 1-2)"
+          ],
+          "resumo": "Comunicado do Gartner sobre o descompasso entre capex de infraestrutura de IA e receita de IA, com risco de baixas contábeis e consolidação. Projeção de analista, não dado realizado. Cópia gerada a partir do HTML oficial.",
+          "relevancia": "Sinal de analista de que o preço atual pode não remunerar o capital investido (H4)."
+        },
+        {
+          "titulo": "Form 10-Q — trimestre encerrado em 30/09/2025 (1º tri do ano fiscal 2026)",
+          "organizacao": "Microsoft (SEC)",
+          "ano": "2025 (29/10/2025)",
+          "tipo_fonte": "empresa",
+          "setor": "tecnologia (nuvem e software)",
+          "pais_regiao": "EUA/Global",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525256321/msft-20250930.htm",
+          "arquivo": "11_custo-da-ia/Microsoft_2025_form-10q-q1-fy26.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Perdas líquidas de US$ 4,1 bi com investimentos na OpenAI no trimestre, principalmente por equivalência patrimonial (p. 11)",
+            "Efeito de -US$ 3,1 bi no lucro líquido e -US$ 0,41 no lucro por ação (p. 33)",
+            "Compromisso de US$ 13 bi na OpenAI, US$ 11,6 bi desembolsados (p. 9)",
+            "Margem bruta da Microsoft Cloud caiu para 68% pela expansão da infraestrutura de IA (p. 32)"
+          ],
+          "resumo": "Formulário trimestral à SEC (PDF da página de relações com investidores). Traz o reconhecimento das perdas da OpenAI pelo método de equivalência patrimonial no último trimestre antes da recapitalização da OpenAI.",
+          "relevancia": "Indício documental de que a OpenAI operava com prejuízo em 2025: a Microsoft reconhece sua parte no resultado da OpenAI pelo método de equivalência patrimonial. O tamanho do prejuízo da OpenAI não pode ser derivado do 10-Q (H4)."
+        },
+        {
+          "titulo": "Form 10-K — ano fiscal encerrado em 30/06/2026",
+          "organizacao": "Microsoft (SEC)",
+          "ano": "2026 (29/07/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "tecnologia (nuvem e software)",
+          "pais_regiao": "EUA/Global",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000789019/000119312526323660/msft-20260630.htm",
+          "arquivo": "11_custo-da-ia/Microsoft_2026_form-10k-fy26.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Investimentos na OpenAI: perdas de US$ 1,5 bi (AF2024) e US$ 4,8 bi (AF2025); ganho de US$ 6,5 bi (AF2026), principalmente de diluição, que não indica lucro da OpenAI (p. 62)",
+            "Margem bruta da Microsoft Cloud caiu para 66% por investimentos em infraestrutura de IA (p. 37)",
+            "Adições a imobilizado (capex total, não só IA) de US$ 115.948 milhões no AF2026, contra US$ 64.551 milhões no AF2025 (p. 53)",
+            "Receita de US$ 24,1 bi com acordos comerciais com a OpenAI no AF2026; participação de cerca de 25% (p. 60)"
+          ],
+          "resumo": "Relatório anual à SEC (PDF da página de relações com investidores). Mostra a série de perdas e ganhos da Microsoft com o investimento na OpenAI (equivalência patrimonial, calculada pelo método HLBV), com ganhos de diluição em 2026 que não indicam lucro da OpenAI, a receita da Microsoft com a própria OpenAI e o peso do investimento em infraestrutura de IA nas margens.",
+          "relevancia": "Fonte primária para a série de resultados da OpenAI vista pelo investidor e para o custo de infraestrutura no fornecedor de nuvem."
+        },
+        {
+          "titulo": "Um negócio que escala com o valor da inteligência (A business that scales with the value of intelligence)",
+          "organizacao": "OpenAI",
+          "ano": "2026 (18/01/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "IA (laboratório de modelos)",
+          "pais_regiao": "EUA/Global",
+          "url": "https://openai.com/pt-BR/index/a-business-that-scales-with-the-value-of-intelligence/",
+          "arquivo": "11_custo-da-ia/OpenAI_2026_negocio-que-escala-com-valor-da-inteligencia.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Computação de 0,2 GW (2023) para 0,6 GW (2024) e ~1,9 GW (2025) (p. 2)",
+            "Receita anualizada de US$ 2 bi (2023), US$ 6 bi (2024) e mais de US$ 20 bi (2025) (p. 2)",
+            "Compromissos de computação assumidos com anos de antecedência; 'às vezes a capacidade vem antes do uso' (p. 4)"
+          ],
+          "resumo": "Texto oficial da CFO da OpenAI sobre o modelo de negócio: receita acompanhando a capacidade de computação, cobrança por uso para equipes e API, e disciplina de capital. Não informa margem nem resultado.",
+          "relevancia": "Declaração oficial de receita e computação de um laboratório; mostra o que é divulgado e o que não é (lucro)."
+        },
+        {
+          "titulo": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
+          "organizacao": "Anthropic",
+          "ano": "2026 (28/05/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "IA (laboratório de modelos)",
+          "pais_regiao": "EUA/Global",
+          "url": "https://www.anthropic.com/news/series-h",
+          "arquivo": "11_custo-da-ia/Anthropic_2026_series-h-run-rate-revenue.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Captação de US$ 65 bi com avaliação de US$ 965 bi (p. 1)",
+            "Receita anualizada acima de US$ 47 bi em mai/2026 (p. 1)",
+            "Acordos de até 5 GW com a Amazon e 5 GW de TPUs com Google e Broadcom (p. 2)"
+          ],
+          "resumo": "Anúncio oficial de rodada de investimento com dados de receita anualizada e de expansão de capacidade. Não informa margem nem resultado.",
+          "relevancia": "Mostra a escala do capital que financia a oferta e a receita declarada; insumo para H4."
+        },
+        {
+          "titulo": "OpenAI is losing money on its pricey ChatGPT Pro plan, CEO Sam Altman says",
+          "organizacao": "TechCrunch",
+          "ano": "2025 (05/01/2025)",
+          "tipo_fonte": "imprensa",
+          "setor": "IA (laboratório de modelos)",
+          "pais_regiao": "EUA",
+          "url": "https://techcrunch.com/2025/01/05/openai-is-losing-money-on-its-pricey-chatgpt-pro-plan-ceo-sam-altman-says/",
+          "arquivo": "11_custo-da-ia/TechCrunch_2025_openai-losing-money-chatgpt-pro.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "CEO da OpenAI: empresa perdia dinheiro com o ChatGPT Pro de US$ 200/mês porque o uso superou o previsto (p. 2)",
+            "Prejuízo esperado de ~US$ 5 bi sobre receita de US$ 3,7 bi em 2024, segundo reportagens (p. 2)"
+          ],
+          "resumo": "Reportagem sobre posts do CEO da OpenAI na rede X admitindo prejuízo no plano de assinatura fixa mais caro. Os números de prejuízo de 2024 vêm de outras reportagens, não de demonstração financeira.",
+          "relevancia": "Declaração do próprio fornecedor de preço fixo abaixo do custo para usuários intensivos (H4)."
+        },
+        {
+          "titulo": "Announcing up to 45% price reduction for Amazon EC2 NVIDIA GPU-accelerated instances",
+          "organizacao": "Amazon Web Services (AWS News Blog)",
+          "ano": "2025 (05/06/2025)",
+          "tipo_fonte": "empresa",
+          "setor": "nuvem (computação com GPU)",
+          "pais_regiao": "EUA/Global",
+          "url": "https://aws.amazon.com/blogs/aws/announcing-up-to-45-price-reduction-for-amazon-ec2-nvidia-gpu-accelerated-instances/",
+          "arquivo": "11_custo-da-ia/AWS_2025_ec2-gpu-price-reduction-45pct.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Redução de 44% no preço sob demanda da P5 (H100), 25% na P5en (H200) e 33% nas P4d/P4de (A100), frente a 31/05/2025 (p. 1)",
+            "Demanda por GPUs superando a oferta tornou-as escassas e caras (p. 1)"
+          ],
+          "resumo": "Anúncio oficial de corte de preço de instâncias com GPU em todas as regiões, válido para sob demanda e Savings Plans.",
+          "relevancia": "Sinal oficial de queda do preço de lista da hora de GPU em 2025."
+        },
+        {
+          "titulo": "H100 Rental Price Index — SDH100RT",
+          "organizacao": "Silicon Data",
+          "ano": "2026 (consulta em 14/10/2026; leitura de 13/10/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "dados de mercado de computação",
+          "pais_regiao": "Global",
+          "url": "https://www.silicondata.com/products/silicon-index/h100",
+          "arquivo": "11_custo-da-ia/SiliconData_2026_h100-rental-price-index.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "H100 a US$ 2,85 por GPU-hora (segmento neo-cloud) em 13/10/2026, alta de 7,1% em 7 dias (p. 1)",
+            "A100 US$ 1,52; H200 US$ 3,38; B200 US$ 5,95 por GPU-hora (p. 4)"
+          ],
+          "resumo": "Índice diário de preço de aluguel de GPU publicado por empresa de dados (A100 e B200 também têm ticker na Bloomberg). A página pública mostra só a leitura do dia e a variação de 7 dias, não a série histórica; o sentido da variação aparece só na cor do selo (verde para alta, vermelho para queda), perdida na extração de texto.",
+          "relevancia": "Única fonte pública datada do preço de mercado da hora de GPU; útil para comparar com preço de lista."
+        },
+        {
+          "titulo": "Solução de Consulta Cosit nº 191, de 23 de março de 2017 (IRRF e CIDE sobre Software as a Service)",
+          "organizacao": "Receita Federal do Brasil (Cosit)",
+          "ano": "2017 (DOU de 29/03/2017)",
+          "tipo_fonte": "governo",
+          "setor": "tributação (software e nuvem)",
+          "pais_regiao": "Brasil",
+          "url": "https://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=81598&visao=anotado",
+          "arquivo": "11_custo-da-ia/ReceitaFederal_2017_sc-cosit-191-saas-irrf-cide.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "IRRF de 15% sobre remessas ao exterior por SaaS, tratado como serviço técnico (p. 2)",
+            "CIDE de 10% sobre os valores remetidos por autorizações de uso e acesso a SaaS (p. 2)"
+          ],
+          "resumo": "Solução de consulta da Receita Federal que enquadra o SaaS contratado do exterior como serviço técnico, com IRRF e CIDE. Vincula a administração tributária; a aplicação a cada contrato depende dos fatos.",
+          "relevancia": "Base oficial da tributação federal sobre a contratação de software e nuvem do exterior."
+        },
+        {
+          "titulo": "RE 928.943 (Tema 914) — CIDE-Tecnologia: informação à sociedade",
+          "organizacao": "Supremo Tribunal Federal (STF)",
+          "ano": "2025 (13/08/2025)",
+          "tipo_fonte": "governo",
+          "setor": "tributação (remessas ao exterior)",
+          "pais_regiao": "Brasil",
+          "url": "https://www.stf.jus.br/arquivo/cms/noticiaNoticiaStf/anexo/InfoSociedadeRE928943.pdf",
+          "arquivo": "11_custo-da-ia/STF_2025_cide-tecnologia-tema-914-informacao-sociedade.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "STF validou por 6 a 5 a CIDE sobre serviços técnicos, assistência administrativa e direitos autorais do exterior, com ou sem transferência de tecnologia (p. 1, 3)"
+          ],
+          "resumo": "Resumo oficial do julgamento do Tema 914, que confirmou a constitucionalidade da CIDE-Tecnologia em sua forma ampliada, sem modulação registrada no resumo.",
+          "relevancia": "Confirma a validade da CIDE-Tecnologia sobre serviços técnicos contratados do exterior, base da cobrança sobre SaaS na SC Cosit 191/2017; o resumo do STF não trata de SaaS nem de alíquota."
+        },
+        {
+          "titulo": "Lei Complementar nº 214, de 16 de janeiro de 2025 (IBS, CBS e Imposto Seletivo)",
+          "organizacao": "Presidência da República (Planalto)",
+          "ano": "2025 (texto compilado consultado em 14/10/2026)",
+          "tipo_fonte": "governo",
+          "setor": "tributação (reforma do consumo)",
+          "pais_regiao": "Brasil",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "IBS e CBS incidem sobre a importação de serviços e bens imateriais cujo consumo ocorra no País; pela redação da LC 227/2026 (art. 64, § 1º), consumo no País pelo local da operação ou pelo domicílio do adquirente (arts. 63-64) (web)",
+            "Em 2026, CBS de 0,9% e IBS estadual de 0,1% (arts. 343 e 346), compensáveis com PIS/Cofins e com dispensa de recolhimento para quem cumpre obrigações acessórias (art. 348) (web)"
+          ],
+          "resumo": "Lei da reforma tributária do consumo, com as regras de IBS e CBS sobre importação de serviços e o calendário de transição. Texto compilado consultado em 14/10/2026, já com as alterações da LC 227/2026 (inclusive a nova redação do art. 64, § 1º); página oficial muito extensa, registrada sem cópia em PDF.",
+          "relevancia": "Base legal do efeito da reforma sobre a contratação de software e nuvem do exterior."
+        },
+        {
+          "titulo": "Lei nº 10.865, de 30 de abril de 2004 (PIS/Pasep-Importação e Cofins-Importação)",
+          "organizacao": "Presidência da República (Planalto)",
+          "ano": "2004 (texto compilado consultado em 14/10/2026)",
+          "tipo_fonte": "governo",
+          "setor": "tributação (importação de serviços)",
+          "pais_regiao": "Brasil",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/lei/l10.865.htm",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "PIS/Pasep-Importação de 1,65% e Cofins-Importação de 7,6% na importação de serviços (art. 8º, II); dispositivos revogados a partir de 01/01/2027 pela LC 214/2025, art. 542 (web)"
+          ],
+          "resumo": "Lei que institui as contribuições sobre a importação de bens e serviços, a serem substituídas pela CBS na transição da reforma.",
+          "relevancia": "Base legal das alíquotas de PIS/Cofins-Importação sobre serviços contratados do exterior."
+        },
+        {
+          "titulo": "Lei Complementar nº 116, de 31 de julho de 2003 (ISS)",
+          "organizacao": "Presidência da República (Planalto)",
+          "ano": "2003 (texto compilado consultado em 14/10/2026)",
+          "tipo_fonte": "governo",
+          "setor": "tributação (serviços)",
+          "pais_regiao": "Brasil",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "ISS incide sobre serviço proveniente do exterior; tomador responsável; alíquota máxima de 5% e mínima de 2% (arts. 1º, 6º, 8º e 8º-A); reduções de 2029 a 2032 (art. 8º-B) e revogação em 2033 (LC 214/2025, art. 543) (web)"
+          ],
+          "resumo": "Lei do ISS municipal, que alcança serviços importados e define as alíquotas mínima e máxima; será substituído pelo IBS na transição.",
+          "relevancia": "Base legal do ISS sobre serviços de tecnologia contratados do exterior."
+        },
+        {
+          "titulo": "E-book Reforma Tributária: aspectos práticos e oportunidades — Capítulo 4: IBS e CBS sobre importações e exportações",
+          "organizacao": "Rolim Goulart Cardoso Advogados",
+          "ano": "2025 (abr/2025)",
+          "tipo_fonte": "consultoria",
+          "setor": "tributação (reforma do consumo)",
+          "pais_regiao": "Brasil",
+          "url": "https://painel-website.rolim.com/wp-content/uploads/2025/04/Capitulo-4-IBS-e-CBS-sobre-Importacoes-e-Exportacoes-1.pdf",
+          "arquivo": "11_custo-da-ia/Rolim_2025_ebook-reforma-cap4-ibs-cbs-importacoes.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Alíquotas de IBS/CBS na importação de serviços iguais às do fornecimento no País (p. 4)",
+            "Adquirente é o contribuinte e, no regime regular, pode tomar crédito do IBS/CBS pago (p. 5)"
+          ],
+          "resumo": "Nota técnica de escritório de advocacia tributária sobre os arts. 63 a 83 da LC 214/2025, com as regras de importação de serviços e bens imateriais. É de abr/2025, anterior à LC 227/2026; as regras usadas nas evidências foram conferidas no texto compilado vigente.",
+          "relevancia": "Leitura de escritório de referência sobre como a reforma muda o custo de serviços importados (inclusive nuvem e IA)."
+        },
+        {
+          "titulo": "ABES critica aumento do IOF e alerta para impactos na inovação, competitividade e internacionalização do setor de software",
+          "organizacao": "ABES - Associação Brasileira das Empresas de Software",
+          "ano": "2025 (30/05/2025)",
+          "tipo_fonte": "associação setorial",
+          "setor": "software e serviços de TI",
+          "pais_regiao": "Brasil",
+          "url": "https://abes.org.br/abes-critica-aumento-do-iof-e-alerta-para-impactos-na-inovacao-competitividade-e-internacionalizacao-do-setor-de-software/",
+          "arquivo": "11_custo-da-ia/ABES_2025_critica-aumento-iof-software.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Segundo a ABES, IOF-câmbio sobre transferências ao exterior de 0,38% para 3,5% (Decreto 12.466/2025, depois substituído pelo 12.499/2025), inclusive para licenças de software e serviços de TI, desde 23/05/2025 (p. 1)"
+          ],
+          "resumo": "Nota da entidade do setor de software sobre o aumento do IOF nas remessas para pagamento de software e serviços de TI. Posição de associação, não parecer jurídico.",
+          "relevancia": "Mostra o efeito do IOF de 2025 sobre a contratação de software e nuvem do exterior."
+        },
+        {
+          "titulo": "Majoração do IOF — STF publica decisão cautelar restabelecendo a eficácia do Decreto nº 12.499/2025",
+          "organizacao": "Demarest Advogados",
+          "ano": "2025 (jul/2025)",
+          "tipo_fonte": "consultoria",
+          "setor": "tributação (IOF)",
+          "pais_regiao": "Brasil",
+          "url": "https://demarest.com.br/wp-content/uploads/2025/07/DEMAREST_Majoracao_IOF-Decisao_Cautelar_16_07_25_v2.pdf",
+          "arquivo": "11_custo-da-ia/Demarest_2025_majoracao-iof-decisao-cautelar-stf.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Decreto 12.499/2025 sustado pelo Decreto Legislativo 176/2025 e restabelecido por cautelar do STF em 16/07/2025, salvo 'risco sacado' (p. 2)",
+            "Remessas ao exterior não especificadas: IOF-câmbio de 0,38% para 3,5% (p. 5)"
+          ],
+          "resumo": "Nota técnica de escritório de advocacia com o histórico dos decretos do IOF de 2025 e as novas alíquotas por tipo de operação de câmbio.",
+          "relevancia": "Situação jurídica e alíquotas do IOF-câmbio aplicáveis às remessas por serviços do exterior."
+        },
+        {
+          "titulo": "Azure Retail Prices API — VM D4s v5 sob demanda em Brazil South e East US (cópia datada)",
+          "organizacao": "Microsoft (Azure)",
+          "ano": "2026 (consulta em 14/10/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "nuvem (computação)",
+          "pais_regiao": "Brasil/EUA",
+          "url": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20%27Virtual%20Machines%27%20and%20armSkuName%20eq%20%27Standard_D4s_v5%27%20and%20priceType%20eq%20%27Consumption%27%20and%20%28armRegionName%20eq%20%27brazilsouth%27%20or%20armRegionName%20eq%20%27eastus%27%29",
+          "arquivo": "11_custo-da-ia/Microsoft-Azure_2026_precos-vm-d4sv5-brazilsouth-eastus.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "D4s v5 Linux: US$ 0,306/h em Brazil South e US$ 0,192/h em East US (p. 1)",
+            "D4s v5 Windows: US$ 0,49/h em Brazil South e US$ 0,376/h em East US (p. 1)"
+          ],
+          "resumo": "Resposta da API pública oficial de preços de varejo da Azure, impressa em PDF na data da consulta.",
+          "relevancia": "Comparação oficial e datada do preço de computação em nuvem no Brasil e nos EUA."
+        },
+        {
+          "titulo": "Azure Retail Prices API — Azure OpenAI GPT-5 em Brazil South e East US 2 (cópia datada)",
+          "organizacao": "Microsoft (Azure)",
+          "ano": "2026 (consulta em 14/10/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "nuvem (IA generativa)",
+          "pais_regiao": "Brasil/EUA",
+          "url": "https://prices.azure.com/api/retail/prices?$filter=%28armRegionName%20eq%20%27brazilsouth%27%20or%20armRegionName%20eq%20%27eastus2%27%29%20and%20contains%28productName%2C%20%27OpenAI%27%29%20and%20%28contains%28skuName%2C%20%27GPT%205%20Inpt%27%29%20or%20contains%28skuName%2C%20%27GPT%205%20outpt%27%29%29",
+          "arquivo": "11_custo-da-ia/Microsoft-Azure_2026_precos-openai-gpt5-brazilsouth-eastus2.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "GPT-5 'Global': US$ 1,25 (entrada) e US$ 10 (saída) por milhão de tokens em Brazil South e East US 2 (p. 1)",
+            "GPT-5 'Data Zone' em East US 2: US$ 1,375 e US$ 11 por milhão de tokens (p. 1)"
+          ],
+          "resumo": "Resposta da API oficial de preços com o GPT-5 na Azure nas duas regiões. Mostra preço igual na implantação global e prêmio na implantação com residência de dados.",
+          "relevancia": "Mostra que o preço do token em si não muda na região brasileira quando a inferência é global."
+        },
+        {
+          "titulo": "AWS Price List — EC2 sob demanda, Linux, South America (São Paulo) (cópia datada)",
+          "organizacao": "Amazon Web Services",
+          "ano": "2026 (publicação de 12/10/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "nuvem (computação)",
+          "pais_regiao": "Brasil",
+          "url": "https://b0.p.awsstatic.com/pricing/2.0/meteredUnitMaps/ec2/USD/current/ec2-ondemand-without-sec-sel/South%20America%20(Sao%20Paulo)/Linux/index.json",
+          "arquivo": "11_custo-da-ia/AWS_2026_precos-ec2-ondemand-linux-sao-paulo.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "m6i.xlarge US$ 0,306/h (p. 63); g6.xlarge US$ 1,368/h (p. 18); p5.48xlarge US$ 92,4672/h (p. 39)"
+          ],
+          "resumo": "Arquivo público oficial de preços de EC2 sob demanda usado pela página de preços da AWS, impresso em PDF. O arquivo não traz a unidade do preço; os valores correspondem à hora de uso sob demanda (o p5.48xlarge na N. Virginia, US$ 55,04, é coerente com o corte de 44% anunciado pela AWS em jun/2025), e não informa o número de GPUs por instância.",
+          "relevancia": "Cópia datada do preço de computação, inclusive GPU, na região de São Paulo."
+        },
+        {
+          "titulo": "AWS Price List — EC2 sob demanda, Linux, US East (N. Virginia) (cópia datada)",
+          "organizacao": "Amazon Web Services",
+          "ano": "2026 (publicação de 12/10/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "nuvem (computação)",
+          "pais_regiao": "EUA",
+          "url": "https://b0.p.awsstatic.com/pricing/2.0/meteredUnitMaps/ec2/USD/current/ec2-ondemand-without-sec-sel/US%20East%20(N.%20Virginia)/Linux/index.json",
+          "arquivo": "11_custo-da-ia/AWS_2026_precos-ec2-ondemand-linux-n-virginia.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "m6i.xlarge US$ 0,192/h (p. 81); g6.xlarge US$ 0,8048/h (p. 32); p5.48xlarge US$ 55,04/h (p. 85)"
+          ],
+          "resumo": "Arquivo público oficial de preços de EC2 sob demanda na região de referência dos EUA, impresso em PDF. O arquivo não traz a unidade do preço; os valores correspondem à hora de uso sob demanda (o p5.48xlarge na N. Virginia, US$ 55,04, é coerente com o corte de 44% anunciado pela AWS em jun/2025), e não informa o número de GPUs por instância.",
+          "relevancia": "Base de comparação com a região de São Paulo."
+        },
+        {
+          "titulo": "Agentes de IA vão puxar investimento de US$ 3,4 bilhões em TI no Brasil em 2026 (IDC Predictions 2026)",
+          "organizacao": "Mobile Time (cobertura da IDC Brasil)",
+          "ano": "2026 (10/02/2026)",
+          "tipo_fonte": "imprensa",
+          "setor": "TI (mercado brasileiro)",
+          "pais_regiao": "Brasil",
+          "url": "https://www.mobiletime.com.br/noticias/10/02/2026/agente-ia-idc-2026/",
+          "arquivo": "11_custo-da-ia/MobileTime_2026_idc-predictions-brasil-gastos-ia.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Implementação de IA por empresas no Brasil: US$ 3,4 bi em 2026, alta acima de 30% sobre US$ 2,6 bi (p. 1)",
+            "38% dos gastos de IA no país irão para IaaS; IaaS de US$ 4,4 bi em 2026 (p. 3)"
+          ],
+          "resumo": "Reportagem sobre a conferência online IDC Predictions 2026, com projeções apresentadas pelo country manager da IDC no Brasil. Não foi achado documento primário da IDC.",
+          "relevancia": "Única projeção recente de gasto com IA no Brasil para 2026; usar como secundária."
+        }
+      ],
+      "formularios": [
+        {
+          "recomendacao": "envio manual",
+          "relevancia": "media",
+          "organizacao": "ABES com IDC",
+          "titulo": "Mercado Brasileiro de Software: Panorama e Tendências 2026 (estudo completo em PDF, 21ª edição)",
+          "url": "https://abes.org.br/dados-do-setor/",
+          "tipo_acesso": "formulario simples",
+          "campos": "Nome, Sobrenome, Organização, CNPJ (opcional), campo de atuação da organização, se é associada da ABES, temas de interesse, e-mail, cidade e estado (todos obrigatórios, exceto CNPJ).",
+          "captcha": "nao verificado",
+          "opt_in": "nao verificado",
+          "alternativa": "https://abes.org.br/ia-generativa-e-agentes-inteligentes-lideram-os-investimentos-no-mercado-de-software-no-brasil/ (release de 22/06/2026) e versão interativa em https://mercado.abes.org.br/",
+          "justificativa": "Edição 2026 do estudo que já está no catálogo em 2025 (M501). Pode trazer o gasto com IA no Brasil em 2025–2026 e a divisão do orçamento; o release aberto não traz valores de gasto com IA.",
+          "frentes": "F3"
+        }
+      ],
+      "lacunas": [
+        "Caso Uber — reportagem original da The Information (abr/2026, segundo a TechCrunch; 'Uber CTO Shows How Claude Code Can Blow Up AI Budgets') está atrás de paywall: na consulta de 14/10/2026 só o título aparece, e não foi possível conferir os números atribuídos a ela por outros sites (US$ 500 a 2.000 por engenheiro por mês; cerca de 5.000 engenheiros). O valor do orçamento de IA de 2026 da Uber não foi encontrado em fonte pública verificada.",
+        "Caso Uber — números sem fonte confiável verificada: 'cerca de 5.000 engenheiros' (a The Pragmatic Engineer fala em 'quase 3.000 pessoas na função de tecnologia'); 'US$ 500 a 2.000 por engenheiro por mês' e 'média de US$ 150 a 250' (só em sites secundários, atribuídos à The Information e a um texto de colaborador da Forbes que retornou 403); 'sessão de duas horas de US$ 1.200 do CTO' (só secundários); 'adoção do Claude Code de 32% em fevereiro para 84% em março' (leitura errada: a atualização enviada pela equipe da Uber à The Pragmatic Engineer em 11/03/2026 fala em 32% em dez/2025 e 63% em fev/2026, e 84% é a parcela de usuários de programação agêntica).",
+        "Caso Uber — a reportagem da Bloomberg sobre o teto de US$ 1.500 (jun/2026; data exata não conferida) retornou 403. O teto foi conferido na TechCrunch (02/06/2026), que cita a Bloomberg e diz que a empresa admite exceções com autorização; Investing.com e PYMNTS repetem o dado, mas não foram conferidas nesta verificação. Não há documento oficial da Uber com o teto. O blog de engenharia de 27/08/2026 descreve outro desenho ('para evitar tetos rígidos': faixa única para todas as ferramentas interativas, alertas e aprovação do gestor). As fontes não dizem se a política mudou entre junho e agosto ou se as descrições tratam de coisas diferentes: tratar como dois desenhos em datas diferentes.",
+        "Caso Uber — a data exata do podcast Rapid Response com o COO não foi conferida na fonte (a Fortune diz 'recent interview'; sites secundários falam em 23/05/2026).",
+        "Microsoft cancelando licenças do Claude Code — a matéria original da The Verge não pôde ser acessada (domínio bloqueado para a ferramenta de pesquisa). Não há comunicado oficial da Microsoft. A The Decoder (15/05/2026) atribui a decisão a um memorando interno do vice-presidente executivo da divisão Experiences + Devices e diz que o motivo de custo vem de fontes não identificadas. Registrar como 'noticiado pela imprensa'. A matéria da The Decoder não foi conferida nesta verificação.",
+        "Anthropic e cobrança por uso — as páginas oficiais confirmam o modelo atual do plano Enterprise (assento de US$ 20 mais uso a preço de API; assentos legados com uso incluído migrando na renovação), mas não informam a data da mudança. Sites secundários divergem (nov/2025, fev/2026, abr/2026). A frase da Fortune ('trocou a taxa fixa por cobrança por uso') é imprecisa: os planos individuais Pro e Max seguem com preço fixo e limites de uso.",
+        "Limites semanais da Anthropic em 2025 — o anúncio original (e-mail aos assinantes e post na rede X) não foi localizado em página da empresa; a fonte usada é a TechCrunch. A página de planos atual confirma limites semanais e mensais.",
+        "Codex (OpenAI) — sites secundários dizem que a cobrança passou de mensagens para créditos por token em 02/04/2026; a página oficial não traz a data.",
+        "Resultado dos laboratórios — não há divulgação oficial de margem bruta ou prejuízo da OpenAI nem da Anthropic; ambas divulgam só receita anualizada. A Microsoft calcula sua parte no resultado da OpenAI pelo método HLBV (valor que receberia numa liquidação a valor contábil); no ano fiscal 2026 o número foi dominado por ganhos de diluição da recapitalização e não mede o resultado operacional da OpenAI. Estimativas de imprensa do prejuízo trimestral da OpenAI derivadas do 10-Q (ex.: cerca de US$ 11,5 bilhões, The Register) são cálculos de terceiros e não entram como evidência. A Microsoft é ao mesmo tempo investidora e fornecedora da OpenAI (US$ 24,1 bilhões de receita com a OpenAI no ano fiscal 2026), o que mistura os dois lados da conta.",
+        "Preço da hora de GPU — não há série pública longa e gratuita: o índice da Silicon Data mostra só a leitura do dia e a variação de 7 dias; o sentido da variação não sai na extração de texto e foi lido pela cor dos selos no PDF (H100 +7,1%, H200 +3,0%, B200 +4,0%; A100 −3,8%, visível na imagem). O índice de contratos de 1 ano da SemiAnalysis é pago (sites secundários dizem que subiu cerca de 40% entre out/2025 e mar/2026, de US$ 1,70 para US$ 2,35 por GPU-hora — não verificado). O arquivo de preços da AWS não informa o número de GPUs por instância nem a unidade do preço (os valores correspondem à hora sob demanda), então o preço por GPU-hora exige outra fonte.",
+        "Cálculo nosso (não é evidência) — região de São Paulo contra N. Virginia na AWS: m6i.xlarge +59% (0,306/0,192), g6.xlarge +70% (1,368/0,8048), p5.48xlarge +68% (92,4672/55,04); Azure D4s v5 Linux +59% (0,306/0,192). O token do GPT-5 na implantação 'Global' da Azure tem o mesmo preço nas duas regiões; a opção com residência de dados nos EUA ('Data Zone') custa 10% a mais e não apareceu equivalente para o Brasil na consulta.",
+        "Lista descritiva, sem soma (não é evidência nem orientação tributária) — sobre serviço de software ou nuvem contratado do exterior, as fontes desta frente citam: IRRF de 15% e CIDE de 10% (SC Cosit 191/2017; CIDE-Tecnologia validada pelo STF no Tema 914, 13/08/2025); PIS/Pasep-Importação de 1,65% e Cofins-Importação de 7,6% (Lei 10.865/2004, revogados a partir de 2027 pela LC 214/2025); ISS de 2% a 5% (LC 116/2003, com reduções de 2029 a 2032 e revogação em 2033); IOF-câmbio de 0,38% ou 3,5% conforme o enquadramento; IBS e CBS na transição (LC 214/2025, com a LC 227/2026). Bases de cálculo, créditos e enquadramento dependem do contrato: não somar as alíquotas num percentual único e levar qualquer estimativa a parecer tributário.",
+        "IOF — não foi confirmado se o Plenário do STF já referendou a cautelar de 16/07/2025 (ADC 96) nem se o pagamento de serviços importados por remessa bancária se enquadra no inciso XXIV (3,5%) em todos os casos; a ABES e o Demarest indicam que sim para remessas não especificadas. O Demarest dá duas datas para a publicação do Decreto Legislativo 176/2025 (27/06 e 26/06/2025). Confirmar com assessoria tributária.",
+        "Reforma tributária — a LC 227/2026 alterou a LC 214/2025; entre as mudanças conferidas no texto compilado de 14/10/2026 está a nova redação do art. 64, § 1º (consumo no País de serviço importado pelo local da operação ou pelo domicílio do adquirente; a redação original, que citava o 'acesso', ficou riscada). A revogação do PIS/Cofins-Importação a partir de 01/01/2027 (art. 542) segue no texto. A leitura deve ser revista por especialista. Um blog de fornecedor (nexforce.ai) afirma que a CIDE será extinta pela reforma; o texto compilado da LC 214/2025 não revoga a Lei 10.168/2000 e ainda menciona a CIDE-Tecnologia em dispositivos de outras leis que altera, e o STF validou a CIDE-Tecnologia em ago/2025.",
+        "SaaS e CIDE — além da SC Cosit 191/2017, há soluções de consulta posteriores (107/2023, 177/2024, 183/2025) sobre licença de uso, licença de comercialização e software por encomenda, citadas só por sites secundários; não foram baixadas.",
+        "Brasil — não achei pesquisa da CNI com dado de orçamento ou custo de IA; a 37ª edição da pesquisa anual de TI da FGV (2026) não foi localizada; o estudo completo ABES/IDC 2026 exige formulário (ver 'formularios'). O valor de US$ 3,4 bilhões de gasto com IA no Brasil em 2026 vem de reportagem sobre evento da IDC, sem documento primário. As estimativas não se somam nem se comparam diretamente: a IDC dá base de US$ 2,6 bilhões para 2025 no evento de 2026 e 'mais de US$ 2,4 bilhões' em 2025 no estudo ABES/IDC 2025 [M501]; a Brasscom projeta R$ 736,6 bilhões em IA de 2026 a 2029 [M507], ordem de grandeza muito maior, com definição não conferida.",
+        "Gartner — os relatórios para clientes citados nos comunicados ('Predicts 2026: Generative AI Will Cost a Lot More Than You Think'; 'The Inference Paradox: Inference Tiering Is Critical to Protect Margins'; 'Prepare for AI Market Consolidation') são pagos. Os PDFs dos comunicados foram gerados a partir do HTML oficial, porque a impressão direta pelo Chrome foi bloqueada.",
+        "OpenRouter/a16z — o arquivo 11_custo-da-ia/OpenRouter-a16z_2025_state-of-ai-100-trillion-tokens.pdf é o mesmo registrado pela frente A; o item foi retirado da frente B e fica na A, e as evidências 60 a 63 continuam apontando para o arquivo. A elasticidade-preço do estudo (p. 30) vem da comparação entre modelos, não da reação do uso a cortes de preço ao longo do tempo. A Menlo Ventures cita a OpenRouter entre as empresas de infraestrutura que apoia (atualização de meio de ano, p. 7).",
+        "Uber (blog de engenharia) e Uber (Q1/2026) — todos os números de adoção, de uso e de redução de custo são declarados pela empresa, sem auditoria. O mesmo vale para os volumes de tokens declarados por OpenAI, Google e Microsoft.",
+        "Fortune (26/05/2026) — erro de unidade: diz que a Uber 'gastou 3,4% em P&D em 2025'; o 8-K mostra US$ 3.402 milhões. Também cita gasto com software de agentes de IA de 'quase US$ 207 bilhões' em 2026; o comunicado do Gartner de mai/2026 traz US$ 206,5 bilhões (não baixado nesta rodada).",
+        "Menlo Ventures — o total de US$ 37 bilhões de 2025 exclui inferência e serviço de modelos em nuvem, chips e IA embutida em software existente; a frase sobre o paradoxo de Jevons e a de baixa sensibilidade a preço em programação estão na seção de previsões para 2026, não nos resultados da pesquisa. Usar com a marca de previsão e de conflito de interesse (investidora da Anthropic)."
+      ]
+    },
+    {
+      "grupo": "Custo da IA: paralelo automotivo",
+      "pasta": "11_custo-da-ia",
+      "itens": [
+        {
+          "titulo": "Informativo Emplacamentos — Resumo mensal de dezembro de 2023 (Ed. 252)",
+          "organizacao": "Fenabrave (Federação Nacional da Distribuição de Veículos Automotores)",
+          "ano": "2024 (dados de 2023)",
+          "tipo_fonte": "associação setorial",
+          "setor": "automotivo",
+          "pais_regiao": "Brasil",
+          "url": "https://www.fenabrave.org.br/portal/files/2023_12_2.pdf",
+          "arquivo": "11_custo-da-ia/Fenabrave_2023_emplacamentos-dezembro-2023.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Autos + comerciais leves emplacados em 2023: 2.179.356 unidades (p. 1)",
+            "BYD em 2023: 17.937 unidades, 0,82% de autos + comerciais leves, 15ª marca (p. 9)",
+            "Caoa Chery em 2023: 31.479 unidades (1,44%); GWM: 11.479 unidades (0,53%) (p. 9)",
+            "Toyota em 2023: 192.276 unidades, 8,82%, 4ª marca (p. 9)"
+          ],
+          "resumo": "Boletim mensal da Fenabrave, com o acumulado de 2023 por marca e modelo a partir dos emplacamentos. É o ponto de partida da série 2023–2026: as marcas chinesas tinham participação pequena antes da volta do imposto de importação dos eletrificados (jan/2024).",
+          "relevancia": "Alta: dado oficial do ano-base da participação das marcas chinesas no Brasil."
+        },
+        {
+          "titulo": "Informativo Emplacamentos — Resumo mensal de dezembro de 2024 (Ed. 264)",
+          "organizacao": "Fenabrave (Federação Nacional da Distribuição de Veículos Automotores)",
+          "ano": "2025 (dados de 2024)",
+          "tipo_fonte": "associação setorial",
+          "setor": "automotivo",
+          "pais_regiao": "Brasil",
+          "url": "https://www.fenabrave.org.br/portal/files/2024_12_02.pdf",
+          "arquivo": "11_custo-da-ia/Fenabrave_2024_emplacamentos-dezembro-2024.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Autos + comerciais leves emplacados em 2024: 2.484.740 unidades (p. 1)",
+            "BYD em 2024: 76.811 unidades, 3,09%, 10ª marca (p. 9)",
+            "Caoa Chery em 2024: 60.929 unidades (2,45%); GWM: 29.219 (1,18%) (p. 9)",
+            "Toyota em 2024: 203.793 unidades, 8,20%, 5ª marca (p. 9)"
+          ],
+          "resumo": "Boletim da Fenabrave com o acumulado de 2024 por marca. Mostra o primeiro salto da BYD, que quase quadruplica a participação em relação a 2023 (de 0,82% para 3,09%, cálculo nosso).",
+          "relevancia": "Alta: ponto intermediário oficial da série de participação 2023–2026."
+        },
+        {
+          "titulo": "Informativo Emplacamentos — Resumo mensal de dezembro de 2025 (Ed. 276)",
+          "organizacao": "Fenabrave (Federação Nacional da Distribuição de Veículos Automotores)",
+          "ano": "2026 (dados de 2025)",
+          "tipo_fonte": "associação setorial",
+          "setor": "automotivo",
+          "pais_regiao": "Brasil",
+          "url": "https://www.fenabrave.org.br/portal/files/2025_12_02.pdf",
+          "arquivo": "11_custo-da-ia/Fenabrave_2025_emplacamentos-dezembro-2025.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Autos + comerciais leves emplacados em 2025: 2.549.462 unidades, +2,58% sobre 2024 (p. 1)",
+            "BYD em 2025: 112.814 unidades, 4,43%, 8ª marca (p. 9)",
+            "Caoa Chery 71.433 (2,80%); GWM 42.784 (1,68%); Omoda Jaecoo 7.219 (0,28%) em 2025 (p. 9)",
+            "Toyota em 2025: 170.635 unidades, 6,69% (p. 9)",
+            "Picapes grandes em 2025: Toro 52.129 (19,46%), Hilux 49.721 (18,56%), Ranger 34.047 (12,71%), S10 31.451 (11,74%) (p. 18)"
+          ],
+          "resumo": "Boletim da Fenabrave com o fechamento de 2025 por marca e por segmento. No segmento de picapes grandes, a Fiat Toro lidera e a Hilux é a 2ª, à frente de Ranger e S10; nenhuma picape de marca chinesa aparece entre as 11 primeiras.",
+          "relevancia": "Alta: fechamento oficial de 2025 e base para o caso da Hilux no segmento de picapes."
+        },
+        {
+          "titulo": "Informativo Emplacamentos — Resumo mensal de setembro de 2026 (Ed. 285)",
+          "organizacao": "Fenabrave (Federação Nacional da Distribuição de Veículos Automotores)",
+          "ano": "2026",
+          "tipo_fonte": "associação setorial",
+          "setor": "automotivo",
+          "pais_regiao": "Brasil",
+          "url": "https://www.fenabrave.org.br/portal/files/2026_09_02.pdf",
+          "arquivo": "11_custo-da-ia/Fenabrave_2026_emplacamentos-setembro-2026.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Autos + comerciais leves em jan–set/2026: 2.156.499 unidades, +19,32% sobre jan–set/2025 (p. 1)",
+            "BYD em jan–set/2026: 169.135 unidades, 7,84%, 4ª marca (p. 9)",
+            "GWM 63.402 (2,94%); Caoa Chery 58.041 (2,69%); Geely 37.804 (1,75%); Omoda Jaecoo 35.081 (1,63%); GAC 11.413 (0,53%) (p. 9)",
+            "Toyota em jan–set/2026: 122.804 unidades, 5,69% (p. 9)",
+            "Picapes grandes jan–set/2026: Toro 42.942 (21,39%, 1ª), Hilux 33.513 (16,69%, 2ª), Ranger 26.964 (13,43%), S10 23.012 (11,46%), GWM Poer 5.191 (2,59%, 9ª) (p. 18)",
+            "Setembro/2026: Ranger 3.465 emplacamentos contra 3.310 da Hilux (p. 18)",
+            "BYD emplacou 502 comerciais leves em jan–set/2026 (0,12% do segmento) (p. 9)"
+          ],
+          "resumo": "Boletim mais recente da Fenabrave (acumulado até set/2026). A BYD chega ao 4º lugar entre as marcas e a GWM ao 10º; no segmento de picapes grandes, a Toro lidera, a Hilux é a 2ª, a Poer é a única de marca chinesa entre as 11 mais vendidas e a Ranger supera a Hilux no mês de setembro.",
+          "relevancia": "Alta: dado oficial mais recente para testar o paralelo no Brasil, inclusive no segmento da Hilux."
+        },
+        {
+          "titulo": "Ata da 209ª Reunião Ordinária do Gecex/Camex (10/11/2023) — versão pública",
+          "organizacao": "Comitê-Executivo de Gestão (Gecex) da Câmara de Comércio Exterior (Camex) — MDIC",
+          "ano": "2023",
+          "tipo_fonte": "governo",
+          "setor": "automotivo",
+          "pais_regiao": "Brasil",
+          "url": "https://www.gov.br/mdic/pt-br/assuntos/camex/atas/gecex/2023/ata-da-209a-reuniao-ordinaria-do-gecex.pdf",
+          "arquivo": "11_custo-da-ia/Gecex_2023_ata-209a-reuniao-eletrificados.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Elétricos montados e SKD: 10% a partir de 01/01/2024, 18% em jul/2024, 25% em jul/2025 e 35% em jul/2026 (p. 2-3)",
+            "Híbridos: 15%, 25%, 30% e 35%; híbridos plug-in: 12%, 20%, 28% e 35%, nas mesmas datas (p. 2)",
+            "Cotas com alíquota zero para elétricos montados e SKD: US$ 83 mi, US$ 226 mi e US$ 141 mi nas três primeiras etapas (p. 2)",
+            "Kits CKD de elétricos: 0%, 5%, 10% e 14%, chegando a 35% em 01/07/2027 (p. 2); cronograma do CKD alterado depois",
+            "Início da vigência alterado de 01/12/2023 para 01/01/2024 (p. 3)",
+            "Preço FOB médio importado jan–set/2023: US$ 28.290 (elétrico), US$ 21.578 (híbrido), US$ 37.606 (plug-in) (p. 3)"
+          ],
+          "resumo": "Ata pública da reunião em que o Gecex aprovou, por unanimidade, a retomada gradual do imposto de importação dos carros eletrificados, com cotas isentas temporárias para montados e SKD e alíquotas menores para kits CKD. A justificativa registrada é passar à segunda etapa da eletromobilidade, com produção desses veículos no país, em linha com o programa Mover.",
+          "relevancia": "Alta: fonte oficial do cronograma de tarifas que antecede as fábricas chinesas no Brasil."
+        },
+        {
+          "titulo": "Deliberações da 238ª Reunião Ordinária do Gecex (publicadas em 23/06/2026)",
+          "organizacao": "Comitê-Executivo de Gestão (Gecex) da Câmara de Comércio Exterior (Camex) — MDIC",
+          "ano": "2026",
+          "tipo_fonte": "governo",
+          "setor": "automotivo",
+          "pais_regiao": "Brasil",
+          "url": "https://www.gov.br/mdic/pt-br/assuntos/camex/outros-documentos/deliberacoes/deliberacoes-da-238a-reuniao-ordinaria-do-comite-executivo-de-gestao-gecex",
+          "arquivo": "11_custo-da-ia/Gecex_2026_deliberacoes-238a-reuniao-eletrificados.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Mantido o cronograma: montados e SKD recolhem 35% a partir de jul/2026 (p. 22)",
+            "CKD: alíquota de 35% a partir de 01/01/2027, 'conforme o cronograma em vigor' (p. 22)",
+            "Cotas adicionais com alíquota zero para CKD e SKD de 01/07 a 31/12/2026, total de US$ 463 milhões; sem cota para montados (p. 22)",
+            "Cotas por NCM: híbrido US$ 84,5 mi; híbrido plug-in US$ 281 mi; elétrico US$ 97,5 mi (p. 21-22)"
+          ],
+          "resumo": "Página oficial com as decisões da 238ª reunião do Gecex. Mantém o imposto de 35% sobre eletrificados montados e SKD a partir de jul/2026 e sobre CKD a partir de 01/01/2027, e renova cotas isentas só para kits CKD e SKD (US$ 463 milhões, nos mesmos volumes de ago/2025 a jan/2026), o que, na nossa leitura, favorece quem monta no país.",
+          "relevancia": "Alta: confirma o fim do cronograma (35% em jul/2026) e a preferência por montagem local."
+        },
+        {
+          "titulo": "GWM inaugura sua primeira fábrica nas Américas, em Iracemápolis (SP)",
+          "organizacao": "GWM Brasil (Great Wall Motor)",
+          "ano": "2025",
+          "tipo_fonte": "empresa",
+          "setor": "automotivo",
+          "pais_regiao": "Brasil",
+          "url": "https://www.gwmmotors.com.br/pt/media-center/news/2025/GWM-inaugura-sua-primeira-f-brica-nas-Am-ricas,-em-Iracem-polis--SP-,-com-a-presen-a-do-presidente-Lula",
+          "arquivo": "11_custo-da-ia/GWM-Brasil_2025_inauguracao-fabrica-iracemapolis.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Inauguração oficial em 15/08/2025; Haval H6, Haval H9 e Poer P30 já em produção (p. 1)",
+            "Capacidade de 50 mil veículos por ano, declarada pela empresa (p. 2)",
+            "Investimento total de R$ 10 bilhões em dez anos: R$ 4 bi até 2026 e R$ 6 bi entre 2027 e 2032 (p. 2-3)",
+            "Produção 'peça por peça', com pintura no país de 100% dos veículos; 18 fornecedores brasileiros (p. 3)",
+            "Empresa inscrita no programa Mover (p. 3)"
+          ],
+          "resumo": "Comunicado oficial da inauguração da fábrica da GWM em Iracemápolis (SP), com reativação e ampliação da planta. A picape Poer P30, concorrente da Hilux, está entre os três primeiros modelos produzidos.",
+          "relevancia": "Alta: comunicado oficial com data de início e investimento anunciado."
+        },
+        {
+          "titulo": "BYD inaugura em Camaçari a maior fábrica de veículos elétricos da América Latina e apresenta o primeiro carro super-híbrido plug-in flex fuel do mundo",
+          "organizacao": "BYD Brasil",
+          "ano": "2025",
+          "tipo_fonte": "empresa",
+          "setor": "automotivo",
+          "pais_regiao": "Brasil",
+          "url": "https://www.byd.com/br/noticias-byd-brasil/byd-inaugura-em-camacari-a-maior-fabrica-de-veiculos-eletricos-d",
+          "arquivo": "11_custo-da-ia/BYD-Brasil_2025_inauguracao-fabrica-camacari.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Comunicado de 14/10/2025 anuncia a inauguração oficial da linha de montagem final em Camaçari (BA) (p. 1, 3)",
+            "Planta funcionando desde julho de 2025 (p. 7)",
+            "Capacidade de 150 mil veículos/ano na 1ª fase e 300 mil na etapa seguinte; novo investimento para até 600 mil/ano (p. 5-6)",
+            "Meta de estar entre as três maiores montadoras do país até 2028 e no topo até 2030 (p. 7)",
+            "Mais de 1,5 mil empregados na inauguração (p. 6)"
+          ],
+          "resumo": "Comunicado oficial da BYD sobre a inauguração do complexo de Camaçari (BA). Informa o início da operação em julho de 2025, a capacidade e a meta de liderar o mercado brasileiro até 2030 (capacidade e metas declaradas pela empresa).",
+          "relevancia": "Alta: comunicado oficial com início de produção e escala pretendida."
+        },
+        {
+          "titulo": "100,000 Vehicles, 5,500 Dreams in the Making: BYD Celebrates Historic Milestones in Camaçari",
+          "organizacao": "BYD",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "automotivo",
+          "pais_regiao": "Brasil",
+          "url": "https://www.byd.com/us/news-list/100000-Vehicles-5500-Dreams-in-the-Making-BYD-Celebrates-Historic-Milestones-in-Cama%C3%A7ari",
+          "arquivo": "11_custo-da-ia/BYD_2026_camacari-100-mil-veiculos.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "100 mil veículos produzidos em Camaçari em nove meses desde a inauguração de out/2025 (comunicado de 16/07/2026) (p. 1-2)",
+            "Investimento de R$ 5,5 bilhões no complexo de Camaçari (p. 9, p. 15)",
+            "5.500 empregados diretos (p. 1)",
+            "Estamparia, soldagem e pintura entram em operação no 2º semestre de 2026 (p. 10)"
+          ],
+          "resumo": "Comunicado da BYD sobre o 100.000º veículo feito em Camaçari. Traz o investimento total (R$ 5,5 bilhões, declarado pela empresa) e informa que as novas instalações de estamparia, soldagem e pintura começam a operar no 2º semestre de 2026, aumentando a localização da produção.",
+          "relevancia": "Alta: fonte oficial do investimento anunciado e do grau de localização da produção."
+        },
+        {
+          "titulo": "Lista de preços públicos sugeridos — vigência 02/10/2026",
+          "organizacao": "General Motors do Brasil (Chevrolet)",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "automotivo",
+          "pais_regiao": "Brasil",
+          "url": "https://www.chevrolet.com.br/content/dam/chevrolet/south-america/brazil/portuguese/index/portable-navigation/global-footer/lista-de-precos/11-pdf/lista-de-preços-públicos-sugeridos-02-de-Outubro-de-2026.pdf",
+          "arquivo": "11_custo-da-ia/Chevrolet_2026_lista-precos-sugeridos-02-10-2026.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "S10 cabine dupla diesel 4x4 2027: WT manual R$ 290.190; WT automática R$ 307.690 (p. 58-59)",
+            "S10 2027: Z71 R$ 328.590; Trail Boss R$ 344.790; LTZ R$ 337.490; High Country R$ 352.290 (p. 61, 63, 64)",
+            "Preço à vista, com frete; pode variar conforme a tributação de cada estado (p. 1)"
+          ],
+          "resumo": "Lista oficial de preços sugeridos da GM do Brasil, datada, com todas as versões da S10. Serve de referência de preço de tabela (não promocional) para a picape média concorrente da Hilux.",
+          "relevancia": "Alta: preço de tabela oficial e datado de uma das picapes médias pedidas."
+        },
+        {
+          "titulo": "Poer P30 Pro, Trail e Exclusive — páginas de preço do site oficial (cópia de 14/10/2026)",
+          "organizacao": "GWM Brasil (Great Wall Motor)",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "automotivo",
+          "pais_regiao": "Brasil",
+          "url": "https://www.gwmmotors.com.br/pt/modelos/poer-p30",
+          "arquivo": "11_custo-da-ia/GWM-Brasil_2026_precos-poer-p30-site-oficial.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Poer P30 Pro: preço único R$ 205.000 (p. 5)",
+            "Poer P30 Trail: preço único R$ 227.000 (p. 13)",
+            "Poer P30 Exclusive: a partir de R$ 247.000; R$ 250.000 com teto solar (p. 24)"
+          ],
+          "resumo": "Cópia datada (14/10/2026) das três páginas de versão da Poer P30 no site oficial da GWM (/poer-p30-pro, /poer-p30-trail e /poer-p30-exclusive), unidas em um PDF. É o preço de tabela da picape chinesa citada pela imprensa como concorrente da Hilux.",
+          "relevancia": "Alta: preço oficial e datado da picape chinesa produzida no Brasil."
+        },
+        {
+          "titulo": "BYD prepara nova picape média para enfrentar a Hilux no Brasil",
+          "organizacao": "Vrum (Diários Associados / Estado de Minas)",
+          "ano": "2026",
+          "tipo_fonte": "imprensa",
+          "setor": "automotivo",
+          "pais_regiao": "Brasil",
+          "url": "https://www.vrum.com.br/noticias/2026/03/7366150-byd-prepara-nova-picape-media-para-enfrentar-a-hilux-no-brasil.html",
+          "arquivo": "11_custo-da-ia/Vrum_2026_byd-nova-picape-precos-topo-picapes-medias.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Versões topo a diesel em 02/03/2026: Hilux SRX Plus R$ 357.890; Ranger Limited V6 R$ 346.900; S10 High Country R$ 336.990, valor que diverge da lista oficial da GM (p. 4-5)",
+            "BYD Shark GS: R$ 344.990 (p. 5)",
+            "Segundo a matéria, a Shark 'não correspondeu às expectativas' e a BYD prepara picape média mais barata (p. 4)"
+          ],
+          "resumo": "Matéria de 02/03/2026 com tabela de preços das versões mais completas das picapes médias. É a única fonte datada encontrada para o preço da BYD Shark, que fica na mesma faixa das versões topo das concorrentes tradicionais.",
+          "relevancia": "Média: imprensa, mas única referência datada do preço da Shark e da Ranger topo de linha."
+        },
+        {
+          "titulo": "Toyota reduz preços de Hilux e SW4 em mais de R$ 54.000",
+          "organizacao": "Auto+ TV (AutoMais)",
+          "ano": "2026",
+          "tipo_fonte": "imprensa",
+          "setor": "automotivo",
+          "pais_regiao": "Brasil",
+          "url": "https://www.automaistv.com.br/novidades/toyota-reduz-precos-de-hilux-e-sw4-em-mais-de-r-54-000/",
+          "arquivo": "11_custo-da-ia/AutoMais_2026_toyota-reduz-precos-hilux-sw4.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Hilux SRV: de R$ 314.690 (tabela) para R$ 269.990 na promoção (p. 2)",
+            "SW4 SRX Platinum 7 lugares: de R$ 424.590 para R$ 369.990, preço promocional (p. 1)",
+            "Válida até 30/09/2026 para ano/modelo 2026/2026, à vista, cor Branco Polar e faturamento no varejo (p. 4)",
+            "A matéria liga o ajuste à concorrência da S10 e da GWM Poer P30 (R$ 205 mil, R$ 227 mil e R$ 247 mil) (p. 2)",
+            "Nova geração: entregas na Argentina em dez/2026 e lançamento comercial no início de 2027 (p. 3)"
+          ],
+          "resumo": "Matéria de 09/09/2026 sobre a promoção da Toyota para a Hilux SRV e o SW4 Platinum. Pelas próprias condições (prazo, pagamento à vista, uma cor, só ano/modelo 2026), é promoção temporária e não redução do preço de tabela.",
+          "relevancia": "Alta: fonte da pista do protocolo; permite separar promoção de preço de tabela."
+        },
+        {
+          "titulo": "Em rara promoção, Toyota dá descontos de até R$ 55 mil em Hilux, SW4 e mais",
+          "organizacao": "AutoPapo",
+          "ano": "2026",
+          "tipo_fonte": "imprensa",
+          "setor": "automotivo",
+          "pais_regiao": "Brasil",
+          "url": "https://autopapo.com.br/curta/em-rara-promocao-toyota-da-descontos-de-ate-r-55-mil-em-hilux-sw4-e-mais/",
+          "arquivo": "11_custo-da-ia/AutoPapo_2026_toyota-promocao-ate-12-outubro.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Campanha válida até 12/10/2026, para compras à vista no varejo (p. 1)",
+            "Inclui Yaris Cross, Corolla Cross, SW4 e Hilux dos anos-modelo 2026 e 2027 (p. 2)",
+            "Descontos de até R$ 54.600; Hilux SRV com R$ 44.700 a menos (p. 1-2)",
+            "Vale para pessoas físicas e jurídicas no canal de varejo (p. 3)"
+          ],
+          "resumo": "Matéria de 07/10/2026 mostra que a ação da Toyota foi estendida (ou renovada) até 12/10/2026, incluiu o ano-modelo 2027 e alcançou também SUVs da marca. Reforça que se trata de campanha temporária ampla, não de corte de tabela da Hilux.",
+          "relevancia": "Média: complementa a AutoMais sobre prazo e alcance da promoção."
+        },
+        {
+          "titulo": "Toyota Hilux 2026: Descontos para CNPJ superam R$ 64 mil e preço fica abaixo do Corolla Cross",
+          "organizacao": "Garagem360",
+          "ano": "2026",
+          "tipo_fonte": "imprensa",
+          "setor": "automotivo",
+          "pais_regiao": "Brasil",
+          "url": "https://garagem360.com.br/toyota-hilux-2026-descontos-para-cnpj-superam-r-64-mil-e-preco-fica-abaixo-do-corolla-cross/",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Vendas diretas para CNPJ e produtor rural com abatimentos de até 22%, válidas até 31/01/2026 (web)",
+            "Power Pack CD automática: de R$ 292.790 (tabela) para R$ 228.376, R$ 64.413 a menos (web)",
+            "SR CD 4x4 automática: de R$ 310.090 para R$ 254.273, R$ 55.816 a menos (web)",
+            "Cabine Chassi manual: de R$ 256.390 para R$ 210.239 (web)"
+          ],
+          "resumo": "Matéria de 30/01/2026 com os preços de tabela e os preços para CNPJ/produtor rural da Hilux em vendas diretas. Mostra que o desconto de cerca de 22% era de um canal específico (venda direta) e tinha prazo (até 31/01/2026). A impressão em PDF saiu sem camada de texto; registrada como web e relida em 14/10/2026.",
+          "relevancia": "Média: confirma a origem do número de 22% citado no protocolo e seu caráter de canal e prazo."
+        },
+        {
+          "titulo": "Toyota oferece 23% de desconto na Hilux durante a Agrishow 2026",
+          "organizacao": "Vrum (Diários Associados / Estado de Minas)",
+          "ano": "2026",
+          "tipo_fonte": "imprensa",
+          "setor": "automotivo",
+          "pais_regiao": "Brasil",
+          "url": "https://www.vrum.com.br/bom-negocio/2026/04/7408726-toyota-oferece-23-de-desconto-na-hilux-durante-a-agrishow-2026.html",
+          "arquivo": "11_custo-da-ia/Vrum_2026_hilux-23-desconto-agrishow.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "23% de desconto na Hilux SR 2025/2026, só para negócios no estande da Agrishow, até 01/05/2026 (p. 2)",
+            "Preço público sugerido a partir de R$ 310.090; preço especial de R$ 238.769,31, só na cor Branco Polar (p. 3)"
+          ],
+          "resumo": "Matéria de 29/04/2026 sobre a condição especial da Toyota na Agrishow 2026. O desconto de 23% valia só no estande, durante a feira e em uma cor.",
+          "relevancia": "Média: confirma o número de 23% do protocolo e seu caráter de evento."
+        },
+        {
+          "titulo": "关于汽车行业“价格战”等“内卷式”竞争，工业和信息化部作出回应 (MIIT responde sobre a 'guerra de preços' e a concorrência 'involutiva' no setor automotivo)",
+          "organizacao": "Ministério da Indústria e Tecnologia da Informação da China (MIIT), texto da agência Xinhua",
+          "ano": "2025",
+          "tipo_fonte": "governo",
+          "setor": "automotivo",
+          "pais_regiao": "China",
+          "url": "https://www.miit.gov.cn/xwfb/mtbd/wzbd/art/2025/art_68aafd9c515c47fbb64bcb5736890033.html",
+          "arquivo": "11_custo-da-ia/MIIT_2025_resposta-guerra-de-precos-involucao-automotiva.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Publicado em 31/05/2025: um responsável do MIIT, em resposta à Xinhua, apoia a iniciativa da associação das montadoras (CAAM) por uma concorrência leal (p. 1)",
+            "'A guerra de preços não tem vencedores, muito menos futuro', diz o responsável do ministério (p. 1)",
+            "Medidas: reforço no combate à concorrência 'involutiva', inspeção de conformidade de produtos e apoio à fiscalização de concorrência desleal (p. 1)"
+          ],
+          "resumo": "Resposta de um responsável do MIIT à agência Xinhua, publicada no site do ministério em 31/05/2025, sobre a 'guerra de preços' e a iniciativa da associação das montadoras (CAAM). Classifica a guerra de preços desordenada como forma típica de concorrência 'involutiva', prejudicial à P&D, à qualidade e à segurança. Saiu cinco dias depois dos cortes da BYD noticiados pela Fortune/Bloomberg; o texto não cita a BYD.",
+          "relevancia": "Alta: declaração oficial datada contra a guerra de preços dos carros."
+        },
+        {
+          "titulo": "国务院常务会议解读 | 切实规范新能源汽车产业竞争秩序 (Reunião executiva do Conselho de Estado: regular a concorrência no setor de veículos de nova energia)",
+          "organizacao": "Conselho de Estado da China (portal gov.cn, texto da agência Xinhua)",
+          "ano": "2025",
+          "tipo_fonte": "governo",
+          "setor": "automotivo",
+          "pais_regiao": "China",
+          "url": "https://www.gov.cn/zhengce/202507/content_7032374.htm",
+          "arquivo": "11_custo-da-ia/ConselhoDeEstado-China_2025_regular-concorrencia-veiculos-nova-energia.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Reunião executiva de 16/07/2025 manda regular a concorrência do setor de veículos de nova energia diante de 'concorrência irracional' (p. 1)",
+            "Medidas: investigação de custos, monitoramento de preços, inspeção de conformidade da produção e cumprimento dos prazos de pagamento (p. 1)",
+            "Compromisso das montadoras de pagar fornecedores em até 60 dias (citado por especialista) (p. 1)",
+            "1º semestre de 2025: 6,937 milhões de veículos de nova energia vendidos (+40,3%), 44,3% das vendas de veículos novos (CAAM) (p. 1)"
+          ],
+          "resumo": "Texto oficial do portal do governo chinês sobre a reunião executiva do Conselho de Estado de 16/07/2025. É a reação do governo central, específica para o setor de veículos de nova energia, um mês e meio depois da declaração do MIIT.",
+          "relevancia": "Alta: decisão de governo central com data e medidas."
+        },
+        {
+          "titulo": "市场监管总局关于发布《汽车行业价格行为合规指南》的公告 (2026年第10号) — Guia de conformidade de preços do setor automotivo",
+          "organizacao": "Administração Estatal de Regulação do Mercado da China (SAMR)",
+          "ano": "2026",
+          "tipo_fonte": "governo",
+          "setor": "automotivo",
+          "pais_regiao": "China",
+          "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/jjjzs/art/2026/art_10120651065444b5b3b070dcae41e98a.html",
+          "arquivo": "11_custo-da-ia/SAMR_2026_guia-conformidade-precos-setor-automotivo.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Aprovado em 09/02/2026, assinado em 11/02/2026, publicado em 12/02/2026, com vigência imediata (p. 1)",
+            "Art. 10: vender veículos ou peças abaixo do custo para excluir concorrentes ou monopolizar o mercado traz 'risco jurídico grave'; 9 formas listadas, inclusive descontos e subsídios (p. 3)",
+            "Custo de produção inclui o custo de fabricação e as despesas administrativas, financeiras e de vendas (p. 3)",
+            "Art. 13: regras para cobrar funções 'pagas para desbloquear' (p. 3)"
+          ],
+          "resumo": "Anúncio oficial da SAMR com o texto integral do guia de conformidade de preços do setor automotivo, baseado na Lei de Preços e nas normas contra a venda abaixo do custo. Detalha para o setor que vender abaixo do custo para tirar concorrentes do mercado traz 'risco jurídico grave'. Veio depois da reação política de 2025; o guia não cita a campanha.",
+          "relevancia": "Alta: instrumento regulatório que formaliza, para o setor automotivo, a resposta à guerra de preços."
+        },
+        {
+          "titulo": "【月度分析】2026年9月份全国乘用车市场分析 (Análise mensal do mercado de carros de passeio — setembro de 2026)",
+          "organizacao": "CPCA — Associação de Informação do Mercado de Carros de Passeio (ligada à Associação Chinesa de Revendedores de Automóveis)",
+          "ano": "2026",
+          "tipo_fonte": "associação setorial",
+          "setor": "automotivo",
+          "pais_regiao": "China",
+          "url": "https://www.cpcaauto.com/newslist.php?types=csjd&id=4350",
+          "arquivo": "11_custo-da-ia/CPCA_2026_analise-mercado-setembro-2026-lucratividade.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Margem do setor automotivo: 4,3% em 2024, 4,1% em 2025 e 3,6% em jan–ago/2026; empresas industriais de maior porte: 5,66% em jan–ago/2026 (p. 4)",
+            "Lucro do setor em jan–ago/2026: 253,4 bilhões de yuans, queda de 16% (p. 4)",
+            "Dezembro de 2025 teve a pior margem mensal: 1,8% (p. 4)",
+            "Varejo de carros de passeio na China: −21,7% em jan–set/2026 (p. 1)",
+            "Exportações de veículos: 7,45 milhões em jan–ago/2026, +51% (p. 4)",
+            "Brasil, 2º destino em jan–ago/2026: 480.403 veículos completos, +287.195 sobre jan–ago/2025 (p. 4-5)"
+          ],
+          "resumo": "Análise mensal da CPCA publicada em 12/10/2026, com a série de rentabilidade do setor automotivo chinês e as exportações por destino. Mostra margens em queda depois da campanha contra a involução, mercado interno em retração e exportação em alta, com o Brasil como segundo destino. A CPCA atribui a pressão de 2026 à alta de matérias-primas e de memória e chips (puxada pela IA) e à demanda fraca.",
+          "relevancia": "Alta: dado de rentabilidade de associação setorial e das exportações chinesas para o Brasil."
+        },
+        {
+          "titulo": "The 23rd annual AlixPartners Global Automotive Outlook – China (comunicado de 30/06/2026)",
+          "organizacao": "AlixPartners",
+          "ano": "2026",
+          "tipo_fonte": "consultoria",
+          "setor": "automotivo",
+          "pais_regiao": "China",
+          "url": "https://www.alixpartners.com/newsroom/press-release-the-23rd-annual-alixpartners-global-automotive-outlook-china/",
+          "arquivo": "11_custo-da-ia/AlixPartners_2026_global-automotive-outlook-china.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Só 3 das 30 montadoras chinesas focadas em veículos de nova energia tiveram lucro no ano de 2025 (p. 2)",
+            "Projeção: 7 das 30 atingem o equilíbrio até 2030; consolidação deve acelerar (p. 2)",
+            "Vendas na China −18% nos cinco primeiros meses de 2026; previsão de −10% no ano nas vendas de veículos leves, para 24,6 milhões (p. 2)",
+            "Exportações chinesas: quase 10 milhões em 2026, contra 7,1 milhões em 2025 (p. 1, p. 3)",
+            "Barreiras no exterior incluem regras de segurança de dados (p. 3)"
+          ],
+          "resumo": "Comunicado da AlixPartners com os principais números do panorama automotivo de 2026 para a China. Liga a 'involução' hipercompetitiva à busca de mercados externos e prevê consolidação acelerada.",
+          "relevancia": "Alta: dado de consolidação e de exportação como saída para a sobrecapacidade."
+        },
+        {
+          "titulo": "Chinese EV stocks tumble after BYD slashes prices as much as 34%",
+          "organizacao": "Fortune (com Bloomberg)",
+          "ano": "2025",
+          "tipo_fonte": "imprensa",
+          "setor": "automotivo",
+          "pais_regiao": "China",
+          "url": "https://fortune.com/asia/2025/05/26/chinese-ev-stocks-tumble-after-byd-slashes-prices-as-much-as-34/",
+          "arquivo": "11_custo-da-ia/Fortune-Bloomberg_2025_byd-corta-precos-ate-34.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "BYD: descontos de até 34% em 22 modelos elétricos e híbridos plug-in na China, até o fim de jun/2025 (p. 2)",
+            "Seagull a 55.800 yuans (−20%); Seal híbrido de dois motores −34% (53.000 yuans), para 102.800 yuans (p. 3)",
+            "Ações da BYD caíram até 8,3% em Hong Kong em 26/05/2025 (p. 2)",
+            "Estoque nas concessionárias: 3,5 milhões de carros (57 dias) em abr/2025, segundo a CPCA (p. 3)",
+            "Margem bruta da BYD no 1º tri/2025: cerca de 20%, contra cerca de 16% da Tesla (p. 6)"
+          ],
+          "resumo": "Matéria da Fortune com a Bloomberg sobre o corte de preços da BYD em maio de 2025, que, segundo a matéria, reacendeu a guerra de preços no setor. Saiu cinco dias antes da declaração do MIIT (31/05/2025); a sequência no tempo não prova que uma levou à outra. Registra também que a escala e a integração vertical amortecem o efeito na margem da BYD.",
+          "relevancia": "Alta: registro datado do corte de preço de maior repercussão; imprensa por falta de comunicado primário acessível."
+        },
+        {
+          "titulo": "Growth without profits: how will 'involution' in China end? (Working Paper 01/2026)",
+          "organizacao": "Bruegel",
+          "ano": "2026",
+          "tipo_fonte": "think tank",
+          "setor": "automotivo",
+          "pais_regiao": "Europa (sobre a China)",
+          "url": "https://www.bruegel.org/working-paper/growth-without-profits-how-will-involution-china-end",
+          "arquivo": "11_custo-da-ia/Bruegel_2026_growth-without-profits-involution-china.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Centenas de empresas de veículos elétricos travaram guerras de preço vendendo carros ao custo de produção ou abaixo (p. 3)",
+            "Markup mediano das empresas listadas entre 1,17 e 1,19 em 2014–2018, em queda desde 2019 (p. 6)",
+            "Comissão Central de Assuntos Financeiros e Econômicos (01/07/2025) mandou 'governar a concorrência desordenada de preços baixos' (p. 11)",
+            "Projeto de emenda da Lei de Preços divulgado pela NDRC e pela SAMR em 24/07/2025 (p. 11)",
+            "Número de empresas-zumbi segue crescendo; a política empurra a consolidação, mas não chega a deixar falir as deficitárias (p. 12)"
+          ],
+          "resumo": "Estudo do Bruegel sobre a 'involução' na economia chinesa, com os veículos elétricos como exemplo central. Conclui que a campanha anti-involução empurra a consolidação, mas não chega a permitir a saída das empresas deficitárias, o que mantém a concorrência por preço baixo.",
+          "relevancia": "Alta: análise independente que contesta a ideia de que a guerra de preços termina rápido em consolidação."
+        },
+        {
+          "titulo": "Forged in a Knife Fight: China's Brutal Domestic AI Competition",
+          "organizacao": "War on the Rocks",
+          "ano": "2026",
+          "tipo_fonte": "mídia",
+          "setor": "tecnologia (IA)",
+          "pais_regiao": "EUA (sobre a China)",
+          "url": "https://warontherocks.com/cogs-of-war/forged-in-a-knife-fight-chinas-brutal-domestic-ai-competition/",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Involução na IA em três formas: guerras de preço entre laboratórios que destroem margens no setor inteiro, disputa por pesquisadores e governos provinciais financiando campeões rivais (web)",
+            "Mai/2024: ByteDance corta 99% do preço do Doubao; Alibaba, Baidu e Tencent seguem em poucos dias (web)",
+            "Cerca de 5.100 empresas de IA na China (web)",
+            "Campanha anti-involução de 2025 alcança setores 'dos veículos elétricos à IA' (web)"
+          ],
+          "resumo": "Artigo de análise e opinião (04/06/2026) na War on the Rocks, publicação especializada em segurança nacional, escrito por assessor de um centro de estudos americano, ex-analista do governo dos EUA; sem revisão por pares. É a única análise encontrada que trata explicitamente da involução nos modelos de IA e a compara com baterias, solar e veículos elétricos. A página bloqueia a impressão automática (verificação anti-robô); registrada como web e relida em 14/10/2026.",
+          "relevancia": "Alta para a comparação pedida no item 4, com a ressalva de ser artigo de opinião e análise."
+        },
+        {
+          "titulo": "Two Loops: How China's Open AI Strategy Reinforces Its Industrial Dominance (Research Working Group Paper)",
+          "organizacao": "U.S.-China Economic and Security Review Commission (USCC)",
+          "ano": "2026",
+          "tipo_fonte": "governo",
+          "setor": "tecnologia (IA)",
+          "pais_regiao": "EUA (sobre a China)",
+          "url": "https://www.uscc.gov/sites/default/files/2026-03/Two_Loops--How_Chinas_Open_AI_Strategy_Reinforces_Its_Industrial_Dominance.pdf",
+          "arquivo": "11_custo-da-ia/USCC_2026_two-loops-china-open-ai-industrial-dominance.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Jan/2026: Kimi K2.5 a US$ 1,20 por milhão de tokens (preço combinado) contra US$ 4,81 do GPT-5.2, ambos com índice 47 na Artificial Analysis (p. 8)",
+            "Governo chinês subsidia o acesso a modelos via API e a compra de licenças de modelos pré-treinados (p. 8)",
+            "Gansu, Guizhou e Mongólia Interior oferecem cortar até 50% da conta de energia de provedores de nuvem para IA; uso dos data centers de 20–30% (p. 9)",
+            "Modelos abertos chineses: de 32 em 2022 para 337 em 2025, segundo a Epoch AI (p. 9)"
+          ],
+          "resumo": "Estudo de 23/03/2026 da equipe de pesquisa da comissão do Congresso dos EUA sobre a estratégia chinesa de modelos abertos; segundo o próprio documento, não representa necessariamente a posição da Comissão. Documenta preço agressivo e subsídios estatais à oferta (energia) e à demanda (uso de modelos) na IA, sem comparar com os carros.",
+          "relevancia": "Alta: evidência de apoio do Estado na IA, ponto em que o paralelo com os carros pode valer."
+        },
+        {
+          "titulo": "【微观察·习近平总书记在中央城市工作会议上】“有些事要打攻坚战，有些事要久久为功” (coluna do Diário do Povo sobre a Conferência Central de Trabalho Urbano)",
+          "organizacao": "Diário do Povo (Renmin Ribao), reproduzido no portal do governo chinês (gov.cn)",
+          "ano": "2025",
+          "tipo_fonte": "governo",
+          "setor": "tecnologia (IA)",
+          "pais_regiao": "China",
+          "url": "https://www.gov.cn/yaowen/liebiao/202507/content_7032431.htm",
+          "arquivo": "11_custo-da-ia/PeoplesDaily-govcn_2025_xi-ia-computacao-veiculos-nova-energia-provincias.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Conferência Central de Trabalho Urbano, em Pequim (data indicada na página: 14/07/2025); texto publicado em 17/07/2025 (p. 1)",
+            "O secretário-geral do PCC questiona se todas as províncias precisam desenvolver indústrias de IA, poder computacional e veículos de nova energia (p. 4)"
+          ],
+          "resumo": "Coluna do Diário do Povo (jornal oficial do PCC), reproduzida no gov.cn, com trechos do discurso do secretário-geral do PCC na Conferência Central de Trabalho Urbano. Põe IA, poder computacional e veículos de nova energia na mesma lista de setores em que as províncias repetem projetos; a ligação com a sobrecapacidade é leitura nossa (a coluna não usa o termo).",
+          "relevancia": "Alta: único registro oficial encontrado que põe IA e carros elétricos na mesma preocupação com projetos repetidos nas províncias."
+        },
+        {
+          "titulo": "Securing the Information and Communications Technology and Services Supply Chain: Connected Vehicles (Final rule, 90 FR 5360)",
+          "organizacao": "Departamento de Comércio dos EUA — Bureau of Industry and Security (BIS), Federal Register",
+          "ano": "2025",
+          "tipo_fonte": "governo",
+          "setor": "automotivo",
+          "pais_regiao": "EUA",
+          "url": "https://www.federalregister.gov/documents/2025/01/16/2025-00592/securing-the-information-and-communications-technology-and-services-supply-chain-connected-vehicles",
+          "arquivo": "11_custo-da-ia/FederalRegister-BIS_2025_regra-final-veiculos-conectados.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Publicada em 16/01/2025; em vigor desde 17/03/2025 (p. 1)",
+            "Proíbe transações com hardware de conectividade e software 'coberto' ligados à China ou à Rússia (p. 1)",
+            "Risco alegado: exfiltração de dados sensíveis e acesso e manipulação remotos de veículos (p. 2)",
+            "Software proibido a partir do ano-modelo 2027; hardware a partir do ano-modelo 2030 ou de 01/01/2029 (p. 61)",
+            "Montadoras controladas pela China ou Rússia ficam proibidas de vender nos EUA, sem autorização, veículos conectados com hardware de conectividade ou software coberto a partir do ano-modelo 2027, mesmo sem ligação desses sistemas com os dois países (p. 12, 61)",
+            "Cobre veículos abaixo de 10.001 libras; os mais pesados ficam para regra posterior (p. 16)"
+          ],
+          "resumo": "Regra final do BIS publicada no Federal Register. Restringe, por razões de segurança nacional (exfiltração de dados e controle remoto), o software e o hardware chineses e russos em veículos conectados nos EUA e proíbe, salvo autorização específica, que montadoras controladas pela China vendam veículos conectados no país a partir do ano-modelo 2027; na prática, leitura nossa, isso fecha o mercado americano a elas.",
+          "relevancia": "Alta: fonte oficial da restrição por dados no setor automotivo, para comparar com as restrições a modelos de IA de origem chinesa."
+        }
+      ],
+      "formularios": [],
+      "lacunas": [
+        "Toyota do Brasil: nenhum comunicado oficial sobre preço, promoção ou redução de tabela da Hilux em 2025–2026 foi encontrado no site de imprensa toyotacomunica.com.br (busca em 14/10/2026; os releases de preço de 2026 tratam de RAV4, GR Yaris, bZ4X e Corolla Cross). O site toyota.com.br bloqueia o acesso automatizado (HTTP 403), então não há cópia datada do preço de tabela oficial da Hilux; os preços de tabela vêm da imprensa (AutoMais, Garagem360, Vrum).",
+        "A Toyota não atribuiu os descontos à concorrência em nenhuma fonte localizada. A ligação com a S10 e a GWM Poer P30 é da AutoMais (imprensa). Nos dados da Fenabrave, a Fiat Toro lidera o segmento de picapes grandes, e a concorrente que mais se aproxima da Hilux entre as picapes médias é a Ford Ranger (que a superou no mês de set/2026); as picapes chinesas têm volume pequeno (GWM Poer com 2,59% do segmento e BYD com 502 comerciais leves em jan–set/2026). Os dados mostram volumes, não a causa dos descontos: coincidência no tempo não prova causa.",
+        "Nova geração da Hilux no Brasil: não há data oficial da Toyota do Brasil. A Toyota Motor Corporation fez a estreia mundial em Bangkok em 10/11/2025 e fala em lançamentos na Ásia a partir de 2026 e no Japão em meados de 2026 (https://global.toyota/en/newsroom/toyota/43512628.html, não catalogado). A data 'início de 2027' para a América do Sul é da imprensa (AutoMais). Página da Toyota conferida em 14/10/2026.",
+        "Ford Ranger: o site ford.com.br nega acesso automatizado (Access Denied), e não há lista oficial de preços acessível. Só a versão topo (Limited V6, R$ 346.900 em 02/03/2026, Vrum) ficou registrada. Pista não catalogada: matéria do Diário do Grande ABC de 12/08/2026 sobre promoção da Ranger até 31/08/2026 (XL 4x4 para produtor rural de R$ 272.600 por R$ 209.900); a impressão saiu truncada e o texto completo parece restrito a assinantes.",
+        "BYD Shark: o site oficial (byd.com/br/car/shark) não exibe preço em 14/10/2026; o único preço datado é o da Vrum (R$ 344.990, mar/2026). O preço de lançamento de R$ 379.800 citado em outras matérias não foi verificado.",
+        "Imposto de importação: as notícias do MDIC sobre o tema (gov.br/mdic/.../noticias) aparecem como 'Conteúdo restrito' em 14/10/2026; usei a ata e as deliberações do Gecex. Não baixei o texto da resolução publicada no DOU em nov/2023 (o número citado em nota da Receita Federal, Resolução Gecex nº 532/2023, não foi conferido). Divergência sobre o CKD: a ata de 10/11/2023 previa 35% para kits CKD em 01/07/2027; a deliberação de jun/2026 fala em 35% a partir de 01/01/2027, 'conforme o cronograma em vigor'. A deliberação da 3ª reunião extraordinária de 2025 (publicada em 30/07/2025; lida na verificação em 14/10/2026, não catalogada: https://www.gov.br/mdic/pt-br/assuntos/camex/outros-documentos/deliberacoes/deliberacoes-da-3a-reuniao-extraordinaria-de-2025-do-comite-executivo-de-gestao-gecex) antecipou 'em um ano e meio' o fim do cronograma, atendendo em parte a pedido da Anfavea: a alíquota de 14% dos CKD, que valeria até 30/06/2028, passou a valer só até 31/12/2026. O 'de 30/06/2028' mostra que o cronograma vigente antes de jul/2025 já não era o da ata de 2023; a alteração intermediária não foi localizada. A mesma deliberação criou as cotas isentas para CKD e SKD (US$ 84,5 mi para híbridos, US$ 281 mi para plug-in e US$ 97,5 mi para elétricos, de 01/08/2025 a 31/01/2026), renovadas em jun/2026. Ao usar a data do CKD, citar a deliberação de 2026 e registrar a divergência; catalogar a deliberação de jul/2025.",
+        "Cálculo nosso (não é evidência): soma das marcas chinesas listadas entre as 21 primeiras da Fenabrave em automóveis + comerciais leves — cerca de 2,8% em 2023 (BYD, Caoa Chery, GWM), 6,7% em 2024, 9,2% em 2025 (mais Omoda Jaecoo) e 17,4% em jan–set/2026 (BYD, GWM, Caoa Chery, Geely, Omoda Jaecoo e GAC; cerca de 18,1% somando Caoa Changan e Leapmotor, que aparecem só na lista de automóveis). É piso, porque marcas abaixo do 21º lugar ficam de fora. A Fenabrave não classifica marcas por origem; a Caoa Chery é produzida no Brasil pelo grupo brasileiro Caoa com a marca chinesa Chery, e a classificação dela como 'chinesa' é escolha nossa.",
+        "Cálculo nosso: desconto da Hilux SRV na promoção de set/2026 = 14,2% (44.700/314.690); CNPJ Power Pack AT jan/2026 = 22,0% (64.413/292.790); Agrishow SR = 23,0% ((310.090 − 238.769,31)/310.090). Os 'cerca de R$ 60 mil' do protocolo só aparecem em canais específicos (vendas diretas a CNPJ e produtor rural, com prazo: R$ 46,2 mil a R$ 64,4 mil, conforme a versão) e no estande da Agrishow (R$ 71,3 mil), não no preço de tabela. A Poer P30 Exclusive (R$ 247.000) fica R$ 67.690 abaixo do preço de tabela da Hilux SRV e R$ 22.990 abaixo do preço promocional. Na matéria da Vrum (mar/2026), a BYD Shark (R$ 344.990) fica na mesma faixa das versões topo das concorrentes tradicionais (R$ 336.990 a R$ 357.890): abaixo da Hilux SRX Plus e da Ranger Limited V6 e acima da S10 High Country no valor da Vrum.",
+        "Cálculo nosso: participação da Toyota caiu de 8,82% (2023) para 5,69% (jan–set/2026), −3,1 pontos; a da BYD subiu de 0,82% para 7,84%, +7,0 pontos. A perda da Toyota não é só da Hilux (inclui outros modelos).",
+        "Exportações da China para o Brasil (CPCA, 480.403 veículos completos em jan–ago/2026) e emplacamentos das marcas chinesas no Brasil (Fenabrave, cerca de 375 mil a 389 mil em jan–set/2026, cálculo nosso) medem coisas diferentes: embarque na China contra emplacamento no Brasil, em períodos diferentes. A diferença pode incluir estoque formado antes da alíquota de 35% de jul/2026, veículos em trânsito e marcas não chinesas fabricadas na China. Não comparar diretamente sem conferir a definição da CPCA.",
+        "Comparação IA × carros (item 4): não localizei análise de think tank institucional (MERICS, Rhodium, Carnegie, Brookings, CSIS), banco central ou estudo acadêmico que compare formalmente a guerra de preços dos modelos de IA com a dos carros elétricos. A War on the Rocks é artigo de análise e opinião; o Bruegel trata da involução em geral, com os carros como exemplo, e cita a IA só como ferramenta de corte de custos; a USCC trata do preço agressivo e dos subsídios na IA sem comparar com carros. Também não encontrei declaração oficial chinesa (MIIT, NDRC, SAMR) dirigida especificamente à guerra de preços dos modelos de IA; o registro oficial mais próximo é a fala do secretário-geral do PCC de jul/2025 sobre IA, poder computacional e veículos de nova energia.",
+        "Pista para a Frente A (não verificada): a War on the Rocks (jun/2026) fala em corte permanente de 75% no preço do DeepSeek V4-Pro, enquanto um texto da State Street Global Advisors (https://www.ssga.com/in/en_gb/institutional/insights/beyond-deepseek-chinas-2026-model-wave-and-the-repricing-of-the-ai-stack) diz que a DeepSeek subiu os preços do V4 de 50% a 1.100% por falta de capacidade de computação. Conferir na página oficial de preços da DeepSeek.",
+        "Falências e saídas de montadoras chinesas: casos específicos (como a recuperação judicial da Neta/Hozon em jun/2025) só apareceram em imprensa especializada (CarNewsChina, Yicai) e não foram catalogados; a AlixPartners e o Bruegel dão o quadro agregado.",
+        "Apoio do Estado chinês aos carros elétricos (quantificação de subsídios) não foi levantado; candidata natural é a investigação antissubsídio da União Europeia sobre carros elétricos chineses (2024), não pesquisada nesta rodada.",
+        "Regra americana para veículos comerciais acima de 10.000 libras: o BIS anunciou regra separada; não verifiquei se foi publicada até out/2026.",
+        "Formato das cópias: Garagem360 imprimiu como imagem, sem camada de texto, e a War on the Rocks bloqueia a impressão automática (verificação anti-robô); as duas ficaram como 'web', com o texto lido em 14/10/2026. A cópia da AutoPapo saiu truncada no botão 'continuar lendo': a tabela completa e a frase de que descontos com prazo definido são 'pouco comuns' na Toyota estão só na página ao vivo, por isso não viraram evidência.",
+        "Preço da S10 High Country: a Vrum (02/03/2026, imprensa) dá R$ 336.990; a lista oficial da GM no PDF de 02/10/2026 traz a High Country ano-modelo 2026 a R$ 346.990 (lista vigente desde 01/01/2026, p. 65) e a ano-modelo 2027 a R$ 352.290 (p. 64). A origem do valor da Vrum não foi identificada; para a S10, usar a lista oficial.",
+        "Guerra de preços da IA na China (mai/2024): a War on the Rocks diz que a ByteDance 'cortou em 99%' o preço do Doubao; a Yicai (imprensa, frente A, p. 3) descreve o lançamento do Doubao com preço cerca de 99% abaixo da média do setor. Na nota, usar a formulação da Yicai.",
+        "Poer P30 Exclusive: no PDF do site da GWM, o preço (a partir de R$ 247.000; R$ 250.000 com teto solar) só aparece na imagem da p. 24, fora da camada de texto; conferido visualmente na verificação. A cópia não traz data impressa; a data de 14/10/2026 é a da captura."
+      ]
+    }
+  ]
+}

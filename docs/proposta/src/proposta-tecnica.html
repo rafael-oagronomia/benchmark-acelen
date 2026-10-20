@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Proposta Técnica — Benchmarking de uso de IA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Manrope:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --brand-green: #52C937; --brand-green-bright: #6FE34F; --brand-green-deep: #2F8B1F;
+    --bg-0: #050805; --bg-1: #0B100B; --bg-2: #131A13; --bg-3: #1C241B;
+    --line: #2A3328; --line-strong: #3A4537;
+    --fg-1: #F2F4EE; --fg-2: #B8BFB1; --fg-3: #7C8678;
+    --font-display: 'Chakra Petch', 'Bahnschrift', system-ui, sans-serif;
+    --font-body: 'Manrope', 'Segoe UI', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  }
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; background: var(--bg-0); color: var(--fg-1);
+    font-family: var(--font-body); font-size: 12.5px; line-height: 1.55;
+    -webkit-print-color-adjust: exact; print-color-adjust: exact;
+  }
+  .page {
+    width: 210mm; height: 297mm; position: relative; overflow: hidden;
+    padding: 16mm 17mm 22mm; background: var(--bg-0);
+    page-break-after: always; break-after: page;
+  }
+  .page:last-child { page-break-after: auto; break-after: auto; }
+
+  .eyebrow { font: 500 11px var(--font-display); text-transform: uppercase; letter-spacing: 0.18em; color: var(--brand-green); }
+  .label { font: 500 10px var(--font-display); text-transform: uppercase; letter-spacing: 0.08em; color: var(--fg-3); }
+  h1 { font: italic 700 44px/1.06 var(--font-display); letter-spacing: -0.01em; margin: 14px 0 0; }
+  h2 { font: italic 600 26px/1.2 var(--font-display); letter-spacing: -0.01em; margin: 0 0 12px; display: flex; align-items: baseline; gap: 12px; }
+  h2 .n { font: 500 20px var(--font-mono); color: var(--brand-green); font-style: normal; }
+  h3 { font: 600 16px/1.25 var(--font-display); margin: 0; }
+  h3 .fr { color: var(--brand-green); }
+  p { margin: 0 0 10px; color: var(--fg-2); }
+  b, strong { color: var(--fg-1); font-weight: 700; }
+  .mono { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+  .rule { width: 72px; height: 3px; background: var(--brand-green); margin: 22px 0; }
+  section.s + section.s { margin-top: 22px; }
+
+  .head { display: flex; justify-content: space-between; align-items: center; padding-bottom: 12px; border-bottom: 1px solid var(--line); margin-bottom: 22px; }
+  .head img, .cover .logo { mix-blend-mode: lighten; }
+  .head img { height: 26px; display: block; }
+  .foot { position: absolute; left: 17mm; right: 17mm; bottom: 10mm; display: flex; justify-content: space-between; align-items: center; padding-top: 8px; border-top: 1px solid var(--line); font: 500 9px var(--font-display); letter-spacing: 0.08em; text-transform: uppercase; color: var(--fg-3); }
+  .foot .mono { letter-spacing: 0; font-size: 10px; }
+
+  .card { background: var(--bg-2); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; }
+  .card p:last-child { margin-bottom: 0; }
+  .card.hl { border-color: rgba(82,201,55,0.45); background: linear-gradient(180deg, rgba(82,201,55,0.07), rgba(82,201,55,0.02)), var(--bg-2); }
+  ul.items { list-style: none; padding: 0; margin: 10px 0 0; }
+  ul.items li { position: relative; padding-left: 18px; margin: 0 0 8px; color: var(--fg-2); }
+  ul.items li::before { content: ''; position: absolute; left: 2px; top: 8px; width: 7px; height: 7px; border-radius: 2px; background: var(--brand-green); }
+  .front { margin-top: 18px; }
+  .front > .lead { margin-top: 6px; }
+
+  table.t { width: 100%; border-collapse: collapse; margin-top: 8px; font-size: 12px; }
+  table.t th { font: 500 9.5px var(--font-display); letter-spacing: 0.1em; text-transform: uppercase; color: var(--fg-3); text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line-strong); background: var(--bg-1); }
+  table.t td { padding: 10px; border-bottom: 1px solid var(--line); vertical-align: top; color: var(--fg-2); }
+  table.t td:first-child { color: var(--fg-1); font-weight: 700; }
+  table.t td.fr { white-space: nowrap; }
+  table.t .when { display: block; font: 400 11px var(--font-mono); color: var(--fg-3); font-weight: 400; margin-top: 2px; }
+  .chip { display: inline-block; padding: 2px 8px; border-radius: 999px; font: 500 9.5px var(--font-display); letter-spacing: 0.06em; text-transform: uppercase; background: var(--bg-3); color: var(--fg-2); border: 1px solid var(--line); }
+  .marco { color: var(--fg-1); }
+  .marco.k { color: var(--brand-green-bright); font-weight: 700; }
+
+  .note { font-size: 11px; color: var(--fg-3); border-left: 2px solid var(--line-strong); padding-left: 10px; margin-top: 12px; }
+  .note p { color: var(--fg-3); margin: 0; }
+
+  .legend { display: grid; grid-template-columns: 140px 1fr; gap: 7px 14px; padding: 14px 16px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg-1); font-size: 12px; }
+  .legend .label { padding-top: 2px; }
+
+  .cover { display: flex; flex-direction: column; }
+  .cover .logo { height: 40px; width: auto; align-self: flex-start; }
+  .cover .lead { font-size: 15px; color: var(--fg-2); max-width: 150mm; }
+  .version { display: inline-flex; align-items: center; gap: 8px; margin-top: 18px; padding: 5px 11px; border-radius: 999px; font: 600 10px var(--font-display); letter-spacing: 0.08em; text-transform: uppercase; background: rgba(82,201,55,0.12); color: var(--brand-green-bright); align-self: flex-start; }
+  .version .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--brand-green); }
+
+  .letter p { font-size: 13px; color: var(--fg-2); margin-bottom: 13px; }
+  .letter .sig { margin-top: 22px; color: var(--fg-1); }
+
+  .person { margin-top: 14px; }
+  .person h3 { font-size: 15px; }
+  .person h3 span { color: var(--fg-3); font-weight: 500; }
+  .person p { margin-top: 6px; }
+
+  .signs { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-top: 40px; }
+  .signs .card { padding-top: 54px; }
+  .signs .line { border-top: 1px solid var(--line-strong); padding-top: 8px; }
+  .signs p { margin: 0; }
+</style>
+</head>
+<body>
+
+<!-- 1 · Capa -->
+<section class="page cover">
+  <img class="logo" src="../../design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA">
+  <div class="eyebrow" style="margin-top:110px">Proposta técnica</div>
+  <h1>Benchmarking de uso de Inteligência Artificial como diferencial estratégico</h1>
+  <div class="rule"></div>
+  <p class="lead">Mapeamento da evolução da IA em empresas líderes do agro, bioenergia, florestal e setores correlatos — modelos de maturidade, capacidades críticas, tendências e roadmaps de adoção para subsidiar a estratégia de IA da Acelen Renováveis.</p>
+  <span class="version"><span class="dot"></span>Versão sem condições comerciais</span>
+  <div class="legend" style="margin-top:auto">
+    <div class="label">Contratante</div><div>Acelen Energia Renovável — CNPJ 50.886.095/0001-60</div>
+    <div class="label">Aos cuidados de</div><div>Bruno Ruocco Lizarelli e Luiz Fellipe Lima de Arcalá — Estratégia Agrícola</div>
+    <div class="label">Documento</div><div>Proposta Técnica — Benchmarking de uso de IA</div>
+    <div class="label">Nº / Revisão</div><div class="mono">Proposta nº 20260722-ACL · Revisão 00</div>
+    <div class="label">Responsáveis</div><div>Dr. Guilherme M. Sanches · Rafael Rotiroti</div>
+    <div class="label">Data / Validade</div><div>22/07/2026 · válida por 30 dias corridos a partir do envio</div>
+  </div>
+</section>
+
+<!-- 2 · Carta -->
+<section class="page letter">
+  <div class="head"><img src="../../design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Confidencial</span></div>
+  <div class="eyebrow" style="margin-bottom:18px">Piracicaba, 22 de julho de 2026</div>
+  <p style="color:var(--fg-1)">Prezado Bruno, prezado Luiz Fellipe, prezada equipe de Estratégia Agrícola da Acelen Renováveis,</p>
+  <p>Foi um prazer aprofundar, na conversa do dia 16/07, o entendimento sobre o que a Acelen Renováveis busca neste momento: uma leitura de mercado — macro, exploratória e qualitativa — sobre como as empresas líderes estão adotando inteligência artificial, e o que isso significa para uma companhia pioneira na domesticação da macaúba, com objetivos estratégicos que incluem big data, IA e tecnologia no campo.</p>
+  <p>Esta proposta responde ponto a ponto à Especificação Técnica GEA — Benchmarking de uso de IA (03/06/2026) e incorpora os alinhamentos da reunião de esclarecimento: foco no mercado brasileiro com casos internacionais de destaque, benchmark ancorado em dados públicos e secundários, inclusão de robótica e tecnologias de campo além da IA generativa, comparação com setores correlatos de maior maturidade digital e uma entrega estritamente estratégica — sem entrar em ferramentas específicas nem conflitar com a governança de TI da companhia.</p>
+  <p>Como diferencial, incluímos no escopo <b>sessões de conversa com executivos</b> de grandes empresas do agro e de setores correlatos aos quais os consultores têm acesso direto, agregando visão primária qualificada ao estudo sem comprometer o prazo de seis semanas.</p>
+  <p>Nas próximas páginas detalhamos o escopo, a metodologia, o cronograma e a equipe. Ficamos à disposição para a reunião de apresentação da proposta.</p>
+  <p>Cordialmente,</p>
+  <p class="sig"><b>Dr. Guilherme M. Sanches · Rafael Rotiroti</b><br><span style="color:var(--fg-3)">OagronomIA — O #agro no mundo da IA</span></p>
+  <div class="foot"><span>Acelen Energia Renovável · Proposta Técnica nº 20260722-ACL · Rev. 00</span><span class="mono">02</span></div>
+</section>
+
+<!-- 3 · Sumário + contexto -->
+<section class="page">
+  <div class="head"><img src="../../design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Confidencial</span></div>
+  <section class="s">
+    <h2><span class="n">01</span>Sumário executivo</h2>
+    <p>A OagronomIA propõe a realização de um <b>benchmarking do uso de IA como diferencial estratégico</b> em empresas líderes do agro, agroindústria, bioenergia, florestal e setores correlatos, organizado em três frentes — Benchmark Estratégico de IA, Modelos de Maturidade e Roadmaps, e Tendências e Perspectivas Futuras — encerrado por um Workshop Executivo presencial na sede da Acelen Renováveis, no Edifício Rochaverá, em São Paulo.</p>
+    <p>O estudo é conduzido com base em dados públicos e secundários, enriquecido por <b>2 a 4 sessões de conversa com executivos e lideranças técnicas</b> da rede de relacionamento direto dos consultores — cujos nomes não serão divulgados, por questões de confidencialidade —, e entregue em <b>seis semanas</b> (início previsto em 17/08/2026 e apresentação final em 29/09/2026), com reuniões semanais de acompanhamento e ao menos uma entrega parcial. A análise cobre todo o espectro da IA — da IA generativa (LLMs, agentes e copilotos) à robótica e aos sistemas autônomos de campo.</p>
+    <div class="card hl"><p><b>Entregáveis:</b> relatório completo em PowerPoint (framework de maturidade em IA, roadmap de mercado, benchmark de casos de referência e resumo executivo) e base de dados em Excel de suporte às análises. Toda a documentação torna-se propriedade da Acelen Renováveis.</p></div>
+  </section>
+  <section class="s">
+    <h2><span class="n">02</span>Entendimento do contexto e objetivo</h2>
+    <p>A Acelen Renováveis é pioneira na domesticação da macaúba — uma cultura perene, ainda intensiva em mão de obra e sem colheita mecanizada consolidada. A companhia possui objetivos estratégicos plurianuais até 2030 que incluem o uso de big data, IA e tecnologia no campo, além de estrutura própria de governança de TI, ferramenta interna de IA e forte preocupação com segurança de dados.</p>
+    <p>O objetivo do trabalho, conforme a Especificação Técnica, é <b>mapear e analisar a evolução da IA em empresas líderes do agro, bioenergia e setores correlatos, identificando modelos de maturidade, capacidades críticas, tendências e roadmaps de adoção que possam subsidiar a construção da estratégia de IA da Acelen Renováveis</b>. A abordagem é macro, exploratória e qualitativa — sem direcionamento a áreas ou processos internos específicos e sem aprofundamento em ferramentas, preservando integralmente o escopo de atuação da governança de TI da companhia.</p>
+  </section>
+  <div class="foot"><span>Acelen Energia Renovável · Proposta Técnica nº 20260722-ACL · Rev. 00</span><span class="mono">03</span></div>
+</section>
+
+<!-- 4 · Diretrizes -->
+<section class="page">
+  <div class="head"><img src="../../design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Confidencial</span></div>
+  <div class="eyebrow">02 · Entendimento do contexto e objetivo</div>
+  <h2 style="margin-top:6px">Diretrizes acordadas na reunião de esclarecimento (16/07/2026)</h2>
+  <ul class="items" style="margin-top:14px">
+    <li><b>Abrangência da IA:</b> o benchmark não se restringe à IA generativa — inclui robótica, visão computacional, automação e novas tecnologias de campo, sem entrar em marcas ou modelos específicos de maquinário.</li>
+    <li><b>Abrangência geográfica:</b> foco no mercado brasileiro, com a inclusão de casos internacionais de grande destaque quando relevantes (ex.: mecanização e uso de drones e máquinas autônomas na China).</li>
+    <li><b>Fontes:</b> dados secundários e públicos (relatórios de companhias abertas, publicações setoriais, estudos de mercado), somados à visão e à experiência de campo dos consultores; estudos primários não são mandatórios — as sessões executivas propostas são um complemento de valor, dimensionado para caber no prazo.</li>
+    <li><b>Perfil das empresas:</b> grandes empresas do agro, agroindustrial, bioenergia, florestal e correlatos que já utilizem IA ou tenham jornada estruturada de adoção; complementarmente, empresas de outros setores reconhecidas como referência (financeiro, tecnologia, farmacêutico, energia), para antecipar tendências e calibrar o framework de maturidade e o roadmap de médio e longo prazo.</li>
+    <li><b>Nível de análise:</b> estritamente estratégico e macro — sem detalhes granulares de governança organizacional, priorização de investimentos ou ferramentas internas.</li>
+  </ul>
+  <div class="foot"><span>Acelen Energia Renovável · Proposta Técnica nº 20260722-ACL · Rev. 00</span><span class="mono">04</span></div>
+</section>
+
+<!-- 5 · Escopo: Frentes 1 e 2 -->
+<section class="page">
+  <div class="head"><img src="../../design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Confidencial</span></div>
+  <h2><span class="n">03</span>Escopo detalhado e atividades a serem executadas</h2>
+  <div class="front">
+    <h3><span class="fr">Frente 1 —</span> Benchmark Estratégico de IA</h3>
+    <p class="lead">Mapeamento estruturado de como empresas líderes utilizam IA como diferencial estratégico, com foco em empresas do agro, agroindústria, bioenergia, florestal e setores correlatos no Brasil, complementado por casos internacionais de destaque e por referências de setores de maior maturidade digital.</p>
+    <ul class="items">
+      <li><b>Painel de empresas:</b> definição, em conjunto com a Acelen, de um painel de 5 a 10 empresas — grandes empresas do agro e correlatos com jornada estruturada de IA, mais 2 a 3 referências de outros setores (financeiro, tecnologia, farmacêutico, energia) como norte de maturidade.</li>
+      <li><b>Casos de sucesso e insucesso:</b> análise do que funcionou, do que falhou e das lições aprendidas — incluindo os padrões que mais observamos em campo, como iniciativas de IA que fracassam por fragilidade de infraestrutura, governança e qualidade de dados.</li>
+      <li><b>Dimensões de análise:</b> governança de IA, estratégia de dados, organização (estruturas, papéis e competências) e aplicações — do apoio à decisão estratégica à automação e às tecnologias de campo (robótica, visão computacional, drones e máquinas autônomas), sempre em nível macro.</li>
+      <li><b>Fichas de benchmark:</b> síntese padronizada por empresa analisada, comparável entre casos e consolidada na base de dados em Excel.</li>
+    </ul>
+  </div>
+  <div class="front">
+    <h3><span class="fr">Frente 2 —</span> Modelos de Maturidade e Roadmaps</h3>
+    <p class="lead">Construção do referencial analítico que permitirá à Acelen se posicionar frente ao mercado e enxergar os próximos passos da jornada.</p>
+    <ul class="items">
+      <li><b>Frameworks de maturidade:</b> revisão dos principais frameworks de maturidade em IA adotados pelo mercado e construção de um framework consolidado, aplicável à realidade do agro e da Acelen.</li>
+      <li><b>Estágios de evolução:</b> caracterização dos estágios — dos usos exploratórios ao suporte à decisão, automação inteligente e sistemas autônomos — com o posicionamento observado das empresas do painel em cada estágio.</li>
+      <li><b>Capacidades necessárias em cada etapa:</b> dados, infraestrutura, pessoas, processos e governança requeridos para avançar de um estágio ao seguinte.</li>
+    </ul>
+  </div>
+  <div class="foot"><span>Acelen Energia Renovável · Proposta Técnica nº 20260722-ACL · Rev. 00</span><span class="mono">05</span></div>
+</section>
+
+<!-- 6 · Frente 2 (cont.) e Frente 3 -->
+<section class="page">
+  <div class="head"><img src="../../design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Confidencial</span></div>
+  <div class="eyebrow">03 · Escopo detalhado (continuação)</div>
+  <div class="front" style="margin-top:10px">
+    <h3><span class="fr">Frente 2 —</span> Modelos de Maturidade e Roadmaps</h3>
+    <ul class="items">
+      <li><b>Dependências críticas:</b> pré-requisitos e alicerces que condicionam a evolução — o que precisa estar estabelecido antes de cada salto de maturidade.</li>
+      <li><b>IA generativa nos modelos de maturidade e roadmaps:</b> como a IA generativa (LLMs, agentes e copilotos corporativos) se posiciona em cada estágio de maturidade — do uso exploratório individual à integração em processos e à automação inteligente — e como as empresas líderes a incorporam em seus roadmaps de adoção.</li>
+      <li><b>Roadmaps observados no mercado:</b> trajetórias típicas de adoção (sequência, ritmo e prioridades) praticadas pelas empresas líderes, como referência para o roadmap de médio e longo prazo da Acelen.</li>
+    </ul>
+  </div>
+  <div class="front">
+    <h3><span class="fr">Frente 3 —</span> Tendências e Perspectivas Futuras</h3>
+    <p class="lead">Leitura prospectiva dos movimentos que devem moldar a próxima década da IA no agro e nos setores correlatos.</p>
+    <ul class="items">
+      <li><b>Principais movimentos de mercado:</b> investimentos, parcerias, aquisições e sinais de direção das empresas líderes.</li>
+      <li><b>Tendências em IA generativa:</b> evolução dos LLMs, dos agentes autônomos e dos copilotos corporativos, e suas implicações para o apoio à decisão estratégica, a produtividade das equipes e os novos modelos operacionais no agro e nos setores correlatos.</li>
+      <li><b>Sistemas autônomos:</b> evolução de agentes de IA, máquinas autônomas, drones e robótica de campo — com atenção especial a culturas perenes e de baixa mecanização, o contexto da macaúba, e à tendência estrutural de escassez de mão de obra no campo.</li>
+      <li><b>IA aplicada ao agro:</b> fronteiras de aplicação em agricultura de precisão, sensoriamento remoto, modelos preditivos e apoio à decisão agronômica e industrial.</li>
+      <li><b>Dados e soberania tecnológica:</b> movimentos de mercado em propriedade e controle de dados, dependência de fornecedores e estratégias de autonomia tecnológica.</li>
+      <li><b>Mudanças organizacionais esperadas:</b> como as estruturas, os papéis e as competências das empresas tendem a evoluir com a adoção de IA.</li>
+      <li><b>Oportunidades e riscos estratégicos:</b> síntese das janelas de oportunidade e dos riscos — tecnológicos, organizacionais e competitivos — relevantes para a Acelen.</li>
+    </ul>
+  </div>
+  <div class="foot"><span>Acelen Energia Renovável · Proposta Técnica nº 20260722-ACL · Rev. 00</span><span class="mono">06</span></div>
+</section>
+
+<!-- 7 · Diferencial e Workshop -->
+<section class="page">
+  <div class="head"><img src="../../design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Confidencial</span></div>
+  <div class="eyebrow">03 · Escopo detalhado (continuação)</div>
+  <div class="card hl" style="margin-top:14px">
+    <h3><span class="fr">Diferencial —</span> Sessões de conversa com executivos</h3>
+    <p style="margin-top:10px">Além do benchmark com dados públicos e secundários, conduziremos <b>2 a 4 sessões de conversa com executivos e lideranças técnicas</b> de grandes empresas do agro e de setores correlatos, a partir da rede de relacionamento direto dos consultores — construída em anos de atuação do Dr. Guilherme Sanches levando IA a empresas do agro em todo o Brasil (incluindo referências nacionais de agricultura digital) e da trajetória de Rafael Rotiroti em instituições líderes do setor financeiro e em agtechs. As conversas seguem roteiro semiestruturado alinhado às três frentes. <b>Por questões de confidencialidade, os nomes dos executivos e das empresas participantes não serão divulgados</b>: os insights são incorporados ao estudo de forma agregada e anonimizada. Esse componente agrega leitura primária qualificada — o que as empresas estão de fato fazendo, para além do que publicam — sem comprometer o prazo de seis semanas.</p>
+  </div>
+  <div class="front" style="margin-top:24px">
+    <h3><span class="fr">Encerramento —</span> Workshop Executivo</h3>
+    <p class="lead">Apresentação final presencial na sede da Acelen Renováveis em São Paulo, no Edifício Rochaverá, para o time de Estratégia e convidados da liderança (diretoria do agroindustrial, gerências e, eventualmente, CEO), contemplando:</p>
+    <ul class="items">
+      <li>Apresentação dos resultados das três frentes, do framework de maturidade e do posicionamento do mercado (e, em leitura macro, da própria Acelen) nos estágios de evolução;</li>
+      <li>Discussão das tendências e de suas implicações estratégicas para a companhia;</li>
+      <li>Esclarecimentos, perguntas e respostas, e recomendações de próximos passos.</li>
+    </ul>
+  </div>
+  <div class="foot"><span>Acelen Energia Renovável · Proposta Técnica nº 20260722-ACL · Rev. 00</span><span class="mono">07</span></div>
+</section>
+
+<!-- 8 · Metodologia -->
+<section class="page">
+  <div class="head"><img src="../../design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Confidencial</span></div>
+  <h2><span class="n">04</span>Metodologia e abordagem técnica por etapa</h2>
+  <p>O trabalho segue um processo em cinco etapas, com métodos definidos para cada uma delas — atendendo ao requisito de detalhamento da abordagem metodológica e técnica da Especificação Técnica.</p>
+  <table class="t">
+    <thead><tr><th style="width:27%">Etapa</th><th>Abordagem metodológica e técnica</th><th style="width:17%">Frente</th></tr></thead>
+    <tbody>
+      <tr><td>1. Mobilização e desenho da pesquisa</td><td>Reunião de kick-off com a Acelen; validação do painel de empresas e das dimensões de análise; protocolo de pesquisa (fontes, critérios de inclusão, ficha padrão de benchmark); agenda das sessões executivas.</td><td class="fr"><span class="chip">Transversal</span></td></tr>
+      <tr><td>2. Coleta e análise secundária</td><td>Pesquisa estruturada em fontes públicas: relatórios anuais e de resultados de companhias abertas, relatórios setoriais e de consultorias, publicações científicas e técnicas, imprensa especializada e bases de inovação. Uso de IA para acelerar varredura e triagem de fontes, sempre com curadoria e validação humana dos consultores.</td><td class="fr"><span class="chip">Frentes 1 e 3</span></td></tr>
+      <tr><td>3. Sessões executivas</td><td>2 a 4 conversas semiestruturadas (60 min) com executivos e lideranças técnicas da rede dos consultores; roteiro alinhado às três frentes; registro sistematizado e incorporação agregada e anonimizada dos insights, sem divulgação de nomes de executivos ou empresas.</td><td class="fr"><span class="chip">Frentes 1, 2 e 3</span></td></tr>
+      <tr><td>4. Síntese analítica</td><td>Consolidação das fichas de benchmark; construção do framework de maturidade e posicionamento das empresas do painel; identificação de capacidades, dependências críticas e roadmaps típicos; leitura prospectiva de tendências, oportunidades e riscos.</td><td class="fr"><span class="chip">Frentes 1, 2 e 3</span></td></tr>
+      <tr><td>5. Entrega e workshop</td><td>Produção do relatório em PowerPoint e da base em Excel; reunião de entrega parcial para validação de direção; ajustes finais; Workshop Executivo presencial no Rochaverá.</td><td class="fr"><span class="chip">Transversal</span></td></tr>
+    </tbody>
+  </table>
+  <div class="foot"><span>Acelen Energia Renovável · Proposta Técnica nº 20260722-ACL · Rev. 00</span><span class="mono">08</span></div>
+</section>
+
+<!-- 9 · Entregáveis e cronograma -->
+<section class="page">
+  <div class="head"><img src="../../design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Confidencial</span></div>
+  <section class="s">
+    <h2><span class="n">05</span>Entregáveis e relatórios</h2>
+    <ul class="items">
+      <li><b>Relatório completo em formato PowerPoint (ppt)</b> de todo o estudo realizado, contendo: <b>framework de maturidade em IA</b>; <b>roadmap de mercado para adoção de IA</b>; <b>benchmark dos casos de referência</b> (fichas por empresa e leitura transversal); e <b>resumo executivo</b>.</li>
+      <li><b>Base de dados em Excel</b> de suporte às análises: painel de empresas, fichas de benchmark estruturadas, classificação por estágio de maturidade e catálogo de fontes.</li>
+      <li><b>Relatórios parciais de acompanhamento</b> apresentados nas reuniões semanais, e material da <b>reunião de entrega parcial</b> prevista antes do término.</li>
+    </ul>
+    <div class="note"><p>Identificação dos documentos: todos os documentos serão apresentados em português e conterão legenda com Contratante (Acelen Energia Renovável), Nome do Documento, Número do Documento e Revisão, conforme a Especificação Técnica. Todas as cópias dos documentos relativos ao objeto tornam-se propriedade da Contratante.</p></div>
+  </section>
+  <section class="s">
+    <h2><span class="n">06</span>Cronograma de execução</h2>
+    <p>Prazo total de <b>seis semanas</b>, com início previsto em <b>17/08/2026</b> (a partir da assinatura do contrato) e apresentação final em <b>29/09/2026</b>, dentro da margem prevista na Especificação Técnica.</p>
+    <table class="t">
+      <thead><tr><th style="width:18%">Período</th><th>Atividades</th><th style="width:30%">Marcos</th></tr></thead>
+      <tbody>
+        <tr><td>Semana 1<span class="when">17–21/08</span></td><td>Mobilização; kick-off com a Acelen; validação do painel de empresas e do protocolo de pesquisa; agendamento das sessões executivas.</td><td class="marco">Kick-off · Painel e protocolo aprovados</td></tr>
+        <tr><td>Semanas 2–3<span class="when">24/08–04/09</span></td><td>Frente 1 — coleta e análise do benchmark; início das sessões executivas; primeiras fichas de benchmark.</td><td class="marco">Reuniões semanais de acompanhamento</td></tr>
+        <tr><td>Semana 4<span class="when">07–11/09</span></td><td>Frente 2 — framework de maturidade, estágios, capacidades, dependências e roadmaps; conclusão das sessões executivas.</td><td class="marco k">Reunião de entrega parcial (≈ 11/09)</td></tr>
+        <tr><td>Semana 5<span class="when">14–18/09</span></td><td>Frente 3 — tendências e perspectivas; consolidação da síntese analítica; estruturação do relatório final.</td><td class="marco">Prévia do relatório</td></tr>
+        <tr><td>Semana 6<span class="when">21–29/09</span></td><td>Fechamento do relatório PowerPoint e da base Excel; alinhamento prévio com a Estratégia Agrícola; Workshop Executivo presencial.</td><td class="marco k">Workshop Executivo — 29/09</td></tr>
+      </tbody>
+    </table>
+    <p style="margin-top:10px"><b>Vigência contratual:</b> 2 (dois) meses, com início da execução a partir da assinatura do contrato e previsão de início em 17/08/2026.</p>
+  </section>
+  <div class="foot"><span>Acelen Energia Renovável · Proposta Técnica nº 20260722-ACL · Rev. 00</span><span class="mono">09</span></div>
+</section>
+
+<!-- 10 · Governança -->
+<section class="page">
+  <div class="head"><img src="../../design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Confidencial</span></div>
+  <h2><span class="n">07</span>Governança e gestão do projeto</h2>
+  <p>A fiscalização da execução dos trabalhos se dará por <b>reuniões semanais de acompanhamento</b> (remotas, ~45 min) com a equipe de Estratégia Agrícola, com registro objetivo de avanço, próximos passos e pontos de decisão, e pela <b>entrega de relatórios parciais</b> — incluindo ao menos uma reunião de entrega parcial antes do término, conforme a Especificação Técnica.</p>
+  <ul class="items">
+    <li><b>Pontos focais:</b> Dr. Guilherme Sanches (direção do estudo e interlocução executiva) e Rafael Rotiroti (estruturação analítica e gestão do projeto). Ambos atuam diretamente na execução — não há delegação a equipes juniores.</li>
+    <li><b>Registro e transparência:</b> toda reunião do projeto será gravada e transcrita, e as gravações, transcrições e materiais serão compartilhados com a equipe da Acelen.</li>
+    <li><b>Gestão dos dados do projeto:</b> ao final do projeto, todos os dados, registros e artefatos produzidos serão enviados à Acelen; a OagronomIA manterá uma cópia por 90 dias, para fins de suporte pós-entrega, excluindo-a integralmente após esse período.</li>
+    <li><b>Ponto focal para dados sensíveis:</b> a Acelen indicará um ponto focal com o qual dados sensíveis do projeto poderão ser compartilhados de forma controlada.</li>
+    <li><b>Canal dedicado:</b> será criado um canal dedicado para as dúvidas do dia a dia, no formato de preferência da Acelen (grupo de WhatsApp ou e-mail), com retorno em até um dia útil.</li>
+    <li><b>Gestão de escopo:</b> qualquer ajuste de direcionamento identificado nas semanais é tratado de imediato, preservando prazo e escopo contratados.</li>
+  </ul>
+  <div class="foot"><span>Acelen Energia Renovável · Proposta Técnica nº 20260722-ACL · Rev. 00</span><span class="mono">10</span></div>
+</section>
+
+<!-- 11 · Equipe -->
+<section class="page">
+  <div class="head"><img src="../../design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Confidencial</span></div>
+  <h2><span class="n">08</span>Equipe designada — profissionais-chave</h2>
+  <p>O projeto será conduzido integralmente pelos dois fundadores da OagronomIA, que combinam profundidade no agro brasileiro e visão de setores de alta maturidade digital — exatamente o cruzamento que o escopo exige. Os currículos completos acompanham esta proposta em documentos anexos.</p>
+  <div class="card person">
+    <h3>Dr. Guilherme Martineli Sanches <span>— Direção do estudo e interlocução executiva</span></h3>
+    <p>Engenheiro Agrícola (UNICAMP), Doutor em Bioenergia (USP-UNESP-UNICAMP) e Pós-Doutor em Ciência do Solo (ESALQ/USP), com MBA em Big Data e Inteligência Artificial (ICMC/USP). CEO e fundador da OagronomIA, por meio da qual tem percorrido o Brasil levando IA a empresas, cooperativas e instituições do agro — em capacitações, palestras, diagnósticos e consultorias estratégicas. Essa atuação lhe dá leitura direta e atualizada do estágio real de adoção de IA no agro brasileiro, dos casos de destaque aos gargalos típicos de infraestrutura, governança e dados. Pós-doutorado concluído no Centro de Pesquisa em Carbono na Agricultura Tropical (CCARBON/ESALQ/USP), ex-CTO e fundador da agtech Cropman e ex-líder do grupo de Agricultura de Precisão do CTBE/CNPEM, com passagens internacionais (Holanda, Canadá, Portugal), mais de 20 artigos científicos e prêmios nacionais e internacionais, incluindo o Outstanding Graduate Student Award da International Society of Precision Agriculture.</p>
+  </div>
+  <div class="card person">
+    <h3>Rafael Salinas Rotiroti <span>— Estruturação analítica e frameworks de maturidade</span></h3>
+    <p>Especialista em Arquitetura de Software e Ciência de Dados, com MBA pela PUC-Campinas e mais de 9 anos de experiência em duas frentes complementares: sistemas de missão crítica em instituições líderes do setor financeiro — Itaú Unibanco (tech lead), Serasa Experian e Mercado Bitcoin — e plataformas agtech de agricultura de precisão e rastreabilidade (InCeres, Brazil Beef Quality, Razão Agro). Referência técnica em sistemas AI-first, orquestração de LLMs e adoção enterprise de IA, com estudo aplicado de frameworks de maturidade em IA e roadmaps de modernização. Sua vivência no setor financeiro — justamente o benchmark de maturidade citado como referência pela própria Acelen — traz ao estudo a régua comparativa dos setores mais avançados em digitalização e IA.</p>
+  </div>
+  <h3 style="margin-top:18px">Experiência prévia em projetos similares</h3>
+  <ul class="items">
+    <li><b>Diagnóstico e direção técnica de plataforma de dados e IA</b> para fundação de pesquisa agronômica de referência nacional — do diagnóstico estratégico de processos e dados ao roadmap e à construção assistida da plataforma (referência disponível sob solicitação).</li>
+    <li><b>Consultorias e capacitações em IA para o agro</b> conduzidas pela OagronomIA junto a empresas, cooperativas e instituições em todo o Brasil, incluindo diagnósticos de maturidade digital e estratégias de adoção de IA.</li>
+    <li><b>Consultoria independente em arquitetura e IA aplicada</b> para empresas do agro e de biocombustíveis/economia circular energética (Razão Agro, Lubrasil), com foco em modernização e adoção de IA.</li>
+    <li><b>Pesquisa aplicada</b> em IA, agricultura de precisão, sensoriamento remoto e carbono na agricultura tropical (CCARBON/ESALQ/USP), com produção científica em periódicos internacionais.</li>
+  </ul>
+  <div class="note"><p>Referências de clientes poderão ser disponibilizadas mediante solicitação, respeitando acordos de confidencialidade vigentes.</p></div>
+  <div class="foot"><span>Acelen Energia Renovável · Proposta Técnica nº 20260722-ACL · Rev. 00</span><span class="mono">11</span></div>
+</section>
+
+<!-- 12 · Exclusões e propriedade -->
+<section class="page">
+  <div class="head"><img src="../../design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Confidencial</span></div>
+  <section class="s">
+    <h2><span class="n">09</span>Exclusões do escopo e premissas</h2>
+    <p>Conforme a Especificação Técnica, não fazem parte do escopo deste trabalho:</p>
+    <ul class="items">
+      <li>Visitas técnicas às unidades de negócio da Acelen Renováveis;</li>
+      <li>Diagnóstico interno das operações e dos planos estratégicos da Acelen Renováveis;</li>
+      <li>Aplicação dos resultados na rotina da Acelen Renováveis.</li>
+    </ul>
+    <p style="margin-top:6px"><b>Premissas adicionais:</b> o estudo não avaliará nem recomendará ferramentas específicas de IA, nem tratará do desenho de soluções internas — temas sob a governança de TI da companhia; a menção a aspectos de governança e estruturação aparecerá apenas em nível macro, como dimensão do benchmark de mercado. A realização das sessões executivas depende de agenda dos convidados; a OagronomIA garante o esforço de mobilização de sua rede e o mínimo de 2 sessões, e os nomes dos executivos e das empresas participantes não serão divulgados, por questões de confidencialidade.</p>
+  </section>
+  <section class="s">
+    <h2><span class="n">10</span>Propriedade dos documentos e confidencialidade</h2>
+    <p>Todas as cópias dos documentos relacionados ao objeto desta Especificação, apresentadas pela OagronomIA e submetidas à Contratante, tornar-se-ão propriedade da Acelen Energia Renovável. Ao final do projeto, todos os dados, gravações, transcrições e artefatos serão enviados à Acelen; a OagronomIA manterá uma cópia por 90 dias, excluindo-a integralmente após esse período. A OagronomIA trata sob sigilo todas as informações da Acelen acessadas ao longo do trabalho, sem compartilhá-las, divulgá-las ou reutilizá-las — dados sensíveis serão compartilhados exclusivamente com o ponto focal indicado pela Acelen —, e formaliza esse compromisso por meio de acordo de confidencialidade (NDA), se requerido.</p>
+    <p>Toda a documentação será apresentada em português, com legenda de identificação (Contratante, Nome, Número e Revisão do Documento).</p>
+  </section>
+  <div class="foot"><span>Acelen Energia Renovável · Proposta Técnica nº 20260722-ACL · Rev. 00</span><span class="mono">12</span></div>
+</section>
+
+<!-- 13 · Próximos passos -->
+<section class="page">
+  <div class="head"><img src="../../design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Confidencial</span></div>
+  <h2><span class="n">11</span>Próximos passos</h2>
+  <ul class="items">
+    <li>Reunião de apresentação da proposta técnica (janela de 28/07/2026, conforme cronograma do processo);</li>
+    <li>Ajustes e adequações, caso necessário, e envio da proposta comercial final;</li>
+    <li>Validação, negociação e formalização do contrato;</li>
+    <li>Início da prestação do serviço em 17/08/2026, com kick-off na primeira semana.</li>
+  </ul>
+  <div class="signs">
+    <div class="card"><div class="line"><div class="label" style="margin-bottom:6px">Contratada</div><p style="color:var(--fg-1)"><b>Guilherme M. Sanches — OagronomIA</b></p><p>guilherme@iaparaagronomos.com.br · (14) 99164-8711</p></div></div>
+    <div class="card"><div class="line"><div class="label" style="margin-bottom:6px">Contratante</div><p style="color:var(--fg-1)"><b>Acelen Energia Renovável</b></p><p>[nome / cargo]</p></div></div>
+  </div>
+  <div class="foot"><span>Acelen Energia Renovável · Proposta Técnica nº 20260722-ACL · Rev. 00</span><span class="mono">13</span></div>
+</section>
+
+</body>
+</html>

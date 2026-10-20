@@ -98,6 +98,11 @@
   .q__tags { margin-left: auto; display: flex; gap: 6px; align-items: center; }
   .q__ask { font: 700 14.5px/1.45 var(--font-body); color: var(--fg-1); margin-top: 10px; }
   .q .label { display: block; margin-top: 10px; }
+  /* Página 3 (quatro perguntas): espaçamento mais justo para não encostar no rodapé */
+  .compacta .q { padding: 11px 16px; margin-top: 9px; }
+  .compacta .q__ask { margin-top: 7px; }
+  .compacta .q .label { margin-top: 7px; }
+  .compacta ul.probe li { margin-top: 2px; line-height: 1.45; }
 
   /* Condução */
   .two { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
@@ -157,9 +162,9 @@
   <div class="legend" style="margin-top:auto">
     <div class="label">Contratante</div><div>Acelen Energia Renovável</div>
     <div class="label">Documento</div><div>Roteiro das sessões executivas — Benchmarking de uso de IA</div>
-    <div class="label">Nº / Revisão</div><div class="mono">BIA-ACL-SE-01 · Rev. 00</div>
+    <div class="label">Nº / Revisão</div><div class="mono">BIA-ACL-SE-01 · Rev. 01</div>
     <div class="label">Responsáveis</div><div>Dr. Guilherme M. Sanches · Rafael Rotiroti — OagronomIA</div>
-    <div class="label">Data</div><div>Setembro de 2026</div>
+    <div class="label">Data</div><div>Outubro de 2026</div>
   </div>
 </section>
 
@@ -182,7 +187,7 @@
   <div class="script">
     <div class="card"><h3>O estudo</h3><p>Benchmark de mercado sobre como empresas líderes adotam IA como diferencial estratégico, feito para uma empresa do setor de bioenergia.</p></div>
     <div class="card"><h3>Confidencialidade</h3><p>Nem o seu nome nem o da sua empresa aparecem em nenhum material. O que você disser entra no estudo de forma agregada e anônima.</p></div>
-    <div class="card"><h3>Gravação</h3><p>Pedir autorização para gravar, só para a transcrição interna. O registro que entra no projeto é anonimizado.</p></div>
+    <div class="card"><h3>Gravação</h3><p>Pedir autorização para gravar, só para a transcrição interna. A gravação é apagada depois do registro; o que entra no projeto é anonimizado.</p></div>
     <div class="card"><h3>Tom</h3><p>Conversa estratégica. Sem ferramentas específicas, números confidenciais ou detalhes internos que não possam ser compartilhados.</p></div>
   </div>
 
@@ -204,11 +209,11 @@
   </table>
   <p class="src">Se o tempo apertar, garanta as cinco perguntas do núcleo.</p>
 
-  <div class="foot"><span>Acelen Energia Renovável · Roteiro das sessões executivas · BIA-ACL-SE-01 · Rev. 00</span><span class="mono">02 / 07</span></div>
+  <div class="foot"><span>Acelen Energia Renovável · Roteiro das sessões executivas · BIA-ACL-SE-01 · Rev. 01</span><span class="mono">02 / 07</span></div>
 </section>
 
 <!-- 3 · Perguntas 01–04 -->
-<section class="page">
+<section class="page compacta">
   <div class="head"><img src="../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Uso interno</span></div>
   <div class="eyebrow">Perguntas 01–04</div>
   <h2>O que já aconteceu</h2>
@@ -220,7 +225,7 @@
     <ul class="probe">
       <li>Qual foi o ponto de virada em que a IA deixou de ser experimento e passou a ser pauta estratégica? Quem patrocinou?</li>
       <li>Mostrar a régua de 5 estágios (anexo). Onde você colocaria a empresa? Qual iniciativa comprova esse estágio?</li>
-      <li>Em qual dimensão vocês estão mais atrás: governança, dados, organização ou aplicações?</li>
+      <li>Em qual dimensão vocês estão mais atrás: estratégia e governança, dados e infraestrutura, organização e pessoas, ou aplicações e valor?</li>
     </ul>
   </div>
 
@@ -232,6 +237,7 @@
       <li>De cada 10 pilotos, quantos chegam à produção?</li>
       <li>Existe um método formal de ROI? Quem valida o resultado: o negócio ou a TI?</li>
       <li>O que diferencia um piloto que escala de um que morre?</li>
+      <li>Onde o valor apareceu primeiro: no campo, na indústria, na logística ou no corporativo?</li>
     </ul>
   </div>
 
@@ -252,10 +258,11 @@
     <ul class="probe">
       <li>Qual pré-requisito foi subestimado? Por exemplo: qualidade de dados, conectividade no campo, integração de sistemas.</li>
       <li>A sequência seguida foi planejada ou descoberta no caminho?</li>
+      <li>Quanto tempo levou cada etapa: da base de dados e da conectividade ao primeiro caso em produção, e dele à escala?</li>
     </ul>
   </div>
 
-  <div class="foot"><span>Acelen Energia Renovável · Roteiro das sessões executivas · BIA-ACL-SE-01 · Rev. 00</span><span class="mono">03 / 07</span></div>
+  <div class="foot"><span>Acelen Energia Renovável · Roteiro das sessões executivas · BIA-ACL-SE-01 · Rev. 01</span><span class="mono">03 / 07</span></div>
 </section>
 
 <!-- 4 · Perguntas 05–07 -->
@@ -280,7 +287,8 @@
     <p class="q__ask">Que estruturas, papéis e competências vocês criaram ou mudaram por causa da IA?</p>
     <span class="label">Aprofundar</span>
     <ul class="probe">
-      <li>Centro de excelência, times de dados dentro do negócio, novos cargos?</li>
+      <li>Vocês têm uma área de IA? Onde ela fica no organograma: TI, Estratégia, negócio ou diretoria própria? Por quê?</li>
+      <li>Centro de excelência, times de dados dentro do negócio, novos cargos? Em ordem de grandeza, quantas pessoas trabalham com dados e IA?</li>
       <li>Qual perfil profissional mais falta? Onde a cultura mais resistiu?</li>
       <li>Como imagina essas estruturas daqui a 3 a 5 anos?</li>
     </ul>
@@ -299,7 +307,7 @@
 
   <div class="notes"><span class="label">Anotações</span><div class="lines"></div></div>
 
-  <div class="foot"><span>Acelen Energia Renovável · Roteiro das sessões executivas · BIA-ACL-SE-01 · Rev. 00</span><span class="mono">04 / 07</span></div>
+  <div class="foot"><span>Acelen Energia Renovável · Roteiro das sessões executivas · BIA-ACL-SE-01 · Rev. 01</span><span class="mono">04 / 07</span></div>
 </section>
 
 <!-- 5 · Perguntas 08–10 -->
@@ -313,8 +321,9 @@
     <p class="q__ask">No campo, quais tecnologias estão de fato mudando a operação, e o que você espera para os próximos anos diante da escassez de mão de obra?</p>
     <span class="label">Aprofundar</span>
     <ul class="probe">
-      <li>Em quais estágios estão visão computacional, drones, robótica e máquinas autônomas?</li>
-      <li>O que muda para culturas perenes e de baixa mecanização?</li>
+      <li>Em quais estágios estão satélite e sensoriamento remoto, visão computacional, drones, robótica e máquinas autônomas?</li>
+      <li>O que muda para culturas de colheita ainda manual, como citros, café ou palma?</li>
+      <li>Robôs humanoides estão no radar de vocês, no campo ou na indústria?</li>
       <li>Alguma referência internacional chama sua atenção, como China, EUA ou Austrália?</li>
     </ul>
   </div>
@@ -325,6 +334,7 @@
     <span class="label">Aprofundar</span>
     <ul class="probe">
       <li>Existe preocupação com dependência de fornecedor, dados de máquinas ou dados em plataformas de terceiros?</li>
+      <li>Onde roda a IA generativa de vocês: ferramenta de mercado, nuvem privada ou servidor próprio? Os dados saem de casa para serem processados? O que pesou nessa escolha?</li>
       <li>Parcerias, investimentos em startups ou aquisições fazem parte da estratégia?</li>
     </ul>
   </div>
@@ -341,7 +351,7 @@
 
   <div class="notes"><span class="label">Anotações</span><div class="lines"></div></div>
 
-  <div class="foot"><span>Acelen Energia Renovável · Roteiro das sessões executivas · BIA-ACL-SE-01 · Rev. 00</span><span class="mono">05 / 07</span></div>
+  <div class="foot"><span>Acelen Energia Renovável · Roteiro das sessões executivas · BIA-ACL-SE-01 · Rev. 01</span><span class="mono">05 / 07</span></div>
 </section>
 
 <!-- 6 · Encerramento e condução -->
@@ -382,10 +392,11 @@
       <li><span><b>Estágio autodeclarado</b> (1–5) e a evidência citada.</span></li>
       <li><span><b>Principais insights</b> por pergunta e citações anonimizadas.</span></li>
       <li><span><b>Implicações</b> para cada uma das três frentes.</span></li>
+      <li><span><b>Apagar a gravação e a transcrição brutas</b> depois do registro. Elas não vão para o SharePoint da Acelen nem para o pacote final do projeto: só o registro anonimizado.</span></li>
     </ol>
   </div>
 
-  <div class="foot"><span>Acelen Energia Renovável · Roteiro das sessões executivas · BIA-ACL-SE-01 · Rev. 00</span><span class="mono">06 / 07</span></div>
+  <div class="foot"><span>Acelen Energia Renovável · Roteiro das sessões executivas · BIA-ACL-SE-01 · Rev. 01</span><span class="mono">06 / 07</span></div>
 </section>
 
 <!-- 7 · Anexo: régua (pode ser mostrada ao entrevistado) -->
@@ -403,12 +414,12 @@
 
   <div class="eyebrow" style="margin-top:24px">Quatro dimensões</div>
   <div class="dims">
-    <div class="card"><h3>Governança</h3><p>Quem decide, política e gestão de riscos.</p></div>
-    <div class="card"><h3>Dados</h3><p>Qualidade, integração e plataforma.</p></div>
-    <div class="card"><h3>Organização</h3><p>Estruturas, papéis e competências.</p></div>
-    <div class="card"><h3>Aplicações</h3><p>Do apoio à decisão ao campo autônomo.</p></div>
+    <div class="card"><h3>Estratégia e governança</h3><p>Patrocínio, gestão de valor, IA responsável e riscos.</p></div>
+    <div class="card"><h3>Dados e infraestrutura</h3><p>Plataforma, nuvem, conectividade no campo.</p></div>
+    <div class="card"><h3>Organização e pessoas</h3><p>Área de IA, papéis, capacitação e cultura.</p></div>
+    <div class="card"><h3>Aplicações e valor</h3><p>Casos em produção, resultados, autonomia.</p></div>
   </div>
-  <p class="src">Síntese OagronomIA de frameworks de mercado (Gartner, MIT/BCG, McKinsey, Microsoft, IBM, Google).</p>
+  <p class="src">Síntese OagronomIA de frameworks de mercado (MIT CISR, MITRE, Gartner, BCG, McKinsey, Google, Microsoft); dimensões ampliadas em 09/10/2026.</p>
 
   <div class="foot"><span>OagronomIA · O agro no mundo da IA</span><span class="mono">07 / 07</span></div>
 </section>

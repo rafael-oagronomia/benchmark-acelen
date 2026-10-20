@@ -1,0 +1,905 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Resultados parciais do benchmark — semanal de 16/10/2026 (v4)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --brand-green: #52C937; --brand-green-bright: #6FE34F; --brand-green-deep: #2F8B1F;
+    --bg-0: #050805; --bg-1: #0B100B; --bg-2: #131A13; --bg-3: #1C241B;
+    --line: #2A3328; --line-strong: #3A4537;
+    --fg-1: #F2F4EE; --fg-2: #B8BFB1; --fg-3: #7C8678;
+    --warning: #E8B33B; --info: #4FB7C9;
+    --font-display: 'Chakra Petch', 'Bahnschrift', system-ui, sans-serif;
+    --font-body: 'Manrope', 'Segoe UI', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  }
+  @page { size: 338.67mm 190.5mm; margin: 0; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg-0); color: var(--fg-1); font-family: var(--font-body); font-size: 13px; line-height: 1.45;
+    -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .slide { width: 338.67mm; height: 190.5mm; position: relative; overflow: hidden; padding: 11mm 15mm 15mm; background: var(--bg-0);
+    page-break-after: always; break-after: page; }
+  .slide:last-child { page-break-after: auto; break-after: auto; }
+  .head { display: flex; justify-content: space-between; align-items: center; padding-bottom: 8px; border-bottom: 1px solid var(--line); margin-bottom: 14px; }
+  .head img { height: 22px; mix-blend-mode: lighten; display: block; }
+  .label { font: 500 10px var(--font-display); text-transform: uppercase; letter-spacing: 0.1em; color: var(--fg-3); }
+  .eyebrow { font: 500 11px var(--font-display); text-transform: uppercase; letter-spacing: 0.18em; color: var(--brand-green); }
+  h1 { font: italic 700 46px/1.05 var(--font-display); margin: 10px 0 0; letter-spacing: -0.01em; }
+  h2 { font: italic 600 27px/1.15 var(--font-display); margin: 4px 0 0; }
+  h3 { font: 600 15px/1.25 var(--font-display); margin: 0; }
+  p { margin: 0; }
+  .muted { color: var(--fg-2); }
+  .foot { position: absolute; left: 15mm; right: 15mm; bottom: 6mm; display: flex; justify-content: space-between; padding-top: 6px;
+    border-top: 1px solid var(--line); font: 500 9px var(--font-display); letter-spacing: 0.08em; text-transform: uppercase; color: var(--fg-3); }
+  .foot .mono { font-family: var(--font-mono); letter-spacing: 0; font-size: 10px; }
+  .chip { display: inline-block; padding: 2px 9px; border-radius: 999px; font: 500 9.5px var(--font-display); letter-spacing: 0.06em; text-transform: uppercase;
+    background: var(--bg-3); color: var(--fg-2); border: 1px solid var(--line); margin-right: 4px; }
+  .chip.g { background: rgba(82,201,55,0.12); color: var(--brand-green-bright); border-color: rgba(82,201,55,0.4); }
+  .card { background: var(--bg-2); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; }
+  .src { font-size: 9.5px; color: var(--fg-3); margin-top: 5px; font-family: var(--font-mono); }
+  ul.l { list-style: none; margin: 0; padding: 0; }
+  ul.l li { position: relative; padding-left: 15px; margin-top: 7px; color: var(--fg-2); font-size: 13px; line-height: 1.45; }
+  ul.l li::before { content: ""; position: absolute; left: 1px; top: 8px; width: 7px; height: 2px; background: var(--brand-green); }
+  ul.l li b { color: var(--fg-1); }
+  .cols { display: grid; grid-template-columns: 1.05fr 1fr; gap: 16px; margin-top: 12px; }
+  .colt { font: 500 10.5px var(--font-display); letter-spacing: 0.14em; text-transform: uppercase; color: var(--brand-green); margin-bottom: 4px; }
+  .colt.b { color: var(--info); }
+  .stats { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 4px; }
+  .stat { background: var(--bg-2); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; }
+  .stat .n { font: 500 25px/1 var(--font-mono); color: var(--fg-1); }
+  .stat .n small { font-size: 13px; color: var(--fg-3); margin-left: 3px; }
+  .stat .t { font-size: 11.2px; color: var(--fg-2); margin-top: 5px; line-height: 1.38; }
+  .read { margin-top: 10px; border-left: 2px solid var(--brand-green); background: var(--bg-1); padding: 8px 12px; font-size: 12.5px; color: var(--fg-2); }
+  .read b { color: var(--fg-1); }
+  table.t { width: 100%; border-collapse: collapse; font-size: 12px; margin-top: 10px; }
+  table.t th { font: 500 9.5px var(--font-display); letter-spacing: 0.08em; text-transform: uppercase; color: var(--fg-3); text-align: left; padding: 6px 9px;
+    border-bottom: 1px solid var(--line-strong); background: var(--bg-1); }
+  table.t td { padding: 6px 9px; border-bottom: 1px solid var(--line); vertical-align: top; color: var(--fg-2); }
+  table.t td:first-child { color: var(--fg-1); font-weight: 600; }
+  .st { display: inline-flex; align-items: center; gap: 5px; font: 600 9.5px var(--font-display); letter-spacing: 0.06em; text-transform: uppercase; white-space: nowrap; }
+  .st .dot { width: 7px; height: 7px; border-radius: 50%; }
+  .st.ok { color: var(--brand-green-bright); } .st.ok .dot { background: var(--brand-green); }
+  .st.par { color: var(--warning); } .st.par .dot { background: var(--warning); }
+  .st.no { color: var(--fg-3); } .st.no .dot { background: var(--fg-3); }
+  .signals { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 14px; }
+  .sig { background: var(--bg-2); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; }
+  .sig .k { font: 500 20px var(--font-mono); color: var(--brand-green); }
+  .sig h3 { margin-top: 4px; font-size: 15px; }
+  .sig p { font-size: 12px; color: var(--fg-2); margin-top: 5px; line-height: 1.42; }
+  .stage { display: inline-block; min-width: 26px; text-align: center; font: 500 15px var(--font-mono); color: var(--fg-1); background: var(--bg-3);
+    border: 1px solid var(--line-strong); border-radius: 5px; padding: 1px 6px; }
+  .cover { display: flex; flex-direction: column; }
+  .cover .logo { height: 34px; mix-blend-mode: lighten; align-self: flex-start; }
+  .grid4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-top: 22px; max-width: 230mm; }
+  .metric { background: var(--bg-2); border: 1px solid var(--line); border-radius: 6px; padding: 10px 12px; }
+  .metric .lb { font: 500 9.5px var(--font-display); letter-spacing: 0.12em; text-transform: uppercase; color: var(--fg-3); }
+  .metric .v { font: 500 20px/1.15 var(--font-mono); margin-top: 6px; }
+  .metric .v.s { font: 600 13px/1.3 var(--font-body); }
+  .legend { margin-top: auto; border-left: 2px solid var(--brand-green); background: var(--bg-1); padding: 10px 16px; display: grid;
+    grid-template-columns: 110px 1fr; row-gap: 4px; font-size: 11.5px; max-width: 230mm; }
+  .legend .label { padding-top: 1px; }
+
+  .stats3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-top: 4px; }
+  .stats .stat .n, .stats3 .stat .n { font-size: 23px; }
+  .chart { background: var(--bg-2); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px 8px; }
+  .chart svg { display: block; width: 100%; height: auto; }
+  .note { font-size: 9.5px; color: var(--fg-3); line-height: 1.4; margin-top: 6px; }
+  .tl { list-style: none; margin: 0; padding: 0; }
+  .tl li { display: grid; grid-template-columns: 74px 1fr; gap: 10px; padding: 7px 0; border-bottom: 1px solid var(--line); font-size: 12px; color: var(--fg-2); line-height: 1.4; }
+  .tl li:last-child { border-bottom: 0; }
+  .tl .d { font: 500 11px var(--font-mono); color: var(--brand-green); padding-top: 1px; }
+  .tl b { color: var(--fg-1); }
+  .who { display: inline-block; font: 500 8.5px var(--font-display); letter-spacing: 0.08em; text-transform: uppercase; color: var(--fg-3); border: 1px solid var(--line); border-radius: 999px; padding: 0 6px; margin-left: 4px; }
+  .quote { border-left: 2px solid var(--info); padding: 6px 12px; background: var(--bg-1); font-style: italic; color: var(--fg-1); font-size: 13px; }
+  .quote small { display: block; font-style: normal; color: var(--fg-3); font-size: 10px; margin-top: 3px; }
+  .cmp { width: 100%; border-collapse: collapse; font-size: 11.5px; margin-top: 10px; }
+  .cmp th { font: 500 9.5px var(--font-display); letter-spacing: 0.08em; text-transform: uppercase; color: var(--fg-3); text-align: left; padding: 5px 8px; border-bottom: 1px solid var(--line-strong); background: var(--bg-1); }
+  .cmp td { padding: 5px 8px; border-bottom: 1px solid var(--line); color: var(--fg-2); vertical-align: top; }
+  .cmp td:first-child { color: var(--fg-1); font-weight: 600; }
+  .v-ok { color: var(--brand-green-bright); font-weight: 600; } .v-par { color: var(--warning); font-weight: 600; } .v-no { color: #E5524A; font-weight: 600; }
+  table.t td.c { text-align: center; }
+  .msgs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 12px; }
+  .msg { background: var(--bg-2); border: 1px solid var(--line); border-radius: 8px; padding: 11px 13px; }
+  .msg .k { font: 500 18px var(--font-mono); color: var(--brand-green); }
+  .msg h3 { font-size: 14px; margin-top: 3px; }
+  .msg p { font-size: 11.5px; color: var(--fg-2); margin-top: 5px; line-height: 1.42; }
+  .fr { font: 500 10.5px var(--font-display); letter-spacing: 0.14em; text-transform: uppercase; color: var(--brand-green); }
+  .chart svg.lgi { width: 14px; height: 14px; display: inline-block; }
+  .chart svg.lgl { width: 22px; height: 6px; display: inline-block; }
+  .strip { display: grid; gap: 8px; margin-top: 12px; }
+  .strip .cell { background: var(--bg-2); border: 1px solid var(--line); border-radius: 8px; padding: 9px 12px; }
+  .strip .cell .h { font: 600 12.5px var(--font-display); color: var(--fg-1); }
+  .strip .cell p { font-size: 11.5px; color: var(--fg-2); margin-top: 4px; line-height: 1.4; }
+  .big h2 { font-size: 30px; }
+  .big ul.l li { font-size: 14.2px; margin-top: 9px; }
+  .big .stat { padding: 12px 14px; }
+  .big .stat .n { font-size: 29px; }
+  .big .stat .t { font-size: 12.4px; }
+  .big table.t { font-size: 13px; }
+  .big table.t td { padding: 8px 10px; }
+  .big .read { font-size: 13.5px; padding: 10px 14px; margin-top: 14px; }
+  .big .cols { gap: 20px; margin-top: 14px; }
+  .big .tl li { font-size: 13px; padding: 8px 0; }
+  .big .card { padding: 14px 16px; }
+  .big .quote { font-size: 15px; padding: 9px 14px; }
+  .big .msg h3 { font-size: 17px; } .big .msg p { font-size: 14px; } .big .msg { padding: 18px 18px; } .big .msgs { gap: 12px; margin-top: 16px; }
+  .big .cmp { font-size: 12.5px; } .big .cmp td { padding: 7px 9px; }
+  .big .strip .cell .h { font-size: 13.5px; } .big .strip .cell p { font-size: 12.3px; }
+
+  .slide.v1 { display: flex; flex-direction: column; padding-bottom: 15mm; }
+  .v1 h2 { font-size: 31px; }
+  .msg-top { font-size: 15.5px; color: var(--fg-2); margin-top: 6px; max-width: 290mm; }
+  .msg-top b { color: var(--fg-1); }
+  .fontes { margin-top: auto; padding-top: 7px; border-top: 1px dashed var(--line); font: 400 9px/1.5 var(--font-mono); color: var(--fg-3); }
+  .fontes b { font-family: var(--font-display); font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; font-size: 8.5px; color: var(--fg-3); margin-right: 6px; }
+  .fontes a { color: #6FB8C9; text-decoration: none; }
+  .fontes .f { margin-right: 12px; white-space: nowrap; }
+  .fontes .f.w { white-space: normal; }
+  .panel { background: var(--bg-2); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; }
+  .panel h3 { font-size: 13.5px; color: var(--fg-1); }
+  .panel .sub { font-size: 11px; color: var(--fg-3); margin-top: 2px; }
+  .panel svg { display: block; width: 100%; height: auto; margin-top: 6px; }
+  .g2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 14px; }
+  .g3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 14px; }
+  .kpis { display: grid; gap: 10px; }
+  .kpi { background: var(--bg-2); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; display: flex; gap: 12px; align-items: center; }
+  .kpi .n { font: 500 30px/1 var(--font-mono); color: var(--fg-1); min-width: 92px; }
+  .kpi .t { font-size: 12.5px; color: var(--fg-2); line-height: 1.38; }
+  .ic { width: 30px; height: 30px; color: var(--brand-green); stroke-width: 1.6; flex: none; }
+  .ic.big { width: 44px; height: 44px; }
+  .desc { display: grid; grid-template-columns: 1.15fr 1fr; gap: 18px; margin-top: 12px; }
+  .desc ul.l li { font-size: 13.4px; margin-top: 8px; }
+  .lead { font-size: 14px; color: var(--fg-2); margin-top: 6px; line-height: 1.5; }
+  .lead b { color: var(--fg-1); }
+  .box { background: var(--bg-1); border-left: 2px solid var(--info); padding: 10px 14px; font-size: 12.8px; color: var(--fg-2); line-height: 1.5; margin-top: 10px; }
+  .box b { color: var(--fg-1); }
+  .box.g { border-left-color: var(--brand-green); }
+  .tag { display: inline-block; font: 500 9px var(--font-display); letter-spacing: 0.1em; text-transform: uppercase; color: var(--info); border: 1px solid rgba(79,183,201,0.4); border-radius: 999px; padding: 1px 8px; }
+  table.t td, table.t th { font-size: 12px; }
+  .agenda { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 18px; }
+  .ag { background: var(--bg-2); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; display: flex; gap: 14px; align-items: center; }
+  .ag .num { font: 500 13px var(--font-mono); color: var(--fg-3); }
+  .ag h3 { font-size: 16px; margin-top: 2px; }
+  .ag p { font-size: 11.5px; color: var(--fg-2); margin-top: 3px; }
+  .heat td.h { text-align: center; font: 600 17px var(--font-mono); border: 2px solid var(--bg-0); border-radius: 6px; }
+  .tlh { position: relative; margin-top: 16px; }
+  .msg6 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 18px; }
+  .m6 { background: var(--bg-2); border: 1px solid var(--line); border-radius: 10px; padding: 18px 18px; }
+  .m6 h3 { font-size: 18px; margin-top: 10px; line-height: 1.2; }
+  .m6 p { font-size: 12.5px; color: var(--fg-2); margin-top: 6px; }
+  svg.lucide { width: 30px !important; height: 30px !important; margin: 0 !important; display: inline-block !important; flex: none; color: var(--brand-green); }
+  svg.lucide.big { width: 44px !important; height: 44px !important; }
+  .m6 { padding: 22px 20px !important; } .m6 h3 { font-size: 20px !important; } .m6 p { font-size: 13.5px !important; }
+  .pill { display: inline-block; font: 600 9.5px var(--font-display); letter-spacing: 0.08em; text-transform: uppercase; padding: 2px 9px; border-radius: 999px; }
+
+  .read { margin-top: 10px; }
+  .esc { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; margin-top: 10px; }
+  .esc .e { background: var(--bg-2); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; }
+  .esc .e .k { font: 600 12.5px var(--font-display); color: var(--fg-1); }
+  .esc .e p { font-size: 10.8px; color: var(--fg-2); margin-top: 3px; line-height: 1.35; }
+  .pipe { display: flex; gap: 6px; align-items: stretch; margin-top: 14px; }
+  .pipe .p { flex: 1; background: var(--bg-2); border: 1px solid var(--line); border-radius: 10px; padding: 12px 10px; text-align: center; }
+  .pipe .p svg.lucide { margin: 0 auto !important; display: block !important; }
+  .pipe .p .k { font: 600 13.5px var(--font-display); color: var(--fg-1); margin-top: 8px; }
+  .pipe .p p { font-size: 11.2px; color: var(--fg-2); margin-top: 4px; line-height: 1.35; }
+  .pipe .ar { align-self: center; color: var(--brand-green); font: 600 20px var(--font-mono); }
+  .stair { display: grid; gap: 6px; }
+  .stair .s { display: flex; gap: 12px; align-items: center; background: var(--bg-2); border: 1px solid var(--line); border-radius: 8px; padding: 9px 12px; font-size: 12.6px; color: var(--fg-2); }
+  .stair .s .lv { font: 600 18px var(--font-mono); color: #0B100B; background: var(--brand-green); border-radius: 6px; width: 30px; height: 30px; display: flex; align-items: center; justify-content: center; flex: none; }
+  .stair .s b { color: var(--fg-1); }
+  .front { background: var(--bg-2); border: 1px solid var(--line); border-radius: 10px; padding: 16px; }
+  .front h3 { font-size: 17px; margin-top: 10px; }
+  .front p { font-size: 12.6px; color: var(--fg-2); margin-top: 6px; line-height: 1.42; }
+  .front .ent { margin-top: 10px; font-size: 11.5px; color: var(--fg-3); border-top: 1px solid var(--line); padding-top: 8px; }
+  .front .ent b { color: var(--brand-green-bright); font-weight: 600; }
+  .tline { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-top: 12px; }
+  .tline .t { border-top: 3px solid var(--brand-green); padding-top: 8px; font-size: 12px; color: var(--fg-2); }
+  .tline .t b { display: block; font: 500 14px var(--font-mono); color: var(--fg-1); }
+  .kpirow { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-top: 12px; }
+  .chips { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px; }
+  .chips span { font: 500 11.5px var(--font-display); color: var(--fg-2); border: 1px solid var(--line-strong); border-radius: 999px; padding: 3px 10px; }
+  .chips span b { color: var(--fg-1); font-family: var(--font-mono); }
+</style>
+</head>
+<body>
+<section class="slide cover">
+  <img class="logo" src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA">
+  <div class="eyebrow" style="margin-top:16mm">Benchmarking de uso de IA · Semanal de 16/10/2026</div>
+  <h1>Resultados parciais:<br>custo, governança e primeiros achados</h1>
+  <div style="display:flex;gap:22px;margin-top:22px;align-items:center"><i data-lucide="library" class="ic big"></i><i data-lucide="coins" class="ic big"></i><i data-lucide="shield-check" class="ic big"></i><i data-lucide="leaf" class="ic big"></i><i data-lucide="tractor" class="ic big"></i><i data-lucide="building-2" class="ic big"></i><i data-lucide="target" class="ic big"></i></div>
+  <div class="grid4" style="margin-top:20px">
+    <div class="metric"><div class="lb">Fontes no catálogo</div><div class="v">1074</div></div>
+    <div class="metric"><div class="lb">Empresas no painel</div><div class="v">4 <span style="font-size:12px;color:var(--fg-3)">com ficha</span></div></div>
+    <div class="metric"><div class="lb">Sessões executivas</div><div class="v">1 <span style="font-size:12px;color:var(--fg-3)">de 2 a 4</span></div></div>
+    <div class="metric"><div class="lb">Notas temáticas</div><div class="v">6</div></div>
+  </div>
+  <div class="legend" style="margin-bottom:6mm">
+    <div class="label">Contratante</div><div>Acelen Energia Renovável</div>
+    <div class="label">Documento</div><div>Resultados parciais do benchmark — semanal de 16/10/2026</div>
+    <div class="label">Nº / Versão</div><div style="font-family:var(--font-mono)">BIA-ACL-RP-02 · Rev. 00 · versão de trabalho v4</div>
+    <div class="label">Data</div><div>15/10/2026 · fontes com corte em 15/10/2026</div>
+  </div>
+</section>
+<section class="slide v1">
+  <div class="head"><img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Metodologia · 1/2</span></div>
+  <div class="eyebrow">Metodologia · como o estudo está organizado</div>
+  <h2>Três frentes, conversas com executivos e um assistente de IA</h2>
+  <div class="g3" style="margin-top:12px">
+    <div class="front"><i data-lucide="building-2" class="ic big"></i><h3>Frente 1 · Benchmark estratégico</h3><p>Como as empresas líderes usam IA: o que funcionou, o que falhou e por quê.</p><div class="ent">Entrega: <b>fichas por empresa</b> e notas sobre valor e retorno</div></div>
+    <div class="front"><i data-lucide="chart-no-axes-column-increasing" class="ic big"></i><h3>Frente 2 · Maturidade e roadmaps</h3><p>Uma régua de cinco estágios para a Acelen se situar no mercado e ver os próximos passos, incluindo a governança: uso de IA por fora dos canais oficiais (shadow AI) e controle do custo.</p><div class="ent">Entrega: <b>framework de maturidade</b> e trajetórias de adoção</div></div>
+    <div class="front"><i data-lucide="telescope" class="ic big"></i><h3>Frente 3 · Tendências</h3><p>O que deve mudar a IA no agro e nos setores vizinhos nos próximos anos.</p><div class="ent">Entrega: <b>notas temáticas</b> (EUA × China, custo, sustentabilidade)</div></div>
+  </div>
+  <div class="g3" style="margin-top:10px">
+    <div class="kpi"><i data-lucide="message-circle" class="ic"></i><div class="t"><b style="color:var(--fg-1)">Sessões executivas:</b> 2 a 4 conversas de 60 minutos; só a síntese, sem nomes, entra no estudo</div></div>
+    <div class="kpi"><i data-lucide="bot" class="ic"></i><div class="t"><b style="color:var(--fg-1)">Assistente de IA:</b> responde a perguntas sobre o acervo, sempre com a fonte</div></div>
+    <div class="kpi"><i data-lucide="presentation" class="ic"></i><div class="t"><b style="color:var(--fg-1)">Workshop executivo:</b> apresentação presencial, provavelmente no início de dezembro</div></div>
+  </div>
+  <div class="tline">
+    <div class="t"><b>16/10</b>Prévia da Frente 1</div>
+    <div class="t"><b>23/10</b>Entrega parcial</div>
+    <div class="t"><b>06/11</b>Relatório, base em Excel e assistente de IA</div>
+    <div class="t"><b>dez/2026</b>Workshop executivo</div>
+  </div>
+  <div class="chips" style="margin-top:12px"><span style="border-color:var(--brand-green);color:var(--fg-1)">Temas em aprofundamento</span><span>Valor e retorno da IA</span><span>Custo de uso da IA</span><span>Shadow AI e governança</span><span>EUA × China</span><span>Sustentabilidade da IA</span></div>
+<div class="fontes"><b>Fontes</b><span class="f w">Descritivo da metodologia do estudo (BIA-ACL-MT-01), seções 1, 3, 4, 10 e 12 — documento interno do projeto</span></div>
+  <div class="foot"><span>Acelen Energia Renovável · Resultados parciais do benchmark · BIA-ACL-RP-02 · v4</span><span class="mono">02 / 18</span></div>
+</section>
+<section class="slide v1">
+  <div class="head"><img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Metodologia · 2/2</span></div>
+  <div class="eyebrow">Metodologia · como cada número chega a este documento</div>
+  <h2>Nenhum número entra sem fonte conferida e identificador no catálogo</h2>
+  <div class="pipe"><div class="p"><i data-lucide="search" class="ic"></i><div class="k">Busca</div><p>Em rodadas, por tipo de fonte e por empresa</p></div><div class="ar">→</div><div class="p"><i data-lucide="check-check" class="ic"></i><div class="k">Conferência</div><p>Cada número checado na página de origem</p></div><div class="ar">→</div><div class="p"><i data-lucide="library" class="ic"></i><div class="k">Catálogo</div><p>Cada documento ganha um ID fixo (M001…)</p></div><div class="ar">→</div><div class="p"><i data-lucide="file-text" class="ic"></i><div class="k">Fichas e notas</div><p>Toda afirmação cita o ID e a página</p></div><div class="ar">→</div><div class="p"><i data-lucide="shield-check" class="ic"></i><div class="k">Revisão</div><p>Um revisor procura erros antes de entregar</p></div><div class="ar">→</div><div class="p"><i data-lucide="bot" class="ic"></i><div class="k">Assistente</div><p>O acervo fica consultável, com a fonte</p></div></div>
+  <div class="g2" style="grid-template-columns:1fr 1fr;margin-top:14px">
+    <div>
+      <div class="colt">Ordem de preferência das fontes</div>
+      <div class="stair">
+        <div class="s"><div class="lv">1</div><span><b>Documentos da própria empresa:</b> relatórios anuais, apresentações a investidores, comunicados</span></div>
+        <div class="s"><div class="lv">2</div><span><b>Dados oficiais</b> de governos e organismos multilaterais</span></div>
+        <div class="s"><div class="lv">3</div><span><b>Estudos</b> de consultorias, analistas e academia, com amostra, período e método</span></div>
+        <div class="s"><div class="lv">4</div><span><b>Imprensa,</b> só quando falta fonte oficial, e sempre marcada como imprensa</span></div>
+      </div>
+    </div>
+    <div>
+      <div class="colt">Regras que valem em todo o estudo</div>
+      <ul class="l">
+        <li><b>A IA acelera; a equipe decide.</b> A IA ajuda a buscar, ler e extrair; a curadoria e a validação são dos consultores.</li>
+        <li><b>Fonte de 2024 a 2026 tem prioridade,</b> salvo referências clássicas.</li>
+        <li><b>Sigilo:</b> nas buscas e nos pedidos de documentos, a Acelen e o projeto não são mencionados.</li>
+        <li><b>Leitura nossa</b> marca a interpretação da equipe, separada do que a fonte diz.</li>
+      </ul>
+    </div>
+  </div>
+<div class="fontes"><b>Fontes</b><span class="f w">Descritivo da metodologia do estudo (BIA-ACL-MT-01), seções 1, 3, 4, 10 e 12 — documento interno do projeto</span></div>
+  <div class="foot"><span>Acelen Energia Renovável · Resultados parciais do benchmark · BIA-ACL-RP-02 · v4</span><span class="mono">03 / 18</span></div>
+</section>
+<section class="slide v1">
+  <div class="head"><img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">O acervo em números</span></div>
+  <div class="eyebrow">O acervo do estudo em números</div>
+  <h2>1074 fontes públicas catalogadas, 92% delas publicadas de 2024 a 2026</h2>
+  <div class="kpirow">
+    <div class="kpi"><i data-lucide="library" class="ic"></i><div><div class="n" style="font-size:26px;min-width:0">1074</div><div class="t">fontes no catálogo, cada uma com ID fixo</div></div></div>
+    <div class="kpi"><i data-lucide="quote" class="ic"></i><div><div class="n" style="font-size:26px;min-width:0">451</div><div class="t">já citadas nas fichas e notas do estudo</div></div></div>
+    <div class="kpi"><i data-lucide="book-open" class="ic"></i><div><div class="n" style="font-size:26px;min-width:0">33,7 mil</div><div class="t">páginas nos documentos guardados</div></div></div>
+    <div class="kpi"><i data-lucide="download" class="ic"></i><div><div class="n" style="font-size:26px;min-width:0">844</div><div class="t">com cópia guardada; outras 193 lidas na web</div></div></div>
+  </div>
+  <div class="g2" style="grid-template-columns:1fr 1.1fr;margin-top:12px">
+    <div class="panel"><h3>Fontes por ano de publicação</h3><div class="sub">O estudo prioriza o que saiu de 2024 a 2026</div><svg viewBox="0 0 560 230">
+<line x1="10" x2="550" y1="200" y2="200" stroke="#3A4537"/>
+<rect x="22.8" y="196.4" width="41.9" height="3.6" rx="3" fill="#62A842"/>
+<text x="43.8" y="189.4" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" font-weight="500" fill="#F2F4EE">11</text>
+<text x="43.8" y="218" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" fill="#7C8678">até 2019</text>
+<rect x="90.3" y="197.4" width="41.9" height="2.6" rx="3" fill="#62A842"/>
+<text x="111.2" y="190.4" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" font-weight="500" fill="#F2F4EE">8</text>
+<text x="111.2" y="218" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" fill="#7C8678">2020</text>
+<rect x="157.8" y="195.7" width="41.9" height="4.3" rx="3" fill="#62A842"/>
+<text x="178.8" y="188.7" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" font-weight="500" fill="#F2F4EE">13</text>
+<text x="178.8" y="218" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" fill="#7C8678">2021</text>
+<rect x="225.3" y="194.4" width="41.9" height="5.6" rx="3" fill="#62A842"/>
+<text x="246.2" y="187.4" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" font-weight="500" fill="#F2F4EE">17</text>
+<text x="246.2" y="218" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" fill="#7C8678">2022</text>
+<rect x="292.8" y="189.1" width="41.9" height="10.9" rx="3" fill="#62A842"/>
+<text x="313.8" y="182.1" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" font-weight="500" fill="#F2F4EE">33</text>
+<text x="313.8" y="218" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" fill="#7C8678">2023</text>
+<rect x="360.3" y="152.1" width="41.9" height="47.9" rx="3" fill="#62A842"/>
+<text x="381.2" y="145.1" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" font-weight="500" fill="#F2F4EE">145</text>
+<text x="381.2" y="218" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" fill="#7C8678">2024</text>
+<rect x="427.8" y="77.9" width="41.9" height="122.1" rx="3" fill="#62A842"/>
+<text x="448.8" y="70.9" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" font-weight="500" fill="#F2F4EE">370</text>
+<text x="448.8" y="218" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" fill="#7C8678">2025</text>
+<rect x="495.3" y="42.9" width="41.9" height="157.1" rx="3" fill="#62A842"/>
+<text x="516.2" y="35.9" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" font-weight="500" fill="#F2F4EE">476</text>
+<text x="516.2" y="218" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" fill="#7C8678">2026</text>
+</svg></div>
+    <div class="panel"><h3>Fontes por tema de busca</h3><div class="sub">As buscas são feitas em rodadas, por grupo de fonte</div><svg viewBox="0 0 640 262">
+<text x="240" y="16.3" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">IA e sustentabilidade</text>
+<rect x="250" y="6.0" width="280.0" height="11.6" rx="3" fill="#62A842"/>
+<text x="538.0" y="16.8" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">218</text>
+<text x="240" y="37.3" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Agro global, perenes e autonomia</text>
+<rect x="250" y="27.0" width="206.8" height="11.6" rx="3" fill="#62A842"/>
+<text x="464.8" y="37.8" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">161</text>
+<text x="240" y="58.3" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Custo de uso da IA</text>
+<rect x="250" y="48.0" width="136.1" height="11.6" rx="3" fill="#62A842"/>
+<text x="394.1" y="58.8" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">106</text>
+<text x="240" y="79.3" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Agro Brasil: instituições e mídia</text>
+<rect x="250" y="69.0" width="98.9" height="11.6" rx="3" fill="#62A842"/>
+<text x="356.9" y="79.8" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">77</text>
+<text x="240" y="100.3" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Empresas de agro, bioenergia e florestal</text>
+<rect x="250" y="90.0" width="97.6" height="11.6" rx="3" fill="#62A842"/>
+<text x="355.6" y="100.8" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">76</text>
+<text x="240" y="121.3" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Shadow AI e governança</text>
+<rect x="250" y="111.0" width="96.3" height="11.6" rx="3" fill="#62A842"/>
+<text x="354.3" y="121.8" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">75</text>
+<text x="240" y="142.3" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Setor financeiro</text>
+<rect x="250" y="132.0" width="92.5" height="11.6" rx="3" fill="#62A842"/>
+<text x="350.5" y="142.8" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">72</text>
+<text x="240" y="163.3" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Analistas e big techs</text>
+<rect x="250" y="153.0" width="86.1" height="11.6" rx="3" fill="#62A842"/>
+<text x="344.1" y="163.8" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">67</text>
+<text x="240" y="184.3" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Academia e instituições</text>
+<rect x="250" y="174.0" width="84.8" height="11.6" rx="3" fill="#62A842"/>
+<text x="342.8" y="184.8" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">66</text>
+<text x="240" y="205.3" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Big Four, Accenture e Capgemini</text>
+<rect x="250" y="195.0" width="74.5" height="11.6" rx="3" fill="#62A842"/>
+<text x="332.5" y="205.8" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">58</text>
+<text x="240" y="226.3" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Consultorias de estratégia</text>
+<rect x="250" y="216.0" width="68.1" height="11.6" rx="3" fill="#62A842"/>
+<text x="326.1" y="226.8" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">53</text>
+<text x="240" y="247.3" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Outros setores maduros</text>
+<rect x="250" y="237.0" width="57.8" height="11.6" rx="3" fill="#62A842"/>
+<text x="315.8" y="247.8" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">45</text>
+</svg></div>
+  </div>
+<div class="fontes"><b>Fontes</b><span class="f w">Catálogo de fontes do estudo, contagem em 15/10/2026 (1074 itens; 451 citados nos documentos do estudo) — base do assistente de IA</span></div>
+  <div class="foot"><span>Acelen Energia Renovável · Resultados parciais do benchmark · BIA-ACL-RP-02 · v4</span><span class="mono">04 / 18</span></div>
+</section>
+<section class="slide v1">
+  <div class="head"><img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Empresas do painel em dados</span></div>
+  <div class="eyebrow">Painel de empresas · quanto cada uma divulga</div>
+  <h2>A Bayer é a que mais publica sobre IA; a DJI fala pouco de si</h2>
+  <div class="g3" style="margin-top:12px">
+    <div class="panel"><h3>Documentos da própria empresa</h3><div class="sub">no catálogo do estudo</div><svg viewBox="0 0 420 162">
+<text x="70" y="21.0" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Bayer</text>
+<rect x="80" y="6.0" width="189.1" height="20.9" rx="3" fill="#62A842"/>
+<text x="277.1" y="21.5" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">37</text>
+<text x="70" y="59.0" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Suzano</text>
+<rect x="80" y="44.0" width="158.4" height="20.9" rx="3" fill="#62A842"/>
+<text x="246.4" y="59.5" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">31</text>
+<text x="70" y="97.0" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Deere</text>
+<rect x="80" y="82.0" width="81.8" height="20.9" rx="3" fill="#62A842"/>
+<text x="169.8" y="97.5" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">16</text>
+<text x="70" y="134.9" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">DJI</text>
+<rect x="80" y="120.0" width="66.4" height="20.9" rx="3" fill="#62A842"/>
+<text x="154.4" y="135.4" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">13</text>
+</svg></div>
+    <div class="panel"><h3>Afirmações extraídas e conferidas</h3><div class="sub">evidências no dossiê de cada empresa</div><svg viewBox="0 0 420 162">
+<text x="70" y="21.0" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Bayer</text>
+<rect x="80" y="6.0" width="204.5" height="20.9" rx="3" fill="#B88A28"/>
+<text x="292.5" y="21.5" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">249</text>
+<text x="70" y="59.0" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Suzano</text>
+<rect x="80" y="44.0" width="166.8" height="20.9" rx="3" fill="#B88A28"/>
+<text x="254.8" y="59.5" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">203</text>
+<text x="70" y="97.0" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Deere</text>
+<rect x="80" y="82.0" width="73.9" height="20.9" rx="3" fill="#B88A28"/>
+<text x="161.9" y="97.5" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">90</text>
+<text x="70" y="134.9" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">DJI</text>
+<rect x="80" y="120.0" width="78.9" height="20.9" rx="3" fill="#B88A28"/>
+<text x="166.9" y="135.4" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">96</text>
+</svg></div>
+    <div class="panel"><h3>Fontes citadas na ficha</h3><div class="sub"><span style="color:#62A842">■</span> da empresa &nbsp;<span style="color:#3A8FBF">■</span> de terceiros</div><svg viewBox="0 0 420 158">
+<text x="72" y="19.5" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Bayer</text>
+<rect x="80" y="4.0" width="192.0" height="22.0" rx="2" fill="#62A842"/>
+<rect x="274.0" y="4.0" width="40.0" height="22.0" rx="2" fill="#3A8FBF"/>
+<text x="322.0" y="20.0" font-family="JetBrains Mono, monospace" font-size="12.5" fill="#F2F4EE">39</text>
+<text x="72" y="57.5" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Suzano</text>
+<rect x="80" y="42.0" width="180.0" height="22.0" rx="2" fill="#62A842"/>
+<rect x="262.0" y="42.0" width="28.0" height="22.0" rx="2" fill="#3A8FBF"/>
+<text x="298.0" y="58.0" font-family="JetBrains Mono, monospace" font-size="12.5" fill="#F2F4EE">35</text>
+<text x="72" y="95.5" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Deere</text>
+<rect x="80" y="80.0" width="96.0" height="22.0" rx="2" fill="#62A842"/>
+<rect x="178.0" y="80.0" width="28.0" height="22.0" rx="2" fill="#3A8FBF"/>
+<text x="214.0" y="96.0" font-family="JetBrains Mono, monospace" font-size="12.5" fill="#F2F4EE">21</text>
+<text x="72" y="133.5" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">DJI</text>
+<rect x="80" y="118.0" width="78.0" height="22.0" rx="2" fill="#62A842"/>
+<rect x="160.0" y="118.0" width="112.0" height="22.0" rx="2" fill="#3A8FBF"/>
+<text x="280.0" y="134.0" font-family="JetBrains Mono, monospace" font-size="12.5" fill="#F2F4EE">32</text>
+</svg></div>
+  </div>
+  <div class="chips" style="margin-top:12px">
+    <span>Bayer: <b>1.368</b> páginas lidas nas fontes da ficha</span><span>Suzano: <b>895</b> páginas lidas nas fontes da ficha</span><span>Deere: <b>557</b> páginas lidas nas fontes da ficha</span><span>DJI: <b>562</b> páginas lidas nas fontes da ficha</span>
+  </div>
+  <div class="read"><b>Como ler.</b> Suzano e Bayer foram indicadas pela Acelen; Deere e DJI, propostas pela equipe. Quem publica relatórios detalhados rende mais evidência. Na DJI, 19 das 32 fontes da ficha são de terceiros, como governos, universidades e entidades do setor, porque a empresa divulga pouco sobre si.</div>
+<div class="fontes"><b>Fontes</b><span class="f w">Catálogo de fontes do estudo, contagem em 15/10/2026 (1074 itens; 451 citados nos documentos do estudo) — base do assistente de IA</span> <span class="f w">Dossiês e fichas de benchmark do estudo (Bayer, Suzano, Deere, DJI), 14/10/2026</span></div>
+  <div class="foot"><span>Acelen Energia Renovável · Resultados parciais do benchmark · BIA-ACL-RP-02 · v4</span><span class="mono">05 / 18</span></div>
+</section>
+<section class="slide v1">
+  <div class="head"><img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Custo de uso da IA · 1/3</span></div>
+  <div class="eyebrow">Custo de uso da IA · a jornada do preço · Frente 3</div>
+  <h2>A mesma capacidade ficou 280 vezes mais barata; a ponta voltou a encarecer</h2>
+  <div class="g2" style="grid-template-columns:1.85fr 1fr;margin-top:8px">
+    <div class="panel"><div><span style="display:inline-flex;align-items:center;gap:6px;margin-right:16px;font-size:12px;color:var(--fg-2)"><svg width="16" height="16" viewBox="0 0 16 16" style="display:inline;width:16px;margin:0"><circle cx="8.0" cy="8.5" r="5.5" fill="#B88A28" stroke="#131A13" stroke-width="2"/></svg>Modelo de topo (EUA)</span><span style="display:inline-flex;align-items:center;gap:6px;margin-right:16px;font-size:12px;color:var(--fg-2)"><svg width="16" height="16" viewBox="0 0 16 16" style="display:inline;width:16px;margin:0"><rect x="3.0" y="3.5" width="10.0" height="10.0" rx="1.5" fill="#3A8FBF" stroke="#131A13" stroke-width="2"/></svg>DeepSeek (China)</span><span style="display:inline-flex;align-items:center;gap:6px;margin-right:16px;font-size:12px;color:var(--fg-2)"><svg width="16" height="16" viewBox="0 0 16 16" style="display:inline;width:16px;margin:0"><path d="M8.0,2.0 L13.9,12.7 L2.1,12.7 Z" fill="#B85F33" stroke="#131A13" stroke-width="2"/></svg>Faixa econômica (EUA)</span><span style="display:inline-flex;align-items:center;gap:6px;margin-right:16px;font-size:12px;color:var(--fg-2)"><svg width="16" height="16" viewBox="0 0 16 16" style="display:inline;width:16px;margin:0"><path d="M8.0,2.0 L14.5,8.5 L8.0,15.0 L1.5,8.5 Z" fill="#62A842" stroke="#131A13" stroke-width="2"/></svg>Jev · modelo de decisão (EUA)</span><span style="display:inline-flex;align-items:center;gap:6px;font-size:12px;color:var(--fg-2)"><svg width="24" height="6" viewBox="0 0 24 6" style="display:inline;width:24px;margin:0"><line x1="0" y1="3" x2="24" y2="3" stroke="#B8BFB1" stroke-width="2" stroke-dasharray="6 4"/></svg>Mesmo desempenho do GPT-3.5 (AI Index)</span></div><svg viewBox="0 0 1000 330" role="img" aria-label="Preço de tabela de entrada por milhão de tokens, 2022 a 2026">
+<line x1="70" x2="970" y1="274.2" y2="274.2" stroke="#2A3328"/>
+<text x="60" y="278.2" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="12" fill="#7C8678">0,05</text>
+<line x1="70" x2="970" y1="250.1" y2="250.1" stroke="#2A3328"/>
+<text x="60" y="254.1" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="12" fill="#7C8678">0,10</text>
+<line x1="70" x2="970" y1="194.2" y2="194.2" stroke="#2A3328"/>
+<text x="60" y="198.2" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="12" fill="#7C8678">0,50</text>
+<line x1="70" x2="970" y1="170.1" y2="170.1" stroke="#2A3328"/>
+<text x="60" y="174.1" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="12" fill="#7C8678">1</text>
+<line x1="70" x2="970" y1="114.1" y2="114.1" stroke="#2A3328"/>
+<text x="60" y="118.1" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="12" fill="#7C8678">5</text>
+<line x1="70" x2="970" y1="90.0" y2="90.0" stroke="#2A3328"/>
+<text x="60" y="94.0" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="12" fill="#7C8678">10</text>
+<line x1="70" x2="970" y1="34.0" y2="34.0" stroke="#2A3328"/>
+<text x="60" y="38.0" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="12" fill="#7C8678">50</text>
+<text x="4" y="18" text-anchor="start" font-family="Manrope, sans-serif" font-size="11" fill="#7C8678">US$ por milhão de tokens</text>
+<text x="107.5" y="316" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" fill="#7C8678">2023</text>
+<text x="332.5" y="316" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" fill="#7C8678">2024</text>
+<text x="557.5" y="316" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" fill="#7C8678">2025</text>
+<text x="782.5" y="316" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" fill="#7C8678">2026</text>
+<line x1="70" x2="970" y1="292" y2="292" stroke="#3A4537"/>
+<line x1="70.0" y1="65.9" x2="501.2" y2="262.5" stroke="#B8BFB1" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="511.2" y="280.5" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">US$ 0,07 · mesmo desempenho do GPT-3.5</text>
+<path d="M88.8,65.9 L145.0,51.8 L370.0,75.9 L482.5,75.9 L688.8,162.3 L745.0,114.1 L932.5,90.0" fill="none" stroke="#B88A28" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M407.5,238.4 L538.8,215.6 L557.5,190.8 L707.5,214.3 L951.2,211.9" fill="none" stroke="#3A8FBF" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M145.0,145.9 L370.0,218.3 L445.0,236.0 L932.5,250.1" fill="none" stroke="#B85F33" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="88.8" cy="65.9" r="6.9" fill="#B88A28" stroke="#131A13" stroke-width="2"/>
+<circle cx="145.0" cy="51.8" r="6.9" fill="#B88A28" stroke="#131A13" stroke-width="2"/>
+<circle cx="370.0" cy="75.9" r="6.9" fill="#B88A28" stroke="#131A13" stroke-width="2"/>
+<circle cx="482.5" cy="75.9" r="6.9" fill="#B88A28" stroke="#131A13" stroke-width="2"/>
+<circle cx="688.8" cy="162.3" r="6.9" fill="#B88A28" stroke="#131A13" stroke-width="2"/>
+<circle cx="745.0" cy="114.1" r="6.9" fill="#B88A28" stroke="#131A13" stroke-width="2"/>
+<circle cx="932.5" cy="90.0" r="6.9" fill="#B88A28" stroke="#131A13" stroke-width="2"/>
+<rect x="401.2" y="232.2" width="12.5" height="12.5" rx="1.5" fill="#3A8FBF" stroke="#131A13" stroke-width="2"/>
+<rect x="532.5" y="209.3" width="12.5" height="12.5" rx="1.5" fill="#3A8FBF" stroke="#131A13" stroke-width="2"/>
+<rect x="551.2" y="184.6" width="12.5" height="12.5" rx="1.5" fill="#3A8FBF" stroke="#131A13" stroke-width="2"/>
+<rect x="701.2" y="208.1" width="12.5" height="12.5" rx="1.5" fill="#3A8FBF" stroke="#131A13" stroke-width="2"/>
+<rect x="945.0" y="205.7" width="12.5" height="12.5" rx="1.5" fill="#3A8FBF" stroke="#131A13" stroke-width="2"/>
+<path d="M145.0,137.8 L152.3,151.2 L137.7,151.2 Z" fill="#B85F33" stroke="#131A13" stroke-width="2"/>
+<path d="M370.0,210.1 L377.3,223.5 L362.7,223.5 Z" fill="#B85F33" stroke="#131A13" stroke-width="2"/>
+<path d="M445.0,227.9 L452.3,241.3 L437.7,241.3 Z" fill="#B85F33" stroke="#131A13" stroke-width="2"/>
+<path d="M932.5,242.0 L939.8,255.4 L925.2,255.4 Z" fill="#B85F33" stroke="#131A13" stroke-width="2"/>
+<path d="M941.9,272.2 L950.0,280.3 L941.9,288.4 L933.8,280.3 Z" fill="#62A842" stroke="#131A13" stroke-width="2"/>
+<text x="153.0" y="42.8" text-anchor="start" font-family="Manrope, sans-serif" font-size="13" font-weight="700" fill="#F2F4EE">GPT-4 · US$ 30</text>
+<text x="697.8" y="179.3" text-anchor="start" font-family="Manrope, sans-serif" font-size="13" font-weight="700" fill="#F2F4EE">GPT-5 · US$ 1,25</text>
+<text x="922.5" y="80.0" text-anchor="end" font-family="Manrope, sans-serif" font-size="13" font-weight="700" fill="#F2F4EE">GPT-6 Astra · US$ 10 †</text>
+<text x="397.5" y="243.4" text-anchor="end" font-family="Manrope, sans-serif" font-size="13" font-weight="700" fill="#F2F4EE">DeepSeek-V2 · US$ 0,14</text>
+<text x="548.5" y="181.8" text-anchor="end" font-family="Manrope, sans-serif" font-size="13" font-weight="700" fill="#F2F4EE">R1 · US$ 0,55</text>
+<text x="154.0" y="161.9" text-anchor="start" font-family="Manrope, sans-serif" font-size="13" font-weight="700" fill="#F2F4EE">gpt-3.5-turbo · US$ 2</text>
+<text x="922.5" y="255.1" text-anchor="end" font-family="Manrope, sans-serif" font-size="13" font-weight="700" fill="#F2F4EE">GPT-6 Luna · US$ 0,10</text>
+<text x="931.9" y="285.3" text-anchor="end" font-family="Manrope, sans-serif" font-size="13" font-weight="700" fill="#F2F4EE">Jev · US$ 0,042</text>
+</svg></div>
+    <div class="kpis">
+      <div class="kpi"><div class="n" style="font-size:26px;min-width:70px">280×</div><div class="t">mais barato o desempenho do GPT-3.5, de nov/2022 a out/2024</div></div>
+      <div class="kpi"><div class="n" style="font-size:26px;min-width:70px">8×</div><div class="t">mais caro na entrada, do GPT-5 (ago/2025) ao GPT-6 Astra (set/2026), cálculo nosso</div></div>
+      <div class="kpi"><div class="n" style="font-size:26px;min-width:70px">3×</div><div class="t">mais caro o sucessor da faixa barata do Google (jul/2025)</div></div>
+    </div>
+  </div>
+  <div class="read"><b>Leitura nossa.</b> Para o mesmo desempenho, o preço despencou. O modelo que as empresas querem usar, o de ponta, ficou mais caro em 2025 e 2026. Preço em dólar por milhão de tokens de entrada; † preço da tabela de out/2026.</div>
+<div class="fontes"><b>Fontes</b><span class="f">[M230] Stanford HAI, Artificial Intelligence Index Report 2025, p. 65 <a href="https://hai-production.s3.amazonaws.com/files/hai_ai_index_report_2025.pdf">hai-production.s3.amazonaws.com ↗</a></span> <span class="f">[M968] OpenAI, OpenAI API — Pricing, p. 1 <a href="https://developers.openai.com/api/docs/pricing">developers.openai.com ↗</a></span> <span class="f">[M958] Microsoft, Azure Retail Prices API — Azure OpenAI GPT-5 em Brazil S…, p. 1 <a href="https://prices.azure.com/api/retail/prices?$filter=%28armRegionName%20eq%20%27brazilsouth%27%20or%20armRegionName%20eq%20%27eastus2%27%29%20and%20contains%28productName%2C%20%27OpenAI%27%29%20and%20%28contains%28skuName%2C%20%27GPT%205%20Inpt%27%29%20or%20contains%28skuName%2C%20%27GPT%205%20outpt%27%29%29">prices.azure.com ↗</a></span> <span class="f">[M953] Google, Gemini Developer API pricing, p. 4-5 <a href="https://web.archive.org/web/20250720200308/https://ai.google.dev/gemini-api/docs/pricing">web.archive.org ↗</a></span> <span class="f">[M970] OpenAI, OpenAI — página de preços, p. 4 <a href="https://web.archive.org/web/20230320202742/https://openai.com/pricing">web.archive.org ↗</a></span> <span class="f">[M969] OpenAI, OpenAI API — página de preços, p. 2 <a href="https://web.archive.org/web/20221201044427/https://openai.com/api/pricing/">web.archive.org ↗</a></span> <span class="f">[M965] OpenAI, Introducing ChatGPT and Whisper APIs, p. 3 <a href="https://web.archive.org/web/20230301180254/https://openai.com/blog/introducing-chatgpt-and-whisper-apis">web.archive.org ↗</a></span> <span class="f">[M907] Anthropic, Introducing the next generation of Claude, p. 7, 9 <a href="https://www.anthropic.com/news/claude-3-family">anthropic.com ↗</a></span> <span class="f">[M905] Anthropic, Introducing Claude Opus 4.5, p. 2 <a href="https://www.anthropic.com/news/claude-opus-4-5">anthropic.com ↗</a></span> <span class="f">[M927] DeepSeek, DeepSeek API — Pricing, p. 1 <a href="https://web.archive.org/web/20240528120559/https://platform.deepseek.com/api-docs/pricing/">web.archive.org ↗</a></span> <span class="f">[M926] DeepSeek, DeepSeek API — Models &amp; Pricing, p. 2 <a href="https://web.archive.org/web/20250315174458/https://api-docs.deepseek.com/quick_start/pricing">web.archive.org ↗</a></span> <span class="f">[M929] DeepSeek, Introducing DeepSeek-V3.2-Exp, p. 1-3 <a href="https://api-docs.deepseek.com/news/news250929">api-docs.deepseek.com ↗</a></span> <span class="f">[M924] DeepSeek, DeepSeek API — Models &amp; Pricing, p. 2 <a href="https://api-docs.deepseek.com/quick_start/pricing">api-docs.deepseek.com ↗</a></span> <span class="f">[M990] TypeSafe AI, Introducing System One Models &amp; Jev, p. 4 <a href="https://typesafe.ai/blog/introducing-system-one-models-and-jev">typesafe.ai ↗</a></span></div>
+  <div class="foot"><span>Acelen Energia Renovável · Resultados parciais do benchmark · BIA-ACL-RP-02 · v4</span><span class="mono">06 / 18</span></div>
+</section>
+<section class="slide v1">
+  <div class="head"><img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Custo de uso da IA · 2/3</span></div>
+  <div class="eyebrow">Custo de uso da IA · movimentos de baixa · Frente 3</div>
+  <h2>Quem entra com preço baixo força os outros a reagir, na IA e nos carros</h2>
+  <div class="g2">
+    <div class="panel"><h3>IA: o Jev entrou com o menor preço da categoria</h3><div class="sub">Modelos de decisão, US$ por milhão de tokens de entrada, out/2026; nenhum cobra a saída</div><svg viewBox="0 0 560 146">
+<text x="170" y="19.9" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Jev · TypeSafe AI</text>
+<rect x="180" y="6.0" width="47.3" height="18.7" rx="3" fill="#62A842"/>
+<text x="235.2" y="20.4" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">US$ 0,042</text>
+<text x="170" y="53.9" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Clef-flash · Cloudflare</text>
+<rect x="180" y="40.0" width="101.2" height="18.7" rx="3" fill="#7C8678"/>
+<text x="289.2" y="54.4" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">US$ 0,09</text>
+<text x="170" y="87.8" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">GPT-6 Luna · OpenAI</text>
+<rect x="180" y="74.0" width="112.5" height="18.7" rx="3" fill="#7C8678"/>
+<text x="300.5" y="88.3" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">US$ 0,10</text>
+<text x="170" y="121.8" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Clef · Cloudflare</text>
+<rect x="180" y="108.0" width="270.0" height="18.7" rx="3" fill="#7C8678"/>
+<text x="458.0" y="122.3" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">US$ 0,24</text>
+</svg>
+      <p style="font-size:12.5px;color:var(--fg-2);margin-top:6px">A OpenAI lançou um concorrente 21 dias depois; a imprensa diz que ele foi inspirado no Jev.</p></div>
+    <div class="panel"><h3>Carros: as marcas chinesas avançam no Brasil</h3><div class="sub">Participação nos emplacamentos de automóveis e comerciais leves</div><svg viewBox="0 0 560 230">
+<line x1="40" x2="385" y1="200.0" y2="200.0" stroke="#2A3328"/>
+<text x="32" y="204.0" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="11" fill="#7C8678">0%</text>
+<line x1="40" x2="385" y1="154.0" y2="154.0" stroke="#2A3328"/>
+<text x="32" y="158.0" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="11" fill="#7C8678">5%</text>
+<line x1="40" x2="385" y1="108.0" y2="108.0" stroke="#2A3328"/>
+<text x="32" y="112.0" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="11" fill="#7C8678">10%</text>
+<line x1="40" x2="385" y1="62.0" y2="62.0" stroke="#2A3328"/>
+<text x="32" y="66.0" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="11" fill="#7C8678">15%</text>
+<line x1="40" x2="385" y1="16.0" y2="16.0" stroke="#2A3328"/>
+<text x="32" y="20.0" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="11" fill="#7C8678">20%</text>
+<text x="40.0" y="220" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" fill="#7C8678">2023</text>
+<text x="155.0" y="220" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" fill="#7C8678">2024</text>
+<text x="270.0" y="220" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" fill="#7C8678">2025</text>
+<text x="385.0" y="220" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" fill="#7C8678">jan–set/26</text>
+<path d="M40.0,174.2 L155.0,138.4 L270.0,115.4 L385.0,39.9" fill="none" stroke="#3A8FBF" stroke-width="2.5"/>
+<circle cx="40.0" cy="174.2" r="4.5" fill="#3A8FBF" stroke="#131A13" stroke-width="2"/>
+<circle cx="155.0" cy="138.4" r="4.5" fill="#3A8FBF" stroke="#131A13" stroke-width="2"/>
+<circle cx="270.0" cy="115.4" r="4.5" fill="#3A8FBF" stroke="#131A13" stroke-width="2"/>
+<circle cx="385.0" cy="39.9" r="4.5" fill="#3A8FBF" stroke="#131A13" stroke-width="2"/>
+<text x="395.0" y="43.9" font-family="Manrope, sans-serif" font-size="12" font-weight="700" fill="#F2F4EE">17,4% <tspan font-weight="400" fill="#B8BFB1">Chinesas (piso)</tspan></text>
+<text x="38.0" y="164.2" text-anchor="start" font-family="JetBrains Mono, monospace" font-size="10.5" fill="#B8BFB1">2,8%</text>
+<path d="M40.0,192.5 L155.0,171.6 L270.0,159.2 L385.0,127.9" fill="none" stroke="#3A8FBF" stroke-width="2.5" stroke-dasharray="7 5"/>
+<circle cx="40.0" cy="192.5" r="4.5" fill="#3A8FBF" stroke="#131A13" stroke-width="2"/>
+<circle cx="155.0" cy="171.6" r="4.5" fill="#3A8FBF" stroke="#131A13" stroke-width="2"/>
+<circle cx="270.0" cy="159.2" r="4.5" fill="#3A8FBF" stroke="#131A13" stroke-width="2"/>
+<circle cx="385.0" cy="127.9" r="4.5" fill="#3A8FBF" stroke="#131A13" stroke-width="2"/>
+<text x="395.0" y="131.9" font-family="Manrope, sans-serif" font-size="12" font-weight="700" fill="#F2F4EE">7,8% <tspan font-weight="400" fill="#B8BFB1">BYD</tspan></text>
+<text x="38.0" y="209.5" text-anchor="start" font-family="JetBrains Mono, monospace" font-size="10.5" fill="#B8BFB1">0,8%</text>
+<path d="M40.0,118.9 L155.0,124.6 L270.0,138.5 L385.0,147.7" fill="none" stroke="#B88A28" stroke-width="2.5"/>
+<circle cx="40.0" cy="118.9" r="4.5" fill="#B88A28" stroke="#131A13" stroke-width="2"/>
+<circle cx="155.0" cy="124.6" r="4.5" fill="#B88A28" stroke="#131A13" stroke-width="2"/>
+<circle cx="270.0" cy="138.5" r="4.5" fill="#B88A28" stroke="#131A13" stroke-width="2"/>
+<circle cx="385.0" cy="147.7" r="4.5" fill="#B88A28" stroke="#131A13" stroke-width="2"/>
+<text x="395.0" y="151.7" font-family="Manrope, sans-serif" font-size="12" font-weight="700" fill="#F2F4EE">5,7% <tspan font-weight="400" fill="#B8BFB1">Toyota</tspan></text>
+<text x="38.0" y="108.9" text-anchor="start" font-family="JetBrains Mono, monospace" font-size="10.5" fill="#B8BFB1">8,8%</text>
+</svg>
+      <p style="font-size:12.5px;color:var(--fg-2);margin-top:6px">O desconto da Hilux foi promoção, não corte de tabela; a Toyota não deu o motivo.</p></div>
+  </div>
+  <div class="read"><b>Onde o paralelo quebra (leitura nossa).</b> Ninguém compra mais picapes porque ficaram baratas; com token barato, o uso cresce. E guerra de preço costuma terminar em consolidação: na China, só 3 de 30 montadoras de elétricos lucraram em 2025.</div>
+<div class="fontes"><b>Fontes</b><span class="f">[M990] TypeSafe AI, Introducing System One Models &amp; Jev, p. 4 <a href="https://typesafe.ai/blog/introducing-system-one-models-and-jev">typesafe.ai ↗</a></span> <span class="f">[M967] OpenAI, OpenAI API — Changelog, p. 1 <a href="https://developers.openai.com/api/docs/changelog">developers.openai.com ↗</a></span> <span class="f">[M955] Let&#x27;s Data Science, OpenAI Shipped a Jev Rival in Three Weeks. TypeSafe Just…, p. 2, 6 <a href="https://letsdatascience.com/blog/openai-jev-rival-three-weeks-typesafe-raised-870-million">letsdatascience.com ↗</a></span> <span class="f">[M935] Fenabrave, Informativo Emplacamentos — Resumo mensal de dezembro de…, p. 9 <a href="https://www.fenabrave.org.br/portal/files/2023_12_2.pdf">fenabrave.org.br ↗</a></span> <span class="f">[M938] Fenabrave, Informativo Emplacamentos — Resumo mensal de setembro de…, p. 9, 18 <a href="https://www.fenabrave.org.br/portal/files/2026_09_02.pdf">fenabrave.org.br ↗</a></span> <span class="f">[M913] Auto+ TV, Toyota reduz preços de Hilux e SW4 em mais de R$ 54.000, p. 1-4 <a href="https://www.automaistv.com.br/novidades/toyota-reduz-precos-de-hilux-e-sw4-em-mais-de-r-54-000/">automaistv.com.br ↗</a></span> <span class="f">[M974] OpenRouter Inc. e Andreessen Horowitz, State of AI: An Empirical 100 Trillion Token Study with…, p. 32 <a href="https://arxiv.org/abs/2601.10088">arxiv.org ↗</a></span> <span class="f">[M896] AlixPartners, The 23rd annual AlixPartners Global Automotive Outlook –…, p. 2 <a href="https://www.alixpartners.com/newsroom/press-release-the-23rd-annual-alixpartners-global-automotive-outlook-china/">alixpartners.com ↗</a></span></div>
+  <div class="foot"><span>Acelen Energia Renovável · Resultados parciais do benchmark · BIA-ACL-RP-02 · v4</span><span class="mono">07 / 18</span></div>
+</section>
+<section class="slide v1">
+  <div class="head"><img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Custo de uso da IA · 3/3</span></div>
+  <div class="eyebrow">Custo de uso da IA · insights do uso · Frentes 1 e 3</div>
+  <h2>O preço cai, mas a conta sobe: cada tarefa consome mais, e há mais tarefas</h2>
+  <div class="g2">
+    <div class="panel"><h3>Tokens por tarefa, comparados a um chat</h3><div class="sub">Agentes: Anthropic, jun/2025 · *raciocínio, por resposta: Epoch AI, abr/2025</div><svg viewBox="0 0 560 146">
+<text x="130" y="19.9" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Chat</text>
+<rect x="140" y="6.0" width="20.7" height="18.7" rx="3" fill="#7C8678"/>
+<text x="168.7" y="20.4" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">1×</text>
+<text x="130" y="53.9" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Agente</text>
+<rect x="140" y="40.0" width="82.7" height="18.7" rx="3" fill="#B88A28"/>
+<text x="230.7" y="54.4" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">4×</text>
+<text x="130" y="87.8" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Vários agentes</text>
+<rect x="140" y="74.0" width="310.0" height="18.7" rx="3" fill="#B85F33"/>
+<text x="458.0" y="88.3" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">15×</text>
+<text x="130" y="121.8" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Com raciocínio*</text>
+<rect x="140" y="108.0" width="165.3" height="18.7" rx="3" fill="#3A8FBF"/>
+<text x="313.3" y="122.3" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">~8×</text>
+</svg></div>
+    <div class="panel"><h3>Tokens processados por mês pelo Google</h3><div class="sub">Escala logarítmica; números da própria empresa</div><svg viewBox="0 0 520 230">
+<line x1="20" x2="500" y1="196" y2="196" stroke="#3A4537"/>
+<rect x="60.0" y="155.0" width="80.0" height="41.0" rx="4" fill="#62A842"/>
+<text x="100.0" y="146.0" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="14" font-weight="500" fill="#F2F4EE">9,7 tri</text>
+<text x="100.0" y="216" text-anchor="middle" font-family="Manrope, sans-serif" font-size="12" fill="#B8BFB1">2024</text>
+<rect x="220.0" y="84.7" width="80.0" height="111.3" rx="4" fill="#62A842"/>
+<text x="260.0" y="75.7" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="14" font-weight="500" fill="#F2F4EE">~480 tri</text>
+<text x="260.0" y="216" text-anchor="middle" font-family="Manrope, sans-serif" font-size="12" fill="#B8BFB1">2025</text>
+<rect x="380.0" y="50.5" width="80.0" height="145.5" rx="4" fill="#62A842"/>
+<text x="420.0" y="41.5" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="14" font-weight="500" fill="#F2F4EE">3,2 quatri</text>
+<text x="420.0" y="216" text-anchor="middle" font-family="Manrope, sans-serif" font-size="12" fill="#B8BFB1">mai/2026</text>
+</svg></div>
+  </div>
+  <div class="strip" style="grid-template-columns:repeat(3,1fr);margin-top:10px">
+    <div class="cell"><div class="h">82% se preocupam</div><p>com o custo de tokens; só 64% acompanham o consumo com limite de orçamento (EUA, jul/2026)</p></div>
+    <div class="cell"><div class="h">A cobrança vai para o uso</div><p>O GitHub passou o Copilot para cobrança por uso em jun/2026; o Cursor e a Anthropic também mudaram</p></div>
+    <div class="cell"><div class="h">Como orçar (leitura nossa)</div><p>Parte fixa por usuário, parte variável por uso, e custo e valor medidos por tarefa</p></div>
+  </div>
+<div class="fontes"><b>Fontes</b><span class="f">[M911] Anthropic, How we built our multi-agent research system, p. 3 <a href="https://www.anthropic.com/engineering/multi-agent-research-system">anthropic.com ↗</a></span> <span class="f">[M934] Epoch AI, LLM responses to benchmark questions are getting longer…, p. 1-2 <a href="https://epoch.ai/data-insights/output-length">epoch.ai ↗</a></span> <span class="f">[M666] Google, Google I/O 2026: Sundar Pichai&#x27;s opening keynote, web <a href="https://blog.google/intl/en-in/company-news/technology/sundar-pichai-io-2026/">blog.google ↗</a></span> <span class="f">[M070] EY US, EY Survey: C-Suites Pivot from AI Adoption to Unlocking…, p. 1-2 <a href="https://www.ey.com/en_us/newsroom/2026/07/ey-survey-c-suites-pivot-from-ai-adoption-to-unlocking-value-as-escalating-token-costs-trigger-fiscal-scrutiny">ey.com ↗</a></span> <span class="f">[M951] GitHub, GitHub Copilot is moving to usage-based billing, p. 1-2 <a href="https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/">github.blog ↗</a></span> <span class="f">[M923] Cursor, Clarifying our pricing, p. 1-2 <a href="https://cursor.com/blog/june-2025-pricing">cursor.com ↗</a></span> <span class="f">[M984] TechCrunch, Anthropic unveils new rate limits to curb Claude Code po…, p. 2 <a href="https://techcrunch.com/2025/07/28/anthropic-unveils-new-rate-limits-to-curb-claude-code-power-users/">techcrunch.com ↗</a></span></div>
+  <div class="foot"><span>Acelen Energia Renovável · Resultados parciais do benchmark · BIA-ACL-RP-02 · v4</span><span class="mono">08 / 18</span></div>
+</section>
+<section class="slide v1">
+  <div class="head"><img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Case Uber</span></div>
+  <div class="eyebrow">Case · Uber · programação com agentes de IA</div>
+  <h2>A Uber estourou o orçamento de IA e depois controlou o gasto pelo consumo</h2>
+  <div class="panel" style="margin-top:12px;padding:16px 20px">
+    <div style="position:relative"><div style="position:absolute;left:12%;right:12%;top:28px;height:2px;background:var(--line-strong)"></div>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:12px;position:relative"><div style="text-align:center"><div style="width:56px;height:56px;border-radius:50%;background:var(--bg-3);border:2px solid var(--brand-green);display:flex;align-items:center;justify-content:center;margin:0 auto"><i data-lucide="chart-no-axes-combined" class="ic"></i></div><div style="font:500 12px var(--font-mono);color:var(--brand-green);margin-top:8px">2024→mar/26</div><div style="font-size:13px;color:var(--fg-1);font-weight:600;margin-top:3px;line-height:1.3">Custos de IA 6× maiores</div></div><div style="text-align:center"><div style="width:56px;height:56px;border-radius:50%;background:var(--bg-3);border:2px solid var(--brand-green);display:flex;align-items:center;justify-content:center;margin:0 auto"><i data-lucide="flame" class="ic"></i></div><div style="font:500 12px var(--font-mono);color:var(--brand-green);margin-top:8px">abr/2026</div><div style="font-size:13px;color:var(--fg-1);font-weight:600;margin-top:3px;line-height:1.3">Orçamento do ano acaba em ~4 meses</div></div><div style="text-align:center"><div style="width:56px;height:56px;border-radius:50%;background:var(--bg-3);border:2px solid var(--brand-green);display:flex;align-items:center;justify-content:center;margin:0 auto"><i data-lucide="octagon-alert" class="ic"></i></div><div style="font:500 12px var(--font-mono);color:var(--brand-green);margin-top:8px">jun/2026</div><div style="font-size:13px;color:var(--fg-1);font-weight:600;margin-top:3px;line-height:1.3">Teto de US$ 1.500/mês por ferramenta</div></div><div style="text-align:center"><div style="width:56px;height:56px;border-radius:50%;background:var(--bg-3);border:2px solid var(--brand-green);display:flex;align-items:center;justify-content:center;margin:0 auto"><i data-lucide="gauge" class="ic"></i></div><div style="font:500 12px var(--font-mono);color:var(--brand-green);margin-top:8px">ago/2026</div><div style="font-size:13px;color:var(--fg-1);font-weight:600;margin-top:3px;line-height:1.3">Faixa única de gasto, com alertas</div></div></div></div>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:12px">
+    <div class="kpi" style="flex-direction:column;align-items:flex-start"><div class="n">7×</div><div class="t">mais usuários semanais de agentes, fev–ago/2026</div></div>
+    <div class="kpi" style="flex-direction:column;align-items:flex-start"><div class="n">9,4×</div><div class="t">mais requisições semanais a agentes</div></div>
+    <div class="kpi" style="flex-direction:column;align-items:flex-start"><div class="n" style="color:var(--brand-green-bright)">−52%</div><div class="t">no custo por sessão, contra o pico de jun/2026</div></div>
+    <div class="kpi" style="flex-direction:column;align-items:flex-start"><div class="n" style="color:var(--brand-green-bright)">16</div><div class="t">tipos de desperdício mapeados, como usar o modelo mais caro em tarefa simples</div></div>
+  </div>
+  <div class="read"><b>Lição (leitura nossa).</b> O ranking interno premiava volume de uso, não resultado. A economia veio de cortar consumo sem valor, não de preço menor. Falta ligar o uso ao que chega ao cliente: o COO diz que essa ligação "ainda não existe". Números da Uber são declarados por ela; o estouro do orçamento vem da imprensa.</div>
+<div class="fontes"><b>Fontes</b><span class="f">[M989] The Pragmatic Engineer, sobre palestra de engenheiros da Uber no Pragmatic Summit, How Uber uses AI for development: inside look, p. 3 <a href="https://newsletter.pragmaticengineer.com/p/how-uber-uses-ai-for-development">newsletter.pragmaticengineer.com ↗</a></span> <span class="f">[M986] TechCrunch, Uber caps employee AI spending after blowing through bud…, p. 2 <a href="https://techcrunch.com/2026/06/02/uber-caps-employee-ai-spending-after-blowing-through-budget-in-four-months/">techcrunch.com ↗</a></span> <span class="f">[M941] Fortune, Uber burned through its entire 2026 AI budget in four mo…, p. 3 <a href="https://fortune.com/2026/05/26/uber-coo-ai-spending-tokens-claude-code/">fortune.com ↗</a></span> <span class="f">[M995] Uber Technologies, Running a Software Factory Efficiently at Uber Scale, p. 2, 15 <a href="https://www.uber.com/us/en/blog/efficient-software-factory/">uber.com ↗</a></span></div>
+  <div class="foot"><span>Acelen Energia Renovável · Resultados parciais do benchmark · BIA-ACL-RP-02 · v4</span><span class="mono">09 / 18</span></div>
+</section>
+<section class="slide v1">
+  <div class="head"><img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Governança</span></div>
+  <div class="eyebrow">Governança de IA · Frentes 1 e 2</div>
+  <h2>Governança é a dimensão mais atrasada nas quatro empresas</h2>
+  <div class="g2" style="grid-template-columns:1.45fr 1fr;margin-top:10px">
+    <div>
+      <div class="panel"><h3>Estratégia e governança contra a média das outras três dimensões</h3>
+        <div class="sub"><span style="color:#B85F33">■</span> Estratégia e governança &nbsp; <span style="color:#62A842">●</span> média de dados, organização e aplicações</div><svg viewBox="0 0 620 184">
+<line x1="120.0" x2="120.0" y1="6" y2="154" stroke="#2A3328"/>
+<text x="120.0" y="172" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11.5" fill="#7C8678">1</text>
+<line x1="237.5" x2="237.5" y1="6" y2="154" stroke="#2A3328"/>
+<text x="237.5" y="172" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11.5" fill="#7C8678">2</text>
+<line x1="355.0" x2="355.0" y1="6" y2="154" stroke="#2A3328"/>
+<text x="355.0" y="172" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11.5" fill="#7C8678">3</text>
+<line x1="472.5" x2="472.5" y1="6" y2="154" stroke="#2A3328"/>
+<text x="472.5" y="172" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11.5" fill="#7C8678">4</text>
+<line x1="590.0" x2="590.0" y1="6" y2="154" stroke="#2A3328"/>
+<text x="590.0" y="172" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11.5" fill="#7C8678">5</text>
+<text x="108" y="25" text-anchor="end" font-family="Manrope, sans-serif" font-size="13" font-weight="600" fill="#F2F4EE">Bayer</text>
+<line x1="355.0" x2="472.5" y1="20" y2="20" stroke="#3A4537" stroke-width="4"/>
+<rect x="348.0" y="13" width="14" height="14" rx="2" fill="#B85F33" stroke="#131A13" stroke-width="2"/>
+<circle cx="472.5" cy="20" r="7.5" fill="#62A842" stroke="#131A13" stroke-width="2"/>
+<text x="485.5" y="24.5" font-family="JetBrains Mono, monospace" font-size="11.5" fill="#B8BFB1">4,0</text>
+<text x="108" y="61" text-anchor="end" font-family="Manrope, sans-serif" font-size="13" font-weight="600" fill="#F2F4EE">Suzano</text>
+<line x1="237.5" x2="355.0" y1="56" y2="56" stroke="#3A4537" stroke-width="4"/>
+<rect x="230.5" y="49" width="14" height="14" rx="2" fill="#B85F33" stroke="#131A13" stroke-width="2"/>
+<circle cx="355.0" cy="56" r="7.5" fill="#62A842" stroke="#131A13" stroke-width="2"/>
+<text x="368.0" y="60.5" font-family="JetBrains Mono, monospace" font-size="11.5" fill="#B8BFB1">3,0</text>
+<text x="108" y="97" text-anchor="end" font-family="Manrope, sans-serif" font-size="13" font-weight="600" fill="#F2F4EE">Deere</text>
+<line x1="237.5" x2="433.3" y1="92" y2="92" stroke="#3A4537" stroke-width="4"/>
+<rect x="230.5" y="85" width="14" height="14" rx="2" fill="#B85F33" stroke="#131A13" stroke-width="2"/>
+<circle cx="433.3" cy="92" r="7.5" fill="#62A842" stroke="#131A13" stroke-width="2"/>
+<text x="446.3" y="96.5" font-family="JetBrains Mono, monospace" font-size="11.5" fill="#B8BFB1">3,7</text>
+<text x="108" y="133" text-anchor="end" font-family="Manrope, sans-serif" font-size="13" font-weight="600" fill="#F2F4EE">DJI</text>
+<line x1="237.5" x2="355.0" y1="128" y2="128" stroke="#3A4537" stroke-width="4"/>
+<rect x="230.5" y="121" width="14" height="14" rx="2" fill="#B85F33" stroke="#131A13" stroke-width="2"/>
+<circle cx="355.0" cy="128" r="7.5" fill="#62A842" stroke="#131A13" stroke-width="2"/>
+<text x="368.0" y="132.5" font-family="JetBrains Mono, monospace" font-size="11.5" fill="#B8BFB1">3,0</text>
+</svg></div>
+      <div class="esc">
+        <div class="e"><div class="k">1 · Exploração</div><p>Uso individual, sem caso com meta e métrica</p></div>
+        <div class="e"><div class="k">2 · Pilotos</div><p>Piloto medido, responsável nomeado, regra de uso</p></div>
+        <div class="e"><div class="k">3 · Operação</div><p>Caso em produção com resultado; política de IA publicada</p></div>
+        <div class="e"><div class="k">4 · Escala</div><p>Vários casos, área de IA, capacitação ampla</p></div>
+        <div class="e" style="border-color:var(--brand-green)"><div class="k">5 · Transformação</div><p>Receita com IA e retorno consolidado divulgado</p></div>
+      </div>
+    </div>
+    <div class="panel" style="border-color:var(--brand-green)">
+      <div style="display:flex;gap:10px;align-items:center"><i data-lucide="award" class="ic"></i><h3 style="font-size:15px">Quem chega ao 5</h3></div>
+      <div class="kpi" style="margin-top:10px;background:var(--bg-1)"><div class="n" style="min-width:110px">US$ 2,6 bi</div><div class="t"><b style="color:var(--fg-1)">Saudi Aramco:</b> valor gerado por IA em 2025, verificado por terceiros</div></div>
+      <div class="kpi" style="margin-top:8px;background:var(--bg-1)"><div class="n" style="min-width:110px">≈ +60%</div><div class="t"><b style="color:var(--fg-1)">JPMorganChase:</b> crescimento do valor gerado por IA no varejo, de 2024 para 2025, medido contra grupo de controle</div></div>
+      <p class="note" style="margin-top:8px">Nenhuma empresa do painel chega ao 5. Quem chega ao 4, como a Bayer, publica princípios de IA, tem uma área responsável e capacitou cerca de 95% das pessoas.</p>
+    </div>
+  </div>
+<div class="fontes"><b>Fontes</b><span class="f">[M494] Saudi Aramco, Saudi Aramco Annual Report 2025, p. 67 <a href="https://www.aramco.com/-/media/publications/corporate-reports/reports-and-presentations/2025/fy/saudi-aramco-ara-2025-english.pdf">aramco.com ↗</a></span> <span class="f">[M441] JPMorganChase, Annual Report 2025, p. 59 <a href="https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/annualreport-2025.pdf">jpmorganchase.com ↗</a></span> <span class="f">[M439] JPMorganChase, 2025 Investor Day – Full Presentation, p. 77 <a href="https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/events/2025/jpmc-2025-investor-day/full-presentation.pdf">jpmorganchase.com ↗</a></span> <span class="f">[M784] Bayer AG, Bayer Principles for Responsible Artificial Intelligence, p. 1-3 <a href="https://bag-p-001.sitecorecontenthub.cloud/api/public/content/AI-Princples-of-Bayer?v=ab6cf64a">bag-p-001.sitecorecontenthub.cloud ↗</a></span> <span class="f">[M783] Bayer AG, Bayer Impact Report 2025, p. 110 <a href="https://www.bayer.com/sites/default/files/2026-03/bayer-impact-report-2025.pdf">bayer.com ↗</a></span> <span class="f w">Fichas de benchmark do estudo; régua: nota de frameworks de maturidade, seção 6.2</span></div>
+  <div class="foot"><span>Acelen Energia Renovável · Resultados parciais do benchmark · BIA-ACL-RP-02 · v4</span><span class="mono">10 / 18</span></div>
+</section>
+<section class="slide v1">
+  <div class="head"><img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Shadow AI · 1/3</span></div>
+  <div class="eyebrow">Shadow AI · uso de IA por fora dos canais oficiais · Frente 2</div>
+  <h2>Usar IA por fora dos canais oficiais é comum em todo lugar, inclusive no Brasil</h2>
+  <div class="g2" style="grid-template-columns:1.2fr 1fr">
+    <div class="panel"><h3>Quanto se usa por fora</h3><div class="sub">Bases diferentes: cada barra mede uma coisa e não se compara com as outras</div><svg viewBox="0 0 680 146">
+<text x="320" y="19.9" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Netskope · app pessoal (tráfego)</text>
+<rect x="330" y="6.0" width="112.8" height="18.7" rx="3" fill="#B85F33"/>
+<text x="450.8" y="20.4" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">47%</text>
+<text x="320" y="53.9" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Verizon · conta não corporativa (telemetria)</text>
+<rect x="330" y="40.0" width="160.8" height="18.7" rx="3" fill="#B85F33"/>
+<text x="498.8" y="54.4" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">67%</text>
+<text x="320" y="87.8" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Brasil · leva a própria IA (opinião)</text>
+<rect x="330" y="74.0" width="177.6" height="18.7" rx="3" fill="#B88A28"/>
+<text x="515.6" y="88.3" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">74%</text>
+<text x="320" y="121.8" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Gartner · tem IA da empresa e usa a pessoal (opinião)</text>
+<rect x="330" y="108.0" width="211.2" height="18.7" rx="3" fill="#B88A28"/>
+<text x="549.2" y="122.3" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">88%</text>
+</svg></div>
+    <div class="panel"><h3>Netskope: quando a empresa oferece, a conta oficial cresce</h3><div class="sub">Usuários de IA generativa, por tipo de conta, em um ano (medição de tráfego)</div><svg viewBox="0 0 560 230">
+<line x1="175" x2="175" y1="18" y2="200" stroke="#2A3328"/>
+<text x="175" y="220" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11.5" fill="#7C8678">out/2024</text>
+<line x1="490" x2="490" y1="18" y2="200" stroke="#2A3328"/>
+<text x="490" y="220" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11.5" fill="#7C8678">out/2025</text>
+<line x1="175" y1="58.0" x2="490" y2="114.5" stroke="#B85F33" stroke-width="3"/>
+<circle cx="175" cy="58.0" r="6" fill="#B85F33" stroke="#131A13" stroke-width="2"/>
+<circle cx="490" cy="114.5" r="6" fill="#B85F33" stroke="#131A13" stroke-width="2"/>
+<text x="163" y="62.5" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#F2F4EE"><tspan font-weight="700">78%</tspan> <tspan fill="#B8BFB1">contas pessoais</tspan></text>
+<text x="502" y="119.0" font-family="JetBrains Mono, monospace" font-size="13" font-weight="500" fill="#F2F4EE">47%</text>
+<line x1="175" y1="154.5" x2="490" y2="87.2" stroke="#62A842" stroke-width="3"/>
+<circle cx="175" cy="154.5" r="6" fill="#62A842" stroke="#131A13" stroke-width="2"/>
+<circle cx="490" cy="87.2" r="6" fill="#62A842" stroke="#131A13" stroke-width="2"/>
+<text x="163" y="159.0" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#F2F4EE"><tspan font-weight="700">25%</tspan> <tspan fill="#B8BFB1">contas da empresa</tspan></text>
+<text x="502" y="91.7" font-family="JetBrains Mono, monospace" font-size="13" font-weight="500" fill="#F2F4EE">62%</text>
+</svg>
+      <p style="font-size:11.5px;color:var(--fg-3);margin-top:4px">As duas mudanças aconteceram juntas; a fonte não prova que uma causou a outra.</p></div>
+  </div>
+  <div class="strip" style="grid-template-columns:repeat(3,1fr);margin-top:10px">
+    <div class="cell"><div class="h">Por que acontece</div><p>53% usam a própria ferramenta por preferir escolher; 33% porque a TI não oferece o que precisam (pesquisa da Software AG, fornecedora)</p></div>
+    <div class="cell"><div class="h">Proibir funciona pouco</div><p>O envio de dado sensível a IA pública é mais comum onde a IA é proibida (67%) do que onde não há política (33%), em comparação entre grupos</p></div>
+    <div class="cell"><div class="h">O risco tem custo</div><p>Organizações com shadow AI alto tiveram vazamento US$ 670 mil mais caro, em média, que as de nível baixo (comparação entre grupos; IBM 2025, que vende segurança)</p></div>
+  </div>
+<div class="fontes"><b>Fontes</b><span class="f">[M1049] Netskope, Cloud and Threat Report: 2026, p. 2-3 <a href="https://www.netskope.com/resources/cloud-and-threat-reports/cloud-and-threat-report-2026">netskope.com ↗</a></span> <span class="f">[M1068] Verizon Business, 2026 Data Breach Investigations Report, p. 60 <a href="https://www.verizon.com/business/resources/Tf38/reports/2026-dbir-data-breach-investigations-report.pdf">verizon.com ↗</a></span> <span class="f">[M1042] Microsoft e LinkedIn, AI at Work Is Here. Now Comes the Hard Part, p. 32 <a href="https://assets-c4akfrf5b4d3f4b7.z01.azurefd.net/assets/2024/05/2024_Work_Trend_Index_Annual_Report_6_7_24_666b2e2fafceb.pdf">assets-c4akfrf5b4d3f4b7.z01.azurefd.net ↗</a></span> <span class="f">[M1018] Gartner, Gartner Predicts by 2027, 50% of Enterprises Without a P…, web <a href="https://www.gartner.com/en/newsroom/press-releases/2026-05-13-gartner-predicts-by-2027-50-percent-of-enterprises-without-a-people-centric-ai-strategy-will-lose-their-top-ai-talent">gartner.com ↗</a></span> <span class="f">[M1062] Software AG, Half of all employees are Shadow AI users, new study finds, p. 2 <a href="https://web.archive.org/web/20251006225317/https://newscenter.softwareag.com/en/news-stories/press-releases/2024/1022-half-of-all-employees-use-shadow-ai.html">web.archive.org ↗</a></span> <span class="f">[M110] University of Melbourne e KPMG International, Trust, attitudes and use of artificial intelligence: A g…, p. 73, 77 <a href="https://kpmg.com/xx/en/our-insights/ai-and-technology/trust-attitudes-and-use-of-ai.html">kpmg.com ↗</a></span> <span class="f">[M1023] IBM, IBM Report: 13% Of Organizations Reported Breaches Of AI…, web <a href="https://newsroom.ibm.com/2025-07-30-ibm-report-13-of-organizations-reported-breaches-of-ai-models-or-applications,-97-of-which-reported-lacking-proper-ai-access-controls">newsroom.ibm.com ↗</a></span></div>
+  <div class="foot"><span>Acelen Energia Renovável · Resultados parciais do benchmark · BIA-ACL-RP-02 · v4</span><span class="mono">11 / 18</span></div>
+</section>
+<section class="slide v1">
+  <div class="head"><img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Shadow AI · 2/3</span></div>
+  <div class="eyebrow">Shadow AI · Copilot e os caminhos das empresas · Frente 2</div>
+  <h2>Impor o Copilot não basta; as grandes empresas combinam ferramentas</h2>
+  <div class="g2" style="grid-template-columns:1fr 1.25fr">
+    <div style="display:grid;gap:10px;align-content:start">
+      <div class="kpi"><div class="n" style="font-size:26px;min-width:124px;white-space:nowrap">&gt; 30 mi</div><div class="t">licenças pagas do Microsoft 365 Copilot em jul/2026; a Microsoft não diz quantas são usadas</div></div>
+      <div class="panel"><h3>Ministério britânico, 1.000 licenças</h3><div class="sub">Parcela de licenciados que usou a ferramenta</div><svg viewBox="0 0 520 78">
+<text x="130" y="19.9" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Uso por dia útil</text>
+<rect x="140" y="6.0" width="81.0" height="18.7" rx="3" fill="#B88A28"/>
+<text x="229.0" y="20.4" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">~30%</text>
+<text x="130" y="53.9" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Uso por semana</text>
+<rect x="140" y="40.0" width="172.8" height="18.7" rx="3" fill="#62A842"/>
+<text x="320.8" y="54.4" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">64%</text>
+</svg>
+        <p style="font-size:11.5px;color:var(--fg-2);margin-top:4px">No Tesouro australiano, os usuários acharam o Copilot pior que ChatGPT e Claude, em parte pelas restrições do próprio órgão.</p></div>
+    </div>
+    <div class="kpis" style="gap:7px"><div class="kpi" style="padding:7px 10px"><i data-lucide="square-check" class="ic"></i><div><div style="font:600 13px var(--font-display);color:var(--fg-1)">Uma ferramenta para todos</div><div class="t" style="font-size:11.6px">Klabin: Copilot para todos (não diz se o chat ou a licença paga), com comitê e critérios para quem cria agentes</div></div></div><div class="kpi" style="padding:7px 10px"><i data-lucide="layers" class="ic"></i><div><div style="font:600 13px var(--font-display);color:var(--fg-1)">Várias ferramentas aprovadas</div><div class="t" style="font-size:11.6px">BBVA: ChatGPT Enterprise a estender a mais de 120 mil e Gemini habilitado para 87 mil; só 27% das grandes empresas dos EUA usam uma plataforma única</div></div></div><div class="kpi" style="padding:7px 10px"><i data-lucide="network" class="ic"></i><div><div style="font:600 13px var(--font-display);color:var(--fg-1)">Plataforma própria com vários modelos</div><div class="t" style="font-size:11.6px">Itaú: acesso padronizado a mais de 80 modelos (imprensa); JPMorganChase: quase 250 mil pessoas com acesso</div></div></div><div class="kpi" style="padding:7px 10px"><i data-lucide="git-merge" class="ic"></i><div><div style="font:600 13px var(--font-display);color:var(--fg-1)">A Microsoft também abriu</div><div class="t" style="font-size:11.6px">Modelos da Anthropic dentro do Copilot desde set/2025</div></div></div></div>
+  </div>
+  <table class="cmp" style="margin-top:10px">
+    <thead><tr><th>Custo por usuário/mês (páginas oficiais, 15/10/2026)</th><th>Copilot Chat</th><th>Microsoft 365 Copilot</th><th>ChatGPT Business</th><th>Claude Team</th><th>Planos para grandes empresas</th></tr></thead>
+    <tbody><tr><td>Preço de tabela</td><td>Sem custo adicional na suíte</td><td>US$ 30 (R$ 171,80 sem impostos)</td><td>US$ 20 a 25</td><td>US$ 20 a 25</td><td>Sem preço público</td></tr></tbody>
+  </table>
+<div class="fontes"><b>Fontes</b><span class="f">[M1038] Microsoft, Microsoft Fiscal Year 2026 Fourth Quarter Earnings Confe…, p. 3 <a href="https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4">microsoft.com ↗</a></span> <span class="f">[M1011] Department for Business and Trade, Governo do Reino Unido, The Evaluation of the M365 Copilot Pilot in the Departme…, p. 16 <a href="https://assets.publishing.service.gov.uk/media/68adbe409e1cebdd2c96a19d/dbt-microsoft-365-copilot-evaluation.pdf">assets.publishing.service.gov.uk ↗</a></span> <span class="f">[M1012] Department of the Treasury – Australian Centre for Evaluation, Evaluation of a trial of generative artificial intellige…, p. 27 <a href="https://evaluation.treasury.gov.au/sites/evaluation.treasury.gov.au/files/2025-02/evaluation-generative-artificial-intelligence.pdf">evaluation.treasury.gov.au ↗</a></span> <span class="f">[M326] Klabin, Relatório de Sustentabilidade 2025, p. 63-65 <a href="https://rs2025.klabin.com.br/documents/2996966/4590388/RS+2025+A4+-+Klabin+-+v2_compressed.pdf/980d0243-ee3c-1e4d-7394-f29527a186e9?t=1788271818905">rs2025.klabin.com.br ↗</a></span> <span class="f">[M413] BBVA, BBVA deploys &#x27;The Eight&#x27;, its strategy to transform the…, p. 5-6 <a href="https://www.bbva.com/en/innovation/bbva-deploys-the-eight-its-strategy-to-transform-the-financial-experience-with-ai/">bbva.com ↗</a></span> <span class="f">[M1045] Morning Consult, The State of Enterprise AI: Budgets Are Growing &amp; Platfo…, p. 3 <a href="https://morningconsult.com/articles/state-of-enterprise-ai">morningconsult.com ↗</a></span> <span class="f">[M437] Itaú Unibanco Holding, Relatório Anual Integrado 2025, p. 16 <a href="https://api.mziq.com/mzfilemanager/v2/d/42787847-4cf6-4461-94a5-40ed237dca33/0a51b7a9-1163-000a-c8a9-f93b068ffef8?origin=2">api.mziq.com ↗</a></span> <span class="f">[M1043] Mobile Time, Itaú já reduziu em 65% o custo com IA generativa desde 2…, p. 1 <a href="https://www.mobiletime.com.br/noticias/27/07/2026/itau-custo-ia-generativa/">mobiletime.com.br ↗</a></span> <span class="f">[M025] McKinsey &amp; Company, JPMorgan Chase&#x27;s Derek Waldron on building an AI-first b…, p. 3-4 <a href="https://www.mckinsey.com/industries/financial-services/our-insights/jpmorgan-chases-derek-waldron-on-building-an-ai-first-bank-culture">mckinsey.com ↗</a></span> <span class="f">[M1035] Microsoft, Expanding model choice in Microsoft 365 Copilot, p. 2-3 <a href="https://www.microsoft.com/en-us/microsoft-365/blog/2025/09/24/expanding-model-choice-in-microsoft-365-copilot/">microsoft.com ↗</a></span> <span class="f">[M1033] Microsoft, Copilot for all: Introducing Microsoft 365 Copilot Chat, p. 2 <a href="https://www.microsoft.com/en-us/microsoft-365/blog/2025/01/15/copilot-for-all-introducing-microsoft-365-copilot-chat/">microsoft.com ↗</a></span> <span class="f">[M1037] Microsoft, Microsoft Copilot for enterprise – pricing, p. 4 <a href="https://www.microsoft.com/en-us/copilot/solutions/enterprise">microsoft.com ↗</a></span> <span class="f">[M1036] Microsoft, Microsoft 365 Copilot para grandes empresas – preços, p. 5 <a href="https://www.microsoft.com/pt-br/microsoft-365-copilot/enterprise">microsoft.com ↗</a></span> <span class="f">[M1053] OpenAI, Preços para empresas – ChatGPT Business e Enterprise, p. 1-2 <a href="https://openai.com/pt-BR/business/pricing/">openai.com ↗</a></span> <span class="f">[M1002] Anthropic, What is the Team plan?, p. 2-3 <a href="https://support.claude.com/en/articles/9266767-what-is-the-team-plan">support.claude.com ↗</a></span></div>
+  <div class="foot"><span>Acelen Energia Renovável · Resultados parciais do benchmark · BIA-ACL-RP-02 · v4</span><span class="mono">12 / 18</span></div>
+</section>
+<section class="slide v1">
+  <div class="head"><img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Shadow AI · 3/3</span></div>
+  <div class="eyebrow">Shadow AI · vibe coding e o que entra na régua · Frente 2</div>
+  <h2>Ferramentas que criam aplicativos com IA pedem supervisão conforme o risco</h2>
+  <div class="g2" style="grid-template-columns:1.1fr 1fr">
+    <div class="panel"><h3>O modelo por nível de risco do NCSC, agência britânica de cibersegurança</h3><div class="sub">Post do arquiteto principal de segurança, 2026</div>
+      <div style="height:10px;border-radius:5px;background:linear-gradient(90deg,#62A842,#B88A28);margin-top:12px"></div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:10px">
+        <div><div style="font:600 13.5px var(--font-display);color:#8FD45A">Vibe coding pleno · supervisão leve</div><p style="font-size:12.2px;color:var(--fg-2);margin-top:4px">Protótipos, demonstrações e ferramentas internas de pouca exposição, sem dado sensível</p></div>
+        <div style="text-align:right"><div style="font:600 13.5px var(--font-display);color:#E8B33B">Lado manual · revisar o código</div><p style="font-size:12.2px;color:var(--fg-2);margin-top:4px">Login e permissões, dado pessoal sensível, credenciais e sistemas críticos</p></div>
+      </div>
+      <p style="font-size:12px;color:var(--fg-2);margin-top:10px"><b style="color:var(--fg-1)">Como as empresas fazem:</b> ambiente isolado, sem dado de produção, varredura antes de publicar e caminho de promoção pela TI, como no desenvolvimento cidadão de low-code. Login único e auditoria ficam nos planos pagos mais caros dessas ferramentas, de equipe ou empresariais.</p>
+    </div>
+    <div class="kpis" style="gap:7px"><div class="kpi" style="padding:7px 10px"><i data-lucide="triangle-alert" class="ic"></i><div><div style="font:600 13px var(--font-display);color:var(--fg-1)">Lovable, 2025</div><div class="t" style="font-size:11.6px">Falha crítica registrada (nota 9,3) em sites gerados até 15/04/2025; a empresa contesta</div></div></div><div class="kpi" style="padding:7px 10px"><i data-lucide="eye" class="ic"></i><div><div style="font:600 13px var(--font-display);color:var(--fg-1)">Lovable, 2026</div><div class="t" style="font-size:11.6px">Código e chat de projetos públicos visíveis por dois meses, para qualquer usuário logado com o link</div></div></div><div class="kpi" style="padding:7px 10px"><i data-lucide="database" class="ic"></i><div><div style="font:600 13px var(--font-display);color:var(--fg-1)">Replit, 2025</div><div class="t" style="font-size:11.6px">Usuário relatou que um agente apagou o banco de produção; a empresa separou os bancos</div></div></div><div class="kpi" style="padding:7px 10px"><i data-lucide="shield-alert" class="ic"></i><div><div style="font:600 13px var(--font-display);color:var(--fg-1)">Código gerado</div><div class="t" style="font-size:11.6px">Só 10,5% das tarefas resolvidas de forma correta e segura num estudo da Carnegie Mellon (versão de fev/2026)</div></div></div></div>
+  </div>
+  <div class="colt" style="margin-top:10px">Proposta para a régua da Frente 2: uso de IA fora dos canais oficiais (leitura nossa)</div>
+  <div class="esc" style="margin-top:4px">
+    <div class="e"><div class="k">1 · Exploração</div><p>Contas pessoais; sem diretriz, ou só proibição</p></div>
+    <div class="e"><div class="k">2 · Pilotos</div><p>Diretriz de uso divulgada; ferramenta oficial em piloto</p></div>
+    <div class="e"><div class="k">3 · Operação</div><p>Canal oficial para todos, com login único, proteção de dados e treinamento</p></div>
+    <div class="e"><div class="k">4 · Escala</div><p>Várias ferramentas ou plataforma sob a mesma regra; uso por fora medido</p></div>
+    <div class="e" style="border-color:var(--brand-green)"><div class="k">5 · Transformação</div><p>Regras aplicadas por tecnologia; uso por fora residual</p></div>
+  </div>
+<div class="fontes"><b>Fontes</b><span class="f">[M1047] National Cyber Security Centre, Reino Unido, The &#x27;vibe coding spectrum&#x27; approach to AI-assisted softw…, p. 1-3 <a href="https://www.ncsc.gov.uk/blogs/the-vibe-coding-spectrum-approach-to-ai-assisted-software-development">ncsc.gov.uk ↗</a></span> <span class="f">[M1046] NIST — National Vulnerability Database; registro CVE atribuído pela MITRE, CVE-2025-48757 Detail, p. 1-2 <a href="https://nvd.nist.gov/vuln/detail/CVE-2025-48757">nvd.nist.gov ↗</a></span> <span class="f">[M1030] Lovable, Our response to the April 2026 incident, p. 1-2 <a href="https://lovable.dev/blog/our-response-to-the-april-2026-incident">lovable.dev ↗</a></span> <span class="f">[M1064] The Register, Replit makes vibe-y promise to stop its AI agents making…, p. 1 <a href="https://www.theregister.com/2025/07/22/replit_saastr_response/">theregister.com ↗</a></span> <span class="f">[M1056] Replit, Introducing a safer way to Vibe Code with Replit Databases, p. 1-2 <a href="https://replit.com/blog/introducing-a-safer-way-to-vibe-code-with-replit-databases">replit.com ↗</a></span> <span class="f">[M1007] Carnegie Mellon University, com Columbia University, Johns Hopkins University e HydroX AI, Is Vibe Coding Safe? Benchmarking Vulnerability of Agent…, p. 9 <a href="https://arxiv.org/abs/2512.03262">arxiv.org ↗</a></span> <span class="f">[M1034] Microsoft, Develop a tenant environment strategy to adopt Power Pla…, p. 3-5 <a href="https://learn.microsoft.com/en-us/power-platform/guidance/adoption/environment-strategy">learn.microsoft.com ↗</a></span> <span class="f">[M1051] OWASP Foundation, OWASP Top 10 Risks for Citizen Development, p. 32 <a href="https://owasp.org/www-project-citizen-development-top-10/">owasp.org ↗</a></span> <span class="f">[M1028] Lovable, Lovable for Enterprise, p. 2-3 <a href="https://docs.lovable.dev/introduction/lovable-for-enterprise">docs.lovable.dev ↗</a></span> <span class="f w">Nota do estudo: Shadow AI e governança, 15/10/2026</span></div>
+  <div class="foot"><span>Acelen Energia Renovável · Resultados parciais do benchmark · BIA-ACL-RP-02 · v4</span><span class="mono">13 / 18</span></div>
+</section>
+<section class="slide v1">
+  <div class="head"><img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Sustentabilidade</span></div>
+  <div class="eyebrow">Sustentabilidade da IA · Frente 3</div>
+  <h2>Cada consulta gasta menos energia, mas o consumo total sobe, como no custo</h2>
+  <div class="g2" style="grid-template-columns:1.1fr 1fr">
+    <div class="panel"><h3>Energia de GPU por tarefa</h3><div class="sub">Wh por tarefa, escala logarítmica: o tipo de uso pesa mais que o número de consultas</div><svg viewBox="0 0 560 180">
+<text x="140" y="19.9" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Modelo médio</text>
+<rect x="150" y="6.0" width="34.3" height="18.7" rx="3" fill="#7C8678"/>
+<text x="192.3" y="20.4" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">0,05 Wh</text>
+<text x="140" y="53.9" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Modelo grande</text>
+<rect x="150" y="40.0" width="102.7" height="18.7" rx="3" fill="#B88A28"/>
+<text x="260.7" y="54.4" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">0,31 Wh</text>
+<text x="140" y="87.8" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Agente</text>
+<rect x="150" y="74.0" width="151.5" height="18.7" rx="3" fill="#B85F33"/>
+<text x="309.5" y="88.3" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">1,14 Wh</text>
+<text x="140" y="121.8" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Com raciocínio</text>
+<rect x="150" y="108.0" width="222.6" height="18.7" rx="3" fill="#3A8FBF"/>
+<text x="380.6" y="122.3" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">7,6 Wh</text>
+<text x="140" y="155.8" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Agente + raciocínio</text>
+<rect x="150" y="142.0" width="293.2" height="18.7" rx="3" fill="#62A842"/>
+<text x="451.2" y="156.3" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">50 Wh</text>
+</svg></div>
+    <div style="display:grid;gap:10px">
+      <div class="kpi"><i data-lucide="zap" class="ic"></i><div class="t"><b style="color:var(--fg-1)">33 vezes menos energia</b> por consulta num grande assistente em 12 meses; mesmo assim, a eletricidade total do Google subiu 37% em 2025</div></div>
+      <div class="panel"><h3>Carbono da eletricidade, 2025</h3><div class="sub">g de CO₂ por kWh</div><svg viewBox="0 0 520 90">
+<text x="120" y="21.5" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Brasil</text>
+<rect x="130" y="6.0" width="40.8" height="22.0" rx="3" fill="#62A842"/>
+<text x="178.8" y="22.0" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">> 70 g</text>
+<text x="120" y="61.5" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Média mundial</text>
+<rect x="130" y="46.0" width="253.8" height="22.0" rx="3" fill="#7C8678"/>
+<text x="391.8" y="62.0" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">435 g</text>
+</svg></div>
+    </div>
+  </div>
+  <div class="read"><b>Para a Acelen (leitura nossa).</b> A empresa vende redução de emissões medida e certificada, e a IA entra nesse inventário. O uso corporativo pesa pouco, mas pede números corretos. A mesma regra serve ao custo e à pegada: usar o modelo do tamanho da tarefa e medir o consumo.</div>
+<div class="fontes"><b>Fontes</b><span class="f">[M514] IEA - Agência Internacional de Energia, Key Questions on Energy and AI, p. 29 <a href="https://iea.blob.core.windows.net/assets/3179f7f8-01f6-4dd6-bffa-c9f7b73f1dc9/KeyQuestionsonEnergyandAI.pdf">iea.blob.core.windows.net ↗</a></span> <span class="f">[M562] Google, Measuring the environmental impact of delivering AI at G…, p. 1, 7 <a href="https://arxiv.org/abs/2508.15734">arxiv.org ↗</a></span> <span class="f">[M561] Google, Google 2026 Environmental Report, p. 8, 19 <a href="https://sustainability.google/reports/google-2026-environmental-report/">sustainability.google ↗</a></span> <span class="f">[M575] IEA - Agência Internacional de Energia, Electricity 2026 — Analysis and forecast to 2030, p. 105-106, 162 <a href="https://iea.blob.core.windows.net/assets/b73798cb-e452-42b9-9d8a-07542de7a041/Electricity_2026.pdf">iea.blob.core.windows.net ↗</a></span></div>
+  <div class="foot"><span>Acelen Energia Renovável · Resultados parciais do benchmark · BIA-ACL-RP-02 · v4</span><span class="mono">14 / 18</span></div>
+</section>
+<section class="slide v1">
+  <div class="head"><img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Sessão executiva 1 · 1/2</span></div>
+  <div class="eyebrow">Primeira sessão executiva · o que ela diz a cada frente · anonimizada</div>
+  <h2>Dados prontos, IA generativa travada, valor visível no campo</h2>
+  <div class="g3" style="margin-top:12px">
+    <div class="front"><i data-lucide="building-2" class="ic"></i><h3>Frente 1 · Benchmark</h3><p>Há mais de uma década de dados centralizados, mas nenhuma iniciativa de IA generativa com valor medido. O retorno visível está na pulverização seletiva, que mostra no fim do dia quanto insumo foi poupado.</p></div>
+    <div class="front"><i data-lucide="chart-no-axes-column-increasing" class="ic"></i><h3>Frente 2 · Maturidade</h3><p>Dados no estágio 3; governança no 2; pessoas entre 1 e 2. Para sair do piloto, pesam mais a governança que libera com controle e o letramento do que a tecnologia.</p></div>
+    <div class="front"><i data-lucide="tractor" class="ic"></i><h3>Frente 3 · Tendências</h3><p>Já houve máquinas paradas por falta de operador. A autonomia depende de as máquinas de fabricantes diferentes conversarem entre si e de segurança na própria máquina.</p></div>
+  </div>
+  <div class="g2" style="margin-top:12px">
+    <div class="quote">"A IA já está dentro da empresa. Não tem como segurar."<small>Liderança de tecnologia agrícola, grande grupo de grãos</small></div>
+    <div class="quote">"O produtor de commodity só manda no custo."<small>Liderança de tecnologia agrícola, grande grupo de grãos</small></div>
+  </div>
+<div class="fontes"><b>Fontes</b><span class="f w">Sessão executiva 1 (13/10/2026), registro anonimizado da OagronomIA — sem link (confidencial). Uma sessão de 2 a 4: são sinais a confirmar.</span></div>
+  <div class="foot"><span>Acelen Energia Renovável · Resultados parciais do benchmark · BIA-ACL-RP-02 · v4</span><span class="mono">15 / 18</span></div>
+</section>
+<section class="slide v1">
+  <div class="head"><img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Sessão executiva 1 · 2/2</span></div>
+  <div class="eyebrow">Primeira sessão executiva · régua e pilares de IA · leitura nossa</div>
+  <h2>O campo está à frente da IA generativa</h2>
+  <div class="g2" style="grid-template-columns:1.2fr 1fr">
+    <div class="panel"><h3>Na régua de maturidade: estágio geral 2, Pilotos</h3><div class="sub">Leitura da equipe a partir do relato; faixa quando o estágio muda conforme a área</div><svg viewBox="0 0 600 212">
+<text x="229.0" y="202" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11.5" fill="#7C8678">1</text>
+<line x1="229.0" x2="229.0" y1="4" y2="186" stroke="#2A3328"/>
+<text x="307.0" y="202" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11.5" fill="#7C8678">2</text>
+<line x1="307.0" x2="307.0" y1="4" y2="186" stroke="#2A3328"/>
+<text x="385.0" y="202" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11.5" fill="#7C8678">3</text>
+<line x1="385.0" x2="385.0" y1="4" y2="186" stroke="#2A3328"/>
+<text x="463.0" y="202" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11.5" fill="#7C8678">4</text>
+<line x1="463.0" x2="463.0" y1="4" y2="186" stroke="#2A3328"/>
+<text x="541.0" y="202" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11.5" fill="#7C8678">5</text>
+<line x1="541.0" x2="541.0" y1="4" y2="186" stroke="#2A3328"/>
+<text x="178" y="26" text-anchor="end" font-family="Manrope, sans-serif" font-size="13" fill="#F2F4EE">Estratégia e governança</text>
+<rect x="291.0" y="12" width="32.0" height="22" rx="11" fill="#2C4A22" stroke="#62A842" stroke-width="1.5"/>
+<text x="307.0" y="28" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12.5" font-weight="700" fill="#F2F4EE">2</text>
+<text x="178" y="70" text-anchor="end" font-family="Manrope, sans-serif" font-size="13" fill="#F2F4EE">Dados e infraestrutura</text>
+<rect x="369.0" y="56" width="32.0" height="22" rx="11" fill="#2C4A22" stroke="#62A842" stroke-width="1.5"/>
+<text x="385.0" y="72" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12.5" font-weight="700" fill="#F2F4EE">3</text>
+<text x="178" y="114" text-anchor="end" font-family="Manrope, sans-serif" font-size="13" fill="#F2F4EE">Organização e pessoas</text>
+<rect x="213.0" y="100" width="110.0" height="22" rx="11" fill="#2C4A22" stroke="#62A842" stroke-width="1.5"/>
+<text x="268.0" y="116" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12.5" font-weight="700" fill="#F2F4EE">1 a 2</text>
+<text x="178" y="158" text-anchor="end" font-family="Manrope, sans-serif" font-size="13" fill="#F2F4EE">Aplicações e valor</text>
+<rect x="213.0" y="144" width="188.0" height="22" rx="11" fill="#2C4A22" stroke="#62A842" stroke-width="1.5"/>
+<text x="307.0" y="160" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12.5" font-weight="700" fill="#F2F4EE">1 a 3</text>
+</svg></div>
+    <div class="kpis"><div class="kpi"><i data-lucide="brain" class="ic"></i><div><div style="font:600 14px var(--font-display);color:var(--fg-1)">IA preditiva</div><div class="pill" style="margin-top:5px;border:1px solid var(--warning);color:var(--warning)">Base pronta, ainda sem uso</div></div></div><div class="kpi"><i data-lucide="bot" class="ic"></i><div><div style="font:600 14px var(--font-display);color:var(--fg-1)">IA generativa e agentes</div><div class="pill" style="margin-top:5px;border:1px solid #E5524A;color:#E5524A">Travada pela governança</div></div></div><div class="kpi"><i data-lucide="tractor" class="ic"></i><div><div style="font:600 14px var(--font-display);color:var(--fg-1)">Automação e autônomos</div><div class="pill" style="margin-top:5px;border:1px solid var(--warning);color:var(--warning)">Necessária; falta padrão entre máquinas</div></div></div><div class="kpi"><i data-lucide="leaf" class="ic"></i><div><div style="font:600 14px var(--font-display);color:var(--fg-1)">Sustentabilidade</div><div class="pill" style="margin-top:5px;border:1px solid var(--fg-3);color:var(--fg-3)">Não apareceu na conversa</div></div></div></div>
+  </div>
+  <div class="read"><b>Próximas sessões.</b> Mostrar a régua e pedir a evidência de cada posição; perguntar sobre robôs humanoides, referências internacionais e sustentabilidade, que ficaram de fora; ver se os sinais desta conversa se repetem.</div>
+<div class="fontes"><b>Fontes</b><span class="f w">Sessão executiva 1 (13/10/2026), registro anonimizado da OagronomIA — sem link (confidencial)</span></div>
+  <div class="foot"><span>Acelen Energia Renovável · Resultados parciais do benchmark · BIA-ACL-RP-02 · v4</span><span class="mono">16 / 18</span></div>
+</section>
+<section class="slide v1">
+  <div class="head"><img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Painel de empresas</span></div>
+  <div class="eyebrow">Achado · painel de empresas na régua de maturidade · Frentes 1 e 2</div>
+  <h2>Dados e aplicações estão à frente; governança de IA, atrás</h2>
+  <table class="t heat" style="margin-top:10px;border-collapse:separate;border-spacing:4px">
+    <thead><tr><th style="width:24%">Empresa</th><th style="text-align:center">Estratégia e governança</th><th style="text-align:center">Dados e infraestrutura</th><th style="text-align:center">Organização e pessoas</th><th style="text-align:center">Aplicações e valor</th><th style="text-align:center">Geral</th></tr></thead>
+    <tbody><tr><td style="font-size:14px">Bayer (Crop Science)<div style="font-size:11px;color:var(--fg-3);font-weight:400">Indicada pela Acelen</div></td><td class="h" style="background:#3A7A2A;color:#F2F4EE">3</td><td class="h" style="background:#52C937;color:#0B100B">4</td><td class="h" style="background:#52C937;color:#0B100B">4</td><td class="h" style="background:#52C937;color:#0B100B">4</td><td class="h" style="background:#52C937;color:#0B100B;outline:2px solid var(--brand-green-bright)">4</td></tr><tr><td style="font-size:14px">Suzano<div style="font-size:11px;color:var(--fg-3);font-weight:400">Indicada pela Acelen</div></td><td class="h" style="background:#2C4A22;color:#F2F4EE">2</td><td class="h" style="background:#3A7A2A;color:#F2F4EE">3</td><td class="h" style="background:#3A7A2A;color:#F2F4EE">3</td><td class="h" style="background:#3A7A2A;color:#F2F4EE">3</td><td class="h" style="background:#3A7A2A;color:#F2F4EE;outline:2px solid var(--brand-green-bright)">3</td></tr><tr><td style="font-size:14px">Deere<div style="font-size:11px;color:var(--fg-3);font-weight:400">Proposta pela equipe · EUA</div></td><td class="h" style="background:#2C4A22;color:#F2F4EE">2</td><td class="h" style="background:#52C937;color:#0B100B">4</td><td class="h" style="background:#3A7A2A;color:#F2F4EE">3</td><td class="h" style="background:#52C937;color:#0B100B">4</td><td class="h" style="background:#3A7A2A;color:#F2F4EE;outline:2px solid var(--brand-green-bright)">3</td></tr><tr><td style="font-size:14px">DJI (Agriculture)<div style="font-size:11px;color:var(--fg-3);font-weight:400">Proposta pela equipe · China</div></td><td class="h" style="background:#2C4A22;color:#F2F4EE">2</td><td class="h" style="background:#3A7A2A;color:#F2F4EE">3</td><td class="h" style="background:var(--bg-2);color:var(--fg-3);font-size:11px;font-family:var(--font-body)">sem evidência</td><td class="h" style="background:#3A7A2A;color:#F2F4EE">3</td><td class="h" style="background:#2C4A22;color:#F2F4EE;outline:2px solid var(--brand-green-bright)">2</td></tr></tbody>
+  </table>
+  <div class="strip" style="grid-template-columns:repeat(4,1fr);margin-top:8px">
+    <div class="cell"><div class="h">Bayer → 5</div><p>Receita de produtos com IA e retorno consolidado</p></div>
+    <div class="cell"><div class="h">Suzano → 4</div><p>Total de casos, resultados em portfólio, capacitação medida</p></div>
+    <div class="cell"><div class="h">Deere → 4</div><p>Área de IA com tamanho divulgado e capacitação medida</p></div>
+    <div class="cell"><div class="h">DJI → 3</div><p>Política ou comitê de IA, ou dados sobre a equipe</p></div>
+  </div>
+  <div class="read"><b>Como ler.</b> Cada célula é o estágio de 1 a 5 com evidência pública; o geral é o maior estágio presente em ao menos três das quatro dimensões. Deere e DJI vendem tecnologia de campo: estão à frente no produto e atrás na governança de IA publicada.</div>
+<div class="fontes"><b>Fontes</b><span class="f">[M789] Bayer AG, Bayer Crop Science 2026 R&amp;D Update, p. 11, 30 <a href="https://bag-p-001.sitecorecontenthub.cloud/api/public/content/b6f8f6b20a8a46eda30b32779afa04dc?v=e7f89d65">bag-p-001.sitecorecontenthub.cloud ↗</a></span> <span class="f">[M335] Suzano, Relatório de Sustentabilidade 2024 — o ano do nosso cent…, p. 69, 101 <a href="https://stszprdscentind.blob.core.windows.net/site/documents/Relatorio-Sustentabilidade-Suzano-2024.pdf">stszprdscentind.blob.core.windows.net ↗</a></span> <span class="f">[M867] Deere &amp; Company, Deere &amp; Co. Q3 2026 Earnings Call — Corrected Transcript, p. 10 <a href="https://s22.q4cdn.com/253594569/files/doc_financials/2026/q3/DE-3Q26-Earnings-Call-Transcript.pdf">s22.q4cdn.com ↗</a></span> <span class="f">[M845] Fórum Macau, Chinese agricultural drones expand presence in Brazil, p. 1 <a href="https://forumchinaplp.org.mo/en/economic_trade/view/9988">forumchinaplp.org.mo ↗</a></span> <span class="f w">Fichas de benchmark do estudo, 14/10/2026</span></div>
+  <div class="foot"><span>Acelen Energia Renovável · Resultados parciais do benchmark · BIA-ACL-RP-02 · v4</span><span class="mono">17 / 18</span></div>
+</section>
+<section class="slide v1">
+  <div class="head"><img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA"><span class="label">Valor e retorno</span></div>
+  <div class="eyebrow">Achado · valor e retorno da IA · Frente 1</div>
+  <h2>Quase todos dizem ter retorno; poucos medem</h2>
+  <div class="g2" style="grid-template-columns:1.6fr 1fr">
+    <div class="panel"><h3>% de respondentes, conforme a pergunta</h3>
+      <div class="sub"><span style="color:#B88A28">■</span> "Há ROI positivo?" &nbsp; <span style="color:#3A8FBF">■</span> "A IA melhorou o resultado?" &nbsp; <span style="color:#62A842">■</span> "Como você mede?" · pesquisas diferentes</div><svg viewBox="0 0 700 226">
+<text x="230" y="20.4" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">ROI positivo · EY, EUA</text>
+<rect x="240" y="6.0" width="343.0" height="19.8" rx="3" fill="#B88A28"/>
+<text x="591.0" y="20.9" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">98%</text>
+<text x="230" y="56.4" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">ROI positivo · Wharton, EUA</text>
+<rect x="240" y="42.0" width="259.0" height="19.8" rx="3" fill="#B88A28"/>
+<text x="507.0" y="56.9" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">74%</text>
+<text x="230" y="92.4" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Efeito no EBIT · McKinsey</text>
+<rect x="240" y="78.0" width="129.5" height="19.8" rx="3" fill="#3A8FBF"/>
+<text x="377.5" y="92.9" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">37%</text>
+<text x="230" y="128.4" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Efeito no EBITDA · Forrester</text>
+<rect x="240" y="114.0" width="52.5" height="19.8" rx="3" fill="#3A8FBF"/>
+<text x="300.5" y="128.9" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">15%</text>
+<text x="230" y="164.4" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Medem com sistema formal</text>
+<rect x="240" y="150.0" width="42.0" height="19.8" rx="3" fill="#62A842"/>
+<text x="290.0" y="164.9" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">12%</text>
+<text x="230" y="200.4" text-anchor="end" font-family="Manrope, sans-serif" font-size="12.5" fill="#B8BFB1">Calculam o ROI · Brasil</text>
+<rect x="240" y="186.0" width="24.5" height="19.8" rx="3" fill="#62A842"/>
+<text x="272.5" y="200.9" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="500" fill="#F2F4EE">7%</text>
+</svg></div>
+    <div class="kpis">
+      <div class="kpi"><i data-lucide="hourglass" class="ic"></i><div class="n" style="font-size:26px;min-width:64px">2–4</div><div class="t">anos para um caso típico dar o retorno esperado, contra 7 a 12 meses previstos</div></div>
+      <div class="kpi"><i data-lucide="trophy" class="ic"></i><div class="n" style="font-size:26px;min-width:64px">5%</div><div class="t">das empresas geram valor de IA em escala</div></div>
+      <div class="kpi"><i data-lucide="sprout" class="ic"></i><div class="n" style="font-size:26px;min-width:64px">33%</div><div class="t">dos CEOs do agro brasileiro relatam mais receita com IA</div></div>
+    </div>
+  </div>
+  <div class="read"><b>Leitura nossa.</b> Quando a pergunta é "há retorno?", quase todos dizem sim; quando é "o lucro subiu?", a resposta cai. Medir desde o piloto, começando pelo tempo poupado e com o custo por tarefa no cálculo, evita essa armadilha.</div>
+<div class="fontes"><b>Fontes</b><span class="f">[M070] EY US, EY Survey: C-Suites Pivot from AI Adoption to Unlocking…, p. 3-4 <a href="https://www.ey.com/en_us/newsroom/2026/07/ey-survey-c-suites-pivot-from-ai-adoption-to-unlocking-value-as-escalating-token-costs-trigger-fiscal-scrutiny">ey.com ↗</a></span> <span class="f">[M199] Wharton Human-AI Research + GBK Collective, Accountable Acceleration: Gen AI Fast-Tracks Into the En…, p. 6, 38 <a href="https://ai.wharton.upenn.edu/wp-content/uploads/2025/10/2025-Wharton-GBK-AI-Adoption-Report_Full-Report.pdf">ai.wharton.upenn.edu ↗</a></span> <span class="f">[M028] McKinsey &amp; Company, The state of AI in 2026: On the road to ROI, p. 4 <a href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai">mckinsey.com ↗</a></span> <span class="f">[M118] Forrester, Predictions 2026: AI Moves From Hype To Hard Hat Work, p. 2 <a href="https://www.forrester.com/blogs/predictions-2026-ai-moves-from-hype-to-hard-hat-work/">forrester.com ↗</a></span> <span class="f">[M128] Google Cloud / National Research Group, ROI of AI 2026: From tokenmaxxing to ROI — a reality che…, p. 3, 7 <a href="https://cloud.google.com/resources/content/roi-of-ai-2026">cloud.google.com ↗</a></span> <span class="f">[M495] TOTVS, Panorama IA nas empresas brasileiras, p. 3-4, 11 <a href="https://conteudo.totvs.com/hubfs/Estudo_Panorama_IA_2025.pdf">conteudo.totvs.com ↗</a></span> <span class="f">[M064] Deloitte, AI ROI: The paradox of rising investment and elusive ret…, p. 1-3 <a href="https://www.deloitte.com/global/en/issues/generative-ai/ai-roi-the-paradox-of-rising-investment-and-elusive-returns.html">deloitte.com ↗</a></span> <span class="f">[M017] Boston Consulting Group, The Widening AI Value Gap, p. 3 <a href="https://www.bcg.com/publications/2025/are-you-generating-value-from-ai-the-widening-gap">bcg.com ↗</a></span> <span class="f">[M078] PwC Brasil, 29ª CEO Survey — Destaques do Agronegócio no Brasil, p. 4, 35 <a href="https://www.pwc.com.br/pt/estudos/preocupacoes-ceos/ceo-survey-2026/destaques-da-industria-do-agronegocio-no-brasil.html">pwc.com.br ↗</a></span></div>
+  <div class="foot"><span>Acelen Energia Renovável · Resultados parciais do benchmark · BIA-ACL-RP-02 · v4</span><span class="mono">18 / 18</span></div>
+</section>
+<script src="https://unpkg.com/lucide@0.469.0/dist/umd/lucide.min.js"></script>
+<script>if (window.lucide) lucide.createIcons();</script>
+</body>
+</html>

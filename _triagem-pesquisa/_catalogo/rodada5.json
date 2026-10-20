@@ -1,0 +1,762 @@
+{
+  "resultados": [
+    {
+      "grupo": "Empresas do painel: Deere",
+      "pasta": "07_agro-global-perenes-autonomia",
+      "itens": [
+        {
+          "titulo": "2024 Annual Report (Form 10-K)",
+          "organizacao": "Deere & Company (John Deere)",
+          "ano": "2024",
+          "tipo_fonte": "empresa",
+          "setor": "agro (máquinas agrícolas)",
+          "pais_regiao": "EUA/Global",
+          "url": "https://s22.q4cdn.com/253594569/files/doc_financials/2024/ar/2024-Deere-Company-Annual-Report.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/JohnDeere_2024_annual-report-10k.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "Aquisições de SparkAI e Smart Apply em 2023 por US$ 82 milhões combinados, líquido de caixa adquirido (p. 55)",
+            "Outras aquisições de 2022 — AgriSync, 80% da SurePoint, LGT/Light (percepção por câmeras e profundidade para veículos autônomos) e participações avaliadas por equivalência patrimonial na GUSS Automation e na InnerPlant — por US$ 134 milhões combinados, líquido de caixa adquirido (p. 56)",
+            "Cerca de 75.800 empregados em 27/10/2024, dos quais ~35.200 de produção em tempo integral (p. 12)",
+            "Acordo com a SpaceX/Starlink (jan/2024) para comunicação via satélite a produtores com problemas de conectividade rural, com foco inicial no Brasil (p. 23)"
+          ],
+          "resumo": "Relatório 10-K do exercício 2024 com o tech stack do modelo Smart Industrial (hardware e dispositivos, software embarcado, conectividade, plataformas de dados e aplicações; capacidades digitais, automação e machine learning, autonomia e energia alternativa) e o fator de risco específico de IA: uso de ML em produtos, IA generativa em processos internos e riscos de viés, privacidade, propriedade intelectual e vazamento de dados em plataformas de terceiros. Registra as aquisições de tecnologia de 2022–2023 (SparkAI, Smart Apply, Light, participação na GUSS) e o risco ligado à dependência do Starlink para a conectividade rural no Brasil.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "2024 Business Impact Report",
+          "organizacao": "Deere & Company (John Deere)",
+          "ano": "2024",
+          "tipo_fonte": "empresa",
+          "setor": "agro (máquinas agrícolas)",
+          "pais_regiao": "EUA/Global",
+          "url": "https://www.deere.com/assets/pdfs/common/our-company/sustainability/business-impact-report-2024.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/JohnDeere_2024_business-impact-report.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "FY2024: 775 mil máquinas conectadas, 455 mi de acres engajados e 125 mi de acres altamente engajados, contra metas para 2026 de 1,5 mi de máquinas, 500 mi de acres engajados e 50% de acres altamente engajados (p. 15)",
+            "Leap Ambitions originais: conectar 1,5 mi de máquinas até 2026, entregar ao mercado um trator agrícola elétrico a bateria totalmente autônomo até 2026, entregar e escalar o modelo Solutions as a Service até 2030 e elevar a receita recorrente a 10% até 2030 (p. 7)",
+            "See & Spray Ultimate: 36 câmeras em barra de 120 pés, varredura de mais de 2.100 pés² por segundo a 12 mph e economia de mais de dois terços do herbicida em ensaios internos em faixas da Deere (milho, soja e algodão nos EUA; só herbicida não residual) (p. 18; nota na p. 19)",
+            "Smart Apply (LiDAR) em piloto com 6 viticultores de Sonoma (2024): quase 28% de redução no uso de químicos e água, quase 38 mil galões economizados em 2,7 mil acres aplicados, segundo a empresa (p. 23-24)",
+            "Digital CI (melhoria contínua digital) em 25 unidades de 4 países, incluindo o Brasil (p. 38)"
+          ],
+          "resumo": "Relatório de impacto do exercício 2024 com o painel de progresso das Leap Ambitions originais (máquinas conectadas, acres engajados, autonomia, receita recorrente), resultados declarados de See & Spray, ExactShot e Smart Apply em vinhedos, e a menção às máquinas autônomas da CES 2025. Traz um caso de IA em fábricas brasileiras (avaliação ergonômica com visão computacional, liderada por Montenegro e depois implantada em Horizontina) e o uso de chatbots na melhoria contínua digital.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Deere & Co. (DE) Q4 2025 Earnings Call — Corrected Transcript (26/11/2025)",
+          "organizacao": "Deere & Company (transcrição FactSet CallStreet publicada no site de RI)",
+          "ano": "2025",
+          "tipo_fonte": "empresa",
+          "setor": "agro (máquinas agrícolas)",
+          "pais_regiao": "EUA/Global",
+          "url": "https://s22.q4cdn.com/253594569/files/doc_financials/2025/q4/DE-4Q-Earnings-Call-Transcript.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/JohnDeere_2025_4q-earnings-call-transcricao.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "Harvest Settings Automation no 1º ano (FY2025): taxa de adesão (take rate) acima de 90% nas colheitadeiras norte-americanas, uso em mais de 60% do tempo de operação e mais de 5 mi de acres cobertos, incluindo acres no Brasil, Europa e Austrália (p. 14)",
+            "Predictive Ground Speed Automation: aumento de quase 30% no throughput (bushels por hora) (p. 14)",
+            "See & Spray: mais de 5 mi de acres em 2025, contra mais de 1 mi em 2024, com economia média de herbicida de cerca de 50% (p. 14)",
+            "Clientes que já tinham See & Spray em 2024 cobriram, em média, cerca de 20% mais acres em 2025 (p. 19)",
+            "Precision Essentials (kit retrofit com licença anual): mais de 24 mil kits pedidos em dois anos e 3.300 novas organizações no Operations Center (p. 13)",
+            "JDLink Boost (conectividade Starlink) lançado no Brasil e nos EUA em jan/2025, com mais de 8 mil pedidos no mundo até nov/2025 (p. 13)",
+            "Autonomia em preparo de solo: mais de 200 mil acres operados de forma autônoma desde o início; pedidos de kits retrofit para tratores 8R e 9R abertos às concessionárias (p. 14)"
+          ],
+          "resumo": "Teleconferência de resultados do 4º trimestre fiscal de 2025, com o primeiro balanço anual da automação de colheitadeiras (HSA e PGSA), do See & Spray e da autonomia em preparo de solo, além dos indicadores de conectividade e engajamento digital. A área de RI registra progresso em todas as camadas do tech stack, e a presidente da Divisão Mundial de Agricultura e Turf aponta o Brasil como oportunidade ainda maior no futuro. Números são declarados pela empresa.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Deere & Co. (DE) Q1 2026 Earnings Call — Corrected Transcript (19/02/2026)",
+          "organizacao": "Deere & Company (transcrição FactSet CallStreet publicada no site de RI)",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "agro (máquinas agrícolas)",
+          "pais_regiao": "EUA/Global",
+          "url": "https://s22.q4cdn.com/253594569/files/doc_financials/2026/q1/DE-1Q26-Earnings-Call-Transcript.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/JohnDeere_2026_1q26-earnings-call-transcricao.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "99% das colheitadeiras pedidas no programa de encomendas antecipadas (EOP) do ano tinham algum nível de automação de colheita, e quase 80% delas o pacote mais alto (Ultimate), 4 a 5 pontos acima do ano anterior (p. 22)",
+            "500 mi de acres engajados (mais de 10% acima de um ano antes) e cerca de +25% em acres altamente engajados, que já são quase um terço do total (p. 22)",
+            "Aquisição da Tenna (gestão de frotas e fluxos de trabalho de construtoras) concluída em 18/02/2026, véspera da teleconferência (p. 10)"
+          ],
+          "resumo": "Teleconferência do 1º trimestre fiscal de 2026. Registra a alta adesão à automação de colheita nas encomendas de colheitadeiras, a evolução dos acres engajados e a aquisição da Tenna, plataforma de frotas mistas para construção que se soma ao Virtual Superintendent e ao Operations Center. O presidente da divisão de Construção cita a demanda por infraestrutura para investimentos em IA como um dos vetores do negócio de construção (data centers aparecem entre os fatores de mercado).",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Deere & Co. (DE) Q2 2026 Earnings Call — Corrected Transcript (21/05/2026)",
+          "organizacao": "Deere & Company (transcrição FactSet CallStreet publicada no site de RI)",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "agro (máquinas agrícolas)",
+          "pais_regiao": "EUA/Global; Brasil",
+          "url": "https://s22.q4cdn.com/253594569/files/doc_financials/2026/q2/DE-2Q26-Earnings-Call-Transcript.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/JohnDeere_2026_2q26-earnings-call-transcricao.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "Casa John Deere 2026 no Brasil: mais de 3.000 clientes de mais de 25 países e mais de 20 lançamentos, o maior evento de lançamentos da Deere no país (p. 13)",
+            "JDLink Boost: mais de 12.500 kits vendidos desde o lançamento (2º semestre de 2024, segundo esta teleconferência) e crescimento de 25% só no último trimestre (p. 13)",
+            "Quase 440 mil usuários digitais ativos mensais; acres engajados no Operations Center +~10% em um ano (p. 13)",
+            "See & Spray: economia de herbicida de 50% a 60% demonstrada em dois anos de uso (p. 18)",
+            "Precision Essentials: renovação na faixa de 70% no geral e acima de 90% na coorte no 2º ano de renovação; mais de 4 mil — 'perto de 5 mil' — novas organizações de clientes no Operations Center (p. 19)",
+            "Harvest Settings Automation: utilização acima de 80% na safra mais recente do Brasil, contra mais de 60% no hemisfério Norte; a empresa diz ser a maior utilização do mundo (p. 19, 23)"
+          ],
+          "resumo": "Teleconferência do 2º trimestre fiscal de 2026, com foco em adoção e utilização de tecnologia. Destaca o Brasil: maior lançamento da história no país, See & Spray 'green on green' apresentado na Casa John Deere e a maior taxa de utilização mundial da automação de colheita. Traz também a expansão do See & Spray para trigo, cevada e canola e o novo See & Scout (mapas de daninhas e estande com as mesmas câmeras).",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Deere & Co. (DE) Q3 2026 Earnings Call — Corrected Transcript (20/08/2026)",
+          "organizacao": "Deere & Company (transcrição FactSet CallStreet publicada no site de RI)",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "agro (máquinas agrícolas)",
+          "pais_regiao": "EUA/Global",
+          "url": "https://s22.q4cdn.com/253594569/files/doc_financials/2026/q3/DE-3Q26-Earnings-Call-Transcript.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/JohnDeere_2026_3q26-earnings-call-transcricao.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "Mais de 520 mi de acres engajados, quase 1,2 mi de máquinas conectadas e mais de 190 mi de acres altamente engajados (p. 10)",
+            "Mais de 450 mil usuários digitais ativos mensais (p. 11)",
+            "See & Spray: clientes usam a tecnologia em muito mais acres com economia de herbicida acima de 50%; as tendências atuais do EOP indicam que a adoção de fábrica deve quase dobrar, presente em cerca de um terço dos pulverizadores norte-americanos encomendados (p. 10)",
+            "Mais de 40% das plantadeiras norte-americanas do ano-modelo 2027 com ofertas avançadas (ExactRate, ExactShot, FurrowVision) (p. 10)",
+            "Sementes, fertilizantes e defensivos representam cerca de 70% do custo operacional do produtor; usadas como sistema integrado, as soluções de precisão 'podem' entregar economia de dois dígitos nos custos operacionais variáveis, segundo a empresa (p. 11)"
+          ],
+          "resumo": "Teleconferência do 3º trimestre fiscal de 2026. Atualiza os indicadores do ecossistema digital e anuncia que a Deere 'em breve' acrescentará capacidades habilitadas por IA ao Operations Center. O CFO comenta o acordo com a FTC sobre direito de reparo, que segundo ele formaliza ferramentas já oferecidas (PRO Service, diagnóstico, manuais digitais, atualização de software).",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Your Farm. Your Data. Your Call. — Farmer Data Commitment e assistente JD",
+          "organizacao": "John Deere (Deere & Company)",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "agro (máquinas agrícolas)",
+          "pais_regiao": "América do Norte (página canadense da Deere)",
+          "url": "https://www.deere.ca/en/privacy-and-data/data-services/your-data/",
+          "arquivo": "07_agro-global-perenes-autonomia/JohnDeere_2026_farmer-data-commitment-dados-do-produtor.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "Farmer Data Commitment com dez princípios, entre eles: o produtor controla seus dados e a John Deere não vende dados do produtor (p. 2)",
+            "A John Deere não usa dados do produtor para negociação ou especulação com commodities agrícolas; o produtor escolhe com quais terceiros compartilha e pode interromper o fluxo para terceiros a qualquer momento (p. 3)"
+          ],
+          "resumo": "Página oficial que apresenta o Farmer Data Commitment (dez princípios) junto com o JD, assistente de IA do Operations Center que responde a perguntas em linguagem natural com base nos equipamentos, talhões e operação do cliente. Exemplo de governança de dados explicitada como condição de confiança para a IA. Versão consultada: página canadense da Deere (deere.ca, em inglês); a página equivalente dos EUA não foi lida.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "John Deere Investor Presentation — May 2026 (2026 Investor Presentation Q2)",
+          "organizacao": "Deere & Company (John Deere)",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "agro (máquinas agrícolas)",
+          "pais_regiao": "EUA/Global",
+          "url": "https://s22.q4cdn.com/253594569/files/doc_presentations/2026/May/26/2026-Investor-Presentation_Q2.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/JohnDeere_2026_investor-presentation-q2.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2"
+          ],
+          "metricas": [
+            "P&D das operações de equipamentos de US$ 2,311 bi em 2025, equivalente a 5,9% das vendas líquidas (p. 16)",
+            "América Latina: US$ 5,6 bi (12%) das vendas e receitas líquidas de US$ 45,7 bi em 2025 (p. 15)",
+            "Base do Smart Industrial: mais de 1 mi de máquinas conectadas, ~500 mi de acres engajados e 147 mi altamente engajados (p. 13)"
+          ],
+          "resumo": "Apresentação institucional a investidores com a linha do tempo do tech stack (1999–2024) em cinco camadas — hardware e software, orientação, conectividade e soluções digitais, automação/Machine IQ e autonomia —, situando Blue River (visão computacional e machine learning), Bear Flag Robotics e Starlink. Mostra o desenho organizacional por sistemas de produção (inclui cana-de-açúcar e culturas de alto valor) com o Intelligent Solutions Group como negócio habilitador, e o glossário das métricas de engajamento.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "John Deere Reveals New Autonomous Machines and Technology at CES 2025 (press release)",
+          "organizacao": "John Deere (John Deere Walldorf GmbH & Co. KG)",
+          "ano": "2025",
+          "tipo_fonte": "empresa",
+          "setor": "agro (máquinas agrícolas); construção; paisagismo comercial",
+          "pais_regiao": "EUA/Global",
+          "url": "https://johndeere.widen.net/content/diexcel907/original/012025-john-deere-at-ces-event-1-eng.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/JohnDeere_2025_ces-maquinas-autonomas-release.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "Kit de autonomia de 2ª geração no trator 9RX com 16 câmeras em módulos para visão de 360° do talhão (p. 1)",
+            "Trator de pomar 5ML autônomo para pulverização airblast, com LiDAR adicional para dosséis densos (p. 1)",
+            "Protótipo de trator elétrico a bateria E-Power, 'autonomy-ready', com 130 hp contínuos, voltado a culturas especiais e pecuária de leite e corte (p. 2)"
+          ],
+          "resumo": "Release oficial (06/01/2025) da CES 2025 com a segunda geração do kit de autonomia (visão computacional, IA e câmeras) estendida a trator de grande porte, trator de pomar, cortador comercial elétrico e caminhão articulado de pedreira, além do protótipo elétrico E-Power. Os kits estarão disponíveis pré-instalados e como retrofit para algumas máquinas existentes, e as máquinas são operadas pelo app Operations Center Mobile. O CTO justifica a autonomia pela falta de mão de obra qualificada.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "John Deere inaugura no Brasil seu primeiro Centro de Pesquisa e Desenvolvimento com foco na agricultura tropical",
+          "organizacao": "John Deere Brasil",
+          "ano": "2024",
+          "tipo_fonte": "empresa",
+          "setor": "agro (máquinas agrícolas)",
+          "pais_regiao": "Brasil",
+          "url": "https://www.deere.com.br/pt/a-nossa-empresa/not%C3%ADcias/sala-de-imprensa/2024/dec/primeiro-centro-de-pesquisa-e-desenvolvimento/",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F1"
+          ],
+          "metricas": [
+            "Investimento de R$ 180 milhões (aquisição da área e construção) no Centro de Pesquisa e Desenvolvimento de Indaiatuba (CPD-I), o primeiro centro de desenvolvimento e testes da empresa no mundo para agricultura tropical (página oficial, 06/12/2024)",
+            "110 profissionais transferidos no início, em área de 500 mil m² com mais de 400 mil m² para testes de campo (página oficial)"
+          ],
+          "resumo": "Release oficial (06/12/2024) da inauguração do CPD-I em Indaiatuba (SP), voltado a desenvolver e testar produtos considerando solo, clima e conectividade tropicais, para grãos, cana, algodão e cultivos especiais, com o objetivo de reduzir o tempo de desenvolvimento para o mercado brasileiro. A impressão em PDF foi bloqueada pelo CDN; texto conferido na página.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "John Deere apresenta inovações para acelerar a automação no agronegócio e na construção (Casa John Deere 2026)",
+          "organizacao": "John Deere Brasil",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "agro (máquinas agrícolas); sucroenergético",
+          "pais_regiao": "Brasil",
+          "url": "https://www.deere.com.br/pt/a-nossa-empresa/not%C3%ADcias/sala-de-imprensa/2026/abr/casa-john-deere-2026/",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "See & Spray de fábrica na nova série 400R (fabricada em Catalão-GO): economia média de 50% de defensivos, com potencial de até 93%, segundo a empresa (página oficial)",
+            "Colheitadeira S7 com Automação de Colheita: em média até 20% mais produtividade, 10% melhor qualidade de grãos e 10% menos perdas (página oficial)",
+            "ExactStand, sistema de visão computacional para plantio mecanizado de cana, apresentado com lançamento previsto para 2027 (página oficial)"
+          ],
+          "resumo": "Release oficial (01/04/2026) da Casa John Deere 2026, com mais de 20 novidades no Brasil centradas em automação, plantio, pulverização e colheita. Inclui See & Spray de fábrica na série 400R, visão computacional para falhas no plantio de cana (ExactStand, lançamento previsto para 2027), conectividade via JDLink Boost e pacote de atualização para pomares (Licença Essencial Pomares). Números de desempenho são do fabricante.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "John Deere detalha soluções que ajudam o agro a ser mais rentável e sustentável",
+          "organizacao": "John Deere Brasil",
+          "ano": "2025",
+          "tipo_fonte": "empresa",
+          "setor": "agro (máquinas agrícolas)",
+          "pais_regiao": "Brasil",
+          "url": "https://www.deere.com.br/pt/a-nossa-empresa/not%C3%ADcias/sala-de-imprensa/2025/oct/detalha-solu%C3%A7%C3%B5es-que-ajudam-o-agro/",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F1"
+          ],
+          "metricas": [
+            "Mais de 27 milhões de hectares no Brasil operam de forma conectada, com equipamentos integrados à plataforma (página oficial)",
+            "Projeto Campo Conectado, com Claro e SOL: mais de 190 torres implantadas pela rede de concessionários, com sinal 3G/4G (página oficial)",
+            "See & Spray Select (ex.: pulverizador M4000) reduz o uso de defensivo em até 90%, segundo a empresa (página oficial)",
+            "Mais de R$ 3,3 bilhões investidos no Brasil nos últimos cinco anos, em parte para expandir fábricas e inaugurar o CPD-I (página oficial)"
+          ],
+          "resumo": "Release oficial (01/10/2025) que descreve, para o público brasileiro, o portfólio de tecnologia da Deere: conectividade (Campo Conectado e JDLink Boost via Starlink), Operations Center, See & Spray Select, automação da colheitadeira S7 e pacotes de atualização de máquinas antigas. Repete a meta global de 1,5 mi de máquinas conectadas até 2026 com o dado de 775 mil máquinas.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "John Deere JD™ AI Helps Farmers Use Their Data (Introducing JD AI assistant)",
+          "organizacao": "John Deere (Deere & Company)",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "agro (máquinas agrícolas)",
+          "pais_regiao": "EUA",
+          "url": "https://www.deere.com/en-us/john-deere-news/introducing-jd-ai-assistant",
+          "arquivo": "",
+          "status": "bloqueado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [],
+          "resumo": "Release oficial do lançamento do JD, assistente de IA do Operations Center. O site deere.com bloqueia acesso automatizado (CloudFront 403 na impressão; o download traz só o título 'John Deere JD™ AI Helps Farmers Use Their Data', sem texto), e o conteúdo não pôde ser conferido. A existência do JD e sua função estão confirmadas pela página do Farmer Data Commitment; detalhes do lançamento (data, público e programa de acesso) devem ser conferidos manualmente.",
+          "relevancia": "alta"
+        }
+      ],
+      "formularios": [],
+      "lacunas": [
+        "Release oficial do JD (https://www.deere.com/en-us/john-deere-news/introducing-jd-ai-assistant) bloqueado para acesso automatizado (CloudFront 403; o download traz só o título). Resumos de busca e imprensa indicam lançamento em 01/09/2026 na Farm Progress Show, programa de acesso antecipado limitado a clientes agrícolas selecionados dos EUA e modelo de linguagem não divulgado — não conferido; conferir manualmente antes de usar.",
+        "A página do Farmer Data Commitment foi conferida na versão canadense (deere.ca); a equivalente dos EUA (deere.com) não foi lida por bloqueio do CDN.",
+        "Não foi localizado anúncio oficial de autonomia na CES 2026; o último material oficial de CES encontrado é o de 2025 (kit de 2ª geração).",
+        "Não há dado oficial de acres de See & Spray, de máquinas autônomas ou de usuários do Operations Center no Brasil. Os dados regionais disponíveis são a utilização da Harvest Settings Automation (>80%) e os 27 milhões de hectares conectados (release de out/2025).",
+        "Os releases da John Deere Brasil (CPD-I, Casa John Deere 2026, tecnologia no agro) ficaram só como página web: a impressão em PDF pelo Chrome foi bloqueada pelo CDN (403); o texto foi conferido via download HTML na coleta e de novo na verificação (14/10/2026).",
+        "Tamanho e perfil das equipes de tecnologia (Blue River, Intelligent Solutions Group, engenheiros de software e dados) não aparecem nos documentos oficiais lidos. Para o CPD-I, o release oficial fala em 110 profissionais iniciais; a imprensa (Autodata) cita 150 — divergência não resolvida.",
+        "Valores das aquisições da Blue River (2017; US$ 305 milhões segundo a imprensa) e da Bear Flag Robotics (2021) não constam dos documentos oficiais lidos.",
+        "Datas divergentes para o JDLink Boost: lançamento no Brasil e nos EUA em jan/2025 (teleconferência do 4T25, p. 13) contra 'segundo semestre de 2024' (teleconferência do 2T26, p. 13); o acordo com a SpaceX é de jan/2024 (10-K 2024, p. 23).",
+        "Os documentos lidos não informam se as metas originais de 2026 (1,5 mi de máquinas conectadas; trator elétrico a bateria totalmente autônomo) foram formalmente abandonadas. Elas só não aparecem na lista de metas refinadas para 2030 [M373, p. 7]; o 10-K 2025 diz que as metas foram refinadas em dez/2025 e podem voltar a ser modificadas, abandonadas ou não atingidas [M397, p. 21], e o 10-K 2024 já ressalvava que metas e prazos poderiam ser modificados (p. 19). Em ago/2026 eram quase 1,2 mi de máquinas conectadas; o release brasileiro de out/2025 ainda citava a meta de 1,5 mi até 2026. O E-Power de jan/2025 era protótipo 'autonomy-ready'.",
+        "Todos os resultados de See & Spray, automação de colheita, GUSS e Smart Apply são declarados pelo fabricante, sem auditoria independente (exceção parcial: teste do Smart Apply com a American Pistachio Growers e o USDA, relatado pela própria Deere).",
+        "O release 'See & Spray 59 Percent Herbicide Savings' (M683) continua bloqueado. As teleconferências confirmam a área (mais de 1 mi de acres em 2024 e mais de 5 mi em 2025) e a economia média de ~50% em 2025, mas não os ~8 milhões de galões nem os 59% atribuídos a 2024 pelo resumo do buscador.",
+        "As transcrições de teleconferência são da FactSet CallStreet, hospedadas no site de RI da Deere (s22.q4cdn.com); registradas como fonte da empresa.",
+        "A Forbes (M258, p. 4) cita um executivo identificado só como 'Rose' sobre o 'modelo de sucesso do cliente nativo em IA'; o cargo não foi conferido, e a citação ficou fora das evidências.",
+        "Os percentuais de economia do See & Spray variam conforme a fonte, o produto e a base de cálculo, todos declarados pelo fabricante: ~50% de média em 2025 (4T25, p. 14); 50% a 60% 'demonstrados em dois anos' (2T26, p. 18); acima de 50% (3T26, p. 10); até 50% de herbicida não residual [M373, p. 20]; mais de dois terços em ensaios internos em faixas (BIR 2024, p. 18-19); até 90% para o Select (release BR out/2025); média de 50% e até 93% na série 400R (release BR abr/2026). Citar sempre o número com seu escopo, sem agregar.",
+        "Para a Predictive Ground Speed Automation há dois números de bases diferentes: quase 30% de aumento de throughput em bushels por hora (4T25, p. 14) e até 20% de produtividade em comparação com a função desligada [M373, p. 19]. A Forbes [M258, p. 5] cita 20% a 30% para a automação da X9. Não somar nem tratar como o mesmo indicador.",
+        "A receita de SaaS não foi significativa nem em 2024 (10-K 2024, p. 31) nem em 2025 [M397, p. 34]; os documentos não informam o percentual atual de receita recorrente frente à meta original de 10% até 2030."
+      ]
+    },
+    {
+      "grupo": "Empresas do painel: DJI",
+      "pasta": "07_agro-global-perenes-autonomia",
+      "itens": [
+        {
+          "titulo": "SZ DJI Technology Co., Ltd. v. United States Department of Defense, No. 25-5367 (acórdão de 14/08/2026)",
+          "organizacao": "Tribunal de Apelações dos EUA para o Circuito do Distrito de Colúmbia",
+          "ano": "2026",
+          "tipo_fonte": "governo/instituição",
+          "setor": "multissetorial (drones; inclui agro)",
+          "pais_regiao": "EUA",
+          "url": "https://media.cadc.uscourts.gov/opinions/docs/2026/08/25-5367-2188259.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/CADC-EUA_2026_dji-v-dod-1260h-acordao.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "Acórdão de 14/08/2026 no recurso da DJI contra a designação de jan/2025 como 'empresa militar chinesa' na lista do Departamento de Defesa (seção 1260H do NDAA 2021) (p. 1, p. 5, p. 8)",
+            "Pela lei, empresa listada não pode contratar com os Departamentos de Defesa e de Segurança Interna nem receber certas doações, contratos e empréstimos do Departamento de Energia (p. 3)",
+            "A DJI foi listada pela primeira vez em out/2022 e redesignada em jan/2024 e jan/2025, sempre sem aviso prévio; a lista de jun/2026 a manteve com justificativas novas, como a seleção como 'Single Champion' (p. 4-7)",
+            "O tribunal rejeitou três dos quatro argumentos da DJI (devido processo, falta de prova de que recebe assistência do governo chinês e tratamento diferente de empresas supostamente semelhantes) e acolheu o quarto: a primeira instância não podia sustentar, só com o registro não sigiloso e com argumentos não invocados pelo Secretário, a conclusão de que a DJI 'contribui' para a base industrial de defesa chinesa (p. 8, p. 14-16)",
+            "Segundo notícia citada no relatório do Secretário de Defesa, a Comissão Nacional de Desenvolvimento e Reforma da China reconheceu a DJI em dez/2020 como um dos 1.636 'National Enterprise Technology Centers'; a notícia diz que esses centros têm benefícios como subsídios em dinheiro de 5 a 15 milhões de yuans de províncias e cidades (p. 12)",
+            "Sentença confirmada em parte e reformada em parte; o ponto da 'contribuição' voltou à primeira instância, que pode examinar o registro sigiloso (p. 16-17)"
+          ],
+          "resumo": "Acórdão do Tribunal de Apelações do Circuito de D.C. sobre a designação da DJI como 'empresa militar chinesa' (seção 1260H do NDAA 2021). O tribunal rejeitou os argumentos de violação do devido processo, de falta de prova substancial de que a DJI recebe assistência do governo chinês e de tratamento diferente de empresas supostamente semelhantes, mas reformou a parte em que a primeira instância concluiu, só com o registro não sigiloso, que a DJI contribui para a base industrial de defesa chinesa; esse ponto voltou à primeira instância. A DJI também consta da lista de jun/2026. O caso trata da DJI em geral, não especificamente dos drones agrícolas.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Cybersecurity Guidance: Chinese-Manufactured UAS",
+          "organizacao": "CISA e FBI (EUA)",
+          "ano": "2024",
+          "tipo_fonte": "governo",
+          "setor": "multissetorial",
+          "pais_regiao": "EUA",
+          "url": "https://www.cisa.gov/sites/default/files/2024-01/Cybersecurity%20Guidance%20Chinese-Manufactured%20UAS.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/CISA-FBI_2024_guia-ciberseguranca-drones-fabricados-china.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "Guia de 17/01/2024: segundo CISA e FBI, a Lei de Inteligência Nacional chinesa (2017) obriga empresas a cooperar com os serviços de inteligência, inclusive dando acesso a dados, e a Lei de Segurança de Dados (2021) amplia o acesso e o controle do governo sobre empresas e dados na China (p. 1)",
+            "Vetores apontados: saída de dados por aplicativos e dispositivos conectados, atualizações de firmware controladas por entidades chinesas e superfície maior de coleta (imagens sensíveis, dados de levantamento, layout de instalações) (p. 2)",
+            "Recomenda isolar ou segmentar redes, adotar Zero Trust e MFA resistente a phishing e adquirir drones 'secure-by-design', inclusive de fabricantes americanos (p. 1, p. 3)"
+          ],
+          "resumo": "Orientação conjunta da CISA e do FBI para operadores de infraestrutura crítica nos EUA sobre riscos de drones fabricados na China. Não trata da agricultura em particular, mas resume a posição oficial americana sobre dados, firmware e atualizações remotas, base das restrições posteriores. Lista mitigações de segurança aplicáveis a qualquer frota de drones.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "DJI Agras T100 — página oficial no Brasil (especificações e tabela de preços)",
+          "organizacao": "DJI Agriculture",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "agro (drones agrícolas)",
+          "pais_regiao": "Brasil",
+          "url": "https://ag.dji.com/pt-br/t100",
+          "arquivo": "07_agro-global-perenes-autonomia/DJI-Agriculture_2026_pagina-agras-t100-brasil-precos.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "Tabela de preços na página brasileira: Agras T100 R$ 130.000; bateria DB2160 R$ 26.000; gerador D14000iE R$ 28.000; sistema de espalhamento de 150 L R$ 17.000; D-RTK 3 AG R$ 9.900 (p. 28)",
+            "T100: tanque de pulverização de 100 L (vazão de 40 L/min), tanque de espalhamento de 150 L (400 kg/min), içamento de 100 kg e velocidade máxima de operação de 20 m/s, sujeita à regulação local e ao firmware (p. 2, p. 31)",
+            "LiDAR com até 300.000 pontos por segundo para mapear terrenos complexos (p. 13)",
+            "No içamento, controle automático de balanceamento, detecção de peso e navegação automática até os pontos de carga e descarga (p. 16)",
+            "Limitações declaradas em nota: o sistema de segurança não desvia automaticamente de objetos em movimento, e colisões com fios ou cabos não marcados como obstáculo, ou com a parte inferior da aeronave, são de responsabilidade do cliente (p. 31)"
+          ],
+          "resumo": "Página oficial do Agras T100 em português (captura de out/2026), com especificações, recursos de segurança e a tabela de preços em reais exibida na página brasileira. Os textos de muitas seções estão em imagens, por isso o PDF capturado traz pouco detalhe sobre mapeamento. As notas de rodapé registram limites do sistema anticolisão e a atribuição de responsabilidade ao usuário.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "DJI Agras T50 and T25 Expand Aerial Crop Protection Capabilities (release, com política de dados do SmartFarm)",
+          "organizacao": "DJI",
+          "ano": "2024",
+          "tipo_fonte": "empresa",
+          "setor": "agro (drones agrícolas)",
+          "pais_regiao": "Global",
+          "url": "https://www.dji.com/media-center/announcements/dji-agras-t50-and-t25-en",
+          "arquivo": "07_agro-global-perenes-autonomia/DJI_2024_release-agras-t50-t25-smartfarm-dados.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "Mais de 980 milhões de acres tratados por drones DJI Agriculture em mais de 100 países e regiões até abr/2024, segundo a empresa (p. 2)",
+            "T50 leva 40 kg na pulverização ou 50 kg no espalhamento e pulveriza até 50 acres (21 ha) por hora, em teste da empresa a 15 L/ha, faixa de 11 m e 7 m/s (p. 3, p. 5)",
+            "Por padrão nenhum registro de voo, foto ou vídeo é sincronizado com a DJI; os dados ficam no controle e no drone e o envio aos servidores depende de adesão (opt-in) do operador (p. 5)",
+            "Fora da China continental, os dados compartilhados ficam em servidores nos EUA, no Japão ou na Europa, conforme a região do usuário, com TLS; dados pessoais de cadastro com AES-256; auditorias de terceiros desde 2017 (Booz Allen Hamilton, FTI Consulting, Kivu Consulting) (p. 5)"
+          ],
+          "resumo": "Comunicado de 25/04/2024 do lançamento internacional dos Agras T50 e T25, compatíveis com o aplicativo SmartFarm atualizado (visualização de dados, relatórios e gestão de frota). Traz a declaração oficial da DJI sobre privacidade e localização dos dados dos drones agrícolas. O arquivo local é a captura do mesmo comunicado no Mynewsdesk da DJI; a URL registrada (sala de imprensa do dji.com) retornou HTTP 404 na verificação de 14/10/2026.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "DJI Agras T100, T70P and T25P Launches Globally",
+          "organizacao": "DJI",
+          "ano": "2025",
+          "tipo_fonte": "empresa",
+          "setor": "agro (drones agrícolas)",
+          "pais_regiao": "Global",
+          "url": "https://www.dji.com/media-center/announcements/dji-release-agras-t100-t70p-t25p",
+          "arquivo": "07_agro-global-perenes-autonomia/DJI_2025_release-agras-t100-t70p-t25p.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "Quase 500 mil operadores treinados no mundo até maio/2025 e mais de 500 mil drones DJI Agriculture tratando 300 tipos de culturas em 100 países, segundo o diretor global de vendas da DJI Agriculture (p. 1)",
+            "Nova geração construída sobre mais de 12 anos de P&D, com recursos 'mais inteligentes para operações totalmente automatizadas' (p. 1)",
+            "Novos cursos de pilotos agrícolas da DJI Academy, disponíveis primeiro em 15 países das Américas e da Ásia (p. 2)",
+            "Vendas começam pelo Sudeste Asiático e pela América Latina; na UE a velocidade máxima de operação é de 13,8 m/s, pela regulação local (p. 2)"
+          ],
+          "resumo": "Lançamento global (15/07/2025) dos Agras T100, T70P e T25P, com pulverização, espalhamento e agora içamento de carga. Destaca sistemas de segurança com LiDAR, radar e visão, operação totalmente automatizada e um novo programa de formação de pilotos. Números de frota e operadores são da própria empresa. O arquivo foi impresso a partir da página do dji.com, mas a URL retornou HTTP 404 na verificação automática de 14/10/2026.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "DJI Agras T100, T70P e T25P Fazem Voo no Brasil",
+          "organizacao": "DJI",
+          "ano": "2025",
+          "tipo_fonte": "empresa",
+          "setor": "agro (drones agrícolas)",
+          "pais_regiao": "Brasil",
+          "url": "https://www.prnewswire.com/br/comunicados-para-a-imprensa/dji-agras-t100-t70p-e-t25p-fazem-voo-no-brasil-302519576.html",
+          "arquivo": "07_agro-global-perenes-autonomia/DJI_2025_release-agras-t100-t70p-t25p-brasil.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "Em 01/08/2025 a DJI anunciou que os novos drones passavam a ser vendidos no Brasil por revendedores autorizados locais (p. 1)",
+            "DJI Agriculture atua no mercado brasileiro desde 2019, segundo o gerente-país (p. 2)",
+            "T25P permite operações totalmente automatizadas de mapeamento aéreo e proteção de plantas, inclusive em pomares e encostas, segundo a empresa (p. 2)",
+            "Expansão dos cursos de pilotos da DJI Academy ao Brasil (p. 3)"
+          ],
+          "resumo": "Comunicado da chegada dos Agras T100, T70P e T25P ao Brasil, vendidos pela rede de revendedores autorizados. Informa a entrada da DJI Agriculture no país em 2019 e a extensão dos cursos de pilotos da DJI Academy ao Brasil.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Relatório Anual da DJI Agriculture Revela Revolução Agrícola com Drones na Agrishow 2025 no Brasil",
+          "organizacao": "DJI",
+          "ano": "2025",
+          "tipo_fonte": "empresa",
+          "setor": "agro (drones agrícolas)",
+          "pais_regiao": "Brasil / Global",
+          "url": "https://www.prnewswire.com/news-releases/dji-agricultures-annual-report-reveals-drone-powered-farming-revolution-at-brazils-agrishow-2025-302442613.html",
+          "arquivo": "07_agro-global-perenes-autonomia/DJI_2025_release-relatorio-anual-agrishow-2025-brasil.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "Cerca de 400 mil drones agrícolas DJI em operação no fim de 2024, alta de 90% sobre 2020, e ~222 milhões de toneladas de água economizadas, segundo a empresa (p. 1)",
+            "Café no Brasil com Agras T40 e T50: custo operacional 70% menor que a pulverização manual e 50% menor que a tratorizada, segundo a empresa (p. 3)",
+            "Vinhedo na Romênia com Agras T50: químicos de 241,64 para 111,94 litros e tempo de pulverização de 3–4 dias para 2,5 horas, segundo a empresa (p. 3)",
+            "DJI investe em P&D de drones de pulverização desde 2012 e criou a DJI Agriculture em 2015 (p. 3)"
+          ],
+          "resumo": "Versão em português do comunicado de lançamento do relatório 2024/2025 (M396) na Agrishow 2025. Resume adoção global, ajustes regulatórios, testes antideriva de 2021 a 2024 com instituições parceiras e casos em café, arroz e vinhedos. O número de emissões evitadas aparece impresso como '30,87 toneladas', provável erro de unidade. A URL registrada é a da versão em inglês do mesmo comunicado.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "DJI Agriculture Elevates Precision Farming with Global Launch of Agras T55 and T100 Dual Battery Spraying System",
+          "organizacao": "DJI Agriculture",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "agro (drones agrícolas)",
+          "pais_regiao": "Global",
+          "url": "https://www.mynewsdesk.com/uk/dji/pressreleases/dji-agriculture-elevates-precision-farming-with-global-launch-of-agras-t55-and-t100-dual-battery-spraying-system-3457075",
+          "arquivo": "07_agro-global-perenes-autonomia/DJI_2026_release-agras-t55-t100-bateria-dupla.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "Mais de 600 mil drones agrícolas DJI em uso, em 300 culturas e mais de 100 países; mais de 3.500 centros de serviço e reparo e mais de 7.000 instrutores certificados, segundo a empresa (p. 1)",
+            "Mais de 13 anos de P&D em drones agrícolas (p. 1)",
+            "T55: radar de ondas milimétricas com até 250 mil pontos por segundo; obstáculos detectados ficam registrados para serem evitados em voos futuros (p. 2)",
+            "T100 com bateria dupla: 50% a mais de tempo de pairar com a mesma carga e tanque de 90 L; kit de névoa para penetrar copas densas de pomares (p. 2)"
+          ],
+          "resumo": "Lançamento global (01/07/2026) do Agras T55 e do sistema de pulverização de bateria dupla do T100, voltados também a pomares e pequenas áreas. Reafirma a rede de serviço e treinamento da DJI. O arquivo local é a cópia da PR Newswire Asia; a URL registrada é a do canal oficial da DJI no Mynewsdesk, com o mesmo texto.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Uso de drones agrícolas no Brasil: da pesquisa à prática (Documentos 474)",
+          "organizacao": "Embrapa Soja",
+          "ano": "2025",
+          "tipo_fonte": "governo/instituição",
+          "setor": "agro",
+          "pais_regiao": "Brasil",
+          "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1175882/1/Doc-474.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/Embrapa-Soja_2025_uso-drones-agricolas-brasil-pesquisa-pratica.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "Drone de pulverização custa de R$ 100 mil a R$ 300 mil; o investimento total de um prestador de serviço equivale a cerca de três vezes o valor do drone (valores até meados de 2025) (p. 27)",
+            "Aplicação contratada com drone custa em geral de R$ 100 a R$ 400 por hectare (valores até meados de 2025) (p. 27-28)",
+            "Com tanques de 40 L ou mais (desde 2022), um único drone pulveriza mais de 100 ha por dia (p. 29)",
+            "Portaria MAPA 298/2021: distância mínima de 20 m de povoações, moradias e mananciais para drones, contra 250 a 500 m na aviação agrícola tripulada (p. 22)",
+            "Resolução ANAC 710 (mar/2023): drones que aplicam agrotóxicos, fertilizantes e sementes sobre áreas desabitadas passam a ser Classe 3, independentemente do peso, se em VLOS/EVLOS e até 400 pés (p. 18-19)",
+            "Café arábica (Vitória et al., 2023): drone a 10 e 15 L/ha sem diferença no controle de ferrugem e cercosporiose frente ao terrestre a 400 L/ha; 5 L/ha foi inferior para ferrugem (p. 44-45)",
+            "Cana: uma empresa sucroalcooleira usou drones em mais de 50 mil ha no interior de SP em 2024 para aplicar maturadores e apontou a falta de prestadores de serviço como maior gargalo (relato em palestra no ConBAP 2024) (p. 55-56)",
+            "Banana (Emater-DF): agricultores relataram produtividade cerca de 20% maior um ano após trocar o pulverizador costal pelo drone (p. 55)"
+          ],
+          "resumo": "Publicação técnica da Embrapa Soja (Documentos 474, maio/2025) sobre regulação, economia, tecnologia de aplicação e resultados de pesquisa com drones de pulverização no Brasil, com seções por cultura (arroz, banana, cana-de-açúcar, milho, pastagens e silvicultura) e resultados de pesquisa em soja e café. Conclui que, com boas práticas, o drone tem no mínimo se igualado aos pulverizadores tratorizados e costais no controle e na produtividade, embora haja estudos com maior variabilidade de deposição e maior risco de deriva. Fonte independente e oficial para o Brasil.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Uso de drones para pulverização de agrotóxicos no Brasil (parecer técnico-analítico)",
+          "organizacao": "Fundação Heinrich Böll Brasil (autores: Emiliano Maldonado e Eduardo Raguse)",
+          "ano": "2026",
+          "tipo_fonte": "outro",
+          "setor": "agro",
+          "pais_regiao": "Brasil",
+          "url": "https://br.boell.org/sites/default/files/2026-04/parecer-drones-alt6.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/HeinrichBoell_2026_parecer-drones-pulverizacao-agrotoxicos-brasil.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "Segundo o SISANT/ANAC, 8.586 drones tinham cadastro vigente para pulverização em jun/2025; o setor da aviação agrícola estima até 25 mil em operação (p. 6)",
+            "Dos cadastros válidos em jun/2025, a DJI respondia por 84% (7.178 drones) e a XAG por 7% (565); o Agras T40 era 31% do total (p. 9)",
+            "Frota de aeronaves agrícolas tripuladas: 2.722 em 2025, ante 2.035 em 2015, segundo o Sindag (p. 6)",
+            "Critica a proposta da Portaria SDA/MAPA 1.187/2024 por não avançar nas distâncias mínimas e por dar ao operador 24 h para registrar os dados da operação e 48 h para disponibilizá-los ao contratante (p. 23-24)",
+            "Recomenda proibir a pulverização aérea de agrotóxicos ou, alternativamente, suspender os drones até haver regulação e estrutura de fiscalização adequadas (p. 38)"
+          ],
+          "resumo": "Parecer técnico-analítico de março/2026 publicado pela Fundação Heinrich Böll, de Emiliano Maldonado e Eduardo Raguse, que integram a Campanha Permanente Contra os Agrotóxicos e Pela Vida, sobre o crescimento dos drones de pulverização, o marco regulatório, casos de deriva e recomendações. É uma posição da sociedade civil, contestada por entidades do setor (cartilha do Sindag e outras). Útil pelos dados de cadastro da ANAC por fabricante e modelo.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Evaluation of the DJI AGRAS T40 UAV for application of herbicides in soybean (Weed Technology 40, e13)",
+          "organizacao": "University of Missouri / Weed Science Society of America (Cambridge University Press)",
+          "ano": "2026",
+          "tipo_fonte": "academia",
+          "setor": "agro",
+          "pais_regiao": "EUA",
+          "url": "https://doi.org/10.1017/wet.2026.10094",
+          "arquivo": "07_agro-global-perenes-autonomia/UMissouri-WeedTechnology_2026_avaliacao-dji-agras-t40-herbicidas-soja.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "Ensaios em três lavouras de soja no Missouri (2023 e 2024): pulverizadores terrestres deram cobertura maior e mais uniforme e controle mais consistente de caruru (waterhemp) que o DJI Agras T40 (p. 1)",
+            "O movimento fora do alvo foi proporcionalmente maior com o drone, mas a cobertura absoluta fora do alvo não diferiu entre os métodos (p. 1)",
+            "Velocidade de 3,5 m/s melhorou a cobertura no centro da faixa frente a 7 m/s; subir de 3 para 4,5 m acima do dossel reduziu o controle (p. 1)",
+            "Nos EUA, a FAA concedeu 366 isenções §44807 em 2022, 85% delas para pulverização agrícola (p. 1)"
+          ],
+          "resumo": "Artigo revisado por pares e de acesso aberto que compara o DJI Agras T40 com pulverizadores terrestres na aplicação de herbicida em soja no Missouri. Conclui que o drone pode controlar bem as plantas daninhas em condições otimizadas, mas exige faixas mais estreitas, ajuste cuidadoso dos parâmetros e medidas adicionais contra deriva. Contraponto independente aos números de eficiência da fabricante.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Opportunity for Comment on Ex Parte Filing by SZ DJI Technology Co., Ltd. (DA 26-592)",
+          "organizacao": "FCC (EUA)",
+          "ano": "2026",
+          "tipo_fonte": "governo",
+          "setor": "multissetorial",
+          "pais_regiao": "EUA",
+          "url": "https://docs.fcc.gov/public/attachments/DA-26-592A1.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/FCC_2026_comentarios-ex-parte-dji-covered-list.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "A DJI pediu reconsideração em 21/01/2026 da inclusão de 'todos' os seus equipamentos e serviços de comunicação e vigilância por vídeo na Covered List (p. 1)",
+            "Em 19/05/2026 a DJI se reuniu com assessores do FCC para discutir uma avaliação de segurança de dois de seus sistemas de drone feita pela OnDefend, protocolada em 09/06/2026; comentários públicos abertos até 28/08/2026 (p. 1-2)"
+          ],
+          "resumo": "Aviso público do FCC (16/06/2026) que abre prazo para comentários sobre a avaliação de segurança apresentada pela DJI no processo de reconsideração da Covered List (docket ET 26-22). Registra a reunião da DJI com a assessoria de segurança nacional do presidente do FCC e a assessoria jurídica.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Procedures and Other Requirements Regarding Petition for Reconsideration Filed by SZ DJI Technology and Application for Review Filed by Autel Robotics (DA 26-223)",
+          "organizacao": "FCC (EUA)",
+          "ano": "2026",
+          "tipo_fonte": "governo",
+          "setor": "multissetorial",
+          "pais_regiao": "EUA",
+          "url": "https://docs.fcc.gov/public/attachments/DA-26-223A1.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/FCC_2026_peticoes-dji-autel-reconsideracao-procedimentos.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "A Covered List passou a incluir drones e componentes críticos produzidos no exterior em 22/12/2025 e foi ajustada em 07/01/2026 para isentar algumas categorias até 01/01/2027, por determinação do Departamento de Guerra (p. 1)",
+            "Pedidos da DJI (ET 26-22) e da Autel (ET 26-23) de 21/01/2026; prazos de oposição em 06/04/2026 e de réplica em 11/05/2026 (p. 1-2)"
+          ],
+          "resumo": "Aviso público do FCC (06/03/2026) que define procedimentos e prazos para o pedido de reconsideração da DJI e o recurso da Autel contra a inclusão na Covered List. Resume a cronologia regulatória da listagem e das isenções.",
+          "relevancia": "baixa"
+        },
+        {
+          "titulo": "FCC Seeks Comment on Prohibiting the Importation and Marketing of Certain Foreign-Produced Military-Grade UAS and UAS Critical Components (DA 26-758)",
+          "organizacao": "FCC (EUA)",
+          "ano": "2026",
+          "tipo_fonte": "governo",
+          "setor": "multissetorial",
+          "pais_regiao": "EUA",
+          "url": "https://docs.fcc.gov/public/attachments/DA-26-758A1.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/FCC_2026_proposta-proibir-uas-ja-autorizados-pulverizacao-agricola.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "Proposta de 21/07/2026 de proibir a importação e a comercialização de drones e componentes estrangeiros já autorizados que estejam na Covered List e sejam de 'grau militar' (p. 1)",
+            "Os sete critérios de 'grau militar' incluem drones com 55 libras ou mais na decolagem (fora da categoria de pequenos drones da FAA), drones capazes de aplicar 'economic poison' (na regra da FAA, substâncias contra pragas, plantas daninhas e fungos ou desfolhantes) e drones com câmera térmica ou LiDAR, além de docas, drones que incorporam artigo de defesa e drones de enxame (p. 5-6)",
+            "O uso de drones já comprados não seria afetado; importação e venda cessariam 180 dias após a publicação no Federal Register (p. 2, p. 10)",
+            "O FCC (PSHSB e OET) conclui provisoriamente que a medida não teria impactos econômicos e na cadeia de suprimentos substanciais, porque drones de 'grau militar' seriam minoria do mercado fora das compras do governo, e pergunta se os impactos seriam 'relativamente pequenos e contidos' (p. 8)"
+          ],
+          "resumo": "Consulta pública do FCC para estender a proibição da Covered List a modelos já autorizados considerados de 'grau militar'. O texto não usa a palavra agricultura, mas um dos sete critérios alcança diretamente os drones capazes de aplicar defensivos ('economic poison', na definição da FAA), independentemente do peso; os critérios de peso e de LiDAR também alcançam drones agrícolas de grande porte. A própria DJI faz essa leitura em sua resposta pública. Decisão final não localizada.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "The FCC Could Cut Off Future Access to Popular DJI Drone Models in the U.S. – Here's What You Can Do About It",
+          "organizacao": "DJI (DJI ViewPoints)",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "agro (drones agrícolas)",
+          "pais_regiao": "EUA",
+          "url": "https://viewpoints.dji.com/blog/the-fcc-could-cut-off-future-access-to-popular-dji-drone-models-in-the-u.s.-heres-what-you-can-do-about-it",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "A DJI afirma que entrou na Covered List em dez/2025 depois de vencido o prazo de uma auditoria do governo, sem revisão concluída e sem vulnerabilidade específica identificada publicamente (página oficial)",
+            "A DJI afirma que a definição de 'grau militar' da proposta do FCC pode alcançar drones agrícolas de pulverização, docas e drones com LiDAR ou câmera térmica (página oficial)",
+            "A DJI diz que agricultores teriam custos significativamente maiores e que, para muitos usuários, não há alternativas domésticas comparáveis (página oficial)",
+            "Comentários ao FCC abertos até 02/09/2026 (página oficial)"
+          ],
+          "resumo": "Posição oficial da DJI (07/08/2026) sobre a proposta do FCC de restringir modelos já autorizados. A empresa diz que não projeta nem vende equipamento militar e mobiliza usuários, inclusive agricultores, a comentar contra a medida.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "DJI Releases Findings of the Most Comprehensive Independent Security Assessment of Its Drone Systems to Date",
+          "organizacao": "DJI",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "multissetorial",
+          "pais_regiao": "EUA/Global",
+          "url": "https://www.prnewswire.com/news-releases/dji-releases-findings-of-the-most-comprehensive-independent-security-assessment-of-its-drone-systems-to-date-302784340.html",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "Avaliação da OnDefend (out/2025 a mar/2026), encomendada e autorizada pela DJI, dos sistemas Air 3S e Matrice 4E com seus controles: nenhum achado crítico, alto ou médio; 10 achados de baixo risco e 13 observações (página oficial)",
+            "Nenhuma transmissão de dados para fora dos EUA foi identificada; as conexões observadas dos aplicativos de controle de voo resolviam para infraestrutura nos EUA (página oficial)",
+            "A OnDefend recomenda validação contínua de firmware, software e hardware, pois os achados valem só para as versões testadas (página oficial)"
+          ],
+          "resumo": "Comunicado de 28/05/2026 com os resultados da avaliação de segurança encomendada pela DJI e usada no seu pedido contra a Covered List. Os modelos testados são de consumo e corporativo, não drones agrícolas Agras.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "DJI Agras T50 — Perguntas frequentes (inclui DJI SmartFarm Web)",
+          "organizacao": "DJI Agriculture",
+          "ano": "2026",
+          "tipo_fonte": "empresa",
+          "setor": "agro (drones agrícolas)",
+          "pais_regiao": "Brasil",
+          "url": "https://ag.dji.com/pt-br/t50/faq",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "O DJI SmartFarm Web reconstrói fotos de drones DJI (Phantom 4 RTK/Multispectral, Mavic 3M/3E; fotos de outras marcas não são aceitas) para gerar mapas de prescrição de taxa variável, contar árvores frutíferas automaticamente e planejar rotas totalmente automáticas para os Agras (página oficial)",
+            "Monitoramento por NDVI e outros índices para emergência, estado nutricional, plantas daninhas e estresse hídrico (página oficial)",
+            "No levantamento aéreo de área, o próprio T50 detecta automaticamente limites de campo e obstáculos (página oficial)",
+            "Limite de 20.000 fotos por missão (recomendado até 10.000); o SmartFarm Web estava em teste gratuito na data da consulta (página oficial)"
+          ],
+          "resumo": "FAQ oficial em português do Agras T50, com a descrição mais concreta dos recursos de mapeamento, prescrição e contagem de árvores da DJI. Mostra a cadeia de dados: drone de imagem, plataforma SmartFarm Web e drone de aplicação.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Entidades defendem uso de drones de pulverização em Brasília",
+          "organizacao": "CNN Brasil",
+          "ano": "2026",
+          "tipo_fonte": "imprensa",
+          "setor": "agro",
+          "pais_regiao": "Brasil",
+          "url": "https://www.cnnbrasil.com.br/agro/entidades-defendem-uso-de-drones-de-pulverizacao-em-brasilia/",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "Sindag, Aprosoja Brasil, Aenda, CropLife Brasil e Sindiveg lançaram a cartilha 'Drones de Pulverização – Segurança, Produtividade e Inclusão' na sede da FPA (página web)",
+            "Segundo a cartilha, as penalidades administrativas por operação irregular vão de R$ 500 a R$ 10 milhões (página web)"
+          ],
+          "resumo": "Notícia sobre a cartilha 'Drones de Pulverização – Segurança, Produtividade e Inclusão', de entidades do agro e da indústria de defensivos, lançada numa terça-feira, dia 14, em 2026 (mês não informado na página). A cartilha defende os drones de pulverização e tem um capítulo em resposta ao parecer da Fundação Heinrich Böll (descrita pela CNN como ligada ao Partido Verde alemão). Registra a posição do setor: fiscalização por vários órgãos, receituário agronômico e rastreabilidade digital das aplicações. Usada só para equilibrar o debate; a cartilha original não foi baixada.",
+          "relevancia": "baixa"
+        }
+      ],
+      "formularios": [],
+      "lacunas": [
+        "M411 (relatório DJI de 2023) não tem camada de texto; não foi lido e precisaria de OCR.",
+        "A DJI não publica documentação técnica sobre a IA embarcada (modelos, dados de treino, acurácia): descreve só 'algoritmos inteligentes', reconhecimento de árvores e obstáculos e mapas de prescrição. No caso de detecção de plantas daninhas por IA nos EUA (M395, p. 26), o software era de terceiro (Agremo).",
+        "Política de dados do SmartFarm e dos Agras para usuários brasileiros (onde ficam os dados, adequação à LGPD) não localizada; o release de 2024 só cita servidores nos EUA, no Japão e na Europa conforme a região do usuário.",
+        "Não há auditoria independente pública de segurança dos drones agrícolas Agras: a avaliação da OnDefend (2026), encomendada pela DJI, cobriu Air 3S e Matrice 4E, e as auditorias citadas pela DJI desde 2017 não foram baixadas.",
+        "Números de frota, área tratada, água e CO2 são autodeclarados pela DJI, sem metodologia publicada nem verificação externa, e nem sempre batem entre si: o release de abr/2024 fala em mais de 980 milhões de acres (~397 milhões de ha) tratados, e o relatório 2023/2024 (M395) em mais de 500 milhões de ha até jun/2024. A DJI não divulga frota, área tratada ou receita por país (Brasil), nem gasto em P&D ou número de funcionários da DJI Agriculture.",
+        "Ato normativo do MAPA de nov/2025 citado pela DJI (M372, p. 7) não confirmado em fonte oficial: a notícia do MAPA 'Mercado de drones agrícolas dispara após regulamentação do Mapa' exige login no gov.br e não foi acessada; a Portaria SDA/MAPA 1.364/2025 aparece na página de legislação de aviação agrícola, mas não foi lida.",
+        "Proposta do FCC DA 26-758 (jul/2026): o texto não usa a palavra agricultura, mas o segundo critério de 'grau militar' (drones capazes de aplicar 'economic poison', definição da FAA em 14 CFR 137.3) alcança diretamente os drones de pulverização de defensivos, independentemente do peso; os critérios de peso (55 libras ou mais) e de LiDAR também alcançam drones agrícolas de grande porte. Decisão final não localizada.",
+        "O DA 26-758 cita outro processo, aberto em 17/07/2026 (DA 26-742, PS Docket 26-184), para proibir a importação e a venda de drones estrangeiros já autorizados da Covered List; o documento não foi baixado.",
+        "Sem decisão de mérito localizada no pedido de reconsideração da DJI no FCC (ET 26-22) nem no 9º Circuito (memorial da DJI previsto para 02/11/2026); caso 1260H devolvido à primeira instância sem nova decisão localizada.",
+        "Data do reconhecimento da DJI como 'National Enterprise Technology Center': o relatório do Secretário de Defesa diz 2021 (acórdão, p. 5), a notícia citada no mesmo relatório diz dez/2020 (acórdão, p. 12).",
+        "Data de lançamento global dos T100/T70P/T25P: o comunicado da DJI é de 15/07/2025, mas o relatório 2025/2026 (M372, p. 5) diz que os três modelos foram 'lançados globalmente' na Agritechnica, em nov/2025.",
+        "URLs: na verificação de 14/10/2026, as URLs do dji.com dos releases T50/T25 (2024) e T100/T70P/T25P (2025) retornaram HTTP 404 ao baixar.py, inclusive com as variantes /us/ e /global/. O arquivo T100/T70P/T25P foi impresso pelo Chrome a partir do dji.com; o arquivo T50/T25 é captura do Mynewsdesk da DJI (links internos para mynewsdesk.com/uk/dji). O conteúdo foi conferido nos arquivos locais. A versão em português do release da Agrishow 2025 (PR Newswire Brasil) não foi localizada; a URL em inglês registrada abre e traz o mesmo texto. O release do T55 foi baixado da PR Newswire Asia; a URL registrada, do Mynewsdesk da DJI, abre com o mesmo comunicado. As URLs do FCC (3), do Circuito de D.C., da CISA, da Embrapa e da Heinrich Böll foram conferidas por hash com os arquivos locais pelo pesquisador.",
+        "Página de anúncio da avaliação de segurança no site da DJI (dji.com/media-center/announcements/dji-drone-independent-security-assessment) retornou 404; usado o comunicado na PR Newswire.",
+        "Estudos independentes com drones DJI em perenes no Brasil são escassos: só o de café (Vitória et al., 2023, via Embrapa) e ensaios de deposição; os casos de citros (Japão), palma (Indonésia), café (Brasil) e cana (Espírito Santo) são da própria DJI.",
+        "Cartilha do setor 'Drones de Pulverização – Segurança, Produtividade e Inclusão' (Sindag e outras entidades) não baixada; a notícia da CNN Brasil diz só que o lançamento foi numa terça-feira, dia 14, sem o mês.",
+        "Participação de mercado da DJI no Brasil vem de dados de cadastro (ANAC/SISANT via Sindag, Heinrich Böll e imprensa), não de vendas; as contagens divergem conforme a data e o critério (8.586 com cadastro vigente para pulverização em jun/2025; 10.357 drones agrícolas registrados no fim de 2025; 13.224 cadastrados em ago/2026; ~12 mil na estimativa do IFPRI) e não devem ser comparadas como série."
+      ]
+    }
+  ]
+}
