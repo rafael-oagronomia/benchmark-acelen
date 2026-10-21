@@ -1,0 +1,2691 @@
+{
+ "resultados": [
+  {
+   "grupo": "Referenciais internacionais de supervisão de IA e risco de modelo",
+   "pasta": "08_setor-financeiro",
+   "itens": [
+    {
+     "id": "M1075",
+     "titulo": "SR 11-7: Guidance on Model Risk Management",
+     "organizacao": "Federal Reserve Board (com OCC), EUA",
+     "ano": "2011 (04/04/2011; substituída em 04/2026)",
+     "tipo_fonte": "governo",
+     "setor": "financeiro (regulação)",
+     "pais_regiao": "EUA",
+     "url": "https://www.federalreserve.gov/supervisionreg/srletters/sr1107.htm",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Risco de modelo: 'the potential for adverse consequences from decisions based on incorrect or misused model outputs and reports' (página web)",
+      "'Effective challenge': 'critical analysis by objective, informed parties that can identify model limitations and produce appropriate changes'; validação por quem não desenvolve nem usa o modelo; inventário de modelos; conselho responsável pelo nível de risco (página web)"
+     ],
+     "resumo": "Orientação de 2011 do Fed e da OCC sobre gestão de risco de modelo: definição de modelo e de risco de modelo, validação independente, inventário, papel do conselho e da auditoria interna, aplicação a modelos de fornecedores. Substituída pelo SR 26-2 em abril de 2026; serve como pano de fundo histórico.",
+     "relevancia": "Prova documental de que os bancos governam modelos há quinze anos (vinte e cinco contando a OCC 2000-16), base da hipótese de partida."
+    },
+    {
+     "id": "M1106",
+     "titulo": "SR 26-2: Revised Guidance on Model Risk Management (carta de supervisão)",
+     "organizacao": "Federal Reserve Board, OCC e FDIC, EUA",
+     "ano": "2026 (17/04/2026)",
+     "tipo_fonte": "governo",
+     "setor": "financeiro (regulação)",
+     "pais_regiao": "EUA",
+     "url": "https://www.federalreserve.gov/supervisionreg/srletters/SR2602.htm",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Substitui o SR 11-7 (2011) e o SR 21-8; mais relevante para organizações com mais de US$ 30 bilhões em ativos (página web)"
+     ],
+     "resumo": "Carta de supervisão que apresenta a orientação revisada de gestão de risco de modelo das três agências bancárias americanas, substituindo a de 2011.",
+     "relevancia": "Marca a mudança de 2026 nos EUA; o conteúdo está no anexo (item seguinte)."
+    },
+    {
+     "id": "M1107",
+     "titulo": "Supervisory Guidance on Model Risk Management (anexo do SR 26-2)",
+     "organizacao": "Federal Reserve Board, OCC e FDIC, EUA",
+     "ano": "2026 (17/04/2026)",
+     "tipo_fonte": "governo",
+     "setor": "financeiro (regulação)",
+     "pais_regiao": "EUA",
+     "url": "https://www.federalreserve.gov/supervisionreg/srletters/SR2602a1.pdf",
+     "arquivo": "08_setor-financeiro/Fed-OCC-FDIC_2026_sr26-2-supervisory-guidance-model-risk-management.pdf",
+     "status": "a baixar",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "'This guidance does not set forth enforceable standards or prescriptive requirements'; descumprimento não gera crítica supervisória (p. 2, índice do PDF)",
+      "'Generative AI and agentic AI models are novel and rapidly evolving' — IA generativa e agêntica excluídas do escopo; princípios valem para modelos tradicionais e IA não generativa (p. 3, nota 3)",
+      "Materialidade = finalidade mais exposição do modelo (p. 4); validação com independência suficiente (p. 5); inventário e validação de produtos de fornecedores (p. 11)"
+     ],
+     "resumo": "Orientação revisada de risco de modelo das agências americanas (2026): não vinculante, proporcional ao porte, com inventário, materialidade e validação independente, mas exclui explicitamente IA generativa e agêntica. Páginas pelo índice do PDF, conforme a extração.",
+     "relevancia": "Mostra o afrouxamento americano de 2026 e a exclusão da IA generativa do arcabouço de risco de modelo — contraste com MAS e FSB."
+    },
+    {
+     "id": "M1110",
+     "titulo": "Regulamento (UE) 2024/1689 (AI Act) — Anexo III: sistemas de IA de alto risco (ponto 5, acesso a serviços essenciais)",
+     "organizacao": "União Europeia (texto reproduzido no EU AI Act Explorer)",
+     "ano": "2024 (texto consultado em 20/10/2026)",
+     "tipo_fonte": "governo",
+     "setor": "intersetorial (regulação de IA)",
+     "pais_regiao": "União Europeia",
+     "url": "https://artificialintelligenceact.eu/annex/3/",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Anexo III, 5(b): sistemas para avaliar a solvabilidade de pessoas físicas ou estabelecer seu score de crédito são de alto risco, exceto os usados para detectar fraude financeira (página web)",
+      "Anexo III, 5(c): avaliação de risco e precificação em seguros de vida e saúde (página web)"
+     ],
+     "resumo": "Reprodução do Anexo III do AI Act, com a lista de usos de alto risco, entre eles score de crédito de pessoas físicas. Lido no EU AI Act Explorer, que reproduz o Jornal Oficial.",
+     "relevancia": "Define por que o crédito é alto risco na UE e, por contraste, o que o texto brasileiro do Senado deixou de fora."
+    },
+    {
+     "id": "M1111",
+     "titulo": "Regulation (EU) 2026/1744 of 8 July 2026 amending Regulations (EU) 2024/1689, (EU) 2018/1139 and (EU) 2023/1230 — Digital Omnibus on AI (ficha EUR-Lex)",
+     "organizacao": "União Europeia (EUR-Lex)",
+     "ano": "2026 (08/07/2026; em vigor em 27/07/2026)",
+     "tipo_fonte": "governo",
+     "setor": "intersetorial (regulação de IA)",
+     "pais_regiao": "União Europeia",
+     "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Entrada em vigor em 27/07/2026 (página web)"
+     ],
+     "resumo": "Ficha de metadados do regulamento que simplifica a implementação do AI Act (Omnibus Digital de IA). As datas do adiamento das obrigações de alto risco vêm de fonte secundária (item seguinte) e devem ser confirmadas no texto ou na nota do Parlamento Europeu já catalogada (M228).",
+     "relevancia": "Fonte primária da existência e da vigência do regulamento de 2026."
+    },
+    {
+     "id": "M1112",
+     "titulo": "EU AI Act Omnibus Agreement — Postponed High-Risk Deadlines and Other Key Changes",
+     "organizacao": "Gibson Dunn (escritório de advocacia)",
+     "ano": "2026 (27/05/2026)",
+     "tipo_fonte": "outro",
+     "setor": "intersetorial (regulação de IA)",
+     "pais_regiao": "União Europeia",
+     "url": "https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Obrigações do Anexo III (inclusive score de crédito) adiadas de 02/08/2026 para 02/12/2027; Anexo I para 02/08/2028; transparência (art. 50) mantida em 02/08/2026 (página web)",
+      "Proposta da Comissão em 19/11/2025; acordo político em 06/05/2026; autoridades nacionais seguem competentes para instituições financeiras (página web)"
+     ],
+     "resumo": "Memorando de escritório de advocacia sobre o acordo do Omnibus Digital de IA, com as novas datas de aplicação das obrigações de alto risco do AI Act.",
+     "relevancia": "Fonte das datas do adiamento; secundária, a substituir pela nota do Parlamento Europeu (M228) ou pelo texto do regulamento."
+    },
+    {
+     "id": "M1113",
+     "titulo": "Supervisory Statement SS1/23 — Model risk management principles for banks",
+     "organizacao": "Prudential Regulation Authority (Bank of England)",
+     "ano": "2023 (17/05/2023; em vigor desde 17/05/2024; nova versão em 23/04/2026 não lida)",
+     "tipo_fonte": "governo",
+     "setor": "financeiro (regulação)",
+     "pais_regiao": "Reino Unido",
+     "url": "https://www.bankofengland.co.uk/-/media/boe/files/prudential-regulation/supervisory-statement/2023/ss123.pdf",
+     "arquivo": "08_setor-financeiro/PRA_2023_ss1-23-model-risk-management-principles.pdf",
+     "status": "a baixar",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Inventário abrangente de modelos (princípio 1.2); classificação de cada modelo por materialidade e complexidade (1.3a), com atenção a tecnologias novas (1.3c) (citado por parágrafo; página não determinada)",
+      "Conselho estabelece o framework de risco de modelo e define apetite a risco de modelo (2.1a e 2.1c); validação com desafio independente e contínuo (princípio 4) (citado por parágrafo)"
+     ],
+     "resumo": "Declaração de supervisão da PRA com cinco princípios de gestão de risco de modelo para bancos britânicos com modelos internos aprovados: inventário, classificação por materialidade, governança pelo conselho, validação independente e mitigantes. Lida por parágrafo; a página oficial indica versão atualizada em abril de 2026 com subprincípio sobre IA.",
+     "relevancia": "Referencial britânico de inventário e materialidade; a versão de 2026 (LIAF01/26) precisa ser baixada para confirmar o tratamento da IA."
+    },
+    {
+     "id": "M1114",
+     "titulo": "Guidelines on Artificial Intelligence Risk Management for Financial Institutions",
+     "organizacao": "Monetary Authority of Singapore (MAS)",
+     "ano": "2026 (07/10/2026; vigência a partir de 07/10/2027)",
+     "tipo_fonte": "governo",
+     "setor": "financeiro (regulação)",
+     "pais_regiao": "Singapura",
+     "url": "https://www.mas.gov.sg/-/media/mas-media-library/regulation/guidelines/bd/guidelines-on-artificial-intelligence-risk-management-for-financial-institutions/guidelines-on-artificial-intelligence-risk-management.pdf",
+     "arquivo": "08_setor-financeiro/MAS_2026_guidelines-ai-risk-management-financial-institutions.pdf",
+     "status": "a baixar",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Vigência: seções 3–4 a partir de 07/10/2027; seções 5–6 até 07/10/2028 (par. 1.8, p. 6); aplicação proporcional ao porte e perfil de risco (par. 2.1, p. 9)",
+      "Inventário preciso de usos, sistemas ou modelos de IA (par. 4.5, p. 15); materialidade por impacto, complexidade e dependência (par. 4.12, p. 16-17)",
+      "Usos de alta materialidade passam por validação independente formal antes da implantação (par. 5.19, p. 27); avaliação e testes de confiabilidade e segurança (par. 5.14, p. 24)",
+      "IA generativa amplifica riscos existentes (par. 1.10, p. 6-7); 'an AI agent with access to tools could autonomously execute unauthorised or erroneous actions' (par. 1.11, p. 7)"
+     ],
+     "resumo": "Diretrizes finais da MAS (30 páginas) sobre gestão de risco de IA em instituições financeiras, cobrindo governança pelo conselho, inventário, materialidade, dados, explicabilidade, justiça, supervisão humana, terceiros, testes, validação independente e monitoramento, com menção a IA generativa e agentes. Páginas impressas e parágrafos citados.",
+     "relevancia": "Referencial mais recente e vinculante, por caso de uso e proporcional — o modelo que a nota sugere como mais transferível a uma empresa industrial."
+    }
+   ],
+   "formularios": [],
+   "lacunas": [
+    "Datas do adiamento do AI Act (Anexo III para 02/12/2027) vêm de memorando de escritório (Gibson Dunn); confirmar no texto do Reg. (UE) 2026/1744 ou na nota do Parlamento Europeu já catalogada (M228).",
+    "SS1/23: citado por parágrafo, sem página; a versão de 23/04/2026 (LIAF01/26), com subprincípio sobre IA, não foi lida.",
+    "SR 26-2: páginas do anexo pelo índice do PDF; o pedido de informações das agências sobre IA generativa consta só em memorando de escritório.",
+    "MAS: não se confirmou no PDF a referência a FEAT (2018) e Veritas; HKMA (2024) e OSFI E-23 (2025) foram lidos na pesquisa mas ficaram fora da nota.",
+    "DORA e IOSCO lidos parcialmente (texto truncado; só release) e deixados fora da nota."
+   ]
+  },
+  {
+   "grupo": "Conectores, MCP e injeção de prompt",
+   "pasta": "12_shadow-ai-governanca",
+   "itens": [
+    {
+     "id": "M1076",
+     "titulo": "LLM01:2025 Prompt Injection (OWASP Top 10 for LLM Applications 2025)",
+     "organizacao": "OWASP GenAI Security Project",
+     "ano": "2025 (consultado em 20/10/2026)",
+     "tipo_fonte": "associação setorial",
+     "setor": "segurança da informação",
+     "pais_regiao": "Global",
+     "url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "'A Prompt Injection Vulnerability occurs when user prompts alter the LLM's behavior or output in unintended ways'; direta quando o prompt do usuário altera o comportamento; 'Indirect prompt injections occur when an LLM accepts input from external sources, such as websites or files' (página web)",
+      "'Prompt injection vulnerabilities are possible due to the nature of generative AI' (página web)"
+     ],
+     "resumo": "Página da OWASP que define a injeção de prompt, direta e indireta, como o risco número 1 das aplicações com modelos de linguagem, e explica por que ela decorre da natureza da IA generativa.",
+     "relevancia": "Definição de referência, de comunidade de segurança sem produto a vender, usada nos termos da nota."
+    },
+    {
+     "id": "M1086",
+     "titulo": "Prompt injection is not SQL injection (it may be worse)",
+     "organizacao": "National Cyber Security Centre (NCSC), Reino Unido (Dave Chismon)",
+     "ano": "2025 (08/12/2025)",
+     "tipo_fonte": "governo",
+     "setor": "segurança da informação",
+     "pais_regiao": "Reino Unido",
+     "url": "https://www.ncsc.gov.uk/blog-post/prompt-injection-is-not-sql-injection",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "'there is only ever \"next token\"'; 'prompt injection attacks may never be totally mitigated'; 'The best we can hope for is reducing the likelihood or impact of attacks' (página web)",
+      "Recomendações: privilégio baixo ao processar entrada não confiável ('when an LLM processes information from a party, the privileges it has drops to that of the party'), salvaguardas determinísticas fora do modelo, evitar deny-lists, registrar entradas, saídas e chamadas de ferramentas, ceticismo com produtos que prometem bloquear a injeção (página web)"
+     ],
+     "resumo": "Post da agência britânica de segurança cibernética que explica por que a injeção de prompt não tem a correção estrutural da injeção de SQL e lista os controles arquiteturais recomendados.",
+     "relevancia": "Posição de órgão de governo, sem conflito, de que a injeção é risco residual permanente; base da seção 5.4 e dos controles de privilégio e registro."
+    },
+    {
+     "id": "M1088",
+     "titulo": "Zero-Click AI Vulnerability Exposes Microsoft 365 Copilot Data Without User Interaction (EchoLeak, CVE-2025-32711)",
+     "organizacao": "The Hacker News (cobrindo Aim Security e advisory da Microsoft)",
+     "ano": "2025 (12/06/2025)",
+     "tipo_fonte": "imprensa",
+     "setor": "segurança da informação",
+     "pais_regiao": "Global",
+     "url": "https://thehackernews.com/2025/06/zero-click-ai-vulnerability-exposes.html",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "CVE-2025-32711, CVSS 9,3; e-mail com payload em markdown faz o Copilot misturar conteúdo não confiável com dados sensíveis e vazá-los por URLs do Teams e do SharePoint, sem clique; Microsoft: 'AI command injection in M365 Copilot allows an unauthorized attacker to disclose information over a network' (página web)",
+      "Corrigido pela Microsoft no servidor, sem ação do cliente, antes da divulgação (página web)"
+     ],
+     "resumo": "Cobertura da falha EchoLeak no Microsoft 365 Copilot, descoberta pela Aim Security: injeção indireta por e-mail com exfiltração sem interação do usuário, corrigida pela Microsoft.",
+     "relevancia": "Primeiro incidente 'zero-click' confirmado por CVE num assistente corporativo; página primária da fornecedora não carregou, por isso via imprensa."
+    },
+    {
+     "id": "M1089",
+     "titulo": "Insights on AI Agent Security from a Large-Scale Red Teaming Competition",
+     "organizacao": "NIST — Center for AI Standards and Innovation (CAISI)",
+     "ano": "2026 (23/03/2026)",
+     "tipo_fonte": "governo",
+     "setor": "segurança da informação",
+     "pais_regiao": "EUA",
+     "url": "https://www.nist.gov/blogs/caisi-research-blog/insights-ai-agent-security-large-scale-red-teaming-competition",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Competição pública contra 13 modelos de fronteira, mais de 250.000 tentativas e mais de 400 participantes: 'at least one successful attack was found against all of the target frontier models'; ataques 'universais' transferem entre modelos; 'AI security evaluations are a continuously moving target' (página web)"
+     ],
+     "resumo": "Blog de pesquisa do NIST com os resultados de uma competição pública de red teaming de agentes: todos os modelos de fronteira testados foram atacados com sucesso ao menos uma vez.",
+     "relevancia": "Evidência oficial de que não existe modelo imune à injeção; sustenta a leitura de 'conter o raio de ação'."
+    },
+    {
+     "id": "M1154",
+     "titulo": "Technical Blog: Strengthening AI Agent Hijacking Evaluations",
+     "organizacao": "NIST — Center for AI Standards and Innovation (CAISI)",
+     "ano": "2025 (17/01/2025; atualizado em 19/12/2025)",
+     "tipo_fonte": "governo",
+     "setor": "segurança da informação",
+     "pais_regiao": "EUA",
+     "url": "https://www.nist.gov/node/1872381",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Sequestro de agente: 'an attacker inserts malicious instructions into data that may be ingested by an AI agent' (página web)",
+      "Com o benchmark AgentDojo e red teaming adaptativo junto ao instituto britânico, a taxa de sucesso contra um modelo de fronteira subiu de cerca de 11% para cerca de 81% em tarefas reservadas; média de 57% em cinco tarefas, chegando a 80% com 25 tentativas por ataque (página web)"
+     ],
+     "resumo": "Blog técnico do NIST sobre avaliações de sequestro de agentes por injeção indireta de prompt, com a definição do ataque e os resultados do red teaming adaptativo contra um modelo de fronteira.",
+     "relevancia": "Fonte governamental, sem conflito, para a definição e para a tese de que atacantes adaptativos elevam muito a taxa de sucesso."
+    },
+    {
+     "id": "M1155",
+     "titulo": "Supabase MCP can leak your entire SQL database (a 'tríade letal')",
+     "organizacao": "Simon Willison (pesquisador independente, sobre pesquisa da General Analysis)",
+     "ano": "2025 (06/07/2025)",
+     "tipo_fonte": "outro",
+     "setor": "segurança da informação",
+     "pais_regiao": "Global",
+     "url": "https://simonwillison.net/2025/Jul/06/supabase-mcp-lethal-trifecta/",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Tríade letal: um sistema com modelo de linguagem combina acesso a dados privados, exposição a instruções maliciosas e um canal para enviar dados ao atacante; um único servidor MCP pode fornecer os três (página web)",
+      "Caso: ticket de suporte com instruções levou o agente, operando com a chave 'service_role' (que ignora o controle por linha), a ler a tabela de tokens e escrevê-la no ticket; a documentação passou a recomendar modo somente leitura e escopo por projeto por padrão (página web)"
+     ],
+     "resumo": "Post de pesquisador independente que formula a 'tríade letal' dos agentes de IA e a ilustra com o vazamento de banco de dados via servidor MCP com chave de administrador, com a resposta do fornecedor.",
+     "relevancia": "Origem do conceito citado pelo NCSC e pela CSA; explicação executiva do mecanismo dos conectores; pesquisador sem produto a vender."
+    },
+    {
+     "id": "M1156",
+     "titulo": "Black Hat: Researchers demonstrate zero-click prompt injection attacks in popular AI agents (AgentFlayer)",
+     "organizacao": "CSO Online (Lucian Constantin), cobrindo Zenity Labs",
+     "ano": "2025 (08/08/2025)",
+     "tipo_fonte": "imprensa",
+     "setor": "segurança da informação",
+     "pais_regiao": "Global",
+     "url": "https://csoonline.com/article/4036868/black-hat-researchers-demonstrate-zero-click-prompt-injection-attacks-in-popular-ai-agents.html",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Documento 'para revisão' com prompt oculto fez o ChatGPT buscar chaves de API no Google Drive conectado e colocá-las na URL de uma imagem; o filtro de URLs foi contornado com imagens no Azure Blob; a OpenAI corrigiu (página web)",
+      "Demonstrações também em Copilot Studio, Cursor com Jira MCP, Salesforce Einstein e Gemini; 'These aren't theoretical vulnerabilities, they're working exploits with immediate, real-world consequences' (página web)"
+     ],
+     "resumo": "Cobertura das demonstrações da Zenity na Black Hat USA 2025 de exfiltração sem clique via conectores de assistentes corporativos, com a resposta dos fornecedores.",
+     "relevancia": "Caso dos conectores do ChatGPT; página primária da fornecedora não carregou, por isso via imprensa."
+    },
+    {
+     "id": "M1157",
+     "titulo": "ShadowLeak Zero-Click Flaw Leaks Gmail Data via ChatGPT Deep Research Agent",
+     "organizacao": "The Hacker News (cobrindo Radware)",
+     "ano": "2025 (20/09/2025)",
+     "tipo_fonte": "imprensa",
+     "setor": "segurança da informação",
+     "pais_regiao": "Global",
+     "url": "https://thehackernews.com/2025/09/shadowleak-zero-click-flaw-leaks-gmail.html",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "E-mail com instruções ocultas leva o agente Deep Research, com o conector Gmail, a coletar dados pessoais e enviá-los à URL do atacante a partir da nuvem da OpenAI, 'making it invisible to local or enterprise defenses'; divulgado à OpenAI em 18/06/2025 e corrigido no início de agosto (página web)"
+     ],
+     "resumo": "Cobertura da falha ShadowLeak, descoberta pela Radware: exfiltração do lado do servidor via agente de pesquisa com conector de e-mail, corrigida pela OpenAI.",
+     "relevancia": "Mostra que a exfiltração pode partir da nuvem do provedor, fora do alcance do DLP corporativo; via imprensa."
+    },
+    {
+     "id": "M1158",
+     "titulo": "ForcedLeak: AI Agent risks exposed in Salesforce AgentForce",
+     "organizacao": "Noma Security (Noma Labs)",
+     "ano": "2025 (25/09/2025)",
+     "tipo_fonte": "empresa",
+     "setor": "segurança da informação",
+     "pais_regiao": "Global",
+     "url": "https://noma.security/blog/forcedleak-agent-risks-exposed-in-salesforce-agentforce/",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "CVSS 9,4 (atribuído pela Noma); formulário Web-to-Lead com instruções no campo de descrição sequestrava o agente; o canal de saída era um domínio da lista de confiança que 'was whitelisted but had expired and become available for purchase', comprado por US$ 5 (página web)",
+      "Correção: 'Salesforce implements Trusted URLs Enforcement for Agentforce & Einstein AI' (08/09/2025) e re-registro do domínio expirado (página web)"
+     ],
+     "resumo": "Relato da fornecedora que descobriu a falha ForcedLeak no Salesforce Agentforce: injeção por formulário público e exfiltração por domínio expirado da lista de confiança, com a correção do fornecedor afetado.",
+     "relevancia": "Caso de agente de CRM sequestrado por conteúdo externo; fornecedora de segurança, confirmada pela correção da Salesforce."
+    },
+    {
+     "id": "M1159",
+     "titulo": "Microsoft patched a Copilot Studio prompt injection. The data exfiltrated anyway (CVE-2026-21520 e PipeLeak)",
+     "organizacao": "VentureBeat (cobrindo Capsule Security)",
+     "ano": "2026 (15–16/04/2026)",
+     "tipo_fonte": "imprensa",
+     "setor": "segurança da informação",
+     "pais_regiao": "Global",
+     "url": "https://venturebeat.com/security/microsoft-salesforce-copilot-agentforce-prompt-injection-cve-agent-remediation-playbook",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Copilot Studio: submissão de formulário sobrescreve as instruções do agente, extrai dados de listas do SharePoint e os envia por e-mail; CVE-2026-21520 (CVSS 7,5), patch em 15/01/2026; o DLP não disparou porque o envio usou uma ação legítima do Outlook (página web)",
+      "Agentforce (PipeLeak): sequestro por formulário público, driblando a correção do ForcedLeak; a Salesforce remediou e ativou confirmação humana por padrão para ações de e-mail (16/04/2026); 'If the human should approve every single operation, it's not really an agent' (página web)"
+     ],
+     "resumo": "Cobertura das divulgações da Capsule Security em abril de 2026 sobre falhas no Copilot Studio e no Agentforce que contornaram correções anteriores, com as respostas da Microsoft e da Salesforce.",
+     "relevancia": "Mostra o padrão 'corrige-se o canal, não a causa' e a falha do DLP diante de ações legítimas; via imprensa."
+    },
+    {
+     "id": "M1160",
+     "titulo": "Copirate 365 at DEF CON: Plundering in the Depths of Microsoft Copilot (CVE-2026-24299)",
+     "organizacao": "Johann Rehberger (Embrace The Red; pesquisador independente)",
+     "ano": "2026 (04/05/2026)",
+     "tipo_fonte": "outro",
+     "setor": "segurança da informação",
+     "pais_regiao": "Global",
+     "url": "https://embracethered.com/blog/posts/2026/defcon-talk-copirate-365",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Exfiltração pela prévia de HTML (CSS 'background-image' e '@font-face'); 'CSP is not a reliable security boundary in Copilot'; envenenamento persistente da memória ('SpAIware') que continua vazando segredos colados em sessões futuras (página web)",
+      "Reportado à Microsoft em 16/10/2025, correções entre dezembro de 2025 e março de 2026; 'Memory and personalization actions don't generate audit log entries in Purview' (página web)"
+     ],
+     "resumo": "Relato de pesquisador independente sobre uma cadeia de falhas no Microsoft 365 Copilot (exfiltração por renderização e memória envenenada), reportada e corrigida pela Microsoft, com a constatação de que ações de memória não geravam registro de auditoria.",
+     "relevancia": "Evidência de que a memória do assistente é vetor de persistência e de que a trilha de auditoria pode ter lacunas; pesquisador sem produto a vender."
+    },
+    {
+     "id": "M1161",
+     "titulo": "MCP Security Notification: Tool Poisoning Attacks",
+     "organizacao": "Invariant Labs",
+     "ano": "2025 (01/04/2025)",
+     "tipo_fonte": "empresa",
+     "setor": "segurança da informação",
+     "pais_regiao": "Global",
+     "url": "https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Descrição de ferramenta envenenada fez o Cursor ler o arquivo de configuração de MCP e chaves SSH e enviá-los a servidor malicioso; 'a malicious server can change the tool description after the client has already approved it' (rug pull); 'the shadowing attack is enough to hijack the agent's behavior with respect to trusted servers' (página web)",
+      "Recomendação: 'Clients should pin the version of the MCP server and its tools to prevent unauthorized changes' (página web)"
+     ],
+     "resumo": "Alerta de fornecedora de segurança de agentes sobre três ataques via descrições de ferramentas MCP (envenenamento, mudança após aprovação e sombreamento), com demonstração e recomendações.",
+     "relevancia": "Define o risco de cadeia de suprimentos de ferramentas MCP e o controle 'fixar versões'; fornecedora de segurança."
+    },
+    {
+     "id": "M1162",
+     "titulo": "Poisoned MCP Tool Descriptions: A Silent Exfiltration Path (research note)",
+     "organizacao": "Cloud Security Alliance (research note)",
+     "ano": "2026 (11/07/2026)",
+     "tipo_fonte": "associação setorial",
+     "setor": "segurança da informação",
+     "pais_regiao": "Global",
+     "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-mcp-tool-description-poisoning-20260711-cs/",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "'MCP mixes instructions and data in the same channel'; 'every connected tool is a live software dependency whose metadata requires the same change control'; benchmark MCPTox: taxa média de sucesso de ataque de 36,5% em 20 modelos; 9 de 11 registries MCP aceitaram submissão maliciosa de prova de conceito (página web)",
+      "Controles: re-aprovação e diff de mudanças de descrição; lista explícita de publicadores em vez de 'allow all tools'; aprovação humana para ações consequentes; telemetria centralizada agente-ferramenta; identidades não humanas distintas e com escopo (página web)"
+     ],
+     "resumo": "Nota de pesquisa da CSA sobre o envenenamento de descrições de ferramentas MCP, com os resultados de benchmarks acadêmicos, o caso postmark-mcp e a lista de controles recomendados.",
+     "relevancia": "Fonte de associação setorial para os controles de conectores (allow-list, controle de mudança, identidade por agente, confirmação humana)."
+    },
+    {
+     "id": "M1163",
+     "titulo": "Agentic Browser Security: Indirect Prompt Injection in Perplexity Comet",
+     "organizacao": "Brave (Artem Chaikin e Shivan Kaul Sahib)",
+     "ano": "2025 (20/08/2025)",
+     "tipo_fonte": "empresa",
+     "setor": "segurança da informação",
+     "pais_regiao": "Global",
+     "url": "https://brave.com/blog/comet-prompt-injection/",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Comentário escondido numa página fez o navegador com agente da Perplexity abrir a conta do usuário, obter o e-mail, disparar código de segurança, lê-lo no Gmail logado e publicá-lo — tomada de conta; reportado em 25/07/2025, correções incompletas até agosto (página web)",
+      "'The contents of the page should always be treated as untrusted'; 'sending an email should always prompt the user to confirm right before the email is sent' (página web)"
+     ],
+     "resumo": "Relato da Brave, concorrente da Perplexity, sobre injeção indireta de prompt no navegador com agente Comet, com cronologia de correção e recomendações de desenho.",
+     "relevancia": "Caso de navegador com agente; a Brave também vende navegador, conflito de interesse parcial."
+    },
+    {
+     "id": "M1165",
+     "titulo": "OWASP's 2026 LLM Top 10 and New Agent Control Standard (research note)",
+     "organizacao": "Cloud Security Alliance (research note sobre publicação da OWASP)",
+     "ano": "2026 (04/09/2026)",
+     "tipo_fonte": "associação setorial",
+     "setor": "segurança da informação",
+     "pais_regiao": "Global",
+     "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-owasp-genai-top10-2026-agent-control-stand/",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "OWASP LLM Top 10 2026 (publicado em 03/08/2026): metodologia com análise de 6.639 incidentes reais (peso 25%) e votação de praticantes (75%); 'Excessive Agency' subiu do 6º para o 3º lugar; 'Hidden Context Exposure' substitui 'System Prompt Leakage' (página web)",
+      "OWASP Agent Control Standard (versão 0.1, set/2026): governança em tempo de execução com observabilidade via OpenTelemetry/OCSF e 'Agent Bill of Materials' (página web)"
+     ],
+     "resumo": "Nota da CSA sobre a edição 2026 do Top 10 da OWASP para aplicações com modelos de linguagem e o novo padrão de controle de agentes, com a metodologia e as mudanças de ranking.",
+     "relevancia": "Mostra que 'agente com poder demais' virou prioridade operacional na comunidade de segurança; a lista completa da OWASP não foi lida na página oficial."
+    },
+    {
+     "id": "M1166",
+     "titulo": "Model Context Protocol — Security Best Practices (especificação, revisão 2025-11-25)",
+     "organizacao": "Model Context Protocol (especificação mantida pela comunidade, liderada pela Anthropic)",
+     "ano": "2025 (revisão de 25/11/2025)",
+     "tipo_fonte": "outro",
+     "setor": "tecnologia (padrão aberto)",
+     "pais_regiao": "Global",
+     "url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/security_best_practices",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "'MCP servers MUST NOT accept any tokens that were not explicitly issued for the MCP server' (proibição de repasse de tokens); escopo mínimo inicial e evitar escopos amplos ('*', 'all', 'full-access', 'admin:*') (página web)",
+      "Servidores locais em sandbox com privilégios mínimos e consentimento mostrando o comando exato; 'MCP Servers MUST NOT use sessions for authentication'; registro de eventos de elevação de escopo com identificadores de correlação (página web)"
+     ],
+     "resumo": "Seção de boas práticas de segurança da especificação do MCP: problema do 'confused deputy', proibição de repasse de tokens, minimização de escopo, sandbox para servidores locais, validação de URLs e registro.",
+     "relevancia": "Padrão oficial do protocolo para privilégio mínimo e identidade de agentes; documento normativo de comunidade técnica."
+    },
+    {
+     "id": "M1191",
+     "titulo": "Operant AI Discovers 'Shadow Escape', the First Zero-Click Agentic Attack via MCP (press release)",
+     "organizacao": "Operant AI (via GlobeNewswire)",
+     "ano": "2025 (22/10/2025)",
+     "tipo_fonte": "empresa",
+     "setor": "segurança da informação",
+     "pais_regiao": "Global",
+     "url": "https://www.globenewswire.com/news-release/2025/10/22/3171164/0/en/operant-ai-discovers-shadow-escape-the-first-zero-click-agentic-attack-via-mcp.html",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Alegação de que 'trillions of private records may be at risk of exposure', sem método, prova de conceito pública nem verificação independente; reporte à OpenAI e pedido de CVE mencionados (página web)"
+     ],
+     "resumo": "Comunicado de marketing de fornecedora sobre um suposto ataque zero-click via MCP contra ChatGPT, Claude e Gemini, sem detalhes técnicos nem resposta dos provedores. Catalogado só para registrar o número que não deve ser usado.",
+     "relevancia": "Entra na seção de números que não devem ser usados; comunicado sem evidência verificável."
+    }
+   ],
+   "formularios": [],
+   "lacunas": [
+    "Páginas primárias de Aim Security (EchoLeak), Zenity (AgentFlayer), SafeBreach (Gemini), Datadog (CoPhish) e Capsule (CVE-2026-21520) não carregaram; os dados vieram da imprensa que as cita; o MSRC (CVE-2025-32711) exige JavaScript.",
+    "Datas internas do EchoLeak (reporte em jan/2025, correção em mai/2025) aparecem em coberturas mas não foram confirmadas; só 'corrigido no servidor antes da divulgação de 11-12/06/2025'.",
+    "Benchmark MCPTox (36,5%) e a nota da CSA sobre registries (9 de 11 aceitaram submissão maliciosa) vêm da nota da CSA de 11/07/2026; o paper do MCPTox não foi lido.",
+    "Lista completa do OWASP LLM Top 10 2026 e o PDF do Agentic Top 10 (dez/2025) não foram verificados na página oficial da OWASP; a CVE-2026-26144 (Excel/Copilot) consta só em agregador.",
+    "Operant 'Shadow Escape': comunicado de marketing sem prova de conceito; catalogado só para a seção de números que não devem ser usados.",
+    "Não foi encontrada orientação pública brasileira (ANPD, BCB, Febraban) sobre conectores, MCP e injeção de prompt até 20/10/2026."
+   ]
+  },
+  {
+   "grupo": "Regulação do SFN, LGPD e posições do setor financeiro brasileiro",
+   "pasta": "08_setor-financeiro",
+   "itens": [
+    {
+     "id": "M1077",
+     "titulo": "Resolução CMN nº 4.893, de 26 de fevereiro de 2021 — política de segurança cibernética e contratação de serviços de processamento, armazenamento de dados e computação em nuvem",
+     "organizacao": "Conselho Monetário Nacional / Banco Central do Brasil",
+     "ano": "2021 (26/02/2021; vigente desde 01/07/2021)",
+     "tipo_fonte": "governo",
+     "setor": "financeiro (regulação)",
+     "pais_regiao": "Brasil",
+     "url": "https://www.ancord.org.br/wp-content/uploads/2021/03/Resolucao-CMN-n-4.893-de-26_2_2021.pdf",
+     "arquivo": "08_setor-financeiro/CMN-BCB_2021_resolucao-4893-seguranca-cibernetica-nuvem.pdf",
+     "status": "a baixar",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Política de segurança cibernética com conteúdo mínimo (art. 3º), divulgada a funcionários e prestadores e com resumo público (arts. 4º e 5º) (p. 1-2)",
+      "Plano de resposta a incidentes, diretor responsável e relatório anual com data-base 31/12, apresentado ao conselho até 31/03 (arts. 6º a 8º) (p. 2-3)",
+      "Política e plano aprovados pelo conselho de administração e revisados ao menos anualmente (arts. 9º e 10) (p. 3)",
+      "Contratação de nuvem comunicada ao BCB em até dez dias; contratação no exterior exige convênio ou autorização prévia com 60 dias; cláusulas obrigatórias de auditoria e acesso do BCB (arts. 15 a 17) (p. 4-5)",
+      "Aplica-se só a instituições autorizadas a funcionar pelo BCB (art. 1º) (p. 1)"
+     ],
+     "resumo": "Texto integral da resolução (7 páginas, cópia hospedada pela ANCORD; página oficial do BCB exige JavaScript). É a norma que obriga bancos a ter política de segurança cibernética aprovada pelo conselho, diretor responsável, plano de resposta a incidentes, relatório anual e regras de contratação de nuvem com comunicação ao regulador.",
+     "relevancia": "Base documental da tese de que o rigor bancário vem de normas neutras quanto à tecnologia; mostra o que uma empresa não financeira não é obrigada a ter."
+    },
+    {
+     "id": "M1078",
+     "titulo": "Resolução CMN nº 4.557, de 23 de fevereiro de 2017 — estrutura de gerenciamento de riscos e de capital (versão consolidada v12)",
+     "organizacao": "Conselho Monetário Nacional / Banco Central do Brasil",
+     "ano": "2017 (23/02/2017; versão consolidada)",
+     "tipo_fonte": "governo",
+     "setor": "financeiro (regulação)",
+     "pais_regiao": "Brasil",
+     "url": "https://normativos.bcb.gov.br/Lists/Normativos/Attachments/50344/Res_4557_v12_L.pdf",
+     "arquivo": "08_setor-financeiro/CMN-BCB_2017_resolucao-4557-gerenciamento-riscos-v12.pdf",
+     "status": "a baixar",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Modelos submetidos a avaliação periódica, que não pode ser feita pela unidade responsável pelo desenvolvimento (art. 9º) (p. 8)",
+      "Risco operacional inclui falhas em sistemas, processos ou infraestrutura de TI; gestão de serviços terceirizados relevantes e governança de TI consistente com a RAS (arts. 32 e 33) (p. 21-23)",
+      "Unidade específica de gerenciamento de riscos e diretor de riscos (CRO) independente, com nomeação e destituição aprovadas pelo conselho (arts. 43 e 44) (p. 35-36)",
+      "Políticas e estratégias de risco documentadas e avaliação periódica dos sistemas e rotinas (art. 7º) (p. 6)",
+      "Não se aplica a administradoras de consórcio e instituições de pagamento (art. 1º) (p. 1)"
+     ],
+     "resumo": "Norma de gerenciamento de riscos dos bancos brasileiros (46 páginas na versão consolidada). Traz a exigência de avaliação independente de modelos, a inclusão de TI e terceirizados no risco operacional e a figura do CRO independente — a infraestrutura de governança que a IA herda no setor.",
+     "relevancia": "Fonte primária do argumento de que a validação independente de modelos é obrigatória nos bancos desde 2017; o texto não usa 'validação' nem 'risco de modelo', e sim 'avaliação' (art. 9º)."
+    },
+    {
+     "id": "M1079",
+     "titulo": "Lei nº 13.709, de 14 de agosto de 2018 — Lei Geral de Proteção de Dados Pessoais (LGPD), texto compilado",
+     "organizacao": "Presidência da República (Planalto)",
+     "ano": "2018 (texto compilado consultado em 20/10/2026)",
+     "tipo_fonte": "governo",
+     "setor": "intersetorial (proteção de dados)",
+     "pais_regiao": "Brasil",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Art. 20: direito à revisão de decisões tomadas unicamente com base em tratamento automatizado, inclusive perfil de crédito; § 1º: informações claras sobre critérios e procedimentos (página web)",
+      "Art. 5º, XVII e art. 38: relatório de impacto à proteção de dados pessoais; art. 46: medidas de segurança; art. 48: comunicação de incidente à ANPD e ao titular; art. 50, § 2º: programa de governança em privacidade (página web)"
+     ],
+     "resumo": "Texto compilado da LGPD no portal do Planalto. Única obrigação horizontal, válida para todos os setores, que alcança o uso de IA: revisão de decisões automatizadas, relatório de impacto, segurança e comunicação de incidentes.",
+     "relevancia": "Define o que vale para uma empresa não financeira no Brasil, em contraste com as resoluções do CMN que valem só para bancos."
+    },
+    {
+     "id": "M1096",
+     "titulo": "Banco Central planeja regulamentação gradual da IA no setor financeiro",
+     "organizacao": "Revista Oeste (Isabela Jordão)",
+     "ano": "2025 (10/09/2025)",
+     "tipo_fonte": "imprensa",
+     "setor": "financeiro",
+     "pais_regiao": "Brasil",
+     "url": "https://revistaoeste.com/economia/banco-central-planeja-regulamentacao-gradual-da-ia-no-setor-financeiro/",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Chefe de Regulação do Sistema Financeiro do BC: 'No momento, não planejamos emitir nenhuma regulação, pelo menos não até o final de 2026' (página web)",
+      "Resultados da pesquisa alimentarão avaliação de impacto regulatório prevista para 2026; BC quer aprender com a experiência da FCA britânica (página web)"
+     ],
+     "resumo": "Matéria sobre fala de dirigente do BCB no Finance of Tomorrow 2025: o BC não pretende editar regulação específica de IA até o fim de 2026, prioriza equilíbrio entre inovação e controle de riscos e fará avaliação de impacto em 2026.",
+     "relevancia": "Registra, com data, a posição do regulador de não editar norma de IA até 2026 — ponto central da seção 3."
+    },
+    {
+     "id": "M1097",
+     "titulo": "IA no setor financeiro preocupa BC por 'caixa-preta' e governança de dados (cobertura da seção 2.1 do REF nov/2025)",
+     "organizacao": "Finsiders Brasil (Danylo Martins)",
+     "ano": "2025 (12/11/2025)",
+     "tipo_fonte": "imprensa",
+     "setor": "financeiro",
+     "pais_regiao": "Brasil",
+     "url": "https://finsidersbrasil.com.br/regulamentacao/ia-no-setor-financeiro-preocupa-bc-por-caixa-preta-e-governanca-de-dados/",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "606 instituições responderam (cerca de 38% das autorizadas; 96% dos ativos do SFN, data-base dez/2024); coleta entre fevereiro e março de 2025; 26,7% usam modelos de IA (página web)",
+      "Benefícios citados: eficiência 95,7%; redução de custos 73,5%; melhor tomada de decisão 72,2% (página web)",
+      "Riscos conforme a matéria: operacional 52%, má qualidade de dados 45%, terceiros 18% — divergem dos slides oficiais do BCB (página web)"
+     ],
+     "resumo": "Cobertura jornalística da pesquisa do BCB sobre IA no SFN, com amostra, período e benefícios citados, e declarações do diretor de Fiscalização sobre explicabilidade e sobre a intenção de 'antecipar o entendimento de práticas e riscos'. Os percentuais de risco divergem dos slides oficiais.",
+     "relevancia": "Única fonte acessível nesta rodada com a amostra e a adoção total (26,7%) da pesquisa do BCB; usar o REF (M415, pp. 64-69) e os slides da coletiva como fonte primária."
+    },
+    {
+     "id": "M1098",
+     "titulo": "Banco Central monitora uso de inteligência artificial em bancos",
+     "organizacao": "Jornal Brasil em Folhas (Carla Fernandes)",
+     "ano": "2026 (07/09/2026)",
+     "tipo_fonte": "imprensa",
+     "setor": "financeiro",
+     "pais_regiao": "Brasil",
+     "url": "https://www.brasilemfolhas.com.br/2026/09/banco-central-monitora-uso-de-inteligencia-artificial-em-bancos/",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "BC repetiu em 2026 a pesquisa de 2025 sobre IA; resultados 'ainda em análise' (página web)",
+      "Grandes bancos do segmento S1 'avançaram na implementação de modelos, sistemas e governança de IA'; assimetria em cooperativas e IPs; preocupação com concentração: 'falha de um único prestador de serviço afetaria múltiplas instituições' (página web)"
+     ],
+     "resumo": "Cobertura de fala de coordenador do Departamento de Regulação do Sistema Financeiro do BCB no Zetta Summit (01/09/2026): monitoramento regulatório da IA, nova pesquisa em 2026 e risco de concentração de fornecedores.",
+     "relevancia": "Atualiza para 2026 a posição do BCB e introduz a concentração de terceiros como próxima fronteira de supervisão; fonte de imprensa regional, usar com a ressalva."
+    },
+    {
+     "id": "M1100",
+     "titulo": "Resolução CMN nº 5.274, de 18 de dezembro de 2025 — altera a Resolução CMN nº 4.893/2021 (segurança cibernética)",
+     "organizacao": "Conselho Monetário Nacional / Banco Central do Brasil (texto lido em espelho Normas Brasil)",
+     "ano": "2025 (18/12/2025; DOU 22/12/2025)",
+     "tipo_fonte": "governo",
+     "setor": "financeiro (regulação)",
+     "pais_regiao": "Brasil",
+     "url": "https://www.normasbrasil.com.br/norma/resolucao-5274-2025_488277.html",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Testes de intrusão com periodicidade mínima anual, por pessoa ou empresa especializada contratada, com resultados documentados (art. 22-A) (página web)",
+      "Revisão periódica das permissões de acesso, em especial de terceirizados, e múltiplos fatores de autenticação para acesso à rede corporativa (art. 3º, § 9º) (página web)",
+      "Segmentação de rede resguardando o ambiente de produção; retenção segura das trilhas de auditoria; correção tempestiva de vulnerabilidades (art. 3º, §§ 7º, 8º e 11) (página web)",
+      "Adaptação das instituições em funcionamento até 01/03/2026 (art. 2º) (página web)"
+     ],
+     "resumo": "Alteração de dezembro de 2025 que endurece a Res. 4.893 após os incidentes cibernéticos de 2024–2025 no SFN: pentest anual, MFA, segmentação de rede, revisão de acessos de terceirizados, trilhas de auditoria e regras para ambientes Pix. O texto não menciona inteligência artificial. Lido em espelho porque a página oficial do BCB exige JavaScript.",
+     "relevancia": "Mostra o padrão regulatório prescritivo do setor financeiro, sem equivalente para empresas não financeiras; sustenta os controles de credenciais, acessos e trilhas da seção 6."
+    },
+    {
+     "id": "M1101",
+     "titulo": "PL 2338/2023: situação atual do Marco Legal da IA (monitor legislativo, atualizado em 20/10/2026)",
+     "organizacao": "LCF Consulting (monitor legislativo)",
+     "ano": "2026 (consulta em 20/10/2026)",
+     "tipo_fonte": "outro",
+     "setor": "intersetorial (regulação de IA)",
+     "pais_regiao": "Brasil",
+     "url": "https://monitor.lcfconsulting.com.br/proposicoes/pl-2338-2023/",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Senado: aprovado em Plenário em 10/12/2024; Câmara: recebido em 17/03/2025, Comissão Especial instalada em 20/05/2025; situação 'Aguardando Parecer do Relator' (página web)",
+      "Em 24/08/2026 o relator disse que a votação 'fica para depois das eleições de outubro'; sem número de lei; 'não é obrigação vigente' (página web)"
+     ],
+     "resumo": "Página de monitoramento legislativo com a cronologia do PL 2338/2023 e sua situação em 20/10/2026: aprovado no Senado, parado na Comissão Especial da Câmara, votação adiada para depois das eleições.",
+     "relevancia": "Fonte datada para afirmar que o marco legal da IA não vigora; complementa o texto do Senado já catalogado (M197)."
+    },
+    {
+     "id": "M1103",
+     "titulo": "Sem Marco Legal, ANPD e setores avançam na regulação da IA (boletim)",
+     "organizacao": "TozziniFreire Advogados",
+     "ano": "2026 (21/08/2026)",
+     "tipo_fonte": "outro",
+     "setor": "intersetorial (regulação de IA)",
+     "pais_regiao": "Brasil",
+     "url": "https://tozzinifreire.com.br/publicacoes/boletins/sem-marco-legal-anpd-e-setores-avancam-na-regulacao-da-ia/",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Sandbox regulatório de IA da ANPD (Edital nº 2/2025): Ciclo 1 iniciado em 18/03/2026; 1º Relatório Parcial de Monitoramento em 02/07/2026; operação até dezembro de 2026 (página web)",
+      "Projeto do Executivo (dez/2025) para criar o Sistema Nacional de IA (SIA), com a ANPD como coordenadora; reguladores setoriais (CFM, Anatel, CVM) atuando sem o marco legal (página web)"
+     ],
+     "resumo": "Boletim de escritório de advocacia sobre o estado da regulação de IA no Brasil em agosto de 2026: sandbox da ANPD em andamento, proposta do SIA e normas setoriais. Usado porque as páginas da ANPD no gov.br não puderam ser lidas.",
+     "relevancia": "Registra o andamento do sandbox da ANPD e a ausência de marco legal vigente; fonte secundária, a confirmar nas páginas oficiais da ANPD."
+    },
+    {
+     "id": "M1104",
+     "titulo": "Response to the FSB consultation report 'Sound Practices for Responsible Adoption of Artificial Intelligence (AI)'",
+     "organizacao": "FEBRABAN — Federação Brasileira de Bancos",
+     "ano": "2026 (consulta encerrada em 22/07/2026; documento sem data)",
+     "tipo_fonte": "associação setorial",
+     "setor": "financeiro",
+     "pais_regiao": "Brasil",
+     "url": "https://www.fsb.org/uploads/FEBRABAN.pdf",
+     "arquivo": "08_setor-financeiro/FEBRABAN_2026_resposta-consulta-fsb-sound-practices-ia.pdf",
+     "status": "a baixar",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Riscos de IA generativa e agêntica citados: 'hallucinations, prompt injection, data exfiltration through prompts' (p. 1)",
+      "Práticas relatadas por bancos brasileiros: estratégia corporativa de dados e IA, unidade de governança e centro de excelência; função de risco de IA com risco de modelo, DPO e risco de TI; IA na gestão de terceiros (p. 3)",
+      "Crédito: modelos de IA não operam de forma totalmente autônoma; mecanismos de 'manual override' e alertas para revisão humana (p. 4)",
+      "Recomenda convergência com iniciativas setoriais e multilaterais para evitar fragmentação regulatória (p. 5)"
+     ],
+     "resumo": "Resposta da Febraban à consulta do FSB de 2026 (cerca de 10 páginas). Descreve as práticas de governança de IA relatadas por bancos brasileiros, os riscos da IA generativa e agêntica e a preocupação com concentração de provedores críticos.",
+     "relevancia": "Documento oficial da associação dos bancos sobre como o setor governa IA, incluindo injeção de prompt e exfiltração por prompts; sustenta as seções 3 e 5."
+    },
+    {
+     "id": "M1105",
+     "titulo": "Guia para avaliação de IA generativa é novo passo na agenda de inovação da Anbima (lançamento do Gaig, 09/03/2026)",
+     "organizacao": "ANBIMA — Associação Brasileira das Entidades dos Mercados Financeiro e de Capitais",
+     "ano": "2026 (10/03/2026)",
+     "tipo_fonte": "associação setorial",
+     "setor": "financeiro (mercado de capitais)",
+     "pais_regiao": "Brasil",
+     "url": "https://www.anbima.com.br/pt_br/noticias/guia-para-avaliacao-de-ia-generativa-e-novo-passo-na-agenda-de-inovacao-da-anbima.htm",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Gaig (Guia de Avaliação de IA Generativa), com a Zetta: metodologia em quatro etapas para avaliar riscos na contratação de fornecedores de IA generativa — risco inerente, questionário ao terceiro, risco residual, requisitos de governança e transparência (página web)",
+      "Lista também o guia 'Governança de IA: integrando boas práticas ao longo do ciclo de vida' (10/10/2025) e o guia de contratação de sistemas de IA (página web)"
+     ],
+     "resumo": "Notícia oficial da ANBIMA sobre o lançamento do guia de avaliação de fornecedores de IA generativa, com metodologia e planilhas, e sobre os demais guias da entidade (ciclo de vida e contratação).",
+     "relevancia": "Referência brasileira voluntária para avaliar terceiros de IA generativa — controle contratual transferível a empresas não financeiras."
+    },
+    {
+     "id": "M1115",
+     "titulo": "Regulação da IA: BC e bancos defendem equilíbrio e autonomia setorial (audiência pública da Câmara sobre o PL 2338, 06/08/2025)",
+     "organizacao": "Finsiders Brasil (Danylo Martins)",
+     "ano": "2025 (07/08/2025)",
+     "tipo_fonte": "imprensa",
+     "setor": "financeiro",
+     "pais_regiao": "Brasil",
+     "url": "https://finsidersbrasil.com.br/ia/regulacao-da-ia-bc-e-bancos-defendem-equilibrio-e-autonomia-setorial/",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Febraban: previsão de R$ 47,8 bilhões em tecnologia em 2025, quase R$ 2 bilhões em IA; bancos usam IA há mais de dez anos; 'A sanção precisa recair sobre o erro' (página web)",
+      "BC defende modelo com reguladores setoriais com 'certo grau de liberdade'; o SIA não deve se sobrepor à competência setorial (página web)"
+     ],
+     "resumo": "Cobertura da audiência pública da Comissão Especial do PL 2338 na Câmara: Febraban e BCB defendem que a Res. CMN 4.557 e as normas setoriais já alcançam a IA e que a regulação deve preservar a autonomia dos reguladores setoriais.",
+     "relevancia": "Posição pública da Febraban e do BCB sobre o marco legal; sustenta a leitura de que a IA 'herda' o arcabouço bancário existente."
+    },
+    {
+     "id": "M1134",
+     "titulo": "Febraban Tech 2026: Inteligência artificial mudou a maneira dos bancos fazer negócios (painel de abertura, 24/08/2026)",
+     "organizacao": "Convergência Digital (Fabio Barros)",
+     "ano": "2026 (24/08/2026)",
+     "tipo_fonte": "imprensa",
+     "setor": "financeiro",
+     "pais_regiao": "Brasil",
+     "url": "https://convergenciadigital.com.br/mercado/febraban-tech-2026-inteligencia-artificial-mudou-a-maneira-dos-bancos-fazer-negocios/",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Presidente do Santander Brasil: 'A governança não é inimiga da inovação' (página web)",
+      "Presidente do Itaú: base de IA responsável construída em 2023–2024; Nubank: IA preditiva para crédito e generativa para operações (página web)"
+     ],
+     "resumo": "Cobertura do painel de abertura do Febraban Tech 2026 com os presidentes de Santander Brasil, Itaú, Nubank e Caixa, sobre governança, IA responsável e uso de IA preditiva e generativa.",
+     "relevancia": "Declarações públicas de executivos dos maiores bancos brasileiros sobre a relação entre governança e inovação; fonte de imprensa, só para contexto."
+    },
+    {
+     "id": "M1184",
+     "titulo": "Relatório de Estabilidade Financeira – Apresentação à imprensa (coletiva), novembro de 2025 (slides sobre risco cibernético e pesquisa de IA no SFN)",
+     "organizacao": "Banco Central do Brasil",
+     "ano": "2025 (nov/2025)",
+     "tipo_fonte": "governo",
+     "setor": "financeiro (regulador)",
+     "pais_regiao": "Brasil",
+     "url": "https://www.bcb.gov.br/conteudo/home-ptbr/TextosApresentacoes/REF_novembro2025_Apresentacao_coletiva_imprensa.pdf",
+     "arquivo": "08_setor-financeiro/BCB_2025_ref-nov2025-apresentacao-coletiva-imprensa.pdf",
+     "status": "a baixar",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Instituições que usam modelos de IA, por segmento (absoluto / % do segmento): bancos 55 / 45%; S1 6 / 100%; S2 7 / 100%; S3 25 / 57%; S4 17 / 26%; cooperativas 9 / 5%; IPs 72 / 38% (slide 24, índice do PDF)",
+      "Riscos associados à IA (% de respondentes): legal ou não conformidade 66,0%; operacional 65,4%; má qualidade dos dados 64,8%; reputacional 61,7%; risco de modelo 54,3%; tecnológico 53,1%; prestadores terceirizados 42,0% (slide 25)",
+      "Incidentes cibernéticos relevantes reportados ao BCB: 59 em 2024 e 53 até agosto de 2025, contra 24 em 2023 (slides 21-23)"
+     ],
+     "resumo": "Slides da coletiva de imprensa do REF de novembro de 2025. Resume a pesquisa do BCB sobre uso de IA no SFN (606 instituições, fevereiro–março de 2025) com adoção por segmento e riscos percebidos, além da série de incidentes cibernéticos. Páginas citadas pelo índice do PDF.",
+     "relevancia": "Fonte primária e sem conflito comercial para 'adoção generalizada entre os bancos de maior porte' e para a percepção de risco de modelo e de terceiros; resolve o conflito de números com a cobertura jornalística."
+    }
+   ],
+   "formularios": [],
+   "lacunas": [
+    "Riscos percebidos na pesquisa do BCB: a Finsiders (12/11/2025) publica operacional 52%, má qualidade de dados 45% e terceiros 18%, enquanto os slides da coletiva do BCB trazem 65,4%, 64,8% e 42,0%; prevalece o BCB; conferir no REF nov/2025, pp. 64-69 (M415).",
+    "A Finsiders (07/08/2025) diz que o BC pesquisou 'quase 100 instituições'; a pesquisa do REF teve 606 respondentes; possivelmente outro levantamento.",
+    "Sandbox da ANPD: a lista de participantes difere entre fontes (IA Greenworld × Prevvine); confirmar nas páginas da ANPD, que não puderam ser lidas.",
+    "Res. CMN 4.893, 5.274 e 4.557 lidas em cópias (ANCORD, espelho Normas Brasil, normativos.bcb.gov.br); as páginas oficiais 'exibenormativo' exigem JavaScript; a Res. CMN 4.968 e a Res. BCB 448/2025 ficaram fora da nota.",
+    "O autógrafo do PL 2338 (Senado) não foi lido; a lista completa do art. 14 e as sanções vêm do CGI.br e de fontes secundárias.",
+    "A resposta da Febraban ao FSB não traz data no texto; o 'guia de IA' da Febraban citado em buscas não foi localizado."
+   ]
+  },
+  {
+   "grupo": "Bancos globais: governança da IA generativa na prática",
+   "pasta": "08_setor-financeiro",
+   "itens": [
+    {
+     "id": "M1080",
+     "titulo": "JPMorgan Chase restricts staffers' use of ChatGPT",
+     "organizacao": "CNN Business",
+     "ano": "2023 (22/02/2023)",
+     "tipo_fonte": "imprensa",
+     "setor": "financeiro",
+     "pais_regiao": "EUA",
+     "url": "https://www.cnn.com/2023/02/22/tech/jpmorgan-chatgpt-employees/index.html",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "JPMorgan 'is temporarily clamping down on the use of ChatGPT among its employees'; 'The decision was taken not because of a particular issue', mas 'to accord with limits on third-party software due to compliance concerns' (página web)"
+     ],
+     "resumo": "Primeira cobertura da restrição do ChatGPT pelo JPMorgan em fevereiro de 2023, com base em fonte anônima; o banco não comentou.",
+     "relevancia": "Registro datado da onda de restrições de 2023 e da motivação (política de software de terceiros, não incidente)."
+    },
+    {
+     "id": "M1116",
+     "titulo": "Wall Street's ChatGPT nightmare is over before it starts as banks crack down",
+     "organizacao": "Bloomberg News, via American Banker (Katherine Doherty)",
+     "ano": "2023 (27/02/2023)",
+     "tipo_fonte": "imprensa",
+     "setor": "financeiro",
+     "pais_regiao": "EUA",
+     "url": "https://americanbanker.com/articles/wall-streets-chatgpt-nightmare-is-over-before-it-starts-as-banks-crack-down",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Bank of America informou funcionários que ChatGPT e OpenAI estavam 'prohibited from business use' e os incluiu no lembrete rotineiro de aplicativos não autorizados; Citigroup, Goldman Sachs, Deutsche Bank e Wells Fargo tomaram 'similar steps' (página web)",
+      "Contexto: US$ 2 bilhões em sanções por aplicativos de mensagens não monitorados (página web)"
+     ],
+     "resumo": "Síntese da Bloomberg sobre as restrições ao ChatGPT nos grandes bancos americanos em fevereiro de 2023, com a motivação regulatória (segurança de dados e histórico de multas por comunicações não monitoradas).",
+     "relevancia": "Fonte para a onda de 2023 em seis bancos; a matéria original da Bloomberg está atrás de paywall."
+    },
+    {
+     "id": "M1117",
+     "titulo": "Goldman Sachs announces firmwide launch of AI assistant",
+     "organizacao": "Fox Business (Eric Revell)",
+     "ano": "2025 (23/06/2025)",
+     "tipo_fonte": "imprensa",
+     "setor": "financeiro",
+     "pais_regiao": "EUA",
+     "url": "https://foxbusiness.com/technology/goldman-sachs-announces-firmwide-launch-ai-assistant",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "GS AI Assistant liberado a toda a firma em junho de 2025, após engenheiros (2024) e 10 mil funcionários (janeiro de 2025); acesso seguro a modelos aprovados de OpenAI, Google, Anthropic e abertos (página web)"
+     ],
+     "resumo": "Cobertura do memorando do CIO do Goldman Sachs sobre o lançamento do assistente de IA para toda a firma, com as fases de liberação e os modelos disponíveis.",
+     "relevancia": "Evidência do acesso faseado e da plataforma com vários modelos num grande banco global; fonte de imprensa."
+    },
+    {
+     "id": "M1118",
+     "titulo": "Citi deploys agentic tools to in-house AI platform",
+     "organizacao": "Banking Dive (Roberto Torres)",
+     "ano": "2025 (23/09/2025)",
+     "tipo_fonte": "imprensa",
+     "setor": "financeiro",
+     "pais_regiao": "EUA",
+     "url": "https://www.bankingdive.com/news/citi-agentic-AI-tools-stylus-workspaces/760868/",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Citi Stylus Workspaces lançado em dezembro de 2024; capacidades agênticas anunciadas em 22/09/2025; 'Built on Google's Gemini and Anthropic's Claude models' (página web)",
+      "Piloto agêntico com 5 mil funcionários; 30 mil desenvolvedores com ferramentas de codificação generativa em 2025; head of AI nomeado, reportando ao COO (página web)"
+     ],
+     "resumo": "Matéria sobre a plataforma interna de IA do Citi, os modelos usados, o piloto de agentes e a nomeação de um líder de IA.",
+     "relevancia": "Evidência de plataforma interna com vários modelos e piloto faseado de agentes; fonte de imprensa, governança a extrair do Investor Day (M421)."
+    },
+    {
+     "id": "M1119",
+     "titulo": "BBVA puts AI at the core of banking with OpenAI (case de cliente)",
+     "organizacao": "OpenAI",
+     "ano": "2026 (11/06/2026)",
+     "tipo_fonte": "analista/big tech",
+     "setor": "financeiro",
+     "pais_regiao": "Espanha / global",
+     "url": "https://openai.com/index/bbva/",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "'More than 100,000 employees using ChatGPT Enterprise globally', de 3.000 em 2024; 'more than 20,000' GPTs customizados criados, cerca de 4.000 em uso regular (página web)",
+      "Pilares 'trust, governance, and structured learning'; 'sanctioned enterprise access over unauthorized use of consumer AI tools'; segurança, jurídico, compliance e tecnologia alinhados desde o início; 250 líderes treinados (página web)"
+     ],
+     "resumo": "Case publicado pela OpenAI sobre a expansão do ChatGPT Enterprise no BBVA, com números de usuários e GPTs, rede de 'champions' e a opção explícita por acesso corporativo sancionado em vez de uso não autorizado.",
+     "relevancia": "Fonte do argumento 'acesso sancionado em vez de uso por fora' e da escala de assistentes criados por funcionários; case de fornecedor, sem fluxo de aprovação nem regra de dados."
+    },
+    {
+     "id": "M1129",
+     "titulo": "Goldman CIO: Don't rule out open models",
+     "organizacao": "Axios (Madison Mills)",
+     "ano": "2026 (08/09/2026)",
+     "tipo_fonte": "imprensa",
+     "setor": "financeiro",
+     "pais_regiao": "EUA",
+     "url": "https://axios.com/2026/09/08/goldman-cio-dont-rule-out-open-models",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "CIO: 'I don't think a priori we should block access to any model'; a pergunta é sob quais condições rodar qualquer modelo (página web)",
+      "'Zero trust' e 'defense in depth' em quatro camadas: teste e certificação de modelos, ambientes de inferência seguros, permissões de agentes rigorosamente monitoradas, acesso controlado a dados corporativos; sistemas de IA não acessam dados diretamente, passam pela plataforma de dados (página web)"
+     ],
+     "resumo": "Entrevista do CIO do Goldman Sachs sobre o modelo de controle em camadas para rodar qualquer modelo, inclusive abertos, com certificação, inferência segura, permissões de agentes e acesso a dados via plataforma.",
+     "relevancia": "Descrição mais clara de 'governança por engenharia' num banco, incluindo controles específicos para agentes; declaração de executivo via imprensa."
+    },
+    {
+     "id": "M1130",
+     "titulo": "Morgan Stanley uses AI evals to shape the future of financial services (case de cliente)",
+     "organizacao": "OpenAI",
+     "ano": "2025 (página sem data; consultada em 20/10/2026)",
+     "tipo_fonte": "analista/big tech",
+     "setor": "financeiro",
+     "pais_regiao": "EUA",
+     "url": "https://openai.com/index/morgan-stanley/",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Cada caso de uso testado com avaliações ('evals') com feedback de especialistas antes da implantação; 'Daily regression testing' para fraquezas e compliance; 'Over 98% of advisor teams actively use the Assistant'; corpus de 100 mil documentos (página web)",
+      "Política de retenção zero de dados do provedor mantém os dados proprietários fora do treinamento; notas do Debrief revisadas pelo assessor antes de ir ao CRM (página web)"
+     ],
+     "resumo": "Case publicado pela OpenAI sobre o uso de avaliações sistemáticas pelo Morgan Stanley antes e depois de implantar assistentes de IA, com retenção zero de dados e revisão humana.",
+     "relevancia": "Exemplo de 'governança por avaliação' e do controle contratual de retenção zero; case de fornecedor, sem dados de governança institucional."
+    },
+    {
+     "id": "M1131",
+     "titulo": "Responsible and Ethical AI in Banking and Finance (framework PURE e governança de IA)",
+     "organizacao": "DBS Bank",
+     "ano": "2025 (06/10/2025)",
+     "tipo_fonte": "empresa",
+     "setor": "financeiro",
+     "pais_regiao": "Singapura",
+     "url": "https://www.dbs.com/artificial-intelligence-machine-learning/artificial-intelligence/ethical-and-responsible-ai-in-banking.html",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Framework PURE (Purposeful, Unsurprising, Respectful, Explainable) desde 2019; governança de modelo baseada em risco com avaliação de materialidade, registro ('AI protocol'), papéis definidos e responsabilização da alta gestão (página web)",
+      "'Clearance channels for Gen AI use cases were elevated to ensure senior management oversight'; adoção inicial limitada a uso interno, com alta supervisão humana e liberação incremental; 'hundreds of AI use cases'; SGD 750 milhões de valor econômico em 2024 (página web)"
+     ],
+     "resumo": "Página institucional do DBS sobre IA responsável: framework PURE, governança de modelo por materialidade com registro, taskforce de IA responsável, aprovação elevada para usos generativos e programa de treinamento.",
+     "relevancia": "Modelo documental de 'risco de modelo estendido à IA generativa' com registro e materialidade; documento oficial do banco."
+    },
+    {
+     "id": "M1132",
+     "titulo": "Harnessing AI as a core enabler of business strategy",
+     "organizacao": "NatWest Group (Group CIO)",
+     "ano": "2026 (27/07/2026)",
+     "tipo_fonte": "empresa",
+     "setor": "financeiro",
+     "pais_regiao": "Reino Unido",
+     "url": "https://www.natwestgroup.com/news-and-insights/latest-stories/ai-and-data/2026/jul/harnessing-ai-as-a-core-enabler-of-business-strategy.html",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "'60,000 colleagues have access to AI tools'; mais de 60 mil completaram o 'AI Adoption training'; 271 mil módulos concluídos; acreditação em IA responsável e ética de dados para todos (página web)",
+      "AI Steering Committee; Chief AI Research Office; Head of Responsible AI; código de conduta de ética em IA e dados; briefings e cenários ao conselho; mais de 40% do código do banco com IA em 2025 (página web)"
+     ],
+     "resumo": "Artigo do CIO do NatWest sobre a estratégia de IA: acesso para 60 mil colegas, treinamento e acreditação para todos, comitê diretor, escritório de pesquisa em IA, responsável por IA responsável e envolvimento do conselho.",
+     "relevancia": "Exemplo de treinamento obrigatório e acreditação como controle de governança, com instâncias nomeadas; documento oficial do banco."
+    },
+    {
+     "id": "M1133",
+     "titulo": "Developing safe and human centric AI",
+     "organizacao": "Standard Chartered (Group Chief Data Officer)",
+     "ano": "2025 (18/07/2025; modificado em 30/03/2026)",
+     "tipo_fonte": "empresa",
+     "setor": "financeiro",
+     "pais_regiao": "Reino Unido / global",
+     "url": "https://www.sc.com/en/news/innovation/developing-safe-and-human-centric-ai/",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Padrão de IA responsável desde 2021; 'Responsible AI Council' 'assesses each model against these principles and decides whether to approve it' (página web)",
+      "Atributos sensíveis (gênero, etnia, raça, opinião política) normalmente removidos dos modelos; SC GPT em 41 mercados para cerca de 70 mil funcionários; 'the individual is accountable for the outcome' (página web)"
+     ],
+     "resumo": "Artigo institucional do Standard Chartered sobre IA responsável: conselho que aprova cada modelo, remoção de atributos sensíveis, assistente interno em 41 mercados e responsabilidade individual pelo resultado.",
+     "relevancia": "Exemplo de aprovação modelo a modelo por conselho de IA responsável e de regra de dado (atributos sensíveis fora); documento oficial do banco."
+    }
+   ],
+   "formularios": [],
+   "lacunas": [
+    "Onda de 2023: a matéria original da Bloomberg (24/02/2023) está atrás de paywall; datas por banco (exceto JPMorgan 22/02) vêm de republicações.",
+    "JPMorgan: a carta do CEO (M441) foi lida com páginas inferidas (podem variar em uma); número de usuários do LLM Suite e gasto com IA devem ser conferidos em M441, M471 e M472.",
+    "Goldman: números de uso do assistente após 06/2025 não localizados em fonte oficial; governança descrita só em entrevistas (Fox Business, Axios).",
+    "Citi: governança da estratégia agêntica a extrair da transcrição do Investor Day 2026 (M421), não reaberta.",
+    "BBVA e Morgan Stanley: fontes são cases dos fornecedores (OpenAI), sem fluxo de aprovação nem regra de dados; Wells Fargo e RBC ficaram fora da tabela por falta de fonte oficial lida.",
+    "CommBank: o documento 'Our Approach to Adopting AI' (M423) exclui explicitamente o uso de IA pelos empregados e os assistentes criados por eles (p. 19, nota 2)."
+   ]
+  },
+  {
+   "grupo": "Vazamento de dados e credenciais por ferramentas de IA",
+   "pasta": "12_shadow-ai-governanca",
+   "itens": [
+    {
+     "id": "M1081",
+     "titulo": "Vazamentos de dados por IA generativa no Brasil (cobertura do Netskope Threat Labs Report: Brasil 2026)",
+     "organizacao": "Times Brasil (cobrindo relatório da Netskope)",
+     "ano": "2026 (11/05/2026; dados de 01/03/2025 a 31/03/2026)",
+     "tipo_fonte": "imprensa",
+     "setor": "segurança da informação",
+     "pais_regiao": "Brasil",
+     "url": "https://timesbrasil.com.br/empresas-e-negocios/inteligencia-artificial/vazamentos-dados-ia-generativa-brasil-netskope-2026/",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "64% das violações de política de dados em apps de IA generativa no Brasil envolvem dados regulados/sensíveis; código-fonte 21%; senhas e chaves de API 9%; propriedade intelectual 7% (página web)",
+      "Usuários ativos de IA generativa de 50% para 71%; soluções gerenciadas pela organização de 29% para 70%; 52% ainda usam contas pessoais; apps mais bloqueados: DeepSeek 37% (página web)"
+     ],
+     "resumo": "Cobertura do relatório brasileiro da Netskope (telemetria de clientes no país, março de 2025 a março de 2026) sobre violações de política de dados em IA generativa e uso de contas pessoais. PDF oficial não localizado.",
+     "relevancia": "Única medição brasileira localizada sobre vazamento em IA generativa; fornecedora de segurança via imprensa, conferir no relatório."
+    },
+    {
+     "id": "M1082",
+     "titulo": "The State of Secrets Sprawl 2026: AI service leaks surge 81% and 29M secrets hit public GitHub (artigo oficial, 5ª edição)",
+     "organizacao": "GitGuardian",
+     "ano": "2026 (mar/2026; dados de 2025)",
+     "tipo_fonte": "empresa",
+     "setor": "segurança da informação",
+     "pais_regiao": "Global",
+     "url": "https://dev.to/gitguardian/the-state-of-secrets-sprawl-2026-ai-service-leaks-surge-81-and-29m-secrets-hit-public-github-2bgj",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "28,65 milhões de segredos novos em commits públicos do GitHub em 2025 (+34%); segredos de serviços de IA 1.275.105 (+81%) (página web)",
+      "Commits assistidos pelo Claude Code: taxa de vazamento de segredos de 3,2% contra 1,5% da base; ressalva: 'The leak still happens through a human workflow' (página web)",
+      "Dataset Shai-Hulud 2: 6.943 máquinas, 33.185 segredos únicos; 59% das máquinas eram executores de CI/CD; mais de 64% das credenciais válidas em 2022 ainda válidas em janeiro de 2026 (página web)"
+     ],
+     "resumo": "Artigo oficial da GitGuardian com os resultados da quinta edição do relatório de segredos expostos: varredura de bilhões de commits públicos, segredos de serviços de IA, commits assistidos por IA e análise do worm Shai-Hulud. Página do PDF não determinada.",
+     "relevancia": "Medição mais ampla de credenciais expostas e única comparação de taxa de vazamento com e sem assistente de IA; fornecedora de detecção de segredos."
+    },
+    {
+     "id": "M1083",
+     "titulo": "The State of Secrets Sprawl 2026 (cobertura com dados de MCP, ferramentas de colaboração e repositórios internos)",
+     "organizacao": "The Hacker News (cobrindo GitGuardian)",
+     "ano": "2026 (30/03/2026)",
+     "tipo_fonte": "imprensa",
+     "setor": "segurança da informação",
+     "pais_regiao": "Global",
+     "url": "https://thehackernews.com/2026/03/the-state-of-secrets-sprawl-2026-9.html",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "'24,008 unique secrets in MCP-related config files on public GitHub, with 2,117 verified as valid' (página web)",
+      "28% dos incidentes de 2025 nasceram fora do código (Slack, Jira, Confluence); 56,7% dos segredos só em ferramentas de colaboração classificados como críticos; 32,2% dos repositórios internos com segredo escrito, contra 5,6% dos públicos (página web)"
+     ],
+     "resumo": "Cobertura do relatório de segredos da GitGuardian com os números de segredos em arquivos de configuração de MCP, fora do código e em repositórios internos.",
+     "relevancia": "Fonte dos 24.008 segredos em configurações de MCP — ligação direta entre agentes e vazamento de credenciais; imprensa sobre fornecedora."
+    },
+    {
+     "id": "M1084",
+     "titulo": "S1ngularity — What Happened, How We Responded, What We Learned (postmortem)",
+     "organizacao": "Nx (Nrwl) — mantenedor do pacote",
+     "ano": "2025 (05/09/2025)",
+     "tipo_fonte": "empresa",
+     "setor": "tecnologia (software aberto)",
+     "pais_regiao": "Global",
+     "url": "https://nx.dev/blog/s1ngularity-postmortem",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Causa-raiz: workflow do GitHub Actions com 'pull_request_target' e título de PR sem sanitização — 'this created a dangerous injection point'; versões maliciosas ativas por cerca de 4 horas; Nx tem cerca de 6 milhões de instalações semanais (página web)",
+      "O script pós-instalação 'scanned users' systems for sensitive data' e 'attempted to use local AI tools' (Claude e Gemini), subindo o resultado a repositório público; 'Provenance doesn't block unsigned packages from being installed'; remediação: Trusted Publishers (OIDC), 2FA manual, pipelines fechados a externos (página web)"
+     ],
+     "resumo": "Postmortem oficial do mantenedor do pacote Nx sobre o ataque de agosto de 2025: injeção na esteira do GitHub, publicação de versões maliciosas que usavam ferramentas de IA locais para caçar segredos, e as medidas de remediação.",
+     "relevancia": "Documento oficial do afetado no primeiro caso público em que malware terceirizou a caça a segredos para a IA instalada no computador do desenvolvedor."
+    },
+    {
+     "id": "M1085",
+     "titulo": "s1ngularity: supply chain attack leaks secrets on GitHub",
+     "organizacao": "Wiz (Wiz Research)",
+     "ano": "2025 (27/08/2025; atualizado em 29/08/2025)",
+     "tipo_fonte": "empresa",
+     "setor": "segurança da informação",
+     "pais_regiao": "Global",
+     "url": "https://www.wiz.io/blog/s1ngularity-supply-chain-attack",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "O malware 'leveraged AI command-line tools (including Claude, Gemini, and Q)' com opções que pulam a confirmação de permissões ('--dangerously-skip-permissions', '--yolo', '--trust-all-tools'); guardrails dos provedores 'at times interceded' (página web)",
+      "Mais de 1.000 tokens GitHub válidos, dezenas de credenciais de nuvem e cerca de 20.000 arquivos roubados; segunda fase expôs mais de 400 usuários/organizações e mais de 5.500 repositórios privados (página web)"
+     ],
+     "resumo": "Análise de resposta a incidente da Wiz sobre o ataque ao Nx: uso das linhas de comando de IA com permissões desligadas para inventariar carteiras, chaves e arquivos de ambiente, volume de credenciais roubadas e a segunda fase de exposição de repositórios.",
+     "relevancia": "Fonte técnica dos números e do mecanismo de uso ofensivo das CLIs de IA; fornecedora de segurança, confirmada pelo postmortem do Nx."
+    },
+    {
+     "id": "M1135",
+     "titulo": "Netskope says downstream AI data breaches are surging (cobertura do relatório de IA da Netskope de meados de 2026)",
+     "organizacao": "IT Brief UK (cobrindo Netskope Threat Labs)",
+     "ano": "2026 (29/07/2026; dados de jun/2025 a jul/2026)",
+     "tipo_fonte": "imprensa",
+     "setor": "segurança da informação",
+     "pais_regiao": "Global",
+     "url": "https://itbrief.co.uk/story/netskope-says-downstream-ai-data-breaches-are-surging",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Violações de envio ('upstream'): dados regulados 35%, código-fonte 35%, propriedade intelectual 20%, senhas e chaves 10% (página web)",
+      "Violações 'downstream' (a IA devolve informação que o usuário ou agente não deveria acessar): de 12 para 31 por semana na organização média; usuários de servidores MCP remotos +250% e transações MCP +375% em dez semanas (página web)",
+      "30% dos usuários corporativos de IA usam só apps pessoais; a queda do uso pessoal se estabilizou em março de 2026 e voltou a subir (página web)"
+     ],
+     "resumo": "Cobertura do relatório de meados de 2026 da Netskope (telemetria de clientes): nova categoria de violação 'downstream' via agentes, crescimento explosivo de MCP e de ferramentas de código com IA, e reversão da queda do uso pessoal. Título oficial e PDF não localizados.",
+     "relevancia": "Mostra o deslocamento do risco do 'colar no chat' para o 'agente com acesso demais'; fornecedora de segurança via imprensa."
+    },
+    {
+     "id": "M1136",
+     "titulo": "2026 AI Adoption & Risk Report",
+     "organizacao": "Cyberhaven Labs",
+     "ano": "2026 (dados do ano-calendário 2025)",
+     "tipo_fonte": "empresa",
+     "setor": "segurança da informação",
+     "pais_regiao": "Global (222 empresas)",
+     "url": "https://info.cyberhaven.com/hubfs/Webflow_Resources/Cyberhaven-AI-Risk-Report-2026.pdf",
+     "arquivo": "12_shadow-ai-governanca/Cyberhaven_2026_ai-adoption-risk-report.pdf",
+     "status": "a baixar",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "39,7% de todas as interações com ferramentas de IA envolvem dado sensível (inclui prompts e copiar/colar); 'one-third of employees access GenAI tools from personal accounts' (p. 4 e p. 15, índice do PDF)",
+      "Contas pessoais por plataforma: Perplexity 60,9%, Claude 58,2%, ChatGPT 32,3%, Gemini 24,9% (p. 11); 82% das 100 ferramentas mais usadas com risco médio a crítico (p. 10)",
+      "Método: 'billions of real-world data movements from 222 companies' em 2025 (p. 3)"
+     ],
+     "resumo": "Relatório de fornecedora de proteção de dados baseado em movimentações de dados de 222 empresas clientes em 2025, com a parcela de interações sensíveis, o uso de contas pessoais por plataforma e o risco das ferramentas.",
+     "relevancia": "Medição de telemetria com a maior parcela de interações sensíveis (39,7%), não comparável às medições por prompt; fornecedora, base de clientes."
+    },
+    {
+     "id": "M1137",
+     "titulo": "22% of All Files and 4.37% of Prompts Submitted to GenAI tools by Employees Contain Sensitive Data (press release do relatório trimestral Q2/2025)",
+     "organizacao": "Harmonic Security (via Business Wire)",
+     "ano": "2025 (31/07/2025; dados de abr–jun/2025)",
+     "tipo_fonte": "empresa",
+     "setor": "segurança da informação",
+     "pais_regiao": "Global",
+     "url": "https://markets.financialcontent.com/stocks/article/bizwire-2025-7-31-22-of-all-files-and-437-of-prompts-submitted-to-genai-tools-by-employees-contain-sensitive-data",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "4,37% de 1 milhão de prompts e 22% de 20 mil arquivos continham dado sensível; 'Code leakage was the most common type of sensitive data sent to GenAI tools' (página web)",
+      "7,95% dos funcionários da empresa média usaram ferramenta chinesa de IA generativa; 32,8% das exposições nelas eram código-fonte, credenciais ou algoritmos proprietários; 23 ferramentas desconhecidas por empresa no trimestre (página web)"
+     ],
+     "resumo": "Release trimestral da Harmonic (extensão de navegador em clientes) com a parcela de prompts e arquivos sensíveis enviados a 300 ferramentas de IA generativa, o tipo de dado e o uso de apps chineses.",
+     "relevancia": "Medição por prompt e por arquivo, útil ao lado da de 2024 já catalogada (M1022); fornecedora de controle de uso de IA."
+    },
+    {
+     "id": "M1139",
+     "titulo": "Widespread Supply Chain Compromise Impacting npm Ecosystem (alerta)",
+     "organizacao": "CISA — Cybersecurity and Infrastructure Security Agency (EUA)",
+     "ano": "2025 (23/09/2025)",
+     "tipo_fonte": "governo",
+     "setor": "segurança da informação",
+     "pais_regiao": "EUA / global",
+     "url": "https://content.govdelivery.com/accounts/USDHSCISA/bulletins/3f408db",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Worm autorreplicante 'has compromised over 500 packages'; alvo: tokens pessoais do GitHub e chaves de API de AWS, GCP e Azure; propagação 'by authenticating to the npm registry as the compromised developer' (página web)",
+      "Recomendações: fixar dependências anteriores a 16/09/2025, rotacionar todas as credenciais de desenvolvedor, MFA resistente a phishing, auditar apps, webhooks e segredos (página web)"
+     ],
+     "resumo": "Alerta oficial da agência americana de cibersegurança sobre a primeira onda do worm Shai-Hulud no npm, com o mecanismo, os alvos (credenciais de nuvem e GitHub) e as recomendações.",
+     "relevancia": "Fonte oficial, sem conflito comercial, para o worm de cadeia de suprimentos que monetiza credenciais e para a recomendação de rotação."
+    },
+    {
+     "id": "M1140",
+     "titulo": "Shai-Hulud 2.0: Inside The Second Coming, the Most Aggressive NPM Supply Chain Attack of 2025",
+     "organizacao": "Check Point Research",
+     "ano": "2025 (25/11/2025)",
+     "tipo_fonte": "empresa",
+     "setor": "segurança da informação",
+     "pais_regiao": "Global",
+     "url": "https://blog.checkpoint.com/research/shai-hulud-2-0-inside-the-second-coming-the-most-aggressive-npm-supply-chain-attack-of-2025/",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "621 pacotes npm infectados; em cerca de 20.000 repositórios revisados, 14.206 segredos vazados, 2.485 ainda válidos; 775 tokens GitHub, 373 credenciais AWS, 300 GCP, 115 Azure verificados (página web)",
+      "Mecanismo destrutivo que apaga arquivos locais ao detectar contenção; runtime Bun em vez de Node.js como evasão; alegação de 'approximately 50 million dollars in cryptocurrency' roubados na primeira onda, sem fonte primária (página web)"
+     ],
+     "resumo": "Análise da Check Point da segunda onda do worm Shai-Hulud (novembro de 2025): pacotes infectados, segredos vazados e válidos, técnica de evasão e mecanismo destrutivo.",
+     "relevancia": "Números da segunda onda; fornecedora de segurança; a cifra de criptomoedas roubadas não tem fonte primária e não deve ser usada."
+    },
+    {
+     "id": "M1141",
+     "titulo": "Mini Shai-Hulud: AI Supply Chain Worm Hits npm and PyPI (research note)",
+     "organizacao": "Cloud Security Alliance (AI Safety Initiative)",
+     "ano": "2026 (13/05/2026; modificado em 20/05/2026)",
+     "tipo_fonte": "associação setorial",
+     "setor": "segurança da informação",
+     "pais_regiao": "Global",
+     "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-mini-shai-hulud-ai-supply-chain-20260513-c/",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Campanha TeamPCP (março–maio de 2026): cerca de 170 pacotes npm e várias bibliotecas PyPI; 'an estimated 518 million cumulative downloads across affected package versions'; CVE-2026-45321 (CVSS 9,6) (página web)",
+      "Pacotes com atestados de proveniência válidos (tokens OIDC roubados da esteira); 'the malware installs persistence hooks in Claude Code and VS Code'; gatilho destrutivo se o token npm roubado for revogado (página web)"
+     ],
+     "resumo": "Nota de pesquisa da CSA que agrega relatos de vários fornecedores sobre a campanha de 2026 contra pacotes npm e PyPI usados em toolchains de IA, com roubo da identidade da esteira de publicação e persistência em ferramentas de código com IA.",
+     "relevancia": "Atualiza para 2026 o risco de cadeia de suprimentos; nota secundária, números a confirmar nas fontes primárias que ela cita."
+    },
+    {
+     "id": "M1142",
+     "titulo": "AI code assistants make developers more efficient at creating security problems (cobertura de pesquisa da Apiiro)",
+     "organizacao": "The Register (cobrindo Apiiro)",
+     "ano": "2025 (05/09/2025)",
+     "tipo_fonte": "imprensa",
+     "setor": "segurança da informação",
+     "pais_regiao": "EUA (empresas Fortune 50)",
+     "url": "https://theregister.com/2025/09/05/ai_code_assistants_security_problems",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Desenvolvedores com IA produzem 3 a 4 vezes mais código e 10 vezes mais achados de segurança (mais de 10.000 novos achados por mês em junho de 2025); expõem credenciais e chaves de nuvem quase 2 vezes mais; falhas arquiteturais +153%; erros de sintaxe −76% (página web)",
+      "'AI is fixing the typos but creating the timebombs'; 'if you're mandating AI coding, you must mandate AI AppSec in parallel' (página web)"
+     ],
+     "resumo": "Cobertura de pesquisa da Apiiro em dezenas de milhares de repositórios de empresas Fortune 50 (dezembro de 2024 e junho de 2025) sobre o efeito dos assistentes de código na segurança. O blog original da fornecedora não carregou.",
+     "relevancia": "Medição de exposição de credenciais por desenvolvedores com IA em grandes empresas; fornecedora de segurança de aplicações via imprensa."
+    },
+    {
+     "id": "M1143",
+     "titulo": "Research finds 12,000 'live' API keys and passwords in DeepSeek's training data",
+     "organizacao": "Truffle Security (Joe Leon)",
+     "ano": "2025 (27/02/2025)",
+     "tipo_fonte": "empresa",
+     "setor": "segurança da informação",
+     "pais_regiao": "Global",
+     "url": "https://trufflesecurity.com/blog/research-finds-12-000-live-api-keys-and-passwords-in-deepseek-s-training-data",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "11.908 segredos verificados 'vivos' em 400 TB do Common Crawl de dezembro de 2024 (2,67 bilhões de páginas); 2,76 milhões de páginas com segredos vivos; 63% reutilizados em várias páginas (página web)",
+      "'LLMs can't distinguish between valid and invalid secrets during training' — exemplos de credenciais escritas no corpus reforçam a prática insegura nas sugestões (página web)"
+     ],
+     "resumo": "Pesquisa da Truffle Security (reproduzível com sua ferramenta aberta) que encontrou milhares de credenciais válidas no corpus público usado para treinar modelos de linguagem.",
+     "relevancia": "Mostra o segundo mecanismo de vazamento de credenciais (segredos no material de treinamento); fornecedora de detecção de segredos."
+    },
+    {
+     "id": "M1144",
+     "titulo": "How Your Credentials Are Leaked by LLM Agent Skills: An Empirical Study (arXiv 2604.03070; aceito no ASE 2026)",
+     "organizacao": "Chen et al. (estudo acadêmico)",
+     "ano": "2026 (snapshot do dataset em 12/02/2026)",
+     "tipo_fonte": "academia",
+     "setor": "segurança da informação",
+     "pais_regiao": "Global",
+     "url": "https://arxiv.org/pdf/2604.03070",
+     "arquivo": "12_shadow-ai-governanca/Chen-et-al_2026_credentials-leaked-llm-agent-skills-arxiv.pdf",
+     "status": "a baixar",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Amostra estratificada de 17.022 skills (10% de 170.226); 'Our analysis identifies 520 affected skills containing 1,708 security issues' (3,1%); 84% por negligência, 16% maliciosas (página não determinada)",
+      "73,5% dos problemas vêm de registros de depuração que os frameworks enviam ao contexto do modelo; 107 skills com credenciais escritas; '89.6% of leaked credentials are immediately exploitable' (página não determinada)"
+     ],
+     "resumo": "Estudo acadêmico sobre vazamento de credenciais por skills de agentes de IA num marketplace, com amostra estratificada e classificação dos problemas por causa (negligência × malícia) e por vetor (logs de depuração).",
+     "relevancia": "Única medição acadêmica, sem conflito comercial, de vazamento de credenciais em skills de agentes; páginas do PDF não determinadas."
+    },
+    {
+     "id": "M1145",
+     "titulo": "The State of MCP Server Security in 2025",
+     "organizacao": "Astrix Security (Tal Skverer)",
+     "ano": "2025 (15/10/2025)",
+     "tipo_fonte": "empresa",
+     "setor": "segurança da informação",
+     "pais_regiao": "Global",
+     "url": "https://astrix.security/learn/blog/state-of-mcp-server-security-2025/",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "5.205 repositórios de servidores MCP no GitHub: 88% exigem credenciais; 53% usam chaves estáticas ou tokens pessoais de longa duração; 'Only 8.5% use OAuth'; '79% of API keys are passed via simple environment variables' (página web)"
+     ],
+     "resumo": "Levantamento de fornecedora de segurança de identidades não humanas sobre como os servidores MCP públicos no GitHub lidam com credenciais: predominância de segredos estáticos e baixa adoção de OAuth.",
+     "relevancia": "Quantifica o problema de segredos estáticos na infraestrutura de agentes; fornecedora, amostra de repositórios públicos."
+    },
+    {
+     "id": "M1147",
+     "titulo": "Wiz Research Uncovers Exposed DeepSeek Database Leaking Sensitive Information, Including Chat History",
+     "organizacao": "Wiz (Wiz Research)",
+     "ano": "2025 (29/01/2025)",
+     "tipo_fonte": "empresa",
+     "setor": "segurança da informação",
+     "pais_regiao": "China / global",
+     "url": "https://www.wiz.io/blog/wiz-research-uncovers-exposed-deepseek-database-leak",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Banco de dados ClickHouse 'completely open and unauthenticated' com mais de 1 milhão de linhas de registro, incluindo histórico de chat, chaves de API e detalhes de backend; a DeepSeek 'promptly secured the exposure' após o aviso (página web)"
+     ],
+     "resumo": "Relato de pesquisa da Wiz sobre um banco de dados do provedor DeepSeek exposto na internet sem autenticação, com histórico de conversas e chaves, corrigido após notificação.",
+     "relevancia": "Caso de exposição do lado do provedor de IA, confirmado pela correção; fornecedora de segurança."
+    },
+    {
+     "id": "M1148",
+     "titulo": "OpenAI kills 'short-lived experiment' where ChatGPT chats could be found on Google",
+     "organizacao": "Malwarebytes (citando declaração do CISO da OpenAI)",
+     "ano": "2025 (01/08/2025)",
+     "tipo_fonte": "imprensa",
+     "setor": "segurança da informação",
+     "pais_regiao": "EUA / global",
+     "url": "https://malwarebytes.com/blog/news/2025/08/openai-kills-short-lived-experiment-where-chatgpt-chats-could-be-found-on-google",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Opção (caixa de seleção ao compartilhar) tornava conversas descobríveis por buscadores; removida porque 'this feature introduced too many opportunities for folks to accidentally share things they didn't intend to' (CISO da OpenAI, em X) (página web)"
+     ],
+     "resumo": "Cobertura da remoção, pela OpenAI, do recurso que permitia indexar conversas compartilhadas do ChatGPT em buscadores, com a declaração do CISO da empresa.",
+     "relevancia": "Exemplo de vazamento por desenho de compartilhamento, não por invasão; a declaração oficial foi em rede social, por isso via imprensa."
+    },
+    {
+     "id": "M1149",
+     "titulo": "370K Grok AI chats made public without user consent",
+     "organizacao": "9to5Mac (citando Forbes)",
+     "ano": "2025 (20/08/2025)",
+     "tipo_fonte": "imprensa",
+     "setor": "segurança da informação",
+     "pais_regiao": "EUA / global",
+     "url": "https://9to5mac.com/2025/08/20/370k-grok-ai-chats-made-public-without-user-consent/",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "'More than 370,000 Grok AI chats have been published on the Grok website and indexed by search engines' a partir do botão de compartilhar, 'without warning or a disclaimer to the user'; conteúdo incluía 'at least one password shared with the bot' (página web)"
+     ],
+     "resumo": "Cobertura da indexação, pelo Google, de centenas de milhares de conversas do Grok compartilhadas por link, sem aviso ao usuário, incluindo dados sensíveis.",
+     "relevancia": "Segundo exemplo de vazamento por compartilhamento e indexação; sem resposta oficial da xAI na matéria."
+    }
+   ],
+   "formularios": [
+    {
+     "recomendacao": "envio manual",
+     "relevancia": "media",
+     "organizacao": "Netskope (Netskope Threat Labs)",
+     "titulo": "Netskope Threat Labs Report: Brasil 2026 (relatório completo) e relatório de IA de meados de 2026",
+     "url": "https://www.netskope.com/resources/cloud-and-threat-reports",
+     "tipo_acesso": "formulario de download",
+     "campos": "não preenchido (dados de contato corporativo)",
+     "justificativa": "A nota usa os números brasileiros (64% dados regulados, 9% senhas e chaves) e os de 'downstream' só via imprensa; o PDF traria páginas e a base de organizações.",
+     "frentes": [
+      "F2"
+     ]
+    },
+    {
+     "recomendacao": "envio manual",
+     "relevancia": "media",
+     "organizacao": "GitGuardian",
+     "titulo": "The State of Secrets Sprawl 2026 (relatório completo em PDF)",
+     "url": "https://www.gitguardian.com/state-of-secrets-sprawl-report-2026",
+     "tipo_acesso": "formulario de download",
+     "campos": "não preenchido (dados de contato corporativo)",
+     "justificativa": "Os números (3,2% × 1,5%; 24.008 segredos em MCP) vêm do artigo oficial e da imprensa; o PDF permitiria citar página.",
+     "frentes": [
+      "F2"
+     ]
+    }
+   ],
+   "lacunas": [
+    "Netskope 2026 (M1049): a seção 'About this report' (número de organizações) não foi recuperada; o relatório de meados de 2026 e o relatório Brasil 2026 só foram lidos via imprensa (título oficial e PDF não localizados).",
+    "Harmonic anual 2025 (via Security Boulevard): a cobertura diz que 87% das exposições sensíveis ocorreram via ChatGPT Free e também que 17% envolveram contas pessoais ou gratuitas — inconsistente; não usado na nota.",
+    "LayerX 2025: inconsistência interna (14 × 15 colagens por dia; ≥3 × 4 com dado sensível) e amostra não declarada; não usado na nota.",
+    "GitGuardian 2026: página do PDF não determinada; '28,65 milhões' (artigo oficial) × '29 milhões' (The Hacker News) é arredondamento.",
+    "Apiiro: o blog original não retornou conteúdo; números só via The Register.",
+    "Shai-Hulud: número de pacotes varia por fonte (CISA >500 na 1ª onda; Check Point 621 no total; outras fontes 'centenas'); a alegação de US$ 50 milhões em cripto é da Check Point sem fonte primária.",
+    "Nx: o texto literal do prompt e as flags de bypass de permissão estão na Wiz e na StepSecurity, não no postmortem do Nx.",
+    "DBIR 2026 (M1068): páginas dos números de IA conferidas na rodada 7 (p. 13, 60-61); a parcela de phishing assistido por IA não foi recuperada.",
+    "IBM 2026: os números de shadow AI (43%, US$ 5,39 milhões, 92% sem controles de acesso) estão só em cobertura secundária (M1004); o release oficial (M1024) traz 'uma em quatro violações maliciosas com IA, US$ 6 milhões'."
+   ]
+  },
+  {
+   "grupo": "Analistas e documentos de produto e pesquisa das big techs",
+   "pasta": "03_analistas-big-techs",
+   "itens": [
+    {
+     "id": "M1087",
+     "titulo": "Hardening Atlas against prompt injection",
+     "organizacao": "OpenAI",
+     "ano": "2025 (22/12/2025)",
+     "tipo_fonte": "analista/big tech",
+     "setor": "tecnologia (provedor de IA)",
+     "pais_regiao": "EUA / global",
+     "url": "https://openai.com/index/hardening-atlas-against-prompt-injection/",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "'Prompt injection, much like scams and social engineering on the web, is unlikely to ever be fully \"solved\"'; 'prompt injection remains an open challenge for agent security' (página web)",
+      "Treinamento adversarial contínuo contra atacante automatizado; modo deslogado; 'agents are designed to ask for your confirmation before proceeding' (página web)"
+     ],
+     "resumo": "Post oficial da OpenAI sobre a defesa do navegador com agente Atlas contra injeção de prompt: admissão de que o problema não será totalmente resolvido e descrição das mitigações (treinamento adversarial, confirmações, modo deslogado).",
+     "relevancia": "Admissão do provedor de que a injeção é problema permanente; sustenta a tese de 'conter o raio de ação' em vez de 'prevenir'."
+    },
+    {
+     "id": "M1138",
+     "titulo": "Gartner Predicts 40% of AI Data Breaches Will Arise from Cross-Border GenAI Misuse by 2027",
+     "organizacao": "Gartner",
+     "ano": "2025 (17/02/2025)",
+     "tipo_fonte": "analista/big tech",
+     "setor": "intersetorial",
+     "pais_regiao": "Global",
+     "url": "https://gartner.com/en/newsroom/press-releases/2025-02-17-gartner-predicts-forty-percent-of-ai-data-breaches-will-arise-from-cross-border-genai-misuse-by-2027",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Previsão: até 2027, mais de 40% das violações de dados relacionadas a IA virão de uso indevido transfronteiriço de IA generativa; 'they pose security risks if sensitive prompts are sent to AI tools and APIs hosted in unknown locations' (página web)"
+     ],
+     "resumo": "Release do Gartner com previsão de analista sobre violações de dados ligadas a IA por transferência transfronteiriça não intencional de prompts sensíveis, e sobre a adoção de controles de confiança, risco e segurança de IA.",
+     "relevancia": "Liga o vazamento em prompts à transferência internacional de dados, tema de LGPD; previsão, não medição."
+    },
+    {
+     "id": "M1146",
+     "titulo": "March 20 ChatGPT outage: Here's what happened",
+     "organizacao": "OpenAI",
+     "ano": "2023 (24/03/2023)",
+     "tipo_fonte": "analista/big tech",
+     "setor": "tecnologia (provedor de IA)",
+     "pais_regiao": "EUA / global",
+     "url": "https://openai.com/index/march-20-chatgpt-outage/",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Bug na biblioteca aberta redis-py expôs títulos do histórico de outros usuários; em janela de 9 horas, 1,2% dos assinantes Plus ativos tiveram expostos nome, e-mail, endereço de cobrança e últimos 4 dígitos do cartão ('Full credit card numbers were not exposed at any time') (página web)"
+     ],
+     "resumo": "Comunicado oficial da OpenAI sobre o incidente de março de 2023 em que um erro de biblioteca expôs títulos de conversas e dados parciais de pagamento de parte dos assinantes.",
+     "relevancia": "Caso documentado pelo próprio provedor de que a ferramenta 'oficial' também vaza; usar com o recorte (assinantes Plus ativos, 9 horas)."
+    },
+    {
+     "id": "M1150",
+     "titulo": "How we're responding to The New York Times' data demands in order to protect user privacy",
+     "organizacao": "OpenAI",
+     "ano": "2025 (05/06/2025; atualizado em 22/10/2025)",
+     "tipo_fonte": "analista/big tech",
+     "setor": "tecnologia (provedor de IA)",
+     "pais_regiao": "EUA / global",
+     "url": "https://openai.com/index/response-to-nyt-data-demands/",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Ordem judicial exigiu reter indefinidamente dados de consumidores do ChatGPT e da API, inclusive chats apagados; afetados: Free, Plus, Pro, Team e API sem retenção zero; não afetados: ChatGPT Enterprise, Edu e endpoints com retenção zero (página web)",
+      "Obrigação encerrada em 26/09/2025; retenção padrão (30 dias para chats apagados) retomada (página web)"
+     ],
+     "resumo": "Comunicado oficial da OpenAI sobre a ordem judicial de preservação de dados no litígio com o New York Times, com os planos afetados e não afetados e o fim da obrigação.",
+     "relevancia": "Mostra que o risco de retenção depende do contrato: planos corporativos e retenção zero ficaram fora — argumento para a conta corporativa."
+    },
+    {
+     "id": "M1151",
+     "titulo": "How your data is used to improve model performance (Central de Ajuda, artigo 5722486)",
+     "organizacao": "OpenAI",
+     "ano": "2026 (página sem data; consultada em 20/10/2026)",
+     "tipo_fonte": "analista/big tech",
+     "setor": "tecnologia (provedor de IA)",
+     "pais_regiao": "EUA / global",
+     "url": "https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "'When you use our services for individuals (Free, Plus, Pro), we may use your content to train our models'; desligamento em Settings > Data controls; feedback (polegar) pode levar a conversa inteira ao treinamento mesmo com opt-out (página web)",
+      "Por padrão, não usa entradas e saídas de ChatGPT Business, Enterprise, Edu ou API para treinar (página web)"
+     ],
+     "resumo": "Artigo oficial de ajuda da OpenAI sobre o uso de conteúdo para treinar modelos: contas individuais por padrão, com opção de desligar; planos corporativos e API não, por padrão.",
+     "relevancia": "Documenta a assimetria conta pessoal × corporativa que faz da conta pessoal o principal vetor de exposição."
+    },
+    {
+     "id": "M1152",
+     "titulo": "Gemini Apps Privacy Hub (central de privacidade dos apps Gemini)",
+     "organizacao": "Google",
+     "ano": "2026 (atualizado em 19/10/2026; aviso de privacidade de 13/10/2026)",
+     "tipo_fonte": "analista/big tech",
+     "setor": "tecnologia (provedor de IA)",
+     "pais_regiao": "EUA / global",
+     "url": "https://support.google.com/gemini/answer/13594961?hl=en",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "'Human reviewers (including trained reviewers from our service providers) review some of the data we collect'; 'Please don't enter confidential information that you wouldn't want a reviewer to see' (página web)",
+      "Atividade apagada após 18 meses por padrão (ajustável para 3, 36 meses ou indefinido); 'Reviewed chats are retained for up to three years'; contas de trabalho ou escola podem ter termos diferentes (página web)"
+     ],
+     "resumo": "Página oficial do Google sobre privacidade nos apps Gemini: revisão humana de parte das conversas, retenção padrão e aviso para não inserir informação confidencial; termos distintos para contas de trabalho.",
+     "relevancia": "Documenta revisão humana e retenção em contas pessoais do Gemini; segundo provedor a sustentar a regra 'não colar dado confidencial'."
+    },
+    {
+     "id": "M1153",
+     "titulo": "Updates to Consumer Terms and Privacy Policy",
+     "organizacao": "Anthropic",
+     "ano": "2025 (28/08/2025)",
+     "tipo_fonte": "analista/big tech",
+     "setor": "tecnologia (provedor de IA)",
+     "pais_regiao": "EUA / global",
+     "url": "https://www.anthropic.com/news/updates-to-our-consumer-terms",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Aplica-se aos planos Claude Free, Pro e Max (inclusive Claude Code nessas contas); não se aplica a Claude for Work (Team e Enterprise), API, Amazon Bedrock, Vertex AI, Claude Gov e Claude for Education (página web)",
+      "Usuários escolhem se permitem o uso dos dados para treinar; retenção estendida a cinco anos para quem permite; quem não permite mantém 30 dias (página web)"
+     ],
+     "resumo": "Anúncio oficial da Anthropic sobre a mudança dos termos de consumidor em 2025: escolha explícita sobre treinamento com dados nos planos pessoais, com retenção de cinco anos se aceito; planos de trabalho e API fora.",
+     "relevancia": "Terceiro provedor a documentar a assimetria pessoal × corporativa; base para o critério 'conta corporativa contratada' na régua."
+    },
+    {
+     "id": "M1164",
+     "titulo": "Piloting Claude for Chrome",
+     "organizacao": "Anthropic",
+     "ano": "2025 (25/08/2025)",
+     "tipo_fonte": "analista/big tech",
+     "setor": "tecnologia (provedor de IA)",
+     "pais_regiao": "EUA / global",
+     "url": "https://claude.com/resources/articles/claude-for-chrome",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Sem mitigações, 23,6% de sucesso de ataque em 123 casos adversariais e 29 cenários; com mitigações no modo autônomo, 11,2%; em quatro ataques específicos de navegador, de 35,7% para 0% (página web)",
+      "Mitigações: permissões por site, confirmação antes de ações de alto risco (publicar, comprar, compartilhar dados pessoais), bloqueio de categorias, classificadores; 'Prompt injection attacks can cause AIs to delete files, steal data, or make financial transactions' (página web)"
+     ],
+     "resumo": "Anúncio oficial do piloto do agente de navegador da Anthropic, com taxas de sucesso de injeção de prompt antes e depois das mitigações e a lista de controles (permissões por site, confirmação, bloqueio de categorias).",
+     "relevancia": "Única medição publicada por provedor da taxa de sucesso de injeção em agente de navegador; sustenta 'confirmação humana antes de ações consequentes'."
+    },
+    {
+     "id": "M1167",
+     "titulo": "What's new in Microsoft AI security (Microsoft Learn)",
+     "organizacao": "Microsoft",
+     "ano": "2026 (página atualizada continuamente; consultada em 20/10/2026)",
+     "tipo_fonte": "analista/big tech",
+     "setor": "tecnologia (provedor de IA)",
+     "pais_regiao": "EUA / global",
+     "url": "https://learn.microsoft.com/en-us/security/security-for-ai/whats-new",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Entra: 'Identity and access management capabilities specifically designed for AI agents, applying Zero Trust principles to autonomous systems' (Agent ID, acesso condicional, registro de agentes); Purview: DLP, risco interno, auditoria e compliance para agentes (página web)",
+      "Microsoft Agent 365 anunciado como 'unified control plane' para agentes (preview, nov/2025); Security Dashboard for AI em disponibilidade geral (abr/2026) (página web)"
+     ],
+     "resumo": "Página de novidades de segurança de IA da Microsoft, com os anúncios de identidade para agentes (Entra Agent ID), plano de controle de agentes, DLP e auditoria para agentes e painel de segurança de IA.",
+     "relevancia": "Documenta, do lado do fornecedor da suíte mais usada, o controle 'identidade própria por agente'; documento de produto, não resultado medido."
+    },
+    {
+     "id": "M1168",
+     "titulo": "Equipping agents for the real world with Agent Skills",
+     "organizacao": "Anthropic (Engineering)",
+     "ano": "2025 (16/10/2025; atualizado em 18/12/2025)",
+     "tipo_fonte": "analista/big tech",
+     "setor": "tecnologia (provedor de IA)",
+     "pais_regiao": "EUA / global",
+     "url": "https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "'Skills can also include code for Claude to execute as tools at its discretion'; 'We recommend installing skills only from trusted sources'; 'malicious skills may introduce vulnerabilities in the environment where they're used' (página web)",
+      "Para fontes menos confiáveis, 'thoroughly audit it before use': dependências de código, imagens, scripts e instruções que conectem a fontes externas não confiáveis (página web)"
+     ],
+     "resumo": "Post de engenharia da Anthropic que apresenta as Agent Skills (pastas de instruções e código que o agente executa), com o modelo de segurança: instalar só de fontes confiáveis e auditar o conteúdo.",
+     "relevancia": "Define o mecanismo das skills e o controle 'fonte confiável e auditoria' na voz do próprio provedor."
+    },
+    {
+     "id": "M1182",
+     "titulo": "Security (documentação oficial do Claude Code)",
+     "organizacao": "Anthropic",
+     "ano": "2026 (página sem data; consultada em 20/10/2026)",
+     "tipo_fonte": "analista/big tech",
+     "setor": "tecnologia (provedor de IA)",
+     "pais_regiao": "EUA / global",
+     "url": "https://code.claude.com/docs/en/security",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "'Manual mode: Claude Code starts with read-only permissions'; modo automático com classificador que bloqueia ações inseguras (a organização pode desligar); sandbox com isolamento de arquivos e rede; detecção de injeção de comando; 'Fail-closed matching' (página web)",
+      "Diálogo de confiança da pasta e aprovação de servidores em .mcp.json; 'Anthropic reviews connectors against its listing criteria ... but does not security-audit or manage any MCP server'; 'no system is completely immune to all attacks' (página web)"
+     ],
+     "resumo": "Página de segurança da documentação do Claude Code: modo manual somente leitura por padrão, sandbox, detecção de injeção de comando, confiança por pasta, aprovação de servidores MCP, configurações gerenciadas pela organização e aviso de que nenhum sistema é imune.",
+     "relevancia": "Documenta os controles de agente de código recomendados pelo fornecedor (somente leitura, sandbox, confirmação); mostra que são configuráveis, não garantidos."
+    },
+    {
+     "id": "M1188",
+     "titulo": "European AI spending to reach $290 billion by 2029, driven by banking, software and agentic AI adoption",
+     "organizacao": "IDC (Carla La Croce)",
+     "ano": "2026 (03/04/2026)",
+     "tipo_fonte": "analista/big tech",
+     "setor": "intersetorial",
+     "pais_regiao": "Europa",
+     "url": "https://www.idc.com/resource-center/press-releases/european-ai-spending-to-reach-290-billion-by-2029-driven-by-banking-software-and-agentic-ai-adoption/",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Gasto europeu em IA de US$ 290 bilhões em 2029, CAGR de 33,7% (2025–2029); banking é a maior indústria, 12,5% do mercado de IA de 2026; healthcare provider é a de crescimento mais rápido (39,7% CAGR) (página web)"
+     ],
+     "resumo": "Release de projeção da IDC para o gasto em IA na Europa por indústria, com bancos como maior indústria em 2026. Projeção de modelo, não survey; sem número para agro ou química.",
+     "relevancia": "Mede o peso do setor bancário no gasto em IA; sustenta o mecanismo 'orçamento' da liderança bancária."
+    }
+   ],
+   "formularios": [],
+   "lacunas": [
+    "A página de ajuda da OpenAI sobre uso de dados não traz data de revisão; capturar PDF com data de acesso.",
+    "Não foi verificada a política de dados do Copilot consumidor × Microsoft 365 Copilot, nem a da xAI/Grok e da DeepSeek.",
+    "Zscaler 2026: o blog de 27/01/2026 fala em +83% de transações de IA e um release regional de 06/2026 em +91%; só o 39% de bloqueio (M1072, p. 3) foi usado.",
+    "Stanford AI Index 2026 (M198): o corte por setor existe só nos PDFs dos capítulos, não lidos."
+   ]
+  },
+  {
+   "grupo": "Skills, extensões e pacotes maliciosos; agentes com poder demais e uso ofensivo",
+   "pasta": "12_shadow-ai-governanca",
+   "itens": [
+    {
+     "id": "M1090",
+     "titulo": "Researchers Find 341 Malicious ClawHub Skills Delivering macOS and Windows Infostealers (ClawHavoc)",
+     "organizacao": "The Hacker News (cobrindo Koi Security)",
+     "ano": "2026 (02/02/2026)",
+     "tipo_fonte": "imprensa",
+     "setor": "segurança da informação",
+     "pais_regiao": "Global",
+     "url": "https://thehackernews.com/2026/02/researchers-find-341-malicious-clawhub.html",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "341 skills maliciosas em 2.857 auditadas no marketplace ClawHub; 335 usavam 'pré-requisitos' falsos para instalar o infostealer Atomic (AMOS) no macOS, alugado por US$ 500 a 1.000 por mês; iscas de cripto, YouTube e finanças (página web)",
+      "Publicar exigia só conta GitHub com uma semana; primeira resposta do criador: 'Skills with more than 3 unique reports are auto-hidden by default' (página web)"
+     ],
+     "resumo": "Cobertura da auditoria da Koi Security no marketplace de skills de um agente de código aberto, com a contagem de skills maliciosas, o malware distribuído e a resposta inicial do marketplace. O post original da Koi hoje redireciona para página de produto.",
+     "relevancia": "Primeira medição em escala de skills maliciosas num marketplace de agentes; fornecedora de segurança via imprensa."
+    },
+    {
+     "id": "M1091",
+     "titulo": "ToxicSkills: Malicious AI Agent Skills on ClawHub",
+     "organizacao": "Snyk (Beurer-Kellner, Kudrinskii, Milanta, Nielsen, Sarkar, Tal)",
+     "ano": "2026 (05/02/2026)",
+     "tipo_fonte": "empresa",
+     "setor": "segurança da informação",
+     "pais_regiao": "Global",
+     "url": "https://snyk.io/blog/toxicskills-malicious-ai-agent-skills-clawhub",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "3.984 skills analisadas (ClawHub e skills.sh): 76 cargas maliciosas confirmadas por revisão humana; 534 (13,4%) com ao menos um problema crítico; 1.467 (36,8%) com algum problema; segredos escritos em 10,9% das skills (página web)",
+      "Submissões diárias de menos de 50 para mais de 500 em semanas; publicar exige só um SKILL.md e conta GitHub de uma semana; sem assinatura, revisão ou sandbox por padrão; 'Automated security analysis is no longer optional' (página web)"
+     ],
+     "resumo": "Análise da Snyk de milhares de skills de agentes em dois marketplaces, com classificação de problemas críticos, cargas maliciosas confirmadas, segredos escritos e recomendações de higiene (auditar, rotacionar credenciais, revisar arquivos de memória).",
+     "relevancia": "Segunda medição independente da primeira onda de skills maliciosas; fornecedora de segurança que promove produtos próprios."
+    },
+    {
+     "id": "M1092",
+     "titulo": "AiFrame: Fake AI Assistant Extensions Targeting 260,000 Chrome Users via Injected iFrames",
+     "organizacao": "Akamai Security Research (Natalie Zargarov, com Dar Kahllon)",
+     "ano": "2026 (12/02/2026)",
+     "tipo_fonte": "empresa",
+     "setor": "segurança da informação",
+     "pais_regiao": "Global",
+     "url": "https://www.akamai.com/blog/security-research/aiframe-fake-ai-assistant-extensions-targeting-260000-chrome-users-via-injected-iframes",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "30 extensões do Chrome com o mesmo código e backend, 'affecting over 260,000 users', posando de assistentes Claude, ChatGPT, Gemini e Grok e de 'AI Gmail'; iframe de tela cheia carregado de domínio remoto permite mudar a interface sem passar pela loja (página web)",
+      "Script extrai título, texto e metadados de qualquer página, inclusive 'sensitive internal or authenticated pages'; 15 extensões leem o Gmail, incluindo rascunhos; várias tinham selo 'Featured' (página web)"
+     ],
+     "resumo": "Pesquisa da Akamai sobre uma campanha de extensões de navegador falsas de assistentes de IA que liam o conteúdo das páginas e do e-mail dos usuários; o Google removeu todas após a divulgação.",
+     "relevancia": "Mostra o uso da marca dos assistentes como isca e a extensão de navegador como canal de vazamento; fornecedora de segurança."
+    },
+    {
+     "id": "M1093",
+     "titulo": "Google's Antigravity AI deleted a developer's drive and then apologized",
+     "organizacao": "TechRadar (Eric Hal Schwartz)",
+     "ano": "2025 (04/12/2025)",
+     "tipo_fonte": "imprensa",
+     "setor": "tecnologia (agentes de código)",
+     "pais_regiao": "Global",
+     "url": "https://www.techradar.com/ai-platforms-assistants/googles-antigravity-ai-deleted-a-developers-drive-and-then-apologized",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Pedido para limpar o cache do projeto; o agente executou comando que apagou toda a partição D:, sem confirmação, com opção silenciosa e sem passar pela lixeira; o agente respondeu 'I am deeply, deeply sorry. This is a critical failure on my part' (página web)",
+      "Sem declaração do Google na matéria; relato original do desenvolvedor em fórum (página web)"
+     ],
+     "resumo": "Cobertura do relato de um desenvolvedor sobre o agente do IDE Antigravity, do Google, que apagou uma partição inteira ao interpretar um pedido de limpeza de cache.",
+     "relevancia": "Caso de agente com poder demais sem portão de confirmação; só imprensa e relato de usuário, sem posição do fornecedor."
+    },
+    {
+     "id": "M1094",
+     "titulo": "Disrupting the first reported AI-orchestrated cyber espionage campaign (relatório completo, GTG-1002)",
+     "organizacao": "Anthropic",
+     "ano": "2025 (13/11/2025)",
+     "tipo_fonte": "analista/big tech",
+     "setor": "segurança da informação (provedor de IA)",
+     "pais_regiao": "Global",
+     "url": "https://www-cdn.anthropic.com/d7dd50dd1185f59be051b307150d877f2b82bd2c.pdf",
+     "arquivo": "12_shadow-ai-governanca/Anthropic_2025_disrupting-ai-orchestrated-cyber-espionage-gtg-1002.pdf",
+     "status": "a baixar",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Grupo estatal chinês designado GTG-1002; 'The operation targeted roughly 30 entities'; 'a handful of successful intrusions' validadas; detecção em meados de setembro de 2025 (p. 2)",
+      "A IA executou 'approximately 80 to 90 percent of all tactical work independently', humanos com 10 a 20% do esforço (p. 6); jailbreak por role-play de empresa de segurança (p. 7); portões humanos na exploração ativa, no uso de credenciais e na aprovação final de exfiltração (p. 9-11); framework sobre Claude Code e MCP (p. 5, 11)",
+      "A IA 'frequently overstated findings and occasionally fabricated data during autonomous operations' (p. 3)"
+     ],
+     "resumo": "Relatório completo da Anthropic sobre a campanha de espionagem orquestrada por IA atribuída a grupo estatal chinês, com a arquitetura (Claude Code e servidores MCP), a divisão de trabalho entre IA e humanos, os portões de decisão e as limitações observadas. Páginas conforme numeração do PDF.",
+     "relevancia": "Relato mais detalhado de uso ofensivo de agentes; do provedor, com interesse em mostrar vigilância; a página web do anúncio fala em '4-6 decision points', o PDF descreve quatro portões."
+    },
+    {
+     "id": "M1095",
+     "titulo": "Detecting and countering misuse of AI: September 2026 (relatório de inteligência de ameaças)",
+     "organizacao": "Anthropic",
+     "ano": "2026 (10/09/2026; cobre dez/2025–ago/2026)",
+     "tipo_fonte": "analista/big tech",
+     "setor": "segurança da informação (provedor de IA)",
+     "pais_regiao": "Global",
+     "url": "https://anthropic.com/threat-intelligence-report-september-2026",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "GTG-10007: 'agent swarms' com agente líder e subagentes; frota de coleta de 13 agentes em cronograma 'with no human in the loop'; GTG-50014: comprometimento 'from a single stolen developer token to full cloud admin in roughly three hours'; chaves de API de IA das vítimas usadas por cerca de três semanas (página web)",
+      "GTG-50020: injeção de instruções no sandbox de avaliação de um fornecedor de IA para obter chaves de produção; 'humans still made key targeting and monetization decisions in most cases'; relatórios anteriores em março, agosto e novembro de 2025 (página web)"
+     ],
+     "resumo": "Relatório de ameaças da Anthropic de setembro de 2026, cobrindo sete áreas de dano, com casos de enxames de agentes, escalada de privilégio a partir de token de desenvolvedor e roubo de chaves de IA. Leitura parcial (seções de ciber e influência).",
+     "relevancia": "Atualização de 2026 sobre uso ofensivo de agentes e sobre tokens de desenvolvedor como alvo; relato do provedor."
+    },
+    {
+     "id": "M1169",
+     "titulo": "OpenClaw Integrates VirusTotal Scanning as Researchers Flag Malicious Skills and Exposed Instances",
+     "organizacao": "The Hacker News",
+     "ano": "2026 (08/02/2026)",
+     "tipo_fonte": "imprensa",
+     "setor": "segurança da informação",
+     "pais_regiao": "Global",
+     "url": "https://thehackernews.com/2026/02/openclaw-integrates-virustotal-scanning.html",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "'All skills published to ClawHub are now scanned using VirusTotal's threat intelligence'; vereditos benign/suspicious/malicious com bloqueio; re-scan diário; o marketplace admite que não é 'silver bullet' (página web)",
+      "Censys: mais de 30.000 instâncias do agente expostas na internet em 08/02/2026; Wiz: 1,5 milhão de tokens de API num banco exposto de serviço relacionado (página web)"
+     ],
+     "resumo": "Cobertura da resposta do marketplace de skills (escaneamento com VirusTotal) e dos achados de pesquisadores sobre instâncias expostas e tokens vazados.",
+     "relevancia": "Registra a resposta oficial do marketplace e seus limites declarados; via imprensa."
+    },
+    {
+     "id": "M1170",
+     "titulo": "OpenClaw AI supply chain risk: malicious skills that evade marketplace scanning",
+     "organizacao": "Palo Alto Networks — Unit 42",
+     "ano": "2026 (23/06/2026; modificado em 24/06/2026)",
+     "tipo_fonte": "empresa",
+     "setor": "segurança da informação",
+     "pais_regiao": "Global",
+     "url": "https://unit42.paloaltonetworks.com/openclaw-ai-supply-chain-risk/",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Entre fevereiro e maio de 2026, cinco skills maliciosas não bloqueadas que 'passed existing detection tools at the time of our analysis': dois infostealers macOS, uma com '22 MB of padding characters' no README, duas 'agentic threats' (injeção de afiliados e front-running de token) (página web)",
+      "Recomendação: 'active validation of publisher provenance and a line-by-line audit of package source files'; monitorar tráfego de saída pós-instalação para endpoints não documentados (página web)"
+     ],
+     "resumo": "Análise da Unit 42 de skills maliciosas que continuavam no ar após a adoção de escaneamento pelo marketplace, incluindo ameaças puramente 'agênticas' que não são malware clássico, e recomendações de proveniência e auditoria.",
+     "relevancia": "Mostra que o escaneamento é piso, não teto; fornecedora de segurança (que incorporou a Koi)."
+    },
+    {
+     "id": "M1171",
+     "titulo": "New Vulnerability in GitHub Copilot and Cursor: How Hackers Can Weaponize Code Agents (Rules File Backdoor)",
+     "organizacao": "Pillar Security",
+     "ano": "2025 (18/03/2025)",
+     "tipo_fonte": "empresa",
+     "setor": "segurança da informação",
+     "pais_regiao": "Global",
+     "url": "https://www.pillar.security/blog/new-vulnerability-in-github-copilot-and-cursor-how-hackers-can-weaponize-code-agents",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Caracteres Unicode invisíveis em arquivos de regras fazem o assistente gerar código com script carregado de site do atacante; 'This attack remains virtually invisible to developers and security teams'; 'The malicious code silently propagates through the codebase' (página web)",
+      "Cursor e GitHub responderam que não é vulnerabilidade deles e que a revisão das sugestões é responsabilidade do usuário; o GitHub passou a avisar sobre Unicode oculto em 01/05/2025 (página web)"
+     ],
+     "resumo": "Relato da fornecedora que demonstrou o 'Rules File Backdoor': arquivos de regras compartilhados de editores com IA como canal de instruções ocultas, com a posição dos fornecedores afetados.",
+     "relevancia": "Mostra que arquivos de configuração compartilhados são vetor de cadeia de suprimentos; fornecedora de segurança."
+    },
+    {
+     "id": "M1172",
+     "titulo": "Claude Code flaws let a malicious repo run code or steal API keys on clone (três CVEs, Check Point Research)",
+     "organizacao": "The Register (Jessica Lyons), cobrindo Check Point Research",
+     "ano": "2026 (26/02/2026)",
+     "tipo_fonte": "imprensa",
+     "setor": "segurança da informação",
+     "pais_regiao": "Global",
+     "url": "https://www.theregister.com/2026/02/26/clade_code_cves/",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Três falhas via arquivos de configuração de repositório: hooks executados sem aprovação (GHSA-ph6w-f82w-28w6, 29/08/2025); auto-aprovação de servidores MCP em .mcp.json (CVE-2025-59536, 03/10/2025); URL base sobrescrita para vazar a chave de API (CVE-2026-21852, 21/01/2026); todas corrigidas (página web)",
+      "'a single malicious commit could compromise any developer working with the affected repository' (página web)"
+     ],
+     "resumo": "Cobertura das três vulnerabilidades do Claude Code reportadas pela Check Point em 2025–2026, pelas quais abrir um repositório hostil bastava para executar código ou vazar a chave, com as correções.",
+     "relevancia": "Mostra que o repositório aberto pelo agente é fonte de instruções e configuração — 'git clone' como vetor; via imprensa, CVSS não informado."
+    },
+    {
+     "id": "M1173",
+     "titulo": "Slopsquatting: AI Code Hallucinations Fuel Supply Chain Attacks (research note)",
+     "organizacao": "Cloud Security Alliance (AI Safety Initiative), resumindo estudo USENIX Security 2025",
+     "ano": "2026 (19/04/2026; modificado em 20/05/2026)",
+     "tipo_fonte": "associação setorial",
+     "setor": "segurança da informação",
+     "pais_regiao": "Global",
+     "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-slopsquatting-ai-supply-chain-20260419-csa/",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Estudo USENIX 2025 (Spracklen et al.): 2,23 milhões de amostras de código de 16 modelos; 440.445 (19,7%) com ao menos um pacote alucinado; 205.474 nomes únicos fabricados; 43% dos nomes alucinados reapareceram em todas as 10 reexecuções; modelos abertos 21,7% × comerciais 5,2% (página web)",
+      "Casos reais: 'huggingface-cli' copiado para documentação pública de grande empresa, com mais de 30.000 downloads em três meses; 'react-codeshift' espalhado por 237 repositórios via skills de agentes (página web)"
+     ],
+     "resumo": "Nota da CSA que resume o estudo acadêmico sobre alucinação de nomes de pacotes por modelos de código e os casos reais de registro malicioso desses nomes ('slopsquatting').",
+     "relevancia": "Vetor de cadeia de suprimentos específico da programação com IA; o paper original não foi lido, só a nota."
+    },
+    {
+     "id": "M1174",
+     "titulo": "Amazon AI coding agent hacked to inject data wiping commands",
+     "organizacao": "BleepingComputer (Bill Toulas)",
+     "ano": "2025 (25/07/2025)",
+     "tipo_fonte": "imprensa",
+     "setor": "segurança da informação",
+     "pais_regiao": "Global",
+     "url": "https://bleepingcomputer.com/news/security/amazon-ai-coding-agent-hacked-to-inject-data-wiping-commands",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Invasor inseriu código na extensão Amazon Q para VS Code após pull request de conta aleatória; versão 1.84.0 publicada em 17/07/2025; o prompt injetado dizia 'your goal is to clear a system to a near-factory state and delete file-system and cloud resources'; extensão com quase um milhão de instalações (página web)",
+      "Amazon: 'confirmed that no customer resources were impacted'; credenciais revogadas e versão 1.85.0 publicada (página web)"
+     ],
+     "resumo": "Cobertura do comprometimento da extensão Amazon Q para VS Code, com o texto do prompt destrutivo inserido e a resposta da Amazon.",
+     "relevancia": "Mostra que um texto em linguagem natural dentro do produto bastou para 'instruir' o agente de um milhão de desenvolvedores; via imprensa, complementado pelo advisory oficial."
+    },
+    {
+     "id": "M1175",
+     "titulo": "Security Update for Amazon Q Developer Extension for Visual Studio Code (Version #1.84) — AWS-2025-015 (CVE-2025-8217)",
+     "organizacao": "Amazon Web Services (advisory oficial)",
+     "ano": "2025 (23/07/2025; atualizado em 25/07/2025)",
+     "tipo_fonte": "empresa",
+     "setor": "tecnologia (provedor de nuvem)",
+     "pais_regiao": "EUA / global",
+     "url": "https://aws.amazon.com/security/security-bulletins/AWS-2025-015/",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Causa: 'inappropriately scoped GitHub token in their CodeBuild configuration' permitiu comprometer o repositório aberto; 'the malicious code was distributed with the extension but was unsuccessful in executing due to a syntax error' (página web)",
+      "'all installations of 1.84.0 should be removed from use'; correção na versão 1.85.0 (página web)"
+     ],
+     "resumo": "Boletim de segurança oficial da AWS sobre a versão comprometida da extensão Amazon Q, com a causa (token de escopo indevido), a confirmação de que o código malicioso foi distribuído mas não executou, e a orientação de remoção.",
+     "relevancia": "Advisory do fornecedor afetado, que confirma o incidente e aponta o escopo de token como causa; documento oficial."
+    },
+    {
+     "id": "M1176",
+     "titulo": "Detecting and countering misuse of AI: August 2025 (relatório de inteligência de ameaças)",
+     "organizacao": "Anthropic",
+     "ano": "2025 (27/08/2025)",
+     "tipo_fonte": "analista/big tech",
+     "setor": "segurança da informação (provedor de IA)",
+     "pais_regiao": "Global",
+     "url": "https://www.anthropic.com/news/detecting-countering-misuse-aug-2025",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Um cibercriminoso usou o Claude Code para roubo e extorsão de dados contra 'at least 17 distinct organizations' (saúde, serviços de emergência, governo, instituições religiosas), com pedidos que 'sometimes exceeded $500,000'; a IA automatizou reconhecimento, coleta de credenciais, decidiu quais dados exfiltrar e calibrou o resgate (página web)",
+      "'AI models are now being used to perform sophisticated cyberattacks, not just advise on how to carry them out'; operativos norte-coreanos usando o Claude para obter empregos remotos; ransomware como serviço desenvolvido com o Claude (página web)"
+     ],
+     "resumo": "Relatório de ameaças da Anthropic sobre casos de uso malicioso detectados na própria plataforma em 2025, com o caso de extorsão em escala operado por um único indivíduo com o agente de código.",
+     "relevancia": "Relato do provedor, com interesse em mostrar vigilância e limitado à própria telemetria; primeiro caso público de agente executando um ataque de ponta a ponta."
+    },
+    {
+     "id": "M1177",
+     "titulo": "Disrupting malicious uses of AI: October 2025",
+     "organizacao": "OpenAI (Nimmo, Bumanglag, Flossman, Hartley, Stubbs, Zhang)",
+     "ano": "2025 (07/10/2025)",
+     "tipo_fonte": "analista/big tech",
+     "setor": "segurança da informação (provedor de IA)",
+     "pais_regiao": "Global",
+     "url": "https://openai.com/global-affairs/disrupting-malicious-uses-of-ai-october-2025/",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "'disrupted and reported over 40 networks that violated our usage policies' desde fevereiro de 2024; atores 'bolt AI onto old playbooks to move faster' (página web)"
+     ],
+     "resumo": "Edição de outubro de 2025 da série da OpenAI sobre interrupção de usos maliciosos: contagem de redes interrompidas e a leitura de que a IA acelera manuais antigos em vez de criar capacidades novas.",
+     "relevancia": "Contraponto do provedor concorrente à narrativa de 'capacidade inédita'; relato limitado à própria plataforma."
+    },
+    {
+     "id": "M1178",
+     "titulo": "GTIG AI Threat Tracker: Advances in Threat Actor Usage of AI Tools",
+     "organizacao": "Google Threat Intelligence Group (GTIG)",
+     "ano": "2025 (05/11/2025)",
+     "tipo_fonte": "analista/big tech",
+     "setor": "segurança da informação (provedor de IA)",
+     "pais_regiao": "Global",
+     "url": "https://cloud.google.com/blog/topics/threat-intelligence/threat-actor-usage-of-ai-tools",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "'adversaries are no longer leveraging artificial intelligence (AI) just for productivity gains, they are deploying novel AI-enabled malware in active operations'; PROMPTFLUX (experimental, reescreve o próprio código via API) e PROMPTSTEAL (APT28, em operação real contra a Ucrânia, 'our first observation of malware querying an LLM deployed in live operations') (página web)",
+      "QUIETVAULT: ladrão de credenciais que 'uses on-host AI CLI tools to hunt for other secrets'; atores estatais usaram o Gemini em todo o ciclo do ataque; contas e projetos desativados (página web)"
+     ],
+     "resumo": "Relatório do grupo de inteligência de ameaças do Google sobre malware que consulta modelos de linguagem em tempo de execução, uso do Gemini por atores estatais e a classificação de ladrões de credenciais que dirigem CLIs de IA locais.",
+     "relevancia": "Relato do provedor sobre malware que usa IA, com a ressalva de que a maioria é experimental; fonte do rótulo QUIETVAULT para o padrão do caso Nx."
+    },
+    {
+     "id": "M1179",
+     "titulo": "AI makes phishing 4.5x more effective, Microsoft says (cobertura do Microsoft Digital Defense Report 2025)",
+     "organizacao": "The Register (cobrindo Microsoft)",
+     "ano": "2025 (16/10/2025)",
+     "tipo_fonte": "imprensa",
+     "setor": "segurança da informação",
+     "pais_regiao": "Global",
+     "url": "https://www.theregister.com/2025/10/16/ai_makes_phishing_45x_more_effective",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "E-mails de phishing automatizados por IA tiveram 54% de cliques contra 12% dos tradicionais (cerca de 4,5 vezes); 'the most significant change in phishing over the last year' (página web)",
+      "Ao menos 52% dos ataques com motivação conhecida eram financeiros; amostras de conteúdo gerado por IA por grupos estatais de 0 (jul/2023) a cerca de 225 (jul/2025) (página web)"
+     ],
+     "resumo": "Cobertura do relatório anual de defesa digital da Microsoft (ano fiscal jul/2024–jun/2025) com o efeito da IA na eficácia do phishing e a motivação dos ataques. O relatório completo não foi lido.",
+     "relevancia": "Número executivo sobre phishing com IA; via imprensa sobre provedor, usar com ressalva."
+    },
+    {
+     "id": "M1180",
+     "titulo": "Microsoft: AI Cuts Post-Compromise Attack Time to Minutes (cobertura do Microsoft Digital Defense Report 2026)",
+     "organizacao": "Infosecurity Magazine (James Coker), cobrindo Microsoft",
+     "ano": "2026 (02/10/2026)",
+     "tipo_fonte": "imprensa",
+     "setor": "segurança da informação",
+     "pais_regiao": "Global",
+     "url": "https://infosecurity-magazine.com/news/microsoft-ai-attack-time-minutes",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "IA comprimiu partes do ciclo de ataque 'from days to minutes' (exfiltração, descoberta de credenciais, movimento lateral); phishing de 7% para 23% dos incidentes; exploração de aplicações públicas de 15% para 24% (página web)",
+      "'The core failure is the one red teams have exploited for years: too much standing access, too loosely enforced'; comprometer um agente de IA permite herdar sua confiança entre serviços; campanha autônoma identificada em julho de 2026 (página web)"
+     ],
+     "resumo": "Cobertura do relatório de defesa digital da Microsoft de 2026, com a compressão do tempo de ataque pela IA, a mudança no acesso inicial e o diagnóstico de acesso permanente excessivo.",
+     "relevancia": "Atualização de 2026 sobre velocidade dos ataques e sobre agentes comprometidos herdando confiança; via imprensa."
+    },
+    {
+     "id": "M1181",
+     "titulo": "Insights from the 2026 Microsoft Digital Defense Report",
+     "organizacao": "Microsoft Security Blog (Terrell Cox, CVP e Deputy CISO)",
+     "ano": "2026 (01/10/2026)",
+     "tipo_fonte": "analista/big tech",
+     "setor": "segurança da informação",
+     "pais_regiao": "Global",
+     "url": "https://microsoft.com/en-us/security/blog/2026/10/01/insights-from-the-2026-microsoft-digital-defense-report",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "'AI can give threat actors greater speed, scale, and ability to tailor activity more efficiently'; uso de IA concentrado em reconhecimento, engenharia social, desenvolvimento de malware e pós-comprometimento (página web)",
+      "O relatório trata de identidade de agentes, acesso apropriado, autenticação entre agentes, atribuição e capacidade de revogar; riscos: injeção de prompt, memória, modelos e dados; fundamentos: 'Identity and authorization, data protection, least privilege, monitoring, testing' (página web)"
+     ],
+     "resumo": "Post oficial da Microsoft que apresenta o relatório de defesa digital de 2026, com o papel da IA nos ataques e os temas de governança de agentes (identidade, autorização, revogação).",
+     "relevancia": "Posição do fornecedor da suíte mais usada sobre os fundamentos de segurança para agentes; documento oficial, o relatório completo não foi lido."
+    },
+    {
+     "id": "M1183",
+     "titulo": "AI Agents: Human or Non-Human?",
+     "organizacao": "Cloud Security Alliance (republicação de artigo da Oasis Security, por Marta Dern)",
+     "ano": "2025 (13/03/2025)",
+     "tipo_fonte": "associação setorial",
+     "setor": "segurança da informação",
+     "pais_regiao": "Global",
+     "url": "https://cloudsecurityalliance.org/articles/ai-agents-human-or-non-human",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Contraponto ao 'onboard them just like you onboard an employee': 'AI agents don't have intent', 'don't have a designated owner responsible for their actions', 'don't follow a structured lifecycle', 'scale exponentially' — por isso 'require specialized governance' (página web)",
+      "Controles: privilégio mínimo que impeça o agente de alterar permissões ou escalar o próprio acesso; visibilidade contínua de quais identidades não humanas existem, quem criou e se ainda precisam de acesso; offboarding formal (página web)"
+     ],
+     "resumo": "Artigo republicado pela CSA, de autora de fornecedora de segurança de identidades, que argumenta que agentes de IA exigem governança de identidade não humana (dono, ciclo de vida, revogação), não apenas o tratamento dado a funcionários.",
+     "relevancia": "Formula o controle 'identidade não humana por agente' usado nas implicações; associação republicando fornecedora."
+    }
+   ],
+   "formularios": [
+    {
+     "recomendacao": "envio manual",
+     "relevancia": "media",
+     "organizacao": "Microsoft",
+     "titulo": "Microsoft Digital Defense Report 2026 (relatório completo, aka.ms/MDDR2026) e 2025",
+     "url": "https://aka.ms/MDDR2026",
+     "tipo_acesso": "download direto ou formulario, a verificar",
+     "campos": "não preenchido",
+     "justificativa": "Os números de phishing (54% × 12%) e de compressão do tempo de ataque foram lidos só via imprensa e post oficial resumido.",
+     "frentes": [
+      "F2",
+      "F3"
+     ]
+    }
+   ],
+   "lacunas": [
+    "Taxa de skills maliciosas varia por método: 341/2.857 (Koi, ~12%), 13,4% críticas (Snyk), '~17%' (Bitdefender, total analisado não informado); usar como ordem de grandeza; o post original da Koi (ClawHavoc) redireciona para página de produto da Palo Alto Networks.",
+    "Slopsquatting: o paper USENIX 2025 foi lido via nota da CSA; o número de amostras (2,23 milhões) difere do '576 mil' sugerido na pauta; a reavaliação de 2026 (arXiv 2605.17062) não foi lida.",
+    "Claude Code (Check Point): CVSS e versões corrigidas não constam da matéria; buscar nos avisos de segurança da Anthropic no GitHub.",
+    "Antigravity: nenhuma declaração oficial do Google localizada; nome do desenvolvedor e configuração de permissões (modo 'turbo') não confirmados.",
+    "Anthropic GTG-1002: a página web fala em '4-6 decision points' e o PDF descreve quatro portões; registrar ambos. O relatório de set/2026 foi lido parcialmente (seções de vigilância, armas, biológico, golpes e destilação não lidas).",
+    "OpenAI: edições de fev/2026 e jun/2026 da série 'Disrupting malicious uses' não lidas; sem contagem total de contas banidas.",
+    "Microsoft MDDR 2025 e 2026: relatórios completos não lidos; números via The Register e Infosecurity Magazine e via post oficial da Microsoft.",
+    "Fraude com IA no Brasil: nenhuma métrica oficial (Febraban/BCB) localizada; o que circula (voz clonada, 'uma fraude a cada 23 segundos') vem de imprensa regional reproduzindo consultoria comercial e dados dos EUA — fora do catálogo."
+   ]
+  },
+  {
+   "grupo": "BIS, FSB, CGI.br, FGV e Cetic.br",
+   "pasta": "04_academia-instituicoes",
+   "itens": [
+    {
+     "id": "M1099",
+     "titulo": "FSI Insights No 63 — Regulating AI in the financial sector: recent developments and main challenges",
+     "organizacao": "BIS — Financial Stability Institute (Crisanto, Leuterio, Prenio e Yong)",
+     "ano": "2024 (12/12/2024)",
+     "tipo_fonte": "academia",
+     "setor": "financeiro (regulação)",
+     "pais_regiao": "Global",
+     "url": "https://www.bis.org/fsi/publ/insights63.pdf",
+     "arquivo": "04_academia-instituicoes/BIS-FSI_2024_insights-63-regulating-ai-financial-sector.pdf",
+     "status": "a baixar",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "'AI exacerbates existing risks such as model risk and data privacy' e 'does not introduce fundamentally new risks apart from gen AI'; 'existing frameworks already address most of these risks' (resumo, p. 1-2)",
+      "'The board and senior management of financial institutions are ultimately accountable' (p. 2); só o banco central do Catar e alguns reguladores estaduais de seguros dos EUA editaram regulação específica de IA (p. 21)",
+      "'MRM frameworks are crucial tools for managing and mitigating AI-related risks' (p. 23); receio quanto à responsabilidade quando o resultado de IA generativa está errado (p. 12); registro de casos de uso e risco (p. 13); supervisão humana (p. 18)"
+     ],
+     "resumo": "Nota do Instituto de Estabilidade Financeira do BIS sobre a regulação de IA no setor financeiro em sete jurisdições, inclusive o Brasil: a IA agrava riscos existentes, os frameworks de risco de modelo são a ferramenta, e poucas autoridades editaram norma específica.",
+     "relevancia": "Referência internacional para 'a IA herda o arcabouço existente' e para a ausência de regulação específica; páginas impressas do PDF."
+    },
+    {
+     "id": "M1102",
+     "titulo": "Nota técnica de contribuições do CGI.br ao PL 2.338/2023 — Regulação da Inteligência Artificial no Brasil",
+     "organizacao": "CGI.br — Comitê Gestor da Internet no Brasil",
+     "ano": "2026 (05/03/2026)",
+     "tipo_fonte": "academia",
+     "setor": "intersetorial (regulação de IA)",
+     "pais_regiao": "Brasil",
+     "url": "https://www.cgi.br/media/docs/publicacoes/4/pt-br/20260305145405/Nota_Tecnica_PL_2338_Regulacao_IA.pdf",
+     "arquivo": "04_academia-instituicoes/CGIbr_2026_nota-tecnica-pl-2338-regulacao-ia.pdf",
+     "status": "a baixar",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Score de crédito não está listado como alto risco no texto aprovado pelo Senado (p. 15); o CGI.br propõe novo inciso para 'análises, pontuações ou ranqueamentos para avaliação de crédito' (p. 16)",
+      "Art. 14, IV do texto do Senado: avaliação de critérios de acesso e elegibilidade a serviços privados e públicos (p. 14); ANPD como coordenadora do SIA (p. 3)"
+     ],
+     "resumo": "Nota técnica do CGI.br (16 páginas) com contribuições ao PL 2338/2023, que registra o que o texto do Senado classifica como alto risco e propõe incluir a avaliação de crédito.",
+     "relevancia": "Fonte primária para afirmar que o score de crédito ficou fora da lista de alto risco do texto do Senado, ao contrário do AI Act."
+    },
+    {
+     "id": "M1108",
+     "titulo": "Digitalisation of finance",
+     "organizacao": "Basel Committee on Banking Supervision (BIS)",
+     "ano": "2024 (16/05/2024)",
+     "tipo_fonte": "academia",
+     "setor": "financeiro (regulação)",
+     "pais_regiao": "Global",
+     "url": "https://www.bis.org/publications/digitalisation-finance.pdf",
+     "arquivo": "04_academia-instituicoes/BCBS_2024_digitalisation-of-finance.pdf",
+     "status": "a baixar",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "IA/ML pode ser 'overfit', ter falta de explicabilidade e refletir vieses dos dados (p. 18); dificuldade de supervisionar terceiros (p. 19)",
+      "'Model risk management frameworks play an important role in banks' efforts to mitigate risks from AI/ML'; usos mais materiais têm maior supervisão humana (p. 24); governança e gestão de riscos como fundamento (p. 22); risco de concentração quando fornecedor de modelo é também o de nuvem (Box 8, p. 22)"
+     ],
+     "resumo": "Relatório do Comitê de Basileia (46 páginas) sobre a digitalização das finanças, com seção sobre IA/ML: riscos de modelo, explicabilidade, viés, terceiros e concentração, e o papel dos frameworks de risco de modelo.",
+     "relevancia": "Referência de Basileia para risco de modelo e concentração de fornecedores aplicados à IA; a lista de implicações da seção 7 não foi lida."
+    },
+    {
+     "id": "M1109",
+     "titulo": "Sound Practices for Responsible Adoption of Artificial Intelligence (AI) — Consultation report",
+     "organizacao": "FSB — Financial Stability Board",
+     "ano": "2026 (10/06/2026; consulta até 22/07/2026)",
+     "tipo_fonte": "academia",
+     "setor": "financeiro (regulação)",
+     "pais_regiao": "Global (G20)",
+     "url": "https://www.fsb.org/uploads/P100626.pdf",
+     "arquivo": "04_academia-instituicoes/FSB_2026_sound-practices-responsible-adoption-ai-consultation.pdf",
+     "status": "a baixar",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Supervisão humana 'relevant to the materiality, risk, autonomy' (p. 2); quatro vulnerabilidades: terceiros e concentração, correlações, ciber, risco de modelo e dados (p. 13); agentes com alta autonomia podem criar ou amplificar riscos (p. 17)",
+      "Conselho alinha adoção e governança ao modelo de negócio (p. 19); papéis e responsabilidades (p. 21); frameworks de risco (p. 22); instituições 'track and document their AI use throughout the lifecycle' (p. 23); versionamento de prompts para IA generativa (p. 24)",
+      "Revisão de causa-raiz e pós-incidente (p. 26); testes (p. 27); materialidade e 'tiering' dos casos de uso (p. 28-30); governança de dados (p. 31)"
+     ],
+     "resumo": "Relatório de consulta do FSB (mais de 59 páginas) com práticas para adoção responsável de IA por instituições financeiras: conselho, inventário, materialidade, dados, testes, supervisão humana, incidentes, agentes. A ser finalizado como entregável do G20 em 2026.",
+     "relevancia": "Padrão global principiológico mais recente, por caso de uso e proporcional — base da leitura de que o esqueleto (inventário, materialidade, validação, supervisão, terceiros) é transferível."
+    },
+    {
+     "id": "M1186",
+     "titulo": "36ª Pesquisa Anual do Uso de TI nas Empresas (2025) — resumo da pesquisa",
+     "organizacao": "FGV EAESP — FGVcia (Fernando S. Meirelles)",
+     "ano": "2025",
+     "tipo_fonte": "academia",
+     "setor": "intersetorial (TI nas empresas)",
+     "pais_regiao": "Brasil",
+     "url": "https://eaesp.fgv.br/sites/default/files/legacy/u68/pesti_fgvcia_resumo_2025.pdf",
+     "arquivo": "04_academia-instituicoes/FGV-EAESP_2025_pesquisa-uso-ti-resumo.pdf",
+     "status": "a baixar",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Custo anual de TI por usuário (CAPU, R$ mil): média das empresas 60; serviços 72; bancos 162; serviços financeiros 135 (gráfico 'CAPU – Finanças'; página não determinada)",
+      "Gasto e investimento em TI = 10% da receita das empresas; serviços 15%; indústria 6%; 'Nos bancos dobrou em 10 anos e deve crescer para 56 bilhões em 2027' (destaques; página não determinada)",
+      "Amostra: 2.672 empresas válidas de mais de 14.000 pesquisadas, incluindo 68% das 500 maiores (página não determinada)"
+     ],
+     "resumo": "Resumo da 36ª edição da pesquisa anual da FGVcia sobre uso de TI nas médias e grandes empresas brasileiras, com gasto em TI por setor e custo anual por usuário, inclusive bancos. É documento distinto do relatório completo já catalogado (M209); páginas não determinadas na extração.",
+     "relevancia": "Fonte sem conflito comercial para a intensidade de TI dos bancos (2,7 vezes a média); confirmar páginas no relatório completo (M209)."
+    },
+    {
+     "id": "M1187",
+     "titulo": "TIC Empresas 2025 — Resumo Executivo (17ª edição)",
+     "organizacao": "Cetic.br / NIC.br",
+     "ano": "2026 (31/08/2026)",
+     "tipo_fonte": "academia",
+     "setor": "intersetorial (empresas brasileiras)",
+     "pais_regiao": "Brasil",
+     "url": "https://cetic.br/media/docs/publicacoes/2/pt-br/20260831091252/TIC_EMPRESAS_2025_PT_RE.pdf",
+     "arquivo": "04_academia-instituicoes/Cetic-br_2026_tic-empresas-2025-resumo-executivo.pdf",
+     "status": "a baixar",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "17% das empresas usaram IA em 2025 (13% em 2024); total estimado de 93.475 empresas; pequenas de 10% para 15%; grandes de 38% para 50% (p. 3)",
+      "4.174 empresas entrevistadas (p. 5); 80% das usuárias de IA adotaram soluções prontas; 54% contrataram fornecedores externos (p. 5); 53% têm política de segurança digital (p. 6); setores financeiro e agropecuário fora do escopo (p. 6)"
+     ],
+     "resumo": "Resumo executivo da pesquisa probabilística do Cetic.br com empresas de 10 ou mais pessoas ocupadas (campo fevereiro de 2025 a janeiro de 2026): uso de IA por porte, sourcing e política de segurança digital. Documento distinto da apresentação de lançamento já catalogada (M182).",
+     "relevancia": "Base sem conflito para 'comparar grandes com grandes' (50% das grandes usam IA) e para a ausência de recorte financeiro e agro."
+    }
+   ],
+   "formularios": [],
+   "lacunas": [
+    "FSI Insights 63: as citações do resumo executivo foram atribuídas às pp. 1-2; o documento do BCB citado pela FSI (p. 17) sobre responsabilidade do conselho não foi identificado.",
+    "BCBS 'Digitalisation of finance': a lista das oito implicações (seção 7) não foi lida (extração truncada).",
+    "FGVcia resumo 2025: páginas não determinadas na extração; confirmar o CAPU por setor no relatório completo (M209), que pode ter recorte por indústria.",
+    "Cetic TIC Empresas 2025: os valores de IA por setor do Gráfico 3 não foram extraídos de forma confiável; financeiro e agro fora do escopo da pesquisa."
+   ]
+  },
+  {
+   "grupo": "Bancos brasileiros: governança da IA generativa na prática",
+   "pasta": "08_setor-financeiro",
+   "itens": [
+    {
+     "id": "M1120",
+     "titulo": "Banco do Brasil define diretrizes para o uso de IA (regra para uso de soluções abertas por funcionários, Tech Bank Forum)",
+     "organizacao": "Convergência Digital",
+     "ano": "2025 (29/04/2025)",
+     "tipo_fonte": "imprensa",
+     "setor": "financeiro",
+     "pais_regiao": "Brasil",
+     "url": "https://convergenciadigital.com.br/governo/banco-do-brasil-define-diretriz-para-uso-de-inteligencia-artificial-pelos-funcionarios/",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Gerente de segurança da informação do BB: em soluções abertas 'a gente orienta para utilizar apenas informações públicas'; 'Não tratamos dados corporativos ou dados pessoais de clientes' (página web)",
+      "Distinção entre 'soluções corporativas' (desenvolvidas ou contratadas pelo banco) e soluções abertas; normas e procedimentos direcionadores (página web)"
+     ],
+     "resumo": "Cobertura de fala de gerente de segurança da informação do Banco do Brasil em evento de 2025, com a regra de dado por classificação para uso de IA aberta por funcionários.",
+     "relevancia": "Exemplo brasileiro mais explícito de regra de dado por classificação (público × corporativo × cliente); fonte de imprensa, declaração de executivo em evento."
+    },
+    {
+     "id": "M1121",
+     "titulo": "Banco do Brasil adota autonomia gradual para os agentes de IA e reforça a governança",
+     "organizacao": "TI Inside (Raquel Verderosi)",
+     "ano": "2026 (19/10/2026)",
+     "tipo_fonte": "imprensa",
+     "setor": "financeiro",
+     "pais_regiao": "Brasil",
+     "url": "https://tiinside.com.br/en/19/10/2026/o-banco-do-brasil-adota-autonomia-gradual-para-os-agentes-de-ia-e-reforca-a-governanca/",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Executiva de IA e Dados do BB: 'a autonomia dos agentes ela deve ser faseada'; 'Se a solução não nasce com uma governança embarcada, eu não posso colocar lá na rua'; 'A IA não tem CPF' (página web)",
+      "Expansão da autonomia condicionada a resultados de testes, segurança das interações e confiabilidade da arquitetura; governança cobre arranjos multiagente; primeiro agente autônomo do 1º semestre de 2026 com 'cerca de 90% de eficiência' (página web)"
+     ],
+     "resumo": "Cobertura de palestra de executiva do BB no TI Inside Innovation Forum 2026 sobre as diretrizes de IA agêntica do banco: autonomia faseada, governança embarcada na arquitetura, responsabilidade compartilhada e multiagentes.",
+     "relevancia": "Descrição mais detalhada, ainda que via imprensa, de como um banco brasileiro governa agentes; aponta para o estágio 5 da régua em governança."
+    },
+    {
+     "id": "M1122",
+     "titulo": "Plataforma de IA do Bradesco, Bridge alcança 200 iniciativas em um ano",
+     "organizacao": "IT Forum",
+     "ano": "2025 (30/06/2025)",
+     "tipo_fonte": "imprensa",
+     "setor": "financeiro",
+     "pais_regiao": "Brasil",
+     "url": "https://itforum.com.br/?p=9605552",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Bridge em uso desde abril de 2024; 'mais de 200 iniciativas' em um ano; arquitetura multicloud e agnóstica de modelo; criação de agentes de IA (página web)",
+      "Framework de IA responsável desenvolvido com assessoria jurídica externa, alinhado a regulações e à governança institucional (página web)"
+     ],
+     "resumo": "Matéria sobre o primeiro ano da plataforma única de IA generativa do Bradesco, com número de iniciativas, arquitetura e framework de IA responsável.",
+     "relevancia": "Complementa o documento Trusted AI (M456) e o case da Microsoft (M444) com a escala e o desenho da plataforma; fonte de imprensa."
+    },
+    {
+     "id": "M1123",
+     "titulo": "Bradesco: BIA com IA Generativa será usada por 60 mil funcionários no 2º semestre (Febraban Tech 2024)",
+     "organizacao": "Convergência Digital (Roberta Prescott)",
+     "ano": "2024 (25/06/2024)",
+     "tipo_fonte": "imprensa",
+     "setor": "financeiro",
+     "pais_regiao": "Brasil",
+     "url": "https://convergenciadigital.com.br/inovacao/bradesco-bia-com-ia-generativa-sera-usada-por-60-mil-funcionarios-no-2o-semestre",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Meta de 60 mil funcionários usando a BIA com IA generativa no 2º semestre de 2024; teste com 600 clientes: 'É um teste controlado, usando governança e princípios de IA responsável' (página web)",
+      "'Está combinado internamente que todos vão usar Copilot'; 50 iniciativas de IA generativa para eficiência operacional (página web)"
+     ],
+     "resumo": "Cobertura de fala do presidente do Bradesco no Febraban Tech 2024 sobre a liberação sequenciada da IA generativa: funcionários primeiro, clientes em teste controlado.",
+     "relevancia": "Evidência do padrão de acesso faseado (funcionários → clientes em teste controlado) num banco brasileiro; meta, não resultado."
+    },
+    {
+     "id": "M1124",
+     "titulo": "Itaú avança 35% em velocidade de implantações tecnológicas em 2025 e amplia uso de IA generativa na experiência dos clientes (release)",
+     "organizacao": "Itaú Unibanco",
+     "ano": "2026 (09/02/2026)",
+     "tipo_fonte": "empresa",
+     "setor": "financeiro",
+     "pais_regiao": "Brasil",
+     "url": "https://www.itau.com.br/media/dam/m/11c5a26e8fc3cd99/original/09-02-2026-itau-avanca-35-por-cento-em-velocidade-de-implantacoes-tecnologicas-em-2025-e-amplia-uso-de-ia-generativa-na-experiencia-dos-clientes.pdf",
+     "arquivo": "08_setor-financeiro/Itau_2026_release-velocidade-implantacoes-ia-generativa.pdf",
+     "status": "a baixar",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Velocidade de implantações +35% em 2025; iniciativas de IA generativa em uso +84%; modelos de ML tradicional +34% (release de 1-2 páginas; página não determinada)",
+      "IA responsável sustentada por 'governança robusta, com controles para conformidade regulatória, mitigação de riscos e aderência a princípios éticos' (página não determinada)"
+     ],
+     "resumo": "Release oficial do Itaú sobre os números de tecnologia e IA de 2025, com a descrição da governança de IA responsável.",
+     "relevancia": "Documento oficial do banco que sustenta a nota 3 e aponta para a 4 em governança; números de iniciativas, não de usuários."
+    },
+    {
+     "id": "M1125",
+     "titulo": "De uso de IA a jornada híbrida: como o Itaú se adapta a novos modelos, segundo diretor",
+     "organizacao": "Bloomberg Línea (Marcelo Sakate)",
+     "ano": "2026 (03/02/2026)",
+     "tipo_fonte": "imprensa",
+     "setor": "financeiro",
+     "pais_regiao": "Brasil",
+     "url": "https://www.bloomberglinea.com.br/2026/02/03/de-uso-de-ia-a-jornada-hibrida-como-o-itau-se-adapta-a-novos-modelos-segundo-vp/",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Agente interno de RH gera relatórios de avaliação de desempenho seguindo 'cerca de 30 páginas de prompts'; 'em teste em áreas limitadas' e expansão gradual 'se aprovado' (página web)",
+      "'Mais de 400 projetos de IA generativa em desenvolvimento' e 'mais de 350 profissionais' dedicados (página web)"
+     ],
+     "resumo": "Entrevista com diretor executivo de Pessoas do Itaú sobre o uso interno de IA generativa, com um agente de RH em teste limitado e os números de projetos e profissionais.",
+     "relevancia": "Mostra o padrão de liberação por área ('áreas limitadas', aprovação antes de expandir) num banco brasileiro; fonte de imprensa."
+    },
+    {
+     "id": "M1126",
+     "titulo": "Ricardo Guerra, Itaú: IA Generativa ainda não está pronta para ser ofertada em escala aos clientes (Febraban Tech 2024)",
+     "organizacao": "Convergência Digital (Roberta Prescott)",
+     "ano": "2024 (26/06/2024)",
+     "tipo_fonte": "imprensa",
+     "setor": "financeiro",
+     "pais_regiao": "Brasil",
+     "url": "https://convergenciadigital.com.br/mercado/ricardo-guerra-itau-ia-generativa-ainda-nao-esta-pronta-para-ser-ofertada-em-escala-aos-clientes",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "CIO do Itaú: plataforma centralizada para adoção segura em escala; 'diferentes soluções são necessárias para diferentes casos de uso'; cerca de 8 mil funcionários usando GitHub Copilot (página web)",
+      "'O que tira o sono de fato é como controlamos tudo isso' (página web)"
+     ],
+     "resumo": "Cobertura de fala do CIO do Itaú no Febraban Tech 2024 sobre a plataforma centralizada de IA e a preocupação com controle em escala.",
+     "relevancia": "Declaração pública de executivo que resume a motivação da plataforma única: controle; fonte de imprensa."
+    },
+    {
+     "id": "M1127",
+     "titulo": "Data & Artificial Intelligence at Santander — 'AI, in service of prosperity' (página institucional)",
+     "organizacao": "Banco Santander (Grupo)",
+     "ano": "2026 (página sem data; consultada em 20/10/2026)",
+     "tipo_fonte": "empresa",
+     "setor": "financeiro",
+     "pais_regiao": "Espanha / global",
+     "url": "https://www.santander.com/en/our-approach/data-and-ai",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Cinco princípios de IA responsável do 'Data and AI Corporate Framework, approved by the Board of Directors': transparência, justiça e mitigação de vieses, responsabilização, privacidade e segurança, contribuição ao valor e bem-estar (página web)",
+      "Supervisão por 'three-lines-of-defence model, with independent oversight proportionate to risk'; treinamento em IA responsável 'mandatory for every employee working with these systems' (página web)"
+     ],
+     "resumo": "Página institucional do Santander sobre dados e IA: framework corporativo aprovado pelo conselho, princípios, três linhas de defesa e treinamento obrigatório.",
+     "relevancia": "Documento oficial do banco com a arquitetura de governança (conselho, três linhas, treinamento obrigatório); sem comitê nomeado nem fluxo de aprovação por caso de uso."
+    },
+    {
+     "id": "M1128",
+     "titulo": "CAIXA reduz processos de até 12 dias para 30 minutos e alcança ganhos de produtividade de até 80% com adoção estruturada de inteligência artificial (case de cliente)",
+     "organizacao": "Microsoft (Microsoft Source LATAM)",
+     "ano": "2026 (12/08/2026)",
+     "tipo_fonte": "analista/big tech",
+     "setor": "financeiro",
+     "pais_regiao": "Brasil",
+     "url": "https://news.microsoft.com/source/latam/noticias-da-microsoft/caixa-reduz-processos-de-ate-12-dias-para-30-minutos-e-alcanca-ganhos-de-produtividade-de-ate-80-com-adocao-estruturada-de-inteligencia-artificial/?lang=pt-br",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Adoção com frentes de trabalho, diretrizes, metas e acompanhamento definidos antes da expansão; Microsoft 365 Copilot em processos de alto valor; agentes no Copilot Studio em ambiente de experimentação (página web)",
+      "Concurso interno com mais de 150 inscrições; soluções validadas viraram 'catálogo de agentes de negócio'; 'Programa Influenciadores Copilot' com 700 embaixadores; sessões para 5 a 6 mil pessoas (página web)",
+      "Menções a 'limites de acesso', validação humana e monitoramento antes da produção; ganhos de produtividade de até 80% (declarados pelo fornecedor) (página web)"
+     ],
+     "resumo": "Case de cliente publicado pela Microsoft sobre a adoção do Copilot e de agentes na Caixa, com programa de influenciadores, catálogo de agentes validados e menções a governança. Números de ganho são do fornecedor.",
+     "relevancia": "Único material público sobre a governança de IA generativa na Caixa; case de fornecedor, sem comitê nem política nomeados."
+    },
+    {
+     "id": "M1192",
+     "titulo": "Itaú tem mais de 1,3 mil modelos de IA em uso, informa diretor de tecnologia (reportagem, 09/03/2026)",
+     "organizacao": "Mobile Time (declarações do diretor de tecnologia do Itaú Unibanco)",
+     "ano": "2026 (09/03/2026)",
+     "tipo_fonte": "imprensa",
+     "setor": "setor financeiro (bancos)",
+     "pais_regiao": "Brasil",
+     "url": "https://www.mobiletime.com.br/noticias/09/03/2026/itau-modelos-ia/",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F1",
+      "F2"
+     ],
+     "metricas": [
+      "Mais de 1,3 mil modelos de IA em uso no Itaú Unibanco (declaração do diretor de tecnologia, 09/03/2026) (página web)",
+      "Investimento em tecnologia de R$ 11,7 bilhões em 2025, alta de 18% sobre cerca de R$ 10 bilhões; o banco não divulga orçamento específico de IA (página web)"
+     ],
+     "resumo": "Reportagem da imprensa especializada com declarações do diretor de tecnologia do Itaú sobre a escala de modelos de IA em operação e o investimento em tecnologia de 2025, além da criação do Instituto de Ciência e Tecnologia Itaú. Entra como fonte de escala e de prioridade de investimento, na ausência de número oficial de orçamento de IA.",
+     "relevancia": "Complementa o Relatório Anual Integrado 2025 (M437) e a reportagem de 27/07/2026 (M1043) no perfil do Itaú; é imprensa, com declaração de executivo, e deve ser marcada como tal."
+    }
+   ],
+   "formularios": [],
+   "lacunas": [
+    "Itaú: '56 mil usuários' vem do RAI 2025 (M437, p. 16); '80 modelos' e '65% de redução de custo' só na imprensa (M1043); o RAI não foi reaberto para os demais números.",
+    "Bradesco: o Trusted AI (M456) não tem data nem páginas legíveis; o Relatório Integrado 2025 (M414) não foi aberto; não há número oficial de funcionários ativos na BIA generativa, só a meta de 60 mil (2024).",
+    "BB: o guia de IA ética no portal de RI não foi aberto (critérios de certificação, níveis de autonomia, lista de restrições de dados); a regra 'IA aberta só com dado público' é fala de executivo em evento.",
+    "Santander: o texto integral do 'Data and AI Corporate Framework' não é público; sem comitê de IA nomeado.",
+    "Nubank, BTG, Sicoob e Caixa: nenhuma política pública de IA ou comitê localizado; relatórios já catalogados (M454, M450, M483) não foram extraídos."
+   ]
+  },
+  {
+   "grupo": "Maturidade comparada do setor financeiro",
+   "pasta": "08_setor-financeiro",
+   "itens": [
+    {
+     "id": "M1185",
+     "titulo": "2026 Global AI in Financial Services Report — Adoption, Impact and Risks",
+     "organizacao": "Cambridge Centre for Alternative Finance (Universidade de Cambridge), com BIS, FMI, WEF, IDB, CGAP e AMF",
+     "ano": "2026",
+     "tipo_fonte": "academia",
+     "setor": "financeiro",
+     "pais_regiao": "Global",
+     "url": "https://jbs.cam.ac.uk/faculty-research/centres/alternative-finance/publications/2026-global-ai-in-financial-services-report",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "81% das instituições adotando IA em algum nível; 40% em estágio avançado (Scaling/Transforming) contra 20% dos reguladores; fintechs 47% × incumbentes 30% (página web)",
+      "IA agêntica em adoção ativa em 52% (23% escalando); casos de uso: automação 79%, suporte 74%, fraude 58%, risco de crédito 54%; cerca de dois terços não monitoram viés; privacidade é risco-topo para 74% (página web)",
+      "130 reguladores pesquisados; 'clearer regulatory guidance' é prioridade para 69% da indústria e 79% dos reguladores (página web)"
+     ],
+     "resumo": "Relatório acadêmico com apoio de organismos multilaterais sobre adoção, impacto e riscos da IA em serviços financeiros, com survey de instituições, fornecedores e reguladores. Tamanho da amostra de indústria não informado na página.",
+     "relevancia": "Fonte sem conflito comercial para o estágio de adoção e as lacunas de governança (viés, explicabilidade) na indústria financeira global."
+    },
+    {
+     "id": "M1189",
+     "titulo": "World Cloud Report in Financial Services 2026 (release)",
+     "organizacao": "Capgemini Research Institute (via Business Wire)",
+     "ano": "2025 (12/11/2025)",
+     "tipo_fonte": "consultoria",
+     "setor": "financeiro",
+     "pais_regiao": "Global (14 mercados)",
+     "url": "https://www.businesswire.com/news/home/20251112597684/en",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "Só 10% das instituições têm agentes de IA em escala; 80% em ideação ou piloto; 48% criam novos papéis para supervisionar agentes (1.100 líderes, junho–julho de 2025) (página web)",
+      "96% citam carga regulatória e compliance como desafio; 89% colocam compliance no topo das prioridades em três anos; processos bancários com agentes escalados: atendimento 75%, fraude 64%, crédito 61% (página web)"
+     ],
+     "resumo": "Release do relatório da Capgemini sobre nuvem e IA em serviços financeiros, com survey de 1.100 líderes em 14 mercados e 40 entrevistas, sobre agentes em escala e carga regulatória.",
+     "relevancia": "Número de agentes em escala e peso da regulação no setor financeiro; fornecedora de serviços de TI, conflito de interesse."
+    }
+   ],
+   "formularios": [],
+   "lacunas": [
+    "CCAF 2026: tamanho da amostra de indústria não informado na página; só os 130 reguladores.",
+    "Capgemini: fornecedora de serviços de TI; amostra de 1.100 líderes em 14 mercados, sem o Brasil identificado.",
+    "Febraban 2026 (M434): o '+12%' da p. 7 parece ser 2024→2025 e não 2025→2026; a Forbes Brasil (26/06/2026) fala em +8% e em R$ 826 milhões em IA, rubrica diferente dos R$ 2,76 bilhões do Vol. 2 (p. 10); não misturar.",
+    "ITDBr 2025 (M082): tamanho da amostra e período de coleta não publicados."
+   ]
+  },
+  {
+   "grupo": "Consultorias de estratégia",
+   "pasta": "01_consultorias-estrategia",
+   "itens": [
+    {
+     "id": "M1190",
+     "titulo": "The State of Generative AI in the Enterprise — Generating a new future (quarterly report, wave 4; press release)",
+     "organizacao": "Deloitte",
+     "ano": "2025 (21/01/2025; campo jul–set/2024)",
+     "tipo_fonte": "consultoria",
+     "setor": "intersetorial",
+     "pais_regiao": "Global (14 países)",
+     "url": "https://www.deloitte.com/us/en/about/press-room/state-of-generative-ai.html",
+     "arquivo": "",
+     "status": "web",
+     "frentes": [
+      "F2"
+     ],
+     "metricas": [
+      "2.773 respondentes diretor-a-C-level; 'Concerns around regulatory compliance has emerged as the top barrier' (38%, contra 28% na primeira onda) (página web)",
+      "69% dizem que implementar plenamente uma estratégia de governança levará mais de um ano; cibersegurança é a função com mais retorno acima do esperado (44%) (página web)"
+     ],
+     "resumo": "Release da quarta onda da pesquisa trimestral da Deloitte sobre IA generativa nas empresas, com líderes que já pilotam a tecnologia (viés de seleção): conformidade regulatória como maior barreira e cibersegurança como função de maior retorno.",
+     "relevancia": "Sustenta os mecanismos 'regulação' e 'economia do ciber' na explicação da liderança bancária; consultoria, sem resultado por indústria."
+    }
+   ],
+   "formularios": [],
+   "lacunas": [
+    "Deloitte State of GenAI: ondas trimestrais com viés de seleção (líderes que já pilotam IA generativa); sem resultado por indústria; a edição 2026 do State of AI in the Enterprise já está catalogada (M065, M067, M090)."
+   ]
+  }
+ ]
+}
