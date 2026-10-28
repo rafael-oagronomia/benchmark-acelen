@@ -44,3 +44,6 @@ _triagem-pesquisa/_catalogo/*
 
 # Sessões executivas: gravações, transcrições e anotações brutas nunca vão para o Git (só o registro anonimizado)
 05_sessoes-executivas/_originais/
+
+# Exportações para o Canva (PNG e PPTX de imagens): derivadas do PDF, geradas de novo quando preciso
+07_entregaveis/relatorios-parciais/canva/

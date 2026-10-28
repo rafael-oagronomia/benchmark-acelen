@@ -73,6 +73,8 @@ Materiais que exigem formulário, cadastro ou assinatura. Para solicitar, use se
   - Link: https://www.gartner.com/en/articles/organizations-with-high-ai-outcomes
   - Campos: Work Email e Person Type; depois First Name, Last Name, Job Title, Job Level, Job Function e Job Role; Company/Organization, Business Street Address, City, Postal Code (opcional), Country/Region/Territory e State/Province; aceite dos Termos de Uso e da Política de Privacidade (e consentimento de contato em alguns países)
   - Botão 'Begin Download' nas páginas 'organizations-with-high-ai-outcomes' e 'rein-in-ai-spend'. O link do PDF aparece no HTML, mas é o conteúdo entregue depois do formulário; não foi baixado.
+- **GitGuardian — The State of Secrets Sprawl 2026 (relatório completo em PDF)**
+  - Link: https://www.gitguardian.com/state-of-secrets-sprawl-report-2026
 - **IAPP (com Credo AI) — AI Governance Profession Report 2025 (relatório completo)**
   - Link: https://iapp.org/resources/article/ai-governance-profession-report/
   - Campos: Login de membro da IAPP (associação paga); o botão 'View report' tem bloqueio exclusivo para membros
@@ -99,6 +101,10 @@ Materiais que exigem formulário, cadastro ou assinatura. Para solicitar, use se
   - Link: https://www.celigo.com/ai-gap-report/
   - Campos: Os campos não aparecem no HTML: é um formulário HubSpot carregado por script (portalId 5812834, formId dba9b883-f15c-4758-b19f-973542a5c3fd).
   - É um relatório patrocinado. Os principais números já estão nas páginas oficiais do MIT TR e da Celigo e foram registrados. Vale solicitar se quiser o detalhamento por setor e por estágio (pilotos parados ou abandonados, equipes dedicadas).
+- **Microsoft — Microsoft Digital Defense Report 2026 (relatório completo, aka.ms/MDDR2026) e 2025**
+  - Link: https://aka.ms/MDDR2026
+- **Netskope (Netskope Threat Labs) — Netskope Threat Labs Report: Brasil 2026 (relatório completo) e relatório de IA de meados de 2026**
+  - Link: https://www.netskope.com/resources/cloud-and-threat-reports
 - **Okta — Businesses at Work 2026 (relatório completo)**
   - Link: https://www.okta.com/reports/businesses-at-work/
 - **PitchBook — Q2 2026 Agtech Report: Embedded AI Draws Capital and Delivers ROI (relatório completo)**
