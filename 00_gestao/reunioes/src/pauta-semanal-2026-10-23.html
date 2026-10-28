@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Pauta da reunião semanal de 23/10/2026 — Benchmarking de uso de IA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --brand-green: #52C937; --brand-green-bright: #6FE34F; --brand-green-deep: #2F8B1F;
+    --bg-0: #050805; --bg-1: #0B100B; --bg-2: #131A13; --bg-3: #1C241B;
+    --line: #2A3328; --line-strong: #3A4537;
+    --fg-1: #F2F4EE; --fg-2: #B8BFB1; --fg-3: #7C8678; --fg-4: #4D5749;
+    --warning: #E8B33B; --info: #4FB7C9;
+    --font-display: 'Chakra Petch', 'Bahnschrift', system-ui, sans-serif;
+    --font-body: 'Manrope', 'Segoe UI', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  }
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg-0); color: var(--fg-1); font-family: var(--font-body); font-size: 11.5px; line-height: 1.5;
+    -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page { width: 210mm; height: 297mm; position: relative; overflow: hidden; padding: 12mm 14mm 18mm; background: var(--bg-0);
+    page-break-after: always; break-after: page; }
+  .page:last-child { page-break-after: auto; break-after: auto; }
+  .eyebrow { font: 500 10.5px var(--font-display); text-transform: uppercase; letter-spacing: 0.18em; color: var(--brand-green); }
+  .label { font: 500 9.5px var(--font-display); text-transform: uppercase; letter-spacing: 0.08em; color: var(--fg-3); }
+  h1 { font: italic 700 28px/1.05 var(--font-display); letter-spacing: -0.01em; margin: 6px 0 0; }
+  h2 { font: italic 600 17px/1.2 var(--font-display); margin: 0 0 7px; }
+  p { margin: 0; }
+  .mono { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+  .head { display: flex; justify-content: space-between; align-items: flex-end; padding-bottom: 10px; border-bottom: 1px solid var(--line); margin-bottom: 12px; }
+  .head img { height: 26px; display: block; mix-blend-mode: lighten; }
+  .legend { display: grid; grid-template-columns: auto auto; column-gap: 12px; row-gap: 2px; font-size: 10px; text-align: right; }
+  .legend .label { text-align: right; }
+  .foot { position: absolute; left: 14mm; right: 14mm; bottom: 7mm; display: flex; justify-content: space-between; padding-top: 6px;
+    border-top: 1px solid var(--line); font: 500 8.5px var(--font-display); letter-spacing: 0.08em; text-transform: uppercase; color: var(--fg-3); }
+  .foot .mono { letter-spacing: 0; font-size: 9.5px; }
+  section.bloco { margin-top: 14px; }
+
+  .aviso { display: flex; gap: 10px; align-items: center; background: rgba(232,179,59,0.08); border: 1px solid rgba(232,179,59,0.35); border-radius: 6px;
+    padding: 7px 11px; color: var(--fg-2); font-size: 10.5px; margin-bottom: 12px; }
+  .aviso b { color: var(--warning); font: 600 9.5px var(--font-display); letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap; }
+
+  .meta { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+  .metric { background: var(--bg-2); border: 1px solid var(--line); border-radius: 6px; padding: 8px 11px; }
+  .metric__lbl { font: 500 9px var(--font-display); letter-spacing: 0.12em; text-transform: uppercase; color: var(--fg-3); }
+  .metric__val { font: 500 15px/1.15 var(--font-mono); font-variant-numeric: tabular-nums; color: var(--fg-1); margin-top: 4px; }
+  .metric__val .u { font-size: 10.5px; color: var(--fg-3); margin-left: 3px; }
+
+  .card { background: var(--bg-2); border: 1px solid var(--line); border-radius: 8px; padding: 9px 12px; }
+  .card + .card { margin-top: 7px; }
+  .card h3 { font: 600 12.5px var(--font-display); margin: 0 0 3px; }
+  .card p, .card li { color: var(--fg-2); font-size: 11px; }
+  .card.int { border-color: rgba(232,179,59,0.35); }
+  ul.lista { margin: 0; padding: 0; list-style: none; }
+  ul.lista li { position: relative; padding-left: 15px; color: var(--fg-2); margin-top: 3px; }
+  ul.lista li::before { content: ""; position: absolute; left: 2px; top: 8px; width: 6px; height: 1.5px; background: var(--brand-green); }
+  ul.lista li b { color: var(--fg-1); font-weight: 600; }
+  ul.lista.int li::before { background: var(--warning); }
+  ol.perg { margin: 3px 0 0; padding-left: 18px; color: var(--fg-2); }
+  ol.perg li { margin-top: 3px; padding-left: 2px; }
+  ol.perg li::marker { font: 500 11px var(--font-mono); color: var(--brand-green); }
+
+  table.pend { width: 100%; border-collapse: collapse; font-size: 10.5px; }
+  table.pend th { font: 500 9px var(--font-display); letter-spacing: 0.08em; text-transform: uppercase; color: var(--fg-3); text-align: left;
+    padding: 6px 7px; border-bottom: 1px solid var(--line-strong); background: var(--bg-2); }
+  table.pend td { padding: 6px 7px; border-bottom: 1px solid var(--line); vertical-align: top; color: var(--fg-2); }
+  table.pend td.n { font: 500 11px var(--font-mono); color: var(--brand-green); width: 26px; }
+  table.pend td.p { color: var(--fg-1); }
+  table.pend td.t { font: 500 11px var(--font-mono); color: var(--fg-1); white-space: nowrap; }
+  table.pend .det { display: block; font-size: 9.8px; color: var(--fg-3); line-height: 1.35; margin-top: 2px; }
+  table.pend tfoot td { border-bottom: none; color: var(--fg-3); }
+  .tag { display: inline-block; padding: 1px 7px; border-radius: 999px; font: 600 8.5px var(--font-display); letter-spacing: 0.06em; text-transform: uppercase; white-space: nowrap; }
+  .tag.oag { background: rgba(82,201,55,0.12); color: var(--brand-green-bright); }
+  .tag.acl { background: rgba(79,183,201,0.12); color: var(--info); }
+  .tag.amb { background: rgba(232,179,59,0.12); color: var(--warning); }
+  .st { display: inline-flex; align-items: center; gap: 5px; font: 600 9px var(--font-display); letter-spacing: 0.06em; text-transform: uppercase; white-space: nowrap; }
+  .st .dot { width: 6px; height: 6px; border-radius: 50%; }
+  .st.ok { color: var(--brand-green-bright); } .st.ok .dot { background: var(--brand-green); }
+  .st.and { color: var(--info); } .st.and .dot { background: var(--info); }
+  .st.ab { color: var(--warning); } .st.ab .dot { background: var(--warning); }
+  .nota { font-size: 10px; color: var(--fg-3); margin-top: 6px; }
+  .frase { border-left: 2px solid var(--brand-green); padding: 6px 12px; margin: 8px 0; font: italic 500 12.5px/1.45 var(--font-display); color: var(--fg-1); background: var(--bg-1); }
+  .doc { font: 500 10px var(--font-mono); color: var(--fg-3); }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+</style>
+</head>
+<body>
+
+<!-- Página 1 -->
+<section class="page">
+  <div class="head">
+    <div>
+      <img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA">
+      <div class="eyebrow" style="margin-top:12px">Benchmarking de uso de IA · Preparação de reunião</div>
+      <h1>Semanal de 23/10 · entrega parcial</h1>
+    </div>
+    <div class="legend">
+      <span class="label">Contratante</span><span>Acelen Energia Renovável</span>
+      <span class="label">Documento</span><span>Pauta da reunião semanal de 23/10/2026</span>
+      <span class="label">Nº / Revisão</span><span class="mono">Uso interno · Rev. 00</span>
+      <span class="label">Emissão</span><span class="mono">23/10/2026</span>
+    </div>
+  </div>
+
+  <div class="aviso"><b>Uso interno</b><span>Documento interno da OagronomIA, não enviar à Acelen. Entrega parcial, conforme o cronograma (BIA-ACL-CR-01, rev. 02).</span></div>
+
+  <div class="meta">
+    <div class="metric"><div class="metric__lbl">Data</div><div class="metric__val">23/10/2026</div></div>
+    <div class="metric"><div class="metric__lbl">Apresentação</div><div class="metric__val">v11<span class="u">33 slides</span></div></div>
+    <div class="metric"><div class="metric__lbl">Tempo previsto</div><div class="metric__val">52<span class="u">min</span></div></div>
+    <div class="metric"><div class="metric__lbl">Pendências em pauta</div><div class="metric__val">10</div></div>
+  </div>
+
+  <section class="bloco">
+    <h2>Objetivo</h2>
+    <div class="card">
+      <p>Fazer a entrega parcial: mostrar onde está a resposta a cada pedido da semanal de 16/10, apresentar os bancos como referência de governança e segurança (bloco do Rafael), fechar as sessões executivas (quatro realizadas, uma por slide e a síntese das quatro) e combinar as próximas semanas, dedicadas à compilação e ao assistente de IA do estudo (RAG com os estudos). Cobrar a data do workshop e o contato da TI.</p>
+    </div>
+  </section>
+
+  <section class="bloco">
+    <h2>Pauta proposta</h2>
+    <table class="pend">
+      <thead><tr><th>#</th><th>Tema</th><th style="width:86px">Quem</th><th style="width:50px">Tempo</th><th style="width:170px">Resultado esperado</th></tr></thead>
+      <tbody>
+        <tr><td class="n">1</td><td class="p">Pendências da semanal de 16/10 (página 3) e os pedidos um a um (slide 2)</td><td><span class="tag oag">Guilherme</span></td><td class="t">5 min</td><td>Status de cada item</td></tr>
+        <tr><td class="n">2</td><td class="p">Shadow AI: o tamanho, como as organizações estão lidando e como as quatro sessões lidam (slides 17 a 19)</td><td><span class="tag oag">Guilherme</span></td><td class="t">8 min</td><td>Comentários; o que a Acelen quer ver no relatório</td></tr>
+        <tr><td class="n">3</td><td class="p">Setor financeiro como referência: ranking, casos, governança e segurança de Itaú, Bradesco e Nubank, riscos além do shadow AI e o que é transferível (slides 22 a 25)</td><td><span class="tag oag">Rafael</span></td><td class="t">12 min</td><td>Comentários; se o comparativo entra como seção própria ou dentro da Frente 2</td></tr>
+        <tr><td class="n">4</td><td class="p">Sessões executivas: as quatro, uma por slide, e a síntese (slides 26 a 32)</td><td><span class="tag oag">Guilherme</span></td><td class="t">10 min</td><td>Comentários sobre os sinais</td></tr>
+        <tr><td class="n">5</td><td class="p">Custo, consumo e retorno; IA generativa × preditiva (slides 9 a 14 e 33)</td><td><span class="tag oag">Guilherme</span></td><td class="t">6 min</td><td>Validar a explicação simples para o relatório</td></tr>
+        <tr><td class="n">6</td><td class="p">Próximas semanas: compilação e assistente de IA (RAG com os estudos); cronograma rev. 02</td><td><span class="tag oag">Guilherme</span></td><td class="t">6 min</td><td>Contato da TI; perguntas-teste da Estratégia</td></tr>
+        <tr><td class="n">7</td><td class="p">Workshop e próximos passos</td><td><span class="tag amb">Todos</span></td><td class="t">5 min</td><td>Data do team building</td></tr>
+      </tbody>
+      <tfoot><tr><td></td><td>Total</td><td></td><td class="t">52 min</td><td></td></tr></tfoot>
+    </table>
+  </section>
+
+  <div class="foot"><span>Acelen Energia Renovável · Pauta da reunião semanal de 23/10/2026 · Uso interno · Rev. 00</span><span class="mono">01 / 04</span></div>
+</section>
+
+<!-- Página 2 -->
+<section class="page">
+  <div class="head">
+    <div>
+      <img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA">
+      <div class="eyebrow" style="margin-top:12px">Materiais a levar</div>
+    </div>
+    <div class="legend">
+      <span class="label">Nº / Revisão</span><span class="mono">Uso interno · Rev. 00</span>
+    </div>
+  </div>
+
+  <section class="bloco" style="margin-top:4px">
+    <h2>Materiais a levar</h2>
+    <div class="card">
+      <h3>Apresentação principal · v11</h3>
+      <p class="doc">BIA-ACL-RP-02 · 33 slides · resultados-parciais_BIA-ACL-RP-02_v11.pdf</p>
+      <p style="margin-top:4px">A v10 sem o slide final de valor e retorno, com as referências conferidas em 23/10.</p>
+      <ul class="lista" style="margin-top:4px">
+        <li><b>Slide 2:</b> os pedidos de 16/10, um a um, com o slide da resposta e a situação.</li>
+        <li><b>Acervo:</b> os números atuais do catálogo (1.198 fontes; 596 citadas nos documentos do estudo).</li>
+        <li><b>Custo e consumo da IA (9 a 14);</b> governança e régua (15 e 16).</li>
+        <li><b>Shadow AI (17 a 19):</b> o tamanho e as causas, como as organizações estão lidando (da proibição ao canal oficial) e como as quatro empresas das sessões lidam, de “trava” a “libera e registra”.</li>
+        <li><b>Sustentabilidade (20);</b> painel na régua (21).</li>
+        <li><b>Setor financeiro (22 a 25):</b> ranking da Evident, casos, acesso e governança, e o par novo do Rafael (por que os bancos governam mais, os três líderes na régua, riscos além do shadow AI e o que vale levar).</li>
+        <li><b>Sessões executivas (26 a 32):</b> uma por slide, nas três frentes, com a fala que pesa em cada uma, e a síntese das quatro (o que se repete, régua das quatro, o que cada frente leva para o relatório).</li>
+        <li><b>IA generativa × preditiva (33):</b> prévia da pendência 20.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Reservas</h3>
+      <ul class="lista">
+        <li><b>v10:</b> 34 slides, com o slide de valor e retorno.</li>
+        <li><b>v9:</b> 31 slides, sem os três de shadow AI.</li>
+        <li><b>v8:</b> 22 slides, e versões anteriores.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Bancos (Rafael)</h3>
+      <ul class="lista">
+        <li>Roteiro do bloco (2026-10-23_semanal_roteiro-bancos.md), nota Itaú, Bradesco e Nubank e anexo do setor financeiro (Frente 2).</li>
+        <li>As fontes M1075 a M1192 já estão no catálogo; 17 PDFs foram baixados e conferidos em 21–22/10.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Sessões executivas</h3>
+      <ul class="lista">
+        <li>Síntese por frente <span class="doc">BIA-ACL-RP-07</span>.</li>
+        <li>Prévias por sessão: <span class="doc">RP-01</span> (sessão 1), <span class="doc">RP-04</span> (sessão 2), <span class="doc">RP-05</span> (sessão 3) e <span class="doc">RP-06</span> (sessão 4).</li>
+      </ul>
+    </div>
+    <div class="grid2" style="margin-top:7px">
+      <div class="card">
+        <h3>Cronograma rev. 02</h3>
+        <p>Com a situação em 22/10, em PDF e planilha <span class="doc">BIA-ACL-CR-01</span>.</p>
+      </div>
+      <div class="card" style="margin-top:0">
+        <h3>Shadow AI e governança</h3>
+        <p>Nota da Frente 2 (pendência 17).</p>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Ata da semanal de 16/10</h3>
+      <p><span class="doc">BIA-ACL-AT-03</span>, em PDF.</p>
+    </div>
+  </section>
+
+  <div class="foot"><span>Acelen Energia Renovável · Pauta da reunião semanal de 23/10/2026 · Uso interno · Rev. 00</span><span class="mono">02 / 04</span></div>
+</section>
+
+<!-- Página 3 -->
+<section class="page">
+  <div class="head">
+    <div>
+      <img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA">
+      <div class="eyebrow" style="margin-top:12px">Pendências e bloco dos bancos</div>
+    </div>
+    <div class="legend">
+      <span class="label">Nº / Revisão</span><span class="mono">Uso interno · Rev. 00</span>
+    </div>
+  </div>
+
+  <section class="bloco" style="margin-top:4px">
+    <h2>1. Pendências · situação em 22/10</h2>
+    <table class="pend">
+      <thead><tr><th>#</th><th>Pendência</th><th style="width:112px">Responsável</th><th style="width:230px">Situação em 22/10</th></tr></thead>
+      <tbody>
+        <tr><td class="n">08</td><td class="p">Subir as gravações e transcrições das reuniões no SharePoint</td><td><span class="tag acl">Acelen</span></td><td><span class="st and"><span class="dot"></span>Contínuo</span></td></tr>
+        <tr><td class="n">09</td><td class="p">Confirmar a data do team building e do Workshop Executivo</td><td><span class="tag acl">Acelen</span> Bruna e Bruno</td><td><span class="st ab"><span class="dot"></span>Prazo hoje (23/10)</span><span class="det">Cobrar</span></td></tr>
+        <tr><td class="n">11</td><td class="p">Cadastro de fornecedor na plataforma interna da Acelen</td><td><span class="tag amb">Ambos</span></td><td><span class="st and"><span class="dot"></span>Em andamento</span><span class="det">Pamela e Priscila</span></td></tr>
+        <tr><td class="n">15</td><td class="p">Resumo escrito do avanço para os materiais internos da Acelen</td><td><span class="tag oag">OagronomIA</span></td><td><span class="st and"><span class="dot"></span>Em andamento</span><span class="det">Segue com a v11 e o cronograma rev. 02</span></td></tr>
+        <tr><td class="n">16</td><td class="p">Subir no SharePoint a prévia de 16/10, com a metodologia e o cronograma</td><td><span class="tag oag">OagronomIA</span></td><td><span class="st ab"><span class="dot"></span>A confirmar</span><span class="det">Pelo Guilherme; levar a v11 e o cronograma rev. 02 junto</span></td></tr>
+        <tr><td class="n">17</td><td class="p">Shadow AI: como as empresas tratam e os próximos passos de governança</td><td><span class="tag oag">OagronomIA</span></td><td><span class="st ok"><span class="dot"></span>Concluído</span><span class="det">Nota de shadow AI, nota dos bancos (riscos além do shadow AI) e slides 15–19, 24–25 e 30</span></td></tr>
+        <tr><td class="n">18</td><td class="p">Setores que saem na frente, com comparativo de maturidade, começando pelos bancos</td><td><span class="tag oag">OagronomIA</span></td><td><span class="st and"><span class="dot"></span>Bancos concluído</span><span class="det">Slides 22 a 25; química e farma no relatório (06/11)</span></td></tr>
+        <tr><td class="n">19</td><td class="p">Parcela do faturamento em P&amp;D e cruzamento do investimento com o retorno</td><td><span class="tag oag">OagronomIA</span></td><td><span class="st and"><span class="dot"></span>Retorno na v11</span><span class="det">Slides 13–14; P&amp;D no relatório (06/11)</span></td></tr>
+        <tr><td class="n">20</td><td class="p">Explicação simples de IA generativa × preditiva</td><td><span class="tag oag">OagronomIA</span></td><td><span class="st and"><span class="dot"></span>Prévia no slide 33</span><span class="det">Texto final no relatório (06/11)</span></td></tr>
+        <tr><td class="n">21</td><td class="p">Próximas sessões executivas</td><td><span class="tag oag">OagronomIA</span></td><td><span class="st ok"><span class="dot"></span>Concluído</span><span class="det">4 sessões, de 13 a 21/10</span></td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="bloco">
+    <h2>3. Bancos · o fio do bloco (Rafael)</h2>
+    <p style="color:var(--fg-2)">O roteiro completo está em 2026-10-23_semanal_roteiro-bancos.md. Pontos de ligação com o resto da apresentação:</p>
+    <ul class="lista" style="margin-top:4px">
+      <li><b>Responde ao Bruno (16/10):</b> ele citou o Itaú e os planos de modelos de ponta liberados por cargo. Nenhum dos três bancos publica a regra de acesso por cargo; o padrão visível é liberar em etapas, com letramento. Nas sessões, três das quatro empresas liberam a versão avançada por perfil, valor provado ou formação (slides 19 e 30).</li>
+    </ul>
+    <div class="frase">“O banco não governa IA por vocação; governa porque o regulador cobra validação de modelo desde 2017 e política de cibersegurança aprovada pelo conselho desde 2021. A Acelen tem a LGPD; a decisão de governar é dela.”</div>
+    <ul class="lista">
+      <li><b>Cuidados:</b> dizer de quem é cada número de fornecedor de segurança; não usar “Itaú cortou 65% do custo” como resultado (só imprensa), “60 mil usam a BIA” (era meta) nem “Nubank é o mais maduro em IA” sem dizer o que o índice mede. A leitura de estágio dos três bancos é da equipe, sem ficha.</li>
+    </ul>
+  </section>
+
+  <div class="foot"><span>Acelen Energia Renovável · Pauta da reunião semanal de 23/10/2026 · Uso interno · Rev. 00</span><span class="mono">03 / 04</span></div>
+</section>
+
+<!-- Página 4 -->
+<section class="page">
+  <div class="head">
+    <div>
+      <img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA">
+      <div class="eyebrow" style="margin-top:12px">Próximas semanas e acompanhamento</div>
+    </div>
+    <div class="legend">
+      <span class="label">Nº / Revisão</span><span class="mono">Uso interno · Rev. 00</span>
+    </div>
+  </div>
+
+  <section class="bloco" style="margin-top:4px">
+    <h2>6. Próximas semanas · compilação e assistente de IA</h2>
+    <div class="card">
+      <h3>Compilação (até 06/11)</h3>
+      <p>Fichas, notas temáticas, sessões e aprofundamentos viram o relatório em PowerPoint e a base em Excel; prévia do relatório em 30/10. Ainda entram P&amp;D sobre o faturamento, química e farma e o texto de IA generativa × preditiva.</p>
+    </div>
+    <div class="card">
+      <h3>Assistente de IA do estudo (RAG com os estudos)</h3>
+      <p>Responde sobre os estudos e as fontes públicas do catálogo, sempre com a fonte e a página; não usa dados da Acelen nem nada das sessões além da síntese agregada.</p>
+    </div>
+    <div class="card">
+      <h3>Perguntas à Acelen</h3>
+      <ol class="perg">
+        <li>Quem da TI participa da definição de como o assistente será disponibilizado?</li>
+        <li>A Acelen prefere receber a base de conhecimento para a ferramenta interna de IA ou ver antes uma demonstração hospedada pela OagronomIA?</li>
+        <li>Que perguntas a Estratégia gostaria de fazer ao assistente? Elas viram o conjunto de testes.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="bloco">
+    <h2>Pendências que dependem da Acelen</h2>
+    <ul class="lista">
+      <li><b>Data do workshop:</b> provável primeira semana de dezembro; prazo hoje.</li>
+      <li><b>Contato da TI</b> para o assistente de IA.</li>
+      <li><b>Comentários sobre a entrega parcial</b> até 28/10.</li>
+      <li><b>Cadastro de fornecedor</b> (Pamela e Priscila).</li>
+    </ul>
+  </section>
+
+  <section class="bloco">
+    <h2>Acompanhamento interno (não levar à Acelen)</h2>
+    <div class="card int">
+      <ul class="lista int">
+        <li><b>Sessão 1:</b> a transcrição não registra a apresentação do estudo nem o pedido de gravação; confirmar o uso com o entrevistado. Sessões 2 e 3 tratadas como sessões executivas por decisão de 20/10.</li>
+        <li><b>Sessão 2:</b> a empresa foi indicada pela Acelen. Não comentar quem participou nem detalhar o perfil além do que está nos slides; o relato nunca se mistura com os documentos públicos da empresa.</li>
+        <li><b>Brutos das sessões:</b> apagar as gravações e transcrições em 05_sessoes-executivas/_originais/ depois dos registros.</li>
+        <li><b>Catálogo:</b> as 6 fontes de consumo e retorno passaram de M1075–M1080 para M1193–M1198, porque o Rafael usou M1075–M1192 nas fontes dos bancos. Avisar o Rafael. O material de setembro do ramo dele (framework, protocolo, catálogo F-####, base Excel, desenho do workshop) ainda não entrou no main; conciliar com ele.</li>
+        <li><b>Perfil da sessão 4</b> (“grande grupo produtor de grãos e fibras”): confirmar se a descrição está boa.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="bloco">
+    <h2>Temas a evitar</h2>
+    <p style="color:var(--fg-2)">Recompra de Mataripe pela Petrobras, preços de combustíveis na Bahia e questões com comunidades. Detalhes na seção 13 do repertório do cliente.</p>
+  </section>
+
+  <div class="foot"><span>Acelen Energia Renovável · Pauta da reunião semanal de 23/10/2026 · Uso interno · Rev. 00</span><span class="mono">04 / 04</span></div>
+</section>
+
+</body>
+</html>

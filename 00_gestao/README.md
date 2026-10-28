@@ -2,17 +2,17 @@
 
 Reuniões semanais de acompanhamento (remotas, ~45 min) com a Estratégia Agrícola: registro de avanço, próximos passos e pontos de decisão. Toda reunião é gravada, transcrita e compartilhada com a Acelen.
 
-## Cronograma (rev. 01, 09/10/2026)
+## Cronograma (rev. 02, 22/10/2026)
 
-Rev. 00 de 30/09, depois do kick-off; rev. 01 de 09/10, com a situação da semanal de 09/10 (questionário validado, Suzano e Bayer indicadas, workshop provável na primeira semana de dezembro) e, por decisão da OagronomIA, o assistente de IA do estudo entre os entregáveis. Versões para o cliente: [PDF](cronograma/cronograma_BIA-ACL-CR-01_rev01.pdf) e [planilha](cronograma/cronograma_BIA-ACL-CR-01_rev01.xlsx), com status por atividade; os arquivos da rev. 00 ficam na pasta como histórico. Fonte em `cronograma/src/` (sempre a revisão vigente).
+Rev. 00 de 30/09, depois do kick-off; rev. 01 de 09/10, com a situação da semanal de 09/10 e o assistente de IA do estudo entre os entregáveis; rev. 02 de 22/10, com as quatro sessões executivas concluídas (13 a 21/10) e o foco das semanas seguintes na compilação (fichas, notas, sessões e os aprofundamentos pedidos em 16/10) e no assistente de IA do estudo (RAG com os estudos). Versões para o cliente: [PDF](cronograma/cronograma_BIA-ACL-CR-01_rev02.pdf) e [planilha](cronograma/cronograma_BIA-ACL-CR-01_rev02.xlsx), com a situação de cada atividade; as revisões anteriores ficam na pasta como histórico. Fonte em `cronograma/src/` (sempre a revisão vigente).
 
 | Período | Atividades | Marco |
 |---|---|---|
 | S1 — 29/09–02/10 | Kick-off, cronograma, roteiro das sessões executivas, painel e protocolo | Semanal 02/10: cronograma, roteiro e lista de empresas (pauta tratada em 09/10) |
 | S2 — 05–09/10 | Frente 1: fichas, casos de sucesso e insucesso; preparação das sessões executivas | Semanal 09/10: questionário validado; Suzano e Bayer indicadas |
-| S3 — 13–16/10 | Frente 1: fichas da Suzano e da Bayer, indicadores, empresa americana e chinesa; Frente 2: revisão de frameworks; início do assistente de IA | Semanal 16/10: prévia da Frente 1 |
-| S4 — 19–23/10 | Frente 2: framework, estágios, capacidades, dependências e roadmaps; fim das sessões | Semanal 23/10: **entrega parcial** |
-| S5 — 26–30/10 | Frente 3: tendências; síntese analítica; estrutura do relatório | Semanal 30/10: prévia do relatório |
+| S3 — 13–16/10 | Frente 1: fichas da Suzano e da Bayer, indicadores, Deere e DJI; Frente 2: revisão de frameworks; sessão executiva 1; início do assistente de IA | Semanal 16/10: prévia da Frente 1 (feita) |
+| S4 — 19–23/10 | Sessões executivas 2 a 4 (concluídas); Frente 2: régua, governança e bancos; início da compilação e da base do assistente (RAG) | Semanal 23/10: **entrega parcial** |
+| S5 — 26–30/10 | Frente 3: tendências; compilação e síntese analítica; estrutura do relatório; testes do assistente | Semanal 30/10: prévia do relatório |
 | S6 — 03–06/11 | Fechamento do PowerPoint, do Excel e do assistente de IA | Semanal 06/11: **relatório final** e assistente de IA |
 | 09/11 → workshop | Absorção pela Acelen, ajustes e preparação do workshop | — |
 | Provável 1ª semana de dez | Workshop Executivo presencial no team building, em Montes Claros | Dia a confirmar pela Acelen (até 23/10) |
@@ -36,6 +36,7 @@ Feriados no período: 12/10 e 02/11. Semanais às sextas, cerca de 1 hora; horá
 | 09/10/2026 | Semanal | [ata e pendências](reunioes/2026-10-09_semanal_ata.md) ([PDF rev. 01](reunioes/2026-10-09_semanal_ata_BIA-ACL-AT-02_rev01.pdf), com a situação das pendências em 15/10; a rev. 00 fica como histórico) · [transcrição](reunioes/2026-10-09_semanal_transcricao.md) |
 | 13/10/2026 | Interna (Guilherme × Rafael) | [notas](reunioes/2026-10-13_interna_notas.md): leitura da sessão 1, pilares de IA e o que a Acelen quer |
 | 16/10/2026 | Semanal | [ata e pendências](reunioes/2026-10-16_semanal_ata.md) ([PDF](reunioes/2026-10-16_semanal_ata_BIA-ACL-AT-03_rev00.pdf)) · [transcrição](reunioes/2026-10-16_semanal_transcricao.md) · [preparação](reunioes/2026-10-16_semanal_pauta.md) |
+| 23/10/2026 | Semanal (entrega parcial) | [preparação](reunioes/2026-10-23_semanal_pauta.md) · [roteiro do bloco dos bancos (Rafael)](reunioes/2026-10-23_semanal_roteiro-bancos.md) |
 
 - `cronograma/` — cronograma para o cliente (PDF e planilha) e HTML-fonte.
 
