@@ -16,9 +16,10 @@ O assistente é um meio de consultar o acervo do estudo. Não é uma solução p
 | Fontes citadas nos entregáveis | `06_fontes/` | Lista gerada a partir das citações [M###, p. N] das notas e fichas |
 | Fichas por empresa e notas temáticas | `02_frente-1_…/`, `03_frente-2_…/`, `04_frente-3_…/` | Só versões revisadas |
 | Relatório final e base em Excel | `07_entregaveis/` | Versão final |
-| Texto integral dos documentos públicos baixados | `_triagem-pesquisa/` (fora do Git) | A validar: respeitar os termos de uso de cada fonte; responder com trechos curtos e remeter ao original |
+| Texto integral dos documentos públicos baixados | `_triagem-pesquisa/` (fora do Git) | Texto por página para a busca; o PDF fica no Storage privado e abre no sistema, na página citada, só para usuário logado; responder com trechos curtos e remeter ao original |
+| Registros anonimizados das sessões executivas | `05_sessoes-executivas/registros-anonimizados/` | Decisão de 27/10: entram sem data e com os números relatados pelos entrevistados mascarados; a sessão 1 fica restrita até o consentimento |
 
-**Não entra:** dados internos da Acelen; o repertório da Acelen (documento interno de preparação); atas e transcrições das reuniões do projeto; transcrições, registros e nomes das sessões executivas (só a síntese agregada que estiver no relatório); qualquer condição comercial do projeto.
+**Não entra:** dados internos da Acelen; o repertório da Acelen (documento interno de preparação); nada tratado nas reuniões com a Acelen (atas, transcrições, pautas, pendências e pedidos do cliente); número que não seja de estudo público; transcrições brutas e nomes das sessões executivas; relatórios parciais; qualquer condição comercial do projeto.
 
 ## Como responde
 
@@ -27,6 +28,7 @@ O assistente é um meio de consultar o acervo do estudo. Não é uma solução p
 - Aplica as regras de leitura: anúncio não é resultado; piloto não é produção; meta não é realizado; dado global não é dado do Brasil; dado do grupo não é dado da divisão.
 - Quando o acervo não tem a resposta, diz isso e sugere o que procurar.
 - Segue o escopo macro: não avalia nem recomenda ferramentas ou fornecedores.
+- Trava de escopo (28/10): pergunta sem relação com o benchmark ou o acervo (saúde, receitas, esportes etc.) recebe o aviso de fora do escopo, sem busca nem resposta ao conteúdo.
 - Responde em português.
 
 ## Perguntas de teste
@@ -51,6 +53,10 @@ Montar um conjunto de 20 a 30 perguntas com a resposta esperada e as fontes, à 
 
 Preferência inicial, a validar: **A**, com uma demonstração (B) durante o projeto se a TI concordar.
 
+**Decisão da OagronomIA (27/10):** construir a opção B, hospedada em Supabase Pro e Vercel Pro (região São Paulo). O acesso é por usuário cadastrado pelo admin, com senha temporária e troca obrigatória no primeiro acesso. Há conexão MCP para a pessoa consultar o acervo pela IA que ela usa, com o mesmo login. Perguntas e respostas ficam guardadas por 90 dias, com aviso ao usuário, e o prazo pode ser prorrogado. A base continua exportável (opção A) na entrega. Falta validar com a TI da Acelen, inclusive quais clientes de IA podem se conectar pelo MCP.
+
+**Código e pipelines:** repositório separado `rag-benchmark-acelen` (pasta `C:\dev\rag-benchmark-acelen`), com a arquitetura em `docs/arquitetura.md`. Este repositório continua sendo o acervo: os pipelines leem o catálogo, os PDFs, as fichas, as notas e os registros das sessões daqui.
+
 ## Construção
 
 | Semana | Passo |
@@ -64,5 +70,5 @@ Preferência inicial, a validar: **A**, com uma demonstração (B) durante o pro
 
 - **Direitos autorais:** documentos de terceiros são públicos, mas não são nossos. Responder com síntese e trechos curtos, sempre remetendo ao original.
 - **Alucinação:** responder só com base no que foi recuperado do acervo, com citação obrigatória, e medir isso nos testes.
-- **Confidencialidade:** nada das sessões executivas além da síntese agregada; nada de dados internos da Acelen.
+- **Confidencialidade:** das sessões executivas, só os registros anonimizados (sem nomes nem data, números mascarados, sessão 1 restrita até o consentimento; metodologia Rev. 01) e a síntese; nada de dados internos da Acelen.
 - **Atualização:** o acervo é congelado na data de corte do relatório; atualizações depois disso são outro trabalho.
