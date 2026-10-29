@@ -39,6 +39,8 @@
 
 > "Os problemas que todo mundo vai passar são os mesmos." (liderança de agricultura digital, grande grupo de grãos e fibras)
 
+> "Toda pessoa que acessa uma IA dentro da companhia tem um registro: sabe-se exatamente quem fez." (liderança de agricultura digital, grande grupo de grãos e fibras, sobre o registro de acesso à IA no ambiente interno)
+
 ## Implicações por frente
 
 - **Frente 1:** o valor técnico mais claro está na IA preditiva e na visão computacional, com anos de dados e de rotulagem; a IA generativa entrega tempo (front-end mais rápido, agente de documentação) e é controlada por uso e orçamento, não por retorno. Caso de insucesso útil: o modelo que parou porque a variável mudava mais rápido que o histórico.

@@ -326,7 +326,7 @@
             "Prompt de texto mediano do Gemini Apps (maio/2025): 0,24 Wh, 0,03 gCO2e (market-based + escopos 1 e 3) e 0,26 mL de água consumida no local (Tabela 2, p. 7)",
             "Abordagem restrita usada em benchmarks (só acelerador ativo, máquinas bem utilizadas): 0,10 Wh, 0,02 gCO2e e 0,12 mL (Tabelas 1-2, p. 6-7)",
             "Decomposição: aceleradores 0,14 Wh (58%), CPU e DRAM 0,06 Wh (25%), máquinas ociosas 0,02 Wh e overhead do data center 0,02 Wh (p. 6-7)",
-            "Redução de 33x na energia e de 44x nas emissões por prompt mediano em 12 meses (p. 1, 7)",
+            "Redução de 33x na energia e de 44x nas emissões por prompt mediano em 12 meses (p. 1, 8)",
             "Fatores do Google em 2024: 345 gCO2e/kWh location-based e 94 gCO2e/kWh market-based; WUE categoria 2 de 1,15 L/kWh (p. 6)"
           ],
           "resumo": "Primeira medição em produção publicada por um grande provedor, com fronteira ampla (ociosidade, CPU, PUE e carbono incorporado). Limites: mediana (não média), só prompts de texto, carbono market-based, água só no local e sem treino. Arquivo obtido por outro agente na mesma rodada.",
@@ -1595,7 +1595,7 @@
           ],
           "metricas": [
             "Paradoxo de Jevons: ganhos de eficiência ampliam a adoção; mesmo com melhoria rápida de eficiência, o consumo total de eletricidade da IA deve aumentar no curto prazo (p. 28)",
-            "Energia de GPU por tarefa: 0,05 Wh (modelo médio) e 0,31 Wh (MoE grande) em texto; 7,6 Wh (agente) e 50 Wh (agente com raciocínio) (p. 29)",
+            "Energia de GPU por tarefa: 0,05 Wh (modelo médio) e 0,31 Wh (MoE grande) em texto; 1,14 Wh (agente), 7,6 Wh (modelo com raciocínio) e 50 Wh (agente com raciocínio) (p. 29)",
             "Desempenho por watt dos aceleradores de IA melhorou ~30–40% ao ano entre 2016 e 2025 (p. 30)",
             "PUE de 1,1–1,2 nos melhores hyperscale contra 1,5–1,7 em sites antigos (p. 30)"
           ],

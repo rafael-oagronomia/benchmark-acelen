@@ -514,7 +514,7 @@
             "MMLU 83: queda de cerca de 62 vezes desde o GPT-4 (mar/2023) (p. 4)",
             "o1 com o mesmo preço por token de saída do GPT-3 no lançamento: US$ 60 por milhão (p. 6)"
           ],
-          "resumo": "Análise de um sócio da a16z (12/11/2024) com preços históricos do Internet Archive para o modelo mais barato que atinge uma nota fixa no MMLU, usando a média simples dos preços de entrada e saída. Lista causas (hardware, quantização, software, modelos menores, ajuste fino, código aberto) e nota que os fornecedores cedem a faixa barata e concentram esforço na ponta. Conflito de interesse: a a16z investe em empresas de IA, liderou em out/2026 a rodada série A da TypeSafe AI (Jev) e assina com a OpenRouter o estudo de 100 trilhões de tokens.",
+          "resumo": "Análise de um sócio da a16z (12/11/2024) com preços históricos do Internet Archive para o modelo mais barato que atinge uma nota fixa no MMLU, usando a média simples dos preços de entrada e saída. Lista causas (hardware, quantização, software, modelos menores, ajuste fino, código aberto) e nota que os fornecedores cedem a faixa barata e concentram esforço na ponta. Conflito de interesse: a a16z investe em empresas de IA, liderou em out/2026 a rodada de cerca de US$ 870 milhões da TypeSafe AI (Jev) e assina com a OpenRouter o estudo de 100 trilhões de tokens.",
           "relevancia": "Segunda medida independente do preço para desempenho constante e sinal de que a ponta barateia menos (H3)."
         },
         {
@@ -536,7 +536,7 @@
             "Na comparação entre modelos (linha de tendência de custo contra uso), 10% de preço a menos corresponde a só 0,5% a 0,7% mais uso (p. 30)",
             "Alguns sinais de paradoxo de Jevons nos modelos que ficaram muito baratos (p. 32)"
           ],
-          "resumo": "Estudo empírico (dez/2025) da OpenRouter com a a16z sobre mais de 100 trilhões de tokens processados na plataforma, por modelo, origem, categoria de uso e preço. Mostra a subida dos modelos abertos chineses e uma demanda pouco sensível a preço. Conflito de interesse: a a16z, coautora, investe em empresas de IA, assina o LLMflation e liderou a rodada série A da TypeSafe AI (Jev); a OpenRouter vende acesso a modelos.",
+          "resumo": "Estudo empírico (dez/2025) da OpenRouter com a a16z sobre mais de 100 trilhões de tokens processados na plataforma, por modelo, origem, categoria de uso e preço. Mostra a subida dos modelos abertos chineses e uma demanda pouco sensível a preço. Conflito de interesse: a a16z, coautora, investe em empresas de IA, assina o LLMflation e liderou a rodada de cerca de US$ 870 milhões da TypeSafe AI (Jev); a OpenRouter vende acesso a modelos.",
           "relevancia": "Principal medida pública da participação de modelos chineses no uso; a plataforma não representa o uso corporativo direto."
         },
         {

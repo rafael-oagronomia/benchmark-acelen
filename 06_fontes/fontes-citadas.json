@@ -732,9 +732,9 @@
    "Executivo de energia, recursos e indústria relata ROI de 100% em alguns projetos: cada euro investido rendeu de dois a três euros de benefícios por ano (p. 10)",
    "Entre os 'AI ROI Leaders', 49% definem suas principais vitórias como novas oportunidades de receita e 45% como reinvenção do modelo de negócio; 83% acham que a IA agêntica liberará tempo para tarefas estratégicas (p. 11-12)",
    "Uma em cada quatro organizações cita infraestrutura e dados inadequados como barreira ao ROI; 65% dizem que a IA já faz parte da estratégia corporativa (p. 13, 15)",
-   "O ROI satisfatório de um caso de uso típico de IA leva 2 a 4 anos, contra o payback de 7 a 12 meses esperado para investimentos em tecnologia (1.854 executivos, 14 países da Europa e Oriente Médio, ago–set/2025) (página oficial)",
-   "Só 6% têm payback em menos de 1 ano; mesmo nos projetos mais bem-sucedidos, só 13% tiveram retorno em 12 meses (página oficial)",
-   "85% aumentaram o investimento em IA nos últimos 12 meses e 91% planejam aumentar de novo (página oficial)",
+   "O ROI satisfatório de um caso de uso típico de IA leva 2 a 4 anos, contra o payback de 7 a 12 meses esperado para investimentos em tecnologia (1.854 executivos, 14 países da Europa e Oriente Médio, ago–set/2025) (p. 3)",
+   "Só 6% têm payback em menos de 1 ano; mesmo nos projetos mais bem-sucedidos, só 13% tiveram retorno em 12 meses (p. 3)",
+   "85% aumentaram o investimento em IA nos últimos 12 meses e 91% planejam aumentar de novo (p. 2)",
    "IA agêntica: só 10% dos usuários têm ROI significativo, metade espera retorno em até 3 anos e 1/3 em 3 a 5 anos. IA generativa: 15% com ROI significativo e 38% esperam em 1 ano (página oficial)",
    "Cerca de 20% são 'AI ROI Leaders': 95% deles destinam mais de 10% do orçamento de tecnologia à IA, 85% usam métricas e prazos diferentes para IA generativa e agêntica, e 40% tornam o treinamento em IA obrigatório (página oficial)"
   ],
@@ -4377,10 +4377,14 @@
   ],
   "paginas_citadas": [
    "p. 11",
+   "p. 12",
+   "p. 13",
+   "p. 14-15",
    "p. 2, 4",
    "p. 2, 9",
    "p. 23",
    "p. 4",
+   "p. 8, 13, 15",
    "p. 9"
   ]
  },
@@ -4442,18 +4446,17 @@
    "03_frente-2_maturidade-roadmaps/bancos-itau-bradesco-nubank.md"
   ],
   "paginas_citadas": [
+   "p. 19",
    "p. 20",
-   "p. 21",
+   "p. 24",
    "p. 25",
    "p. 26",
-   "p. 27-28",
-   "p. 28",
    "p. 3, 20",
-   "p. 33",
-   "p. 33, 35",
-   "p. 36",
-   "p. 7",
-   "p. 7, 10, 20-21, 25, 28, 33"
+   "p. 32",
+   "p. 32, 34",
+   "p. 35",
+   "p. 6",
+   "p. 6, 9, 19-20, 24, 26, 32"
   ]
  },
  {
@@ -4484,7 +4487,9 @@
    "03_frente-2_maturidade-roadmaps/shadow-ai-e-governanca.md"
   ],
   "paginas_citadas": [
-   "p. 16"
+   "p. 16",
+   "p. 30",
+   "p. 33"
   ]
  },
  {
@@ -4786,6 +4791,7 @@
    "03_frente-2_maturidade-roadmaps/bancos-itau-bradesco-nubank.md"
   ],
   "paginas_citadas": [
+   "p. 1-4",
    "web"
   ]
  },
@@ -5061,7 +5067,7 @@
    "Consumo dos data centers cresceu 17% em 2025; o dos data centers focados em IA, 50% (p. 9)",
    "Desempenho por watt dos aceleradores melhora 30-40% ao ano; PUE de 1,1 a 1,2 nos melhores hyperscale contra 1,5 a 1,7 em instalações antigas (p. 30)",
    "Paradoxo de Jevons: ganhos de eficiência ampliam a adoção; mesmo com melhoria rápida de eficiência, o consumo total de eletricidade da IA deve aumentar no curto prazo (p. 28)",
-   "Energia de GPU por tarefa: 0,05 Wh (modelo médio) e 0,31 Wh (MoE grande) em texto; 7,6 Wh (agente) e 50 Wh (agente com raciocínio) (p. 29)",
+   "Energia de GPU por tarefa: 0,05 Wh (modelo médio) e 0,31 Wh (MoE grande) em texto; 1,14 Wh (agente), 7,6 Wh (modelo com raciocínio) e 50 Wh (agente com raciocínio) (p. 29)",
    "Desempenho por watt dos aceleradores de IA melhorou ~30–40% ao ano entre 2016 e 2025 (p. 30)",
    "PUE de 1,1–1,2 nos melhores hyperscale contra 1,5–1,7 em sites antigos (p. 30)",
    "Demanda elétrica dos data centers cresceu 17% em 2025 e a dos data centers focados em IA cresceu 50% (p. 9)",
@@ -8616,7 +8622,7 @@
    "MMLU 83: queda de cerca de 62 vezes desde o GPT-4 (mar/2023) (p. 4)",
    "o1 com o mesmo preço por token de saída do GPT-3 no lançamento: US$ 60 por milhão (p. 6)"
   ],
-  "resumo": "Análise de um sócio da a16z (12/11/2024) com preços históricos do Internet Archive para o modelo mais barato que atinge uma nota fixa no MMLU, usando a média simples dos preços de entrada e saída. Lista causas (hardware, quantização, software, modelos menores, ajuste fino, código aberto) e nota que os fornecedores cedem a faixa barata e concentram esforço na ponta. Conflito de interesse: a a16z investe em empresas de IA, liderou em out/2026 a rodada série A da TypeSafe AI (Jev) e assina com a OpenRouter o estudo de 100 trilhões de tokens.",
+  "resumo": "Análise de um sócio da a16z (12/11/2024) com preços históricos do Internet Archive para o modelo mais barato que atinge uma nota fixa no MMLU, usando a média simples dos preços de entrada e saída. Lista causas (hardware, quantização, software, modelos menores, ajuste fino, código aberto) e nota que os fornecedores cedem a faixa barata e concentram esforço na ponta. Conflito de interesse: a a16z investe em empresas de IA, liderou em out/2026 a rodada de cerca de US$ 870 milhões da TypeSafe AI (Jev) e assina com a OpenRouter o estudo de 100 trilhões de tokens.",
   "citado_em": [
    "04_frente-3_tendencias/custo-da-ia.md"
   ],
@@ -10056,7 +10062,7 @@
    "Na comparação entre modelos (linha de tendência de custo contra uso), 10% de preço a menos corresponde a só 0,5% a 0,7% mais uso (p. 30)",
    "Alguns sinais de paradoxo de Jevons nos modelos que ficaram muito baratos (p. 32)"
   ],
-  "resumo": "Estudo empírico (dez/2025) da OpenRouter com a a16z sobre mais de 100 trilhões de tokens processados na plataforma, por modelo, origem, categoria de uso e preço. Mostra a subida dos modelos abertos chineses e uma demanda pouco sensível a preço. Conflito de interesse: a a16z, coautora, investe em empresas de IA, assina o LLMflation e liderou a rodada série A da TypeSafe AI (Jev); a OpenRouter vende acesso a modelos.",
+  "resumo": "Estudo empírico (dez/2025) da OpenRouter com a a16z sobre mais de 100 trilhões de tokens processados na plataforma, por modelo, origem, categoria de uso e preço. Mostra a subida dos modelos abertos chineses e uma demanda pouco sensível a preço. Conflito de interesse: a a16z, coautora, investe em empresas de IA, assina o LLMflation e liderou a rodada de cerca de US$ 870 milhões da TypeSafe AI (Jev); a OpenRouter vende acesso a modelos.",
   "citado_em": [
    "04_frente-3_tendencias/custo-da-ia.md"
   ],
@@ -11559,7 +11565,9 @@
   ],
   "paginas_citadas": [
    "p. 1",
-   "p. 1-2"
+   "p. 1-2",
+   "p. 1-3",
+   "p. 3"
   ]
  },
  {
@@ -12363,7 +12371,7 @@
    "F2"
   ],
   "metricas": [
-   "Modelos submetidos a avaliação periódica, que não pode ser feita pela unidade responsável pelo desenvolvimento (art. 9º) (p. 8)",
+   "Modelos submetidos a avaliação periódica, que não pode ser feita pela unidade responsável pelo desenvolvimento (art. 9º) (p. 7)",
    "Risco operacional inclui falhas em sistemas, processos ou infraestrutura de TI; gestão de serviços terceirizados relevantes e governança de TI consistente com a RAS (arts. 32 e 33) (p. 21-23)",
    "Unidade específica de gerenciamento de riscos e diretor de riscos (CRO) independente, com nomeação e destituição aprovadas pelo conselho (arts. 43 e 44) (p. 35-36)",
    "Políticas e estratégias de risco documentadas e avaliação periódica dos sistemas e rotinas (art. 7º) (p. 6)",
@@ -12377,6 +12385,7 @@
   "paginas_citadas": [
    "p. 1",
    "p. 6, 8, 21-23, 35-36",
+   "p. 7",
    "p. 8"
   ]
  },
@@ -13044,10 +13053,12 @@
   ],
   "resumo": "Orientação revisada de risco de modelo das agências americanas (2026): não vinculante, proporcional ao porte, com inventário, materialidade e validação independente, mas exclui explicitamente IA generativa e agêntica. Páginas pelo índice do PDF, conforme a extração.",
   "citado_em": [
-   "03_frente-2_maturidade-roadmaps/anexo-setor-financeiro-governanca-e-seguranca.md"
+   "03_frente-2_maturidade-roadmaps/anexo-setor-financeiro-governanca-e-seguranca.md",
+   "03_frente-2_maturidade-roadmaps/bancos-itau-bradesco-nubank.md"
   ],
   "paginas_citadas": [
-   "p. 2-3, 11"
+   "p. 2-3, 11",
+   "p. 3"
   ]
  },
  {
