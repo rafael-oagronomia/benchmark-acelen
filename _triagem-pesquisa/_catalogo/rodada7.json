@@ -84,16 +84,16 @@
           "setor": "intersetorial",
           "pais_regiao": "Global (40 países)",
           "url": "https://www.gartner.com/en/newsroom/press-releases/2026-05-13-gartner-predicts-by-2027-50-percent-of-enterprises-without-a-people-centric-ai-strategy-will-lose-their-top-ai-talent",
-          "arquivo": "",
-          "status": "web",
+          "arquivo": "12_shadow-ai-governanca/Gartner_2026_people-centric-ai-strategy-talento.pdf",
+          "status": "baixado",
           "frentes": [
             "F2"
           ],
           "metricas": [
-            "88% dos funcionários com acesso a IA corporativa também usam ferramentas pessoais de IA para tarefas de trabalho, muitas vezes para ganhar tempo (Global Labor Market Survey, 12.004 funcionários e gestores, 40 países, 1º tri/2026) (web)",
-            "Usuários híbridos (ferramenta corporativa e pessoal) têm 1,7 vez mais chance de relatar economia significativa de tempo do que os que usam só a corporativa (web)",
-            "19% dos funcionários não relatam economia de tempo com IA; 73% dos usuários altamente produtivos são gestores ou executivos (web)",
-            "Só 27% dos executivos têm estratégia abrangente de IA e 20% acham a força de trabalho pronta (197 executivos, dez/2025) (web)"
+            "88% dos funcionários com acesso a IA corporativa também usam ferramentas pessoais de IA para tarefas de trabalho, muitas vezes para ganhar tempo (Global Labor Market Survey, 12.004 funcionários e gestores, 40 países, 1º tri/2026) (p. 1-2)",
+            "Usuários híbridos (ferramenta corporativa e pessoal) têm 1,7 vez mais chance de relatar economia significativa de tempo do que os que usam só a corporativa (p. 2)",
+            "19% dos funcionários não relatam economia de tempo com IA; 73% dos usuários altamente produtivos são gestores ou executivos (p. 1-2)",
+            "Só 27% dos executivos têm estratégia abrangente de IA e 20% acham a força de trabalho pronta (197 executivos, dez/2025) (p. 1)"
           ],
           "resumo": "Release do Gartner com resultados da Global Labor Market Survey do 1º tri/2026 (12.004 funcionários e gestores em 40 países). Aponta a 'ilusão de habilitação': acesso à ferramenta não é transformação, e quase nove em cada dez funcionários com IA corporativa também usam IA pessoal. Recomenda que CIO e CHRO auditem e melhorem a experiência das ferramentas corporativas para reduzir o shadow AI.",
           "relevancia": "Fonte primária do número de 88% (H2 e H4): dar a ferramenta corporativa não elimina o uso pessoal; o motivo citado é ganhar tempo, e o Gartner recomenda melhorar a experiência das ferramentas corporativas para reduzir o shadow AI; pesquisa de opinião, release sem o relatório completo (pago)."

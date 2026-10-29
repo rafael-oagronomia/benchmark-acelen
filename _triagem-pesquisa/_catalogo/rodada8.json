@@ -238,14 +238,14 @@
      "setor": "segurança da informação",
      "pais_regiao": "Global",
      "url": "https://thehackernews.com/2025/06/zero-click-ai-vulnerability-exposes.html",
-     "arquivo": "",
-     "status": "web",
+     "arquivo": "12_shadow-ai-governanca/TheHackerNews_2025_echoleak-m365-copilot.pdf",
+     "status": "baixado",
      "frentes": [
       "F2"
      ],
      "metricas": [
-      "CVE-2025-32711, CVSS 9,3; e-mail com payload em markdown faz o Copilot misturar conteúdo não confiável com dados sensíveis e vazá-los por URLs do Teams e do SharePoint, sem clique; Microsoft: 'AI command injection in M365 Copilot allows an unauthorized attacker to disclose information over a network' (página web)",
-      "Corrigido pela Microsoft no servidor, sem ação do cliente, antes da divulgação (página web)"
+      "CVE-2025-32711, CVSS 9,3; e-mail com payload em markdown faz o Copilot misturar conteúdo não confiável com dados sensíveis e vazá-los por URLs do Teams e do SharePoint, sem clique; Microsoft: 'AI command injection in M365 Copilot allows an unauthorized attacker to disclose information over a network' (p. 2-3)",
+      "Corrigido pela Microsoft no servidor, sem ação do cliente, antes da divulgação (p. 2)"
      ],
      "resumo": "Cobertura da falha EchoLeak no Microsoft 365 Copilot, descoberta pela Aim Security: injeção indireta por e-mail com exfiltração sem interação do usuário, corrigida pela Microsoft.",
      "relevancia": "Primeiro incidente 'zero-click' confirmado por CVE num assistente corporativo; página primária da fornecedora não carregou, por isso via imprensa."
@@ -1793,14 +1793,14 @@
      "setor": "segurança da informação",
      "pais_regiao": "Global",
      "url": "https://thehackernews.com/2026/02/researchers-find-341-malicious-clawhub.html",
-     "arquivo": "",
-     "status": "web",
+     "arquivo": "12_shadow-ai-governanca/TheHackerNews_2026_clawhavoc-341-skills.pdf",
+     "status": "baixado",
      "frentes": [
       "F2"
      ],
      "metricas": [
-      "341 skills maliciosas em 2.857 auditadas no marketplace ClawHub; 335 usavam 'pré-requisitos' falsos para instalar o infostealer Atomic (AMOS) no macOS, alugado por US$ 500 a 1.000 por mês; iscas de cripto, YouTube e finanças (página web)",
-      "Publicar exigia só conta GitHub com uma semana; primeira resposta do criador: 'Skills with more than 3 unique reports are auto-hidden by default' (página web)"
+      "341 skills maliciosas em 2.857 auditadas no marketplace ClawHub; 335 usavam 'pré-requisitos' falsos para instalar o infostealer Atomic (AMOS) no macOS, alugado por US$ 500 a 1.000 por mês; iscas de cripto, YouTube e finanças (p. 2-3)",
+      "Publicar exigia só conta GitHub com uma semana; primeira resposta do criador: 'Skills with more than 3 unique reports are auto-hidden by default' (p. 5)"
      ],
      "resumo": "Cobertura da auditoria da Koi Security no marketplace de skills de um agente de código aberto, com a contagem de skills maliciosas, o malware distribuído e a resposta inicial do marketplace. O post original da Koi hoje redireciona para página de produto.",
      "relevancia": "Primeira medição em escala de skills maliciosas num marketplace de agentes; fornecedora de segurança via imprensa."

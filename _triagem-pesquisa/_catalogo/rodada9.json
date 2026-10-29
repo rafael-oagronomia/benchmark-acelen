@@ -102,18 +102,18 @@
           "setor": "consultoria (uso interno de IA)",
           "pais_regiao": "Global",
           "url": "https://www.forbes.com/sites/ronschmelzer/2026/10/16/accenture-bets-big-on-claude-then-limits-ai-spending/",
-          "arquivo": "",
-          "status": "web",
+          "arquivo": "11_custo-da-ia/Forbes_2026_accenture-limites-gasto-claude.pdf",
+          "status": "baixado",
           "frentes": [
             "F2",
             "F3"
           ],
           "metricas": [
-            "Atualização de 16/10/2026: um porta-voz da Accenture diz que é incorreto falar em limite firme de acesso à IA; o valor de US$ 29 ilustraria só uma parte do modelo de custeio, e o Claude é tratado como ferramenta especializada, levada às equipes onde tem mais impacto (web)",
-            "Segundo a 404 Media, a Accenture custeia centralmente até US$ 29 por pessoa por mês desde 01/10/2026; o excedente vai para o projeto ou a equipe (WBS), com autorização; alguns funcionários consumiam de US$ 500 a US$ 1.000 por mês (web)",
-            "A Anthropic publica o plano Enterprise a US$ 20 por assento por mês, com cobrança anual e uso cobrado à parte pelo preço da API; o valor de US$ 29 não corresponde a nenhum plano público (web)",
-            "Cálculo do autor, a preço de tabela: uma carga mensal de 10 milhões de tokens de entrada e 2 milhões de saída custaria cerca de US$ 2 no Haiku 5.5, US$ 40 no Sonnet 5.5, US$ 80 no Opus 5.5 e US$ 200 no Fable 5.1 (web)",
-            "Não está claro se a regra vale só para o Claude ou para todos os provedores cobrados por consumo; a Accenture também tem parceria com a OpenAI (web)"
+            "Atualização de 16/10/2026: um porta-voz da Accenture diz que é incorreto falar em limite firme de acesso à IA; o valor de US$ 29 ilustraria só uma parte do modelo de custeio, e o Claude é tratado como ferramenta especializada, levada às equipes onde tem mais impacto (p. 2-3)",
+            "Segundo a 404 Media, a Accenture custeia centralmente até US$ 29 por pessoa por mês desde 01/10/2026; o excedente vai para o projeto ou a equipe (WBS), com autorização; alguns funcionários consumiam de US$ 500 a US$ 1.000 por mês (p. 2, 4, 7)",
+            "A Anthropic publica o plano Enterprise a US$ 20 por assento por mês, com cobrança anual e uso cobrado à parte pelo preço da API; o valor de US$ 29 não corresponde a nenhum plano público (p. 8-9)",
+            "Cálculo do autor, a preço de tabela: uma carga mensal de 10 milhões de tokens de entrada e 2 milhões de saída custaria cerca de US$ 2 no Haiku 5.5, US$ 40 no Sonnet 5.5, US$ 80 no Opus 5.5 e US$ 200 no Fable 5.1 (p. 10)",
+            "Não está claro se a regra vale só para o Claude ou para todos os provedores cobrados por consumo; a Accenture também tem parceria com a OpenAI (p. 11)"
           ],
           "resumo": "Análise do caso Accenture: a parceria com a Anthropic (dez/2025), o custeio central de US$ 29 por pessoa com o excedente cobrado dos projetos, a contestação da Accenture e a defesa de medir o custo do trabalho bem-sucedido, e não só o gasto com tokens, numa IA cobrada por consumo.",
           "relevancia": "Traz a versão da Accenture: não é um limite firme de acesso, e sim a mudança de quem paga o consumo, do centro para o projeto. O autor defende medir o custo de cada resultado (modelo, tentativas, revisão humana e valor do trabalho), e não só tokens; os exemplos de retorno do texto são hipotéticos. Lida no navegador em 18/10/2026; o site bloqueia leitura automática, por isso não há cópia em PDF."
