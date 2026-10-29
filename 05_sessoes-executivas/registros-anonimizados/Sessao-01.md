@@ -6,7 +6,7 @@
 - **Setor:** agro (produção de grãos).
 - **Formato:** conversa online de cerca de 70 minutos, com Guilherme e Rafael; condução livre a partir do roteiro.
 - **Estágio autodeclarado (1–5):** a régua não foi mostrada. Leitura nossa, a partir do relato: IA generativa entre exploração e pilotos (1–2); dados e infraestrutura em operação (3); IA embarcada no campo em uso (3); governança de IA no início (2). Evidência citada: base de dados agrícola centralizada há mais de uma década; nenhuma iniciativa de IA generativa com valor medido.
-- **Gravação e transcrição brutas apagadas em:** pendente. A transcrição não registra a apresentação do estudo nem o pedido de autorização para gravar; confirmar com o entrevistado antes de usar os insights no relatório.
+- **Gravação e transcrição brutas apagadas em:** pendente. A transcrição não registra a apresentação do estudo nem o pedido de autorização para gravar; o uso dos insights no estudo, de forma anonimizada, foi confirmado com o entrevistado por e-mail (registro em 29/10/2026).
 
 ## Principais insights por tema do roteiro
 
