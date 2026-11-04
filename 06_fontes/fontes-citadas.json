@@ -251,14 +251,23 @@
   "citado_em": [
    "02_frente-1_benchmark-estrategico/notas/valor-e-retorno-da-ia.md",
    "03_frente-2_maturidade-roadmaps/frameworks-de-maturidade.md",
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md",
    "03_frente-2_maturidade-roadmaps/shadow-ai-e-governanca.md"
   ],
   "paginas_citadas": [
+   "p. 12",
    "p. 15",
    "p. 15-16",
    "p. 16",
+   "p. 18",
+   "p. 26",
+   "p. 27",
+   "p. 28",
    "p. 29",
+   "p. 29-30",
    "p. 3, 15-16",
+   "p. 35",
+   "p. 37",
    "p. 7, 19"
   ]
  },
@@ -374,12 +383,14 @@
   "resumo": "Entrevista com o executivo responsável pelo programa de IA do JPMorgan, líder do Evident AI Index. Traz uma métrica rara de trajetória de ROI (benefício bruto crescendo 30 a 40% ao ano, com controle financeiro por iniciativa) e o modelo organizacional de dois pilares. Discute também o 'inferno dos POCs' e por que ganho de produtividade não vira automaticamente corte de custo.",
   "citado_em": [
    "03_frente-2_maturidade-roadmaps/anexo-setor-financeiro-governanca-e-seguranca.md",
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md",
    "03_frente-2_maturidade-roadmaps/shadow-ai-e-governanca.md"
   ],
   "paginas_citadas": [
    "p. 3",
    "p. 3-4",
-   "p. 4"
+   "p. 4",
+   "p. 7"
   ]
  },
  {
@@ -436,7 +447,8 @@
   "citado_em": [
    "02_frente-1_benchmark-estrategico/notas/valor-e-retorno-da-ia.md",
    "03_frente-2_maturidade-roadmaps/anexo-setor-financeiro-governanca-e-seguranca.md",
-   "03_frente-2_maturidade-roadmaps/frameworks-de-maturidade.md"
+   "03_frente-2_maturidade-roadmaps/frameworks-de-maturidade.md",
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
   ],
   "paginas_citadas": [
    "p. 17",
@@ -506,12 +518,94 @@
   ],
   "resumo": "Edição de mar/2025 focada em governança e organização: papel do CEO, centralização de risco e dados, novos papéis e as 12 práticas de adoção e escala correlacionadas ao EBIT. Serve de checklist de governança e de maturidade.",
   "citado_em": [
-   "03_frente-2_maturidade-roadmaps/frameworks-de-maturidade.md"
+   "03_frente-2_maturidade-roadmaps/frameworks-de-maturidade.md",
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
   ],
   "paginas_citadas": [
    "p. 15",
    "p. 3",
+   "p. 5",
    "p. 9-10"
+  ]
+ },
+ {
+  "id": "M030",
+  "titulo": "How AI Leaders Are Taking Flight: A field guide to their practices, strategies, and cultures",
+  "organizacao": "Oliver Wyman Forum",
+  "ano": "2025",
+  "tipo_fonte": "consultoria",
+  "url": "https://www.oliverwymanforum.com/artificial-intelligence/four-secrets-to-how-ai-leaders-are-gaining-an-edge.html",
+  "frentes": [
+   "F1"
+  ],
+  "metricas": [
+   "17% das empresas com receita >= US$ 1 bi reportam melhoria >10% em receita ou custo com IA (CEOs da NYSE, n=165, 2025) (p. 3)",
+   "1 em cada 3 líderes obtém >20% da receita com produtos e serviços habilitados por IA; só 34% dos não líderes relatam algum ganho de receita (p. 3, 7)",
+   "93% dos líderes citam impacto em custos e 14% mais de 20% de eficiência de custo (p. 7)",
+   "CEOs de líderes têm 7x mais chance de dizer que não é cedo para medir ROI; 48% dos não líderes acham cedo (p. 3, 7)"
+  ],
+  "resumo": "Estudo de jun/2025 com CEOs listados na NYSE e dados de funcionários sobre os 4 traços dos líderes em IA, entre eles disciplina de ROI e transformação em vez de ajuste. Traz métricas de ganho de receita e custo.",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": [
+   "p. 18"
+  ]
+ },
+ {
+  "id": "M031",
+  "titulo": "The AI-First Organization: Turning AI power into enterprise performance (estudo completo)",
+  "organizacao": "Roland Berger",
+  "ano": "2026",
+  "tipo_fonte": "consultoria",
+  "url": "https://www.rolandberger.com/en/Insights/Publications/The-AI-First-Organization.html",
+  "frentes": [
+   "F1",
+   "F2",
+   "F3"
+  ],
+  "metricas": [
+   "62% esperam mudanças grandes ou radicais no modelo operacional por causa da IA, mas só 38% começaram a mudá-lo; 59% consideram a liderança despreparada (472 executivos, fim de 2025 e início de 2026) (p. 2, 6)",
+   "59% dizem que a governança de dados é insuficiente; empresas líderes em IA têm 3,7 vezes mais chance de operar uma plataforma tecnológica compartilhada (p. 14)",
+   "Líderes em IA operam com mais frequência com hierarquias achatadas (46% x 36% dos retardatários) e baixa complexidade organizacional (23% x 18%) (p. 19)",
+   "Líderes podem superar retardatários em produtividade por um fator de 2 a 3, levando a organizações menores, mais achatadas e enxutas (p. 10)",
+   "62% esperam mudanças grandes ou radicais no modelo operacional por causa da IA, mas só 38% começaram a agir (472 executivos, fim de 2025 e início de 2026) (página oficial)",
+   "59% consideram a liderança insuficientemente preparada (página oficial)",
+   "Pessoas, habilidades e capacidades são a principal barreira à geração de valor, citadas por quase metade dos líderes (página oficial)",
+   "9 mudanças de modelo operacional em 3 níveis de maturidade (fundação, execução, escala); cultura é a variável de maior efeito (página oficial)"
+  ],
+  "resumo": "Estudo de jul/2026 que atribui o fracasso das transformações com IA ao modelo operacional intocado, não à tecnologia. Propõe nove mudanças em três camadas (fundação: governança, plataforma unificada e capacidade distribuída; execução: decisão por dados, processos reorganizados por resultado e nova liderança para força de trabalho híbrida IA-humano; escala: metas ousadas, estrutura mais enxuta e cultura AI-first). Muito útil para F2 (capacidades e dependências) e para mudanças organizacionais em F3. Obtido pelo usuário via formulário.",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": [
+   "p. 13",
+   "p. 14",
+   "p. 18"
+  ]
+ },
+ {
+  "id": "M033",
+  "titulo": "The AI First Organization: How IT can help reshape the operating model for AI",
+  "organizacao": "Arthur D. Little",
+  "ano": "2026",
+  "tipo_fonte": "consultoria",
+  "url": "https://www.adlittle.com/en/insights/viewpoints/ai-first-organization",
+  "frentes": [
+   "F1",
+   "F2"
+  ],
+  "metricas": [
+   "Integrar agentes em workflows inalterados rende ganhos direcionais de 10-20%; redesenhar para um modelo operacional agêntico pode chegar a 50% (p. 2)"
+  ],
+  "resumo": "Viewpoint da ADL (set/2026) sobre três ondas de modelo operacional até o 'AI First' e os novos papéis necessários: gestão do ciclo de vida de agentes, dono de plataforma, supervisão humana.",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": [
+   "p. 4-5",
+   "p. 5",
+   "p. 6"
   ]
  },
  {
@@ -534,7 +628,8 @@
   ],
   "resumo": "Edição 2024 do estudo de maturidade em IA da BCG, antecessora do 'Widening AI Value Gap'. Útil pela curva de maturidade e pela regra 10-20-70.",
   "citado_em": [
-   "03_frente-2_maturidade-roadmaps/frameworks-de-maturidade.md"
+   "03_frente-2_maturidade-roadmaps/frameworks-de-maturidade.md",
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
   ],
   "paginas_citadas": [
    "p. 6"
@@ -557,6 +652,28 @@
   ],
   "paginas_citadas": [
    "p. 1"
+  ]
+ },
+ {
+  "id": "M039",
+  "titulo": "Building the foundations for agentic AI at scale",
+  "organizacao": "McKinsey & Company",
+  "ano": "2026",
+  "tipo_fonte": "consultoria",
+  "url": "https://www.mckinsey.com/~/media/mckinsey/business%20functions/technology/our%20insights/building%20the%20foundations%20for%20agentic%20ai%20at%20scale/building-the-foundations-for-agentic-ai-at-scale_vf.pdf",
+  "frentes": [
+   "F2"
+  ],
+  "metricas": [
+   "Quase 2/3 das empresas já experimentaram agentes, mas menos de 10% os escalaram gerando valor tangível (2026) (p. 2)",
+   "8 em cada 10 empresas citam limitações de dados como barreira para escalar IA agêntica (p. 2)"
+  ],
+  "resumo": "Artigo de abr/2026 sobre fundações de dados, arquitetura e modelo operacional para escalar agentes. Útil para mapear dependências críticas (dados) no roadmap.",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": [
+   "p. 9"
   ]
  },
  {
@@ -707,10 +824,12 @@
   ],
   "resumo": "Estudo da Capgemini sobre IA agêntica com escala de níveis de autonomia dos agentes, valor projetado e confiança. Útil para incluir agentes nos modelos de maturidade.",
   "citado_em": [
-   "03_frente-2_maturidade-roadmaps/frameworks-de-maturidade.md"
+   "03_frente-2_maturidade-roadmaps/frameworks-de-maturidade.md",
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
   ],
   "paginas_citadas": [
    "p. 15",
+   "p. 4",
    "p. 4, 8, 15"
   ]
  },
@@ -886,11 +1005,16 @@
   "resumo": "Pesquisa trimestral global da KPMG, a mais recente do grupo (set/2026). Traz estágios de maturidade com contagem por estágio e as práticas de gestão, governança e economia da IA que separam quem já tem ROI.",
   "citado_em": [
    "02_frente-1_benchmark-estrategico/notas/valor-e-retorno-da-ia.md",
-   "03_frente-2_maturidade-roadmaps/frameworks-de-maturidade.md"
+   "03_frente-2_maturidade-roadmaps/frameworks-de-maturidade.md",
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
   ],
   "paginas_citadas": [
    "p. 11",
    "p. 11, 25",
+   "p. 12",
+   "p. 13",
+   "p. 22",
+   "p. 3",
    "p. 3, 25"
   ]
  },
@@ -1025,7 +1149,8 @@
    "02_frente-1_benchmark-estrategico/notas/valor-e-retorno-da-ia.md",
    "03_frente-2_maturidade-roadmaps/anexo-setor-financeiro-governanca-e-seguranca.md",
    "03_frente-2_maturidade-roadmaps/bancos-itau-bradesco-nubank.md",
-   "03_frente-2_maturidade-roadmaps/frameworks-de-maturidade.md"
+   "03_frente-2_maturidade-roadmaps/frameworks-de-maturidade.md",
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
   ],
   "paginas_citadas": [
    "p. 12-13",
@@ -1055,7 +1180,8 @@
   "citado_em": [
    "03_frente-2_maturidade-roadmaps/anexo-setor-financeiro-governanca-e-seguranca.md",
    "03_frente-2_maturidade-roadmaps/bancos-itau-bradesco-nubank.md",
-   "03_frente-2_maturidade-roadmaps/frameworks-de-maturidade.md"
+   "03_frente-2_maturidade-roadmaps/frameworks-de-maturidade.md",
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
   ],
   "paginas_citadas": [
    "p. 20",
@@ -1110,6 +1236,30 @@
   ],
   "paginas_citadas": [
    "p. 7"
+  ]
+ },
+ {
+  "id": "M093",
+  "titulo": "The rise of the AI operating model: Why every business needs an AI Centre of Excellence today",
+  "organizacao": "Deloitte África",
+  "ano": "2025",
+  "tipo_fonte": "consultoria",
+  "url": "https://www.deloitte.com/content/dam/assets-zone1/za/en/docs/services/consulting/2025/za-the-rise-of-the-ai-operating-model-full-report.pdf",
+  "frentes": [
+   "F1",
+   "F3"
+  ],
+  "metricas": [
+   "Organizações que operam a IA como capacidade integrada às funções centrais obtêm 10% a 20% de impacto no EBITDA (observação da Deloitte em projetos) (p. 2)",
+   "44% de mais de 500 executivos de conselho em 57 países dizem que a adoção de IA precisa acelerar (p. 1)"
+  ],
+  "resumo": "Artigo (jun/2025) que propõe o Centro de Excelência de IA (AI CoE) como nova camada do modelo operacional: governança, 'AI factory' e 'control tower' com KPIs de valor, ciclo de vida de modelos e conformidade, em vez do 'teatro de casos de uso'. A evidência é mais qualitativa.",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": [
+   "p. 1-2",
+   "p. 2"
   ]
  },
  {
@@ -1181,6 +1331,7 @@
   ],
   "resumo": "Estudo global de confiança e uso de IA, com recorte Brasil. Útil para a frente de governança, 'shadow AI', letramento e gestão da mudança.",
   "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md",
    "03_frente-2_maturidade-roadmaps/shadow-ai-e-governanca.md",
    "03_frente-2_maturidade-roadmaps/shadow-ai-linha-de-investigacao.md"
   ],
@@ -1282,6 +1433,33 @@
   ]
  },
  {
+  "id": "M116",
+  "titulo": "2026 AI & Data Leadership Executive Benchmark Survey — Executive Summary of Findings",
+  "organizacao": "Data & AI Leadership Exchange (Randy Bean; prefácio de Thomas H. Davenport)",
+  "ano": "2026",
+  "tipo_fonte": "outro",
+  "url": "https://static1.squarespace.com/static/62adf3ca029a6808a6c5be30/t/6942c3cb535da44088c2dbff/1765983179572/2026+AI+&+Data+Leadership+Executive+Benchmark+Survey+Final.pdf",
+  "frentes": [
+   "F1",
+   "F2",
+   "F3"
+  ],
+  "metricas": [
+   "38,5% das grandes empresas já nomearam um Chief AI Officer (33,1% no ano anterior) e 52% dizem que o cargo deve existir (~110 empresas) (p. 3-4)",
+   "IA em produção em escala subiu de 4,7% para 39,1% em 2 anos; em produção limitada, de 24,5% para 54,5% (p. 4)",
+   "93,2% apontam pessoas, cultura e gestão da mudança como o principal obstáculo; só 7% culpam a tecnologia (p. 2, 4)",
+   "54% obtêm valor de negócio alto ou significativo com dados e IA, ante 46% no ano anterior (p. 4)",
+   "Sem consenso sobre a quem o CAIO reporta: liderança de tecnologia 34%, CDO 30%, negócio 27%, transformação 9% (p. 2)"
+  ],
+  "resumo": "15ª edição da pesquisa anual com CDOs, CDAOs e CAIOs de grandes empresas. Traz a evolução dos papéis executivos de dados e IA: 90% têm CDO e 69,8% consideram o papel consolidado. É referência para desenho organizacional (CAIO, reporte e cultura).",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": [
+   "p. 13"
+  ]
+ },
+ {
   "id": "M117",
   "titulo": "State of AI Agents 2026",
   "organizacao": "Databricks",
@@ -1347,7 +1525,8 @@
   ],
   "resumo": "Traz as causas de insucesso (dados ruins, controles de risco fracos, custos crescentes, valor pouco claro) e números de ganho médio. Útil para casos de insucesso e para o business case.",
   "citado_em": [
-   "02_frente-1_benchmark-estrategico/notas/valor-e-retorno-da-ia.md"
+   "02_frente-1_benchmark-estrategico/notas/valor-e-retorno-da-ia.md",
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
   ],
   "paginas_citadas": [
    "web"
@@ -1372,7 +1551,8 @@
   ],
   "resumo": "Alerta sobre hype e cancelamento de projetos de agentes. Recomenda usar agentes só onde há ROI claro e redesenhar workflows em vez de acoplar agentes a sistemas legados.",
   "citado_em": [
-   "02_frente-1_benchmark-estrategico/notas/valor-e-retorno-da-ia.md"
+   "02_frente-1_benchmark-estrategico/notas/valor-e-retorno-da-ia.md",
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
   ],
   "paginas_citadas": [
    "web"
@@ -1398,7 +1578,8 @@
   ],
   "resumo": "Pesquisa baseada no Gartner AI Maturity Model (níveis 1 a 5). Liga maturidade à longevidade dos projetos, à confiança, a métricas de ROI e à existência de um líder de IA dedicado.",
   "citado_em": [
-   "03_frente-2_maturidade-roadmaps/frameworks-de-maturidade.md"
+   "03_frente-2_maturidade-roadmaps/frameworks-de-maturidade.md",
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
   ],
   "paginas_citadas": [
    "web"
@@ -1423,7 +1604,8 @@
   "resumo": "Referência clássica para a taxa de pilotos que chegam à produção. Descreve as 4 capacidades das organizações maduras em IA: modelo operacional escalável, engenharia de IA, upskilling/gestão da mudança e TRiSM.",
   "citado_em": [
    "02_frente-1_benchmark-estrategico/notas/valor-e-retorno-da-ia.md",
-   "03_frente-2_maturidade-roadmaps/frameworks-de-maturidade.md"
+   "03_frente-2_maturidade-roadmaps/frameworks-de-maturidade.md",
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
   ],
   "paginas_citadas": [
    "web"
@@ -1448,7 +1630,31 @@
   ],
   "resumo": "Press release de set/2026 com a pesquisa C-Suite AI do Gartner: poucos escalam IA, e os que medem ROI por portfólio (e cortam iniciativas fracas) colhem retorno positivo em 81% dos casos. Mostra também que os casos de uso mais populares raramente são os de maior retorno. Tentei imprimir em PDF, mas o Gartner bloqueia o Chrome headless.",
   "citado_em": [
-   "02_frente-1_benchmark-estrategico/notas/valor-e-retorno-da-ia.md"
+   "02_frente-1_benchmark-estrategico/notas/valor-e-retorno-da-ia.md",
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": [
+   "web"
+  ]
+ },
+ {
+  "id": "M124",
+  "titulo": "Lack of AI-Ready Data Puts AI Projects at Risk",
+  "organizacao": "Gartner",
+  "ano": "2025",
+  "tipo_fonte": "analista/big tech",
+  "url": "https://www.gartner.com/en/newsroom/press-releases/2025-02-26-lack-of-ai-ready-data-puts-ai-projects-at-risk",
+  "frentes": [
+   "F1",
+   "F2"
+  ],
+  "metricas": [
+   "63% das organizações não têm ou não sabem se têm práticas de gestão de dados adequadas para IA (1.203 líderes de gestão de dados, jul/2024) (página oficial)",
+   "Até 2026, 60% dos projetos de IA sem dados prontos para IA serão abandonados (página oficial)"
+  ],
+  "resumo": "Q&A que define 'AI-ready data' e propõe 5 passos (alinhar dados a casos de uso, governança, metadados, observabilidade etc.). Dependência crítica para a estratégia de dados.",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
   ],
   "paginas_citadas": [
    "web"
@@ -1627,6 +1833,37 @@
   ]
  },
  {
+  "id": "M135",
+  "titulo": "Solving the AI ROI puzzle: How Chief AI Officers cut through complexity to create new paths to value",
+  "organizacao": "IBM Institute for Business Value / Oxford Economics / Dubai Future Foundation",
+  "ano": "2025",
+  "tipo_fonte": "analista/big tech",
+  "url": "https://www.ibm.com/downloads/documents/us-en/1379d32d7fdaec18",
+  "frentes": [
+   "F1",
+   "F2"
+  ],
+  "metricas": [
+   "Organizações com CAIO têm 10% mais ROI sobre o gasto em IA; só 26% têm CAIO, contra 11% em 2023 (600+ CAIOs, 1º tri/2025) (p. 5; p. 8)",
+   "Modelos operacionais centralizados ou hub-and-spoke geram 36% mais ROI de IA que modelos descentralizados (p. 5)",
+   "57% dos CAIOs reportam ao CEO ou ao Conselho (p. 5)",
+   "72% dizem que a empresa ficará para trás sem medir o impacto da IA; 68% iniciam projetos mesmo sem conseguir medi-lo (p. 5)"
+  ],
+  "resumo": "Evidência quantitativa sobre estrutura organizacional (papel do CAIO, centralizado vs. descentralizado) e ROI. Base direta para a frente de governança e organização.",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": [
+   "p. 10",
+   "p. 14",
+   "p. 16",
+   "p. 19",
+   "p. 20",
+   "p. 24",
+   "p. 8"
+  ]
+ },
+ {
   "id": "M137",
   "titulo": "Impacto nos Negócios pela Adoção de IA no Brasil (IDC para Microsoft Brasil) – notícia oficial",
   "organizacao": "IDC (comissionado pela Microsoft Brasil)",
@@ -1790,10 +2027,12 @@
   "metricas": [],
   "resumo": "Framework de adoção de IA da AWS (fev/2024) com ciclo Envision → Align → Launch → Scale e capacidades fundacionais por perspectiva (negócio, pessoas, governança, plataforma, segurança, operações). Serve para mapear capacidades por estágio.",
   "citado_em": [
-   "03_frente-2_maturidade-roadmaps/frameworks-de-maturidade.md"
+   "03_frente-2_maturidade-roadmaps/frameworks-de-maturidade.md",
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
   ],
   "paginas_citadas": [
-   "p. 13"
+   "p. 13",
+   "p. 31"
   ]
  },
  {
@@ -1849,7 +2088,8 @@
   "metricas": [],
   "resumo": "Framework clássico de maturidade: 3 fases (tática, estratégica, transformacional), 4 áreas (pessoas, processos, tecnologia, dados) e 6 temas (Learn, Lead, Access, Scale, Secure, Automate), com escala de maturidade. Mantido como referência clássica.",
   "citado_em": [
-   "03_frente-2_maturidade-roadmaps/frameworks-de-maturidade.md"
+   "03_frente-2_maturidade-roadmaps/frameworks-de-maturidade.md",
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
   ],
   "paginas_citadas": [
    "p. 10",
@@ -1897,9 +2137,11 @@
   ],
   "resumo": "Playbook da Microsoft (PDF gerado em mar/2026) para a 'Frontier Firm' em três fases: Foundation (pessoa com assistente), Expansion (equipes pessoa-agente) e Frontier (pessoas lideram, agentes operam). Detalha mudanças no modelo operacional, força de trabalho e tecnologia, cinco cenários por função corporativa e métricas de sucesso por fase: adoção, horas assistidas, agentes em uso e KPIs de negócio (p. 31-33).",
   "citado_em": [
-   "03_frente-2_maturidade-roadmaps/frameworks-de-maturidade.md"
+   "03_frente-2_maturidade-roadmaps/frameworks-de-maturidade.md",
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
   ],
   "paginas_citadas": [
+   "p. 11",
    "p. 2",
    "p. 3",
    "p. 30-33"
@@ -2126,10 +2368,12 @@
   "resumo": "Estatística oficial de uso de IA e outras tecnologias digitais na indústria brasileira (série 2022-2024), com áreas de uso, grau de utilização, benefícios e dificuldades; não cobre o setor agropecuário.",
   "citado_em": [
    "02_frente-1_benchmark-estrategico/notas/valor-e-retorno-da-ia.md",
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md",
    "04_frente-3_tendencias/custo-da-ia.md"
   ],
   "paginas_citadas": [
    "p. 17",
+   "p. 32",
    "p. 55-56"
   ]
  },
@@ -2183,7 +2427,8 @@
   ],
   "resumo": "Modelo original de 4 estágios de maturidade em IA do MIT CISR, com as capacidades de cada estágio (políticas, dados via API, plataformas reutilizáveis, IA proprietária e agentes) e o desempenho financeiro associado. PDF é a impressão da página oficial.",
   "citado_em": [
-   "03_frente-2_maturidade-roadmaps/frameworks-de-maturidade.md"
+   "03_frente-2_maturidade-roadmaps/frameworks-de-maturidade.md",
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
   ],
   "paginas_citadas": [
    "p. 3",
@@ -2213,7 +2458,8 @@
   "resumo": "Atualização do modelo de maturidade em IA do MIT CISR: o texto destaca a passagem do estágio 2 (pilotos) para o 3 (IA em escala), quando o desempenho passa de abaixo para acima da média do setor (na figura da p. 9, os maiores saltos de crescimento e lucro são do estágio 1 para o 2), com os 4 desafios da transição (estratégia, sistemas, sincronização, governança) e casos Guardian e Italgas. PDF é a impressão da página oficial (o PDF nativo exige cadastro gratuito).",
   "citado_em": [
    "02_frente-1_benchmark-estrategico/notas/valor-e-retorno-da-ia.md",
-   "03_frente-2_maturidade-roadmaps/frameworks-de-maturidade.md"
+   "03_frente-2_maturidade-roadmaps/frameworks-de-maturidade.md",
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
   ],
   "paginas_citadas": [
    "p. 3, 9",
@@ -2243,6 +2489,34 @@
   ]
  },
  {
+  "id": "M192",
+  "titulo": "The Emerging Agentic Enterprise: How Leaders Must Navigate a New Age of AI",
+  "organizacao": "MIT Sloan Management Review + BCG",
+  "ano": "2025",
+  "tipo_fonte": "academia",
+  "url": "https://web-assets.bcg.com/dc/c5/1bcbfdc0405c85fb14972a57c20a/the-emerging-agentic-enterprise-how-leaders-must-navigate-a-new-age-of-ai.pdf",
+  "frentes": [
+   "F1",
+   "F2",
+   "F3"
+  ],
+  "metricas": [
+   "35% das organizações já adotaram IA agêntica em dois anos e 44% planejam adotar em breve (2.102 respondentes, 116 países, 2025) (p. 7)",
+   "Adoção de IA tradicional em 72%; IA generativa chegou a 70% em três anos (p. 7)",
+   "76% dos executivos veem a IA agêntica mais como colega do que como ferramenta (p. 5)",
+   "73% das organizações com uso extensivo de IA agêntica dizem que ela aumenta fundamentalmente sua capacidade de diferenciação (p. 8)",
+   "IA agêntica atingiu 35% de adoção em 2 anos e 44% planejam implantar em breve; IA tradicional chegou a 72% em 8 anos e IA generativa a 70% em 3 anos (2.102 respondentes, 116 países, 2025) (p. 5, 7)",
+   "76% veem a IA agêntica mais como colega de trabalho do que como ferramenta (p. 5)"
+  ],
+  "resumo": "Relatório anual MIT SMR-BCG (nov/2025) sobre IA agêntica: 4 tensões operacionais (flexibilidade, investimento, controle, escopo) e implicações para desenho do trabalho, papéis e governança. É a edição mais recente (a de 2026 ainda não saiu).",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": [
+   "p. 5, 7"
+  ]
+ },
+ {
   "id": "M194",
   "titulo": "The MITRE AI Maturity Model and Organizational Assessment Tool Guide: A Path to Successful AI Adoption",
   "organizacao": "MITRE Corporation",
@@ -2259,7 +2533,8 @@
   ],
   "resumo": "Framework público e não comercial de maturidade em IA, derivado da revisão de modelos de mercado, do CMMI e das normas do NIST, com ferramenta de autoavaliação. Os pilares são ético e responsável, estratégia e recursos, organização, habilitadores tecnológicos, dados e desempenho. Boa base neutra para o framework consolidado de F2.",
   "citado_em": [
-   "03_frente-2_maturidade-roadmaps/frameworks-de-maturidade.md"
+   "03_frente-2_maturidade-roadmaps/frameworks-de-maturidade.md",
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
   ],
   "paginas_citadas": [
    "p. 10",
@@ -2287,11 +2562,13 @@
   ],
   "resumo": "Estudo de referência sobre insucesso em IA: problema mal definido, falta de dados adequados, foco em tecnologia em vez do problema, infraestrutura insuficiente e problemas difíceis demais para IA, com recomendações para líderes.",
   "citado_em": [
-   "02_frente-1_benchmark-estrategico/notas/valor-e-retorno-da-ia.md"
+   "02_frente-1_benchmark-estrategico/notas/valor-e-retorno-da-ia.md",
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
   ],
   "paginas_citadas": [
    "p. 1",
-   "p. 1-2"
+   "p. 1-2",
+   "p. 2"
   ]
  },
  {
@@ -2481,6 +2758,25 @@
   ]
  },
  {
+  "id": "M222",
+  "titulo": "Artificial Intelligence Risk Management Framework (AI RMF 1.0) - NIST AI 100-1",
+  "organizacao": "NIST",
+  "ano": "2023",
+  "tipo_fonte": "governo/instituição",
+  "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+  "frentes": [
+   "F1"
+  ],
+  "metricas": [],
+  "resumo": "Framework clássico de governança e gestão de risco de IA (funções Govern, Map, Measure, Manage), referência para estruturar comitês, políticas e controles de IA.",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": [
+   "p. 37"
+  ]
+ },
+ {
   "id": "M223",
   "titulo": "Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile (NIST AI 600-1)",
   "organizacao": "NIST (National Institute of Standards and Technology, EUA)",
@@ -2497,11 +2793,16 @@
   "resumo": "Perfil de IA generativa do AI RMF (julho de 2024), complementar ao AI RMF 1.0 já catalogado. Define os riscos da IA generativa e ações sugeridas organizadas nas funções Govern, Map, Measure e Manage, com foco em governança, proveniência de conteúdo, testes antes da implantação e divulgação de incidentes. Base para políticas de governança de IA generativa e agentes.",
   "citado_em": [
    "03_frente-2_maturidade-roadmaps/anexo-setor-financeiro-governanca-e-seguranca.md",
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md",
    "03_frente-2_maturidade-roadmaps/shadow-ai-e-governanca.md"
   ],
   "paginas_citadas": [
+   "p. 19",
+   "p. 20",
    "p. 20, 25",
+   "p. 23",
    "p. 25",
+   "p. 46",
    "p. 5-6, 11-12"
   ]
  },
@@ -2969,9 +3270,12 @@
   "resumo": "Mostra a governança de IA da Klabin: IA Office multidisciplinar desde 2024 e funil de priorização por valor, risco e complexidade. Define também quando a TI desenvolve e quando o próprio colaborador pode criar agentes, além de pilotos como automação de pedidos no SAP, visão computacional para sujidade na madeira e SparkBeyond. Muito útil para F1 e F2.",
   "citado_em": [
    "02_frente-1_benchmark-estrategico/notas/valor-e-retorno-da-ia.md",
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md",
    "03_frente-2_maturidade-roadmaps/shadow-ai-e-governanca.md"
   ],
   "paginas_citadas": [
+   "p. 63",
+   "p. 63-64",
    "p. 63-65, 74",
    "p. 65"
   ]
@@ -3080,10 +3384,12 @@
   ],
   "resumo": "Relatório anual que traz a série de economia com aplicação localizada (base do ROI que a SLC divulga aos investidores) junto com o investimento em agricultura digital do mesmo ano. Mostra o funil de inovação (ideias, PoC, rollout), o programa AgroX e o CVC SLC Ventures (aporte na Sensix, IA para reduzir químicos). Na rodada 1 o PDF não foi obtido no site (devolvia HTML); a cópia oficial está no armazenamento em nuvem da própria SLC.",
   "citado_em": [
-   "02_frente-1_benchmark-estrategico/notas/valor-e-retorno-da-ia.md"
+   "02_frente-1_benchmark-estrategico/notas/valor-e-retorno-da-ia.md",
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
   ],
   "paginas_citadas": [
-   "p. 31"
+   "p. 31",
+   "p. 69"
   ]
  },
  {
@@ -3105,6 +3411,7 @@
   "resumo": "Notícia oficial (impressa em PDF) sobre IA generativa em produção na fábrica de Três Lagoas, com Azure OpenAI integrado ao Teams. A solução evoluiu para agentes que consultam as bases do digestor e geram diagnósticos, com expansão prevista para outras unidades em 2025. Confirma a pista de 'IA generativa em produção'.",
   "citado_em": [
    "02_frente-1_benchmark-estrategico/fichas-benchmark/suzano.md",
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md",
    "03_frente-2_maturidade-roadmaps/shadow-ai-e-governanca.md",
    "03_frente-2_maturidade-roadmaps/shadow-ai-linha-de-investigacao.md"
   ],
@@ -3117,6 +3424,7 @@
    "p. 3",
    "p. 3-4",
    "p. 4",
+   "p. 4, 6",
    "p. 5",
    "p. 5-6",
    "p. 6"
@@ -3374,9 +3682,11 @@
   ],
   "resumo": "Relato mais recente da empresa (2026), fora do índice. Mostra governança formal de IA (política própria com treinamento quase universal), copilotos de IA generativa homologados, visão computacional sendo levada às operações, gêmeo digital e IA na engenharia de processos, e câmeras com IA para detectar fumaça (p. 83). Os ganhos da IA ainda não são quantificados em R$.",
   "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md",
    "03_frente-2_maturidade-roadmaps/shadow-ai-e-governanca.md"
   ],
   "paginas_citadas": [
+   "p. 43",
    "p. 46"
   ]
  },
@@ -4149,11 +4459,15 @@
   "resumo": "Release oficial sobre a atualização das diretrizes de IA ética e responsável do BB, que passam a ter regras próprias para IA generativa e agêntica. Traz a escala de IA do banco no 1º semestre de 2026 e descreve as plataformas de governança (Gaia) e de criação de assistentes (Genera BB). É um bom exemplo brasileiro de governança somada a escala, mas não traz valor financeiro. A versão de jan/2026 com IN.GPT (50 mil horas) só foi achada em portais de terceiros e não foi usada.",
   "citado_em": [
    "03_frente-2_maturidade-roadmaps/anexo-setor-financeiro-governanca-e-seguranca.md",
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md",
    "03_frente-2_maturidade-roadmaps/shadow-ai-e-governanca.md"
   ],
   "paginas_citadas": [
+   "p. 1",
    "p. 1-3",
+   "p. 2",
    "p. 2-3",
+   "p. 3",
    "web"
   ]
  },
@@ -4256,15 +4570,19 @@
   ],
   "resumo": "Primeiro relatório de um banco australiano dedicado a como adota IA: governança (fórum dedicado, política com seis princípios, ciclo de vida de sistemas de IA, unidade de IA centrada no humano), casos com resultado (fraude, golpes, atendimento) e capacitação. Modelo de transparência e de governança de IA responsável.",
   "citado_em": [
-   "03_frente-2_maturidade-roadmaps/anexo-setor-financeiro-governanca-e-seguranca.md"
+   "03_frente-2_maturidade-roadmaps/anexo-setor-financeiro-governanca-e-seguranca.md",
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
   ],
   "paginas_citadas": [
    "p. 12",
+   "p. 12, 16",
    "p. 13",
    "p. 13-16",
    "p. 13-16, 18-19",
    "p. 15",
    "p. 15-16",
+   "p. 16",
+   "p. 18",
    "p. 19"
   ]
  },
@@ -4373,7 +4691,8 @@
    "02_frente-1_benchmark-estrategico/notas/valor-e-retorno-da-ia.md",
    "03_frente-2_maturidade-roadmaps/anexo-setor-financeiro-governanca-e-seguranca.md",
    "03_frente-2_maturidade-roadmaps/bancos-itau-bradesco-nubank.md",
-   "03_frente-2_maturidade-roadmaps/frameworks-de-maturidade.md"
+   "03_frente-2_maturidade-roadmaps/frameworks-de-maturidade.md",
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
   ],
   "paginas_citadas": [
    "p. 11",
@@ -4646,7 +4965,10 @@
    "03_frente-2_maturidade-roadmaps/bancos-itau-bradesco-nubank.md"
   ],
   "paginas_citadas": [
-   "web"
+   "p. 1-2",
+   "p. 1-3",
+   "p. 2",
+   "p. 3"
   ]
  },
  {
@@ -4788,10 +5110,14 @@
   "resumo": "Documento público de compromisso com IA confiável, preparado para os critérios de governança do índice Dow Jones de sustentabilidade. Pelos metadados, é de agosto de 2026. Descreve a arquitetura de governança de IA do banco. A versão citada pelo deep research, com 2,2 bilhões de interações da BIA e 88% de acerto, foi substituída e não traz mais métricas (as da BIA estão no Relatório Integrado 2025, já catalogado).",
   "citado_em": [
    "03_frente-2_maturidade-roadmaps/anexo-setor-financeiro-governanca-e-seguranca.md",
-   "03_frente-2_maturidade-roadmaps/bancos-itau-bradesco-nubank.md"
+   "03_frente-2_maturidade-roadmaps/bancos-itau-bradesco-nubank.md",
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
   ],
   "paginas_citadas": [
+   "p. 1",
    "p. 1-4",
+   "p. 3",
+   "p. 4",
    "web"
   ]
  },
@@ -4995,7 +5321,8 @@
   ],
   "resumo": "É o caso brasileiro de setor maduro com mais valor de IA quantificado em fonte oficial: saving realizado (USD 66 mi), ganhos operacionais medidos, uma usina modelo com IA (release oficial de 10/06/2026 em vale.com) e uma organização com centros de IA e programa de democratização. Os casos (previsão climática, frota autônoma, logística, assistentes multiagentes) se aplicam bem a operações de campo e logística do agro.",
   "citado_em": [
-   "02_frente-1_benchmark-estrategico/notas/valor-e-retorno-da-ia.md"
+   "02_frente-1_benchmark-estrategico/notas/valor-e-retorno-da-ia.md",
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
   ],
   "paginas_citadas": [
    "p. 32"
@@ -5293,6 +5620,37 @@
   ]
  },
  {
+  "id": "M748",
+  "titulo": "TI do Futuro — Do Centro de Custo ao Pilar Estratégico (ebook do Gatua Meeting E01, com a pesquisa pré-evento de 84 respondentes)",
+  "organizacao": "Gatua",
+  "ano": "2026",
+  "tipo_fonte": "evento setorial",
+  "url": "",
+  "frentes": [
+   "F1",
+   "F2",
+   "F3"
+  ],
+  "metricas": [
+   "84 executivos C-level e decisores de TI de grandes empresas do agronegócio brasileiro, em pesquisa anônima pelo Microsoft Forms, mar-mai/2026 (p. 8)",
+   "IA na agenda estratégica de 2026: 42% em piloto ou avaliação, 36% já com projetos em produção, 18% parcialmente e 5% não é prioridade; o ebook soma 78% 'com IA na agenda' (42% + 36%) (p. 32, 52)",
+   "71% apontam IA e automação como o principal tema dos próximos 12 meses; depois vêm analytics (40%), cibersegurança (37%), integração OT/IT (24%) e governança de dados e LGPD (20%) (p. 32, 44)",
+   "Maturidade interna autoavaliada (escala de 1 a 5): capacidade técnica 3,46; governança e processos 3,12; integração TI–negócio 3,09; cultura de dados 2,99, a mais fraca (p. 32)",
+   "ROI dos projetos de TI: 23% medem com método formal, 60% de forma parcial ou informal e 13% não medem (p. 52)",
+   "44% citam cultura organizacional resistente como o principal obstáculo (p. 52)",
+   "Investimento em TI 2026 × 2025: 21% crescimento, 38% manutenção e 42% redução no gráfico da p. 32; o texto resume como '42% vão manter ou reduzir', o que não bate com o gráfico, e a p. 52 divide o crescimento em 17% até 20% e 4% acima de 20% (p. 32, 52)"
+  ],
+  "resumo": "Ebook do primeiro Gatua Meeting de 2026 (21/05/2026, Ribeirão Preto): transcrições de 10 painéis, pesquisa pré-evento com 84 executivos do agro e desk research. Mostra a distância entre declarar IA na agenda e ter valor real, a cultura de dados como fundação mais frágil e a medição de ROI ainda informal. Distribuição exclusiva (Camada 3: participantes, comunidade e parceiros): citar com atribuição, sem reproduzir; não entra no texto integral do assistente de IA. Original em docs/referencias/.",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": [
+   "p. 32",
+   "p. 32, 53",
+   "p. 53"
+  ]
+ },
+ {
   "id": "M749",
   "titulo": "Visão global: Suzano monitora 500 milhões de hectares com inteligência em nuvem (caso de sucesso)",
   "organizacao": "Google Cloud (case Suzano, com a parceira Geoambiente)",
@@ -5361,7 +5719,8 @@
   "metricas": [],
   "resumo": "Notícia oficial de 21/02/2025 sobre o Digital Empowerment, programa de capacitação em dados, Python e IA generativa criado com a Universidade Corporativa Koru dentro do Smart, ecossistema que reúne aprendizado, governança e gestão de tecnologias que podem ser democratizadas, com mentoria da área de DigitalTech. Mostra o modelo em que os próprios colaboradores desenvolvem soluções (Work-Based Learning) e cita cases de IA generativa para recomendar ajustes no processo produtivo. Útil para organização, pessoas e governança; não traz métricas.",
   "citado_em": [
-   "02_frente-1_benchmark-estrategico/fichas-benchmark/suzano.md"
+   "02_frente-1_benchmark-estrategico/fichas-benchmark/suzano.md",
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
   ],
   "paginas_citadas": [
    "p. 2-4",
@@ -5410,7 +5769,8 @@
   ],
   "resumo": "Notícia oficial de 28/08/2026 que descreve a integração de IA, imagens de satélite, câmeras em torres e drones na prevenção e no combate a incêndios, com indicadores de resposta e de controle da estrutura como um todo, não só da IA. Lista as tecnologias em avaliação (satélites de baixa órbita, drones BVLOS com câmera térmica) e em teste (aceiros remotos). Atualiza M338.",
   "citado_em": [
-   "02_frente-1_benchmark-estrategico/fichas-benchmark/suzano.md"
+   "02_frente-1_benchmark-estrategico/fichas-benchmark/suzano.md",
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
   ],
   "paginas_citadas": [
    "p. 2-3",
@@ -10576,9 +10936,11 @@
   "citado_em": [
    "03_frente-2_maturidade-roadmaps/anexo-setor-financeiro-governanca-e-seguranca.md",
    "03_frente-2_maturidade-roadmaps/bancos-itau-bradesco-nubank.md",
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md",
    "03_frente-2_maturidade-roadmaps/shadow-ai-e-governanca.md"
   ],
   "paginas_citadas": [
+   "p. 14",
    "p. 15-17",
    "p. 16",
    "p. 17"
@@ -10776,6 +11138,7 @@
   ],
   "resumo": "Sétima edição do estudo anual de privacidade da Cisco, com pesquisa anônima entre 2.600 profissionais de segurança e privacidade em 12 países, inclusive o Brasil. A seção de IA generativa mostra as primeiras reações das empresas (limitar dados, limitar ferramentas, proibir) e o tipo de informação que os próprios profissionais já inseriram nas ferramentas.",
   "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md",
    "03_frente-2_maturidade-roadmaps/shadow-ai-e-governanca.md"
   ],
   "paginas_citadas": [
@@ -10799,6 +11162,7 @@
   ],
   "resumo": "Reportagem sobre o recorte de shadow AI do estudo 'Do piloto ao resultado: a rentabilidade da IA', da Peers e do TEC.Institute, publicado pela MIT Technology Review Brasil (o relatório principal está no catálogo como M018, mas sem esses números). Cruza a percepção de uso não autorizado com a maturidade das políticas internas.",
   "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md",
    "03_frente-2_maturidade-roadmaps/shadow-ai-e-governanca.md"
   ],
   "paginas_citadas": [
@@ -10851,14 +11215,19 @@
   ],
   "resumo": "Avaliação oficial do piloto do Microsoft 365 Copilot no ministério britânico de Negócios e Comércio, com dados do painel de uso da Microsoft, diário de uso, entrevistas e tarefas observadas. Mostra satisfação alta, economia de tempo pequena e concentrada em tarefas de escrita, nenhuma evidência de ganho de produtividade e conhecimento desigual das regras de uso aceitável.",
   "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md",
    "03_frente-2_maturidade-roadmaps/shadow-ai-e-governanca.md"
   ],
   "paginas_citadas": [
+   "p. 10",
    "p. 14",
    "p. 16",
    "p. 34",
+   "p. 39",
    "p. 4-5, 16",
-   "p. 40"
+   "p. 40",
+   "p. 5",
+   "p. 7"
   ]
  },
  {
@@ -10881,10 +11250,17 @@
   ],
   "resumo": "Avaliação interna do teste do Microsoft 365 Copilot no Tesouro australiano, feita pelo Australian Centre for Evaluation (ACE). Mostra uso abaixo do esperado, queda do entusiasmo e desempenho percebido inferior ao de outras ferramentas de IA generativa (ChatGPT e Claude são citados), em parte pelas restrições de segurança do órgão. Recomenda distribuição faseada de licenças por caso de uso, treinamento e diretrizes de transparência.",
   "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md",
    "03_frente-2_maturidade-roadmaps/shadow-ai-e-governanca.md"
   ],
   "paginas_citadas": [
+   "p. 10",
+   "p. 13",
+   "p. 13, 23",
+   "p. 23",
    "p. 27",
+   "p. 28",
+   "p. 33",
    "p. 47-48",
    "p. 48",
    "p. 6, 18, 20",
@@ -10910,6 +11286,7 @@
   "citado_em": [
    "03_frente-2_maturidade-roadmaps/anexo-setor-financeiro-governanca-e-seguranca.md",
    "03_frente-2_maturidade-roadmaps/bancos-itau-bradesco-nubank.md",
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md",
    "03_frente-2_maturidade-roadmaps/shadow-ai-e-governanca.md"
   ],
   "paginas_citadas": [
@@ -10976,6 +11353,7 @@
   ],
   "resumo": "Artigo público do Gartner que defende passar da governança baseada em políticas para controles técnicos aplicáveis em tempo real, com a estrutura AI TRiSM. Lista o que CIOs devem fazer: políticas aplicáveis, descoberta e inventário da IA, governança de dados e acesso e monitoramento contínuo.",
   "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md",
    "03_frente-2_maturidade-roadmaps/shadow-ai-e-governanca.md"
   ],
   "paginas_citadas": [
@@ -10994,17 +11372,18 @@
    "F2"
   ],
   "metricas": [
-   "88% dos funcionários com acesso a IA corporativa também usam ferramentas pessoais de IA para tarefas de trabalho, muitas vezes para ganhar tempo (Global Labor Market Survey, 12.004 funcionários e gestores, 40 países, 1º tri/2026) (web)",
-   "Usuários híbridos (ferramenta corporativa e pessoal) têm 1,7 vez mais chance de relatar economia significativa de tempo do que os que usam só a corporativa (web)",
-   "19% dos funcionários não relatam economia de tempo com IA; 73% dos usuários altamente produtivos são gestores ou executivos (web)",
-   "Só 27% dos executivos têm estratégia abrangente de IA e 20% acham a força de trabalho pronta (197 executivos, dez/2025) (web)"
+   "88% dos funcionários com acesso a IA corporativa também usam ferramentas pessoais de IA para tarefas de trabalho, muitas vezes para ganhar tempo (Global Labor Market Survey, 12.004 funcionários e gestores, 40 países, 1º tri/2026) (p. 1-2)",
+   "Usuários híbridos (ferramenta corporativa e pessoal) têm 1,7 vez mais chance de relatar economia significativa de tempo do que os que usam só a corporativa (p. 2)",
+   "19% dos funcionários não relatam economia de tempo com IA; 73% dos usuários altamente produtivos são gestores ou executivos (p. 1-2)",
+   "Só 27% dos executivos têm estratégia abrangente de IA e 20% acham a força de trabalho pronta (197 executivos, dez/2025) (p. 1)"
   ],
   "resumo": "Release do Gartner com resultados da Global Labor Market Survey do 1º tri/2026 (12.004 funcionários e gestores em 40 países). Aponta a 'ilusão de habilitação': acesso à ferramenta não é transformação, e quase nove em cada dez funcionários com IA corporativa também usam IA pessoal. Recomenda que CIO e CHRO auditem e melhorem a experiência das ferramentas corporativas para reduzir o shadow AI.",
   "citado_em": [
    "03_frente-2_maturidade-roadmaps/shadow-ai-e-governanca.md"
   ],
   "paginas_citadas": [
-   "web"
+   "p. 1-2",
+   "p. 2"
   ]
  },
  {
@@ -11052,13 +11431,16 @@
   ],
   "resumo": "Relatório do GDS sobre o maior experimento do Microsoft 365 Copilot no governo britânico, com 20 mil servidores. Traz adoção, uso por aplicativo, economia de tempo autodeclarada e percepções, e conclui que treinamento e gestão da mudança foram essenciais; limitações em tarefas complexas e receio com dados sensíveis reduziram o benefício em parte dos casos.",
   "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md",
    "03_frente-2_maturidade-roadmaps/shadow-ai-e-governanca.md"
   ],
   "paginas_citadas": [
+   "p. 11",
    "p. 22",
    "p. 3-5, 7, 11",
    "p. 4",
-   "p. 7"
+   "p. 7",
+   "p. 8"
   ]
  },
  {
@@ -11332,10 +11714,14 @@
   ],
   "resumo": "Duas páginas oficiais da Microsoft: o guia de estratégia de ambientes do Power Platform (ambiente pessoal de desenvolvimento para cada criador, grupos de ambientes com regras, pipelines de promoção para teste e produção) e a página de segurança e governança do Copilot Studio (políticas de dados para agentes, varredura antes de publicar, auditoria). Páginas: https://learn.microsoft.com/en-us/power-platform/guidance/adoption/environment-strategy e https://learn.microsoft.com/en-us/microsoft-copilot-studio/security-and-governance.",
   "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md",
    "03_frente-2_maturidade-roadmaps/shadow-ai-e-governanca.md"
   ],
   "paginas_citadas": [
-   "p. 3-5"
+   "p. 18",
+   "p. 3-5",
+   "p. 39",
+   "p. 40"
   ]
  },
  {
@@ -11588,6 +11974,7 @@
   ],
   "resumo": "Estudo econômico sobre a proibição do ChatGPT pela autoridade italiana de proteção de dados em 2023. Mostra queda curta de produtividade dos programadores e adaptação rápida dos usuários com ferramentas para contornar o bloqueio.",
   "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md",
    "03_frente-2_maturidade-roadmaps/shadow-ai-e-governanca.md"
   ],
   "paginas_citadas": [
@@ -11668,11 +12055,13 @@
   "citado_em": [
    "03_frente-2_maturidade-roadmaps/anexo-setor-financeiro-governanca-e-seguranca.md",
    "03_frente-2_maturidade-roadmaps/bancos-itau-bradesco-nubank.md",
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md",
    "03_frente-2_maturidade-roadmaps/shadow-ai-e-governanca.md"
   ],
   "paginas_citadas": [
    "p. 1-2",
    "p. 1-3",
+   "p. 2",
    "p. 3"
   ]
  },
@@ -11781,12 +12170,15 @@
   "resumo": "Lista da OWASP com os 10 principais riscos do desenvolvimento feito por não programadores, que deixou de cobrir só low-code/no-code e passou a incluir programação assistida por IA e agentes. Para cada risco traz descrição, cenários e prevenção, e termina com casos reais (Power Apps Portals, relatório da Veracode, Passion.io).",
   "citado_em": [
    "03_frente-2_maturidade-roadmaps/anexo-setor-financeiro-governanca-e-seguranca.md",
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md",
    "03_frente-2_maturidade-roadmaps/shadow-ai-e-governanca.md"
   ],
   "paginas_citadas": [
    "p. 1",
    "p. 1, 32",
-   "p. 32"
+   "p. 31-32",
+   "p. 32",
+   "p. 9"
   ]
  },
  {
@@ -12607,8 +12999,8 @@
    "F2"
   ],
   "metricas": [
-   "CVE-2025-32711, CVSS 9,3; e-mail com payload em markdown faz o Copilot misturar conteúdo não confiável com dados sensíveis e vazá-los por URLs do Teams e do SharePoint, sem clique; Microsoft: 'AI command injection in M365 Copilot allows an unauthorized attacker to disclose information over a network' (página web)",
-   "Corrigido pela Microsoft no servidor, sem ação do cliente, antes da divulgação (página web)"
+   "CVE-2025-32711, CVSS 9,3; e-mail com payload em markdown faz o Copilot misturar conteúdo não confiável com dados sensíveis e vazá-los por URLs do Teams e do SharePoint, sem clique; Microsoft: 'AI command injection in M365 Copilot allows an unauthorized attacker to disclose information over a network' (p. 2-3)",
+   "Corrigido pela Microsoft no servidor, sem ação do cliente, antes da divulgação (p. 2)"
   ],
   "resumo": "Cobertura da falha EchoLeak no Microsoft 365 Copilot, descoberta pela Aim Security: injeção indireta por e-mail com exfiltração sem interação do usuário, corrigida pela Microsoft.",
   "citado_em": [
@@ -12616,7 +13008,8 @@
    "03_frente-2_maturidade-roadmaps/bancos-itau-bradesco-nubank.md"
   ],
   "paginas_citadas": [
-   "web"
+   "p. 2",
+   "p. 2-3"
   ]
  },
  {
@@ -12652,8 +13045,8 @@
    "F2"
   ],
   "metricas": [
-   "341 skills maliciosas em 2.857 auditadas no marketplace ClawHub; 335 usavam 'pré-requisitos' falsos para instalar o infostealer Atomic (AMOS) no macOS, alugado por US$ 500 a 1.000 por mês; iscas de cripto, YouTube e finanças (página web)",
-   "Publicar exigia só conta GitHub com uma semana; primeira resposta do criador: 'Skills with more than 3 unique reports are auto-hidden by default' (página web)"
+   "341 skills maliciosas em 2.857 auditadas no marketplace ClawHub; 335 usavam 'pré-requisitos' falsos para instalar o infostealer Atomic (AMOS) no macOS, alugado por US$ 500 a 1.000 por mês; iscas de cripto, YouTube e finanças (p. 2-3)",
+   "Publicar exigia só conta GitHub com uma semana; primeira resposta do criador: 'Skills with more than 3 unique reports are auto-hidden by default' (p. 5)"
   ],
   "resumo": "Cobertura da auditoria da Koi Security no marketplace de skills de um agente de código aberto, com a contagem de skills maliciosas, o malware distribuído e a resposta inicial do marketplace. O post original da Koi hoje redireciona para página de produto.",
   "citado_em": [
@@ -12661,7 +13054,8 @@
    "03_frente-2_maturidade-roadmaps/bancos-itau-bradesco-nubank.md"
   ],
   "paginas_citadas": [
-   "web"
+   "p. 2",
+   "p. 2-3"
   ]
  },
  {
@@ -13214,12 +13608,17 @@
   ],
   "resumo": "Diretrizes finais da MAS (30 páginas) sobre gestão de risco de IA em instituições financeiras, cobrindo governança pelo conselho, inventário, materialidade, dados, explicabilidade, justiça, supervisão humana, terceiros, testes, validação independente e monitoramento, com menção a IA generativa e agentes. Páginas impressas e parágrafos citados.",
   "citado_em": [
-   "03_frente-2_maturidade-roadmaps/anexo-setor-financeiro-governanca-e-seguranca.md"
+   "03_frente-2_maturidade-roadmaps/anexo-setor-financeiro-governanca-e-seguranca.md",
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
   ],
   "paginas_citadas": [
+   "p. 11, 13",
+   "p. 14",
+   "p. 15",
    "p. 15-17",
    "p. 24, 27",
    "p. 27",
+   "p. 28",
    "p. 6-7, 9, 15-17, 27",
    "p. 7",
    "p. 9"
@@ -14945,6 +15344,779 @@
   ],
   "paginas_citadas": [
    "web"
+  ]
+ },
+ {
+  "id": "M1199",
+  "titulo": "The Formula for Agentic AI Value — The Applied AI Index 2026",
+  "organizacao": "Boston Consulting Group",
+  "ano": "2026 (30/09/2026)",
+  "tipo_fonte": "consultoria",
+  "url": "https://www.bcg.com/publications/2026/the-formula-for-agentic-ai-value",
+  "frentes": [
+   "F2"
+  ],
+  "metricas": [
+   "Mais de 1.300 executivos (p. 2, 9)",
+   "Distribuição: future-built 7,5%, scaling 41%, emerging 47%, stagnating 4,5%; quase 50% geram valor (p. 9)",
+   "42% esperam dar autonomia a agentes até 2030; só 5% têm os controles completos hoje (p. 10)"
+  ],
+  "resumo": "Mais de 1.300 executivos. Distribuição: future-built 7,5%, scaling 41%, emerging 47%, stagnating 4,5%; quase 50% geram valor. 42% esperam dar autonomia a agentes até 2030; só 5% têm os controles completos hoje. Lida a página web e o comunicado, não o PDF.",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": [
+   "p. 10"
+  ]
+ },
+ {
+  "id": "M1201",
+  "titulo": "ITDBr 2024 – Destaques do setor do Agronegócio",
+  "organizacao": "PwC Brasil; Fundação Dom Cabral",
+  "ano": "2024 (03/12/2024)",
+  "tipo_fonte": "consultoria",
+  "url": "https://www.pwc.com.br/pt/estudos/servicos/consultoria-negocios/indice-transformacao-digital-brasil/2024/PwC-ITDBr-Agro-24.pdf",
+  "frentes": [
+   "F1",
+   "F2"
+  ],
+  "metricas": [
+   "Agro com o menor índice entre as indústrias (3,1 contra 3,7) e abaixo da média em todas as dimensões; pessoas e cultura 2,7 (média 3,6), a pior nota do estudo (p. 12)",
+   "IA citada como adotada por 36% das empresas do agro, contra 20% na média (p. 28)",
+   "75,8% com postura seletiva (p. 13-14)",
+   "Estrutura e cultura como barreira para 73% (p. 16-17)"
+  ],
+  "resumo": "Agro com o menor índice entre as indústrias (3,1 contra 3,7) e abaixo da média em todas as dimensões; pessoas e cultura 2,7 (média 3,6), a pior nota do estudo. IA citada como adotada por 36% das empresas do agro, contra 20% na média. 75,8% com postura seletiva. Estrutura e cultura como barreira para 73%. Amostra não divulgada. Cópia guardada via web.archive.org (cópia arquivada da página oficial).",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": [
+   "p. 11"
+  ]
+ },
+ {
+  "id": "M1202",
+  "titulo": "Gartner Says Applying Uniform Governance Across AI Agents Will Lead to Enterprise AI Agent Failure",
+  "organizacao": "Gartner",
+  "ano": "2026 (26/05/2026)",
+  "tipo_fonte": "analista/big tech",
+  "url": "https://www.gartner.com/en/newsroom/press-releases/2026-05-26-gartner-says-applying-uniform-governance-across-ai-agents-will-lead-to-enterprise-ai-agent-failure",
+  "frentes": [
+   "F2"
+  ],
+  "metricas": [
+   "Previsão: até 2027, 40% das empresas vão rebaixar ou desativar agentes autônomos por lacunas de governança descobertas após incidentes (p. 1)"
+  ],
+  "resumo": "Quatro níveis de autonomia de agentes: observar, aconselhar, agir com aprovação, agir de forma autônoma (humano revisa exceções e trilhas de auditoria). Previsão: até 2027, 40% das empresas vão rebaixar ou desativar agentes autônomos por lacunas de governança descobertas após incidentes. Lido via web.archive.org (cópia arquivada da página oficial; site original bloqueia acesso automatizado). Cópia guardada via web.archive.org (cópia arquivada da página oficial).",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": [
+   "p. 1",
+   "p. 1-2"
+  ]
+ },
+ {
+  "id": "M1203",
+  "titulo": "Navigating the Stages of AI Value Creation (The AI Strategy Roadmap)",
+  "organizacao": "Microsoft; pesquisa IPSOS",
+  "ano": "2024 (abr/2024)",
+  "tipo_fonte": "analista/big tech",
+  "url": "https://marketingassets.microsoft.com/gdc/gdc65yR29/original",
+  "frentes": [
+   "F2"
+  ],
+  "metricas": [
+   "1.313 líderes de TI e negócio em 5 países (sem Brasil), set–out/2023 (p. 34-35)",
+   "34% se colocaram nos dois estágios mais altos; o modelo preditivo da pesquisa pôs só 25% (p. 7)"
+  ],
+  "resumo": "Cinco estágios: Exploring, Planning, Implementing, Scaling, Realising; cinco dimensões: estratégia de negócio, tecnologia e dados, estratégia e experiência em IA, organização e cultura, governança. 1.313 líderes de TI e negócio em 5 países (sem Brasil), set–out/2023. 34% se colocaram nos dois estágios mais altos; o modelo preditivo da pesquisa pôs só 25%.",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": [
+   "p. 7"
+  ]
+ },
+ {
+  "id": "M1204",
+  "titulo": "The story behind the bad AI stat that moved markets and misled millions",
+  "organizacao": "80,000 Hours (Robert Wiblin)",
+  "ano": "2026 (28/04/2026)",
+  "tipo_fonte": "outro",
+  "url": "https://80000hours.org/podcast/episodes/ai-workplace-mit-study/",
+  "frentes": [
+   "F2"
+  ],
+  "metricas": [
+   "Crítica metodológica ao estudo MIT NANDA 2025: 80% das empresas pesquisadas nunca pilotaram ferramenta de IA sob medida; a taxa real 'poderia facilmente ser três vezes maior ou menor' (p. 4)"
+  ],
+  "resumo": "Crítica metodológica ao estudo MIT NANDA 2025: 80% das empresas pesquisadas nunca pilotaram ferramenta de IA sob medida; a taxa real 'poderia facilmente ser três vezes maior ou menor'.",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": [
+   "p. 2, 4"
+  ]
+ },
+ {
+  "id": "M1205",
+  "titulo": "Uso de inteligência artificial por empresas brasileiras avança e atinge 17% (TIC Empresas 2025)",
+  "organizacao": "Cetic.br / NIC.br",
+  "ano": "2026 (15/06/2026)",
+  "tipo_fonte": "governo/instituição",
+  "url": "https://cetic.br/pt/noticia/uso-de-inteligencia-artificial-por-empresas-brasileiras-avanca-e-atinge-17-aponta-pesquisa-do-cetic-br/",
+  "frentes": [
+   "F1",
+   "F2"
+  ],
+  "metricas": [
+   "4.174 empresas com 10 ou mais pessoas, fev/2025–jan/2026: uso de IA de 13% (2024) para 17% (2025); grandes empresas de 38% para 50% (p. 1)",
+   "80% adquiriram soluções prontas (p. 1)"
+  ],
+  "resumo": "4.174 empresas com 10 ou mais pessoas, fev/2025–jan/2026: uso de IA de 13% (2024) para 17% (2025); grandes empresas de 38% para 50%. 80% adquiriram soluções prontas. Setores publicados não incluem a agropecuária.",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": [
+   "p. 1"
+  ]
+ },
+ {
+  "id": "M1206",
+  "titulo": "Gartner Says Organizations with Successful AI Initiatives Invest Up to Four Times More in Data and Analytics Foundations",
+  "organizacao": "Gartner",
+  "ano": "2026 (16/04/2026)",
+  "tipo_fonte": "analista/big tech",
+  "url": "https://www.gartner.com/en/newsroom/press-releases/2026-04-16-gartner-says-organizations-with-successful-ai-initiatives-invest-up-to-four-times-more-in-data-and-analytics-foundations",
+  "frentes": [
+   "F2"
+  ],
+  "metricas": [
+   "Só 39% dos líderes confiam em impacto financeiro positivo dos investimentos atuais (353 líderes de dados e IA, nov–dez/2025) (página oficial; leitura do Rafael em 30/09/2026, sem cópia guardada)"
+  ],
+  "resumo": "Quem tem sucesso com IA investe até 4 vezes mais (em % da receita) em qualidade de dados, governança, pessoas e gestão da mudança. Só 39% dos líderes confiam em impacto financeiro positivo dos investimentos atuais (353 líderes de dados e IA, nov–dez/2025).",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": []
+ },
+ {
+  "id": "M1207",
+  "titulo": "The CIO's Guide to Artificial Intelligence (infográfico AI Maturity Model)",
+  "organizacao": "Gartner (Smarter With Gartner; K. Panetta)",
+  "ano": "2019 (05/02/2019)",
+  "tipo_fonte": "analista/big tech",
+  "url": "https://www.gartner.com/smarterwithgartner/the-cios-guide-to-artificial-intelligence/",
+  "frentes": [
+   "F2"
+  ],
+  "metricas": [
+   "Versão original do modelo (relatório G00358062, 2018): cinco níveis — Awareness, Active, Operational, Systemic, Transformational (página oficial; leitura do Rafael em 30/09/2026, sem cópia guardada)"
+  ],
+  "resumo": "Versão original do modelo (relatório G00358062, 2018): cinco níveis — Awareness, Active, Operational, Systemic, Transformational. Nível 3: ao menos um projeto em produção, patrocinador executivo e orçamento dedicado. Página fora do ar; lida via web.archive.org (cópia arquivada da página oficial).",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": []
+ },
+ {
+  "id": "M1208",
+  "titulo": "Ethics Guidelines for Trustworthy AI",
+  "organizacao": "High-Level Expert Group on AI (Comissão Europeia)",
+  "ano": "2019 (08/04/2019)",
+  "tipo_fonte": "governo",
+  "url": "https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=60419",
+  "frentes": [
+   "F2"
+  ],
+  "metricas": [],
+  "resumo": "Definições de supervisão humana: human-in-the-loop (intervenção em cada ciclo de decisão), human-on-the-loop (monitoramento da operação) e human-in-command. Quanto menor a supervisão possível, mais testes e governança são exigidos.",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": [
+   "p. 18"
+  ]
+ },
+ {
+  "id": "M1209",
+  "titulo": "Levels of Autonomy for AI Agents (arXiv 2506.12469)",
+  "organizacao": "K. J. Kevin Feng, David W. McDonald, Amy X. Zhang — University of Washington; Knight First Amendment Institute",
+  "ano": "2025 (28/07/2025)",
+  "tipo_fonte": "academia",
+  "url": "https://arxiv.org/abs/2506.12469",
+  "frentes": [
+   "F2",
+   "F3"
+  ],
+  "metricas": [],
+  "resumo": "Cinco níveis pelo papel do usuário: L1 operador, L2 colaborador, L3 consultor, L4 aprovador, L5 observador. Autonomia como decisão de desenho, separada da capacidade do agente. Preprint (v2).",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": [
+   "p. 1"
+  ]
+ },
+ {
+  "id": "M1211",
+  "titulo": "Regulation (EU) 2024/1689 — Artificial Intelligence Act",
+  "organizacao": "Parlamento Europeu e Conselho da União Europeia",
+  "ano": "2024 (13/06/2024)",
+  "tipo_fonte": "governo",
+  "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-113",
+  "frentes": [
+   "F2"
+  ],
+  "metricas": [
+   "Proibições e letramento em IA desde 02/02/2025; modelos de propósito geral desde 02/08/2025; aplicação geral desde 02/08/2026 (p. 1)",
+   "14: supervisão humana proporcional aos riscos, ao nível de autonomia e ao contexto de uso (https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14) (p. 4, 9)"
+  ],
+  "resumo": "Em vigor desde 01/08/2024. Proibições e letramento em IA desde 02/02/2025; modelos de propósito geral desde 02/08/2025; aplicação geral desde 02/08/2026. Art. 14: supervisão humana proporcional aos riscos, ao nível de autonomia e ao contexto de uso (https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14).",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": [
+   "p. 1"
+  ]
+ },
+ {
+  "id": "M1212",
+  "titulo": "Regulation (EU) 2024/1689 — Artificial Intelligence Act, Article 14: Human oversight",
+  "organizacao": "Parlamento Europeu e Conselho da União Europeia",
+  "ano": "2024 (13/06/2024)",
+  "tipo_fonte": "governo",
+  "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14",
+  "frentes": [
+   "F2"
+  ],
+  "metricas": [],
+  "resumo": "Art. 14: supervisão humana proporcional aos riscos, ao nível de autonomia e ao contexto de uso do sistema de alto risco.",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": [
+   "p. 2"
+  ]
+ },
+ {
+  "id": "M1216",
+  "titulo": "Torre controla transporte de madeira da Klabin",
+  "organizacao": "IT Forum",
+  "ano": "2023 (22/12/2023)",
+  "tipo_fonte": "imprensa",
+  "url": "https://itforum.com.br/noticias/torre-controla-transporte-de-madeira-da-klabin/",
+  "frentes": [
+   "F1",
+   "F2"
+  ],
+  "metricas": [
+   "Torre de Controle Florestal implementada a partir de 2021, 24 horas, da colheita à fábrica; cerca de 700 caminhões e mais de 340 viagens por dia em 2023 (p. 2)"
+  ],
+  "resumo": "Torre de Controle Florestal implementada a partir de 2021, 24 horas, da colheita à fábrica; cerca de 700 caminhões e mais de 340 viagens por dia em 2023.",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": [
+   "p. 2"
+  ]
+ },
+ {
+  "id": "M1217",
+  "titulo": "bp bioenergy reduz incêndios em 50% e consolida modelo de prevenção baseado em IA",
+  "organizacao": "Jornal Cana",
+  "ano": "2026 (10/07/2026)",
+  "tipo_fonte": "imprensa",
+  "url": "https://jornalcana.com.br/agricultura/tecnologia-agricola/bp-bioenergy-reduz-incendios-em-50-e-consolida-modelo-de-prevencao-baseado-em-ia",
+  "frentes": [
+   "F1",
+   "F2"
+  ],
+  "metricas": [
+   "Prevenção de incêndio com IA (câmeras térmicas em torres e satélite), 2019–2025: incêndios 50% menores, área queimada 77% menor, tempo de resposta 66% menor (p. 2, 6)"
+  ],
+  "resumo": "Prevenção de incêndio com IA (câmeras térmicas em torres e satélite), 2019–2025: incêndios 50% menores, área queimada 77% menor, tempo de resposta 66% menor.",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": [
+   "p. 1"
+  ]
+ },
+ {
+  "id": "M1218",
+  "titulo": "São Martinho troca rede privativa por rede pública no campo",
+  "organizacao": "Mobile Time",
+  "ano": "2026 (11/06/2026)",
+  "tipo_fonte": "imprensa",
+  "url": "https://www.mobiletime.com.br/noticias/11/06/2026/sao-martinho-rcp/",
+  "frentes": [
+   "F2",
+   "F3"
+  ],
+  "metricas": [
+   "A rede privativa 4G da São Martinho foi implantada há oito anos e tem 32 ERBs em 250 MHz; dispositivos e aplicações de sensoriamento migram para a rede pública de uma operadora até a safra 2027/2028 (p. 1-2)",
+   "Motivo declarado: integrar com tecnologias padrão de mercado e simplificar operação, manutenção e evolução da rede (diretor de tecnologia) (p. 2)"
+  ],
+  "resumo": "Substituição da rede privativa construída há 8 anos pela rede pública de uma operadora até a safra 2027/28, por custo de manutenção contínua e compatibilidade de hardware.",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": [
+   "p. 1-2"
+  ]
+ },
+ {
+  "id": "M1219",
+  "titulo": "Atvos tem economia de R$ 5,8 milhões com CIA",
+  "organizacao": "RPA News",
+  "ano": "2020 (17/11/2020)",
+  "tipo_fonte": "mídia",
+  "url": "https://revistarpanews.com.br/atvos-tem-economia-de-r-58-milhoes-com-cia/",
+  "frentes": [
+   "F1",
+   "F2"
+  ],
+  "metricas": [
+   "R$ 5,8 milhões de economia na 1ª fase (p. 1-2)"
+  ],
+  "resumo": "Centro de inteligência agrícola (Projeto Cubo) com operação remota de máquinas e torres de satélite onde não havia sinal; R$ 5,8 milhões de economia na 1ª fase.",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": [
+   "p. 1"
+  ]
+ },
+ {
+  "id": "M1220",
+  "titulo": "Conectividade no campo aumenta desempenho das fazendas da SLC Agrícola",
+  "organizacao": "Revista Cultivar",
+  "ano": "2020 (08/06/2020)",
+  "tipo_fonte": "mídia",
+  "url": "https://revistacultivar.com.br/noticias/conectividade-no-campo-aumenta-desempenho-das-fazendas-da-slc-agricola",
+  "frentes": [
+   "F1",
+   "F2"
+  ],
+  "metricas": [
+   "Fala do CEO: 4G (700 MHz) em 5 unidades, cerca de 70 mil ha, em 2019; aplicação localizada com até 95% menos herbicida no controle pós-colheita (p. 3)"
+  ],
+  "resumo": "Fala do CEO: 4G (700 MHz) em 5 unidades, cerca de 70 mil ha, em 2019; aplicação localizada com até 95% menos herbicida no controle pós-colheita.",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": [
+   "p. 3"
+  ]
+ },
+ {
+  "id": "M1221",
+  "titulo": "Centro de Inteligência Agrícola da SLC completa cinco anos",
+  "organizacao": "SLC Agrícola (release publicado em Notícias Agrícolas)",
+  "ano": "2024 (27/09/2024)",
+  "tipo_fonte": "empresa",
+  "url": "https://www.noticiasagricolas.com.br/noticias/agronegocio/385655-centro-de-inteligencia-agricola-da-slc-completa-cinco-anos-proporcionando-uma-agricultura-mais-eficiente-e-sustentavel.html",
+  "frentes": [
+   "F1",
+   "F2"
+  ],
+  "metricas": [
+   "Centro de Inteligência Agrícola criado em 2019; cobertura 4G em 100% das áreas das fazendas e data lake; economia de R$ 2 milhões para R$ 82 milhões em 2023 (página oficial; leitura do Rafael em 30/09/2026, sem cópia guardada)",
+   "R$ 16,1 milhões investidos em 5 anos (página oficial; leitura do Rafael em 30/09/2026, sem cópia guardada)"
+  ],
+  "resumo": "Centro de Inteligência Agrícola criado em 2019; cobertura 4G em 100% das áreas das fazendas e data lake; economia de R$ 2 milhões para R$ 82 milhões em 2023; R$ 16,1 milhões investidos em 5 anos.",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": []
+ },
+ {
+  "id": "M1222",
+  "titulo": "Relatório Anual de Sustentabilidade 2017/18",
+  "organizacao": "São Martinho",
+  "ano": "2018",
+  "tipo_fonte": "empresa",
+  "url": "https://www.saomartinho.com.br/Download.aspx?Arquivo=0KPphi%2FhjYHruGs9g80smw%3D%3D&IdCanal=E%2F5CI5hbGiTfjZ7mhu2y5w%3D%3D",
+  "frentes": [
+   "F1",
+   "F2"
+  ],
+  "metricas": [
+   "Parceria para conectividade no campo desde 2015 (p. 27, 34)",
+   "Centro de Operações Agrícolas em implantação; rede 4G própria (R$ 40 milhões até 2020) (p. 28)"
+  ],
+  "resumo": "Parceria para conectividade no campo desde 2015; Centro de Operações Agrícolas em implantação; rede 4G própria (R$ 40 milhões até 2020).",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": [
+   "p. 27",
+   "p. 27-28"
+  ]
+ },
+ {
+  "id": "M1223",
+  "titulo": "BP Bunge investe mais de R$ 100 milhões em transformação digital no campo",
+  "organizacao": "Telesíntese",
+  "ano": "2024 (29/04/2024)",
+  "tipo_fonte": "imprensa",
+  "url": "https://telesintese.com.br/bp-bunge-investe-mais-de-r-100-milhoes-em-transformacao-digital-no-campo/",
+  "frentes": [
+   "F1",
+   "F2"
+  ],
+  "metricas": [
+   "98 torres 4G cobrindo 3 milhões de ha nas 11 unidades (p. 2)"
+  ],
+  "resumo": "98 torres 4G cobrindo 3 milhões de ha nas 11 unidades.",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": [
+   "p. 2"
+  ]
+ },
+ {
+  "id": "M1224",
+  "titulo": "Atvos investe R$ 16 milhões em rede própria de 4G",
+  "organizacao": "UDOP (nota da empresa)",
+  "ano": "2025 (30/04/2025)",
+  "tipo_fonte": "empresa",
+  "url": "https://www.udop.com.br/noticia/2025/04/30/atvos-investe-r-16-milhoes-em-rede-propria-de-4g.html",
+  "frentes": [
+   "F1",
+   "F2"
+  ],
+  "metricas": [
+   "Rede 4G própria em 8 usinas, 375 mil ha cobertos, meta de 500 mil; objetivo declarado de habilitar soluções autônomas e IA (p. 1-2)"
+  ],
+  "resumo": "Rede 4G própria em 8 usinas, 375 mil ha cobertos, meta de 500 mil; objetivo declarado de habilitar soluções autônomas e IA.",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": [
+   "p. 1-2"
+  ]
+ },
+ {
+  "id": "M1238",
+  "titulo": "Itaú Unibanco vai migrar o coração do banco para a nuvem",
+  "organizacao": "About Amazon (AWS)",
+  "ano": "2024 (09/12/2024)",
+  "tipo_fonte": "empresa",
+  "url": "https://www.aboutamazon.com.br/noticias/aws/itau-unibanco-vai-migrar-o-coracao-do-banco-para-a-nuvem",
+  "frentes": [
+   "F2"
+  ],
+  "metricas": [
+   "Jornada de nuvem iniciada em 2017 (p. 2)",
+   "65% dos aplicativos em nuvem em dez/2024; meta de 100% em 2028, incluindo mainframe (p. 2)"
+  ],
+  "resumo": "Jornada de nuvem iniciada em 2017; 65% dos aplicativos em nuvem em dez/2024; meta de 100% em 2028, incluindo mainframe.",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": [
+   "p. 2"
+  ]
+ },
+ {
+  "id": "M1239",
+  "titulo": "Itaú coloca 150 soluções de GenAI em produção e amplia uso de IA em 141%",
+  "organizacao": "TI Inside",
+  "ano": "2026 (12/01/2026)",
+  "tipo_fonte": "imprensa",
+  "url": "https://tiinside.com.br/12/01/2026/itau-coloca-150-solucoes-de-genai-em-producao-e-amplia-uso-de-ia-em-141/",
+  "frentes": [
+   "F2"
+  ],
+  "metricas": [
+   "Fala do diretor de Tecnologia: 150 soluções de IA generativa em produção e mais de 750 em desenvolvimento; mais de 1,8 mil modelos de IA; cerca de 500 cientistas de dados (p. 1-2)"
+  ],
+  "resumo": "Fala do diretor de Tecnologia: 150 soluções de IA generativa em produção e mais de 750 em desenvolvimento; mais de 1,8 mil modelos de IA; cerca de 500 cientistas de dados.",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": [
+   "p. 1",
+   "p. 2"
+  ]
+ },
+ {
+  "id": "M1240",
+  "titulo": "Petrobras cria ferramenta com inteligência artificial generativa para apoiar mais de 100 mil trabalhadores",
+  "organizacao": "Agência Petrobras",
+  "ano": "2023 (05/12/2023)",
+  "tipo_fonte": "empresa",
+  "url": "https://agencia.petrobras.com.br/w/petrobras-cria-ferramenta-com-inteligencia-artificial-generativa-para-apoiar-mais-de-100-mil-trabalhadores",
+  "frentes": [
+   "F2"
+  ],
+  "metricas": [
+   "Assistente de IA generativa disponível para 110 mil trabalhadores (empregados e prestadores) (p. 1)"
+  ],
+  "resumo": "Assistente de IA generativa disponível para 110 mil trabalhadores (empregados e prestadores).",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": [
+   "p. 1"
+  ]
+ },
+ {
+  "id": "M1241",
+  "titulo": "Vale nos trilhos da inteligência artificial",
+  "organizacao": "HSM Management (texto do head de IA da Vale)",
+  "ano": "2023 (24/08/2023)",
+  "tipo_fonte": "mídia",
+  "url": "https://hsmmanagement.com.br/vale-nos-trilhos-da-inteligencia-artificial/",
+  "frentes": [
+   "F2"
+  ],
+  "metricas": [],
+  "resumo": "O mais caro é a obtenção dos dados; levá-los da rede de automação à TI pode ser caro e demorado.",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": [
+   "p. 4"
+  ]
+ },
+ {
+  "id": "M1242",
+  "titulo": "Vale expects 21 autonomous drills running end-2021, passes 100 Mt hauled mark with AHS fleet at Brucutu",
+  "organizacao": "International Mining",
+  "ano": "2021 (02/07/2021)",
+  "tipo_fonte": "imprensa",
+  "url": "https://im-mining.com/2021/07/02/vale-expects-21-autonomous-drills-running-end-2021-passes-100-mt-hauled-mark-ahs-fleet-brucutu/",
+  "frentes": [
+   "F2",
+   "F3"
+  ],
+  "metricas": [
+   "Caminhões autônomos em teste em Brucutu desde 2016; frota 100% autônoma (13 caminhões) desde 2019 (p. 4)"
+  ],
+  "resumo": "Caminhões autônomos em teste em Brucutu desde 2016; frota 100% autônoma (13 caminhões) desde 2019.",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": [
+   "p. 4"
+  ]
+ },
+ {
+  "id": "M1243",
+  "titulo": "Integrated Annual Report 2024",
+  "organizacao": "Itaú Unibanco",
+  "ano": "2025",
+  "tipo_fonte": "empresa",
+  "url": "https://www.itau.com.br/download-file/v2/d/42787847-4cf6-4461-94a5-40ed237dca33/c54c2832-35d3-876f-acfc-930865b159d0?origin=2",
+  "frentes": [
+   "F2"
+  ],
+  "metricas": [
+   "Linha do tempo de IA (p. 52): data lake com Hadoop 2014/15; carreira de ciência de dados 2016; data mesh e carreira de ML Engineering 2022 (página oficial; leitura do Rafael em 30/09/2026, sem cópia guardada)",
+   "Em 2024: 1.390 modelos de IA, 393 iniciativas de IA generativa, mais de 470 cientistas de dados; plataforma de dados descentralizada e self-service (página oficial; leitura do Rafael em 30/09/2026, sem cópia guardada)"
+  ],
+  "resumo": "Linha do tempo de IA (p. 52): data lake com Hadoop 2014/15; carreira de ciência de dados 2016; data mesh e carreira de ML Engineering 2022. Em 2024: 1.390 modelos de IA, 393 iniciativas de IA generativa, mais de 470 cientistas de dados; plataforma de dados descentralizada e self-service.",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": []
+ },
+ {
+  "id": "M1244",
+  "titulo": "Relatório Anual Integrado 2023",
+  "organizacao": "Itaú Unibanco",
+  "ano": "2024",
+  "tipo_fonte": "empresa",
+  "url": "https://www.itau.com.br/download-file/v2/d/42787847-4cf6-4461-94a5-40ed237dca33/15ce52e3-fdd5-1bd2-4929-0674f0f3ce57?origin=2",
+  "frentes": [
+   "F2"
+  ],
+  "metricas": [
+   "Mais de dois terços dos sistemas legados em nuvem; data lake 100% na nuvem (página oficial; leitura do Rafael em 30/09/2026, sem cópia guardada)",
+   "Cerca de 600 modelos de IA (página oficial; leitura do Rafael em 30/09/2026, sem cópia guardada)",
+   "IA generativa: mais de 220 iniciativas, mais de 10 em produção (página oficial; leitura do Rafael em 30/09/2026, sem cópia guardada)"
+  ],
+  "resumo": "Mais de dois terços dos sistemas legados em nuvem; data lake 100% na nuvem. Cerca de 600 modelos de IA. IA generativa: mais de 220 iniciativas, mais de 10 em produção.",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": []
+ },
+ {
+  "id": "M1245",
+  "titulo": "ChatGPT da Petrobras está disponível para toda companhia",
+  "organizacao": "Mobile Time",
+  "ano": "2024 (09/02/2024)",
+  "tipo_fonte": "imprensa",
+  "url": "https://www.mobiletime.com.br/noticias/09/02/2024/chatgpt-da-petrobras-esta-disponivel-para-toda-companhia/",
+  "frentes": [
+   "F2"
+  ],
+  "metricas": [
+   "O assistente de IA generativa começou a ser usado em jul/2023 por um grupo de 500 funcionários (p. 2)",
+   "6 mil analistas e 400 cientistas formados (p. 2)"
+  ],
+  "resumo": "O assistente de IA generativa começou a ser usado em jul/2023 por um grupo de 500 funcionários; 6 mil analistas e 400 cientistas formados.",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": [
+   "p. 2"
+  ]
+ },
+ {
+  "id": "M1246",
+  "titulo": "Petrobras e agentes de IA",
+  "organizacao": "Mobile Time",
+  "ano": "2025 (14/05/2025)",
+  "tipo_fonte": "imprensa",
+  "url": "https://www.mobiletime.com.br/noticias/14/05/2025/petrobras-agentes-ia/",
+  "frentes": [
+   "F2"
+  ],
+  "metricas": [],
+  "resumo": "Plataforma para publicar agentes de IA generativa, com cautela: padrões de agentes ainda não totalmente maduros.",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": [
+   "p. 2"
+  ]
+ },
+ {
+  "id": "M1247",
+  "titulo": "Vale abre plataforma de dados e IA a 19 áreas de negócio",
+  "organizacao": "Mobile Time",
+  "ano": "2026 (16/09/2026)",
+  "tipo_fonte": "imprensa",
+  "url": "https://www.mobiletime.com.br/noticias/16/09/2026/vale-ia-bens-impostos/",
+  "frentes": [
+   "F2"
+  ],
+  "metricas": [
+   "Plataforma de dados e IA aberta a 19 'franquias' de negócio; antes, pedidos de dados dependiam da TI e levavam até três semanas (p. 2)"
+  ],
+  "resumo": "Plataforma de dados e IA aberta a 19 'franquias' de negócio; antes, pedidos de dados dependiam da TI e levavam até três semanas.",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": [
+   "p. 2",
+   "p. 3"
+  ]
+ },
+ {
+  "id": "M1248",
+  "titulo": "Moderna and OpenAI Collaborate To Advance mRNA Medicine",
+  "organizacao": "Moderna",
+  "ano": "2024 (24/04/2024)",
+  "tipo_fonte": "empresa",
+  "url": "https://s29.q4cdn.com/435878511/files/doc_news/Moderna-and-OpenAI-Collaborate-To-Advance-mRNA-Medicine-2024.pdf",
+  "frentes": [
+   "F2"
+  ],
+  "metricas": [
+   "Assistente próprio com mais de 80% de adoção interna (2023); mais de 750 assistentes especializados criados em poucos meses; a empresa associa a velocidade à base de dados construída desde a origem (p. 1)"
+  ],
+  "resumo": "Assistente próprio com mais de 80% de adoção interna (2023); mais de 750 assistentes especializados criados em poucos meses; a empresa associa a velocidade à base de dados construída desde a origem.",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": [
+   "p. 1-2"
+  ]
+ },
+ {
+  "id": "M1249",
+  "titulo": "Form 20-F 2020",
+  "organizacao": "Petrobras (SEC)",
+  "ano": "2021",
+  "tipo_fonte": "empresa",
+  "url": "https://www.sec.gov/Archives/edgar/data/1119639/000129281421001152/pbraform20f_2020.htm",
+  "frentes": [
+   "F2"
+  ],
+  "metricas": [
+   "Diretoria Executiva de Transformação Digital e Inovação criada em set/2019 (página oficial; leitura do Rafael em 30/09/2026, sem cópia guardada)",
+   "Centro de Excelência em Analytics e IA e plataforma integrada de dados do upstream em 2020 (página oficial; leitura do Rafael em 30/09/2026, sem cópia guardada)"
+  ],
+  "resumo": "Diretoria Executiva de Transformação Digital e Inovação criada em set/2019; Centro de Excelência em Analytics e IA e plataforma integrada de dados do upstream em 2020.",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": []
+ },
+ {
+  "id": "M1250",
+  "titulo": "Focused on safety and people, Vale starts operating autonomous trucks in its largest iron ore complex in Brazil",
+  "organizacao": "Vale",
+  "ano": "2021 (02/09/2021)",
+  "tipo_fonte": "empresa",
+  "url": "https://vale.com/w/focused-on-safety-and-people-vale-starts-operating-autonomous-trucks-in-its-largest-iron-ore-complex-in-brazil",
+  "frentes": [
+   "F2",
+   "F3"
+  ],
+  "metricas": [
+   "Autonomia replicada em Carajás em 2021, depois de Brucutu (p. 2)",
+   "Em Brucutu, combustível 11% menor e nenhum acidente causado pelos caminhões autônomos desde 2016 (p. 1-2)"
+  ],
+  "resumo": "Autonomia replicada em Carajás em 2021, depois de Brucutu. Em Brucutu, combustível 11% menor e nenhum acidente causado pelos caminhões autônomos desde 2016.",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": [
+   "p. 1"
+  ]
+ },
+ {
+  "id": "M1251",
+  "titulo": "Vale creates Artificial Intelligence Center",
+  "organizacao": "Vale",
+  "ano": "2019 (10/01/2019)",
+  "tipo_fonte": "empresa",
+  "url": "https://vale.com/w/vale-creates-artificial-intelligence-center",
+  "frentes": [
+   "F2"
+  ],
+  "metricas": [
+   "Centro de IA em Vitória (ES); projetos já entregues geravam mais de US$ 20 milhões de economia por ano na criação do centro (p. 1)"
+  ],
+  "resumo": "Centro de IA em Vitória (ES); projetos já entregues geravam mais de US$ 20 milhões de economia por ano na criação do centro.",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": [
+   "p. 1"
+  ]
+ },
+ {
+  "id": "M1252",
+  "titulo": "Vale will have the first mine operating only with autonomous trucks in Brazil",
+  "organizacao": "Vale (Newsroom)",
+  "ano": "2018 (09/11/2018)",
+  "tipo_fonte": "empresa",
+  "url": "https://vale.com/documents/44618/2699492/Newsroom_-_Innovation_-_Vale_will_have_the_first_mine_operating_only_with_autonomous_trucks_in_Brazil_ID=1086.pdf/2fc567ec-9770-07cc-5ec9-c670830cfe74?version=1.0&t=1672692649808&download=true",
+  "frentes": [
+   "F2",
+   "F3"
+  ],
+  "metricas": [
+   "Programa de transformação digital iniciado em 2016, com quatro pilares: analytics, sistemas e cadeias integradas, robotização e equipamentos autônomos (p. 2)",
+   "Caminhões autônomos em teste em Brucutu (MG) desde 2016 (p. 2)",
+   "7 em operação diária em 2018 (p. 1)"
+  ],
+  "resumo": "Programa de transformação digital desde 2016 com quatro pilares, entre eles robotização e equipamentos autônomos. Caminhões autônomos em teste em Brucutu (MG) desde 2016; 7 em operação diária em 2018.",
+  "citado_em": [
+   "03_frente-2_maturidade-roadmaps/roadmap-de-adocao.md"
+  ],
+  "paginas_citadas": [
+   "p. 2"
   ]
  }
 ]
