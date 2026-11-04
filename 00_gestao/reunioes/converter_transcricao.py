@@ -5,8 +5,10 @@ Converte a transcrição exportada do Teams (.docx) em markdown leve para versio
 Uso:
     python converter_transcricao.py _originais/ARQUIVO.docx 2026-09-29_kickoff_transcricao.md --titulo "Kick-off"
     python converter_transcricao.py _originais/ARQUIVO.pdf ...   # também aceita a transcrição exportada em PDF pelo Word
+    python converter_transcricao.py _originais/ARQUIVO.md ...    # e a transcrição copiada do Teams (**Nome**   0:04 fala)
     python converter_transcricao.py ... --omitir 25:44 26:17   # omite falas (ex.: trechos administrativos de pagamento)
     python converter_transcricao.py ... --anonimizar "Fulano de Tal" Beltrano   # troca nomes por [nome omitido]
+    python converter_transcricao.py ... --anonimizar-empresa "Empresa X"   # troca o nome de empresa participante por [empresa omitida]
     python converter_transcricao.py ... --omitir-cargo "gerente de IA da região X"  # troca o trecho por [cargo omitido]
 
 O original (.docx, gravação) fica em _originais/, fora do Git. Só o .md é versionado.
@@ -54,6 +56,13 @@ def paragrafos_pdf(pdf):
     return cabecalho + [f"{f[0]} {' '.join(f[1:])}" for f in falas]
 
 
+def paragrafos_md(md):
+    """Transcrição copiada do Teams: título, data e duração em linhas soltas e uma fala por linha,
+    '**Nome**   0:04 fala'. Devolve o mesmo formato do .docx."""
+    linhas = [l.strip().replace("**", "") for l in Path(md).read_text(encoding="utf-8").splitlines()]
+    return [l for l in linhas if l and not re.search(r"(começou|parou) a transcrição$", l)]
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("docx")
@@ -61,13 +70,16 @@ def main():
     ap.add_argument("--titulo", required=True)
     ap.add_argument("--omitir", nargs="*", default=[], help="marcas de tempo das falas a omitir")
     ap.add_argument("--anonimizar", nargs="*", default=[], help="nomes a trocar por [nome omitido] (palavra inteira)")
+    ap.add_argument("--anonimizar-empresa", nargs="*", default=[], help="empresas participantes a trocar por [empresa omitida]")
     ap.add_argument("--omitir-cargo", nargs="*", default=[], help="trechos que descrevem o cargo de um possível entrevistado")
     a = ap.parse_args()
     nomes = [(re.compile(rf"\b{re.escape(n)}\b", re.IGNORECASE), "[nome omitido]") for n in a.anonimizar]
+    nomes += [(re.compile(rf"\b{re.escape(n)}\b", re.IGNORECASE), "[empresa omitida]") for n in a.anonimizar_empresa]
     nomes += [(re.compile(re.escape(c), re.IGNORECASE), "[cargo omitido]") for c in a.omitir_cargo]
     trocas = 0
 
-    linhas = paragrafos_pdf(a.docx) if a.docx.lower().endswith(".pdf") else paragrafos(a.docx)
+    leitor = {".pdf": paragrafos_pdf, ".md": paragrafos_md}.get(Path(a.docx).suffix.lower(), paragrafos)
+    linhas = leitor(a.docx)
     cabecalho = linhas[:3]  # nome da gravação, data/hora, duração
     falas, participantes = [], OrderedDict()
     for l in linhas[3:]:
@@ -91,7 +103,7 @@ def main():
            "",
            "> Transcrição automática do Teams, sem revisão: há palavras soltas em inglês e trechos truncados "
            "gerados pelo reconhecimento de voz. O original está em `_originais/`, fora do Git."
-           + (" Nomes e cargos de possíveis entrevistados das sessões executivas aparecem como [nome omitido] e [cargo omitido]."
+           + (" Nomes, empresas e cargos ligados às sessões executivas aparecem como [nome omitido], [empresa omitida] e [cargo omitido]."
               if trocas else ""),
            ""]
     for tempo, nome, fala in falas:

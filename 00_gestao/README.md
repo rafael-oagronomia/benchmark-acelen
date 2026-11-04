@@ -37,6 +37,7 @@ Feriados no período: 12/10 e 02/11. Semanais às sextas, cerca de 1 hora; horá
 | 13/10/2026 | Interna (Guilherme × Rafael) | [notas](reunioes/2026-10-13_interna_notas.md): leitura da sessão 1, pilares de IA e o que a Acelen quer |
 | 16/10/2026 | Semanal | [ata e pendências](reunioes/2026-10-16_semanal_ata.md) ([PDF](reunioes/2026-10-16_semanal_ata_BIA-ACL-AT-03_rev00.pdf)) · [transcrição](reunioes/2026-10-16_semanal_transcricao.md) · [preparação](reunioes/2026-10-16_semanal_pauta.md) |
 | 23/10/2026 | Semanal (entrega parcial) | [preparação](reunioes/2026-10-23_semanal_pauta.md) · [roteiro do bloco dos bancos (Rafael)](reunioes/2026-10-23_semanal_roteiro-bancos.md) |
+| 30/10/2026 | Semanal | [ata e pendências](reunioes/2026-10-30_semanal_ata.md) ([PDF](reunioes/2026-10-30_semanal_ata_BIA-ACL-AT-04_rev00.pdf)) · [transcrição](reunioes/2026-10-30_semanal_transcricao.md) (a empresa de uma sessão executiva citada na conversa aparece como [empresa omitida]). O pedido de roadmap de adoção, checkpoints por nível e política clara de uso virou a [linha de investigação do roadmap](../03_frente-2_maturidade-roadmaps/roadmap-de-adocao-linha-de-investigacao.md) |
 
 - `cronograma/` — cronograma para o cliente (PDF e planilha) e HTML-fonte.
 
