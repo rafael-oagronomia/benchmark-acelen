@@ -1,0 +1,1101 @@
+{
+  "resultados": [
+    {
+      "grupo": "Roadmap de adoção: frameworks, pesquisas e referenciais (base do framework do Rafael, 30/09/2026)",
+      "pasta": "04_academia-instituicoes",
+      "itens": [
+        {
+          "titulo": "The CIO's Guide to Artificial Intelligence (infográfico AI Maturity Model)",
+          "organizacao": "Gartner (Smarter With Gartner; K. Panetta)",
+          "ano": "2019 (05/02/2019)",
+          "tipo_fonte": "analista/big tech",
+          "setor": "multissetorial",
+          "pais_regiao": "Global",
+          "url": "https://www.gartner.com/smarterwithgartner/the-cios-guide-to-artificial-intelligence/",
+          "arquivo": "",
+          "status": "bloqueado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Versão original do modelo (relatório G00358062, 2018): cinco níveis — Awareness, Active, Operational, Systemic, Transformational (página oficial; leitura do Rafael em 30/09/2026, sem cópia guardada)"
+          ],
+          "resumo": "Versão original do modelo (relatório G00358062, 2018): cinco níveis — Awareness, Active, Operational, Systemic, Transformational. Nível 3: ao menos um projeto em produção, patrocinador executivo e orçamento dedicado. Página fora do ar; lida via web.archive.org (cópia arquivada da página oficial).",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: **A virada está entre os estágios 2 e 3.** Nos dados do MIT CISR, as empresas nos estágios 1 e 2 têm crescimento e lucro abaixo da média do seu setor; a partir do estágio 3, ficam acima. No Gartner, o nível \"operacional\" é justamente o primeiro projeto em prod…"
+        },
+        {
+          "titulo": "Gartner Says Organizations with Successful AI Initiatives Invest Up to Four Times More in Data and Analytics Foundations",
+          "organizacao": "Gartner",
+          "ano": "2026 (16/04/2026)",
+          "tipo_fonte": "analista/big tech",
+          "setor": "multissetorial",
+          "pais_regiao": "Global",
+          "url": "https://www.gartner.com/en/newsroom/press-releases/2026-04-16-gartner-says-organizations-with-successful-ai-initiatives-invest-up-to-four-times-more-in-data-and-analytics-foundations",
+          "arquivo": "",
+          "status": "bloqueado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Só 39% dos líderes confiam em impacto financeiro positivo dos investimentos atuais (353 líderes de dados e IA, nov–dez/2025) (página oficial; leitura do Rafael em 30/09/2026, sem cópia guardada)"
+          ],
+          "resumo": "Quem tem sucesso com IA investe até 4 vezes mais (em % da receita) em qualidade de dados, governança, pessoas e gestão da mudança. Só 39% dos líderes confiam em impacto financeiro positivo dos investimentos atuais (353 líderes de dados e IA, nov–dez/2025).",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: 3. **Dados primeiro.** Organizações bem-sucedidas com IA investem até quatro vezes mais em fundamentos de dados, governança e pessoas. 63% não têm, ou não sabem se têm, práticas de dados adequadas para IA."
+        },
+        {
+          "titulo": "Gartner Says Applying Uniform Governance Across AI Agents Will Lead to Enterprise AI Agent Failure",
+          "organizacao": "Gartner",
+          "ano": "2026 (26/05/2026)",
+          "tipo_fonte": "analista/big tech",
+          "setor": "multissetorial",
+          "pais_regiao": "Global",
+          "url": "https://www.gartner.com/en/newsroom/press-releases/2026-05-26-gartner-says-applying-uniform-governance-across-ai-agents-will-lead-to-enterprise-ai-agent-failure",
+          "arquivo": "03_analistas-big-techs/Gartner_2026_uniform-governance-ai-agents.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Previsão: até 2027, 40% das empresas vão rebaixar ou desativar agentes autônomos por lacunas de governança descobertas após incidentes (p. 1)"
+          ],
+          "resumo": "Quatro níveis de autonomia de agentes: observar, aconselhar, agir com aprovação, agir de forma autônoma (humano revisa exceções e trilhas de auditoria). Previsão: até 2027, 40% das empresas vão rebaixar ou desativar agentes autônomos por lacunas de governança descobertas após incidentes. Lido via web.archive.org (cópia arquivada da página oficial; site original bloqueia acesso automatizado). Cópia guardada via web.archive.org (cópia arquivada da página oficial).",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: - 40% das empresas devem rebaixar ou desativar agentes autônomos por lacunas de governança descobertas só depois de incidentes."
+        },
+        {
+          "titulo": "Leveraging Digital Colleagues for Enterprise Value (Research Briefing XXVI-4)",
+          "organizacao": "MIT CISR (P. Weill, S. L. Woerner)",
+          "ano": "2026 (16/04/2026)",
+          "tipo_fonte": "academia",
+          "setor": "multissetorial",
+          "pais_regiao": "Global",
+          "url": "https://cisr.mit.edu/publication/2026_0401_DigitalColleagues_WeillWoerner",
+          "arquivo": "04_academia-instituicoes/MIT-CISR_2026_leveraging-digital-colleagues.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "Pesquisa MIT CISR 2025 Digital Colleagues com 132 organizações, em set/2025 (p. 3, 9)",
+            "Nove por cento das empresas pesquisadas já começaram a integrar formalmente os 'digital colleagues' (agentes e sistemas de IA que trabalham com pessoas) (p. 6)"
+          ],
+          "resumo": "Pesquisa set/2025, N=132: 34% usam ativamente 'digital colleagues' (agentes e similares) e outro terço testa; cerca de 22% fizeram grande redesenho de fluxos de trabalho; 9% integraram formalmente.",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: - **O valor vem do redesenho do trabalho, não da ferramenta**."
+        },
+        {
+          "titulo": "The Formula for Agentic AI Value — The Applied AI Index 2026",
+          "organizacao": "Boston Consulting Group",
+          "ano": "2026 (30/09/2026)",
+          "tipo_fonte": "consultoria",
+          "setor": "multissetorial",
+          "pais_regiao": "Global",
+          "url": "https://www.bcg.com/publications/2026/the-formula-for-agentic-ai-value",
+          "arquivo": "01_consultorias-estrategia/BCG_2026_formula-for-agentic-ai-value-applied-ai-index.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Mais de 1.300 executivos (p. 2, 9)",
+            "Distribuição: future-built 7,5%, scaling 41%, emerging 47%, stagnating 4,5%; quase 50% geram valor (p. 9)",
+            "42% esperam dar autonomia a agentes até 2030; só 5% têm os controles completos hoje (p. 10)"
+          ],
+          "resumo": "Mais de 1.300 executivos. Distribuição: future-built 7,5%, scaling 41%, emerging 47%, stagnating 4,5%; quase 50% geram valor. 42% esperam dar autonomia a agentes até 2030; só 5% têm os controles completos hoje. Lida a página web e o comunicado, não o PDF.",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: 1. **Quase todas as empresas usam IA; poucas capturam valor em escala.** 89% das organizações usam IA em pelo menos uma função, mas só 22% escalaram IA em várias unidades de negócio. As que capturam valor relevante ficam entre 6% e 7,5%."
+        },
+        {
+          "titulo": "Rewired: The McKinsey Guide to Outcompeting in the Age of Digital and AI (2ª ed. 2026)",
+          "organizacao": "McKinsey & Company (E. Lamarre, K. Smaje, R. Zemmel)",
+          "ano": "2023 (20/06/2023)",
+          "tipo_fonte": "consultoria",
+          "setor": "multissetorial",
+          "pais_regiao": "Global",
+          "url": "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/rewired-to-outcompete",
+          "arquivo": "01_consultorias-estrategia/McKinsey_2023_rewired-to-outcompete.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [],
+          "resumo": "Seis capacidades: roadmap liderado pelo negócio, talentos, modelo operacional, tecnologia, dados em toda parte, adoção e escala. Sem níveis de maturidade. 2ª edição (2026) mantém as seis capacidades. Cópia guardada via web.archive.org (cópia arquivada da página oficial).",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: - **As seis capacidades do Rewired**."
+        },
+        {
+          "titulo": "Navigating the Stages of AI Value Creation (The AI Strategy Roadmap)",
+          "organizacao": "Microsoft; pesquisa IPSOS",
+          "ano": "2024 (abr/2024)",
+          "tipo_fonte": "analista/big tech",
+          "setor": "multissetorial",
+          "pais_regiao": "Global (5 países, sem o Brasil)",
+          "url": "https://marketingassets.microsoft.com/gdc/gdc65yR29/original",
+          "arquivo": "03_analistas-big-techs/Microsoft-Ipsos_2024_navigating-stages-ai-value-creation.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "1.313 líderes de TI e negócio em 5 países (sem Brasil), set–out/2023 (p. 34-35)",
+            "34% se colocaram nos dois estágios mais altos; o modelo preditivo da pesquisa pôs só 25% (p. 7)"
+          ],
+          "resumo": "Cinco estágios: Exploring, Planning, Implementing, Scaling, Realising; cinco dimensões: estratégia de negócio, tecnologia e dados, estratégia e experiência em IA, organização e cultura, governança. 1.313 líderes de TI e negócio em 5 países (sem Brasil), set–out/2023. 34% se colocaram nos dois estágios mais altos; o modelo preditivo da pesquisa pôs só 25%.",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: - A pesquisa da Microsoft mede esse viés em geral: 34% se declaram nos dois estágios mais altos, contra 25% pelo modelo."
+        },
+        {
+          "titulo": "ITDBr 2024 – Destaques do setor do Agronegócio",
+          "organizacao": "PwC Brasil; Fundação Dom Cabral",
+          "ano": "2024 (03/12/2024)",
+          "tipo_fonte": "consultoria",
+          "setor": "agronegócio",
+          "pais_regiao": "Brasil",
+          "url": "https://www.pwc.com.br/pt/estudos/servicos/consultoria-negocios/indice-transformacao-digital-brasil/2024/PwC-ITDBr-Agro-24.pdf",
+          "arquivo": "02_big4-accenture-capgemini/PwC-FDC_2024_itdbr-destaques-agronegocio.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2"
+          ],
+          "metricas": [
+            "Agro com o menor índice entre as indústrias (3,1 contra 3,7) e abaixo da média em todas as dimensões; pessoas e cultura 2,7 (média 3,6), a pior nota do estudo (p. 12)",
+            "IA citada como adotada por 36% das empresas do agro, contra 20% na média (p. 28)",
+            "75,8% com postura seletiva (p. 13-14)",
+            "Estrutura e cultura como barreira para 73% (p. 16-17)"
+          ],
+          "resumo": "Agro com o menor índice entre as indústrias (3,1 contra 3,7) e abaixo da média em todas as dimensões; pessoas e cultura 2,7 (média 3,6), a pior nota do estudo. IA citada como adotada por 36% das empresas do agro, contra 20% na média. 75,8% com postura seletiva. Estrutura e cultura como barreira para 73%. Amostra não divulgada. Cópia guardada via web.archive.org (cópia arquivada da página oficial).",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: - **Maturidade digital.** O agro saiu do último lugar em maturidade digital (3,1 contra 3,7 em 2024) e chegou à média (3,6 em 2025). Infraestrutura e estratégia puxaram essa melhora; a dimensão IA seguiu abaixo da média."
+        },
+        {
+          "titulo": "Uso de inteligência artificial por empresas brasileiras avança e atinge 17% (TIC Empresas 2025)",
+          "organizacao": "Cetic.br / NIC.br",
+          "ano": "2026 (15/06/2026)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "multissetorial (empresas com 10 ou mais pessoas)",
+          "pais_regiao": "Brasil",
+          "url": "https://cetic.br/pt/noticia/uso-de-inteligencia-artificial-por-empresas-brasileiras-avanca-e-atinge-17-aponta-pesquisa-do-cetic-br/",
+          "arquivo": "04_academia-instituicoes/Cetic-br_2026_noticia-uso-ia-empresas-17.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2"
+          ],
+          "metricas": [
+            "4.174 empresas com 10 ou mais pessoas, fev/2025–jan/2026: uso de IA de 13% (2024) para 17% (2025); grandes empresas de 38% para 50% (p. 1)",
+            "80% adquiriram soluções prontas (p. 1)"
+          ],
+          "resumo": "4.174 empresas com 10 ou mais pessoas, fev/2025–jan/2026: uso de IA de 13% (2024) para 17% (2025); grandes empresas de 38% para 50%. 80% adquiriram soluções prontas. Setores publicados não incluem a agropecuária.",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: - 17% das empresas com 10 ou mais pessoas usam IA; entre as grandes, 50%."
+        },
+        {
+          "titulo": "The story behind the bad AI stat that moved markets and misled millions",
+          "organizacao": "80,000 Hours (Robert Wiblin)",
+          "ano": "2026 (28/04/2026)",
+          "tipo_fonte": "outro",
+          "setor": "multissetorial (crítica de método)",
+          "pais_regiao": "Global",
+          "url": "https://80000hours.org/podcast/episodes/ai-workplace-mit-study/",
+          "arquivo": "04_academia-instituicoes/80000Hours_2026_bad-ai-stat-mit-study.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Crítica metodológica ao estudo MIT NANDA 2025: 80% das empresas pesquisadas nunca pilotaram ferramenta de IA sob medida; a taxa real 'poderia facilmente ser três vezes maior ou menor' (p. 4)"
+          ],
+          "resumo": "Crítica metodológica ao estudo MIT NANDA 2025: 80% das empresas pesquisadas nunca pilotaram ferramenta de IA sob medida; a taxa real 'poderia facilmente ser três vezes maior ou menor'.",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: - **Estudos preliminares ou com método frágil** entram só de forma qualitativa. É o caso do MIT NANDA 2025."
+        },
+        {
+          "titulo": "Levels of Autonomy for AI Agents (arXiv 2506.12469)",
+          "organizacao": "K. J. Kevin Feng, David W. McDonald, Amy X. Zhang — University of Washington; Knight First Amendment Institute",
+          "ano": "2025 (28/07/2025)",
+          "tipo_fonte": "academia",
+          "setor": "multissetorial (agentes de IA)",
+          "pais_regiao": "Global",
+          "url": "https://arxiv.org/abs/2506.12469",
+          "arquivo": "04_academia-instituicoes/Feng-McDonald-Zhang_2025_levels-of-autonomy-ai-agents.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F3"
+          ],
+          "metricas": [],
+          "resumo": "Cinco níveis pelo papel do usuário: L1 operador, L2 colaborador, L3 consultor, L4 aprovador, L5 observador. Autonomia como decisão de desenho, separada da capacidade do agente. Preprint (v2).",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: | Estágio | Como a IA generativa aparece | Papel humano | Autonomia do agente |"
+        },
+        {
+          "titulo": "Ethics Guidelines for Trustworthy AI",
+          "organizacao": "High-Level Expert Group on AI (Comissão Europeia)",
+          "ano": "2019 (08/04/2019)",
+          "tipo_fonte": "governo",
+          "setor": "intersetorial (IA confiável)",
+          "pais_regiao": "União Europeia",
+          "url": "https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=60419",
+          "arquivo": "04_academia-instituicoes/HLEG-ComissaoEuropeia_2019_ethics-guidelines-trustworthy-ai.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [],
+          "resumo": "Definições de supervisão humana: human-in-the-loop (intervenção em cada ciclo de decisão), human-on-the-loop (monitoramento da operação) e human-in-command. Quanto menor a supervisão possível, mais testes e governança são exigidos.",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: A supervisão humana acompanha o nível de autonomia. Passa de \"no circuito\", com intervenção em cada decisão, para \"sobre o circuito\", com monitoramento da operação. É também o critério do AI Act europeu: supervisão proporcional ao risco e ao nível de autonomia…"
+        },
+        {
+          "titulo": "Regulation (EU) 2024/1689 — Artificial Intelligence Act",
+          "organizacao": "Parlamento Europeu e Conselho da União Europeia",
+          "ano": "2024 (13/06/2024)",
+          "tipo_fonte": "governo",
+          "setor": "intersetorial (regulação de IA)",
+          "pais_regiao": "União Europeia",
+          "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-113",
+          "arquivo": "04_academia-instituicoes/UE_2024_ai-act-artigo-113-aplicacao.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Proibições e letramento em IA desde 02/02/2025; modelos de propósito geral desde 02/08/2025; aplicação geral desde 02/08/2026 (p. 1)",
+            "14: supervisão humana proporcional aos riscos, ao nível de autonomia e ao contexto de uso (https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14) (p. 4, 9)"
+          ],
+          "resumo": "Em vigor desde 01/08/2024. Proibições e letramento em IA desde 02/02/2025; modelos de propósito geral desde 02/08/2025; aplicação geral desde 02/08/2026. Art. 14: supervisão humana proporcional aos riscos, ao nível de autonomia e ao contexto de uso (https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14).",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: A supervisão humana acompanha o nível de autonomia. Passa de \"no circuito\", com intervenção em cada decisão, para \"sobre o circuito\", com monitoramento da operação. É também o critério do AI Act europeu: supervisão proporcional ao risco e ao nível de autonomia…"
+        },
+        {
+          "titulo": "Regulation (EU) 2024/1689 — Artificial Intelligence Act, Article 14: Human oversight",
+          "organizacao": "Parlamento Europeu e Conselho da União Europeia",
+          "ano": "2024 (13/06/2024)",
+          "tipo_fonte": "governo",
+          "setor": "intersetorial (regulação de IA)",
+          "pais_regiao": "União Europeia",
+          "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14",
+          "arquivo": "04_academia-instituicoes/UE_2024_ai-act-artigo-14-supervisao-humana.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [],
+          "resumo": "Art. 14: supervisão humana proporcional aos riscos, ao nível de autonomia e ao contexto de uso do sistema de alto risco.",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: A supervisão humana acompanha o nível de autonomia. Passa de \"no circuito\", com intervenção em cada decisão, para \"sobre o circuito\", com monitoramento da operação. É também o critério do AI Act europeu: supervisão proporcional ao risco e ao nível de autonomia…"
+        }
+      ],
+      "lacunas": [
+        "Gartner (Smarter With Gartner; K. Panetta), The CIO's Guide to Artificial Intelligence (infográfico AI Maturity Model): sem cópia guardada (cópia era página de bloqueio); salvar à mão no navegador e conferir os números antes de usar.",
+        "Gartner, Gartner Says Organizations with Successful AI Initiatives Invest Up to Four Times More in : sem cópia guardada (cópia era página de bloqueio); salvar à mão no navegador e conferir os números antes de usar."
+      ]
+    },
+    {
+      "grupo": "Campo e sistemas autônomos (framework do Rafael, 30/09/2026; trilha da Frente 3)",
+      "pasta": "07_agro-global-perenes-autonomia",
+      "itens": [
+        {
+          "titulo": "ISO 18497-1:2024 — Agricultural machinery and tractors — Safety of partially automated, semi-autonomous and autonomous machinery — Part 1: Machine design principles and vocabulary",
+          "organizacao": "ISO/TC 23/SC 19",
+          "ano": "2024 (jul/2024)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "máquinas agrícolas (autonomia)",
+          "pais_regiao": "Global",
+          "url": "https://www.iso.org/standard/82684.html",
+          "arquivo": "07_agro-global-perenes-autonomia/ISO_2024_18497-1-maquinas-agricolas-autonomia-pagina.pdf",
+          "status": "pago",
+          "frentes": [
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "Substitui a ISO 18497:2018 (p. 1-2)"
+          ],
+          "resumo": "Substitui a ISO 18497:2018. Recusou de propósito a escala de seis níveis da SAE J3016 e descreve combinações de funções: parcialmente automatizado, semiautônomo (modo autônomo em parte do ciclo) e autônomo (modo autônomo em todo o ciclo); 'não é nível nem categoria de máquina'. Programar a máquina não conta como interação do operador. Não se aplica a atividade florestal. Prévia lida em cdn.standards.iteh.ai. Cópia guardada via web.archive.org (cópia arquivada da página oficial).",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: **Não existe escala oficial de níveis para máquinas agrícolas.** A norma ISO 18497-1:2024 recusou de propósito a escala de seis níveis dos veículos autônomos. Ela descreve combinações de funções — parcialmente automatizada, semiautônoma e autônoma — e avisa qu…"
+        },
+        {
+          "titulo": "Autonomy in Ag (projeto AUT)",
+          "organizacao": "Agricultural Industry Electronics Foundation (AEF)",
+          "ano": "2024 (10/10/2024)",
+          "tipo_fonte": "associação setorial",
+          "setor": "máquinas agrícolas (autonomia)",
+          "pais_regiao": "Global",
+          "url": "https://www.aef-online.org/aef-aut/",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "Iniciativa de padronização da indústria (desde mai/2024) (página oficial; leitura do Rafael em 30/09/2026, sem cópia guardada)"
+          ],
+          "resumo": "Iniciativa de padronização da indústria (desde mai/2024). A máquina autônoma assume três responsabilidades do operador: conduzir monitorando o ambiente, monitorar a saúde da máquina e garantir a qualidade do trabalho. Não define níveis.",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: No nível 5, a máquina assume três responsabilidades do operador: conduzir monitorando o ambiente, monitorar a própria saúde e garantir a qualidade do trabalho."
+        },
+        {
+          "titulo": "Agricultural Industry Initiatives on Autonomy (arXiv 2501.17962)",
+          "organizacao": "G. Happich, A. Grever, J. Schöning",
+          "ano": "2025 (29/01/2025)",
+          "tipo_fonte": "academia",
+          "setor": "máquinas agrícolas (autonomia)",
+          "pais_regiao": "Europa",
+          "url": "https://arxiv.org/abs/2501.17962",
+          "arquivo": "07_agro-global-perenes-autonomia/Happich-Grever-Schoning_2025_agricultural-industry-initiatives-autonomy.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "Workshop VDMA–AEF (2024): as especificações da ISO 18497 são insuficientes para a entrada segura de máquinas agrícolas autônomas no mercado; não há padrão de domínio operacional agrícola (p. 2)"
+          ],
+          "resumo": "Workshop VDMA–AEF (2024): as especificações da ISO 18497 são insuficientes para a entrada segura de máquinas agrícolas autônomas no mercado; não há padrão de domínio operacional agrícola. Preprint de autores ligados à indústria.",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: - **Normas técnicas insuficientes.** As normas para a entrada segura de máquinas autônomas no mercado ainda estão em construção."
+        },
+        {
+          "titulo": "CEMA's position on Agricultural Robots",
+          "organizacao": "CEMA — European Agricultural Machinery Association",
+          "ano": "2025 (17/11/2025)",
+          "tipo_fonte": "associação setorial",
+          "setor": "máquinas agrícolas (robótica)",
+          "pais_regiao": "Europa",
+          "url": "https://www.cema-agri.org/images/publications/position-papers/2025-CEMA_Position_on_Agricultural_Robots.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/CEMA_2025_position-agricultural-robots.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F3"
+          ],
+          "metricas": [],
+          "resumo": "As normas técnicas para avaliação de risco de robôs agrícolas ainda estão em desenvolvimento; custo inicial alto limita a adoção, sobretudo em fazendas pequenas e médias.",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: - **Normas técnicas insuficientes.** As normas para a entrada segura de máquinas autônomas no mercado ainda estão em construção."
+        },
+        {
+          "titulo": "Digital twins in smart farming",
+          "organizacao": "C. Verdouw, B. Tekinerdogan, A. Beulens, S. Wolfert (Wageningen) — Agricultural Systems 189",
+          "ano": "2021 (abr/2021)",
+          "tipo_fonte": "academia",
+          "setor": "agricultura (gêmeos digitais)",
+          "pais_regiao": "Global",
+          "url": "https://edepot.wur.nl/541204",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F2",
+            "F3"
+          ],
+          "metricas": [],
+          "resumo": "Tipos cumulativos: monitoramento, preditivo, prescritivo (decisão ainda humana) e autônomo (controla o objeto sem intervenção humana). Nenhum dos casos estudados tinha gêmeo digital autônomo.",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: - a tipologia de gêmeos digitais: monitorar, prever, prescrever e operar com autonomia;"
+        },
+        {
+          "titulo": "Digital Farming: what does it really mean?",
+          "organizacao": "CEMA — European Agricultural Machinery Association",
+          "ano": "2017 (13/02/2017)",
+          "tipo_fonte": "associação setorial",
+          "setor": "máquinas agrícolas (agricultura digital)",
+          "pais_regiao": "Europa",
+          "url": "https://www.cema-agri.org/images/publications/position-papers/CEMA_Digital_Farming_-_Agriculture_4.0__13_02_2017_0.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/CEMA_2017_digital-farming-agriculture-4-0.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "Eras da agricultura: 3.0 (precisão, guiagem por GPS) e 4.0 (operações em rede, desde cerca de 2010); a agricultura 5.0 será baseada em robótica e alguma forma de IA, com operações não tripuladas e sistemas autônomos de decisão (p. 1, 8)"
+          ],
+          "resumo": "Eras da agricultura: 3.0 (precisão, guiagem por GPS) e 4.0 (operações em rede, desde cerca de 2010); a agricultura 5.0 será baseada em robótica e alguma forma de IA, com operações não tripuladas e sistemas autônomos de decisão.",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: A lente é independente do estágio: uma empresa pode estar no estágio 4 na organização e no nível 3 no campo. A \"agricultura 5.0\", com robótica e alguma forma de IA, é a fronteira que a indústria aponta."
+        },
+        {
+          "titulo": "Agricultura digital, inovação e aplicações (cap. 2 de Inovação e desenvolvimento em cana-de-açúcar)",
+          "organizacao": "Embrapa; UFRPE (M. A. A. Leite, S. M. F. S. Massruhá, K. J. Coral)",
+          "ano": "2024",
+          "tipo_fonte": "governo/instituição",
+          "setor": "agricultura digital",
+          "pais_regiao": "Brasil",
+          "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1166995/1/PL-Agricultura-digital-2024.pdf",
+          "arquivo": "05_agro-brasil-instituicoes-midia/Embrapa-UFRPE_2024_agricultura-digital-inovacao-aplicacoes.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F3"
+          ],
+          "metricas": [],
+          "resumo": "Sequência em três passos: busca por anomalias; avaliação da variabilidade espacial para intervenção; atuação autônoma por máquinas e implementos. A colheita automatizada de frutas é um grande desafio da robótica agrícola.",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: - a sequência proposta pela Embrapa: anomalias, variabilidade para intervenção e atuação autônoma."
+        },
+        {
+          "titulo": "Área agrícola com 4G ou 5G chega a 33% no Brasil, segundo ConectarAgro",
+          "organizacao": "Teletime (indicador ConectarAgro e UFV)",
+          "ano": "2025 (30/04/2025)",
+          "tipo_fonte": "imprensa",
+          "setor": "agro – conectividade rural",
+          "pais_regiao": "Brasil",
+          "url": "https://teletime.com.br/30/04/2025/area-agricola-com-4g-ou-5g-chega-a-33-no-brasil-segundo-conectaragro/",
+          "arquivo": "05_agro-brasil-instituicoes-midia/Teletime_2025_conectaragro-area-agricola-4g-5g-33.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "Área agrícola com sinal 4G ou 5G passou de 18,7% para 33,9% entre 2024 e 2025; imóveis rurais com cobertura total da área agricultável de 37,4% para 48,1% (p. 1)"
+          ],
+          "resumo": "Área agrícola com sinal 4G ou 5G passou de 18,7% para 33,9% entre 2024 e 2025; imóveis rurais com cobertura total da área agricultável de 37,4% para 48,1%. Mede cobertura, não qualidade; site da ConectarAgro não abriu.",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: - Só 33,9% da área agrícola tem sinal 4G ou 5G. Nos outros dois terços, a falta de sinal limita telemetria, correção de sinal e supervisão remota."
+        },
+        {
+          "titulo": "“新农具”有新机遇！无人机、机器人首次写入中央一号文件",
+          "organizacao": "Xinhua",
+          "ano": "2026 (03/02/2026)",
+          "tipo_fonte": "imprensa",
+          "setor": "agricultura (drones e robôs)",
+          "pais_regiao": "China",
+          "url": "https://www.news.cn/politics/20260203/9d3498967e33402fb0ce61ca6f12adca/c.html",
+          "arquivo": "07_agro-global-perenes-autonomia/Xinhua_2026_drones-robos-documento-central-1.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Drones e robôs entram pela primeira vez no Documento Central nº 1 (2026) (p. 1-2)",
+            "Mecanização de 76,7% e mais de 300 mil drones agrícolas em 2025 (números sem fonte atribuída na matéria) (p. 1)"
+          ],
+          "resumo": "Drones e robôs entram pela primeira vez no Documento Central nº 1 (2026). Mecanização de 76,7% e mais de 300 mil drones agrícolas em 2025 (números sem fonte atribuída na matéria).",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: - Mais de 300 mil drones agrícolas em 2025. Drones e robôs entraram pela primeira vez no Documento Central nº 1, de 2026."
+        },
+        {
+          "titulo": "Palm oil industry loses RM7.9b annually due to worker shortage",
+          "organizacao": "New Straits Times, republicado pelo MPOB (Malaysian Palm Oil Board)",
+          "ano": "2024 (28/02/2024)",
+          "tipo_fonte": "imprensa",
+          "setor": "palma de óleo (mão de obra)",
+          "pais_regiao": "Malásia",
+          "url": "https://prestasisawit.mpob.gov.my/en/palmnews/news/36344",
+          "arquivo": "07_agro-global-perenes-autonomia/NST-MPOB_2024_palma-perda-rm7-9-bi-escassez-trabalhadores.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Declaração do ministro de Plantações e Commodities da Malásia: déficit de 40 mil trabalhadores e perda de RM 7,9 bilhões por ano; drones já servem para fertilização, pesticidas e precisão, mas ainda não há máquina para colher os frutos (p. 1)"
+          ],
+          "resumo": "Declaração do ministro de Plantações e Commodities da Malásia: déficit de 40 mil trabalhadores e perda de RM 7,9 bilhões por ano; drones já servem para fertilização, pesticidas e precisão, mas ainda não há máquina para colher os frutos.",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: - A Malásia tem déficit de 40 mil trabalhadores. Nas palavras do ministro do setor, drones já servem para fertilização e pesticidas, mas ainda não há máquina para colher."
+        },
+        {
+          "titulo": "The Potential of Robotics for Efficient and Sustainable Harvesting (Palm Oil Engineering Bulletin 142)",
+          "organizacao": "MPOB; Universiti Teknologi Malaysia",
+          "ano": "2023",
+          "tipo_fonte": "governo/instituição",
+          "setor": "palma de óleo (robótica de colheita)",
+          "pais_regiao": "Malásia",
+          "url": "https://palmoilis.mpob.gov.my/publications/POEB/poeb142-athif.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/MPOB-UTM_2023_robotica-colheita-palma.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Colheita responde por cerca de 60% da força de trabalho e 50% do custo de produção da palma (p. 1)"
+          ],
+          "resumo": "Colheita responde por cerca de 60% da força de trabalho e 50% do custo de produção da palma. Pesquisa e desenvolvimento em robótica de colheita ainda em estágio experimental (exoesqueletos, drones de observação, braço robótico protótipo, veículo não tripulado de recolha); retorno mais longo que o do trabalho estrangeiro; copa e relevo limitam o sinal de GPS.",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: - Na palma, a colheita concentra cerca de 60% da força de trabalho e 50% do custo de produção."
+        },
+        {
+          "titulo": "Development of a machine for harvesting tall palms (MPOB TT 217)",
+          "organizacao": "MPOB (A. R. Shuib et al.)",
+          "ano": "2004 (jun/2004)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "palma de óleo (colheita mecânica)",
+          "pais_regiao": "Malásia",
+          "url": "https://palmoilis.mpob.gov.my/publications/TOT/TT-217.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/MPOB_2004_maquina-colheita-palmeiras-altas-tt217.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Em 2004, a colheita mecânica dos cachos da palma já era 'an issue that needs to be solved', com escassez de mão de obra relatada (p. 1)"
+          ],
+          "resumo": "Em 2004, a colheita mecânica dos cachos da palma já era 'an issue that needs to be solved', com escassez de mão de obra relatada.",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: - A colheita mecânica é problema aberto desde 2004, e a robótica de colheita segue em fase experimental."
+        },
+        {
+          "titulo": "Deep Learning Based Oil Palm Tree Detection and Counting for High-Resolution Remote Sensing Images",
+          "organizacao": "W. Li, H. Fu, L. Yu, A. Cracknell — Remote Sensing 9(1):22",
+          "ano": "2016 (29/12/2016)",
+          "tipo_fonte": "academia",
+          "setor": "palma de óleo (visão computacional)",
+          "pais_regiao": "Malásia",
+          "url": "https://www.mdpi.com/2072-4292/9/1/22",
+          "arquivo": "07_agro-global-perenes-autonomia/Li-et-al_2016_deep-learning-oil-palm-detection.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Mais de 96% das palmeiras detectadas corretamente em área da Malásia com copas sobrepostas; o número de plantas é informação importante para prever a produção (p. 4, 6)"
+          ],
+          "resumo": "Mais de 96% das palmeiras detectadas corretamente em área da Malásia com copas sobrepostas; o número de plantas é informação importante para prever a produção. Cópia guardada via web.archive.org (cópia arquivada da página oficial).",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: - A detecção de palmeiras passa de 96% de acerto."
+        },
+        {
+          "titulo": "Oil Palm Tree Detection and Health Classification on High-Resolution Imagery Using Deep Learning",
+          "organizacao": "K. Yarak et al. — Agriculture 11(2):183",
+          "ano": "2021 (22/02/2021)",
+          "tipo_fonte": "academia",
+          "setor": "palma de óleo (visão computacional por drone)",
+          "pais_regiao": "Tailândia",
+          "url": "https://www.mdpi.com/2077-0472/11/2/183",
+          "arquivo": "07_agro-global-perenes-autonomia/Yarak-et-al_2021_oil-palm-detection-health-uav.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Por drone: F1 de 97,67% na detecção e 95,30% em palmeiras sadias, mas 57,14% em palmeiras não sadias quando confrontado com a inspeção de campo (p. 2)"
+          ],
+          "resumo": "Por drone: F1 de 97,67% na detecção e 95,30% em palmeiras sadias, mas 57,14% em palmeiras não sadias quando confrontado com a inspeção de campo. Contar é maduro; diagnosticar saúde, ainda não. Cópia guardada via web.archive.org (cópia arquivada da página oficial).",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: - O diagnóstico de plantas doentes confrontado com o campo fica em 57%."
+        },
+        {
+          "titulo": "Macauba: a promising tropical palm for the production of vegetable oil",
+          "organizacao": "C. A. Colombo, L. H. C. Berton, B. G. Diaz, R. A. Ferrari — OCL 25(1) D108",
+          "ano": "2018 (jan/2018)",
+          "tipo_fonte": "academia",
+          "setor": "macaúba (cadeia e pesquisa)",
+          "pais_regiao": "Brasil",
+          "url": "https://www.ocl-journal.org/articles/ocl/full_html/2018/01/ocl170038s/ocl170038s.html",
+          "arquivo": "07_agro-global-perenes-autonomia/Colombo-et-al_2018_macauba-tropical-palm-vegetable-oil.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "Frutos colhidos do cacho ou caídos sem contato com o solo se conservam por até 16 dias (p. 4, 8)"
+          ],
+          "resumo": "Entre as linhas prioritárias de pesquisa para consolidar a cadeia: zoneamento climático e mecanização da produção e do processamento dos frutos. Frutos colhidos do cacho ou caídos sem contato com o solo se conservam por até 16 dias. Cópia guardada via web.archive.org (cópia arquivada da página oficial).",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: - **Na macaúba, a própria mecanização da produção de frutos ainda é agenda de pesquisa**."
+        }
+      ],
+      "lacunas": [
+        "Agricultural Industry Electronics Foundation (AEF), Autonomy in Ag (projeto AUT): sem cópia guardada (chrome https://www.aef-online.org/aef-aut/: página de bloqueio ou vazia); salvar à mão no navegador e conferir os números antes de usar.",
+        "C. Verdouw, B. Tekinerdogan, A. Beulens, S. Wolfert (Wageningen) — Agricultural Systems 189, Digital twins in smart farming: sem cópia guardada (curl falhou; chrome https://edepot.wur.nl/541204: página de bloqueio ou vazia); salvar à mão no navegador e conferir os números antes de usar."
+      ]
+    },
+    {
+      "grupo": "Roadmaps de outros setores: Itaú, Vale, Petrobras e Moderna (framework do Rafael, 30/09/2026)",
+      "pasta": "09_outros-setores",
+      "itens": [
+        {
+          "titulo": "Integrated Annual Report 2024",
+          "organizacao": "Itaú Unibanco",
+          "ano": "2025",
+          "tipo_fonte": "empresa",
+          "setor": "setor financeiro (banco)",
+          "pais_regiao": "Brasil",
+          "url": "https://www.itau.com.br/download-file/v2/d/42787847-4cf6-4461-94a5-40ed237dca33/c54c2832-35d3-876f-acfc-930865b159d0?origin=2",
+          "arquivo": "",
+          "status": "bloqueado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Linha do tempo de IA (p. 52): data lake com Hadoop 2014/15; carreira de ciência de dados 2016; data mesh e carreira de ML Engineering 2022 (página oficial; leitura do Rafael em 30/09/2026, sem cópia guardada)",
+            "Em 2024: 1.390 modelos de IA, 393 iniciativas de IA generativa, mais de 470 cientistas de dados; plataforma de dados descentralizada e self-service (página oficial; leitura do Rafael em 30/09/2026, sem cópia guardada)"
+          ],
+          "resumo": "Linha do tempo de IA (p. 52): data lake com Hadoop 2014/15; carreira de ciência de dados 2016; data mesh e carreira de ML Engineering 2022. Em 2024: 1.390 modelos de IA, 393 iniciativas de IA generativa, mais de 470 cientistas de dados; plataforma de dados descentralizada e self-service.",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: - **Só anda rápido sobre base pronta.** O Itaú construiu data lake e nuvem entre 2014 e 2023. Depois passou de cerca de 10 para 150 soluções de IA generativa em produção em cerca de dois anos."
+        },
+        {
+          "titulo": "Relatório Anual Integrado 2023",
+          "organizacao": "Itaú Unibanco",
+          "ano": "2024",
+          "tipo_fonte": "empresa",
+          "setor": "setor financeiro (banco)",
+          "pais_regiao": "Brasil",
+          "url": "https://www.itau.com.br/download-file/v2/d/42787847-4cf6-4461-94a5-40ed237dca33/15ce52e3-fdd5-1bd2-4929-0674f0f3ce57?origin=2",
+          "arquivo": "",
+          "status": "bloqueado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Mais de dois terços dos sistemas legados em nuvem; data lake 100% na nuvem (página oficial; leitura do Rafael em 30/09/2026, sem cópia guardada)",
+            "Cerca de 600 modelos de IA (página oficial; leitura do Rafael em 30/09/2026, sem cópia guardada)",
+            "IA generativa: mais de 220 iniciativas, mais de 10 em produção (página oficial; leitura do Rafael em 30/09/2026, sem cópia guardada)"
+          ],
+          "resumo": "Mais de dois terços dos sistemas legados em nuvem; data lake 100% na nuvem. Cerca de 600 modelos de IA. IA generativa: mais de 220 iniciativas, mais de 10 em produção.",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: - **Só anda rápido sobre base pronta.** O Itaú construiu data lake e nuvem entre 2014 e 2023. Depois passou de cerca de 10 para 150 soluções de IA generativa em produção em cerca de dois anos."
+        },
+        {
+          "titulo": "Itaú Unibanco vai migrar o coração do banco para a nuvem",
+          "organizacao": "About Amazon (AWS)",
+          "ano": "2024 (09/12/2024)",
+          "tipo_fonte": "empresa",
+          "setor": "setor financeiro (banco) e nuvem",
+          "pais_regiao": "Brasil",
+          "url": "https://www.aboutamazon.com.br/noticias/aws/itau-unibanco-vai-migrar-o-coracao-do-banco-para-a-nuvem",
+          "arquivo": "08_setor-financeiro/AboutAmazon_2024_itau-migrar-coracao-banco-nuvem.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Jornada de nuvem iniciada em 2017 (p. 2)",
+            "65% dos aplicativos em nuvem em dez/2024; meta de 100% em 2028, incluindo mainframe (p. 2)"
+          ],
+          "resumo": "Jornada de nuvem iniciada em 2017; 65% dos aplicativos em nuvem em dez/2024; meta de 100% em 2028, incluindo mainframe.",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: - Fora do agro, dados e nuvem. O Itaú teve data lake em 2014/15 e iniciou a nuvem em 2017."
+        },
+        {
+          "titulo": "Itaú coloca 150 soluções de GenAI em produção e amplia uso de IA em 141%",
+          "organizacao": "TI Inside",
+          "ano": "2026 (12/01/2026)",
+          "tipo_fonte": "imprensa",
+          "setor": "setor financeiro (banco)",
+          "pais_regiao": "Brasil",
+          "url": "https://tiinside.com.br/12/01/2026/itau-coloca-150-solucoes-de-genai-em-producao-e-amplia-uso-de-ia-em-141/",
+          "arquivo": "08_setor-financeiro/TIInside_2026_itau-150-solucoes-genai-producao.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Fala do diretor de Tecnologia: 150 soluções de IA generativa em produção e mais de 750 em desenvolvimento; mais de 1,8 mil modelos de IA; cerca de 500 cientistas de dados (p. 1-2)"
+          ],
+          "resumo": "Fala do diretor de Tecnologia: 150 soluções de IA generativa em produção e mais de 750 em desenvolvimento; mais de 1,8 mil modelos de IA; cerca de 500 cientistas de dados.",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: - **Só anda rápido sobre base pronta.** O Itaú construiu data lake e nuvem entre 2014 e 2023. Depois passou de cerca de 10 para 150 soluções de IA generativa em produção em cerca de dois anos."
+        },
+        {
+          "titulo": "Vale will have the first mine operating only with autonomous trucks in Brazil",
+          "organizacao": "Vale (Newsroom)",
+          "ano": "2018 (09/11/2018)",
+          "tipo_fonte": "empresa",
+          "setor": "mineração",
+          "pais_regiao": "Brasil",
+          "url": "https://vale.com/documents/44618/2699492/Newsroom_-_Innovation_-_Vale_will_have_the_first_mine_operating_only_with_autonomous_trucks_in_Brazil_ID=1086.pdf/2fc567ec-9770-07cc-5ec9-c670830cfe74?version=1.0&t=1672692649808&download=true",
+          "arquivo": "09_outros-setores/Vale_2018_primeira-mina-caminhoes-autonomos.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "Programa de transformação digital iniciado em 2016, com quatro pilares: analytics, sistemas e cadeias integradas, robotização e equipamentos autônomos (p. 2)",
+            "Caminhões autônomos em teste em Brucutu (MG) desde 2016 (p. 2)",
+            "7 em operação diária em 2018 (p. 1)"
+          ],
+          "resumo": "Programa de transformação digital desde 2016 com quatro pilares, entre eles robotização e equipamentos autônomos. Caminhões autônomos em teste em Brucutu (MG) desde 2016; 7 em operação diária em 2018.",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: - Vale: programa digital em 2016 e centro de IA em 2019."
+        },
+        {
+          "titulo": "Vale creates Artificial Intelligence Center",
+          "organizacao": "Vale",
+          "ano": "2019 (10/01/2019)",
+          "tipo_fonte": "empresa",
+          "setor": "mineração",
+          "pais_regiao": "Brasil",
+          "url": "https://vale.com/w/vale-creates-artificial-intelligence-center",
+          "arquivo": "09_outros-setores/Vale_2019_centro-de-inteligencia-artificial.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Centro de IA em Vitória (ES); projetos já entregues geravam mais de US$ 20 milhões de economia por ano na criação do centro (p. 1)"
+          ],
+          "resumo": "Centro de IA em Vitória (ES); projetos já entregues geravam mais de US$ 20 milhões de economia por ano na criação do centro.",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: - Vale: programa digital em 2016 e centro de IA em 2019."
+        },
+        {
+          "titulo": "Focused on safety and people, Vale starts operating autonomous trucks in its largest iron ore complex in Brazil",
+          "organizacao": "Vale",
+          "ano": "2021 (02/09/2021)",
+          "tipo_fonte": "empresa",
+          "setor": "mineração",
+          "pais_regiao": "Brasil",
+          "url": "https://vale.com/w/focused-on-safety-and-people-vale-starts-operating-autonomous-trucks-in-its-largest-iron-ore-complex-in-brazil",
+          "arquivo": "09_outros-setores/Vale_2021_caminhoes-autonomos-carajas.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "Autonomia replicada em Carajás em 2021, depois de Brucutu (p. 2)",
+            "Em Brucutu, combustível 11% menor e nenhum acidente causado pelos caminhões autônomos desde 2016 (p. 1-2)"
+          ],
+          "resumo": "Autonomia replicada em Carajás em 2021, depois de Brucutu. Em Brucutu, combustível 11% menor e nenhum acidente causado pelos caminhões autônomos desde 2016.",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: | Autonomia pesada | Cerca de 3 anos até 100% de uma mina, mais 2 para replicar | Vale |"
+        },
+        {
+          "titulo": "Vale abre plataforma de dados e IA a 19 áreas de negócio",
+          "organizacao": "Mobile Time",
+          "ano": "2026 (16/09/2026)",
+          "tipo_fonte": "imprensa",
+          "setor": "mineração",
+          "pais_regiao": "Brasil",
+          "url": "https://www.mobiletime.com.br/noticias/16/09/2026/vale-ia-bens-impostos/",
+          "arquivo": "09_outros-setores/MobileTime_2026_vale-plataforma-dados-ia-19-areas.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Plataforma de dados e IA aberta a 19 'franquias' de negócio; antes, pedidos de dados dependiam da TI e levavam até três semanas (p. 2)"
+          ],
+          "resumo": "Plataforma de dados e IA aberta a 19 'franquias' de negócio; antes, pedidos de dados dependiam da TI e levavam até três semanas.",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: 5. **Governança e democratização:** política de uso, letramento, triagem de demandas e criação pelos próprios usuários."
+        },
+        {
+          "titulo": "Vale nos trilhos da inteligência artificial",
+          "organizacao": "HSM Management (texto do head de IA da Vale)",
+          "ano": "2023 (24/08/2023)",
+          "tipo_fonte": "mídia",
+          "setor": "mineração",
+          "pais_regiao": "Brasil",
+          "url": "https://hsmmanagement.com.br/vale-nos-trilhos-da-inteligencia-artificial/",
+          "arquivo": "09_outros-setores/HSM_2023_vale-nos-trilhos-da-ia.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [],
+          "resumo": "O mais caro é a obtenção dos dados; levá-los da rede de automação à TI pode ser caro e demorado.",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: - O mais caro é obter os dados. Levá-los da rede de automação à TI pode ser caro e demorado."
+        },
+        {
+          "titulo": "Form 20-F 2020",
+          "organizacao": "Petrobras (SEC)",
+          "ano": "2021",
+          "tipo_fonte": "empresa",
+          "setor": "óleo e gás",
+          "pais_regiao": "Brasil",
+          "url": "https://www.sec.gov/Archives/edgar/data/1119639/000129281421001152/pbraform20f_2020.htm",
+          "arquivo": "",
+          "status": "bloqueado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Diretoria Executiva de Transformação Digital e Inovação criada em set/2019 (página oficial; leitura do Rafael em 30/09/2026, sem cópia guardada)",
+            "Centro de Excelência em Analytics e IA e plataforma integrada de dados do upstream em 2020 (página oficial; leitura do Rafael em 30/09/2026, sem cópia guardada)"
+          ],
+          "resumo": "Diretoria Executiva de Transformação Digital e Inovação criada em set/2019; Centro de Excelência em Analytics e IA e plataforma integrada de dados do upstream em 2020.",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: - Petrobras: diretoria digital em 2019 e centro de excelência em 2020."
+        },
+        {
+          "titulo": "Petrobras cria ferramenta com inteligência artificial generativa para apoiar mais de 100 mil trabalhadores",
+          "organizacao": "Agência Petrobras",
+          "ano": "2023 (05/12/2023)",
+          "tipo_fonte": "empresa",
+          "setor": "óleo e gás",
+          "pais_regiao": "Brasil",
+          "url": "https://agencia.petrobras.com.br/w/petrobras-cria-ferramenta-com-inteligencia-artificial-generativa-para-apoiar-mais-de-100-mil-trabalhadores",
+          "arquivo": "09_outros-setores/Petrobras_2023_ferramenta-ia-generativa-trabalhadores.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Assistente de IA generativa disponível para 110 mil trabalhadores (empregados e prestadores) (p. 1)"
+          ],
+          "resumo": "Assistente de IA generativa disponível para 110 mil trabalhadores (empregados e prestadores).",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: 5. **A IA generativa escala em meses sobre uma fundação pronta, e os agentes ainda estão no pico de expectativas.** Um assistente corporativo passou de um piloto com 500 pessoas para 110 mil trabalhadores com acesso em cerca de cinco meses. Agentes totalmente …"
+        },
+        {
+          "titulo": "Petrobras e agentes de IA",
+          "organizacao": "Mobile Time",
+          "ano": "2025 (14/05/2025)",
+          "tipo_fonte": "imprensa",
+          "setor": "óleo e gás",
+          "pais_regiao": "Brasil",
+          "url": "https://www.mobiletime.com.br/noticias/14/05/2025/petrobras-agentes-ia/",
+          "arquivo": "09_outros-setores/MobileTime_2025_petrobras-agentes-ia.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [],
+          "resumo": "Plataforma para publicar agentes de IA generativa, com cautela: padrões de agentes ainda não totalmente maduros.",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: - **Agentes com cautela.** A Petrobras abriu uma plataforma de agentes reconhecendo que os padrões ainda não estão maduros."
+        },
+        {
+          "titulo": "Moderna and OpenAI Collaborate To Advance mRNA Medicine",
+          "organizacao": "Moderna",
+          "ano": "2024 (24/04/2024)",
+          "tipo_fonte": "empresa",
+          "setor": "farmacêutico",
+          "pais_regiao": "EUA",
+          "url": "https://s29.q4cdn.com/435878511/files/doc_news/Moderna-and-OpenAI-Collaborate-To-Advance-mRNA-Medicine-2024.pdf",
+          "arquivo": "09_outros-setores/Moderna_2024_moderna-openai-mrna.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "Assistente próprio com mais de 80% de adoção interna (2023); mais de 750 assistentes especializados criados em poucos meses; a empresa associa a velocidade à base de dados construída desde a origem (p. 1)"
+          ],
+          "resumo": "Assistente próprio com mais de 80% de adoção interna (2023); mais de 750 assistentes especializados criados em poucos meses; a empresa associa a velocidade à base de dados construída desde a origem.",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: - Moderna: mais de 750 assistentes especializados em poucos meses."
+        },
+        {
+          "titulo": "Vale expects 21 autonomous drills running end-2021, passes 100 Mt hauled mark with AHS fleet at Brucutu",
+          "organizacao": "International Mining",
+          "ano": "2021 (02/07/2021)",
+          "tipo_fonte": "imprensa",
+          "setor": "mineração (autonomia)",
+          "pais_regiao": "Brasil",
+          "url": "https://im-mining.com/2021/07/02/vale-expects-21-autonomous-drills-running-end-2021-passes-100-mt-hauled-mark-ahs-fleet-brucutu/",
+          "arquivo": "09_outros-setores/InternationalMining_2021_vale-autonomous-drills-trucks.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "Caminhões autônomos em teste em Brucutu desde 2016; frota 100% autônoma (13 caminhões) desde 2019 (p. 4)"
+          ],
+          "resumo": "Caminhões autônomos em teste em Brucutu desde 2016; frota 100% autônoma (13 caminhões) desde 2019.",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: | Autonomia pesada | Cerca de 3 anos até 100% de uma mina, mais 2 para replicar | Vale |"
+        },
+        {
+          "titulo": "ChatGPT da Petrobras está disponível para toda companhia",
+          "organizacao": "Mobile Time",
+          "ano": "2024 (09/02/2024)",
+          "tipo_fonte": "imprensa",
+          "setor": "óleo e gás",
+          "pais_regiao": "Brasil",
+          "url": "https://www.mobiletime.com.br/noticias/09/02/2024/chatgpt-da-petrobras-esta-disponivel-para-toda-companhia/",
+          "arquivo": "09_outros-setores/MobileTime_2024_chatgpt-petrobras-toda-companhia.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "O assistente de IA generativa começou a ser usado em jul/2023 por um grupo de 500 funcionários (p. 2)",
+            "6 mil analistas e 400 cientistas formados (p. 2)"
+          ],
+          "resumo": "O assistente de IA generativa começou a ser usado em jul/2023 por um grupo de 500 funcionários; 6 mil analistas e 400 cientistas formados.",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: 5. **A IA generativa escala em meses sobre uma fundação pronta, e os agentes ainda estão no pico de expectativas.** Um assistente corporativo passou de um piloto com 500 pessoas para 110 mil trabalhadores com acesso em cerca de cinco meses. Agentes totalmente …"
+        }
+      ],
+      "lacunas": [
+        "Itaú Unibanco, Integrated Annual Report 2024: sem cópia guardada (curl falhou; chrome https://www.itau.com.br/download-file/v2/d/42787847-4cf6-446: página de bloqueio ou vazia); salvar à mão no navegador e conferir os números antes de usar.",
+        "Itaú Unibanco, Relatório Anual Integrado 2023: sem cópia guardada (curl falhou; chrome https://www.itau.com.br/download-file/v2/d/42787847-4cf6-446: página de bloqueio ou vazia; web.archive.org sem cópia); salvar à mão no navegador e conferir os números antes de usar.",
+        "Petrobras (SEC), Form 20-F 2020: sem cópia guardada (cópia era página de bloqueio); salvar à mão no navegador e conferir os números antes de usar."
+      ]
+    },
+    {
+      "grupo": "Roadmaps do agro: conectividade, centros de operação e IA preditiva (framework do Rafael, 30/09/2026)",
+      "pasta": "06_empresas-agro-bioenergia-florestal-br",
+      "itens": [
+        {
+          "titulo": "Centro de Inteligência Agrícola da SLC completa cinco anos",
+          "organizacao": "SLC Agrícola (release publicado em Notícias Agrícolas)",
+          "ano": "2024 (27/09/2024)",
+          "tipo_fonte": "empresa",
+          "setor": "agro – grãos e fibras",
+          "pais_regiao": "Brasil",
+          "url": "https://www.noticiasagricolas.com.br/noticias/agronegocio/385655-centro-de-inteligencia-agricola-da-slc-completa-cinco-anos-proporcionando-uma-agricultura-mais-eficiente-e-sustentavel.html",
+          "arquivo": "",
+          "status": "bloqueado",
+          "frentes": [
+            "F1",
+            "F2"
+          ],
+          "metricas": [
+            "Centro de Inteligência Agrícola criado em 2019; cobertura 4G em 100% das áreas das fazendas e data lake; economia de R$ 2 milhões para R$ 82 milhões em 2023 (página oficial; leitura do Rafael em 30/09/2026, sem cópia guardada)",
+            "R$ 16,1 milhões investidos em 5 anos (página oficial; leitura do Rafael em 30/09/2026, sem cópia guardada)"
+          ],
+          "resumo": "Centro de Inteligência Agrícola criado em 2019; cobertura 4G em 100% das áreas das fazendas e data lake; economia de R$ 2 milhões para R$ 82 milhões em 2023; R$ 16,1 milhões investidos em 5 anos.",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: 4. **No agro, a fundação inclui o campo.** Conectividade e centro de operações vêm antes da IA de campo. Levar a conectividade à escala levou de 3 a 5 anos nos casos observados."
+        },
+        {
+          "titulo": "Relatório Anual de Sustentabilidade 2017/18",
+          "organizacao": "São Martinho",
+          "ano": "2018",
+          "tipo_fonte": "empresa",
+          "setor": "bioenergia (cana)",
+          "pais_regiao": "Brasil",
+          "url": "https://www.saomartinho.com.br/Download.aspx?Arquivo=0KPphi%2FhjYHruGs9g80smw%3D%3D&IdCanal=E%2F5CI5hbGiTfjZ7mhu2y5w%3D%3D",
+          "arquivo": "06_empresas-agro-bioenergia-florestal-br/SaoMartinho_2018_relatorio-anual-sustentabilidade-2017-18.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2"
+          ],
+          "metricas": [
+            "Parceria para conectividade no campo desde 2015 (p. 27, 34)",
+            "Centro de Operações Agrícolas em implantação; rede 4G própria (R$ 40 milhões até 2020) (p. 28)"
+          ],
+          "resumo": "Parceria para conectividade no campo desde 2015; Centro de Operações Agrícolas em implantação; rede 4G própria (R$ 40 milhões até 2020).",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: 4. **No agro, a fundação inclui o campo.** Conectividade e centro de operações vêm antes da IA de campo. Levar a conectividade à escala levou de 3 a 5 anos nos casos observados."
+        },
+        {
+          "titulo": "São Martinho troca rede privativa por rede pública no campo",
+          "organizacao": "Mobile Time",
+          "ano": "2026 (11/06/2026)",
+          "tipo_fonte": "imprensa",
+          "setor": "bioenergia (cana) – conectividade",
+          "pais_regiao": "Brasil",
+          "url": "https://www.mobiletime.com.br/noticias/11/06/2026/sao-martinho-rcp/",
+          "arquivo": "06_empresas-agro-bioenergia-florestal-br/MobileTime_2026_sao-martinho-rede-publica-campo.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F2",
+            "F3"
+          ],
+          "metricas": [
+            "A rede privativa 4G da São Martinho foi implantada há oito anos e tem 32 ERBs em 250 MHz; dispositivos e aplicações de sensoriamento migram para a rede pública de uma operadora até a safra 2027/2028 (p. 1-2)",
+            "Motivo declarado: integrar com tecnologias padrão de mercado e simplificar operação, manutenção e evolução da rede (diretor de tecnologia) (p. 2)"
+          ],
+          "resumo": "Substituição da rede privativa construída há 8 anos pela rede pública de uma operadora até a safra 2027/28, por custo de manutenção contínua e compatibilidade de hardware.",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: - Rede de campo própria exige operação contínua. Uma usina está trocando a rede privativa pela de uma operadora."
+        },
+        {
+          "titulo": "BP Bunge investe mais de R$ 100 milhões em transformação digital no campo",
+          "organizacao": "Telesíntese",
+          "ano": "2024 (29/04/2024)",
+          "tipo_fonte": "imprensa",
+          "setor": "bioenergia (cana) – conectividade",
+          "pais_regiao": "Brasil",
+          "url": "https://telesintese.com.br/bp-bunge-investe-mais-de-r-100-milhoes-em-transformacao-digital-no-campo/",
+          "arquivo": "06_empresas-agro-bioenergia-florestal-br/Telesintese_2024_bp-bunge-transformacao-digital-campo.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2"
+          ],
+          "metricas": [
+            "98 torres 4G cobrindo 3 milhões de ha nas 11 unidades (p. 2)"
+          ],
+          "resumo": "98 torres 4G cobrindo 3 milhões de ha nas 11 unidades.",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: - BP Bunge;"
+        },
+        {
+          "titulo": "Atvos investe R$ 16 milhões em rede própria de 4G",
+          "organizacao": "UDOP (nota da empresa)",
+          "ano": "2025 (30/04/2025)",
+          "tipo_fonte": "empresa",
+          "setor": "bioenergia (cana) – conectividade",
+          "pais_regiao": "Brasil",
+          "url": "https://www.udop.com.br/noticia/2025/04/30/atvos-investe-r-16-milhoes-em-rede-propria-de-4g.html",
+          "arquivo": "06_empresas-agro-bioenergia-florestal-br/UDOP-Atvos_2025_rede-propria-4g.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2"
+          ],
+          "metricas": [
+            "Rede 4G própria em 8 usinas, 375 mil ha cobertos, meta de 500 mil; objetivo declarado de habilitar soluções autônomas e IA (p. 1-2)"
+          ],
+          "resumo": "Rede 4G própria em 8 usinas, 375 mil ha cobertos, meta de 500 mil; objetivo declarado de habilitar soluções autônomas e IA.",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: 4. **No agro, a fundação inclui o campo.** Conectividade e centro de operações vêm antes da IA de campo. Levar a conectividade à escala levou de 3 a 5 anos nos casos observados."
+        },
+        {
+          "titulo": "Conectividade no campo aumenta desempenho das fazendas da SLC Agrícola",
+          "organizacao": "Revista Cultivar",
+          "ano": "2020 (08/06/2020)",
+          "tipo_fonte": "mídia",
+          "setor": "agro – grãos e fibras – conectividade",
+          "pais_regiao": "Brasil",
+          "url": "https://revistacultivar.com.br/noticias/conectividade-no-campo-aumenta-desempenho-das-fazendas-da-slc-agricola",
+          "arquivo": "06_empresas-agro-bioenergia-florestal-br/Cultivar_2020_slc-conectividade-desempenho-fazendas.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2"
+          ],
+          "metricas": [
+            "Fala do CEO: 4G (700 MHz) em 5 unidades, cerca de 70 mil ha, em 2019; aplicação localizada com até 95% menos herbicida no controle pós-colheita (p. 3)"
+          ],
+          "resumo": "Fala do CEO: 4G (700 MHz) em 5 unidades, cerca de 70 mil ha, em 2019; aplicação localizada com até 95% menos herbicida no controle pós-colheita.",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: 4. **No agro, a fundação inclui o campo.** Conectividade e centro de operações vêm antes da IA de campo. Levar a conectividade à escala levou de 3 a 5 anos nos casos observados."
+        },
+        {
+          "titulo": "bp bioenergy reduz incêndios em 50% e consolida modelo de prevenção baseado em IA",
+          "organizacao": "Jornal Cana",
+          "ano": "2026 (10/07/2026)",
+          "tipo_fonte": "imprensa",
+          "setor": "bioenergia (cana) – incêndios",
+          "pais_regiao": "Brasil",
+          "url": "https://jornalcana.com.br/agricultura/tecnologia-agricola/bp-bioenergy-reduz-incendios-em-50-e-consolida-modelo-de-prevencao-baseado-em-ia",
+          "arquivo": "06_empresas-agro-bioenergia-florestal-br/JornalCana_2026_bp-bioenergy-reduz-incendios-50.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2"
+          ],
+          "metricas": [
+            "Prevenção de incêndio com IA (câmeras térmicas em torres e satélite), 2019–2025: incêndios 50% menores, área queimada 77% menor, tempo de resposta 66% menor (p. 2, 6)"
+          ],
+          "resumo": "Prevenção de incêndio com IA (câmeras térmicas em torres e satélite), 2019–2025: incêndios 50% menores, área queimada 77% menor, tempo de resposta 66% menor.",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: - detecção de incêndio por IA;"
+        },
+        {
+          "titulo": "Tem internet 4G a cada metro quadrado dos 350 mil hectares da São Martinho",
+          "organizacao": "Canaonline",
+          "ano": "2020 (01/09/2020)",
+          "tipo_fonte": "mídia",
+          "setor": "bioenergia (cana) – conectividade",
+          "pais_regiao": "Brasil",
+          "url": "https://www.canaonline.com.br/conteudo/tem-internet-4g-a-cada-metro-quadrado-dos-350-mil-hectares-da-sao-martinho.html",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F1",
+            "F2"
+          ],
+          "metricas": [
+            "Rede 4G própria cobrindo 350 mil ha nas 4 usinas em 2020; manutenção preditiva antecipa defeito em colhedora com 26 horas de antecedência (página oficial; leitura do Rafael em 30/09/2026, sem cópia guardada)"
+          ],
+          "resumo": "Rede 4G própria cobrindo 350 mil ha nas 4 usinas em 2020; manutenção preditiva antecipa defeito em colhedora com 26 horas de antecedência.",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: 4. **No agro, a fundação inclui o campo.** Conectividade e centro de operações vêm antes da IA de campo. Levar a conectividade à escala levou de 3 a 5 anos nos casos observados."
+        },
+        {
+          "titulo": "Atvos tem economia de R$ 5,8 milhões com CIA",
+          "organizacao": "RPA News",
+          "ano": "2020 (17/11/2020)",
+          "tipo_fonte": "mídia",
+          "setor": "bioenergia (cana) – centro de operações",
+          "pais_regiao": "Brasil",
+          "url": "https://revistarpanews.com.br/atvos-tem-economia-de-r-58-milhoes-com-cia/",
+          "arquivo": "06_empresas-agro-bioenergia-florestal-br/RPANews_2020_atvos-economia-centro-inteligencia.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2"
+          ],
+          "metricas": [
+            "R$ 5,8 milhões de economia na 1ª fase (p. 1-2)"
+          ],
+          "resumo": "Centro de inteligência agrícola (Projeto Cubo) com operação remota de máquinas e torres de satélite onde não havia sinal; R$ 5,8 milhões de economia na 1ª fase.",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: 4. **No agro, a fundação inclui o campo.** Conectividade e centro de operações vêm antes da IA de campo. Levar a conectividade à escala levou de 3 a 5 anos nos casos observados."
+        },
+        {
+          "titulo": "Torre controla transporte de madeira da Klabin",
+          "organizacao": "IT Forum",
+          "ano": "2023 (22/12/2023)",
+          "tipo_fonte": "imprensa",
+          "setor": "florestal – logística",
+          "pais_regiao": "Brasil",
+          "url": "https://itforum.com.br/noticias/torre-controla-transporte-de-madeira-da-klabin/",
+          "arquivo": "06_empresas-agro-bioenergia-florestal-br/ITForum_2023_torre-controle-transporte-madeira-klabin.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F2"
+          ],
+          "metricas": [
+            "Torre de Controle Florestal implementada a partir de 2021, 24 horas, da colheita à fábrica; cerca de 700 caminhões e mais de 340 viagens por dia em 2023 (p. 2)"
+          ],
+          "resumo": "Torre de Controle Florestal implementada a partir de 2021, 24 horas, da colheita à fábrica; cerca de 700 caminhões e mais de 340 viagens por dia em 2023.",
+          "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: - Klabin, 2021;"
+        }
+      ],
+      "lacunas": [
+        "SLC Agrícola (release publicado em Notícias Agrícolas), Centro de Inteligência Agrícola da SLC completa cinco anos: sem cópia guardada (chrome https://www.noticiasagricolas.com.br/noticias/agronegocio/38: página de bloqueio ou vazia); salvar à mão no navegador e conferir os números antes de usar.",
+        "Canaonline, Tem internet 4G a cada metro quadrado dos 350 mil hectares da São Martinho: sem cópia guardada (chrome falhou); salvar à mão no navegador e conferir os números antes de usar."
+      ]
+    }
+  ]
+}
