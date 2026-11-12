@@ -758,7 +758,7 @@
           "metricas": [
             "R$ 12,50 de retorno líquido para cada R$ 1 investido em agricultura digital (ROI implícito; fonte citada: Formulário de Referência; 2026) (p. 89)",
             "Ganho líquido com novas tecnologias digitais: R$ 2 mi (18/19), 17 mi (19/20), 25 mi (20/21), 39 mi (21/22), 82 mi (22/23), 86 mi (23/24) e 58 mi (24/25) (p. 89)",
-            "80% da economia em defensivos veio da aplicação localizada, feita em 382 mil ha (safra 2024/25) (p. 76)",
+            "Aplicação localizada de defensivos 'responsável por 80% de economia em defensivos', em 382 mil ha (safra 2024/25); o slide não diz se é redução de 80% no volume ou 80% da economia total (p. 76)",
             "67% de economia com sensores de aplicação seletiva em mais de 227 mil ha, presentes em 21 fazendas (safra 2024/25) (p. 81)",
             "24 fazendas completamente conectadas com sinal 4G (2026) (p. 74)",
             "100% das lavouras mapeadas em agricultura de precisão (safra 2025/26) (p. 78)",
@@ -1579,11 +1579,11 @@
             "F3"
           ],
           "metricas": [
-            "79% dizem que agentes de IA já estão sendo adotados na empresa; 88% vão aumentar o orçamento de IA por causa da IA agêntica (308 executivos dos EUA, abr/2025) (p. 2, 5)",
-            "Entre os que adotaram agentes: 66% veem ganho mensurável de produtividade, 57% redução de custos, 55% decisões mais rápidas e 54% melhor experiência do cliente (p. 8)",
-            "68% dizem que metade ou menos dos funcionários interage com agentes no dia a dia (p. 5)",
-            "Só 45% repensam o modelo operacional e 42% redesenham processos em torno dos agentes (p. 12)",
-            "A confiança nos agentes cai em tarefas de alto risco: 20% para transações financeiras, contra 38% para análise de dados (p. 10)"
+            "79% dizem que agentes de IA já estão sendo adotados na empresa; 88% vão aumentar o orçamento de IA por causa da IA agêntica (308 executivos dos EUA, abr/2025) (p. 2, 6, 24)",
+            "Entre os que adotaram agentes: 66% veem ganho mensurável de produtividade, 57% redução de custos, 55% decisões mais rápidas e 54% melhor experiência do cliente (p. 12)",
+            "68% dizem que metade ou menos dos funcionários interage com agentes no dia a dia (p. 7)",
+            "Só 45% repensam o modelo operacional e 42% redesenham processos em torno dos agentes (p. 21)",
+            "A confiança nos agentes cai em tarefas de alto risco: 20% para transações financeiras, contra 38% para análise de dados (p. 17)"
           ],
           "resumo": "Pesquisa da PwC sobre adoção e valor de agentes de IA, salva em PDF a partir da página oficial. Mostra ganhos de produtividade e a distância até a transformação real do modelo operacional.",
           "relevancia": "media"
@@ -5467,7 +5467,7 @@
             "F3"
           ],
           "metricas": [
-            "Só 18% dos produtores se consideram early adopters de tecnologia; 62% se veem na 'maioria inicial' (1.350+ produtores, 15+ estados, 2025) (p. 22)",
+            "Só 18% dos produtores se consideram early adopters de tecnologia; 62% se veem na 'maioria inicial' (1.350+ produtores, 2025; o texto fala em mais de 15 estados, p. 6, e o quadro da p. 5 em 10+) (p. 22)",
             "22% dos agricultores de lavoura vs. 9% dos pecuaristas são early adopters (p. 8)",
             "49% priorizam aumentar produtividade, 42% combinam com expansão e só 9% focam apenas em nova área (p. 8)",
             "Mais de 70% buscam ativamente melhorias na fazenda (p. 8)",
@@ -6480,7 +6480,7 @@
           ],
           "metricas": [
             "~500 pessoas em hubs nos EUA, Índia, Brasil e outros países nos times de tecnologia, combinando engenharia, ciência de dados e agronomia (p. 6)",
-            "Cropwise AI usa >20 anos de histórico de clima e >80 mil observações de estádios fenológicos, com ganho projetado de até 5% de produtividade nas recomendações de sementes (p. 5)"
+            "Cropwise AI usa >20 anos de histórico de clima e >80 mil observações de estádios fenológicos, com ganho projetado de até 5% de produtividade nas recomendações de sementes (p. 6)"
           ],
           "resumo": "Página impressa em PDF com a estratégia de IA agêntica da Syngenta: Cropwise, abertura da plataforma a desenvolvedores via APIs (Cropwise Open, nov/2025) e multicloud (AWS, Google, Microsoft) escolhido por finalidade. Também cita pesquisa IPSOS segundo a qual confiança, controle de dados e prova local pesam mais na adoção que recursos ou preço.",
           "relevancia": "media"

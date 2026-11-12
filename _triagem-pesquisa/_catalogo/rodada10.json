@@ -434,7 +434,7 @@
             "F3"
           ],
           "metricas": [
-            "Área agrícola com sinal 4G ou 5G passou de 18,7% para 33,9% entre 2024 e 2025; imóveis rurais com cobertura total da área agricultável de 37,4% para 48,1% (p. 1)"
+            "Área agrícola com sinal 4G ou 5G passou de 18,7% para 33,9% entre 2024 e 2025; imóveis rurais com cobertura total da área agricultável de 37,4% para 48,1% (p. 1-2)"
           ],
           "resumo": "Área agrícola com sinal 4G ou 5G passou de 18,7% para 33,9% entre 2024 e 2025; imóveis rurais com cobertura total da área agricultável de 37,4% para 48,1%. Mede cobertura, não qualidade; site da ConectarAgro não abriu.",
           "relevancia": "Usada no framework de maturidade do Rafael (BIA-ACL-FM-01, 30/09/2026) e no roadmap de adoção: - Só 33,9% da área agrícola tem sinal 4G ou 5G. Nos outros dois terços, a falta de sinal limita telemetria, correção de sinal e supervisão remota."

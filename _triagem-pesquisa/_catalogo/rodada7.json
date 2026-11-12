@@ -19,12 +19,12 @@
             "F3"
           ],
           "metricas": [
-            "Usuários de IA generativa que usam apps pessoais caíram de 78% para 47% em um ano; os que usam contas gerenciadas pela organização subiram de 25% para 62%; os que alternam entre as duas passaram de 4% para 9% (medição de tráfego, 01/10/2024–31/10/2025) (p. 2-3; período na p. 12)",
-            "Usuários de apps SaaS de IA generativa triplicaram na organização média, e os prompts subiram de 3.000 para 18.000 por mês (p. 3)",
-            "'Adoção' das principais ferramentas (base não definida no texto; não é participação de usuários): ChatGPT 77%, Google Gemini 69% (de 46%), Microsoft 365 Copilot 52%, Perplexity 35% (de 23%) (p. 4)",
-            "Violações de política de dados ligadas a IA generativa dobraram: média de 223 por mês por organização, cometidas por 3% dos usuários de IA generativa (só incidentes detectados); 50% das organizações sem política de proteção de dados com aplicação técnica ('enforceable') para IA generativa (p. 5)",
-            "Código-fonte (42%), dados regulados (32%) e propriedade intelectual (16%) são os dados mais envolvidos nas violações (p. 5)",
-            "90% das organizações bloqueiam ativamente algum app de IA generativa, em média 10 apps (p. 6)"
+            "Usuários de IA generativa que usam apps pessoais caíram de 78% para 47% em um ano; os que usam contas gerenciadas pela organização subiram de 25% para 62%; os que alternam entre as duas passaram de 4% para 9% (medição de tráfego, 01/10/2024–31/10/2025) (p. 2-3; período na p. 22)",
+            "Usuários de apps SaaS de IA generativa triplicaram na organização média, e os prompts subiram de 3.000 para 18.000 por mês (p. 3-4)",
+            "'Adoção' das principais ferramentas (base não definida no texto; não é participação de usuários): ChatGPT 77%, Google Gemini 69% (de 46%), Microsoft 365 Copilot 52%, Perplexity 35% (de 23%) (p. 5)",
+            "Violações de política de dados ligadas a IA generativa dobraram: média de 223 por mês por organização, cometidas por 3% dos usuários de IA generativa (só incidentes detectados); 50% das organizações sem política de proteção de dados com aplicação técnica ('enforceable') para IA generativa (p. 7)",
+            "Código-fonte (42%), dados regulados (32%) e propriedade intelectual (16%) são os dados mais envolvidos nas violações (p. 8)",
+            "90% das organizações bloqueiam ativamente algum app de IA generativa, em média 10 apps (p. 10)"
           ],
           "resumo": "Relatório anual do laboratório de ameaças da Netskope, baseado em dados anonimizados de uso da plataforma Netskope One entre 01/10/2024 e 31/10/2025: é medição de tráfego dos clientes, não pesquisa de opinião. Mostra a queda do uso de IA generativa por contas pessoais ao mesmo tempo em que sobe o uso de contas corporativas (o relatório lê como padronização do acesso; é coincidência no tempo, não efeito medido), o crescimento acelerado do uso total e das violações de política de dados, a adoção por ferramenta (ChatGPT, Gemini, Microsoft 365 Copilot) e o bloqueio de apps.",
           "relevancia": "Principal medição de tráfego para H2: a queda das contas pessoais coincide com a alta das contas corporativas, mas 47% ainda usam apps pessoais (coincidência no tempo, não prova de que a conta corporativa cause a queda); serve também para ver ChatGPT, Gemini e Copilot nas organizações, com a ressalva de que a base da 'adoção' não é definida; a Netskope vende segurança para IA (conflito de interesse) e a base é a sua própria clientela."

@@ -49,6 +49,8 @@ Materiais que exigem formulário, cadastro ou assinatura. Para solicitar, use se
   - Link: https://abmra.org.br/pesquisa-abmra-habitos-do-produtor-rural-abmra/
   - Campos: Compra de cota ('Adquira sua cota'), via contato comercial da ABMRA.
   - Material pago; avaliar custo-benefício. Os dados de uso de tecnologia (drones, softwares, IA) da 9ª edição não estão públicos.
+- **ABNT (via Target Normas, distribuidor) — ABNT NBR ISO 18497-1:2025 (e partes 2, 3 e 4) – Segurança de máquinas e tratores agrícolas parcialmente automatizados, semiautônomos e autônomos**
+  - Link: https://www.normas.com.br/visualizar/abnt-nbr-nm/14309/abnt-nbriso18497-1-maquinas-e-tratores-agricolas-seguranca-de-maquinas-parcialmente-automatizadas-semiautonomas-e-autonomas-parte-1-principios-de-projeto-de-maquinas-e-vocabulario
 - **AFNOR (com Ecolab/CGDD do Ministério da Transição Ecológica da França) — AFNOR SPEC 2314 - Référentiel général pour l'IA frugale: mesurer et réduire l'impact environnemental de l'IA**
   - Link: https://www.boutique.afnor.org/fr-fr/norme/afnor-spec-2314/referentiel-general-pour-lia-frugale-mesurer-et-reduire-limpact-environneme/fa208976/421140
   - Campos: Cadastro/conta e checkout na loja AFNOR Editions (consulta gratuita autorizada); campos exatos não verificados para não iniciar o cadastro.
@@ -140,8 +142,6 @@ Materiais que exigem formulário, cadastro ou assinatura. Para solicitar, use se
   - Guia setorial de 17/09/2025 para agricultura e alimentos; o mais aderente a agro e bioenergia para medir benefícios de soluções (inclusive IA).
 - **WatchGuard Technologies — 2026 Cybersecurity Hygiene Report (relatório completo)**
   - Link: https://www.watchguard.com/br/wgrd-resource-center/2026-cyber-hygiene-report
-- **Zscaler (ThreatLabz) — Zscaler ThreatLabz 2026 AI Security Report (relatório completo em PDF)**
-  - Link: https://www.zscaler.com/campaign/threatlabz-ai-security-report
 
 ## Descartados (pagos, indisponíveis ou pouco relevantes)
 
@@ -282,6 +282,9 @@ Materiais que exigem formulário, cadastro ou assinatura. Para solicitar, use se
   - CAPTCHA: nao · opt-in de marketing obrigatório: nao
   - Alternativa pública: https://www.snowflake.com/en/lp/radical-roi-generative-ai/
   - Sem CAPTCHA (EnableCaptcha=0) e sem opt-in obrigatório; pede telefone e setor. A landing page já traz a maioria dos números (novas métricas em 'itens'). O e-book acrescenta recortes de 10 países (sem Brasil) e 6 setores, entre eles manufatura e financeiro.
+- **Zscaler (ThreatLabz) — Zscaler ThreatLabz 2026 AI Security Report (relatório completo em PDF)**
+  - Link: https://www.zscaler.com/campaign/threatlabz-ai-security-report
+  - Formulário enviado em 09/11/2026: relatório completo catalogado em 12_shadow-ai-governanca (a página-resumo segue como M1072).
 
 
 ## Pagos ou bloqueados
@@ -295,12 +298,17 @@ Materiais que exigem formulário, cadastro ou assinatura. Para solicitar, use se
 - **MIT NANDA (Media Lab) — The GenAI Divide: State of AI in Business 2025** (bloqueado): https://nanda.media.mit.edu/ai_report_2025.pdf
 - **Fundação Dom Cabral + CI&T — AI Lighthouse Awards 2025 - relatório final** (bloqueado): https://www.fdc.org.br/ai-lighthouse-awards
 - **Harvard Business School (Dell'Acqua et al.), com Procter & Gamble — The Cybernetic Teammate: A Field Experiment on Generative AI Reshaping Teamwork and Expertise (HBS Working Paper 25-043)** (bloqueado): https://www.hbs.edu/faculty/Pages/item.aspx?num=67197
+- **Instituto Nacional de Pesquisas Espaciais (Inpe) — K. R. Ferreira et al. — Earth Observation Data Cubes for Brazil: Requirements, Methodology and Products (Remote Sensing 12(24), 4033)** (bloqueado): https://www.mdpi.com/2072-4292/12/24/4033
 - **Gartner — Gartner Says Organizations with Successful AI Initiatives Invest Up to Four Times More in Data and Analytics Foundations** (bloqueado): https://www.gartner.com/en/newsroom/press-releases/2026-04-16-gartner-says-organizations-with-successful-ai-initiatives-invest-up-to-four-times-more-in-data-and-analytics-foundations
 - **Gartner (Smarter With Gartner; K. Panetta) — The CIO's Guide to Artificial Intelligence (infográfico AI Maturity Model)** (bloqueado): https://www.gartner.com/smarterwithgartner/the-cios-guide-to-artificial-intelligence/
+- **ABNT (via Target Normas, distribuidor de normas técnicas) — ABNT NBR ISO 18497-1:2025 – Máquinas e tratores agrícolas — Segurança de máquinas parcialmente automatizadas, semiautônomas e autônomas – Parte 1: Princípios de projeto de máquinas e vocabulário (página do distribuidor)** (pago): https://www.normas.com.br/visualizar/abnt-nbr-nm/14309/abnt-nbriso18497-1-maquinas-e-tratores-agricolas-seguranca-de-maquinas-parcialmente-automatizadas-semiautonomas-e-autonomas-parte-1-principios-de-projeto-de-maquinas-e-vocabulario
 - **ABMRA — Pesquisa ABMRA Hábitos do Produtor Rural (9ª edição)** (pago): https://abmra.org.br/pesquisa-abmra-habitos-do-produtor-rural-abmra/
 - **AWS (Amazon Web Services) — AMAGGI reúne mais de 8 milhões de imagens de satélite em Data Lake AWS (case de cliente)** (bloqueado): https://aws.amazon.com/pt/solutions/case-studies/amaggi-case-study/
 - **SLC Agrícola (release publicado em Notícias Agrícolas) — Centro de Inteligência Agrícola da SLC completa cinco anos** (bloqueado): https://www.noticiasagricolas.com.br/noticias/agronegocio/385655-centro-de-inteligencia-agricola-da-slc-completa-cinco-anos-proporcionando-uma-agricultura-mais-eficiente-e-sustentavel.html
 - **John Deere (Deere & Company) — John Deere JD™ AI Helps Farmers Use Their Data (Introducing JD AI assistant)** (bloqueado): https://www.deere.com/en-us/john-deere-news/introducing-jd-ai-assistant
+- **ISO (International Organization for Standardization) — ISO 18497-2:2024 – Agricultural machinery and tractors — Safety of partially automated, semi-autonomous and autonomous machinery — Part 2: Design principles for obstacle protection systems** (pago): https://www.iso.org/standard/82686.html
+- **ISO (International Organization for Standardization) — ISO 18497-3:2024 – Part 3: Autonomous operating zones** (pago): https://www.iso.org/standard/82687.html
+- **ISO (International Organization for Standardization) — ISO 18497-4:2024 – Part 4: Verification methods and validation principles** (pago): https://www.iso.org/standard/82688.html
 - **Science (AAAS) — Belton et al. — Can the global drone revolution make agriculture more sustainable? (Science 389(6764): 972–976)** (bloqueado): https://doi.org/10.1126/science.ady1791
 - **ISO/TC 23/SC 19 — ISO 18497-1:2024 — Agricultural machinery and tractors — Safety of partially automated, semi-autonomous and autonomous machinery — Part 1: Machine design principles and vocabulary** (pago): https://www.iso.org/standard/82684.html
 - **Itaú Unibanco — Integrated Annual Report 2024** (bloqueado): https://www.itau.com.br/download-file/v2/d/42787847-4cf6-4461-94a5-40ed237dca33/c54c2832-35d3-876f-acfc-930865b159d0?origin=2

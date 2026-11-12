@@ -16,7 +16,7 @@ Os três bancos do pódio brasileiro em IA governam mais porque foram obrigados 
 - Por que governam mais: 2017 (Res. CMN 4.557, avaliação independente de modelos) [M1078, p. 8]; 2021 (Res. CMN 4.893, política ciber aprovada pelo conselho) [M1077, p. 2-3]; 2011 nos EUA [M1075, web]. Para a Acelen vale só a LGPD [M1079, web].
 
 **2. Os riscos além do shadow AI — e o que os três declaram**
-- Dados em prompts: violações de política de dados em IA generativa dobraram, 223/mês, código-fonte 42% (Netskope, fornecedora) [M1049, p. 5]; Brasil: 64% com dados regulados, 9% senhas e chaves (via imprensa) [M1081, web].
+- Dados em prompts: violações de política de dados em IA generativa dobraram, 223/mês, código-fonte 42% (Netskope, fornecedora) [M1049, p. 7-8]; Brasil: 64% com dados regulados, 9% senhas e chaves (via imprensa) [M1081, web].
 - Credenciais: commits com IA vazam segredos em 3,2% vs 1,5% (GitGuardian, fornecedora) [M1082, web]; 24 mil segredos em configs de MCP [M1083, web]; o ataque ao pacote Nx usou as ferramentas de IA do dev para caçar chaves [M1084, web; M1085, web].
 - Conectores e injeção de prompt: EchoLeak, zero clique no Microsoft 365 Copilot [M1088, web]; NCSC: "may never be totally mitigated" [M1086, web]; NIST: os 13 modelos de fronteira caíram ao menos uma vez [M1089, web]. O que se governa é o raio de ação.
 - Skills e extensões: 341 maliciosas em 2.857 num marketplace de agentes [M1090, web]; 30 extensões de navegador, 260 mil usuários [M1092, web].

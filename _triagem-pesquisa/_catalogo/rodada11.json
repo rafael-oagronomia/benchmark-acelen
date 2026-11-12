@@ -1,0 +1,1576 @@
+{
+  "resultados": [
+    {
+      "grupo": "IA no campo (Frente 3) (ia-no-campo-A)",
+      "pasta": "05_agro-brasil-instituicoes-midia",
+      "itens": [
+        {
+          "titulo": "Termos e Condições do Serviço de Conectividade Satelital – Vivo Satélite (Pessoa Física)",
+          "organizacao": "Telefônica Brasil S.A. (Vivo)",
+          "ano": "2026 (01/10/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "telecomunicações (conectividade direta satélite-celular, D2D)",
+          "pais_regiao": "Brasil",
+          "url": "https://vivo.com.br/content/dam/vivo-sites/vivo-com-br/homepage/pdf/vivo-satelite-termos-e-condicoes.pdf",
+          "arquivo": "05_agro-brasil-instituicoes-midia/Vivo_2026_vivo-satelite-termos-e-condicoes.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Serviço D2D por satélites de órbita baixa da constelação Starlink, usado só quando não há cobertura móvel terrestre; período de degustação de 26/10/2026 a 25/10/2027 (p. 1-2, 4)",
+            "Uso exclusivo em smartphones 4G/LTE ou 5G e só para WhatsApp, SMS, MMS, RCS, iMessage, Google Mensagens, Google Maps, Apple Maps e App Vivo; sem chamadas de emergência nem alertas da Defesa Civil (p. 2-3)",
+            "Vedado o uso para controle remoto, operação ou navegação de drones e veículos autônomos sem as autorizações exigidas (p. 6)"
+          ],
+          "resumo": "Termos oficiais do Vivo Satélite (01/10/2026): conexão direta do celular a satélites de órbita baixa da Starlink, em degustação de 26/10/2026 a 25/10/2027, com base no ambiente regulatório experimental da Anatel. Detalham elegibilidade, aplicativos permitidos, limites de cobertura (céu aberto; relevo e vegetação densa afetam) e vedações de uso.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "ABNT NBR ISO 18497-1:2025 – Máquinas e tratores agrícolas — Segurança de máquinas parcialmente automatizadas, semiautônomas e autônomas – Parte 1: Princípios de projeto de máquinas e vocabulário (página do distribuidor)",
+          "organizacao": "ABNT (via Target Normas, distribuidor de normas técnicas)",
+          "ano": "2025 (dez/2025)",
+          "tipo_fonte": "outro",
+          "setor": "normas técnicas de máquinas agrícolas autônomas",
+          "pais_regiao": "Brasil",
+          "url": "https://www.normas.com.br/visualizar/abnt-nbr-nm/14309/abnt-nbriso18497-1-maquinas-e-tratores-agricolas-seguranca-de-maquinas-parcialmente-automatizadas-semiautonomas-e-autonomas-parte-1-principios-de-projeto-de-maquinas-e-vocabulario",
+          "arquivo": "",
+          "status": "pago",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Norma brasileira publicada em 12/2025, vigente, baseada na ISO 18497-1, com 20 páginas; as partes 2, 3 e 4 aparecem como normas complementares (web)"
+          ],
+          "resumo": "Registro da adoção, pela ABNT, da série ISO 18497 sobre segurança de máquinas agrícolas automatizadas e autônomas, em dez/2025. A página oficial da ABNT não foi localizada; a informação vem do catálogo de um distribuidor, e a impressão foi bloqueada (sem cópia).",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Mercado de Trabalho do Agronegócio Brasileiro – 2º trimestre 2026 (Boletim de acompanhamento trimestral)",
+          "organizacao": "Cepea (Esalq/USP) e CNA",
+          "ano": "2026 (14/10/2026)",
+          "tipo_fonte": "academia",
+          "setor": "mercado de trabalho do agronegócio",
+          "pais_regiao": "Brasil",
+          "url": "https://cnabrasil.org.br/storage/arquivos/files/dagro.mt_agronegocio_boletim_2tri2026.14out2026_expediente.pdf",
+          "arquivo": "05_agro-brasil-instituicoes-midia/Cepea-CNA_2026_mercado-trabalho-agronegocio-2-trimestre.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "População ocupada no agronegócio de 28,4 milhões no 2T2026, recorde para um 2º trimestre desde 2012; 26,0% dos ocupados do país (p. 3)",
+            "Ocupados no segmento primário: 10,15 milhões em 2012, 8,17 milhões em 2020, 8,75 milhões em 2021 e 7,77 milhões em 2025 (p. 7)",
+            "2T2026 contra 2T2025: cafeicultura +19,1% (126.553 pessoas), soja +13,8%, produção florestal +15,3%, outras lavouras permanentes -10,3% (p. 7)"
+          ],
+          "resumo": "Boletim trimestral Cepea/CNA com a população ocupada no agronegócio por segmento e atividade. Registra a queda de longo prazo no segmento primário e alerta que os dados, sozinhos, não provam que a queda venha só da troca de pessoas por máquinas.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Produtividade e emprego: novas diretrizes para as políticas públicas (apresentação do estudo 'Mercado de Trabalho na Agropecuária: Evidências sobre Escassez de Mão de Obra e Produtividade')",
+          "organizacao": "CNA, com Cepea (apresentado por Isabel Mendes, Agenda Brasil)",
+          "ano": "2026 (22/08/2026; apresentado em 25/08/2026)",
+          "tipo_fonte": "associação setorial",
+          "setor": "mercado de trabalho na agropecuária",
+          "pais_regiao": "Brasil",
+          "url": "https://cnabrasil.org.br/storage/arquivos/pdf/dtec._2Painel_MercadodeTrabalho..22ago2026.vf-Isabel.pdf",
+          "arquivo": "05_agro-brasil-instituicoes-midia/CNA-Cepea_2026_apresentacao-escassez-mao-de-obra-agropecuaria.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "94,8% com dificuldade de contratação; 44,5% apontam a mão de obra como desafio nº 1; 88,3% com consequência produtiva, entre elas mecanização ou automação antecipada (42,6%) e mudança para atividade menos intensiva em trabalho (27,9%) (p. 3)",
+            "Estratégia principal contra a escassez: mecanização 26%, atrair e reter funcionários 20,8%, mudar de atividade 17%, terceirização 9,5%, automação ou tecnologias digitais 8,7%; 12,2% não adotaram estratégia (p. 14)",
+            "Razão salarial agro/total do operador de máquinas passou de 1,00 para 1,10 e a do técnico de nível médio, de 0,82 para 1,27, entre 2012 e 2025 (p. 5)"
+          ],
+          "resumo": "Slides oficiais do estudo CNA/Cepea sobre escassez de mão de obra no campo, com os resultados da pesquisa com empregadores e indicadores do IBGE. Não informa o tamanho da amostra.",
+          "relevancia": "alta"
+        }
+      ],
+      "formularios": [
+        {
+          "organizacao": "ABNT (via Target Normas, distribuidor)",
+          "titulo": "ABNT NBR ISO 18497-1:2025 (e partes 2, 3 e 4) – Segurança de máquinas e tratores agrícolas parcialmente automatizados, semiautônomos e autônomos",
+          "url": "https://www.normas.com.br/visualizar/abnt-nbr-nm/14309/abnt-nbriso18497-1-maquinas-e-tratores-agricolas-seguranca-de-maquinas-parcialmente-automatizadas-semiautonomas-e-autonomas-parte-1-principios-de-projeto-de-maquinas-e-vocabulario",
+          "tipo_acesso": "visualização gratuita única mediante cadastro e validação de e-mail (campanha promocional) ou compra (R$ 171,74 a R$ 245,34 a parte 1)",
+          "campos": "cadastro com e-mail validado, usado pelo distribuidor para divulgação",
+          "relevancia": "média: confirmaria o texto brasileiro da norma e o comitê da ABNT; o resumo público já basta para registrar a adoção em dez/2025",
+          "recomendacao": "Não cadastrar agora. Se a nota precisar citar requisitos da norma, comprar a parte 1 pela ABNT ou consultar a página oficial do catálogo da ABNT."
+        }
+      ],
+      "lacunas": [
+        "Máquinas autônomas em operação no Brasil: não há estatística oficial nem independente de unidades, área ou horas; só dados de fabricante (Jacto: 16 mil horas e 60 mil ha antes do lançamento comercial do Arbus 4000 JAV; Solinftec: cerca de 100 robôs no país). A Deere não divulga números de autonomia ou da GUSS para o Brasil.",
+        "Ganho de tempo até a decisão com processamento embarcado (borda), medido em operação: não localizado. Há economia de insumo medida por universidades (Iowa State, Arkansas), dados de fabricante (CNH, Solinftec) e um teste de tempo de inferência a bordo de drone (UFSCar), mas nenhum estudo compara, em operação, o tempo da imagem até a ação com e sem processamento na máquina.",
+        "Conexão direta por satélite em máquinas e sensores no Brasil: a primeira oferta D2D (Vivo Satélite, out/2026) é só para smartphones e uso pessoal e veda o uso em drones e veículos autônomos sem autorização; não há número público de máquinas agrícolas conectadas por satélite no país. Os números de acessos de banda larga por satélite (Starlink) só apareceram na imprensa, sem o painel de dados da Anatel arquivado; nova edição do Indicador de Conectividade Rural (ConectarAgro) de 2026 não localizada; estudo da ConectarAgro com 66,5% da área de cana coberta só na imprensa (Canal Rural), sem documento primário.",
+        "Robôs de colheita de frutas que fecharam ou recuaram, com causa declarada em fonte primária: não localizados (Abundant Robotics, 2021, sem documento oficial; Harvest CROO, dada pela FAO em 2022 como 'perto do mercado', sem situação atual confirmada). Os casos documentados de insucesso (Small Robot Company, Naïo, FarmWise, Monarch Tractor) são de capina, plataformas e tratores.",
+        "Normas no Brasil: além da adoção da série ISO 18497 pela ABNT (dez/2025, vista em catálogo de distribuidor), não se localizou regra específica para máquinas agrícolas autônomas no MTE (NR-12, NR-31) nem no MAPA; a página oficial da ABNT não foi acessada; os textos integrais da ISO 18497 são pagos.",
+        "Escassez de mão de obra por cultura perene no Brasil (citros, florestal, palma, fruticultura): sem número oficial recente no bloco A; o café está coberto pelo bloco B (CNA/Campo Futuro). O estudo CNA/Cepea de 2026 não divulga o tamanho da amostra nem recorte por cultura; o boletim Cepea dá ocupação por atividade, não escassez.",
+        "Monarch Tractor: o fechamento das instalações em abr/2026 aparece só em página de escritório de advocacia e na imprensa; o relatório WARN da Califórnia (2025-26) traz só os avisos de nov/2025.",
+        "China: número oficial de máquinas com direção automática ou operação sem operador (e não só de terminais Beidou) não localizado em estatística do Ministério da Agricultura; o dado vem do People's Daily citando a associação de navegação por satélite.",
+        "Solinftec: a empresa não comenta a diferença entre a meta de cerca de 700 robôs Solix em operação nas safras 2025 e 2026 e os cerca de 250 relatados em abr/2026 (150 nos EUA e 100 no Brasil).",
+        "Lei de IA e responsabilidade: não se localizou documento brasileiro que trate de responsabilidade civil por acidente com máquina agrícola autônoma; na UE, o tema está no Regulamento de Máquinas (aplicável a partir de 14/01/2027) e na Diretiva de Responsabilidade por Produtos citada pela CEMA.",
+        "(verificação) Naïo: a conversão da sociedade em liquidação judicial (BODACC, anúncio n° 2648, 28/10/2025, visto nos dados abertos do BODACC) ainda não está no catálogo; o comprador do plano de cessão não foi identificado em fonte oficial.",
+        "(verificação) FarmWise: a compra do negócio pela Taylor Farms em abr/2025, citada no resumo do bruto, não tem fonte no bloco (a reportagem de mar/2025 só cita a Taylor Farms como investidora).",
+        "(verificação) UFSCar: o DOI informado no bruto (10.5753/eniac.2026.31055) não existe na Crossref e o site da SBC não respondeu em 11/11/2026; evento e DOI a confirmar antes de citar.",
+        "(verificação) ABNT NBR ISO 18497-1: a página do distribuidor mostra 'Vigente', mas o HTML traz também um aviso-padrão de norma 'cancelada'; confirmar a situação no catálogo oficial da ABNT.",
+        "(verificação) Monarch Tractor: os números de frota e de captação divergem entre veículos (Forbes, ago/2025: 'pouco mais de 100' tratores em operação e US$ 116 milhões captados; TechCrunch, nov/2025: 'cerca de 500' enviados, segundo a empresa, e ao menos US$ 220 milhões); não há número oficial."
+      ]
+    },
+    {
+      "grupo": "IA no campo (Frente 3) (ia-no-campo-A)",
+      "pasta": "04_academia-instituicoes",
+      "itens": [
+        {
+          "titulo": "Ato nº 11.334, de 2 de setembro de 2026 (autorização temporária D2D à Telefônica Brasil)",
+          "organizacao": "Anatel (Superintendência de Outorga e Recursos à Prestação), publicado no Diário Oficial da União",
+          "ano": "2026 (DOU de 16/09/2026)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "telecomunicações (regulação de satélite direto ao dispositivo)",
+          "pais_regiao": "Brasil",
+          "url": "https://www.in.gov.br/web/dou/-/ato-n-11.334-de-2-de-setembro-de-2026-732109007",
+          "arquivo": "04_academia-instituicoes/Anatel_2026_ato-11334-d2d-satelite-celular-vivo-ate-2029.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Autoriza a Telefônica Brasil a operar aplicações D2D por satélite em todo o território nacional de 19/07/2026 a 22/04/2029, em 2.567,5 e 2.687,5 MHz, 5 MHz por frequência, até 100 W (p. 2)",
+            "Outorga em caráter secundário, sem proteção contra interferência, com possibilidade de caráter comercial no projeto-piloto (p. 2)",
+            "Projeto-piloto de ambiente regulatório experimental D2D criado pelo Ato 5.322/2024 e prorrogado pelo Ato 10.902/2026, por decisão unânime do Conselho Diretor (p. 1)"
+          ],
+          "resumo": "Ato da Anatel que prorroga até abr/2029 a autorização temporária de radiofrequências para a conexão direta de celulares a satélites (D2D) da Telefônica Brasil, base regulatória do Vivo Satélite. Mostra que a oferta ainda é experimental (sandbox), secundária e sujeita a regras definitivas.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Regulation (EU) 2023/1230 of the European Parliament and of the Council of 14 June 2023 on machinery",
+          "organizacao": "União Europeia (Parlamento Europeu e Conselho), Jornal Oficial L 165",
+          "ano": "2023",
+          "tipo_fonte": "governo/instituição",
+          "setor": "regulação de máquinas (inclui máquinas móveis autônomas)",
+          "pais_regiao": "União Europeia",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32023R1230",
+          "arquivo": "04_academia-instituicoes/UE_2023_regulamento-maquinas-2023-1230.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Aplica-se a partir de 14/01/2027 (p. 49)",
+            "Define máquina móvel autônoma, supervisor e função de supervisão (vigilância remota não permanente) (p. 81)",
+            "Sem a função de supervisão ativa, a máquina autônoma não pode operar; o supervisor só pode parar, partir ou levar a máquina a posição segura (p. 82)",
+            "Software com comportamento autoevolutivo (aprendizado de máquina) que garanta funções de segurança exige avaliação de conformidade por terceiro (p. 9, 51)"
+          ],
+          "resumo": "Novo Regulamento de Máquinas da UE, que substitui a Diretiva 2006/42/CE e traz requisitos específicos para máquinas móveis autônomas e supervisão remota. É a referência regulatória citada pela indústria europeia para a autonomia agrícola.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Embedded Vision AI for UAV-Based Weed Detection in Sugarcane Field Using Semantic Segmentation (Anais do ENIAC 2026)",
+          "organizacao": "Universidade Federal de São Carlos (UFSCar) – R. R. D. Pereira, S. E. Graziosi, R. S. Inoue; SBC",
+          "ano": "2026",
+          "tipo_fonte": "academia",
+          "setor": "drones e IA embarcada (cana-de-açúcar)",
+          "pais_regiao": "Brasil (SP)",
+          "url": "https://sol.sbc.org.br/index.php/eniac/article/view/46883",
+          "arquivo": "04_academia-instituicoes/UFSCar-ENIAC_2026_ia-embarcada-drone-daninhas-cana.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Modelo PSPNet-ResNet18 (F1 de 0,705) processa cada imagem de 20 MP em 1,08 ± 0,07 s no computador embarcado previsto (Jetson AGX Orin), em análise de bancada (hardware-in-the-loop), 3,7 vezes a taxa exigida pela captura a 70 m e 7 m/s (p. 9-10)",
+            "266 imagens convertidas em camadas georreferenciadas de daninhas numa lavoura comercial de cana de 5,16 ha; pipeline completo a bordo ainda por validar em voos operacionais (p. 10)"
+          ],
+          "resumo": "Artigo da UFSCar (2026, publicado no repositório da SBC, na seção do ENIAC) que avalia 394 configurações de modelos de segmentação para mapear daninhas na cana com processamento no próprio drone, sem depender da nuvem; a viabilidade em tempo real foi medida em bancada. É prova de viabilidade em pesquisa, não operação comercial.",
+          "relevancia": "alta"
+        }
+      ],
+      "formularios": [],
+      "lacunas": []
+    },
+    {
+      "grupo": "IA no campo (Frente 3) (ia-no-campo-A)",
+      "pasta": "07_agro-global-perenes-autonomia",
+      "itens": [
+        {
+          "titulo": "John Deere Acquires GUSS Automation to Strengthen High-Value Crop Autonomy Portfolio (News Release)",
+          "organizacao": "Deere & Company (John Deere)",
+          "ano": "2025 (27/08/2025)",
+          "tipo_fonte": "empresa",
+          "setor": "máquinas agrícolas (autonomia em pomares e vinhedos)",
+          "pais_regiao": "EUA / global",
+          "url": "https://gussag.com/wp-content/uploads/2026/02/John-Deere-Acquires-GUSS-Automation-News-Release.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/Deere-GUSS_2025_aquisicao-guss-pulverizadores-autonomos-pomares.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F1",
+            "F3"
+          ],
+          "metricas": [
+            "Mais de 250 máquinas GUSS implantadas no mundo, com 2,6 milhões de acres pulverizados acumulados em 500 mil horas autônomas (p. 1)",
+            "Um único operador supervisiona remotamente até oito pulverizadores (p. 1)"
+          ],
+          "resumo": "Comunicado da Deere sobre a compra integral da GUSS, fabricante de pulverizadores autônomos para pomares e vinhedos com supervisão remota. Traz número de máquinas implantadas, horas autônomas e área pulverizada acumulada, segundo a empresa.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "WARN Report for 7/1/2025 to 6/30/2026",
+          "organizacao": "California Employment Development Department (EDD)",
+          "ano": "2026",
+          "tipo_fonte": "governo/instituição",
+          "setor": "trabalho (avisos de demissão em massa), inclui fabricante de tratores autônomos",
+          "pais_regiao": "EUA (Califórnia)",
+          "url": "https://edd.ca.gov/siteassets/files/jobs_and_training/warn/warn-report-for-7-1-25-to-6-30-26.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/EDD-California_2026_warn-report-2025-26-inclui-monarch-tractor.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Zimeno Inc. dba Monarch Tractor: avisos de 19/11/2025 para 89 empregados (Lawrence Drive) e 8 (Tesla Road), em Livermore (p. 10)"
+          ],
+          "resumo": "Relatório oficial dos avisos de demissão em massa na Califórnia no ano fiscal 2025-26. Registra os avisos da Monarch Tractor, fabricante de tratores elétricos autônomos, em nov/2025.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Monarch Tractor preps for layoffs and warns employees it may 'shut down'",
+          "organizacao": "TechCrunch (Sean O'Kane)",
+          "ano": "2025 (19/11/2025)",
+          "tipo_fonte": "imprensa",
+          "setor": "máquinas agrícolas autônomas (startup)",
+          "pais_regiao": "EUA",
+          "url": "https://techcrunch.com/2025/11/19/monarch-tractor-preps-for-layoffs-and-warns-employees-it-may-shut-down/",
+          "arquivo": "07_agro-global-perenes-autonomia/TechCrunch_2025_monarch-tractor-demissoes-risco-de-encerramento.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "A Monarch diz ter enviado cerca de 500 tratores; levantou ao menos US$ 220 milhões (p. 2)",
+            "Memorando prevê até 102 demissões permanentes e risco de encerramento na transição para licenciamento de software; mais de 70% da receita de 2025 veio de licenciamento, segundo o CEO (p. 3)"
+          ],
+          "resumo": "Reportagem (imprensa) sobre o memorando interno da Monarch Tractor, que anunciou demissões e risco de encerramento em nov/2025 ao migrar de fabricante de tratores autônomos para licenciamento de software. Única fonte localizada para a causa declarada.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Monarch Tractor sued over tractors that were 'unable to operate autonomously'",
+          "organizacao": "TechCrunch (Sean O'Kane)",
+          "ano": "2025 (18/11/2025)",
+          "tipo_fonte": "imprensa",
+          "setor": "máquinas agrícolas autônomas (startup)",
+          "pais_regiao": "EUA",
+          "url": "https://techcrunch.com/2025/11/18/monarch-tractor-sued-over-tractors-that-were-unable-to-operate-autonomously/",
+          "arquivo": "07_agro-global-perenes-autonomia/TechCrunch_2025_monarch-tractor-processo-autonomia.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Concessionária de Idaho pagou US$ 773.088 por 10 tratores e alega que não operavam de forma autônoma; a Monarch nega em juízo (p. 2-3)"
+          ],
+          "resumo": "Reportagem (imprensa) sobre ação de uma concessionária contra a Monarch Tractor, que alega que os tratores vendidos como autônomos não funcionavam de forma autônoma. As alegações não foram julgadas.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Annonce n° 2651 du BODACC A n° 20250218 – NAÏO-TECHNOLOGIES, jugement arrêtant un plan de cession",
+          "organizacao": "BODACC (Bulletin officiel des annonces civiles et commerciales, DILA) – Greffe du Tribunal de Commerce de Toulouse",
+          "ano": "2025 (13/11/2025)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "robótica agrícola (capina)",
+          "pais_regiao": "França",
+          "url": "https://www.bodacc.fr/pages/annonces-commerciales-detail/?q.id=id:A202502182651",
+          "arquivo": "07_agro-global-perenes-autonomia/BODACC_2025_naio-technologies-plano-de-cessao.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Jugement arrêtant le plan de cession de 27/10/2025 (p. 1)",
+            "Histórico: jugement d'ouverture publicado em 22/06/2025 e jugement prononçant publicado em 13/11/2025 (p. 2); pelos dados abertos do BODACC, o primeiro abriu redressement judiciaire (julgamento de 05/06/2025) e o segundo (anúncio n° 2648) converteu o processo em liquidação judicial em 28/10/2025"
+          ],
+          "resumo": "Anúncio oficial do plano de cessão da Naïo Technologies, fabricante francesa de robôs de capina, aprovado em 27/10/2025 após recuperação judicial aberta em jun/2025; o anúncio n° 2648 do mesmo boletim converte o processo da sociedade em liquidação judicial (28/10/2025). Documenta, com data, o recuo de uma das pioneiras da robótica de lavoura.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Naïo Writes a New Chapter in Its Story and Strengthens Its Industrial Roots (press release)",
+          "organizacao": "Naïo Technologies",
+          "ano": "2025 (10/11/2025)",
+          "tipo_fonte": "empresa",
+          "setor": "robótica agrícola (capina)",
+          "pais_regiao": "França / global",
+          "url": "https://www.naio-technologies.com/en/news/naio-ecrit-une-nouvelle-page-de-son-histoire-et-renforce-son-ancrage-industriel/",
+          "arquivo": "07_agro-global-perenes-autonomia/Naio_2025_relancamento-naio-robos-capina.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Mais de 350 robôs implantados e operações em cinco continentes (p. 3)",
+            "Plano de relançamento de €6,4 milhões; meta de equilíbrio operacional em 2028 e de 100 robôs produzidos por ano e €11 milhões de receita em 2030; 21 empregos mantidos (p. 3)"
+          ],
+          "resumo": "Comunicado de 10/11/2025, duas semanas após o plano de cessão registrado no BODACC, com nova direção, a base instalada declarada e as metas do relançamento (plano de €6,4 milhões). Não menciona o processo judicial nem as causas das dificuldades.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Appointment of Liquidators – Small Robot Company Limited (notice 4548633)",
+          "organizacao": "The Gazette (The London Gazette, Reino Unido)",
+          "ano": "2024 (07/02/2024)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "robótica agrícola",
+          "pais_regiao": "Reino Unido",
+          "url": "https://www.thegazette.co.uk/notice/4548633",
+          "arquivo": "07_agro-global-perenes-autonomia/TheGazette-UK_2024_small-robot-company-liquidacao.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Liquidação de credores, com liquidantes nomeados em 01/02/2024; atividade: fabricação e desenvolvimento de máquinas agrícolas (p. 1)"
+          ],
+          "resumo": "Aviso oficial da liquidação da Small Robot Company, startup britânica de robôs de capina e mapeamento de daninhas por IA.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Agtech startup Small Robot Company shutting down",
+          "organizacao": "The Robot Report (Mike Oitzman)",
+          "ano": "2024 (02/02/2024)",
+          "tipo_fonte": "imprensa",
+          "setor": "robótica agrícola",
+          "pais_regiao": "Reino Unido",
+          "url": "https://www.therobotreport.com/agtech-startup-small-robot-company-shutting-down/",
+          "arquivo": "07_agro-global-perenes-autonomia/TheRobotReport_2024_small-robot-company-encerramento.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Causa declarada pela empresa: investimento com term sheet assinado não chegou antes do fim do caixa; 'vítimas do vale da morte'; o financiamento público só cobre o desenvolvimento até o protótipo (p. 2)"
+          ],
+          "resumo": "Reportagem (imprensa) com a declaração da Small Robot Company sobre o fechamento em fev/2024 e a causa: falta de capital para escalar hardware agrícola.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "農業機械の自動走行に関する安全性確保ガイドライン (Diretrizes de segurança para o trabalho autônomo de máquinas agrícolas), revisão de março de 2026",
+          "organizacao": "MAFF – Ministério da Agricultura, Florestas e Pesca do Japão",
+          "ano": "2026 (27/03/2026)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "regulação de máquinas agrícolas autônomas",
+          "pais_regiao": "Japão",
+          "url": "https://www.maff.go.jp/j/press/nousan/gizyutu/attach/pdf/260327-3.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/MAFF-Japao_2026_guia-seguranca-maquinas-agricolas-autonomas.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Escopo: máquinas que operam sem operador a bordo, sob monitoramento visual ou remoto, em campos abertos; exclui máquinas em P&D (p. 6)",
+            "Sob monitoramento remoto, o guia cobre tratores, máquinas de manejo de chá e colhedoras; sob monitoramento visual, também transplantadoras de arroz, roçadeiras e carretas (p. 6)",
+            "Diretrizes criadas em mar/2017 e revistas em 2018, 2020, 2021, 2022, 2023, 2024 e 2026 (p. 1)"
+          ],
+          "resumo": "Diretriz oficial japonesa para a segurança de robôs agrícolas, que já admite a operação com monitoramento remoto para tratores, máquinas de chá e colhedoras e passou a tratar do trânsito em vias públicas. O próprio texto diz que a introdução de robôs na agricultura está em estágio de desenvolvimento.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "ISO 18497-2:2024 – Agricultural machinery and tractors — Safety of partially automated, semi-autonomous and autonomous machinery — Part 2: Design principles for obstacle protection systems",
+          "organizacao": "ISO (International Organization for Standardization)",
+          "ano": "2024 (jul/2024)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "normas técnicas de máquinas agrícolas autônomas",
+          "pais_regiao": "Global",
+          "url": "https://www.iso.org/standard/82686.html",
+          "arquivo": "",
+          "status": "pago",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Publicada em jul/2024 (edição 1); não se aplica a máquinas fabricadas antes da publicação (web)"
+          ],
+          "resumo": "Página de catálogo (resumo gratuito) da parte 2 da série ISO 18497, sobre sistemas de proteção contra obstáculos em máquinas agrícolas automatizadas e autônomas. Texto integral pago.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "ISO 18497-3:2024 – Part 3: Autonomous operating zones",
+          "organizacao": "ISO (International Organization for Standardization)",
+          "ano": "2024 (jul/2024)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "normas técnicas de máquinas agrícolas autônomas",
+          "pais_regiao": "Global",
+          "url": "https://www.iso.org/standard/82687.html",
+          "arquivo": "",
+          "status": "pago",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Princípios de projeto para impedir saídas não intencionais da zona de operação autônoma; a zona em si fica fora do escopo (web)"
+          ],
+          "resumo": "Página de catálogo (resumo gratuito) da parte 3 da série ISO 18497, sobre os sistemas que mantêm a máquina autônoma dentro da zona de operação. Texto integral pago.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "ISO 18497-4:2024 – Part 4: Verification methods and validation principles",
+          "organizacao": "ISO (International Organization for Standardization)",
+          "ano": "2024 (jul/2024)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "normas técnicas de máquinas agrícolas autônomas",
+          "pais_regiao": "Global",
+          "url": "https://www.iso.org/standard/82688.html",
+          "arquivo": "",
+          "status": "pago",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Princípios de métodos de verificação e de validação para máquinas agrícolas automatizadas e autônomas; publicada em jul/2024 (web)"
+          ],
+          "resumo": "Página de catálogo (resumo gratuito) da parte 4 da série ISO 18497, sobre verificação e validação. Texto integral pago.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "PTx Brands Precision Planting and PTx Trimble Showcase Solutions for Every Season at the 2025 Farm Progress Show",
+          "organizacao": "Precision Planting / PTx (AGCO)",
+          "ano": "2025 (26/08/2025)",
+          "tipo_fonte": "empresa",
+          "setor": "máquinas e agricultura de precisão (conectividade por satélite)",
+          "pais_regiao": "EUA",
+          "url": "https://www.precisionplanting.com/resources/news/new-products-farm-progress-show-2025",
+          "arquivo": "07_agro-global-perenes-autonomia/PrecisionPlanting-PTx_2025_starlink-em-monitores-e-displays.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "PTx passa a oferecer conectividade Starlink para monitores 20|20 e displays GFX, para usar suas plataformas em áreas com sinal celular ruim; kit com suportes, equipamento e assinatura Starlink (p. 2)"
+          ],
+          "resumo": "Comunicado da divisão de tecnologia da AGCO com o kit de conectividade Starlink para monitores e displays de máquinas, para uso em áreas com sinal celular ruim.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "FarmWise AI-powered weeding tech 'commercially ready' despite company restructuring and wind down",
+          "organizacao": "AgFunderNews (Jennifer Marston)",
+          "ano": "2025 (21/03/2025)",
+          "tipo_fonte": "imprensa",
+          "setor": "robótica agrícola (capina com IA)",
+          "pais_regiao": "EUA",
+          "url": "https://agfundernews.com/farmwise-ai-powered-weeding-tech-commercially-ready-despite-company-restructuring-and-wind-down",
+          "arquivo": "07_agro-global-perenes-autonomia/AgFunderNews_2025_farmwise-reestruturacao-e-encerramento.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "A FarmWise levantou US$ 65 milhões; o CEO atribui o encerramento à macroeconomia que afeta a decisão dos produtores e à queda do capital de risco, que não permitiriam chegar à lucratividade na configuração atual (p. 2)"
+          ],
+          "resumo": "Reportagem (imprensa) com a declaração do CEO da FarmWise, de cultivadores de precisão com IA, sobre a reestruturação e o encerramento gradual das operações, anunciados em mar/2025.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Precision Spraying Technology (Integrated Crop Management News)",
+          "organizacao": "Iowa State University Extension and Outreach (D. Houser, M. Darr, R. Huffman)",
+          "ano": "2024 (22/08/2024)",
+          "tipo_fonte": "academia",
+          "setor": "pulverização seletiva com câmeras e IA embarcada (soja)",
+          "pais_regiao": "EUA (Iowa)",
+          "url": "https://crops.extension.iastate.edu/cropnews/2024/08/precision-spraying-technology",
+          "arquivo": "07_agro-global-perenes-autonomia/IowaState_2024_pulverizacao-seletiva-economia-herbicida-soja.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Demonstração em escala de campo em cinco lavouras de soja (415 acres): economia de herbicida por talhão de 90,6%, 87,6%, 87,2%, 71,2% e 43,9%; média de 76% e cerca de US$ 6.500 (US$ 15,7/acre) (p. 1)",
+            "Daninhas detectadas em tempo real e pulverizadas na hora; limite de velocidade de 10 a 15 mph, abaixo do da aplicação em área total (p. 2-3)"
+          ],
+          "resumo": "Demonstração em escala de campo da extensão universitária, com pulverizador comercial de visão computacional em soja, com economia de herbicida medida por talhão e dependente da pressão de daninhas. Evidência de terceiro sobre o ganho da detecção e aplicação em tempo real na máquina.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Precision Agriculture Research Measures Effectiveness of See & Spray Technology",
+          "organizacao": "University of Arkansas System Division of Agriculture (Arkansas Agricultural Experiment Station)",
+          "ano": "2025 (10/03/2025)",
+          "tipo_fonte": "academia",
+          "setor": "pulverização seletiva com câmeras e aprendizado de máquina (soja)",
+          "pais_regiao": "EUA (Arkansas)",
+          "url": "https://aaes.uada.edu/news/see-and-spray-research/",
+          "arquivo": "07_agro-global-perenes-autonomia/UArkansas_2025_ensaio-3-anos-pulverizacao-seletiva-soja.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Ensaio de três anos em soja: redução de 43% a 59% no herbicida em relação à aplicação em área total (p. 3)",
+            "Na sensibilidade mais baixa, a população de caruru (Palmer amaranth) cresceu 280% ao ano (p. 3)"
+          ],
+          "resumo": "Resultado de ensaio de três anos da estação experimental do Arkansas com protótipo de pulverização seletiva. Mostra o ganho e o risco do ajuste de sensibilidade (escapes de daninhas e banco de sementes).",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "天边到田间，北斗显身手（春耕里的新质生产力）[Do céu ao campo, o Beidou mostra serviço]",
+          "organizacao": "People's Daily (人民日报), reportagem de Gu Yekai",
+          "ano": "2026 (05/05/2026)",
+          "tipo_fonte": "imprensa",
+          "setor": "navegação por satélite e guiagem automática de máquinas agrícolas",
+          "pais_regiao": "China",
+          "url": "https://paper.people.com.cn/rmrb/pc/content/202605/05/content_30154855.html",
+          "arquivo": "07_agro-global-perenes-autonomia/PeoplesDaily_2026_beidou-no-campo-terminais-e-guiagem.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Mais de 2,7 milhões de terminais Beidou acumulados na agricultura chinesa, segundo a associação de navegação por satélite do país (p. 2)",
+            "Cerca de 80 mil terminais e sistemas de direção assistida Beidou vendidos com subsídio em 2024, acima de 70 mil por três anos seguidos, pelos dados públicos de subsídio das regiões; um produtor ouvido pagou cerca de 9.000 yuans por um sistema de direção automática, com subsídio nacional de um terço (p. 3)"
+          ],
+          "resumo": "Reportagem do jornal oficial chinês sobre a difusão da navegação Beidou e dos pilotos automáticos em máquinas agrícolas, com dados da associação setorial e de subsídios. Dados de imprensa estatal, sem documento estatístico primário localizado.",
+          "relevancia": "media"
+        }
+      ],
+      "formularios": [],
+      "lacunas": []
+    },
+    {
+      "grupo": "IA no campo (Frente 3) (ia-no-campo-A2)",
+      "pasta": "07_agro-global-perenes-autonomia",
+      "itens": [
+        {
+          "titulo": "Annonce n° 2648 du BODACC A n° 20250218 – NAÏO-TECHNOLOGIES, jugement de conversion en liquidation judiciaire",
+          "organizacao": "BODACC (Bulletin officiel des annonces civiles et commerciales, DILA) – Greffe du Tribunal de Commerce de Toulouse",
+          "ano": "2025 (13/11/2025)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "máquinas agrícolas (robôs de capina)",
+          "pais_regiao": "França",
+          "url": "https://www.bodacc.fr/pages/annonces-commerciales-detail/?q.id=id:A202502182648",
+          "arquivo": "07_agro-global-perenes-autonomia/BODACC_2025_naio-technologies-liquidacao-judicial.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Julgamento de 28/10/2025 converte em liquidação judicial o processo da Naïo-Technologies (SAS, RCS Toulouse) e nomeia liquidante (p. 1)"
+          ],
+          "resumo": "Anúncio oficial do julgamento de 28/10/2025 que converteu em liquidação judicial o processo da Naïo-Technologies, fabricante francesa de robôs de capina, um dia depois do plano de cessão (anúncio n° 2651). Documenta, com data, o recuo de uma das pioneiras da robótica de lavoura.",
+          "relevancia": "media"
+        }
+      ],
+      "formularios": [],
+      "lacunas": []
+    },
+    {
+      "grupo": "IA no campo (Frente 3) (ia-no-campo-B)",
+      "pasta": "07_agro-global-perenes-autonomia",
+      "itens": [
+        {
+          "titulo": "Opening Address by YBhg. Datuk Dr. Ahmad Parveez Ghulam Kadir, Director General, Malaysian Palm Oil Board (MPOB), at the Programme Advisory Committee (PAC) Meeting (PAC 2026)",
+          "organizacao": "Malaysian Palm Oil Board (MPOB)",
+          "ano": "2026 (página publicada em 02/07/2026; o discurso fala do início do 2º trimestre de 2026)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "palma de óleo",
+          "pais_regiao": "Malásia",
+          "url": "https://mpob.gov.my/?p=45036",
+          "arquivo": "07_agro-global-perenes-autonomia/MPOB_2026_discurso-dg-pac-mecanizacao-colheita.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Produção de óleo de palma bruto da Malásia de 20,28 Mt em 2025, 'recorde histórico' e maior nível da última década, apoiada por maior produtividade de cachos e melhora da situação de mão de obra (p. 2)",
+            "A adoção de mecanização e tecnologias avançadas segue 'relativamente baixa'; falta solução integrada para colheita, evacuação e coleta de frutos soltos (p. 5-6)",
+            "Medidas do governo incluem acelerar a automação com IA e drones (p. 3)"
+          ],
+          "resumo": "Discurso de abertura do diretor-geral do MPOB na reunião do comitê consultivo de programas de 2026. Registra que, apesar das muitas ferramentas de mecanização desenvolvidas pelo MPOB, a adoção segue baixa e ainda não existe solução integrada para colher, evacuar e recolher frutos soltos.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Welcome Remarks by YBHG. Datuk Mohamad Helmy Othman Basha, Chairman of Malaysian Palm Oil Board, for Palm Oil Economic Review and Outlook Seminar (R&O) 2026",
+          "organizacao": "Malaysian Palm Oil Board (MPOB)",
+          "ano": "2026 (página publicada em 15/01/2026)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "palma de óleo",
+          "pais_regiao": "Malásia",
+          "url": "https://mpob.gov.my/?p=38688",
+          "arquivo": "07_agro-global-perenes-autonomia/MPOB_2026_discurso-presidente-ro-mao-de-obra-mecanizacao.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "O setor vive 'dependência total' de mão de obra estrangeira e o ritmo de mudança tem sido 'glacial' (p. 3)",
+            "As plantações foram desenhadas para o trabalho manual há mais de 100 anos; para mecanizar ou automatizar, talvez seja preciso repensar o layout do campo, o plantio e o planejamento da colheita (p. 4)"
+          ],
+          "resumo": "Discurso do presidente do conselho do MPOB no seminário de perspectivas de 2026. Critica a demora do setor em buscar soluções de colheita mecanizada e sugere considerar redesenhar o talhão (layout, plantio e planejamento da colheita) para permitir mecanização e automação.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Annual Report 2025",
+          "organizacao": "United Plantations Berhad",
+          "ano": "2026 (ref. 2025)",
+          "tipo_fonte": "empresa",
+          "setor": "palma de óleo e coco",
+          "pais_regiao": "Malásia e Indonésia",
+          "url": "https://unitedplantations.com/wp-content/uploads/2026/02/UP_Annual_Report_2025.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/UnitedPlantations_2026_annual-report-2025.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Trabalhadores estrangeiros respondem por cerca de 80-85% da mão de obra do setor de plantações malaio; a empresa tinha 4.345 em 31/12/2025 (p. 92)",
+            "Vagas para trabalhadores locais anunciadas em todas as fazendas em 2025 'com pouco ou nenhum sucesso', apesar de salário acima do mínimo e moradia gratuita (p. 28)",
+            "Custo de produção na Malásia de RM 1.509/t de óleo bruto em 2025, 5% abaixo de 2024, principalmente pelo aumento da produção; maior grau de mecanização ajudou a conter custos (p. 24)",
+            "Cortadores motorizados aumentam a produtividade dos colhedores em palmeiras de até cerca de 6 m (p. 18)"
+          ],
+          "resumo": "Relatório anual 2025 da United Plantations, empresa malaia de palma com operações na Indonésia. Documenta a dependência de trabalhadores estrangeiros, a falta de interesse de locais pela colheita e o uso de mecanização para conter custos.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Shaping the futures of estates: Harnessing mechanisation to elevate and future-proof the plantation workforce (artigo institucional, 08/12/2025)",
+          "organizacao": "Wilmar International (publicado na plataforma Eco-Business)",
+          "ano": "2025 (08/12/2025)",
+          "tipo_fonte": "empresa",
+          "setor": "palma de óleo",
+          "pais_regiao": "Malásia e Indonésia",
+          "url": "https://www.eco-business.com/press-releases/shaping-the-futures-of-estates-harnessing-mechanisation-to-elevate-and-future-proof-the-plantation-workforce/",
+          "arquivo": "07_agro-global-perenes-autonomia/Wilmar_2025_mecanizacao-forca-de-trabalho-plantacoes.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Governo malaio registrou mais de 210 mil trabalhadores migrantes nas plantações em 2025 (p. 2)",
+            "Em operações selecionadas, a necessidade de mão de obra caiu até 80%, conforme o equipamento e o fluxo de trabalho (segundo a empresa) (p. 3)",
+            "Trabalhadores em funções mecanizadas ganham de 20% a 30% mais (p. 5)",
+            "Millennials são mais de 84% da força de trabalho da empresa na Indonésia (p. 4)"
+          ],
+          "resumo": "Texto institucional da Wilmar sobre a mecanização nas suas plantações de palma da Malásia (Sabah) e da Indonésia: evacuação de cachos, aplicação de cachos vazios e adubação mecanizadas, drones de pulverização e tratores com piloto automático. A empresa ressalva que a mecanização depende de máquina adequada, acesso ao talhão, operador e oficina.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Advancement and Field Evaluation of a Dual-arm Apple Harvesting Robot (arXiv:2506.05714)",
+          "organizacao": "Michigan State University e USDA-ARS (K. Zhu, K. Lammers, R. Lu, Z. Li et al.)",
+          "ano": "2025 (06/06/2025)",
+          "tipo_fonte": "academia",
+          "setor": "frutas (maçã)",
+          "pais_regiao": "EUA (Michigan)",
+          "url": "https://arxiv.org/abs/2506.05714",
+          "arquivo": "07_agro-global-perenes-autonomia/MSU-USDA_2025_robo-colheita-maca-dois-bracos-campo.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Taxas de sucesso de 80,7% e 79,7% e ciclo médio de 5,97 s por tentativa em duas demonstrações em pomares comerciais de Michigan (set. e out. de 2024; 322 e 285 maçãs tentadas), com operador e trator em modo para-e-anda (p. 2, 20-21)",
+            "Coordenação de dois braços reduziu o tempo de colheita em 28% frente a um braço (p. 2)",
+            "Colheita de maçã ainda depende inteiramente de mão de obra manual; sistemas existentes ficam aquém em desempenho, custo e confiabilidade (p. 1, 3)"
+          ],
+          "resumo": "Artigo (pré-publicação) da MSU com o USDA-ARS sobre um robô de colheita de maçã com dois braços, avaliado em dois pomares comerciais em 2024. É protótipo de pesquisa; os autores falam em potencial de comercialização com novos avanços.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Citrus Mechanical Harvesting (arquivo do programa de colheita mecânica de citros, 1995–2012)",
+          "organizacao": "University of Florida, IFAS (Statewide Citrus Research and Extension)",
+          "ano": "s.d. (página modificada em 21/05/2026; consulta em nov/2026; conteúdo de 1995–2012)",
+          "tipo_fonte": "academia",
+          "setor": "citros",
+          "pais_regiao": "EUA (Flórida)",
+          "url": "https://citrusresearch.ifas.ufl.edu/resources/archives/citrus-mechanical-harvesting/",
+          "arquivo": "07_agro-global-perenes-autonomia/UF-IFAS_2025_arquivo-colheita-mecanica-citros.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Entre 1995 e 2012, a indústria de citros da Flórida investiu de US$ 1 milhão a US$ 2 milhões por ano em sistemas de colheita mecânica (p. 2)",
+            "Três sistemas mecânicos chegaram a ter presença comercial na colheita de citros da Flórida (p. 2)"
+          ],
+          "resumo": "Página de arquivo da UF/IFAS sobre o programa de colheita mecânica de citros: motivação (falta de mão de obra e custo), investimento da indústria e objetivos do programa entre 1995 e 2012.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Archives — UF/IFAS Statewide Citrus Research and Extension (verbete 'Citrus Mechanical Harvesting')",
+          "organizacao": "University of Florida, IFAS",
+          "ano": "s.d. (página modificada em 25/09/2026; consulta em nov/2026)",
+          "tipo_fonte": "academia",
+          "setor": "citros",
+          "pais_regiao": "EUA (Flórida)",
+          "url": "https://citrusresearch.ifas.ufl.edu/resources/archives/",
+          "arquivo": "07_agro-global-perenes-autonomia/UF-IFAS_2025_arquivos-pesquisa-citros-fim-colheita-mecanica.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "A pesquisa ativa de colheita mecânica de citros terminou por volta de 2013, por efeito do greening (HLB) e de complicações no registro de um agente de abscisão (p. 2)"
+          ],
+          "resumo": "Índice de arquivos da UF/IFAS com o motivo declarado do fim da pesquisa ativa de colheita mecânica de citros na Flórida, por volta de 2013: o greening (HLB) e complicações no registro do agente que solta os frutos.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "The effect of boom-tip control on harvester time consumption in Picea abies dominated final-felling stands: case study (Silva Fennica 59(1), 24062)",
+          "organizacao": "Skogforsk (J. Manner e H. Lundström)",
+          "ano": "2025 (15/05/2025)",
+          "tipo_fonte": "academia",
+          "setor": "florestal (colheita mecanizada)",
+          "pais_regiao": "Suécia",
+          "url": "https://silvafennica.fi/article/24062",
+          "arquivo": "07_agro-global-perenes-autonomia/Skogforsk_2025_controle-ponta-lanca-harvester-tempo.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Com o controle automatizado da ponta da lança, um operador reduziu o tempo por m³ em cerca de 10% e o outro não teve diferença significativa (p. 1)"
+          ],
+          "resumo": "Estudo de caso do instituto sueco Skogforsk sobre um sistema de assistência ao operador (controle da ponta da lança) em harvester florestal. O ganho dependeu do operador; os autores pedem estudos com mais fabricantes, operadores e ambientes.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Prediction of Oil Palm Yield Using Machine Learning: Comparison of Linear and Non-linear Algorithms with Multivariate Time Series Data (Journal of Oil Palm Research, artigo no prelo)",
+          "organizacao": "Malaysian Palm Oil Board (MPOB) — Journal of Oil Palm Research; autores da Universiti Sains Malaysia, da Universiti Teknologi Malaysia e do Teagasc (Irlanda) (N. Khan et al.)",
+          "ano": "2025 (aceito em 26/06/2025; publicado online em 20/08/2025, no prelo)",
+          "tipo_fonte": "academia",
+          "setor": "palma de óleo",
+          "pais_regiao": "Malásia (Pahang)",
+          "url": "https://jopr.mpob.gov.my/prediction-of-oil-palm-yield-using-machine-learning-comparison-of-linear-and-non-linear-algorithms-with-multivariate-time-series-data/",
+          "arquivo": "07_agro-global-perenes-autonomia/MPOB-JOPR_2025_previsao-produtividade-palma-machine-learning.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Extra Trees explicou 88% da variância (R²) da produtividade de cachos na validação; Random Forest 79%, Gradient Boosting 78% e regressão linear 41% (dados agrometeorológicos de Pahang, 1986-2020) (p. 1)"
+          ],
+          "resumo": "Artigo da revista do MPOB que compara modelos lineares e de árvores de decisão para prever a produtividade de cachos de palma com dados de clima e produção de 1986 a 2020 em Pahang. É pesquisa: os modelos não lineares acertam mais, mas são menos interpretáveis.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Le numérique et la robotique dans le programme vitiREV (relatório do Comitê de Orientação Estratégica, fev/2024)",
+          "organizacao": "Région Nouvelle-Aquitaine (programa vitiREV)",
+          "ano": "2024 (fev/2024)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "vinhedos (viticultura)",
+          "pais_regiao": "França (Nouvelle-Aquitaine)",
+          "url": "https://entreprises.nouvelle-aquitaine.fr/sites/default/files/2024-02/Rapport_COS_numerique_robotique_vitiREV_FEVRIER_2024.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/NouvelleAquitaine-vitiREV_2024_numerique-robotique-viticulture.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "O digital e a robótica na vitivinicultura 'acusam certo atraso' frente a outros setores e outras cadeias agrícolas; a adoção parece muitas vezes depender da capacidade financeira do domaine ou do perfil empreendedor do produtor (p. 8)",
+            "Programa regional VitiTECH (fim de 2023) cofinancia o teste de robôs e soluções digitais por uma ou duas safras, com avaliação por estrutura independente do fornecedor (p. 20)",
+            "Fundo de investimento VitiREV Innovation (Região e Banque des Territoires, gerido pela Demeter IM): 70 M€ captados; 17,3 M€ investidos em 10 empresas após análise de mais de 500 dossiês (p. 14)"
+          ],
+          "resumo": "Relatório da região francesa da Nouvelle-Aquitaine sobre as soluções digitais e robóticas apoiadas pelo programa vitiREV, voltado à redução de defensivos na viticultura. Registra o atraso na adoção, a oferta ainda restrita e o instrumento de teste subsidiado antes da compra.",
+          "relevancia": "media"
+        }
+      ],
+      "formularios": [],
+      "lacunas": [
+        "Palma — taxa de mecanização da colheita: não há número de fonte primária. A cifra mais citada (menos de 50% de mecanização nas atividades de campo e menos de 15% na colheita, atribuída ao diretor-geral do MPOB) só aparece na imprensa (The Star e The Vibes, 13/06/2023, ambas com acesso bloqueado, HTTP 403); o próprio MPOB, em 2026, fala só em adoção 'relativamente baixa', sem número [MPOB_2026_discurso-dg-pac-mecanizacao-colheita.pdf, p. 5].",
+        "Palma — Indonésia: não foram achadas fontes primárias da GAPKI, do IOPRI (PPKS) ou do governo indonésio sobre mecanização da colheita, censo por drone ou escassez de mão de obra em números; o relatório anual da Astra Agro Lestari não foi localizado (só comunicados que citam um 'Drone Monitoring System', sem números). A única fonte com dado da Indonésia é o texto institucional da Wilmar (dez/2025).",
+        "Palma — IA em operação regular com resultado medido: os relatórios das empresas (SD Guthrie, IOI, FGV) declaram uso de drones, GeoAI e reconhecimento de imagem, mas sem acurácia, área tratada ou ganho medido por terceiro; a previsão de safra por IA e a detecção de Ganoderma por imagem aparecem só em pesquisa (JOPR 2025; revisão do MPOB) ou em piloto (IOI 2024; SD Guthrie em Papua-Nova Guiné, 2025). Nenhuma colhedora mecânica ou robótica em operação comercial foi encontrada.",
+        "Palma — o relatório integrado de 2025 da SD Guthrie não traz a relação área:trabalhador (presente nos de 2023 e 2024); não foi possível saber se a meta de 17,5 ha por trabalhador em 2027 foi mantida.",
+        "Café — participação da colheita mecanizada por área: não há número primário recente. Fontes secundárias citam cerca de 25% da área (Embrapa Café/CNA) e mais de 35% da área de arábica (resumo da Conab de 2024), mas os documentos originais não foram localizados; a pesquisa da CNA (2022/23) mede produtores, não área, e não é representativa. Não foi achado robô ou visão computacional para maturação em operação comercial; só pesquisa (ESALQ 2023; Coffee Science 2026).",
+        "Café — o case da Cooxupé (M366, InovaCoop) retornou HTTP 404 em 11/11/2026; não foi possível reler a página.",
+        "Citros — detecção de greening por imagem: só protótipo e pesquisa (projeto PIPE/FAPESP 2020–2022; estudo da Unesp sobre drone, não baixado). Não foi achado dado do Fundecitrus sobre uso em escala, nem a fonte primária do consórcio internacional 'Save the Orange' (IA contra o greening), citado só em notícia (Agrolink). O robô de colheita de laranja do projeto Colhe+ só tem registro de teste em demonstração (Demo Citros, Sevilha, jan/2025), sem números.",
+        "Frutas e vinhedos — tentativas que não vingaram: a Monarch Tractor (tratores elétricos autônomos, forte em vinhedos) anunciou demissões e risco de encerramento em nov/2025, e a Naïo Technologies (robôs de vinha) entrou em recuperação judicial em jun/2025; os fatos estão só em imprensa e em rastreadores de avisos WARN (TechCrunch, Réussir, warntracker), sem documento primário baixado. Deixado ao bloco A, que já trata da Monarch. Não foi achado número de robôs de vinha em serviço na França (o IFV testou quase todos os robôs comerciais, segundo a imprensa, sem relatório público com números).",
+        "Florestal — IA no planejamento da colheita e máquinas florestais com automação em operação no Brasil: nenhuma fonte primária com resultado medido (fora a Suzano, já verificada e não refeita). O inventário estadual de Santa Catarina (2025) usa classificação automática de imagens; a atribuição de 'LiDAR e IA' feita pela imprensa não aparece no e-book oficial. O único resultado medido de automação em máquina florestal achado é sueco (Skogforsk, 2025, dois operadores).",
+        "Macaúba — mecanização da colheita: o único teste publicado encontrado é de 2018 (UFV/UFLA, colhedor por vibração até 4 m de altura); não foram achados testes de 2022 a 2026 nem relatórios recentes de empresas com projetos públicos de macaúba (Inocas, Soleá, Entaban) com área, produtividade ou modo de colheita; os números dessas empresas vêm da literatura (2017–2018) e da revisão da PAB (2025). Por regra do projeto, ficaram fora os documentos e trechos sobre a empresa contratante e o grupo dela (inclusive uma notícia sobre domesticação com a Embrapa e os trechos do diagnóstico mineiro M239 nas p. 17, 18-19 e 21).",
+        "H1 nas perenes — não foi achado caso de perene em que a máquina decida sozinha em operação regular: a decisão automática dentro de regras aparece só na aplicação seletiva de herbicida (dado de revendedor, Coopercitrus) na recomendação automatizada de recursos de combate a incêndio (CMPC, sem dizer quem decide) e em protótipos (coletor de frutos soltos ALFRo, robô de adubação apresentado em vitrine de inovação da empresa, robô de maçã em demonstração, em modo para-e-anda e com operador). Os ganhos de tempo achados são de diagnóstico (inventário florestal de 73 dias para um voo de cerca de 2 horas; monitoramento hídrico do café de semanas para minutos), com a decisão humana."
+      ]
+    },
+    {
+      "grupo": "IA no campo (Frente 3) (ia-no-campo-B)",
+      "pasta": "05_agro-brasil-instituicoes-midia",
+      "itens": [
+        {
+          "titulo": "Pesquisa Cafeeira — Resultado da safra 2022/23",
+          "organizacao": "CNA (Confederação da Agricultura e Pecuária do Brasil), com o portal CaféPoint",
+          "ano": "2023",
+          "tipo_fonte": "associação setorial",
+          "setor": "café",
+          "pais_regiao": "Brasil",
+          "url": "https://cnabrasil.org.br/storage/arquivos/pdf/Pesquisa-Cafeeira-_2023.Vfinal.pdf",
+          "arquivo": "05_agro-brasil-instituicoes-midia/CNA_2023_pesquisa-cafeeira-safra-2022-23.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "474 respostas válidas de cafeicultores por questionário digital e presencial (out–dez/2022), 85,9% das lavouras em MG, somando 1,05% da área de café em produção; a CNA alerta que, pelo tamanho da amostra, os valores não devem ser usados como fonte oficial do perfil fundiário (p. 3, 5)",
+            "Colheita mecanizada (automotriz ou de arrasto) em 18% dos produtores; métodos manuais em 82% pelas parcelas (44% + 30% + 8%), embora o texto diga 72% (p. 6-7)",
+            "Acima de 50 ha a colheita mecanizada predomina; de 1 a 25 ha, métodos manuais em 76% (p. 7)",
+            "57,6% tiveram dificuldade para contratar safristas em 2022 (71% entre os que colhem de forma seletiva) (p. 8)",
+            "A colheita manual ocupa cerca de 70% da força de trabalho anual da lavoura e 30% dos custos diretos (Campo Futuro) (p. 8)"
+          ],
+          "resumo": "Pesquisa da CNA com cafeicultores (safra 2022/23) sobre tecnologia de produção, colheita, mão de obra e comercialização. Mostra a colheita mecanizada concentrada nas propriedades maiores e a dificuldade de contratar safristas.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Inteligência artificial identifica mais de 600 castanheiras nativas em tempo recorde na Amazônia (Netflora)",
+          "organizacao": "Embrapa (Embrapa Acre)",
+          "ano": "2025 (22/04/2025)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "florestal (floresta nativa, extrativismo)",
+          "pais_regiao": "Brasil (Amazônia)",
+          "url": "https://www.embrapa.br/busca-de-noticias/-/noticia/99915804/inteligencia-artificial-identifica-mais-de-600-castanheiras-nativas-em-tempo-recorde-na-amazonia",
+          "arquivo": "05_agro-brasil-instituicoes-midia/Embrapa_2025_netflora-ia-drones-inventario-castanheiras.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Sobrevoo de pouco mais de 2 horas identificou 604 castanheiras e mais de 14 mil árvores em 1.150 ha; o inventário tradicional levaria 73 dias com equipe de cinco pessoas (p. 2)",
+            "Capacidade de mapear até 3.500 ha por dia; mais de 70 mil ha mapeados em cerca de um ano (p. 1, 3)",
+            "Redução de cerca de 90% dos custos frente ao inventário tradicional, segundo o pesquisador (p. 1, 3)"
+          ],
+          "resumo": "Notícia da Embrapa sobre o Netflora, que usa drones e IA para inventário florestal e identificação de espécies na Amazônia. O caso da RDS do Uatumã compara o sobrevoo com o inventário de campo e mostra o uso do mapa por extrativistas.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Boletim da Sociobiodiversidade — Macaúba, edição 2/2026 (abril a junho)",
+          "organizacao": "Conab (Companhia Nacional de Abastecimento)",
+          "ano": "2026",
+          "tipo_fonte": "governo/instituição",
+          "setor": "macaúba (extrativismo)",
+          "pais_regiao": "Brasil (MG e CE)",
+          "url": "https://www.gov.br/conab/pt-br/atuacao/sociobiodiversidade/boletins/boletins-2o-trimestre/boletim_macauba_2_trimestre_2026.pdf",
+          "arquivo": "05_agro-brasil-instituicoes-midia/Conab_2026_boletim-macauba-2-trimestre.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Produção extrativa de 1.045 t de macaúba em 2024 (IBGE/PEVS), +9,65% sobre 2023; MG 69% e CE 29% (p. 2)",
+            "A coleta da macaúba coincide com a entressafra do café e absorve parte da mão de obra dessa colheita (p. 4)",
+            "Preço mínimo de R$ 0,57 a 0,62/kg para a safra 2026 (Portaria MAPA nº 868/2025) (p. 3)"
+          ],
+          "resumo": "Boletim trimestral da Conab sobre a macaúba no Programa SocioBio Mais: produção extrativista, preços pagos ao produtor, preço mínimo e papel da coleta na renda de comunidades do Cerrado e da Caatinga.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Portaria SPA/MAPA nº 2, de 06/02/2024 — Zoneamento Agrícola de Risco Climático (ZARC) para a macaúba em sequeiro",
+          "organizacao": "Ministério da Agricultura e Pecuária (MAPA), Secretaria de Política Agrícola",
+          "ano": "2024",
+          "tipo_fonte": "governo/instituição",
+          "setor": "macaúba",
+          "pais_regiao": "Brasil",
+          "url": "https://www.gov.br/agricultura/pt-br/assuntos/riscos-seguro/programa-nacional-de-zoneamento-agricola-de-risco-climatico/portarias/safra-vigente/distrito-federal/copy_of_PORTN2MACABASEQUEIROBRASIL.pdf",
+          "arquivo": "05_agro-brasil-instituicoes-midia/MAPA_2024_portaria-zarc-macauba.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "A macaúba 'está em processo de domesticação'; o estipe pode chegar a 15-20 m e o ciclo da flor ao fruto maduro dura de 12 a 14 meses (p. 1)",
+            "Os frutos caem (abscisão) de outubro a janeiro no Cerrado central e de janeiro a abril no interior do Nordeste (p. 1)"
+          ],
+          "resumo": "Portaria que aprova o ZARC da macaúba em sequeiro no Brasil (publicada no DOU em 07/02/2024, vigência a partir de 01/03/2024), com nota técnica sobre a biologia da cultura e o método do zoneamento.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Espacialização e quantificação do estoque volumétrico dos maciços florestais comerciais do Estado de Santa Catarina (e-book)",
+          "organizacao": "Secretaria de Estado da Agricultura e Pecuária de Santa Catarina (Sape) e Udesc (CAV)",
+          "ano": "2025 (set/2025)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "florestal (pínus e eucalipto)",
+          "pais_regiao": "Brasil (SC)",
+          "url": "https://www.sape.sc.gov.br/wp-content/uploads/2025/09/Ebook-Espacializacao-e-quantificacao-do-estoque-volumetrico-dos-macicos-Florestais-Comerciais-do-Estado-de-Santa-Catarina.pdf",
+          "arquivo": "05_agro-brasil-instituicoes-midia/SAPE-SC-UDESC_2025_inventario-florestas-plantadas-santa-catarina.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "950.516,6 ha de maciços comerciais (667.315,8 ha de pínus e 283.200,8 ha de eucalipto), 9,97% do território de SC (p. 43)",
+            "Classificação automática com imagens fusionadas CBERS 4A e Sentinel 2A, altura dos povoamentos estimada com precisão de 4 m (p. 6)",
+            "Dos 96 conglomerados sorteados, 63 foram medidos; 20 já tinham sido colhidos e em 13 o proprietário negou acesso (p. 8)"
+          ],
+          "resumo": "Inventário estadual das florestas plantadas de Santa Catarina: mapeamento por classificação automática de imagens de satélite e inventário de campo por amostragem estratificada por altura (pínus). Não traz uso explícito de IA; a imprensa atribui ao trabalho o uso de LiDAR e IA, o que o e-book não confirma.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Epamig monitora condições hídricas de cafeeiros por meio de drones, sensores de campo e imagens de satélite",
+          "organizacao": "Agência Minas (Governo de Minas Gerais), sobre projeto da Epamig financiado pela Embrapa (Consórcio Pesquisa Café)",
+          "ano": "2023 (05/05/2023)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "café",
+          "pais_regiao": "Brasil (MG)",
+          "url": "https://www.agenciaminas.mg.gov.br/noticia/epamig-monitora-condicoes-hidricas-de-cafeeiros-por-meio-de-drones-sensores-de-campo-e-imagens-de-satelite",
+          "arquivo": "05_agro-brasil-instituicoes-midia/Epamig-AgenciaMinas_2023_drones-sensores-satelite-ia-cafe-hidrico.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Projeto iniciado em 2020, com cinco subprojetos, combina dados de satélite, drone e folha com IA e estatística multivariada para modelar o estado hídrico do cafeeiro (p. 2-3)",
+            "Monitoramento remoto gera resultados para grandes áreas em minutos, contra semanas ou meses no método tradicional, segundo a pesquisadora (p. 4)"
+          ],
+          "resumo": "Notícia oficial do governo de Minas sobre pesquisa da Epamig com drones, sensores e imagens de satélite para medir o estado hídrico de lavouras de café. É pesquisa em andamento; ao fim dela, a Epamig pretende buscar parceiros para levar o aplicativo associado ao mercado.",
+          "relevancia": "baixa"
+        },
+        {
+          "titulo": "Ativos Campo Futuro — Café: Evolução dos custos com mão de obra na cafeicultura brasileira (maio/2025)",
+          "organizacao": "CNA, com Senar e CIM/UFLA (Projeto Campo Futuro)",
+          "ano": "2025 (maio/2025; publicado em 06/06/2025)",
+          "tipo_fonte": "associação setorial",
+          "setor": "café",
+          "pais_regiao": "Brasil",
+          "url": "https://cnabrasil.org.br/storage/arquivos/pdf/ativos-cafe-campo-futuro-maio2025.pdf",
+          "arquivo": "05_agro-brasil-instituicoes-midia/CNA_2025_ativos-campo-futuro-cafe-custo-mao-de-obra.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Em municípios com colheita manual (Piatã/BA, Manhumirim/MG) a mão de obra passa de 40% do custo operacional efetivo; em regiões mecanizadas (Monte Carmelo/MG) fica abaixo de 10% (2024) (p. 2-3)",
+            "Valor médio pago por medida de 60 L ao safrista subiu 322% entre 2020 e 2025, com alta média de 50% em 2025 (médias parciais até maio; mais de 55% em Caconde/SP) (p. 3-4)"
+          ],
+          "resumo": "Boletim do Projeto Campo Futuro sobre o peso e a alta do custo da mão de obra da colheita de café por município. Mostra a diferença de custo entre regiões de colheita manual e mecanizada e lista a mecanização parcial entre as alternativas.",
+          "relevancia": "alta"
+        }
+      ],
+      "formularios": [],
+      "lacunas": []
+    },
+    {
+      "grupo": "IA no campo (Frente 3) (ia-no-campo-B)",
+      "pasta": "06_empresas-agro-bioenergia-florestal-br",
+      "itens": [
+        {
+          "titulo": "Revista Citricultor nº 60 (1º semestre de 2024) — inclui 'Colheita: rumo à mecanização e boas práticas' (projeto Colhe+)",
+          "organizacao": "Fundecitrus",
+          "ano": "2024",
+          "tipo_fonte": "associação setorial",
+          "setor": "citros",
+          "pais_regiao": "Brasil (SP e MG)",
+          "url": "https://www.fundecitrus.com.br/wp-content/uploads/2025/10/Revista-Citricultor_60-ONLINE-1.pdf",
+          "arquivo": "06_empresas-agro-bioenergia-florestal-br/Fundecitrus_2024_revista-citricultor-60.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "A escassez de mão de obra para a colheita é um dos principais desafios da citricultura (p. 19)",
+            "Mais de 200 trabalhadores rurais treinados no projeto Colhe+ (Fundecitrus, Agricef, Move Agro e oito empresas) (p. 19)",
+            "Colheita mecanizada exige mudar o pomar: plantas menores, adensamento, irrigação, poda e mais cuidado com o greening (p. 20)",
+            "Testes com equipamentos semimecanizados na safra anterior e mais testes previstos, inclusive com equipamentos de outras culturas (p. 19)"
+          ],
+          "resumo": "Revista semestral do Fundecitrus (edição 60, 2024). A reportagem sobre o projeto Colhe+ descreve a melhoria da colheita manual e os primeiros testes de semimecanização, e registra que a colheita mecanizada exige redesenhar o pomar.",
+          "relevancia": "alta"
+        }
+      ],
+      "formularios": [],
+      "lacunas": []
+    },
+    {
+      "grupo": "IA no campo (Frente 3) (ia-no-campo-B)",
+      "pasta": "04_academia-instituicoes",
+      "itens": [
+        {
+          "titulo": "Automated greening detection (HLB) in the symptomatic and asymptomatic stages in field orange trees: VANT system provided with optical sensors and artificial intelligence (projeto PIPE 19/16591-4)",
+          "organizacao": "FAPESP (Biblioteca Virtual; projeto da empresa Agrientech, PIPE/FINEP)",
+          "ano": "2022 (vigência abr/2020 a set/2022)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "citros",
+          "pais_regiao": "Brasil (SP)",
+          "url": "https://bv.fapesp.br/en/auxilios/106440/",
+          "arquivo": "04_academia-instituicoes/FAPESP_2022_projeto-pipe-deteccao-greening-drone-ia.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Segundo o resumo da proposta, a acurácia da inspeção visual do greening é de cerca de 40% (sem fonte citada); incidência no cinturão citrícola de 18,15% em 2018 (p. 1)",
+            "Protótipo de drone com sensores ópticos e IA testado em campo para sintomas visíveis; detecção assintomática ainda exige pesquisa (p. 1)"
+          ],
+          "resumo": "Registro de projeto de pesquisa inovativa em pequena empresa (PIPE) financiado pela FAPESP para detectar o greening por drone com sensores ópticos e IA. O texto é o resumo da proposta, escrito pela empresa que desenvolve o produto: protótipo com resultados preliminares para plantas com sintomas e detecção antes dos sintomas ainda em pesquisa; o registro não traz resultados finais.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Macaúba palm as a promising resource for biodiversity-based bioeconomy and climate solutions in the tropics (Pesquisa Agropecuária Brasileira, v. 60, e04129)",
+          "organizacao": "Embrapa (revista Pesquisa Agropecuária Brasileira); autores do IAC, da Embrapa Agroenergia e da APTA (C. A. Colombo, M. A. Lopes et al.)",
+          "ano": "2025 (03/11/2025)",
+          "tipo_fonte": "academia",
+          "setor": "macaúba",
+          "pais_regiao": "Brasil",
+          "url": "https://apct.sede.embrapa.br/pab/article/view/28154",
+          "arquivo": "04_academia-instituicoes/Embrapa-PAB_2025_macauba-bioeconomia-revisao.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Plantios comerciais de macaúba somam cerca de 4.000 ha, sobretudo em MG, todos a partir de sementes de populações naturais, sem cultivar comercial (p. 8)",
+            "O principal gargalo para escalar os plantios é o baixo grau de domesticação, ou a falta de cultivares comerciais (p. 7)",
+            "Técnicas de colheita e pós-colheita para otimizar rendimento e qualidade do óleo 'ainda estão por ser determinadas' (p. 11)",
+            "No Paraguai, as primeiras tentativas de cultivo da bocaiúva (1960) fracassaram por falta de conhecimento técnico; ineficiência da colheita segue entre os desafios (p. 15)"
+          ],
+          "resumo": "Revisão de 2025 sobre o estado da pesquisa da macaúba: distribuição, diversidade genética, domesticação, melhoramento, sistemas de produção, valorização da biomassa e inclusão de pequenos produtores. Aponta lacunas em cultivares, colheita e pós-colheita.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Development and evaluation of operational performance of macaw fruits semi-mechanized harvester by means mechanical vibrations principle (Semina: Ciências Agrárias 39(2))",
+          "organizacao": "Universidade Federal de Viçosa e Universidade Federal de Lavras (C. M. F. Grupioni et al.)",
+          "ano": "2018",
+          "tipo_fonte": "academia",
+          "setor": "macaúba",
+          "pais_regiao": "Brasil (MG)",
+          "url": "https://www.redalyc.org/journal/4457/445760177005/html/",
+          "arquivo": "04_academia-instituicoes/UFV-UFLA_2018_colhedora-semimecanizada-macauba-vibracao.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Protótipo com varetas vibratórias teve eficiência média de colheita de 97,4% e capacidade média de 566,91 kg/h (estimada pelo peso médio do fruto) em ensaio com cinco cachos (p. 2, 11)",
+            "O menor valor obtido (483,9 kg/h) foi 12 vezes a colheita manual estimada, de 37,5 kg/h (p. 12)",
+            "O equipamento só alcança cachos até cerca de 4 m de altura (p. 9)"
+          ],
+          "resumo": "Artigo de 2018 (fora da janela 2022-2026, incluído por ser o único teste publicado de colheita semimecanizada de macaúba encontrado) sobre um colhedor portátil por vibração, adaptado de derriçadoras de café. Ensaio preliminar, com poucos cachos.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Estimating Arabica Coffee Productivity Using Planetscope Images and Artificial Neural Networks (Coffee Science, v. 21, e212401)",
+          "organizacao": "UFSM, Embrapa Agricultura Digital e UESB (R. B. Fagundes, É. L. Bolfe et al.); revista Coffee Science (UFLA)",
+          "ano": "2026",
+          "tipo_fonte": "academia",
+          "setor": "café",
+          "pais_regiao": "Brasil (Bahia)",
+          "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1186268/1/AP-Estimating-Arabica-coffee-2026.pdf",
+          "arquivo": "04_academia-instituicoes/Embrapa-CoffeeScience_2026_produtividade-cafe-planetscope-redes-neurais.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Rede neural com imagens PlanetScope estimou a produtividade do café arábica com R² acima de 0,99 em duas áreas comerciais (sequeiro e irrigada), com 2 amostras por hectare na safra 2024 (p. 1)",
+            "Na prática, as estimativas oficiais são da Conab e do IBGE e, dentro das fazendas, do próprio produtor por observação visual na florada (p. 1)"
+          ],
+          "resumo": "Estudo em duas áreas comerciais da Bahia (10 ha em sequeiro e 8,6 ha irrigados) que combina imagens de satélite PlanetScope e redes neurais para estimar a produtividade do café arábica, com R² acima de 0,99 e 2 amostras por hectare na safra 2024 (leitura nossa: ajuste tão alto em amostra pequena pede cautela). O artigo também descreve que a estimativa nas fazendas ainda é visual.",
+          "relevancia": "media"
+        }
+      ],
+      "formularios": [],
+      "lacunas": []
+    },
+    {
+      "grupo": "IA no campo (Frente 3) (ia-no-campo-C)",
+      "pasta": "07_agro-global-perenes-autonomia",
+      "itens": [
+        {
+          "titulo": "High Input-Cost Concerns Continue to Weigh on Farmer Sentiment (Ag Economy Barometer, junho de 2026)",
+          "organizacao": "Purdue University e CME Group (Purdue Center for Commercial Agriculture)",
+          "ano": "2026 (07/07/2026)",
+          "tipo_fonte": "academia",
+          "setor": "agro (produtores dos EUA)",
+          "pais_regiao": "EUA",
+          "url": "https://ag.purdue.edu/commercialag/ageconomybarometer/wp-content/uploads/2026/07/June-2026-Ag-Economy-Barometer-Report.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/Purdue-CME_2026_ag-economy-barometer-junho-ia.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "52% dos produtores não veem benefício relevante em IA ou ferramentas baseadas em dados; 23% apontam aumento de produção, 14% redução de mão de obra e 11% redução de risco (400 produtores dos EUA, 15 a 19/06/2026) (p. 1, 3)",
+            "63% dizem que as recomendações dessas ferramentas seriam às vezes difíceis de seguir e 22%, frequentemente (p. 3)"
+          ],
+          "resumo": "Barômetro mensal da Purdue e da CME com 400 produtores dos EUA. A edição de junho de 2026 trouxe duas perguntas sobre IA e ferramentas baseadas em dados: o principal benefício percebido (resposta única) e a dificuldade de seguir as recomendações. Provável fonte primária da 'pesquisa de meio de ano' citada pela PitchBook, que a cita por meio de reportagem do Hoosier Ag Today de 07/07/2026, mesma data deste relatório.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Farmer Sentiment Slips Again as High Input Costs Remain Top Concern (Ag Economy Barometer, maio de 2026)",
+          "organizacao": "Purdue University e CME Group (Purdue Center for Commercial Agriculture)",
+          "ano": "2026 (02/06/2026)",
+          "tipo_fonte": "academia",
+          "setor": "agro (produtores dos EUA)",
+          "pais_regiao": "EUA",
+          "url": "https://ag.purdue.edu/commercialag/ageconomybarometer/wp-content/uploads/2026/06/May-2026-Ag-Economy-Barometer-Report.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/Purdue-CME_2026_ag-economy-barometer-maio-ia.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "59% dos produtores dizem que ferramentas de IA não melhorariam sua situação de mão de obra e equipamentos; 37% dizem que ajudariam um pouco e 4% muito (400 produtores, 11 a 15/05/2026) (p. 1, 4)",
+            "39% contratam mão de obra fora da família; destes, cerca de 44% tiveram alguma ou muita dificuldade de contratar em 2026 (p. 3-4)"
+          ],
+          "resumo": "Edição de maio de 2026 do barômetro da Purdue e da CME, com perguntas sobre mão de obra e sobre o que a IA mudaria na situação de mão de obra e de máquinas da fazenda.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Farmer Sentiment Rises Again in August as Future Expectations Improve (Ag Economy Barometer, agosto de 2026)",
+          "organizacao": "Purdue University e CME Group (Purdue Center for Commercial Agriculture)",
+          "ano": "2026 (01/09/2026)",
+          "tipo_fonte": "academia",
+          "setor": "agro (produtores dos EUA)",
+          "pais_regiao": "EUA",
+          "url": "https://ag.purdue.edu/commercialag/ageconomybarometer/wp-content/uploads/2026/09/24-08-2026-AugustAgBarometer.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/Purdue-CME_2026_ag-economy-barometer-agosto-ia.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Habilidades que a IA poderia melhorar mais: planejamento estratégico 32%, gestão e análise financeira 28%, produção 18% (402 produtores, 10 a 14/08/2026) (p. 1, 3)"
+          ],
+          "resumo": "Edição de agosto de 2026 do barômetro: os produtores apontam o planejamento estratégico como a habilidade que mais precisa melhorar e a que mais poderia ser melhorada com IA.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Farmer Perceptions of AI Benefits in the United States and Argentina",
+          "organizacao": "Universidad Austral, Argentina (Mac Clay e Steiger) e Purdue University, Center for Commercial Agriculture (Colussi e Langemeier)",
+          "ano": "2026 (setembro de 2026)",
+          "tipo_fonte": "academia",
+          "setor": "agro (produtores)",
+          "pais_regiao": "EUA e Argentina",
+          "url": "https://ag.purdue.edu/commercialag/home/wp-content/uploads/2026/09/20260921_Colussi_AIPerceptionsUSandArgentina.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/Purdue-Austral_2026_percepcao-beneficios-ia-eua-argentina.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Argentina (402 produtores, jul/2026): aumento de produção 37% das menções, redução de risco 28%, redução de mão de obra 14%, nenhum benefício relevante 21%; EUA (400, jun/2026): 52% sem benefício relevante (p. 1-2)"
+          ],
+          "resumo": "Compara a mesma pergunta sobre o principal benefício da IA e de ferramentas baseadas em dados em dois barômetros de produtores (Purdue/CME nos EUA e Universidad Austral na Argentina). Os argentinos veem mais benefício; o desenho das perguntas difere (escolha única nos EUA, múltipla na Argentina).",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "So digital ist die Landwirtschaft (gráficos da pesquisa Bitkom e DLG, 03/06/2024)",
+          "organizacao": "Bitkom (Bitkom Research) e DLG (Deutsche Landwirtschafts-Gesellschaft)",
+          "ano": "2024 (03/06/2024)",
+          "tipo_fonte": "associação setorial",
+          "setor": "agro (estabelecimentos agrícolas)",
+          "pais_regiao": "Alemanha",
+          "url": "https://bitkom.org/sites/main/files/2024-06/Bitkom-Charts-Pressekonferenz-Digitalisierung-der-Landwirtschaft.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/Bitkom-DLG_2024_digitalisierung-landwirtschaft-ki-charts.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "9% dos estabelecimentos já usam IA, 38% planejam ou discutem e 53% não têm o tema na pauta (n = 500, 2024) (p. 7)",
+            "Uso de IA: 9% em 2024 e 9% em 2022; robôs de campo 5% (3% em 2022); drones 23% (19%); máquinas guiadas por GPS 69% (58%) (p. 5)",
+            "Usos de IA (n = 206): previsão de clima 54%, proteção de plantas 46%, trabalho de escritório 39%, máquinas guiadas por IA 13%, desenvolvimento de novas variedades 7% (p. 8)"
+          ],
+          "resumo": "Pesquisa representativa da Bitkom Research com 500 estabelecimentos agrícolas alemães (a partir de 20 ha no oeste e 100 ha no leste), com série desde 2016. Mede o uso de IA por porte da fazenda e mostra estabilidade do uso efetivo entre 2022 e 2024.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Von Stall bis Feld: Fast jeder zweite Agrarbetrieb beschäftigt sich mit Künstlicher Intelligenz (comunicado de imprensa)",
+          "organizacao": "Bitkom e DLG",
+          "ano": "2024 (03/06/2024)",
+          "tipo_fonte": "associação setorial",
+          "setor": "agro (estabelecimentos agrícolas)",
+          "pais_regiao": "Alemanha",
+          "url": "https://www.bitkom.org/Presse/Presseinformation/Stall-bis-Feld-Agrarbetrieb-Kuenstliche-Intelligenz",
+          "arquivo": "07_agro-global-perenes-autonomia/Bitkom-DLG_2024_presseinformation-ki-agrarbetriebe.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Uso, plano ou discussão de IA: 27% nas fazendas de 20 a 49 ha, 38% nas de 50 a 99 ha e 52% nas acima de 99 ha (p. 2)",
+            "Método: 500 estabelecimentos, telefone e on-line, semanas 7 a 13 de 2024, amostra representativa (p. 11)"
+          ],
+          "resumo": "Comunicado oficial com o método da pesquisa Bitkom/DLG de 2024 e os principais números sobre IA e digitalização nas fazendas alemãs. Página web impressa em PDF.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Technology Use (Farm Computer Usage and Ownership), August 2025",
+          "organizacao": "USDA National Agricultural Statistics Service (NASS)",
+          "ano": "2025 (agosto de 2025)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "agro (todas as fazendas)",
+          "pais_regiao": "EUA",
+          "url": "https://esmis.nal.usda.gov/sites/default/release-files/h128nd689/bv73dz25x/n8711q81s/fmpc0825.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/USDA-NASS_2025_technology-use-farm-computer-precision-ag.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Fazendas que usaram práticas de agricultura de precisão: 27% em 2023 e 22% em 2025 (EUA; Dakota do Norte 57% e 50%) (p. 12)",
+            "85% das fazendas com acesso à internet; 82% com smartphone (2025) (p. 5)",
+            "Amostra aleatória estratificada de cerca de 28 mil estabelecimentos (p. 14)"
+          ],
+          "resumo": "Estatística oficial bienal do USDA sobre uso de tecnologia nas fazendas, com a pergunta sobre agricultura de precisão desde 2021. Mede a adoção por estado; não pergunta sobre IA.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "India becomes 1st country in world to develop genome-edited rice varieties",
+          "organizacao": "Akashvani News (All India Radio, Prasar Bharati)",
+          "ano": "2025 (05/05/2025)",
+          "tipo_fonte": "mídia",
+          "setor": "melhoramento; edição genética",
+          "pais_regiao": "Índia",
+          "url": "https://newsonair.gov.in/india-becomes-1st-country-in-world-to-develop-genome-edited-rice-varieties/",
+          "arquivo": "07_agro-global-perenes-autonomia/AkashvaniNews_2025_india-arroz-editado-lancamento.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "DRR Dhan 100 Kamala: matura 15 a 20 dias antes e produz 25% mais; Pusa DST Rice 1: 30% mais em condição salina; 4,5 milhões de t a mais de arroz em casca se cultivadas em 5 milhões de ha (projeção) (p. 1)"
+          ],
+          "resumo": "Notícia da emissora pública indiana sobre o lançamento pelo ministro da Agricultura, em maio de 2025, das duas primeiras variedades de arroz editadas do ICAR. Página web impressa em PDF; os ganhos são declarados pelo governo. Os ganhos diferem dos que o WEF publica para as mesmas variedades [M200, p. 20].",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "ICAR-CRRI, Cuttack team develops AI-designed genome editors for plants",
+          "organizacao": "ICAR (Indian Council of Agricultural Research) — Central Rice Research Institute",
+          "ano": "2026 (sem data na página; o artigo saiu on-line na New Phytologist em 21/05/2026, segundo o Crossref)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "melhoramento; edição genética",
+          "pais_regiao": "Índia",
+          "url": "https://icar.org.in/en/icar-crri-cuttack-team-develops-ai-designed-genome-editors-plants",
+          "arquivo": "07_agro-global-perenes-autonomia/ICAR-CRRI_2026_editores-genomicos-desenhados-por-ia-arroz.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Plataforma Plant OpenCRISPR-1 (POC1), baseada em nuclease gerada por IA, com eficiência de edição comparável à SpCas9 em vários genes de arroz e ferramentas de edição de base e prime editing; estudo aceito na New Phytologist (p. 1)"
+          ],
+          "resumo": "Comunicado oficial do ICAR sobre a validação, em arroz, de um editor genômico desenhado por IA, apresentada como capacidade não relatada antes em plantas. O artigo (New Phytologist, 2026, doi 10.1111/nph.71272) não pôde ser baixado (HTTP 403). Página web impressa em PDF.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Mate selection: A useful approach to maximize genetic gain and control inbreeding in genomic and conventional oil palm (Elaeis guineensis Jacq.) hybrid breeding (PLoS Computational Biology 19(9): e1010290)",
+          "organizacao": "Universidade de Yaoundé I, INRAE e Cirad (Tchounke, Sanchez, Bell e Cros), artigo revisado por pares; financiamento parcial da PalmElit SAS",
+          "ano": "2023 (11/09/2023)",
+          "tipo_fonte": "academia",
+          "setor": "melhoramento de palma de óleo",
+          "pais_regiao": "Global (Camarões, França)",
+          "url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1010290&type=printable",
+          "arquivo": "07_agro-global-perenes-autonomia/CIRAD-PLoSCompBio_2023_selecao-genomica-palma-oleo-cruzamentos.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Uma geração de melhoramento da palma de óleo leva até 20 anos, o que impede comparar métodos empiricamente; daí o uso de simulação (p. 3)",
+            "Na simulação, um ciclo de seleção recorrente recíproca convencional, com teste de progênie, dura 19 anos; no esquema genômico há teste de progênie a cada duas gerações e os ciclos sem teste duram 6 anos; quatro ciclos levam 76 anos no convencional e 50 (19 + 6 + 19 + 6) no genômico (p. 6, 12)",
+            "Perenes têm ciclos de melhoramento tipicamente acima de 10 anos (p. 2)"
+          ],
+          "resumo": "Estudo de simulação (forward genetic simulations) sobre seleção genômica e controle de endogamia no melhoramento de híbridos de palma de óleo. Mostra por que, nas palmeiras, o ganho da seleção genômica ainda é estimado por simulação, não medido em campo.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "The genome and population genomics of allopolyploid Coffea arabica reveal the diversification history of modern coffee cultivars (Nature Genetics 56: 721-731)",
+          "organizacao": "Consórcio internacional com participação da Embrapa (Salojärvi et al.), artigo revisado por pares",
+          "ano": "2024 (abril de 2024)",
+          "tipo_fonte": "academia",
+          "setor": "melhoramento de café",
+          "pais_regiao": "Global (com Brasil)",
+          "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1163646/1/genome-and-population-genomics.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/NatureGenetics-Embrapa_2024_genoma-cafe-arabica.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Montagens em nível de cromossomo do café arábica e de seus dois progenitores; gargalos populacionais antigos explicam a baixa variação genética; base para o melhoramento genômico do arábica (p. 1-2)"
+          ],
+          "resumo": "Genoma de referência do café arábica e genômica populacional de 46 acessos, com cópia no repositório da Embrapa. Registra a base genética estreita da cultura e prepara o melhoramento assistido por genômica.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Genomic Selection for growth traits in Eucalyptus: accuracy within and across breeding populations (BMC Proceedings 5(Suppl 7): O16, IUFRO Tree Biotechnology 2011)",
+          "organizacao": "Embrapa, UFV, UnB, Cenibra, Fibria, Veracel e DArT (Grattapaglia et al.)",
+          "ano": "2011 (13/09/2011)",
+          "tipo_fonte": "academia",
+          "setor": "melhoramento florestal",
+          "pais_regiao": "Brasil",
+          "url": "https://bmcproc.biomedcentral.com/track/pdf/10.1186/1753-6561-5-S7-O16",
+          "arquivo": "07_agro-global-perenes-autonomia/Embrapa-BMCProc_2011_selecao-genomica-eucalipto-ciclo.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Acurácias realizadas da seleção genômica para altura e DAP de 0,67 e 0,69 (Cenibra) e 0,62 e 0,54 (Fibria), iguais ou maiores que as da seleção fenotípica convencional (p. 2)",
+            "Reduzir a geração de melhoramento de 12 para 6 anos com seleção genômica daria ganhos de eficiência de seleção de 100% ou mais; de 12 para 3 anos, com indução floral, acima de 300% (teórico) (p. 1-2)"
+          ],
+          "resumo": "Resumo de uma das primeiras provas de conceito de seleção genômica em árvores, com populações de melhoramento de eucalipto de duas empresas brasileiras. Documento antigo, útil para a ordem de grandeza da redução do ciclo nas florestais.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Integrating spatial modeling and genomic prediction to support early breeding of Acrocomia aculeata (resumo, XVII Simpósio Internacional de Genética e Melhoramento, Viçosa)",
+          "organizacao": "Universidade Federal de Viçosa e Universidade Federal de Goiás (Couto et al.)",
+          "ano": "2026 (setembro de 2026)",
+          "tipo_fonte": "academia",
+          "setor": "melhoramento de macaúba",
+          "pais_regiao": "Brasil",
+          "url": "https://proceedings.science/sigm/sigm-2026/papers/integrating-spatial-modeling-and-genomic-prediction-to-support-early-breeding-of?lang=en",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "167 indivíduos de populações naturais de quatro procedências genotipados e fenotipados; capacidade preditiva de até 0,35 (massa seca de polpa), 0,43 (massa seca de amêndoa) e 0,50 (teor de óleo da polpa) (web)",
+            "O melhoramento da macaúba é limitado pelo longo período juvenil, pela avaliação de populações naturais em ambientes heterogêneos e pelos poucos recursos genômicos; o genoma de referência da palma de óleo e o conjunto combinado de SNPs tiveram o desempenho mais consistente (web)"
+          ],
+          "resumo": "Resumo de congresso com a primeira aplicação de predição genômica com modelagem espacial em macaúba, por grupos públicos de pesquisa. A impressão em PDF foi bloqueada por verificação anti-robô (Cloudflare); o texto foi lido pela página. Autores: Couto, Peixoto, Vidotti, Kuki, Motoike, Rocha (UFV) e Resende (UFG); o resumo não informa financiamento.",
+          "relevancia": "alta"
+        }
+      ],
+      "formularios": [
+        {
+          "organizacao": "ABMRA (Associação Brasileira de Marketing Rural e Agronegócio)",
+          "titulo": "Pesquisa ABMRA Hábitos do Produtor Rural (10ª edição, 2025)",
+          "url": "https://abmra.org.br/pesquisa-abmra-habitos-do-produtor-rural-abmra/",
+          "tipo_acesso": "pago (aquisição de cota; resultados em software exclusivo)",
+          "campos": "não aplicável (compra)",
+          "relevancia": "media",
+          "recomendacao": "Só a imprensa divulga recortes (internet em 98% das propriedades; WhatsApp em 96%); não foi localizada pergunta sobre IA nos recortes públicos. Comprar só se a equipe quiser o perfil de mídia e tecnologia do produtor por porte e região.",
+          "nota_verificacao": "Página oficial lida em 11/11/2026: oferece 'Adquira sua cota' (pago) e mostra séries de 2013, 2017 e 2021; a 10ª edição de 2025 e os recortes citados (internet em 98% e WhatsApp em 96% das propriedades) não aparecem na página e vêm da imprensa (não conferidos). Nada a preencher."
+        }
+      ],
+      "lacunas": [
+        "Pela regra de não usar documentos ligados ao grupo do cliente, não entrou como fonte deste dossiê; a equipe decide se cita. Atenção: depois desta pesquisa, o PDF foi baixado de novo (04_academia-instituicoes/bioRxiv_2026_genoma-macauba-cromossomo.pdf, 11/11/2026 14:58) e é usado no dossiê _bruto_campo_C2.json. Fora ele, não há genoma de referência publicado em revista da espécie (a predição genômica da UFV/UFG usou o genoma da palma de óleo e um conjunto combinado de SNPs).",
+        "Realizado da seleção genômica em perenes: não foi encontrado artigo revisado por pares com ganho genético realizado (medido em campo) da seleção genômica em programas comerciais de palma de óleo, café, citros ou macaúba; o que existe são acurácias de predição e simulações (palma: Yaoundé I, INRAE e Cirad, 2023; eucalipto: Embrapa e parceiros, 2011). Nas evidências desta rodada, ganhos de melhoramento aparecem em dados declarados por empresas: Bayer, com ganho genético modelado em milho; Suzano, com o Speed Breeding de 21 para 7 anos, que o documento não liga à IA.",
+        "Artigo da New Phytologist (Das et al., 2026, doi 10.1111/nph.71272) sobre o OpenCRISPR-1 em arroz: o download foi bloqueado pela editora (HTTP 403); a evidência vem do comunicado oficial do ICAR, sem as eficiências por gene.",
+        "Adoção de IA pelos produtores no Brasil (2024 a 2026): não foi encontrada pesquisa nacional com amostra e método que meça o uso de IA no campo brasileiro. A última pesquisa nacional da Embrapa, do Sebrae e do Inpe é de 2020 e não pergunta sobre IA [M275]; a McKinsey 2026 publica só o recorte da América Latina (26%) e não o do Brasil [M021, p. 26]; a BCG 2025 mede tecnologias de precisão, não IA [M006]; a pesquisa da Embrapa com sojicultores paulistas (2024) mede oito tecnologias digitais, não IA [M279]; a pesquisa ABMRA (2025) é paga e os recortes públicos não falam de IA. Há um número circulando na imprensa (41,9% das fazendas), sem fonte, que coincide com o da indústria (IBGE).",
+        "Adoção de IA por cultura: nenhuma das pesquisas localizadas (McKinsey 2026, Bitkom/DLG 2024, Purdue/CME 2026, USDA NASS 2025) traz o uso de IA por cultura; a McKinsey separa só região, e a Bitkom, porte da fazenda. O que existe por cultura no Brasil é a adoção de agtech em geral (McKinsey 2024: algodão 90%, cana 44%, café 23%) [M022, p. 6].",
+        "Tempo até a decisão (H1): não foi encontrado número público de antes e depois para o mapa de falhas de plantio feito com IA (a fala da equipe, de cerca de um mês para um dia, não tem fonte publicada); as empresas brasileiras descrevem o mapeamento como 'rápido' sem medir [M356, p. 55; M340, p. 39]. Os únicos tempos medidos achados são de resposta a incêndio (Raízen, -27,6% no tempo de chegada [M329, p. 20]; bp bioenergy, -66% no tempo de resposta, imprensa, atribuído ao programa inteiro e não só à IA [M1217, p. 2, 6]).",
+        "Regulação da edição genética na China: o relatório anual do USDA FAS sobre biotecnologia na China (CH2025-0224, dez/2025) e os comunicados do Ministério da Agricultura chinês (MARA) não puderam ser baixados (o site do FAS devolve HTTP 403 e 404 ao acesso automatizado). Pela imprensa especializada e por resumos, a China emitiu certificados de biossegurança para trigo e milho editados (maio de 2024) e para o primeiro arroz editado (dez/2024), mas isso não foi verificado em fonte oficial.",
+        "Contagem oficial da CTNBio: a lista de consultas pela RN 16 com decisões por ano e por espécie não foi localizada em publicação oficial; os números mais recentes (109 produtos até out/2026) vêm de reportagem com dados obtidos junto à comissão (AgFeed) e os de nov/2024 (cerca de 63 pedidos de 26 empresas) de revisão acadêmica. As duas contagens não fecham: pela reportagem, até o fim de 2024 seriam cerca de 86 classificações, acima dos cerca de 63 pedidos da revisão.",
+        "IA no desenho da edição em perenes: não foi encontrado caso publicado de edição genética desenhada com IA em cultura perene (palma, eucalipto, café, citros ou macaúba). A edição com editor desenhado por IA só foi validada em arroz (ICAR, 2026); na palma, a edição está em protoplastos (MPOB) [M377, p. 11]; no eucalipto, a variedade editada aprovada em 2026 está em testes de campo [M778, p. 2-3].",
+        "Ganho do melhoramento com IA em perenes: a Suzano declara o Speed Breeding (21 para 7 anos) e o Tetrys, mas não liga esses ganhos à IA em documento oficial [M755, p. 84]; não há número público de ganho genético por ano ou de custo com IA no melhoramento de café, citros, palma ou macaúba.",
+        "M281 (Embrapa, Sebrae e Inpe, 2020) e M273 (Distrito, IA no Agro 2024) são PDFs só de imagem: o texto não é extraível e a pré-checagem por programa não acha números neles. Os números de M281 foram usados pelo artigo de 2021 [M275]; M273 não foi usado nesta rodada (precisaria de OCR ou leitura visual).",
+        "Pesquisas com produtores fora das Américas e da Alemanha: não foram buscadas pesquisas equivalentes da China, do Japão ou da Austrália sobre uso de IA pelos produtores; a Bitkom/DLG não publicou edição de 2026 (a última é de 2024).",
+        "Classe das evidências de campo no Brasil: quase todos os resultados de IA no campo das empresas brasileiras são da própria empresa (classe B) ou de imprensa (classe D); não foi encontrado resultado de IA no campo validado por terceiro (classe A) no Brasil.",
+        "Regulação na União Europeia: as datas de vigência (Regulamento (UE) 2026/1388, em vigor desde 16/07/2026 e aplicável a partir de 17/07/2028) estão na subpágina oficial de legislação da Comissão, lida em 11/11/2026 e ainda sem cópia guardada; a página catalogada traz só a adoção (17/06/2026) e a regra de vigência.",
+        "Regulação nos EUA depois de março de 2026: a nota do CRS é de 03/03/2026; numa consulta ao Federal Register em 11/11/2026, a regra interina prevista ('Regaining Lost Efficiencies for Products of Biotechnology') não aparecia publicada. Falta fonte catalogada para a situação atual."
+      ]
+    },
+    {
+      "grupo": "IA no campo (Frente 3) (ia-no-campo-C)",
+      "pasta": "05_agro-brasil-instituicoes-midia",
+      "itens": [
+        {
+          "titulo": "Updates on the Regulatory Framework of Edited Organisms in Brazil: A Molecular Revolution in Brazilian Agribusiness (Genes, 16, 553)",
+          "organizacao": "Universidade de Brasília, Embrapa Recursos Genéticos e Biotecnologia e outras instituições (UCB, CONICET/UNR, Northwestern) (da Cunha et al.); revista Genes (MDPI), doi 10.3390/genes16050553",
+          "ano": "2025 (30/04/2025)",
+          "tipo_fonte": "academia",
+          "setor": "biotecnologia agrícola; regulação",
+          "pais_regiao": "Brasil",
+          "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1176025/1/genes-16-00553.pdf",
+          "arquivo": "05_agro-brasil-instituicoes-midia/Embrapa-UnB_2025_marco-regulatorio-organismos-editados-rn16.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Até nov/2024, cerca de 63 pedidos de liberação comercial de organismos editados, de 26 empresas, chegaram à CTNBio; cerca de 62% (39) eram microrganismos ou derivados (p. 16)",
+            "De 1998 a 2024, 155 eventos de culturas transgênicas foram liberados no Brasil (p. 16)",
+            "Critérios da RN 16: SDN-1 e SDN-2 podem ser não OGM e SDN-3, OGM, sempre caso a caso (p. 11)"
+          ],
+          "resumo": "Revisão revisada por pares, com autores da UnB e da Embrapa, sobre os efeitos da Resolução Normativa nº 16 (2018) da CTNBio: critérios de classificação, fluxo de aprovação e números de pedidos. Afirma que a edição encurta especialmente o melhoramento de perenes de ciclo longo.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "\"Tesoura molecular\" do CRISPR já gerou 109 produtos com edição gênica para o agro brasileiro",
+          "organizacao": "AgFeed (imprensa)",
+          "ano": "2026 (13/10/2026)",
+          "tipo_fonte": "imprensa",
+          "setor": "biotecnologia agrícola; regulação",
+          "pais_regiao": "Brasil",
+          "url": "https://agfeed.com.br/agtech/tesoura-molecular-do-crispr-ja-gerou-109-produtos-com-edicao-genica-para-o-agro-brasileiro/",
+          "arquivo": "05_agro-brasil-instituicoes-midia/AgFeed_2026_ctnbio-109-produtos-editados.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "109 produtos do agro reconhecidos pela CTNBio como editados (não transgênicos) desde 2018: 70 microrganismos, 32 vegetais e 7 animais (levantamento obtido pelo veículo) (p. 1, 3)",
+            "25 classificações em 2024, 16 em 2025 e 7 em 2026 até outubro; bioinsumos com 64,2% dos registros (p. 2-4)"
+          ],
+          "resumo": "Reportagem com levantamento da CTNBio obtido pelo veículo e entrevista do presidente da comissão. É a contagem mais recente encontrada; não há publicação oficial equivalente localizada. Entra marcada como imprensa. A contagem não fecha com a da revisão da UnB e da Embrapa (cerca de 63 pedidos até nov/2024): pela reportagem, até o fim de 2024 seriam cerca de 86 classificações; as duas podem medir coisas diferentes.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Inteligência artificial chega ao campo e pode economizar milhões, mas existe um erro que compromete os resultados",
+          "organizacao": "Compre Rural (imprensa)",
+          "ano": "2026 (06/09/2026; reportagem de Leticia Florenco)",
+          "tipo_fonte": "imprensa",
+          "setor": "agro",
+          "pais_regiao": "Brasil",
+          "url": "https://www.comprerural.com/trends/inteligencia-artificial-chega-ao-campo-e-pode-economizar-milhoes-mas-existe-um-erro-que-compromete-os-resultados/",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Afirma, sem indicar a fonte, que 41,9% das fazendas e agroindústrias do país usam algum tipo de IA, número que coincide com o da Pintec Semestral do IBGE para empresas industriais com 100 ou mais pessoas ocupadas (web)"
+          ],
+          "resumo": "Exemplo de número de adoção de IA no campo com atribuição errada: o percentual é o da indústria (IBGE), não o de fazendas. Registrado para a seção de números que não devem ser usados. A impressão em PDF saiu só com imagens e foi descartada.",
+          "relevancia": "baixa"
+        },
+        {
+          "titulo": "Laranjeiras imunes (Revista Pesquisa FAPESP, ed. 294)",
+          "organizacao": "Revista Pesquisa FAPESP (reportagem de Sarah Schmidt sobre pesquisa do IAC, Centro de Citricultura Sylvio Moreira)",
+          "ano": "2020 (agosto de 2020)",
+          "tipo_fonte": "mídia",
+          "setor": "melhoramento de citros",
+          "pais_regiao": "Brasil",
+          "url": "https://revistapesquisa.fapesp.br/laranjeiras-imunes/",
+          "arquivo": "05_agro-brasil-instituicoes-midia/RevistaPesquisaFAPESP_2020_laranjeiras-cisgenicas-cvc-iac.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "A tangerina Maria, do IAC, levou 20 anos de cruzamentos, mapeamento e testes; a laranjeira leva cerca de três anos para se desenvolver, com longo período juvenil; o ensaio de campo previsto para as laranjeiras cisgênicas era de cinco anos (p. 2)"
+          ],
+          "resumo": "Reportagem da revista da Fapesp sobre laranjeiras cisgênicas resistentes à CVC desenvolvidas no IAC. Ilustra o tempo do melhoramento em citros e a dependência de autorização da CTNBio para o campo. Página web impressa em PDF.",
+          "relevancia": "baixa"
+        },
+        {
+          "titulo": "Inteligência artificial permite prever performance de cana-de-açúcar em campo",
+          "organizacao": "Agência Fapesp",
+          "ano": "2022 (17/10/2022)",
+          "tipo_fonte": "mídia",
+          "setor": "melhoramento de cana-de-açúcar",
+          "pais_regiao": "Brasil",
+          "url": "https://agencia.fapesp.br/inteligencia-artificial-permite-prever-performance-de-cana-de-acucar-em-campo/39815",
+          "arquivo": "05_agro-brasil-instituicoes-midia/AgenciaFAPESP_2022_ia-predicao-genomica-cana.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "O melhoramento tradicional da cana leva de 9 a 12 anos; o da seringueira, até 30 anos (fala da orientadora do estudo, Unicamp) (p. 2)",
+            "Ganho de 50% na capacidade preditiva do método de aprendizado de máquina (p. 1)"
+          ],
+          "resumo": "Notícia da agência de notícias da Fapesp sobre o artigo da Unicamp e parceiros, com a duração do ciclo de melhoramento da cana e da seringueira. Página web impressa em PDF.",
+          "relevancia": "media"
+        }
+      ],
+      "formularios": [],
+      "lacunas": []
+    },
+    {
+      "grupo": "IA no campo (Frente 3) (ia-no-campo-C)",
+      "pasta": "04_academia-instituicoes",
+      "itens": [
+        {
+          "titulo": "New Genomic Techniques (NGTs) — página oficial",
+          "organizacao": "Comissão Europeia (DG Saúde e Segurança Alimentar)",
+          "ano": "2026 (página consultada em 11/11/2026; regras adotadas em 17/06/2026)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "regulação de biotecnologia vegetal",
+          "pais_regiao": "União Europeia",
+          "url": "https://food.ec.europa.eu/plants/new-genomic-techniques_en",
+          "arquivo": "04_academia-instituicoes/ComissaoEuropeia_2026_new-genomic-techniques-ngt-plantas.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Regras para plantas obtidas por NGT adotadas pelo Parlamento Europeu e pelo Conselho em 17/06/2026 (p. 1)",
+            "Entram em vigor 20 dias após a publicação no Jornal Oficial e se aplicam 2 anos depois; categoria 1 tratada como convencional após verificação; categoria 2 segue a legislação de OGM; NGT proibidas na agricultura orgânica (p. 3)"
+          ],
+          "resumo": "Página oficial da Comissão Europeia sobre novas técnicas genômicas em plantas (mutagênese dirigida e cisgênese). Página web impressa em PDF, sem data. A subpágina oficial de legislação (https://food.ec.europa.eu/plants/new-genomic-techniques/legislation-plants_en, lida em 11/11/2026) informa o Regulamento (UE) 2026/1388, em vigor desde 16/07/2026 e aplicável a partir de 17/07/2028; ela não tem cópia guardada.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "USDA's Regulation of Agricultural Biotechnology (In Focus IF11573, atualizado em 03/03/2026)",
+          "organizacao": "Congressional Research Service (CRS), Congresso dos EUA",
+          "ano": "2026 (03/03/2026)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "regulação de biotecnologia agrícola",
+          "pais_regiao": "EUA",
+          "url": "https://crsreports.congress.gov/product/pdf/IF/IF11573",
+          "arquivo": "04_academia-instituicoes/CRS_2026_usda-regulation-agricultural-biotechnology.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Em dez/2024, a Justiça federal (Norte da Califórnia) anulou a regra SECURE; o USDA voltou às regras anteriores a 2020 e, em 2026, segue com elas enquanto avalia nova regra (p. 1)"
+          ],
+          "resumo": "Nota oficial do serviço de pesquisa do Congresso dos EUA (In Focus IF11573, versão 5, atualizada em 03/03/2026, autora Eleni G. Bickell) sobre a regulação de biotecnologia agrícola pelo USDA após a anulação da regra SECURE. Cópia obtida no espelho https://www.everycrsreport.com/files/2026-03-03_IF11573_f3ff14d60f40c16003917ec8aad354490452aacd.pdf, porque o site crsreports.congress.gov bloqueia o acesso automatizado (HTTP 403).",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Design of highly functional genome editors by modelling CRISPR–Cas sequences (Nature, 645, 518-525)",
+          "organizacao": "Profluent Bio (Ruffolo et al.), com coautores ligados à EPFL e à Universidade de Washington; artigo revisado por pares (Nature)",
+          "ano": "2025 (publicado on-line em 30/07/2025; edição de 11/09/2025)",
+          "tipo_fonte": "academia",
+          "setor": "biotecnologia; edição genética",
+          "pais_regiao": "Global (EUA)",
+          "url": "https://www.nature.com/articles/s41586-025-09298-z.pdf",
+          "arquivo": "04_academia-instituicoes/Profluent-Nature_2025_editores-genomicos-desenhados-por-ia-opencrispr.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Modelos de linguagem treinados em mais de 1 milhão de operons CRISPR (26 terabases) geraram 4,8 vezes o número de agrupamentos de proteínas encontrados na natureza; editores gerados com atividade e especificidade comparáveis ou superiores à SpCas9, a cerca de 400 mutações de distância (p. 1)",
+            "209 proteínas do tipo Cas9 testadas em células humanas (p. 4)"
+          ],
+          "resumo": "Editor genômico desenhado por IA (OpenCRISPR-1) com validação experimental em células humanas publicada em revista revisada por pares, liberado para uso em pesquisa e comercial. Autores, na maioria, da própria empresa. O arquivo tem cerca de 15 MB (fica fora do Git, como os demais brutos).",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "A joint learning approach for genomic prediction in polyploid grasses (Scientific Reports 12: 12499)",
+          "organizacao": "Unicamp, Esalq/USP, IAC, Embrapa, Unifesp, ITA e Universidade de Edimburgo (Aono et al.), artigo revisado por pares",
+          "ano": "2022 (julho de 2022)",
+          "tipo_fonte": "academia",
+          "setor": "melhoramento de cana-de-açúcar e forrageiras",
+          "pais_regiao": "Brasil",
+          "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1150365/1/Joint-learning-approach-genomic-2022.pdf",
+          "arquivo": "04_academia-instituicoes/Unicamp-Embrapa-SciRep_2022_aprendizado-maquina-predicao-genomica-cana.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Método de aprendizado de máquina (aprendizado conjunto de classificação e regressão) para predição genômica em populações biparentais de cana e de duas forrageiras: ganho de acurácia acima de 50% sobre os métodos tradicionais de predição genômica (p. 1)"
+          ],
+          "resumo": "Método de aprendizado de máquina (aprendizado conjunto de classificação e regressão) para predição genômica em gramíneas poliploides, com populações brasileiras de cana e forrageiras; segundo a Agência Fapesp, é o primeiro proposto para plantas poliploides. Mostra a IA no melhoramento de uma cultura semiperene do Brasil, em fase de pesquisa (acurácia de predição em validação cruzada, não ganho genético realizado).",
+          "relevancia": "alta"
+        }
+      ],
+      "formularios": [],
+      "lacunas": []
+    },
+    {
+      "grupo": "IA no campo (Frente 3) (ia-no-campo-C2)",
+      "pasta": "04_academia-instituicoes",
+      "itens": [
+        {
+          "titulo": "First chromosome scale genome of Acrocomia aculeata (preprint bioRxiv, versão 2, sem revisão por pares)",
+          "organizacao": "Unicamp (Instituto de Biologia), Esalq/USP (Departamento de Genética), Instituto Agronômico de Campinas (IAC) e APTA/Secretaria de Agricultura e Abastecimento de SP (M. Scaketti, primeiro autor; C. A. Labate; J. B. Pinheiro; C. Colombo; M. I. Zucchi, última autora; e outros)",
+          "ano": "2026 (versão 2, de 05/02/2026; versão 1 de 15/05/2025; DOI 10.1101/2025.05.12.653347)",
+          "tipo_fonte": "academia",
+          "setor": "genômica e melhoramento de palmeiras (macaúba)",
+          "pais_regiao": "Brasil",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.05.12.653347v2.full.pdf",
+          "arquivo": "04_academia-instituicoes/bioRxiv_2026_genoma-macauba-cromossomo.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Segundo os autores, primeira montagem do genoma de Acrocomia aculeata em nível de cromossomo e primeiro genoma de referência do gênero: 1,94 Gbp em 15 pseudocromossomos, N50 de 143,43 Mbp, 28.215 genes codificadores de proteína previstos, completude BUSCO de 98,9% das proteínas previstas (preprint, sem revisão por pares) (p. 1)",
+            "Repetições intercaladas em 77,36% do genoma, com retrotransposons LTR em 54,98% (p. 1, 5)",
+            "Qualidade: QV de 76,40, completude de k-mers de 90,58%, duplicação falsa de 1,71% e índice LAI de 25,11, contra 15,33 e 18,93 nos genomas recentes de E. guineensis e E. oleifera (p. 10-11)",
+            "Só 21 genomas publicados na ordem Arecales, de 9 espécies, das quais só a E. oleifera é nativa do Brasil (p. 2)"
+          ],
+          "resumo": "Preprint sem revisão por pares (bioRxiv, versão 2 de 05/02/2026) de pesquisadores da Unicamp, da Esalq/USP, do IAC e da APTA com o que os autores dizem ser o primeiro genoma de referência da macaúba em nível de cromossomo, montado com Oxford Nanopore, PacBio HiFi e Hi-C a partir de uma planta coletada no IAC. Os autores dizem que o genoma abre caminho para estudos de estrutura genética, genômica da conservação e programas de melhoramento, mas o artigo não testa seleção genômica, marcadores nem ganho de melhoramento.",
+          "relevancia": "media"
+        }
+      ],
+      "formularios": [],
+      "lacunas": [
+        "O preprint do genoma da macaúba não tem revisão por pares e não relata aplicação em melhoramento (seleção genômica, marcadores ou predição); até 11/11/2026, o bioRxiv não registra publicação em revista (versões 1, de 15/05/2025, e 2, de 05/02/2026)."
+      ]
+    }
+  ]
+}

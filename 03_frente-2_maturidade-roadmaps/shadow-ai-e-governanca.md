@@ -39,7 +39,7 @@ Há medições (tráfego ou eventos na clientela de um fornecedor de segurança)
 
 | Fonte | O que mede | Amostra e período | Resultado |
 |---|---|---|---|
-| Netskope (fornecedora de segurança) | Tráfego: usuários de IA generativa com aplicativo pessoal | Clientes, out/2024–out/2025 | 47% (78% um ano antes) [M1049, p. 2, 12] |
+| Netskope (fornecedora de segurança) | Tráfego: usuários de IA generativa com aplicativo pessoal | Clientes, out/2024–out/2025 | 47% (78% um ano antes) [M1049, p. 2, 22] |
 | Verizon DBIR (vende serviços de segurança) | Telemetria: contas usadas para acessar IA em dispositivos da empresa | 2025 | 67% com conta não corporativa (72% um ano antes) [M1068, p. 60] |
 | PagerDuty (fornecedora de software) | Uso de IA achando que a política não permitia | 1.250 profissionais de escritório fora da TI, em empresas com receita de US$ 500 milhões ou mais; EUA, Reino Unido, Austrália e Japão; 2026 | 66% [M1054, p. 1-3] |
 | Gartner | Quem tem IA da empresa e usa também a pessoal | 12.004 funcionários e gestores, 40 países, 1º tri/2026 | 88% [M1018, p. 1-2] |
@@ -65,7 +65,7 @@ Há medições (tráfego ou eventos na clientela de um fornecedor de segurança)
 ## 5. Risco e custo
 
 **O que sai.** Na PagerDuty, 88% compartilharam informação de trabalho com ferramentas públicas de IA, e 34%, dados de clientes [M1054, p. 2]. As medições confirmam:
-- Na Netskope, as violações de política de dados ligadas a IA generativa dobraram em um ano, para 223 por mês na organização média da clientela, contando só as detectadas; os dados mais envolvidos foram código-fonte (42%), dados regulados (32%) e propriedade intelectual (16%) [M1049, p. 5].
+- Na Netskope, as violações de política de dados ligadas a IA generativa dobraram em um ano, para 223 por mês na organização média da clientela, contando só as detectadas; os dados mais envolvidos foram código-fonte (42%), dados regulados (32%) e propriedade intelectual (16%) [M1049, p. 7-8].
 - No Verizon, o shadow AI virou em 2025 a terceira ação não maliciosa de funcionários mais detectada pelo seu serviço de prevenção de vazamento, quatro vezes mais que um ano antes [M1068, p. 60].
 - Na Harmonic, fornecedora de controle de uso de IA, 8,5% dos prompts tinham dados sensíveis, e 63,8% dos usuários do ChatGPT estavam no plano gratuito (4º tri/2024) [M1022, p. 2, 7].
 
@@ -88,7 +88,7 @@ Há medições (tráfego ou eventos na clientela de um fornecedor de segurança)
 |---|---|---|---|
 | FGVcia | Médias e grandes empresas brasileiras, 2024/25 | Participação na base instalada de IA generativa | Copilot 40%, ChatGPT 32%, Gemini 20% [M209, p. 130] |
 | Morning Consult | 500 decisores de empresas dos EUA com 5 mil ou mais funcionários, jul/2026 | Aprovado ou em uso em algum lugar da organização | Copilot 73%, Gemini 47%, ChatGPT Enterprise 44%, Claude 20%; em empresas de todos os portes, Gemini 55%, ChatGPT 48%, Copilot 45% [M1045, p. 1, 3] |
-| Netskope (tráfego) | Clientes, out/2024–out/2025 | "Adoção", sem base definida | ChatGPT 77%, Gemini 69%, Microsoft 365 Copilot 52% [M1049, p. 4] |
+| Netskope (tráfego) | Clientes, out/2024–out/2025 | "Adoção", sem base definida | ChatGPT 77%, Gemini 69%, Microsoft 365 Copilot 52% [M1049, p. 5] |
 
 **O uso medido.** Só as avaliações de governo medem uso entre licenciados, cada uma com um critério:
 
@@ -106,7 +106,7 @@ Os três não se somam nem se comparam, como o próprio DBT adverte [M1011, p. 4
 
 ## 7. Os caminhos das corporações
 
-**Proibir** foi comum em 2023: a Samsung proibiu depois que um engenheiro enviou código-fonte interno ao ChatGPT, e o JPMorgan Chase restringiu a ferramenta (Forbes, com base na Bloomberg) [M1013, p. 1-2]; num estudo da Cisco, fornecedora de segurança, com 2.600 profissionais de privacidade e segurança, 27% das organizações tinham proibido a IA generativa ao menos por um tempo [M1008, p. 22]. Hoje, 90% das organizações na clientela da Netskope bloqueiam algum aplicativo de IA, em média 10, sobretudo os vistos como de risco [M1049, p. 6]; na Zscaler, também fornecedora de segurança, a parcela de transações de IA bloqueadas caiu de 59,9% para 39% de 2024 para 2025, sem explicação [M1071, p. 2; M1072, p. 3]. Para **a ferramenta única da casa**, a Microsoft propõe chat corporativo para todos e licença paga para parte dos usuários (projeção comercial) [M1033, p. 2]. **Várias ferramentas** são a regra nas grandes empresas americanas: cerca de metade mantém lista curta de aprovadas (Morning Consult) [M1045, p. 3]. **Plataformas internas** e **combinações** aparecem nos casos abaixo, declarados pelas empresas, salvo indicação.
+**Proibir** foi comum em 2023: a Samsung proibiu depois que um engenheiro enviou código-fonte interno ao ChatGPT, e o JPMorgan Chase restringiu a ferramenta (Forbes, com base na Bloomberg) [M1013, p. 1-2]; num estudo da Cisco, fornecedora de segurança, com 2.600 profissionais de privacidade e segurança, 27% das organizações tinham proibido a IA generativa ao menos por um tempo [M1008, p. 22]. Hoje, 90% das organizações na clientela da Netskope bloqueiam algum aplicativo de IA, em média 10, sobretudo os vistos como de risco [M1049, p. 10]; na Zscaler, também fornecedora de segurança, a parcela de transações de IA bloqueadas caiu de 59,9% para 39% de 2024 para 2025, sem explicação [M1071, p. 2; M1072, p. 3]. Para **a ferramenta única da casa**, a Microsoft propõe chat corporativo para todos e licença paga para parte dos usuários (projeção comercial) [M1033, p. 2]. **Várias ferramentas** são a regra nas grandes empresas americanas: cerca de metade mantém lista curta de aprovadas (Morning Consult) [M1045, p. 3]. **Plataformas internas** e **combinações** aparecem nos casos abaixo, declarados pelas empresas, salvo indicação.
 
 | Empresa | Caminho | Alcance | Controles descritos | Resultado divulgado | Fonte |
 |---|---|---|---|---|---|
@@ -133,7 +133,7 @@ Os três não se somam nem se comparam, como o próprio DBT adverte [M1011, p. 4
 | Política de uso | Dizer o que pode e que dado não entra | A ANBIMA, associação do mercado financeiro, pede deixar claro se "sistemas paralelos de IA" são admitidos e como [M1000, p. 16]; o NIST, instituto de padrões dos EUA, política de uso aceitável que cubra ferramentas abertas e terceiros [M223, p. 25] |
 | Login único e provisionamento | Uma identidade da empresa | Nos planos corporativos de ChatGPT e Claude [M1053, p. 2; M1002, p. 1] |
 | Proteção de dados no contrato | Sem treino com os dados; retenção e local de processamento definidos | A residência de dados do ChatGPT Enterprise cobre dez regiões, sem o Brasil [M1053, p. 8]; a ANBIMA pede avaliar fornecedor e contrato [M1000, p. 16] |
-| Prevenção de vazamento | Barrar dado sensível que sai | Na clientela da Netskope, metade das organizações não aplica por tecnologia a proteção de dados na IA generativa [M1049, p. 5] |
+| Prevenção de vazamento | Barrar dado sensível que sai | Na clientela da Netskope, metade das organizações não aplica por tecnologia a proteção de dados na IA generativa [M1049, p. 7] |
 | Descoberta do uso por fora | Saber que IA se usa e com que dado | Ferramenta da Microsoft (versão clássica, já substituída) registra visitas a sites de IA de terceiros, com extensão de navegador [M1041, p. 1, 4]; o NIST sugere inventário de sistemas e lista de fornecedores aprovados [M223, p. 20, 25] |
 | Registro e auditoria | Rastrear uso | Planos empresariais [M909, p. 12]; na IBM 2025, só 34% das organizações com vazamento e política de IA auditavam o uso não autorizado [M1023, web] |
 | Treinamento | Uso seguro e útil | 35% dizem que o empregador não oferece treinamento (Software AG) [M1061, p. 7]; a ANBIMA pede treinar e manter canal de dúvidas [M1000, p. 16] |
@@ -203,7 +203,7 @@ Régua da nota de custo: *confirmada*, evidência direta e consistente de mais d
 | Hipótese | Veredito | Evidência principal |
 |---|---|---|
 | Partida 1. Cerca de 90% usam a Microsoft como base | Confirmada em parte | Nas médias e grandes empresas brasileiras, 89% da base instalada de pacotes de escritório [M209, p. 11]; fora, o Microsoft 365 lidera em clientes na Okta, que vende login único, e 51% desses clientes também usam Google Workspace [M1052, p. 5, 8]; nada mede a base de governança |
-| Partida 2. O Copilot perdeu a corrida inicial; a maioria foi para ChatGPT e Claude | Confirmada em parte | O ChatGPT chegou antes e tem mais presença no tráfego [M1005, web; M1049, p. 4], e a maioria dos empregados que usam IA recorre a ferramentas públicas gratuitas [M110, p. 73]; mas o Copilot lidera a aprovação nas grandes empresas americanas e a base brasileira, e o Claude fica bem atrás [M1045, p. 3; M209, p. 130] |
+| Partida 2. O Copilot perdeu a corrida inicial; a maioria foi para ChatGPT e Claude | Confirmada em parte | O ChatGPT chegou antes e tem mais presença no tráfego [M1005, web; M1049, p. 5-6], e a maioria dos empregados que usam IA recorre a ferramentas públicas gratuitas [M110, p. 73]; mas o Copilot lidera a aprovação nas grandes empresas americanas e a base brasileira, e o Claude fica bem atrás [M1045, p. 3; M209, p. 130] |
 | Partida 3. Por isso o shadow AI ganhou tração | Confirmada em parte | A marca pesa em casos [M1005, web; M1012, p. 27]; as causas mais citadas são outras (seção 4) |
 | H2. O motor é a falta de ferramenta oficial boa | Confirmada em parte | Motivo declarado [M1062, p. 2; M1065, p. 3]; queda das contas pessoais junto com a alta das corporativas [M1049, p. 2-3]; mas preferir escolher é o motivo mais citado numa pesquisa [M1062, p. 2], e 88% dos que têm IA da empresa também usam a pessoal [M1018, p. 2] |
 | H3. O Copilot ganhou a licença, não o uso | Confirmada em parte | Licenças crescem sem dado de uso por licença [M1038, p. 3-4]; caso Amgen, via imprensa [M1005, web]; nas avaliações de governo, o uso depende do critério [M1011, p. 16; M1021, p. 7] e, numa delas, a ferramenta foi vista como inferior [M1012, p. 27] |
@@ -211,7 +211,7 @@ Régua da nota de custo: *confirmada*, evidência direta e consistente de mais d
 | H5a. Há caminhos além do Copilot, com governança | Confirmada | Várias plataformas são a regra nas grandes empresas [M1045, p. 3]; casos com governança descrita pelas empresas [M025, p. 4; M437, p. 16; M417, p. 2-3]; Copilot aberto a outros modelos [M1032, p. 1] |
 | H5b. Com custo adequado | Sem evidência suficiente | Entrada de US$ 20 a 30, com bases diferentes [M1053, p. 1; M1002, p. 2-3; M1037, p. 4]; planos empresariais sem preço público [M1053, p. 2; M1019, p. 3]; único dado de custo de plataforma via imprensa [M1043, p. 1] |
 | H6. O vibe coding abre uma frente de aplicativos fora da TI | Confirmada em parte | Risco próprio documentado em incidentes [M1046, p. 1; M1030, p. 1; M1064, p. 1] e em código gerado com falhas [M1066, p. 1; M1007, p. 9]; a frente fora da TI só aparece em percepção sobre IA em geral [M1050, p. 2; M1026, p. 2] e em presença de usuários declarada pelos fornecedores [M1031, p. 2; M1058, p. 3] |
-| H7. O risco é real e tem custo | Confirmada | Custo estimado pela IBM, em comparação entre grupos [M1023, web]; caso Samsung [M1013, p. 1-2]; violações medidas [M1049, p. 5; M1068, p. 60]; sem caso brasileiro de sanção |
+| H7. O risco é real e tem custo | Confirmada | Custo estimado pela IBM, em comparação entre grupos [M1023, web]; caso Samsung [M1013, p. 1-2]; violações medidas [M1049, p. 7; M1068, p. 60]; sem caso brasileiro de sanção |
 
 **Hipótese de partida.** Confirma-se que a base é Microsoft, que o ChatGPT chegou antes e tem mais presença no tráfego e que a maioria dos que usam IA recorre a ferramentas públicas; não se confirma que o Copilot perdeu nas empresas, onde lidera a aprovação e a base instalada, nem que o Claude seja o destino da maioria; e a marca explica só parte do shadow AI.
 
@@ -231,7 +231,7 @@ Leitura nossa, macro: o uso por fora é sinal de demanda e mostra o que falta.
 | 4. Escala | Catálogo de ferramentas aprovadas ou plataforma com vários modelos, sob a mesma governança; capacitação ampla no uso; uso oficial e uso por fora medidos; ambiente isolado para protótipos, com promoção pela TI | Usuários ativos com critério divulgado; plataforma ou catálogo descrito; regras para criação fora da TI |
 | 5. Transformação | Regras aplicadas por tecnologia e verificadas sempre; ferramenta ou modelo novo entra por avaliação rápida; uso por fora residual; aplicativos criados fora da TI com inventário, dono e nível de risco | Rotina de avaliação e medida do uso por fora divulgadas |
 
-Base dos critérios: [M1000, p. 16; M223, p. 20, 25; M1016, p. 4; M1012, p. 48; M1034, p. 3-5; M1051, p. 32]. Calibragem: na clientela da Netskope, metade das organizações ainda não aplica por tecnologia a proteção de dados na IA generativa [M1049, p. 5]. Como a prática interna quase não aparece em fonte pública, o indicador depende das sessões executivas; vale por área (campo, indústria, corporativo) e anda junto com o de custo, pois o registro de uso também mede consumo.
+Base dos critérios: [M1000, p. 16; M223, p. 20, 25; M1016, p. 4; M1012, p. 48; M1034, p. 3-5; M1051, p. 32]. Calibragem: na clientela da Netskope, metade das organizações ainda não aplica por tecnologia a proteção de dados na IA generativa [M1049, p. 7]. Como a prática interna quase não aparece em fonte pública, o indicador depende das sessões executivas; vale por área (campo, indústria, corporativo) e anda junto com o de custo, pois o registro de uso também mede consumo.
 
 **(b) Perguntas sugeridas para as sessões executivas** (a validar com a equipe; o questionário validado com o cliente não muda):
 1. Que ferramentas de IA a empresa oferece oficialmente, a quem e desde quando?
@@ -254,7 +254,7 @@ Base dos critérios: [M1000, p. 16; M223, p. 20, 25; M1016, p. 4; M1012, p. 48; 
 | Afirmação | Problema e o que fazer | Fonte |
 |---|---|---|
 | "47% (Netskope) e 67% (Verizon) medem o mesmo" | Bases diferentes; citar cada um com a sua | [M1049, p. 2; M1068, p. 60] |
-| "ChatGPT 77% × Copilot 52% é participação de usuários" | "Adoção" sem base definida; não usar como participação | [M1049, p. 4] |
+| "ChatGPT 77% × Copilot 52% é participação de usuários" | "Adoção" sem base definida; não usar como participação | [M1049, p. 5] |
 | "Funcionários de 90% das empresas usam IA pessoal" | Via imprensa, original bloqueado, mede empresas; só com a ressalva | [M1014, p. 4] |
 | "38% dos brasileiros usam IA sem autorização" | Recorte contestado e sem amostra; usar o global, um terço | [M1063, p. 1; M1065, p. 3] |
 | "Proibir não reduz o uso por fora" (com base na Peers) | Percepção; o grupo de regras rígidas tem ferramentas homologadas, não proibição | [M1009, p. 2] |
@@ -343,7 +343,7 @@ Base dos critérios: [M1000, p. 16; M223, p. 20, 25; M1016, p. 4; M1012, p. 48; 
 - **M1046** — NIST — National Vulnerability Database (NVD); registro CVE atribuído pela MITRE (2025 (publicado em 30/05/2025; última modificação em 17/06/2026)). CVE-2025-48757 Detail (registro da vulnerabilidade de segurança em nível de linha nos aplicativos gerados pelo Lovable). [link](https://nvd.nist.gov/vuln/detail/CVE-2025-48757) · citado em p. 1, 1-2
 - **M1047** — National Cyber Security Centre (NCSC), Reino Unido (2026 (18/06/2026)). The 'vibe coding spectrum' approach to AI-assisted software development. [link](https://www.ncsc.gov.uk/blogs/the-vibe-coding-spectrum-approach-to-ai-assisted-software-development) · citado em p. 1-2, 1-3, 3
 - **M1048** — National Cyber Security Centre (NCSC), Reino Unido — CTO de Arquitetura (2026 (24/03/2026)). Vibe check: AI may replace SaaS (but not for a while). [link](https://www.ncsc.gov.uk/blogs/vibe-check-ai-may-replace-saas-but-not-for-a-while) · citado em p. 2, 4
-- **M1049** — Netskope (Netskope Threat Labs) (2026). Cloud and Threat Report: 2026. [link](https://www.netskope.com/resources/cloud-and-threat-reports/cloud-and-threat-report-2026) · citado em p. 2, 2-3, 3, 4, 5, 6, 12
+- **M1049** — Netskope (Netskope Threat Labs) (2026). Cloud and Threat Report: 2026. [link](https://www.netskope.com/resources/cloud-and-threat-reports/cloud-and-threat-report-2026) · citado em p. 2, 2-3, 3, 5, 5-6, 7, 7-8, 10, 22
 - **M1050** — Nutanix (pesquisa da Wakefield Research) (2026 (03/03/2026)). Nutanix Enterprise Cloud Index Finds AI Is Driving Rapid Container Adoption while Shadow IT and Organizational Silos Create AI Risks. [link](https://www.nutanix.com/press-releases/2026/nutanix-enterprise-cloud-index-finds-ai-is-driving-rapid-container-adoption) · citado em p. 2
 - **M1051** — OWASP Foundation (projeto OWASP Citizen Development Top 10) (2025 (documento sem data; referências até set/2025)). OWASP Top 10 Risks for Citizen Development (riscos do desenvolvimento cidadão: low-code/no-code, programação assistida por IA e agentes). [link](https://owasp.org/www-project-citizen-development-top-10/) · citado em p. 1, 32
 - **M1052** — Okta (Okta Japan) (2026 (30/04/2026)). Okta、業務アプリの利用動向に関する年次調査「Businesses at Work 2026」の結果を発表 (Okta divulga o Businesses at Work 2026). [link](https://www.okta.com/ja-jp/newsroom/press-releases/okta-businesses-at-work2026/) · citado em p. 5, 8

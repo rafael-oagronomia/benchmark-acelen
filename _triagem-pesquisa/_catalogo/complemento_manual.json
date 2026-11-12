@@ -321,7 +321,7 @@
             "Microsoft, Google e Meta registraram aumento de emissões, em grande parte pela energia necessária para a IA (p. 2)",
             "Evelyn Wang (MIT) estima cerca de uma década até que os data centers deixem de aumentar as emissões (p. 2)"
           ],
-          "resumo": "Coluna sobre a Semana do Clima de Nova York e a Assembleia da ONU (set/2026): a IA virou o tema central do debate climático, entre o potencial para acelerar pesquisa e a expansão de gás natural para abastecer data centers. Registra o ceticismo crescente do setor climático e a fala de Simon Stiell (ONU) de que os líderes de IA estão em 'terreno frágil' quanto à licença para operar. Ponto sensível para a Acelen: o capital de risco em combustíveis de baixo carbono caiu enquanto o de data centers cresceu. Obtido pelo usuário.",
+          "resumo": "Coluna sobre a Semana do Clima de Nova York e a Assembleia da ONU (set/2026): a IA virou o tema central do debate climático, entre o potencial para acelerar pesquisa e a expansão de gás natural para abastecer data centers. Registra o ceticismo crescente do setor climático e a fala de Simon Stiell (ONU) de que os líderes de IA estão em 'terreno frágil' quanto à licença para operar. A coluna registra que o capital de risco em combustíveis de baixo carbono caiu enquanto o de data centers cresceu. Obtido pelo usuário.",
           "relevancia": "alta"
         }
       ],
@@ -350,6 +350,31 @@
           ],
           "resumo": "Entrevista com o executivo que lidera a operação global da Thomson Reuters fora dos EUA, na esteira do Future of Professionals 2026. Registra que o relatório não tem recorte de Brasil e América Latina, o que contesta o recorte brasileiro publicado pela TI Inside.",
           "relevancia": "Fonte da divergência sobre o recorte brasileiro da Thomson Reuters na nota de shadow AI; imprensa."
+        },
+        {
+          "titulo": "Zscaler ThreatLabz 2026 AI Security Report (relatório completo)",
+          "organizacao": "Zscaler (ThreatLabz)",
+          "ano": "2026 (dados de 2025)",
+          "tipo_fonte": "empresa",
+          "setor": "segurança da informação (fornecedor)",
+          "pais_regiao": "Global",
+          "url": "https://www.zscaler.com/campaign/threatlabz-ai-security-report",
+          "arquivo": "12_shadow-ai-governanca/Zscaler_2026_threatlabz-ai-security-report-completo.pdf",
+          "pasta": "12_shadow-ai-governanca",
+          "status": "baixado",
+          "frentes": [
+            "F2"
+          ],
+          "metricas": [
+            "989,3 bilhões de transações de IA/ML na nuvem da Zscaler de jan a dez/2025, alta de 83% sobre 2024, em mais de 3.400 aplicativos (p. 5, 8)",
+            "As organizações bloquearam 39% das transações de IA/ML; os aplicativos mais bloqueados foram Grammarly, GitHub Copilot e ChatGPT (p. 3, 13)",
+            "Mais de 18.000 TB de dados enviados a aplicativos de IA/ML em 2025, alta de 92,6% (p. 3)",
+            "O ChatGPT gerou 410 milhões de violações de política de prevenção de perda de dados (DLP) (p. 6)",
+            "Finanças e seguros (23%) e manufatura (20%) lideram o tráfego de IA/ML pelo terceiro ano; finanças e seguros respondem por 39,1% das transações bloqueadas (p. 6, 18)",
+            "Brasil: 1,8% das transações de IA/ML, 11 bilhões, 10º país entre jun e dez/2025 (p. 23)"
+          ],
+          "resumo": "Relatório anual completo da Zscaler ThreatLabz sobre uso e risco de IA nas empresas clientes, medido no tráfego da nuvem da empresa em 2025: crescimento, fornecedores e aplicativos mais usados, bloqueios, dados enviados, violações de prevenção de perda de dados, uso por setor e país, casos de ataque com IA e recomendações. É a versão completa da página-resumo M1072; obtido pelo formulário da página em 09/11/2026.",
+          "relevancia": "Abre por setor e país a medição da página-resumo (M1072): o bloqueio se concentra em finanças e seguros, e o Brasil aparece com 1,8% das transações. Material de fornecedor de segurança, que vende a inspeção e o bloqueio que mede; a base é restrita aos clientes da Zscaler; é medição de tráfego, não pesquisa de opinião."
         }
       ],
       "formularios": [],
@@ -381,6 +406,10 @@
     "https://www.pwc.com.br/pt/consultoria/agtech-innovation/agtech-innovation-news/report-novos-paradigmas-para-a-inovacao-no-agro/formulario-versao-completa.html": [
       "pedir manualmente",
       "Não enviado: ao enviar, você passa a receber informações da PwC (o cancelamento é por e-mail depois). Conteúdo qualitativo de 2024, menor prioridade."
+    ],
+    "https://www.zscaler.com/campaign/threatlabz-ai-security-report": [
+      "já obtido",
+      "Formulário enviado em 09/11/2026: relatório completo catalogado em 12_shadow-ai-governanca (a página-resumo segue como M1072)."
     ]
   },
   "verificacao_manual": {

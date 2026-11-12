@@ -1,0 +1,1309 @@
+{
+  "resultados": [
+    {
+      "grupo": "Satélites e modelos de fundação (Frente 3) (satelites-A)",
+      "pasta": "04_academia-instituicoes",
+      "itens": [
+        {
+          "titulo": "Prithvi-EO-2.0: A Versatile Multi-Temporal Foundation Model for Earth Observation Applications (arXiv:2412.02732v3)",
+          "organizacao": "IBM Research, NASA (Marshall Space Flight Center), Centro de Supercomputação de Jülich e universidades (D. Szwarcman, S. Roy, P. Fraccaro et al.)",
+          "ano": "2024 (03/12/2024; v3 de 06/03/2026)",
+          "tipo_fonte": "academia",
+          "setor": "observação da Terra; modelos de fundação de imagem de satélite",
+          "pais_regiao": "Global (EUA e Europa)",
+          "url": "https://arxiv.org/abs/2412.02732v3",
+          "arquivo": "04_academia-instituicoes/IBM-NASA_2024_prithvi-eo-2-modelo-fundacao-observacao-terra.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Treinado com 4,2 milhões de séries temporais globais do HLS (30 m), de 2014 a 2023; até 600 milhões de parâmetros (p. 1-3)",
+            "Pré-treino: ~21.000 horas de GPU A100 (300M) e ~58.000 horas (600M); ajuste fino em uma GPU (p. 5)",
+            "Culturas no Sen4Map com 0,0625 dos dados de treino: F1 ponderado 72,2 contra 64,5 do modelo treinado do zero (p. 14)",
+            "PASTIS: Prithvi-EO-2.0-600M com mIoU de 53,4 contra 52,9 do modelo supervisionado de referência (U-TAE) (p. 15)"
+          ],
+          "resumo": "Artigo técnico (pré-print) do modelo de fundação aberto de IBM e NASA para imagens multitemporais de 30 m. Compara o modelo com outros modelos de fundação e com modelos de referência em desastres, culturas, biomassa e produtividade primária, inclusive com poucos rótulos.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Foundation Models for Generalist Geospatial Artificial Intelligence (Prithvi; arXiv:2310.18660v2)",
+          "organizacao": "IBM Research, NASA (Marshall Space Flight Center), Universidade do Alabama em Huntsville e Clark University (J. Jakubik, S. Roy et al.)",
+          "ano": "2023 (28/10/2023; v2 de 08/11/2023)",
+          "tipo_fonte": "academia",
+          "setor": "observação da Terra; modelos de fundação de imagem de satélite",
+          "pais_regiao": "EUA",
+          "url": "https://arxiv.org/abs/2310.18660v2",
+          "arquivo": "04_academia-instituicoes/IBM-NASA_2023_prithvi-modelo-fundacao-geoespacial.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Pré-treino com mais de 1 TB de imagens HLS dos EUA contíguos; 100 milhões de parâmetros, aberto no Hugging Face (p. 1, 6-7, 20)",
+            "Culturas nos EUA (13 classes): mIoU 0,426 do Prithvi contra 0,420 da U-Net, sem diferença significativa segundo os autores (p. 19)"
+          ],
+          "resumo": "Primeira versão do Prithvi, modelo de fundação de IBM e NASA treinado só com dados dos EUA. Avalia nuvens, inundações, cicatrizes de incêndio e segmentação de culturas, inclusive reduzindo os rótulos.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "ibm-nasa-geospatial/Prithvi-EO-2.0-300M (ficha do modelo no Hugging Face)",
+          "organizacao": "IBM, NASA e Centro de Supercomputação de Jülich (página do modelo no Hugging Face)",
+          "ano": "2024 (publicado em 02/12/2024; consulta em 11/11/2026)",
+          "tipo_fonte": "academia",
+          "setor": "observação da Terra; modelos de fundação",
+          "pais_regiao": "Global",
+          "url": "https://huggingface.co/ibm-nasa-geospatial/Prithvi-EO-2.0-300M",
+          "arquivo": "04_academia-instituicoes/IBM-NASA_2024_prithvi-eo-2-ficha-do-modelo-hugging-face.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Licença Apache 2.0 (p. 1)",
+            "Versões de 5M, 100M, 300M e 600M de parâmetros, com e sem dados de tempo e local (p. 3)"
+          ],
+          "resumo": "Ficha oficial do modelo Prithvi-EO-2.0 no Hugging Face, impressa da página. Registra a licença de uso (Apache 2.0) e as versões publicadas.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "PANGAEA: A Global and Inclusive Benchmark for Geospatial Foundation Models (arXiv:2412.04204v2)",
+          "organizacao": "ESA Φ-lab, KU Leuven, KTH, CNAM, Univ. Gustave Eiffel e Univ. de Glasgow (V. Marsocci, Y. Jia et al.)",
+          "ano": "2024 (05/12/2024; v2 de 30/04/2025)",
+          "tipo_fonte": "academia",
+          "setor": "observação da Terra; avaliação comparativa de modelos de fundação",
+          "pais_regiao": "Global",
+          "url": "https://arxiv.org/abs/2412.04204v2",
+          "arquivo": "04_academia-instituicoes/PANGAEA_2025_benchmark-modelos-fundacao-geoespaciais.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Modelos de fundação abertos não superam de forma consistente os supervisionados; a U-Net foi a que mais vezes ficou entre os dois melhores com 100% dos rótulos (p. 1, 13)",
+            "Conjuntos de dados de observação da Terra, segundo levantamento citado pelo PANGAEA: Europa 21%, América do Norte 18%, América do Sul 4%, África 5% (p. 9)",
+            "Com 10% dos rótulos, culturas do Sudão do Sul: CROMA 36,77 e S12-DINO 38,44 contra U-Net 13,88 de mIoU (p. 15)"
+          ],
+          "resumo": "Conjunto de teste padronizado (pré-print) com 11 bases (culturas, limites de talhão, incêndio, inundação, biomassa, urbano e mar) que compara 12 modelos de fundação abertos com redes treinadas do zero, com 100%, 50% e 10% dos rótulos. Discute o viés geográfico das avaliações.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Lightweight, Pre-trained Transformers for Remote Sensing Timeseries (Presto; arXiv:2304.14065v4)",
+          "organizacao": "Mila, McGill University, KU Leuven, University of Maryland e Arizona State University (G. Tseng, R. Cartuyvels, I. Zvonkov, M. Purohit, D. Rolnick, H. Kerner)",
+          "ano": "2023 (27/04/2023; v4 de 05/02/2024)",
+          "tipo_fonte": "academia",
+          "setor": "observação da Terra; modelos de fundação para séries temporais; agricultura",
+          "pais_regiao": "Global (inclui Brasil, Quênia e Togo)",
+          "url": "https://arxiv.org/abs/2304.14065v4",
+          "arquivo": "04_academia-instituicoes/NASAHarvest_2024_presto-modelo-leve-series-temporais-agricultura.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Café no Brasil (CropHarvest, 203 amostras de treino): F1 0,891 do Presto contra 0,000 do Random Forest; em AUC ROC, 0,997 contra 0,941 (p. 5, 19)",
+            "Até 1.000 vezes menos parâmetros treináveis que modelos ViT ou ResNet (p. 2)",
+            "Ajuste fino em menos de 6 minutos na CPU de um notebook de 2017 numa das tarefas (p. 7)"
+          ],
+          "resumo": "Modelo leve (pré-print) pré-treinado em séries temporais de pixels (Sentinel-1 e 2, clima ERA5, relevo) com 21,5 milhões de amostras. Avaliado em mapeamento de culturas com poucos rótulos, inclusive café no Brasil.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Fields of The World: A Machine Learning Benchmark Dataset For Global Agricultural Field Boundary Segmentation (AAAI 2025; arXiv:2409.16252v2)",
+          "organizacao": "Arizona State University, Microsoft AI for Good Research Lab, Taylor Geospatial Institute e Washington University in St Louis (H. Kerner, S. Chaudhari, A. Ghosh, C. Robinson et al.)",
+          "ano": "2024 (24/09/2024; v2 de 19/12/2024; AAAI 2025)",
+          "tipo_fonte": "academia",
+          "setor": "observação da Terra; limites de talhão",
+          "pais_regiao": "Global (24 países, inclusive o Brasil)",
+          "url": "https://arxiv.org/abs/2409.16252v2",
+          "arquivo": "04_academia-instituicoes/FieldsOfTheWorld_2024_benchmark-limites-de-talhao-global.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "70.462 amostras em 24 países de quatro continentes, com Sentinel-2 de duas datas (p. 1)",
+            "Recuperação de talhões inteiros: 0,58 no Brasil e na França; 0,20 no Camboja; 0,10 no Quênia; 0,06 na Índia; 0,03 em Portugal; média de 0,37 (p. 23)"
+          ],
+          "resumo": "Base aberta de limites de talhão, só de lavouras anuais (perenes excluídas), para treinar e comparar modelos, com resultados de referência por país e testes de transferência para países fora do treino. Discute a falta de rótulos utilizáveis no Brasil (CAR).",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "OlmoEarth: Stable Latent Image Modeling for Multimodal Earth Observation (arXiv:2511.13655v1)",
+          "organizacao": "Allen Institute for AI (Ai2), com University of Washington, Arizona State University e University of British Columbia",
+          "ano": "2025 (17/11/2025)",
+          "tipo_fonte": "academia",
+          "setor": "observação da Terra; modelos de fundação multimodais",
+          "pais_regiao": "Global",
+          "url": "https://arxiv.org/abs/2511.13655v1",
+          "arquivo": "04_academia-instituicoes/Ai2_2025_olmoearth-modelo-fundacao-observacao-terra.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Melhor em 15 de 24 tarefas (atributos congelados) e 19 de 29 (ajuste fino) contra 12 modelos, segundo os autores (p. 1)",
+            "Pré-treino com 285.288 amostras globais (p. 4)",
+            "OlmoEarth Large: 5.240 horas de GPU B200, 1.933 kWh, 0,77 t CO2e (p. 10)"
+          ],
+          "resumo": "Relatório técnico (pré-print) do modelo de fundação multimodal do Ai2 e da plataforma aberta que leva o modelo a organizações sem fins lucrativos. Inclui custo de treino, impacto ambiental e licença com restrições de uso.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "OlmoEarth Artifact License (LICENSE do repositório olmoearth_pretrain)",
+          "organizacao": "Allen Institute for AI (Ai2)",
+          "ano": "2025 (consulta em 11/11/2026)",
+          "tipo_fonte": "academia",
+          "setor": "observação da Terra; licenças de modelos",
+          "pais_regiao": "Global",
+          "url": "https://github.com/allenai/olmoearth_pretrain/blob/main/LICENSE",
+          "arquivo": "04_academia-instituicoes/Ai2_2025_olmoearth-licenca-de-uso.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Uso, modificação e distribuição gratuitos de pesos, dados e código; vedados usos militares e de defesa e atividades extrativas, inclusive mineração e desmatamento (p. 1-2)"
+          ],
+          "resumo": "Texto da licença dos pesos, dados e código do OlmoEarth. Mostra que 'aberto' pode vir com restrições de finalidade.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "TerraMind: Large-Scale Generative Multimodality for Earth Observation (arXiv:2504.11171v5)",
+          "organizacao": "IBM Research – Europe, ESA Φ-lab, Forschungszentrum Jülich, ETH Zurich e NASA IMPACT (J. Jakubik, F. Yang, B. Blumenstiel et al.)",
+          "ano": "2025 (15/04/2025; v5 de 17/06/2026)",
+          "tipo_fonte": "academia",
+          "setor": "observação da Terra; modelos de fundação multimodais",
+          "pais_regiao": "Global",
+          "url": "https://arxiv.org/abs/2504.11171v5",
+          "arquivo": "04_academia-instituicoes/IBM-ESA_2025_terramind-modelo-fundacao-multimodal.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Pré-treinado com 500 bilhões de tokens de ~9 milhões de amostras globais (p. 1, 3)",
+            "Base: 6 dias em 32 GPUs A100 (p. 5; o suplemento fala em 12 dias e 9.216 horas de GPU, p. 14); large: 10 dias em 32 GPUs A100 (p. 5)",
+            "Culturas: mIoU de 41,87 para 42,74 com camada de uso da terra gerada pelo modelo (p. 19)"
+          ],
+          "resumo": "Modelo multimodal generativo de IBM e ESA (pré-print), aberto no Hugging Face e no GitHub. Avaliado no PANGAEA e em mapeamento de culturas.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "A high-resolution canopy height model of the Earth (Nature Ecology & Evolution 7, 1778–1789)",
+          "organizacao": "ETH Zurich e Universidade de Yale (N. Lang, W. Jetz, K. Schindler, J. D. Wegner)",
+          "ano": "2023 (28/09/2023)",
+          "tipo_fonte": "academia",
+          "setor": "altura de copa; vegetação; carbono",
+          "pais_regiao": "Global",
+          "url": "https://doi.org/10.1038/s41559-023-02206-6",
+          "arquivo": "04_academia-instituicoes/ETH-Lang-et-al_2023_altura-de-copa-global-nature-ecol-evol.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Mapa global de altura de copa de 10 m para 2020, com Sentinel-2 e LiDAR orbital GEDI (p. 1)",
+            "Nas pegadas do GEDI reservadas para validação: RMSE de 6,0 m (viés de 1,3 m); equilibrado por faixa de altura, RMSE de 7,3 m (viés de -1,8 m) (p. 2)",
+            "Validação com LiDAR aerotransportado independente em 24 regiões de 11 países: Canadá, EUA, Costa Rica, Gabão e sete europeus (p. 4, 25)"
+          ],
+          "resumo": "Modelo de aprendizado profundo que estima a altura do topo da copa em qualquer lugar do planeta a partir do Sentinel-2, treinado com amostras esparsas do LiDAR orbital GEDI, com a incerteza de cada estimativa.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "CBERS-4, CBERS 04A and Amazonia 1 Missions (apresentação no SIT Technical Workshop 2022 do CEOS)",
+          "organizacao": "Instituto Nacional de Pesquisas Espaciais (Inpe), J. Dalge",
+          "ano": "2022 (13–15/09/2022)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "satélites brasileiros de observação da Terra",
+          "pais_regiao": "Brasil",
+          "url": "https://ceos.org/document_management/Meetings/SIT-Technical-Workshop/2022-SIT-Tech-Workshop/Presentations/5.1_Dalge_MissionStatus_v1.pdf",
+          "arquivo": "04_academia-instituicoes/Inpe-CEOS_2022_situacao-missoes-cbers-amazonia.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "CBERS-4 (lançado em 07/12/2014): mais de 2.000.000 de imagens distribuídas gratuitamente (p. 3)",
+            "CBERS 04A (20/12/2019): cerca de 200.000 imagens gratuitas (WPM, MUX e WFI) (p. 5)",
+            "Amazonia 1 (28/02/2021), projetado, integrado, testado e operado pelo Brasil: mais de 5.000 imagens WFI gratuitas (p. 7)"
+          ],
+          "resumo": "Situação das missões brasileiras de observação da Terra apresentada pelo Inpe ao CEOS, com finalidades (desmatamento e agricultura), datas de lançamento e volume de imagens distribuídas de graça.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Catálogo Integrado Imagens – INPE: roteiro de uso (versão 23/05/2024)",
+          "organizacao": "Instituto Nacional de Pesquisas Espaciais (Inpe), Programa BIG",
+          "ano": "2024 (23/05/2024)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "dados de satélite; acesso aberto",
+          "pais_regiao": "Brasil",
+          "url": "https://data.inpe.br/big/web/wp-content/uploads/2024/05/CatalogoIntegrado_ComoUsar.v0.1-2.pdf",
+          "arquivo": "04_academia-instituicoes/Inpe_2024_catalogo-integrado-imagens-como-usar.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Catálogo integrado data.inpe.br, em implantação, para imagens disponibilizadas gratuitamente, no padrão STAC, em colaboração com o Brazil Data Cube; ainda sem todas as imagens do Inpe (p. 2)"
+          ],
+          "resumo": "Guia oficial do catálogo integrado de imagens do Inpe (em implantação), com acesso por navegador, QGIS, API e Python, pensado para ciência de dados e computação em nuvem.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Obter imagens de sensoriamento remoto da Terra geradas pelo satélite CBERS 04A (carta de serviço)",
+          "organizacao": "Governo Federal (gov.br), serviço prestado pelo Inpe",
+          "ano": "2025 (última modificação em 15/12/2025)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "dados de satélite; acesso aberto",
+          "pais_regiao": "Brasil",
+          "url": "https://www.gov.br/pt-br/servicos/obter-imagens-de-sensoriamento-remoto-da-terra-geradas-pelo-satelite-cbers-04a",
+          "arquivo": "04_academia-instituicoes/Inpe-GovBr_2025_servico-imagens-cbers-04a-amazonia-1-sem-custo.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Imagens de CBERS-4, CBERS 04A e Amazonia 1 distribuídas sem restrições de uso ou custos (p. 2)"
+          ],
+          "resumo": "Carta de serviço do governo federal sobre a obtenção gratuita das imagens dos satélites CBERS e Amazonia 1 distribuídas pelo Inpe, com cadastro no repositório.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Norway cancels procurement for Tropical Forest Satellite Data Program",
+          "organizacao": "Norway's International Climate and Forest Initiative (NICFI), governo da Noruega",
+          "ano": "2025 (09/09/2025)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "dados de satélite de alta resolução para os trópicos",
+          "pais_regiao": "Trópicos",
+          "url": "https://www.nicfi.no/2025/09/09/norway-cancels-procurement-for-tropical-forest-satellite-data-program/",
+          "arquivo": "04_academia-instituicoes/NICFI_2025_cancelamento-programa-dados-satelite-florestas-tropicais.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Primeira fase do programa encerrada em 23/01/2025; compra da fase seguinte cancelada depois de contestação judicial (p. 1)"
+          ],
+          "resumo": "Comunicado oficial da Noruega sobre o fim da primeira fase e o cancelamento da contratação da nova fase do programa que dava acesso gratuito a mosaicos de alta resolução dos trópicos.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Select Planet Imagery is Now Available on GNW Horizon — Here's What You Should Know (blog atualizado em 08/10/2026)",
+          "organizacao": "World Resources Institute — Global Nature Watch (antigo Global Forest Watch)",
+          "ano": "2026 (atualizado em 08/10/2026)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "dados de satélite de alta resolução para os trópicos",
+          "pais_regiao": "Trópicos; bacia amazônica",
+          "url": "https://globalnaturewatch.org/blog/data-and-tools/planet-imagery-changes-gfw/",
+          "arquivo": "04_academia-instituicoes/WRI-GNW_2026_imagens-planet-nicfi-acesso-limitado-amazonia.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Imagens Planet retiradas da plataforma em 01/04/2025 (p. 2-3)",
+            "Acesso limitado de 26/05/2026 a 25/05/2027, só em áreas com alertas de perturbação na bacia amazônica (p. 3)"
+          ],
+          "resumo": "Página do WRI sobre o fim do acesso gratuito aos mosaicos Planet dos trópicos (programa NICFI) e o retorno parcial, em 2026, para áreas de alerta na Amazônia, com alternativas abertas (Landsat e Sentinel-2).",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "NISAR — Mission Overview / Quick Facts",
+          "organizacao": "NASA (missão conjunta com a Organização Indiana de Pesquisa Espacial, ISRO)",
+          "ano": "2025 (lançamento em 30/07/2025; consulta em 11/11/2026)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "radar de abertura sintética (banda L e S); observação da Terra",
+          "pais_regiao": "Global",
+          "url": "https://science.nasa.gov/mission/nisar/mission-overview/",
+          "arquivo": "04_academia-instituicoes/NASA_2025_nisar-radar-banda-l-visao-geral-da-missao.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Lançado em 30/07/2025; repetição a cada 12 dias e revisita média de cerca de 6 dias (p. 1-2)",
+            "Radar de banda L (24 cm, cobertura global) e S (9,4 cm, só Índia e áreas de calibração), resolução de 3 a 10 m; dados livres e abertos (p. 3)"
+          ],
+          "resumo": "Ficha oficial da missão de radar NASA-ISRO, que observa a superfície independentemente de nuvens e luz, com dados abertos de banda L para todo o globo.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Deep learning and aerial imagery for macaúba palm identification (Pesquisa Agropecuária Brasileira, v. 61, e03851)",
+          "organizacao": "Embrapa Agroenergia, Embrapa Cerrados e UFCG (W. R. dos Santos, S. P. Favaro, M. A. Cordão, E. E. Sano, A. N. Cardoso)",
+          "ano": "2026",
+          "tipo_fonte": "academia",
+          "setor": "macaúba; identificação de palmeiras por imagem e IA",
+          "pais_regiao": "Brasil (Ceará e Mato Grosso do Sul)",
+          "url": "https://doi.org/10.1590/S1678-3921.pab2026.v61.03851",
+          "arquivo": "04_academia-instituicoes/Embrapa-PAB_2026_deep-learning-imagens-aereas-identificacao-macauba.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Área de 1.000 ha no sul do Ceará com 3.679 macaúbas e 12.410 babaçus: 93% de acurácia no conjunto de teste (mesma área); 89% na classe macaúba num teste fora da área, de 4,0 ha em Batayporã (MS) (p. 1, 3, 7)",
+            "Imagens de drone com 5,0 cm e 3,0 cm de resolução (p. 3)",
+            "Kappa de 0,851 frente à inspeção de campo, em 98 das 174 imagens previstas (p. 3-4, 6)"
+          ],
+          "resumo": "Pesquisa pública da Embrapa que usa rede neural convolucional e imagens de drone para identificar macaúbas nativas e separá-las do babaçu, com teste fora da área de treino.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Agricultural property monitoring using geospatial foundation models (Anais do II Workshop Científico do Semear Digital, p. 33-40)",
+          "organizacao": "ESALQ/USP e Embrapa Agricultura Digital (A. Goulart, M. Papa, I. Bergier, D. Dourado)",
+          "ano": "2025",
+          "tipo_fonte": "academia",
+          "setor": "modelos de fundação de imagem; monitoramento de propriedade rural",
+          "pais_regiao": "Brasil (Guia Lopes da Laguna, MS)",
+          "url": "https://www.alice.cnptia.embrapa.br/alice/handle/doc/1185893",
+          "arquivo": "04_academia-instituicoes/Embrapa-USP_2025_monitoramento-propriedade-modelo-fundacao-clay.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Estudo preliminar com o modelo Clay sobre imagens Sentinel-2 de uma propriedade; vetores de 768 dimensões (p. 1, 3)",
+            "Autores não acharam outro trabalho com modelos de fundação aplicados à gestão de propriedades rurais (p. 2)"
+          ],
+          "resumo": "Teste preliminar, num distrito agrotecnológico de MS, do uso de um modelo de fundação aberto (Clay), sem treino adicional e só com bandas RGB do Sentinel-2, para acompanhar mudanças de manejo (pastagem e implantação de integração pecuária-floresta); análise visual, sem métrica de acurácia.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "How AI foundation models help unmask soy facilities in Brazil (Trase Insights)",
+          "organizacao": "Trase (iniciativa liderada por Global Canopy e Stockholm Environment Institute), com Ode Partners (J. Soares, H. Biddle e M. Grimshaw)",
+          "ano": "2026 (30/06/2026)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "cadeia da soja; infraestrutura agrícola; modelos de fundação",
+          "pais_regiao": "Brasil",
+          "url": "https://trase.earth/insights/how-ai-foundation-models-help-unmask-soy-facilities-in-brazil",
+          "arquivo": "04_academia-instituicoes/Trase-SEI-GlobalCanopy_2026_modelos-fundacao-armazens-soja-brasil.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "AlphaEarth com Random Forest e 321 pontos de referência; refinamento com Clay; 4.200 locais; 12.000 candidatos após cruzar com Conab e MapBiomas (p. 3-4)"
+          ],
+          "resumo": "Descrição do método da Trase para localizar armazéns e silos de soja no Brasil com dois modelos de fundação (AlphaEarth e Clay) e poucos pontos rotulados.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "AI maps 9,300 Brazilian soy facilities, unlocking supply chain traceability (comunicado de imprensa)",
+          "organizacao": "Global Canopy (Trase)",
+          "ano": "2026 (03/03/2026)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "cadeia da soja; rastreabilidade",
+          "pais_regiao": "Brasil",
+          "url": "https://globalcanopy.org/press/ai-maps-9300-brazilian-soy-facilities-unlocking-supply-chain-traceability/",
+          "arquivo": "04_academia-instituicoes/GlobalCanopy-Trase_2026_ia-mapeia-9300-armazens-soja.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "9.300 instalações de soja mapeadas; confirmação com mais de 90% de acurácia, segundo a organização (p. 1)"
+          ],
+          "resumo": "Comunicado da Global Canopy sobre o mapeamento de silos e armazéns de soja no Brasil com modelos de fundação de imagem, para rastreabilidade e a lei europeia antidesmatamento.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Earth Observation Data Cubes for Brazil: Requirements, Methodology and Products (Remote Sensing 12(24), 4033)",
+          "organizacao": "Instituto Nacional de Pesquisas Espaciais (Inpe) — K. R. Ferreira et al.",
+          "ano": "2020 (09/12/2020)",
+          "tipo_fonte": "academia",
+          "setor": "cubos de dados de satélite; Brazil Data Cube",
+          "pais_regiao": "Brasil",
+          "url": "https://www.mdpi.com/2072-4292/12/24/4033",
+          "arquivo": "",
+          "status": "bloqueado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [],
+          "resumo": "Artigo do Inpe que descreve o Brazil Data Cube (cubos de dados prontos para análise de CBERS-4, Sentinel-2 e Landsat). O site da revista devolveu página HTML em vez do PDF (proteção anti-robô); não foi contornado.",
+          "relevancia": "media"
+        }
+      ],
+      "formularios": [],
+      "lacunas": [
+        "Avaliação de modelos de fundação de imagem (Prithvi, AlphaEarth, Clay, OlmoEarth, TerraMind) em culturas perenes no Brasil (café, citros, eucalipto, palma, macaúba) em artigo revisado por pares: não localizada. Há só a tarefa de café no Brasil do CropHarvest avaliada pelo Presto (pré-print), o estudo preliminar da ESALQ/USP e da Embrapa com o Clay em pastagem e integração pecuária-floresta (MS, análise visual, sem métrica) e a aplicação da Trase a armazéns de soja (institucional). O modelo autossupervisionado da Meta e do WRI foi avaliado em altura de copa em São Paulo e no Espírito Santo (artigo revisado), mas sem separar culturas.",
+        "Custo ou tempo de desenvolvimento de um monitoramento agrícola com modelo de fundação frente a um modelo treinado do zero (H1): nenhuma fonte com valor em dinheiro ou prazo. As fontes trazem só horas de GPU do pré-treino (Prithvi, OlmoEarth, AlphaEarth) e ganhos de acurácia com poucos rótulos em conjuntos de teste (no PANGAEA, a vantagem dos modelos de fundação aparece com 10% dos rótulos, não com todos); os mapas de perenes do Google ainda usaram cerca de 11 milhões de pontos de referência (16,3 milhões com as pseudoausências).",
+        "Macaúba por satélite: nenhum estudo de mapeamento da macaúba por imagem de satélite nem com modelo de fundação; só drone com rede neural (Embrapa, PAB 2026, e o estudo da UFLA já catalogado [M241]). Uma dissertação da UFV (Landsat para carbono em plantios de macaúba) e um artigo de 2026 em Smart Agricultural Technology (LiDAR em drone e aprendizado profundo para macaúbas produtivas) apareceram na busca, mas não foram baixados (tese; artigo em editora comercial sem acesso aberto confirmado).",
+        "Validação de campo dos mapas globais de perenes no Brasil: os mapas de café, cacau, palma e seringueira da Forest Data Partnership não têm acurácia própria para o Brasil (só limitações, como confusão da palma com floresta secundária no Maranhão e em Roraima), e o MapBiomas não publica acurácia por cultura perene (só para a classe agregada). Não se achou validação independente em campo desses mapas no país.",
+        "Ficha técnica oficial atual do Inpe com resolução, faixa e revisita do CBERS-4A (câmeras WPM, MUX e WFI) e do Amazonia-1 (WFI): não localizada nas páginas do Inpe/gov.br consultadas (sem esses números no texto); os valores só aparecem em fontes secundárias (eoPortal, imprensa), não usadas.",
+        "Preço de imagens comerciais de alta resolução (Planet, Maxar, Airbus) para monitorar perenes: sem tabela pública; o único dado é contábil (licença de imagens de satélite do Fundecitrus como intangível). O comunicado oficial da Planet sobre o contrato com a Polícia Federal no Programa Brasil MAIS (30/09/2024) abriu na verificação, mas só diz que o valor é 'de sete dígitos'; nenhum número dele foi registrado como evidência.",
+        "Uso de modelos de fundação de observação da Terra por empresas do agro brasileiro em produção: não localizado. Os documentos públicos de Suzano, Amaggi, SLC e Fundecitrus citam aprendizado de máquina clássico (Random Forest, NDVI), plataformas de fornecedores (Planet, Earth Engine, Marvin) e inventários com imagem, sem nomear modelos de fundação.",
+        "Página original da Embrapa sobre o modelo de previsão de produtividade com PlanetScope (set/2025): não localizada; o fato entrou pela reportagem da Revista Cultivar (marcada como imprensa), que cita os artigos originais (Agronomy, sobre cana; Frontiers, sobre soja), ainda não baixados. O artigo do Inpe sobre o Brazil Data Cube (MDPI) segue sem cópia (metadados conferidos na Crossref).",
+        "Detecção de doença e de estresse hídrico em perenes por satélite com validação de campo e número: não localizada nesta rodada; os resultados com validação de campo são de drone (palma na Tailândia; macaúba no Brasil) e o projeto da Epamig sobre estado hídrico do café não publica acurácia.",
+        "Modelos fechados de grandes empresas de tecnologia de outros países (por exemplo, SkySense, do Ant Group) e o DINOv3 da Meta para satélite não foram cobertos nesta rodada; a comparação aberto contra fechado (H5) se apoia em Prithvi (Apache 2.0, ficha do Hugging Face), TerraMind (Apache 2.0 na ficha do Hugging Face, conferida na verificação, mas sem cópia catalogada), OlmoEarth (licença própria com restrições) e AlphaEarth (vetores em CC-BY 4.0, sem pesos liberados)."
+      ]
+    },
+    {
+      "grupo": "Satélites e modelos de fundação (Frente 3) (satelites-A)",
+      "pasta": "03_analistas-big-techs",
+      "itens": [
+        {
+          "titulo": "AlphaEarth Foundations: An embedding field model for accurate and efficient global mapping from sparse label data (arXiv:2507.22291v2)",
+          "organizacao": "Google DeepMind e Google (C. F. Brown, M. R. Kazmierski, V. J. Pasquarella et al.)",
+          "ano": "2025 (29/07/2025; v2 de 08/09/2025)",
+          "tipo_fonte": "analista/big tech",
+          "setor": "observação da Terra; modelos de fundação (vetores de atributos por pixel)",
+          "pais_regiao": "Global",
+          "url": "https://arxiv.org/abs/2507.22291v2",
+          "arquivo": "03_analistas-big-techs/GoogleDeepMind_2025_alphaearth-foundations-embeddings.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Erro ~23,9% menor que a segunda melhor abordagem com o máximo de amostras; 10,4% com 10 amostras por classe; 4,18% com 1 (p. 3, 6), segundo os autores",
+            "Treino: 56 horas em 512 TPU v4 (p. 29)",
+            "Mais de 3 bilhões de observações de nove fontes em grade e uma de texto (p. 9)",
+            "Com 1 a 10 amostras por classe, desempenho perto do acaso em muitos casos: 'fronteira de pesquisa não resolvida' (p. 51)"
+          ],
+          "resumo": "Artigo técnico do Google (pré-print no arXiv) sobre o AlphaEarth Foundations, que resume um ano de observações de vários sensores num vetor de 64 números por pixel de 10 m. Traz a avaliação contra outros métodos com poucas amostras e as camadas anuais publicadas de 2017 a 2024.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Satellite Embedding V1 (GOOGLE/SATELLITE_EMBEDDING/V1/ANNUAL) — Earth Engine Data Catalog",
+          "organizacao": "Google Earth Engine e Google DeepMind (página do catálogo sobre o próprio conjunto de dados)",
+          "ano": "2025 (consulta em 11/11/2026)",
+          "tipo_fonte": "analista/big tech",
+          "setor": "observação da Terra; dados e licenças",
+          "pais_regiao": "Global",
+          "url": "https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_SATELLITE_EMBEDDING_V1_ANNUAL",
+          "arquivo": "03_analistas-big-techs/Google_2025_satellite-embedding-v1-alphaearth-catalogo-earth-engine.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Pixel de 10 m com vetor de 64 dimensões por ano civil; disponível de 2017 a 2024 (p. 1)",
+            "Versão 2.1 do modelo; sequências de treino de 8,4 milhões para 10,1 milhões; camada de culturas do USDA (CDL) entrou como alvo (p. 2)",
+            "Earth Engine gratuito para pesquisa, educação e uso sem fins lucrativos (p. 2); licença CC-BY 4.0 (aba de termos de uso, web)"
+          ],
+          "resumo": "Página oficial do catálogo do Earth Engine sobre as camadas anuais de vetores do AlphaEarth. Registra cobertura, versão do modelo, compromisso de produção e licença.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Forest Data Partnership — community models 2026a: cocoa, coffee, palm and rubber (documentação técnica, README do repositório google/forest-data-partnership)",
+          "organizacao": "Google, para a Forest Data Partnership (documentação técnica do próprio produto)",
+          "ano": "2026 (consulta em 11/11/2026)",
+          "tipo_fonte": "analista/big tech",
+          "setor": "culturas perenes; mapeamento de commodities; desmatamento",
+          "pais_regiao": "Trópicos (24°S a 24°N)",
+          "url": "https://github.com/google/forest-data-partnership/blob/main/models/model_2026a/README.md",
+          "arquivo": "03_analistas-big-techs/Google-FDP_2026_modelos-cacau-cafe-palma-seringueira-2026a-documentacao.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Mais de 16 milhões de pontos (16.321.170), dos quais cerca de 11 milhões de referência e 5,3 milhões de pseudoausências geradas pelo Google; entrada: vetores do AlphaEarth (p. 1, 23, 26-27)",
+            "Precisão = revocação no conjunto de seleção: cacau 94%, seringueira 94%, palma 89%, café 71% (p. 31)",
+            "Acurácias do conjunto de seleção são superestimadas, segundo a própria documentação (p. 35)",
+            "Nas bases de validação de Descals et al. (2024), calculado pela própria documentação (precisão = revocação): palma ~84%, seringueira ~81% (p. 33-34)"
+          ],
+          "resumo": "Documentação dos mapas pantropicais de probabilidade de cacau, café, palma e seringueira (10 m), gerados com os vetores do AlphaEarth. Lista fontes de referência, acurácia e limitações por cultura e região, inclusive no Brasil.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "A Community Palm Model (arXiv:2405.09530v2)",
+          "organizacao": "Google, FAO, Ohio State University, Unilever, CREAF, WRI e outros parceiros da Forest Data Partnership (N. Clinton et al.)",
+          "ano": "2024 (01/05/2024; v2 de 20/11/2024)",
+          "tipo_fonte": "analista/big tech",
+          "setor": "palma de óleo; mapeamento de commodities",
+          "pais_regiao": "Global (trópicos)",
+          "url": "https://arxiv.org/abs/2405.09530v2",
+          "arquivo": "03_analistas-big-techs/Google-FDP_2024_modelo-comunitario-palma-de-oleo.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Acurácia binária de 92% (limiar 0,5) na base externa de Descals et al. (2024), com precisão de 60%; 96,9% no teste interno, segundo os autores (p. 1, 7)",
+            "Teste interno sempre acima da validação externa: possível viés de autoavaliação (p. 7)"
+          ],
+          "resumo": "Pré-print do modelo comunitário de palma de óleo, treinado com dados reunidos de vários parceiros e imagens públicas (Sentinel-1, Sentinel-2, ALOS-2). Discute limites de generalização e uso em cadeias de suprimento.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Very high resolution canopy height maps from RGB imagery using self-supervised vision transformer and convolutional decoder trained on Aerial Lidar (Remote Sensing of Environment 300, 113888; arXiv:2304.07213v3)",
+          "organizacao": "Meta (FAIR) e World Resources Institute (J. Tolan, H.-I. Yang, B. Nosarzewski et al.)",
+          "ano": "2024 (aceito em 18/12/2023; RSE 2024)",
+          "tipo_fonte": "analista/big tech",
+          "setor": "altura de copa; modelo autossupervisionado de imagem de satélite",
+          "pais_regiao": "EUA (Califórnia) e Brasil (São Paulo e Espírito Santo)",
+          "url": "https://arxiv.org/abs/2304.07213v3",
+          "arquivo": "03_analistas-big-techs/Meta-WRI_2024_altura-de-copa-1m-modelo-autossupervisionado.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Mapas de altura de copa para Califórnia e São Paulo na resolução do LiDAR de treino (1 m); MAE médio de 2,8 m (p. 1, 4)",
+            "São Paulo: MAE de 5,1 a 5,4 m e R² de 0,35 a 0,42, contra MAE de 2,6 a 3,1 m e R² de 0,63 a 0,70 nos EUA (p. 15)",
+            "Inventário Florestal Nacional no Espírito Santo: erro médio de 0,72 m e RMSE de 4,25 m (p. 15)"
+          ],
+          "resumo": "Artigo revisado por pares da Meta e do WRI: modelo autossupervisionado treinado com 18 milhões de imagens Maxar e decodificador ajustado com LiDAR aéreo dos EUA. Avalia o mapa no Brasil contra LiDAR e o Inventário Florestal Nacional.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Planet Renews Contract with the Federal Police of Brazil (comunicado de imprensa)",
+          "organizacao": "Planet Labs PBC (sobre o próprio contrato no Programa Brasil MAIS)",
+          "ano": "2024 (30/09/2024)",
+          "tipo_fonte": "empresa",
+          "setor": "imagens de satélite comerciais; setor público brasileiro",
+          "pais_regiao": "Brasil",
+          "url": "https://investors.planet.com/news/news-details/2024/Planet-Renews-Contract-with-the-Federal-Police-of-Brazil/default.aspx",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [],
+          "resumo": "Comunicado da Planet (30/09/2024) sobre a renovação, por 12 meses, do contrato de monitoramento diário com a Polícia Federal no Programa Brasil MAIS, via a parceira SCCON. Traz números declarados pela empresa sobre o programa.",
+          "relevancia": "media"
+        }
+      ],
+      "formularios": [],
+      "lacunas": []
+    },
+    {
+      "grupo": "Satélites e modelos de fundação (Frente 3) (satelites-A)",
+      "pasta": "07_agro-global-perenes-autonomia",
+      "itens": [
+        {
+          "titulo": "High-resolution global map of smallholder and industrial closed-canopy oil palm plantations (Earth System Science Data 13, 1211–1231)",
+          "organizacao": "CREAF, Liverpool John Moores University, CIFOR, Comissão Europeia (JRC) e outros (A. Descals, S. Wich, E. Meijaard, D. Gaveau, S. Peedell, Z. Szantoi)",
+          "ano": "2021 (24/03/2021)",
+          "tipo_fonte": "academia",
+          "setor": "palma de óleo; mapeamento global por satélite",
+          "pais_regiao": "Global (trópicos)",
+          "url": "https://doi.org/10.5194/essd-13-1211-2021",
+          "arquivo": "07_agro-global-perenes-autonomia/Descals-et-al_2021_mapa-global-palma-de-oleo-sentinel.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Acurácia global de 98,52 ± 0,20%; acurácia do usuário de 88,22% (industrial) e 76,56% (pequenos produtores) (p. 1)",
+            "21,00 ± 0,42 Mha de palma de dossel fechado em 49 países em 2019; América do Sul com 0,91 ± 0,06 Mha (p. 1, 8)",
+            "Plantios jovens e esparsos ficam de fora; área menor que a colhida segundo a FAO (p. 1)"
+          ],
+          "resumo": "Mapa global de 10 m da palma de óleo de dossel fechado em 2019, feito com rede neural convolucional sobre Sentinel-1 e Sentinel-2 e validado por pontos interpretados. Separa plantios industriais e de pequenos produtores e mostra o limite para plantios jovens.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Cocoa plantations are associated with deforestation in Côte d'Ivoire and Ghana (Nature Food 4, 384–393)",
+          "organizacao": "ETH Zurich, Universidade de Copenhague, UCLouvain, Universidade de Cambridge e outros (N. Kalischek, N. Lang, C. Renier et al.)",
+          "ano": "2023 (mai/2023)",
+          "tipo_fonte": "academia",
+          "setor": "cacau; mapeamento por satélite e desmatamento",
+          "pais_regiao": "Costa do Marfim e Gana",
+          "url": "https://doi.org/10.1038/s43016-023-00751-8",
+          "arquivo": "07_agro-global-perenes-autonomia/Kalischek-et-al_2023_mapa-cacau-costa-do-marfim-gana-nature-food.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Validação de campo na Costa do Marfim: precisão de 92,6%, revocação de 90,9% e F1 de 91,7% para cacau (p. 3, 8)",
+            "Cacau ligado a mais de 37% da perda de floresta em áreas protegidas da Costa do Marfim e a mais de 13% em Gana; área oficial subestimada em até 40% em Gana (p. 1)"
+          ],
+          "resumo": "Mapas de 10 m do cacau nos dois maiores produtores do mundo, com aprendizado profundo sobre imagens públicas (Sentinel-2) e validação em campo. Estima área, desmatamento associado e produtividade média.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "High-resolution maps show that rubber causes substantial deforestation (Nature 623, 340–346)",
+          "organizacao": "Royal Botanic Garden Edinburgh, Academia Chinesa de Ciências, Universidade de York e outros (Y. Wang, P. M. Hollingsworth, A. Ahrends et al.)",
+          "ano": "2023 (09/11/2023)",
+          "tipo_fonte": "academia",
+          "setor": "seringueira; mapeamento por satélite e desmatamento",
+          "pais_regiao": "Sudeste Asiático",
+          "url": "https://doi.org/10.1038/s41586-023-06642-z",
+          "arquivo": "07_agro-global-perenes-autonomia/Wang-et-al_2023_mapa-seringueira-desmatamento-nature.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Acurácia global de 0,95 ± 0,02; acima de 0,99 no continente e 0,85 nas ilhas do Sudeste Asiático (p. 2)",
+            "Mais de 4 milhões de ha de floresta perdidos para a seringueira desde 1993 (p. 1)",
+            "Plantios só ficam identificáveis por satélite cerca de 5 anos após o plantio (p. 10)"
+          ],
+          "resumo": "Mapa de 10 m da seringueira no Sudeste Asiático com Sentinel-2 e fenologia, no Google Earth Engine, e do desmatamento associado com Landsat. Mostra a dificuldade de separar plantio de floresta e de detectar plantios jovens e pequenos.",
+          "relevancia": "alta"
+        }
+      ],
+      "formularios": [],
+      "lacunas": []
+    },
+    {
+      "grupo": "Satélites e modelos de fundação (Frente 3) (satelites-A)",
+      "pasta": "05_agro-brasil-instituicoes-midia",
+      "itens": [
+        {
+          "titulo": "Agriculture and Forest Plantation — Appendix, Collection 10 (ATBD, v2)",
+          "organizacao": "MapBiomas (equipe de agricultura e silvicultura; coordenação de Eliseu Weber)",
+          "ano": "2025 (ago/2025)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "uso da terra; agricultura; culturas perenes; silvicultura",
+          "pais_regiao": "Brasil",
+          "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Agriculture-and-Forest-Plantation-Appendix-ATBD-Collection-10-v2.pdf",
+          "arquivo": "05_agro-brasil-instituicoes-midia/MapBiomas_2025_atbd-colecao-10-agricultura-e-silvicultura.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Culturas perenes em quatro subclasses desde a Coleção 8: café, citros, palma de óleo e outras perenes (p. 8)",
+            "Citros, palma e arroz com rede neural U-Net; demais classes com Random Forest (p. 4)",
+            "Amazônia 2022: lavouras perenes com 250 mil ha no MapBiomas e 390 mil ha no TerraClass (p. 27)"
+          ],
+          "resumo": "Documento de base teórica do método de agricultura e silvicultura da Coleção 10 do MapBiomas (Landsat, 1985–2024). Descreve classes, algoritmos, mosaicos, efeito das nuvens e a validação, que só existe para as classes agregadas.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Imagens de satélite preveem produtividade agrícola (Modelo da Embrapa obteve 89% de precisão na cana e 71% na soja, com apoio do PlanetScope)",
+          "organizacao": "Revista Cultivar (reportagem sobre trabalho da Embrapa Agricultura Digital)",
+          "ano": "2025 (09/09/2025)",
+          "tipo_fonte": "imprensa",
+          "setor": "previsão de produtividade por satélite; cana e soja",
+          "pais_regiao": "Brasil",
+          "url": "https://www.revistacultivar.com.br/noticias/imagens-de-satelite-preveem-produtividade-agricola",
+          "arquivo": "05_agro-brasil-instituicoes-midia/RevistaCultivar_2025_embrapa-modelo-produtividade-planetscope-cana-soja.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Cana: R² de 0,89 em duas safras com a Coplacana; soja: correlação de 71%, em teste de um bioestimulante (p. 4, 6)",
+            "Com 500 a 600 amostras, o modelo estatístico superou o de aprendizado de máquina, que precisaria de milhares, segundo a Embrapa (p. 7-8)",
+            "Programa Brasil Mais (MJSP): imagens diárias PlanetScope para mais de 600 instituições (p. 8)"
+          ],
+          "resumo": "Reportagem (imprensa) sobre o modelo da Embrapa que prevê produtividade de cana e soja com imagens PlanetScope cedidas pelo Programa Brasil Mais. Traz a ressalva de que faltam amostras de campo para o aprendizado de máquina.",
+          "relevancia": "media"
+        }
+      ],
+      "formularios": [],
+      "lacunas": []
+    },
+    {
+      "grupo": "Satélites e modelos de fundação (Frente 3) (satelites-B)",
+      "pasta": "04_academia-instituicoes",
+      "itens": [
+        {
+          "titulo": "GraphCast: Learning skillful medium-range global weather forecasting (arXiv:2212.12794v2, 04/08/2023; versão publicada na Science 382, 1416–1421, 2023)",
+          "organizacao": "Google DeepMind e Google Research (R. Lam, A. Sanchez-Gonzalez, M. Willson et al.)",
+          "ano": "2023",
+          "tipo_fonte": "academia",
+          "setor": "meteorologia (previsão do tempo de médio prazo)",
+          "pais_regiao": "Global",
+          "url": "https://arxiv.org/abs/2212.12794v2",
+          "arquivo": "04_academia-instituicoes/GoogleDeepMind-arXiv_2023_graphcast-medium-range-weather.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Previsão global de 10 dias a 0,25° em menos de um minuto; supera os sistemas determinísticos operacionais mais precisos em 90% de 1.380 alvos de verificação, segundo os autores (p. 1)",
+            "Treino com 39 anos (1979–2017) da reanálise ERA5, cerca de quatro semanas em 32 TPU v4 (p. 4)",
+            "Precipitação total excluída da avaliação por vieses conhecidos do ERA5 (p. 4)",
+            "Não deve ser visto como substituto da previsão numérica tradicional; depende de dados assimilados por ela (p. 11)"
+          ],
+          "resumo": "Artigo dos autores do Google DeepMind sobre o próprio modelo (desempenho declarado pelos autores). A cópia guardada é a versão arXiv v2, de 04/08/2023, pré-publicação do artigo depois publicado na Science (v. 382, 2023). Modelo de rede neural em grafos treinado na reanálise ERA5 que, segundo os autores, supera o HRES do ECMWF em 90% de 1.380 alvos de verificação; código e pesos publicados no GitHub. Traz limites declarados: previsões borradas em prazos longos, sem tratamento explícito da incerteza, precipitação fora do placar e dependência da assimilação de dados da previsão numérica.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Probabilistic weather forecasting with machine learning (Nature 637, 84–90, 2025; publicado on-line em 04/12/2024)",
+          "organizacao": "Google DeepMind (I. Price, A. Sanchez-Gonzalez, F. Alet et al.)",
+          "ano": "2025",
+          "tipo_fonte": "academia",
+          "setor": "meteorologia (previsão probabilística de médio prazo)",
+          "pais_regiao": "Global",
+          "url": "https://doi.org/10.1038/s41586-024-08252-9",
+          "arquivo": "04_academia-instituicoes/GoogleDeepMind-Nature_2025_gencast-probabilistic-weather.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "GenCast: conjunto de previsões de 15 dias a 0,25°, mais de 80 variáveis, em 8 min; acerto maior que o ENS do ECMWF em 97,2% de 1.320 alvos, segundo os autores; a precipitação ficou fora dos resultados principais (p. 1, 4)",
+            "Treino com 40 anos (1979–2018) do ERA5; teste em 2019 (p. 2-3)",
+            "Limites declarados: 0,25° contra 0,1° do ENS; mais caro que modelo determinístico; depende da assimilação de dados tradicional (p. 7)"
+          ],
+          "resumo": "Artigo revisado por pares (acesso aberto) dos autores do Google DeepMind sobre o próprio modelo de difusão para previsão por conjunto (ensemble). Mostra a IA superando o ensemble operacional do ECMWF em métricas globais, inclusive extremos, trajetória de ciclones e energia eólica; código no GitHub com pesos. Os próprios autores registram a dependência da assimilação de dados tradicional e a resolução limitada pela reanálise.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Accurate medium-range global weather forecasting with 3D neural networks (Nature 619, 533–538, 2023; publicado on-line em 05/07/2023)",
+          "organizacao": "Huawei Cloud (K. Bi, L. Xie, H. Zhang, X. Chen, X. Gu e Q. Tian)",
+          "ano": "2023",
+          "tipo_fonte": "academia",
+          "setor": "meteorologia (previsão do tempo de médio prazo)",
+          "pais_regiao": "Global (China)",
+          "url": "https://doi.org/10.1038/s41586-023-06185-3",
+          "arquivo": "04_academia-instituicoes/Huawei-Nature_2023_pangu-weather-3d-neural-networks.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Pangu-Weather: melhor que o IFS operacional em todas as variáveis testadas contra a reanálise; RMSE de 296,7 para Z500 em 5 dias contra 333,7 do IFS, segundo os autores (p. 1-2)",
+            "Inferência de 1,4 s numa GPU, mais de 10.000 vezes mais rápido que o IFS; treino de cerca de 16 dias em 192 GPUs V100 por rede (p. 2)",
+            "Limites declarados: treino e teste em reanálise; precipitação não investigada; resultados mais suaves aumentam o risco de subestimar a magnitude de extremos (p. 5)"
+          ],
+          "resumo": "Artigo revisado por pares (acesso aberto) dos autores da Huawei Cloud sobre o próprio modelo, que, segundo os autores, superou o IFS do ECMWF em previsão determinística avaliada contra a reanálise (no rastreamento de ciclones, os próprios autores chamam a comparação com o HRES de 'um tanto injusta', porque o HRES parte das condições iniciais do IFS e o Pangu, da reanálise). Modelos treinados e código de inferência liberados no GitHub. Os autores listam limites: avaliação só em reanálise, sem precipitação, suavização que aumenta o risco de subestimar a magnitude de extremos.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Neural general circulation models for weather and climate (Nature 632, 1060–1066, 2024; publicado on-line em 22/07/2024)",
+          "organizacao": "Google Research, com MIT, ECMWF, Google DeepMind e Harvard (D. Kochkov, J. Yuval, S. Hoyer et al.)",
+          "ano": "2024",
+          "tipo_fonte": "academia",
+          "setor": "meteorologia e clima (modelo híbrido física + IA)",
+          "pais_regiao": "Global",
+          "url": "https://doi.org/10.1038/s41586-024-07744-y",
+          "arquivo": "04_academia-instituicoes/Google-Nature_2024_neuralgcm-weather-climate.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "NeuralGCM-1.4° simula 70.000 dias em 24 horas numa TPU, contra 19 dias em 13.824 núcleos de CPU do X-SHiELD (p. 6)",
+            "Subestima os extremos de precipitação menos evaporação nos trópicos, no terceiro dia das previsões, segundo os autores (p. 4, 13)",
+            "Com +4 K na temperatura do mar, a resposta diverge do esperado e há deriva climática (p. 6)"
+          ],
+          "resumo": "Artigo revisado por pares (acesso aberto), com autores do Google e coautores do ECMWF e de universidades, sobre o modelo híbrido que combina um núcleo dinâmico físico diferenciável com parametrizações aprendidas. Serve a previsão do tempo, por conjunto e simulações de clima de décadas com custo muito menor; código e checkpoints abertos. Limites declarados: subestima extremos tropicais e não extrapola para climas muito diferentes.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "A foundation model for the Earth system (Nature 641, 1180–1187, 2025; publicado on-line em 21/05/2025)",
+          "organizacao": "Microsoft Research AI for Science, com Silurian AI e universidades (Amsterdam, Cambridge, Linz e outras) (C. Bodnar, W. P. Bruinsma, A. Lucic et al.)",
+          "ano": "2025",
+          "tipo_fonte": "academia",
+          "setor": "meteorologia e sistema Terrestre (modelo de fundação)",
+          "pais_regiao": "Global",
+          "url": "https://doi.org/10.1038/s41586-025-09005-y",
+          "arquivo": "04_academia-instituicoes/Microsoft-Nature_2025_aurora-foundation-model-earth-system.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Aurora: 1,3 bilhão de parâmetros, pré-treinado com mais de um milhão de horas de dados geofísicos (p. 1-2)",
+            "Supera previsões operacionais em 74% (qualidade do ar), 86% (ondas), 100% (trajetória de ciclones) e 92% (tempo a 0,1°) dos alvos, segundo os autores (p. 1)",
+            "Ajuste fino de 4 a 8 semanas por tarefa; ainda depende de condições iniciais da assimilação de dados tradicional (p. 7)"
+          ],
+          "resumo": "Artigo revisado por pares (acesso aberto) dos autores da Microsoft sobre o próprio modelo de fundação do sistema Terrestre: pré-treino em dados heterogêneos e ajuste fino para qualidade do ar, ondas, ciclones e tempo em alta resolução. Código e pesos no GitHub. Os autores ressalvam a dependência da assimilação de dados tradicional e citam aplicações agrícolas só como possibilidade.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "AIFS – ECMWF's data-driven forecasting system (arXiv:2406.01465v2, 07/08/2024)",
+          "organizacao": "ECMWF – European Centre for Medium-Range Weather Forecasts (S. Lang, M. Alexe, M. Chantry et al.)",
+          "ano": "2024",
+          "tipo_fonte": "governo/instituição",
+          "setor": "meteorologia (previsão do tempo de médio prazo)",
+          "pais_regiao": "Europa / Global",
+          "url": "https://arxiv.org/abs/2406.01465v2",
+          "arquivo": "04_academia-instituicoes/ECMWF-arXiv_2024_aifs-data-driven-forecasting-system.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "AIFS roda quatro vezes por dia ao lado do modelo físico; previsões abertas pela política de dados do ECMWF (p. 1)",
+            "Treino de cerca de uma semana em 64 GPUs A100; previsão de 10 dias em cerca de 2 min 30 s numa GPU (p. 5)",
+            "Nos trópicos, a previsão de precipitação total em geral melhora frente ao IFS; nos extratrópicos, é pior em prazos curtos, segundo o ECMWF (placar de 2022, chuva verificada contra observações SYNOP) (p. 6-7)",
+            "Limites: borramento em prazos longos e ciclones tropicais menos intensos (p. 6, 10)"
+          ],
+          "resumo": "Pré-publicação técnica do próprio ECMWF sobre o AIFS: arquitetura, dados de treino (ERA5 e análises operacionais), custo de treino e de execução, verificação contra análises e observações e limites declarados. Desempenho declarado pelo centro que fez o modelo.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "ECMWF's ensemble AI forecasts become operational (01/07/2025)",
+          "organizacao": "ECMWF – European Centre for Medium-Range Weather Forecasts",
+          "ano": "2025",
+          "tipo_fonte": "governo/instituição",
+          "setor": "meteorologia (previsão por conjunto)",
+          "pais_regiao": "Europa / Global",
+          "url": "https://www.ecmwf.int/en/about/media-centre/news/2025/ecmwfs-ensemble-ai-forecasts-become-operational",
+          "arquivo": "04_academia-instituicoes/ECMWF_2025_aifs-ens-ensemble-operational.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "AIFS ENS em operação em 01/07/2025: conjunto de 51 previsões, ao lado do IFS (p. 2)",
+            "Ganhos de até 20% (ex.: temperatura de superfície) frente aos modelos físicos, segundo o ECMWF; 31 km contra 9 km do ensemble físico (p. 2)",
+            "Mais de 10 vezes mais rápido e cerca de 1.000 vezes menos energia; depende da assimilação de dados física (p. 3)"
+          ],
+          "resumo": "Comunicado oficial do ECMWF sobre a entrada em operação da versão por conjunto (ensemble) do AIFS, depois da versão determinística de fevereiro de 2025. Desempenho declarado pelo próprio centro; registra a resolução menor que a do ensemble físico e a dependência da assimilação de dados física.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "NOAA deploys new generation of AI-driven global weather models (17/12/2025, atualizado em 17/02/2026)",
+          "organizacao": "NOAA – National Oceanic and Atmospheric Administration (EUA)",
+          "ano": "2025",
+          "tipo_fonte": "governo/instituição",
+          "setor": "meteorologia (previsão global determinística e por conjunto)",
+          "pais_regiao": "EUA / Global",
+          "url": "https://www.noaa.gov/news-release/noaa-deploys-new-generation-of-ai-driven-global-weather-models",
+          "arquivo": "04_academia-instituicoes/NOAA_2025_ai-driven-global-weather-models-operational.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "AIGFS: previsão de 16 dias com 0,3% dos recursos de computação do GFS, em cerca de 40 minutos (p. 3)",
+            "AIGEFS: ensemble de 31 membros com 9% da computação do GEFS; nos primeiros resultados, habilidade estendida em 18 a 24 horas, segundo a NOAA (na p. 5, habilidade 'comparável' à do GEFS) (p. 2-5)",
+            "Partiu do GraphCast do Google DeepMind, ajustado com as análises do sistema de assimilação da NOAA (p. 5-6)"
+          ],
+          "resumo": "Comunicado oficial da NOAA (17/12/2025) que anuncia três modelos de IA em operação (AIGFS, AIGEFS e o ensemble híbrido HGEFS), saídos do Project EAGLE; a página não dá a data exata de entrada em operação. Desempenho declarado pela agência; registra piora na intensidade de ciclones na versão 1.0 e a origem do modelo no GraphCast do Google.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "World Meteorological Congress endorses actions to promote AI for forecasts and warnings (comunicado, 24/10/2025)",
+          "organizacao": "Organização Meteorológica Mundial (OMM/WMO)",
+          "ano": "2025",
+          "tipo_fonte": "governo/instituição",
+          "setor": "meteorologia (governança da IA nos serviços meteorológicos)",
+          "pais_regiao": "Global",
+          "url": "https://wmo.int/news/media-centre/world-meteorological-congress-endorses-actions-promote-ai-forecasts-and-warnings",
+          "arquivo": "04_academia-instituicoes/WMO_2025_congresso-ia-previsoes-alertas.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "A IA deve complementar, não substituir, os métodos científicos de previsão e a infraestrutura existentes (p. 1-3)",
+            "Persistem desafios consideráveis na capacidade da IA de apoiar previsões de tempo local de alto impacto e de processos hidrológicos (p. 3)",
+            "Projeto-piloto Noruega–Malawi de previsão por IA (Forecast-in-a-Box) (p. 4)"
+          ],
+          "resumo": "Comunicado da OMM sobre as resoluções do Congresso Extraordinário de outubro de 2025 que ancoram a IA na infraestrutura global de previsão (WIPPS), com ênfase em dados abertos, ferramentas de código aberto, papel dos serviços meteorológicos nacionais e apoio a países de renda baixa e média.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Forecasting the Future: The Role of Artificial Intelligence in Transforming Weather Prediction and Policy (WMO Bulletin Vol. 74 (2), 13/10/2025)",
+          "organizacao": "Organização Meteorológica Mundial (OMM/WMO), com autores do ECMWF, do Environment and Climate Change Canada e do Hong Kong Observatory (M. Jean, F. Pappenberger, P. W. Chan et al.)",
+          "ano": "2025",
+          "tipo_fonte": "governo/instituição",
+          "setor": "meteorologia (IA na previsão do tempo e do clima; política e governança)",
+          "pais_regiao": "Global",
+          "url": "https://wmo.int/resources/wmo-bulletin/wmo-bulletin-vol-74-2-2025/forecasting-future-role-of-artificial-intelligence-transforming-weather-prediction-and-policy",
+          "arquivo": "04_academia-instituicoes/WMO-Bulletin_2025_forecasting-future-ia-previsao-tempo.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "A revolução da IA foi possível pelo ecossistema de dados construído em décadas pela comunidade meteorológica; o esforço público (observação, troca de dados, assimilação, dados abertos) gerou as reanálises sobre as quais prosperaram os esforços de IA de todos os setores, inclusive empresas privadas (p. 5)",
+            "Modelos de IA trazem novos desafios de avaliação: robustez, generalização, equidade entre regiões e consistência física (p. 4)",
+            "Pilotos de previsão de chuva por IA na África Oriental (Oxford, PMA, ICPAC, ECMWF e Google), com modelos concebidos para ser abertos e rodar sem supercomputador (p. 7)"
+          ],
+          "resumo": "Artigo do boletim da OMM escrito por dirigentes da OMM, do ECMWF e de serviços nacionais sobre a IA da previsão imediata à sazonal: projetos-piloto (previsão imediata, Forecast-in-a-Box, AI Weather Quest para subsazonal e sazonal), verificação, governança, dados abertos, papel humano e capacitação de países com menos recursos.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Performance Evaluation of GraphCast for Medium-Range Weather Forecasting over Brazil (arXiv:2606.06348v1, 04/06/2026)",
+          "organizacao": "PUCRS – MALTA, Machine Learning Theory and Applications Lab (W. R. Rowell Jr. e L. S. Kupssinskü)",
+          "ano": "2026",
+          "tipo_fonte": "academia",
+          "setor": "meteorologia (avaliação regional de modelo de IA)",
+          "pais_regiao": "Brasil",
+          "url": "https://arxiv.org/abs/2606.06348v1",
+          "arquivo": "04_academia-instituicoes/arXiv_2026_graphcast-avaliacao-brasil-medio-prazo.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Segundo os autores, a primeira avaliação regional, por regime climático, de um modelo operacional de IA sobre o Brasil: GraphCast contra o IFS HRES (na grade de 0,25° dos dados abertos) em quatro sub-regiões e quatro meses (mar., jul. e out. de 2024; jan. de 2025) (p. 1-2, 8-9, 13)",
+            "Em mar., out. e jan., escore acima do HRES em todas as variáveis, sub-regiões e prazos (no Sul, Z500 entre 102% e 135%); em julho, Z500 abaixo do HRES em 48 h nas quatro sub-regiões e, no Sul, queda a 47,91% em 120 h, diferença não significativa no teste pareado por inicialização (p = 0,16) (p. 13, 17, 19, 21)",
+            "Precipitação, vento e superfície fora da análise; 124 dias, sem variabilidade interanual (p. 22)"
+          ],
+          "resumo": "Pré-publicação (sem revisão por pares) de pesquisadores da PUCRS, independentes do Google, que compara o GraphCast operacional (dados públicos do WeatherNext 1) com o modelo determinístico do ECMWF (na grade de 0,25° dos dados abertos) sobre quatro sub-regiões do Brasil. Mostra desempenho dependente do regime e da estação: acima do IFS em março, outubro e janeiro; no inverno, déficit de curto prazo no geopotencial a 500 hPa em todo o país e déficit maior e mais longo no Sul (não significativo no teste pareado por inicialização). Não avalia chuva; a referência (análise do IFS) favorece o modelo numérico, segundo os próprios autores.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Numerical models outperform AI weather forecasts of record-breaking extremes (arXiv:2508.15724v1, 21/08/2025)",
+          "organizacao": "Universidade de Genebra, KIT, ETH Zurich, UFZ Leipzig e TU Dresden (Z. Zhang, E. Fischer, J. Zscheischler e S. Engelke)",
+          "ano": "2025",
+          "tipo_fonte": "academia",
+          "setor": "meteorologia (avaliação independente de modelos de IA em extremos)",
+          "pais_regiao": "Global",
+          "url": "https://arxiv.org/abs/2508.15724v1",
+          "arquivo": "04_academia-instituicoes/UNIGE-ETH-arXiv_2025_modelos-numericos-superam-ia-extremos-recorde.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Nos recordes de calor, frio e vento, o HRES do ECMWF supera GraphCast, Pangu-Weather e FuXi em quase todos os prazos (p. 1)",
+            "Base de teste: em 2020, 162.751 recordes de calor, 32.991 de frio e 53.345 de vento, dos trópicos às altas latitudes (p. 3)",
+            "Modelos de IA tendem a errar nos mesmos eventos, o que pode se dever a vieses comuns dos dados de treino, segundo os autores (p. 8)"
+          ],
+          "resumo": "Pré-publicação (v1, 21/08/2025; sem revisão por pares na versão citada) de pesquisadores independentes das empresas que avalia modelos de IA de previsão em eventos que quebram recordes (pontos de terra; anos de teste 2018 e 2020). Mostra que a IA, melhor na média, perde para o modelo numérico justamente nos extremos sem precedente, com viés que cresce com o tamanho da quebra do recorde. O Crossref registra versão revisada na Science Advances (v. 12, 2026), com o título 'Physics-based models outperform AI weather forecasts of record-breaking extremes', não conferida.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Residual Corrective Diffusion Modeling for Km-scale Atmospheric Downscaling (arXiv:2309.15214v4, 11/08/2024)",
+          "organizacao": "NVIDIA, com a Central Weather Administration de Taiwan (M. Mardani, N. Brenowitz, Y. Cohen et al.)",
+          "ano": "2024",
+          "tipo_fonte": "analista/big tech",
+          "setor": "meteorologia (redução de escala por IA)",
+          "pais_regiao": "Taiwan / Global",
+          "url": "https://arxiv.org/abs/2309.15214v4",
+          "arquivo": "04_academia-instituicoes/NVIDIA-arXiv_2024_corrdiff-reducao-escala-km.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Redução de escala de 25 km (ERA5) para 2 km sobre Taiwan, treinada com 3 anos de dados de um modelo regional com assimilação de radar (p. 1-2)",
+            "Numa GPU, ao menos 22 vezes mais rápido e 1.300 vezes mais eficiente em energia que o modelo numérico rodado em 928 núcleos de CPU, segundo os autores (p. 2)",
+            "Conjuntos ainda mal calibrados; limites em tufões (p. 6, 9)"
+          ],
+          "resumo": "Pré-publicação (arXiv v4, 11/08/2024) de autores da NVIDIA (fornecedora de GPUs e da plataforma Earth-2), com um coautor da agência meteorológica de Taiwan, sobre o CorrDiff, modelo generativo que leva dados globais de 25 km à escala de 2 km. Desempenho declarado pelo fornecedor; prova de conceito regional. O Crossref registra versão revisada na Communications Earth & Environment (v. 6, 2025), não conferida.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "A machine learning model that outperforms conventional global subseasonal forecast models (Nature Communications 15, 6425, 2024)",
+          "organizacao": "Universidade Fudan, com o Centro Nacional do Clima da China Meteorological Administration e outras instituições (L. Chen, X. Zhong, H. Li et al.)",
+          "ano": "2024",
+          "tipo_fonte": "academia",
+          "setor": "meteorologia (previsão subsazonal)",
+          "pais_regiao": "Global (China)",
+          "url": "https://doi.org/10.1038/s41467-024-50714-1",
+          "arquivo": "04_academia-instituicoes/Fudan-NatureComms_2024_fuxi-s2s-previsao-subsazonal.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "FuXi-S2S: previsões diárias globais até 42 dias, treinado com 72 anos de ERA5 (p. 1)",
+            "Na correlação da média do conjunto, supera as reprevisões de 11 membros do ECMWF S2S em precipitação e radiação de onda longa, mas não em temperatura a 2 m e geopotencial, nas quais é menos hábil nos trópicos (teste 2017–2021) (p. 2-3)",
+            "Previsão útil da Oscilação de Madden-Julian de 30 para 36 dias (p. 1)"
+          ],
+          "resumo": "Artigo revisado por pares (acesso aberto) sobre modelo de IA para previsão subsazonal (2 a 6 semanas), de autores da Fudan e do serviço climático chinês. Segundo os autores, supera o sistema subsazonal do ECMWF em precipitação, o que modelos de IA anteriores não tinham conseguido. O código está numa pasta do Google Drive com acesso restrito, mediante pedido aos autores. Desempenho declarado pelos autores.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "ECMWF makes its entire Real-time Catalogue open to all (01/10/2025)",
+          "organizacao": "ECMWF – European Centre for Medium-Range Weather Forecasts",
+          "ano": "2025",
+          "tipo_fonte": "governo/instituição",
+          "setor": "meteorologia (dados abertos de previsão)",
+          "pais_regiao": "Europa / Global",
+          "url": "https://www.ecmwf.int/en/about/media-centre/news/2025/ecmwf-makes-its-entire-real-time-catalogue-open-all",
+          "arquivo": "04_academia-instituicoes/ECMWF_2025_catalogo-tempo-real-dados-abertos.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Catálogo de tempo real inteiro sob CC BY 4.0 desde 01/10/2025 (p. 2-3)",
+            "Subconjunto gratuito online a 25 km; entrega do volume completo pode ter cobrança de serviço (p. 3)"
+          ],
+          "resumo": "Comunicado oficial do ECMWF sobre a abertura total do seu catálogo de previsões em tempo real (reuso livre com atribuição), etapa final de um plano iniciado em 2018-2019. Relevante para o acesso aos dados de entrada que os modelos de IA usam.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Precipitation nowcasting of satellite data using physically-aligned neural networks (arXiv:2511.05471v2, 11/11/2025)",
+          "organizacao": "IMPA – Instituto Nacional de Matemática Pura e Aplicada (A. Catão, M. Poveda, L. Voltarelli e P. Orenstein)",
+          "ano": "2025",
+          "tipo_fonte": "academia",
+          "setor": "meteorologia (previsão imediata de chuva por IA com satélite)",
+          "pais_regiao": "Brasil / América do Sul",
+          "url": "https://arxiv.org/abs/2511.05471v2",
+          "arquivo": "04_academia-instituicoes/IMPA-arXiv_2025_tupann-previsao-imediata-chuva-satelite.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "TUPANN: previsão imediata de chuva só com satélite (treinado com o GOES-16; avaliado com GOES-16 e IMERG), de 10 a 180 min, no Rio de Janeiro, em Manaus, Miami e La Paz (p. 1-2)",
+            "Melhor ou segundo melhor desempenho na maioria dos cenários frente a métodos de fluxo óptico, de aprendizado profundo e híbridos, segundo os autores (p. 1)",
+            "Métodos por radar exigem redes densas, ausentes ou degradadas em grande parte do mundo; o Rio não tem cobertura confiável de radar (p. 1)"
+          ],
+          "resumo": "Pré-publicação (arXiv v2, 11/11/2025) de pesquisadores do IMPA sobre o TUPANN, modelo brasileiro de previsão imediata (nowcasting) de chuva que usa só satélite, pensado para regiões sem rede de radar, como boa parte da América do Sul. Desempenho declarado pelos autores; segundo os autores, o sistema está em operação e foi implantado para apoiar o Inea, no Rio de Janeiro, na preparação para enchentes (p. 13), sem confirmação do Inea. O arXiv e o Crossref registram versão revisada na Environmental Data Science (v. 5, 2026), não conferida.",
+          "relevancia": "media"
+        }
+      ],
+      "formularios": [],
+      "lacunas": [
+        "M638 (Capgemini, 2020) não trata de modelos de previsão do tempo ou do clima por IA: só cita dados de tempo como entrada de previsões de demanda e de geração (p. 10, 13 e 52). Não rende evidência para este bloco.",
+        "M1256 (revisão da macaúba, PAB 2025) não menciona sensoriamento remoto, satélite, previsão do tempo nem IA (busca por 'remote sens', 'satellite', 'artificial intelligence', 'machine learning', 'forecast' sem ocorrência no corpo do texto); o clima entra só pelo zoneamento (ZARC) e por projeções de aptidão (Plath et al., 2016).",
+        "INMET: nenhuma fonte oficial encontrada sobre uso, teste ou validação de modelos de previsão por IA pelo INMET (buscas no gov.br e na web, nov./2026, só trouxeram trabalhos acadêmicos e imprensa sobre outras instituições). Não dá para afirmar que o INMET use ou não use esses modelos.",
+        "INPE/CPTEC: o modelo operacional novo (MONAN, com início da operação anunciado em 04/09/2026) é físico (núcleo MPAS do NCAR), e, nas fontes achadas, a IA aparece no INPE só em pesquisa (LIAREA, previsão subsazonal de chuva no Sudeste, sem números na notícia). Não foi achada verificação oficial do INPE de modelos de IA (GraphCast, AIFS, GenCast) sobre o Brasil.",
+        "Chuva no Brasil e na América do Sul: não foi achada avaliação revisada por pares do desempenho dos modelos de IA na precipitação sobre a região. A única avaliação regional encontrada (PUCRS, pré-publicação de 2026) cobre temperatura, umidade e geopotencial e exclui a chuva; o GraphCast e o GenCast excluíram a chuva da avaliação principal; o NeuralGCM subestima extremos tropicais de precipitação menos evaporação; o ganho do AIFS na chuva tropical é agregado para toda a faixa tropical (placar de 2022), declarado pelo ECMWF em pré-publicação.",
+        "Geada com aprendizado de máquina no Brasil: dois estudos de autores do INPE não puderam ser baixados (HTTP 403 na editora, sem contornar): Rozante et al., 'Improved frost forecast using machine learning methods', Artificial Intelligence in Geosciences, 2023, DOI 10.1016/j.aiig.2023.10.001 (rede neural para geada no Sul, comparada ao índice de geada do CPTEC); e Almeida, Anochi, Rozante e Campos Velho, 'Machine Learning with Voting Committee for Frost Prediction', Meteorology (MDPI) 4(1):6, 2025 (inclui o sul de Minas Gerais). Conteúdo não verificado; sugerir acesso manual.",
+        "Zarc e seguro rural: nenhuma fonte oficial indica uso de IA no Zarc, no PSR ou no Proagro (a página da Embrapa cita modernização da infraestrutura computacional com o Banco Central, ZarcNM, ZarcPRO e seis classes de água disponível, sem IA). Não foi achado caso de seguradora ou empresa brasileira usando modelos de previsão por IA com resultado medido.",
+        "Macaúba e risco climático com IA ou satélite: nada encontrado. Só o Zarc (modelo agroclimático, M1277) e projeções de aptidão citadas na revisão (Plath et al., 2016, via M1256).",
+        "Aplicações no agro com resultado medido: o único caso grande é o da Índia (previsão do início da monção por IA; 31% a 52% dos agricultores pesquisados mudaram decisões de plantio — mudança declarada em pesquisa). A afirmação, numa página da Universidade de Chicago, de que previsões antecipadas 'quase dobraram a renda anual' dos agricultores não traz estudo citado e não foi usada. Nenhum caso brasileiro com resultado medido foi achado.",
+        "Previsão sazonal por IA em operação: nenhuma encontrada. Há pesquisa (FuXi-S2S, revisado por pares) e iniciativas de avaliação (AI Weather Quest do ECMWF, citado pela OMM; previsão subsazonal experimental anunciada pelo ECMWF em 2025, M645). O CPTEC produz previsão sazonal com modelos físicos.",
+        "Redução de escala para a fazenda: só há prova de conceito de 25 km para 2 km em Taiwan (CorrDiff, da NVIDIA; pré-publicação depois publicada na Communications Earth & Environment, 2025) e o sistema Bris (2,5 km na área de foco) citado pela OMM. Nenhuma avaliação de redução de escala por IA para o Brasil ou para uso agrícola abaixo de 1 km foi encontrada.",
+        "Índia: as notas de imprensa do PIB (piloto da monção, sistemas de IA do IMD para previsão hiperlocal) e a página do PIB recusaram acesso automático (HTTP 403); usou-se a nota consolidada em PDF do PIB de 14/02/2026. Os sistemas de IA do IMD não puderam ser verificados.",
+        "Licenças: a licença dos pesos do Pangu-Weather e do Aurora não foi conferida na página oficial (READMEs no GitHub não impressos); para o GraphCast e o GenCast, vale o que o repositório do Google DeepMind diz em 2026 (código Apache 2.0 e demais materiais CC BY 4.0); termos de versões anteriores não foram conferidos. O código do FuXi-S2S está numa pasta do Google Drive com acesso restrito, mediante pedido aos autores (Nature Communications, 2024, p. 12). A pré-publicação do AIFS (2024) anunciava a liberação do código e dos pesos sob licença aberta 'ainda este ano', e o ECMWF chama o AIFS de modelo aberto [M645, p. 2]; a licença não foi conferida.",
+        "Custo: os artigos trazem custo de treino em horas de GPU/TPU (ex.: GraphCast, cerca de quatro semanas em 32 TPU v4; Pangu, cerca de 16 dias em 192 GPUs por rede; AIFS, cerca de uma semana em 64 GPUs), mas nenhuma fonte dá custo em moeda, nem preço de acesso comercial ao WeatherNext no Google Cloud.",
+        "WeatherBench 2 (benchmark comparativo de modelos de IA e físicos, com placares regionais) não foi baixado nesta rodada; serve para checar o desempenho nos trópicos de forma padronizada.",
+        "Versões revisadas por pares de três pré-publicações, localizadas pelo Crossref em 11/11/2026 e não baixadas nem conferidas: UNIGE/ETH, 'Physics-based models outperform AI weather forecasts of record-breaking extremes' (Science Advances 12, eaec1433, 2026; DOI 10.1126/sciadv.aec1433); CorrDiff (Communications Earth & Environment 6, 124, 2025; DOI 10.1038/s43247-025-02042-5); TUPANN (Environmental Data Science 5, e13, 2026; DOI 10.1017/eds.2026.10041). As evidências seguem as pré-publicações guardadas; se as versões publicadas forem catalogadas, conferir se números e conclusões mudaram.",
+        "Estudo da PUCRS: o texto tem inconsistências internas — a recuperação do Sul em julho aparece em cerca de 174 h (p. 17), 'depois de 240 h' (p. 20) e 'dia 7,5' (p. 23); o Norte é dado como 'acima da paridade em 120 h' com escore de 96,14% (p. 19). As evidências usam as tabelas."
+      ]
+    },
+    {
+      "grupo": "Satélites e modelos de fundação (Frente 3) (satelites-B)",
+      "pasta": "05_agro-brasil-instituicoes-midia",
+      "itens": [
+        {
+          "titulo": "INPE anuncia início da operação do MONAN para previsões de tempo (04/09/2026)",
+          "organizacao": "INPE – Instituto Nacional de Pesquisas Espaciais (MCTI)",
+          "ano": "2026",
+          "tipo_fonte": "governo/instituição",
+          "setor": "meteorologia (previsão numérica do tempo)",
+          "pais_regiao": "Brasil",
+          "url": "https://www.gov.br/inpe/pt-br/assuntos/ultimas-noticias/inpe-anuncia-inicio-da-operacao-do-monan-para-previsoes-de-tempo-1",
+          "arquivo": "05_agro-brasil-instituicoes-midia/INPE_2026_monan-inicio-operacao-previsao-tempo.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "MONAN operacional: previsão global de 11 dias, resolução de 10 km, duas rodadas por dia, no supercomputador Jaci (p. 2)",
+            "Modelo físico com núcleo dinâmico MPAS do NCAR, adaptado à América do Sul (p. 3)",
+            "Próximas fases: regional de 5 km, subsazonal (até 60 dias), sazonal (até 6 meses) e nowcasting; operação plena até 2031 (p. 4)"
+          ],
+          "resumo": "Notícia oficial do INPE (04/09/2026) que anuncia o início da operação do MONAN, modelo comunitário brasileiro de previsão numérica (a notícia não menciona IA), rodando no novo supercomputador Jaci. Registra que o CPTEC é um dos 15 centros credenciados pela OMM para previsão sazonal global e lista o apoio ao agronegócio entre os usos anunciados.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Trabalho do INPE sobre IA na previsão climática é premiado em congresso da Sociedade Brasileira de Computação (27/07/2026)",
+          "organizacao": "INPE – Laboratório de Inteligência Artificial para Aplicações Aeroespaciais e Ambientais (LIAREA)",
+          "ano": "2026",
+          "tipo_fonte": "governo/instituição",
+          "setor": "meteorologia (previsão subsazonal de chuva com aprendizado de máquina)",
+          "pais_regiao": "Brasil",
+          "url": "https://www.gov.br/inpe/pt-br/assuntos/ultimas-noticias/trabalho-do-inpe-sobre-ia-na-previsao-climatica-e-premiado-em-congresso-da-sociedade-brasileira-de-computacao",
+          "arquivo": "05_agro-brasil-instituicoes-midia/INPE_2026_ia-previsao-subsazonal-chuva-sudeste-premiado.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Artigo sobre previsão subsazonal de chuva no Sudeste com aprendizado de máquina e IA explicável, premiado no WCAMA 2026 (p. 1)"
+          ],
+          "resumo": "Notícia do INPE (27/07/2026) sobre artigo derivado de trabalho de mestrado do LIAREA em previsão subsazonal de precipitação no Sudeste com aprendizado de máquina e IA explicável, premiado no WCAMA 2026. É trabalho de pesquisa; a notícia não traz resultados numéricos.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Como funciona o Zarc – Rede Zarc Embrapa (página institucional, consultada em 11/11/2026)",
+          "organizacao": "Embrapa – Rede Zarc",
+          "ano": "2026",
+          "tipo_fonte": "governo/instituição",
+          "setor": "agro (zoneamento de risco climático, seguro rural e Proagro)",
+          "pais_regiao": "Brasil",
+          "url": "https://www.embrapa.br/rede-zarc-embrapa/sobre-o-zarc",
+          "arquivo": "05_agro-brasil-instituicoes-midia/Embrapa_2026_como-funciona-o-zarc.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Zarc publicado pela primeira vez na safra de 1996 (trigo); feito por especialistas de 34 unidades e instituições parceiras (p. 1)",
+            "Seguir o Zarc é condição para o Proagro, o Proagro Mais e a subvenção ao prêmio do seguro rural (PSR) (p. 1)",
+            "Evoluções: ZarcNM (manejo do solo), ZarcPRO (produtividade esperada) e seis classes de água disponível (p. 3-4)"
+          ],
+          "resumo": "Página oficial da Embrapa sobre o Zoneamento Agrícola de Risco Climático: método baseado em modelos e séries históricas de clima, solo e ciclos de cultivares, base da política de risco do Mapa (Proagro e seguro rural). Mostra o instrumento brasileiro de risco climático por cultura, sem uso declarado de IA.",
+          "relevancia": "alta"
+        }
+      ],
+      "formularios": [],
+      "lacunas": []
+    },
+    {
+      "grupo": "Satélites e modelos de fundação (Frente 3) (satelites-B)",
+      "pasta": "07_agro-global-perenes-autonomia",
+      "itens": [
+        {
+          "titulo": "Artificial Intelligence (AI) Transforming Indian Agriculture (nota do PIB, 14/02/2026)",
+          "organizacao": "Governo da Índia – Press Information Bureau (PIB)",
+          "ano": "2026",
+          "tipo_fonte": "governo/instituição",
+          "setor": "agricultura (IA em previsão de monção, pragas, seguro rural)",
+          "pais_regiao": "Índia",
+          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026214789901.pdf",
+          "arquivo": "07_agro-global-perenes-autonomia/India-PIB_2026_ia-transformando-agricultura-indiana.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3",
+            "F1"
+          ],
+          "metricas": [
+            "Piloto de previsão por IA do início da monção (Kharif 2025): SMS a mais de 3,88 crore de agricultores em cinco idiomas e 13 estados (p. 6)",
+            "Modelagem aberta combinando NeuralGCM, AIFS do ECMWF e 125 anos de chuva do IMD (p. 5-6)",
+            "Pesquisas de acompanhamento em Madhya Pradesh e Bihar: 31% a 52% dos agricultores mudaram decisões de plantio (p. 6)"
+          ],
+          "resumo": "Nota oficial do governo indiano (14/02/2026) sobre IA na agricultura. Traz um caso de uso em grande escala de modelos de previsão por IA no agro: previsões probabilísticas do início da monção enviadas por SMS a dezenas de milhões de agricultores, com efeito medido por pesquisa declaratória (sem dado de produtividade nem de renda). Também cita ferramentas com IA no seguro rural (YES-TECH, CROPIC).",
+          "relevancia": "alta"
+        }
+      ],
+      "formularios": [],
+      "lacunas": []
+    },
+    {
+      "grupo": "Satélites e modelos de fundação (Frente 3) (satelites-B)",
+      "pasta": "03_analistas-big-techs",
+      "itens": [
+        {
+          "titulo": "google-deepmind/weathernext – repositório do WeatherNext 2, GraphCast e GenCast (README, consultado em 11/11/2026)",
+          "organizacao": "Google DeepMind e Google Research",
+          "ano": "2026",
+          "tipo_fonte": "analista/big tech",
+          "setor": "meteorologia (modelos de previsão por IA; licença e acesso)",
+          "pais_regiao": "Global",
+          "url": "https://github.com/google-deepmind/weathernext",
+          "arquivo": "03_analistas-big-techs/GoogleDeepMind_2026_weathernext-repositorio-licenca-pesos.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Código sob Apache 2.0 e demais materiais sob CC BY 4.0; pesos num bucket do Google Cloud (p. 2-3)",
+            "WeatherNext 2 'usado operacionalmente', ajustado com o HRES do ECMWF (p. 2)",
+            "Modelos não endossados por agência meteorológica e sem substituir alertas oficiais (p. 4)"
+          ],
+          "resumo": "Página oficial do Google DeepMind (empresa sobre os próprios modelos) com o código do WeatherNext 2 e dos modelos anteriores GraphCast e GenCast: licenças, versões dos pesos, hardware necessário, onde os dados são distribuídos (Google Cloud, WeatherLab, Open-Meteo) e avisos de uso.",
+          "relevancia": "alta"
+        }
+      ],
+      "formularios": [],
+      "lacunas": []
+    },
+    {
+      "grupo": "Satélites e modelos de fundação (Frente 3) (satelites-B2)",
+      "pasta": "04_academia-instituicoes",
+      "itens": [
+        {
+          "titulo": "Physics-based models outperform AI weather forecasts of record-breaking extremes (Science Advances 12, eaec1433, publicado em 29/04/2026)",
+          "organizacao": "Karlsruhe Institute of Technology (KIT), Universidade de Genebra, ETH Zurich, Helmholtz Centre for Environmental Research (UFZ), TU Dresden e ScaDS.AI (Z. Zhang, E. Fischer, J. Zscheischler e S. Engelke)",
+          "ano": "2026",
+          "tipo_fonte": "academia",
+          "setor": "meteorologia (avaliação independente de modelos de IA em extremos)",
+          "pais_regiao": "Global",
+          "url": "https://doi.org/10.1126/sciadv.aec1433",
+          "arquivo": "04_academia-instituicoes/UNIGE-ETH-SciAdv_2026_modelos-fisicos-superam-ia-extremos-recorde.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "O modelo físico HRES do ECMWF supera GraphCast, GraphCast operacional, Pangu-Weather, Pangu-Weather operacional e Fuxi nos recordes de calor, frio e vento em quase todos os prazos (p. 1, 3)",
+            "Em 2020: 162.751 recordes de calor, 32.991 de frio e 53.345 de vento, definidos com o ERA5 de 1979–2017 (p. 2)",
+            "Poucos ou nenhum recorde na América do Sul, no Sudeste Asiático, no continente marítimo e na Austrália nos horários de 00/12 UTC; nos prazos de 6 h e 18 h aparecem mais e o HRES segue melhor (p. 3)",
+            "Precipitação excluída por vieses regionais do ERA5 (p. 6)"
+          ],
+          "resumo": "Versão revisada por pares (acesso aberto, CC BY 4.0) da pré-publicação arXiv:2508.15724; cópia da versão do editor obtida no repositório KITopen do KIT (https://publikationen.bibliothek.kit.edu/1000192852). Submetido em 08/09/2025, aceito em 25/03/2026, publicado em 29/04/2026 (fascículo de 01/05/2026). O título trocou 'Numerical models' por 'Physics-based models'. Conclusões e números principais iguais aos da pré-publicação; a versão publicada acrescenta a ressalva de poucos recordes na América do Sul na avaliação principal, a exclusão da precipitação, uma análise sem dependência temporal e novos limites declarados (um mesmo evento pode ser contado em vários pontos de grade vizinhos; avaliação restrita a 2018 e 2020), e muda a descrição do viés do HRES (erro quase constante nos recordes de frio; leve subestimação nos de calor e de vento).",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Residual corrective diffusion modeling for km-scale atmospheric downscaling (Communications Earth & Environment 6, 124, publicado em 24/02/2025)",
+          "organizacao": "NVIDIA, com a Central Weather Administration de Taiwan (M. Mardani, N. Brenowitz, Y. Cohen et al.)",
+          "ano": "2025",
+          "tipo_fonte": "academia",
+          "setor": "meteorologia (redução de escala por IA)",
+          "pais_regiao": "Taiwan / Global",
+          "url": "https://doi.org/10.1038/s43247-025-02042-5",
+          "arquivo": "04_academia-instituicoes/NVIDIA-CommsEarthEnv_2025_corrdiff-reducao-escala-km.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Redução de escala de 25 km (reanálise) para 2 km sobre Taiwan, treinada com dados do modelo regional WRF usado operacionalmente (p. 1, 4)",
+            "Aprende com 3 anos de dados; numa GPU, ao menos 22 vezes mais rápido e 1.300 vezes mais eficiente em energia que o modelo numérico rodado em 928 núcleos de CPU, segundo os autores (p. 4)",
+            "Conjunto de 32 membros sub-disperso; tufões raros nos dados de treino (p. 7, 12)",
+            "Código sob Apache 2.0; dados de treino da agência de Taiwan sob CC BY-NC-ND 4.0 (p. 22)"
+          ],
+          "resumo": "Versão revisada por pares (acesso aberto, sob licença CC BY-NC-ND 4.0) da pré-publicação arXiv:2309.15214, de autores da NVIDIA (fornecedora de GPUs) com um coautor da agência meteorológica de Taiwan. Recebido em 22/12/2023, aceito em 16/01/2025, publicado em 24/02/2025. Desempenho declarado pelos autores; números iguais aos da pré-publicação v4. A versão publicada acrescenta as licenças do código (Apache 2.0) e dos dados (CC BY-NC-ND 4.0), detalha a divisão entre teste e validação, traz uma análise ampliada de tufões (o modelo tende a contrair demais os ciclones) e declara que o método foi objeto de pedido de patente dos autores da NVIDIA. A cópia é a impressão da página HTML do artigo, porque o PDF do editor recusou acesso automático.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Precipitation nowcasting of satellite data using physically aligned neural networks (Environmental Data Science 5, e13, 2026)",
+          "organizacao": "IMPA – Instituto de Matemática Pura e Aplicada (A. Catão, L. Voltarelli, M. Poveda e P. Orenstein)",
+          "ano": "2026",
+          "tipo_fonte": "academia",
+          "setor": "meteorologia (previsão imediata de chuva por IA com satélite)",
+          "pais_regiao": "Brasil / América do Sul",
+          "url": "https://doi.org/10.1017/eds.2026.10041",
+          "arquivo": "04_academia-instituicoes/IMPA-EDS_2026_tupann-previsao-imediata-chuva-satelite.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "TUPANN: só satélite (treinado com o GOES-16; avaliado com GOES-16 e IMERG), prazos de 10 a 180 min, até quatro climas; melhor ou segundo melhor na maioria dos cenários, segundo os autores (p. 1)",
+            "Radar ausente ou degradado em grande parte do mundo; o Rio não tem cobertura confiável (p. 2)",
+            "Segundo os autores, em operação e implantado para apoiar o INEA (RJ), sem confirmação do órgão; previsão em menos de 3 min numa máquina com 16 GB e GPU RTX 3080 (p. 17)",
+            "Perda de no máximo 20% ao aplicar o modelo do Rio em outra cidade (p. 17)"
+          ],
+          "resumo": "Versão revisada por pares (acesso aberto, CC BY 4.0) da pré-publicação arXiv:2511.05471. Recebido em 22/10/2025, revisado em 09/03/2026, aceito em 30/04/2026 (publicado on-line em 26/06/2026, segundo o Crossref); a ordem dos autores mudou (Voltarelli passou a segundo autor e autor correspondente). Resultados e números iguais aos da pré-publicação nas tabelas conferidas; a versão publicada acrescenta uma declaração de impacto e selos de dados e materiais abertos (código e dados no Zenodo). Os autores declaram que o sistema está em operação, implantado para apoiar o INEA, no Rio de Janeiro, o que já constava da pré-publicação; não há confirmação do INEA.",
+          "relevancia": "media"
+        }
+      ],
+      "formularios": [],
+      "lacunas": [
+        "CorrDiff: o PDF do editor (nature.com) recusou acesso automático com um desafio anti-robô ('Client Challenge'), sem pedir login nem pagamento; a cópia guardada é a impressão pelo Chrome da página HTML do artigo em acesso aberto. Se a equipe preferir as páginas do PDF oficial, baixar à mão em https://www.nature.com/articles/s43247-025-02042-5.pdf.",
+        "Science Advances: o site science.org recusou o download automático (HTTP 403); a versão do editor (CC BY) foi baixada do repositório institucional KITopen.",
+        "Material suplementar não baixado: figuras S1 a S17 do artigo da Science Advances (recordes na América do Sul com prazos de 6 h e 18 h; análise sem dependência temporal) e seção 7.2 do CorrDiff (análise ampliada de tufões). As evidências que dependem dele ficam como os autores as resumem no texto principal."
+      ]
+    },
+    {
+      "grupo": "Satélites e modelos de fundação (Frente 3) (satelites-A, páginas web do catálogo do Earth Engine)",
+      "pasta": "03_analistas-big-techs",
+      "itens": [
+        {
+          "titulo": "Forest Data Partnership coffee probabilities 2026a (projects/forestdatapartnership/assets/coffee/model_2026a) — catálogo do Earth Engine",
+          "organizacao": "Google, para a Forest Data Partnership (catálogo de publicador no Google Earth Engine)",
+          "ano": "2026 (consulta em 11/11/2026)",
+          "tipo_fonte": "analista/big tech",
+          "setor": "observação da Terra; culturas perenes (café)",
+          "pais_regiao": "Pantropical (24°S a 24°N)",
+          "url": "https://developers.google.com/earth-engine/datasets/catalog/projects_forestdatapartnership_assets_coffee_model_2026a",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Mapas de probabilidade de café de 2018 a 2024, pixels de 10 m, faixa de 24°S a 24°N, licença CC-BY 4.0; conjunto de catálogo de publicador, não gerido pelo Earth Engine (página oficial)"
+          ],
+          "resumo": "Página do catálogo do Earth Engine com os mapas de probabilidade de café da Forest Data Partnership (versão 2026a), produzidos pelo Google: cobertura, período, resolução e licença.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Forest Data Partnership — página do publicador no catálogo do Earth Engine",
+          "organizacao": "Google, para a Forest Data Partnership (catálogo de publicador no Google Earth Engine)",
+          "ano": "2026 (consulta em 11/11/2026)",
+          "tipo_fonte": "analista/big tech",
+          "setor": "observação da Terra; culturas perenes",
+          "pais_regiao": "Pantropical",
+          "url": "https://developers.google.com/earth-engine/datasets/publisher/forestdatapartnership",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Os conjuntos de probabilidade de cacau, café, palma e seringueira e de persistência florestal ainda não passaram por revisão por pares (página oficial)"
+          ],
+          "resumo": "Página do publicador Forest Data Partnership no catálogo do Earth Engine, que lista os conjuntos de probabilidade de cultivos perenes e de persistência florestal e avisa que ainda não passaram por revisão por pares.",
+          "relevancia": "media"
+        }
+      ],
+      "formularios": [],
+      "lacunas": []
+    }
+  ]
+}
