@@ -2,13 +2,19 @@
 
 Todos em português, com legenda: Contratante (Acelen Energia Renovável), Nome do Documento, Número do Documento e Revisão. Tornam-se propriedade da Acelen.
 
-- [ ] **Relatório completo em PowerPoint** → `relatorio-final/`
+- [ ] **Relatório completo** → `relatorio-final/`
+  - decisão de 11/11/2026: o relatório é entregue como apresentação dentro do sistema do estudo, o **Report Final** (BIA-ACL-RF-01), com exportação em PDF; acompanha o tema claro ou escuro do sistema
+  - só slides de resultado (decisão de 11/11/2026): sem mapa com situação, lista de entregáveis, metodologia, "o que falta" ou "o que foi feito". Cada frente do escopo e as sessões executivas abrem com um divisor que lista os temas da parte e os slides onde estão; um tema só aparece quando tem slide. Versão de trabalho v0: 47 slides, com os resultados da nota IA no campo (Frente 3, itens 3.3 e 3.4) em quatro pares de slide visual e descritivo (`relatorio-final/src/slides_ia_no_campo.py`) e os da nota de satélites e modelos de fundação (aprofundamento da Frente 3) em outros quatro pares (`relatorio-final/src/slides_satelites.py`)
+  - os slides planejados e ainda não escritos ficam só no gerador, como pauta (`construir(...)`), e ele os lista no terminal
+  - fonte: `relatorio-final/src/report-final.html`, gerado por `relatorio-final/src/gerar_report_final.py` (reaproveita os slides da RP-02 v12); no repositório do sistema, `npm run montar-apresentacao -- report-final 07_entregaveis/relatorio-final/src/report-final.html` monta a apresentação e envia o PDF
   - framework de maturidade em IA
   - roadmap de mercado para adoção de IA
   - benchmark dos casos de referência (fichas por empresa e leitura transversal)
   - resumo executivo
-- [ ] **Base de dados em Excel** → `base-dados-excel/`
-  - painel de empresas, fichas estruturadas, classificação por estágio de maturidade, catálogo de fontes
+- [x] **Base de dados** (BIA-ACL-BD-01) → [Excel](base-dados-excel/base-de-dados_BIA-ACL-BD-01_rev00.xlsx)
+  - decisão de 11/11/2026: a base fica no sistema do estudo (página Base de dados), com exportação em Excel
+  - cinco abas, além do Leia-me: painel de empresas, classificação por estágio de maturidade, resultados divulgados, fichas estruturadas (item a item) e catálogo de fontes
+  - gerada pelo pipeline `07_base.py` do repositório do sistema, a partir das fichas e do catálogo; rodar de novo quando uma ficha ou o catálogo mudar
 - [ ] **Relatórios parciais** das semanais e material da entrega parcial → `relatorios-parciais/`
   - [x] Prévia de resultados da sessão executiva 1 (BIA-ACL-RP-01, 14/10/2026) → [PDF](relatorios-parciais/previa-sessao-executiva-01_BIA-ACL-RP-01_rev00.pdf) (fonte em `relatorios-parciais/src/`)
   - [x] Prévia de resultados da sessão executiva 2 (BIA-ACL-RP-04, 20/10/2026), multinacional de sementes e defensivos → [PDF](relatorios-parciais/previa-sessao-executiva-02_BIA-ACL-RP-04_rev00.pdf), 13 slides no formato da RP-01, com um slide de governança a mais (fonte em `relatorios-parciais/src/`)
