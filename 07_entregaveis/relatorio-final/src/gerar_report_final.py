@@ -28,6 +28,7 @@ AQUI = Path(__file__).resolve().parent
 sys.path.insert(0, str(AQUI))
 import slides_ia_no_campo  # noqa: E402  (slides de resultado da nota IA no campo)
 import slides_satelites  # noqa: E402  (slides de resultado da nota de satélites e modelos de fundação)
+import slides_acrescimos  # noqa: E402  (acréscimos de 23/11/2026: caso iFood, colheita da macaúba e robôs que sobem na palmeira)
 RAIZ = AQUI.parents[2]
 PARCIAL = RAIZ / "07_entregaveis/relatorios-parciais/src/resultados-parciais-semanal-2026-10-23_v12.html"
 SAIDA = AQUI / "report-final.html"
@@ -39,8 +40,32 @@ NOME = "Report Final do benchmark de uso de IA"
 RODAPE = f"Acelen Energia Renovável · Report Final do benchmark · {DOCUMENTO} · {VERSAO}"
 LOGO = "../../../docs/design-system/assets/logo-oagronomia-wordmark.png"
 
-# Páginas de fontes salvas de novo depois da entrega parcial (a paginação do arquivo mudou).
+def bolinhas(n: int) -> str:
+    """Cinco bolinhas, n cheias: o estágio geral na régua de 1 a 5."""
+    return f'<span class="pg" title="estágio geral {n}">' + "".join(f'<i{" class=\"on\"" if k < n else ""}></i>' for k in range(5)) + "</span>"
+
+
+def com_geral(nome: str, n: int) -> str:
+    """Etiqueta da empresa com as bolinhas do estágio geral embaixo."""
+    return f'<span class="eg"><span class="emp">{nome}</span>{bolinhas(n)}</span>'
+
+
+# Trocas em slides reaproveitados da entrega parcial, conferidas uma a uma (cada trecho aparece uma
+# vez no slide). 17, 18 e 25: páginas de fontes salvas de novo (a paginação do arquivo mudou).
+# 16 (régua de governança): pedido de 25/11/2026. A régua usa os mesmos nomes da escada geral e o
+# "2 · Pilotos" da Suzano parecia o estágio geral; a marca diz que é só a dimensão governança, e as
+# bolinhas mostram o estágio geral de cada empresa (Bayer 4; Suzano e Deere 3; DJI 2; fichas, seção 11).
 CORRECOES = {
+    16: [
+        ('<p style="font-size:13px;color:var(--fg-2);margin-top:4px">A métrica é a nota de 1 a 5 na dimensão Estratégia e governança, '
+         'a mesma régua do slide anterior, dada só com o que a empresa publica</p>',
+         '<div class="mk-g"><span class="tg">Só a dimensão governança</span>'
+         '<span>no estágio geral, <b>Suzano e Deere estão no 3</b> · nota de 1 a 5 dada só com o que a empresa publica</span>'
+         '<span class="lgd"><span class="pg"><i class="on"></i></span>bolinhas: estágio geral de cada empresa, de 1 a 5</span></div>'),
+        ('<span class="emp">Bayer</span>', com_geral("Bayer", 4)),
+        ('<span class="emp">Suzano</span><span class="emp">Deere</span><span class="emp">DJI</span>',
+         com_geral("Suzano", 3) + com_geral("Deere", 3) + com_geral("DJI", 2)),
+    ],
     17: [("Cloud and Threat Report: 2026, p. 2-3, 12 <a", "Cloud and Threat Report: 2026, p. 2-3, 22 <a")],
     18: [("Cloud and Threat Report: 2…, p. 6 <a", "Cloud and Threat Report: 2…, p. 10 <a")],
     25: [("Cloud and Threat Report: 2026, p. 5 <a", "Cloud and Threat Report: 2026, p. 7-8 <a")],
@@ -59,6 +84,49 @@ CSS_EXTRA = """
   .rf-it h3 { font-size: 14px; margin-top: 3px; }
   .rf-it p { font-size: 11.4px; color: var(--fg-2); margin-top: 5px; line-height: 1.4; flex: 1; }
   .rf-it .sl { margin-top: 8px; padding-top: 6px; border-top: 1px solid var(--line); font: 500 10.5px var(--font-mono); color: var(--brand-green-bright); }
+
+  /* Peças da apresentação executiva usadas nos slides de 23/11/2026 (slides_acrescimos.py): legenda,
+     etapas em coluna, faixa de números e matriz de estágio. Manter iguais às de gerar_apresentacao_executiva.py. */
+  .lg { display: flex; gap: 16px; flex-wrap: wrap; font-size: 11px; color: var(--fg-3); margin-top: 6px; }
+  .lg span::before { content: ""; display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; background: var(--c); }
+  .f4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-top: 10px; }
+  .f4.c3 { grid-template-columns: repeat(3, 1fr); }
+  .f4 .i { background: var(--bg-2); border: 1px solid var(--line); border-radius: 10px; padding: 9px 12px; display: flex; gap: 12px; align-items: center; }
+  .f4 .i .n { font: 500 22px/1 var(--font-mono); color: var(--fg-1); flex: none; white-space: nowrap; }
+  .f4 .i .t { font-size: 11.6px; color: var(--fg-2); line-height: 1.36; }
+  .f4 .i .t b { color: var(--fg-1); }
+  .f4 .i svg.lucide { width: 24px !important; height: 24px !important; }
+  .fv { display: grid; gap: 6px; align-content: start; }
+  .fv .r { display: grid; grid-template-columns: 22px 1fr; gap: 10px; background: var(--bg-2); border: 1px solid var(--line); border-radius: 9px; padding: 8px 12px 9px; align-items: start; }
+  .fv .r.res { border-color: var(--brand-green); background: #101A0E; }
+  .fv .r .bd { width: 22px; height: 22px; border-radius: 5px; background: var(--brand-green); color: #0B100B; font: 600 12px var(--font-mono); display: flex; align-items: center; justify-content: center; margin-top: 1px; }
+  .fv .r .rt { font: 600 9.5px var(--font-display); letter-spacing: 0.14em; text-transform: uppercase; color: var(--fg-3); }
+  .fv .r p { font-size: 12.4px; color: var(--fg-2); line-height: 1.4; margin-top: 2px; }
+  .fv .r p b { color: var(--fg-1); }
+  .mz { display: grid; grid-template-columns: 26px 1fr repeat(4, 62px); column-gap: 8px; margin-top: 2px; }
+  .mz > div { padding: 5px 0; border-bottom: 1px solid var(--line); display: flex; align-items: center; }
+  .mz > div.h { font: 600 8.8px/1.3 var(--font-display); letter-spacing: 0.08em; text-transform: uppercase; color: var(--fg-3); justify-content: center; text-align: center; padding: 2px 0 6px; }
+  .mz svg.lucide { width: 22px !important; height: 22px !important; }
+  .mz > div.nm { display: block; }
+  .mz .nm b { font: 600 13.5px var(--font-display); color: var(--fg-1); display: block; }
+  .mz .nm span { font-size: 11px; color: var(--fg-2); line-height: 1.3; display: block; }
+  .mz > div.pt { justify-content: center; }
+  .mz .pt span { width: 16px; height: 16px; border-radius: 50%; box-shadow: inset 0 0 0 1.5px var(--line-strong); display: block; }
+  .mz .pt span.on { background: var(--brand-green); box-shadow: none; }
+  .mz > div.fim { border-bottom: 0; }
+  .lg span.sd::before { display: none; }
+
+  /* Régua de governança (pedido de 25/11/2026): marca "só a dimensão governança" e bolinhas do estágio geral. */
+  .mk-g { display: flex; align-items: center; gap: 10px; margin-top: 5px; font-size: 12.5px; color: var(--fg-2); }
+  .mk-g .tg { font: 600 10px var(--font-display); letter-spacing: 0.1em; text-transform: uppercase; color: var(--warning); border: 1px solid var(--warning); border-radius: 999px; padding: 2px 9px; flex: none; }
+  .mk-g b { color: var(--fg-1); }
+  .mk-g .lgd { margin-left: auto; display: inline-flex; align-items: center; gap: 6px; font-size: 11px; color: var(--fg-3); flex: none; }
+  .eg { display: inline-flex; flex-direction: column; align-items: center; margin: 0 3px 3px 0; vertical-align: top; }
+  .eg .emp { margin: 0; }
+  .pg { display: inline-flex; gap: 2px; }
+  .eg .pg { margin-top: 3px; }
+  .pg i { width: 7px; height: 7px; border-radius: 50%; box-shadow: inset 0 0 0 1px var(--line-strong); display: block; }
+  .pg i.on { background: var(--brand-green-bright); box-shadow: none; }
 """
 
 
@@ -145,6 +213,7 @@ def barras(linhas: list[tuple[str, float, str, str]], maximo: float = 100, largu
 def estrutura() -> list[dict]:
     campo = slides_ia_no_campo.slides(novo, fontes, barras, lista)
     satelites = slides_satelites.slides(novo, fontes, barras, lista)
+    acrescimos = slides_acrescimos.slides(novo, fontes, lista)
     return [
         {
             "id": "resumo", "nome": "Resumo executivo", "divisor": None,
@@ -268,7 +337,7 @@ def estrutura() -> list[dict]:
             "itens": [
                 item("3.1", "Movimentos de mercado", "Investimentos, parcerias, aquisições e sinais de direção.", "mercado"),
                 item("3.2", "IA generativa", "LLMs, agentes e copilotos, e o custo de uso: preço, consumo e valor por tarefa.", "generativa3"),
-                item("3.3", "Sistemas autônomos", "Máquinas autônomas, drones e robótica de campo, com atenção a culturas perenes.", "autonomos"),
+                item("3.3", "Sistemas autônomos", "Máquinas autônomas, drones e robótica de campo, com atenção a culturas perenes e à colheita da macaúba.", "autonomos"),
                 item("3.4", "IA aplicada ao agro", "Agricultura de precisão, sensoriamento, modelos preditivos e melhoramento.", "agro"),
                 item("Aprofundamento", "Satélites e modelos de fundação", "Imagem e clima: o que já está em operação, o que a validação mostra e o que falta no Brasil.", "satelites", True),
                 item("3.5", "Dados e soberania", "Controle dos dados, dependência de fornecedores e a corrida entre EUA e China.", "soberania"),
@@ -286,9 +355,9 @@ def estrutura() -> list[dict]:
                     construir("IA generativa", "Frente 3 · Tendências em IA generativa", "LLMs, agentes e copilotos: o que muda na decisão, na produtividade e na operação",
                               ["Do assistente ao agente: o que já está em uso e o que ainda é promessa.", "Implicações para a decisão estratégica e para o modelo operacional."],
                               ["Notas de custo da IA e de valor e retorno.", "Síntese das sessões executivas, no agregado."]),
-                    reuso(9), reuso(10), reuso(11),
+                    reuso(9), reuso(10), reuso(11), *acrescimos["custo"],
                 ]),
-                ("autonomos", campo["autonomos"]),
+                ("autonomos", campo["autonomos"] + acrescimos["colheita"]),
                 ("agro", campo["agro"]),
                 ("satelites", satelites),
                 ("soberania", [

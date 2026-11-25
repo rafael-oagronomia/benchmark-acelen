@@ -1,0 +1,262 @@
+{
+ "macauba-plantio": {
+  "arquivo": "macauba-plantio.jpg",
+  "id": "M1417",
+  "pagina": "p. 1",
+  "credito": "Embrapa Cerrados, Boletim 346 (2019), capa",
+  "descricao": "Macaúbas plantadas em pastagem, com cachos",
+  "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1110803/1/Bolpd346.pdf",
+  "organizacao": "Embrapa Cerrados (Pulrolnik, K.; Vilela, L.; Gonçalves, H. M.)",
+  "titulo_fonte": "Desenvolvimento Vegetativo e Reprodutivo de Plantas de Macaúba (Acrocomia aculeata) Implantadas em Pastagem Degradada (Boletim de Pesquisa e Desenvolvimento 346)"
+ },
+ "suzano-plantio": {
+  "arquivo": "suzano-plantio.jpg",
+  "id": "M335",
+  "pagina": "p. 62",
+  "credito": "Suzano, Relatório de Sustentabilidade 2024",
+  "descricao": "Plantio de eucalipto da Suzano",
+  "url": "https://stszprdscentind.blob.core.windows.net/site/documents/Relatorio-Sustentabilidade-Suzano-2024.pdf",
+  "organizacao": "Suzano",
+  "titulo_fonte": "Relatório de Sustentabilidade 2024 — o ano do nosso centenário"
+ },
+ "bayer-melhoramento": {
+  "arquivo": "bayer-melhoramento.jpg",
+  "id": "M789",
+  "pagina": "p. 6",
+  "credito": "Bayer, Crop Science R&D update 2026",
+  "descricao": "Estufa de melhoramento de milho da Bayer",
+  "url": "https://bag-p-001.sitecorecontenthub.cloud/api/public/content/b6f8f6b20a8a46eda30b32779afa04dc?v=e7f89d65",
+  "organizacao": "Bayer AG (Crop Science)",
+  "titulo_fonte": "Bayer Crop Science 2026 R&D Update (Mike Graham, Head of R&D)"
+ },
+ "deere-pulverizador": {
+  "arquivo": "deere-pulverizador.jpg",
+  "id": "M1286",
+  "pagina": "p. 4",
+  "credito": "Iowa State University, 2024",
+  "descricao": "Pulverizador com câmeras na barra, em soja",
+  "url": "https://crops.extension.iastate.edu/cropnews/2024/08/precision-spraying-technology",
+  "organizacao": "Iowa State University Extension and Outreach (D. Houser, M. Darr, R. Huffman)",
+  "titulo_fonte": "Precision Spraying Technology (Integrated Crop Management News)"
+ },
+ "dji-drone": {
+  "arquivo": "dji-drone.jpg",
+  "id": "M876",
+  "pagina": "p. 2",
+  "credito": "DJI, lançamento dos Agras T50 e T25",
+  "descricao": "Drone de pulverização da DJI",
+  "url": "https://www.dji.com/media-center/announcements/dji-agras-t50-and-t25-en",
+  "organizacao": "DJI",
+  "titulo_fonte": "DJI Agras T50 and T25 Expand Aerial Crop Protection Capabilities (release, com política de dados do SmartFarm)"
+ },
+ "suzano-brigada": {
+  "arquivo": "suzano-brigada.jpg",
+  "id": "M335",
+  "pagina": "p. 69",
+  "credito": "Suzano, Relatório de Sustentabilidade 2024",
+  "descricao": "Brigadista no combate a incêndio",
+  "url": "https://stszprdscentind.blob.core.windows.net/site/documents/Relatorio-Sustentabilidade-Suzano-2024.pdf",
+  "organizacao": "Suzano",
+  "titulo_fonte": "Relatório de Sustentabilidade 2024 — o ano do nosso centenário"
+ },
+ "seletiva-aplicacao": {
+  "arquivo": "seletiva-aplicacao.jpg",
+  "id": "M1296",
+  "pagina": "p. 1",
+  "credito": "University of Arkansas, 2025",
+  "descricao": "Pulverização seletiva em ensaio, com o jato marcado em azul",
+  "url": "https://aaes.uada.edu/news/see-and-spray-research/",
+  "organizacao": "University of Arkansas System Division of Agriculture (Arkansas Agricultural Experiment Station)",
+  "titulo_fonte": "Precision Agriculture Research Measures Effectiveness of See & Spray Technology"
+ },
+ "seletiva-mapa": {
+  "arquivo": "seletiva-mapa.jpg",
+  "id": "M1286",
+  "pagina": "p. 7",
+  "credito": "Iowa State University, 2024",
+  "descricao": "Mapa de aplicação: em amarelo, onde a barra aplicou",
+  "url": "https://crops.extension.iastate.edu/cropnews/2024/08/precision-spraying-technology",
+  "organizacao": "Iowa State University Extension and Outreach (D. Houser, M. Darr, R. Huffman)",
+  "titulo_fonte": "Precision Spraying Technology (Integrated Crop Management News)"
+ },
+ "uber-custo": {
+  "arquivo": "uber-custo.jpg",
+  "id": "M995",
+  "pagina": "p. 3",
+  "credito": "Uber, blog de engenharia (2026)",
+  "descricao": "Custo por sessão com o mesmo modelo: −52%",
+  "url": "https://www.uber.com/us/en/blog/efficient-software-factory/",
+  "organizacao": "Uber Technologies (Uber Engineering)",
+  "titulo_fonte": "Running a Software Factory Efficiently at Uber Scale (blog de engenharia)"
+ },
+ "uber-adocao": {
+  "arquivo": "uber-adocao.jpg",
+  "id": "M995",
+  "pagina": "p. 2",
+  "credito": "Uber, blog de engenharia (2026)",
+  "descricao": "Usuários semanais, requisições de agentes e custo, fev a ago/2026",
+  "url": "https://www.uber.com/us/en/blog/efficient-software-factory/",
+  "organizacao": "Uber Technologies (Uber Engineering)",
+  "titulo_fonte": "Running a Software Factory Efficiently at Uber Scale (blog de engenharia)"
+ },
+ "ifood-post": {
+  "arquivo": "ifood-post.jpg",
+  "id": "M1382",
+  "pagina": "web",
+  "credito": "Diego Barreto, CEO do iFood, no LinkedIn (2026)",
+  "descricao": "Gráfico da publicação: tokens e custo de IA no iFood",
+  "url": "https://www.linkedin.com/posts/diegobarreto_mais-uso-de-ia-menos-custo-no-ifood-activity-7530572638897958912-lI6B",
+  "organizacao": "iFood (Diego Barreto, sócio e CEO, em publicação pessoal no LinkedIn)",
+  "titulo_fonte": "Mais uso de IA. Menos custo. (publicação no LinkedIn, com o gráfico \"Boca de jacaré\")"
+ },
+ "saomartinho-centro": {
+  "arquivo": "saomartinho-centro.jpg",
+  "id": "M1222",
+  "pagina": "p. 23",
+  "credito": "São Martinho, Relatório Anual 2017/18",
+  "descricao": "Centro de operações agrícolas da São Martinho",
+  "url": "https://www.saomartinho.com.br/Download.aspx?Arquivo=0KPphi%2FhjYHruGs9g80smw%3D%3D&IdCanal=E%2F5CI5hbGiTfjZ7mhu2y5w%3D%3D",
+  "organizacao": "São Martinho",
+  "titulo_fonte": "Relatório Anual de Sustentabilidade 2017/18"
+ },
+ "bp-centro": {
+  "arquivo": "bp-centro.jpg",
+  "id": "M1217",
+  "pagina": "p. 2",
+  "credito": "Jornal Cana (2026), sobre a bp bioenergy",
+  "descricao": "Centro de monitoramento de incêndios",
+  "url": "https://jornalcana.com.br/agricultura/tecnologia-agricola/bp-bioenergy-reduz-incendios-em-50-e-consolida-modelo-de-prevencao-baseado-em-ia",
+  "organizacao": "Jornal Cana",
+  "titulo_fonte": "bp bioenergy reduz incêndios em 50% e consolida modelo de prevenção baseado em IA"
+ },
+ "vale": {
+  "arquivo": "vale.jpg",
+  "id": "M1251",
+  "pagina": "p. 3",
+  "credito": "Vale, anúncio do centro de IA (2019)",
+  "descricao": "Equipe em campo na mineração",
+  "url": "https://vale.com/w/vale-creates-artificial-intelligence-center",
+  "organizacao": "Vale",
+  "titulo_fonte": "Vale creates Artificial Intelligence Center"
+ },
+ "arbus": {
+  "arquivo": "arbus.jpg",
+  "id": "M325",
+  "pagina": "p. 1",
+  "credito": "Jacto, blog (2026)",
+  "descricao": "Pulverizador autônomo Arbus em pomar de citros",
+  "url": "https://blog.jacto.com.br/pulverizador-autonomo/",
+  "organizacao": "Jacto",
+  "titulo_fonte": "Pulverizador autônomo: tecnologia disponível ao mercado (Arbus 4000 JAV)"
+ },
+ "solix": {
+  "arquivo": "solix.jpg",
+  "id": "M253",
+  "pagina": "p. 6",
+  "credito": "Forbes Agro (2026)",
+  "descricao": "Robô de lavoura Solix",
+  "url": "https://forbes.com.br/forbes-agro/2026/04/solinftec-lanca-ia-multiagente-na-agrishow-e-mira-r-500-milhoes-em-2026/",
+  "organizacao": "Forbes Brasil (Forbes Agro)",
+  "titulo_fonte": "Solinftec Lança IA Multiagente na Agrishow e Mira R$ 500 Milhões em 2026"
+ },
+ "palma-cortador": {
+  "arquivo": "palma-cortador.jpg",
+  "id": "M1385",
+  "pagina": "p. 2",
+  "credito": "Teoh e Lai, Journal of Oil Palm Research (2024)",
+  "descricao": "Colheita de palma com cortador motorizado em vara",
+  "url": "https://jopr.mpob.gov.my/files/2023/04/JOPR-Vol-363-September-2024-dragged-1.pdf",
+  "organizacao": "Teoh, K. H.; Lai, N. S. (Asia Pacific University of Technology and Innovation) — Journal of Oil Palm Research (MPOB), v. 36, n. 3, p. 349-366, DOI 10.21894/jopr.2024.0008",
+  "titulo_fonte": "Autonomous Harvesting Robot for Oil Palm Plantation: A Review"
+ },
+ "palma-maquina": {
+  "arquivo": "palma-maquina.jpg",
+  "id": "M1385",
+  "pagina": "p. 3",
+  "credito": "Teoh e Lai, Journal of Oil Palm Research (2024)",
+  "descricao": "Máquina com lança para colher palmas altas",
+  "url": "https://jopr.mpob.gov.my/files/2023/04/JOPR-Vol-363-September-2024-dragged-1.pdf",
+  "organizacao": "Teoh, K. H.; Lai, N. S. (Asia Pacific University of Technology and Innovation) — Journal of Oil Palm Research (MPOB), v. 36, n. 3, p. 349-366, DOI 10.21894/jopr.2024.0008",
+  "titulo_fonte": "Autonomous Harvesting Robot for Oil Palm Plantation: A Review"
+ },
+ "inpa-vara": {
+  "arquivo": "inpa-vara.jpg",
+  "id": "M1418",
+  "pagina": "p. 18",
+  "credito": "INPA, cartilha de ferramentas de coleta (2015)",
+  "descricao": "Vara de coleta alcançando o cacho no alto da palmeira",
+  "url": "https://transforma.fbb.org.br/storage/socialtecnologies/492/files/OK-Cartilha%20Ferramenta%20Palmhaste.pdf",
+  "organizacao": "Instituto Nacional de Pesquisas da Amazônia – INPA, Editora INPA (Rabelo, A.; França, F.; Belém, G.)",
+  "titulo_fonte": "Ferramentas para coleta de cachos de palmeiras na Amazônia: uma nova valorização econômica"
+ },
+ "macauba-telas": {
+  "arquivo": "macauba-telas.jpg",
+  "id": "M1395",
+  "pagina": "p. 11",
+  "credito": "Embrapa Cerrados, Boletim 355 (2020)",
+  "descricao": "Cachos de macaúba envoltos em tela no ensaio de colheita",
+  "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1124806/1/Bolpd-355.pdf",
+  "organizacao": "Embrapa Cerrados (Rinaldi, M. M.; Conceição, L. D. H. C. S.; Braga, M. F.; Junqueira, N. T. V.; Cardoso, A. N.; Sá, S. F.)",
+  "titulo_fonte": "Estudos Preliminares sobre Colheita e Armazenamento de Frutos de Macaúba (Boletim de Pesquisa e Desenvolvimento 355)"
+ },
+ "acaibot": {
+  "arquivo": "acaibot.jpg",
+  "id": "M1400",
+  "pagina": "web",
+  "credito": "Kaatech, página do produto (2026)",
+  "descricao": "AçaíBot subindo no açaizeiro",
+  "url": "https://kaatech.com.br/produto/produto-kaa-tech",
+  "organizacao": "Kaatech (Kaa Tech Importadora e Comércio Ltda., Belém/PA)",
+  "titulo_fonte": "AçaíBot — página do produto na loja on-line da Kaatech"
+ },
+ "amaran": {
+  "arquivo": "amaran.jpg",
+  "id": "M1403",
+  "pagina": "web",
+  "credito": "IEEE Spectrum (2020), sobre o Amaran",
+  "descricao": "Robô Amaran no coqueiro",
+  "url": "https://spectrum.ieee.org/automaton/robotics/industrial-robots/amaran-tree-climbing-robot-can-safely-harvest-coconuts",
+  "organizacao": "IEEE Spectrum (Michelle Hampson)",
+  "titulo_fonte": "Amaran the Tree-Climbing Robot Can Safely Harvest Coconuts"
+ },
+ "robo-palma": {
+  "arquivo": "robo-palma.jpg",
+  "id": "M1385",
+  "pagina": "p. 9",
+  "credito": "Teoh e Lai, Journal of Oil Palm Research (2024)",
+  "descricao": "Protótipo de robô escalador testado num poste",
+  "url": "https://jopr.mpob.gov.my/files/2023/04/JOPR-Vol-363-September-2024-dragged-1.pdf",
+  "organizacao": "Teoh, K. H.; Lai, N. S. (Asia Pacific University of Technology and Innovation) — Journal of Oil Palm Research (MPOB), v. 36, n. 3, p. 349-366, DOI 10.21894/jopr.2024.0008",
+  "titulo_fonte": "Autonomous Harvesting Robot for Oil Palm Plantation: A Review"
+ },
+ "colhedor-macauba": {
+  "arquivo": "colhedor-macauba.jpg",
+  "id": "M1265",
+  "pagina": "p. 13",
+  "credito": "UFV e UFLA, Semina: Ciências Agrárias (2018)",
+  "descricao": "Desenho do colhedor vibratório portátil de macaúba",
+  "url": "https://www.redalyc.org/journal/4457/445760177005/html/",
+  "organizacao": "Universidade Federal de Viçosa e Universidade Federal de Lavras (C. M. F. Grupioni et al.)",
+  "titulo_fonte": "Development and evaluation of operational performance of macaw fruits semi-mechanized harvester by means mechanical vibrations principle (Semina: Ciências Agrárias 39(2))"
+ },
+ "palma-mapa": {
+  "arquivo": "palma-mapa.jpg",
+  "id": "M1376",
+  "pagina": "p. 9",
+  "credito": "Descals et al., Earth System Science Data (2021)",
+  "descricao": "Imagem Sentinel-2, classificação e probabilidade de palma",
+  "url": "https://doi.org/10.5194/essd-13-1211-2021",
+  "organizacao": "CREAF, Liverpool John Moores University, CIFOR, Comissão Europeia (JRC) e outros (A. Descals, S. Wich, E. Meijaard, D. Gaveau, S. Peedell, Z. Szantoi)",
+  "titulo_fonte": "High-resolution global map of smallholder and industrial closed-canopy oil palm plantations (Earth System Science Data 13, 1211–1231)"
+ },
+ "cacau-mapa": {
+  "arquivo": "cacau-mapa.jpg",
+  "id": "M1377",
+  "pagina": "p. 2",
+  "credito": "Kalischek et al., Nature Food (2023)",
+  "descricao": "Mapa de cacau na Costa do Marfim",
+  "url": "https://doi.org/10.1038/s43016-023-00751-8",
+  "organizacao": "ETH Zurich, Universidade de Copenhague, UCLouvain, Universidade de Cambridge e outros (N. Kalischek, N. Lang, C. Renier et al.)",
+  "titulo_fonte": "Cocoa plantations are associated with deforestation in Côte d'Ivoire and Ghana (Nature Food 4, 384–393)"
+ }
+}

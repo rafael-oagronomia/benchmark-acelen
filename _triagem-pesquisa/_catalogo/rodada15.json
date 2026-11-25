@@ -1,0 +1,473 @@
+{
+  "resultados": [
+    {
+      "grupo": "Colheita e segurança do trabalho em palmeiras (robotica-colheita-A)",
+      "pasta": "05_agro-brasil-instituicoes-midia",
+      "itens": [
+        {
+          "titulo": "Estudos Preliminares sobre Colheita e Armazenamento de Frutos de Macaúba (Boletim de Pesquisa e Desenvolvimento 355)",
+          "organizacao": "Embrapa Cerrados (Rinaldi, M. M.; Conceição, L. D. H. C. S.; Braga, M. F.; Junqueira, N. T. V.; Cardoso, A. N.; Sá, S. F.)",
+          "ano": "2020 (03/2020)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "macaúba (colheita e pós-colheita)",
+          "pais_regiao": "Brasil (Planaltina, DF)",
+          "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1124806/1/Bolpd-355.pdf",
+          "arquivo": "05_agro-brasil-instituicoes-midia/Embrapa-Cerrados_2020_macauba-colheita-armazenamento-boletim-355.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "No sistema extrativista, a maior parte dos frutos de macaúba é coletada no solo, depois da queda natural (PDF p. 8; página impressa 7)",
+            "A queda natural dos frutos ocorre de setembro a dezembro; a maior oferta de frutos maduros vai de outubro a dezembro (PDF p. 8; impressa 7)",
+            "Cachos inteiros colhidos em 13/10/2016 e frutos guardados por 30 dias ou mais perderam 39,2% da massa seca da polpa e 37,2% do óleo (PDF p. 6 e 9; impressas 5 e 8)",
+            "Frutos colhidos só depois da queda natural, aparados em tela e recolhidos toda semana por 78 dias, não diferiram dos colhidos com o cacho inteiro (PDF p. 6 e 10; impressas 5 e 9)"
+          ],
+          "resumo": "Boletim da Embrapa Cerrados com um ensaio de colheita em plantio de dezembro de 2008 (5 m x 5 m), em Planaltina (DF): 14 cachos colhidos inteiros e 7 cachos com frutos recolhidos após a queda natural. A introdução descreve como a macaúba é colhida no extrativismo. Não trata de mão de obra nem de segurança.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Desenvolvimento Vegetativo e Reprodutivo de Plantas de Macaúba (Acrocomia aculeata) Implantadas em Pastagem Degradada (Boletim de Pesquisa e Desenvolvimento 346)",
+          "organizacao": "Embrapa Cerrados (Pulrolnik, K.; Vilela, L.; Gonçalves, H. M.)",
+          "ano": "2019 (06/2019)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "macaúba (crescimento em altura e início da produção)",
+          "pais_regiao": "Brasil (Planaltina, DF)",
+          "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1110803/1/Bolpd346.pdf",
+          "arquivo": "05_agro-brasil-instituicoes-midia/Embrapa-Cerrados_2019_macauba-desenvolvimento-vegetativo-boletim-346.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "A altura foi medida com régua altimétrica, da base do coleto até a folha flecha: é a planta inteira, não o estipe nem a altura do cacho (PDF p. 13; impressa 12)",
+            "Aos 7 anos, a altura média tendia a 7,00 m com adubação de manutenção e a 5,86 m sem ela nas maiores densidades de plantio; os dois valores são as assíntotas do modelo de altura em função da densidade, de 121 a 1.497 plantas/ha (plantio de fevereiro de 2009) (PDF p. 14 e 15; impressas 13 e 14)",
+            "Crescimento em altura de 0,0018 m por dia com adubação de manutenção e de 0,0010 m por dia sem ela, na média das dez densidades, em 2.874 dias de avaliação (PDF p. 14 e 15; impressas 13 e 14)",
+            "Das 23 plantas que frutificaram aos 7 anos, todas com adubação de manutenção, 21 (91%) estavam nas densidades de 489 a 1.497 plantas/ha; o boletim diz que eram plantas com mais de 7,5 m de altura, sem mostrar as alturas individuais (PDF p. 17; impressa 16)",
+            "Outro plantio citado (Dietrich, 2017, citação secundária): 400 plantas/ha, 6 anos de idade, altura média de 7,29 m e frutificação a partir do quarto ano (PDF p. 16; impressa 15)",
+            "Em populações nativas de Minas Gerais, Da Conceição et al. (2013) observaram 61,2 kg de frutos por planta e 16,7 kg por cacho (citação secundária, PDF p. 17; impressa 16)"
+          ],
+          "resumo": "Boletim da Embrapa Cerrados com um experimento em roda de Nelder (dez densidades, 240 plantas medidas), plantado em fevereiro de 2009 em Planaltina (DF). Mede a altura das plantas, do colo à folha flecha, até os 7 anos e a primeira produção de frutos. É a fonte que dá a altura da macaúba cultivada quando começa a produzir. Não mede a altura do cacho.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Ferramentas para coleta de cachos de palmeiras na Amazônia: uma nova valorização econômica",
+          "organizacao": "Instituto Nacional de Pesquisas da Amazônia – INPA, Editora INPA (Rabelo, A.; França, F.; Belém, G.)",
+          "ano": "2015",
+          "tipo_fonte": "governo/instituição",
+          "setor": "extrativismo de palmeiras (20 espécies, entre elas a macaúba)",
+          "pais_regiao": "Brasil (Amazonas)",
+          "url": "https://transforma.fbb.org.br/storage/socialtecnologies/492/files/OK-Cartilha%20Ferramenta%20Palmhaste.pdf",
+          "arquivo": "05_agro-brasil-instituicoes-midia/INPA_2015_ferramentas-coleta-cachos-palmeiras.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Palmeiras sem espinhos são colhidas por pessoas que escalam a árvore; palmeiras com o estipe coberto de espinhos são colhidas com varas de madeira com ganchos ou foices na ponta, instáveis e de difícil manuseio (PDF p. 11)",
+            "Vara de coleta em alumínio naval: seis pares de tubos de 1,65 m; altura mínima de 3,20 m e máxima de 19,2 m; peso total de 13,12 kg (PDF p. 12)",
+            "Ferramenta testada em 20 espécies: 14 sem espinhos e 6 com espinhos, entre elas a macaúba (PDF p. 16 e 18)",
+            "Lona de 3 m x 3 m para aparar os cachos; nas palmeiras com espinhos, um tubo de PVC de 48 cm por 10 cm ajuda a vara a passar pelos espinhos (PDF p. 15 e 23)",
+            "Nas espécies cujos frutos caem maduros (entre elas a macaúba), o desprendimento dura dias e às vezes semanas (PDF p. 23-24)"
+          ],
+          "resumo": "Cartilha do INPA (ISBN 978-85-211-0148-2; a ficha catalográfica indica 24 p. e o PDF tem 28 páginas) sobre uma vara de alumínio com foice ou serrote para colher cachos sem escalar, testada por dois anos em comunidades do Amazonas. Descreve como se colhem hoje as palmeiras com e sem espinhos e os riscos da escalada. Não traz dados de acidentes nem de rendimento.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Palmhaste: ferramenta de coletas de frutos das espécies de palmeiras (ficha de tecnologia social na plataforma Transforma)",
+          "organizacao": "Instituto Nacional de Pesquisas da Amazônia – INPA; ficha publicada pela Fundação Banco do Brasil",
+          "ano": "s.d. (ficha lida em 23/11/2026; ferramenta concebida em 2015)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "extrativismo de palmeiras (inclui macaúba, açaí e coco)",
+          "pais_regiao": "Brasil (Amazonas)",
+          "url": "https://transforma.fbb.org.br/palmhaste-ferramenta-de-coletas-de-frutos-das-especies-de-palmeiras/generate-pdf?id=492",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Nas palmeiras com espinhos, a colheita costuma ser feita com varas de madeira ou bambu com foices amarradas na ponta; o processo é descrito como difícil, exaustivo e arriscado (PDF p. 1-2)",
+            "Hastes tradicionais alcançam em média de 8 a 10 m; a Palmhaste alcança até 18 m, segundo a ficha escrita pelo INPA (PDF p. 1-2). A cartilha de 2015 dá outro número para a vara: máximo de 19,2 m",
+            "Estrutura de 13 tubos de alumínio naval de 1,5 m, total de 10,8 kg; custo estimado de R$ 1.442,00, segundo o INPA (PDF p. 2-3)",
+            "Testes em Manaus (AM), segundo o INPA: 80 kg de frutos de açaí-solteiro colhidos em 4 horas e 500 cocos colhidos em 6 horas (PDF p. 1 e 3)"
+          ],
+          "resumo": "Ficha da tecnologia social Palmhaste, escrita pelo próprio INPA (o desenvolvedor) e publicada no banco de tecnologias sociais da Fundação Banco do Brasil. Compara a ferramenta com as hastes improvisadas e dá números de alcance, custo e testes de campo. Os números são declarados pelo desenvolvedor, sem método descrito.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Trabalho precário e trabalho infantil na cadeia de valor global do açaí (apresentação com os resultados do 'Diagnóstico das condições de trabalho do extrativista de açaí, o Peconheiro', de 2016)",
+          "organizacao": "Instituto Peabiru (João Meirelles); diagnóstico de 2016 feito com a Fundacentro e o Programa Trabalho Seguro do TRT da 8ª Região",
+          "ano": "2022 (21/10/2022)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "açaí (extrativismo, segurança do trabalho e trabalho infantil)",
+          "pais_regiao": "Brasil (rio Canaticu, Curralinho, Marajó, PA)",
+          "url": "https://peabiru.org.br/wp-content/uploads/2022/10/221021_ApresentacaoWebinar_DireitosHumanosNoAcai.pptx.pdf",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "89% dos entrevistados disseram que alguém da família ou um meeiro já sofreu acidente de trabalho em seu açaizal (slides 19 e 23); mede relatos por entrevistado, não taxa de acidentes por trabalhador",
+            "Em 54% dos casos de acidente houve internação (slides 13 e 19)",
+            "Afastamento: 48% dos acidentes exigiram até 10 dias (slide 19) e 62% de 10 a 60 dias (slide 13); os dois percentuais somam mais de 100% e precisam ser conferidos no relatório original",
+            "Área do estudo: médio rio Canaticu, com 1.029 famílias e cerca de 3 mil pessoas empregadas informalmente (slide 5)",
+            "O extrativista que subia 1 a 2 vezes por dia no açaizeiro hoje sobe de 10 a 20 vezes (slide 11)",
+            "Estimativa do Peabiru: 120 mil coletores subindo em 10 árvores cada dão cerca de 1,2 milhão de subidas por dia de safra (slide 11)",
+            "Vestimenta e proteção (slide 17, que não diz como foi medido): bermuda 89%, camisa de manga curta 67%, luvas 25%, bota 5%"
+          ],
+          "resumo": "Slides de um webinar do Instituto Peabiru, organização da sociedade civil (28 páginas, 21/10/2022), que resumem o diagnóstico feito em 2016 com a Fundacentro e o Programa Trabalho Seguro do TRT-8 em Curralinho (PA), com questionários e oficinas. São a fonte pública mais direta dos números de acidentes dos peconheiros. Os próprios slides chamam o estudo de qualitativo e não informam o tamanho da amostra. O relatório original não foi localizado.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Colheita e pós-colheita (capítulo 16 do livro 'Cultivo do açaizeiro em terra firme', p. 241-252)",
+          "organizacao": "Embrapa Amazônia Oriental (Souza, M. B.) e Cooperativa Agrícola Mista de Tomé-Açu (Moura, M. S.); Embrapa, Brasília",
+          "ano": "2025",
+          "tipo_fonte": "governo/instituição",
+          "setor": "açaí (colheita em cultivo de terra firme)",
+          "pais_regiao": "Brasil (Pará)",
+          "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1182045/1/CultivoAcaizeiroTerraFirme-cap16.pdf",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Mesmo em cultivo de terra firme, a colheita do açaí é feita por homens que escalam o estipe com peconha e faca (PDF p. 3; impressa 243)",
+            "Equipamentos novos: varas longas de alumínio com lâmina e dispositivos com roldanas presos ao estipe; equipamentos com controle remoto aparecem como 'em fase de testes' (PDF p. 3; impressa 243) e um deles, que sobe na palmeira e corta o cacho com serra, como disponível no mercado (PDF p. 6; impressa 246)",
+            "Itens de segurança indicados: cinto de segurança, talabarte, camisa, luvas e cinto com bainha para o terçado (PDF p. 4; impressa 244); botas aparecem na lista de materiais (PDF p. 4) e na Figura 16.7 (PDF p. 7; impressa 247)"
+          ],
+          "resumo": "Capítulo de livro técnico da Embrapa sobre como colher e manusear o açaí cultivado. Descreve o método tradicional, os itens de segurança e os equipamentos novos, sem medir rendimento nem acidentes. Serve para mostrar que a escalada continua mesmo no cultivo.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "NR 31 – Segurança e Saúde no Trabalho na Agricultura, Pecuária, Silvicultura, Exploração Florestal e Aquicultura (texto atualizado em 2024)",
+          "organizacao": "Ministério do Trabalho e Emprego (redação da Portaria SEPRT nº 22.677, de 22/10/2020, com alterações de 2022)",
+          "ano": "2024 (texto consolidado; redação de 22/10/2020)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "norma de segurança do trabalho rural",
+          "pais_regiao": "Brasil",
+          "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/nr-31-atualizada-2024.pdf",
+          "arquivo": "05_agro-brasil-instituicoes-midia/MTE_2024_nr-31-consolidada.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Item 31.15.1: o capítulo de trabalho em altura aplica-se somente a instalação, montagem, manutenção, inspeção, limpeza ou conservação de máquinas, equipamentos, implementos ou edificações rurais, executadas acima de 2 m do nível inferior, onde haja risco de queda (PDF p. 44)",
+            "Item 31.15.1.1: na colheita e nos tratos culturais, as medidas contra o risco de queda são definidas no PGRTR e só se aplica o subitem 31.15.9, de capacitação (PDF p. 45)",
+            "Itens 31.15.9 e 31.15.9.1: treinamento de trabalho em altura com no mínimo 8 horas; na colheita e nos tratos culturais, mínimo de 2 horas (PDF p. 45-46)",
+            "Item 31.11.4: ferramentas de corte guardadas e transportadas em bainha (PDF p. 27); item 31.6.2, alínea c: perneira contra picadas de animais peçonhentos (PDF p. 19); item 31.3.10.1: encaminhamento imediato do acidentado por animal peçonhento à unidade de saúde (PDF p. 9)",
+            "Item 31.2.1.1: nas atividades rurais aplica-se somente a NR-31, salvo remissão expressa a outra norma e as exceções listadas (PDF p. 2)"
+          ],
+          "resumo": "Texto oficial da norma de segurança e saúde do trabalho rural, com 81 páginas, consolidado até a Portaria MTE nº 342, de 21/03/2024. Aplica-se a quaisquer atividades da agricultura, pecuária, silvicultura, exploração florestal e aquicultura (item 31.2.1). Para o risco de queda na colheita, remete as medidas ao programa de gerenciamento de riscos (PGRTR) e à capacitação (itens 31.15.1.1 e 31.15.9). A busca por 'NR-35' no arquivo não encontra ocorrência.",
+          "relevancia": "alta"
+        }
+      ],
+      "formularios": [],
+      "lacunas": [
+        "Acidentes na colheita da macaúba: não achamos nenhum dado medido (número de casos, taxa, CAT, internações) nem estudo ergonômico da colheita. O que existe são descrições qualitativas (INPA, 2015; Ciconini et al., 2013) e o registro de fadiga do operador no protótipo da UFV. Buscas feitas: 'colheita da macaúba Acrocomia aculeata manual podão vara cacho espinhos altura rendimento trabalhador'; 'macaúba extrativismo coleta frutos no chão catação risco espinhos acidente coletores Embrapa'; 'macaúba espinhos colheita dificuldade segurança trabalhador risco acidente estipe tese dissertação UFV'; 'espinho macaúba OR bocaiuva OR Acrocomia ferimento OR lesão OR acidente trabalhador coleta'; 'Acrocomia aculeata spines harvest difficult OR hinder OR dangerous'.",
+        "Rendimento por trabalhador na macaúba: não achamos medição. O único número (37,5 kg por hora) é uma estimativa que o artigo da UFV atribui a diretrizes do Ministério do Desenvolvimento Agrário de 2014 ('Diretrizes e Recomendações Técnicas para Adoção de Boas Práticas de Manejo para o Extrativismo do Fruto da Macaúba/Bocaiúva'). O documento original não foi localizado online (buscas pelo título exato e pelo nome do arquivo); vale pedir ao MDA, ao MAPA ou à Embrapa. Na verificação: o artigo usa a palavra 'estimated' e não diz como o MDA chegou ao número.",
+        "Custo da colheita da macaúba (R$ por tonelada, homem-dia por hectare, peso da colheita no custo de produção): não achado. Buscas: 'custo de colheita macaúba mão de obra colheita participação no custo de produção viabilidade econômica cultivo macaúba homem-dia'; 'macaúba plantio comercial colheita cachos podão OR foice OR vara altura colheita semi-mecanizada rede OR lona custo colheita por tonelada estudo'.",
+        "Peso do cacho inteiro e altura dos cachos por idade em plantio comercial: não achados. Há só a massa de frutos por cacho em palmeiras nativas (médias de 4,4 a 6,3 kg por local em MS; 16,7 kg em MG, em citação secundária) e a altura da planta inteira, do colo à folha flecha, em plantio experimental: média que tende a 7,00 m aos 7 anos com adubação de manutenção e a 5,86 m sem ela (Embrapa Cerrados, 2019), e média de 7,29 m aos 6 anos em outro plantio (Dietrich, 2017, citação secundária). A altura de inserção do cacho não foi medida em nenhuma fonte lida. (Texto do pesquisador, ajustado na verificação: o bruto falava em 'altura total de 5,9 a 7,5 m'.)",
+        "Norma: não achamos norma, nota técnica nem orientação da fiscalização específica para a colheita de palmeiras com vara, podão ou escalada. A NR-31 remete as medidas contra queda na colheita ao PGRTR e a uma capacitação com carga mínima de 2 horas, e o arquivo consolidado de 2024 não cita a NR-35. O texto da NR-35 não foi lido, nem pelo pesquisador nem na verificação. O artigo sobre açaí de Moura et al. (2022) menciona o cinto tipo paraquedista e os sistemas de ancoragem 'previstos na NR 35'; é opinião dos autores. Se a NR-35 pode ser exigida na colheita é questão jurídica, a confirmar com especialista.",
+        "Açaí: o relatório original de 2016 (Fundacentro, Instituto Peabiru e TRT-8) não foi localizado; só a apresentação de 2022 do Peabiru, que não informa a amostra e traz percentuais de afastamento que não fecham (48% até 10 dias e 62% de 10 a 60 dias). Não achamos série de acidentes do MPT, da Fundacentro ou do TRT-8, nem estudo hospitalar de quedas de açaizeiro (busca: 'queda de açaizeiro trauma raquimedular perfil epidemiológico hospital Pará estudo fraturas coluna peconheiros'; 'Fundacentro peconheiro açaí relatório condições de trabalho extrativista'). O relatório do Departamento do Trabalho dos EUA sobre trabalho infantil, citado nos slides, e um relatório da Repórter Brasil de 2025 sobre o açaí apareceram e não foram lidos.",
+        "Palma de óleo: não achamos taxa de acidentes por causa (queda de cacho, queda de folha, espinho, corte com foice). A revisão sistemática de 2019 não traz taxas de acidentes nem de mortes. Estatísticas da Malásia (SOCSO, DOSH) e da Colômbia (Fedepalma, Cenipalma) não foram localizadas (buscas: 'oil palm plantation occupational accidents statistics harvesters struck by falling fronds fresh fruit bunches thorn prick injuries'; 'accidentalidad cosecha palma de aceite Colombia corteros lesiones estudio tasa accidentes Cenipalma Fedepalma'). No Brasil, dados da CAT para o CBO 6227-20 (trabalhador na cultura de dendê) apareceram só em um site privado, fora do ar na consulta (erro 530); o caminho é o SmartLab (MPT e OIT) ou os microdados da CAT. A dissertação da UFSCar sobre ergonomia na colheita do dendê no nordeste do Pará não abriu (erro 403). Na verificação: o número de 3.266 acidentes em plantações de palma da Indonésia em cinco anos foi retirado, porque o artigo o tira de uma reportagem (voi.id) que não abriu. Falta achar a estatística da BPJS Ketenagakerjaan na fonte oficial; resultados de busca, não abertos, indicam números anuais muito maiores para o setor de plantações.",
+        "Coco: não achamos estudo do Coconut Research Institute do Sri Lanka com taxa de quedas, nem levantamento indiano mais recente ou maior que o de 2006-2008 (busca: 'Sri Lanka coconut pickers climbers shortage falls injuries study Coconut Research Institute'; 'coconut tree climbers falls injuries prevalence study Kerala musculoskeletal shortage of climbers'). A falta de escaladores aparece só como abandono da profissão (7,9%) no estudo indiano.",
+        "Leituras bloqueadas, sem contorno: a revisão 'Acrocomia spp.: neglected crop, ballyhooed multipurpose palm or fit for the bioeconomy?' (Agronomy for Sustainable Development, 2021), que redireciona para uma página de cookies; o artigo da OCL de 2018 (erro 403; já está no catálogo); o PDF do SciELO Saúde Pública (erro 403; o mesmo artigo foi lido no portal de revistas da USP); a página do PMC (verificação de navegador; o artigo foi lido pela API pública da Europe PMC); core.ac.uk (erro 403). Na verificação, a página do PMC abriu normalmente.",
+        "(Do pesquisador; estas fontes não foram abertas na verificação.) Fontes lidas e deixadas de fora: pré-print da F1000Research de 2026 sobre acidentes em trabalhadores de palma na Indonésia (191 trabalhadores, 41,9% com acidente em 12 meses), ainda sem revisão por pares; Deepak et al., 2025, International Journal of Emergency Medicine (29 casos de trauma por queda de cocos em três anos em hospital do sul da Índia); Cardoso et al., 2020, Brazilian Journal of Development (extrativismo da macaúba no Cariri cearense: safra de dezembro a março, saco de 30 kg a R$ 15,00, baixo rendimento da coleta); Favaro e Guiducci, 2023, 'Mulheres na cadeia produtiva da macaúba' (Embrapa), sem dado de colheita ou de risco; ficha 'Acrocomia at a Glance' da Universidade de Hohenheim (2018), sem dado de colheita.",
+        "Fonte usada e fora de 'itens': três evidências citam Grupioni, C. M. F.; Santos, F. L.; Fernandes, H. C.; Valente, D. S. M.; Pinto, F. A. C. 'Development and evaluation of operational performance of macaw fruits semi-mechanized harvester by means mechanical vibrations principle'. Semina: Ciências Agrárias (UEL), Londrina, v. 39, n. 2, p. 497-510, 2018, DOI 10.5433/1679-0359.2018v39n2p497 (autores da UFV; ensaio em Araponga, MG). Lido no Redalyc (https://www.redalyc.org/journal/4457/445760177005/html/) e no PDF da revista (https://ojs.uel.br/revistas/uel/index.php/semagrarias/article/view/29259/23185). Precisa entrar no catálogo antes de receber ID.",
+        "Dado do mesmo artigo que o bruto não usou e que não foi acrescentado: a capacidade de colheita do protótipo semimecanizado foi de 566,9 kg por hora em média (de 483,9 a 700,2 kg por hora em cinco cachos), estimada pelo peso médio do fruto. É o par natural dos 37,5 kg por hora da colheita manual, mas vem de teste preliminar com cachos baixos.",
+        "Inconsistências dentro das próprias fontes, que pedem cuidado ao citar: (a) USP, 2017: o texto e as Tabelas 2 e 3 trazem percentuais diferentes para uso de proteção, medo de cobra e dor nas costas; (b) slides do Peabiru: 48% dos acidentes com afastamento de até 10 dias e 62% com afastamento de 10 a 60 dias somam mais de 100%; (c) George et al., 2012: abandono da profissão de 7,9% nos resultados e de 7,5% na discussão; (d) Myzabella et al., 2019: a faixa de dor lombar de 58% a 87,1% no texto não bate com a tabela da revisão; (e) Jayadi et al., 2025: o resumo fala em empresas de duas províncias e os métodos em uma empresa de Kalimantan Central; (f) Embrapa, 2025 (açaí): o capítulo diz que os equipamentos com controle remoto estão 'em fase de testes' e, adiante, que um deles 'está disponível no mercado'.",
+        "Não abriram na verificação: a reportagem do voi.id citada pelo artigo da Indonésia (erro 403); o perfil nacional de segurança e saúde no trabalho da Indonésia de 2022 (o portal satudata.kemnaker.go.id não devolveu conteúdo); o PDF do artigo de Ng et al. no J-STAGE (conexão interrompida duas vezes; o HTML foi lido). O Redalyc deu erro 503 na primeira tentativa e abriu na segunda.",
+        "NR-31: o arquivo lido é o texto consolidado até a Portaria MTE nº 342, de 21/03/2024. Antes de publicar, conferir no site do MTE se há consolidação mais recente."
+      ]
+    },
+    {
+      "grupo": "Colheita e segurança do trabalho em palmeiras (robotica-colheita-A)",
+      "pasta": "04_academia-instituicoes",
+      "itens": [
+        {
+          "titulo": "Caracterização de coletores e da utilização dos frutos de macaúba em comunidades do Estado de Minas Gerais (anais do 1º Congresso Brasileiro de Macaúba, Patos de Minas, MG)",
+          "organizacao": "Embrapa Cerrados (Lôbo, C. F.; Sousa, T. C. R.; Aguiar, J. L. P.; Conceição, L. D. H. C. S.; Junqueira, N. T. V.); anais publicados pelo MAPA",
+          "ano": "2013",
+          "tipo_fonte": "governo/instituição",
+          "setor": "macaúba (extrativismo, perfil dos coletores)",
+          "pais_regiao": "Brasil (Minas Gerais)",
+          "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1025994/1/4201159.pdf",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "13 coletores entrevistados entre dezembro de 2011 e março de 2012 em Abaeté, Carmo do Paranaíba, Jaboticatubas e Jequitibá (PDF p. 1)",
+            "53,8% dos coletores eram mulheres e 46,2% homens; a coleta é feita nos intervalos do serviço doméstico (PDF p. 1)",
+            "9 dos 13 coletores (69%) tinham 56 anos ou mais (38,5% de 56 a 67; 23,1% de 68 a 79; 7,7% de 80 a 91); 76,92% eram aposentados (PDF p. 2, 3 e 4)",
+            "Saco de 20 kg de fruto in natura vendido na propriedade por R$ 4,31 em média (PDF p. 2 e 4)",
+            "Safra de setembro a abril; toda a produção dos municípios estudados vem do extrativismo (PDF p. 2)"
+          ],
+          "resumo": "Trabalho de congresso da Embrapa Cerrados, de 4 páginas, com entrevistas semiestruturadas (29 perguntas) a 13 coletores de macaúba em quatro municípios mineiros. Dá o perfil de quem coleta e os preços recebidos. A amostra é pequena e o texto não descreve ferramentas nem riscos.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Biometry and oil contents of Acrocomia aculeata fruits from the Cerrados and Pantanal biomes in Mato Grosso do Sul, Brazil (Industrial Crops and Products, v. 45, p. 208-214)",
+          "organizacao": "Universidade Católica Dom Bosco, Fundação MS, Embrapa Agroenergia e Embrapa Pantanal (Ciconini, G.; Favaro, S. P.; Roscoe, R.; Miranda, C. H. B.; Tapeti, C. F.; Miyahira, M. A. M.; Bearari, L.; Galvani, F.; Borsato, A. V.; Colnago, L. A.; Naka, M. H.)",
+          "ano": "2013",
+          "tipo_fonte": "academia",
+          "setor": "macaúba (biometria de palmeiras nativas)",
+          "pais_regiao": "Brasil (Mato Grosso do Sul)",
+          "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/980756/1/BiometryandoilcontentsofAcrocomiaaculeatafruitsfromtheCerradosandPantanalbiomesinMatoGrossodoSulBrazil..pdf",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Palmeiras nativas de quatro locais de MS, colhidas de novembro de 2010 a janeiro de 2011; dez palmeiras por local (oito em São Gabriel do Oeste) (PDF p. 2; impressa 209)",
+            "Cerca de 30% das palmeiras amostradas em Corumbá e 70% das amostradas em Aquidauana tinham espinhos no estipe; nenhuma nos dois locais de Cerrado amostrados. Amostra de dez palmeiras por local; o artigo não mostra os dados (PDF p. 3; impressa 210)",
+            "Médias por local: de 2 a 5 cachos por palmeira; de 4,4 a 6,3 kg de frutos por cacho; de 142 a 285 frutos por cacho (Tabela 1, PDF p. 4; impressa 211)",
+            "Foram escolhidas palmeiras com cachos a cerca de 2,5 m de altura, o que facilita a colheita (PDF p. 2; impressa 209)"
+          ],
+          "resumo": "Artigo revisado por pares que mediu plantas e frutos de macaúba nativa em dois locais de Cerrado e dois de Pantanal. Registra a presença de espinhos, o número de cachos e a massa de frutos por cacho. Afirma que os espinhos atrapalham o manejo e a colheita.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Riscos ambientais e segurança do coletor no extrativismo do fruto de açaízeiro na Amazônia Oriental (Ciência Florestal, v. 32, n. 2, p. 597-616)",
+          "organizacao": "Universidade Federal Rural da Amazônia, Universidade Federal do Pará e órgãos do estado do Pará (Moura, V. B.; Farias, V. D. S.; Sousa, D. P.; Nunes, H. G. G. C.; Souza, P. J. O. P.)",
+          "ano": "2022",
+          "tipo_fonte": "academia",
+          "setor": "açaí (riscos ocupacionais na coleta)",
+          "pais_regiao": "Brasil (Ilha do Combu, Belém, PA)",
+          "url": "https://periodicos.ufsm.br/cienciaflorestal/article/download/42790/48328?inline=1",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "33 extrativistas entrevistados em janeiro de 2018, cerca de 50% da população da comunidade (web)",
+            "90% dos entrevistados disseram já ter caído do açaizeiro, com cortes ou ferimentos; 80% relataram torção muscular (autorrelato; web)",
+            "Estimativa dos autores: cerca de 100 escaladas por dia na safra, a partir de dez rasas de 30 kg por dia e de cerca de 10 cachos de 3 kg por rasa (parâmetros da CONAB, 2019); não é contagem em campo (web)",
+            "Strain Index (método de Moore e Garg) de 13,5 na safra e de 10,12 na entressafra, faixa de alto risco (web)",
+            "99% dos coletores não sabem o que é um EPI; jornada de 4 a 8 horas por dia na safra (web)"
+          ],
+          "resumo": "Artigo revisado por pares com entrevistas e medições de campo (calor, esforço, postura) na coleta do açaí em Belém. Classifica os riscos físicos, biológicos, ergonômicos e de acidentes e os compara com as normas regulamentadoras. A amostra é pequena e de uma só comunidade.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Extractivism of palm tree fruits: A risky activity because of snakebites in the state of Acre, Western Brazilian Amazon (Revista da Sociedade Brasileira de Medicina Tropical, v. 52, e20180195)",
+          "organizacao": "Revista da Sociedade Brasileira de Medicina Tropical (Silva, A. M.; Sachett, J.; Monteiro, W. M.; Bernarde, P. S.)",
+          "ano": "2019",
+          "tipo_fonte": "academia",
+          "setor": "açaí e outras palmeiras (acidentes com serpentes na colheita)",
+          "pais_regiao": "Brasil (Cruzeiro do Sul, AC)",
+          "url": "https://www.scielo.br/j/rsbmt/a/wrN4WFVg3RC3nTXrCfmQ5bx/?lang=en",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "303 acidentes com serpentes registrados de janeiro de 2016 a abril de 2018 no Hospital Regional do Juruá; 14 (4,6%) associados a palmeiras ou à extração de seus produtos (web)",
+            "9 dos 14 casos (64,3%) ocorreram na colheita do açaí (Euterpe precatoria); 12 dos 14 ocorreram durante a colheita e 2 com pessoas que passavam junto a palmeiras (web, Tabela 1)",
+            "Local da picada: pés 35,7%, pernas 21,4%, mãos 21,4%, braços 14,3% e tórax 7,1% (web)",
+            "Três picadas com o coletor no alto do açaizeiro, a 4 m e a 8 m de altura (web, Tabela 1; o texto cita duas)"
+          ],
+          "resumo": "Estudo transversal revisado por pares com os casos de picada de serpente atendidos em um hospital regional do Acre. Mostra o risco no chão, junto à palmeira (Bothrops atrox), e no alto da palmeira (Bothrops bilineatus). Cobre só os casos que chegaram ao hospital.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Padrões de saúde e segurança no trabalho e extrativismo: o caso de comunidades rurais da Amazônia brasileira (Saúde e Sociedade, v. 26, n. 3, p. 774-785)",
+          "organizacao": "Universidade de São Paulo (Veiga, J. P. C.; Trevisani, D. M.; Makishi, F.; Abreu, M. G. C.; Silva, M. S. P.; Zacareli, M. A.)",
+          "ano": "2017",
+          "tipo_fonte": "academia",
+          "setor": "extrativismo de sementes e frutos oleaginosos (andiroba, murumuru e outros)",
+          "pais_regiao": "Brasil (Salvaterra e Bragança, PA)",
+          "url": "https://revistas.usp.br/sausoc/article/download/139960/135189",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Questionários com 84 famílias em Salvaterra e 106 em Bragança (PDF p. 4; impressa 777)",
+            "79% dos entrevistados em Salvaterra e 80% em Bragança apontaram alto risco de picada de cobra (PDF p. 8; impressa 781); a Tabela 3 do artigo traz 78% e 79% (PDF p. 9)",
+            "Cerca de 60% dos entrevistados de Bragança e 63% dos de Salvaterra relataram dor nas costas, sobretudo na safra (PDF p. 9; impressa 782); a Tabela 3 traz 60% e 64%",
+            "Uso de proteção em Bragança, pelo texto: bota ou calçado 62%, luva 42%, chapéu 39%; em Salvaterra: 22%, 5% e 21%. A Tabela 2, na mesma página, traz 67%, 43% e 33% em Bragança e 25%, 11% e 6% em Salvaterra (PDF p. 8; impressa 781)",
+            "O murumuru é colhido em várzea com foice para a poda do cacho; a folha tem espinhos de até 30 cm (PDF p. 3; impressa 776)"
+          ],
+          "resumo": "Artigo revisado por pares com pesquisa de campo junto a coletores de sementes e frutos oleaginosos no Pará, com questionários e observação direta. Levanta os riscos percebidos, o uso de proteção e as queixas de dor. Não separa os resultados por espécie coletada.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Occupational Health and Safety in the Palm Oil Industry: A Systematic Review (International Journal of Occupational and Environmental Medicine, v. 10, n. 4, p. 159-173)",
+          "organizacao": "Myzabella, N.; Fritschi, L.; Merdith, N.; El-Zaemey, S.; Chih, H.; Reid, A.",
+          "ano": "2019",
+          "tipo_fonte": "academia",
+          "setor": "palma de óleo (saúde e segurança do trabalho)",
+          "pais_regiao": "Global (Malásia, Indonésia, Costa Rica, Gana, Camarões, Mianmar e Papua-Nova Guiné)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6820316/",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "941 publicações identificadas e 25 estudos incluídos, 19 deles da Malásia (web)",
+            "O cacho de frutos frescos pesa de 10 a 50 kg, conforme a idade da palma; a palma pode chegar a 20 m (web)",
+            "Dor lombar em 12 meses entre 58% e 87,1% dos colhedores manuais, segundo o texto da revisão; a tabela da própria revisão distribui esses valores de outro modo, então convém ir aos estudos originais antes de citar (web)",
+            "Em um estudo da Malásia de 2009 com 150 colhedores, 69% dos trabalhadores cortavam cachos acima de 13 m; a frase trata do grupo que cortava acima de 6 m (web)",
+            "A revisão não menciona taxas de acidentes nem de mortes (web)"
+          ],
+          "resumo": "Revisão sistemática revisada por pares sobre riscos ocupacionais na palma de óleo. Encontrou risco de distúrbios osteomusculares, lesões, transtornos psicossociais e doenças infecciosas. Na verificação, o texto foi lido na página do PMC e também pela API pública da Europe PMC (https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6820316/fullTextXML).",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "The Prevalence of Musculoskeletal Disorder and Association with Productivity Loss: A Preliminary Study among Labour Intensive Manual Harvesting Activities in Oil Palm Plantation (Industrial Health, v. 52, n. 1, p. 78-85)",
+          "organizacao": "Ng, Y. G.; Tamrin, S. B. M.; Yik, W. M.; Yusoff, I. S. M.; Mori, I.",
+          "ano": "2014",
+          "tipo_fonte": "academia",
+          "setor": "palma de óleo (distúrbios osteomusculares e produtividade)",
+          "pais_regiao": "Malásia (sul da península)",
+          "url": "https://www.jstage.jst.go.jp/article/indhealth/52/1/52_2013-0017/_html/-char/en",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "143 colhedores de quatro plantações da mesma empresa; palmas de 3 a 5 anos, colhidas com cinzel; cachos de 5 a 10 kg (web)",
+            "Prevalência de distúrbio osteomuscular em qualquer parte do corpo: 93% em 12 meses e 43,4% nos últimos 7 dias; região lombar 58% (web)",
+            "Colhedores com distúrbio nos últimos 7 dias tiveram mais chance de produtividade diária baixa (OR = 2,09; IC 95% de 1,02 a 4,29) (web)"
+          ],
+          "resumo": "Estudo transversal revisado por pares com questionário aplicado a colhedores (cortador e coletor de cachos) de palmas jovens. Liga a dor osteomuscular recente à perda de produtividade. As palmas eram baixas, colhidas com cinzel, e os dados são autorrelatados.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Prevalence of Work-Related Musculoskeletal Disorders (WMSDs) and Recent Initiatives to Address Them in the Oil Palm Industry: A Systematic Review (Journal of Oil Palm Research, artigo no prelo)",
+          "organizacao": "Universiti Sains Malaysia ('Umar Mohamad Noor; Mohamad Ikhwan Zaini Ridzwan); periódico do Malaysian Palm Oil Board (MPOB)",
+          "ano": "2024 (17/10/2024)",
+          "tipo_fonte": "academia",
+          "setor": "palma de óleo (distúrbios osteomusculares e ergonomia da colheita)",
+          "pais_regiao": "Global (Malásia, Tailândia, Colômbia e Indonésia)",
+          "url": "https://jopr.mpob.gov.my/wp-content/uploads/2024/10/joprinpress2024-umar.pdf",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "245 artigos identificados (2013 a 2023) e 27 incluídos: 22 da Malásia, 2 da Tailândia, 2 da Colômbia e 1 da Indonésia (PDF p. 1 e 4)",
+            "Prevalência de distúrbio osteomuscular em 12 meses, em qualquer parte do corpo: de 78,0% a 93,0%, nos três estudos que a mediram (dois da Tailândia e um da Malásia) (PDF p. 8)",
+            "Nota máxima de risco postural (RULA 7) na colheita com vara e com cinzel; em um estudo com 273 colhedores, 51,6% tiveram nota 7 (PDF p. 7 e 8)",
+            "Em um estudo da Tailândia de 2021, coletores de cachos e de frutos soltos tiveram risco 3,98 vezes maior de distúrbio lombar que os cortadores; os cachos pesam até 50 kg (PDF p. 10)",
+            "Palma com menos de 3 m: colheita com cinzel e tronco curvado; palma alta: cabeça inclinada para cima durante todo o corte (PDF p. 2)"
+          ],
+          "resumo": "Revisão sistemática revisada por pares, publicada no periódico do MPOB, sobre a prevalência de distúrbios osteomusculares e as ferramentas de intervenção na palma de óleo. Reúne os estudos de postura (RULA, REBA, OWAS) e de esforço muscular na colheita. Quase todos os estudos são da Malásia e usam questionário.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Perfil de Dor Musculoesquelética dos Trabalhadores Rurais da Colheita de Dendê na Região Amazônica (Revista Brasileira de Ciências da Saúde, v. 24, n. 2, p. 221-230)",
+          "organizacao": "Universidade da Amazônia – UNAMA (Souza, L. M.; Nascimento, W. B. S.; Santana, I. C. M.; Torres, D. C.; Avila, P. E. S.)",
+          "ano": "2020",
+          "tipo_fonte": "academia",
+          "setor": "palma de óleo/dendê (dor osteomuscular)",
+          "pais_regiao": "Brasil (Moju, PA)",
+          "url": "https://periodicos.ufpb.br/index.php/rbcs/article/download/45739/30705/139405",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "70 trabalhadores de uma empresa de dendê, em abril de 2018: 9 do plantio, 38 da colheita e 23 do carregamento (PDF p. 3; impressa 223)",
+            "Dor nos últimos 12 meses: coluna 72,9%, membros superiores 51,4% e membros inferiores 34,3%; só 8,6% sem dor (PDF p. 1 e 5; impressas 221 e 225)",
+            "77,1% sentem cansaço físico no fim da jornada; 70% acham o trabalho repetitivo; 38,6% precisaram adaptar equipamentos ou ferramentas (Tabela 1, PDF p. 4; impressa 224)"
+          ],
+          "resumo": "Estudo transversal com o questionário nórdico de sintomas osteomusculares aplicado a trabalhadores de uma empresa de dendê no Pará. É o único dado brasileiro medido que achamos para a palma. Os resultados não são separados por função de forma clara, e a revista é de menor circulação.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Occupational safety and health education for reducing workplace accidents in oil palm plantations (International Journal of Occupational Safety and Health, v. 15, n. 4, p. 361-369)",
+          "organizacao": "Universidade da Indonésia, Ministério do Trabalho da Indonésia e agência nacional de pesquisa BRIN (Jayadi, Y. D.; Lestari, F.; Tejamaya, M.; Prasetyo, S.; Fikawati, S.; Sugiarti, S.; Astono, S.; Mayawati, H.; Noor, I. H.; Modjo, R.; Dharmayanti, I.)",
+          "ano": "2025 (01/12/2025)",
+          "tipo_fonte": "academia",
+          "setor": "palma de óleo (acidentes de trabalho)",
+          "pais_regiao": "Indonésia (Kalimantan Central e do Sul)",
+          "url": "https://www.nepjol.info/index.php/IJOSH/article/download/76198/66182/250415",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Agricultura e plantações respondem por 17,3% dos acidentes de trabalho na Indonésia, terceiro maior setor, segundo o perfil nacional de segurança e saúde no trabalho de 2022; citação secundária (PDF p. 1 e 2; impressas 361 e 362)",
+            "Em 60 trabalhadores de palma (fevereiro a agosto de 2024), 66,7% relataram histórico de acidente de trabalho antes de um programa de educação em segurança e 10,0% relataram acidente seis meses depois; sem grupo de controle e sem período definido para o histórico inicial (PDF p. 1 e 5; impressas 361 e 365)",
+            "51,7% dos participantes eram colhedores (PDF p. 4; impressa 364)"
+          ],
+          "resumo": "Estudo quase-experimental revisado por pares que comparou acidentes e doenças relatados antes e depois de um programa de educação em segurança com trabalhadores de palma de Kalimantan. A introdução cita as estatísticas oficiais da Indonésia. A amostra é pequena e intencional, e não há grupo de controle. As estatísticas nacionais são citação secundária; o número de acidentes em plantações de palma vinha de uma reportagem e foi retirado na verificação.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Health of Coconut Tree Climbers of Rural Southern India – Medical Emergencies, Body Mass Index and Occupational Marks: A Quantitative and Survey Study (Journal of Clinical and Diagnostic Research, v. 6, n. 1, p. 57-60)",
+          "organizacao": "George, B. M.; Rao, M. S.; Kumar, A.; Suvarna, N.; D'Souza, J. S.",
+          "ano": "2012 (02/2012)",
+          "tipo_fonte": "academia",
+          "setor": "coco (escaladores de coqueiro)",
+          "pais_regiao": "Índia (Kerala e Tamil Nadu)",
+          "url": "https://www.jcdr.net/articles/PDF/1829/13%20-%203430.(A).pdf",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "240 escaladores entrevistados entre janeiro de 2006 e dezembro de 2008 (PDF p. 2; impressa 58)",
+            "35,5% (78 de 220) já caíram do coqueiro durante o trabalho (PDF p. 2; impressa 58)",
+            "Quedas com lesão por tempo de experiência: 15% (menos de 10 anos), 26,6% (11 a 20), 44% (21 a 30) e 41,3% (mais de 30 anos) (PDF p. 1-2)",
+            "Quatro escaladores morreram por queda e dois ficaram paraplégicos na área do estudo, segundo os jornais locais; sem período nem denominador (PDF p. 2 e 3; impressas 58 e 59)",
+            "7,9% (19 de 240) abandonaram a profissão; 94,7% deles (18 de 19) por acidentes no trabalho (PDF p. 3; impressa 59)",
+            "Cada escalador trabalha cerca de 4 horas por dia e sobe de 25 a 30 coqueiros (PDF p. 2; impressa 58)"
+          ],
+          "resumo": "Estudo de levantamento revisado por pares com escaladores profissionais de coqueiro no sul da Índia. Mede o histórico de quedas, as lesões, o índice de massa corporal e o abandono da profissão. Os dados são de 2006 a 2008, e as mortes vêm de jornais locais.",
+          "relevancia": "alta"
+        }
+      ],
+      "formularios": [],
+      "lacunas": []
+    },
+    {
+      "grupo": "Colheita e segurança do trabalho em palmeiras (robotica-colheita-A)",
+      "pasta": "07_agro-global-perenes-autonomia",
+      "itens": [
+        {
+          "titulo": "Assessment of the realization of the fundamental right to a safe and healthy working environment in the coconut sector in Sri Lanka – Analytical summary",
+          "organizacao": "Organização Internacional do Trabalho – OIT (escritório para o Sri Lanka e as Maldivas)",
+          "ano": "2024 (27/11/2024)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "coco (segurança e saúde do trabalho)",
+          "pais_regiao": "Sri Lanka (Kurunegala e Puttalam)",
+          "url": "https://www.ilo.org/sites/default/files/2024-11/Final%2026.11.2024-Coconut%20sector%20Sri%20Lanka_Final.pdf",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "4,3% dos trabalhadores pesquisados (13 de 300) sofreram acidente de trabalho em 12 meses (PDF p. 29-30)",
+            "Dos 13 acidentes, 9 foram picadas de cobra (69,2%), 3 foram de trajeto ou com veículo (23,1%) e 1 foi queda de altura (7,7%) (PDF p. 29 e 30)",
+            "A colheita do coco é feita a cada 45 dias, subindo na árvore ou com varas longas de bambu (PDF p. 21)",
+            "97,7% dos trabalhadores não receberam treinamento formal sobre equipamento de proteção ou segurança (PDF p. 35)",
+            "Colhedores de coco eram 16,9% dos homens da amostra (PDF p. 26)"
+          ],
+          "resumo": "Relatório da OIT (48 páginas) com pesquisa por questionário em plantações de coco de dois distritos do Sri Lanka, mais grupos focais e entrevistas, feita durante a pandemia de covid-19. Descreve os riscos por tarefa e mede os acidentes relatados em 12 meses. A própria OIT avisa que os colhedores, sazonais e subcontratados, foram difíceis de alcançar.",
+          "relevancia": "media"
+        }
+      ],
+      "formularios": [],
+      "lacunas": []
+    }
+  ]
+}

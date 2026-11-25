@@ -140,6 +140,12 @@ Cada marco precisa de fonte primária com data: página oficial de preços, anú
   - Relatório e workshop: um gráfico de preço contra consumo.
 - **Assistente de IA do estudo:** fontes catalogadas com ID, consultáveis.
 
+## 10. Acréscimo de 23/11/2026: o caso iFood
+
+- **Pedido do Guilherme (23/11/2026),** para a apresentação final: incluir a publicação do CEO do iFood no LinkedIn, do mesmo dia, sobre o uso de IA que sobe enquanto a conta cai.
+- **Como entrou:** a publicação foi lida na página, texto e gráfico, e catalogada como M1382 (`rodada13.json`), sem cópia guardada. Os números são declarados pela empresa, em índice e sem verificação de terceiros: a nota os traz com essa ressalva, ao lado do caso Uber (seção 5) e na lista de números a usar só com ressalva (seção 12).
+- **O que o caso testa:** a H2 (o preço cai, mas a conta sobe) ganha um contraexemplo declarado, em que a conta cai com modelos abertos como padrão; a H7 passa a ter um caso de empresa brasileira.
+
 ## Fontes
 
 <!-- fontes:inicio -->

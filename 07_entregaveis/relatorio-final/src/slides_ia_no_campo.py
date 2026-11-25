@@ -1,7 +1,8 @@
 """Slides de resultado da nota "IA no campo" (Frente 3, itens 3.3 e 3.4) para o Report Final.
 
 Quatro pares, cada um com um slide visual e um descritivo (pouco texto no visual, explicação no
-seguinte). Todo número vem da nota `04_frente-3_tendencias/ia-no-campo.md`, com a mesma citação;
+seguinte). Os pares 5/8 a 8/8 dos sistemas autônomos (colheita da macaúba e robôs que sobem na
+palmeira) estão em `slides_acrescimos.py`. Todo número vem da nota `04_frente-3_tendencias/ia-no-campo.md`, com a mesma citação;
 a linha de fontes sai do catálogo. Ao mudar a nota, mudar aqui também.
 
 Recebe as peças do gerador (novo, fontes, barras, lista) para não importar o gerador de volta.
@@ -106,7 +107,7 @@ def slides(novo, fontes, barras, lista) -> dict[str, list[dict]]:
 
     # ---- 3.3 Sistemas autônomos: autonomia e quebras --------------------------------------------
     autonomia_visual = novo(
-        "Sistemas autônomos · 1/4", "Sistemas autônomos · máquinas, robôs e drones",
+        "Sistemas autônomos · 1/8", "Sistemas autônomos · máquinas, robôs e drones",
         "A autonomia já é produto em nichos, com supervisão a distância, e teve quebras no caminho",
         f"""<div class="g2" style="grid-template-columns:1fr 1.1fr;margin-top:12px">
   {painel("Frotas declaradas pelos fabricantes", "Todos os números são das próprias empresas", tiles([
@@ -125,7 +126,7 @@ def slides(novo, fontes, barras, lista) -> dict[str, list[dict]]:
                ("M1298", "p. 2"), ("M1301", "p. 1-2"), ("M1300", "p. 1"), ("M1303", "p. 10"), ("M1318", "p. 2-4")))
 
     autonomia_descritivo = novo(
-        "Sistemas autônomos · 2/4", "Sistemas autônomos · o que trava",
+        "Sistemas autônomos · 2/8", "Sistemas autônomos · o que trava",
         "O que trava a autonomia é o entorno e também a própria tecnologia",
         f"""<div class="col3">
   {painel("A tecnologia", "", lista([
@@ -146,7 +147,7 @@ def slides(novo, fontes, barras, lista) -> dict[str, list[dict]]:
 
     # ---- 3.3 Sistemas autônomos: perenes e mão de obra ------------------------------------------
     perenes_visual = novo(
-        "Sistemas autônomos · 3/4", "Sistemas autônomos · culturas perenes e mão de obra",
+        "Sistemas autônomos · 3/8", "Sistemas autônomos · culturas perenes e mão de obra",
         "Nas perenes, a falta de gente puxa a máquina; na palma, falta a solução integrada de colheita",
         f"""<div class="g2" style="margin-top:12px">
   {painel("Hectares por trabalhador na colheita da palma", "Estudo citado pelo MPOB (Malásia)",
@@ -163,7 +164,7 @@ def slides(novo, fontes, barras, lista) -> dict[str, list[dict]]:
         fontes(("M377", "p. 11-12"), ("M1234", "p. 1"), ("M1268", "p. 14"), ("M245", "p. 2")))
 
     perenes_descritivo = novo(
-        "Sistemas autônomos · 4/4", "Sistemas autônomos · perene por perene",
+        "Sistemas autônomos · 4/8", "Sistemas autônomos · perene por perene",
         "Perene por perene: o que já existe e o que falta",
         f"""<div class="col3">
   {painel("Palma", "", lista([

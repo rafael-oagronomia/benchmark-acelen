@@ -47,3 +47,6 @@ _triagem-pesquisa/_catalogo/*
 
 # Exportações para o Canva (PNG e PPTX de imagens): derivadas do PDF, geradas de novo quando preciso
 07_entregaveis/relatorios-parciais/canva/
+
+# Cache do Python (gerado ao rodar os geradores)
+__pycache__/

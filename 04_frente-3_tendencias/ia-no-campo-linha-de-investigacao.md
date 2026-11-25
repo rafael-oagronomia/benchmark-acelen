@@ -138,6 +138,21 @@ Mesmo caminho das pesquisas dirigidas anteriores (seção 9 do descritivo da met
 7. **Conferência linha a linha** por programa: IDs, páginas e números. Depois, o registro das fontes citadas e os pipelines do sistema.
 8. **Report Final:** os slides de resultado dos itens 3.3 e 3.4 entram no gerador quando a nota estiver aprovada.
 
+## 8. Acréscimo de 23/11/2026: robótica de colheita em palmeiras
+
+- **Pedido do Guilherme (23/11/2026),** para a apresentação final: incluir nas tendências a robótica para a cultura da macaúba. A hipótese dele, a checar: a colheita é um dos pontos desafiadores, porque depende de mão de obra e ainda assim deve trazer riscos sérios de segurança do trabalho. Ele trouxe como exemplo um robô que sobe no açaizeiro e corta o cacho (Kaatech).
+- **Hipóteses a testar** (não a afirmar):
+
+| # | Hipótese | O que confirmaria ou derrubaria |
+|---|---|---|
+| H10 | A colheita da macaúba depende de mão de obra | Descrições de como se colhe, ferramentas, rendimento por pessoa; plantios com colheita mecanizada |
+| H11 | A colheita traz riscos sérios de segurança do trabalho | Riscos descritos (espinhos, altura, queda de cachos); dados de acidentes na macaúba ou em palmeiras análogas (açaí, palma, coco) |
+| H12 | Robôs que sobem na palmeira e cortam o cacho são um caminho para a colheita | Estágio dos robôs (pesquisa, protótipo, produto), resultado medido e por quem; o que trava; se há algo para a macaúba |
+
+- **Como foi feito:** dois pesquisadores (A: colheita e segurança do trabalho; B: robôs de colheita em palmeiras) gravam `_dossies/_bruto_robotica_{A,B}.json`; um verificador confere cada afirmação na fonte; as fontes novas entram nas rodadas 14 (robôs, M1383 a M1405) e 15 (colheita e segurança, M1406 a M1423) do catálogo. As fontes ficam como página web, sem cópia guardada, até a equipe decidir quais salvar.
+- **Resultado da verificação (23/11/2026):** dossiê A, 40 afirmações, 21 confirmadas, 19 corrigidas e 1 trecho retirado (acidentes em plantações de palma da Indonésia, só em reportagem); dossiê B, 42 afirmações, 21 confirmadas e 21 corrigidas. O extrato de contrato do Diário Oficial do Amapá foi lido pela equipe direto na edição. Dossiê do tema em `_triagem-pesquisa/_dossies/robotica-colheita-palmeiras.json` (82 evidências de 43 fontes). Vereditos na seção 11 da nota: H10 confirma; H11 e H12 matizam.
+- **Regras:** as do item 6 deste protocolo. A nota não avalia nem recomenda robô ou fornecedor: descreve o que existe, o estágio e o que foi medido. Documentos do cliente e do seu grupo não entram.
+
 ## Fontes
 <!-- fontes:inicio -->
 - **M021** — McKinsey & Company (Agriculture Practice) (2026). Global Farmer Insights 2026. [link](https://www.mckinsey.com/industries/agriculture/our-insights/global-farmer-insights)

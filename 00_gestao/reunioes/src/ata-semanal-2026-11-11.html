@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Ata da reunião semanal de 11/11/2026 — Benchmarking de uso de IA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --brand-green: #52C937; --brand-green-bright: #6FE34F; --brand-green-deep: #2F8B1F;
+    --bg-0: #050805; --bg-1: #0B100B; --bg-2: #131A13; --bg-3: #1C241B;
+    --line: #2A3328; --line-strong: #3A4537;
+    --fg-1: #F2F4EE; --fg-2: #B8BFB1; --fg-3: #7C8678; --fg-4: #4D5749;
+    --warning: #E8B33B; --info: #4FB7C9;
+    --font-display: 'Chakra Petch', 'Bahnschrift', system-ui, sans-serif;
+    --font-body: 'Manrope', 'Segoe UI', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  }
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg-0); color: var(--fg-1); font-family: var(--font-body); font-size: 11.5px; line-height: 1.5;
+    -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page { width: 210mm; height: 297mm; position: relative; overflow: hidden; padding: 12mm 14mm 18mm; background: var(--bg-0);
+    page-break-after: always; break-after: page; }
+  .page:last-child { page-break-after: auto; break-after: auto; }
+  .eyebrow { font: 500 10.5px var(--font-display); text-transform: uppercase; letter-spacing: 0.18em; color: var(--brand-green); }
+  .label { font: 500 9.5px var(--font-display); text-transform: uppercase; letter-spacing: 0.08em; color: var(--fg-3); }
+  h1 { font: italic 700 28px/1.05 var(--font-display); letter-spacing: -0.01em; margin: 6px 0 0; }
+  h2 { font: italic 600 17px/1.2 var(--font-display); margin: 0 0 7px; }
+  p { margin: 0; }
+  .mono { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+  .head { display: flex; justify-content: space-between; align-items: flex-end; padding-bottom: 10px; border-bottom: 1px solid var(--line); margin-bottom: 12px; }
+  .head img { height: 26px; display: block; mix-blend-mode: lighten; }
+  .legend { display: grid; grid-template-columns: auto auto; column-gap: 12px; row-gap: 2px; font-size: 10px; text-align: right; }
+  .legend .label { text-align: right; }
+  .foot { position: absolute; left: 14mm; right: 14mm; bottom: 7mm; display: flex; justify-content: space-between; padding-top: 6px;
+    border-top: 1px solid var(--line); font: 500 8.5px var(--font-display); letter-spacing: 0.08em; text-transform: uppercase; color: var(--fg-3); }
+  .foot .mono { letter-spacing: 0; font-size: 9.5px; }
+  section.bloco { margin-top: 14px; }
+
+  .meta { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+  .metric { background: var(--bg-2); border: 1px solid var(--line); border-radius: 6px; padding: 8px 11px; }
+  .metric__lbl { font: 500 9px var(--font-display); letter-spacing: 0.12em; text-transform: uppercase; color: var(--fg-3); }
+  .metric__val { font: 500 15px/1.15 var(--font-mono); font-variant-numeric: tabular-nums; color: var(--fg-1); margin-top: 4px; }
+  .metric__val .u { font-size: 10.5px; color: var(--fg-3); margin-left: 3px; }
+
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .card { background: var(--bg-2); border: 1px solid var(--line); border-radius: 8px; padding: 9px 12px; }
+  .card h3 { font: 600 12.5px var(--font-display); margin: 0 0 3px; }
+  .card p, .card li { color: var(--fg-2); font-size: 11px; }
+  ul.lista { margin: 0; padding: 0; list-style: none; }
+  ul.lista li { position: relative; padding-left: 15px; color: var(--fg-2); margin-top: 3px; }
+  ul.lista li::before { content: ""; position: absolute; left: 2px; top: 8px; width: 6px; height: 1.5px; background: var(--brand-green); }
+  ul.lista li b { color: var(--fg-1); font-weight: 600; }
+
+  ol.dec { margin: 0; padding: 0; list-style: none; counter-reset: d; }
+  ol.dec > li { counter-increment: d; display: grid; grid-template-columns: 30px 1fr; gap: 6px; padding: 7px 0; border-bottom: 1px solid var(--line); }
+  ol.dec > li:last-child { border-bottom: none; }
+  ol.dec > li::before { content: counter(d, decimal-leading-zero); font: 500 13px var(--font-mono); color: var(--brand-green); }
+  ol.dec .t { font-weight: 700; color: var(--fg-1); }
+  ol.dec .d { color: var(--fg-2); }
+  ol.dec ul.lista li { font-size: 11px; }
+
+  table.pend { width: 100%; border-collapse: collapse; font-size: 10.5px; }
+  table.pend th { font: 500 9px var(--font-display); letter-spacing: 0.08em; text-transform: uppercase; color: var(--fg-3); text-align: left;
+    padding: 6px 7px; border-bottom: 1px solid var(--line-strong); background: var(--bg-2); }
+  table.pend td { padding: 6px 7px; border-bottom: 1px solid var(--line); vertical-align: top; color: var(--fg-2); }
+  table.pend td.n { font: 500 11px var(--font-mono); color: var(--brand-green); width: 26px; }
+  table.pend td.p { color: var(--fg-1); }
+  .tag { display: inline-block; padding: 1px 7px; border-radius: 999px; font: 600 8.5px var(--font-display); letter-spacing: 0.06em; text-transform: uppercase; white-space: nowrap; }
+  .tag.oag { background: rgba(82,201,55,0.12); color: var(--brand-green-bright); }
+  .tag.acl { background: rgba(79,183,201,0.12); color: var(--info); }
+  .tag.amb { background: rgba(232,179,59,0.12); color: var(--warning); }
+  .st { display: inline-flex; align-items: center; gap: 5px; font: 600 9px var(--font-display); letter-spacing: 0.06em; text-transform: uppercase; white-space: nowrap; }
+  .st .dot { width: 6px; height: 6px; border-radius: 50%; }
+  .st.ok { color: var(--brand-green-bright); } .st.ok .dot { background: var(--brand-green); }
+  .st.and { color: var(--info); } .st.and .dot { background: var(--info); }
+  .st.ab { color: var(--warning); } .st.ab .dot { background: var(--warning); }
+  .nota { font-size: 10px; color: var(--fg-3); margin-top: 6px; }
+  h3.sub { font: 600 12px var(--font-display); color: var(--fg-1); margin: 10px 0 5px; }
+  ol.dec .d { display: block; margin-top: 2px; }
+  table.pend .det { display: block; font-size: 9.8px; color: var(--fg-3); line-height: 1.35; margin-top: 2px; }
+  .cit { display: block; margin-top: 4px; padding-left: 10px; border-left: 2px solid var(--brand-green); font-style: italic; color: var(--fg-1); }
+  .fases { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; margin: 5px 0 2px; }
+  .fase { background: var(--bg-2); border: 1px solid var(--line); border-radius: 6px; padding: 6px 9px; font-size: 10.5px; color: var(--fg-2); line-height: 1.35; }
+  .fase .n { display: block; font: 500 9px var(--font-display); letter-spacing: 0.12em; text-transform: uppercase; color: var(--brand-green); margin-bottom: 1px; }
+  .fase b { color: var(--fg-1); font-weight: 600; }
+  table.pend.compacta td { padding: 4px 7px; }
+  table.pend.compacta th { padding: 5px 7px; }
+</style>
+</head>
+<body>
+
+<!-- Página 1 -->
+<section class="page">
+  <div class="head">
+    <div>
+      <img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA">
+      <div class="eyebrow" style="margin-top:12px">Benchmarking de uso de IA · Ata de reunião</div>
+      <h1>Reunião semanal de 11/11</h1>
+    </div>
+    <div class="legend">
+      <span class="label">Contratante</span><span>Acelen Energia Renovável</span>
+      <span class="label">Documento</span><span>Ata da reunião semanal de 11/11/2026</span>
+      <span class="label">Nº / Revisão</span><span class="mono">BIA-ACL-AT-05 · Rev. 00</span>
+      <span class="label">Emissão</span><span class="mono">12/11/2026</span>
+    </div>
+  </div>
+
+  <div class="meta">
+    <div class="metric"><div class="metric__lbl">Data</div><div class="metric__val">11/11/2026</div></div>
+    <div class="metric"><div class="metric__lbl">Duração</div><div class="metric__val">50<span class="u">min</span></div></div>
+    <div class="metric"><div class="metric__lbl">Formato</div><div class="metric__val">Teams</div></div>
+    <div class="metric"><div class="metric__lbl">Novas pendências</div><div class="metric__val">4</div></div>
+  </div>
+
+  <section class="bloco">
+    <h2>Participantes</h2>
+    <div class="two">
+      <div class="card">
+        <h3>Acelen Renováveis</h3>
+        <p>Bruno Ruocco Lizarelli e Francisco Nicotero Pestana.</p>
+      </div>
+      <div class="card">
+        <h3>OagronomIA</h3>
+        <p>Guilherme Sanches e Rafael Salinas Rotiroti.</p>
+      </div>
+    </div>
+    <p class="nota">Participantes identificados na transcrição. A reunião foi remarcada; a semanal prevista para 06/11 não aconteceu. Guilherme apresentou o roteiro de adoção de IA, resposta ao pedido de 30/10 (pendência 22), e o Rafael acrescentou a experiência com champions e comitê de IA em grandes empresas. No fim, a Acelen propôs o formato e a data da apresentação final.</p>
+  </section>
+
+  <section class="bloco">
+    <h2>Decisões e encaminhamentos</h2>
+    <ol class="dec" style="counter-reset: d 0">
+      <li><div><span class="t">O que a Acelen espera do benchmark (Bruno)</span>
+        <ul class="lista">
+          <li><b>Não é um diagnóstico interno da Acelen:</b> o objetivo é entender o mercado, e esse ponto já está claro para todos.</li>
+          <li><b>A lógica de caso:</b> uma empresa tem um problema, toma uma iniciativa e chega a um resultado, positivo ou negativo. O resultado traz uma consequência e uma lição. Os casos das empresas estudadas e das sessões dão a referência mais próxima; com os de outros setores, o benchmark se consolida.</li>
+          <li><b>Pré-requisitos:</b> cada inovação pede condições anteriores. No exemplo do drone que mapeia problemas fitossanitários, quem decide é o agrônomo responsável. Para isso, ele precisa de uma base de dados e, no mínimo, do georreferenciamento da área.</li>
+          <li><b>Avaliação do material:</b> a parte de governança, iniciativas internas e segurança da informação está "bastante robusta". Faltava o fechamento com o framework de maturidade e o passo a passo entre os níveis.</li>
+          <li><b>Uma fala das sessões:</b> Guilherme lembrou que um executivo entrevistado disse o mesmo. Antes do robô, é preciso garantir que ele ande perfeitamente na linha de plantio, com o georreferenciamento de tudo perfeito.
+            <span class="cit">"O que eu já tenho e o que falta para atingir o próximo nível? É exatamente isso." (Bruno)</span></li>
+        </ul></div></li>
+      <li><div><span class="t">Site do estudo, assistente e relatório final</span>
+        <ul class="lista">
+          <li>Bruno consultou o material na pasta compartilhada e ainda não tinha acesso ao site.</li>
+          <li>Guilherme testou o assistente ao vivo. Perguntado sobre a fala do executivo, ele recuperou o trecho da sessão anonimizada: a base geográfica vem antes da máquina autônoma.</li>
+          <li><b>Relatório final:</b> a equipe trabalha num Report Final mais enxuto, dirigido às principais perguntas e aos casos que interessam à Acelen. O site segue com todo o material: assistente, acervo e roteiro.</li>
+          <li><b>Acesso:</b> Guilherme cadastra Bruno e Francisco e manda por e-mail uma senha temporária, que eles trocam no primeiro acesso (pendência 24).</li>
+        </ul></div></li>
+    </ol>
+  </section>
+
+  <div class="foot"><span>Acelen Energia Renovável · Ata da reunião semanal de 11/11/2026 · BIA-ACL-AT-05 · Rev. 00</span><span class="mono">01 / 06</span></div>
+</section>
+
+<!-- Página 2 -->
+<section class="page">
+  <div class="head">
+    <div>
+      <img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA">
+      <div class="eyebrow" style="margin-top:12px">Roteiro de adoção de IA</div>
+    </div>
+    <div class="legend">
+      <span class="label">Nº / Revisão</span><span class="mono">BIA-ACL-AT-05 · Rev. 00</span>
+    </div>
+  </div>
+
+  <section class="bloco" style="margin-top:4px">
+    <h2>Decisões e encaminhamentos (continuação)</h2>
+    <ol class="dec" style="counter-reset: d 2">
+      <li><div><span class="t">Roteiro de adoção de IA: trajetória e checkpoints (resposta à pendência 22)</span>
+        <span class="d">Guilherme apresentou a página Roteiro do site. A trajetória tem seis fases, e cada uma traz casos públicos, com datas:</span>
+        <div class="fases">
+          <div class="fase"><span class="n">Fase 1</span><b>Alicerce de dados e de campo</b></div>
+          <div class="fase"><span class="n">Fase 2</span><b>Estrutura dedicada</b></div>
+          <div class="fase"><span class="n">Fase 3</span><b>IA preditiva em dores medidas</b></div>
+          <div class="fase"><span class="n">Fase 4</span><b>IA generativa:</b> da proibição ao assistente para todos</div>
+          <div class="fase"><span class="n">Fase 5</span><b>Governança e democratização</b></div>
+          <div class="fase"><span class="n">Fase 6</span><b>Agentes com cautela</b></div>
+        </div>
+        <ul class="lista">
+          <li><b>Os alicerces vêm antes:</b> o Itaú investe em nuvem desde 2017 e tinha 65% dos aplicativos na nuvem em dez/2024. A São Martinho trabalha a conectividade no campo desde 2015. Quem hoje colhe retorno com IA generativa começou pela base de dados anos antes. A estrutura dedicada é, por exemplo, um centro de operações que concentra os dados. A IA preditiva já gerava valor entre 2019 e 2023, antes da generativa.</li>
+          <li><b>IA generativa:</b> o comportamento comum foi proibir quando o uso cresceu sem preparo. Proibir não resolveu, porque as pessoas continuaram usando por fora (shadow AI). Muitas empresas, inclusive algumas do agro, estão agora no momento de liberar um assistente para todos. A fase seguinte pede política clara: o que pode, o que não pode e como pedir uma ferramenta que não está disponível.</li>
+          <li><b>Agentes:</b> Guilherme não conhece empresa do agro à frente no uso de agentes. Eles vêm depois das fases anteriores, porque é preciso saber quem responde pelo que o agente faz.</li>
+          <li><b>Checkpoints</b> nas quatro dimensões (estratégia e governança; dados e infraestrutura; organização e pessoas; aplicações e valor), na régua de 1 a 5: exploração, piloto, operação, escala e transformação. A maioria das empresas do painel está em piloto.</li>
+          <li><b>Autoavaliação:</b> quem marca os checkpoints vê o estágio de cada dimensão e os próximos passos.</li>
+          <li><b>Retorno da Acelen:</b> Bruno disse que era a régua e o passo a passo que tinha pedido. Destacou os casos de mercado sob cada fase (Samsung, Petrobras, Suzano, Moderna, São Martinho, Vale): dão base de referência e evidência, não "achismo", e mais força para levar o tema dentro de casa.
+            <span class="cit">"Você trouxe de forma estruturada. É o que eu esperava. [...] Na verdade, está melhor do que eu esperava." (Bruno)</span></li>
+        </ul></div></li>
+    </ol>
+  </section>
+
+  <div class="foot"><span>Acelen Energia Renovável · Ata da reunião semanal de 11/11/2026 · BIA-ACL-AT-05 · Rev. 00</span><span class="mono">02 / 06</span></div>
+</section>
+
+<!-- Página 3 -->
+<section class="page">
+  <div class="head">
+    <div>
+      <img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA">
+      <div class="eyebrow" style="margin-top:12px">Pessoas, fluxos e política de uso</div>
+    </div>
+    <div class="legend">
+      <span class="label">Nº / Revisão</span><span class="mono">BIA-ACL-AT-05 · Rev. 00</span>
+    </div>
+  </div>
+
+  <section class="bloco" style="margin-top:4px">
+    <h2>Decisões e encaminhamentos (continuação)</h2>
+    <ol class="dec" style="counter-reset: d 3">
+      <li><div><span class="t">Quem faz o quê: patrocínio, champions e comitê</span>
+        <ul class="lista">
+          <li><b>Papéis:</b> patrocínio executivo e conselho, líder de IA dedicado, comitê de IA, centro de excelência, TI e dono técnico, RH e educação, jurídico, privacidade, segurança e risco, champions nas áreas e usuário.</li>
+          <li><b>Patrocínio executivo</b> (Guilherme, da experiência com treinamentos): a mudança começa quando a alta liderança entende o tema e passa a patrocinar. Antes disso, o patrocinador costuma condicionar tudo ao retorno. Num caso que a OagronomIA acompanhou, numa empresa de bioenergia, o treinamento começou pelos gerentes, que convenceram os diretores a fazer o próprio. Os diretores decidiram então treinar toda a gerência, e de um treinamento passou-se a cerca de sete, com patrocínio em todas as áreas.</li>
+          <li><b>Champions e comitê</b> (Rafael): nas grandes empresas, além do patrocinador, é preciso engajar as equipes. Os champions das áreas são capacitados e reconhecidos com certificações e selos, como referência da área e ponte entre o patrocinador e as equipes. O comitê de IA reúne patrocinador e champions a cada quinze dias ou a cada mês, para disseminar conhecimento. O efeito é exponencial, sempre com privacidade e governança.
+            <span class="cit">"Num dia a sala tá com 5 pessoas, daqui 15 dias vai ter 20." (Rafael)</span></li>
+          <li><b>Champions no acesso a ferramentas</b> (Guilherme): o champion recebe capacitação e cumpre pré-requisitos para ser o primeiro a usar ferramentas de custo mais alto ou fora do ambiente corporativo, e depois espalha o uso. Liberar para todos de uma vez pode estourar o orçamento, como no caso da Uber. Champions e comitês também apareceram nas sessões.</li>
+        </ul></div></li>
+      <li><div><span class="t">Fluxos e política de uso</span>
+        <ul class="lista">
+          <li><b>Da ideia à produção:</b> entrada, triagem (valor, dados, risco, custo e se a IA é mesmo necessária), piloto com métricas claras, decisão de escalar ou não, e produção. Os champions costumam ir até o piloto; a escala costuma ficar com a TI.</li>
+          <li><b>Ferramenta nova:</b> pedido, avaliação, perfil de quem vai usar, letramento antes da licença, liberação e revisão.</li>
+          <li><b>Política de uso:</b> a página lista os itens que uma política precisa ter, a partir do que o mercado traz. Guilherme ressalvou que não é especialista no tema.</li>
+        </ul></div></li>
+    </ol>
+  </section>
+
+  <div class="foot"><span>Acelen Energia Renovável · Ata da reunião semanal de 11/11/2026 · BIA-ACL-AT-05 · Rev. 00</span><span class="mono">03 / 06</span></div>
+</section>
+
+<!-- Página 4 -->
+<section class="page">
+  <div class="head">
+    <div>
+      <img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA">
+      <div class="eyebrow" style="margin-top:12px">Retorno, sessões executivas e Frente 3</div>
+    </div>
+    <div class="legend">
+      <span class="label">Nº / Revisão</span><span class="mono">BIA-ACL-AT-05 · Rev. 00</span>
+    </div>
+  </div>
+
+  <section class="bloco" style="margin-top:4px">
+    <h2>Decisões e encaminhamentos (continuação)</h2>
+    <ol class="dec" style="counter-reset: d 5">
+      <li><div><span class="t">Como medir o retorno</span>
+        <ul class="lista">
+          <li><b>Métricas:</b> Guilherme trouxe as de um workshop da Microsoft de que participou na semana anterior, cruzadas com o acervo: uso ativo (não só licença), tempo poupado, ponto de equilíbrio, custo contra valor, letramento e casos de valor.</li>
+          <li><b>Calculadora de tempo:</b> no exemplo, uma tarefa que cai de 6 para 2 horas por execução soma cerca de 384 horas por ano, perto de 22% de uma pessoa em tempo integral. Medir o retorno da IA generativa é, em boa parte, medir horas de pessoas, e essa conta é difícil e um pouco subjetiva.</li>
+          <li><b>Retorno e quadro de pessoal</b> (Bruno): lida ao pé da letra, a conta faria o RH pensar em corte de pessoal, mas na prática não é o que acontece. O ganho vira mais produção, antecipação e qualidade de análise. As empresas continuam contratando, porque o mercado também produz mais e é preciso acompanhá-lo. Atividades só operacionais, sem decisão humana, podem ser substituídas.</li>
+          <li><b>Guilherme concordou:</b> a mesma pessoa dá conta de mais trabalho conforme a empresa cresce, e, com o mercado todo indo nessa direção, não dá para ficar para trás.</li>
+        </ul></div></li>
+      <li><div><span class="t">Sessões executivas, no agregado</span>
+        <span class="d">Guilherme retomou o que as quatro sessões mostram sobre o roteiro:</span>
+        <ul class="lista">
+          <li>a IA generativa chegou antes da regra; numa empresa, o uso só cresceu quando o assistente integrado ao pacote de escritório foi liberado para todos;</li>
+          <li>duas usam vias homologadas, com licença especial por perfil ou por solicitação aprovada, e uma registra todo acesso a IA no ambiente interno;</li>
+          <li>facilitadores por área (champions) estão previstos ou começando, e o letramento vem antes da ferramenta;</li>
+          <li>nenhuma mede o retorno de forma consolidada: os ganhos citados são de tempo e qualidade, medidos caso a caso. Na leitura do Guilherme, em 2026 as empresas se prepararam e começaram a medir, e 2027 deve mostrar o retorno;</li>
+          <li>as quatro estão entre os estágios 2 e 3 da régua.</li>
+        </ul></div></li>
+      <li><div><span class="t">Frente 3 e consolidação</span>
+        <span class="d">Falta fechar a Frente 3, de tendências: o que deve mudar no agro e nos setores próximos nos próximos anos. Guilherme quer incluir robótica. Depois vem a consolidação do estudo (pendência 30).</span></div></li>
+    </ol>
+  </section>
+
+  <div class="foot"><span>Acelen Energia Renovável · Ata da reunião semanal de 11/11/2026 · BIA-ACL-AT-05 · Rev. 00</span><span class="mono">04 / 06</span></div>
+</section>
+
+<!-- Página 5 -->
+<section class="page">
+  <div class="head">
+    <div>
+      <img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA">
+      <div class="eyebrow" style="margin-top:12px">Apresentação final, próximos passos e contexto</div>
+    </div>
+    <div class="legend">
+      <span class="label">Nº / Revisão</span><span class="mono">BIA-ACL-AT-05 · Rev. 00</span>
+    </div>
+  </div>
+
+  <section class="bloco" style="margin-top:4px">
+    <h2>Decisões e encaminhamentos (continuação)</h2>
+    <ol class="dec" style="counter-reset: d 8">
+      <li><div><span class="t">Apresentação final</span>
+        <ul class="lista">
+          <li><b>Formato</b> (proposta do Bruno): na primeira ou segunda semana de dezembro, no máximo. Reunião presencial de 1 hora no escritório da Acelen, em formato executivo: alguns slides e um relatório executivo, sem passar em profundidade por todos os temas.</li>
+          <li><b>Público:</b> cerca de oito gerentes do agroindustrial, do agrícola e da indústria; uns dois gerentes executivos e um ou dois diretores. Bruno vai avaliar convidar um representante de RH da Acelen Renováveis, por causa das trilhas de desenvolvimento interno e do papel das pessoas no roteiro.</li>
+          <li><b>Por que é uma sessão própria:</b> o team building passou para janeiro ou fevereiro do próximo ano.</li>
+          <li><b>Datas:</b> Bruno prefere o começo da semana: 30/11, 01/12, 07/12 ou 08/12. Guilherme pode em 30/11 e em 07/12; tem agenda em 03 e 04/12, e 08/12 é feriado na cidade dele. Presencial, só há sala em 07 ou 08/12, então a data provável é 07/12. A Acelen confirma data, sala e participantes (pendência 26).</li>
+          <li><b>Reunião de alinhamento antes da final:</b> Bruno propôs uma sessão com ele, Francisco e Arcalá, da Acelen, e Guilherme e Rafael, em formato executivo, para chegar à apresentação final com tudo alinhado. Guilherme concordou (pendência 31).</li>
+        </ul></div></li>
+      <li><div><span class="t">Próximos passos</span>
+        <ul class="lista">
+          <li>Não haverá reunião na sexta, 13/11.</li>
+          <li>Próxima semanal: quarta-feira, 18/11, às 15h; Bruno envia o convite. Em 19/11 Guilherme está em treinamento, e 20/11 é feriado.</li>
+          <li>Depois da semanal de 18/11, as partes marcam a reunião de alinhamento.</li>
+          <li>Bruno sobe a transcrição desta reunião na pasta.</li>
+        </ul></div></li>
+    </ol>
+  </section>
+
+  <section class="bloco">
+    <h2>Contexto trazido pela Acelen</h2>
+    <ul class="lista">
+      <li><b>Comitê de tecnologia</b> (Bruno): toda tecnologia que a Acelen pretende adquirir passa por um comitê interno, liderado pela TI. O comitê avalia se faz sentido, onde implementar e os ganhos (redução de custo ou aumento de receita). A padronização ainda está em construção, mas já existe.</li>
+      <li><b>Trilhas de desenvolvimento</b> (Bruno): a Acelen tem trilhas internas, daí o interesse em levar o RH à apresentação final.</li>
+      <li><b>Team building:</b> passou para janeiro ou fevereiro do próximo ano.</li>
+      <li><b>IA e produtividade</b> (Bruno): o ganho não significa desligamento. Quem analisa e decide ganha desempenho, e a empresa continua contratando para acompanhar o mercado.</li>
+    </ul>
+  </section>
+
+  <section class="bloco">
+    <h2>Próxima reunião</h2>
+    <div class="card">
+      <p><b style="color:var(--fg-1)">Semanal — quarta-feira, 18/11/2026, às 15h.</b> Não haverá reunião na sexta, 13/11. Pauta: retorno da Acelen sobre o site e o roteiro; andamento da Frente 3 e do relatório final; data da apresentação final e da reunião de alinhamento.</p>
+    </div>
+  </section>
+
+  <div class="foot"><span>Acelen Energia Renovável · Ata da reunião semanal de 11/11/2026 · BIA-ACL-AT-05 · Rev. 00</span><span class="mono">05 / 06</span></div>
+</section>
+
+<!-- Página 6 -->
+<section class="page">
+  <div class="head">
+    <div>
+      <img src="../../../docs/design-system/assets/logo-oagronomia-wordmark.png" alt="OagronomIA">
+      <div class="eyebrow" style="margin-top:12px">Pendências</div>
+    </div>
+    <div class="legend">
+      <span class="label">Nº / Revisão</span><span class="mono">BIA-ACL-AT-05 · Rev. 00</span>
+    </div>
+  </div>
+
+  <section class="bloco" style="margin-top:4px">
+    <h2>Pendências</h2>
+    <h3 class="sub">Pendências anteriores — situação em 11/11</h3>
+    <table class="pend compacta">
+      <thead><tr><th>#</th><th>Pendência</th><th style="width:112px">Responsável</th><th style="width:236px">Situação em 11/11</th></tr></thead>
+      <tbody>
+        <tr><td class="n">08</td><td class="p">Subir as gravações e transcrições das reuniões no SharePoint</td><td><span class="tag acl">Acelen</span></td><td><span class="st and"><span class="dot"></span>Contínuo</span><span class="det">Bruno sobe a transcrição desta reunião</span></td></tr>
+        <tr><td class="n">09</td><td class="p">Confirmar a data do team building e do Workshop Executivo</td><td><span class="tag acl">Acelen</span> Bruna e Bruno</td><td><span class="st ok"><span class="dot"></span>Concluída</span><span class="det">Team building em jan. ou fev. do próximo ano; apresentação final na 26</span></td></tr>
+        <tr><td class="n">11</td><td class="p">Cadastro de fornecedor na plataforma interna da Acelen</td><td><span class="tag amb">Ambos</span></td><td><span class="st and"><span class="dot"></span>Não tratada</span></td></tr>
+        <tr><td class="n">15</td><td class="p">Resumo escrito do avanço para os materiais internos da Acelen</td><td><span class="tag oag">OagronomIA</span></td><td><span class="st and"><span class="dot"></span>Em andamento</span><span class="det">Acesso ao site (24) e Report Final mais enxuto</span></td></tr>
+        <tr><td class="n">16</td><td class="p">Subir no SharePoint a prévia de 16/10, com a metodologia e o cronograma</td><td><span class="tag oag">OagronomIA</span></td><td><span class="st and"><span class="dot"></span>Não tratada</span></td></tr>
+        <tr><td class="n">18</td><td class="p">Setores que saem na frente, com comparativo de maturidade, começando pelos bancos</td><td><span class="tag oag">OagronomIA</span></td><td><span class="st and"><span class="dot"></span>Em andamento</span><span class="det">Casos de outros setores no roteiro (22)</span></td></tr>
+        <tr><td class="n">19</td><td class="p">Parcela do faturamento em P&amp;D e cruzamento do investimento com o retorno</td><td><span class="tag oag">OagronomIA</span></td><td><span class="st and"><span class="dot"></span>Não tratada</span></td></tr>
+        <tr><td class="n">20</td><td class="p">Explicação simples de IA generativa × preditiva</td><td><span class="tag oag">OagronomIA</span></td><td><span class="st and"><span class="dot"></span>Não tratada</span></td></tr>
+        <tr><td class="n">22</td><td class="p">Roadmap de adoção de IA: trajetória, checkpoints, quem faz o quê, fluxo e política de uso</td><td><span class="tag oag">OagronomIA</span> Guilherme e Rafael</td><td><span class="st ok"><span class="dot"></span>Concluída</span><span class="det">Roteiro apresentado e aprovado por Bruno</span></td></tr>
+        <tr><td class="n">23</td><td class="p">Panorama da aplicação de IA no campo, com culturas perenes</td><td><span class="tag oag">OagronomIA</span></td><td><span class="st and"><span class="dot"></span>Em andamento</span><span class="det">Frente 3 (30)</span></td></tr>
+        <tr><td class="n">24</td><td class="p">Liberar à Acelen o acesso ao site do estudo (login e senha)</td><td><span class="tag oag">OagronomIA</span></td><td><span class="st and"><span class="dot"></span>Em andamento</span><span class="det">Cadastro de Bruno e Francisco, com senha temporária por e-mail</span></td></tr>
+        <tr><td class="n">25</td><td class="p">Confirmar a data e os participantes da reunião intermediária</td><td><span class="tag acl">Acelen</span> Bruno</td><td><span class="st ab"><span class="dot"></span>Alterada</span><span class="det">Feito nesta reunião; com Arcalá, na 31</span></td></tr>
+        <tr><td class="n">26</td><td class="p">Marcar a apresentação final com as lideranças</td><td><span class="tag amb">Ambos</span></td><td><span class="st and"><span class="dot"></span>Em andamento</span><span class="det">Presencial, 1 h, 07 ou 08/12; a Acelen confirma data, sala e público (e o RH)</span></td></tr>
+        <tr><td class="n">27</td><td class="p">Trazer a visão de dentro do setor financeiro sobre o uso de IA</td><td><span class="tag oag">OagronomIA</span> Rafael</td><td><span class="st and"><span class="dot"></span>Em parte</span><span class="det">Experiência de grandes empresas com champions e comitê de IA</span></td></tr>
+        <tr><td class="n">28</td><td class="p">Registrar na Frente 3 a IA na edição genética e no melhoramento</td><td><span class="tag oag">OagronomIA</span></td><td><span class="st and"><span class="dot"></span>Não tratada</span></td></tr>
+      </tbody>
+    </table>
+
+    <h3 class="sub">Novas pendências</h3>
+    <table class="pend compacta">
+      <thead><tr><th>#</th><th>Pendência</th><th style="width:112px">Responsável</th><th style="width:150px">Prazo</th></tr></thead>
+      <tbody>
+        <tr><td class="n">29</td><td class="p">Preparar a apresentação final em formato executivo, para 1 hora: alguns slides e um relatório executivo</td><td><span class="tag oag">OagronomIA</span></td><td>Antes da reunião de alinhamento</td></tr>
+        <tr><td class="n">30</td><td class="p">Concluir a Frente 3 (tendências), com robótica, e consolidar o estudo</td><td><span class="tag oag">OagronomIA</span></td><td>Antes da reunião de alinhamento</td></tr>
+        <tr><td class="n">31</td><td class="p">Marcar a reunião de alinhamento antes da apresentação final, com Bruno, Francisco e Arcalá (Acelen), Guilherme e Rafael</td><td><span class="tag amb">Ambos</span> Bruno</td><td>Depois da semanal de 18/11</td></tr>
+        <tr><td class="n">32</td><td class="p">Explorar o site do estudo (assistente, acervo e roteiro, com a autoavaliação) e trazer as dúvidas</td><td><span class="tag acl">Acelen</span> Bruno e Francisco</td><td>Semanal de 18/11</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <div class="foot"><span>Acelen Energia Renovável · Ata da reunião semanal de 11/11/2026 · BIA-ACL-AT-05 · Rev. 00</span><span class="mono">06 / 06</span></div>
+</section>
+
+</body>
+</html>

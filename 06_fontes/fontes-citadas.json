@@ -17807,6 +17807,7 @@
    "p. 15",
    "p. 2-3",
    "p. 3",
+   "p. 6",
    "p. 7",
    "p. 7-8",
    "p. 7-8, 15",
@@ -17995,7 +17996,14 @@
    "04_frente-3_tendencias/ia-no-campo.md"
   ],
   "paginas_citadas": [
-   "p. 2, 6, 9, 11-12"
+   "p. 11",
+   "p. 2, 6, 9, 11-12",
+   "p. 3",
+   "p. 3, 5, 9",
+   "p. 5",
+   "p. 5, 12",
+   "p. 8",
+   "p. 9"
   ]
  },
  {
@@ -20396,6 +20404,909 @@
   "resumo": "Página do publicador Forest Data Partnership no catálogo do Earth Engine, que lista os conjuntos de probabilidade de cultivos perenes e de persistência florestal e avisa que ainda não passaram por revisão por pares.",
   "citado_em": [
    "04_frente-3_tendencias/satelites-e-modelos-de-fundacao.md"
+  ],
+  "paginas_citadas": [
+   "web"
+  ]
+ },
+ {
+  "id": "M1382",
+  "titulo": "Mais uso de IA. Menos custo. (publicação no LinkedIn, com o gráfico \"Boca de jacaré\")",
+  "organizacao": "iFood (Diego Barreto, sócio e CEO, em publicação pessoal no LinkedIn)",
+  "ano": "2026 (23/11/2026)",
+  "tipo_fonte": "empresa",
+  "url": "https://www.linkedin.com/posts/diegobarreto_mais-uso-de-ia-menos-custo-no-ifood-activity-7530572638897958912-lI6B",
+  "frentes": [
+   "F3",
+   "F1"
+  ],
+  "metricas": [
+   "Uso de IA 30 vezes maior desde janeiro, segundo o CEO; a base e a métrica do uso não são informadas (web)",
+   "Consumo de tokens 106% maior desde junho, com a conta 51% menor no mesmo período, segundo o CEO; valores em moeda não informados (web)",
+   "Custo por token 86% menor desde janeiro, segundo o CEO (web)",
+   "8 em cada 10 tokens rodam em modelos open source, segundo o CEO (web)",
+   "Uso por pessoa 7 vezes maior desde janeiro, segundo o gráfico da publicação (web)"
+  ],
+  "resumo": "Publicação do CEO do iFood no LinkedIn, de 23/11/2026, com um gráfico de duas linhas em índice (tokens e custo) chamado \"boca de jacaré\". Relata que a empresa pôs IA agêntica nas mãos de todos os colaboradores, viu o uso e a conta crescerem juntos e, sem limitar o acesso, passou a servir modelos open source como padrão numa plataforma própria de IA generativa, deixando os modelos premium para as tarefas que os justificam, com orçamento definido. Todos os números são declarados pela empresa, sem verificação de terceiros, e o gráfico não informa a base dos índices.",
+  "citado_em": [
+   "04_frente-3_tendencias/custo-da-ia.md"
+  ],
+  "paginas_citadas": [
+   "web"
+  ]
+ },
+ {
+  "id": "M1383",
+  "titulo": "Amaran: An Unmanned Robotic Coconut Tree Climber and Harvester",
+  "organizacao": "Megalingam, R. K. et al. (Amrita Vishwa Vidyapeetham, Índia) — IEEE/ASME Transactions on Mechatronics, DOI 10.1109/TMECH.2020.3014293",
+  "ano": "2020 (publicação on-line); v. 26, p. 288-299, 2021",
+  "tipo_fonte": "academia",
+  "url": "https://www.amrita.edu/publication/amaran-an-unmanned-robotic-coconut-tree-climber-and-harvester/",
+  "frentes": [
+   "F3"
+  ],
+  "metricas": [
+   "Segundo o resumo, o Amaran subiu coqueiros de até 15,2 m de altura (web, resumo)",
+   "Circunferência do tronco de 0,66 m a 0,92 m e inclinação de até 30 graus (web, resumo)"
+  ],
+  "resumo": "Registro, no site da universidade, do artigo revisado por pares sobre o Amaran, com o resumo. O robô tem armação em anel presa ao tronco, braço robótico e cortador, e é comandado sem fio por operador no solo ou por aplicativo. O resumo fala em testes de laboratório e de campo numa fazenda de coco e não traz tempos de colheita. O texto integral está no IEEE Xplore, com acesso pago, e não foi lido.",
+  "citado_em": [
+   "04_frente-3_tendencias/ia-no-campo.md"
+  ],
+  "paginas_citadas": [
+   "web"
+  ]
+ },
+ {
+  "id": "M1384",
+  "titulo": "Technical and economic assessment of two harvesting tools for young Elaeis oleifera x E. guineensis oil palms",
+  "organizacao": "Ruiz Álvarez, E. e outros cinco autores (Cenipalma e Palmeiras Colombia S.A.) — Agronomía Colombiana, v. 38, n. 3, p. 418-428, DOI 10.15446/agron.colomb.v38n3.85303",
+  "ano": "2020 (01/09/2020)",
+  "tipo_fonte": "academia",
+  "url": "https://revistas.unal.edu.co/index.php/agrocol/article/view/85303",
+  "frentes": [
+   "F3"
+  ],
+  "metricas": [
+   "Um trabalhador com o palín malaio colheu em média 320 palmas por jornada; com o cortador mecanizado, 546 (web, resumo)",
+   "Cachos cortados por jornada: 291 com o palín e 551 com o cortador mecanizado (web, resumo)",
+   "O custo por tonelada de cacho colhida caiu 15% com o cortador mecanizado (web, resumo)",
+   "A colheita representa 25% do custo total de produção (web, resumo)"
+  ],
+  "resumo": "Estudo de tempos e movimentos do Cenipalma, revisado por pares, que compara o palín malaio com um cortador mecanizado na colheita de palmas jovens do híbrido OxG. Mede palmas e cachos por jornada e o custo por tonelada. Trata de haste motorizada operada do chão em palma baixa, não de robô.",
+  "citado_em": [
+   "04_frente-3_tendencias/ia-no-campo.md"
+  ],
+  "paginas_citadas": [
+   "web"
+  ]
+ },
+ {
+  "id": "M1385",
+  "titulo": "Autonomous Harvesting Robot for Oil Palm Plantation: A Review",
+  "organizacao": "Teoh, K. H.; Lai, N. S. (Asia Pacific University of Technology and Innovation) — Journal of Oil Palm Research (MPOB), v. 36, n. 3, p. 349-366, DOI 10.21894/jopr.2024.0008",
+  "ano": "2024 (setembro de 2024; on-line em 23/01/2024)",
+  "tipo_fonte": "academia",
+  "url": "https://jopr.mpob.gov.my/files/2023/04/JOPR-Vol-363-September-2024-dragged-1.pdf",
+  "frentes": [
+   "F3"
+  ],
+  "metricas": [
+   "O cortador motorizado Cantas alcança de 4,5 a 6,0 m (Zahid e Firdaus, 2018), corta 37% mais rápido que a foice com vara e elevou a produtividade de 4,19 para 11,60 t de cachos por dia (Sowat et al., 2018) (p. 2 do PDF; p. 350 da revista)",
+   "Máquina com lança e mecanismo de corte sobre veículo de esteiras de 31,5 hp colheu de 4 a 6 t de cachos por dia (p. 2 do PDF; p. 350)",
+   "Veículos pesados, de 10 a 30 t, compactam o solo (p. 2 do PDF; p. 350)",
+   "A palma mais velha chega a 20 m de altura (p. 2 do PDF; p. 350)",
+   "Corte a laser de 50 W levou em média 342 s para cortar uma folha, em laboratório (p. 7 do PDF; p. 355)",
+   "A indústria perdeu, por estimativa, cerca de RM 10,46 bilhões em fruto não colhido de janeiro a maio de 2022 (p. 1 do PDF; p. 349)"
+  ],
+  "resumo": "Revisão por pares, publicada na revista do MPOB, das seis tecnologias necessárias a um robô autônomo de colheita de cachos de palma: detecção de maturação, corte, subida no estipe, trajetória do manipulador, localização e navegação. Compara protótipos de escaladores. Afirma que um mecanismo de subida confiável ainda não foi plenamente desenvolvido e lista, entre os desafios, a inexistência de módulo que detecte e colha de forma autônoma. Páginas citadas pelo PDF de 18 páginas.",
+  "citado_em": [
+   "04_frente-3_tendencias/ia-no-campo.md"
+  ],
+  "paginas_citadas": [
+   "p. 16",
+   "p. 2",
+   "p. 3",
+   "p. 3, 8"
+  ]
+ },
+ {
+  "id": "M1386",
+  "titulo": "Disposição construtiva em dispositivo vibratório colhedor de frutos de macaúba e similares (modelo de utilidade BR 20 2017 010814-2)",
+  "organizacao": "Universidade Federal de Viçosa e Fapemig (titulares); Fábio Lúcio Santos e Christina Maria de Freitas Grupioni (inventores) — registro do INPI lido no Google Patents",
+  "ano": "2023 (depósito em 23/05/2017; concessão em 07/03/2023)",
+  "tipo_fonte": "academia",
+  "url": "https://patents.google.com/patent/BR202017010814Y1/pt",
+  "frentes": [
+   "F3"
+  ],
+  "metricas": [
+   "Capacidade média de colheita de 434,09 kg/h, 12 vezes a colheita manual de referência adotada pelos inventores (cerca de 37,5 kg/h, de diretrizes do MDA de 2014) (web, descrição)",
+   "Eficiência média de colheita de 94,1% (mediana de 96,64%), com melhor resultado de 98% (web, descrição)",
+   "Injúrias leves em 15,27% e danos graves em 10,61% dos frutos colhidos (web, descrição)",
+   "Faixa de operação de 23 a 24 Hz ou 37,5 a 39 Hz, com amplitude de 21 a 22 mm (web, resumo)",
+   "Quatro a oito varetas vibratórias de fibra de vidro (web, reivindicações)"
+  ],
+  "resumo": "Registro do modelo de utilidade do colhedor vibratório portátil de macaúba da UFV, concedido em 2023 com validade de 15 anos a partir de 23/05/2017. O texto traz os resultados dos ensaios dos inventores, inclusive o dano aos frutos. Em 2026 o registro mostra extinção por falta de pagamento da 9ª anuidade (24/03/2026) e restauração após o pagamento (09/06/2026); o quadro do Google Patents ainda indica situação não ativa, o que convém conferir no INPI.",
+  "citado_em": [
+   "04_frente-3_tendencias/ia-no-campo.md"
+  ],
+  "paginas_citadas": [
+   "web"
+  ]
+ },
+ {
+  "id": "M1387",
+  "titulo": "Modal properties of fruit-rachilla system of the macaw palm",
+  "organizacao": "Villar, F. M. M.; Pinto, F. A. C.; Santos, F. L.; Queiroz, D. M.; Pereira, M. R.; Valente, D. S. M. (UFV e UFLA) — PLoS ONE 16(1): e0237291",
+  "ano": "2021 (25/01/2021)",
+  "tipo_fonte": "academia",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7833149/",
+  "frentes": [
+   "F3"
+  ],
+  "metricas": [
+   "Frequência fundamental média medida de 29,37 Hz e simulada de 31,13 Hz, com erro relativo médio de 9,08% (web)"
+  ],
+  "resumo": "Artigo revisado por pares da UFV e da UFLA que mede e simula as frequências naturais do sistema fruto-ráquila da macaúba em quatro acessos, com frutos verdes, para apoiar o projeto de máquinas de colheita por vibração. Na introdução, afirma que não há máquinas específicas para a colheita e que os frutos são deixados cair no chão.",
+  "citado_em": [
+   "04_frente-3_tendencias/ia-no-campo.md"
+  ],
+  "paginas_citadas": [
+   "web"
+  ]
+ },
+ {
+  "id": "M1388",
+  "titulo": "Design and experiment of coconut picking robot with climbing",
+  "organizacao": "Zheng, H.; Fu, Y.; Wang, Z.; Yin, X.; Xia, Y.; Fu, W. (Universidade de Hainan) — Smart Agricultural Technology, v. 9, artigo 100617",
+  "ano": "2024 (dezembro de 2024)",
+  "tipo_fonte": "academia",
+  "url": "https://doi.org/10.1016/j.atech.2024.100617",
+  "frentes": [
+   "F3"
+  ],
+  "metricas": [
+   "Segundo o resumo, o robô subiu coqueiros de até 13,42 m (web, resumo)",
+   "Tempo médio de subida em 10 coqueiros: 152,3 s; tempo médio de colheita: 222,1 s (web, resumo)"
+  ],
+  "resumo": "Artigo revisado por pares, de acesso aberto, sobre um robô que sobe no coqueiro e colhe com um manipulador de 3 graus de liberdade, comandado por controle remoto. Só o resumo foi lido: na pesquisa, pelo registro do DOAJ (doaj.org/article/e3c87f918c8247299359e2ebd52193a8); na verificação, pelo registro do OpenAlex para o mesmo DOI, porque a ScienceDirect e o DOAJ bloquearam a leitura automática. Peso do robô e taxa de sucesso não foram obtidos.",
+  "citado_em": [
+   "04_frente-3_tendencias/ia-no-campo.md"
+  ],
+  "paginas_citadas": [
+   "web"
+  ]
+ },
+ {
+  "id": "M1389",
+  "titulo": "Design, Development, and Performance Evaluation of a Mechatronic V-Shaped Climbing Robot for Date Palm Trees",
+  "organizacao": "Karampour Saadatabadi, J.; Shamsi, M.; Mortezapour, H.; Rezvani, Z. — Acta Mechanica et Automatica, v. 20, n. 3, p. 627-638, DOI 10.65731/ama/2026-0061",
+  "ano": "2026 (05/09/2026)",
+  "tipo_fonte": "academia",
+  "url": "https://reference-global.com/article/10.65731/ama/2026-0061",
+  "frentes": [
+   "F3"
+  ],
+  "metricas": [
+   "Velocidade máxima de subida de 0,131 m/s (web, resumo)",
+   "Eficiência de tração máxima de 78,1%, com força de mola de 584 N e roda de 0,19 m (web, resumo)",
+   "Aumentar a força de mola de 425 N para 743 N reduziu o escorregamento em 12,4% e elevou a velocidade em 18,7% (web, resumo)"
+  ],
+  "resumo": "Artigo revisado por pares sobre um mecanismo de subida em tamareira com chassi dobrável em V e rodas côncavas emborrachadas, avaliado em delineamento fatorial com três forças de mola, dois diâmetros de roda e três cargas. Só trata da subida, sem colheita. Os autores apontam validação de campo em várias árvores e controle eletrônico integrado como trabalho futuro.",
+  "citado_em": [
+   "04_frente-3_tendencias/ia-no-campo.md"
+  ],
+  "paginas_citadas": [
+   "web"
+  ]
+ },
+ {
+  "id": "M1390",
+  "titulo": "Elasticity modulus and damping ratio of macaw palm rachillas",
+  "organizacao": "Villar, F. M. M.; Pinto, F. A. C.; Santos, F. L.; Grossi, J. A. S.; Velloso, N. S. (UFV e UFLA) — Ciência Rural, v. 47, n. 2, DOI 10.1590/0103-8478cr20160289",
+  "ano": "2017 (on-line em 08/12/2016)",
+  "tipo_fonte": "academia",
+  "url": "https://www.scielo.br/j/cr/a/Gkm5KcYb39tFvbPWCQWdfjk/?lang=en",
+  "frentes": [
+   "F3"
+  ],
+  "metricas": [
+   "Razão de amortecimento média de 0,04 a 0,08 (web)",
+   "Módulo de elasticidade das ráquilas de 194 a 293,3 MPa, conforme a errata do artigo (web)"
+  ],
+  "resumo": "Artigo revisado por pares que mede o módulo de elasticidade e o amortecimento das ráquilas da macaúba em quatro acessos, com frutos verdes. Descreve como a macaúba é colhida (foice e rede, ou fruto apanhado no chão) e afirma que não há máquinas no mercado para a colheita. Há errata que corrige o módulo de elasticidade.",
+  "citado_em": [
+   "04_frente-3_tendencias/ia-no-campo.md"
+  ],
+  "paginas_citadas": [
+   "web"
+  ]
+ },
+ {
+  "id": "M1391",
+  "titulo": "Conheça os vencedores do 9º Prêmio de Inovação da Indústria (9ª edição do Prêmio Nacional de Inovação)",
+  "organizacao": "Confederação Nacional da Indústria (CNI) e Sebrae — Agência de Notícias da Indústria",
+  "ano": "2026 (26/03/2026)",
+  "tipo_fonte": "associação setorial",
+  "url": "https://noticias.portaldaindustria.com.br/noticias/inovacao-e-tecnologia/conheca-os-vencedores-do-9o-premio-de-inovacao-da-industria/",
+  "frentes": [
+   "F3"
+  ],
+  "metricas": [
+   "A Kaatech (PA) venceu a categoria 'IA para produtividade' entre médias empresas, em 26/03/2026 (web)",
+   "O texto da CNI descreve o AçaíBot como robô que usa visão computacional e aprendizado de máquina para identificar a maturação dos frutos, otimizar rotas e executar cortes automatizados, e diz que ele eleva a produtividade 'em até 180%', sem informar a origem do número (web)",
+   "O prêmio teve 20 vencedores nesta edição (web)"
+  ],
+  "resumo": "Notícia oficial da CNI com a lista dos vencedores do Prêmio Nacional de Inovação, promovido por CNI e Sebrae pela Mobilização Empresarial pela Inovação. Confirma a premiação da Kaatech e descreve o AçaíBot com visão computacional e aprendizado de máquina, o que a página de produto da empresa não menciona. O texto não informa a origem do número de produtividade nem o método. Segundo a própria notícia, a premiação avalia a capacidade de inovação das empresas, não projetos isolados.",
+  "citado_em": [
+   "04_frente-3_tendencias/ia-no-campo.md"
+  ],
+  "paginas_citadas": [
+   "web"
+  ]
+ },
+ {
+  "id": "M1392",
+  "titulo": "Plano de Trabalho do TED nº 30879420250039-004652 (MDA–Embrapa): encomenda tecnológica de máquina colheitadeira elétrica de açaí",
+  "organizacao": "Ministério do Desenvolvimento Agrário e Agricultura Familiar (MDA) e Embrapa Recursos Genéticos e Biotecnologia",
+  "ano": "2026 (assinaturas eletrônicas em 01 e 03/07/2026; TED numerado em 2025)",
+  "tipo_fonte": "governo/instituição",
+  "url": "https://www.gov.br/mda/pt-br/acesso-a-informacao/convenios-termos-de-cooperacao-e-termos-de-execucao-descentralizada/termos-de-execucao-descentralizada/2025/ted-no-30879420250039-004652-celebrado-entre-o-mda-e-a-embrapa/pt-1.pdf",
+  "frentes": [
+   "F3"
+  ],
+  "metricas": [
+   "Protótipo funcional em nível 5 da escala TRL, demonstrado em açaizais de Portel/PA em 2024 (p. 2)",
+   "Plano: três ciclos de cocriação, 24 encontros, três testes de campo e 10 unidades replicadas para uso em campo, de setembro de 2025 a maio de 2027 (p. 2-3 e 6-7)",
+   "Recursos de R$ 373.815,20 da Secretaria de Agricultura Familiar e Agroecologia, com prazo de 18 meses (p. 2); o plano é datado de junho de 2026 e foi assinado em 01 e 03/07/2026 (p. 7-8)",
+   "Agroextrativistas escalam de 20 a 40 vezes por dia nos açaizais nativos e, segundo empresários locais, até 100 vezes nos plantados (p. 4)",
+   "Altura média das palmeiras adotada no cálculo do plano: 20 m (p. 4)"
+  ],
+  "resumo": "Plano de trabalho oficial (8 páginas) de um termo de execução descentralizada do MDA com a Embrapa para levar um coletor elétrico de açaí, cocriado com comunidades pelo Instituto Invento, do protótipo ao produto replicável. Descreve o teste de junho de 2024 em Portel, o que o protótipo ainda não faz e por que robôs, elevadores e ganchos são considerados inviáveis pelos extrativistas.",
+  "citado_em": [
+   "04_frente-3_tendencias/ia-no-campo.md"
+  ],
+  "paginas_citadas": [
+   "p. 2-3, 5",
+   "p. 4-5"
+  ]
+ },
+ {
+  "id": "M1394",
+  "titulo": "A robot in the forest",
+  "organizacao": "ANBA — Agência de Notícias Brasil-Árabe (reportagem de Isaura Daniel; viagem a convite da CNA)",
+  "ano": "2025 (06/11/2025)",
+  "tipo_fonte": "imprensa",
+  "url": "https://anba.com.br/en/a-robot-in-the-forest/",
+  "frentes": [
+   "F3"
+  ],
+  "metricas": [
+   "O equipamento pesa cerca de 8 kg (web)",
+   "Segundo o fundador da empresa, a colheita manual rende de 80 a 100 kg de açaí por dia por pessoa e, com o robô, até 1 tonelada (web)",
+   "Preço no site da Kaa Tech em outubro de 2025: R$ 19.569,20, com entrega em até 60 dias (web)",
+   "A pesquisa da empresa começou 'há cerca de seis anos' (web)"
+  ],
+  "resumo": "Reportagem da ANBA em Belém sobre a Açaí Kaa e a Kaa Tech, com o fundador Reinaldo Pinto dos Santos, o diretor executivo e um consultor de engenharia mecânica. Registra peso, preço, prazo de entrega e a comparação de rendimento, esta na voz do fundador. A jornalista viajou a convite da CNA; os números são da empresa. O texto não diz como o robô é operado.",
+  "citado_em": [
+   "04_frente-3_tendencias/ia-no-campo.md"
+  ],
+  "paginas_citadas": [
+   "web"
+  ]
+ },
+ {
+  "id": "M1395",
+  "titulo": "Estudos Preliminares sobre Colheita e Armazenamento de Frutos de Macaúba (Boletim de Pesquisa e Desenvolvimento 355)",
+  "organizacao": "Embrapa Cerrados (Rinaldi, M. M.; Conceição, L. D. H. C. S.; Braga, M. F.; Junqueira, N. T. V.; Cardoso, A. N.; Sá, S. F.)",
+  "ano": "2020 (março de 2020)",
+  "tipo_fonte": "governo/instituição",
+  "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1124806/1/Bolpd-355.pdf",
+  "frentes": [
+   "F3"
+  ],
+  "metricas": [
+   "Perda de 39,2% da matéria seca da polpa após 30 dias de armazenamento, com perda de 37,2% na quantidade de óleo (p. 6 do PDF; p. 5 impressa)",
+   "Produtividade potencial citada de 4 a 6 t de óleo por hectare por ano (p. 8 do PDF; p. 7 impressa)",
+   "Plantio experimental de dezembro de 2008, em espaçamento de 5 m × 5 m; colheita de cachos iniciada em 13/10/2016 (p. 9 do PDF; p. 8 impressa)",
+   "No sistema extrativista, a maior parte dos frutos de macaúba é coletada no solo, depois da queda natural (PDF p. 8; página impressa 7)",
+   "A queda natural dos frutos ocorre de setembro a dezembro; a maior oferta de frutos maduros vai de outubro a dezembro (PDF p. 8; impressa 7)",
+   "Cachos inteiros colhidos em 13/10/2016 e frutos guardados por 30 dias ou mais perderam 39,2% da massa seca da polpa e 37,2% do óleo (PDF p. 6 e 9; impressas 5 e 8)",
+   "Frutos colhidos só depois da queda natural, aparados em tela e recolhidos toda semana por 78 dias, não diferiram dos colhidos com o cacho inteiro (PDF p. 6 e 10; impressas 5 e 9)"
+  ],
+  "resumo": "Boletim de pesquisa da Embrapa Cerrados que compara a colheita do cacho inteiro, aos primeiros sinais de queda dos frutos, com a coleta dos frutos após a queda natural, em plantio experimental em Planaltina/DF. Os frutos da queda natural foram aparados por tela que envolvia o cacho, sem tocar o solo. Registra que no extrativismo a maior parte dos frutos é apanhada no chão. Não trata de máquinas de colheita.",
+  "citado_em": [
+   "04_frente-3_tendencias/ia-no-campo.md"
+  ],
+  "paginas_citadas": [
+   "p. 10, 19",
+   "p. 8"
+  ]
+ },
+ {
+  "id": "M1397",
+  "titulo": "Amapá abre edital para doar 44 robôs que colhem açaí; saiba quem pode participar",
+  "organizacao": "Portal Amazônia / Rede Amazônica AP (Josi Paixão)",
+  "ano": "2026 (28/05/2026)",
+  "tipo_fonte": "imprensa",
+  "url": "https://portalamazonia.com/amapa/robos-acai-doados-amapa/",
+  "frentes": [
+   "F3"
+  ],
+  "metricas": [
+   "Segundo a reportagem (28/05/2026), o Governo do Amapá abriu edital para doar 44 robôs Açaí-Bot a entidades sem fins lucrativos da cadeia do açaí, com inscrição até 05/06/2026 e resultado previsto para 26/06/2026 (web)",
+   "O kit inclui coletor mecanizado, controle remoto sem fio, carregador bivolt, sistema de energia fotovoltaico, bolsa impermeável e manual (web)"
+  ],
+  "resumo": "Reportagem sobre o edital da Secretaria de Desenvolvimento Rural do Amapá, parte do programa Amapá Mais Produtivo e fruto de convênio com o MIDR. Descreve o robô como registrado no INPI, capaz de se locomover pelo tronco e controlado remotamente por operador no solo. Não informa a data de abertura do edital nem valores. O PDF do Diário Oficial citado na matéria não pôde ser lido (acesso bloqueado).",
+  "citado_em": [
+   "04_frente-3_tendencias/ia-no-campo.md"
+  ],
+  "paginas_citadas": [
+   "web"
+  ]
+ },
+ {
+  "id": "M1398",
+  "titulo": "Projetos inovadores impulsionam o agronegócio e fortalecem a sustentabilidade em Roraima (Climbot, da Agranus)",
+  "organizacao": "Portal Amazônia — especial publicitário (marcação 'Governo de Roraima')",
+  "ano": "2026 (21/01/2026)",
+  "tipo_fonte": "imprensa",
+  "url": "https://portalamazonia.com/especial-publicitario/projetos-inova-agro-rr/",
+  "frentes": [
+   "F3"
+  ],
+  "metricas": [
+   "O Climbot está em testes de campo, acompanhado por empresas que validam o desempenho; não há número publicado (web)",
+   "A ideia surgiu em 2019 e a patente foi submetida, sem número informado (web)"
+  ],
+  "resumo": "Conteúdo pago publicado no Portal Amazônia sobre projetos de inovação de Roraima. Descreve o Climbot, da startup Agranus, como escalador que sobe no açaizeiro, corta o cacho e volta ao solo, em evolução para usar visão computacional e IA. Não traz dados de desempenho, preço nem os nomes das empresas que acompanham os testes.",
+  "citado_em": [
+   "04_frente-3_tendencias/ia-no-campo.md"
+  ],
+  "paginas_citadas": [
+   "web"
+  ]
+ },
+ {
+  "id": "M1399",
+  "titulo": "Diário Oficial do Estado do Amapá nº 8.652, de 08/05/2026 — Extrato de Contrato nº 002/2026-SDR (aquisição de 44 AçaíBot)",
+  "organizacao": "Governo do Estado do Amapá — Secretaria de Estado do Desenvolvimento Rural (SDR)",
+  "ano": "2026 (08/05/2026)",
+  "tipo_fonte": "governo/instituição",
+  "url": "https://diofe.portal.ap.gov.br/portal/edicoes/download/9936",
+  "frentes": [
+   "F3"
+  ],
+  "metricas": [
+   "Contrato nº 002/2026-SDR: aquisição de 44 máquinas automáticas de colheita mecanizada de açaí (AçaíBot), por R$ 1.010.000,00 no total (p. 1 do arquivo; p. 36 da edição)",
+   "Contratação direta por inexigibilidade de licitação (art. 74, inciso I, da Lei de Licitações), com recursos oriundos do Tesouro Nacional; vigência de 12 meses a contar de 26/03/2026 (p. 1 do arquivo; p. 36 da edição)",
+   "Cada conjunto: robô coletor, controle remoto, carregador bivolt, sistema de carregamento solar autônomo, bolsa impermeável e manual do operador (p. 1 do arquivo; p. 36 da edição)",
+   "A mesma edição torna sem efeito a publicação anterior do extrato, de 15/01/2026 (Diário Oficial nº 8.576, p. 464) (p. 1 do arquivo; p. 36 da edição)"
+  ],
+  "resumo": "Edição do Diário Oficial do Amapá de 08/05/2026. Na página 36, o extrato do Contrato nº 002/2026-SDR, entre o governo do estado, pela Secretaria de Estado do Desenvolvimento Rural, e a fabricante do AçaíBot: 44 máquinas de colheita de açaí, R$ 1.010.000,00, contratação direta por inexigibilidade de licitação, recursos do Tesouro Nacional e vigência de 12 meses a contar de 26/03/2026. Na mesma página, portaria designa o fiscal do contrato e outra torna sem efeito a publicação do extrato de 15/01/2026. O extrato não traz resultado de uso, critério de escolha dos beneficiários nem ensaio do equipamento. A cópia guardada é só a página 36 da edição, de 136 páginas.",
+  "citado_em": [
+   "04_frente-3_tendencias/ia-no-campo.md"
+  ],
+  "paginas_citadas": [
+   "p. 1"
+  ]
+ },
+ {
+  "id": "M1400",
+  "titulo": "AçaíBot — página do produto na loja on-line da Kaatech",
+  "organizacao": "Kaatech (Kaa Tech Importadora e Comércio Ltda., Belém/PA)",
+  "ano": "2026 (página lida em 23/11/2026; sem data de publicação)",
+  "tipo_fonte": "empresa",
+  "url": "https://kaatech.com.br/produto/produto-kaa-tech",
+  "frentes": [
+   "F3"
+  ],
+  "metricas": [
+   "Segundo a empresa, o AçaíBot pesa 8,5 kg e mede 75 × 45 × 35 cm (web)",
+   "Preço na loja da empresa em 23/11/2026: R$ 22.907,41, com 90 dias de garantia e 7 dias para troca ou devolução (web)",
+   "A empresa declara '10 vezes mais produtividade' que a colheita tradicional, sem apresentar ensaio (web)",
+   "Kit: AçaíBot, controle remoto, carregador bivolt, bolsa impermeável e manual do operador (web)"
+  ],
+  "resumo": "Página de venda do AçaíBot no site da fabricante. Descreve um equipamento controlado remotamente que sobe na palmeira e, com serra e coletor, traz o cacho ao operador; traz peso, dimensões, kit, garantia e preço. Tudo é declaração da empresa; a página não cita câmera, IA, altura alcançada, autonomia da bateria nem ensaio.",
+  "citado_em": [
+   "04_frente-3_tendencias/ia-no-campo.md"
+  ],
+  "paginas_citadas": [
+   "web"
+  ]
+ },
+ {
+  "id": "M1401",
+  "titulo": "AçaíBot faz sucesso na Amazônia e agora chega à Mata Atlântica paulista",
+  "organizacao": "Kaatech (notícia no site da empresa)",
+  "ano": "2025 (11/11/2025)",
+  "tipo_fonte": "empresa",
+  "url": "https://kaatech.com.br/noticias/acaibot-faz-sucesso-na-amazonia-e-agora-chega-a-mata-atlantica-paulista",
+  "frentes": [
+   "F3"
+  ],
+  "metricas": [
+   "Segundo a empresa, o robô pesa 8 kg, tem autonomia de quatro horas e colhe em menos de um minuto por árvore (web)",
+   "Memorando de entendimento com a AMAMA, assinado em Belém durante a COP30, prevê piloto com a palmeira juçara no Alto Tietê, com sede em Biritiba-Mirim/SP (web)",
+   "A empresa cita estudos, sem identificá-los, de aumento de até 500% na renda por hectare frente à extração de palmito (web)"
+  ],
+  "resumo": "Notícia da Kaatech sobre a extensão do AçaíBot à juçara (Euterpe edulis) na Mata Atlântica paulista, por meio de memorando com a associação AMAMA. Traz peso, autonomia e tempo por árvore declarados pela empresa. O piloto é anunciado no futuro ('será implantado'); não há resultado medido.",
+  "citado_em": [
+   "04_frente-3_tendencias/ia-no-campo.md"
+  ],
+  "paginas_citadas": [
+   "web"
+  ]
+ },
+ {
+  "id": "M1402",
+  "titulo": "Em dia histórico, Kayapó assinam primeiro financiamento de um AçaíBot via Pronaf B",
+  "organizacao": "Kaatech (notícia no site da empresa)",
+  "ano": "2025 (18/11/2025)",
+  "tipo_fonte": "empresa",
+  "url": "https://kaatech.com.br/noticias/em-dia-historico-kayapo-assinam-primeiro-financiamento-de-um-acaibot-via-pronaf-b",
+  "frentes": [
+   "F3"
+  ],
+  "metricas": [
+   "Segundo a empresa, o primeiro financiamento de um AçaíBot pelo Pronaf B foi assinado em Belém em 18/11/2025, pela Caixa Econômica Federal (web)",
+   "O equipamento foi avaliado em R$ 19 mil e sai por cerca de R$ 12 mil com o desconto de 40% para quem paga as parcelas em dia (web)",
+   "Lideranças Kayapó afirmam que as encomendas nas aldeias 'ultrapassam 100 unidades' (web)",
+   "A empresa repete a declaração de colheita de 'até 1 tonelada de açaí por dia' (web)"
+  ],
+  "resumo": "Notícia publicada pela própria Kaatech sobre a assinatura do primeiro financiamento do robô pelo Pronaf B, com fala do ministro do Desenvolvimento Agrário. Informa valores, o desconto por adimplência e encomendas declaradas. É fonte da empresa; não há documento do banco nem do ministério anexado.",
+  "citado_em": [
+   "04_frente-3_tendencias/ia-no-campo.md"
+  ],
+  "paginas_citadas": [
+   "web"
+  ]
+ },
+ {
+  "id": "M1403",
+  "titulo": "Amaran the Tree-Climbing Robot Can Safely Harvest Coconuts",
+  "organizacao": "IEEE Spectrum (Michelle Hampson)",
+  "ano": "2020 (01/09/2020)",
+  "tipo_fonte": "imprensa",
+  "url": "https://spectrum.ieee.org/automaton/robotics/industrial-robots/amaran-tree-climbing-robot-can-safely-harvest-coconuts",
+  "frentes": [
+   "F3"
+  ],
+  "metricas": [
+   "Segundo a reportagem, no teste de campo dos pesquisadores o colhedor humano levou em média 11,8 minutos por coqueiro e o Amaran, 21,9 minutos, dos quais 14 de montagem na base (web)",
+   "Segundo a reportagem, o colhedor do teste conseguia subir cerca de 15 coqueiros por dia antes de se cansar; o robô pode colher até 22, se o operador não se cansar (web)",
+   "Os coqueiros do teste tinham de 6,2 a 15,2 m de altura (web)",
+   "Segundo o autor principal do artigo, o estado de Kerala tem só 7.000 escaladores treinados, para uma necessidade de cerca de 50.000 (web)"
+  ],
+  "resumo": "Reportagem da revista do IEEE que resume o artigo do Amaran publicado no IEEE/ASME Transactions on Mechatronics e entrevista o autor principal. Traz a comparação de tempo com um colhedor de 50 anos e a fala de que o custo é barreira. É a única fonte lida para os números de tempo: eles não estão no resumo do artigo, e o texto integral é pago. A reportagem não diz onde foi o teste nem em quantos coqueiros.",
+  "citado_em": [
+   "04_frente-3_tendencias/ia-no-campo.md"
+  ],
+  "paginas_citadas": [
+   "web"
+  ]
+ },
+ {
+  "id": "M1404",
+  "titulo": "KAUST developing robotic system to improve date palm harvesting",
+  "organizacao": "King Abdullah University of Science and Technology (KAUST)",
+  "ano": "2025 (09/03/2025)",
+  "tipo_fonte": "governo/instituição",
+  "url": "https://kaust.edu.sa/en/news/kaust-developing-robotic-system-to-improve-date-palm-harvesting",
+  "frentes": [
+   "F3"
+  ],
+  "metricas": [
+   "Testes de campo previstos para a safra de 2025 e capacidade operacional plena esperada em três anos (web)",
+   "Acordo de SAR 100 milhões do National Center for Palms and Dates com a KAUST para inovação no setor, no fim de 2024 (web)"
+  ],
+  "resumo": "Comunicado da universidade sobre o sistema robótico para tamareiras liderado pelo professor Shinkyu Park, com braços robóticos e visão com IA para colheita, polinização e manutenção. Anuncia cronograma e a ideia de robôs como serviço. É anúncio: não há resultado medido.",
+  "citado_em": [
+   "04_frente-3_tendencias/ia-no-campo.md"
+  ],
+  "paginas_citadas": [
+   "web"
+  ]
+ },
+ {
+  "id": "M1406",
+  "titulo": "Caracterização de coletores e da utilização dos frutos de macaúba em comunidades do Estado de Minas Gerais (anais do 1º Congresso Brasileiro de Macaúba, Patos de Minas, MG)",
+  "organizacao": "Embrapa Cerrados (Lôbo, C. F.; Sousa, T. C. R.; Aguiar, J. L. P.; Conceição, L. D. H. C. S.; Junqueira, N. T. V.); anais publicados pelo MAPA",
+  "ano": "2013",
+  "tipo_fonte": "governo/instituição",
+  "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1025994/1/4201159.pdf",
+  "frentes": [
+   "F3"
+  ],
+  "metricas": [
+   "13 coletores entrevistados entre dezembro de 2011 e março de 2012 em Abaeté, Carmo do Paranaíba, Jaboticatubas e Jequitibá (PDF p. 1)",
+   "53,8% dos coletores eram mulheres e 46,2% homens; a coleta é feita nos intervalos do serviço doméstico (PDF p. 1)",
+   "9 dos 13 coletores (69%) tinham 56 anos ou mais (38,5% de 56 a 67; 23,1% de 68 a 79; 7,7% de 80 a 91); 76,92% eram aposentados (PDF p. 2, 3 e 4)",
+   "Saco de 20 kg de fruto in natura vendido na propriedade por R$ 4,31 em média (PDF p. 2 e 4)",
+   "Safra de setembro a abril; toda a produção dos municípios estudados vem do extrativismo (PDF p. 2)"
+  ],
+  "resumo": "Trabalho de congresso da Embrapa Cerrados, de 4 páginas, com entrevistas semiestruturadas (29 perguntas) a 13 coletores de macaúba em quatro municípios mineiros. Dá o perfil de quem coleta e os preços recebidos. A amostra é pequena e o texto não descreve ferramentas nem riscos.",
+  "citado_em": [
+   "04_frente-3_tendencias/ia-no-campo.md"
+  ],
+  "paginas_citadas": [
+   "web"
+  ]
+ },
+ {
+  "id": "M1407",
+  "titulo": "Health of Coconut Tree Climbers of Rural Southern India – Medical Emergencies, Body Mass Index and Occupational Marks: A Quantitative and Survey Study (Journal of Clinical and Diagnostic Research, v. 6, n. 1, p. 57-60)",
+  "organizacao": "George, B. M.; Rao, M. S.; Kumar, A.; Suvarna, N.; D'Souza, J. S.",
+  "ano": "2012 (02/2012)",
+  "tipo_fonte": "academia",
+  "url": "https://www.jcdr.net/articles/PDF/1829/13%20-%203430.(A).pdf",
+  "frentes": [
+   "F3"
+  ],
+  "metricas": [
+   "240 escaladores entrevistados entre janeiro de 2006 e dezembro de 2008 (PDF p. 2; impressa 58)",
+   "35,5% (78 de 220) já caíram do coqueiro durante o trabalho (PDF p. 2; impressa 58)",
+   "Quedas com lesão por tempo de experiência: 15% (menos de 10 anos), 26,6% (11 a 20), 44% (21 a 30) e 41,3% (mais de 30 anos) (PDF p. 1-2)",
+   "Quatro escaladores morreram por queda e dois ficaram paraplégicos na área do estudo, segundo os jornais locais; sem período nem denominador (PDF p. 2 e 3; impressas 58 e 59)",
+   "7,9% (19 de 240) abandonaram a profissão; 94,7% deles (18 de 19) por acidentes no trabalho (PDF p. 3; impressa 59)",
+   "Cada escalador trabalha cerca de 4 horas por dia e sobe de 25 a 30 coqueiros (PDF p. 2; impressa 58)"
+  ],
+  "resumo": "Estudo de levantamento revisado por pares com escaladores profissionais de coqueiro no sul da Índia. Mede o histórico de quedas, as lesões, o índice de massa corporal e o abandono da profissão. Os dados são de 2006 a 2008, e as mortes vêm de jornais locais.",
+  "citado_em": [
+   "04_frente-3_tendencias/ia-no-campo.md"
+  ],
+  "paginas_citadas": [
+   "web"
+  ]
+ },
+ {
+  "id": "M1408",
+  "titulo": "Occupational Health and Safety in the Palm Oil Industry: A Systematic Review (International Journal of Occupational and Environmental Medicine, v. 10, n. 4, p. 159-173)",
+  "organizacao": "Myzabella, N.; Fritschi, L.; Merdith, N.; El-Zaemey, S.; Chih, H.; Reid, A.",
+  "ano": "2019",
+  "tipo_fonte": "academia",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6820316/",
+  "frentes": [
+   "F3"
+  ],
+  "metricas": [
+   "941 publicações identificadas e 25 estudos incluídos, 19 deles da Malásia (web)",
+   "O cacho de frutos frescos pesa de 10 a 50 kg, conforme a idade da palma; a palma pode chegar a 20 m (web)",
+   "Dor lombar em 12 meses entre 58% e 87,1% dos colhedores manuais, segundo o texto da revisão; a tabela da própria revisão distribui esses valores de outro modo, então convém ir aos estudos originais antes de citar (web)",
+   "Em um estudo da Malásia de 2009 com 150 colhedores, 69% dos trabalhadores cortavam cachos acima de 13 m; a frase trata do grupo que cortava acima de 6 m (web)",
+   "A revisão não menciona taxas de acidentes nem de mortes (web)"
+  ],
+  "resumo": "Revisão sistemática revisada por pares sobre riscos ocupacionais na palma de óleo. Encontrou risco de distúrbios osteomusculares, lesões, transtornos psicossociais e doenças infecciosas. Na verificação, o texto foi lido na página do PMC e também pela API pública da Europe PMC (https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6820316/fullTextXML).",
+  "citado_em": [
+   "04_frente-3_tendencias/ia-no-campo.md"
+  ],
+  "paginas_citadas": [
+   "web"
+  ]
+ },
+ {
+  "id": "M1409",
+  "titulo": "Biometry and oil contents of Acrocomia aculeata fruits from the Cerrados and Pantanal biomes in Mato Grosso do Sul, Brazil (Industrial Crops and Products, v. 45, p. 208-214)",
+  "organizacao": "Universidade Católica Dom Bosco, Fundação MS, Embrapa Agroenergia e Embrapa Pantanal (Ciconini, G.; Favaro, S. P.; Roscoe, R.; Miranda, C. H. B.; Tapeti, C. F.; Miyahira, M. A. M.; Bearari, L.; Galvani, F.; Borsato, A. V.; Colnago, L. A.; Naka, M. H.)",
+  "ano": "2013",
+  "tipo_fonte": "academia",
+  "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/980756/1/BiometryandoilcontentsofAcrocomiaaculeatafruitsfromtheCerradosandPantanalbiomesinMatoGrossodoSulBrazil..pdf",
+  "frentes": [
+   "F3"
+  ],
+  "metricas": [
+   "Palmeiras nativas de quatro locais de MS, colhidas de novembro de 2010 a janeiro de 2011; dez palmeiras por local (oito em São Gabriel do Oeste) (PDF p. 2; impressa 209)",
+   "Cerca de 30% das palmeiras amostradas em Corumbá e 70% das amostradas em Aquidauana tinham espinhos no estipe; nenhuma nos dois locais de Cerrado amostrados. Amostra de dez palmeiras por local; o artigo não mostra os dados (PDF p. 3; impressa 210)",
+   "Médias por local: de 2 a 5 cachos por palmeira; de 4,4 a 6,3 kg de frutos por cacho; de 142 a 285 frutos por cacho (Tabela 1, PDF p. 4; impressa 211)",
+   "Foram escolhidas palmeiras com cachos a cerca de 2,5 m de altura, o que facilita a colheita (PDF p. 2; impressa 209)"
+  ],
+  "resumo": "Artigo revisado por pares que mediu plantas e frutos de macaúba nativa em dois locais de Cerrado e dois de Pantanal. Registra a presença de espinhos, o número de cachos e a massa de frutos por cacho. Afirma que os espinhos atrapalham o manejo e a colheita.",
+  "citado_em": [
+   "04_frente-3_tendencias/ia-no-campo.md"
+  ],
+  "paginas_citadas": [
+   "web"
+  ]
+ },
+ {
+  "id": "M1410",
+  "titulo": "Riscos ambientais e segurança do coletor no extrativismo do fruto de açaízeiro na Amazônia Oriental (Ciência Florestal, v. 32, n. 2, p. 597-616)",
+  "organizacao": "Universidade Federal Rural da Amazônia, Universidade Federal do Pará e órgãos do estado do Pará (Moura, V. B.; Farias, V. D. S.; Sousa, D. P.; Nunes, H. G. G. C.; Souza, P. J. O. P.)",
+  "ano": "2022",
+  "tipo_fonte": "academia",
+  "url": "https://periodicos.ufsm.br/cienciaflorestal/article/download/42790/48328?inline=1",
+  "frentes": [
+   "F3"
+  ],
+  "metricas": [
+   "33 extrativistas entrevistados em janeiro de 2018, cerca de 50% da população da comunidade (web)",
+   "90% dos entrevistados disseram já ter caído do açaizeiro, com cortes ou ferimentos; 80% relataram torção muscular (autorrelato; web)",
+   "Estimativa dos autores: cerca de 100 escaladas por dia na safra, a partir de dez rasas de 30 kg por dia e de cerca de 10 cachos de 3 kg por rasa (parâmetros da CONAB, 2019); não é contagem em campo (web)",
+   "Strain Index (método de Moore e Garg) de 13,5 na safra e de 10,12 na entressafra, faixa de alto risco (web)",
+   "99% dos coletores não sabem o que é um EPI; jornada de 4 a 8 horas por dia na safra (web)"
+  ],
+  "resumo": "Artigo revisado por pares com entrevistas e medições de campo (calor, esforço, postura) na coleta do açaí em Belém. Classifica os riscos físicos, biológicos, ergonômicos e de acidentes e os compara com as normas regulamentadoras. A amostra é pequena e de uma só comunidade.",
+  "citado_em": [
+   "04_frente-3_tendencias/ia-no-campo.md"
+  ],
+  "paginas_citadas": [
+   "web"
+  ]
+ },
+ {
+  "id": "M1411",
+  "titulo": "Prevalence of Work-Related Musculoskeletal Disorders (WMSDs) and Recent Initiatives to Address Them in the Oil Palm Industry: A Systematic Review (Journal of Oil Palm Research, artigo no prelo)",
+  "organizacao": "Universiti Sains Malaysia ('Umar Mohamad Noor; Mohamad Ikhwan Zaini Ridzwan); periódico do Malaysian Palm Oil Board (MPOB)",
+  "ano": "2024 (17/10/2024)",
+  "tipo_fonte": "academia",
+  "url": "https://jopr.mpob.gov.my/wp-content/uploads/2024/10/joprinpress2024-umar.pdf",
+  "frentes": [
+   "F3"
+  ],
+  "metricas": [
+   "245 artigos identificados (2013 a 2023) e 27 incluídos: 22 da Malásia, 2 da Tailândia, 2 da Colômbia e 1 da Indonésia (PDF p. 1 e 4)",
+   "Prevalência de distúrbio osteomuscular em 12 meses, em qualquer parte do corpo: de 78,0% a 93,0%, nos três estudos que a mediram (dois da Tailândia e um da Malásia) (PDF p. 8)",
+   "Nota máxima de risco postural (RULA 7) na colheita com vara e com cinzel; em um estudo com 273 colhedores, 51,6% tiveram nota 7 (PDF p. 7 e 8)",
+   "Em um estudo da Tailândia de 2021, coletores de cachos e de frutos soltos tiveram risco 3,98 vezes maior de distúrbio lombar que os cortadores; os cachos pesam até 50 kg (PDF p. 10)",
+   "Palma com menos de 3 m: colheita com cinzel e tronco curvado; palma alta: cabeça inclinada para cima durante todo o corte (PDF p. 2)"
+  ],
+  "resumo": "Revisão sistemática revisada por pares, publicada no periódico do MPOB, sobre a prevalência de distúrbios osteomusculares e as ferramentas de intervenção na palma de óleo. Reúne os estudos de postura (RULA, REBA, OWAS) e de esforço muscular na colheita. Quase todos os estudos são da Malásia e usam questionário.",
+  "citado_em": [
+   "04_frente-3_tendencias/ia-no-campo.md"
+  ],
+  "paginas_citadas": [
+   "web"
+  ]
+ },
+ {
+  "id": "M1413",
+  "titulo": "Extractivism of palm tree fruits: A risky activity because of snakebites in the state of Acre, Western Brazilian Amazon (Revista da Sociedade Brasileira de Medicina Tropical, v. 52, e20180195)",
+  "organizacao": "Revista da Sociedade Brasileira de Medicina Tropical (Silva, A. M.; Sachett, J.; Monteiro, W. M.; Bernarde, P. S.)",
+  "ano": "2019",
+  "tipo_fonte": "academia",
+  "url": "https://www.scielo.br/j/rsbmt/a/wrN4WFVg3RC3nTXrCfmQ5bx/?lang=en",
+  "frentes": [
+   "F3"
+  ],
+  "metricas": [
+   "303 acidentes com serpentes registrados de janeiro de 2016 a abril de 2018 no Hospital Regional do Juruá; 14 (4,6%) associados a palmeiras ou à extração de seus produtos (web)",
+   "9 dos 14 casos (64,3%) ocorreram na colheita do açaí (Euterpe precatoria); 12 dos 14 ocorreram durante a colheita e 2 com pessoas que passavam junto a palmeiras (web, Tabela 1)",
+   "Local da picada: pés 35,7%, pernas 21,4%, mãos 21,4%, braços 14,3% e tórax 7,1% (web)",
+   "Três picadas com o coletor no alto do açaizeiro, a 4 m e a 8 m de altura (web, Tabela 1; o texto cita duas)"
+  ],
+  "resumo": "Estudo transversal revisado por pares com os casos de picada de serpente atendidos em um hospital regional do Acre. Mostra o risco no chão, junto à palmeira (Bothrops atrox), e no alto da palmeira (Bothrops bilineatus). Cobre só os casos que chegaram ao hospital.",
+  "citado_em": [
+   "04_frente-3_tendencias/ia-no-campo.md"
+  ],
+  "paginas_citadas": [
+   "web"
+  ]
+ },
+ {
+  "id": "M1414",
+  "titulo": "Perfil de Dor Musculoesquelética dos Trabalhadores Rurais da Colheita de Dendê na Região Amazônica (Revista Brasileira de Ciências da Saúde, v. 24, n. 2, p. 221-230)",
+  "organizacao": "Universidade da Amazônia – UNAMA (Souza, L. M.; Nascimento, W. B. S.; Santana, I. C. M.; Torres, D. C.; Avila, P. E. S.)",
+  "ano": "2020",
+  "tipo_fonte": "academia",
+  "url": "https://periodicos.ufpb.br/index.php/rbcs/article/download/45739/30705/139405",
+  "frentes": [
+   "F3"
+  ],
+  "metricas": [
+   "70 trabalhadores de uma empresa de dendê, em abril de 2018: 9 do plantio, 38 da colheita e 23 do carregamento (PDF p. 3; impressa 223)",
+   "Dor nos últimos 12 meses: coluna 72,9%, membros superiores 51,4% e membros inferiores 34,3%; só 8,6% sem dor (PDF p. 1 e 5; impressas 221 e 225)",
+   "77,1% sentem cansaço físico no fim da jornada; 70% acham o trabalho repetitivo; 38,6% precisaram adaptar equipamentos ou ferramentas (Tabela 1, PDF p. 4; impressa 224)"
+  ],
+  "resumo": "Estudo transversal com o questionário nórdico de sintomas osteomusculares aplicado a trabalhadores de uma empresa de dendê no Pará. É o único dado brasileiro medido que achamos para a palma. Os resultados não são separados por função de forma clara, e a revista é de menor circulação.",
+  "citado_em": [
+   "04_frente-3_tendencias/ia-no-campo.md"
+  ],
+  "paginas_citadas": [
+   "web"
+  ]
+ },
+ {
+  "id": "M1416",
+  "titulo": "Padrões de saúde e segurança no trabalho e extrativismo: o caso de comunidades rurais da Amazônia brasileira (Saúde e Sociedade, v. 26, n. 3, p. 774-785)",
+  "organizacao": "Universidade de São Paulo (Veiga, J. P. C.; Trevisani, D. M.; Makishi, F.; Abreu, M. G. C.; Silva, M. S. P.; Zacareli, M. A.)",
+  "ano": "2017",
+  "tipo_fonte": "academia",
+  "url": "https://revistas.usp.br/sausoc/article/download/139960/135189",
+  "frentes": [
+   "F3"
+  ],
+  "metricas": [
+   "Questionários com 84 famílias em Salvaterra e 106 em Bragança (PDF p. 4; impressa 777)",
+   "79% dos entrevistados em Salvaterra e 80% em Bragança apontaram alto risco de picada de cobra (PDF p. 8; impressa 781); a Tabela 3 do artigo traz 78% e 79% (PDF p. 9)",
+   "Cerca de 60% dos entrevistados de Bragança e 63% dos de Salvaterra relataram dor nas costas, sobretudo na safra (PDF p. 9; impressa 782); a Tabela 3 traz 60% e 64%",
+   "Uso de proteção em Bragança, pelo texto: bota ou calçado 62%, luva 42%, chapéu 39%; em Salvaterra: 22%, 5% e 21%. A Tabela 2, na mesma página, traz 67%, 43% e 33% em Bragança e 25%, 11% e 6% em Salvaterra (PDF p. 8; impressa 781)",
+   "O murumuru é colhido em várzea com foice para a poda do cacho; a folha tem espinhos de até 30 cm (PDF p. 3; impressa 776)"
+  ],
+  "resumo": "Artigo revisado por pares com pesquisa de campo junto a coletores de sementes e frutos oleaginosos no Pará, com questionários e observação direta. Levanta os riscos percebidos, o uso de proteção e as queixas de dor. Não separa os resultados por espécie coletada.",
+  "citado_em": [
+   "04_frente-3_tendencias/ia-no-campo.md"
+  ],
+  "paginas_citadas": [
+   "web"
+  ]
+ },
+ {
+  "id": "M1417",
+  "titulo": "Desenvolvimento Vegetativo e Reprodutivo de Plantas de Macaúba (Acrocomia aculeata) Implantadas em Pastagem Degradada (Boletim de Pesquisa e Desenvolvimento 346)",
+  "organizacao": "Embrapa Cerrados (Pulrolnik, K.; Vilela, L.; Gonçalves, H. M.)",
+  "ano": "2019 (06/2019)",
+  "tipo_fonte": "governo/instituição",
+  "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1110803/1/Bolpd346.pdf",
+  "frentes": [
+   "F3"
+  ],
+  "metricas": [
+   "A altura foi medida com régua altimétrica, da base do coleto até a folha flecha: é a planta inteira, não o estipe nem a altura do cacho (PDF p. 13; impressa 12)",
+   "Aos 7 anos, a altura média tendia a 7,00 m com adubação de manutenção e a 5,86 m sem ela nas maiores densidades de plantio; os dois valores são as assíntotas do modelo de altura em função da densidade, de 121 a 1.497 plantas/ha (plantio de fevereiro de 2009) (PDF p. 14 e 15; impressas 13 e 14)",
+   "Crescimento em altura de 0,0018 m por dia com adubação de manutenção e de 0,0010 m por dia sem ela, na média das dez densidades, em 2.874 dias de avaliação (PDF p. 14 e 15; impressas 13 e 14)",
+   "Das 23 plantas que frutificaram aos 7 anos, todas com adubação de manutenção, 21 (91%) estavam nas densidades de 489 a 1.497 plantas/ha; o boletim diz que eram plantas com mais de 7,5 m de altura, sem mostrar as alturas individuais (PDF p. 17; impressa 16)",
+   "Outro plantio citado (Dietrich, 2017, citação secundária): 400 plantas/ha, 6 anos de idade, altura média de 7,29 m e frutificação a partir do quarto ano (PDF p. 16; impressa 15)",
+   "Em populações nativas de Minas Gerais, Da Conceição et al. (2013) observaram 61,2 kg de frutos por planta e 16,7 kg por cacho (citação secundária, PDF p. 17; impressa 16)"
+  ],
+  "resumo": "Boletim da Embrapa Cerrados com um experimento em roda de Nelder (dez densidades, 240 plantas medidas), plantado em fevereiro de 2009 em Planaltina (DF). Mede a altura das plantas, do colo à folha flecha, até os 7 anos e a primeira produção de frutos. É a fonte que dá a altura da macaúba cultivada quando começa a produzir. Não mede a altura do cacho.",
+  "citado_em": [
+   "04_frente-3_tendencias/ia-no-campo.md"
+  ],
+  "paginas_citadas": [
+   "p. 13-15",
+   "p. 13-15, 17"
+  ]
+ },
+ {
+  "id": "M1418",
+  "titulo": "Ferramentas para coleta de cachos de palmeiras na Amazônia: uma nova valorização econômica",
+  "organizacao": "Instituto Nacional de Pesquisas da Amazônia – INPA, Editora INPA (Rabelo, A.; França, F.; Belém, G.)",
+  "ano": "2015",
+  "tipo_fonte": "governo/instituição",
+  "url": "https://transforma.fbb.org.br/storage/socialtecnologies/492/files/OK-Cartilha%20Ferramenta%20Palmhaste.pdf",
+  "frentes": [
+   "F3"
+  ],
+  "metricas": [
+   "Palmeiras sem espinhos são colhidas por pessoas que escalam a árvore; palmeiras com o estipe coberto de espinhos são colhidas com varas de madeira com ganchos ou foices na ponta, instáveis e de difícil manuseio (PDF p. 11)",
+   "Vara de coleta em alumínio naval: seis pares de tubos de 1,65 m; altura mínima de 3,20 m e máxima de 19,2 m; peso total de 13,12 kg (PDF p. 12)",
+   "Ferramenta testada em 20 espécies: 14 sem espinhos e 6 com espinhos, entre elas a macaúba (PDF p. 16 e 18)",
+   "Lona de 3 m x 3 m para aparar os cachos; nas palmeiras com espinhos, um tubo de PVC de 48 cm por 10 cm ajuda a vara a passar pelos espinhos (PDF p. 15 e 23)",
+   "Nas espécies cujos frutos caem maduros (entre elas a macaúba), o desprendimento dura dias e às vezes semanas (PDF p. 23-24)"
+  ],
+  "resumo": "Cartilha do INPA (ISBN 978-85-211-0148-2; a ficha catalográfica indica 24 p. e o PDF tem 28 páginas) sobre uma vara de alumínio com foice ou serrote para colher cachos sem escalar, testada por dois anos em comunidades do Amazonas. Descreve como se colhem hoje as palmeiras com e sem espinhos e os riscos da escalada. Não traz dados de acidentes nem de rendimento.",
+  "citado_em": [
+   "04_frente-3_tendencias/ia-no-campo.md"
+  ],
+  "paginas_citadas": [
+   "p. 11",
+   "p. 12, 16, 18",
+   "p. 23-24",
+   "p. 9",
+   "p. 9, 11"
+  ]
+ },
+ {
+  "id": "M1419",
+  "titulo": "Trabalho precário e trabalho infantil na cadeia de valor global do açaí (apresentação com os resultados do 'Diagnóstico das condições de trabalho do extrativista de açaí, o Peconheiro', de 2016)",
+  "organizacao": "Instituto Peabiru (João Meirelles); diagnóstico de 2016 feito com a Fundacentro e o Programa Trabalho Seguro do TRT da 8ª Região",
+  "ano": "2022 (21/10/2022)",
+  "tipo_fonte": "governo/instituição",
+  "url": "https://peabiru.org.br/wp-content/uploads/2022/10/221021_ApresentacaoWebinar_DireitosHumanosNoAcai.pptx.pdf",
+  "frentes": [
+   "F3"
+  ],
+  "metricas": [
+   "89% dos entrevistados disseram que alguém da família ou um meeiro já sofreu acidente de trabalho em seu açaizal (slides 19 e 23); mede relatos por entrevistado, não taxa de acidentes por trabalhador",
+   "Em 54% dos casos de acidente houve internação (slides 13 e 19)",
+   "Afastamento: 48% dos acidentes exigiram até 10 dias (slide 19) e 62% de 10 a 60 dias (slide 13); os dois percentuais somam mais de 100% e precisam ser conferidos no relatório original",
+   "Área do estudo: médio rio Canaticu, com 1.029 famílias e cerca de 3 mil pessoas empregadas informalmente (slide 5)",
+   "O extrativista que subia 1 a 2 vezes por dia no açaizeiro hoje sobe de 10 a 20 vezes (slide 11)",
+   "Estimativa do Peabiru: 120 mil coletores subindo em 10 árvores cada dão cerca de 1,2 milhão de subidas por dia de safra (slide 11)",
+   "Vestimenta e proteção (slide 17, que não diz como foi medido): bermuda 89%, camisa de manga curta 67%, luvas 25%, bota 5%"
+  ],
+  "resumo": "Slides de um webinar do Instituto Peabiru, organização da sociedade civil (28 páginas, 21/10/2022), que resumem o diagnóstico feito em 2016 com a Fundacentro e o Programa Trabalho Seguro do TRT-8 em Curralinho (PA), com questionários e oficinas. São a fonte pública mais direta dos números de acidentes dos peconheiros. Os próprios slides chamam o estudo de qualitativo e não informam o tamanho da amostra. O relatório original não foi localizado.",
+  "citado_em": [
+   "04_frente-3_tendencias/ia-no-campo.md"
+  ],
+  "paginas_citadas": [
+   "web"
+  ]
+ },
+ {
+  "id": "M1420",
+  "titulo": "NR 31 – Segurança e Saúde no Trabalho na Agricultura, Pecuária, Silvicultura, Exploração Florestal e Aquicultura (texto atualizado em 2024)",
+  "organizacao": "Ministério do Trabalho e Emprego (redação da Portaria SEPRT nº 22.677, de 22/10/2020, com alterações de 2022)",
+  "ano": "2024 (texto consolidado; redação de 22/10/2020)",
+  "tipo_fonte": "governo/instituição",
+  "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/nr-31-atualizada-2024.pdf",
+  "frentes": [
+   "F3"
+  ],
+  "metricas": [
+   "Item 31.15.1: o capítulo de trabalho em altura aplica-se somente a instalação, montagem, manutenção, inspeção, limpeza ou conservação de máquinas, equipamentos, implementos ou edificações rurais, executadas acima de 2 m do nível inferior, onde haja risco de queda (PDF p. 44)",
+   "Item 31.15.1.1: na colheita e nos tratos culturais, as medidas contra o risco de queda são definidas no PGRTR e só se aplica o subitem 31.15.9, de capacitação (PDF p. 45)",
+   "Itens 31.15.9 e 31.15.9.1: treinamento de trabalho em altura com no mínimo 8 horas; na colheita e nos tratos culturais, mínimo de 2 horas (PDF p. 45-46)",
+   "Item 31.11.4: ferramentas de corte guardadas e transportadas em bainha (PDF p. 27); item 31.6.2, alínea c: perneira contra picadas de animais peçonhentos (PDF p. 19); item 31.3.10.1: encaminhamento imediato do acidentado por animal peçonhento à unidade de saúde (PDF p. 9)",
+   "Item 31.2.1.1: nas atividades rurais aplica-se somente a NR-31, salvo remissão expressa a outra norma e as exceções listadas (PDF p. 2)"
+  ],
+  "resumo": "Texto oficial da norma de segurança e saúde do trabalho rural, com 81 páginas, consolidado até a Portaria MTE nº 342, de 21/03/2024. Aplica-se a quaisquer atividades da agricultura, pecuária, silvicultura, exploração florestal e aquicultura (item 31.2.1). Para o risco de queda na colheita, remete as medidas ao programa de gerenciamento de riscos (PGRTR) e à capacitação (itens 31.15.1.1 e 31.15.9). A busca por 'NR-35' no arquivo não encontra ocorrência.",
+  "citado_em": [
+   "04_frente-3_tendencias/ia-no-campo.md"
+  ],
+  "paginas_citadas": [
+   "p. 19, 27",
+   "p. 44-46"
+  ]
+ },
+ {
+  "id": "M1421",
+  "titulo": "Colheita e pós-colheita (capítulo 16 do livro 'Cultivo do açaizeiro em terra firme', p. 241-252)",
+  "organizacao": "Embrapa Amazônia Oriental (Souza, M. B.) e Cooperativa Agrícola Mista de Tomé-Açu (Moura, M. S.); Embrapa, Brasília",
+  "ano": "2025",
+  "tipo_fonte": "governo/instituição",
+  "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1182045/1/CultivoAcaizeiroTerraFirme-cap16.pdf",
+  "frentes": [
+   "F3"
+  ],
+  "metricas": [
+   "Mesmo em cultivo de terra firme, a colheita do açaí é feita por homens que escalam o estipe com peconha e faca (PDF p. 3; impressa 243)",
+   "Equipamentos novos: varas longas de alumínio com lâmina e dispositivos com roldanas presos ao estipe; equipamentos com controle remoto aparecem como 'em fase de testes' (PDF p. 3; impressa 243) e um deles, que sobe na palmeira e corta o cacho com serra, como disponível no mercado (PDF p. 6; impressa 246)",
+   "Itens de segurança indicados: cinto de segurança, talabarte, camisa, luvas e cinto com bainha para o terçado (PDF p. 4; impressa 244); botas aparecem na lista de materiais (PDF p. 4) e na Figura 16.7 (PDF p. 7; impressa 247)"
+  ],
+  "resumo": "Capítulo de livro técnico da Embrapa sobre como colher e manusear o açaí cultivado. Descreve o método tradicional, os itens de segurança e os equipamentos novos, sem medir rendimento nem acidentes. Serve para mostrar que a escalada continua mesmo no cultivo.",
+  "citado_em": [
+   "04_frente-3_tendencias/ia-no-campo.md"
+  ],
+  "paginas_citadas": [
+   "web"
+  ]
+ },
+ {
+  "id": "M1422",
+  "titulo": "Palmhaste: ferramenta de coletas de frutos das espécies de palmeiras (ficha de tecnologia social na plataforma Transforma)",
+  "organizacao": "Instituto Nacional de Pesquisas da Amazônia – INPA; ficha publicada pela Fundação Banco do Brasil",
+  "ano": "s.d. (ficha lida em 23/11/2026; ferramenta concebida em 2015)",
+  "tipo_fonte": "governo/instituição",
+  "url": "https://transforma.fbb.org.br/palmhaste-ferramenta-de-coletas-de-frutos-das-especies-de-palmeiras/generate-pdf?id=492",
+  "frentes": [
+   "F3"
+  ],
+  "metricas": [
+   "Nas palmeiras com espinhos, a colheita costuma ser feita com varas de madeira ou bambu com foices amarradas na ponta; o processo é descrito como difícil, exaustivo e arriscado (PDF p. 1-2)",
+   "Hastes tradicionais alcançam em média de 8 a 10 m; a Palmhaste alcança até 18 m, segundo a ficha escrita pelo INPA (PDF p. 1-2). A cartilha de 2015 dá outro número para a vara: máximo de 19,2 m",
+   "Estrutura de 13 tubos de alumínio naval de 1,5 m, total de 10,8 kg; custo estimado de R$ 1.442,00, segundo o INPA (PDF p. 2-3)",
+   "Testes em Manaus (AM), segundo o INPA: 80 kg de frutos de açaí-solteiro colhidos em 4 horas e 500 cocos colhidos em 6 horas (PDF p. 1 e 3)"
+  ],
+  "resumo": "Ficha da tecnologia social Palmhaste, escrita pelo próprio INPA (o desenvolvedor) e publicada no banco de tecnologias sociais da Fundação Banco do Brasil. Compara a ferramenta com as hastes improvisadas e dá números de alcance, custo e testes de campo. Os números são declarados pelo desenvolvedor, sem método descrito.",
+  "citado_em": [
+   "04_frente-3_tendencias/ia-no-campo.md"
+  ],
+  "paginas_citadas": [
+   "web"
+  ]
+ },
+ {
+  "id": "M1423",
+  "titulo": "Assessment of the realization of the fundamental right to a safe and healthy working environment in the coconut sector in Sri Lanka – Analytical summary",
+  "organizacao": "Organização Internacional do Trabalho – OIT (escritório para o Sri Lanka e as Maldivas)",
+  "ano": "2024 (27/11/2024)",
+  "tipo_fonte": "governo/instituição",
+  "url": "https://www.ilo.org/sites/default/files/2024-11/Final%2026.11.2024-Coconut%20sector%20Sri%20Lanka_Final.pdf",
+  "frentes": [
+   "F3"
+  ],
+  "metricas": [
+   "4,3% dos trabalhadores pesquisados (13 de 300) sofreram acidente de trabalho em 12 meses (PDF p. 29-30)",
+   "Dos 13 acidentes, 9 foram picadas de cobra (69,2%), 3 foram de trajeto ou com veículo (23,1%) e 1 foi queda de altura (7,7%) (PDF p. 29 e 30)",
+   "A colheita do coco é feita a cada 45 dias, subindo na árvore ou com varas longas de bambu (PDF p. 21)",
+   "97,7% dos trabalhadores não receberam treinamento formal sobre equipamento de proteção ou segurança (PDF p. 35)",
+   "Colhedores de coco eram 16,9% dos homens da amostra (PDF p. 26)"
+  ],
+  "resumo": "Relatório da OIT (48 páginas) com pesquisa por questionário em plantações de coco de dois distritos do Sri Lanka, mais grupos focais e entrevistas, feita durante a pandemia de covid-19. Descreve os riscos por tarefa e mede os acidentes relatados em 12 meses. A própria OIT avisa que os colhedores, sazonais e subcontratados, foram difíceis de alcançar.",
+  "citado_em": [
+   "04_frente-3_tendencias/ia-no-campo.md"
   ],
   "paginas_citadas": [
    "web"

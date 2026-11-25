@@ -1,6 +1,6 @@
 # Custo de uso da IA — nota temática
 
-> Documento de trabalho da OagronomIA · Frente 3 — Tendências e perspectivas futuras · Fontes públicas do catálogo · Data de corte: 14/10/2026 · Entrega parcial em revisão — não encaminhar ao cliente sem revisão.
+> Documento de trabalho da OagronomIA · Frente 3 — Tendências e perspectivas futuras · Fontes públicas do catálogo · Data de corte: 14/10/2026, com o caso iFood acrescentado em 23/11/2026 · Entrega parcial em revisão — não encaminhar ao cliente sem revisão.
 
 **Como ler.** [M###, p. N] é o item M### do catálogo e a página N do PDF; [M###, web], item só na web. Preços em US$ por milhão de tokens, na forma entrada/saída (US$ 2/US$ 10), pela tabela pública na data indicada, sem desconto negociado, cache ou lote. Cada número diz de quem é: dado oficial, pesquisa independente, projeção de analista, número declarado pela empresa ou imprensa. "Cálculo nosso" marca conta da equipe; "leitura nossa", interpretação. Modelos e preços são dado de mercado: a nota não recomenda fornecedor nem avalia ferramenta. Desde o Claude 4.7, o tokenizador da Anthropic gera cerca de 30% mais tokens para o mesmo texto [M903, p. 1]; o asterisco (\*) marca esses modelos nas comparações. A cruz (†) marca preço da OpenAI tirado da tabela de out/2026, sem cópia da época.
 
@@ -14,6 +14,7 @@
 - **O consumo cresce depressa.** Modelos de raciocínio geram cerca de 8 vezes mais tokens por resposta (Epoch AI) [M934, p. 1]; agentes, cerca de 4 vezes mais que o chat, e sistemas com vários agentes, 15 vezes (dados da Anthropic) [M911, p. 3]. O Google declara mais de 3,2 quatrilhões de tokens por mês, 7 vezes um ano antes [M666, web]. Para o Gartner, o consumo sobe mais rápido do que cai o custo do token, e o custo total de inferência deve aumentar (projeção) [M948, p. 2].
 - **A conta já preocupa.** Nos EUA, 82% dos executivos de empresas que investem em IA dizem que a organização se preocupa com o custo de tokens, e só 64% monitoram o consumo com limites de orçamento (EY, jul/2026) [M070, p. 1-2]. Na pesquisa global da McKinsey, 1 em cada 5 respondentes diz que o custo de operação já limitou o uso; para a consultoria, ainda não é uma restrição generalizada [M028, p. 15].
 - **O caso Uber mostra o problema e a saída.** Segundo a imprensa de referência, a Uber esgotou em cerca de quatro meses o orçamento anual de IA [M986, p. 2]. Depois, segundo a empresa, multiplicou o uso por 7 com gasto "relativamente estável", cortando consumo sem valor [M995, p. 2, 16].
+- **O caso iFood mostra a conta caindo com o uso subindo.** Segundo o CEO, o consumo de tokens subiu 106% desde junho de 2026 e a conta caiu 51%, sem limitar o acesso: os modelos abertos viraram o padrão numa plataforma própria, e os modelos premium ficaram para as tarefas que os justificam, com orçamento definido. São números declarados numa rede social, em índice e sem verificação de terceiros [M1382, web].
 - **A cobrança migra para o uso.** O GitHub passou o Copilot para cobrança por uso em jun/2026, dizendo que o modelo anterior "não é mais sustentável" [M951, p. 1-2].
 - **O movimento chinês pesa, mas não explica tudo.** A guerra de preços na China começou em mai/2024, antes do DeepSeek-R1 [M999, p. 2-3]. Nas fontes catalogadas, nenhum laboratório americano atribuiu cortes à concorrência chinesa; a DeepSeek subiu preços em 2026 [M924, p. 2; M925, p. 2]; e há movimentos de baixa também do lado americano: o Jev, modelo de decisão de uma empresa americana, entrou em set/2026 com o menor preço da sua categoria, e a OpenAI lançou um concorrente 21 dias depois, segundo a imprensa inspirado nele [M990, p. 1-2, 4; M955, p. 2; M967, p. 1].
 - **O paralelo com os carros vale em parte.** As marcas chinesas passaram de cerca de 2,8% para ao menos 17,4% dos emplacamentos no Brasil entre 2023 e jan–set/2026 (cálculo nosso) [M935, p. 9; M938, p. 9]. Mas o desconto da Hilux foi promoção [M913, p. 1-4], e a analogia quebra no essencial: carro mais barato não multiplica o consumo; no token, há sinais de que sim (leitura nossa) [M974, p. 32].
@@ -111,6 +112,19 @@ A a16z investe no setor: liderou a rodada da TypeSafe AI e assina o estudo da Op
 | De fev a ago/2026, uso 7 vezes maior, gasto "relativamente estável" desde abril; faixa de gasto única, alertas e aprovação do gestor, "para evitar tetos rígidos" | Blog de engenharia (declarado); desenho diferente do teto de junho | [M995, p. 2, 15] |
 
 A Uber mapeia 16 padrões de desperdício, como rodar sessões simples no modelo mais caro [M995, p. 15]. O valor do orçamento não tem fonte (seção 13).
+
+**O caso iFood.** Fonte única: uma publicação do CEO no LinkedIn, de 23/11/2026, com um gráfico de duas linhas em índice que a empresa chama de "boca de jacaré" [M1382, web]. Tudo é declarado pela empresa, sem valores em moeda e sem verificação de terceiros.
+
+| O que se sabe | Quem diz | Fonte |
+|---|---|---|
+| A empresa pôs IA agêntica nas mãos de todos os colaboradores; no começo, o uso cresceu e a conta também | CEO do iFood (declarado) | [M1382, web] |
+| A resposta não foi limitar o acesso: todos continuam com tokens ilimitados | CEO do iFood (declarado) | [M1382, web] |
+| Os modelos abertos ("open source", no termo da empresa) viraram o padrão de uma plataforma própria de IA generativa; os modelos premium seguem disponíveis para as tarefas que os justificam, com orçamento definido | CEO do iFood (declarado) | [M1382, web] |
+| Consumo de tokens 106% maior desde junho de 2026, com a conta 51% menor no mesmo período | CEO do iFood (declarado); os dois números estão no texto e no gráfico | [M1382, web] |
+| Uso de IA 30 vezes maior e custo por token 86% menor desde janeiro de 2026; uso por pessoa 7 vezes maior; 8 em cada 10 tokens rodam em modelos abertos | CEO do iFood (declarado); a base e a métrica do uso não são informadas | [M1382, web] |
+| A empresa organiza bootcamps de IA para milhares de pessoas; no gráfico, o uso e o custo sobem juntos depois do bootcamp, e o custo só cai a partir de agosto, com a plataforma própria | CEO do iFood (declarado); a posição dos marcos foi lida no eixo do gráfico | [M1382, web] |
+
+Leitura nossa: Uber e iFood partem do mesmo problema, a conta que sobe com o uso, e saem por caminhos diferentes. A Uber, pelo que se noticiou, pôs teto e depois faixa de gasto com alertas; o iFood diz ter mudado o modelo que atende a maior parte das tarefas, sem limitar o acesso. Nos dois, ao menos parte do corte veio de tirar do modelo mais caro o que não precisava dele. O caso iFood não informa o custo de manter a plataforma própria nem de operar os modelos abertos, que entram na conta de quem segue esse caminho (seção 10, H7).
 
 **A cobrança migra para o uso.** O GitHub cobra o Copilot por uso desde 01/06/2026, porque uma pergunta rápida e uma sessão agêntica de horas custavam o mesmo [M951, p. 1-2]. O Cursor trocou 500 requisições por US$ 20 de uso a preço de API em jun/2025 [M923, p. 1-2]. A Anthropic pôs limites semanais nos planos Pro e Max em ago/2025 [M984, p. 2] e cobra o Enterprise por assento mais todo o uso a preço de API [M909, p. 11; M904, p. 2]. Leitura nossa: quem paga por uso carrega o risco do consumo.
 
@@ -220,12 +234,12 @@ Régua única: *confirmada*, evidência direta e consistente de mais de uma font
 | Sequência: o Uber gasta o orçamento em quatro meses | Confirmada (imprensa de referência) | [M986, p. 2; M941, p. 3]; sem documento da empresa; o caso sustenta a H2, não a H1 |
 | Sequência: o Jev derruba ainda mais o preço | Confirmada em parte, na sua categoria | É o mais barato entre os modelos de decisão, e a OpenAI lançou concorrente em 21 dias, segundo a imprensa inspirado nele [M990, p. 4; M955, p. 2, 6; M967, p. 1]; outra categoria, sem efeito medido nos preços dos modelos de conversa |
 | Paralelo com os carros | Confirmada em parte | Entrada chinesa e guerra de preços reais [M938, p. 9; M962, p. 1]; Hilux em promoção [M913, p. 2]; quebra na quantidade |
-| H2. O preço cai, mas a conta sobe | Confirmada | Volumes 5 a 7 vezes maiores em um ano (declarados) [M666, web; M701, web]; gasto com APIs mais que dobrado entre nov/2024 e meados de 2025 (estimativa) [M956, p. 1]; projeção do Gartner [M948, p. 2]; com gestão, a conta pode estabilizar (Uber, declarado) [M995, p. 2] |
+| H2. O preço cai, mas a conta sobe | Confirmada | Volumes 5 a 7 vezes maiores em um ano (declarados) [M666, web; M701, web]; gasto com APIs mais que dobrado entre nov/2024 e meados de 2025 (estimativa) [M956, p. 1]; projeção do Gartner [M948, p. 2]; com gestão, a conta pode estabilizar (Uber, declarado) [M995, p. 2] ou cair, com modelos abertos como padrão (iFood, declarado) [M1382, web] |
 | H3. A queda é desigual | Confirmada | De 9 a 900 vezes por ano conforme a tarefa [M933, p. 1]; topo a US$ 10/US$ 50 [M968, p. 1]; altas marcadas [M952, p. 3] |
 | H4. Preço abaixo do custo, com risco de reajuste | Confirmada em parte | Prejuízo declarado num plano, custo absorvido pelo GitHub, limites semanais [M985, p. 2; M951, p. 2; M984, p. 2]; sem resultado oficial dos laboratórios |
 | H5. O token é a menor parte da conta | Confirmada em parte | US$ 4 em pessoas e processos para cada US$ 1 em tecnologia [M003, p. 53]; as empresas mais satisfeitas gastam mais em dados, governança e talentos [M125, p. 3]; mas no uso agêntico intenso o token pesa [M989, p. 3], e ninguém mede a parcela |
 | H6. O Brasil tem custo próprio | Confirmada em parte | Nuvem local mais cara (cálculo nosso) [M897, p. 63; M898, p. 81]; tributos em transição [M976, web]; o token global custa o mesmo [M958, p. 1]; câmbio sem medida |
-| H7. O mais barato pode não ser utilizável | Confirmada em parte | Riscos apontados pelo governo americano [M853, p. 2]; residência de dados mais cara [M968, p. 3]; rodar modelo aberto exige GPU, com custo próprio (leitura nossa) [M982, p. 1]; sem política de empresa brasileira no catálogo |
+| H7. O mais barato pode não ser utilizável | Confirmada em parte | Riscos apontados pelo governo americano [M853, p. 2]; residência de dados mais cara [M968, p. 3]; rodar modelo aberto exige GPU, com custo próprio (leitura nossa) [M982, p. 1]; uma empresa brasileira declara usar modelos abertos como padrão, numa plataforma própria, sem dizer quais modelos, onde rodam nem quanto custa operá-los [M1382, web] |
 
 ## 11. Implicações para a estratégia de IA
 
@@ -234,6 +248,7 @@ Leitura nossa, macro.
 - **O preço unitário não deve travar a IA; o consumo precisa de gestão.** A pergunta passa a ser quanto custa e quanto vale cada tarefa, o que completa a nota [Valor e retorno da IA](../02_frente-1_benchmark-estrategico/notas/valor-e-retorno-da-ia.md).
 - **Orçar por consumo.** O orçamento tende a ter uma parte fixa, por usuário, e uma variável, por uso [M951, p. 1; M909, p. 11], com cenários de volume, de mix (raciocínio e agentes pesam mais) e de reajuste.
 - **Medir custo e valor por tarefa.** Para o CAISI, o gasto por tarefa é a medida mais relevante [M853, p. 14]; a Uber acompanha o custo por sessão [M995, p. 2].
+- **O modelo do tamanho da tarefa.** Na Uber, rodar sessões simples no modelo mais caro é um dos 16 padrões de desperdício [M995, p. 15]. No iFood, segundo o CEO, os modelos abertos atendem a maior parte do trabalho e os premium ficam para as tarefas que os justificam, com orçamento definido, sem limite de acesso para as pessoas [M1382, web].
 - **Gestão do gasto como capacidade do roadmap (Frente 2).** Proposta para o framework, dentro de governança:
 
 | Estágio | Gestão do custo da IA |
@@ -262,6 +277,7 @@ Leitura nossa, macro.
 | "A OpenAI perdeu US$ 4,1 bilhões no trimestre" ou "deu lucro em 2026" | É a parcela da Microsoft; o ganho de 2026 vem de diluição | Não há resultado oficial da OpenAI | [M961, p. 9, 11; M960, p. 60] |
 | "A Uber tem 5.000 engenheiros que gastam de US$ 500 a 2.000 por mês", "média de US$ 150 a 250", "sessão de US$ 1.200 do CTO", "Claude Code de 32% em fevereiro para 84% em março" | Sem fonte verificada; o último é leitura errada: 84% são usuários de programação agêntica | Quase 3.000 pessoas na tecnologia; Claude Code de 32% (dez/2025) para 63% (fev/2026) | [M989, p. 1-2] |
 | "A Uber limita o gasto a US$ 1.500 por funcionário" | Teto noticiado em jun/2026; em ago/2026 a empresa descreve outro desenho | Dois desenhos em datas diferentes | [M986, p. 2; M995, p. 15] |
+| "No iFood, o uso de IA dobrou e a conta caiu pela metade" | Declarado pelo CEO numa rede social; índices sem base, sem valores em moeda e sem verificação de terceiros; não inclui o custo de operar os modelos abertos | Citar como declarado, com o período: tokens 106% maiores e conta 51% menor desde junho de 2026 | [M1382, web] |
 | "A Anthropic trocou a assinatura fixa por cobrança por uso" (Fortune) | Vale para o Enterprise; Pro e Max seguem fixos, com limites | Dizer o plano | [M941, p. 6; M909, p. 11] |
 | "A Toyota cortou R$ 60 mil da Hilux por causa das chinesas" | Promoções por canal e prazo; sem declaração da Toyota; chinesas marginais no segmento | Canal, prazo e versão: de 14,2% a 23% | [M913, p. 1-4; M945, web; M997, p. 2; M938, p. 18] |
 
@@ -273,6 +289,7 @@ Leitura nossa, macro.
 - **Composição do custo (H5).** Nenhuma fonte mede a parcela dos tokens no custo total de projetos de IA.
 - **Brasil.** Faltam o efeito do câmbio, a carga efetiva sobre APIs importadas, o enquadramento do IOF e dados da CNI e da FGV.
 - **Uber.** O valor do orçamento não foi achado; a reportagem original é paga.
+- **iFood.** Não há documento da empresa com os números da publicação do CEO, nem os modelos usados, nem o custo de manter a plataforma própria.
 - **A catalogar.** Preços de lançamento do GPT-5.6, do Claude 3.5 Haiku e do DeepSeek V4 Pro (com desconto temporário na data da avaliação americana) e notas da DeepSeek de ago e set/2026, que conflitam com a tabela sobre o V4-Pro.
 - **Séries recentes.** Não há atualização pública de 2026 da série de preço a desempenho constante.
 - **Carros.** Não há cópia datada do preço de tabela oficial da Hilux, nem estudo institucional que compare as duas guerras de preço.
@@ -388,4 +405,5 @@ Leitura nossa, macro.
 - **M997** — Vrum (Diários Associados / Estado de Minas) (2026). Toyota oferece 23% de desconto na Hilux durante a Agrishow 2026. [link](https://www.vrum.com.br/bom-negocio/2026/04/7408726-toyota-oferece-23-de-desconto-na-hilux-durante-a-agrishow-2026.html) · citado em p. 2, 2-3
 - **M998** — War on the Rocks (2026). Forged in a Knife Fight: China's Brutal Domestic AI Competition. [link](https://warontherocks.com/cogs-of-war/forged-in-a-knife-fight-chinas-brutal-domestic-ai-competition/) · citado em web
 - **M999** — Yicai Global (Yicai Media Group) (2024). Baidu Follows Alibaba's Steep LLM Price Cut With Two Free Ernie Bot Models. [link](https://www.yicaiglobal.com/news/baidu-offers-two-ernie-models-for-free-as-chinese-llm-market-ushers-in-price-war) · citado em p. 2-3
+- **M1382** — iFood (Diego Barreto, sócio e CEO, em publicação pessoal no LinkedIn) (2026 (23/11/2026)). Mais uso de IA. Menos custo. (publicação no LinkedIn, com o gráfico "Boca de jacaré"). [link](https://www.linkedin.com/posts/diegobarreto_mais-uso-de-ia-menos-custo-no-ifood-activity-7530572638897958912-lI6B) · citado em web
 <!-- fontes:fim -->

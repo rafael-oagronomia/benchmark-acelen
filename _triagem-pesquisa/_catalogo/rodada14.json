@@ -1,0 +1,548 @@
+{
+  "resultados": [
+    {
+      "grupo": "Robótica de colheita em palmeiras (robotica-colheita-B)",
+      "pasta": "06_empresas-agro-bioenergia-florestal-br",
+      "itens": [
+        {
+          "titulo": "AçaíBot — página do produto na loja on-line da Kaatech",
+          "organizacao": "Kaatech (Kaa Tech Importadora e Comércio Ltda., Belém/PA)",
+          "ano": "2026 (página lida em 23/11/2026; sem data de publicação)",
+          "tipo_fonte": "empresa",
+          "setor": "açaí (máquina de colheita)",
+          "pais_regiao": "Brasil (Pará)",
+          "url": "https://kaatech.com.br/produto/produto-kaa-tech",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Segundo a empresa, o AçaíBot pesa 8,5 kg e mede 75 × 45 × 35 cm (web)",
+            "Preço na loja da empresa em 23/11/2026: R$ 22.907,41, com 90 dias de garantia e 7 dias para troca ou devolução (web)",
+            "A empresa declara '10 vezes mais produtividade' que a colheita tradicional, sem apresentar ensaio (web)",
+            "Kit: AçaíBot, controle remoto, carregador bivolt, bolsa impermeável e manual do operador (web)"
+          ],
+          "resumo": "Página de venda do AçaíBot no site da fabricante. Descreve um equipamento controlado remotamente que sobe na palmeira e, com serra e coletor, traz o cacho ao operador; traz peso, dimensões, kit, garantia e preço. Tudo é declaração da empresa; a página não cita câmera, IA, altura alcançada, autonomia da bateria nem ensaio.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Em dia histórico, Kayapó assinam primeiro financiamento de um AçaíBot via Pronaf B",
+          "organizacao": "Kaatech (notícia no site da empresa)",
+          "ano": "2025 (18/11/2025)",
+          "tipo_fonte": "empresa",
+          "setor": "açaí (máquina de colheita; crédito rural)",
+          "pais_regiao": "Brasil (Pará)",
+          "url": "https://kaatech.com.br/noticias/em-dia-historico-kayapo-assinam-primeiro-financiamento-de-um-acaibot-via-pronaf-b",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Segundo a empresa, o primeiro financiamento de um AçaíBot pelo Pronaf B foi assinado em Belém em 18/11/2025, pela Caixa Econômica Federal (web)",
+            "O equipamento foi avaliado em R$ 19 mil e sai por cerca de R$ 12 mil com o desconto de 40% para quem paga as parcelas em dia (web)",
+            "Lideranças Kayapó afirmam que as encomendas nas aldeias 'ultrapassam 100 unidades' (web)",
+            "A empresa repete a declaração de colheita de 'até 1 tonelada de açaí por dia' (web)"
+          ],
+          "resumo": "Notícia publicada pela própria Kaatech sobre a assinatura do primeiro financiamento do robô pelo Pronaf B, com fala do ministro do Desenvolvimento Agrário. Informa valores, o desconto por adimplência e encomendas declaradas. É fonte da empresa; não há documento do banco nem do ministério anexado.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "AçaíBot faz sucesso na Amazônia e agora chega à Mata Atlântica paulista",
+          "organizacao": "Kaatech (notícia no site da empresa)",
+          "ano": "2025 (11/11/2025)",
+          "tipo_fonte": "empresa",
+          "setor": "açaí e juçara (máquina de colheita)",
+          "pais_regiao": "Brasil (Pará e São Paulo)",
+          "url": "https://kaatech.com.br/noticias/acaibot-faz-sucesso-na-amazonia-e-agora-chega-a-mata-atlantica-paulista",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Segundo a empresa, o robô pesa 8 kg, tem autonomia de quatro horas e colhe em menos de um minuto por árvore (web)",
+            "Memorando de entendimento com a AMAMA, assinado em Belém durante a COP30, prevê piloto com a palmeira juçara no Alto Tietê, com sede em Biritiba-Mirim/SP (web)",
+            "A empresa cita estudos, sem identificá-los, de aumento de até 500% na renda por hectare frente à extração de palmito (web)"
+          ],
+          "resumo": "Notícia da Kaatech sobre a extensão do AçaíBot à juçara (Euterpe edulis) na Mata Atlântica paulista, por meio de memorando com a associação AMAMA. Traz peso, autonomia e tempo por árvore declarados pela empresa. O piloto é anunciado no futuro ('será implantado'); não há resultado medido.",
+          "relevancia": "media"
+        }
+      ],
+      "formularios": [],
+      "lacunas": [
+        "Macaúba — robô, escalador, plataforma, haste motorizada ou drone de colheita: nada foi achado. O único equipamento com teste é o colhedor vibratório portátil da UFV e da UFLA (modelo de utilidade de 2017 e artigo de 2018, já no catálogo), em que o operador trabalha direto no cacho. Artigos de 2017 e 2021 afirmam que não há máquina no mercado. Buscas feitas: 'macaúba colheita mecanizada protótipo máquina colhedora cacho Acrocomia aculeata Embrapa UFV'; 'patente INPI colheita macaúba dispositivo colhedor cachos'; 'macaúba colheita cacho altura espinhos estipe podão vara rede coletora'; 'Acrocomia aculeata harvesting mechanization fruit bunch harvester prototype vibration rachis thesis 2020 2023 2025'; 'macaúba colheita mecanizada plataforma elevatória haste robô drone cacho corte plantio comercial 2024 2025 2026'; 'colheita da macaúba máquina desenvolvimento Embrapa Agroenergia UFV IAC 2024 2025'; 'Google Patents macaúba colheita Acrocomia harvesting device patent BR WO'; 'macauba domestication review harvest bottleneck mechanized harvesting'. Nenhum resultado de IAC, UFMG ou Embrapa Agroenergia sobre máquina de colheita.",
+        "Macaúba — patentes: só foi achado o modelo de utilidade BR 20 2017 010814-2 (UFV e Fapemig). A base do INPI não foi consultada diretamente (exige navegação por formulário); a leitura foi pelo Google Patents. Não foi achado pedido WO nem outra patente brasileira de colhedora de macaúba.",
+        "Macaúba — teses da UFV sobre a ráquis ('Propriedades físicas da ráquis da macaúba visando o projeto de máquinas agrícolas', 2016; tese de Flora Villar; dissertação de Nara Velloso): o repositório Locus da UFV bloqueou a leitura automática (proteção Anubis). Foram usados os artigos derivados (Ciência Rural 2017 e PLoS ONE 2021). O artigo 'Macaw palm supply chain: Evaluation of a semi-mechanized fruit harvesting system' foi localizado só pelo título (registro do BrCris fora do ar) e não foi lido; pode ser a origem dos 434,09 kg/h que aparecem no modelo de utilidade.",
+        "AçaíBot — não foi achado nenhum ensaio independente (Embrapa, universidade, Senar com protocolo) com tempo por palmeira, palmeiras por dia, altura alcançada ou acidentes evitados. Todos os números são declarados pela empresa ou por dirigentes e divergem entre si: peso de 8 kg, 8,5 kg e 'no máximo 12 kg' (este na página kaatech.com.br/empresa); ganho de 'três vezes', 'até 180%', '10 vezes' e 'até 1 tonelada por dia'; preço de R$ 19.569,20 (outubro de 2025) e R$ 22.907,41 (novembro de 2026). Buscas: 'AçaíBot Kaatech robô colhedor de açaí Senar', 'Açaí Bot Kaatech Reinaldo Santos Embrapa teste', 'gov.br MIDR robô colhedor de açaí Amapá convênio 44 robôs', 'MDA Mais Alimentos catálogo robô colhedor de açaí Pronaf'.",
+        "AçaíBot — uso de IA e visão: a página do produto e a página institucional só falam em controle remoto; a notícia da CNI sobre o prêmio fala em visão computacional e aprendizado de máquina; não foi achado documento técnico que diga o que a IA faz no equipamento vendido hoje. O número do registro no INPI, citado pela imprensa do Amapá, não foi localizado.",
+        "AçaíBot — unidades vendidas e capacidade de fábrica: não confirmadas. Um agregador (Click Petróleo e Gás, 05/04/2026) fala em cerca de 500 unidades vendidas e capacidade de 3.000 robôs por mês, mas chama o robô de 'Açaí Bolt' e atribui o desenvolvimento a outro instituto; por isso não foi usado. O valor do convênio do MIDR com o Amapá não foi achado; o valor do contrato de compra dos 44 robôs foi achado na verificação (ver a lacuna 'Verificação — fonte oficial melhor para o AçaíBot no Amapá').",
+        "AçaíBot — páginas que não puderam ser lidas (HTTP 403 ou bloqueio): reportagem da Globo Rural de janeiro de 2026 ('Robô que colhe açaí multiplica por quatro a renda de coletores na Amazônia'); matéria do Canal Rural com texto do MIDR sobre o investimento no robô; matéria da Band sobre cacho de 12 kg; PDF do Diário Oficial do Amapá com o edital dos 44 robôs (agenciaamapa.com.br/midias/anexos/35585-DOEn8659.pdf).",
+        "Açaí — outros robôs: não foi achado artigo científico com robô escalador de açaí construído e testado, nem projeto de UFPA, UFRA, IFPA ou UNIFAP (busca: 'robô escalador açaizeiro colheita de açaí protótipo UFPA OR UFRA OR IFPA OR UNIFAP artigo'; 'açaí harvesting robot climbing Euterpe oleracea prototype design paper'). Da Embrapa Amazônia Oriental só apareceu o 'traz cacho', de 2007. O teste de junho de 2024 do coletor elétrico em Portel não tem número de desempenho publicado. Dois trabalhos só conceituais foram localizados e deixados de fora: um artigo de 2012 com desenhos de colhedoras autopropelidas de açaí com corte a 20 m (Revista Ciência Agronômica, DOI 10.1590/S1806-66902012000200023) e um trabalho de conclusão de curso da UTFPR (2021). O Climbot, da Agranus, teria modelo de negócio por aluguel, segundo a Folha BV (30/10/2024), sem mais dados.",
+        "Coco — o texto integral do artigo do Amaran (IEEE Xplore) é pago e não foi lido; os tempos por coqueiro vêm só da reportagem da IEEE Spectrum e não estão no resumo do artigo. Do artigo chinês de 2024 só o resumo foi lido (a ScienceDirect e o DOAJ bloquearam a leitura na verificação; o resumo foi conferido pelo registro do OpenAlex); faltam peso do robô e taxa de sucesso. Não foi achado robô escalador de coqueiro com venda comprovada nem estudo do Sri Lanka.",
+        "Tâmara — não foi achado resultado de campo, em artigo, de robô que colhe tâmaras; a KAUST só publicou anúncio e cronograma, e o artigo de 2026 mede apenas a subida. Uma patente dos EUA de robô escalador de tamareira (US 11952062) foi localizada e não lida.",
+        "Palma de óleo, 2024 a 2026 — não foi achado ensaio de campo público de robô autônomo de colheita, de braço robótico em trator ou de drone de corte, com toneladas por dia ou taxa de sucesso (buscas: 'oil palm fresh fruit bunch harvesting robot field trial 2025'; 'SD Guthrie robotic harvester oil palm FFB 2025 prototype pilot'; 'MPOB 2025 mechanisation harvesting tall palms robot OR drone cutter'; 'oil palm harvesting drone cutting FFB 2025 2026 trial Malaysia Indonesia'; 'Cenipalma cosecha mecanizada palma de aceite'). Um artigo da AgriEngineering (MDPI, v. 8, n. 5, artigo 195) e a ficha da MIMOS de 2025 sobre coleta automatizada de cachos apareceram e não foram lidos (403 ou fora do tema de corte). Um artigo de opinião de The Star (28/10/2025) diz que poucas inovações saem do salão de exposição para a fazenda em escala, sem dado de ensaio. Um artigo nigeriano de 2022 com protótipo escalador (Journal of Agricultural Engineering, DOI 10.4081/jae.2022.1388) só informa, no resumo, a altura média das palmas (5,531 m).",
+        "Revisão sobre árvores altas em geral — só foi achada a revisão específica de palma de óleo (JOPR, 2024). A revisão 'Robotic tree climbers and strategies – a survey' foi localizada pelo título e não foi lida.",
+        "Dúvida de data — o plano de trabalho do TED do MDA com a Embrapa (SEI nº 53849666, processo 55000.008371/2025-98) está na pasta de 2025 do site, tem cronograma de setembro de 2025 a maio de 2027, desembolso em 06/2025 e prazo de 18 meses, mas traz 'Brasília, junho de 2026' e assinaturas eletrônicas de 01 e 03/07/2026; a cópia publicada foi gerada no SEI em 30/07/2026. A verificação confirmou essas datas no PDF e não achou explicação no documento. Convém conferir se é versão revisada do plano e se o cronograma foi adiado.",
+        "Verificação — fonte oficial melhor para o AçaíBot no Amapá: o Diário Oficial do Estado do Amapá nº 8.652, de 08/05/2026, p. 36 (diofe.portal.ap.gov.br/portal/edicoes/download/9936), traz o extrato do Contrato nº 002/2026-SDR entre a Secretaria de Desenvolvimento Rural e a Kaatech Food Machines Comércio, Importação e Exportação Ltda. (CNPJ 22.382.773/0001-12): aquisição de 44 máquinas de colheita mecanizada de açaí (AçaíBot), com robô coletor, controle remoto, carregador bivolt, sistema de carregamento solar, bolsa e manual, por R$ 1.010.000,00, em contratação direta por inexigibilidade de licitação, à conta de recursos oriundos do Tesouro Nacional, com vigência de 12 meses a contar de 26/03/2026. A divisão dá cerca de R$ 22.954,55 por conjunto (conta do verificador, não está no documento). A mesma edição torna sem efeito uma publicação anterior do extrato (DOE nº 8.576, de 15/01/2026). É documento oficial (classe B) e não está entre as evidências, porque a verificação não acrescenta afirmações; recomenda-se cadastrar a fonte e usá-la para o preço pago pelo governo.",
+        "Verificação — edital de doação dos 44 robôs: o PDF do Diário Oficial no site da Agência Amapá (agenciaamapa.com.br/midias/anexos/35585-DOEn8659.pdf) e a notícia oficial do convênio (agenciaamapa.com.br/noticia/34076) devolveram HTTP 403. O índice do buscador indica que seria o Edital de Chamamento Público nº 002/2026-SDR, no DOE nº 8.659, de 20/05/2026, com 4 unidades por entidade (11 entidades) e inscrições a partir de 21/05/2026; nada disso foi lido no documento e não deve ser usado sem conferência. Até lá, a única fonte lida do edital é a reportagem da Rede Amazônica (classe D).",
+        "Verificação — financiamento pelo Pronaf B: a única fonte é a notícia da própria Kaatech (18/11/2025). Uma busca por nota do MDA, da Caixa ou de outro veículo sobre a assinatura não achou confirmação independente. A notícia não diz quantos contratos foram assinados além do primeiro nem mostra o contrato.",
+        "Verificação — macaúba, números do colhedor vibratório: o modelo de utilidade dá 434,09 kg/h e eficiência média de 94,1%; o artigo revisado por pares do mesmo grupo (Grupioni et al., Semina: Ciências Agrárias, v. 39, n. 2, p. 497-510, 2018; já no catálogo como M1265) dá, no resumo, capacidade média de 566,91 kg/h e eficiência média de 97,4%. São conjuntos de ensaios diferentes; o estudo deve citar cada número com a sua fonte e não misturar os dois. Para classe A, vale o artigo; o dano aos frutos (15,27% e 10,61%) só foi achado no modelo de utilidade.",
+        "Verificação — AçaíBot, IA: a divergência entre o texto da CNI (visão computacional e aprendizado de máquina que identificam a maturação, otimizam rotas e fazem cortes automatizados) e as páginas da empresa (só controle remoto) continua sem documento técnico que a resolva. A reportagem do Amapá diz ao mesmo tempo que o robô 'se locomove de forma autônoma pelo tronco' e que é 'controlado remotamente por um operador em solo'. O estudo não deve afirmar que o AçaíBot vendido hoje usa IA; pode dizer que a CNI o descreve assim.",
+        "Verificação — AçaíBot, tempo por palmeira: as declarações divergem dentro da mesma reportagem de O Liberal ('em cinquenta e poucos segundos', na fala do diretor da Faepa, e 'menos de dois minutos' por coleta, no texto) e com a notícia da empresa ('menos de um minuto por árvore'). Nenhuma tem protocolo de medição.",
+        "Verificação — razão social: o rodapé do site da empresa traz 'Kaa Tech Importadora e Comércio Ltda' e o Diário Oficial do Amapá, 'Kaatech Food Machines Comércio, Importação e Exportação Ltda', com o mesmo CNPJ. Convém padronizar o nome nas fichas.",
+        "Verificação — revisão de 2025 sobre a macaúba (M1256): as frases usadas estão no texto integral (versão SciELO, scielo.br/j/pab/a/xLCCxSW49rh6Qc3XSnGMt5t), não na página de resumo cadastrada no catálogo. Convém registrar o endereço do texto integral na ficha da fonte."
+      ]
+    },
+    {
+      "grupo": "Robótica de colheita em palmeiras (robotica-colheita-B)",
+      "pasta": "05_agro-brasil-instituicoes-midia",
+      "itens": [
+        {
+          "titulo": "Conheça os vencedores do 9º Prêmio de Inovação da Indústria (9ª edição do Prêmio Nacional de Inovação)",
+          "organizacao": "Confederação Nacional da Indústria (CNI) e Sebrae — Agência de Notícias da Indústria",
+          "ano": "2026 (26/03/2026)",
+          "tipo_fonte": "associação setorial",
+          "setor": "indústria (inovação); açaí",
+          "pais_regiao": "Brasil",
+          "url": "https://noticias.portaldaindustria.com.br/noticias/inovacao-e-tecnologia/conheca-os-vencedores-do-9o-premio-de-inovacao-da-industria/",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "A Kaatech (PA) venceu a categoria 'IA para produtividade' entre médias empresas, em 26/03/2026 (web)",
+            "O texto da CNI descreve o AçaíBot como robô que usa visão computacional e aprendizado de máquina para identificar a maturação dos frutos, otimizar rotas e executar cortes automatizados, e diz que ele eleva a produtividade 'em até 180%', sem informar a origem do número (web)",
+            "O prêmio teve 20 vencedores nesta edição (web)"
+          ],
+          "resumo": "Notícia oficial da CNI com a lista dos vencedores do Prêmio Nacional de Inovação, promovido por CNI e Sebrae pela Mobilização Empresarial pela Inovação. Confirma a premiação da Kaatech e descreve o AçaíBot com visão computacional e aprendizado de máquina, o que a página de produto da empresa não menciona. O texto não informa a origem do número de produtividade nem o método. Segundo a própria notícia, a premiação avalia a capacidade de inovação das empresas, não projetos isolados.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Robótica agrícola avança no Pará e promete transformar a colheita do açaí",
+          "organizacao": "O Liberal (reportagem de Jéssica Nascimento)",
+          "ano": "2026 (01/02/2026)",
+          "tipo_fonte": "imprensa",
+          "setor": "açaí (máquina de colheita)",
+          "pais_regiao": "Brasil (Pará)",
+          "url": "https://www.oliberal.com/economia/robotica-agricola-avanca-no-para-e-promete-transformar-a-colheita-do-acai-1.1078169",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Diretor técnico da Faepa diz que o robô sobe e desce 'em cinquenta e poucos segundos' (web)",
+            "Preço informado na reportagem: R$ 19.569 por unidade (web)",
+            "Treinamento inicial do operador leva 'cerca de dez minutos' e cada coleta pode ser feita 'em menos de dois minutos', segundo a reportagem, sem fonte citada (web)",
+            "Diretor comercial da empresa estima potencial de 'cerca de 500 mil robôs' no Pará (web)"
+          ],
+          "resumo": "Reportagem sobre a apresentação do Açaí Bot em Belém, com falas da Faepa, do Senar, de um sindicato rural e da empresa. Traz tempo de subida, preço, treinamento e o modelo de acesso por sindicatos, associações e Pronaf. Os números são falas de dirigentes e da empresa, não ensaio com protocolo.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "A robot in the forest",
+          "organizacao": "ANBA — Agência de Notícias Brasil-Árabe (reportagem de Isaura Daniel; viagem a convite da CNA)",
+          "ano": "2025 (06/11/2025)",
+          "tipo_fonte": "imprensa",
+          "setor": "açaí (máquina de colheita)",
+          "pais_regiao": "Brasil (Pará)",
+          "url": "https://anba.com.br/en/a-robot-in-the-forest/",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "O equipamento pesa cerca de 8 kg (web)",
+            "Segundo o fundador da empresa, a colheita manual rende de 80 a 100 kg de açaí por dia por pessoa e, com o robô, até 1 tonelada (web)",
+            "Preço no site da Kaa Tech em outubro de 2025: R$ 19.569,20, com entrega em até 60 dias (web)",
+            "A pesquisa da empresa começou 'há cerca de seis anos' (web)"
+          ],
+          "resumo": "Reportagem da ANBA em Belém sobre a Açaí Kaa e a Kaa Tech, com o fundador Reinaldo Pinto dos Santos, o diretor executivo e um consultor de engenharia mecânica. Registra peso, preço, prazo de entrega e a comparação de rendimento, esta na voz do fundador. A jornalista viajou a convite da CNA; os números são da empresa. O texto não diz como o robô é operado.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Amapá abre edital para doar 44 robôs que colhem açaí; saiba quem pode participar",
+          "organizacao": "Portal Amazônia / Rede Amazônica AP (Josi Paixão)",
+          "ano": "2026 (28/05/2026)",
+          "tipo_fonte": "imprensa",
+          "setor": "açaí (máquina de colheita; política pública)",
+          "pais_regiao": "Brasil (Amapá)",
+          "url": "https://portalamazonia.com/amapa/robos-acai-doados-amapa/",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Segundo a reportagem (28/05/2026), o Governo do Amapá abriu edital para doar 44 robôs Açaí-Bot a entidades sem fins lucrativos da cadeia do açaí, com inscrição até 05/06/2026 e resultado previsto para 26/06/2026 (web)",
+            "O kit inclui coletor mecanizado, controle remoto sem fio, carregador bivolt, sistema de energia fotovoltaico, bolsa impermeável e manual (web)"
+          ],
+          "resumo": "Reportagem sobre o edital da Secretaria de Desenvolvimento Rural do Amapá, parte do programa Amapá Mais Produtivo e fruto de convênio com o MIDR. Descreve o robô como registrado no INPI, capaz de se locomover pelo tronco e controlado remotamente por operador no solo. Não informa a data de abertura do edital nem valores. O PDF do Diário Oficial citado na matéria não pôde ser lido (acesso bloqueado).",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Plano de Trabalho do TED nº 30879420250039-004652 (MDA–Embrapa): encomenda tecnológica de máquina colheitadeira elétrica de açaí",
+          "organizacao": "Ministério do Desenvolvimento Agrário e Agricultura Familiar (MDA) e Embrapa Recursos Genéticos e Biotecnologia",
+          "ano": "2026 (assinaturas eletrônicas em 01 e 03/07/2026; TED numerado em 2025)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "açaí (máquina de colheita; agricultura familiar)",
+          "pais_regiao": "Brasil (Pará — Marajó; Distrito Federal)",
+          "url": "https://www.gov.br/mda/pt-br/acesso-a-informacao/convenios-termos-de-cooperacao-e-termos-de-execucao-descentralizada/termos-de-execucao-descentralizada/2025/ted-no-30879420250039-004652-celebrado-entre-o-mda-e-a-embrapa/pt-1.pdf",
+          "arquivo": "05_agro-brasil-instituicoes-midia/MDA-Embrapa_2026_plano-trabalho-ted-colheitadeira-acai.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Protótipo funcional em nível 5 da escala TRL, demonstrado em açaizais de Portel/PA em 2024 (p. 2)",
+            "Plano: três ciclos de cocriação, 24 encontros, três testes de campo e 10 unidades replicadas para uso em campo, de setembro de 2025 a maio de 2027 (p. 2-3 e 6-7)",
+            "Recursos de R$ 373.815,20 da Secretaria de Agricultura Familiar e Agroecologia, com prazo de 18 meses (p. 2); o plano é datado de junho de 2026 e foi assinado em 01 e 03/07/2026 (p. 7-8)",
+            "Agroextrativistas escalam de 20 a 40 vezes por dia nos açaizais nativos e, segundo empresários locais, até 100 vezes nos plantados (p. 4)",
+            "Altura média das palmeiras adotada no cálculo do plano: 20 m (p. 4)"
+          ],
+          "resumo": "Plano de trabalho oficial (8 páginas) de um termo de execução descentralizada do MDA com a Embrapa para levar um coletor elétrico de açaí, cocriado com comunidades pelo Instituto Invento, do protótipo ao produto replicável. Descreve o teste de junho de 2024 em Portel, o que o protótipo ainda não faz e por que robôs, elevadores e ganchos são considerados inviáveis pelos extrativistas.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Embrapa está desenvolvendo equipamento para colheita do açaí",
+          "organizacao": "Embrapa Instrumentação Agropecuária (Ricardo Yassushi Inamasu), artigo publicado no Agronline e guardado na Infoteca-e",
+          "ano": "2007 (ano do artigo no registro da Infoteca-e; cópia impressa em 14/12/2007)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "açaí (ferramenta de colheita)",
+          "pais_regiao": "Brasil (Pará)",
+          "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/30730/1/Proci07.00262.pdf",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "O 'traz cacho' é uma vara, que pode ser de alumínio, com até cerca de 12 m, lâmina, recipiente e roldana (p. 2)",
+            "O açaizeiro alcança 15 m de altura em áreas alagáveis, com estipe de cerca de 25 cm de diâmetro (p. 1)",
+            "O colhedor sobe e desce perto de 200 vezes por dia (p. 1)",
+            "O equipamento foi testado 'em junho desse ano', 2007 pelo registro da Infoteca-e, com aprovação de produtores (p. 1-2)"
+          ],
+          "resumo": "Artigo de opinião de pesquisador da Embrapa sobre o 'traz cacho', ferramenta de colheita do açaí a partir do chão desenvolvida pela Embrapa Amazônia Oriental e pela Embrapa Instrumentação. Descreve a ferramenta e relata um teste com produtores, sem números de desempenho.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Projetos inovadores impulsionam o agronegócio e fortalecem a sustentabilidade em Roraima (Climbot, da Agranus)",
+          "organizacao": "Portal Amazônia — especial publicitário (marcação 'Governo de Roraima')",
+          "ano": "2026 (21/01/2026)",
+          "tipo_fonte": "imprensa",
+          "setor": "açaí (máquina de colheita)",
+          "pais_regiao": "Brasil (Roraima)",
+          "url": "https://portalamazonia.com/especial-publicitario/projetos-inova-agro-rr/",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "O Climbot está em testes de campo, acompanhado por empresas que validam o desempenho; não há número publicado (web)",
+            "A ideia surgiu em 2019 e a patente foi submetida, sem número informado (web)"
+          ],
+          "resumo": "Conteúdo pago publicado no Portal Amazônia sobre projetos de inovação de Roraima. Descreve o Climbot, da startup Agranus, como escalador que sobe no açaizeiro, corta o cacho e volta ao solo, em evolução para usar visão computacional e IA. Não traz dados de desempenho, preço nem os nomes das empresas que acompanham os testes.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Estudos Preliminares sobre Colheita e Armazenamento de Frutos de Macaúba (Boletim de Pesquisa e Desenvolvimento 355)",
+          "organizacao": "Embrapa Cerrados (Rinaldi, M. M.; Conceição, L. D. H. C. S.; Braga, M. F.; Junqueira, N. T. V.; Cardoso, A. N.; Sá, S. F.)",
+          "ano": "2020 (março de 2020)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "macaúba (colheita e pós-colheita)",
+          "pais_regiao": "Brasil (Distrito Federal)",
+          "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1124806/1/Bolpd-355.pdf",
+          "arquivo": "05_agro-brasil-instituicoes-midia/Embrapa-Cerrados_2020_macauba-colheita-armazenamento-boletim-355.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Perda de 39,2% da matéria seca da polpa após 30 dias de armazenamento, com perda de 37,2% na quantidade de óleo (p. 6 do PDF; p. 5 impressa)",
+            "Produtividade potencial citada de 4 a 6 t de óleo por hectare por ano (p. 8 do PDF; p. 7 impressa)",
+            "Plantio experimental de dezembro de 2008, em espaçamento de 5 m × 5 m; colheita de cachos iniciada em 13/10/2016 (p. 9 do PDF; p. 8 impressa)"
+          ],
+          "resumo": "Boletim de pesquisa da Embrapa Cerrados que compara a colheita do cacho inteiro, aos primeiros sinais de queda dos frutos, com a coleta dos frutos após a queda natural, em plantio experimental em Planaltina/DF. Os frutos da queda natural foram aparados por tela que envolvia o cacho, sem tocar o solo. Registra que no extrativismo a maior parte dos frutos é apanhada no chão. Não trata de máquinas de colheita.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Diário Oficial do Estado do Amapá nº 8.652, de 08/05/2026 — Extrato de Contrato nº 002/2026-SDR (aquisição de 44 AçaíBot)",
+          "organizacao": "Governo do Estado do Amapá — Secretaria de Estado do Desenvolvimento Rural (SDR)",
+          "ano": "2026 (08/05/2026)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "açaí (compra pública de máquina de colheita)",
+          "pais_regiao": "Brasil (Amapá)",
+          "url": "https://diofe.portal.ap.gov.br/portal/edicoes/download/9936",
+          "arquivo": "05_agro-brasil-instituicoes-midia/GovAP_2026_diario-oficial-8652-p36-contrato-acaibot.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Contrato nº 002/2026-SDR: aquisição de 44 máquinas automáticas de colheita mecanizada de açaí (AçaíBot), por R$ 1.010.000,00 no total (p. 1 do arquivo; p. 36 da edição)",
+            "Contratação direta por inexigibilidade de licitação (art. 74, inciso I, da Lei de Licitações), com recursos oriundos do Tesouro Nacional; vigência de 12 meses a contar de 26/03/2026 (p. 1 do arquivo; p. 36 da edição)",
+            "Cada conjunto: robô coletor, controle remoto, carregador bivolt, sistema de carregamento solar autônomo, bolsa impermeável e manual do operador (p. 1 do arquivo; p. 36 da edição)",
+            "A mesma edição torna sem efeito a publicação anterior do extrato, de 15/01/2026 (Diário Oficial nº 8.576, p. 464) (p. 1 do arquivo; p. 36 da edição)"
+          ],
+          "resumo": "Edição do Diário Oficial do Amapá de 08/05/2026. Na página 36, o extrato do Contrato nº 002/2026-SDR, entre o governo do estado, pela Secretaria de Estado do Desenvolvimento Rural, e a fabricante do AçaíBot: 44 máquinas de colheita de açaí, R$ 1.010.000,00, contratação direta por inexigibilidade de licitação, recursos do Tesouro Nacional e vigência de 12 meses a contar de 26/03/2026. Na mesma página, portaria designa o fiscal do contrato e outra torna sem efeito a publicação do extrato de 15/01/2026. O extrato não traz resultado de uso, critério de escolha dos beneficiários nem ensaio do equipamento. A cópia guardada é só a página 36 da edição, de 136 páginas.",
+          "relevancia": "média"
+        }
+      ],
+      "formularios": [],
+      "lacunas": []
+    },
+    {
+      "grupo": "Robótica de colheita em palmeiras (robotica-colheita-B)",
+      "pasta": "04_academia-instituicoes",
+      "itens": [
+        {
+          "titulo": "Amaran: An Unmanned Robotic Coconut Tree Climber and Harvester",
+          "organizacao": "Megalingam, R. K. et al. (Amrita Vishwa Vidyapeetham, Índia) — IEEE/ASME Transactions on Mechatronics, DOI 10.1109/TMECH.2020.3014293",
+          "ano": "2020 (publicação on-line); v. 26, p. 288-299, 2021",
+          "tipo_fonte": "academia",
+          "setor": "coco (robô escalador)",
+          "pais_regiao": "Índia",
+          "url": "https://www.amrita.edu/publication/amaran-an-unmanned-robotic-coconut-tree-climber-and-harvester/",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Segundo o resumo, o Amaran subiu coqueiros de até 15,2 m de altura (web, resumo)",
+            "Circunferência do tronco de 0,66 m a 0,92 m e inclinação de até 30 graus (web, resumo)"
+          ],
+          "resumo": "Registro, no site da universidade, do artigo revisado por pares sobre o Amaran, com o resumo. O robô tem armação em anel presa ao tronco, braço robótico e cortador, e é comandado sem fio por operador no solo ou por aplicativo. O resumo fala em testes de laboratório e de campo numa fazenda de coco e não traz tempos de colheita. O texto integral está no IEEE Xplore, com acesso pago, e não foi lido.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Design and experiment of coconut picking robot with climbing",
+          "organizacao": "Zheng, H.; Fu, Y.; Wang, Z.; Yin, X.; Xia, Y.; Fu, W. (Universidade de Hainan) — Smart Agricultural Technology, v. 9, artigo 100617",
+          "ano": "2024 (dezembro de 2024)",
+          "tipo_fonte": "academia",
+          "setor": "coco (robô escalador)",
+          "pais_regiao": "China (Hainan)",
+          "url": "https://doi.org/10.1016/j.atech.2024.100617",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Segundo o resumo, o robô subiu coqueiros de até 13,42 m (web, resumo)",
+            "Tempo médio de subida em 10 coqueiros: 152,3 s; tempo médio de colheita: 222,1 s (web, resumo)"
+          ],
+          "resumo": "Artigo revisado por pares, de acesso aberto, sobre um robô que sobe no coqueiro e colhe com um manipulador de 3 graus de liberdade, comandado por controle remoto. Só o resumo foi lido: na pesquisa, pelo registro do DOAJ (doaj.org/article/e3c87f918c8247299359e2ebd52193a8); na verificação, pelo registro do OpenAlex para o mesmo DOI, porque a ScienceDirect e o DOAJ bloquearam a leitura automática. Peso do robô e taxa de sucesso não foram obtidos.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Design, Development, and Performance Evaluation of a Mechatronic V-Shaped Climbing Robot for Date Palm Trees",
+          "organizacao": "Karampour Saadatabadi, J.; Shamsi, M.; Mortezapour, H.; Rezvani, Z. — Acta Mechanica et Automatica, v. 20, n. 3, p. 627-638, DOI 10.65731/ama/2026-0061",
+          "ano": "2026 (05/09/2026)",
+          "tipo_fonte": "academia",
+          "setor": "tâmara (robô escalador)",
+          "pais_regiao": "não informado na página",
+          "url": "https://reference-global.com/article/10.65731/ama/2026-0061",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Velocidade máxima de subida de 0,131 m/s (web, resumo)",
+            "Eficiência de tração máxima de 78,1%, com força de mola de 584 N e roda de 0,19 m (web, resumo)",
+            "Aumentar a força de mola de 425 N para 743 N reduziu o escorregamento em 12,4% e elevou a velocidade em 18,7% (web, resumo)"
+          ],
+          "resumo": "Artigo revisado por pares sobre um mecanismo de subida em tamareira com chassi dobrável em V e rodas côncavas emborrachadas, avaliado em delineamento fatorial com três forças de mola, dois diâmetros de roda e três cargas. Só trata da subida, sem colheita. Os autores apontam validação de campo em várias árvores e controle eletrônico integrado como trabalho futuro.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "Autonomous Harvesting Robot for Oil Palm Plantation: A Review",
+          "organizacao": "Teoh, K. H.; Lai, N. S. (Asia Pacific University of Technology and Innovation) — Journal of Oil Palm Research (MPOB), v. 36, n. 3, p. 349-366, DOI 10.21894/jopr.2024.0008",
+          "ano": "2024 (setembro de 2024; on-line em 23/01/2024)",
+          "tipo_fonte": "academia",
+          "setor": "palma de óleo (robô de colheita)",
+          "pais_regiao": "Malásia",
+          "url": "https://jopr.mpob.gov.my/files/2023/04/JOPR-Vol-363-September-2024-dragged-1.pdf",
+          "arquivo": "04_academia-instituicoes/Teoh-Lai_2024_robo-colheita-palma-revisao-jopr.pdf",
+          "status": "baixado",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "O cortador motorizado Cantas alcança de 4,5 a 6,0 m (Zahid e Firdaus, 2018), corta 37% mais rápido que a foice com vara e elevou a produtividade de 4,19 para 11,60 t de cachos por dia (Sowat et al., 2018) (p. 2 do PDF; p. 350 da revista)",
+            "Máquina com lança e mecanismo de corte sobre veículo de esteiras de 31,5 hp colheu de 4 a 6 t de cachos por dia (p. 2 do PDF; p. 350)",
+            "Veículos pesados, de 10 a 30 t, compactam o solo (p. 2 do PDF; p. 350)",
+            "A palma mais velha chega a 20 m de altura (p. 2 do PDF; p. 350)",
+            "Corte a laser de 50 W levou em média 342 s para cortar uma folha, em laboratório (p. 7 do PDF; p. 355)",
+            "A indústria perdeu, por estimativa, cerca de RM 10,46 bilhões em fruto não colhido de janeiro a maio de 2022 (p. 1 do PDF; p. 349)"
+          ],
+          "resumo": "Revisão por pares, publicada na revista do MPOB, das seis tecnologias necessárias a um robô autônomo de colheita de cachos de palma: detecção de maturação, corte, subida no estipe, trajetória do manipulador, localização e navegação. Compara protótipos de escaladores. Afirma que um mecanismo de subida confiável ainda não foi plenamente desenvolvido e lista, entre os desafios, a inexistência de módulo que detecte e colha de forma autônoma. Páginas citadas pelo PDF de 18 páginas.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Technical and economic assessment of two harvesting tools for young Elaeis oleifera x E. guineensis oil palms",
+          "organizacao": "Ruiz Álvarez, E. e outros cinco autores (Cenipalma e Palmeiras Colombia S.A.) — Agronomía Colombiana, v. 38, n. 3, p. 418-428, DOI 10.15446/agron.colomb.v38n3.85303",
+          "ano": "2020 (01/09/2020)",
+          "tipo_fonte": "academia",
+          "setor": "palma de óleo (ferramenta de colheita)",
+          "pais_regiao": "Colômbia",
+          "url": "https://revistas.unal.edu.co/index.php/agrocol/article/view/85303",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Um trabalhador com o palín malaio colheu em média 320 palmas por jornada; com o cortador mecanizado, 546 (web, resumo)",
+            "Cachos cortados por jornada: 291 com o palín e 551 com o cortador mecanizado (web, resumo)",
+            "O custo por tonelada de cacho colhida caiu 15% com o cortador mecanizado (web, resumo)",
+            "A colheita representa 25% do custo total de produção (web, resumo)"
+          ],
+          "resumo": "Estudo de tempos e movimentos do Cenipalma, revisado por pares, que compara o palín malaio com um cortador mecanizado na colheita de palmas jovens do híbrido OxG. Mede palmas e cachos por jornada e o custo por tonelada. Trata de haste motorizada operada do chão em palma baixa, não de robô.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Disposição construtiva em dispositivo vibratório colhedor de frutos de macaúba e similares (modelo de utilidade BR 20 2017 010814-2)",
+          "organizacao": "Universidade Federal de Viçosa e Fapemig (titulares); Fábio Lúcio Santos e Christina Maria de Freitas Grupioni (inventores) — registro do INPI lido no Google Patents",
+          "ano": "2023 (depósito em 23/05/2017; concessão em 07/03/2023)",
+          "tipo_fonte": "academia",
+          "setor": "macaúba (máquina de colheita)",
+          "pais_regiao": "Brasil (Minas Gerais)",
+          "url": "https://patents.google.com/patent/BR202017010814Y1/pt",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Capacidade média de colheita de 434,09 kg/h, 12 vezes a colheita manual de referência adotada pelos inventores (cerca de 37,5 kg/h, de diretrizes do MDA de 2014) (web, descrição)",
+            "Eficiência média de colheita de 94,1% (mediana de 96,64%), com melhor resultado de 98% (web, descrição)",
+            "Injúrias leves em 15,27% e danos graves em 10,61% dos frutos colhidos (web, descrição)",
+            "Faixa de operação de 23 a 24 Hz ou 37,5 a 39 Hz, com amplitude de 21 a 22 mm (web, resumo)",
+            "Quatro a oito varetas vibratórias de fibra de vidro (web, reivindicações)"
+          ],
+          "resumo": "Registro do modelo de utilidade do colhedor vibratório portátil de macaúba da UFV, concedido em 2023 com validade de 15 anos a partir de 23/05/2017. O texto traz os resultados dos ensaios dos inventores, inclusive o dano aos frutos. Em 2026 o registro mostra extinção por falta de pagamento da 9ª anuidade (24/03/2026) e restauração após o pagamento (09/06/2026); o quadro do Google Patents ainda indica situação não ativa, o que convém conferir no INPI.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Modal properties of fruit-rachilla system of the macaw palm",
+          "organizacao": "Villar, F. M. M.; Pinto, F. A. C.; Santos, F. L.; Queiroz, D. M.; Pereira, M. R.; Valente, D. S. M. (UFV e UFLA) — PLoS ONE 16(1): e0237291",
+          "ano": "2021 (25/01/2021)",
+          "tipo_fonte": "academia",
+          "setor": "macaúba (base para máquina de colheita)",
+          "pais_regiao": "Brasil (Minas Gerais)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7833149/",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Frequência fundamental média medida de 29,37 Hz e simulada de 31,13 Hz, com erro relativo médio de 9,08% (web)"
+          ],
+          "resumo": "Artigo revisado por pares da UFV e da UFLA que mede e simula as frequências naturais do sistema fruto-ráquila da macaúba em quatro acessos, com frutos verdes, para apoiar o projeto de máquinas de colheita por vibração. Na introdução, afirma que não há máquinas específicas para a colheita e que os frutos são deixados cair no chão.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "Elasticity modulus and damping ratio of macaw palm rachillas",
+          "organizacao": "Villar, F. M. M.; Pinto, F. A. C.; Santos, F. L.; Grossi, J. A. S.; Velloso, N. S. (UFV e UFLA) — Ciência Rural, v. 47, n. 2, DOI 10.1590/0103-8478cr20160289",
+          "ano": "2017 (on-line em 08/12/2016)",
+          "tipo_fonte": "academia",
+          "setor": "macaúba (base para máquina de colheita)",
+          "pais_regiao": "Brasil (Minas Gerais)",
+          "url": "https://www.scielo.br/j/cr/a/Gkm5KcYb39tFvbPWCQWdfjk/?lang=en",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Razão de amortecimento média de 0,04 a 0,08 (web)",
+            "Módulo de elasticidade das ráquilas de 194 a 293,3 MPa, conforme a errata do artigo (web)"
+          ],
+          "resumo": "Artigo revisado por pares que mede o módulo de elasticidade e o amortecimento das ráquilas da macaúba em quatro acessos, com frutos verdes. Descreve como a macaúba é colhida (foice e rede, ou fruto apanhado no chão) e afirma que não há máquinas no mercado para a colheita. Há errata que corrige o módulo de elasticidade.",
+          "relevancia": "media"
+        }
+      ],
+      "formularios": [],
+      "lacunas": []
+    },
+    {
+      "grupo": "Robótica de colheita em palmeiras (robotica-colheita-B)",
+      "pasta": "07_agro-global-perenes-autonomia",
+      "itens": [
+        {
+          "titulo": "Amaran the Tree-Climbing Robot Can Safely Harvest Coconuts",
+          "organizacao": "IEEE Spectrum (Michelle Hampson)",
+          "ano": "2020 (01/09/2020)",
+          "tipo_fonte": "imprensa",
+          "setor": "coco (robô escalador)",
+          "pais_regiao": "Índia",
+          "url": "https://spectrum.ieee.org/automaton/robotics/industrial-robots/amaran-tree-climbing-robot-can-safely-harvest-coconuts",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Segundo a reportagem, no teste de campo dos pesquisadores o colhedor humano levou em média 11,8 minutos por coqueiro e o Amaran, 21,9 minutos, dos quais 14 de montagem na base (web)",
+            "Segundo a reportagem, o colhedor do teste conseguia subir cerca de 15 coqueiros por dia antes de se cansar; o robô pode colher até 22, se o operador não se cansar (web)",
+            "Os coqueiros do teste tinham de 6,2 a 15,2 m de altura (web)",
+            "Segundo o autor principal do artigo, o estado de Kerala tem só 7.000 escaladores treinados, para uma necessidade de cerca de 50.000 (web)"
+          ],
+          "resumo": "Reportagem da revista do IEEE que resume o artigo do Amaran publicado no IEEE/ASME Transactions on Mechatronics e entrevista o autor principal. Traz a comparação de tempo com um colhedor de 50 anos e a fala de que o custo é barreira. É a única fonte lida para os números de tempo: eles não estão no resumo do artigo, e o texto integral é pago. A reportagem não diz onde foi o teste nem em quantos coqueiros.",
+          "relevancia": "alta"
+        },
+        {
+          "titulo": "No one to climb coconut trees? Robot built by young innovators will do the harvesting",
+          "organizacao": "Onmanorama (Malayala Manorama), Kerala",
+          "ano": "2026 (19/02/2026)",
+          "tipo_fonte": "imprensa",
+          "setor": "coco (robô escalador)",
+          "pais_regiao": "Índia (Kerala)",
+          "url": "https://www.onmanorama.com/news/kerala/2026/02/19/coconut-harvesting-robot-launch.amp.html",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Segundo a reportagem, que só ouve o desenvolvedor, o Cocobot pesa 11 kg, sobe um coqueiro de 20 m em menos de um minuto e colhe uma árvore em cinco minutos (web)",
+            "Bateria para duas horas por carga (web)",
+            "Apoio de Rs. 25 lakh da HCI Foundation do IIT Mandi (web)"
+          ],
+          "resumo": "Reportagem sobre a segunda geração do Cocobot, robô de um engenheiro de Kozhikode comandado por câmera e console remoto. Anuncia venda em até seis meses, serviço pago por árvore via aplicativo e uma terceira geração totalmente automática, com IA, em fase final de desenvolvimento. Os números aparecem na narração do repórter, sem atribuição; a matéria não cita teste independente, preço nem nome de empresa.",
+          "relevancia": "media"
+        },
+        {
+          "titulo": "KAUST developing robotic system to improve date palm harvesting",
+          "organizacao": "King Abdullah University of Science and Technology (KAUST)",
+          "ano": "2025 (09/03/2025)",
+          "tipo_fonte": "governo/instituição",
+          "setor": "tâmara (robô de colheita)",
+          "pais_regiao": "Arábia Saudita",
+          "url": "https://kaust.edu.sa/en/news/kaust-developing-robotic-system-to-improve-date-palm-harvesting",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3"
+          ],
+          "metricas": [
+            "Testes de campo previstos para a safra de 2025 e capacidade operacional plena esperada em três anos (web)",
+            "Acordo de SAR 100 milhões do National Center for Palms and Dates com a KAUST para inovação no setor, no fim de 2024 (web)"
+          ],
+          "resumo": "Comunicado da universidade sobre o sistema robótico para tamareiras liderado pelo professor Shinkyu Park, com braços robóticos e visão com IA para colheita, polinização e manutenção. Anuncia cronograma e a ideia de robôs como serviço. É anúncio: não há resultado medido.",
+          "relevancia": "media"
+        }
+      ],
+      "formularios": [],
+      "lacunas": []
+    }
+  ]
+}

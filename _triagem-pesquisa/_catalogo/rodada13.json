@@ -1,0 +1,39 @@
+{
+  "resultados": [
+    {
+      "grupo": "Custo de uso da IA: complemento (custo-D)",
+      "pasta": "11_custo-da-ia",
+      "itens": [
+        {
+          "titulo": "Mais uso de IA. Menos custo. (publicação no LinkedIn, com o gráfico \"Boca de jacaré\")",
+          "organizacao": "iFood (Diego Barreto, sócio e CEO, em publicação pessoal no LinkedIn)",
+          "ano": "2026 (23/11/2026)",
+          "tipo_fonte": "empresa",
+          "setor": "tecnologia e entrega de alimentos; custo de uso de IA generativa",
+          "pais_regiao": "Brasil",
+          "url": "https://www.linkedin.com/posts/diegobarreto_mais-uso-de-ia-menos-custo-no-ifood-activity-7530572638897958912-lI6B",
+          "arquivo": "",
+          "status": "web",
+          "frentes": [
+            "F3",
+            "F1"
+          ],
+          "metricas": [
+            "Uso de IA 30 vezes maior desde janeiro, segundo o CEO; a base e a métrica do uso não são informadas (web)",
+            "Consumo de tokens 106% maior desde junho, com a conta 51% menor no mesmo período, segundo o CEO; valores em moeda não informados (web)",
+            "Custo por token 86% menor desde janeiro, segundo o CEO (web)",
+            "8 em cada 10 tokens rodam em modelos open source, segundo o CEO (web)",
+            "Uso por pessoa 7 vezes maior desde janeiro, segundo o gráfico da publicação (web)"
+          ],
+          "resumo": "Publicação do CEO do iFood no LinkedIn, de 23/11/2026, com um gráfico de duas linhas em índice (tokens e custo) chamado \"boca de jacaré\". Relata que a empresa pôs IA agêntica nas mãos de todos os colaboradores, viu o uso e a conta crescerem juntos e, sem limitar o acesso, passou a servir modelos open source como padrão numa plataforma própria de IA generativa, deixando os modelos premium para as tarefas que os justificam, com orçamento definido. Todos os números são declarados pela empresa, sem verificação de terceiros, e o gráfico não informa a base dos índices.",
+          "relevancia": "alta"
+        }
+      ],
+      "formularios": [],
+      "lacunas": [
+        "Não há documento da empresa (relatório, blog de engenharia) com os mesmos números: a única fonte é a publicação do CEO numa rede social, sem valores em moeda, sem a base dos índices e sem verificação de terceiros.",
+        "A publicação não diz quais são os modelos open source nem os premium, nem como as tarefas são distribuídas entre eles."
+      ]
+    }
+  ]
+}

@@ -38,6 +38,7 @@ Feriados no período: 12/10 e 02/11. Semanais às sextas, cerca de 1 hora; horá
 | 16/10/2026 | Semanal | [ata e pendências](reunioes/2026-10-16_semanal_ata.md) ([PDF](reunioes/2026-10-16_semanal_ata_BIA-ACL-AT-03_rev00.pdf)) · [transcrição](reunioes/2026-10-16_semanal_transcricao.md) · [preparação](reunioes/2026-10-16_semanal_pauta.md) |
 | 23/10/2026 | Semanal (entrega parcial) | [preparação](reunioes/2026-10-23_semanal_pauta.md) · [roteiro do bloco dos bancos (Rafael)](reunioes/2026-10-23_semanal_roteiro-bancos.md) |
 | 30/10/2026 | Semanal | [ata e pendências](reunioes/2026-10-30_semanal_ata.md) ([PDF](reunioes/2026-10-30_semanal_ata_BIA-ACL-AT-04_rev00.pdf)) · [transcrição](reunioes/2026-10-30_semanal_transcricao.md) (a empresa de uma sessão executiva citada na conversa aparece como [empresa omitida]). O pedido de roadmap de adoção, checkpoints por nível e política clara de uso virou a [linha de investigação do roadmap](../03_frente-2_maturidade-roadmaps/roadmap-de-adocao-linha-de-investigacao.md) |
+| 11/11/2026 | Semanal (remarcada) | [ata e pendências](reunioes/2026-11-11_semanal_ata.md) ([PDF](reunioes/2026-11-11_semanal_ata_BIA-ACL-AT-05_rev00.pdf)) · [transcrição](reunioes/2026-11-11_semanal_transcricao.md) (as empresas das sessões executivas citadas na conversa aparecem como [empresa omitida]). Roteiro de adoção apresentado e aprovado; apresentação final proposta para 07 ou 08/12, presencial |
 
 - `cronograma/` — cronograma para o cliente (PDF e planilha) e HTML-fonte.
 
